@@ -1,0 +1,114 @@
+{
+  "id": "awwwards-sondaven-com-63068d",
+  "source": {
+    "url": "https://sondaven.com/en",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-sondaven-com-63068d.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-sondaven-com-63068d__scroll0.webp",
+      "shots/_proposed/awwwards-sondaven-com-63068d__scroll1.webp",
+      "shots/_proposed/awwwards-sondaven-com-63068d__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sondaven.com/en/news",
+        "full": "shots/_proposed/awwwards-sondaven-com-63068d__p2.webp"
+      },
+      {
+        "url": "https://sondaven.com/en/construction-progress",
+        "full": "shots/_proposed/awwwards-sondaven-com-63068d__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "luxury-real-estate",
+      "architecture"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical editorial grid with prominent vertical line dividers and structural gridlines that mimic architectural blueprints."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast typographic pairing of an elegant, high-contrast serif for display headings and a wide, technical sans-serif/mono for labels and data."
+    },
+    {
+      "kind": "color",
+      "note": "Earthy, high-end luxury palette combining a deep warm charcoal background with a sandy, muted gold/beige for text, overlays, and structural lines."
+    },
+    {
+      "kind": "motion",
+      "note": "A custom vertical-blind transition effect resembling barcode-like vertical slices that masks and reveals content during page loads or modal transitions."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the vertical-blind transition using GSAP and SVG masks or clip-paths, animating the scaleY or height of multiple staggered vertical strips to reveal the underlying content.",
+    "Implement a smooth-scrolling experience using Locomotive Scroll to match the slow, luxurious pace of the editorial layout.",
+    "Use CSS Grid to overlay architectural floor plans and interactive maps with absolute-positioned labels and fine-line borders."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1a17",
+        "role": "background"
+      },
+      {
+        "hex": "#a89474",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#2a2724",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Cormorant Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings contrasted with tiny, wide-spaced uppercase sans-serif labels and technical numbers.",
+    "radius": "sharp \u2014 clean, right-angled borders and boxes reflecting modern architectural lines, with occasional pill-shaped buttons for contrast.",
+    "spacing": "Airy and expansive, utilizing generous vertical margins and asymmetrical negative space to evoke a sense of luxury and breathing room."
+  },
+  "standout": "The standout feature is the architectural vertical-blind transition effect, which uses staggered vertical slices to mask and reveal content, perfectly mirroring the structural verticality of the real estate project.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

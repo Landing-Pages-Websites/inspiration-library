@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-fourmula-ai-6a334e",
+  "source": {
+    "url": "https://fourmula.ai/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-fourmula-ai-6a334e.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-fourmula-ai-6a334e__scroll0.webp",
+      "shots/_proposed/one-page-love-fourmula-ai-6a334e__scroll1.webp",
+      "shots/_proposed/one-page-love-fourmula-ai-6a334e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "e-commerce-tools",
+      "photography"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Circular orbit layout in the hero section, positioning squircle-shaped model and product shots around a central interactive upload card."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color blocking for sequential steps, transitioning from vibrant orange to cool blue-teal, deep purple, and finally rich crimson."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-linked step progression (01-04) where each phase occupies a full-viewport sticky container, transitioning background gradients and text overlays as the user scrolls."
+    },
+    {
+      "kind": "type",
+      "note": "Large-scale grotesque sans-serif headings with tight letter-spacing, utilizing selective orange coloring to highlight key brand benefits."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive dot-matrix grid in the footer that dynamically renders the brand's star emblem."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the hero layout, position absolute squircle-masked image containers in a circular coordinate orbit around a central interactive upload card.",
+    "Implement the step-by-step narrative using GSAP ScrollTrigger with pinned sections, allowing the background to transition smoothly between vibrant solid colors and linear gradients (orange, teal, purple, red) while text elements fade and slide into place.",
+    "Build the loading sequence by rendering a blurred placeholder image and a percentage counter that triggers a scale-down and fade-out transition once the DOM is fully interactive, revealing the main hero."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f94a00",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fd7b03",
+        "role": "cta"
+      },
+      {
+        "hex": "#1e3a8a",
+        "role": "surface-gradient-start"
+      },
+      {
+        "hex": "#7c3aed",
+        "role": "surface-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Neue Haas Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, high-impact grotesque headings (~4-5x body size) with tight tracking and regular weight, contrasted against clean, highly legible body copy.",
+    "radius": "Subtle to rounded, characterized by distinct squircle shapes for image frames and pill-shaped buttons.",
+    "spacing": "Airy and editorial, utilizing generous whitespace in the hero and feature grids, contrasted by dense, full-bleed color blocks in the interactive step section."
+  },
+  "standout": "The circular, orbiting squircle image gallery in the hero that frames a central upload zone, combined with the seamless, color-shifting sticky scroll sequence for the product steps.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

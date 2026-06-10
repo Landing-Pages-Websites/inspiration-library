@@ -1,0 +1,107 @@
+{
+  "id": "awwwards-indigo-laboratory-it-b0a577",
+  "source": {
+    "url": "https://indigo-laboratory.it/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-indigo-laboratory-it-b0a577.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-indigo-laboratory-it-b0a577__scroll0.webp",
+      "shots/_proposed/awwwards-indigo-laboratory-it-b0a577__scroll1.webp",
+      "shots/_proposed/awwwards-indigo-laboratory-it-b0a577__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-jewelry",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "type",
+      "note": "Distorted, liquid-like display typography for chapter titles (e.g., 'RHYTHM', 'PULSE') that contrasts sharply with a highly structured, minimalist sans-serif for body copy."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetric editorial collage layout combining full-bleed studio portraits, overlapping close-up product shots, and offset text blocks."
+    },
+    {
+      "kind": "color",
+      "note": "Stark tri-tone foundation of warm off-white, deep black, and muted slate-blue portrait backdrops, punctuated by soft lavender and ice-blue product tiles."
+    },
+    {
+      "kind": "section",
+      "note": "Rhythmic chapter-based storytelling structure where each jewelry piece is introduced via an atmospheric portrait, a conceptual title, a multi-angle collage, and a dark-mode spotlight."
+    },
+    {
+      "kind": "motion",
+      "note": "Smooth, momentum-based scrolling paired with an immersive audio-visual gatekeeper splash screen that sets a cinematic tone before revealing the content."
+    }
+  ],
+  "technique_notes": [
+    "Implement a smooth-scrolling container using Locomotive Scroll to create a fluid, cinematic browsing experience.",
+    "Create a gated entry experience with a full-screen overlay that prompts the user for audio consent, fading out to reveal the main content once clicked.",
+    "Use CSS keyframes or SVG displacement filters to create a subtle warping/liquid distortion effect on the large display headings as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f3ef",
+        "role": "surface"
+      },
+      {
+        "hex": "#7a92a3",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#c7c8e2",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:GT-Flexa",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Custom-Warped-Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, heavily distorted display headers (~6x body) paired with clean, widely-spaced, medium-weight geometric sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site treats e-commerce like a high-fashion audio-visual exhibition, organizing products into distinct sensory 'chapters' introduced by distorted, liquid-like typography and immersive soundscapes.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

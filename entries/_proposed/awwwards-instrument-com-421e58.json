@@ -1,0 +1,119 @@
+{
+  "id": "awwwards-instrument-com-421e58",
+  "source": {
+    "url": "https://www.instrument.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-instrument-com-421e58.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-instrument-com-421e58__scroll0.webp",
+      "shots/_proposed/awwwards-instrument-com-421e58__scroll1.webp",
+      "shots/_proposed/awwwards-instrument-com-421e58__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.instrument.com/work",
+        "full": "shots/_proposed/awwwards-instrument-com-421e58__p2.webp"
+      },
+      {
+        "url": "https://www.instrument.com/about",
+        "full": "shots/_proposed/awwwards-instrument-com-421e58__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "agency",
+      "creative-services"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "type",
+      "note": "High-contrast typographic pairing of an ultra-bold, wide brutalist sans-serif for brand impact with an elegant, high-contrast editorial serif for storytelling headings."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating full-bleed color blocks using high-saturation signature colors (bright chartreuse/lime and royal blue) contrasted against stark black and clean white."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetric split-screen layouts where one half contains a solid color block with minimal text and the other features a high-quality, rounded-corner media asset."
+    },
+    {
+      "kind": "motion",
+      "note": "An infinite horizontal marquee text banner runs continuously across the hero section, creating immediate kinetic energy upon landing."
+    },
+    {
+      "kind": "section",
+      "note": "Massive, screen-filling typographic statements ('Shape A better Future.') with mixed filled and outlined text styles acting as editorial dividers."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the infinite marquee using CSS keyframes animating 'transform: translate3d()' for hardware-accelerated, stutter-free horizontal scrolling.",
+    "Build the portfolio slider using Swiper.js configured with free-mode scrolling and subtle momentum to allow organic dragging of work cards.",
+    "Achieve the clean, premium card aesthetic by applying a subtle border-radius to all imagery and grid items, paired with generous, consistent grid gaps."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d2f135",
+        "role": "accent"
+      },
+      {
+        "hex": "#2b56ff",
+        "role": "brand-secondary"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f2f8fa",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Druk Wide",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Editorial New",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extreme contrast scale featuring massive, heavy display titles alongside delicate, medium-sized editorial serifs and tiny, uppercase pill-button labels.",
+    "radius": "rounded \u2014 applied consistently to portfolio cards, team headshots, and pill-shaped navigation buttons.",
+    "spacing": "airy \u2014 characterized by expansive vertical padding between sections and generous margins around large-scale typography."
+  },
+  "standout": "The masterful tension between raw, high-energy brutalism (the massive chartreuse hero and heavy sans-serifs) and sophisticated, high-end editorial design (the elegant serifs and spacious layouts). It makes a corporate agency feel incredibly artistic and cutting-edge.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}
