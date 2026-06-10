@@ -1,0 +1,111 @@
+{
+  "id": "awwwards-sen-knife-com-3703d3",
+  "source": {
+    "url": "https://sen-knife.com/2.0/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-sen-knife-com-3703d3.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-sen-knife-com-3703d3__scroll0.webp",
+      "shots/_proposed/awwwards-sen-knife-com-3703d3__scroll1.webp",
+      "shots/_proposed/awwwards-sen-knife-com-3703d3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sen-knife.com/information",
+        "full": "shots/_proposed/awwwards-sen-knife-com-3703d3__p2.webp"
+      },
+      {
+        "url": "https://sen-knife.com/2.0/story",
+        "full": "shots/_proposed/awwwards-sen-knife-com-3703d3__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "home-services",
+      "culinary-knives",
+      "luxury-goods"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The site transitions between full-screen product showcases using a horizontal slide animation, where the next colored slide pushes the current one out of frame, accompanied by a slide counter indicator."
+    },
+    {
+      "kind": "layout",
+      "note": "Interior pages utilize an asymmetrical, highly editorial layout with labels and section titles pinned to the far left, leaving massive white space before the content columns on the right."
+    },
+    {
+      "kind": "color",
+      "note": "A strict monochromatic base of deep greys and silvers is punctuated by single-color full-bleed slides (like moss green) and warm, fiery imagery to create dramatic visual shifts."
+    },
+    {
+      "kind": "type",
+      "note": "Large, clean, geometric sans-serif headings are paired with delicate outlined typography in the intro pattern, emphasizing precision and craftsmanship."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the horizontal transition effect, use locomotive-scroll to hijack vertical scroll and translate it into horizontal slide movements for the product showcase sections, complete with a progress indicator tracking slide numbers.",
+    "For the intro screen, implement a Lottie animation that draws or highlights the intricate geometric line-art pattern before fading into the main product hero section.",
+    "Recreate the product hero spotlight by applying a radial gradient overlay on a dark background, positioned directly behind a high-resolution, angled product render to simulate a dramatic studio lighting setup."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#808080",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#607d4b",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff7301",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Programme",
+        "role": "heading"
+      },
+      {
+        "family": "HindGuntur",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, clean sans-serif headings (~4x body size) with generous letter-spacing, contrasted against small, highly readable body text.",
+    "radius": "Pill-shaped for interactive elements like the contact button, while all structural sections and image containers maintain sharp, precise corners.",
+    "spacing": "Extremely airy and editorial, featuring massive negative space on informational pages and full-bleed immersive layouts for product slides."
+  },
+  "standout": "The site's standout feature is its transition from an intricate, abstract geometric line-art intro into a dramatic, horizontally-scrolling product showcase that feels like a high-end physical gallery.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "lottie"
+  ],
+  "status": "proposed"
+}

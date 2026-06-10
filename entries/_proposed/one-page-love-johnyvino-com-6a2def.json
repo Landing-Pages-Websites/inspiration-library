@@ -1,0 +1,105 @@
+{
+  "id": "one-page-love-johnyvino-com-6a2def",
+  "source": {
+    "url": "https://johnyvino.com/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-johnyvino-com-6a2def.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-johnyvino-com-6a2def__scroll0.webp",
+      "shots/_proposed/one-page-love-johnyvino-com-6a2def__scroll1.webp",
+      "shots/_proposed/one-page-love-johnyvino-com-6a2def__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero section features an interactive canvas-based dot-matrix grid that dynamically renders the text 'Humanize Design' and reacts to user cursor movement."
+    },
+    {
+      "kind": "layout",
+      "note": "Horizontal-scrolling card tracks are used to showcase portfolio items under distinct chronological headers, keeping the vertical scroll footprint compact and highly structured."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, high-contrast sans-serif headings paired with small, low-contrast metadata labels and monospaced system-like fonts for secondary details."
+    },
+    {
+      "kind": "color",
+      "note": "An ultra-dark, near-monochromatic palette (pure black background with white and muted gray text) that allows vibrant, colorful UI screenshots to pop."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the interactive hero, implement an HTML5 Canvas particle system where dots form the letter shapes of 'Humanize Design' and disperse or react to mouse hover coordinates.",
+    "Build the horizontal portfolio showcases using a CSS flex container with overflow-x scroll, styled with custom scrollbars or configured as a draggable carousel to allow seamless horizontal exploration of mobile UI mockups.",
+    "Use a sticky navigation bar that remains fixed at the top with minimal footprint (just logo, menu toggle, and theme switch) to maintain utility without distracting from the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#888888",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#121212",
+        "role": "surface"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:SF Pro Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:SF Pro Text",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:SF Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized bold headings (~4x body) with tiny uppercase monospaced labels and highly readable, medium-weight body copy.",
+    "radius": "Subtle to rounded; cards and video containers use a soft rounded corner (~12px to 16px) contrasting with the sharp screen edges.",
+    "spacing": "Airy and spacious, utilizing generous vertical margins between major portfolio sections to create an editorial, museum-like pacing."
+  },
+  "standout": "The standout feature is the interactive dot-matrix canvas hero that spells out 'Humanize Design', setting a highly technical yet tactile tone immediately upon arrival. This is paired with beautifully structured horizontal-scrolling case study tracks that keep the portfolio clean and highly scannable.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

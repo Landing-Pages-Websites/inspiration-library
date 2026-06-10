@@ -1,0 +1,111 @@
+{
+  "id": "one-page-love-heyparker-ai-9ef186",
+  "source": {
+    "url": "https://heyparker.ai/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-heyparker-ai-9ef186.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-heyparker-ai-9ef186__scroll0.webp",
+      "shots/_proposed/one-page-love-heyparker-ai-9ef186__scroll1.webp",
+      "shots/_proposed/one-page-love-heyparker-ai-9ef186__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "advertising",
+      "saas"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Uses a distinct block-based vertical stack with high-contrast background color shifts (cream, lavender, dark green) to clearly demarcate narrative phases."
+    },
+    {
+      "kind": "type",
+      "note": "Combines a classic, high-contrast editorial serif for storytelling headlines with a clean, highly legible geometric sans-serif for UI elements and step-by-step instructions."
+    },
+    {
+      "kind": "color",
+      "note": "Employs a bold, neo-brutalist palette featuring a warm cream base punctuated by large blocks of lavender and forest green, accented with high-saturation yellow and mint green labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Features a continuous horizontal marquee ticker for social proof and a terminal-style blinking underscore cursor on key headings to evoke an interactive, retro-tech feel."
+    },
+    {
+      "kind": "section",
+      "note": "Utilizes a structured, numbered step-by-step process layout (Steps 1-3) styled like retro desktop windows with thick black borders and solid drop shadows."
+    }
+  ],
+  "technique_notes": [
+    "To recreate this aesthetic, combine neo-brutalist UI elements (thick black borders, solid non-blurry drop shadows, and bright color-blocked labels) with nostalgic retro-tech imagery like the vintage Macintosh hero frame. Implement a smooth horizontal marquee for the continuous text ticker, and use CSS keyframes to create a blinking terminal cursor effect on serif headings ending with underscores. Ensure section transitions are sharp and defined by sudden background color changes rather than soft gradients."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fcf5e2",
+        "role": "background"
+      },
+      {
+        "hex": "#7f78c5",
+        "role": "surface"
+      },
+      {
+        "hex": "#194d15",
+        "role": "brand-dark"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#eebf12",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#72d184",
+        "role": "accent-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Serif Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Radio Canada",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Medium-contrast editorial serif headings (~3-4x body size) paired with compact, structured sans-serif labels and body copy.",
+    "radius": "Subtle to sharp: sharp 90-degree corners on retro window blocks, paired with pill-shaped buttons and slightly rounded outer container frames.",
+    "spacing": "Airy and spacious vertical padding between major color blocks, contrasted with tight, high-density grids inside the pricing and step-by-step cards."
+  },
+  "standout": "The integration of a vintage Macintosh computer as the central hero frame, combined with a neo-brutalist 'retro-operating-system' aesthetic for the step-by-step process blocks, gives the site a highly memorable, tactile, and nostalgic personality.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

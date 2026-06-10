@@ -1,0 +1,115 @@
+{
+  "id": "awwwards-venetianspa-ca-cc2bec",
+  "source": {
+    "url": "https://venetianspa.ca/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-venetianspa-ca-cc2bec.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-venetianspa-ca-cc2bec__scroll0.webp",
+      "shots/_proposed/awwwards-venetianspa-ca-cc2bec__scroll1.webp",
+      "shots/_proposed/awwwards-venetianspa-ca-cc2bec__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://venetianspa.ca/about",
+        "full": "shots/_proposed/awwwards-venetianspa-ca-cc2bec__p2.webp"
+      },
+      {
+        "url": "https://venetianspa.ca/location",
+        "full": "shots/_proposed/awwwards-venetianspa-ca-cc2bec__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "wellness",
+      "spa",
+      "luxury-services"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Frequent use of architectural arch shapes as image masks and section transitions, reinforcing a classical, luxurious aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast editorial serif headings paired with clean, widely-spaced sans-serif body copy and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, low-contrast palette dominated by soft cream backgrounds, muted gold accents, and deep charcoal text, avoiding harsh pure blacks."
+    },
+    {
+      "kind": "motion",
+      "note": "A pinned scroll-sequence section ('EVERY DETAIL, A PLEASURE') where the central heading remains static while multiple arched images fade and slide into view around it as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed hero sections with a distinctive upward-curving arch mask at the bottom that smoothly transitions into the next content area."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the arched transition effect, use an SVG mask or CSS clip-path on the bottom of the hero container to create a smooth, upward-curving arch that reveals the cream-colored section below.",
+    "Implement the scroll-driven gallery using GSAP ScrollTrigger to pin the central heading container, while sequentially fading and translating absolute-positioned arched images into the viewport based on scroll progress.",
+    "Style the form inputs with a high border-radius and a semi-transparent white background to maintain a soft, integrated look over rich photographic backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f2eb",
+        "role": "background"
+      },
+      {
+        "hex": "#b69f64",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#2c2a29",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Beautique Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter-V",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body size) with generous line-height, paired with small, tracked-out sans-serif labels.",
+    "radius": "Rounded with a strong emphasis on arches; images and footer containers feature large, sweeping curves while buttons and inputs use a pill/subtle rounded shape.",
+    "spacing": "Airy and luxurious, utilizing massive vertical padding between sections to give the editorial layouts room to breathe."
+  },
+  "standout": "The integration of classical architectural arches as a recurring visual motif\u2014from the hero transition masks and image frames to the pinned scroll-sequence gallery\u2014creates an incredibly cohesive, high-end spa atmosphere.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
