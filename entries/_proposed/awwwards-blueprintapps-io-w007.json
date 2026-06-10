@@ -1,0 +1,59 @@
+{
+  "id": "awwwards-blueprintapps-io-w007",
+  "source": {
+    "url": "https://blueprintapps.io/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-blueprintapps-io-w007.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "agency",
+      "tech",
+      "recruitment"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page primarily uses a dark grey background with contrasting white text, creating a strong visual hierarchy and a sophisticated aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Headlines are large, bold sans-serif fonts, often with a subtle glowing or gradient effect, while body text maintains a smaller, highly readable size."
+    },
+    {
+      "kind": "color",
+      "note": "A minimal color palette is used, dominated by dark grey, white, and a distinct purple accent color for interactive elements and subtle highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a layered stack of 'profile cards' that appear to have a subtle parallax or 3D tilt effect, adding depth and interactivity to the visual presentation."
+    },
+    {
+      "kind": "section",
+      "note": "Content is broken into distinct, well-padded sections, often using a left-aligned heading with supporting content or images in a two-column layout."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the layered card effect in the hero, use multiple image elements stacked on top of each other. Apply slight rotations and translate transformations to create an offset appearance. For interactivity, use CSS transforms (like `rotateY`, `translateZ`) triggered by mouse movement or scroll position to create a subtle 3D parallax or tilt effect.",
+    "For the comparison table, use a grid or flexbox layout with defined columns. Highlight key differentiating features (like the 'Blueprint' column) by using a contrasting accent color for checkmarks or background elements, while maintaining consistent dark backgrounds and light text for readability.",
+    "To create the subtle text glow/gradient on headlines, apply a linear gradient to the text or use a `text-shadow` property with a soft blur and a color that matches the site's accent purple, giving a luminous quality without being overly distracting."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

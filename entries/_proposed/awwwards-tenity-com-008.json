@@ -1,0 +1,87 @@
+{
+  "id": "awwwards-tenity-com-008",
+  "source": {
+    "url": "https://www.tenity.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-tenity-com-008.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "agency",
+      "venture-capital"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical card grid around hero text, with numbered cards positioned dynamically around a central blurred image and main headline."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light full-width sections distinctly separate major content blocks to create strong visual breaks."
+    },
+    {
+      "kind": "layout",
+      "note": "Half-circle content containers present informational blocks in a unique, non-rectangular shape, adding a soft, organic feel."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized sans-serif headlines feature selective black-fill backgrounds for specific words on light sections, making them stand out starkly."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large numerical data is displayed in a vibrant accent color (pink) to emphasize impact and scale in the 'Proof in numbers' section."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black-and-white base is consistently used, punctuated by a limited palette of vibrant accent colors (pink, teal, light blue, green) for highlights and interactivity."
+    },
+    {
+      "kind": "color",
+      "note": "All partner and client logos are rendered in a monochromatic white against black backgrounds, ensuring brand consistency and sleek integration."
+    },
+    {
+      "kind": "motion",
+      "note": "Interactive accordion/expandable sections are indicated by '+' icons, suggesting a vertical animation for revealing content for different audience segments."
+    },
+    {
+      "kind": "motion",
+      "note": "The layout of project cards for 'From ambition to tangible results' implies a horizontal scroll or carousel interaction to navigate through multiple items."
+    },
+    {
+      "kind": "section",
+      "note": "A process overview section uses three numbered, dark cards to clearly outline the company's sequential approach or key service steps."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated social proof section prominently features oversized, accent-colored numbers to quantify achievements and build credibility."
+    },
+    {
+      "kind": "section",
+      "note": "A comprehensive client/partner logo bar, categorized by type, is used to build trust and authority through association."
+    }
+  ],
+  "technique_notes": [
+    "To create alternating background sections, apply distinct CSS classes to full-width containers that switch between solid black and white backgrounds, ensuring text and graphic colors adjust dynamically for readability.",
+    "For oversized, number-based social proof, use a large font-size and a bold font-weight for the numerical values, applying a contrasting accent color, while keeping accompanying descriptive text smaller and in a neutral tone.",
+    "Implement curved content masks by using SVG shapes or CSS clip-path properties on image and text containers to create soft, quarter-circle or organic boundaries, breaking the conventional rectangular grid."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

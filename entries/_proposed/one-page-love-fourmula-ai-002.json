@@ -1,0 +1,91 @@
+{
+  "id": "one-page-love-fourmula-ai-002",
+  "source": {
+    "url": "https://fourmula.ai/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-fourmula-ai-002.webp"
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "ecommerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section uses a large, off-center headline with a subtle, blurred central image, creating a spacious and modern focal point."
+    },
+    {
+      "kind": "layout",
+      "note": "Feature sections (e.g., AI Fashion Photoshoot) are presented with a primary, large visual on the left and a grid of related smaller images on the right, demonstrating variety."
+    },
+    {
+      "kind": "layout",
+      "note": "The 'How it Works' section employs a full-width, vertically stacked design with large, numbered steps that visually progress down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "Two-column grid layouts with a prominent text block on one side and an image/content placeholder on the other are used for showcasing product benefits (e.g., 'Your product', 'Campaign-ready')."
+    },
+    {
+      "kind": "type",
+      "note": "Major headlines frequently use two contrasting font styles or colors for emphasis, combining a vibrant accent (orange) with a muted tone (gray) to highlight key words."
+    },
+    {
+      "kind": "type",
+      "note": "The 'How it Works' summary (e.g., 'Stays on-brand Create Images Makes videos') uses varying font sizes, weights, and opacities to indicate an active state versus inactive or upcoming actions."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif typography dominates headings, creating a strong, contemporary, and easily scannable visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange serves as the primary accent color, consistently used for calls to action, active states, and to draw attention to key textual elements."
+    },
+    {
+      "kind": "color",
+      "note": "The 'How it Works' section utilizes a sequence of distinct, full-width gradient backgrounds (e.g., orange, blue, purple, red) to visually differentiate each step of the process."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly neutral palette of white, off-white, and various shades of gray provides a clean, expansive backdrop, allowing vibrant accent colors and product imagery to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'How it Works' section implies scroll-triggered background transitions and text emphasis, where each step becomes visually prominent as it enters the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated feature showcase sections (e.g., 'AI Fashion Photoshoot', 'AI Product Shots') use visual galleries and brief descriptions to demonstrate specific capabilities of the service."
+    },
+    {
+      "kind": "section",
+      "note": "A 'How it Works' section breaks down the product's usage into a clear, numbered, step-by-step workflow, guiding the user through the process."
+    }
+  ],
+  "technique_notes": [
+    "To create split heading emphasis, use separate inline elements within a heading tag, applying different colors and font weights (e.g., a vibrant color for one word, a muted gray for another) to each part.",
+    "Implement scroll-linked section background changes by using JavaScript (e.g., an Intersection Observer) to detect when a new section enters the viewport, then update a global CSS variable or apply a class to trigger a background color or gradient transition on a main content wrapper.",
+    "Design interactive feature carousels by arranging multiple image cards in a grid that allows for horizontal scrolling or discrete navigation, often with an active state highlighted for the currently viewed content."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

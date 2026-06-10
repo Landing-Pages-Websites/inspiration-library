@@ -1,0 +1,59 @@
+{
+  "id": "awwwards-blit-studio-w010",
+  "source": {
+    "url": "https://blit.studio/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-blit-studio-w010.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "agency",
+      "design-studio",
+      "art-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses an asymmetric, free-flowing grid with large, uneven whitespace that allows content blocks and images to appear scattered yet intentionally placed, emphasizing an artistic and dynamic feel."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif typography for main headings (e.g., 'blit.', 'the intersection between design, art, and technology') creates strong visual anchors, while smaller, lighter sans-serif text is used for navigation and project descriptions, establishing clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of white backgrounds and black text dominates, punctuated by occasional vibrant accent colors (e.g., orange circle, green line, blue hues in project images) that draw attention to specific elements or introduce visual intrigue."
+    },
+    {
+      "kind": "motion",
+      "note": "While static, the layout implies subtle hover effects for navigation and interactive elements, typical of portfolio sites where project thumbnails might reveal more detail or subtle animations on interaction."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into thematic sections introduced by large, evocative headings (e.g., 'entertainment', 'visual echoes', 'dimensional'), each showcasing related visual projects in a non-linear, collage-like arrangement."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the asymmetric layout, utilize CSS Grid or Flexbox with defined column gaps and row spacing, allowing individual content containers to span multiple tracks or be absolutely positioned to break the grid visually.",
+    "For the large typography, use a modern sans-serif font, setting the `font-size` to viewport units (e.g., `vw`) for fluid scaling, and adjust `line-height` and `letter-spacing` to maintain legibility and visual impact.",
+    "Implement accent colors by defining them as CSS custom properties (variables) for easy management, and apply them judiciously to specific graphic elements or text links using `background-color` or `color` properties."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

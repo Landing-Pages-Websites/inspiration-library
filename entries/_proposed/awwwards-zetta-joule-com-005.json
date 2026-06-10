@@ -1,0 +1,79 @@
+{
+  "id": "awwwards-zetta-joule-com-005",
+  "source": {
+    "url": "https://zetta-joule.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-zetta-joule-com-005.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "energy",
+      "nuclear-technology",
+      "industrial-applications"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a large, overlapping textual headline with a 3D rendered graphic, creating a dynamic visual hierarchy."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently alternate between light (white/pale grey) and dark (dark grey/black) backgrounds to visually segment different topics and provide contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Large, light-colored sans-serif typography is used for main headlines on dark or image backgrounds, providing strong contrast and a modern feel."
+    },
+    {
+      "kind": "type",
+      "note": "Smaller, legible sans-serif fonts are used for body text and descriptive labels, maintaining a consistent minimalist aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A cool blue-to-white gradient is used in the hero section, establishing a clean and technological brand impression."
+    },
+    {
+      "kind": "color",
+      "note": "The primary background palette uses stark white and deep charcoal grey, allowing imagery and subtle brand accent colors to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle parallax effect is implied in the hero section where the 3D model appears to be layered with the headline, suggesting depth."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'technology' section uses an exploded 3D diagram with animated or static lines connecting to textual labels explaining different outputs and features."
+    },
+    {
+      "kind": "section",
+      "note": "A solutions section features a horizontally scrollable carousel of feature cards, each with an icon, title, description, and 'Learn More' call to action, on a dark background."
+    },
+    {
+      "kind": "section",
+      "note": "An 'About Us' section integrates full-bleed, high-quality industrial and landscape photography to support the narrative."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the overlapping headline effect, the large text element is positioned absolutely with a higher z-index than the background image or 3D model, and a subtle transparency might be applied to the text color.",
+    "Interactive diagrams are created by layering SVG or canvas elements for the graphic and strategically positioning text labels. Lines or elements within the diagram might appear or animate in response to scroll position or user interaction.",
+    "Sectional dividers are achieved by varying the background color or image of full-width content blocks. For example, a light background section transitions directly into a dark background section, creating clear visual breaks."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

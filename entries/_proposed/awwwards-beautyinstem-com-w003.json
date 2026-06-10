@@ -1,0 +1,55 @@
+{
+  "id": "awwwards-beautyinstem-com-w003",
+  "source": {
+    "url": "https://beautyinstem.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-beautyinstem-com-w003.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "software",
+      "application-loading"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Centralized content with a vast amount of negative space, focusing the viewer on the singular loading element."
+    },
+    {
+      "kind": "type",
+      "note": "A single, small, dark grey numeric text element, '999%', is positioned centrally to indicate progress or a loading state."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly white background combined with a very subtle, soft light grey used for the central elliptical element, creating a minimalist and clean aesthetic."
+    },
+    {
+      "kind": "section",
+      "note": "The page comprises a single, undifferentiated section, with no headers, footers, or navigational elements, entirely dedicated to the loading indicator."
+    },
+    {
+      "kind": "motion",
+      "note": "An implied soft, ambient motion for the central elliptical glow, suggesting a subtle pulsing or breathing effect characteristic of a waiting state, though not explicitly shown in a static image."
+    }
+  ],
+  "technique_notes": [
+    "To create the central soft glow, an elliptical element is positioned in the viewport's center. This element is given a very light grey background color and a significant blur radius (e.g., using a filter or box-shadow with spread) to create a halo-like diffusion. The opacity might also be slightly reduced to blend seamlessly with the white background.",
+    "A small, dark grey text element (e.g., '999%') is absolutely positioned to be horizontally and vertically centered within or directly beneath the blurred elliptical element, ensuring it remains legible against the subtle background."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

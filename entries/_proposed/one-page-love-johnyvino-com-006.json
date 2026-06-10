@@ -1,0 +1,59 @@
+{
+  "id": "one-page-love-johnyvino-com-006",
+  "source": {
+    "url": "https://johnyvino.com/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-johnyvino-com-006.webp"
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "ux/ui"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily presented in a single-column, center-aligned layout for narrative text, transitioning to horizontal carousels or grids for visual project showcases."
+    },
+    {
+      "kind": "type",
+      "note": "A distinct animated dot-matrix typeface is used for the hero heading, contrasted with a clean sans-serif for body and titles, and a personal script font for the signature, establishing a varied yet sophisticated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, featuring a deep charcoal background with stark white text, accented by subtle hints of color within the embedded project visuals."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero title 'Humanize Design' uses a subtle dot-matrix animation where individual elements appear or disappear to form the letters, adding an engaging, technical touch to the page's introduction."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by large, bold headings and smaller, uppercase sub-labels (e.g., '2019 - PRESENT', 'SPECIALTY', 'TESTIMONIALS'), guiding the user through the portfolio's narrative flow."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the dot-matrix text effect, render the text as a series of small, discrete graphical elements (dots or squares). Animate their individual opacity, scale, or position to create the effect of the characters forming or dissolving, possibly using SVG or a canvas element over regular text for accessibility.",
+    "For the high-contrast dark theme, use a rich, deep grey or off-black for the background rather than pure black, paired with a bright white or very light grey for primary text. Ensure sufficient vertical rhythm and line height for optimal readability.",
+    "Horizontal content carousels are created using a flexbox or grid container with `overflow-x: auto` and `white-space: nowrap` for the inner content. Each item within the carousel should have a defined width. Navigation arrows would use JavaScript to programmatically scroll the container left or right."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

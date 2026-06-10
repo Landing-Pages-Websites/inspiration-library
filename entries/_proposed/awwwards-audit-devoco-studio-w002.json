@@ -1,0 +1,76 @@
+{
+  "id": "awwwards-audit-devoco-studio-w002",
+  "source": {
+    "url": "https://audit.devoco.studio/en",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-audit-devoco-studio-w002.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "journalism",
+      "investigative-reporting",
+      "non-profit"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a three-column asymmetrical grid layout, with a wider central column for main text and narrower side columns for metadata, navigation, and supplementary details."
+    },
+    {
+      "kind": "layout",
+      "note": "Extensive use of dark space (negative space) vertically and horizontally, creating a sense of clarity, hierarchy, and emphasis around key data points and text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast in typography is used, pairing a classic, authoritative serif font for headlines and body text with a highly legible, technical monospace font for labels, metadata, and data points."
+    },
+    {
+      "kind": "type",
+      "note": "Key numerical data (e.g., '$29,340') and significant proper nouns (e.g., 'RUSSIAN FEDERATION') are rendered in a large, bold serif font to command immediate attention and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A strictly monochromatic dark theme is employed, featuring light grey and white text against a black background, which lends a serious, sophisticated, and focused tone to the content."
+    },
+    {
+      "kind": "color",
+      "note": "Subtle light grey is used for secondary text, dashes, and arrow icons to distinguish metadata and interactive elements without introducing visual noise."
+    },
+    {
+      "kind": "motion",
+      "note": "A live data counter is implied by the text 'BEING SPENT AS YOU READ:' accompanying a prominent financial figure, suggesting real-time updates of the displayed amount."
+    },
+    {
+      "kind": "section",
+      "note": "An introductory section clearly delineates 'WHAT THIS IS' and provides essential context before diving into detailed data and audit specifics."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed financial breakdowns and source information are presented in structured lists within sidebars, offering supplementary context without cluttering the main content flow."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the layout, structure content within a CSS Grid or Flexbox container, defining three columns with specific width ratios (e.g., 20% | 60% | 20% or similar) and apply generous vertical padding or margins to sections.",
+    "Implement typography by declaring a primary serif font for headings and main paragraphs and a distinct monospace font for all auxiliary text, labels, and numerical data, ensuring sufficient line-height and letter-spacing for readability on a dark background.",
+    "Create a dynamic counter effect by using JavaScript to periodically increment a displayed numerical value based on a predefined rate, updating the DOM element in real-time as the user views the page."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

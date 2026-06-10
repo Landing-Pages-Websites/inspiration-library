@@ -1,0 +1,76 @@
+{
+  "id": "awwwards-adinabuzatu-ro-w005",
+  "source": {
+    "url": "https://adinabuzatu.ro/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-adinabuzatu-ro-w005.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "menswear",
+      "luxury-apparel"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a full-width background image with an overlaid text block anchored to the bottom left, providing a clear focal point upon page load."
+    },
+    {
+      "kind": "layout",
+      "note": "Product and service offerings are presented in multi-column grids (3 or 4 columns), each item typically includes an image, title, and a brief description or price."
+    },
+    {
+      "kind": "layout",
+      "note": "A dedicated section uses an asymmetrical layout, pairing a large, impactful image on the left with a text block for 'AB:Collection' on the right, breaking the grid pattern."
+    },
+    {
+      "kind": "type",
+      "note": "Headings like 'O noua imagine' and 'AB:Collection' use a large, modern sans-serif typeface, while body text and navigation employ a smaller, highly legible sans-serif for clarity."
+    },
+    {
+      "kind": "type",
+      "note": "Brand logo 'ADINA BUZATU' in the header and footer is rendered in a prominent, uppercase, bold sans-serif, conveying strength and modernity."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette is monochromatic, dominated by black, white, and various shades of gray, allowing product imagery to provide the main bursts of color."
+    },
+    {
+      "kind": "color",
+      "note": "Text on dark image overlays or backgrounds is consistently white for high contrast and readability, while text on light backgrounds is dark gray or black."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent cookie consent bar is positioned above the main content, providing options to 'Accept\u0103 tot' or 'Configureaz\u0103' via distinct button styles."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is structured into multiple columns, presenting various categories of links (e.g., 'La dispozitia ta', 'Companie', 'Legal \u0219i cookies'), contact information, and social media links."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero text overlay, place text content within a container positioned absolutely over a full-width background image. Use padding and a semi-transparent dark gradient or solid background on the text container for readability.",
+    "Implement image grids using CSS Grid or Flexbox, ensuring images within each grid item maintain a consistent aspect ratio. Text information is typically placed directly below the image or overlaid at the bottom with a dark gradient.",
+    "Create the prominent 'AB:Collection' section by using a two-column layout where one column holds a large image and the other contains the heading and descriptive text. Align the text block vertically to start mid-way or lower on the image side for visual interest."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}

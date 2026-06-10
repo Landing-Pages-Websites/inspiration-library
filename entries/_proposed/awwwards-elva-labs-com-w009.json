@@ -1,0 +1,67 @@
+{
+  "id": "awwwards-elva-labs-com-w009",
+  "source": {
+    "url": "https://elva-labs.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-elva-labs-com-w009.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "software",
+      "videography",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "All primary content, including brand name, headlines, and body text, is centered horizontally on the page."
+    },
+    {
+      "kind": "layout",
+      "note": "The initial loading state positions 'loading' and a percentage counter ('0%') at the top-left and top-right respectively, while the brand name 'elva' is centered."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, sans-serif typography is used for main headlines ('Lighting Spot', 'Scene Sense') to create a strong visual impact and hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Body text is smaller and uses a lighter weight sans-serif font, providing clear contrast with the headlines and ensuring readability."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochrome palette uses a deep black background and bright white text to create a sleek and modern aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Text elements like 'loading' and the percentage counter exhibit a noticeable blur effect, suggesting an active loading animation or transition."
+    },
+    {
+      "kind": "section",
+      "note": "The page transitions from a minimal loading screen to a hero section that immediately presents product names, a key benefit, and feature descriptions."
+    }
+  ],
+  "technique_notes": [
+    "To create the blurred loading text effect, apply a filter property with a blur value to text elements. This can be animated to change blur intensity or combine with opacity changes for a fade effect.",
+    "Implement a sequential reveal for content blocks, where elements slide or fade into view from the bottom, often with a slight delay between each element to add a sense of progression and dynamism.",
+    "Establish a strong visual hierarchy by varying font sizes and weights significantly. Use very large, bold text for primary messages and smaller, regular-weight text for supporting details, all against a contrasting background."
+  ],
+  "animation_tech": [],
+  "status": "proposed"
+}
