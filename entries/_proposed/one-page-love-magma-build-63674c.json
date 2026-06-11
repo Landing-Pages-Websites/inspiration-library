@@ -1,0 +1,105 @@
+{
+  "id": "one-page-love-magma-build-63674c",
+  "source": {
+    "url": "https://magma.build/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-magma-build-63674c.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-magma-build-63674c__scroll0.webp",
+      "shots/_proposed/one-page-love-magma-build-63674c__scroll1.webp",
+      "shots/_proposed/one-page-love-magma-build-63674c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai-infrastructure",
+      "consulting"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric layouts that pair ultra-large, left-aligned editorial serif headings with compact, multi-column sans-serif body copy."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast typographic pairing of an elegant, expressive editorial serif for primary headings and a clean, neutral sans-serif for technical details."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, near-black canvas punctuated by high-intensity, organic orange and yellow glows resembling molten magma to create focal points."
+    },
+    {
+      "kind": "motion",
+      "note": "Smooth scroll-driven parallax on background glow elements and a continuous horizontal text marquee that breaks up vertical scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "A technical architecture diagram section featuring a dark, semi-transparent glassmorphic card overlaying a vibrant radial gradient."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the hero, use a full-bleed background video of slow-moving magma with a dark overlay to maintain high contrast for the white serif headline. Implement a smooth-scrolling library like GSAP ScrollTrigger to fade and slide up text elements as they enter the viewport. For the glowing sections, position absolute divs with heavy CSS blur filters and warm orange/yellow gradients behind the content, translating them slightly on scroll to create a subtle parallax depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#03030d",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff5722",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffb300",
+        "role": "glow"
+      },
+      {
+        "hex": "#8e8e9f",
+        "role": "muted-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:PP Editorial New",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~6x body size) contrasted with small, highly legible sans-serif body text and uppercase labels.",
+    "radius": "Subtle rounded corners on interactive elements and diagrams, with sharp edges reserved for structural layout boundaries.",
+    "spacing": "Airy and expansive vertical spacing to give editorial breathing room, combined with tight, structured grids for technical diagrams."
+  },
+  "standout": "The site masterfully blends a dark, mysterious 'magma' aesthetic with high-end editorial typography, turning a technical AI consultancy into a premium, tactile brand experience. The massive, low-contrast footer typography echoing the hero headline creates a powerful bookend effect.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

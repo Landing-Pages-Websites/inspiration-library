@@ -1,0 +1,95 @@
+{
+  "id": "one-page-love-flexdigital-io-221df4",
+  "source": {
+    "url": "https://flexdigital.io/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-flexdigital-io-221df4.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-flexdigital-io-221df4__scroll0.webp",
+      "shots/_proposed/one-page-love-flexdigital-io-221df4__scroll1.webp",
+      "shots/_proposed/one-page-love-flexdigital-io-221df4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "web-development"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Strict horizontal grid lines separate sections, creating a clean, directory-like editorial structure with no vertical borders."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast typographic hierarchy pairing bold, tightly-tracked sans-serif headers with tiny, structured metadata labels."
+    },
+    {
+      "kind": "color",
+      "note": "A strictly monochromatic palette utilizing a soft, warm off-white background and stark black elements to mimic printed editorial design."
+    },
+    {
+      "kind": "motion",
+      "note": "Subtle scroll-triggered fade-ins and slide-ups (using AOS) that reveal structured list items sequentially as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the layout using a CSS grid with explicit border-bottoms on rows to build a clean, table-like directory structure. For the massive footer graphic, use an absolute-positioned, overflow-hidden container with viewport-width-based font sizing to scale the brand name across the entire screen width.",
+    "Implement AOS (Animate On Scroll) to trigger subtle, staggered fade-ups on the list items and services table as they enter the viewport, maintaining a premium, understated feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f3f3f3",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#707070",
+        "role": "muted-text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized bold headings and a massive screen-filling footer graphic contrasted against tiny, structured metadata labels.",
+    "radius": "sharp for layout blocks and dividers, with subtle rounding on the floating navigation pill",
+    "spacing": "airy and spacious vertical padding balanced by dense, compact metadata lists"
+  },
+  "standout": "The colossal, screen-spanning 'flex' wordmark at the footer that transforms brand typography into a massive graphic anchor, paired with a live-updating local timezone clock.",
+  "animation_tech": [
+    "aos"
+  ],
+  "status": "proposed"
+}

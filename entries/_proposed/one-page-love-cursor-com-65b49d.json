@@ -1,0 +1,110 @@
+{
+  "id": "one-page-love-cursor-com-65b49d",
+  "source": {
+    "url": "https://cursor.com/compile/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-cursor-com-65b49d.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-cursor-com-65b49d__scroll0.webp",
+      "shots/_proposed/one-page-love-cursor-com-65b49d__scroll1.webp",
+      "shots/_proposed/one-page-love-cursor-com-65b49d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "design-conference",
+      "software"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, highly spaced speaker grid that places names in a sparse, staggered three-column layout with massive vertical gaps instead of standard cards."
+    },
+    {
+      "kind": "type",
+      "note": "Low-contrast, highly disciplined sans-serif typography that relies on precise alignment and generous whitespace rather than oversized display weights."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, sophisticated cream background paired with stark black interactive elements and thin, vibrant primary/secondary colored vector lines."
+    },
+    {
+      "kind": "motion",
+      "note": "Generative canvas-based line art at the top and bottom of the page that animates smoothly, morphing mathematical curves to spell 'COMPILE' and rotate geometric shapes."
+    },
+    {
+      "kind": "section",
+      "note": "Ultra-minimalist form fields with thin borders, flat solid black buttons, and zero border-radius, blending seamlessly into the background."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the hero animation, use an HTML5 Canvas element driven by parametric equations (like Lissajous curves) to render smooth, multi-colored vector paths that morph continuously.",
+    "Build the speaker list using CSS Grid with explicit column spans and empty rows to create a staggered, airy 'constellation' layout that avoids standard card containers.",
+    "Maintain a strict flat aesthetic by removing all box-shadows, gradients, and border-radii, relying entirely on solid fills and thin lines for UI boundaries."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#edece8",
+        "role": "background"
+      },
+      {
+        "hex": "#14120b",
+        "role": "text"
+      },
+      {
+        "hex": "#2c9f28",
+        "role": "accent"
+      },
+      {
+        "hex": "#a88d02",
+        "role": "accent"
+      },
+      {
+        "hex": "#8c89e7",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Balanced, low-contrast sans-serif hierarchy with uniform weights, relying on generous whitespace rather than extreme scale shifts.",
+    "radius": "sharp",
+    "spacing": "extremely airy and sparse, utilizing massive vertical gaps and asymmetrical grid placements to create an editorial, exclusive feel"
+  },
+  "standout": "The use of generative, multi-colored mathematical canvas curves to spell out the event name 'COMPILE' and anchor the interactive sections, combined with an ultra-sparse, staggered speaker grid.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
