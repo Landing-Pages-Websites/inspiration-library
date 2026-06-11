@@ -1,0 +1,110 @@
+{
+  "id": "awwwards-hexpens-com-25b0ae",
+  "source": {
+    "url": "https://www.hexpens.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-hexpens-com-25b0ae.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-hexpens-com-25b0ae__scroll0.webp",
+      "shots/_proposed/awwwards-hexpens-com-25b0ae__scroll1.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hexpens.com/collections/all",
+        "screenshot": "shots/_proposed/awwwards-hexpens-com-25b0ae__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "stationery",
+      "luxury-goods",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "type",
+      "note": "Dual-font headings combining a structured, elegant serif with an organic, fluid handwritten script to emphasize the physical act of writing."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating high-contrast full-width color blocks (dark charcoal, pure white, warm cream) that create distinct thematic chapters as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "Subtle parallax drifting of background scientific sketches (atoms, DNA helices) behind the clean foreground text blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, energetic orange used sparingly but consistently for primary call-to-action buttons and the newsletter subscription banner."
+    },
+    {
+      "kind": "section",
+      "note": "A clean, minimalist product catalog grid utilizing uniform cream-colored backgrounds for product shots to maintain a cohesive, high-end aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the motion system, use a scroll-driven animation framework to bind the vertical translation of the background sketch illustrations to the scroll position, creating a slow-motion parallax depth effect. Combine this with scroll-triggered fade-in-up transitions on the editorial headings to draw focus to the typography.",
+    "To achieve the overlapping dual-font typography, wrap the script words in an inline container with a custom cursive font-family, utilizing negative margins or relative positioning to allow the handwritten flourishes to gracefully overlap the adjacent serif characters without breaking text wrapping on smaller screens."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#242424",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background-light"
+      },
+      {
+        "hex": "#F7F4EB",
+        "role": "surface-cream"
+      },
+      {
+        "hex": "#F59E0B",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#111111",
+        "role": "text-primary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Great Vibes",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "High-contrast scale pairing large, dramatic serif headings with tiny, widely-tracked uppercase sans-serif labels.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The design beautifully integrates fluid, handwritten script words directly inside structured serif headings. This perfectly mirrors the physical act of writing and ink flow, elevating a standard e-commerce store into an artistic, emotion-first brand experience.",
+  "animation_tech": [],
+  "status": "proposed"
+}

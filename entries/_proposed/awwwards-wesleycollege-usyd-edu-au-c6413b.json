@@ -1,0 +1,102 @@
+{
+  "id": "awwwards-wesleycollege-usyd-edu-au-c6413b",
+  "source": {
+    "url": "https://www.wesleycollege-usyd.edu.au/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-wesleycollege-usyd-edu-au-c6413b.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-wesleycollege-usyd-edu-au-c6413b__scroll0.webp",
+      "shots/_proposed/awwwards-wesleycollege-usyd-edu-au-c6413b__scroll1.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.wesleycollege-usyd.edu.au/student-life",
+        "screenshot": "shots/_proposed/awwwards-wesleycollege-usyd-edu-au-c6413b__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "education",
+      "higher-education",
+      "residential-college"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Infinite horizontal text marquees scroll continuously across the screen to create a dynamic, editorial rhythm between static content blocks."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed color blocks in deep navy, warm stone, and dark charcoal segment the narrative flow without relying on traditional borders."
+    },
+    {
+      "kind": "type",
+      "note": "Over-sized, tightly-tracked sans-serif headings create a bold, modern editorial aesthetic that elevates the academic brand."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive circular navigation carousels are used for exploring college life categories, breaking up standard rectangular grid layouts."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the motion system, implement infinite horizontal text marquees using CSS keyframe translations that seamlessly loop duplicate text strings. Pair this with a rotating circular badge ('Click to take the tour') that uses a continuous CSS rotation transform, potentially bound to mouse movement for a subtle parallax follow-effect.",
+    "Achieve the premium editorial feel by utilizing a high-contrast color-blocking layout strategy, transitioning smoothly from light stone backgrounds to deep navy sections with crisp, white typography."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c2a4a",
+        "role": "background"
+      },
+      {
+        "hex": "#e2e1da",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "accent"
+      },
+      {
+        "hex": "#4b6b88",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:PP Neue Montreal",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Dramatic scale contrast with massive, thin-to-medium display headings and highly legible, clean body copy with generous line height.",
+    "radius": "rounded",
+    "spacing": "airy"
+  },
+  "standout": "The design brilliantly subverts traditional, stuffy academic layouts by adopting a high-fashion editorial aesthetic. This is achieved through giant horizontal text marquees, a sophisticated warm-stone and deep-navy palette, and playful circular interactive elements.",
+  "animation_tech": [],
+  "status": "proposed"
+}

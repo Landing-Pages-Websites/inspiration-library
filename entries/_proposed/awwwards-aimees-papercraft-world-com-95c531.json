@@ -1,0 +1,95 @@
+{
+  "id": "awwwards-aimees-papercraft-world-com-95c531",
+  "source": {
+    "url": "https://aimees-papercraft-world.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-aimees-papercraft-world-com-95c531.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-aimees-papercraft-world-com-95c531__scroll0.webp",
+      "shots/_proposed/awwwards-aimees-papercraft-world-com-95c531__scroll1.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-portfolio",
+      "interactive-media",
+      "game-design"
+    ],
+    "mood": [
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A four-quadrant split screen divided by organic, torn-paper edges that meet at a central focal point."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-bound zoom transition that scales the quadrants outward from the center, simulating an immersive entry into a deeper layer."
+    },
+    {
+      "kind": "color",
+      "note": "Muted, organic earth tones (terracotta, sage, dusty blue, and ochre) overlaid with a heavy tactile paper-grain texture."
+    },
+    {
+      "kind": "type",
+      "note": "Whimsical, rounded, hand-drawn display typography that reinforces the craft-oriented, DIY aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the scroll-driven entry transition, bind the scroll delta to a scale and translation animation using a timeline library. As the user scrolls, scale the four quadrant containers outward from the central intersection point while fading in the underlying canvas or content layer.",
+    "Achieve the tactile paper look by applying a high-frequency SVG turbulence noise filter as a CSS overlay, combined with custom SVG path masks to create the irregular, fibrous 'torn' edges on the container borders."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#C97A6D",
+        "role": "background-top-left"
+      },
+      {
+        "hex": "#8FA083",
+        "role": "background-top-right"
+      },
+      {
+        "hex": "#8FA4C1",
+        "role": "background-bottom-left"
+      },
+      {
+        "hex": "#C5856C",
+        "role": "background-bottom-right"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Fredoka One",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Sniglet",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Uniform, friendly display sizes with heavy weights and generous letter-spacing to maintain readability on textured backgrounds.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The interface completely eschews traditional digital layouts in favor of a tactile, physical 'papercraft' gateway. The use of scroll-jacking to physically 'part' the paper quadrants creates an immediate, magical sense of immersion.",
+  "animation_tech": [],
+  "status": "proposed"
+}

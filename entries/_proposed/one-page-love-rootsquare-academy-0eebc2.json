@@ -1,0 +1,104 @@
+{
+  "id": "one-page-love-rootsquare-academy-0eebc2",
+  "source": {
+    "url": "https://rootsquare.academy/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-rootsquare-academy-0eebc2.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-rootsquare-academy-0eebc2__scroll0.webp",
+      "shots/_proposed/one-page-love-rootsquare-academy-0eebc2__scroll1.webp",
+      "shots/_proposed/one-page-love-rootsquare-academy-0eebc2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "edtech",
+      "tutoring"
+    ],
+    "mood": [
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Storybook-style framing where large, custom-illustrated trees and ground layers anchor the top and bottom of the page, sandwiching the structured content."
+    },
+    {
+      "kind": "color",
+      "note": "A natural, education-focused palette combining a soft mint-green canvas with deep forest-green containers, accented by vibrant primary yellow and bright green CTAs."
+    },
+    {
+      "kind": "type",
+      "note": "Irregular, hand-drawn display typography for headings that mimics chalkboard writing, paired with clean, highly legible geometric sans-serif body text."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'math notebook' testimonial section featuring a green graph-paper background, hand-drawn mathematical doodles, and scattered, slightly rotated polaroid-style video cards."
+    },
+    {
+      "kind": "motion",
+      "note": "The page relies on static illustrative hierarchy for its main structure, complemented by subtle CSS keyframe animations on interactive elements and hover states on cards."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the whimsical hero by layering a transparent-background character illustration over a rich, full-bleed landscape background, ensuring text remains highly legible on the left.",
+    "Build the testimonial grid using a CSS grid container over a repeating SVG graph-paper pattern, applying slight CSS transforms (rotate) to individual video cards to create an organic, scattered look.",
+    "Implement CSS keyframe animations to give subtle, continuous motion to illustrated elements, making the mascot characters feel alive without distracting from the core value proposition."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eef7f2",
+        "role": "background"
+      },
+      {
+        "hex": "#1a5433",
+        "role": "surface"
+      },
+      {
+        "hex": "#00db80",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffcc00",
+        "role": "accent"
+      },
+      {
+        "hex": "#050505",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Covered By Your Grace",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, playful hand-drawn display headings (~4x body size) contrasted with clean, medium-weight geometric body copy.",
+    "radius": "Subtle to rounded, featuring pill-shaped navigation bars and buttons alongside moderately rounded cards to maintain a friendly, child-safe aesthetic.",
+    "spacing": "Airy and spacious, utilizing generous vertical padding to let large-scale illustrations breathe while keeping functional grids tight and organized."
+  },
+  "standout": "The seamless integration of high-quality, custom storybook illustrations and a recurring cat mascot with highly structured, professional SaaS-style UI components like tabbed tutor profiles and clean pricing matrices.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

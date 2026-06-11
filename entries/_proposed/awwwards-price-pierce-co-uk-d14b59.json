@@ -1,0 +1,107 @@
+{
+  "id": "awwwards-price-pierce-co-uk-d14b59",
+  "source": {
+    "url": "https://www.price-pierce.co.uk/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-price-pierce-co-uk-d14b59.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-price-pierce-co-uk-d14b59__scroll0.webp",
+      "shots/_proposed/awwwards-price-pierce-co-uk-d14b59__scroll1.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.price-pierce.co.uk/company/",
+        "screenshot": "shots/_proposed/awwwards-price-pierce-co-uk-d14b59__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "forestry-and-paper",
+      "b2b",
+      "supply-chain"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical split-screen layouts with off-center text blocks and generous negative space that create an editorial, high-end magazine feel."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast sans-serif typography featuring massive, clean display headers paired with small, widely spaced body copy."
+    },
+    {
+      "kind": "color",
+      "note": "Dramatic dark-to-light section transitions, moving from deep charcoal and forest green to crisp white and warm beige."
+    },
+    {
+      "kind": "motion",
+      "note": "Smooth scroll-bound parallax on hero imagery combined with elegant fade-in-up transitions for text blocks as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A minimalist, interactive vector world map illustrating global trade routes with delicate curved lines and subtle node markers."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the motion system, implement a scroll-driven parallax effect on background container elements using smooth interpolation. Pair this with an Intersection Observer utility that applies a subtle vertical translation (slide up) and opacity fade to text blocks as they enter the viewport. The timeline slider should utilize hardware-accelerated horizontal transitions bound to custom navigation buttons.",
+    "Achieve the editorial layout by utilizing a multi-column CSS Grid with asymmetrical column spans, allowing text blocks to sit off-center while maintaining a strict underlying alignment grid.",
+    "Use thin, low-opacity horizontal borders to cleanly segment sections without adding visual clutter, reinforcing the minimalist architectural aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "hex": "#162e26",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#e8e6e1",
+        "role": "background"
+      },
+      {
+        "hex": "#a39076",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Neue Haas Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Dramatic scale contrast with ultra-large, light-weight display headings and small, highly readable body text with generous line height.",
+    "radius": "pill",
+    "spacing": "airy"
+  },
+  "standout": "The design masterfully elevates an industrial B2B timber brand into a high-end luxury experience. It achieves this through dramatic dark-to-light color blocking, delicate vector cartography, and an uncompromising commitment to white space.",
+  "animation_tech": [],
+  "status": "proposed"
+}

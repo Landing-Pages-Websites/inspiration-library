@@ -1,0 +1,102 @@
+{
+  "id": "awwwards-geolava-com-422765",
+  "source": {
+    "url": "https://geolava.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-geolava-com-422765.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-geolava-com-422765__scroll0.webp",
+      "shots/_proposed/awwwards-geolava-com-422765__scroll1.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.geolava.com/platform",
+        "screenshot": "shots/_proposed/awwwards-geolava-com-422765__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "spatial-ai",
+      "technology",
+      "software-as-a-service"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Vast, blueprint-like canvas layout using subtle dotted grid lines and tiny crosshair anchor points to evoke spatial mapping and geographic coordinates."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-driven progression through an expansive, near-empty canvas that mimics physical coordinates and geographic scale, creating a meditative pacing."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast pairing of dark, moody aerial photography in the hero and footer with an ultra-clean, warm off-white canvas for the body."
+    },
+    {
+      "kind": "type",
+      "note": "Understated, light-weight neo-grotesque typography that prioritizes legibility and architectural precision over decorative styling."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the spatial canvas by establishing a CSS grid with repeating dotted border lines and absolute-positioned SVG crosshairs at key intersections.",
+    "Implement a smooth-scroll container that translates vertical scroll depth into a steady, unhurried journey across the expansive grid, using subtle parallax on background aerial imagery to create depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F7F6F3",
+        "role": "background"
+      },
+      {
+        "hex": "#1C1C1C",
+        "role": "surface"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "hero-text"
+      },
+      {
+        "hex": "#8E8E8E",
+        "role": "muted"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clean, light-weight sans-serif headings with generous letter-spacing, maintaining a highly uniform and understated size hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The design courageously embraces extreme negative space, treating the webpage as an expansive, minimalist cartographic canvas. By using subtle dotted grids and tiny coordinate markers, it perfectly mirrors the 'spatial' theme of the product without relying on heavy UI elements.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -2,23 +2,10 @@
 
 | slug | url | gallery | scope | mood | industry |
 |------|-----|---------|-------|------|----------|
-| awwwards-clicktokeep-com-a5244b | https://www.clicktokeep.com/ | awwwards | multi-page | bold, editorial, minimal | culture, digital-art, editorial |
-| awwwards-indigo-laboratory-it-b0a577 | https://indigo-laboratory.it/ | awwwards | multi-page | luxe, bold, editorial | fashion, luxury-jewelry, e-commerce |
-| awwwards-instrument-com-421e58 | https://www.instrument.com/ | awwwards | multi-page | bold, editorial, minimal | design, agency, creative-services |
-| awwwards-matarellis-gr-e9ed82 | https://www.matarellis.gr/en/ | awwwards | multi-page | bold, editorial, luxe | food-beverage, spirits-alcohol |
-| awwwards-sen-knife-com-3703d3 | https://sen-knife.com/2.0/ | awwwards | multi-page | minimal, luxe, editorial | home-services, culinary-knives, luxury-goods |
-| awwwards-sondaven-com-63068d | https://sondaven.com/en | awwwards | multi-page | luxe, editorial, minimal | real-estate, luxury-real-estate, architecture |
-| awwwards-tenity-com-04fb87 | https://www.tenity.com/ | awwwards | multi-page | minimal, bold, editorial | fintech, venture-capital, startup-accelerator |
-| awwwards-vaulk-com-7b32fb | https://vaulk.com/ | awwwards | multi-page | minimal, bold, luxe, editorial | security, defense-architecture, luxury-bunkers |
-| awwwards-venetianspa-ca-cc2bec | https://venetianspa.ca/ | awwwards | multi-page | luxe, editorial, minimal | beauty, wellness, spa, luxury-services |
-| awwwards-zetta-joule-com-4f8b96 | https://zetta-joule.com/ | awwwards | multi-page | minimal, editorial, luxe | energy, nuclear-energy, climatetech |
-| one-page-love-avec-ai-af98cd | https://www.avec.ai/ | one-page-love | single-page | minimal, luxe, editorial | saas, mobile-app, productivity |
-| one-page-love-cogito-md-232606 | https://cogito.md/ | one-page-love | single-page | minimal, editorial, luxe | saas, productivity-software |
-| one-page-love-fourmula-ai-6a334e | https://fourmula.ai/ | one-page-love | single-page | bold, editorial | saas, e-commerce-tools, photography |
-| one-page-love-heyparker-ai-9ef186 | https://heyparker.ai/ | one-page-love | single-page | editorial, playful, bold | marketing, advertising, saas |
-| one-page-love-interfaces-dev-1b08f4 | https://interfaces.dev/ | one-page-love | single-page | minimal, editorial, playful | media, design-engineering, education |
-| one-page-love-johnyvino-com-6a2def | https://johnyvino.com/ | one-page-love | single-page | minimal, bold, editorial | design, portfolio, tech |
-| one-page-love-mainframe-app-ec37de | https://mainframe.app/ | one-page-love | single-page | minimal, bold, luxe | saas, developer-tools, artificial-intelligence |
-| one-page-love-monologue-to-a5f1a5 | https://www.monologue.to/ | one-page-love | single-page | minimal, editorial, luxe | saas, productivity-software |
-| one-page-love-patternbreak-ing-73f233 | https://patternbreak.ing/ | one-page-love | single-page | bold, editorial, playful | design, education, sustainability |
-| one-page-love-weppy-app-f9599e | https://weppy.app/ | one-page-love | single-page | bold, playful, minimal | saas, macos-utility, design-tools |
+| one-page-love-cursor-com-65b49d | https://cursor.com/compile/ | one-page-love | single-page | minimal, editorial, luxe | tech, design-conference, software |
+| one-page-love-flexdigital-io-221df4 | https://flexdigital.io/ | one-page-love | single-page | minimal, editorial, bold | design, creative-agency, web-development |
+| one-page-love-magma-build-63674c | https://magma.build/ | one-page-love | single-page | luxe, editorial, minimal | saas, ai-infrastructure, consulting |
+| one-page-love-patina-md-8e18c7 | https://patina.md/ | one-page-love | single-page | minimal, playful, editorial | saas, productivity, artificial-intelligence |
+| one-page-love-rootsquare-academy-0eebc2 | https://rootsquare.academy/ | one-page-love | single-page | playful, editorial | education, edtech, tutoring |
+| one-page-love-waxyweb-agency-a47c94 | https://www.waxyweb.agency/ | one-page-love | single-page | playful, bold | design, creative-agency |
+| one-page-love-withbobbin-com-ff15d8 | https://withbobbin.com/ | one-page-love | single-page | editorial, minimal | education, tutoring, saas |

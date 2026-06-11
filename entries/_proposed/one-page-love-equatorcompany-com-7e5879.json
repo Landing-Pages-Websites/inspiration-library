@@ -1,0 +1,83 @@
+{
+  "id": "one-page-love-equatorcompany-com-7e5879",
+  "source": {
+    "url": "https://equatorcompany.com/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-equatorcompany-com-7e5879.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-equatorcompany-com-7e5879__scroll0.webp",
+      "shots/_proposed/one-page-love-equatorcompany-com-7e5879__scroll1.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "brand-consultancy",
+      "design-studio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Rhythmic vertical scroll progression with consistent viewport-snapped layouts that create a hypnotic, meditative user journey."
+    },
+    {
+      "kind": "layout",
+      "note": "Extreme negative space utilization, pushing branding to the top-left margin and interactive prompts to the lower-center, leaving the canvas completely open."
+    },
+    {
+      "kind": "color",
+      "note": "Unbroken, high-saturation peach/salmon color blocking that dominates the entire visual field to establish instant brand recall."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the hypnotic scroll experience by utilizing CSS Scroll Snapping (scroll-snap-type: y mandatory) on a full-height container, ensuring each section is exactly 100vh. Use GSAP ScrollTrigger to orchestrate subtle, staggered opacity fades on the minimal text elements as they enter and exit the viewport, maintaining a seamless, distraction-free flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFA570",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Helvetica Neue",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Strictly uniform, low-contrast type scale with small, clean sans-serif labels to emphasize negative space.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The design stands out through its radical commitment to emptiness and repetition. By stripping away all traditional landing page components in favor of a singular, repeating scroll prompt on a solid color block, it transforms a simple website into a conceptual, meditative brand experience.",
+  "animation_tech": [],
+  "status": "proposed"
+}

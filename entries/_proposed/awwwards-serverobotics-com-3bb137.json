@@ -1,0 +1,102 @@
+{
+  "id": "awwwards-serverobotics-com-3bb137",
+  "source": {
+    "url": "https://www.serverobotics.com/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-serverobotics-com-3bb137.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-serverobotics-com-3bb137__scroll0.webp",
+      "shots/_proposed/awwwards-serverobotics-com-3bb137__scroll1.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.serverobotics.com/safety/",
+        "screenshot": "shots/_proposed/awwwards-serverobotics-com-3bb137__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "robotics",
+      "technology",
+      "delivery-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered counter animations that dynamically increment from zero to their final metrics as the user scrolls into the statistics section."
+    },
+    {
+      "kind": "layout",
+      "note": "An ultra-minimalist, high-whitespace layout that uses generous vertical spacing to create a cinematic, unhurried reading pace."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated deep forest green base paired with high-energy mint green and warm yellow accents to signal sustainability and high-tech friendliness."
+    },
+    {
+      "kind": "section",
+      "note": "Clean, border-separated FAQ accordions that expand smoothly to reveal detailed safety and operational information without cluttering the page."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the scroll-driven counter effect, implement an intersection observer that triggers a numerical interpolation animation (counting up from zero to the target value) once the statistics section enters the viewport.",
+    "To build the motion system, use a scroll-linked animation framework where elements fade in and slide upward slightly as the user scrolls, utilizing generous vertical padding to create a breathing, cinematic pacing."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#093829",
+        "role": "primary-dark"
+      },
+      {
+        "hex": "#49DDB1",
+        "role": "accent"
+      },
+      {
+        "hex": "#F1C443",
+        "role": "cta-warm"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111827",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Euclid Circular",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "High contrast with large, medium-weight headings and small, highly legible body text with generous line-height.",
+    "radius": "subtle",
+    "spacing": "airy"
+  },
+  "standout": "The design stands out through its extreme use of whitespace and cinematic pacing, using scroll-triggered animations to gradually reveal content, which makes the physical robot technology feel clean, futuristic, and non-threatening.",
+  "animation_tech": [],
+  "status": "proposed"
+}

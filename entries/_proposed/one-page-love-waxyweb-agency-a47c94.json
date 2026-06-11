@@ -1,0 +1,102 @@
+{
+  "id": "one-page-love-waxyweb-agency-a47c94",
+  "source": {
+    "url": "https://www.waxyweb.agency/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-waxyweb-agency-a47c94.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-waxyweb-agency-a47c94__scroll0.webp",
+      "shots/_proposed/one-page-love-waxyweb-agency-a47c94__scroll1.webp",
+      "shots/_proposed/one-page-love-waxyweb-agency-a47c94__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Neo-brutalist card layouts featuring thick black borders, high-contrast solid background colors, and pill-shaped containers."
+    },
+    {
+      "kind": "type",
+      "note": "Heavy, tightly-spaced sans-serif headings paired with clean, readable body text, often enclosed in pill-shaped badges or speech-bubble-like cards."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-colored palette featuring hot pink, bright orange, sky blue, and sunny yellow, grounded by stark black borders and white backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "A vertical scrolling countdown loader with numbered circles that counts down rapidly before transitioning and revealing the main page content."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonials styled as overlapping, tilted cards with vibrant solid backgrounds, star ratings, and circular avatars."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the loading sequence, use GSAP to animate a vertical stack of numbered circles scrolling rapidly upwards, fading out the loading screen once the countdown completes to reveal the main content.",
+    "Create the neo-brutalist aesthetic using thick, solid black borders on cards and buttons, combined with bright, saturated background colors and zero-offset box shadows to mimic a physical sticker or badge.",
+    "Implement a continuous horizontal marquee ticker in the footer using GSAP to smoothly translate a text track infinitely."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d747a7",
+        "role": "accent"
+      },
+      {
+        "hex": "#a3daf5",
+        "role": "accent"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "neutral"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Founders Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, ultra-bold grotesque headings with tight letter-spacing contrasted against clean, medium-weight body text.",
+    "radius": "rounded (heavy use of pill shapes, fully rounded buttons, and moderately rounded card corners)",
+    "spacing": "balanced (spacious hero and footer sections balanced by tightly packed, overlapping card grids)"
+  },
+  "standout": "The site stands out through its playful neo-brutalist 'sticker-book' aesthetic, featuring tilted testimonial cards, hand-drawn style badges, and a unique vertical-scrolling countdown loader.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

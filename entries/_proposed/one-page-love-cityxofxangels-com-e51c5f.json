@@ -1,0 +1,88 @@
+{
+  "id": "one-page-love-cityxofxangels-com-e51c5f",
+  "source": {
+    "url": "https://cityxofxangels.com/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-cityxofxangels-com-e51c5f.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-cityxofxangels-com-e51c5f__scroll0.webp",
+      "shots/_proposed/one-page-love-cityxofxangels-com-e51c5f__scroll1.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art-and-design",
+      "publishing",
+      "fashion"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "type",
+      "note": "Massive, screen-spanning sans-serif title in a vibrant cyan-blue hue that dominates the visual hierarchy."
+    },
+    {
+      "kind": "layout",
+      "note": "Extreme asymmetrical grid with tiny body copy pushed to the far left and minimal interactive anchors hugging the viewport edges."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered transition where heavy typographic elements sweep away, leaving pure, uninterrupted background color fields to create dramatic breathing room."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, dual-tone palette pairing a very pale ice-blue background with a striking, saturated sky-blue for primary typography."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the scroll behavior, implement a scroll-bound animation container where text elements are bound to scroll progress. As the user scrolls, apply a transform-Y translation at slightly different speeds (parallax) combined with an opacity fade-out, transitioning the viewport into a completely clear, solid-colored canvas before the next content block enters.",
+    "Use viewport-relative units (vw) for the giant display typography to ensure it always spans the exact width of the screen, while keeping body copy constrained to a narrow, readable column with absolute positioning relative to the viewport edges."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#E3F4FC",
+        "role": "background"
+      },
+      {
+        "hex": "#00A3E0",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Helvetica Neue LT Pro 85 Heavy",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extreme contrast between giant, screen-filling display headers and tiny, highly-readable body copy.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The design courageously pairs giant, screen-filling vibrant blue typography with vast expanses of empty ice-blue space, creating a stark, high-fashion editorial feel that behaves more like a physical art gallery than a traditional website.",
+  "animation_tech": [],
+  "status": "proposed"
+}

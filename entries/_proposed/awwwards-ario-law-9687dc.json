@@ -1,0 +1,102 @@
+{
+  "id": "awwwards-ario-law-9687dc",
+  "source": {
+    "url": "https://ario.law/en/",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-ario-law-9687dc.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-ario-law-9687dc__scroll0.webp",
+      "shots/_proposed/awwwards-ario-law-9687dc__scroll1.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://ario.law/en/team/",
+        "screenshot": "shots/_proposed/awwwards-ario-law-9687dc__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "legal",
+      "professional-services"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Perspective-tilted cards on the left and right edges rotate and slide into view on scroll, creating a 3D depth effect."
+    },
+    {
+      "kind": "layout",
+      "note": "High-contrast, asymmetric grid with massive negative space, alternating between pure black and pure white section backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Ultra-bold, oversized grotesque sans-serif headlines paired with clean, structured metadata blocks."
+    },
+    {
+      "kind": "section",
+      "note": "A dynamic 'Team' grid featuring floating black-and-white portrait thumbnails that expand or reveal details on hover."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the 3D perspective card carousel, use CSS 3D transforms (rotateY, perspective) combined with a scroll-driven animation library like GSAP ScrollTrigger to dynamically adjust the rotation and horizontal translation of the edge cards as they enter the viewport.",
+    "Implement a smooth page-background color transition from deep black to pure white between major sections using intersection observers to toggle theme classes on the body element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#3A7D9C",
+        "role": "accent"
+      },
+      {
+        "hex": "#8E8E93",
+        "role": "muted"
+      },
+      {
+        "hex": "#1C1C1E",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, high-contrast display headings (90px+) paired with compact, highly-readable body text (14px-16px) with tight line-heights.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The design stands out through its dramatic use of 3D-tilted perspective cards on the screen edges, transforming a traditional law firm website into an immersive, editorial digital experience. The stark transition from a pitch-black homepage to a bright white interior team page creates a powerful, high-contrast brand identity.",
+  "animation_tech": [],
+  "status": "proposed"
+}
