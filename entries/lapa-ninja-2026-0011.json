@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0011",
+  "source": {
+    "url": "https://wearecollins.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0011.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0011__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0011__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0011__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://wearecollins.com/programs",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0011__p2.webp"
+      },
+      {
+        "url": "https://wearecollins.com/case-studies",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0011__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding-agency",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating high-contrast color blocks, transitioning from an airy, off-white editorial layout to a deep, dark brown immersive grid."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, high-contrast serif headings paired with clean, ultra-minimal sans-serif body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated base of warm off-white and deep dark chocolate brown, allowing the highly saturated, colorful project imagery to pop."
+    },
+    {
+      "kind": "motion",
+      "note": "Floating, multi-layered image collages that parallax and shift depth as the user scrolls, creating a dynamic 3D scattering effect."
+    },
+    {
+      "kind": "section",
+      "note": "Minimalist table-style lists with thin horizontal dividers and subtle hover states for service offerings."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the floating collage effect using absolute positioning and scroll-driven parallax to translate individual rounded-corner images at varying speeds.",
+    "Implement a seamless background color transition on scroll, shifting the viewport from a clean cream background to a deep dark brown canvas as the user enters the case studies or footer sections.",
+    "Use a high-contrast serif font for large, centered editorial statements with generous letter-spacing and line-height, paired with a strict, low-contrast sans-serif for metadata and UI elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f8f7",
+        "role": "background"
+      },
+      {
+        "hex": "#140700",
+        "role": "surface"
+      },
+      {
+        "hex": "#1d1d1d",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#5e5855",
+        "role": "text-muted"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:GT Super Display",
+        "role": "heading"
+      },
+      {
+        "family": "Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body size) contrasted with tiny, widely-spaced sans-serif labels and metadata.",
+    "radius": "Subtle to rounded: sharp layout lines and table dividers contrasted with soft, heavily rounded corners on all project cards and floating images.",
+    "spacing": "Airy and expansive, utilizing massive vertical margins and generous breathing room around central text blocks."
+  },
+  "standout": "The site stands out through its masterful transition between an ultra-minimalist, editorial light mode and a dense, vibrant dark-mode portfolio grid, tied together by fluid, multi-layered parallax image collages.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

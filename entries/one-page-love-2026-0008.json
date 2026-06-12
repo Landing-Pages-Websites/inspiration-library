@@ -1,0 +1,103 @@
+{
+  "id": "one-page-love-2026-0008",
+  "source": {
+    "url": "https://withbobbin.com/",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0008.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0008__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0008__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0008__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "tutoring",
+      "saas"
+    ],
+    "mood": [
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternates between a warm cream background and high-contrast dark charcoal blocks to segment trust-focused content and pricing."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif headings paired with clean, highly legible sans-serif body copy, creating an editorial yet modern educational feel."
+    },
+    {
+      "kind": "color",
+      "note": "A signature soft yellow accent color is used consistently for primary CTAs, highlighted table columns, and background gradient washes."
+    },
+    {
+      "kind": "motion",
+      "note": "Features an interactive tabbed switcher where clicking left-hand accordion items updates the corresponding UI mockup on the right, paired with a Lottie animation in the hero simulating real-time transcription."
+    },
+    {
+      "kind": "section",
+      "note": "A distinctive comparison table ('Made for the classroom') that uses a full-height brand-colored yellow column to visually dominate and draw focus to the product's advantages."
+    }
+  ],
+  "technique_notes": [
+    "Recreate the interactive feature section by binding accordion state triggers to a dynamic media container on the right, swapping out UI mockups or playing specific Lottie animations when a new tab is activated. The hero uses a video-hero overlay card with a simulated Lottie progress indicator to visually demonstrate the 'transcribing' value proposition immediately.",
+    "To achieve the warm, trustworthy educational aesthetic, use a soft cream background instead of pure white, paired with deep charcoal typography for softer contrast. Use generous rounded corners on all cards and image containers to maintain a friendly, approachable feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f7f4f0",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1914",
+        "role": "text"
+      },
+      {
+        "hex": "#fbf27e",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface-dark"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:GT Super Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant editorial serif headings (~3.5x body size) paired with clean, medium-weight sans-serif body text and small uppercase labels.",
+    "radius": "Subtle to rounded: cards and image containers use a consistent medium-soft corner radius (~16px to 24px) to feel approachable.",
+    "spacing": "Airy and balanced, with generous vertical padding between major sections and tight, structured grids within feature blocks."
+  },
+  "standout": "The site beautifully balances an editorial, high-trust aesthetic with interactive product demos. The standout feature is the seamless integration of warm, human photography with clean, yellow-accented UI mockups that make complex AI tutoring tools feel tangible and easy to use.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

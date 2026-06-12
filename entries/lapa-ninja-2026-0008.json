@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0008",
+  "source": {
+    "url": "https://joindawn.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0008.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0008__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0008__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0008__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://joindawn.com/waitlist-signup",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0008__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "wellness"
+    ],
+    "mood": [
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Split-screen hero layout pairing a vibrant, abstract golden-orange gradient on the left with a warm, sun-drenched photographic portrait on the right."
+    },
+    {
+      "kind": "color",
+      "note": "A comforting, sunset-inspired palette transitioning from deep chocolate brown to radiant golden yellow, accented by a contrasting sky-blue banner."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-driven SVG path drawing where a golden circular arc traces its outline as the user scrolls, paired with scroll-linked opacity fades on section headers."
+    },
+    {
+      "kind": "section",
+      "note": "Massive, pill-shaped container cards with ultra-soft, oversized corner radiuses that frame full-width content blocks like the sky banner and FAQ section."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the motion system, use GSAP ScrollTrigger to link the scroll progress directly to the stroke-dashoffset of the circular SVG paths, creating the drawing effect. Simultaneously, bind scroll depth to the opacity of split-text characters or words to create the smooth, progressive text reveals. For the testimonial carousel, implement Swiper.js with a custom CSS transform that applies a slight rotation and perspective to the non-active cards, mimicking a physical fan of cards."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3d1a04",
+        "role": "text"
+      },
+      {
+        "hex": "#ff9c31",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffcb31",
+        "role": "cta"
+      },
+      {
+        "hex": "#fbf3eb",
+        "role": "background"
+      },
+      {
+        "hex": "#2b7099",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Recoleta",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Plus Jakarta Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Warm, editorial serif headings (~4x body size) paired with clean, highly legible geometric sans-serif body copy and small, widely-spaced metadata.",
+    "radius": "rounded \u2014 extremely generous, pill-like corner radiuses on major section containers, contrasted with fully pill-shaped buttons.",
+    "spacing": "airy \u2014 exceptionally spacious vertical padding and generous margins that give the circular motifs and large typography immense breathing room."
+  },
+  "standout": "The design beautifully translates the concept of 'Dawn' through a soothing, sunset-to-sunrise color gradient and a scroll-driven golden arc that mimics the rising sun, creating an incredibly calming user experience perfect for a mental health platform.",
+  "animation_tech": [
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}
