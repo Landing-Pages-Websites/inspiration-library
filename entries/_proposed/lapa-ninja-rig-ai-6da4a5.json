@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-rig-ai-6da4a5",
+  "source": {
+    "url": "https://rig.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-rig-ai-6da4a5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-rig-ai-6da4a5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-rig-ai-6da4a5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-rig-ai-6da4a5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://rig.ai/waitlist",
+        "full": "shots/_proposed/lapa-ninja-rig-ai-6da4a5__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Technical blueprint grid layout using thin 1px borders to separate sections, steps, and feature cards, mimicking a terminal or IDE interface."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast pairing of a bold, tightly-tracked neo-grotesque sans-serif for primary headings with a clean monospaced font for technical labels, step numbers, and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "Aggressive high-contrast palette dominated by a vibrant tactical red-orange accent against deep charcoal and pure black backgrounds, creating a high-energy developer aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Continuous horizontal marquee ticker below the hero and an animated 3D wireframe tunnel canvas in the footer CTA that reacts to scroll or mouse movement."
+    },
+    {
+      "kind": "section",
+      "note": "Terminal-style interactive mockups and system architecture diagrams with crossed-out cloud/telemetry nodes to visually reinforce the 'local-first' product value."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the hero's texture, apply a subtle horizontal scanline pattern overlay using a CSS repeating linear gradient or an SVG pattern over a vibrant red-orange background.",
+    "Build the technical diagrams using SVG elements with crisp 1px strokes, using CSS keyframes to animate radar pulses, dashed lines, and crossed-out interactive states.",
+    "The footer features a 3D perspective wireframe tunnel, which can be built using a canvas element with Three.js or raw WebGL, animating a rotating torus or cylinder grid to create an immersive depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ed462d",
+        "role": "accent"
+      },
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#161616",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f0ede6",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#22c55e",
+        "role": "success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:SF Pro Display",
+        "role": "heading"
+      },
+      {
+        "family": "Chivo Mono",
+        "role": "mono"
+      },
+      {
+        "family": "similar-to:SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, tightly-tracked bold headings (~4-5x body size) contrasted with tiny, uppercase monospaced labels and metadata.",
+    "radius": "Subtle to sharp: mostly sharp 90-degree corners on grids and terminal boxes, with chamfered/angled corners on primary buttons.",
+    "spacing": "Balanced density: generous vertical breathing room between major sections, but highly compact, structured grids within technical feature blocks."
+  },
+  "standout": "The site stands out through its uncompromising developer-centric aesthetic, combining a vibrant scanline-textured hero, terminal-style schematics, and an immersive 3D wireframe tunnel footer that perfectly visualizes 'breaking free' from cloud constraints.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

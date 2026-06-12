@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-analogueagency-com-3a74d2",
+  "source": {
+    "url": "https://analogueagency.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-analogueagency-com-3a74d2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-analogueagency-com-3a74d2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-analogueagency-com-3a74d2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-analogueagency-com-3a74d2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://analogueagency.com/cases-overview",
+        "full": "shots/_proposed/lapa-ninja-analogueagency-com-3a74d2__p2.webp"
+      },
+      {
+        "url": "https://analogueagency.com/case/ilgm",
+        "full": "shots/_proposed/lapa-ninja-analogueagency-com-3a74d2__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site alternates between massive, full-bleed media showcases and highly structured, multi-column editorial text layouts with generous whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a premium, high-contrast sans-serif with tight letter-spacing, often pairing a solid black primary phrase with a muted gray secondary action or subhead."
+    },
+    {
+      "kind": "color",
+      "note": "A strict neutral canvas of off-white, light gray, and deep black allows the vibrant, highly saturated colors of the portfolio case studies to command full attention."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a high-speed, looping radial light-streak video that creates an immediate sense of momentum beneath a static, centered statement."
+    },
+    {
+      "kind": "section",
+      "note": "The 'All Work' page utilizes a dense, uniform 4-column grid of rounded square cards, some featuring interactive elements like red notification badges or pie-chart status overlays."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the hero experience, implement a full-bleed background video container playing a high-contrast, abstract motion loop, overlaid with a flex-centered typographic container and a floating, glassmorphic pill navigation bar that sticks to the top of the viewport on scroll.",
+    "For the project archive, build a CSS grid of aspect-ratio square cards with a subtle border-radius. Implement hover states that transition a semi-transparent, dark circular overlay (resembling a pie chart or clock) to indicate interaction depth, paired with minimal text labels positioned directly beneath each card."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#ededed",
+        "role": "background-light"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#1c1c1c",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#7a7a7a",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#09f",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Graphik Medium",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, tight-leading headings (~4x body size) paired with clean, highly legible, medium-weight body copy and small, low-contrast metadata labels.",
+    "radius": "Subtle to rounded; square grid cards and floating header navigation use a defined medium border-radius, while case study hero images remain sharp and full-bleed.",
+    "spacing": "Airy and editorial, utilizing massive vertical margins to separate case study phases, contrasted with a dense, structured grid for the project index."
+  },
+  "standout": "The juxtaposition of an ultra-minimalist, high-contrast typographic layout with a dense, perfectly uniform square grid of project thumbnails featuring interactive status overlays like pie charts and notification badges.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
