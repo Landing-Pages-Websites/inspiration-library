@@ -1,0 +1,133 @@
+{
+  "id": "manual-2026-0027",
+  "source": {
+    "url": "https://superhuman.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0027.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0027__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0027__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0027__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://superhuman.com/products/mail",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0027__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-tools",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Feature sections utilize an alternating two-column layout, pairing a product mockup or screenshot on one side with descriptive text and bullet points on the other, creating a balanced visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "The typography system employs a large, bold sans-serif for primary headings, a lighter sans-serif for body text, and a distinct monospace font for UI elements within product mockups, creating clear hierarchy and brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "A deep purple/indigo serves as the dominant background and accent color, contrasted with white text and vibrant, distinct accent colors (green, orange, blue) used sparingly for highlights and within product interfaces."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up and slight scale-in effect as they scroll into view, creating a dynamic and engaging flow down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image/video exhibits a subtle parallax effect, moving slower than the foreground content, adding depth and visual interest to the initial viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent, full-height state to a compact, opaque, dark background version with a subtle backdrop blur upon scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a full-width video background with a prominent, centered headline and call-to-action, overlaid with interactive-looking UI elements that hint at the product's functionality."
+    }
+  ],
+  "technique_notes": [
+    "Implement a full-bleed hero video background with a subtle gradient overlay to ensure text readability, creating an immersive initial experience.",
+    "Utilize a scroll-triggered animation library (like locomotive-scroll) to orchestrate staggered fade-up and slight scale-in effects for content blocks as they enter the viewport, enhancing engagement.",
+    "Animate the header's transformation based on scroll position, transitioning from a transparent, taller state to a compact, opaque, dark background with a backdrop blur effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141413",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "light-text"
+      },
+      {
+        "hex": "#9E6EE5",
+        "role": "primary-accent"
+      },
+      {
+        "hex": "#D4C7FF",
+        "role": "light-purple-accent"
+      },
+      {
+        "hex": "#027E6F",
+        "role": "green-accent"
+      },
+      {
+        "hex": "#FF4814",
+        "role": "orange-accent"
+      },
+      {
+        "hex": "#1173A8",
+        "role": "blue-accent"
+      },
+      {
+        "hex": "#554DCB",
+        "role": "darker-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Super Sans VF",
+        "role": "heading"
+      },
+      {
+        "family": "Super Sans VF",
+        "role": "body"
+      },
+      {
+        "family": "Super Sans Mono VF",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, lighter sans-serif body text and uppercase labels, creating a strong, modern hierarchy. Monospace is used for specific UI elements within mockups for a technical feel. The Super Serif VF font is present but not prominently used on the homepage for primary content, so it's not listed as a primary role here for the homepage context. If it were used for display, it would be included with that role. For this homepage, Super Sans VF covers heading and body roles effectively, and Super Sans Mono VF covers the mono role. The prompt asks for 1-3 entries, and these three cover the observed usage well for the homepage content shown. If Super Serif VF were used for a specific display purpose on the homepage, it would be included. Based on the screenshots, it's not a primary font for the visible content hierarchy on the homepage itself, but rather a brand font that might be used elsewhere or in specific graphic elements not fully visible/readable as text."
+  },
+  "standout": "This site distinguishes itself with a highly dynamic and interactive hero section featuring a video background and a unique, almost holographic UI overlay that immediately conveys the AI product's capabilities. The sophisticated scroll-triggered animations and the consistent use of vibrant, contrasting accent colors against a deep, dark background create a premium and engaging user experience that feels less like a static marketing page and more like an interactive product demonstration.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

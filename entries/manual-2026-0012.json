@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0012",
+  "source": {
+    "url": "https://www.hims.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0012.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0012__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0012__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0012__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "telehealth",
+      "pharmaceuticals"
+    ],
+    "mood": [
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and content constrained to a central column, creating visual rhythm and hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are consistently paired with smaller, lighter sans-serif body text, establishing a clear and approachable typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy color palette featuring various shades of brown, cream, and light green is used for distinct section backgrounds, creating a natural and inviting feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Key section headings and content elements fade in and slide up slightly as they scroll into the viewport, creating a dynamic reveal effect for new content."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner and main navigation become sticky and slightly condense in height after initial scroll, maintaining persistent access to key information and actions."
+    },
+    {
+      "kind": "section",
+      "note": "Product and service offerings are presented within horizontally scrollable card carousels, allowing users to browse multiple options without leaving the current section."
+    },
+    {
+      "kind": "layout",
+      "note": "All interactive elements, including cards, buttons, and input fields, consistently feature soft rounded corners, contributing to a friendly and approachable aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "Sections are visually differentiated through distinct background colors, full-bleed imagery, or subtle textured overlays, creating clear content divisions.",
+    "Scroll-triggered animations utilize CSS keyframes or JavaScript to apply a subtle fade-up and slight vertical translation effect to elements as they enter the viewport, progressively revealing content.",
+    "The primary navigation and a promotional banner transition to a fixed position and reduced height after the user scrolls past the initial hero, ensuring persistent visibility and functionality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FFC671",
+        "role": "accent"
+      },
+      {
+        "hex": "#3D2E24",
+        "role": "background"
+      },
+      {
+        "hex": "#00A76E",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F4F1E6",
+        "role": "background"
+      },
+      {
+        "hex": "#444444",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sofia Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "IvarSoft",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong focal points, complemented by smaller, readable sans-serif body text and occasional uppercase labels for clarity and emphasis. The footer uses an oversized serif display font for brand presence."
+  },
+  "standout": "The site stands out with its warm, earthy color palette that feels both natural and sophisticated, moving away from typical clinical sterility. The consistent use of soft rounded corners across all interactive elements and content cards creates a friendly and approachable aesthetic, making complex health topics feel more accessible and less intimidating.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

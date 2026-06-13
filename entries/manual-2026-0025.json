@@ -1,0 +1,111 @@
+{
+  "id": "manual-2026-0025",
+  "source": {
+    "url": "https://resend.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0025.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0025__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0025__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0025__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "email-service"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dark-themed, wide-layout sections with content often centered or balanced with a prominent visual (code, video, chart) on one side and text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, oversized serif headings contrast with clean, legible sans-serif body text and small, uppercase sans-serif labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette featuring deep black backgrounds, bright white primary text, and various shades of grey for secondary text and subtle UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal elements (text, images, code blocks) reveal with a subtle fade-up or slide-in animation as they scroll into view."
+    },
+    {
+      "kind": "section",
+      "note": "Code editor interfaces and terminal-like displays are integrated as primary visual elements within feature sections, often accompanied by descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark aesthetic with high contrast between background and foreground elements, using subtle gradients and glows to add depth and visual interest.",
+    "Scroll-triggered animations are used to progressively reveal content sections and their internal components (text, images, code blocks) with a gentle fade-up or slide-in effect as the user scrolls down the page, likely utilizing css-keyframes.",
+    "A sticky navigation bar maintains persistent access to site links, remaining at the top of the viewport after the initial scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#464a4d",
+        "role": "surface-dark"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#6c6c6c",
+        "role": "text-tertiary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) with generous line height, paired with compact, legible sans-serif body text and small, uppercase sans-serif labels.",
+    "radius": "Subtle (e.g., 4-8px) for buttons, cards, and input fields, maintaining a clean, modern feel.",
+    "spacing": "Airy, with significant vertical spacing between major sections and balanced padding within content blocks, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The site's distinctive blend of a sophisticated, dark-mode aesthetic with prominent, beautifully rendered code editor interfaces as core visual elements. It successfully marries elegant typography with a developer-centric focus, making the technical aspects feel premium and inviting rather than purely utilitarian.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0011",
+  "source": {
+    "url": "https://fly.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0011.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0011__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0011__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0011__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "cloud-infrastructure"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, pairing large, custom illustrations with descriptive text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using a bold, modern sans-serif for headings, a readable serif for body text, and a distinct monospace for technical elements."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, pastel-like color gradients are used as background elements and section dividers, creating a soft yet energetic visual flow."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and key content elements reveal themselves with a subtle fade-in and slight upward translation as they scroll into view, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a large, whimsical, full-bleed illustration that visually anchors the page and introduces the brand's playful personality."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations using a library like locomotive-scroll to create a staggered fade-up and subtle parallax effect for elements as they enter the viewport.",
+    "Utilize custom SVG illustrations with a distinct hand-drawn, whimsical style and a vibrant, pastel color palette, integrating them directly into section layouts.",
+    "Apply CSS gradients for background transitions and overlays, ensuring smooth color shifts that complement the brand's playful aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#001aff",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#ba7bf0",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#996bec",
+        "role": "gradient-purple"
+      },
+      {
+        "hex": "#5046e4",
+        "role": "gradient-blue"
+      },
+      {
+        "hex": "#4d7cfe",
+        "role": "gradient-light-blue"
+      },
+      {
+        "hex": "#6ee5c2",
+        "role": "illustration-accent-green"
+      },
+      {
+        "hex": "#ffc83a",
+        "role": "illustration-accent-yellow"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Fricolage Grotesque",
+        "role": "heading"
+      },
+      {
+        "family": "Mackinac",
+        "role": "body"
+      },
+      {
+        "family": "Fragment Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) contrast with a readable serif body text, complemented by smaller, often uppercase labels and distinct monospace code snippets.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and input fields, maintaining a soft and approachable feel.",
+    "spacing": "Airy and open, particularly in the hero and between major content blocks, creating a sense of lightness and allowing illustrations to breathe."
+  },
+  "standout": "The site's most distinctive feature is its extensive use of whimsical, hand-drawn illustrations that are deeply integrated into the layout, creating a playful and approachable brand identity for a technical product. This unique visual storytelling, combined with vibrant gradient backgrounds, sets it apart from typical SaaS designs.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0013",
+  "source": {
+    "url": "https://www.houseofhoney.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0013.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0013__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0013__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0013__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "interior-design",
+      "luxury-home",
+      "design-studio"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections alternate between solid color backgrounds and rich photographic imagery, creating distinct visual breaks and a sense of depth."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography is used, pairing oversized, bold serifs and elegant script fonts for primary branding and section titles with small, refined sans-serifs for navigation and body text."
+    },
+    {
+      "kind": "color",
+      "note": "The palette centers on a warm, sophisticated contrast between a deep, rich brown and a soft, light pinkish-beige, complemented by vibrant accent colors within photographic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-in and slight upward slide as they enter the viewport, enhancing visual flow."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image employs a subtle parallax effect, scrolling at a slower rate than the overlaying text and navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Large, artistic script typography is integrated as a primary graphic element within full-width sections, often serving as a visual anchor or decorative overlay."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that transforms its background color and height as the user scrolls past the initial hero section.",
+    "Scroll-triggered animations are used to reveal new content sections, where elements fade in and translate slightly upwards as they become visible in the viewport, leveraging css-keyframes.",
+    "The hero section features a background image that scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect, likely achieved with CSS transforms or canvas animation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5E8E3",
+        "role": "background"
+      },
+      {
+        "hex": "#4A2B2B",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#E05C4D",
+        "role": "accent"
+      },
+      {
+        "hex": "#6B8E23",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Pinyon Script",
+        "role": "decorative-script"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold serif and elegant script headings (~4-5x body) with small uppercase sans-serif labels.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between full-bleed sections and balanced padding within content blocks."
+  },
+  "standout": "The site's distinctive use of large, artistic script typography as a central design element, often overlaid on full-bleed color blocks or images, creates a luxurious and editorial feel. This, combined with the rich, warm color palette and subtle motion, elevates the brand beyond a typical interior design portfolio.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-0014",
+  "source": {
+    "url": "https://juanmora.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0014.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0014__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0014__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0014__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-services"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The initial hero section dynamically transitions from a warm, blurry video background with text masking to a darker, illustrated scene featuring an avatar upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Oversized text in the initial hero section uses a masking effect to reveal images or video content within its letterforms as the user scrolls."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ an asymmetrical two-column layout, balancing large typographic elements with visual content or card grids."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography is used, featuring extremely large, bold sans-serif headings against smaller, lighter body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, desaturated peach/orange tone is consistently used as a primary accent and background color, often contrasted with dark backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'Work' section introduces its content with a large, transparent outline text animation that draws attention to the heading."
+    },
+    {
+      "kind": "section",
+      "note": "The footer features a prominent, full-width call-to-action section with a distinct background color and large, inviting typography."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated multi-stage hero experience, where an initial full-bleed video/image hero with dynamically masked text transitions seamlessly into a distinct, darker illustrated scene upon scroll, maintaining the prominent typography.",
+    "GSAP ScrollTrigger is extensively utilized to orchestrate scroll-triggered reveals, causing content sections and individual elements to animate into view with a subtle fade-up and slide effect as they enter the viewport.",
+    "Oversized, transparent outline text is used as a dramatic visual element to introduce key sections, animating into position to create a strong focal point."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F7E0D2",
+        "role": "background"
+      },
+      {
+        "hex": "#E6A785",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "light-text"
+      },
+      {
+        "hex": "#808080",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~4-5x body text) with smaller, lighter body text and uppercase labels for hierarchy",
+    "radius": "sharp, with organic shapes as decorative elements",
+    "spacing": "airy, particularly in hero and section breaks, creating an open and premium feel"
+  },
+  "standout": "The site's distinctive use of oversized, animated typography, particularly the name \"Juan Mora\" in the hero and \"Work\" section, combined with the warm, desaturated color palette and organic background shapes, creates a highly personal and artistic brand presence. The dynamic hero transition and smooth scroll-triggered reveals contribute to a premium and engaging user experience.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}
