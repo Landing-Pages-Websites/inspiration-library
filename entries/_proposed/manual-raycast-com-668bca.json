@@ -1,0 +1,108 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.raycast.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-raycast-com-668bca.webp",
+    "scroll": [
+      "shots/_proposed/manual-raycast-com-668bca__scroll0.webp",
+      "shots/_proposed/manual-raycast-com-668bca__scroll1.webp",
+      "shots/_proposed/manual-raycast-com-668bca__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-tools",
+      "software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width dark sections, using generous vertical spacing to create an airy feel between distinct feature blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface for impact, contrasted with smaller, lighter-weight sans-serif for body text and uppercase labels for section descriptors."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark background (#07080a) provides a high-contrast canvas for light gray and white text, accented by subtle red-pink gradients and glows to highlight key visuals and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new content sections animate into view with a subtle fade-in and upward slide, often accompanied by glowing visual elements that appear to be rendered via canvas."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented as distinct, self-contained blocks, each pairing a concise value proposition with a rich visual representation of the product's UI or a conceptual graphic."
+    }
+  ],
+  "technique_notes": [
+    "A dark mode aesthetic is established with a very dark background and light text, ensuring high readability and a premium feel.",
+    "The navigation bar remains fixed at the top of the viewport, providing persistent access to key links and download CTAs.",
+    "Uses a canvas-based animation system to render subtle background glows and potentially interactive elements within feature sections, combined with scroll-triggered reveals that animate content into view with a subtle fade and upward translation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#07080a",
+        "role": "background"
+      },
+      {
+        "hex": "#d8d8d8",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#e02b4d",
+        "role": "accent"
+      },
+      {
+        "hex": "#0f1013",
+        "role": "surface"
+      },
+      {
+        "hex": "#545454",
+        "role": "text-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, lighter body text and occasional uppercase, slightly tracked-out labels.",
+    "radius": "Subtle; buttons and card-like elements feature a slight corner radius (e.g., 4-8px).",
+    "spacing": "Airy; generous vertical spacing between sections, with content within sections maintaining a balanced density."
+  },
+  "standout": "The site stands out by seamlessly integrating the product's sophisticated desktop UI directly into the web experience, making it feel like an interactive demo rather than just static marketing. The dark, almost futuristic aesthetic with subtle, glowing canvas animations creates a premium and highly engaging presentation.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

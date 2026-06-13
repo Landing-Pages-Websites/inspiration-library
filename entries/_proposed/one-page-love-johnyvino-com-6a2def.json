@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://johnyvino.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-johnyvino-com-6a2def.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-johnyvino-com-6a2def__scroll0.webp",
+      "shots/_proposed/one-page-love-johnyvino-com-6a2def__scroll1.webp",
+      "shots/_proposed/one-page-love-johnyvino-com-6a2def__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-design",
+      "ui-ux"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a single-column, centered layout with generous vertical spacing, emphasizing individual sections."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive dot-matrix display font is used for the hero heading, contrasted with an elegant serif for quotes and a clean sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring a deep black background, light text, and a subtle, bright green accent for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal elements (text, images) reveal with a subtle fade-up or slide-in animation as they enter the viewport during scrolling. The main header also transforms from a full navigation bar to a minimalist sticky nameplate on scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Each content block is treated as a distinct section, separated by significant vertical whitespace and introduced by large, bold headings."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a stark dark mode aesthetic with a pure black background and crisp white text, creating a high-contrast, focused viewing experience.",
+    "Scroll-triggered animations are used extensively to introduce content. As the user scrolls, text blocks and image cards animate into view with a gentle upward slide and fade, creating a sense of progressive disclosure.",
+    "The hero section features a canvas-based animation that renders the main heading as a dynamic dot-matrix display, which then subtly disappears or transforms as the user scrolls past the initial viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "background-texture"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "quote"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, technical-style hero heading (~6x body) with a distinct, elegant serif for quotes (~1.5x body) and a clean, readable sans-serif for body text."
+  },
+  "standout": "The most distinctive feature is the animated dot-matrix text for the hero heading, which creates a unique blend of technicality and artistry. This, combined with the stark black background and minimalist layout, gives the site a highly sophisticated and almost artistic portfolio feel, rather than a typical marketing site.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

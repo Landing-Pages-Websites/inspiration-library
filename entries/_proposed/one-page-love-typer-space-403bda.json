@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://typer.space",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-typer-space-403bda.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-typer-space-403bda__scroll0.webp",
+      "shots/_proposed/one-page-love-typer-space-403bda__scroll1.webp",
+      "shots/_proposed/one-page-love-typer-space-403bda__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "ai",
+      "productivity-tool"
+    ],
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within a generous maximum width, creating ample whitespace around text and UI elements."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface (Inter) is used throughout, with clear hierarchy established through significant size and weight variations for headings, subheadings, and body text."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is dominated by warm, muted off-white and beige tones for backgrounds and surfaces, contrasted with a dark brown for all primary text and call-to-action buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "Subtle 3D letter tiles float and parallax gently in the background as the user scrolls, adding a dynamic yet non-distracting visual texture."
+    },
+    {
+      "kind": "motion",
+      "note": "The simulated macOS window UI element dynamically updates its displayed content as the user scrolls, showcasing different product interactions and features."
+    },
+    {
+      "kind": "section",
+      "note": "Major content blocks are clearly delineated by large, bold headings and significant vertical spacing, creating distinct narrative sections on the single page."
+    }
+  ],
+  "technique_notes": [
+    "The background features animated 3D letter tiles that subtly parallax as the user scrolls, creating a dynamic yet unobtrusive visual texture. This effect is powered by WebGL/Three.js, with elements moving at different speeds relative to the scroll position.",
+    "Key information is presented within a simulated operating system window UI, which updates its internal content to showcase different features or use cases as the user scrolls down the page, effectively acting as a scroll-triggered content carousel.",
+    "Content sections appear with a subtle fade-in or slide-up effect as they enter the viewport, drawing attention to new information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F5F0",
+        "role": "background"
+      },
+      {
+        "hex": "#211D1A",
+        "role": "text"
+      },
+      {
+        "hex": "#F0EBE4",
+        "role": "surface"
+      },
+      {
+        "hex": "#211D1A",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "cta-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold headings (~3-4x body text) with a clear, legible body text size.",
+    "radius": "subtle rounding on interactive elements like buttons, input fields, and the simulated Mac window.",
+    "spacing": "very airy, especially in the hero and between major sections, creating a sense of calm and focus."
+  },
+  "standout": "The most distinctive elements are the animated 3D floating letter tiles in the background, which provide a playful and unique texture without distracting from the content. The simulated Mac window UI element that dynamically updates its content on scroll is also a clever way to demonstrate the product's functionality.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

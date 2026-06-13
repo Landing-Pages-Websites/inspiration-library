@@ -1,0 +1,108 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://linear.app",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-linear-app-c20fad.webp",
+    "scroll": [
+      "shots/_proposed/manual-linear-app-c20fad__scroll0.webp",
+      "shots/_proposed/manual-linear-app-c20fad__scroll1.webp",
+      "shots/_proposed/manual-linear-app-c20fad__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "productivity-tool"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent dark mode theme is applied across all sections, utilizing a deep charcoal background with contrasting light text and UI elements."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings introduce each major section, providing strong visual hierarchy, while body text is smaller and lighter for readability."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette is dominated by dark grays and white, with vibrant, yet subtle, accent colors (blue, orange, pink) used sparingly within embedded product UI screenshots to highlight features."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content blocks, particularly the embedded product UI screenshots and their accompanying text, reveal with a subtle fade-in and slide-up animation as they scroll into the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each feature section follows a consistent two-column layout, pairing a prominent left-aligned heading and descriptive text with a detailed product UI screenshot on the right."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark theme with high contrast, achieved by using a very dark background color and light text colors for optimal readability.",
+    "Content sections are structured with a prominent left-aligned heading and a right-aligned visual element, often an embedded product UI, creating a clear visual hierarchy.",
+    "Elements, particularly the product UI screenshots and descriptive text blocks, are revealed using a staggered fade-in and subtle vertical slide-up animation as they enter the viewport, likely triggered by scroll events using CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#08090a",
+        "role": "background"
+      },
+      {
+        "hex": "#e4e5e9",
+        "role": "text"
+      },
+      {
+        "hex": "#4354b8",
+        "role": "accent"
+      },
+      {
+        "hex": "#e5591d",
+        "role": "accent"
+      },
+      {
+        "hex": "#f79ce0",
+        "role": "accent"
+      },
+      {
+        "hex": "#8a8f98",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with a generous line height, paired with smaller, legible body text.",
+    "radius": "Subtle rounding on interactive elements and within embedded UI, but sharp edges for main layout blocks.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and ample negative space around content blocks."
+  },
+  "standout": "The site's distinctive use of a deep, consistent dark mode combined with embedded, interactive-looking product UI screenshots creates a highly immersive and product-centric experience. The subtle, staggered scroll-triggered animations for these UI elements make the product feel dynamic and alive, effectively showcasing its capabilities within the marketing page itself.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

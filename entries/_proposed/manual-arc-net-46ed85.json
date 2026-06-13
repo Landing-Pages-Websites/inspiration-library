@@ -1,0 +1,118 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.arc.net",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-arc-net-46ed85.webp",
+    "scroll": [
+      "shots/_proposed/manual-arc-net-46ed85__scroll0.webp",
+      "shots/_proposed/manual-arc-net-46ed85__scroll1.webp",
+      "shots/_proposed/manual-arc-net-46ed85__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-browser",
+      "software"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently feature a large product screenshot or illustration centered, often with text positioned above or below, creating a clear focal point."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a distinct alternating background color pattern for sections, primarily between white, a vibrant blue, and a soft yellow, creating clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, slightly condensed sans-serif font for impact, while body text uses a more legible, modern sans-serif, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "Main content sections and product showcases reveal with a subtle fade-in and upward slide as they enter the viewport, creating a smooth, guided scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transitions from a transparent, full-width state to a sticky, condensed bar with a solid background and a subtle shadow upon scrolling down."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonial sections are presented as large, centered quotes from notable sources or short, punchy user statements, emphasizing social proof."
+    }
+  ],
+  "technique_notes": [
+    "Content sections are animated using CSS keyframes, triggering a fade-in and slight upward translation effect as they become visible in the viewport, creating a dynamic reveal sequence.",
+    "The primary navigation bar dynamically adjusts its styling, shrinking in height and gaining a solid background and shadow, once the user scrolls past the initial hero section.",
+    "Product screenshots are often presented within a stylized browser or device frame, sometimes overlapping section boundaries or appearing with a subtle parallax effect relative to their background elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3139fb",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#fffcea",
+        "role": "background-yellow"
+      },
+      {
+        "hex": "#000",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#2404aa",
+        "role": "secondary-blue"
+      },
+      {
+        "hex": "#fb3a4d",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#000354",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Marlin Soft SQ",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with generous line height, paired with smaller, legible body text and even smaller, uppercase labels for secondary information, creating a clear hierarchy with a playful touch."
+  },
+  "standout": "The site stands out with its playful yet sophisticated use of vibrant gradients and alternating background colors, creating a dynamic visual rhythm. The integration of detailed product screenshots within stylized frames, often overlapping or appearing with subtle motion, effectively showcases the product in an engaging and distinctive manner.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

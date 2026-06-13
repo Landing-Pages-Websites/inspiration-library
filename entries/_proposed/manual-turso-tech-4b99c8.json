@@ -1,0 +1,110 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://turso.tech",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-turso-tech-4b99c8.webp",
+    "scroll": [
+      "shots/_proposed/manual-turso-tech-4b99c8__scroll0.webp",
+      "shots/_proposed/manual-turso-tech-4b99c8__scroll1.webp",
+      "shots/_proposed/manual-turso-tech-4b99c8__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "database",
+      "developer-tools",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A subtle, dark grid pattern is used as a background texture for most content sections, providing visual depth without distraction."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, oversized sans-serif headings in a vibrant teal accent color establish a clear visual hierarchy across the page."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features a deep dark background paired with a bright, almost neon teal for primary accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards animate into view with a subtle fade-up effect as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms into a compact, sticky version with a solid dark background after the initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented in a two-column grid of distinct cards, each with an icon, title, and brief description, often with a subtle border."
+    }
+  ],
+  "technique_notes": [
+    "Sections and individual content blocks are revealed using CSS keyframe animations that apply a slight upward translation and opacity change as they enter the viewport.",
+    "The global header dynamically adjusts its height and background style, transitioning to a compact, sticky state with a solid dark background once the user scrolls past the hero section.",
+    "A subtle, repeating SVG or CSS grid pattern is applied as a background texture to most dark sections, creating a sense of depth and structure."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121b1f",
+        "role": "background"
+      },
+      {
+        "hex": "#4ff7d1",
+        "role": "accent"
+      },
+      {
+        "hex": "#29886e",
+        "role": "cta"
+      },
+      {
+        "hex": "#b6ffe5",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#283945",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with a very large hero title (~5-6x body) and smaller uppercase labels for categories or sub-headings, all contributing to a modern, tech-forward feel. The hero title is particularly impactful due to its size and vibrant color contrast against the dark background. Body text is a comfortable reading size, ensuring readability despite the high contrast."
+  },
+  "standout": "The site's design is distinctive for its high-contrast, tech-forward aesthetic, achieved through a deep dark background paired with a vibrant, almost neon teal accent color. The subtle grid background texture adds a layer of sophistication without clutter, making the content feel grounded yet dynamic. If a builder copied only one idea, it should be the bold and consistent application of the neon teal accent against the dark backdrop to highlight key information and calls to action.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

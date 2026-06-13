@@ -1,0 +1,125 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://workos.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-workos-com-07a925.webp",
+    "scroll": [
+      "shots/_proposed/manual-workos-com-07a925__scroll0.webp",
+      "shots/_proposed/manual-workos-com-07a925__scroll1.webp",
+      "shots/_proposed/manual-workos-com-07a925__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "enterprise-software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a prominent, large-scale headline on the left paired with a dynamic, interactive UI component on the right, creating a clear visual hierarchy and engagement point."
+    },
+    {
+      "kind": "type",
+      "note": "Key headlines and call-to-action text utilize a vibrant gradient overlay, adding a modern and energetic feel to important textual elements."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of white and dark charcoal is consistently accented by a range of blues and purples, often applied as gradients, to highlight interactive elements and key information."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal content (like feature cards and logos) reveal with a subtle upward slide and fade-in animation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar maintains a fixed position at the top of the screen after the initial scroll, providing persistent access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'unified platform' section uses a distinct dark background with code snippets and illustrative UI elements to visually represent technical capabilities and differentiate it from other content blocks."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations are used to progressively reveal content: elements slide up and fade into view as their containing sections enter the viewport, creating a dynamic browsing experience, likely using JavaScript and CSS keyframes.",
+    "The main navigation bar transitions to a sticky state, maintaining its position at the top of the screen once the user scrolls past the hero section.",
+    "Testimonials are presented within a horizontally scrolling carousel, implemented with a library like Swiper, allowing users to browse multiple quotes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#26251e",
+        "role": "text"
+      },
+      {
+        "hex": "#4353ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#6363f1",
+        "role": "accent-gradient-component"
+      },
+      {
+        "hex": "#558adb",
+        "role": "accent-gradient-component"
+      },
+      {
+        "hex": "#14343b",
+        "role": "dark-section-background"
+      },
+      {
+        "hex": "#8f96bd",
+        "role": "muted-text"
+      },
+      {
+        "hex": "#b1b3f6",
+        "role": "subtle-background-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Untitled Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Untitled Sans",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (hero ~4-5x body) with smaller, often uppercase, supporting labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, cards, and interactive UI elements, providing a soft, approachable feel.",
+    "spacing": "Airy vertical spacing between major sections, creating clear content separation, while feature grids maintain a balanced, readable density."
+  },
+  "standout": "The site stands out with its sophisticated use of gradients on key typography and interactive UI elements directly integrated into the hero and feature sections, making complex technical offerings feel approachable and visually engaging. The dark, code-focused 'unified platform' section provides a strong visual anchor and effectively communicates technical depth within a clean design.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

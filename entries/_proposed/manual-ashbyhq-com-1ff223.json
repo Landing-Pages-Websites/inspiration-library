@@ -1,0 +1,110 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.ashbyhq.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ashbyhq-com-1ff223.webp",
+    "scroll": [
+      "shots/_proposed/manual-ashbyhq-com-1ff223__scroll0.webp",
+      "shots/_proposed/manual-ashbyhq-com-1ff223__scroll1.webp",
+      "shots/_proposed/manual-ashbyhq-com-1ff223__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "human-resources",
+      "recruiting-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented within a consistent max-width container, centered on the page, with ample vertical spacing between distinct sections."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, modern sans-serif typeface, creating a strong visual hierarchy against a lighter-weight, highly legible sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette featuring a dominant white/light grey background, deep dark text, and a vibrant purple/blue for interactive elements and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and elements (like client logos, feature cards, and illustrative graphics) reveal with a subtle fade-up or slide-up animation as they scroll into view."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct content blocks are separated by generous vertical padding and often feature alternating light background colors (white and very light grey) to delineate information."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using scroll-triggered animations, where elements slide up and fade in as they enter the viewport, creating a dynamic content flow, likely using css-keyframes.",
+    "The primary navigation bar remains fixed at the top of the viewport during scroll, providing persistent access to site navigation.",
+    "Interactive elements like buttons and input fields feature subtle rounded corners and a consistent accent color for a cohesive brand experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F4F4F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#0C092A",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#1863DC",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#252060",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#EBEBEB",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings create a strong visual impact, with a clear step-down to legible, regular-weight body text and smaller, often uppercase, labels for hierarchy and detail."
+  },
+  "standout": "The site's distinctive use of a vibrant, deep purple/blue accent color against a predominantly white and light grey canvas, combined with dynamic, illustrative animations that reveal content on scroll, elevates it beyond a standard SaaS template. The 'A+' graphic animation is particularly unique.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
