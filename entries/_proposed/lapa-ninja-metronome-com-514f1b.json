@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-metronome-com-514f1b",
+  "source": {
+    "url": "https://metronome.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-metronome-com-514f1b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-metronome-com-514f1b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-metronome-com-514f1b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-metronome-com-514f1b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fintech",
+      "billing",
+      "infrastructure"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Feature sections frequently employ an asymmetrical two-column layout, pairing a prominent text block on one side with a detailed product UI screenshot on the other, often with the image extending beyond the text column."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif display headings introduce each major content section, creating strong visual anchors and contrasting with the smaller, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast color scheme uses off-white or light grey backgrounds for most sections, dark grey/black for primary text, and a vibrant accent green for calls to action and key brand elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent top banner and the main navigation bar become sticky after initial scroll, ensuring key information and navigation are always accessible at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A contextual 'Upcoming Webinar' notification card slides in from the bottom right corner of the screen as the user scrolls down, providing a secondary, scroll-triggered call to action."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections heavily integrate realistic, data-rich UI screenshots of the platform, often showing charts, tables, or billing interfaces, to visually demonstrate capabilities rather than relying on abstract imagery."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a sticky header and a top announcement banner that remain fixed at the top of the viewport after the user scrolls past the initial hero content, providing continuous access to navigation and important messages.",
+    "Scroll-triggered animations, likely orchestrated with GSAP, are used to reveal content dynamically as it enters the viewport, including a prominent webinar notification card that slides in from the bottom right.",
+    "Detailed product UI screenshots are presented as integral content elements, often within asymmetrical layouts, to visually explain complex features and data flows directly within the marketing narrative."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fafbf8",
+        "role": "surface"
+      },
+      {
+        "hex": "#1f2937",
+        "role": "heading"
+      },
+      {
+        "hex": "#565f5f",
+        "role": "text"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a3636",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#ced0c4",
+        "role": "subtle-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FK Display",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~3-4x body text) establish clear section hierarchy, complemented by highly legible body text and smaller, functional UI labels.",
+    "radius": "subtle; elements like buttons, cards, and product UI components feature slightly rounded corners, maintaining a modern yet approachable feel.",
+    "spacing": "balanced; generous vertical spacing between major sections creates an airy feel, while comfortable padding within content blocks ensures readability and visual clarity."
+  },
+  "standout": "The site's design is distinctive for its confident and direct integration of highly detailed, data-rich product UI screenshots as primary content. This approach, often presented in asymmetrical layouts, makes the complex billing and monetization infrastructure tangible and authoritative, effectively communicating value without relying on abstract concepts.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

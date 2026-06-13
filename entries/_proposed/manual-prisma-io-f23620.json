@@ -1,0 +1,111 @@
+{
+  "id": "manual-prisma-io-f23620",
+  "source": {
+    "url": "https://www.prisma.io/blog",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-prisma-io-f23620.webp",
+    "scroll": [
+      "shots/_proposed/manual-prisma-io-f23620__scroll0.webp",
+      "shots/_proposed/manual-prisma-io-f23620__scroll1.webp",
+      "shots/_proposed/manual-prisma-io-f23620__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.prisma.io/blog/series",
+        "full": "shots/_proposed/manual-prisma-io-f23620__p2.webp"
+      },
+      {
+        "url": "https://www.prisma.io/blog/prisma-compute-custom-domains",
+        "full": "shots/_proposed/manual-prisma-io-f23620__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "database"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column grid layout is consistently used for blog post listings, featuring a textual summary on the left and a visually distinct, often dark-themed illustrative image or card on the right."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif font family is used across all text elements, with hierarchy established through variations in weight, size, and color, from large headings to smaller meta-information."
+    },
+    {
+      "kind": "color",
+      "note": "The design employs a high-contrast palette of white backgrounds and dark gray text, punctuated by a vibrant teal accent color for primary call-to-action buttons, links, and key visual elements within blog post cards."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is initially transparent and fixed at the top, then transitions to a solid white background and slightly reduces its vertical padding as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Blog post cards feature dark, abstract, and often geometric illustrations or code snippets that visually represent the article's topic, creating a strong and consistent visual identity for each entry."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is fixed to the top of the viewport and dynamically changes its background color from transparent to solid white, while also subtly reducing its height or padding, once the user scrolls past the initial hero section.",
+    "Content is presented in a clean, centered layout with generous horizontal padding, utilizing a two-column grid for blog post listings where each item combines a textual summary with a visually distinct, often dark-themed illustrative image."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#00C896",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A clear, modern sans-serif type scale with headings (~2-3x body) and subheadings (~1.5x body) that are well-spaced from body text, and smaller, lighter text for meta-information.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, input fields, and card corners.",
+    "spacing": "Balanced and airy, particularly in the header and main content areas, with consistent vertical rhythm between sections and within text blocks."
+  },
+  "standout": "The site's design stands out through its sophisticated use of dark, abstract, and often geometric illustrations within its blog post cards, which are consistently themed with the vibrant teal accent color. This creates a visually rich and cohesive identity for each article while maintaining a clean, professional overall aesthetic.",
+  "animation_tech": [],
+  "status": "proposed"
+}

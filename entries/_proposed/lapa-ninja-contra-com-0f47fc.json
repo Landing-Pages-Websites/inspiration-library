@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-contra-com-0f47fc",
+  "source": {
+    "url": "https://contra.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-contra-com-0f47fc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-contra-com-0f47fc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-contra-com-0f47fc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-contra-com-0f47fc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "freelance-platform",
+      "design"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a discovery-focused layout, immediately presenting a wide array of content categories (trending topics, various project types) in card grids after a prominent hero search bar, encouraging exploration rather than a linear scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Extensive use of diverse card-based grids for showcasing content, where each card can have a unique visual style, image, and text overlay, creating a rich and varied content display."
+    },
+    {
+      "kind": "color",
+      "note": "A neutral base palette of white, light grey, and dark text is consistently used, providing a clean canvas that allows vibrant and diverse accent colors within content cards to stand out dramatically."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content cards animate into view with a subtle fade-up or slide-up effect as the user scrolls down the page, creating a dynamic and engaging content reveal experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, maintaining consistent access to key site functions and branding as the user scrolls through extensive content."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element is used to create a sticky navigation bar that remains at the top of the viewport, ensuring persistent access to branding and primary links.",
+    "Sections and individual content cards are revealed using scroll-triggered animations, where elements fade and slide into their final positions as they enter the viewport, leveraging CSS transitions or a JavaScript animation library like Lottie for a dynamic loading effect.",
+    "Content is organized into responsive grid layouts, with individual cards designed to accommodate diverse visual styles, images, and text overlays, allowing for a highly varied and engaging presentation of projects and topics."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fcfafa",
+        "role": "background"
+      },
+      {
+        "hex": "#242455",
+        "role": "text"
+      },
+      {
+        "hex": "#e5e7eb",
+        "role": "surface"
+      },
+      {
+        "hex": "#146ef5",
+        "role": "cta"
+      },
+      {
+        "hex": "#f04438",
+        "role": "accent"
+      },
+      {
+        "hex": "#53c1de",
+        "role": "accent"
+      },
+      {
+        "hex": "#d2d943",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with smaller, often uppercase, labels used for categories and metadata, creating a clear typographic hierarchy.",
+    "radius": "Consistently rounded corners (subtle to rounded) are applied to cards, buttons, and input fields, contributing to a friendly and modern aesthetic.",
+    "spacing": "Balanced spacing is used throughout, with generous vertical separation between major content sections and a tighter, consistent grid rhythm within card-based content areas."
+  },
+  "standout": "The site's design is distinctive for its highly dynamic and visually rich content presentation, particularly the diverse and engaging project cards that immediately showcase the breadth of creative work available. This moves beyond a typical static portfolio grid by integrating a powerful search and discovery mechanism directly into the hero section, making content exploration central to the user experience.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

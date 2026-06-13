@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-encore-dev-941424",
+  "source": {
+    "url": "https://encore.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-encore-dev-941424.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-encore-dev-941424__scroll0.webp",
+      "shots/_proposed/lapa-ninja-encore-dev-941424__scroll1.webp",
+      "shots/_proposed/lapa-ninja-encore-dev-941424__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "cloud-infrastructure"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections are used to clearly delineate distinct content blocks, creating a strong visual rhythm and separating marketing-focused content from technical details."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, and bold sans-serif headings introduce each section, providing clear hierarchy, while body text is lighter in weight and monospaced fonts are used for code examples to maintain readability and technical clarity."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette of light beige, deep charcoal, and a vibrant green accent is used consistently, with a secondary teal accent for specific highlights, ensuring visual impact and brand recognition."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal themselves with a subtle upward slide and fade-in effect as they enter the viewport, often accompanied by a background color transition from light to dark or vice-versa, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently integrate detailed, realistic UI dashboard screenshots and syntax-highlighted code snippets directly into the narrative, making complex technical concepts tangible and visually accessible."
+    }
+  ],
+  "technique_notes": [
+    "Sections are animated to slide up and fade into view as the user scrolls, creating a staggered reveal effect that guides attention through the content. This is often combined with a full-width background color transition for the incoming section.",
+    "The design employs distinct, full-bleed background colors for alternating sections (light beige and dark charcoal) to visually segment the page content and provide clear thematic breaks.",
+    "Code examples are presented within dedicated, dark-themed blocks with syntax highlighting, ensuring they are visually distinct and easy to read, often placed alongside descriptive text or UI elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eeeee1",
+        "role": "background"
+      },
+      {
+        "hex": "#0f0f0f",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#111111",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#4ade80",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#22d3ee",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#808080",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold, impactful sans-serif headings (approx. 3-4x body text) establish clear hierarchy, complemented by a legible body text and distinct monospaced code for technical details.",
+    "radius": "Subtle rounded corners (approx. 4-8px) are applied to buttons, cards, and UI elements, contributing to a modern and approachable aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical spacing between content blocks and within text elements, creating a sense of openness, particularly in the hero and section introductions."
+  },
+  "standout": "The site's design stands out by seamlessly integrating highly technical details, such as realistic UI dashboards and syntax-highlighted code snippets, directly into the marketing narrative. This makes a complex developer tool feel tangible and accessible, effectively bridging the gap between high-level benefits and practical implementation without overwhelming the user.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

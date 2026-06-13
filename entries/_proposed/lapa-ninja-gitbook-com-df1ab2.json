@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-gitbook-com-df1ab2",
+  "source": {
+    "url": "https://www.gitbook.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-gitbook-com-df1ab2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-gitbook-com-df1ab2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-gitbook-com-df1ab2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-gitbook-com-df1ab2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "knowledge-management",
+      "ai",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, abstract 3D graphic on one side, partially overlaid by a browser-like product UI mockup, with primary content and CTAs positioned on the other side."
+    },
+    {
+      "kind": "type",
+      "note": "Utilizes a very large, bold, sans-serif typeface for primary headings, creating strong visual impact, complemented by a clear, readable sans-serif for body text and a monospaced font for technical UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, minimalist palette dominated by white backgrounds and dark charcoal text, punctuated by a vibrant, warm orange accent color used for key graphics, call-to-action buttons, and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, flowing orange graphic in the hero section exhibits a subtle parallax effect, scrolling at a slower rate than the foreground content and product mockup, creating a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections throughout the page are introduced with a subtle fade-in and slight upward slide animation as they enter the viewport, enhancing engagement without being distracting."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections are presented as a mix of two-column layouts with text and supporting visuals, and grid-based cards with icons and short descriptions, maintaining a consistent visual language."
+    }
+  ],
+  "technique_notes": [
+    "A large, abstract 3D graphic is positioned as a background element in the hero, animated to scroll at a slower rate than the foreground content and product mockup, creating a parallax depth effect.",
+    "Content sections are revealed using scroll-triggered CSS keyframe animations that apply a subtle fade-in and upward translation as each section enters the user's viewport.",
+    "The main navigation bar and a persistent 'Ask' button are fixed to the viewport, ensuring they remain accessible regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1c1917",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#fe551b",
+        "role": "accent"
+      },
+      {
+        "hex": "#efeeed",
+        "role": "surface"
+      },
+      {
+        "hex": "#57534d",
+        "role": "text-muted"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very large, bold display headings (~4-5x body text) with clear, legible body text and smaller, subtle labels for UI elements.",
+    "radius": "Subtle rounding (e.g., 8-12px) applied consistently to buttons, cards, and UI elements, providing a soft, modern feel.",
+    "spacing": "Generally airy, especially in the hero and between major sections, with balanced spacing within content blocks and grids to maintain readability and visual hierarchy."
+  },
+  "standout": "The site's distinctive use of a large, flowing, abstract 3D graphic element that dynamically integrates with product mockups and provides a subtle background parallax effect. This graphic adds a unique visual identity and a sense of modern, sophisticated technology without being overly complex or distracting.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-incident-io-653fed",
+  "source": {
+    "url": "https://incident.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-incident-io-653fed.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-incident-io-653fed__scroll0.webp",
+      "shots/_proposed/lapa-ninja-incident-io-653fed__scroll1.webp",
+      "shots/_proposed/lapa-ninja-incident-io-653fed__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "incident-management",
+      "devops"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width content sections with a mix of text-left/image-right and image-left/text-right layouts, often featuring product UI screenshots."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast between large, bold, editorial serif headlines and clean, readable sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant orange accent color for call-to-action buttons and key highlights against a predominantly white and light grey background palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The top announcement bar disappears on scroll, and the main navigation bar becomes sticky with a solid white background after scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated full-bleed, vibrant orange section is used to deliver a key marketing message and call to action, breaking the page's otherwise light background rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation header transitions from a transparent background to a solid white background and fixes to the top of the viewport after a certain scroll depth, while a top announcement bar disappears completely.",
+    "Content sections and individual elements animate into view with a subtle fade-up or slide-up effect as they enter the viewport, likely orchestrated using CSS keyframes.",
+    "The hero section incorporates a playful 3D illustration (a car) that scrolls away with the content, contributing to the visual interest without being a persistent element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f25533",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#161618",
+        "role": "text"
+      },
+      {
+        "hex": "#ececed",
+        "role": "surface"
+      },
+      {
+        "hex": "#e4d9c8",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headlines (~3-4x body) create strong visual hierarchy, complemented by clear, readable sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle; most elements feature sharp corners, with very slight rounding on UI components and buttons.",
+    "spacing": "Balanced; the hero section is airy, while content sections maintain a comfortable vertical rhythm with ample padding between elements."
+  },
+  "standout": "The site effectively blends a serious, technical product (incident management) with a playful and approachable visual language, particularly through its whimsical 3D illustrations and the bold, editorial serif typography for headlines. This combination creates a distinctive brand personality that feels both authoritative and user-friendly.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

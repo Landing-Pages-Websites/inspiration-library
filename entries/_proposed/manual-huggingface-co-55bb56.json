@@ -1,0 +1,121 @@
+{
+  "id": "manual-huggingface-co-55bb56",
+  "source": {
+    "url": "https://huggingface.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-huggingface-co-55bb56.webp",
+    "scroll": [
+      "shots/_proposed/manual-huggingface-co-55bb56__scroll0.webp",
+      "shots/_proposed/manual-huggingface-co-55bb56__scroll1.webp",
+      "shots/_proposed/manual-huggingface-co-55bb56__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://huggingface.co/Intel",
+        "full": "shots/_proposed/manual-huggingface-co-55bb56__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "machine-learning",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a prominent asymmetrical layout with a large, dark, card-like content panel on the right side, contrasting with a bold text block on the left, creating a strong visual anchor."
+    },
+    {
+      "kind": "color",
+      "note": "The site strategically employs a dark theme for the hero and specific embedded content blocks (e.g., 'Team & Enterprise'), which then transitions to a predominantly light theme for the main informational sections, using color to delineate content hierarchy and focus."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for impact, smaller sans-serif for body text, and a distinct monospaced font used for data points and code-like elements, enhancing readability for technical content."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a large, dark content card in the hero section appears to stick or parallax, moving upwards to reveal more of its internal content (like a list of models) while the main hero text and background image scroll out of view."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses full-width sections with distinct background treatments (dark hero, light content, embedded dark cards) to segment information, culminating in a playful, full-width emoji motif at the very bottom that acts as a unique visual footer."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a scroll-triggered effect where a large, dark content panel is positioned to appear sticky or fixed relative to the viewport for a duration, allowing the surrounding hero content to scroll past it and create a layered reveal. Other content sections likely use simple fade-up or slide-up animations, possibly leveraging CSS keyframes, as they enter the viewport to introduce new information smoothly."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101217",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#4A4E57",
+        "role": "text"
+      },
+      {
+        "hex": "#86898F",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#FF3939",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#FFA600",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#21DE75",
+        "role": "accent-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Sans Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual hierarchy, complemented by smaller, often uppercase labels and a distinct monospaced font for data points.",
+    "radius": "Subtle rounded corners are consistently applied to cards, buttons, and input fields, providing a soft, modern feel without being overly rounded.",
+    "spacing": "The site maintains a balanced to airy density, with generous padding in the hero section and between content blocks, ensuring good readability and visual breathing room."
+  },
+  "standout": "The site's distinctive blend of a highly technical, dark-themed hero with a playful, recurring emoji motif (especially the large pile at the footer) sets it apart. This combination creates a unique brand personality that is both authoritative and approachable, avoiding the generic feel of many modern tech platforms.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

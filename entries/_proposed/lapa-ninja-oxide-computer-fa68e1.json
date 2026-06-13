@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-oxide-computer-fa68e1",
+  "source": {
+    "url": "https://oxide.computer",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-oxide-computer-fa68e1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-oxide-computer-fa68e1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-oxide-computer-fa68e1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-oxide-computer-fa68e1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-computing",
+      "infrastructure"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed, high-contrast layout with extensive use of technical diagrams, code snippets, and terminal-like UI elements integrated directly into content sections, often in asymmetrical arrangements."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon, green is used as the primary accent color against a very dark background, creating a high-tech, almost futuristic feel for interactive elements and data visualizations."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle parallax effect on the hero image, where a large server rack illustration scrolls slower than the overlaying text and UI elements, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently feature a two-column layout where one column contains a detailed technical diagram, screenshot, or code block, and the other provides explanatory text."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a monospace font for code examples and terminal interfaces, clearly distinguishing technical content from marketing copy and reinforcing the developer-centric focus."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax scrolling effect where a large background illustration moves at a slower rate than the foreground text and UI elements, creating a sense of depth as the user scrolls. This can be achieved using CSS transforms or JavaScript-based scroll libraries.",
+    "The site uses a dark mode aesthetic with a very dark background and light text, accented by a bright, almost neon green for interactive elements, highlights, and technical UI components. This high-contrast palette is consistently applied across all content.",
+    "Technical diagrams, code snippets, and interactive terminal-like UI elements are presented as integral parts of the content sections, often styled to mimic command-line interfaces or data visualizations, enhancing the technical credibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "text"
+      },
+      {
+        "hex": "#48D597",
+        "role": "accent"
+      },
+      {
+        "hex": "#232323",
+        "role": "surface"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase headings (~3-4x body) contrast with smaller, regular-weight body text, while monospace fonts are used for code snippets.",
+    "radius": "Sharp, with most UI elements, buttons, and content blocks featuring precise, unrounded corners.",
+    "spacing": "Balanced, with generous vertical spacing between sections and a more compact, information-dense arrangement within multi-column content blocks."
+  },
+  "standout": "The site's distinctive design lies in its immersive, high-tech dark theme, which is elevated by the consistent integration of vibrant green-accented terminal-like UI elements and detailed technical diagrams. This creates a strong, credible, and developer-centric aesthetic that avoids a generic corporate feel, making the complex technology feel tangible and accessible to a technical audience.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

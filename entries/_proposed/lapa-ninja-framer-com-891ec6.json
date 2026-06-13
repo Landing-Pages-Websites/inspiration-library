@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-framer-com-891ec6",
+  "source": {
+    "url": "https://www.framer.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-framer-com-891ec6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-framer-com-891ec6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-framer-com-891ec6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-framer-com-891ec6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-development",
+      "design-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered horizontally, often featuring a large, bold heading followed by a descriptive paragraph and sometimes a grid of examples or a large visual."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode aesthetic with a black background and white text, punctuated by vibrant, diverse colors within showcased project grids and UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in or slide-up effect as they enter the viewport. The initial hero content scrolls away, and a dynamic grid of site previews moves up to fill the primary visual space, revealing more items as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of large, interactive-looking UI elements or video embeds (e.g., a design studio interface, a dashboard) as primary visual content within feature sections."
+    },
+    {
+      "kind": "layout",
+      "note": "A prominent, dynamic grid layout is used to showcase numerous site examples and resources, often appearing as a central visual element after the hero section."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a dark theme with high contrast white text. Interactive elements like buttons and links use a subtle accent color. Large, full-bleed sections are used to create visual separation.",
+    "Scroll-triggered animations are used to reveal new content sections. As the user scrolls, elements like headings, paragraphs, and visual components (e.g., large UI screenshots, cards in a grid) fade in or slide up from the bottom of the viewport. The initial hero content scrolls out of view, and a dynamic grid of examples moves into the primary visual area, expanding to show more items.",
+    "The navigation bar starts transparent and fixed at the top, then becomes sticky with a solid dark background after the initial scroll past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      },
+      {
+        "hex": "#999999",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold display headings (~4-5x body) with clear, legible body text and smaller, uppercase labels for secondary information.",
+    "radius": "Subtle rounding on buttons and card-like elements, maintaining a modern, clean aesthetic.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within the hero, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The site's standout feature is its sophisticated use of a dynamic, expanding grid of diverse project examples that takes over the hero space after initial scroll, combined with large, interactive-looking UI embeds that effectively demonstrate product capabilities within a dark, minimal aesthetic. This creates a highly engaging and visually rich experience without feeling cluttered.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

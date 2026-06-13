@@ -1,0 +1,115 @@
+{
+  "id": "manual-zapier-com-50992e",
+  "source": {
+    "url": "https://zapier.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-zapier-com-50992e.webp",
+    "scroll": [
+      "shots/_proposed/manual-zapier-com-50992e__scroll0.webp",
+      "shots/_proposed/manual-zapier-com-50992e__scroll1.webp",
+      "shots/_proposed/manual-zapier-com-50992e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://zapier.com/ai",
+        "full": "shots/_proposed/manual-zapier-com-50992e__p2.webp"
+      },
+      {
+        "url": "https://zapier.com/mcp",
+        "full": "shots/_proposed/manual-zapier-com-50992e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "automation",
+      "artificial-intelligence",
+      "business-tools"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are frequently used, pairing a large visual (screenshot or illustration) with a text block, often with the visual slightly overlapping or extending beyond its immediate container."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange is consistently used for primary call-to-action buttons and key highlights, providing high contrast against both light and dark neutral backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Main headings feature large, bold sans-serif typography, establishing a clear visual hierarchy and conveying confidence, often paired with smaller, uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, reducing in height, gaining an opaque white background, and adding a subtle drop shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The page is segmented into distinct sections using alternating background colors, primarily white, off-white, and a deep, rich brown/black, to visually separate content blocks and create rhythm."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed-position header that dynamically changes its height, background color, and adds a subtle drop shadow via a CSS class toggle when the user scrolls past a certain threshold from the top of the viewport.",
+    "Utilize a flexible grid system to arrange content blocks, allowing for varying column widths and intentional visual offsets where images or illustrations might slightly break out of their grid lines or overlap adjacent text areas.",
+    "Present key numerical achievements using oversized, bold typography, often accompanied by smaller, descriptive labels, to immediately convey scale and credibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F9F7F3",
+        "role": "surface"
+      },
+      {
+        "hex": "#201515",
+        "role": "text"
+      },
+      {
+        "hex": "#FF4F00",
+        "role": "cta"
+      },
+      {
+        "hex": "#D97757",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body text) with standard-sized, readable body copy and smaller, uppercase labels for categories or stats.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, input fields, and card edges, maintaining a clean but not sharp aesthetic.",
+    "spacing": "Balanced to airy; generous vertical padding between sections, comfortable spacing within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of a deep, rich brown/black as a primary dark background color, paired with a vibrant orange accent, creates a sophisticated yet energetic feel that avoids common stark black-and-white or cool-toned palettes. This warm, high-contrast combination, applied across a clean, grid-based layout, gives the site a unique brand personality that feels both modern and established.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

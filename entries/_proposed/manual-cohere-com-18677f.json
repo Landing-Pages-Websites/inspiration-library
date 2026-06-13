@@ -1,0 +1,118 @@
+{
+  "id": "manual-cohere-com-18677f",
+  "source": {
+    "url": "https://cohere.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-cohere-com-18677f.webp",
+    "scroll": [
+      "shots/_proposed/manual-cohere-com-18677f__scroll0.webp",
+      "shots/_proposed/manual-cohere-com-18677f__scroll1.webp",
+      "shots/_proposed/manual-cohere-com-18677f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://cohere.com/blog",
+        "full": "shots/_proposed/manual-cohere-com-18677f__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "enterprise-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central max-width container, often featuring large, immersive background images or videos."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark theme with dominant deep greys and blacks, contrasted by crisp white text and strategic use of a muted dark blue/purple accent and occasional light beige section backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single modern sans-serif font family across all text, with large, bold headlines for impact and smaller, lighter weights for body copy and uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Key sections feature large background images that remain fixed in the viewport, creating a parallax scrolling effect as foreground content moves over them."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from a static position to a sticky, slightly condensed state with a solid background after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating section styles, often switching between dark backgrounds with light text and light backgrounds with dark text, or immersive image backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically reduces its height and adds a background color after the user scrolls past the initial hero section.",
+    "Achieve a parallax effect by setting large background images to 'fixed' attachment, allowing foreground content to scroll over them, creating a sense of depth.",
+    "Integrate Lottie animations for subtle, engaging micro-interactions within UI elements, such as animated arrows or icons, to provide visual feedback or draw attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#152455",
+        "role": "accent"
+      },
+      {
+        "hex": "#A4A4A4",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F0EEE9",
+        "role": "surface"
+      },
+      {
+        "hex": "#6A3E8A",
+        "role": "gradient-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Impactful, large, bold sans-serif headings (~3-4x body) with smaller, lighter body text and even smaller uppercase labels for categories or meta-information.",
+    "radius": "Subtle rounded corners on buttons, cards, and images, creating a soft but modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more balanced density within card grids."
+  },
+  "standout": "The site distinguishes itself through the sophisticated use of immersive, fixed background images that create a subtle parallax effect for key sections, lending a premium and dynamic feel. This, combined with a dark, elegant color palette and subtle Lottie animations for UI elements, elevates it beyond a generic template.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "manual-figma-com-86af25",
+  "source": {
+    "url": "https://www.figma.com/community",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-figma-com-86af25.webp",
+    "scroll": [
+      "shots/_proposed/manual-figma-com-86af25__scroll0.webp",
+      "shots/_proposed/manual-figma-com-86af25__scroll1.webp",
+      "shots/_proposed/manual-figma-com-86af25__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.figma.com/",
+        "full": "shots/_proposed/manual-figma-com-86af25__p2.webp"
+      },
+      {
+        "url": "https://www.figma.com/ai",
+        "full": "shots/_proposed/manual-figma-com-86af25__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "community-platform"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero and feature sections combine large text blocks with illustrative or product imagery, often incorporating floating graphic elements for visual interest."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, minimalist base of white and light gray is consistently contrasted with vibrant, often gradient-based, accent colors (purples, pinks, blues) used for illustrations, buttons, and card highlights."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a modern sans-serif font with significant size and weight variations to establish a clear hierarchy, from large, bold display text to smaller, lighter subheadings and uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards within grids are revealed with a subtle, staggered animation (a fade-in and slight upward translation) as they enter the viewport during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The majority of content is organized into flexible, responsive grids of cards, each featuring an image, title, and metadata, facilitating easy browsing and discovery of community contributions."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar is implemented, maintaining key links and actions visible at all times as the user scrolls down the page.",
+    "Sections and individual content cards are revealed using scroll-triggered animations, typically a subtle fade-in and slight upward movement as they enter the viewport, enhancing engagement. This likely leverages the detected css-keyframes.",
+    "The hero section incorporates floating illustrative elements that are positioned relative to the viewport, creating a sense of depth and dynamism as the page scrolls beneath them, potentially using webgl-three for more complex interactions or subtle movements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2C2C2C",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#7C2BDA",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#9747FF",
+        "role": "accent-purple-gradient"
+      },
+      {
+        "hex": "#FF99E0",
+        "role": "accent-pink-gradient"
+      },
+      {
+        "hex": "#E6E6E6",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Figma Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Apercu",
+        "role": "body"
+      },
+      {
+        "family": "Figma Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~4-5x body text) are paired with clear, legible body text and smaller, often uppercase, labels, creating a strong visual hierarchy.",
+    "radius": "Subtle (small corner radius on cards, buttons, and input fields, giving a soft but not fully rounded feel).",
+    "spacing": "Balanced (sections have ample vertical padding; card grids are well-spaced but dense enough to display many items without feeling cramped)."
+  },
+  "standout": "The site stands out by successfully blending a highly functional, grid-based content library with a playful and expressive visual language. This is achieved through the strategic use of vibrant, often gradient, accent colors, whimsical floating illustrations, and a dynamic scroll-triggered reveal system, which together prevent the extensive content from feeling overwhelming or generic.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

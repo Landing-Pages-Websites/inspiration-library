@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-dscout-com-fbcd94",
+  "source": {
+    "url": "https://www.dscout.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-dscout-com-fbcd94.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-dscout-com-fbcd94__scroll0.webp",
+      "shots/_proposed/lapa-ninja-dscout-com-fbcd94__scroll1.webp",
+      "shots/_proposed/lapa-ninja-dscout-com-fbcd94__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "research-platform",
+      "ux-research"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts with large headings and body text on one side, balanced by a prominent image or illustration on the other, often alternating sides down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif typography is used for all major section headings, creating a sophisticated and authoritative tone, contrasted with a clean sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich dark purple (#1b1126) serves as the primary background, providing a luxurious canvas for contrasting light text and vibrant, almost neon green (#33ff88) calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them (like cards or text blocks) slide up and fade into view as the user scrolls down the page, creating a dynamic reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently use a grid of three or four cards with icons and short descriptions, maintaining visual consistency for presenting benefits or capabilities."
+    }
+  ],
+  "technique_notes": [
+    "Sections and content blocks are revealed with a staggered slide-up and fade-in animation as they enter the viewport, creating a smooth and engaging scrolling experience. This effect is likely achieved using a JavaScript animation library like GSAP or a CSS Intersection Observer with keyframe animations.",
+    "The primary navigation bar is sticky, transitioning from a transparent background at the top of the page to a solid, dark background (matching the page's main background color) once the user scrolls past the initial hero content, ensuring it remains legible and accessible.",
+    "Interactive elements like tabs (e.g., in the 'Built for the way you do research' section) use subtle hover states and smooth transitions for active states, enhancing user interaction without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1b1126",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "body-text"
+      },
+      {
+        "hex": "#33ff88",
+        "role": "cta"
+      },
+      {
+        "hex": "#2a1e36",
+        "role": "surface"
+      },
+      {
+        "hex": "#8e8e8e",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body size) provide strong visual hierarchy, complemented by clean, legible sans-serif body text and smaller uppercase labels for context.",
+    "radius": "Subtle rounded corners (approx. 4-8px) are consistently applied to buttons, input fields, and card elements, contributing to a refined and modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections to prevent visual clutter, while content within sections maintains a comfortable density."
+  },
+  "standout": "The site's distinctive use of a deep, rich dark purple background combined with elegant serif typography for major headings creates a sophisticated and premium feel. This is further enhanced by the strategic use of a vibrant, almost neon green for calls to action, providing a striking contrast that guides the eye without overwhelming the design, elevating it beyond a generic SaaS template.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}
