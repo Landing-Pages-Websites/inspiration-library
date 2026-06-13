@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0060",
+  "source": {
+    "url": "https://miro.com/about",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0060.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0060__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0060__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0060__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://miro.com/index",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0060__p2.webp"
+      },
+      {
+        "url": "https://miro.com/canvas",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0060__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "collaboration-software",
+      "design-tools"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a generous max-width container, but key illustrative elements and some section backgrounds extend full-bleed, creating a dynamic visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, modern sans-serif headings are paired with clean, readable body text, often accompanied by small, uppercase labels for section titles or categories."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, predominantly white and light gray background is punctuated by vibrant accent colors (bright blue and yellow) used for calls-to-action, illustrations, and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and key content blocks animate into view with a subtle fade-up or slide-up effect as they enter the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Sections frequently alternate between text-heavy and image-heavy layouts, often featuring custom, colorful illustrations that break traditional grid lines to add visual interest."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation system (likely leveraging `locomotive-scroll` or similar) to reveal content sections and individual elements with a staggered fade-up or slide-up effect as they enter the viewport, enhancing engagement and guiding the user's eye through the content.",
+    "The primary navigation bar transitions from a transparent, slightly taller state to a more compact, sticky version with a solid background and subtle shadow after the user scrolls past the hero section.",
+    "Complex concepts are visually communicated through custom, vibrant illustrations that are integrated seamlessly into the content layout, often breaking traditional grid lines to add visual interest and a sense of playfulness."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F1F2F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1C1C1E",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#555A6A",
+        "role": "body-text"
+      },
+      {
+        "hex": "#3859FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFC900",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roobert PRO Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (~3-4x body text) with generous line height, complemented by smaller, often uppercase, descriptive labels. Body text is clean and readable.",
+    "radius": "Subtle. Most interactive elements and cards feature slightly rounded corners, contributing to a soft yet modern aesthetic.",
+    "spacing": "Balanced to airy. Generous vertical spacing between sections and ample horizontal padding create a clean, uncluttered, and breathable layout."
+  },
+  "standout": "The site's distinctive use of custom, vibrant, and often playful illustrations to explain complex collaboration concepts is highly effective. These illustrations are seamlessly integrated into the layout, often breaking traditional grid boundaries, which, combined with dynamic scroll-triggered reveals, creates a highly engaging and memorable user experience that feels both professional and approachable.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0041",
+  "source": {
+    "url": "https://clickup.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0041.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0041__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0041__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0041__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://clickup.com/v4",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0041__p2.webp"
+      },
+      {
+        "url": "https://clickup.com/api",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0041__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "project-management"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections between light backgrounds with centered content and dark, full-bleed backgrounds for key feature showcases and calls-to-action."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, large, bold sans-serif headings are paired with lighter-weight body text and small, uppercase labels for feature categories or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, multi-color gradients are used as prominent background elements for hero sections and calls-to-action, providing a dynamic contrast to the high-contrast black and white content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections animate into view with a subtle fade-in and slight upward translation as they enter the viewport, creating a guided reveal experience. The primary navigation bar remains sticky at the top of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently employ a two-column layout, presenting a concise textual explanation alongside a detailed, often animated, product screenshot or illustrative graphic."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed with a subtle fade-in and slight upward translation as they scroll into the viewport, likely triggered by an intersection observer, leveraging css-keyframes for the animation. The main navigation bar remains fixed at the top of the viewport after initial scroll.",
+    "Uses full-bleed, vibrant, multi-color gradients as background elements for key sections and calls-to-action, creating a distinct visual break from the predominantly white or dark content areas. These gradients often transition between 3-4 distinct hues.",
+    "Content is often presented in a two-column layout, pairing a concise text block with a detailed product screenshot or illustrative graphic, ensuring visual interest and clarity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#202020",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#646464",
+        "role": "body-text"
+      },
+      {
+        "hex": "#1ed760",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#838383",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#7f187f",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#8c1515",
+        "role": "alert-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter var",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong visual hierarchy, complemented by lighter body text and small, uppercase feature labels.",
+    "radius": "Subtle rounding on interactive elements like buttons and cards, but predominantly sharp corners for overall section blocks and image frames.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while content within feature grids is more tightly packed."
+  },
+  "standout": "This site stands out by masterfully blending a clean, high-contrast aesthetic with vibrant, multi-color gradients that serve as dynamic background elements for key sections and calls-to-action. The integration of detailed product screenshots within these diverse backgrounds, especially the dedicated dark-mode feature section, creates a distinctive and modern tech-forward feel that avoids generic marketing tropes.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

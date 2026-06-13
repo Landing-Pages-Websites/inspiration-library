@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0045",
+  "source": {
+    "url": "https://neon.tech",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0045.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0045__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0045__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0045__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "database",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width dark sections with content often framed by code snippets, terminal UIs, or data visualizations, creating a technical and immersive feel."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with large, bold sans-serif headings for impact and smaller, legible body text, complemented by monospaced fonts for code examples."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette dominated by deep dark backgrounds and crisp white text, accented by a vibrant, almost neon, green/teal for interactive elements, data visualizations, and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a smooth content progression. The hero background features a continuously animating, data-stream-like canvas visualization."
+    },
+    {
+      "kind": "section",
+      "note": "Each major feature or concept is presented in a distinct, full-width dark section, often integrating a relevant technical visual (code block, graph, diagram) to reinforce the message."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a canvas-based animation to render a dynamic, abstract data stream or network graph, providing a continuously moving and engaging background element.",
+    "Content sections are revealed using scroll-triggered animations, where elements within a section (text, images, code blocks) subtly fade in and translate upwards as they become visible in the viewport.",
+    "The primary navigation bar employs a sticky behavior, initially appearing transparent over the hero, then transitioning to a solid dark background with a subtle shadow as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "surface"
+      },
+      {
+        "hex": "#2c6d4c",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#94979e",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ff3621",
+        "role": "highlight"
+      },
+      {
+        "hex": "#e4f1eb",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (hero ~4-5x body) with a clear hierarchy, complemented by smaller, legible body text and distinct monospaced code blocks.",
+    "radius": "subtle (small corner radius on buttons, cards, and input fields)",
+    "spacing": "balanced to airy, with generous vertical spacing between sections and within content blocks, creating a sense of clarity and preventing visual clutter"
+  },
+  "standout": "The site's distinctive use of a dynamic, full-bleed canvas animation in the hero section, combined with integrated, interactive-looking data visualizations and terminal-style code examples throughout, creates a highly technical and immersive experience. It effectively communicates a complex backend service through a visually engaging and data-rich interface.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

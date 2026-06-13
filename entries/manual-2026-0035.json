@@ -1,0 +1,126 @@
+{
+  "id": "manual-2026-0035",
+  "source": {
+    "url": "https://amplitude.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0035.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0035__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0035__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0035__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://amplitude.com/ai-agents",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0035__p2.webp"
+      },
+      {
+        "url": "https://amplitude.com/mcp-server",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0035__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "analytics",
+      "ai"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered in a constrained column, often featuring a two-column split for text and visual examples."
+    },
+    {
+      "kind": "color",
+      "note": "Dynamic, multi-color gradient backgrounds are used as section dividers and visual anchors, transitioning smoothly between content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used to introduce each major section, creating a strong visual hierarchy."
+    },
+    {
+      "kind": "section",
+      "note": "Feature explanations are often presented in card-like structures or distinct content blocks with clear titles and supporting text, frequently accompanied by product screenshots or diagrams."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar transitions from a transparent overlay to a solid white background with a subtle shadow and reduced height as the user scrolls past the hero section, remaining sticky at the top.",
+    "Content sections are introduced with a gentle scroll-triggered animation, where elements appear to fade up into view as they become visible in the viewport, likely using CSS keyframes.",
+    "The background features a continuous, animated gradient that shifts colors and patterns across different sections, creating a sense of depth and visual flow throughout the page, potentially using canvas or CSS keyframes for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0C0C0E",
+        "role": "text"
+      },
+      {
+        "hex": "#1E61F0",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2F4F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#373D42",
+        "role": "body-text"
+      },
+      {
+        "hex": "#868D95",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#FF007A",
+        "role": "gradient-pink"
+      },
+      {
+        "hex": "#6A00FF",
+        "role": "gradient-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Proxima Nova",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (~3-4x body) with a clear hierarchy, complemented by a clean, readable body text.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and card elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more compact grid for feature cards."
+  },
+  "standout": "The most distinctive element is the dynamic, multi-color gradient background that seamlessly transitions across the page, creating a vibrant and modern aesthetic. This, combined with the clean, data-focused UI elements and subtle scroll-triggered animations, gives the site a sophisticated and engaging feel that goes beyond a typical marketing template.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

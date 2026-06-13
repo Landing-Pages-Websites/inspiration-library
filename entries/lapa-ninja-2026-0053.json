@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0053",
+  "source": {
+    "url": "https://www.replicate.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0053.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0053__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0053__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0053__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Vibrant, multi-color gradients are used as dynamic backgrounds for the hero section and as horizontal dividers between major content sections, contrasting with a largely monochromatic content area."
+    },
+    {
+      "kind": "layout",
+      "note": "Interactive code snippets and AI-generated image grids are integrated directly into content explanations, serving as both functional examples and strong visual elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar transforms its appearance (background, text color, search bar visibility) upon scrolling past the initial hero section, and the hero background features a dynamic, shifting gradient animation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, oversized, bold sans-serif typography is used for key statements and section titles, creating a strong visual hierarchy that draws attention to core messages."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a dynamic, animated gradient background that shifts colors and patterns, likely implemented using a canvas element or complex CSS keyframe animations, providing a vibrant and engaging visual foundation.",
+    "A sticky navigation bar is used, which transitions from a transparent state with light text over the hero to an opaque white background with dark text and a visible search input field once the user scrolls down the page.",
+    "Content sections are revealed using scroll-triggered animations, where elements subtly fade into view or slide up from the bottom as they enter the viewport, enhancing engagement without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EA2804",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "gradient-pink"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "gradient-orange"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "gradient-yellow"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "code-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very large, bold display headings (~4-5x body text) with clear, readable body text and smaller, distinct monospace for code examples.",
+    "radius": "Sharp corners for all interactive elements, cards, and content blocks, maintaining a crisp, modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, but a tighter grid for image examples."
+  },
+  "standout": "The site's distinctive use of vibrant, animated gradient backgrounds that dynamically shift and serve as both hero and section dividers, combined with the prominent, interactive display of code snippets and AI-generated image outputs, creates a highly technical yet visually engaging experience.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

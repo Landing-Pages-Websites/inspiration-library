@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0020",
+  "source": {
+    "url": "https://basement.studio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0020.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0020__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0020__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0020__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "branding"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric content blocks are used for project showcases, alternating large visual elements with concise text descriptions on opposing sides of the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize an extremely oversized, bold, and condensed sans-serif typeface, creating a strong, almost brutalist visual impact that contrasts with smaller, more functional body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark mode, predominantly using deep black backgrounds with stark white text, punctuated by subtle, vibrant blue accents within interactive elements and project visuals."
+    },
+    {
+      "kind": "motion",
+      "note": "A dramatic scroll-triggered effect causes the main page content to progressively disappear into a solid black background as the user scrolls down, leaving only the sticky header. Further scrolling then reveals the footer content emerging from the bottom of this black void."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Featured Projects' section emphasizes large, full-bleed visual assets (images or videos) for each project, with minimal text, allowing the work itself to dominate the presentation."
+    }
+  ],
+  "technique_notes": [
+    "The site implements a unique scroll-driven content transition where the primary page content appears to recede or fade into a solid black background as the user scrolls down. This effect, potentially leveraging the detected canvas animation technology, creates a sense of depth and mystery before the footer content is revealed by sliding or fading up from the bottom of the black screen.",
+    "Project showcases are built with large, impactful visual media that span significant width, often full-bleed, paired with concise textual descriptions. This creates a strong visual hierarchy where the 'work' is the primary focus.",
+    "Typography is used as a core design element, employing a very large, bold, and condensed sans-serif for headlines to establish a strong, modern, and almost industrial aesthetic, while body text maintains high legibility with a more neutral sans-serif."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181c20",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#292d39",
+        "role": "surface"
+      },
+      {
+        "hex": "#0066dc",
+        "role": "accent"
+      },
+      {
+        "hex": "#535760",
+        "role": "muted-text"
+      },
+      {
+        "hex": "#373c4b",
+        "role": "secondary-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed sans-serif headings (~4-5x body) create a powerful visual statement, contrasted with smaller, legible body and navigation text.",
+    "radius": "Sharp (predominantly 0px), contributing to a modern, angular, and precise aesthetic.",
+    "spacing": "Airy in the hero and between major sections, providing ample negative space, while content within project cards is more balanced."
+  },
+  "standout": "The most distinctive design element is the dramatic scroll-triggered content disappearance into a black void, followed by the footer's emergence. This creates a unique, immersive, and almost theatrical user experience that goes beyond typical scroll animations. The bold, almost brutalist typography also sets it apart from generic modern templates.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

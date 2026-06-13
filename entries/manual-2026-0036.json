@@ -1,0 +1,128 @@
+{
+  "id": "manual-2026-0036",
+  "source": {
+    "url": "https://anthropic.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0036.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0036__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0036__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0036__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.anthropic.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0036__p2.webp"
+      },
+      {
+        "url": "https://www.anthropic.com/learn",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0036__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "ai",
+      "technology",
+      "research"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical layout with a large, bold heading left-aligned and a supporting paragraph right-aligned, creating a balanced yet dynamic visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast in typography is used, pairing oversized, elegant serif headings for primary titles with clean, legible sans-serif fonts for body text, navigation, and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a sophisticated, muted palette dominated by light beige and off-white backgrounds, contrasted with a dark charcoal for text, and subtle, desaturated accent colors (orange, green, blue) for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks animate into view with a subtle fade-up or slide-up effect as the user scrolls down the page, creating a dynamic reveal for new content."
+    },
+    {
+      "kind": "motion",
+      "note": "The large world map graphic in the hero section subtly parallaxes, moving slower than the overlaying text as the page scrolls, adding depth to the visual."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Latest releases' section presents content in a three-column grid of cards, each featuring a date, category, and a 'Read announcement' call-to-action with a right-arrow icon."
+    }
+  ],
+  "technique_notes": [
+    "Sections and content blocks are revealed with a subtle fade-up or slide-up animation as they scroll into the viewport, likely using a scroll-triggered animation library like GSAP or Locomotive Scroll. The main navigation bar becomes sticky to the top of the viewport after initial scroll. A large background graphic in the hero section exhibits a subtle parallax effect, moving slower than the foreground text as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f0eee6",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#3d3d3a",
+        "role": "text"
+      },
+      {
+        "hex": "#eda100",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8e6dc",
+        "role": "card-background"
+      },
+      {
+        "hex": "#6ea100",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#6396d6",
+        "role": "accent-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~4-5x body text) create strong visual impact, complemented by smaller, lighter sans-serif body text and uppercase labels.",
+    "radius": "Subtle; small border-radius on buttons, cards, and input fields, maintaining a refined and modern feel.",
+    "spacing": "Balanced to airy; the hero section is very airy, while content sections use generous vertical padding and a balanced grid for cards."
+  },
+  "standout": "This site distinguishes itself with a sophisticated blend of classic and modern aesthetics, primarily through its elegant, oversized serif typography for headings paired with a clean sans-serif. The muted, refined color palette and subtle scroll-triggered animations, particularly the background parallax, create an authoritative yet approachable feel that avoids generic corporate design.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie"
+  ],
+  "status": "approved"
+}

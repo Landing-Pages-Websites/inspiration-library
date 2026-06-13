@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0019",
+  "source": {
+    "url": "https://attio.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0019.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0019__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0019__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0019__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "crm",
+      "sales-enablement"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a maximum width, with full-width sections used for backgrounds or specific interactive elements like the footer."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is a lighter weight, smaller sans-serif, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of predominantly white backgrounds and dark grey/black text, with subtle light grey surfaces for cards and section breaks, and a solid black footer."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal with a subtle fade-in and slide-up animation as they enter the viewport, creating a dynamic content flow."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky and slightly reduces its height, replacing a top announcement banner, as the user scrolls past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "A horizontal scrolling carousel is used for a testimonial/feature section, allowing users to swipe through content without increasing vertical page length."
+    },
+    {
+      "kind": "section",
+      "note": "Complex product UI mockups are integrated directly into feature sections, often presented within tabbed interfaces or as large, detailed screenshots to demonstrate functionality."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations are used extensively, where content sections fade in and slide up from the bottom as they enter the viewport, creating a dynamic reveal effect. This is likely implemented using a JavaScript scroll library like locomotive-scroll or GSAP ScrollTrigger.",
+    "The primary navigation bar transitions from a static position below an announcement banner to a fixed, slightly condensed sticky header once the user scrolls past the initial hero content.",
+    "A horizontal scrolling container is used to present a series of cards, allowing users to navigate through multiple items without increasing vertical page length, often indicated by pagination dots."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#2e3238",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#5c5e63",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e4e7ec",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#505967",
+        "role": "subtle-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) provide strong visual hierarchy, complemented by smaller, lighter weight body text and uppercase labels.",
+    "radius": "Subtle; most elements feature very slight corner rounding, almost sharp, with buttons having a slightly more noticeable but still minimal curve.",
+    "spacing": "Balanced; the hero section is airy with generous vertical spacing, while internal UI components and feature grids maintain a more compact, functional density."
+  },
+  "standout": "The site's standout feature is its seamless integration of highly detailed, interactive-looking product UI mockups directly into the page flow, often within tabbed interfaces or horizontal carousels. This provides an immediate, tangible sense of the product's functionality and sophistication, moving beyond generic screenshots to a more immersive demonstration.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

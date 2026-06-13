@@ -1,0 +1,125 @@
+{
+  "id": "manual-2026-0079",
+  "source": {
+    "url": "https://webflow.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0079.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0079__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0079__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0079__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://webflow.com/ai",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0079__p2.webp"
+      },
+      {
+        "url": "https://webflow.com/apps",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0079__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-development",
+      "no-code"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are full-width with a consistent maximum content width, often featuring a large hero image or illustration on one side and text on the other, or a grid of feature cards."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, contrasted with a more neutral, readable sans-serif for body text, and a distinct monospaced font for code snippets or technical labels."
+    },
+    {
+      "kind": "color",
+      "note": "The primary brand blue is used consistently for calls to action, links, and key interactive elements, standing out against a predominantly white and light grey background palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks reveal with a subtle fade-up or slide-in animation as they enter the viewport during scroll, creating a dynamic content flow. The main navigation bar remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a prominent visual (screenshot, illustration, or video) with a concise heading and bulleted list of benefits, often alternating the visual's side for visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the scroll-triggered motion, use a JavaScript animation library like GSAP ScrollTrigger to detect when content sections or individual elements enter the viewport. Apply a subtle transform (e.g., translate Y from a small negative value to zero) combined with an opacity change (from 0 to 1) to create a staggered fade-up reveal effect. The main navigation bar should be styled with a fixed position to remain at the top of the viewport. The large 'W' logo in the footer appears to be a background element that reveals as the page scrolls, possibly using a fixed background attachment or a parallax effect.",
+    "The site uses a clean, modern layout with full-width sections that contain content within a central, constrained column. Visuals often incorporate soft gradients and abstract shapes to add visual interest without overwhelming the content. Interactive elements like buttons and input fields feature subtle rounded corners and clear hover states."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#080808",
+        "role": "text"
+      },
+      {
+        "hex": "#146ef5",
+        "role": "accent"
+      },
+      {
+        "hex": "#fafcff",
+        "role": "surface"
+      },
+      {
+        "hex": "#cdbcf0",
+        "role": "illustration-accent-purple"
+      },
+      {
+        "hex": "#a6dabf",
+        "role": "illustration-accent-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "WFVisualSans-Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear hierarchy, supported by readable body text and small, often uppercase, labels.",
+    "radius": "Subtle rounded corners on buttons, cards, and interactive elements, maintaining a soft but not overly playful aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable spacing within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site stands out through its sophisticated use of scroll-triggered animations that subtly reveal content, combined with dynamic, gradient-infused illustrations that feel integrated rather than decorative. The large, partially revealed brand logo in the footer adds a distinctive, memorable touch.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

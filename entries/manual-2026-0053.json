@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0053",
+  "source": {
+    "url": "https://hubspot.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0053.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0053__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0053__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0053__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hubspot.com/case-studies",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0053__p2.webp"
+      },
+      {
+        "url": "https://www.hubspot.com/products/aeo",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0053__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing-automation",
+      "crm",
+      "business-software"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A vibrant orange is consistently used as the primary accent color for calls to action, interactive elements, and key textual highlights, creating strong visual anchors against predominantly neutral backgrounds."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ a split-screen layout, pairing large, impactful headlines and descriptive text with custom product illustrations or screenshots, often with a clear call to action."
+    },
+    {
+      "kind": "type",
+      "note": "Headings often feature a distinctive orange dot at the end of key phrases, serving as a subtle but consistent brand element and visual emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections reveal themselves with a subtle fade-in and slight upward translation as they enter the viewport during scrolling, creating a dynamic and engaging content loading experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a taller, initial state with a secondary utility bar to a more compact, sticky version with a solid background after the user scrolls past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured with distinct, full-width sections dedicated to social proof (partner logos, success stories), core product features (often in card grids), and educational content, providing a comprehensive overview."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a subtle parallax effect where the background image scrolls at a slower rate than the foreground content, adding depth and visual interest to the initial view.",
+    "Content sections are revealed using scroll-triggered animations (likely css-keyframes or framer-motion), applying a gentle fade-in and a slight upward slide as they become visible in the viewport, enhancing perceived responsiveness and guiding user attention.",
+    "The header implements a sticky behavior where it reduces in height and fixes to the top of the screen after a specific scroll depth, ensuring navigation remains accessible while optimizing screen real estate."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff4800",
+        "role": "cta"
+      },
+      {
+        "hex": "#1f1f1f",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f5ee",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff5c35",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Lexend Deca",
+        "role": "heading"
+      },
+      {
+        "family": "Zen Kaku Gothic New",
+        "role": "body"
+      },
+      {
+        "family": "HubSpot Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong hierarchy, complemented by a clean, readable sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounded corners (~4-8px) on buttons, input fields, and card elements, providing a friendly yet professional feel.",
+    "spacing": "Balanced and airy, with generous vertical padding between main sections and within content blocks, creating clear visual separation and reducing cognitive load."
+  },
+  "standout": "This site's design is distinctive for its highly branded use of a vibrant orange as a consistent visual anchor, strategically applied to CTAs and textual highlights. This, combined with custom, illustrative product screenshots and a clear, direct messaging style, creates an authoritative and comprehensive feel that avoids generic stock imagery, making the platform feel robust and trustworthy.",
+  "animation_tech": [
+    "css-keyframes",
+    "framer-motion"
+  ],
+  "status": "approved"
+}

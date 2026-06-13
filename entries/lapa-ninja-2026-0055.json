@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0055",
+  "source": {
+    "url": "https://www.sanity.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0055.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0055__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0055__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0055__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "content-management",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A dominant dark mode aesthetic (near-black backgrounds, white text) is consistently paired with vibrant, high-contrast accent colors for CTAs and data visualizations."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary messaging, contrasted with smaller, highly legible body text and compact, often uppercase, labels for secondary information."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections animate into view with a subtle fade-in and slight upward shift as they scroll into the viewport, creating a dynamic reveal."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background image that subtly parallaxes against the foreground content, adding depth to the initial view."
+    },
+    {
+      "kind": "section",
+      "note": "Complex technical concepts are illustrated through embedded, interactive-looking code snippets and abstract data visualizations within dark, full-width content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely powered by locomotive-scroll, to provide a fluid interaction as users navigate the page.",
+    "Sections are designed to appear dynamically, using a scroll-triggered animation that fades elements in and translates them slightly upwards as they become visible.",
+    "The hero background creates a sense of depth by moving at a different rate than the foreground text and buttons, achieved through a subtle parallax effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0b0b",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff4d00",
+        "role": "cta"
+      },
+      {
+        "hex": "#4a4a4a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#d000da",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#45ff00",
+        "role": "accent-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Arial-BoldMT",
+        "role": "heading"
+      },
+      {
+        "family": "ArialMT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with standard, legible body text and compact uppercase labels.",
+    "radius": "Sharp corners for most containers and elements, with subtle rounding on interactive buttons.",
+    "spacing": "Balanced density overall, with an airy hero section and generous vertical spacing between distinct content blocks."
+  },
+  "standout": "The site's distinctive use of a dark, almost black, background combined with vibrant, almost neon, accent colors (orange, purple, green) for CTAs and technical visualizations creates a high-tech, energetic, and sophisticated aesthetic. The integration of code-like UI elements directly into content sections is particularly unique, making complex information visually engaging.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

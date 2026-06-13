@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0051",
+  "source": {
+    "url": "https://gusto.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0051.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0051__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0051__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0051__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://gusto.com/product",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0051__p2.webp"
+      },
+      {
+        "url": "https://gusto.com/instant-demo",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0051__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "payroll",
+      "hr-tech"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently constrained to a central maximum-width column, often featuring large, illustrative UI screenshots or photography that spans the full content width."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for impact and smaller, highly readable body text, ensuring scannability and comprehension."
+    },
+    {
+      "kind": "color",
+      "note": "A professional palette dominated by white and dark gray provides a clean backdrop, accented by a vibrant teal/green for CTAs and key information, with occasional use of a deep purple for specific icons or illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header system is employed where a trust banner and the main navigation become fixed at the top of the viewport after initial scroll, while content sections below the hero reveal with a subtle slide-up effect."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a concise, benefit-driven headline with a large, detailed UI screenshot or a relevant photograph, visually demonstrating the software's functionality."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a sticky header system where a top-level trust banner and the main navigation transition from their initial positions to a fixed state at the top of the viewport after the user scrolls past the hero section. Content sections below the hero are revealed with a subtle slide-up animation as they enter the viewport, enhancing engagement and guiding the user's eye. The hero section features a full-bleed video background that scrolls with the page, providing dynamic visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1c1c1c",
+        "role": "text"
+      },
+      {
+        "hex": "#0a8080",
+        "role": "cta"
+      },
+      {
+        "hex": "#6e56cf",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      },
+      {
+        "hex": "#262626",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "GCentra",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, creating a strong visual hierarchy, with hero text being particularly oversized to command attention.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, input fields, and card-like elements, contributing to a soft and approachable feel.",
+    "spacing": "Balanced spacing overall, with generous vertical padding between sections and within the hero, creating an airy feel, while content within sections maintains a comfortable reading density."
+  },
+  "standout": "The site stands out with its sophisticated integration of a dynamic video hero and detailed UI screenshots directly into the content flow, making complex software features immediately tangible. The consistent use of a vibrant teal accent against a clean, professional backdrop, combined with subtle scroll-triggered reveals, creates an engaging and trustworthy user experience that avoids a generic template feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

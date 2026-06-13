@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0067",
+  "source": {
+    "url": "https://pendo.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0067.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0067__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0067__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0067__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.pendo.io/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0067__p2.webp"
+      },
+      {
+        "url": "https://www.pendo.io/ai",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0067__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "analytics",
+      "product-management"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections create visual segmentation, with dark sections often featuring grid layouts of product-focused cards."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant pink and purple gradients are used prominently in the hero background, CTA buttons, and key metric cards, providing energetic accents against a largely monochromatic base."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with oversized, bold sans-serif headings for primary messaging, complemented by a clean, legible sans-serif for body text, and a distinct, extra-large bold font for numerical metrics."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards reveal with a staggered fade-up or slide-in animation as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background gradient and the prominent product screenshot move at a slower rate than the foreground content, adding depth."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, implement a sticky navigation bar that remains fixed at the top of the viewport. For the hero, use a fixed or slow-parallax background image and product mockup to create a sense of depth as the user scrolls. Employ scroll-triggered animations (likely using CSS keyframes or a JavaScript library like GSAP) to reveal sections and individual content blocks, such as cards and large numbers, with a staggered fade-in and subtle upward translation as they enter the user's view.",
+    "Achieve the alternating light and dark sections by defining distinct background colors for each section, ensuring text color contrasts appropriately. The vibrant gradients can be applied as background images or overlays using CSS gradients for the hero and specific card elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F6F7EF",
+        "role": "background"
+      },
+      {
+        "hex": "#101010",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2949E5",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sora",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "WistiaPlayerInterNumbersSemiBold",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with a clear hierarchy, paired with a clean, legible sans-serif body text. Key metrics use a distinct, very large, bold display font.",
+    "radius": "Subtle (e.g., buttons and cards have slightly rounded corners, typically 4-8px).",
+    "spacing": "Balanced overall, with an airy hero section providing ample breathing room, transitioning to a more structured and dense grid layout for feature and metric displays."
+  },
+  "standout": "The site's distinctive use of vibrant pink and purple gradients, particularly in the hero and key metric cards, creates an energetic and modern aesthetic that stands out against the sophisticated dark mode product displays. This combination of bold color accents with a professional, data-rich presentation gives the site a unique blend of playfulness and authority.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

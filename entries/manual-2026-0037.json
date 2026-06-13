@@ -1,0 +1,104 @@
+{
+  "id": "manual-2026-0037",
+  "source": {
+    "url": "https://www.apple.com/iphone",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0037.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0037__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0037__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0037__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "electronics",
+      "consumer-tech",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Product cards are presented in a flexible grid that adapts to available space, often with a slight overflow to suggest more content beyond the current viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for strong hierarchy, while body text is much smaller and lighter, creating a clear visual distinction between primary and secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "A stark white background dominates the page, allowing high-quality product photography and subtle brand blue accents for links and calls to action to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the very top of the page remains fixed as the user scrolls, providing persistent access to site navigation while the main content scrolls underneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are introduced with large, centered or left-aligned headings, followed by product grids or informational blocks, maintaining a consistent and clean content structure."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element, ensuring it stays at the top of the viewport regardless of scroll depth, allowing for constant access to main site links.",
+    "Product displays utilize high-resolution, often isolated, photography against a clean white background to emphasize the product itself, making it the focal point of each section.",
+    "Information is presented in digestible blocks, often using a grid layout for product comparisons or accessory showcases, with minimal text and clear calls to action to guide the user."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#007AFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#86868B",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: SF Pro",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: SF Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with a clean, modern sans-serif, complemented by small, light body text and even smaller legal disclaimers.",
+    "radius": "Subtle (product images, some interactive elements like buttons and cards).",
+    "spacing": "Airy, with generous vertical spacing between sections and ample padding around content blocks, creating a sense of openness and premium feel."
+  },
+  "standout": "The design's standout feature is its extreme minimalism and reliance on exquisite, high-resolution product photography to convey value. The interface itself almost disappears, allowing the products to be the sole focus, creating a premium and aspirational feel without overt luxury cues.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

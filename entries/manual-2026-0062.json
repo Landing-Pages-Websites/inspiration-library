@@ -1,0 +1,129 @@
+{
+  "id": "manual-2026-0062",
+  "source": {
+    "url": "https://www.mongodb.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0062.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0062__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0062__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0062__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.mongodb.com/docs",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0062__p2.webp"
+      },
+      {
+        "url": "http://www.mongodb.com/atlas",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0062__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-platform",
+      "database",
+      "enterprise-software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Uses full-bleed sections with alternating dark and light background colors to delineate content blocks, often featuring a subtle grid pattern or gradient overlay."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette combining a deep, dark teal/blue with a vibrant, almost neon green accent, creating a modern and high-tech feel."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is clear and readable. Code examples are set in a distinct monospace font."
+    },
+    {
+      "kind": "motion",
+      "note": "The top informational banner disappears on scroll, and the main navigation bar becomes sticky at the top. Content scrolls over a fixed, subtly animated background grid and a glowing hero illustration."
+    },
+    {
+      "kind": "section",
+      "note": "Features a 'Loved by builders' section showcasing client logos and a testimonial, emphasizing trust and adoption within the developer community."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that activates after a short scroll, causing a top informational banner to slide out of view. The hero section features a fixed background with a subtle, animated grid pattern (likely canvas or CSS keyframes) over which the main content scrolls, creating a layered depth effect. Subsequent content sections appear to load statically as the user scrolls, without explicit scroll-triggered fade-ins or slides for entire sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#001e2b",
+        "role": "background"
+      },
+      {
+        "hex": "#00ed64",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#21313c",
+        "role": "surface"
+      },
+      {
+        "hex": "#014e3d",
+        "role": "gradient-dark"
+      },
+      {
+        "hex": "#b8c4c2",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f5f7fa",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Euclid Circular A",
+        "role": "heading"
+      },
+      {
+        "family": "Euclid Circular A",
+        "role": "body"
+      },
+      {
+        "family": "Source Code Pro",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong hierarchy, complemented by clear, readable body text and distinct monospace for code snippets.",
+    "radius": "subtle \u2014 a slight rounding on buttons, cards, and input fields, avoiding sharp corners but not fully pill-shaped.",
+    "spacing": "balanced \u2014 airy in the hero section with ample negative space, transitioning to a more balanced density in feature grids and a denser footer."
+  },
+  "standout": "The site's distinctive use of a dark, grid-patterned background combined with a vibrant, glowing green accent and integrated UI elements in the hero creates a strong, high-tech, and data-driven aesthetic. This visual language effectively communicates innovation and power, setting it apart from more generic corporate designs.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "rive",
+    "video-hero"
+  ],
+  "status": "approved"
+}
