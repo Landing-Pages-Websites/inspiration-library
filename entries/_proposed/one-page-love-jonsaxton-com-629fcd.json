@@ -1,0 +1,99 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.jonsaxton.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-jonsaxton-com-629fcd.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-jonsaxton-com-629fcd__scroll0.webp",
+      "shots/_proposed/one-page-love-jonsaxton-com-629fcd__scroll1.webp",
+      "shots/_proposed/one-page-love-jonsaxton-com-629fcd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "portfolio",
+      "software-engineering"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The entire site is structured as a series of terminal-like windows, each containing a project or information section, creating a consistent retro computing aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "A pixelated, monospaced font is used for all text, with larger, more pronounced pixelated text for headings, reinforcing the retro terminal theme."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of dark background, vibrant green primary text, and bright orange accents is used consistently, mimicking classic CRT monitors."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections appear to fade in or slide up from the bottom as the user scrolls, simulating new output appearing in a terminal window."
+    },
+    {
+      "kind": "section",
+      "note": "Each project entry is encapsulated within a distinct 'terminal window' component, complete with a title bar and window controls, providing clear visual separation and thematic consistency."
+    }
+  ],
+  "technique_notes": [
+    "The site simulates a retro command-line interface, where all content is presented within dark, rectangular frames resembling terminal windows. These frames feature a title bar with window control dots and a command prompt-like header.",
+    "Typography is rendered using a monospaced font, with larger headings employing a pixelated style to enhance the retro computer aesthetic.",
+    "Content sections are revealed using a scroll-triggered animation, where each 'terminal window' fades in and slides slightly upwards as it enters the viewport, mimicking new information being printed to the screen."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "JetBrains Mono",
+        "role": "body-mono"
+      },
+      {
+        "family": "similar-to: Press Start 2P",
+        "role": "display-pixel"
+      }
+    ],
+    "type_scale": "Large, pixelated display headings (~3-4x body) provide strong visual breaks, while body text maintains a consistent monospaced character.",
+    "radius": "sharp",
+    "spacing": "balanced"
+  },
+  "standout": "The site's most distinctive feature is its complete and immersive emulation of a retro command-line interface. Every element, from typography and color scheme to layout and motion, is meticulously crafted to maintain this theme, making it feel less like a website and more like an interactive terminal session.",
+  "animation_tech": [],
+  "status": "proposed"
+}

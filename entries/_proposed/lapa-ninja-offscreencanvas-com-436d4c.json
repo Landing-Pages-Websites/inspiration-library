@@ -1,0 +1,118 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://offscreencanvas.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-offscreencanvas-com-436d4c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-offscreencanvas-com-436d4c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-offscreencanvas-com-436d4c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-offscreencanvas-com-436d4c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software-development",
+      "web-design",
+      "education",
+      "creative-coding"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The main content area is structured as a two-column grid of visually rich, interactive cards, each representing a distinct tutorial or demo."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface (Inter) is used consistently across all text elements, with variations in weight and size to establish clear hierarchy for headings, body text, and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette is employed, featuring a deep charcoal background with crisp white text, allowing the vibrant, dynamic colors within the WebGL animations to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section showcases a full-bleed, interactive WebGL animation that dynamically responds to user interaction, setting an immediate tone of advanced creative development."
+    },
+    {
+      "kind": "motion",
+      "note": "Each content card features a unique, often abstract, WebGL or canvas animation as its thumbnail, providing a live preview of the technique discussed in the associated article."
+    },
+    {
+      "kind": "motion",
+      "note": "The minimalist navigation bar remains fixed at the top of the viewport as the user scrolls, providing persistent access to site sections."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is divided into multiple columns, offering structured navigation links and a prominent newsletter signup form, maintaining the site's minimalist aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site's core visual identity is built around embedding complex, interactive WebGL and canvas animations directly into the page content, serving as both decorative elements and functional content previews.",
+    "A dark, high-contrast color scheme with a single sans-serif font creates a minimalist and modern aesthetic, ensuring readability while allowing the vibrant animated elements to be the focal point.",
+    "The navigation bar is implemented as a sticky element, maintaining its position at the top of the viewport throughout the scroll, providing continuous access to key sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#100f10",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#2a282a",
+        "role": "surface"
+      },
+      {
+        "hex": "#b9bec2",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#db7676",
+        "role": "accent"
+      },
+      {
+        "hex": "#7fb9bc",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately sized and bold, providing clear hierarchy without being overly dominant, while body text is clean and legible.",
+    "radius": "Subtle: Elements like cards and buttons feature a consistent, slight corner rounding.",
+    "spacing": "Balanced: The grid layout maintains consistent, comfortable spacing between content cards, while the hero section is more airy."
+  },
+  "standout": "The site's most distinctive feature is its seamless integration of advanced, interactive WebGL and canvas animations as the primary visual content for nearly every item on the page. Instead of static images, users are presented with live, dynamic demonstrations of creative coding techniques, making the site itself a living portfolio of its subject matter.",
+  "animation_tech": [
+    "canvas",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

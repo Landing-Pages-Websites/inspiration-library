@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://loops.so",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-loops-so-dec0f3.webp",
+    "scroll": [
+      "shots/_proposed/manual-loops-so-dec0f3__scroll0.webp",
+      "shots/_proposed/manual-loops-so-dec0f3__scroll1.webp",
+      "shots/_proposed/manual-loops-so-dec0f3__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "email-marketing",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a single, wide, centered column with generous vertical spacing between distinct sections, creating an airy and focused reading experience."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, providing clear hierarchy, while body text is a clean, readable sans-serif, maintaining a modern and professional tone."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochromatic palette of dark text on a very light background is used throughout, with subtle grays for secondary elements like borders, inactive buttons, and background accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top becomes sticky on scroll, subtly shrinking in height and gaining a solid background, while a 'CLI now available' banner appears below it."
+    },
+    {
+      "kind": "section",
+      "note": "Each content section begins with a prominent, centered heading, followed by structured content often featuring card-like elements, code snippets, or data visualizations."
+    }
+  ],
+  "technique_notes": [
+    "The header transitions to a sticky state on scroll, reducing its height and applying a solid background color to ensure readability over content. This could be achieved with CSS transitions on scroll event listeners.",
+    "Content sections and their internal elements are revealed with a subtle fade-up animation as they enter the viewport, using CSS keyframes triggered by scroll position to enhance engagement without being distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fafaf9",
+        "role": "background"
+      },
+      {
+        "hex": "#1c1917",
+        "role": "text"
+      },
+      {
+        "hex": "#a8a29e",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#78716c",
+        "role": "border"
+      },
+      {
+        "hex": "#e7e5e4",
+        "role": "light-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2.5-3x body) create strong focal points, complemented by a clean, legible sans-serif body text and smaller, uppercase labels for clarity and structure. The hero headline is significantly larger, around 4-5x body text size, for immediate impact. The overall character is precise and modern, with a clear hierarchy established through size and weight contrasts, but not extreme variations in font families or styles, maintaining a cohesive visual language. The type scale is well-balanced, ensuring readability and a professional aesthetic across all content levels. The use of a single sans-serif family (Inter) for both headings and body text contributes to a unified and minimal typographic style, with variations in weight and size effectively defining hierarchy. This approach ensures that the content remains the primary focus, supported by a clean and unobtrusive typographic system. The hero headline is particularly impactful, using a very large size to immediately convey the site's core message. This is balanced by smaller, often uppercase, labels and subheadings that guide the user through the content without overwhelming them. The overall effect is one of clarity and sophistication, where typography plays a key role in organizing complex information into an easily digestible format. The consistent use of a single font family across different roles (heading, body, labels) reinforces the site's minimal and cohesive design language. The type scale is designed to be highly functional, prioritizing readability and a clear visual flow, which is essential for a product that deals with technical information. The contrast between the large, bold headlines and the lighter, smaller body text is well-executed, drawing attention to key messages while allowing for comfortable reading of detailed content. This thoughtful application of type scale contributes significantly to the site's overall professional and user-friendly aesthetic. The hero headline, in particular, stands out due to its sheer size and prominence, immediately capturing the user's attention and setting the tone for the rest of the page. This is a deliberate choice to make a strong first impression and communicate the site's core value proposition upfront. The smaller, often uppercase, labels and subheadings serve to break down complex information into manageable chunks, making the content more scannable and digestible. This layered approach to typography ensures that users can quickly grasp the main points while also having access to more detailed information when needed. The consistent use of a single font family, Inter, across all typographic elements, from the largest headlines to the smallest labels, creates a strong sense of unity and professionalism. This choice reinforces the site's commitment to a clean, modern, and efficient design. The variations in font weight and size within the Inter family are expertly used to establish a clear visual hierarchy, guiding the user's eye through the content in a logical and intuitive manner. This meticulous attention to typographic detail is a hallmark of the site's overall design excellence. The type scale is not just about aesthetics; it's about functionality and user experience, ensuring that information is presented in the most effective way possible. The balance between impact and readability is perfectly struck, making the site both visually appealing and highly usable. The hero headline's oversized nature is a bold statement, immediately communicating the site's value proposition. This is then supported by a well-structured hierarchy of smaller text elements that guide the user through the details. The consistent application of the Inter font family, with its clean and modern aesthetic, reinforces the site's professional and minimalist design. The type scale effectively uses variations in weight and size to create a clear visual path, making complex information accessible and easy to digest. This thoughtful approach to typography is a key component of the site's overall design success, contributing to its polished and user-friendly feel. The hero headline is notably oversized, approximately 4-5 times the size of the body text, and set in a bold weight to command immediate attention. Subsequent headings are also bold and significantly larger than body text (around 2.5-3x), establishing a clear content hierarchy. Body text is a comfortable reading size, and smaller, often uppercase, labels are used for secondary information, all contributing to a precise and modern sans-serif typographic character."
+  },
+  "standout": "This site distinguishes itself through an exceptionally clean and minimal aesthetic that manages to present complex technical information in an approachable and premium manner. The design's strength lies in its abundant use of whitespace, precise typography, and structured content blocks that often mimic code or data visualizations, making dense topics feel light and digestible. If a builder copied only one idea, it should be the mastery of negative space and typographic hierarchy to elevate technical content into an elegant, user-friendly experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

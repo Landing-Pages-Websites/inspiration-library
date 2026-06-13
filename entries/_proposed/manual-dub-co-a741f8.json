@@ -1,0 +1,118 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://dub.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-dub-co-a741f8.webp",
+    "scroll": [
+      "shots/_proposed/manual-dub-co-a741f8__scroll0.webp",
+      "shots/_proposed/manual-dub-co-a741f8__scroll1.webp",
+      "shots/_proposed/manual-dub-co-a741f8__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing-tech",
+      "analytics"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, featuring centrally aligned content blocks that often pair descriptive text with large, detailed product UI screenshots."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold sans-serif headings and highly readable, slightly smaller sans-serif body text, maintaining a clean and modern aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochromatic palette of white and dark gray for backgrounds and text, punctuated by a consistent set of vibrant accent colors (blue, red, green, purple) used for small UI elements, links, and status indicators within the embedded product mockups."
+    },
+    {
+      "kind": "motion",
+      "note": "Key content blocks and large product UI mockups slide up into view from the bottom of the viewport as the user scrolls, creating a staggered reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Repeated section structure that introduces a concept with a heading and text, immediately followed by a large, high-fidelity screenshot or interactive-looking mockup of the product's UI demonstrating that specific feature."
+    }
+  ],
+  "technique_notes": [
+    "Content sections and large embedded UI mockups are revealed using scroll-triggered animations, sliding upwards into the viewport with a subtle ease-in effect. This creates a dynamic, staggered content reveal as the user scrolls down the page.",
+    "The hero section features a subtle parallax effect where the background image scrolls at a slower rate than the foreground text and call-to-action elements, adding depth to the initial view.",
+    "The primary navigation bar remains fixed at the top of the viewport throughout the scroll, maintaining its initial appearance without transformation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#212121",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#E5E5E5",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "surface"
+      },
+      {
+        "hex": "#1976D2",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#D32F2F",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#22863A",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#6F42C1",
+        "role": "accent-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear visual separation from smaller, regular-weight body text, creating a strong, modern hierarchy.",
+    "radius": "Subtle rounding (e.g., 4-8px) on interactive elements like buttons and input fields, while major layout blocks maintain sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable horizontal spacing for content blocks, preventing a cluttered feel."
+  },
+  "standout": "The site's most distinctive design element is its extensive use of large, high-fidelity product UI screenshots and mockups embedded directly within content sections. These aren't just illustrative images; they serve as detailed visual explanations of the product's features, making complex concepts tangible and demonstrating functionality in a highly practical way.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

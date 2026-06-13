@@ -1,0 +1,116 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://render.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-render-com-7ab384.webp",
+    "scroll": [
+      "shots/_proposed/manual-render-com-7ab384__scroll0.webp",
+      "shots/_proposed/manual-render-com-7ab384__scroll1.webp",
+      "shots/_proposed/manual-render-com-7ab384__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-hosting",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, often pairing descriptive text with dynamic code snippets or dashboard previews."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant purple (#8A05FF) serves as the primary accent color, consistently applied to interactive elements, graphical charts, and a distinctive geometric background pattern."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings are paired with clear, readable body text, establishing a strong and accessible typographic hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky and transitions from transparent to a solid dark background with a subtle shadow upon scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up and slight slide-in animation as they enter the viewport, creating a smooth content flow."
+    },
+    {
+      "kind": "section",
+      "note": "A recurring abstract geometric grid pattern in shades of purple is used as a decorative border element, particularly prominent along page edges and within the footer."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is initially transparent and fixed, then transitions to a solid dark background with a subtle drop shadow and becomes sticky as the user scrolls down the page.",
+    "Content sections are introduced with a staggered fade-up and slight vertical translation animation as they become visible in the viewport, likely using css-keyframes for the reveals.",
+    "Dynamic visual elements in the hero section, such as code snippets and dashboard graphs, animate or cycle through different states to showcase product capabilities, potentially leveraging lottie for complex animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#EBEBEB",
+        "role": "surface"
+      },
+      {
+        "hex": "#8A05FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#8E53FF",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#23B97B",
+        "role": "success-indicator"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark-background"
+      },
+      {
+        "hex": "#BFBFBF",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, bold headings (~3-4x body text) with clear, readable body text and smaller uppercase labels.",
+    "radius": "subtle; small, consistent border-radius on buttons and cards.",
+    "spacing": "balanced to airy; generous vertical spacing between sections, with comfortable density within content blocks."
+  },
+  "standout": "The site's design is distinctive through its bold and consistent application of a vibrant purple accent color, not just in UI elements but also in a unique, abstract geometric background pattern that frames the content. This, combined with dynamic, code-snippet-like visuals and dashboard previews, creates a highly technical yet visually engaging aesthetic that elevates it beyond a generic SaaS template.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

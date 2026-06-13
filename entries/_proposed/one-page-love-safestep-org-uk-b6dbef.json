@@ -1,0 +1,108 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://safestep.org.uk",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-safestep-org-uk-b6dbef.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-safestep-org-uk-b6dbef__scroll0.webp",
+      "shots/_proposed/one-page-love-safestep-org-uk-b6dbef__scroll1.webp",
+      "shots/_proposed/one-page-love-safestep-org-uk-b6dbef__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "addiction-recovery",
+      "digital-health"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are used frequently, pairing large text areas with complementary graphics or device mockups on the opposing side."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for prominent headings, creating an editorial feel, contrasted with a clean, highly readable sans-serif for body text and functional elements."
+    },
+    {
+      "kind": "color",
+      "note": "A calming and trustworthy palette of deep forest greens, subtle minty accents, and off-white backgrounds is used consistently, with dark grey-green text for readability."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls, while subsequent content sections slide up and fade into view."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a dedicated 'How it works' section that visually breaks down a multi-step process using a central graphic (phone mockup) and surrounding descriptive text blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a background image that parallaxes subtly behind the main content as the user scrolls, creating depth. This effect is likely achieved using a scroll-triggered animation library like locomotive-scroll.",
+    "Content sections are revealed with a gentle slide-up and fade-in animation as they enter the viewport, enhancing engagement without being overly distracting. This is a common pattern with scroll-based animation libraries.",
+    "The primary navigation bar remains fixed at the top of the viewport, ensuring persistent access to key links and calls to action throughout the user's journey on the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#edf7f3",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#4f5d58",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#0a7f63",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#5d6d67",
+        "role": "body-text"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#d4ebe3",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body text) with generous line height, paired with a clean sans-serif for body text and smaller labels, creating a balanced and readable hierarchy. Small uppercase labels provide clear section demarcation and metadata."
+  },
+  "standout": "The site's design stands out through its serene and almost illustrative hero imagery combined with an elegant, editorial serif typeface for headings. This creates a distinctive, calming, and trustworthy aesthetic that feels more sophisticated and less clinical than typical health-related platforms, making complex topics feel approachable.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

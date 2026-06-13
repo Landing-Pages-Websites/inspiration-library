@@ -1,0 +1,106 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.brex.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-brex-com-890ccd.webp",
+    "scroll": [
+      "shots/_proposed/manual-brex-com-890ccd__scroll0.webp",
+      "shots/_proposed/manual-brex-com-890ccd__scroll1.webp",
+      "shots/_proposed/manual-brex-com-890ccd__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "business-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs an asymmetrical layout, featuring a prominent product visual on the right and a concise value proposition with a call-to-action on the left."
+    },
+    {
+      "kind": "type",
+      "note": "A single, modern sans-serif font family is used consistently across all text elements, with large, bold headings for primary messages and clear, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of white, various shades of grey, and black is punctuated by a vibrant orange accent color used for calls-to-action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal themselves with a subtle fade-in and slight upward slide as they enter the viewport during scrolling, creating a dynamic content progression."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions to a sticky state at the top of the viewport after the initial scroll, maintaining persistent access to key links."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented using a card-based grid system, often with two or three columns, each card detailing a specific solution or benefit."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, sections should be configured to animate into view with a slight upward translation and opacity change as they intersect the viewport. The hero image should have a subtle parallax effect, moving slower than the foreground content. The primary navigation should be implemented as a sticky element that remains fixed at the top of the screen after the user scrolls past the initial hero.",
+    "The layout relies on a robust grid system for content organization, featuring full-width sections that alternate between light and dark backgrounds to create visual rhythm. Card components are used extensively to present information in digestible blocks, often with subtle border radii.",
+    "Typography is managed with a single sans-serif font, utilizing significant size and weight variations to establish a clear hierarchy, with the accent color reserved for interactive elements and critical information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#15191E",
+        "role": "dark-background-text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#FF5900",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#6F737B",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with clear, legible body text and occasional small uppercase labels for emphasis.",
+    "radius": "subtle rounding on buttons and cards, maintaining a clean aesthetic.",
+    "spacing": "balanced to airy, with generous whitespace in the hero and between major sections, while content within cards is more compact."
+  },
+  "standout": "The site's distinctive design lies in its bold and consistent application of a single vibrant orange accent color against a largely monochromatic background, creating a strong brand identity. The seamless integration of product screenshots and interactive mockups directly into the design, particularly in the hero and feature sections, effectively showcases the product's functionality.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.ramp.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ramp-com-2f9909.webp",
+    "scroll": [
+      "shots/_proposed/manual-ramp-com-2f9909__scroll0.webp",
+      "shots/_proposed/manual-ramp-com-2f9909__scroll1.webp",
+      "shots/_proposed/manual-ramp-com-2f9909__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fintech",
+      "business-software",
+      "accounting-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The layout frequently uses full-width sections with content constrained to a central, wide container, often featuring large, detailed product UI screenshots."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a bold, sans-serif typeface with significant size contrast to body text, emphasizing key messages. Smaller, often uppercase, labels are used for sub-headings or feature titles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark text on light backgrounds is consistently punctuated by a vibrant lime-green accent for interactive elements and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and product UI mockups reveal with a subtle upward slide and fade-in effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses large, impactful headlines, often repeating a core message like 'Time is money. Save both.', to introduce and segment major content blocks, reinforcing the value proposition."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system, likely utilizing GSAP, to progressively reveal content. As users scroll, entire sections or individual elements within them, such as product screenshots encased in mockups, slide up from the bottom and fade into full opacity, creating a dynamic and engaging content flow. The main navigation remains sticky at the top, and a data-rich footer bar sticks to the bottom.",
+    "Content is presented in distinct, well-spaced sections, often featuring large product screenshots or mockups that are centrally placed or arranged in a grid, providing clear visual breaks and focus points.",
+    "A single sans-serif typeface is used with a clear hierarchy of large, bold headings and smaller, lighter body text, ensuring readability and visual impact across all content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#aaff00",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#e2e8f0",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#f4f2f0",
+        "role": "surface-subtle"
+      },
+      {
+        "hex": "#2b2e35",
+        "role": "text-secondary-footer"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~3-4x body text) create strong hierarchy, complemented by smaller, often uppercase, labels for feature titles and legible body text for detail."
+  },
+  "standout": "The site's distinctive use of a bright, almost neon, lime green/yellow as a primary accent color against a largely monochromatic (white, black, gray) palette immediately grabs attention and injects a modern, energetic feel. This, combined with the clean, spacious layout and detailed product UI mockups, creates a highly professional yet visually engaging experience that effectively highlights the software's capabilities.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

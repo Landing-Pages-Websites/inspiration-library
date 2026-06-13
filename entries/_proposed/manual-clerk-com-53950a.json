@@ -1,0 +1,108 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://clerk.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-clerk-com-53950a.webp",
+    "scroll": [
+      "shots/_proposed/manual-clerk-com-53950a__scroll0.webp",
+      "shots/_proposed/manual-clerk-com-53950a__scroll1.webp",
+      "shots/_proposed/manual-clerk-com-53950a__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "authentication"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layouts for feature sections, often pairing descriptive text with detailed UI component mockups or code examples."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are paired with smaller, uppercase sans-serif labels for section introductions and feature highlights."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark grays and white is punctuated by a vibrant blue-purple accent for interactive elements and key information."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks animate into view with a subtle fade-up effect as the user scrolls down the page, creating a dynamic content reveal."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated dark-themed section serves as an immersive showcase for various UI components, presenting them in a grid-like arrangement against a deep background."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions to a sticky state at the top of the viewport after initial scroll, maintaining access to key links.",
+    "Content sections and individual elements within them are revealed using scroll-triggered animations, typically a subtle fade and slight upward translation as they enter the viewport.",
+    "Complex UI components and code snippets are integrated directly into the page, appearing as highly detailed, interactive-looking embeds rather than static images, likely leveraging a canvas-based rendering system for dynamic presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#131316",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#212126",
+        "role": "secondary-dark-background"
+      },
+      {
+        "hex": "#64E5FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#747686",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "oversized bold sans-serif headings (~3-4x body) with smaller, readable body text and small uppercase labels for emphasis",
+    "radius": "subtle rounded corners on buttons, cards, and UI elements",
+    "spacing": "balanced, with airy sections in the hero and between major content blocks, but denser within feature grids"
+  },
+  "standout": "The site's distinctive use of highly detailed, interactive-looking UI component embeds and code snippets, particularly within a dedicated dark-themed showcase section, elevates the product demonstration beyond typical static imagery.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}
