@@ -1,0 +1,117 @@
+{
+  "id": "manual-shopify-com-2aec7b",
+  "source": {
+    "url": "https://shopify.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-shopify-com-2aec7b.webp",
+    "scroll": [
+      "shots/_proposed/manual-shopify-com-2aec7b__scroll0.webp",
+      "shots/_proposed/manual-shopify-com-2aec7b__scroll1.webp",
+      "shots/_proposed/manual-shopify-com-2aec7b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.shopify.com/",
+        "full": "shots/_proposed/manual-shopify-com-2aec7b__p2.webp"
+      },
+      {
+        "url": "https://www.shopify.com/pos",
+        "full": "shots/_proposed/manual-shopify-com-2aec7b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "e-commerce-platform",
+      "business-tools"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central maximum width, often using multi-column grids for feature presentation and visual storytelling."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold sans-serif headings and legible body text, complemented by smaller, often uppercase, labels for feature descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode palette featuring near-black backgrounds contrasted with a single vibrant green accent for interactive elements and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from transparent over the hero video to a solid dark background with white text and a green logo as the user scrolls past the hero section, remaining sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating shades of dark background colors (deep charcoal and a slightly lighter dark teal) are used to visually segment major content blocks down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-width background video that plays continuously. Upon scrolling past the hero, the initially transparent navigation bar transitions smoothly to a solid dark background with updated text and logo colors, remaining fixed at the top of the viewport.",
+    "Content is presented within full-bleed sections, but text and interactive elements are contained within a consistent maximum width central column. Complex information is often broken into multi-column grids or card-like structures to improve readability.",
+    "A dark mode aesthetic is consistently applied, using deep charcoal and near-black backgrounds, contrasted with bright, almost neon green for interactive elements and key highlights, creating a high-contrast and modern feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#02090a",
+        "role": "background"
+      },
+      {
+        "hex": "#061a1c",
+        "role": "background-secondary"
+      },
+      {
+        "hex": "#36f4a4",
+        "role": "accent"
+      },
+      {
+        "hex": "#a1a1aa",
+        "role": "text-body"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-heading"
+      },
+      {
+        "hex": "#1c2c30",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~3-4x body text) establish clear hierarchy, supported by smaller, often uppercase, labels and standard body text for readability.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, while larger content blocks and image containers maintain sharper, almost square corners.",
+    "spacing": "Balanced vertical spacing between major sections, with comfortable padding within content blocks. Grids and card layouts maintain a consistent internal rhythm."
+  },
+  "standout": "The site's distinctive use of a deep, dark color palette with a single, highly saturated neon green accent creates a sophisticated yet energetic feel. This, combined with the dynamic video hero and the seamless sticky navigation transformation, elevates it beyond a typical SaaS marketing page, conveying a sense of cutting-edge technology and modern commerce.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

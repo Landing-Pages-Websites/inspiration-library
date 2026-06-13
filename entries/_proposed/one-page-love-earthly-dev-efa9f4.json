@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-earthly-dev-efa9f4",
+  "source": {
+    "url": "https://earthly.dev",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-earthly-dev-efa9f4.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-earthly-dev-efa9f4__scroll0.webp",
+      "shots/_proposed/one-page-love-earthly-dev-efa9f4__scroll1.webp",
+      "shots/_proposed/one-page-love-earthly-dev-efa9f4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "developer-tools",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed interface with full-width sections, often featuring a primary heading, descriptive text, and then a grid of card-like feature blocks or statistics."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a vibrant teal/green accent color (#00ff88) for call-to-action buttons, highlighted text, and subtle glowing effects, contrasting sharply with the deep dark backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings for section titles, where key phrases or single words are frequently highlighted in the accent color to draw attention."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar becomes sticky and maintains its position with a consistent dark background as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual blocks (like the 'Backed By' logos and feature cards) reveal themselves by sliding up from the bottom as they enter the viewport during scrolling."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element is used for the navigation, which maintains its dark background and text styling as the user scrolls, ensuring persistent access to navigation links.",
+    "Sections and content modules are animated into view using scroll-triggered reveals, typically sliding upwards with a subtle fade effect as they become visible within the browser viewport.",
+    "Interactive elements like buttons and cards feature subtle rounded corners and often incorporate a glowing border or accent color to indicate interactivity or importance against the dark background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1917",
+        "role": "background"
+      },
+      {
+        "hex": "#0f2818",
+        "role": "surface"
+      },
+      {
+        "hex": "#00ff88",
+        "role": "accent"
+      },
+      {
+        "hex": "#fbbf24",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#a0aec0",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with smaller, lighter body text; key phrases within headings are often highlighted with an accent color.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, cards, and input fields, maintaining a modern but not overly soft aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within card grids, creating clear visual separation and readability."
+  },
+  "standout": "The site's distinctive use of a deep, dark theme with vibrant, almost neon-like teal and orange accents creates a high-tech, futuristic, and slightly mysterious atmosphere. The glowing elements and dashboard-like UI in the hero reinforce this cutting-edge feel, making it stand out from typical corporate SaaS sites.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual-wise-com-dc920a",
+  "source": {
+    "url": "https://wise.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-wise-com-dc920a.webp",
+    "scroll": [
+      "shots/_proposed/manual-wise-com-dc920a__scroll0.webp",
+      "shots/_proposed/manual-wise-com-dc920a__scroll1.webp",
+      "shots/_proposed/manual-wise-com-dc920a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://wise.com/us/card",
+        "full": "shots/_proposed/manual-wise-com-dc920a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "money-transfer",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a full-bleed hero section with a prominent, interactive currency converter form directly integrated into the main visual space."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette is used, pairing a vibrant, almost neon green with a deep, dark green for text and accents, set against clean white and light grey backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a large, bold sans-serif typeface for strong impact and clear hierarchy, complemented by a highly readable sans-serif for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and key elements appear with subtle fade-in or slide-up animations as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually delineated by alternating background colors (vibrant green, white, and light grey), creating clear breaks and guiding the user's eye down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section integrates a functional, interactive form directly into the primary visual area, making the core offering immediately accessible and actionable.",
+    "Content sections and key elements are designed to animate into view with subtle fade-in or slide-up effects as the user scrolls down the page, likely utilizing CSS keyframes for smooth transitions.",
+    "Cards and interactive elements consistently feature rounded corners and subtle drop shadows, providing a soft, approachable aesthetic while maintaining visual depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#80FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#083400",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#EAEAEA",
+        "role": "background"
+      },
+      {
+        "hex": "#3366FF",
+        "role": "illustration-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body text) create strong visual anchors, paired with a clear, readable body text.",
+    "radius": "Rounded corners are consistently applied to buttons, input fields, and card elements, contributing to a soft and modern feel.",
+    "spacing": "Balanced and airy, with generous vertical padding between sections and comfortable spacing within content blocks, preventing a dense appearance."
+  },
+  "standout": "The site's distinctive use of a vibrant, almost neon green as a primary brand color, combined with bold, direct typography and a highly functional, interactive hero section, immediately conveys a sense of modern efficiency and approachability in financial services. The direct integration of the currency converter into the hero is a standout feature.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

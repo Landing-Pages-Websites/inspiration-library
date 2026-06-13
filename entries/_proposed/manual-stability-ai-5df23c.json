@@ -1,0 +1,123 @@
+{
+  "id": "manual-stability-ai-5df23c",
+  "source": {
+    "url": "https://stability.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-stability-ai-5df23c.webp",
+    "scroll": [
+      "shots/_proposed/manual-stability-ai-5df23c__scroll0.webp",
+      "shots/_proposed/manual-stability-ai-5df23c__scroll1.webp",
+      "shots/_proposed/manual-stability-ai-5df23c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://stability.ai/news",
+        "full": "shots/_proposed/manual-stability-ai-5df23c__p2.webp"
+      },
+      {
+        "url": "https://stability.ai/contact",
+        "full": "shots/_proposed/manual-stability-ai-5df23c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "creative-production"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark (deep purple/black) and light (off-white/light grey) backgrounds to delineate content areas and provide visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, oversized sans-serif headings are used for primary messages, often paired with smaller, uppercase labels for section titles or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep darks and bright whites/off-whites is accented by a vibrant, luminous purple for calls to action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic WebGL scene that transforms and reveals interactive UI elements (sliders, image previews) as the user scrolls, simulating an in-browser 'brand studio' experience."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly defined by distinct background colors and often feature grid-based layouts for showcasing features, news, or trusted partners."
+    }
+  ],
+  "technique_notes": [
+    "The hero utilizes a full-bleed WebGL experience (likely Three.js) to create an interactive, immersive environment that dynamically reveals product UI elements and content as the user scrolls, rather than a static image or simple video.",
+    "A transparent navigation bar is implemented as a sticky element, remaining fixed at the top of the viewport without significant visual transformation or shrinking on scroll.",
+    "Content sections below the hero primarily rely on static presentation, but internal components like carousels or image galleries may feature subtle animations or interactive transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e1e1e",
+        "role": "background"
+      },
+      {
+        "hex": "#340068",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#eeeeee",
+        "role": "light-background"
+      },
+      {
+        "hex": "#a381ff",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#725d91",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#888888",
+        "role": "tertiary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Figtree",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) provide strong visual hierarchy, complemented by clean, readable body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding (approx. 4-8px) is applied consistently to buttons, input fields, and card corners, providing a soft, modern touch.",
+    "spacing": "Balanced to airy density, with generous vertical padding between sections and comfortable spacing within grid layouts, creating an open and uncluttered feel."
+  },
+  "standout": "The most distinctive feature is the highly interactive and dynamic WebGL hero section that functions as a live 'brand studio' simulation. It immediately showcases the product's capabilities in an engaging, immersive way, moving beyond a typical static hero or video background.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

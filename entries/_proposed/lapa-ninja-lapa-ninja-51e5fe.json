@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-lapa-ninja-51e5fe",
+  "source": {
+    "url": "https://www.lapa.ninja/?site=1",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-lapa-ninja-51e5fe.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-lapa-ninja-51e5fe__scroll0.webp",
+      "shots/_proposed/lapa-ninja-lapa-ninja-51e5fe__scroll1.webp",
+      "shots/_proposed/lapa-ninja-lapa-ninja-51e5fe__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "resource-library"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content display uses a flexible, multi-column grid system to showcase numerous website screenshots, often with varied card sizes and aspect ratios within the same grid section."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large and bold, establishing clear content hierarchy, complemented by smaller, uppercase labels for categories or metadata on content cards."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light background (white/off-white) provides a clean canvas, with vibrant magenta and blue used sparingly for calls-to-action, links, and subtle interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards animate into view with a subtle fade-in and slight upward translation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured into distinct, repeating content grid sections, each introduced by a prominent heading and showcasing a specific category of design inspiration."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations using CSS keyframes to apply a subtle fade-in and vertical slide effect to content blocks and cards as they become visible in the user's viewport.",
+    "The main navigation bar dynamically reduces its height and fixes its position at the top of the viewport after the initial hero section is scrolled past, maintaining accessibility.",
+    "Utilize a responsive grid layout system, likely CSS Grid, to arrange content cards, allowing for flexible column counts and varied card dimensions that adapt across different screen sizes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#171717",
+        "role": "text"
+      },
+      {
+        "hex": "#505050",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#EA16C0",
+        "role": "accent"
+      },
+      {
+        "hex": "#119CF3",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body size) establish clear hierarchy, supported by legible body text and small, uppercase labels for categorization and metadata, maintaining a clean, modern feel. The hero text is even larger, about 5x body size, with a lighter weight for a more inviting feel before the scroll."
+  },
+  "standout": "The site's distinction lies in its extensive, well-curated gallery of web design exemplars, presented through a clean, grid-focused layout that effectively balances high content volume with visual appeal. The varied card layouts within the grids, combining images and text in diverse proportions, prevent visual monotony and encourage exploration.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

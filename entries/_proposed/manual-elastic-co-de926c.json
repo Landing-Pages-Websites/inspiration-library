@@ -1,0 +1,122 @@
+{
+  "id": "manual-elastic-co-de926c",
+  "source": {
+    "url": "https://www.elastic.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-elastic-co-de926c.webp",
+    "scroll": [
+      "shots/_proposed/manual-elastic-co-de926c__scroll0.webp",
+      "shots/_proposed/manual-elastic-co-de926c__scroll1.webp",
+      "shots/_proposed/manual-elastic-co-de926c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.elastic.co/blog",
+        "full": "shots/_proposed/manual-elastic-co-de926c__p2.webp"
+      },
+      {
+        "url": "https://www.elastic.co/events",
+        "full": "shots/_proposed/manual-elastic-co-de926c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "enterprise-software",
+      "data-analytics",
+      "cybersecurity",
+      "observability"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Product feature sections consistently pair a descriptive text block (often left-aligned) with a detailed UI screenshot (often right-aligned or below), creating a clear visual association between text and product functionality."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold sans-serif headings are used for main sections, contrasted with smaller, lighter weight body text and occasional uppercase labels for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette of white backgrounds and dark text is accented by vibrant blue for primary CTAs and a distinct pink/red for secondary highlights and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent carousel immediately below the hero section cycles through key product capabilities, presenting large, icon-driven cards that animate horizontally."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport during scroll, creating a dynamic and engaging content flow."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features distinct 'value proposition' sections that highlight key metrics (e.g., '10x', '62%') with large, bold numbers and concise descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid white background to maintain visibility and compactness as the user moves down the page.",
+    "Key feature highlights are presented in a horizontally scrolling carousel, allowing users to browse multiple value propositions without leaving the hero area. This effect is achieved using a swiper component.",
+    "Content sections throughout the page are introduced with a subtle animation, appearing to fade or slide into view as the user scrolls down, creating a dynamic reveal effect for new content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f7fa",
+        "role": "surface"
+      },
+      {
+        "hex": "#1a1c21",
+        "role": "text"
+      },
+      {
+        "hex": "#00a9e5",
+        "role": "cta"
+      },
+      {
+        "hex": "#dd0a73",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~4-5x body, H2 ~3x body) with a clear hierarchy, complemented by a legible, standard-sized body text.",
+    "radius": "Subtle rounded corners (small radius, e.g., 4-8px) applied consistently to buttons, cards, and input fields.",
+    "spacing": "Balanced and airy, particularly in the hero and main section breaks, with content blocks having generous padding. Denser in the footer and detailed feature grids."
+  },
+  "standout": "The site effectively integrates detailed product UI screenshots directly into the narrative of each feature section, providing immediate visual context and proof of capability. This, combined with the prominent, data-driven value propositions and a clean, high-contrast design, creates a strong sense of authority and clarity for a complex enterprise product.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

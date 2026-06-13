@@ -1,0 +1,119 @@
+{
+  "id": "manual-invisionapp-com-f07c60",
+  "source": {
+    "url": "https://www.invisionapp.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-invisionapp-com-f07c60.webp",
+    "scroll": [
+      "shots/_proposed/manual-invisionapp-com-f07c60__scroll0.webp",
+      "shots/_proposed/manual-invisionapp-com-f07c60__scroll1.webp",
+      "shots/_proposed/manual-invisionapp-com-f07c60__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "collaboration-software",
+      "productivity-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Spacious, single-column content sections with ample vertical padding, creating a sense of airiness and clear content separation."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section headings use a large, bold sans-serif font for strong impact, contrasted with a lighter weight, highly readable sans-serif for body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly clean white and dark gray palette is accented by a vibrant blue for primary calls-to-action and a secondary bright yellow for highlights and subtle brand elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner disappears on scroll, while the main navigation bar transforms from transparent to a solid white background with a subtle shadow and slightly reduced height, sticking to the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-in and slight upward slide as they enter the viewport during scrolling, creating a dynamic content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Social proof sections feature large, bold numerical statistics paired with recognizable company logos, reinforcing credibility and scale."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its appearance (background, shadow, height) as the user scrolls past the initial hero section, providing persistent navigation.",
+    "Content sections are revealed using scroll-triggered animations, likely leveraging a library like locomotive-scroll or similar, where elements fade in and translate slightly upwards as they become visible in the viewport.",
+    "The hero section features a large, central value proposition with a clear call-to-action, set against a subtle, ethereal background gradient that provides visual interest without distracting from the text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1C1C1E",
+        "role": "text"
+      },
+      {
+        "hex": "#3859FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#FDE050",
+        "role": "accent"
+      },
+      {
+        "hex": "#F1F2F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#555A6A",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roobert PRO Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, readable body text and small, uppercase labels.",
+    "radius": "Subtle rounded corners on buttons and card elements, maintaining a soft, approachable feel.",
+    "spacing": "Airy, with generous vertical spacing between major sections and balanced padding within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The site's distinctive use of a bright yellow as a secondary accent color, subtly integrated into highlights and brand elements, provides a unique pop against the otherwise clean and professional blue and white palette. This, combined with the ethereal, gradient-based hero background, elevates it beyond a standard corporate aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

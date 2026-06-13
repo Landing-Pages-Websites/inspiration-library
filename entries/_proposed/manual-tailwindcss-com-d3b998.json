@@ -1,0 +1,118 @@
+{
+  "id": "manual-tailwindcss-com-d3b998",
+  "source": {
+    "url": "https://tailwindcss.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tailwindcss-com-d3b998.webp",
+    "scroll": [
+      "shots/_proposed/manual-tailwindcss-com-d3b998__scroll0.webp",
+      "shots/_proposed/manual-tailwindcss-com-d3b998__scroll1.webp",
+      "shots/_proposed/manual-tailwindcss-com-d3b998__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tailwindcss.com/docs",
+        "full": "shots/_proposed/manual-tailwindcss-com-d3b998__p2.webp"
+      },
+      {
+        "url": "https://tailwindcss.com/blog",
+        "full": "shots/_proposed/manual-tailwindcss-com-d3b998__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-development",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layouts are frequently used, pairing explanatory text or code snippets with a larger visual demonstration or screenshot on the opposing side."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with oversized, bold sans-serif headings for impact, contrasted with a distinct monospace font for all code examples."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, minimal color palette dominated by white backgrounds, dark text, and a vibrant sky blue for accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-in and a slight upward translation as they enter the viewport, creating a smooth, guided scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated sections showcase a dense grid of partner logos and a diverse, masonry-like gallery of websites built using the product, serving as social proof and inspiration."
+    }
+  ],
+  "technique_notes": [
+    "Implement a scroll-triggered animation system, likely using `locomotive-scroll` as hinted, to reveal content sections with a subtle fade and upward slide as they enter the viewport.",
+    "Utilize a fixed header that remains visible at the top of the page, providing persistent navigation and branding.",
+    "Design content blocks with a clear visual distinction between code examples (dark background, monospace font, syntax highlighting) and their corresponding visual output or explanatory text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111827",
+        "role": "text"
+      },
+      {
+        "hex": "#38BDF8",
+        "role": "accent"
+      },
+      {
+        "hex": "#949494",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#1E293B",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body size) paired with smaller, often uppercase, supporting labels and clear, readable body text.",
+    "radius": "Subtle rounding on most interactive elements and content blocks, with slightly more pronounced rounding on some UI examples and code blocks.",
+    "spacing": "Generally airy, especially in hero and main content sections, providing ample breathing room, with a notably tighter grid for partner logos."
+  },
+  "standout": "The site's design is a direct embodiment of the product it sells, showcasing the clean, utility-first aesthetic of Tailwind CSS through its own structure and presentation. The seamless integration of live code snippets alongside their visual output makes the design itself a powerful and highly effective demonstration of the framework's capabilities.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

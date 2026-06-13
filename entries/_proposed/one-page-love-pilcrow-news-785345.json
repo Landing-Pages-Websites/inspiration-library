@@ -1,0 +1,99 @@
+{
+  "id": "one-page-love-pilcrow-news-785345",
+  "source": {
+    "url": "https://pilcrow.news",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-pilcrow-news-785345.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-pilcrow-news-785345__scroll0.webp",
+      "shots/_proposed/one-page-love-pilcrow-news-785345__scroll1.webp",
+      "shots/_proposed/one-page-love-pilcrow-news-785345__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "news",
+      "media"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A single, full-bleed hero image dominates the entire visible viewport, serving as the primary content area with minimal additional sections."
+    },
+    {
+      "kind": "type",
+      "note": "An elegant serif typeface is used for the main headline, creating a sophisticated feel, which contrasts with a clean sans-serif for the logo and supporting text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme with white text is consistently applied, creating a minimal and professional aesthetic across the hero and footer."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion or animations are observed; all page content remains statically positioned as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "The page is structured with only a prominent hero section and a minimal footer, intentionally lacking intermediate content blocks or feature sections."
+    }
+  ],
+  "technique_notes": [
+    "The design relies on a single, full-bleed hero image with a subtle dark overlay to create a strong visual impact and ensure readability for white text. All textual content is centrally aligned for emphasis.",
+    "The site exhibits no scroll-triggered animations or transitions; all elements are statically positioned and revealed immediately upon page load without dynamic effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#969696",
+        "role": "surface"
+      },
+      {
+        "hex": "#00a4a6",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      },
+      {
+        "family": "Montserrat",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, elegant serif headline (~3x body) paired with smaller, uppercase sans-serif for branding and body text, creating a clear hierarchy with minimal elements."
+  },
+  "standout": "The site's most distinctive feature is its extreme minimalism, presenting only a full-bleed hero image and a footer. It eschews common marketing page elements, focusing solely on a strong brand statement and a single headline, making it feel more like an artistic statement or a placeholder than a functional content site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

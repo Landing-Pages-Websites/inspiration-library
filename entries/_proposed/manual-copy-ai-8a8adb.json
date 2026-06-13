@@ -1,0 +1,124 @@
+{
+  "id": "manual-copy-ai-8a8adb",
+  "source": {
+    "url": "https://www.copy.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-copy-ai-8a8adb.webp",
+    "scroll": [
+      "shots/_proposed/manual-copy-ai-8a8adb__scroll0.webp",
+      "shots/_proposed/manual-copy-ai-8a8adb__scroll1.webp",
+      "shots/_proposed/manual-copy-ai-8a8adb__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.copy.ai/chat",
+        "full": "shots/_proposed/manual-copy-ai-8a8adb__p2.webp"
+      },
+      {
+        "url": "https://www.copy.ai/request-a-demo",
+        "full": "shots/_proposed/manual-copy-ai-8a8adb__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing-tech",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a clean, centered column with generous horizontal padding, alternating between white and light grey background sections to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact and clear hierarchy, while body text maintains readability with a clean, modern sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The brand identity is strongly conveyed through a gradient of purples used in abstract illustrations and primary call-to-action buttons, contrasted with a largely monochromatic palette of white, light grey, and dark grey for backgrounds and text."
+    },
+    {
+      "kind": "motion",
+      "note": "A top announcement banner disappears on scroll, while the main navigation bar becomes sticky at the top of the viewport without changing its appearance. Subsequent content sections and their internal elements reveal with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Key sections feature prominent, abstract geometric illustrations in shades of purple that visually represent processes, data flow, or connections, serving as a distinctive visual motif throughout the site."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header bar transitions to a sticky position at the top of the viewport after a short scroll, maintaining its original size and background. A top announcement banner is set to hide or slide out of view once scrolling begins.",
+    "Scroll-triggered animations, likely utilizing CSS keyframes or a JavaScript library, are employed to progressively reveal content sections and individual elements. These elements typically fade in and translate slightly upwards as they become visible within the user's viewport, creating a dynamic and engaging scroll experience.",
+    "Complex abstract vector illustrations are integrated into hero and feature sections to visually explain concepts, often using gradients and overlapping shapes to suggest depth and movement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#171717",
+        "role": "text"
+      },
+      {
+        "hex": "#303030",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#6B38E8",
+        "role": "cta"
+      },
+      {
+        "hex": "#8A5AF8",
+        "role": "accent-illustration"
+      },
+      {
+        "hex": "#A078FF",
+        "role": "accent-illustration"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ABC Normal",
+        "role": "heading"
+      },
+      {
+        "family": "SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~4-5x body, H2 ~2.5-3x body) create strong visual anchors, complemented by a clean, legible sans-serif for body text.",
+    "radius": "Subtle; elements like buttons, input fields, and cards feature a slight border-radius, providing a soft edge without being fully rounded.",
+    "spacing": "Balanced to airy; sections are separated by generous vertical padding, and content within sections maintains comfortable spacing, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's design is distinctive for its sophisticated integration of abstract, flowing purple geometric illustrations that visually represent complex processes and data. These unique visuals are not merely decorative but are core to the brand's identity, giving the site a cutting-edge, tech-forward aesthetic that stands apart from typical SaaS marketing templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

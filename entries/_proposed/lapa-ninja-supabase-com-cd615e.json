@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-supabase-com-cd615e",
+  "source": {
+    "url": "https://supabase.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-supabase-com-cd615e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-supabase-com-cd615e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-supabase-com-cd615e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-supabase-com-cd615e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "database"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are structured with a clear, centered column for text and calls to action, often followed by a full-width or large-scale visual element like code examples or UI screenshots."
+    },
+    {
+      "kind": "type",
+      "note": "Headings feature a large, bold, dark sans-serif font, with a key word or phrase highlighted in a vibrant accent green to draw attention and create visual interest."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of crisp white backgrounds and deep black text is consistently accented by a bright, energetic green for primary interactive elements and crucial information."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections and feature blocks are introduced with a subtle fade-in or slide-up animation as they scroll into the viewport, creating a dynamic reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed, interactive-looking code snippets and dashboard UI mockups are embedded directly within feature descriptions, serving as primary visual explanations of the product's functionality."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element, remaining fixed at the top of the screen to ensure continuous access to site navigation as the user scrolls down the page.",
+    "Content sections are designed to appear sequentially using scroll-triggered animations, where each block gently fades or slides into view from the bottom as it enters the user's viewport, likely utilizing CSS keyframes for smooth transitions.",
+    "Interactive elements such as buttons and input fields incorporate subtle visual feedback on hover, providing a responsive feel without disrupting the clean, minimalist aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "heading"
+      },
+      {
+        "hex": "#1E1E1E",
+        "role": "text"
+      },
+      {
+        "hex": "#3ECF8E",
+        "role": "accent"
+      },
+      {
+        "hex": "#7298F9",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with a prominent accent word, complemented by clear, readable body text.",
+    "radius": "Subtle rounding on buttons, cards, and input fields, maintaining a soft but modern edge.",
+    "spacing": "Airy, with generous vertical spacing between major sections and balanced padding within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "This site distinguishes itself through its developer-centric design, seamlessly integrating detailed code examples and dashboard UI screenshots directly into the content flow. The bold, clean typography, combined with a striking accent green, creates a professional yet approachable aesthetic that effectively communicates complex technical offerings.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

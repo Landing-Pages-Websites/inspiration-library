@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-reflect-app-15b9b4",
+  "source": {
+    "url": "https://reflect.app",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-reflect-app-15b9b4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-reflect-app-15b9b4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-reflect-app-15b9b4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-reflect-app-15b9b4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "knowledge-management",
+      "ai-tools"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background with content centered in a contained width, using ample vertical negative space between sections."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings (AeonikPro) paired with a clean, readable sans-serif body text (Inter V), maintaining high contrast against the dark background."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark purple-black background serves as a canvas for vibrant, luminous gradients and glowing elements in shades of purple, pink, and blue."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, central animated 'black hole' graphic in the hero section provides a dynamic visual anchor, which appears to parallax or scroll at a slower rate, eventually transitioning into subtle glowing section dividers as the user scrolls down. Sections also reveal with a staggered fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually delineated by subtle, horizontal glowing lines or gradient overlays that echo the primary purple/pink/blue color scheme, rather than hard dividers."
+    }
+  ],
+  "technique_notes": [
+    "A dark, full-bleed background is established across the entire site, serving as a canvas for luminous, gradient-based accent elements that create a deep, cosmic aesthetic.",
+    "The hero features a large, animated graphic (likely using canvas or video-hero) that provides a dynamic focal point and appears to parallax or scroll at a different rate than the foreground content, creating depth.",
+    "Scroll-triggered animations (likely using CSS keyframes) are employed to reveal subsequent content sections with a subtle fade-in and upward slide effect as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c0617",
+        "role": "background"
+      },
+      {
+        "hex": "#11091f",
+        "role": "surface"
+      },
+      {
+        "hex": "#f3eeff",
+        "role": "text"
+      },
+      {
+        "hex": "#a479ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#e59cff",
+        "role": "accent"
+      },
+      {
+        "hex": "#9cb2ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#fa5fff",
+        "role": "accent"
+      },
+      {
+        "hex": "#9382ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "AeonikPro",
+        "role": "heading"
+      },
+      {
+        "family": "Inter V",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (~3-4x body) with a clean, readable sans-serif body text, maintaining high contrast.",
+    "radius": "Subtle, with a slight curve on interactive elements like buttons, input fields, and cards.",
+    "spacing": "Airy, with significant vertical padding between sections and generous line-height for readability on dark backgrounds."
+  },
+  "standout": "The most distinctive feature is the consistent, dark, cosmic aesthetic achieved through the prominent, glowing 'black hole' animation and its derivative glowing lines and gradients used throughout the page. This creates a unique, almost ethereal, brand identity for a productivity tool.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

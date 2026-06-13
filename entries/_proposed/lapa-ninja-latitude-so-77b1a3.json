@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-latitude-so-77b1a3",
+  "source": {
+    "url": "https://latitude.so",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-latitude-so-77b1a3.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-latitude-so-77b1a3__scroll0.webp",
+      "shots/_proposed/lapa-ninja-latitude-so-77b1a3__scroll1.webp",
+      "shots/_proposed/lapa-ninja-latitude-so-77b1a3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai-monitoring"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed layout with full-width sections, often featuring content centered or split into two columns, pairing descriptive text with large product screenshots."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for primary messaging, complemented by a clear and readable sans-serif body text, with monospace fonts reserved for code snippets or data within screenshots."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, utilizing deep blacks and dark grays for backgrounds, bright white for primary text, and a vibrant, distinct blue for interactive elements and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar is initially transparent over the hero, then compacts in height and gains a solid dark background as the user scrolls down, remaining sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, including text blocks and embedded screenshots, are revealed with a subtle fade-up or slide-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Large, full-width embedded product screenshots are a primary visual element, consistently used to illustrate features and product capabilities in context, often with rounded corners."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark background with subtle gradient overlays, particularly in the hero and key call-to-action sections, to add visual depth without distracting from content.",
+    "Product screenshots are seamlessly integrated into the page layout, often presented with a consistent subtle border-radius, making them feel like native elements rather than external images.",
+    "Scroll-triggered animations are used to enhance engagement, with content sections appearing to fade and slide upwards into view as the user scrolls. The navigation bar also dynamically transforms into a more compact, sticky header with a solid background after the initial scroll, utilizing CSS keyframes for the transition."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#171717",
+        "role": "surface"
+      },
+      {
+        "hex": "#fbfbfb",
+        "role": "text"
+      },
+      {
+        "hex": "#0080ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#404040",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~4-5x body text) establish a strong hierarchy, supported by a highly legible and slightly condensed sans-serif body text.",
+    "radius": "Subtle rounding (small border-radius) is applied consistently to interactive elements, cards, and embedded product screenshots.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while internal content within feature sections is more compactly arranged."
+  },
+  "standout": "This site distinguishes itself with a sophisticated dark mode aesthetic that feels both modern and highly functional. The seamless integration of detailed, full-width product screenshots as primary visual elements, combined with a vibrant blue accent and subtle scroll-triggered animations, creates a polished and authoritative impression for a technical audience. The transforming sticky navigation is a particularly well-executed detail.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

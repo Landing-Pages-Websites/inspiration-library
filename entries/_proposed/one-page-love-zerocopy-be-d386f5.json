@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-zerocopy-be-d386f5",
+  "source": {
+    "url": "https://zerocopy.be",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-zerocopy-be-d386f5.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-zerocopy-be-d386f5__scroll0.webp",
+      "shots/_proposed/one-page-love-zerocopy-be-d386f5__scroll1.webp",
+      "shots/_proposed/one-page-love-zerocopy-be-d386f5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "printing-services",
+      "student-services"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ a split layout, presenting an image on one side and descriptive text with calls to action on the other, often alternating sides down the page."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant green gradient is consistently used for primary calls to action and key informational blocks, creating a strong visual anchor and brand identity."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings introduce each section, providing clear hierarchy and readability, complemented by a more neutral sans-serif for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-up animation as they scroll into the viewport, enhancing engagement without being distracting."
+    },
+    {
+      "kind": "section",
+      "note": "A numbered, multi-column layout is used for 'How to get started' and 'Order your printed documents' sections, guiding users through a process with clear, concise steps and icons."
+    }
+  ],
+  "technique_notes": [
+    "Sections are designed to reveal with a gentle fade-in and slight upward translation as they become visible in the viewport, likely using an Animate On Scroll (AOS) library.",
+    "Primary call-to-action buttons and prominent informational cards feature a horizontal gradient fill, transitioning between two shades of green.",
+    "Testimonials are presented within a carousel component, allowing users to navigate through multiple reviews, indicated by a series of pagination dots."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#263238",
+        "role": "text"
+      },
+      {
+        "hex": "#66BB6A",
+        "role": "accent-light"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#8BC34A",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, while body text maintains excellent readability.",
+    "radius": "rounded; buttons and cards have a consistent, noticeable border-radius.",
+    "spacing": "airy; generous vertical spacing between sections and within content blocks creates a light and open feel."
+  },
+  "standout": "The site's distinctive use of a vibrant, gradient green for all primary calls to action and key informational blocks creates a highly energetic and memorable brand presence. This consistent application makes the site feel cohesive and directs user attention effectively.",
+  "animation_tech": [
+    "aos",
+    "swiper"
+  ],
+  "status": "proposed"
+}

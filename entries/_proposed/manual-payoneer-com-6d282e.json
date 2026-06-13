@@ -1,0 +1,135 @@
+{
+  "id": "manual-payoneer-com-6d282e",
+  "source": {
+    "url": "https://www.payoneer.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-payoneer-com-6d282e.webp",
+    "scroll": [
+      "shots/_proposed/manual-payoneer-com-6d282e__scroll0.webp",
+      "shots/_proposed/manual-payoneer-com-6d282e__scroll1.webp",
+      "shots/_proposed/manual-payoneer-com-6d282e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.payoneer.com/go",
+        "full": "shots/_proposed/manual-payoneer-com-6d282e__p2.webp"
+      },
+      {
+        "url": "https://www.payoneer.com/about",
+        "full": "shots/_proposed/manual-payoneer-com-6d282e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "payments"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use a full-width container with content centered or split into two columns, often pairing text with large illustrative graphics or video backgrounds."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-color gradient arc is used as a prominent decorative background element in the hero section, contrasting with predominantly white and dark grey content areas."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a bold, modern sans-serif, with a clear hierarchy established through significant size differences from body text and a consistent use of sentence case."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport without any size or style transformation upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "A promotional banner is fixed to the bottom of the viewport, appearing once the user scrolls past the initial view and remaining visible."
+    },
+    {
+      "kind": "motion",
+      "note": "Decorative floating elements and a large gradient arc in the hero section exhibit subtle continuous animation, likely using CSS keyframes or Lottie, rather than scroll-triggered reveals."
+    },
+    {
+      "kind": "section",
+      "note": "Feature and testimonial sections utilize a card-based layout with subtle shadows and rounded corners, presenting information in digestible, visually distinct blocks."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed sections are used to create immersive content blocks, often incorporating large background images or video elements that provide visual context without distracting from text overlays.",
+    "Sticky navigation and a sticky bottom banner are implemented using fixed positioning. Decorative elements in the hero section are animated continuously using CSS keyframes or Lottie for subtle movement, rather than being triggered by scroll depth.",
+    "Interactive elements like buttons and cards feature subtle rounded corners and soft drop shadows to give them a tangible, clickable feel without being overly prominent."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#212529",
+        "role": "text"
+      },
+      {
+        "hex": "#F3F3F3",
+        "role": "surface"
+      },
+      {
+        "hex": "#0D6EFD",
+        "role": "cta"
+      },
+      {
+        "hex": "#7B4397",
+        "role": "accent"
+      },
+      {
+        "hex": "#00D26A",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFC300",
+        "role": "accent"
+      },
+      {
+        "hex": "#2B2B2B",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "AvenirNextWorld-Demi",
+        "role": "heading"
+      },
+      {
+        "family": "AvenirNextWorld-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) establish a strong hierarchy, complemented by clear, readable body text.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, cards, and input fields, conveying a modern and approachable feel.",
+    "spacing": "The hero section is airy with generous negative space, while content sections maintain a balanced density, providing clear separation between elements without feeling cramped."
+  },
+  "standout": "The most distinctive design element is the dynamic, multi-color gradient arc in the hero section, which, combined with subtly animated floating elements, creates a sense of global connectivity and modern technological sophistication that immediately captures attention.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

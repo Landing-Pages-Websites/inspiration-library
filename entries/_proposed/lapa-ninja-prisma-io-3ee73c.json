@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-prisma-io-3ee73c",
+  "source": {
+    "url": "https://www.prisma.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-prisma-io-3ee73c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-prisma-io-3ee73c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-prisma-io-3ee73c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-prisma-io-3ee73c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "database"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Centered content blocks with generous vertical spacing, creating distinct, easily scannable sections."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings establish clear hierarchy, complemented by a lighter weight sans-serif for body text and occasional uppercase labels for sub-categories."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant teal accent color is consistently used for interactive elements and key information, standing out against a predominantly light background and dark text."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion for content reveals; the design relies on static hierarchy and a persistent sticky navigation bar."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections integrate illustrative code snippets and diagrams directly alongside descriptive text, enhancing understanding for a technical audience."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar is fixed to the top of the viewport, ensuring continuous access to primary navigation links as the user scrolls down the page.",
+    "Complex technical concepts are clarified through the direct embedding of code examples and schematic diagrams within content blocks, providing immediate visual context to the textual explanations.",
+    "Content is presented within a consistent maximum width container, centered on the page, which is then broken into distinct, vertically stacked sections separated by significant whitespace to improve readability and content segmentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#14B8A6",
+        "role": "accent"
+      },
+      {
+        "hex": "#1E293B",
+        "role": "text"
+      },
+      {
+        "hex": "#64748B",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F0F9FF",
+        "role": "subtle-background-tint"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold sans-serif hero (~3-4x body) with clear hierarchy and smaller uppercase labels",
+    "radius": "subtle (small border-radius on buttons and cards)",
+    "spacing": "balanced overall, with airy sections in the hero and between major content blocks"
+  },
+  "standout": "The site's clean, developer-centric aesthetic is distinctive, particularly its seamless integration of illustrative code snippets and diagrams directly within feature explanations, making complex technical information highly digestible. This approach effectively communicates product value to a technical audience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

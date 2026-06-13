@@ -1,0 +1,120 @@
+{
+  "id": "manual-dropbox-com-9b0e48",
+  "source": {
+    "url": "https://dropbox.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-dropbox-com-9b0e48.webp",
+    "scroll": [
+      "shots/_proposed/manual-dropbox-com-9b0e48__scroll0.webp",
+      "shots/_proposed/manual-dropbox-com-9b0e48__scroll1.webp",
+      "shots/_proposed/manual-dropbox-com-9b0e48__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.dropbox.com/",
+        "full": "shots/_proposed/manual-dropbox-com-9b0e48__p2.webp"
+      },
+      {
+        "url": "https://www.dropbox.com/plans",
+        "full": "shots/_proposed/manual-dropbox-com-9b0e48__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-storage",
+      "productivity-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a prominent heading and call to action on the left, balanced by a dynamic, interactive product demonstration on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating background colors (white and light grey) are used to visually separate major content sections, creating clear breaks and hierarchy down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with large, bold sans-serif headings for main sections, supported by clear, readable body text and smaller, often uppercase, labels for sub-sections or feature descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette is used, primarily white and light grey backgrounds, with a deep, vibrant blue for primary calls to action and links, and a dark charcoal for footer and a key 'Security' section."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle slide-up or fade-in effect as the user scrolls down the page, creating a dynamic content flow. The main navigation bar remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated dark-themed section is used to highlight security features, providing strong visual contrast and emphasizing the importance of this information."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features an embedded Lottie animation or video that visually demonstrates product functionality, dynamically updating its content to showcase different features. This is paired with a sticky navigation bar that remains visible throughout the scroll.",
+    "Content sections are designed to appear sequentially as the user scrolls, using scroll-triggered animations that cause elements to slide or fade into view from the bottom, creating a sense of progressive disclosure.",
+    "The site employs a grid-based layout for feature and resource sections, presenting information in digestible cards with consistent spacing and subtle corner rounding."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F5F2",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#004DC7",
+        "role": "cta"
+      },
+      {
+        "hex": "#BBB5AE",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual impact, complemented by a clear hierarchy of subheadings and readable body text.",
+    "radius": "Subtle rounding is applied to buttons, input fields, and card elements, contributing to a clean and approachable aesthetic.",
+    "spacing": "Balanced to airy spacing is used throughout, particularly in hero and between major sections, providing ample whitespace for readability, while content grids maintain a more balanced density."
+  },
+  "standout": "The most distinctive element is the interactive, dynamic hero visual that actively demonstrates the product's UI and capabilities through an embedded animation. This immediately communicates value and functionality in a way that static images or text alone cannot, setting a high bar for product-centric storytelling.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

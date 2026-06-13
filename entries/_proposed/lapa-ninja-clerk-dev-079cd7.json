@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-clerk-dev-079cd7",
+  "source": {
+    "url": "https://clerk.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-clerk-dev-079cd7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-clerk-dev-079cd7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-clerk-dev-079cd7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-clerk-dev-079cd7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "authentication"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark full-width sections create strong visual separation and rhythm, with content consistently constrained to a central maximum width."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings contrast with smaller, lighter body text, often accompanied by small uppercase labels for feature categories or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black and white is punctuated by a vibrant purple for primary calls-to-action and a bright cyan for subtle highlights or interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A promotional banner slides down from the top of the viewport to appear above the sticky navigation bar after the initial scroll, while other content sections simply scroll into view without complex animations."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed UI showcases are presented within dark, self-contained sections, often featuring multiple interactive-looking components or code snippets to illustrate functionality."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the scroll motion, implement a sticky header that remains at the top of the viewport. A separate banner element should be initially hidden above the viewport and then triggered to slide down into view above the sticky header once the user scrolls past a certain threshold.",
+    "Achieve visual hierarchy and content grouping by using full-width sections with contrasting background colors (white/light gray and very dark gray/black). Content within these sections should be centered and constrained to a consistent maximum width.",
+    "Present complex UI examples by embedding high-fidelity screenshots or mockups within dark, self-contained containers that mimic application interfaces, using subtle gradients and rounded corners for depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#131316",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#8A4FF7",
+        "role": "cta"
+      },
+      {
+        "hex": "#64E5FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#747686",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#212126",
+        "role": "surface-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with a clean, modern character, complemented by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, cards, and UI elements, contributing to a polished, modern feel.",
+    "spacing": "Balanced density overall, with an airy hero section and generous vertical spacing between major content blocks, transitioning to a tighter grid for feature lists and testimonials."
+  },
+  "standout": "The site's standout feature is its sophisticated integration of high-fidelity, dark-themed UI mockups and code snippets directly into the page flow, effectively demonstrating the product's technical capabilities and aesthetic without leaving the marketing context. This creates a strong sense of product quality and developer-centric design.",
+  "animation_tech": [],
+  "status": "proposed"
+}
