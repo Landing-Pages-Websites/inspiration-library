@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-character-ai-66ac04",
+  "source": {
+    "url": "https://www.character.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-character-ai-66ac04.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-character-ai-66ac04__scroll0.webp",
+      "shots/_proposed/lapa-ninja-character-ai-66ac04__scroll1.webp",
+      "shots/_proposed/lapa-ninja-character-ai-66ac04__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "ai",
+      "social-media",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content area, consisting of a signup card and a large illustrative image, is horizontally centered and vertically positioned for immediate prominence, flanked by a minimal header and footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The large illustrative image next to the signup form dynamically changes its content as the user scrolls down the page, cycling through different AI-generated character scenes."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette is used, featuring a very light grey background, a crisp white content card, and stark black text and primary call-to-action buttons, with subtle blue accents for links."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with bold, larger sans-serif headings for immediate impact, supported by smaller, lighter sans-serif text for descriptions and legal information."
+    }
+  ],
+  "technique_notes": [
+    "The main illustrative image is swapped out or transitioned using a scroll-triggered mechanism. This effect likely uses CSS keyframe animations or JavaScript to update the image source or background, possibly with a subtle fade or cross-dissolve, as the user scrolls past a certain point. The signup card remains fixed in the viewport, creating a layered effect where the background image changes underneath it.",
+    "The primary call-to-action card is designed as a distinct, elevated surface with rounded corners and a subtle shadow, visually separating it from the background and the dynamic illustration.",
+    "Interactive elements like buttons and links use a dark, solid background for primary actions and a distinct blue for secondary links, ensuring clear affordance and visual feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#121212",
+        "role": "text"
+      },
+      {
+        "hex": "#757575",
+        "role": "subtext"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#3498db",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Google Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) provide immediate impact, complemented by a clear hierarchy of smaller, lighter sans-serif text for subheadings and body content.",
+    "radius": "Rounded corners are consistently applied to content cards, images, and buttons, creating a soft and approachable aesthetic.",
+    "spacing": "Balanced and airy, with generous padding around the central content block and consistent vertical rhythm between elements, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The most distinctive element is the dynamic hero image that changes on scroll, showcasing a variety of AI-generated character scenarios. This creates an engaging and playful backdrop for the signup form, hinting at the product's capabilities without distracting from the primary conversion goal.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

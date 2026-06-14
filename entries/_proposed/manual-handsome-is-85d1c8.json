@@ -1,0 +1,119 @@
+{
+  "id": "manual-handsome-is-85d1c8",
+  "source": {
+    "url": "https://www.handsome.is",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-handsome-is-85d1c8.webp",
+    "scroll": [
+      "shots/_proposed/manual-handsome-is-85d1c8__scroll0.webp",
+      "shots/_proposed/manual-handsome-is-85d1c8__scroll1.webp",
+      "shots/_proposed/manual-handsome-is-85d1c8__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://handsome.is/",
+        "full": "shots/_proposed/manual-handsome-is-85d1c8__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design",
+      "branding"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A minimalist, single-column text layout for primary content, contrasting with a full-bleed, visually dense illustration section."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a classic serif typeface for extensive body copy, lending an editorial and traditional feel, which is then contrasted by a modern, geometric sans-serif for the brand logo and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, almost monochromatic background and text palette is dramatically interrupted by a single, large, vibrant, multi-color illustration section."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header with the logo and primary call-to-action remains fixed at the top of the viewport as the user scrolls, providing persistent navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, complex, and colorful illustration section reveals itself as the user scrolls into its viewport, likely playing a Lottie animation once fully visible."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a long-form, editorial 'letter from the CEO' section that establishes brand philosophy before transitioning to a distinct, visually playful brand identity section."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header element maintains brand presence and navigation access throughout the scroll experience.",
+    "Long-form editorial content is presented with generous line spacing and paragraph breaks, using a classic serif font for readability and a sophisticated tone.",
+    "A large, full-bleed, animated illustration (likely a Lottie animation, as hinted) is used as a hero element for a distinct section, playing its animation as it enters the viewport, creating a dynamic visual break."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F5F1",
+        "role": "background"
+      },
+      {
+        "hex": "#2A2A2A",
+        "role": "text"
+      },
+      {
+        "hex": "#66FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#9966FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "EB Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "EB Garamond",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Futura",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Elegant serif headings (~2x body) with generous line height, complemented by smaller uppercase sans-serif labels.",
+    "radius": "Subtle for interactive elements like buttons, otherwise sharp.",
+    "spacing": "Airy, with significant vertical padding between sections and ample line spacing within text blocks."
+  },
+  "standout": "The site's design is distinctive for its bold juxtaposition of a highly traditional, long-form editorial letter with a strikingly modern, abstract, and vibrantly animated illustration. This unexpected contrast creates a memorable brand experience that feels both established and forward-thinking.",
+  "animation_tech": [
+    "gsap",
+    "lottie"
+  ],
+  "status": "proposed"
+}

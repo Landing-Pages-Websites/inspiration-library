@@ -1,0 +1,121 @@
+{
+  "id": "manual-acnestudios-com-8e38a9",
+  "source": {
+    "url": "https://www.acnestudios.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-acnestudios-com-8e38a9.webp",
+    "scroll": [
+      "shots/_proposed/manual-acnestudios-com-8e38a9__scroll0.webp",
+      "shots/_proposed/manual-acnestudios-com-8e38a9__scroll1.webp",
+      "shots/_proposed/manual-acnestudios-com-8e38a9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.acnestudios.com/home",
+        "full": "shots/_proposed/manual-acnestudios-com-8e38a9__p2.webp"
+      },
+      {
+        "url": "https://www.acnestudios.com/us/en/sale",
+        "full": "shots/_proposed/manual-acnestudios-com-8e38a9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "e-commerce",
+      "luxury-fashion"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, edge-to-edge imagery and video sections dominate the page, often serving as hero areas for large typographic statements that span the full viewport width."
+    },
+    {
+      "kind": "type",
+      "note": "Overlapping, oversized sans-serif typography is used as a primary visual element, often interacting with background imagery through parallax and serving as section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is consistently contrasted with vibrant, often pastel or muted, colors introduced through product photography and occasional brand accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, bold text elements parallax over full-bleed image or video backgrounds as the user scrolls, creating a dynamic, layered effect where text appears to float over the content."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured as a series of distinct, full-screen or near-full-screen visual modules, each featuring a hero image/video and a prominent typographic statement, which transition smoothly into one another upon scroll."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a custom scroll experience, likely using a library like Locomotive Scroll, to create smooth scrolling and sophisticated parallax effects. Large, bold text elements are positioned to scroll at a different rate than their full-bleed image or video backgrounds, creating a layered depth effect.",
+    "Full-width, full-height hero sections are used to introduce content blocks, featuring dynamic video or high-resolution photography with large, overlaid typographic statements.",
+    "A minimalist, fixed header navigation remains visible at the top, providing persistent access to main categories while the main content scrolls beneath it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0018A8",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Now Display",
+        "role": "display"
+      },
+      {
+        "family": "Helvetica Now Text",
+        "role": "body"
+      },
+      {
+        "family": "Helvetica Now Micro",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very oversized, bold sans-serif headings (~4-6x body text) create strong visual impact, balanced by a clean, legible sans-serif for body and smaller labels.",
+    "radius": "Sharp corners are consistently used across all elements, from image frames to buttons and input fields.",
+    "spacing": "An airy and expansive spacing is used in hero sections and between major content blocks, transitioning to a more balanced density within product grids and informational footers."
+  },
+  "standout": "The site's distinctive use of monumental, overlapping typography that interacts dynamically with full-bleed, often video-based, backgrounds through a sophisticated parallax scroll effect. This creates a highly immersive and editorial feel, making the text itself a central design element rather than just content.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

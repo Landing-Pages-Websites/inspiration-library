@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-kling-ai-acf59c",
+  "source": {
+    "url": "https://www.kling.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-kling-ai-acf59c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-kling-ai-acf59c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-kling-ai-acf59c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-kling-ai-acf59c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "ai",
+      "creative-tech",
+      "software",
+      "media-generation"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed cinematic video hero with centered overlay text, setting a dramatic and immersive tone."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating image and text blocks for feature descriptions, often with the image taking up more horizontal space, creating an asymmetrical yet balanced composition."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly dark mode aesthetic with black backgrounds and white text, creating a high-contrast, premium feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered section reveals where content fades and slides into view from the bottom as it enters the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video background exhibits a subtle parallax and scaling effect as the user scrolls, while the main headline remains relatively fixed."
+    },
+    {
+      "kind": "type",
+      "note": "Use of a distinct, elegant italic display font for primary hero headlines, contrasting with clean, modern sans-serif for all other text and small uppercase labels for feature descriptions."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero is used with a subtle dark overlay to ensure text legibility, where the video background exhibits a gentle parallax and scaling effect as the user scrolls down the page.",
+    "Sections below the hero are revealed using a scroll-triggered animation, typically a fade-up or slide-up effect, as they enter the viewport, likely implemented with css-keyframes.",
+    "The primary navigation bar transitions from a transparent, full-height state to a sticky, slightly reduced height bar with a solid dark background after the initial scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#2f3133",
+        "role": "surface"
+      },
+      {
+        "hex": "#d3e2f0",
+        "role": "accent"
+      },
+      {
+        "hex": "#74ff52",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Editorial New UltraboldItalic",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: MiSans Semibold",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, elegant italic display heading (~4-5x body) with smaller, clean sans-serif headings and body text. Small, uppercase sans-serif labels are used for feature descriptions.",
+    "radius": "Subtle rounded corners on buttons, cards, and image containers, providing a soft modern touch.",
+    "spacing": "Airy in the hero section and between major content blocks, with balanced density within feature descriptions and partner grids."
+  },
+  "standout": "The site's distinctive use of cinematic, high-quality video and imagery combined with a sophisticated dark mode aesthetic and elegant typography creates a premium, almost editorial feel. The seamless integration of motion, particularly the hero parallax and scroll-triggered reveals, elevates the user experience beyond a typical marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

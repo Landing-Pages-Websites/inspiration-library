@@ -1,0 +1,103 @@
+{
+  "id": "manual-ueno-co-ee2c02",
+  "source": {
+    "url": "https://ueno.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ueno-co-ee2c02.webp",
+    "scroll": [
+      "shots/_proposed/manual-ueno-co-ee2c02__scroll0.webp",
+      "shots/_proposed/manual-ueno-co-ee2c02__scroll1.webp",
+      "shots/_proposed/manual-ueno-co-ee2c02__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ueno.co/neweno",
+        "full": "shots/_proposed/manual-ueno-co-ee2c02__p2.webp"
+      },
+      {
+        "url": "https://www.ueno.co/clients",
+        "full": "shots/_proposed/manual-ueno-co-ee2c02__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "agency",
+      "innovation-studio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Generous use of negative space, particularly around headings and main content blocks, creating an airy and premium feel."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large serif headings (e.g., 'Hi. We're a strategic design and innovation studio.') contrasted with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochrome palette of black text on a white background, allowing the dynamic hero visuals to provide the primary visual interest and subtle color."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text 'Hi. We're a strategic design and innovation studio.' remains visible at the top of the viewport for a significant scroll depth, while a dynamic, multi-layered visual element (a collage of app interfaces transitioning into a full-bleed video or WebGL background) scrolls underneath it, creating a parallax-like effect before the text eventually scrolls out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Client names are presented as a continuous, horizontally wrapping list of text links, rather than a grid of logos, emphasizing the breadth of their partnerships."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a primary text statement that is initially positioned at the top of the viewport and remains sticky for a substantial scroll duration. Concurrently, a rich visual background, composed of a collage of app screenshots that then transitions into a full-bleed video or WebGL animation, scrolls upwards beneath this text, creating a layered parallax effect. This dynamic background provides visual interest and depth as the user scrolls, eventually revealing the subsequent content sections.",
+    "Content sections below the hero appear with a simple scroll-up, maintaining a clean, direct presentation without complex reveal animations.",
+    "The site uses a high-contrast typographic hierarchy with large, elegant serif headings for impact and clear sans-serif for readability in body copy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bitter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold serif headings (~3-4x body text) for primary statements, with a clear, readable sans-serif for body and navigation.",
+    "radius": "Sharp corners throughout all visible elements, maintaining a crisp, modern aesthetic.",
+    "spacing": "Airy, with significant vertical spacing between major sections and generous line-heights for body text, contributing to a premium and uncluttered feel."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated blend of classic, elegant serif typography for primary messaging with a highly dynamic, modern, and almost abstract visual hero. This creates a powerful contrast between timeless authority and cutting-edge innovation, avoiding generic templates by making the hero a truly unique, interactive visual experience rather than a static image or simple video.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

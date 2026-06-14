@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-circle-so-7b0d23",
+  "source": {
+    "url": "https://www.circle.so",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-circle-so-7b0d23.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-circle-so-7b0d23__scroll0.webp",
+      "shots/_proposed/lapa-ninja-circle-so-7b0d23__scroll1.webp",
+      "shots/_proposed/lapa-ninja-circle-so-7b0d23__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "community-platform",
+      "social-networking"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently constrained to a central max-width container, often featuring dark backgrounds with contrasting light text."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings are used for section titles, often centered, creating strong visual anchors throughout the page."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark blue/purple gradient serves as a primary background, contrasted with white text and vibrant, multi-color gradients used for illustrations and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar is initially transparent and transforms to a solid dark background with white text as the user scrolls down the page, becoming sticky."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal elements reveal with a staggered fade-in or subtle slide-up effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented with a clear heading, concise descriptive text, and a large, detailed screenshot or illustration demonstrating the product's UI."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a combination of canvas for the dynamic, subtle background animation in the hero section, GSAP for scroll-triggered reveals where elements fade and slide into view as the user scrolls down the page, and CSS keyframes for smaller, subtle UI animations. The navigation bar transitions its background and text color using CSS transitions when it becomes sticky after scrolling past the hero."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#262626",
+        "role": "surface"
+      },
+      {
+        "hex": "#3e8def",
+        "role": "accent"
+      },
+      {
+        "hex": "#c95bcf",
+        "role": "accent"
+      },
+      {
+        "hex": "#e35e2c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (up to ~3-4x body size) with a clear hierarchy, supported by legible body text and smaller uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., ~4-8px) on buttons, input fields, and some card elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness."
+  },
+  "standout": "The site's distinctive use of deep, dark gradient backgrounds combined with vibrant, almost neon-like multi-color illustrations and UI elements creates a sophisticated yet energetic feel. This aesthetic, paired with clean, modern typography, elevates it beyond a typical SaaS template, giving it a premium and slightly futuristic character.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

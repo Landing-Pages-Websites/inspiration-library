@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-sendlane-com-530f15",
+  "source": {
+    "url": "https://www.sendlane.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sendlane-com-530f15.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sendlane-com-530f15__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sendlane-com-530f15__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sendlane-com-530f15__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing-automation",
+      "email-marketing"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and split layouts with text on one side and a prominent graphic or dashboard-like illustration on the other, often with a subtle background color shift."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, modern sans-serif font with generous letter spacing, while body text is a highly legible, slightly lighter sans-serif, creating a clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon pink/orange is used exclusively for primary call-to-action buttons and key accent elements, contrasting sharply with a predominantly cool-toned palette of light blues, grays, and white."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background gradient and the detailed dashboard graphic scroll at a slower rate than the foreground text and CTA, creating depth. Subsequent content sections are revealed with a fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site frequently uses a 'social proof' section featuring a horizontal strip of recognizable client logos, positioned prominently below the hero or after key feature explanations."
+    }
+  ],
+  "technique_notes": [
+    "The hero section achieves depth through a background element (gradient and dashboard graphic) that scrolls at a slower speed than the foreground text and button, creating a subtle parallax effect. This can be implemented using CSS `background-attachment: fixed` or JavaScript-driven scroll transformations.",
+    "Content sections below the hero are designed to appear dynamically. As the user scrolls, each new section fades in and slides slightly upwards from the bottom of the viewport, ensuring a smooth and engaging content reveal. This effect is commonly built with a library like Framer Motion, triggering animations based on scroll position.",
+    "Interactive elements like buttons and cards use subtle hover effects, such as a slight lift or color change, to indicate interactivity without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#eaf0f6",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff7a59",
+        "role": "cta"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#99acc2",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#00a4bd",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f8fa",
+        "role": "surface-alt"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Lexend Deca",
+        "role": "heading"
+      },
+      {
+        "family": "SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with generous letter spacing, complemented by smaller, lighter subheadings and highly legible body text.",
+    "radius": "Rounded corners are consistently applied to buttons, cards, and graphic containers, giving a soft and approachable feel.",
+    "spacing": "Balanced and airy, with ample vertical and horizontal padding around sections and elements, creating a clean and uncluttered presentation."
+  },
+  "standout": "This site stands out with its sophisticated, data-rich dashboard graphics integrated directly into the hero and feature sections, effectively visualizing the product's value proposition. The vibrant pink/orange CTA color provides a strong, energetic focal point against an otherwise calm and professional color scheme, making key actions highly visible.",
+  "animation_tech": [
+    "css-keyframes",
+    "framer-motion",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

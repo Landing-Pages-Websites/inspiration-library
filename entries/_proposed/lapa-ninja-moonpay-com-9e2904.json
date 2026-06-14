@@ -1,0 +1,124 @@
+{
+  "id": "lapa-ninja-moonpay-com-9e2904",
+  "source": {
+    "url": "https://www.moonpay.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-moonpay-com-9e2904.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-moonpay-com-9e2904__scroll0.webp",
+      "shots/_proposed/lapa-ninja-moonpay-com-9e2904__scroll1.webp",
+      "shots/_proposed/lapa-ninja-moonpay-com-9e2904__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "crypto",
+      "financial-services",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video hero section with a dark overlay, ensuring text readability over dynamic background content."
+    },
+    {
+      "kind": "layout",
+      "note": "Overall dark mode interface with high-contrast white text and subtle light grey elements for cards and input fields."
+    },
+    {
+      "kind": "layout",
+      "note": "Horizontal scrolling section for customer testimonials, allowing many cards to be displayed without excessive vertical space."
+    },
+    {
+      "kind": "color",
+      "note": "Subtle purple-to-blue gradient used as a visual separator and background element between dark sections, adding depth and brand accent."
+    },
+    {
+      "kind": "type",
+      "note": "Exceptionally large and bold sans-serif numbers used for social proof metrics, creating a strong visual impact."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video background scrolls at a slower rate than the foreground content, creating a subtle parallax effect that adds depth to the initial view."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero reveal with a subtle fade-in or slide-up effect as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, maintaining access to key links throughout the scroll."
+    }
+  ],
+  "technique_notes": [
+    "A full-width video element is positioned behind the main hero content, playing on loop, with a semi-transparent dark overlay applied to ensure text contrast and readability. The video background is set to scroll at a slower rate than the foreground content, creating a subtle parallax effect.",
+    "The main navigation bar is fixed to the top of the browser window, ensuring it remains visible and accessible as the user scrolls down the page.",
+    "Sections of content are configured to animate into view, typically with a subtle fade-in and slight upward translation, as they become visible within the user's viewport during scrolling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#626262",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F9F8FB",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "border"
+      },
+      {
+        "hex": "#4300AA",
+        "role": "accent"
+      },
+      {
+        "hex": "#7D00FF",
+        "role": "gradient-start"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) with clean, readable body text; social proof numbers are exceptionally large and bold (~5-6x body size).",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, input fields, and feature cards.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within the hero, but a tighter grid for feature cards and footer links."
+  },
+  "standout": "The site's standout feature is its sophisticated dark mode aesthetic combined with an immersive, full-bleed video hero that subtly parallaxes. The strategic use of vibrant, yet controlled, purple-to-blue gradients as visual transitions between dark sections adds a distinctive, almost 'luxe' feel to a crypto service, elevating it beyond typical fintech designs.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

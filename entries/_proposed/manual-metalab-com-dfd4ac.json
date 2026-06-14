@@ -1,0 +1,107 @@
+{
+  "id": "manual-metalab-com-dfd4ac",
+  "source": {
+    "url": "https://www.metalab.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-metalab-com-dfd4ac.webp",
+    "scroll": [
+      "shots/_proposed/manual-metalab-com-dfd4ac__scroll0.webp",
+      "shots/_proposed/manual-metalab-com-dfd4ac__scroll1.webp",
+      "shots/_proposed/manual-metalab-com-dfd4ac__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.metalab.com/what-we-do",
+        "full": "shots/_proposed/manual-metalab-com-dfd4ac__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "software-development",
+      "product-development",
+      "digital-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with generous vertical padding, creating an airy and spacious feel, especially around large typographic elements."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy contrasting very large, elegant serif display fonts for key statements with clean, legible sans-serif for body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, monochromatic palette primarily using black and white, creating a sophisticated and stark visual impact across all content."
+    },
+    {
+      "kind": "motion",
+      "note": "The site features a distinct full-screen introductory animation with large text on a white background, which then transitions to the main dark-themed content page upon completion or slight scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Use of large, impactful single-line text statements as section dividers or focal points, often centered and using the elegant display serif font."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen introductory animation featuring large, animated text on a white background, which then transitions smoothly to the main dark-themed content page.",
+    "Content sections on the main page are revealed using scroll-triggered animations, typically involving elements fading in and sliding slightly upwards as they enter the viewport.",
+    "The hero section integrates a background video player that plays automatically, providing dynamic visual interest within the dark, high-contrast layout."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#B3B3B3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, elegant serif display headings (~5-8x body text) with a clear hierarchy down to small, clean sans-serif labels.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Very airy in hero and large text sections, becoming more balanced in content grids, but always maintaining significant vertical separation between sections."
+  },
+  "standout": "The dramatic, full-screen animated text intro that serves as a pre-loader or brand statement before transitioning to the main, high-contrast dark-mode content. This creates an immediate sense of sophistication and intentionality.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

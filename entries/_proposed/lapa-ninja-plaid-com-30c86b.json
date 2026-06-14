@@ -1,0 +1,129 @@
+{
+  "id": "lapa-ninja-plaid-com-30c86b",
+  "source": {
+    "url": "https://www.plaid.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-plaid-com-30c86b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-plaid-com-30c86b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-plaid-com-30c86b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-plaid-com-30c86b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "saas",
+      "api-platform"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently constrained to a central maximum width, creating a structured and balanced presentation across the page."
+    },
+    {
+      "kind": "color",
+      "note": "Extensive use of vibrant, multi-color gradients (primarily blue-to-purple and blue-to-green) as background elements, often with a subtle dark overlay to enhance text contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary messaging, often in white against dark or gradient backgrounds, establishing a strong visual hierarchy and modern feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and key content elements (such as feature cards and text blocks) reveal with a subtle fade-up or slide-up animation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image (Benjamin Franklin) exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections are presented as illustrative cards with embedded data visualizations or UI mockups, clearly demonstrating functionality rather than just describing it."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated code snippet section highlights API integration, using a dark background and monospace font to emphasize developer-centric content and provide a clear example."
+    }
+  ],
+  "technique_notes": [
+    "Gradient backgrounds are used extensively, often with multiple color stops to create a dynamic, modern feel, sometimes overlaid with a semi-transparent dark layer for text legibility.",
+    "Scroll-triggered animations, likely using CSS keyframes or a JavaScript library, are employed to reveal content sections and individual elements with a staggered fade-up or slide-in effect as they enter the viewport.",
+    "The hero section features a background image that moves at a slower rate than the foreground content, creating a subtle parallax depth effect as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#043c67",
+        "role": "background"
+      },
+      {
+        "hex": "#2b2b82",
+        "role": "accent"
+      },
+      {
+        "hex": "#0a54c4",
+        "role": "accent"
+      },
+      {
+        "hex": "#671877",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#d80027",
+        "role": "accent"
+      },
+      {
+        "hex": "#0052b4",
+        "role": "cta"
+      },
+      {
+        "hex": "#747677",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cern",
+        "role": "heading"
+      },
+      {
+        "family": "Plaid Sans",
+        "role": "body"
+      },
+      {
+        "family": "Inconsolata",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a modern character, complemented by a clear, readable body text and smaller uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners (small radius) on buttons, cards, and input fields, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness and allowing content to breathe."
+  },
+  "standout": "The site's standout feature is its sophisticated use of illustrative data visualizations and UI mockups embedded directly within product feature cards, which effectively communicate complex financial technology concepts. This, combined with the dynamic gradient backgrounds and a prominent code snippet section, clearly positions Plaid as a modern, developer-friendly fintech platform.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

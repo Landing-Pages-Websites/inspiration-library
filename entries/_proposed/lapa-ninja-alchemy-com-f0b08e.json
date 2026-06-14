@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-alchemy-com-f0b08e",
+  "source": {
+    "url": "https://www.alchemy.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-alchemy-com-f0b08e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-alchemy-com-f0b08e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-alchemy-com-f0b08e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-alchemy-com-f0b08e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "blockchain",
+      "fintech",
+      "web3"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent max-width container for text and primary elements, creating a clean, structured flow."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is smaller and highly legible, maintaining a clear hierarchy. Uppercase labels are used for sub-sections and categories."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant blue gradient is used as a primary brand color, often appearing in backgrounds, illustrations, and call-to-action buttons, complemented by a bright cyan/teal for accents and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The top announcement banner slides up and disappears on scroll, while the main navigation bar shrinks vertically and gains a subtle shadow as it becomes sticky. Background elements, such as the dotted pattern in the hero, exhibit a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a concise text block (heading, description, CTA) with a compelling, often abstract 3D illustration or interactive data visualization on the opposite side."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations (likely via locomotive-scroll) to reveal sections as they enter the viewport, often with a subtle fade-in or slide-up effect. Complex 3D graphics and data visualizations are integrated, potentially using canvas or lottie for dynamic, interactive elements. The header transforms on scroll, shrinking and gaining a backdrop effect to maintain prominence while conserving space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A0A0A",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#363FF9",
+        "role": "cta"
+      },
+      {
+        "hex": "#0055FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#21D6EF",
+        "role": "accent"
+      },
+      {
+        "hex": "#E2E8F0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~3-4x body) create strong visual impact, supported by clear, readable body text and smaller uppercase labels for context.",
+    "radius": "Subtle rounding on buttons and card edges (e.g., ~4-8px) provides a modern, approachable feel without being overly soft.",
+    "spacing": "Balanced spacing throughout, with airy sections in the hero and key feature areas, transitioning to a slightly denser but still clear layout for data and news grids."
+  },
+  "standout": "The site distinguishes itself through the sophisticated integration of abstract 3D visualizations and dynamic data graphics, which are not merely decorative but actively communicate complex technical concepts. This, combined with a strong, consistent brand identity built around a vibrant blue gradient and cyan accents, creates a highly modern and authoritative tech aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll",
+    "lottie"
+  ],
+  "status": "proposed"
+}

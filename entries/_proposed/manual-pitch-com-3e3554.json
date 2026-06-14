@@ -1,0 +1,123 @@
+{
+  "id": "manual-pitch-com-3e3554",
+  "source": {
+    "url": "https://pitch.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-pitch-com-3e3554.webp",
+    "scroll": [
+      "shots/_proposed/manual-pitch-com-3e3554__scroll0.webp",
+      "shots/_proposed/manual-pitch-com-3e3554__scroll1.webp",
+      "shots/_proposed/manual-pitch-com-3e3554__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://pitch.com/demo",
+        "full": "shots/_proposed/manual-pitch-com-3e3554__p2.webp"
+      },
+      {
+        "url": "https://pitch.com/pricing",
+        "full": "shots/_proposed/manual-pitch-com-3e3554__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "presentation-software",
+      "productivity-tool"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Dominant use of a deep purple gradient (from #280f62 to #5318eb) for hero and key feature sections, providing a strong, consistent brand identity."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks within sections, often pairing text on one side with a product screenshot or graphic on the other, breaking typical grid monotony and adding visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content cards (e.g., feature blocks, template previews) animate into view with a subtle fade-up and slight slide-in effect as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent overlay with white text to a solid white background with dark text and a subtle shadow once the user scrolls past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a full-width, dark purple section with an extensive multi-column sitemap, reinforcing the comprehensive nature of the product and providing detailed navigation."
+    }
+  ],
+  "technique_notes": [
+    "Motion system: Implement scroll-triggered animations (likely using css-keyframes as hinted) where content blocks and individual elements (like feature cards or images) subtly fade up and slide into their final position as they enter the viewport. The global navigation bar should dynamically change its styling, transitioning from a transparent background with light text to an opaque white background with dark text and a soft drop shadow, once the user scrolls beyond the initial hero view.",
+    "Visual system: Establish a strong brand presence through the consistent application of a deep, vibrant purple gradient as a background for high-impact sections, contrasting with clean white or very light purple backgrounds for detailed content areas. Apply subtle, consistent rounded corners to all interactive elements and content containers, such as buttons, input fields, and feature cards, for a polished, approachable feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#280f62",
+        "role": "primary-accent"
+      },
+      {
+        "hex": "#5318eb",
+        "role": "vibrant-purple-gradient"
+      },
+      {
+        "hex": "#c6a5ff",
+        "role": "light-purple-gradient"
+      },
+      {
+        "hex": "#ebe3fe",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Mark Pro Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Mark Pro Regular",
+        "role": "body"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (hero ~3-4x body) with clear, readable body text, creating a strong visual hierarchy.",
+    "radius": "Subtle rounding (small radius) on buttons, input fields, and content cards, maintaining a clean yet approachable aesthetic.",
+    "spacing": "Balanced and airy, particularly in hero and feature sections, with generous padding around content blocks and a comfortable line height for readability."
+  },
+  "standout": "The integration of an AI prompt directly into the hero section, combined with the dynamic, floating presentation elements against a rich purple gradient, immediately communicates innovation and a modern, product-led approach, distinguishing it from typical SaaS marketing sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

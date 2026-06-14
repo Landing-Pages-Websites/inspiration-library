@@ -1,0 +1,122 @@
+{
+  "id": "manual-bombas-com-12347f",
+  "source": {
+    "url": "https://www.bombas.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-bombas-com-12347f.webp",
+    "scroll": [
+      "shots/_proposed/manual-bombas-com-12347f__scroll0.webp",
+      "shots/_proposed/manual-bombas-com-12347f__scroll1.webp",
+      "shots/_proposed/manual-bombas-com-12347f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://bombas.com/",
+        "full": "shots/_proposed/manual-bombas-com-12347f__p2.webp"
+      },
+      {
+        "url": "https://bombas.com/help",
+        "full": "shots/_proposed/manual-bombas-com-12347f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "apparel",
+      "e-commerce",
+      "social-impact"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Prominent full-width hero section with large, bold typography and a split visual design (image on left, text/CTA on right)."
+    },
+    {
+      "kind": "layout",
+      "note": "Grid-based product and category displays with consistent spacing, often featuring lifestyle photography of products in use."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette for backgrounds (greens, off-whites, dark blues) contrasted with a dark primary text color and bright, warm accents for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner slides out of view on scroll, while the main navigation bar becomes sticky at the top of the viewport, maintaining site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'impact' section prominently displays the brand's social mission ('200 Million+ Donations') with large numbers and a clear call to action, reinforcing brand values."
+    }
+  ],
+  "technique_notes": [
+    "The header system uses a dynamic sticky effect where a top promotional banner disappears on scroll, and the main navigation bar then fixes to the top of the viewport, providing persistent access to navigation. This uses css-keyframes for the transition.",
+    "Content sections utilize full-width layouts with alternating background colors to visually separate different content blocks, creating clear visual breaks as the user scrolls.",
+    "Product and category listings are presented in responsive grid layouts, ensuring consistent item sizing and spacing across various screen dimensions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#223859",
+        "role": "text"
+      },
+      {
+        "hex": "#fdfcf6",
+        "role": "background"
+      },
+      {
+        "hex": "#b6c498",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8ba4c",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#a0c7ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#b2c691",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Roboto-Bold",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Bold, slightly condensed sans-serif headings (hero ~3-4x body) with a clear hierarchy, complemented by a legible sans-serif body text.",
+    "radius": "Subtle (buttons, cards, and product images feature slightly rounded corners).",
+    "spacing": "Balanced (sections have generous vertical padding, product grids are well-spaced, creating a comfortable visual density)."
+  },
+  "standout": "The site effectively integrates its social mission ('one purchased = one donated') into the core design, making it a prominent and visually impactful element rather than an afterthought. The use of real, diverse models showcasing products on legs/feet adds a unique, authentic, and relatable touch, enhancing product appeal.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

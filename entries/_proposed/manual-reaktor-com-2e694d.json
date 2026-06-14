@@ -1,0 +1,112 @@
+{
+  "id": "manual-reaktor-com-2e694d",
+  "source": {
+    "url": "https://www.reaktor.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-reaktor-com-2e694d.webp",
+    "scroll": [
+      "shots/_proposed/manual-reaktor-com-2e694d__scroll0.webp",
+      "shots/_proposed/manual-reaktor-com-2e694d__scroll1.webp",
+      "shots/_proposed/manual-reaktor-com-2e694d__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.reaktor.com/work",
+        "full": "shots/_proposed/manual-reaktor-com-2e694d__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "digital-solutions",
+      "consulting",
+      "design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "High-contrast, full-width sections with generous vertical padding, primarily using black and white backgrounds to delineate content areas and create visual breathing room."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large-scale sans-serif headings create a bold and sophisticated visual hierarchy, complemented by smaller, uppercase labels for contextual cues and section introductions."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white color scheme dominates the interface, with vibrant, high-quality photography providing the primary source of color and visual interest within content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The global navigation bar sticks to the top of the viewport on scroll. Content sections and individual elements within them appear to reveal with subtle animations (e.g., fade-up, slide-in) as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Image grids are extensively used for showcasing hero content, work examples, and client logos, often featuring a large, semi-transparent brand initial overlay for a distinctive visual signature."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible at the top of the screen as the user scrolls. Content sections are designed to reveal dynamically, with individual elements animating into view (e.g., fading up or sliding in) as they become visible in the viewport, likely orchestrated using GSAP ScrollTrigger and Locomotive Scroll for smooth scrolling and synchronized animations.",
+    "Visual content is presented in full-bleed image grids, often with a large, semi-transparent brand initial (like 'R') overlaid, creating a distinctive visual signature without fully obscuring the underlying image."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#888888",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, uppercase, slightly tracked labels for emphasis, creating a strong typographic contrast.",
+    "radius": "sharp \u2014 all elements, including images and interactive components, feature crisp, 90-degree corners.",
+    "spacing": "airy \u2014 very generous vertical spacing between major sections and within the hero, creating a sense of openness and allowing content to breathe."
+  },
+  "standout": "The site's design is distinctive for its bold, high-contrast black and white aesthetic, which provides a sophisticated backdrop for its large, elegant typography and dynamic, image-rich content. The consistent use of a large, semi-transparent 'R' logo overlay on hero images is a unique branding element that reinforces identity without being intrusive.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

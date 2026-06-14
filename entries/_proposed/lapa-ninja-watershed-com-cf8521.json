@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-watershed-com-cf8521",
+  "source": {
+    "url": "https://www.watershed.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-watershed-com-cf8521.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-watershed-com-cf8521__scroll0.webp",
+      "shots/_proposed/lapa-ninja-watershed-com-cf8521__scroll1.webp",
+      "shots/_proposed/lapa-ninja-watershed-com-cf8521__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "sustainability",
+      "environmental-tech"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section layout featuring a large, impactful headline positioned to the left, balanced by a dynamic, multi-layered abstract graphic on the right."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with oversized, bold sans-serif headings for primary messaging and a clean, readable sans-serif for body text, often accompanied by smaller, uppercase labels for categories or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette combining deep blues and crisp whites as primary colors, accented with vibrant pops of bright blue, orange, and green, creating a professional yet dynamic visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background graphic composed of abstract blocks and gradients that parallax scrolls at a slower rate than the foreground content, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking slightly and gaining a solid white background with a subtle shadow as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-bleed sections, often using alternating background colors or imagery to clearly delineate different topics or feature sets."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is constructed with a foreground content layer (headline, text, CTAs) positioned over a background layer of abstract, geometric shapes and gradients. The background layer is animated to scroll at a slower pace than the foreground, creating a parallax effect using CSS transforms or WebGL.",
+    "The main navigation bar is implemented as a sticky header that dynamically changes its visual properties (height, background color, shadow) using CSS transitions when the user scrolls past a certain threshold, typically the initial hero content.",
+    "Content sections throughout the page are designed to reveal themselves with scroll-triggered animations, likely using CSS keyframes or a JavaScript library like Lottie or GSAP to fade up or slide into view as they enter the viewport, enhancing engagement and guiding the user's attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#041330",
+        "role": "dark-background-text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "light-background-text"
+      },
+      {
+        "hex": "#265CFF",
+        "role": "primary-accent-cta"
+      },
+      {
+        "hex": "#E77054",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#D1D8E5",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#BEC7DA",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Messina Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, readable sans-serif for body text and smaller, often uppercase labels.",
+    "radius": "Subtle for interactive elements like buttons and cards, with sharp corners for the abstract background graphics.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more compact grid for feature cards."
+  },
+  "standout": "The site's distinctive use of abstract, geometric background graphics, particularly in the hero section, which employs a subtle parallax effect. This creates a modern, dynamic feel that elevates it beyond a standard corporate template, blending professionalism with a visually engaging, almost artistic quality.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
