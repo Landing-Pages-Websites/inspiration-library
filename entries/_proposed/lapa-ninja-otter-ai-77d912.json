@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-otter-ai-77d912",
+  "source": {
+    "url": "https://www.otter.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-otter-ai-77d912.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-otter-ai-77d912__scroll0.webp",
+      "shots/_proposed/lapa-ninja-otter-ai-77d912__scroll1.webp",
+      "shots/_proposed/lapa-ninja-otter-ai-77d912__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "productivity-tool"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections are clearly delineated by alternating background colors (white, deep blue, black) and generous vertical padding."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings for main sections, complemented by smaller, often uppercase, labels for sub-categories or feature titles."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, deep blue (#144fff) is consistently used for primary calls to action, interactive elements, and as a dominant background color, creating a strong brand identity against white and black sections."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, new content sections and individual elements within them (e.g., product mockups, testimonial cards) reveal themselves with a subtle fade-in and slight upward slide animation."
+    },
+    {
+      "kind": "section",
+      "note": "Product features are showcased through artfully arranged, layered device mockups that integrate realistic UI screenshots into a visually engaging composition."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation bar that remains fixed at the top of the viewport, providing persistent access to main menu items and calls to action.",
+    "Content sections and individual elements are animated into view with a staggered fade-up and slight translation effect as they enter the viewport, likely using a JavaScript animation library like GSAP ScrollTrigger.",
+    "The hero section features a dynamic, blurred background element, possibly a video or animated gradient, that adds visual depth and modern appeal without distracting from the primary message."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#144FFF",
+        "role": "cta"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#52D0F0",
+        "role": "accent"
+      },
+      {
+        "hex": "#19C185",
+        "role": "accent"
+      },
+      {
+        "hex": "#F59E0B",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, balanced by clear, legible body text and smaller, often uppercase, supporting labels.",
+    "radius": "Subtle; buttons and cards feature gently rounded corners, contributing to a soft, modern aesthetic.",
+    "spacing": "Balanced to airy; sections have generous vertical padding, and elements within sections are well-spaced, creating a clean and uncluttered feel."
+  },
+  "standout": "This site distinguishes itself with its sophisticated integration of dynamic, blurred gradient backgrounds and layered product mockups, which elevate standard feature showcases into visually engaging compositions. The consistent use of a vibrant blue accent color against clean white and dark backgrounds, combined with a bold typographic hierarchy, creates a distinctive and memorable brand presence.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

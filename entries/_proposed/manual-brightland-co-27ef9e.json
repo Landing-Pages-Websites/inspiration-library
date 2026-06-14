@@ -1,0 +1,119 @@
+{
+  "id": "manual-brightland-co-27ef9e",
+  "source": {
+    "url": "https://brightland.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-brightland-co-27ef9e.webp",
+    "scroll": [
+      "shots/_proposed/manual-brightland-co-27ef9e__scroll0.webp",
+      "shots/_proposed/manual-brightland-co-27ef9e__scroll1.webp",
+      "shots/_proposed/manual-brightland-co-27ef9e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://brightland.co/products/awake",
+        "full": "shots/_proposed/manual-brightland-co-27ef9e__p2.webp"
+      },
+      {
+        "url": "https://brightland.co/products/alive",
+        "full": "shots/_proposed/manual-brightland-co-27ef9e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "gourmet-food",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero imagery often features a split composition, balancing product focus with lifestyle elements, and is consistently used for primary visual impact."
+    },
+    {
+      "kind": "type",
+      "note": "A modern sans-serif font is used for most headings and body text, complemented by a distinctive script font for select emotional or branding accents, such as 'From the Tastemakers'."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of white and deep dark tones (near black) forms the base, with a vibrant golden yellow/orange serving as a consistent accent for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the initial top announcement bar collapses, while the main navigation bar becomes sticky at the top. A persistent left-hand product category filter panel also remains sticky and visible, providing continuous navigation and filtering options."
+    },
+    {
+      "kind": "section",
+      "note": "Content blocks like 'From the Tastemakers' (testimonials) and 'Recipes to Inspire' are consistently reused across different page types, maintaining a cohesive content experience."
+    }
+  ],
+  "technique_notes": [
+    "Implement a scroll-triggered effect where an initial top announcement bar slides up and out of view, while the main header navigation transitions to a fixed position at the top of the viewport. Simultaneously, a left-aligned product category filter panel is revealed and remains sticky, allowing continuous filtering. Horizontal content sections are implemented as scrollable carousels, likely using a library like Swiper for smooth transitions.",
+    "Utilize a flexible grid system for product displays and content cards, often featuring full-bleed imagery within the grid items. Employ a two-column main layout on product pages, with a persistent left sidebar for navigation and a wider content area for product details.",
+    "Combine a clean, modern sans-serif for primary text and headings with a decorative script font for specific section titles or brand accents, creating a sophisticated yet approachable feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1B1B1B",
+        "role": "text"
+      },
+      {
+        "hex": "#F68E00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0A0200",
+        "role": "surface"
+      },
+      {
+        "hex": "#676986",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "CircularXXWeb",
+        "role": "heading"
+      },
+      {
+        "family": "Muli",
+        "role": "body"
+      },
+      {
+        "family": "Sailing",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are generous and modern sans-serif, often uppercase, with body text being a comfortable reading size, creating a balanced hierarchy.",
+    "radius": "Subtle rounding on buttons and some card elements, but mostly sharp edges for overall structure.",
+    "spacing": "Balanced density with airy sections for hero and key content blocks, transitioning to a denser grid for product listings and reviews."
+  },
+  "standout": "The site stands out with its sophisticated blend of clean, modern design and a warm, inviting aesthetic achieved through rich, natural product photography and a distinctive script font used sparingly for emotional connection. The persistent left-hand filter panel across product pages is a strong usability feature, providing continuous access to navigation without cluttering the main content.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

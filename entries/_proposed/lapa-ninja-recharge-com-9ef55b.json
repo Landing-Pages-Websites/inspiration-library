@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-recharge-com-9ef55b",
+  "source": {
+    "url": "https://www.recharge.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-recharge-com-9ef55b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-recharge-com-9ef55b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-recharge-com-9ef55b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-recharge-com-9ef55b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "digital-goods",
+      "payment-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of branded, rounded-rectangle cards in flexible grids for product listings, often accompanied by category tabs for filtering."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, light-weight sans-serif headings for major sections, contrasting with smaller, regular-weight text for descriptions and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A dark neutral base (charcoal/black) and clean white background are punctuated by a vibrant palette of brand-specific colors used within product cards and for key CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar dynamically shrinks in height and becomes sticky upon scroll, while the hero section's app download elements subtly parallax against the background image."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, each introduced by a large heading and often featuring a 'Show all' link to expand card listings."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that reduces its height and adjusts the size of its internal elements (logo, buttons) as the user scrolls down the page.",
+    "Create a subtle parallax effect where elements within the hero section (e.g., app download badges, QR code) move at a slightly different speed than the background image during scroll.",
+    "Design product listings using a consistent card component featuring brand logos, rounded corners, and varying background colors, arranged in responsive grids or horizontal scrollable areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1f2226",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#006be5",
+        "role": "accent"
+      },
+      {
+        "hex": "#05e27e",
+        "role": "cta"
+      },
+      {
+        "hex": "#c7d0d1",
+        "role": "text"
+      },
+      {
+        "hex": "#dcdce6",
+        "role": "surface"
+      },
+      {
+        "hex": "#738a8c",
+        "role": "text"
+      },
+      {
+        "hex": "#e20074",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica Neue Light",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, thin sans-serif headings (hero is very large) with a clear hierarchy down to smaller, regular-weight body text and even smaller uppercase labels.",
+    "radius": "Rounded corners are consistently applied to interactive elements, buttons, and all product cards, giving a soft, modern feel.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and a tighter grid within card displays."
+  },
+  "standout": "The site's distinctive use of a vast, colorful library of branded, rounded-rectangle cards for every product and service creates a visually rich and comprehensive catalog experience. This, combined with the dynamically transforming sticky header, elevates it beyond a standard e-commerce template.",
+  "animation_tech": [],
+  "status": "proposed"
+}

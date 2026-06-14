@@ -1,0 +1,106 @@
+{
+  "id": "manual-outline-studio-d8c3be",
+  "source": {
+    "url": "https://www.outline.studio",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-outline-studio-d8c3be.webp",
+    "scroll": [
+      "shots/_proposed/manual-outline-studio-d8c3be__scroll0.webp",
+      "shots/_proposed/manual-outline-studio-d8c3be__scroll1.webp",
+      "shots/_proposed/manual-outline-studio-d8c3be__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://outline.studio/contact",
+        "full": "shots/_proposed/manual-outline-studio-d8c3be__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "content-strategy",
+      "web-design"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses distinct, full-width color-blocked sections that stack vertically, creating clear visual breaks between content areas."
+    },
+    {
+      "kind": "type",
+      "note": "A very large, bold serif font is used for primary headings and hero statements, creating a strong, editorial voice, contrasted with a clean sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, limited palette of white, a specific shade of red/pink, and a light yellow, used for large background blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text (site title and main headline) remains fixed or has a very slow parallax effect, staying in view for a significant portion of the scroll, while subsequent content sections slide up from the bottom to cover it."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Selected Work' section utilizes an accordion-style interaction to reveal project details, maintaining a clean layout until interaction."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed sequentially by sliding up from the bottom of the viewport, creating a layered effect where new content covers previous content. The primary hero text and site title are fixed or have a very slow parallax, making them sticky for a portion of the initial scroll. This uses a combination of CSS positioning and scroll-triggered transforms.",
+    "Large, opinionated serif typography is used for headlines, set against clean, solid color backgrounds to maximize impact and readability. Body text uses a contrasting sans-serif for clarity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E65C5C",
+        "role": "accent"
+      },
+      {
+        "hex": "#FDF4D7",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter Tight",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~4-5x body text) create a strong statement, complemented by a legible, clean sans-serif for body copy and smaller labels.",
+    "radius": "Sharp; all elements like buttons, input fields, and section corners maintain crisp, 90-degree angles.",
+    "spacing": "Airy in the hero and main content sections, with generous vertical padding between blocks and within accordion items, creating a sense of spaciousness."
+  },
+  "standout": "This site stands out with its bold, almost confrontational, serif typography in the hero section, which delivers a strong brand message. The minimalist layout, combined with stark color blocking and a sticky hero text effect, creates a distinctive editorial and confident aesthetic that avoids generic marketing tropes.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

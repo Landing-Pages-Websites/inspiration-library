@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-nativedeodorant-com-23f15e",
+  "source": {
+    "url": "https://www.nativedeodorant.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-nativedeodorant-com-23f15e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-nativedeodorant-com-23f15e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-nativedeodorant-com-23f15e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-nativedeodorant-com-23f15e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "personal-care",
+      "beauty",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-width hero section followed by a mix of horizontal product carousels, a 2x3 grid for category exploration, and full-bleed lifestyle image sections with integrated text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, often in all caps for emphasis, creating a strong visual hierarchy against smaller, regular-weight sans-serif body text and product descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A clean palette of navy blue and white is accented by vibrant, natural tones from product packaging and lifestyle photography, with a consistent pink/purple hue used for primary call-to-action buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial promotional top bar disappears on scroll, and the main navigation becomes sticky and slightly condensed. The hero image features a subtle parallax effect, moving slower than the foreground text, while subsequent content sections appear to reveal with a smooth fade-up or slide-in as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections that alternate between product showcases (new arrivals, best sellers), category deep-dives, and brand storytelling through lifestyle imagery."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven animation system, likely using `locomotive-scroll` as hinted, to create a smooth, custom scrolling experience. This system enables a subtle parallax effect on the hero image, where the background moves at a different rate than the foreground content. Additionally, sections below the hero are revealed with a staggered fade-up or slide-in animation as they become visible in the viewport, enhancing engagement. The primary navigation bar transitions from an initial state with a promotional banner to a sticky, condensed version with a solid background upon scrolling past the hero section.",
+    "Full-bleed, high-quality lifestyle photography is extensively used to convey brand values and product benefits. These images often serve as backgrounds for text overlays or are integrated directly into product displays, creating an immersive and aspirational visual narrative."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a1f8f",
+        "role": "brand-primary"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#2e3133",
+        "role": "text"
+      },
+      {
+        "hex": "#a22c5f",
+        "role": "cta"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff8c42",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BrandonGrotesque",
+        "role": "heading"
+      },
+      {
+        "family": "TT Norms Pro",
+        "role": "display"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are paired with smaller, often uppercase, sans-serif labels and regular-weight body text, establishing a clear and impactful typographic hierarchy.",
+    "radius": "Subtle rounding on buttons and product cards, with most structural elements maintaining sharp, clean edges.",
+    "spacing": "Balanced density with generous vertical spacing between major content blocks, creating an airy and open feel, while product grids maintain a more compact arrangement."
+  },
+  "standout": "The site distinguishes itself with an exceptionally clean and bright aesthetic, leveraging high-quality, full-bleed lifestyle photography to effectively communicate a fresh and natural brand image. The subtle, smooth scroll-triggered animations and hero parallax add a premium feel without distracting, reinforcing the brand's modern and clean identity.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

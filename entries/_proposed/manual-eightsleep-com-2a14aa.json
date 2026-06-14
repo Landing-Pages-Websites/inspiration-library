@@ -1,0 +1,114 @@
+{
+  "id": "manual-eightsleep-com-2a14aa",
+  "source": {
+    "url": "https://www.eightsleep.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-eightsleep-com-2a14aa.webp",
+    "scroll": [
+      "shots/_proposed/manual-eightsleep-com-2a14aa__scroll0.webp",
+      "shots/_proposed/manual-eightsleep-com-2a14aa__scroll1.webp",
+      "shots/_proposed/manual-eightsleep-com-2a14aa__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "sleep-tech",
+      "home-goods"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with text overlay, followed by a series of distinct, well-spaced content sections often featuring grid layouts for features and testimonials."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for impact and hierarchy, complemented by a clean, readable sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of dark greys and whites is accented by a vibrant, clear blue for calls to action and interactive elements, creating a premium and trustworthy feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms from a transparent overlay on the hero to a sticky bar with a solid, slightly translucent white background and a subtle shadow upon scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Social proof is prominently featured through a dedicated section of user testimonials, presented in a horizontal carousel format."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero image is used with a dark gradient overlay to ensure text contrast, and it is animated with a subtle parallax effect that moves the image slower than the scroll, creating a sense of depth. The 'video-hero' hint suggests this could also be a video playing in the background.",
+    "The primary navigation bar is initially transparent and positioned over the hero content. As the user scrolls down, it transitions to a sticky position at the top of the viewport, gaining a solid, slightly translucent white background and a subtle drop shadow to maintain visibility and hierarchy.",
+    "Content sections below the hero are revealed using scroll-triggered animations, likely a staggered fade-in or slide-up effect, as they enter the viewport, leveraging CSS keyframes for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#363636",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f9f8f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#f1f3fe",
+        "role": "surface"
+      },
+      {
+        "hex": "#4158ee",
+        "role": "cta"
+      },
+      {
+        "hex": "#696765",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Calibre",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~4-5x body text) create strong visual impact, paired with a clean and highly readable sans-serif for body copy.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, cards, and input fields, contributing to a soft, modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major content sections and a more compact, yet clear, grid for feature cards and testimonials."
+  },
+  "standout": "The site distinguishes itself with a sophisticated and clean presentation of a high-tech product, using subtle but effective motion like the parallax hero and transforming sticky navigation to convey a premium experience. The integration of data-driven insights and user metrics within the design reinforces its authority and innovation in sleep technology.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

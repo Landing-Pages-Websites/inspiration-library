@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-omnisend-com-1d4529",
+  "source": {
+    "url": "https://www.omnisend.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-omnisend-com-1d4529.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-omnisend-com-1d4529__scroll0.webp",
+      "shots/_proposed/lapa-ninja-omnisend-com-1d4529__scroll1.webp",
+      "shots/_proposed/lapa-ninja-omnisend-com-1d4529__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing",
+      "email-marketing"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light background sections create visual rhythm and break up content, with the dark sections predominantly using a deep charcoal color and the light sections a soft off-white or vibrant lime green."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very large, bold, sans-serif typeface, often in white against dark backgrounds, creating strong visual hierarchy and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green is used consistently as the primary accent color for call-to-action buttons, key statistics, and highlight elements, providing a strong contrast against the dark backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero section recedes, and the main navigation bar at the top shrinks slightly in height and gains a solid dark background, becoming sticky. Content sections below the hero slide up into view with a subtle reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Key information and statistics are presented in full-width sections with large, bold numbers and a clear, concise value proposition, often utilizing the vibrant green for emphasis."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a subtle video background that plays on loop, adding dynamic visual interest without distracting from the primary message. This is overlaid with a dark gradient to ensure text readability.",
+    "Scroll-triggered animations are used to reveal new content sections as they enter the viewport, typically involving elements sliding up or fading in, creating a guided narrative flow. Numerical statistics animate their count as they become visible.",
+    "The primary navigation bar transitions from a transparent overlay on the hero to a fixed, solid-background element with reduced height once the user scrolls past the initial hero content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e2423",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f6f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#2f8481",
+        "role": "accent"
+      },
+      {
+        "hex": "#acb5b4",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Faktum-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong impact, complemented by legible body text and smaller, often uppercase, labels for sub-sections.",
+    "radius": "Subtle rounding on buttons and card edges, maintaining a modern but not overly soft aesthetic.",
+    "spacing": "Balanced density overall, with airy hero and feature sections providing breathing room, and tighter grids for integration logos and footer content."
+  },
+  "standout": "The site's distinctive use of a deep, almost black background contrasted with a vibrant, almost neon green accent color immediately grabs attention. This bold color pairing, combined with a slightly unconventional and humanizing hero image (a man knitting), creates a memorable and approachable brand identity that stands out from typical SaaS marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

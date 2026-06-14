@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-hightouch-com-2939ab",
+  "source": {
+    "url": "https://www.hightouch.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hightouch-com-2939ab.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hightouch-com-2939ab__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hightouch-com-2939ab__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hightouch-com-2939ab__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing-tech",
+      "data-platform"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds and full-width light backgrounds, creating clear visual breaks and contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings are very large and bold sans-serif, often left-aligned, establishing a strong, modern voice."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green/teal is used consistently as a primary accent color for CTAs, icons, and highlights against both dark and light backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from transparent to an opaque white with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like the 'Campaign Insights' cards in the hero) reveal themselves with a subtle slide-up or fade-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The hero features a dynamic, multi-color gradient background behind a grid of interactive-looking cards that showcase different product facets or use cases."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is initially transparent, allowing the hero content to show through. Upon scrolling past the hero, it becomes a solid white bar with a subtle drop shadow, maintaining visibility and brand presence.",
+    "Sections and key content blocks are introduced with a scroll-triggered animation, typically a subtle slide-up or fade-in effect, enhancing engagement as the user progresses down the page. This likely uses a JavaScript library like GSAP ScrollTrigger or similar CSS keyframe animations.",
+    "The hero background employs a soft, multi-color gradient that provides a vibrant and modern backdrop without distracting from the foreground content. This could be a video-hero or a CSS animated gradient."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141213",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#40de9e",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#302d2e",
+        "role": "text"
+      },
+      {
+        "hex": "#ffeb3b",
+        "role": "hero-gradient-yellow"
+      },
+      {
+        "hex": "#a7f0d0",
+        "role": "hero-gradient-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Nuckle",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~4-5x body text) create strong visual impact, complemented by clear, legible body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on buttons, cards, and UI elements (e.g., 8-12px), providing a soft, modern feel without being overly rounded or sharp.",
+    "spacing": "Balanced to airy; the hero section is particularly airy, while content sections maintain generous padding and margin for readability and visual comfort."
+  },
+  "standout": "The site's distinctive multi-color gradient hero background, combined with a dynamic grid of interactive cards, immediately sets a modern and engaging tone. The consistent use of a vibrant green accent against a sophisticated dark/light theme, alongside polished UI screenshots, creates a high-end yet approachable feel for a B2B SaaS platform.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

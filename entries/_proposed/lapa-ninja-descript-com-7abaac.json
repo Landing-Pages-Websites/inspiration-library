@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-descript-com-7abaac",
+  "source": {
+    "url": "https://www.descript.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-descript-com-7abaac.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-descript-com-7abaac__scroll0.webp",
+      "shots/_proposed/lapa-ninja-descript-com-7abaac__scroll1.webp",
+      "shots/_proposed/lapa-ninja-descript-com-7abaac__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "video-editing",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-bleed dark backgrounds and lighter, off-white backgrounds, creating distinct visual breaks and grouping content."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings are used for primary messaging, contrasted with smaller, legible body text and very small, uppercase labels for categorization."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich maroon/burgundy is used as a primary brand color for hero and key sections, paired with white text and a vibrant reddish-orange for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Background elements in the hero section exhibit a subtle parallax effect, moving slower than the foreground content as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "Content blocks and cards throughout the page are revealed with a staggered fade-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use a grid layout of cards with images and descriptive text, consistently presenting information in digestible blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background image or video that subtly parallaxes behind the main heading and call to action as the user scrolls, creating a sense of depth. Foreground content remains relatively fixed or moves at a slower rate.",
+    "Scroll-triggered animations, likely using CSS keyframes, are employed to reveal sections and individual content cards. As elements enter the viewport, they animate into place with a subtle slide-up and fade-in effect, enhancing engagement without being overly distracting.",
+    "The primary navigation bar remains sticky at the top of the viewport, providing persistent access to site navigation as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#461D2A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF3D5C",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFF7FA",
+        "role": "surface"
+      },
+      {
+        "hex": "#343434",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "background"
+      },
+      {
+        "hex": "#002CA6",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) are used for hero and section titles, with smaller, uppercase labels for categorization.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, cards, and input fields.",
+    "spacing": "The hero section is airy with generous vertical padding, while subsequent content sections maintain a balanced density with clear separation between blocks and elements."
+  },
+  "standout": "The site's distinctive use of a deep, rich maroon/burgundy as a primary background color, paired with a clean, modern sans-serif typography and a vibrant red accent for CTAs, creates a sophisticated and bold aesthetic that feels premium and authoritative. The subtle parallax in the hero and scroll-triggered reveals add a polished, dynamic feel without overwhelming the user.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

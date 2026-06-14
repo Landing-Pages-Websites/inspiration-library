@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-locus-sh-b74e48",
+  "source": {
+    "url": "https://www.locus.sh",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-locus-sh-b74e48.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-locus-sh-b74e48__scroll0.webp",
+      "shots/_proposed/lapa-ninja-locus-sh-b74e48__scroll1.webp",
+      "shots/_proposed/lapa-ninja-locus-sh-b74e48__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "logistics",
+      "supply-chain"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ an asymmetrical two-column layout, balancing large, bold text on one side with dynamic illustrations, data visualizations, or product screenshots on the other."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich purple serves as the primary brand color, providing a sophisticated backdrop for white text and vibrant, contrasting accent colors like bright blue, orange, and a lighter purple."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner disappears on scroll, while the main navigation bar shrinks in height and sticks to the top of the viewport. The hero image also exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and sans-serif, establishing a clear hierarchy, often paired with smaller, uppercase labels for sub-sections or categories."
+    },
+    {
+      "kind": "section",
+      "note": "Trust-building elements like 'Featured In' badges and customer logos are prominently placed early in the page flow, immediately after the hero section, to establish credibility."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a sticky header that transforms on scroll, reducing its height and potentially adding a subtle shadow or backdrop blur for visual separation. Content sections are designed to reveal dynamically as the user scrolls, with key visual elements, such as the hero image, employing a subtle parallax effect to add depth. Given the detected 'lottie' animation tech, complex, vector-based animations are likely triggered as sections enter the viewport, enhancing engagement and explaining concepts visually.",
+    "Interactive data visualizations and custom illustrations are integrated directly into content sections, serving as visual anchors that explain complex logistics processes rather than just decorative elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#280a38",
+        "role": "primary-dark"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#3264ff",
+        "role": "cta-blue"
+      },
+      {
+        "hex": "#ff6429",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#b066ff",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#ebf0ff",
+        "role": "surface-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) with a clear hierarchy, complemented by smaller, often uppercase, labels for emphasis.",
+    "radius": "Subtle to rounded, consistently applied to buttons, input fields, and card elements for a friendly yet professional feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks, ensuring readability without feeling sparse."
+  },
+  "standout": "This site stands out by effectively blending a sophisticated, deep purple brand identity with vibrant, almost playful accent colors and dynamic illustrations. The integration of complex data visualizations and custom Lottie animations directly into the content helps demystify a technical service, making it feel approachable and visually engaging rather than dry.",
+  "animation_tech": [
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

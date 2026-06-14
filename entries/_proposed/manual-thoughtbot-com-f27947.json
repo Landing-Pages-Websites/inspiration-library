@@ -1,0 +1,122 @@
+{
+  "id": "manual-thoughtbot-com-f27947",
+  "source": {
+    "url": "https://www.thoughtbot.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-thoughtbot-com-f27947.webp",
+    "scroll": [
+      "shots/_proposed/manual-thoughtbot-com-f27947__scroll0.webp",
+      "shots/_proposed/manual-thoughtbot-com-f27947__scroll1.webp",
+      "shots/_proposed/manual-thoughtbot-com-f27947__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://thoughtbot.com/blog",
+        "full": "shots/_proposed/manual-thoughtbot-com-f27947__p2.webp"
+      },
+      {
+        "url": "https://thoughtbot.com/upcase",
+        "full": "shots/_proposed/manual-thoughtbot-com-f27947__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with a large text block on the left and a cluster of rounded-square profile images on the right, creating a dynamic visual balance."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of vibrant, distinct accent colors (purple, teal, red, green) for background elements within the dark theme, particularly for profile images and subtle graphic elements, providing visual anchors."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold sans-serif headings contrasting with smaller, legible body text and very small, often uppercase, labels for categories or metadata."
+    },
+    {
+      "kind": "motion",
+      "note": "A horizontal progress bar animates to fill as the user scrolls past the hero section, indicating progress through a 'Featured case study' section."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in effect as they enter the viewport, creating a smooth content flow."
+    },
+    {
+      "kind": "layout",
+      "note": "Consistent use of wide content columns with generous vertical spacing between major sections, contributing to an airy and uncluttered feel despite the dark background."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky navigation bar that remains fixed at the top of the viewport as the user scrolls down the page.",
+    "Create a scroll-triggered animation system where content sections fade and slide upwards into view as they become visible in the viewport.",
+    "Design the hero section with a split layout: a prominent text block on one side and a dynamic cluster of rounded-square images on the other, each image set against a distinct, vibrant background color."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#d12929",
+        "role": "cta"
+      },
+      {
+        "hex": "#a434e9",
+        "role": "accent"
+      },
+      {
+        "hex": "#29a7d1",
+        "role": "accent"
+      },
+      {
+        "hex": "#2bbe8f",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, bold sans-serif headings (~2.5-3x body) with smaller, legible body text and very small uppercase labels (~0.6x body).",
+    "radius": "rounded for buttons and image containers, subtle for cards and section elements.",
+    "spacing": "airy, with generous vertical padding between major sections and balanced spacing within content blocks."
+  },
+  "standout": "The site's distinctive use of a deep, dark background contrasted with vibrant, almost neon accent colors for specific graphic elements, particularly the rounded profile images in the hero, creates a sophisticated yet energetic visual identity. The animated horizontal progress bar for the 'Featured case study' also adds a unique interactive touch.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

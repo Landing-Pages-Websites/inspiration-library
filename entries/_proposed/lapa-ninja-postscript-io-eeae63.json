@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-postscript-io-eeae63",
+  "source": {
+    "url": "https://www.postscript.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-postscript-io-eeae63.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-postscript-io-eeae63__scroll0.webp",
+      "shots/_proposed/lapa-ninja-postscript-io-eeae63__scroll1.webp",
+      "shots/_proposed/lapa-ninja-postscript-io-eeae63__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing",
+      "sms-marketing",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds and full-width light backgrounds, creating clear visual breaks and hierarchy across the page."
+    },
+    {
+      "kind": "layout",
+      "note": "Content within sections is centrally aligned and constrained to a comfortable reading width, often employing asymmetrical arrangements of text and imagery to guide the eye."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently very large, bold, and typically in title-case, creating strong visual impact, contrasted with smaller, lighter sans-serif body text for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant purple is used as the primary accent color for CTAs, interactive elements, and key highlights, standing out against a predominantly black and white palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent background to a solid white background and slightly reduces in height as the user scrolls down, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent chat widget remains sticky in the bottom right corner of the viewport throughout the scroll, offering continuous support."
+    },
+    {
+      "kind": "section",
+      "note": "Social proof is integrated early and frequently, featuring a dynamic, horizontally scrolling marquee of prominent brand logos and dedicated testimonial sections with large, impactful quotes."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that changes its visual style (background color, height) upon scroll, likely implemented with JavaScript to add/remove classes based on scroll position. Content sections appear to reveal with a simple fade-in or slide-up effect as they enter the viewport, a common scroll-triggered animation pattern. A persistent chat widget is fixed to the viewport using CSS positioning."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#5724e9",
+        "role": "accent"
+      },
+      {
+        "hex": "#4214c6",
+        "role": "cta"
+      },
+      {
+        "hex": "#efedf5",
+        "role": "surface"
+      },
+      {
+        "hex": "#6e7879",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Tight",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual hierarchy, complemented by smaller, lighter body text for readability.",
+    "radius": "Subtle rounded corners on interactive elements like buttons, input fields, and cards, providing a modern, approachable feel without being overly soft.",
+    "spacing": "Balanced to airy spacing, particularly in the hero and between major sections, with comfortable padding within content blocks to prevent density."
+  },
+  "standout": "The site's distinctive use of a large, interactive input field directly in the hero section, combined with a dynamic brand logo carousel, immediately engages the user. The bold, high-contrast purple accent against a clean black and white palette gives it a modern, energetic feel that avoids generic corporate aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "lottie",
+    "rive",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

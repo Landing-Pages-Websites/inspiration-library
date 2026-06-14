@@ -1,0 +1,119 @@
+{
+  "id": "manual-manual-co-0e4d2f",
+  "source": {
+    "url": "https://www.manual.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-manual-co-0e4d2f.webp",
+    "scroll": [
+      "shots/_proposed/manual-manual-co-0e4d2f__scroll0.webp",
+      "shots/_proposed/manual-manual-co-0e4d2f__scroll1.webp",
+      "shots/_proposed/manual-manual-co-0e4d2f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.manual.co/blog",
+        "full": "shots/_proposed/manual-manual-co-0e4d2f__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "men's-health",
+      "telehealth"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections, often using a grid-based layout for presenting product categories, services, or articles, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with large, bold sans-serif headings for section titles and a more neutral, readable sans-serif for body text and descriptive labels."
+    },
+    {
+      "kind": "color",
+      "note": "A brand-specific dark teal/green is used for the footer and key textual elements, contrasted with a clean white and light grey for backgrounds, and a vibrant green for call-to-action buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page, maintaining constant access to key links without visual transformation."
+    },
+    {
+      "kind": "motion",
+      "note": "Horizontal carousels are used for displaying testimonials and team members, allowing users to swipe through content within a fixed section, indicated by navigation arrows."
+    },
+    {
+      "kind": "section",
+      "note": "Product and service offerings are presented in a card-based layout, featuring clear imagery, concise titles, and a call-to-action within a subtle border or shadow."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that stays fixed at the top of the screen during scroll, without visual transformation.",
+    "Content sections like 'Our medical team' and 'More than 100,000 men trust' utilize a horizontal carousel system (likely 'swiper' as hinted) to display multiple items in a scrollable format, indicated by navigation arrows.",
+    "Visual hierarchy is reinforced by using a large, bold sans-serif font for main headings and a lighter weight, smaller sans-serif for body text, ensuring readability and clear content segmentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#dcdce6",
+        "role": "surface"
+      },
+      {
+        "hex": "#0b3b3c",
+        "role": "text"
+      },
+      {
+        "hex": "#00b67a",
+        "role": "cta"
+      },
+      {
+        "hex": "#6d8a83",
+        "role": "text-subtle"
+      },
+      {
+        "hex": "#e04f33",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TTNorms-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "TTNorms-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) provide strong visual anchors, complemented by clear, readable body text and smaller, uppercase labels for navigation and categories.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to cards, buttons, and input fields, softening the overall aesthetic without being overly playful.",
+    "spacing": "Balanced spacing is used throughout, with generous vertical padding between sections and a consistent grid-based rhythm for content blocks, creating an airy yet structured feel."
+  },
+  "standout": "This site stands out by effectively blending a clean, modern medical aesthetic with a friendly, approachable tone, achieved through a consistent brand color palette and a clear, product-focused card layout. The use of a subtle red underline as a unique accent adds a distinctive touch to key headlines.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

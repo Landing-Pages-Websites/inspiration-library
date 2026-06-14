@@ -1,0 +1,119 @@
+{
+  "id": "manual-mejuri-com-b4d5be",
+  "source": {
+    "url": "https://www.mejuri.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-mejuri-com-b4d5be.webp",
+    "scroll": [
+      "shots/_proposed/manual-mejuri-com-b4d5be__scroll0.webp",
+      "shots/_proposed/manual-mejuri-com-b4d5be__scroll1.webp",
+      "shots/_proposed/manual-mejuri-com-b4d5be__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://mejuri.com/",
+        "full": "shots/_proposed/manual-mejuri-com-b4d5be__p2.webp"
+      },
+      {
+        "url": "https://mejuri.com/stores/hub",
+        "full": "shots/_proposed/manual-mejuri-com-b4d5be__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "e-commerce",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a combination of full-bleed hero imagery, asymmetrical grid layouts for lifestyle sections, and consistent product card grids for showcasing items."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large, bold, and uppercase sans-serif, contrasting with a lighter weight, readable sans-serif for body text and smaller, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A neutral palette of whites, light greys, and black dominates, complemented by warm gold/beige tones from product photography and subtle earthy accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms from a transparent overlay to a compact, opaque black bar upon scroll, and the hero background image exhibits a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured with aspirational lifestyle photography sections, dedicated product showcases, and clear informational blocks, all leading to a comprehensive multi-column footer."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar dynamically changes its appearance and size upon scroll, transitioning from a transparent overlay with a larger logo to a compact, opaque black bar with a reduced height and logo size, providing a consistent sticky navigation experience.",
+    "A subtle parallax effect is applied to the hero background image, where it scrolls at a slower pace than the overlaying text and subsequent page content, adding depth to the initial view.",
+    "Content sections throughout the page are revealed with a staggered animation, typically a subtle fade-in and slight upward translation, as they become visible within the user's viewport, likely powered by a library like GSAP ScrollTrigger."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#ECE9E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#79786C",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#EAC37C",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "KapraNeue",
+        "role": "heading"
+      },
+      {
+        "family": "Fondue-Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) with smaller, uppercase labels and clear, readable body text.",
+    "radius": "subtle (mostly sharp edges with minimal rounding on interactive elements)",
+    "spacing": "balanced to airy; generous spacing around major sections and within product grids, creating a clean and uncluttered feel"
+  },
+  "standout": "The site stands out with its sophisticated use of large-scale, high-quality lifestyle photography that integrates seamlessly with product showcases, creating an aspirational and editorial feel. The subtle motion effects, particularly the hero parallax and scroll-triggered reveals, add a layer of polish without distracting from the content.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "proposed"
+}

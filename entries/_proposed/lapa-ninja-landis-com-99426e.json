@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-landis-com-99426e",
+  "source": {
+    "url": "https://www.landis.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-landis-com-99426e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-landis-com-99426e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-landis-com-99426e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-landis-com-99426e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "financial-services",
+      "homeownership-assistance"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within full-width sections, providing clear visual boundaries and focus."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with bold, larger sans-serif headings for section titles and a more modest size for body text, ensuring readability and structure."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep blue is used for hero backgrounds and the footer, creating a strong brand presence and contrasting with clean white content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Success stories' section prominently features large, authentic client photos with their names, emphasizing social proof and personal connection."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that remains fixed at the top of the browser window during scroll.",
+    "The hero section utilizes a background image with a semi-transparent dark blue overlay to ensure high contrast and legibility for white text placed over it.",
+    "Client testimonials are presented as a grid of cards, each featuring a large image and a text overlay for the client's name and story title."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#428bca",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#007cba",
+        "role": "secondary-blue"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ddd",
+        "role": "subtle-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cera Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and approximately 2-3x the size of body text, maintaining a professional and legible hierarchy.",
+    "radius": "Subtle rounding is applied to elements like client story cards and the hero section's bottom edge.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within content blocks, contributing to an airy and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its authentic and prominent display of real client success stories, using large, genuine photos and names. This approach immediately builds trust and credibility, differentiating it from sites that rely on generic stock imagery or less personal testimonials.",
+  "animation_tech": [],
+  "status": "proposed"
+}

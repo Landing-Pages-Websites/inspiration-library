@@ -1,0 +1,113 @@
+{
+  "id": "manual-arcteryx-com-1fe8e9",
+  "source": {
+    "url": "https://www.arcteryx.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-arcteryx-com-1fe8e9.webp",
+    "scroll": [
+      "shots/_proposed/manual-arcteryx-com-1fe8e9__scroll0.webp",
+      "shots/_proposed/manual-arcteryx-com-1fe8e9__scroll1.webp",
+      "shots/_proposed/manual-arcteryx-com-1fe8e9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://arcteryx.com/lp/footwearlp",
+        "full": "shots/_proposed/manual-arcteryx-com-1fe8e9__p2.webp"
+      },
+      {
+        "url": "https://arcteryx.com/c/mens/veilance",
+        "full": "shots/_proposed/manual-arcteryx-com-1fe8e9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "outdoor-apparel",
+      "retail",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography is used for hero and feature sections, often with overlay text, creating an immersive and aspirational feel."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and key labels frequently use uppercase, bold, or semi-condensed sans-serif fonts, establishing a strong, technical, and modern brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is consistently used for backgrounds, navigation, and text, punctuated by a vibrant red for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from transparent to solid black and reduces in height as the user scrolls down, becoming a sticky header. The hero section features a subtle parallax effect where the background image scrolls slower than the foreground text and buttons."
+    },
+    {
+      "kind": "section",
+      "note": "Product listing pages utilize a clean, responsive grid layout for displaying items, with each product card featuring an image, title, and price, maintaining visual consistency."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element that dynamically shrinks in height and gains a solid background color after the user scrolls past the initial viewport, enhancing readability and saving vertical space. The hero image employs a parallax scrolling effect, where the background image moves at a slower rate than the foreground content, creating a sense of depth. Content sections below the hero are revealed with a subtle slide-up or fade-in animation as they enter the viewport, drawing attention to new information. Product carousels are used to display multiple items in a compact, interactive format, allowing users to swipe through selections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#A41517",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#252422",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "urw-din",
+        "role": "body"
+      },
+      {
+        "family": "helvetica-now-display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, often uppercase and bold sans-serif headings (~3-4x body) create strong impact, contrasted with clear, legible body text and smaller, condensed labels.",
+    "radius": "sharp",
+    "spacing": "Balanced to airy, with generous vertical padding between major sections and a more dense, but well-padded, grid for product displays."
+  },
+  "standout": "The site's design stands out through its masterful use of aspirational, full-bleed photography that immediately conveys the brand's rugged, high-performance ethos. This is paired with a minimalist, almost stark, typographic layout and a restrained color palette, creating a premium and highly focused user experience that feels both technical and luxurious. The subtle motion effects, like the transforming sticky nav and hero parallax, enhance the premium feel without distracting from the product focus.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

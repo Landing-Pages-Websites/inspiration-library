@@ -1,0 +1,123 @@
+{
+  "id": "manual-instrument-com-197bdc",
+  "source": {
+    "url": "https://instrument.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-instrument-com-197bdc.webp",
+    "scroll": [
+      "shots/_proposed/manual-instrument-com-197bdc__scroll0.webp",
+      "shots/_proposed/manual-instrument-com-197bdc__scroll1.webp",
+      "shots/_proposed/manual-instrument-com-197bdc__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.instrument.com/",
+        "full": "shots/_proposed/manual-instrument-com-197bdc__p2.webp"
+      },
+      {
+        "url": "https://www.instrument.com/work",
+        "full": "shots/_proposed/manual-instrument-com-197bdc__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "digital-agency"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with generous vertical spacing and large, impactful typographic elements that often span the full width."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, heavy sans-serif typography is used as a primary visual element, particularly in the hero and key section titles, creating a strong, almost architectural presence."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is punctuated by a vibrant, almost neon, lime green used as a dominant background accent, creating energetic visual breaks."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a massive 'INSTRUMENT' text element that remains largely fixed or scrolls very slowly, while the background and other content scroll over it, creating a layered parallax effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms from a transparent, initially larger state to a compact, dark, sticky header with a solid background after the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent and extensive client logo showcases are integrated throughout the page, appearing in multiple sections to build authority and trust."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a fixed or slow-scrolling background layer for the large text, while foreground content scrolls at a normal pace, achieving a parallax depth effect. This could be implemented with CSS `position: fixed` or a JavaScript scroll library.",
+    "Sections and content blocks are revealed with subtle fade-in or slide-up animations as they enter the viewport, likely using an Intersection Observer API combined with CSS transitions or a JavaScript animation library like GSAP.",
+    "The navigation bar uses a sticky position, dynamically changing its styling (background color, padding, text color) via JavaScript or CSS classes triggered by a scroll event listener, transitioning from transparent to a solid dark background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f8f2ec",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff6200",
+        "role": "cta"
+      },
+      {
+        "hex": "#cbcccf",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#080707",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, heavy sans-serif headings (~8-10x body) for hero and section titles, creating a bold visual anchor, contrasted with smaller, legible sans-serif for body and navigation.",
+    "radius": "Subtle (minimal rounding on buttons and input fields, otherwise sharp corners dominate the overall aesthetic).",
+    "spacing": "Airy (generous vertical spacing between sections and ample padding within elements, contributing to a clean and open layout)."
+  },
+  "standout": "The site's distinctive use of massive, fixed or slow-scrolling typography in the hero section, combined with a vibrant lime green accent, creates a bold and memorable visual identity that breaks from typical hero layouts. This typographic-first approach makes the brand name itself a central design element.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

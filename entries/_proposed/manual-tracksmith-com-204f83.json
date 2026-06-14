@@ -1,0 +1,121 @@
+{
+  "id": "manual-tracksmith-com-204f83",
+  "source": {
+    "url": "https://www.tracksmith.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tracksmith-com-204f83.webp",
+    "scroll": [
+      "shots/_proposed/manual-tracksmith-com-204f83__scroll0.webp",
+      "shots/_proposed/manual-tracksmith-com-204f83__scroll1.webp",
+      "shots/_proposed/manual-tracksmith-com-204f83__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.tracksmith.com/events",
+        "full": "shots/_proposed/manual-tracksmith-com-204f83__p2.webp"
+      },
+      {
+        "url": "https://www.tracksmith.com/journal",
+        "full": "shots/_proposed/manual-tracksmith-com-204f83__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "apparel",
+      "sports",
+      "running",
+      "luxury-apparel"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Hero image employs a subtle parallax effect, where the background image scrolls at a slower rate than the foreground content, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay to a compact, solid-background sticky header with a slightly smaller logo once the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent use of full-bleed, high-quality photography as section heroes and background elements, often with subtle text overlays and clear calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of a classic serif display font for major headings and a clean, extended sans-serif for body text and functional elements, creating an editorial and authoritative feel."
+    },
+    {
+      "kind": "color",
+      "note": "A restrained, earthy color palette dominated by deep navy/charcoal, off-white, and a warm, muted gold accent, evoking a sense of heritage and quality."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using `locomotive-scroll`, which also drives a subtle parallax effect on hero images, making them scroll slower than the page content.",
+    "The primary navigation bar transitions from a transparent overlay to a compact, solid-background sticky header once the user scrolls past the initial hero section, achieved through CSS transformations and background changes.",
+    "Content sections appear to reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport, enhancing the user's journey down the page, likely orchestrated with `css-keyframes` or a scroll-trigger library."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a1e32",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#e7e9eb",
+        "role": "surface"
+      },
+      {
+        "hex": "#9a825c",
+        "role": "accent"
+      },
+      {
+        "hex": "#5c6469",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f8f8f9",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SainteColombe",
+        "role": "heading"
+      },
+      {
+        "family": "Akzidenz-Grotesk-Extended",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, large serif headings (~3-4x body) paired with a clean, legible sans-serif body text and smaller uppercase labels.",
+    "radius": "Sharp corners throughout, maintaining a crisp and classic aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within content blocks, contributing to an unhurried, premium feel."
+  },
+  "standout": "The site distinguishes itself through its sophisticated blend of classic, editorial-style photography and typography with modern, subtle scroll-triggered motion. The use of a refined, earthy color palette and a distinctive serif font for headings elevates the brand beyond typical athletic wear, creating a sense of heritage and luxury.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

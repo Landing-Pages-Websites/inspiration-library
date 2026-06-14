@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-cohere-com-45cc31",
+  "source": {
+    "url": "https://www.cohere.com/command",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-cohere-com-45cc31.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-cohere-com-45cc31__scroll0.webp",
+      "shots/_proposed/lapa-ninja-cohere-com-45cc31__scroll1.webp",
+      "shots/_proposed/lapa-ninja-cohere-com-45cc31__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "enterprise-software"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Feature sections frequently use an asymmetrical two-column layout, pairing a large, dynamic visual (Lottie animation or video) on one side with concise descriptive text and a call to action on the other."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark teal/green (#00211e) serves as the dominant background, providing a sophisticated backdrop for crisp white text and vibrant orange-red (#da532c) accents for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay to a sticky, solid-background bar with a subtle height reduction as the user scrolls down. Content sections below the hero likely employ scroll-triggered reveal animations."
+    },
+    {
+      "kind": "section",
+      "note": "Complex product features and use cases are explained through embedded, interactive Lottie animations or short video clips, often presented within a stylized mock UI frame, rather than static images."
+    },
+    {
+      "kind": "type",
+      "note": "The typographic hierarchy uses an extremely large, bold sans-serif for hero headlines, contrasted with smaller, uppercase labels to provide context above main headings."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transitions from a transparent, full-width overlay to a sticky, solid-background element with a subtle height reduction as the user scrolls down. Throughout the page, complex product features are illustrated using embedded Lottie animations or short video clips, often presented within a stylized UI frame, which likely animate or reveal as their respective sections enter the viewport.",
+    "Content sections are structured with generous vertical padding, creating an airy feel, while internal elements like cards or form fields maintain a balanced, readable density. Visuals often occupy a larger proportion of the available width in two-column layouts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#00211e",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#da532c",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#b3b3b3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#152455",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero heading (~4-5x body text) with smaller, uppercase contextual labels. Body text is clear and readable sans-serif.",
+    "radius": "Subtle (slightly rounded corners on buttons, input fields, and card-like elements).",
+    "spacing": "Balanced to airy; sections have generous vertical padding, while content within cards or grids is more compact."
+  },
+  "standout": "The site's distinctive use of embedded, dynamic Lottie animations and video clips within mock UI frames to explain complex AI concepts makes abstract technology tangible and highly engaging, moving beyond static imagery or simple illustrations.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
