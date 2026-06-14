@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0120",
+  "source": {
+    "url": "https://www.rippling.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0120.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0120__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0120__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0120__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.rippling.com/resources",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0120__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "hr-tech",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, full-bleed background image/gradient on one side and content (text, CTA, product reviews) on the other, creating a dynamic visual balance."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a vibrant orange for all primary call-to-action buttons and interactive elements, providing a high-contrast focal point against dark backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slide-up effect as they enter the viewport during scroll, creating a smooth, engaging content progression."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, floating 'Hey there' contact widget remains fixed to the right side of the viewport as the user scrolls, offering continuous access to support."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating dark and light background sections (deep purple, black, white, light grey) are used to clearly delineate content blocks and provide visual rhythm down the page."
+    }
+  ],
+  "technique_notes": [
+    "To create the scroll-triggered reveals, elements are initially hidden or partially transparent and then animated to full opacity and their final position using CSS keyframes or Lottie animations as they become visible in the viewport.",
+    "The main navigation bar transitions to a sticky state at the top of the viewport after initial scroll, maintaining its compact form without significant transformation.",
+    "Call-to-action buttons utilize a high-contrast vibrant orange against dark backgrounds, featuring subtle rounded corners and a slight lift or color shift on hover."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#402530",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F58120",
+        "role": "cta"
+      },
+      {
+        "hex": "#002E47",
+        "role": "text"
+      },
+      {
+        "hex": "#EFEFEF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3x body) establish clear hierarchy, complemented by legible body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to buttons, input fields, and card elements, contributing to a clean, modern aesthetic.",
+    "spacing": "Balanced density is observed throughout; the hero section is airy with generous padding, while feature grids and article cards are more compact but maintain consistent internal padding and gutters."
+  },
+  "standout": "The site stands out with its sophisticated use of a deep, rich purple and black palette, punctuated by a vibrant, almost neon orange for calls to action. This creates a premium, authoritative feel, further enhanced by the integration of detailed, data-rich product UI mockups directly into the hero and feature sections, effectively demonstrating the product's power visually.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "approved"
+}

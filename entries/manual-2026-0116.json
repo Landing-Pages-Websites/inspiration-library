@@ -1,0 +1,136 @@
+{
+  "id": "manual-2026-0116",
+  "source": {
+    "url": "https://www.patagonia.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0116.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0116__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0116__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0116__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.patagonia.com/home",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0116__p2.webp"
+      },
+      {
+        "url": "https://www.patagonia.com/surfing",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0116__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "outdoor-retail",
+      "apparel",
+      "environmental-activism"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography is used extensively as section backgrounds and hero images, often with text overlays for strong visual impact."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections, often using grid-based layouts for product categories and stories, frequently presented within carousels."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive serif display font (Copernicus) is used for specific editorial-style headings, creating a sophisticated contrast with the primary sans-serif (Ridgeway Sans) used for most content and headings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and light grey (#F5F5F5) forms the base, punctuated by a vibrant orange/red accent color (#FA4616) for calls to action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle slide-up and fade-in effect as they enter the viewport, creating a dynamic scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero images feature a subtle parallax scroll effect, where the background image moves slower than the foreground text, adding depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, initially prominent, then disappearing to reveal a minimal sticky bar with only essential icons (search, cart) at the top right."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated sections highlighting the brand's environmental and social mission are integrated prominently throughout the homepage, rather than being relegated to a separate 'About Us' page."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed hero sections use large, high-resolution images with `object-fit: cover` to fill the viewport, often with a subtle dark overlay for text contrast.",
+    "The main navigation bar is initially prominent but uses CSS transitions or JavaScript to animate its height and opacity, shrinking and revealing a minimal sticky icon bar at the top of the viewport after a certain scroll threshold.",
+    "Content sections are revealed using scroll-triggered animations (likely `css-keyframes` or a JS library) that apply a subtle slide-up and fade-in effect as they enter the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#FA4616",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#E8E4DD",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Ridgeway Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Ridgeway Sans",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Copernicus",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings provide strong hierarchy, often paired with smaller, uppercase sans-serif labels. Body text is clear and readable. A distinct serif font is used for specific editorial-style headings.",
+    "radius": "Subtle rounded corners on buttons and some image cards, providing a soft but not overly rounded feel.",
+    "spacing": "Balanced to airy, with hero sections featuring very generous vertical spacing and content grids maintaining a clear, organized rhythm."
+  },
+  "standout": "This site's design is distinctive for its seamless integration of high-impact, full-bleed photography with a strong brand narrative focused on environmental and social responsibility. The use of a sophisticated serif display font for key editorial headings, combined with dynamic scroll-triggered reveals and subtle parallax, elevates it beyond a typical e-commerce template, making the brand's mission visually compelling.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}

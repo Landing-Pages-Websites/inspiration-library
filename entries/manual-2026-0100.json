@@ -1,0 +1,135 @@
+{
+  "id": "manual-2026-0100",
+  "source": {
+    "url": "https://www.figma.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0100.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0100__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0100__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0100__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.figma.com/make",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0100__p2.webp"
+      },
+      {
+        "url": "https://www.figma.com/buzz",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0100__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "creative-software"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with alternating background colors (white, light pastels, and black) are used to visually segment content and create distinct visual breaks."
+    },
+    {
+      "kind": "layout",
+      "note": "Card-based grid layouts are extensively used to showcase features, community projects, and examples, providing a modular and scannable structure for diverse content."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings (e.g., 'Make anything possible') establish a strong visual hierarchy, complemented by smaller, often uppercase, labels for categorization and context."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, almost neon, accent colors (green, blue, purple, red) are strategically used for illustrations, interactive elements, and to highlight key information against a largely neutral background palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them are revealed with a staggered fade-up or slide-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky and transforms on scroll, shrinking slightly and gaining a solid background for better readability over content."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a dynamic, looping video or animated sequence showcasing diverse UI designs, immediately communicating the product's versatility and visual output."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using scroll-triggered animations (css-keyframes), where content elements (text, images, cards) slide up or fade in with a slight delay as they enter the viewport, creating a dynamic content flow.",
+    "The main navigation bar transitions from a transparent, compact state to a solid, slightly shrunken state with a backdrop blur on scroll, maintaining visibility and reducing visual clutter.",
+    "The hero section utilizes a full-bleed looping video or animated sequence (video-hero) of diverse UI designs, acting as a visual showcase that immediately conveys the product's capabilities and creative potential."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#24CB71",
+        "role": "accent"
+      },
+      {
+        "hex": "#00B6FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A2E3B",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#972121",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A30D9",
+        "role": "cta"
+      },
+      {
+        "hex": "#C7F8FB",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (~3-5x body text) with strong weight contrast against clean, readable body text and smaller, often uppercase, descriptive labels.",
+    "radius": "Subtle (2-4px) for cards, buttons, and input fields, maintaining a clean, modern aesthetic.",
+    "spacing": "Balanced overall, with generous vertical spacing between full-width sections and a more compact, grid-based density within content blocks."
+  },
+  "standout": "The site's standout feature is its highly dynamic and visually rich hero section, which uses a looping video of diverse UI designs to immediately showcase the product's creative output. This is complemented by a playful yet structured use of vibrant accent colors and abstract geometric shapes throughout the page, making the design feel inherently creative and reflective of the product's purpose.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

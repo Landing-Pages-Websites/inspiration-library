@@ -1,0 +1,126 @@
+{
+  "id": "manual-2026-0128",
+  "source": {
+    "url": "https://www.thoughtworks.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0128.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0128__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0128__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0128__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.thoughtworks.com/radar",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0128__p2.webp"
+      },
+      {
+        "url": "https://www.thoughtworks.com/clients",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0128__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "technology",
+      "ai",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring abstract, glowing digital imagery that sets a high-tech, innovative tone, followed by content sections that alternate between full-width backgrounds and contained content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases within prominent headlines are emphasized with a vibrant accent color, immediately drawing attention to core messages and creating visual interest."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated brand palette uses a deep, dark teal for foundational sections and footer, contrasting with clean white content areas, and a striking pink-red for interactive elements and textual emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image subtly parallaxes against the foreground text as the user scrolls, creating a sense of depth and dynamism in the initial view."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from a transparent overlay to a solid white, slightly condensed sticky bar with a subtle shadow upon scrolling, maintaining accessibility and a clean header."
+    },
+    {
+      "kind": "section",
+      "note": "Content is frequently presented in a grid of image-rich cards, each featuring a clear title and a 'Read more' call to action, used consistently for insights, stories, and client examples across the site."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to enhance user experience; specifically, the main navigation bar dynamically shrinks and gains a solid background with a soft shadow when the user scrolls past the hero. The hero section's background image utilizes a parallax effect, moving at a slower rate than the foreground content to create a layered visual depth. Sections below the fold likely reveal with subtle fade-in or slide-up animations as they enter the viewport, leveraging css-keyframes for smooth transitions.",
+    "The layout strategically uses full-bleed, high-concept imagery for impactful hero and interstitial sections, contrasted with well-defined, contained content blocks on clean white or light grey backgrounds, providing visual breathing room and clear content hierarchy.",
+    "Typography is used to create visual hierarchy and emphasis by applying a distinct accent color to specific words or phrases within larger headings, guiding the reader's eye to key information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#163c4d",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#bd4257",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#a3a3a3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#edf1f3",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings establish a clear hierarchy, with key phrases often highlighted in an accent color, while body text remains highly legible and balanced.",
+    "radius": "Subtle for interactive elements like buttons and cards, with an overall sharp character for section edges and layout blocks.",
+    "spacing": "Balanced to airy, with generous padding around sections and elements, creating a clean, uncluttered feel and clear content separation."
+  },
+  "standout": "The site's standout feature is its sophisticated blend of abstract, data-inspired visuals with a clean, professional layout. The hero section, with its glowing tree and abstract data cubes, immediately conveys a sense of advanced technology and innovation, setting a distinctive tone that is carried through with subtle motion and a refined color palette.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

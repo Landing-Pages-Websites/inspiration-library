@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0097",
+  "source": {
+    "url": "https://www.doberman.se",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0097.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0097__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0097__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0097__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "digital-studio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with high-contrast background colors or dynamic graphics create strong visual separation and impact, often featuring a single dominant element."
+    },
+    {
+      "kind": "type",
+      "note": "Uses extremely oversized, condensed sans-serif typography as primary graphic elements, filling entire sections with single words or short phrases for dramatic effect."
+    },
+    {
+      "kind": "color",
+      "note": "A bold, high-contrast color palette featuring stark black and white, vibrant red, deep blue, and unexpected accents like bright yellow and purple."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a dynamic, interactive network graphic that appears to parallax or shift horizontally as the user scrolls, revealing a fixed-width content card alongside it."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero are revealed with a subtle fade-in or slide-up animation as they enter the viewport, creating a guided scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are presented in a simple, clean grid on a black background, maintaining the high-contrast aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar remains fixed at the top of the viewport, providing persistent access to site links.",
+    "The hero section utilizes a canvas-based or video background animation (detected as video-hero) that responds to scroll, creating a parallax or horizontal reveal effect for foreground content cards.",
+    "Subsequent content sections are animated into view using scroll-triggered reveals, where elements like large text blocks or images fade and slide up as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E80000",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7E2D4",
+        "role": "surface"
+      },
+      {
+        "hex": "#0A192F",
+        "role": "background"
+      },
+      {
+        "hex": "#F1CC17",
+        "role": "accent"
+      },
+      {
+        "hex": "#8000FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed sans-serif headings (up to ~8x body text) create a bold, graphic statement, contrasted with smaller, legible sans-serif for navigation and body text.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially in hero and large text sections, creating dramatic negative space; tighter in client logo grids."
+  },
+  "standout": "This site's design is distinctive for its audacious use of typography as a primary graphic element, featuring words that span entire screens in massive, condensed fonts. The dynamic, interactive hero background and the unexpected, playful piano keyboard at the bottom add a memorable, artistic flair that elevates it beyond a standard portfolio site into a digital art piece.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

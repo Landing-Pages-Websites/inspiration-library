@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0122",
+  "source": {
+    "url": "https://sentry.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0122.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0122__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0122__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0122__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sentry.io/demo",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0122__p2.webp"
+      },
+      {
+        "url": "https://sentry.io/signup",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0122__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "application-monitoring"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Consistent use of a deep, dark purple background (#181225, #4e2a9a) contrasted with vibrant neon pink (#fd44b0) and lime green (#c2ef4e) for accents, CTAs, and data highlights."
+    },
+    {
+      "kind": "layout",
+      "note": "Information is presented in a modular fashion using card-like components that often mimic code editor interfaces or data dashboards, embedded directly into the page flow."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, wide sans-serif, while code examples and technical labels frequently employ a distinct monospace font for clarity and visual distinction."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content blocks and illustrations animate into view with a subtle fade-up and slide-in effect, creating a dynamic reveal sequence for each section."
+    },
+    {
+      "kind": "section",
+      "note": "Complex technical concepts are explained through custom, detailed illustrations featuring a robot character interacting with stylized UI elements and code snippets."
+    }
+  ],
+  "technique_notes": [
+    "Uses scroll-triggered animations (likely css-keyframes, possibly rive for the hero illustration) to reveal sections and their content with a subtle fade-up and slide-in effect as they enter the viewport. The hero section features a dynamic, interactive illustration that subtly animates in the background.",
+    "A dark, rich purple color scheme is established as the primary background, providing a strong contrast for bright, neon-colored accents (pink and lime green) used for interactive elements, highlights, and to draw attention to key data points or code syntax. Custom, detailed illustrations with a distinct, slightly retro-futuristic style are integrated throughout the page to visually explain complex technical concepts.",
+    "Technical information and features are presented within visually distinct 'code editor' or 'dashboard' inspired cards, using a combination of monospace fonts, syntax highlighting, and simplified UI elements to make complex data digestible."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181225",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#4e2a9a",
+        "role": "background-primary"
+      },
+      {
+        "hex": "#fd44b0",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#c2ef4e",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#7553ff",
+        "role": "accent-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4-5x body) create strong visual impact, complemented by readable body text and distinct monospace fonts for code snippets and technical labels.",
+    "radius": "Subtle to rounded; cards, buttons, and input fields feature a consistent, moderate border-radius.",
+    "spacing": "Balanced; sections are clearly delineated with ample vertical padding, while content within sections maintains a comfortable, uncrowded feel."
+  },
+  "standout": "The site's distinctive use of a deep, dark purple background combined with vibrant neon pink and lime green accents creates a bold, tech-forward, and slightly playful aesthetic. The custom, detailed illustrations of a robot interacting with stylized code snippets are highly engaging and unique, effectively communicating complex technical concepts visually.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "rive"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "manual-2026-0123",
+  "source": {
+    "url": "https://www.snask.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0123.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0123__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0123__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0123__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://snask.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0123__p2.webp"
+      },
+      {
+        "url": "https://snask.com/our-skills",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0123__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "marketing",
+      "design"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video hero section with large, centered white text overlay, followed by content sections with a mix of centered text blocks and multi-column grids."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, wide sans-serif typeface for impact, while body text uses a more neutral sans-serif. Small, uppercase labels are used for calls to action and sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is consistently accented by a vibrant, almost neon pink for links, graphic elements, and some background overlays, creating a playful yet bold feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that subtly parallaxes as the user scrolls down, creating a sense of depth. The scroll-down indicator in the hero likely has a subtle animation (e.g., bounce or fade)."
+    },
+    {
+      "kind": "section",
+      "note": "Service offerings are presented in a grid of cards featuring distinctive line-art illustrations, a concise title, and a call-to-action link."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Snask Feed' section uses a dynamic, masonry-like grid for project showcases, with some cards featuring full-bleed images and others having a pink overlay or text-only content."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-width, full-height video element positioned behind the main content, with a subtle parallax effect applied to its background position as the user scrolls, giving the impression of depth. Text is overlaid in white for contrast.",
+    "Navigation remains sticky at the top of the viewport without changing its appearance or size as the user scrolls.",
+    "Content sections below the hero appear to load statically or with a simple fade-in as they enter the viewport, without complex staggered animations, relying on the hero's motion for initial engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, readable sans-serif body text and even smaller uppercase labels for links and sub-headings.",
+    "radius": "Mostly sharp corners, with subtle rounding on some card elements and buttons.",
+    "spacing": "Balanced density overall, with generous vertical spacing in the hero and between major sections, and tighter spacing within content grids."
+  },
+  "standout": "This site stands out with its high-energy, full-bleed video hero that immediately conveys a dynamic brand personality. The playful yet bold use of a vibrant pink accent color, combined with distinctive line-art illustrations for service cards, creates a memorable and unique aesthetic for a creative agency.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

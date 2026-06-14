@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0111",
+  "source": {
+    "url": "https://www.memberful.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0111.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0111__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0111__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0111__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://memberful.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0111__p2.webp"
+      },
+      {
+        "url": "https://memberful.com/pricing",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0111__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "membership-platform",
+      "creator-economy"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light (white) and dark (near-black) background sections to visually segment content, with centered text blocks and full-width visual elements."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, oversized serif typography for primary headings, contrasted with a clean, modern sans-serif for body text and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of white and dark grey/black, punctuated by a vibrant, clear blue for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport upon scroll. Content sections are inferred to reveal with a smooth animation as they enter the viewport, consistent with the detected locomotive-scroll library."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of product mockups and real-world examples embedded within content sections to visually demonstrate features and customer success."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using locomotive-scroll, where major content blocks and images animate into view with a subtle reveal effect as the user scrolls down the page.",
+    "A sticky header navigation is implemented, maintaining brand presence and access to key links throughout the user's journey on the page.",
+    "Visual hierarchy is established through a combination of large, elegant serif headlines and smaller, legible sans-serif body text, with clear spacing to guide the eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1D211E",
+        "role": "surface"
+      },
+      {
+        "hex": "#0066FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#F22B28",
+        "role": "accent"
+      },
+      {
+        "hex": "#237A66",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) with clear, legible sans-serif body text and smaller, sometimes uppercase, sans-serif subheadings.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and some image containers, while main section blocks maintain sharp edges.",
+    "spacing": "Balanced to airy, particularly in the hero section and between major content blocks, creating a sense of openness and clear content separation."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated blend of classic serif typography for impactful headlines with a clean, modern sans-serif for readability, creating an editorial yet approachable feel. This is effectively paired with dynamic, real-world product mockups that clearly illustrate the service's value.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

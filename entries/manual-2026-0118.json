@@ -1,0 +1,106 @@
+{
+  "id": "manual-2026-0118",
+  "source": {
+    "url": "https://www.pivotal.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0118.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0118__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0118__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0118__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-computing",
+      "enterprise-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Two distinct sticky navigation bars are used: a primary global navigation and a secondary page-specific navigation, both fixing to the top of the viewport upon scroll."
+    },
+    {
+      "kind": "color",
+      "note": "A prominent gradient from deep blue to teal is used as a large, abstract graphic element in the hero section and subtly repeated in the sticky sub-navigation bar."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Total Cost of Ownership Savings' section uses oversized, bold numbers on a dark background to highlight key financial metrics, creating a strong visual impact."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent promotional popup with a countdown timer appears from the bottom right corner of the screen after the user scrolls past a certain depth."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections consistently use a mix of full-width backgrounds and a contained maximum content width for text and structured elements like cards and grids."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dual sticky navigation system where both the primary global header and a secondary page-specific navigation bar become fixed at the top of the viewport as the user scrolls down.",
+    "A promotional overlay featuring a countdown timer is triggered to appear from the bottom right of the screen once the user has scrolled past a predefined point on the page.",
+    "Visual separation between content blocks is achieved by alternating background colors across sections, using white, light grey, and a deep blue."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A234B",
+        "role": "background"
+      },
+      {
+        "hex": "#007C91",
+        "role": "accent"
+      },
+      {
+        "hex": "#5E409B",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, establishing a clear visual hierarchy, complemented by smaller uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, cards, and input fields.",
+    "spacing": "Balanced, with generous vertical padding between main sections and comfortable spacing within content blocks, contributing to an airy feel."
+  },
+  "standout": "The design effectively uses a dual sticky navigation system, with a global header and a page-specific sub-navigation, to maintain context and ease of access. The prominent 'Total Cost of Ownership' section with its large, impactful numbers on a dark background is a distinctive way to present value propositions.",
+  "animation_tech": [],
+  "status": "approved"
+}

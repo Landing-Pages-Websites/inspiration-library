@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0073",
+  "source": {
+    "url": "https://www.ember.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0073.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0073__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0073__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0073__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "e-commerce",
+      "home-goods",
+      "kitchenware"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality product photography is used as hero backgrounds and section dividers, often with text overlays, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of a large, bold, serif display font for hero headlines and key messages with a clean, legible sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, inviting accent orange/terracotta is used for CTAs and highlight elements, contrasting with a largely monochromatic palette of black, white, and various shades of grey."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images in hero and full-width sections exhibit a subtle parallax effect, moving slower than the foreground content as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Product listings are presented in a clean grid with prominent imagery and clear pricing, often featuring a discount badge for promotional items."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation remains visible at the top of the viewport, providing persistent access to site navigation.",
+    "Large hero and full-width section background images are implemented with a subtle parallax scrolling effect, where the background moves at a slower rate than the foreground content, enhancing visual depth and engagement, likely using a library like locomotive-scroll.",
+    "Content sections are revealed with a gentle fade-in or slide-up animation as they enter the viewport, creating a smooth and engaging scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e85e1a",
+        "role": "accent"
+      },
+      {
+        "hex": "#232323",
+        "role": "surface"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "background"
+      },
+      {
+        "hex": "#888888",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "RM Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Figtree",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold serif headings (up to ~4-5x body text) are used for impact, complemented by clean, well-spaced sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) are applied to buttons, product cards, and image containers, softening the overall aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while product grids maintain a comfortable density."
+  },
+  "standout": "The site stands out with its sophisticated blend of high-end product photography, a warm and inviting accent color, and elegant typography. The subtle parallax scrolling on large background images creates a premium, immersive feel that elevates the product presentation beyond a typical e-commerce grid.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

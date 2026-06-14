@@ -1,0 +1,138 @@
+{
+  "id": "manual-2026-0096",
+  "source": {
+    "url": "https://www.deel.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0096.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0096__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0096__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0096__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.deel.com/case-studies",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0096__p2.webp"
+      },
+      {
+        "url": "https://www.deel.com/solutions/hr",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0096__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "hr-tech",
+      "payroll",
+      "global-employment"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section utilizes a split-screen layout, contrasting a solid brand color background with a concise value proposition against a dynamic visual (e.g., a hand holding a phone) on the other side."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between dark (deep purple or black) and light (white) backgrounds, creating clear visual separation and hierarchy throughout the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a distinctive, bold, and often condensed sans-serif typeface for strong visual impact, while body text employs a clean, highly readable sans-serif, often with uppercase for labels and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep purple (#5938b7, #381f89) serves as the primary brand accent and background color, effectively contrasted with dark grays/blacks and crisp white text for a sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks are designed to reveal dynamically as the user scrolls, typically with a subtle fade-in and slide-up effect, enhancing engagement and guiding attention through the page content. (Inferred from detected animation technologies like GSAP and common modern design practices, as a true scroll sequence was not provided.)"
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the page, providing persistent access to site navigation without significant visual transformation on scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Interactive carousels are employed for displaying multiple items like customer reviews or hero content, indicated by pagination dots, allowing users to browse content horizontally. (Inferred from pagination dots and Swiper technology.)"
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'social proof' sections prominently feature client logos and customer testimonials, strategically placed to build trust and credibility."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a split-screen layout where a solid color background with text occupies one half, and a dynamic visual (like a hand holding a phone displaying a brand) fills the other, often with a subtle overlay for text contrast if text is present on the image side.",
+    "Content sections and individual elements within them are likely animated using GSAP ScrollTrigger or CSS keyframes to create staggered fade-in and slide-up effects as they enter the viewport. This provides a dynamic and engaging reveal sequence for information, rather than a static presentation. Additionally, carousels for testimonials and hero content are implemented using Swiper, allowing smooth horizontal navigation.",
+    "The global navigation bar is fixed to the top of the viewport, ensuring it's always accessible. It maintains a consistent appearance without significant transformation on scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1b1b1b",
+        "role": "background"
+      },
+      {
+        "hex": "#5938b7",
+        "role": "accent"
+      },
+      {
+        "hex": "#381f89",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#343434",
+        "role": "surface"
+      },
+      {
+        "hex": "#163462",
+        "role": "accent-secondary"
+      },
+      {
+        "hex": "#601148",
+        "role": "accent-tertiary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BagossCondensedFont",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, and condensed sans-serif headings (up to ~4-5x body text) create strong visual impact, complemented by a clean, legible sans-serif for body copy and smaller, often uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to buttons, input fields, and card elements, softening the overall aesthetic without being overly playful.",
+    "spacing": "Balanced and airy, particularly in hero and major section breaks, with content grids maintaining a comfortable but slightly denser rhythm for readability and information density."
+  },
+  "standout": "The site stands out with its bold and sophisticated use of deep purples and dark backgrounds, creating a premium and authoritative feel. The distinctive, condensed display typeface for headings, combined with a clean sans-serif for body text, establishes a strong and modern brand identity that avoids generic corporate aesthetics.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

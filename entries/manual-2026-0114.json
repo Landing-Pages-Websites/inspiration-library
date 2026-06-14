@@ -1,0 +1,124 @@
+{
+  "id": "manual-2026-0114",
+  "source": {
+    "url": "https://www.netlify.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0114.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0114__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0114__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0114__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.netlify.com/platform",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0114__p2.webp"
+      },
+      {
+        "url": "https://www.netlify.com/contact/sales",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0114__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-development",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with high-contrast dark and light backgrounds, typically centering content within a consistent maximum width."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings for section titles, often preceded by a smaller, lighter uppercase label to provide context."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring a deep charcoal/black, pure white, and a vibrant cyan/teal as the primary accent color for CTAs and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from transparent with white text to a solid light background with dark text and a subtle shadow upon scrolling, while the hero illustration exhibits a subtle parallax effect, scrolling slower than the foreground text."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently combine a concise heading and description with a detailed, often interactive, line-art diagram or code example to visually explain complex technical concepts."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically changes its background, text color, and height via a scroll event listener, applying a subtle drop shadow once a scroll threshold is met.",
+    "Achieve hero illustration parallax by positioning the graphic element to scroll at a slower rate than the foreground text, creating a sense of depth as the user scrolls down.",
+    "Utilize SVG or Canvas for complex line-art illustrations and diagrams, potentially animating them with CSS keyframes or JavaScript to reveal details or simulate interaction as the user scrolls or views the section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#545a61",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#89ddff",
+        "role": "accent"
+      },
+      {
+        "hex": "#e4f0fb",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2e51ed",
+        "role": "accent"
+      },
+      {
+        "hex": "#defffe",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (~4-5x body text) with clear hierarchy, complemented by smaller, readable body text and occasional uppercase labels.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, input fields, and some card elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, but tighter spacing in feature grids and code examples."
+  },
+  "standout": "The site's distinctive use of sophisticated, detailed line-art illustrations and interactive diagrams, often integrated with code snippets, effectively demystifies complex technical concepts. This visual storytelling, combined with a clean, high-contrast design, makes the technical content highly engaging and approachable, setting it apart from typical marketing sites.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0095",
+  "source": {
+    "url": "https://www.datadog.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0095.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0095__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0095__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0095__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "observability",
+      "security"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with alternating background colors (white, dark purple, black, blue) to delineate content blocks, maintaining a consistent centered content column."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a deep, dark purple (#110617) as a primary brand color, contrasting with white backgrounds and vibrant, almost neon, accent colors (blue, pink, bright purple) for CTAs and data visualizations."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header navigation that transforms (shrinks in height and gains a solid white background) upon scrolling past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed, data-rich dashboard illustrations are used prominently as hero imagery and within feature sections, showcasing the product's UI and capabilities."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions from a transparent, taller state to a shorter, sticky white bar with a subtle shadow as the user scrolls past the initial hero content.",
+    "Page sections are revealed with a staggered fade-up or slide-in animation as they become visible in the viewport, creating a dynamic scroll experience.",
+    "The hero section features a large, detailed product UI illustration that exhibits a subtle parallax effect, moving slower than the foreground text as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#110617",
+        "role": "surface"
+      },
+      {
+        "hex": "#8000ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#0060ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff0080",
+        "role": "accent"
+      },
+      {
+        "hex": "#0032a0",
+        "role": "surface"
+      },
+      {
+        "hex": "#555555",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (~4-5x body) with a clear hierarchy, complemented by smaller, often uppercase, labels and standard body text.",
+    "radius": "Subtle (buttons, input fields, and card corners have a small, consistent border-radius).",
+    "spacing": "Balanced overall, with airy vertical spacing in hero and main sections, becoming denser in product lists and footer."
+  },
+  "standout": "The site's distinctive use of a deep, almost black, purple as a core brand color, paired with vibrant, almost neon, blues, pinks, and purples in its data visualization-heavy illustrations, creates a sophisticated yet energetic tech aesthetic that avoids generic corporate blandness.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

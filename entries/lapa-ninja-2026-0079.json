@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0079",
+  "source": {
+    "url": "https://www.inflection.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0079.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0079__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0079__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0079__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "ai",
+      "software",
+      "personal-assistant"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a large, flowing display typeface centered on the page, with organic, wavy background elements that create a sense of depth and movement."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, elegant serif font is used for primary headlines, providing a strong brand identity, contrasted with a clean, modern sans-serif for body text and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated and limited color palette is used, primarily featuring a warm off-white background, deep black text, and a unique muted green as a primary accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The green wavy lines in the hero background subtly expand and shift with a parallax effect as the user scrolls down, creating a dynamic and engaging visual depth behind the static hero text."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are separated by generous vertical white space, allowing each block of information and accompanying illustration or device mockup to stand out clearly."
+    }
+  ],
+  "technique_notes": [
+    "The hero section combines a large, custom display font for the main headline with a dynamic background graphic that uses canvas or SVG animations. This graphic is programmed to expand and move at a different rate than the foreground text as the user scrolls, creating a parallax effect that adds depth and visual interest.",
+    "The navigation bar is implemented as a sticky element that remains at the top of the viewport. It appears to gain a subtle background color or blur effect after the user scrolls past the initial hero content, ensuring readability against varying background content.",
+    "Content presentation relies on a clean, centered layout with ample padding. Visual elements like device mockups and illustrations are integrated seamlessly, often serving as the focal point of a section, with accompanying text providing context."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#faf3ea",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#038247",
+        "role": "accent"
+      },
+      {
+        "hex": "#c7c2bc",
+        "role": "surface"
+      },
+      {
+        "hex": "#e7ddd0",
+        "role": "surface-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Grenette Pro Regular",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant display headings (~4-5x body text) with a flowing, calligraphic character, paired with clear, well-spaced sans-serif body text.",
+    "radius": "Subtle rounding (~8-12px) on interactive elements like buttons and app store badges, and on device mockups.",
+    "spacing": "Airy and open, particularly in the hero and between major content sections, creating a sense of calm and focus."
+  },
+  "standout": "The site's distinctive use of an elegant, flowing display typeface for its hero headline, combined with the organic, subtly animated green lines in the background, creates a sophisticated and unique visual identity that feels more artistic and less utilitarian than typical tech product pages. If a builder copied only one idea, it should be this harmonious blend of expressive typography and dynamic, organic background elements.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

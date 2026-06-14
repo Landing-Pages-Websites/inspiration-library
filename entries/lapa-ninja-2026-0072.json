@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-2026-0072",
+  "source": {
+    "url": "https://www.elevenlabs.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0072.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0072__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0072__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0072__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "voice-technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a two-column split, balancing large headings and descriptive text with illustrative product UI screenshots or abstract visual representations."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are paired with a clean, readable sans-serif body text, creating a clear typographic hierarchy that feels modern and authoritative."
+    },
+    {
+      "kind": "color",
+      "note": "A neutral, light background palette is punctuated by vibrant, multi-color gradients used within interactive product demonstration elements, drawing attention to key features."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle fade-in and slight upward slide as they enter the viewport, creating a smooth, guided scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, maintaining its initial size and background, ensuring constant access to navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive product demo sections feature tabbed interfaces that dynamically switch visual and textual content, allowing users to explore different service offerings within a single view."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations use JavaScript (likely an Intersection Observer API or a library like GSAP) to apply a subtle fade-in and translate-up effect to content blocks as they enter the user's viewport, enhancing content discovery.",
+    "The main navigation bar is implemented with a fixed position, ensuring it remains visible and accessible at the top of the screen throughout the scroll, without any size or style transformations.",
+    "Dynamic product visualizations, such as the gradient-filled circles, are likely rendered using a canvas API to create interactive and visually rich demonstrations of the platform's capabilities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fdfcfc",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0a59d2",
+        "role": "accent"
+      },
+      {
+        "hex": "#f41a2f",
+        "role": "accent"
+      },
+      {
+        "hex": "#052f70",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#f5f3f1",
+        "role": "surface"
+      },
+      {
+        "hex": "#edebe8",
+        "role": "surface-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear hierarchy, balanced with legible body text and smaller, functional labels.",
+    "radius": "Rounded (subtle to moderate, consistently applied to buttons, cards, and input fields).",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of dynamic, gradient-filled circular graphics within the product demonstration sections provides a unique and engaging way to visually represent and interact with different AI voice types. This approach elevates the presentation of complex technology beyond typical static imagery.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

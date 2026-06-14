@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0091",
+  "source": {
+    "url": "https://www.byredo.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0091.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0091__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0091__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0091__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.byredo.com/us_en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0091__p2.webp"
+      },
+      {
+        "url": "https://www.byredo.com/eu_en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0091__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "fragrance",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a full-bleed, immersive hero section that dominates the viewport, acting as the primary content area before transitioning to a detailed, multi-column footer."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established between a distinctive, custom-looking serif font used for the brand logo and a clean, modern sans-serif for all body text, UI elements, and product labels."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist site palette of black and white for text and UI elements allows the rich, often art-directed product photography to provide the primary visual interest and color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero section functions as a full-screen image carousel that transitions between different product visuals as the user scrolls down the page, creating a continuous visual journey rather than revealing new content sections."
+    },
+    {
+      "kind": "section",
+      "note": "A consistent and comprehensive footer is present across the site, featuring multiple columns of links categorized into customer services, legal, and exclusive services, providing extensive navigation and information."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-screen image slider (like Swiper, as hinted) that advances to the next slide as the user scrolls down the page. Each slide features a large, high-quality product image or video, often with minimal overlay text, creating an immersive, scroll-driven visual experience.",
+    "The site employs a fixed header with navigation and cart icons, which remains visible while the full-screen hero content scrolls underneath it. Product information overlays appear subtly within the hero images, providing context without distracting from the visual storytelling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#222222",
+        "role": "icon"
+      },
+      {
+        "hex": "#ECECF0",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#DFDFE4",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear hierarchy with a distinctive, large serif logo, medium-sized sans-serif headings, and small, legible sans-serif body text, often in uppercase for labels.",
+    "radius": "Sharp for most structural elements, with subtle rounding applied to interactive components like the product information overlay.",
+    "spacing": "Airy, especially in the hero section, with generous negative space around product imagery. The footer maintains a more balanced, grid-like density."
+  },
+  "standout": "The site's distinctive use of a full-screen, scroll-triggered image carousel as its primary content delivery mechanism creates an immersive, editorial brand experience that prioritizes visual storytelling over traditional section-based layouts. The high-quality, art-directed product photography is central to its appeal, making the homepage feel like a curated gallery.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

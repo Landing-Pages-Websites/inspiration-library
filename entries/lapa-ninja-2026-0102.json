@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0102",
+  "source": {
+    "url": "https://www.reviews.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0102.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0102__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0102__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0102__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "e-commerce",
+      "customer-reviews"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently pair a prominent left-aligned heading and descriptive text with a complex, illustrative graphic or detailed product UI screenshot on the right, creating a balanced two-column visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-color gradient is used as a background for the hero and other key sections, transitioning smoothly between pastel shades of blue, green, yellow, and pink, providing a soft yet energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent, full-height state to a solid white, slightly condensed sticky bar with a subtle shadow upon scrolling down, maintaining visibility and reducing visual footprint."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the layered 3D product illustration elements (shoe, product cards) move at a slightly different speed than the background gradient as the user scrolls, enhancing depth and visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonials are presented as floating, slightly rotated cards with soft drop shadows, giving them a dynamic and less rigid appearance compared to standard grid layouts."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the sticky navigation effect, the header element initially has a transparent background and full height. Upon a certain scroll threshold, a CSS class is added that applies a solid white background, reduces its padding/height, and adds a subtle box-shadow, creating a smooth transition.",
+    "The hero section's depth and motion are created by layering multiple 3D assets (product mockups, UI cards) over a gradient background. These layers are then animated with subtle, independent scroll-triggered transformations (e.g., translateY, rotate) to create a parallax effect as the user scrolls, giving the impression of elements floating in space.",
+    "Interactive elements like buttons and cards utilize soft, subtle hover effects, often involving a slight lift and shadow expansion, to provide visual feedback without being overly distracting, likely using CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A2B3C",
+        "role": "text"
+      },
+      {
+        "hex": "#00A878",
+        "role": "cta"
+      },
+      {
+        "hex": "#F6821F",
+        "role": "accent"
+      },
+      {
+        "hex": "#5CD3CB",
+        "role": "accent"
+      },
+      {
+        "hex": "#FEEF7C",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD2C2",
+        "role": "accent"
+      },
+      {
+        "hex": "#D5E3FF",
+        "role": "background-gradient-part"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SF Pro Text",
+        "role": "heading"
+      },
+      {
+        "family": "PT Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A bold, sans-serif heading (~3-4x body) is used for primary titles, with smaller, lighter sans-serif for subheadings and readable body text.",
+    "radius": "Rounded corners are consistently applied to buttons, cards, images, and UI elements, ranging from subtle to more pronounced, contributing to a friendly and modern aesthetic.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, creating an open and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its highly detailed and interactive 3D hero illustration, which dynamically showcases the product's UI and benefits in a visually engaging, layered composition that subtly parallaxes on scroll. This goes beyond typical static images or simple videos, creating a unique and memorable first impression.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "manual-2026-0092",
+  "source": {
+    "url": "https://clearleft.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0092.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0092__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0092__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0092__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://clearleft.com/work/ual-design-system",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0092__p2.webp"
+      },
+      {
+        "url": "https://clearleft.com/work/london-north-eastern-railway",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0092__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "consulting",
+      "digital-services",
+      "ux"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating dark teal and white background sections are used to visually separate major content blocks and provide clear rhythm down the page."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich teal/blue serves as the primary brand color for backgrounds and prominent elements, consistently paired with a vibrant, almost neon green as an accent for CTAs and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content cards and entire sections animate into view with a subtle upward slide and fade effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "A 'Latest thinking' section features a dynamic grid of diverse content cards (events, podcasts, articles, case studies) with distinct labels and calls to action, showcasing thought leadership."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar remains fixed at the top of the viewport with a solid background, maintaining its initial height and styling without shrinking or transforming on scroll.",
+    "Content blocks and individual cards are revealed using scroll-triggered animations, where elements slide up and fade in from the bottom as they become visible in the user's viewport, likely orchestrated with CSS keyframe animations.",
+    "Text contrast is maintained by using white text on dark teal backgrounds and dark grey text on white or light grey backgrounds, ensuring readability across all sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121666",
+        "role": "background"
+      },
+      {
+        "hex": "#23d8a0",
+        "role": "accent"
+      },
+      {
+        "hex": "#fefefe",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffd233",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (~3-4x body) establish a clear hierarchy, complemented by a legible, moderately sized body text.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, input fields, and content cards.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The distinctive use of a deep, rich teal/blue as the primary brand color, paired with a vibrant, almost neon green accent, creates a sophisticated yet modern and energetic feel. The site effectively uses a card-based content strategy to showcase a diverse range of thought leadership and services without feeling overwhelming, making it a strong example of a content-rich service site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

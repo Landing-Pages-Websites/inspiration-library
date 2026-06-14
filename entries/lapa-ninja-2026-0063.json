@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0063",
+  "source": {
+    "url": "https://www.beehiiv.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0063.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0063__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0063__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0063__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "newsletter-platform",
+      "creator-economy"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a maximum width, set against a full-bleed dark background, creating a focused reading experience."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark blue-purple serves as the dominant background, providing a high-contrast canvas for light text and vibrant accent colors in illustrations and interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a bold, sans-serif typeface in large sizes for impact, complemented by a legible, regular-weight sans-serif for body text, maintaining a clear hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle fade-in or slide-up animation as they enter the viewport, creating a dynamic scroll experience. The hero illustration features continuously floating and animating elements."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often alternate between text-left/image-right and text-right/image-left layouts, breaking visual monotony while maintaining content flow."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transitions from transparent to a solid dark background and becomes sticky at the top of the viewport after a short scroll, ensuring persistent access to navigation. This effect is likely managed with GSAP ScrollTrigger.",
+    "Content sections are introduced with a staggered reveal animation, where elements within a section fade up or slide into view as the user scrolls, enhancing engagement. This is consistent with GSAP's capabilities.",
+    "Complex, data-rich illustrations in the hero and feature sections incorporate subtle, continuous animations of floating elements and data visualizations, likely powered by Lottie or GSAP, to add visual interest and convey dynamism without being distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0d2a",
+        "role": "background"
+      },
+      {
+        "hex": "#131125",
+        "role": "surface"
+      },
+      {
+        "hex": "#d6d6e0",
+        "role": "text"
+      },
+      {
+        "hex": "#2f39ba",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff5ec4",
+        "role": "cta"
+      },
+      {
+        "hex": "#9d9db8",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear, readable body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding (small radius) on buttons, input fields, and card-like elements, contributing to a modern, approachable feel.",
+    "spacing": "Balanced density overall; the hero section is airy with ample negative space, while feature grids and comparison tables are more dense but still legible."
+  },
+  "standout": "This site stands out with its sophisticated dark mode aesthetic, leveraging vibrant, animated data visualizations and floating UI elements within its illustrations to convey a sense of cutting-edge technology and dynamic performance. The consistent use of a deep blue-purple background with high-contrast text and bright accents creates a distinctive, premium feel that avoids the generic 'tech' look.",
+  "animation_tech": [
+    "gsap",
+    "lottie"
+  ],
+  "status": "approved"
+}

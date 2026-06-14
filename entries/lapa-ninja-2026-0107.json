@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0107",
+  "source": {
+    "url": "https://www.stamped.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0107.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0107__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0107__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0107__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "e-commerce",
+      "marketing-automation"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical arrangements of illustrative elements (abstract shapes, product mockups) that often float or break out of content containers, creating a dynamic and less rigid visual structure."
+    },
+    {
+      "kind": "type",
+      "note": "A clear hierarchy with large, bold sans-serif headings for impact, complemented by a clean, readable sans-serif for body text, and occasional smaller uppercase labels for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark background (#0d0c0e) paired with a vibrant, pastel-like accent palette (#e6c0ff, #faed99, #cce2fc, #71a641) used for illustrative elements and occasional light section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered parallax and independent movement of illustrative 3D-ish elements in the hero section, creating a multi-layered depth effect as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle slide-up or fade-in animation as they enter the viewport, often accompanied by a transformation of internal elements like a progress slider."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating full-bleed dark background sections with full-bleed light background sections, creating clear visual breaks and varying the page's rhythm."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate complex scroll-based animations. Illustrative elements (abstract shapes, product cards) in the hero section are animated with independent parallax and subtle rotations as the user scrolls, creating a multi-layered depth effect. Subsequent content sections are revealed with a staggered fade-up or slide-in effect as they enter the viewport.",
+    "Combines a minimalist dark background with vibrant, soft-gradient abstract 3D shapes and product mockups, giving a playful yet sophisticated aesthetic.",
+    "Key data points are presented within translucent, dark-themed cards that overlap and create a sense of depth, enhancing visual interest for statistics."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d0c0e",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#faed99",
+        "role": "accent"
+      },
+      {
+        "hex": "#e6c0ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#cce2fc",
+        "role": "accent"
+      },
+      {
+        "hex": "#fefdf5",
+        "role": "surface"
+      },
+      {
+        "hex": "#71a641",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, readable sans-serif body text, and smaller, often uppercase labels.",
+    "radius": "Subtle rounding (4-8px) on interactive elements and card corners, while abstract shapes incorporate both rounded and circular forms.",
+    "spacing": "Airy and spacious, with generous vertical padding between sections and ample whitespace around content blocks, creating a premium and uncluttered feel."
+  },
+  "standout": "The distinctive use of animated, floating, abstract 3D-ish shapes and product mockups against a dark, spacious background creates a playful yet sophisticated and modern aesthetic. The translucent, overlapping data cards also provide a unique way to display information.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "approved"
+}

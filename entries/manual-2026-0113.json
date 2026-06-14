@@ -1,0 +1,129 @@
+{
+  "id": "manual-2026-0113",
+  "source": {
+    "url": "https://www.miro.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0113.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0113__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0113__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0113__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://miro.com/blog",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0113__p2.webp"
+      },
+      {
+        "url": "https://miro.com/canvas",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0113__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "collaboration-software",
+      "productivity-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Spacious, clean layout with generous vertical padding between sections, creating clear visual breaks and a sense of openness."
+    },
+    {
+      "kind": "type",
+      "note": "Hierarchy established through large, bold sans-serif headings and smaller, lighter body text, maintaining high legibility across all content."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly white and dark gray palette, punctuated by vibrant accent colors (yellow, blue, purple) for CTAs, highlights, and illustrative elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A promotional banner appears from the top of the viewport after initial scroll, and the main navigation bar remains sticky at the top, ensuring persistent access."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements are revealed with subtle fade-in and slide-up animations as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently utilize a grid of cards or images to showcase capabilities, each with a clear heading and concise description."
+    }
+  ],
+  "technique_notes": [
+    "Content sections are progressively revealed with a staggered fade-in and slight upward translation effect as they enter the viewport, creating a smooth, engaging scroll experience likely managed by a library like Locomotive Scroll.",
+    "The hero section features a dynamically floating, interactive card element that appears to hover above the main content, adding a playful and modern visual layer.",
+    "A persistent top navigation bar remains visible on scroll, and a promotional banner slides down from the top after a short scroll distance, providing timely information without disrupting the initial hero."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1C1C1E",
+        "role": "text"
+      },
+      {
+        "hex": "#3859FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#FDE050",
+        "role": "accent"
+      },
+      {
+        "hex": "#F1F2F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#555A6A",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#FAFAFC",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roobert PRO Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, modern character, complemented by a legible, slightly condensed body text.",
+    "radius": "Subtle rounded corners on buttons, cards, and input fields, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Airy and balanced, with generous vertical spacing between major sections and within content blocks, ensuring readability and a premium feel."
+  },
+  "standout": "The site's distinctive use of a floating, interactive card in the hero section, combined with a subtle gradient background, creates an immediate sense of dynamism and modern collaboration. The overall spaciousness and strategic use of vibrant accents against a clean white canvas make it feel both professional and inviting.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

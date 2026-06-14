@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-0106",
+  "source": {
+    "url": "https://soylent.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-14"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0106.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0106__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0106__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0106__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "nutrition",
+      "health-and-wellness"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding create distinct content blocks, often featuring a central headline and supporting content, or a multi-column grid."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a bold, sans-serif font for prominent headings and a lighter weight for body text, ensuring readability and strong visual emphasis on key messages."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, neutral base palette of white, light gray, and dark gray is punctuated by vibrant, distinct accent colors (green, yellow, red, blue) used for product cards and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'dual sticky' system is employed, with the main navigation bar shrinking and gaining a solid background on scroll, while a secondary informational bar with product benefits appears and sticks to the bottom of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them (e.g., ingredient circles, review cards, partner logos) subtly fade in and slide up as they enter the viewport, creating a dynamic reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "The 'technically, delicious.' section features a unique ingredient breakdown using circular diagrams with percentage values, visually representing the product's composition."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a responsive grid system for content arrangement, adapting from multi-column layouts on desktop to stacked single-column on smaller screens.",
+    "Scroll-triggered animations are used to enhance engagement; elements are initially hidden or partially transparent and then transition into full view with a slight upward motion and fade as their parent section becomes visible in the viewport, likely using CSS keyframes.",
+    "The primary navigation bar dynamically adjusts its styling (height, background color) based on scroll position, while a separate informational bar is fixed to the bottom of the screen after an initial scroll threshold, both using JavaScript to toggle classes or inline styles."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#212322",
+        "role": "text"
+      },
+      {
+        "hex": "#47AF19",
+        "role": "accent"
+      },
+      {
+        "hex": "#505050",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "background"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "product-card-yellow"
+      },
+      {
+        "hex": "#FF6347",
+        "role": "product-card-red"
+      },
+      {
+        "hex": "#ADD8E6",
+        "role": "product-card-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Lato",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and significantly larger (~2-3x body) than the legible body text, with a clear hierarchy established through size and weight.",
+    "radius": "Subtle rounding on buttons and card edges, maintaining a clean yet approachable aesthetic.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and a more compact arrangement within content blocks like the ingredient breakdown."
+  },
+  "standout": "This site stands out with its 'dual sticky' navigation system, featuring both a transforming top nav and a persistent bottom info bar, which effectively maintains key information in view. The clean, scientific aesthetic is enlivened by a vibrant, almost playful product card color palette and a distinctive circular ingredient breakdown section.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
