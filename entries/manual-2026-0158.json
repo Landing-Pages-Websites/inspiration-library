@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0158",
+  "source": {
+    "url": "https://www.movingbrands.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0158.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0158__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0158__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0158__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://movingbrands.com/work",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0158__p2.webp"
+      },
+      {
+        "url": "https://movingbrands.com/contact",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0158__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "creative-agency",
+      "digital-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A stark, high-contrast layout featuring large blocks of black background with white text, punctuated by full-width accent sections."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single, clean sans-serif typeface across all text elements, with significant size variations for hierarchy but maintaining a uniform weight character."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette dominated by black and white, with a single vibrant lime green used exclusively for calls-to-action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements reveal with a subtle slide-up or fade-in animation as they scroll into the viewport, creating a progressive loading effect."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented in a responsive grid layout, where each card features a distinct visual identity but maintains a consistent text structure below the image."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header containing the logo and navigation remains visible at the top of the viewport throughout scrolling.",
+    "Smooth scrolling is implemented across the site, likely using a library like Locomotive Scroll, providing a fluid user experience.",
+    "Scroll-triggered animations, powered by GSAP, are used to reveal new content sections and elements with a subtle upward slide and fade as they enter the user's view, enhancing engagement without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ADFF00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized hero text (~3-4x body) with clear, well-spaced section headings and readable body text; client list uses a consistent medium-large size.",
+    "radius": "Sharp corners for most interactive elements and content cards, with subtle rounding only on the cookie consent pop-up.",
+    "spacing": "Very airy, especially in the hero and between major sections, creating a sense of spaciousness; content blocks within sections are balanced."
+  },
+  "standout": "The site's distinctive feature is its bold, high-contrast black and white aesthetic, dramatically punctuated by a single, vibrant lime green accent. This minimalist approach, combined with large, clean typography and generous spacing, creates a sophisticated and modern editorial feel that elevates the content.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

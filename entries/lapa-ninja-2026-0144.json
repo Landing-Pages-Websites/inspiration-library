@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-0144",
+  "source": {
+    "url": "https://www.suno.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0144.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0144__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0144__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0144__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "music",
+      "ai-tools",
+      "creative-tools"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed interface with prominent, centered headings and content sections, often utilizing grid layouts for feature cards and content showcases."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of warm, vibrant gradients (orange, red, brown) as background accents and for interactive elements like CTA buttons, contrasting with a deep charcoal background."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings dominate each section, creating clear hierarchy, complemented by smaller, readable body text and uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic text input where a prompt is 'typed' out as the user scrolls, creating an interactive demonstration of the product's core functionality. Background elements and side cards in the hero exhibit subtle parallax or fixed positioning, enhancing depth as foreground content scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, often with alternating background treatments (solid dark, gradient, or subtle texture) to visually separate information blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered text animation within an input field, simulating typing as the user scrolls down, directly engaging them with the product's core feature. This is combined with a subtle parallax effect on background imagery and fixed elements that remain in the viewport, creating a layered depth. Subsequent content sections are revealed with a staggered fade-up or slide-in animation as they enter the viewport, likely orchestrated using a scroll library like locomotive-scroll.",
+    "Warm, multi-stop gradients are used extensively for large background areas and interactive elements like buttons, providing visual warmth and a premium feel against the dark UI. These gradients often transition from vibrant oranges/reds to darker, muted tones.",
+    "Information is presented in a consistent system of cards with uniformly rounded corners and subtle inner shadows, organized into responsive grids. These cards serve to encapsulate features, pricing plans, and user-generated content, maintaining a clean and organized structure."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101012",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f6821f",
+        "role": "accent"
+      },
+      {
+        "hex": "#fbad41",
+        "role": "accent-light"
+      },
+      {
+        "hex": "#e6e6e6",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#1e1e1e",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual anchors, supported by clear, readable body text and smaller, often uppercase, labels.",
+    "radius": "Rounded; a consistent medium-large radius is applied to all interactive elements, cards, and input fields, contributing to a soft, modern aesthetic.",
+    "spacing": "Balanced; sections are airy with generous vertical padding, while content within grids maintains a balanced, comfortable density."
+  },
+  "standout": "The site's most distinctive feature is its interactive hero section, which uses a scroll-triggered typing animation within an input field to immediately demonstrate the product's core AI music generation capability. This direct, playful engagement, combined with a sophisticated dark mode and vibrant gradients, sets it apart from typical marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

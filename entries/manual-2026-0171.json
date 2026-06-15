@@ -1,0 +1,127 @@
+{
+  "id": "manual-2026-0171",
+  "source": {
+    "url": "https://www.sonos.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0171.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0171__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0171__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0171__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sonos.com/community",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0171__p2.webp"
+      },
+      {
+        "url": "https://www.sonos.com/en-us/shop",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0171__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "electronics",
+      "audio",
+      "smart-home"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts pairing large visuals (images/videos) with concise text blocks, often with the visual element dominating one side of the screen."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, extra-large sans-serif headings are used for section titles, often centered, creating strong visual anchors and a bold statement."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color scheme primarily using black and white, with dark gray as a secondary background and text color, and minimal use of a subtle orange/yellow accent for highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The sticky header navigation transitions from transparent over the hero video to an opaque dark gray background with a subtle shadow upon scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal elements (text, images, cards) with a subtle fade-up animation as they enter the viewport, creating a dynamic and engaging scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating full-width sections between light (white/off-white) and dark (black/dark gray) backgrounds to clearly delineate content blocks and create visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero section features an auto-playing background video with a subtle dark overlay to ensure text legibility, establishing an immersive first impression.",
+    "The primary navigation bar is initially transparent, overlaying the hero video, and then smoothly transitions to an opaque dark gray background with a subtle drop shadow as the user scrolls down the page, becoming a fixed element at the top.",
+    "Content within subsequent sections is revealed using scroll-triggered animations, where text blocks, images, and product cards subtly fade and slide upwards into view as their respective sections become visible in the viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#2E2E2E",
+        "role": "surface"
+      },
+      {
+        "hex": "#4C4C4C",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#BCBCBC",
+        "role": "text"
+      },
+      {
+        "hex": "#FFC000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Open Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) with clear, legible body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle rounding (2-4px) on buttons and cards, with many elements featuring sharp corners for a clean, modern look.",
+    "spacing": "Balanced to airy, with generous vertical padding between full-width sections and ample internal spacing within content blocks, contributing to a premium feel."
+  },
+  "standout": "The site's standout feature is its sophisticated use of full-bleed video and large, impactful typography combined with subtle, scroll-triggered animations. The seamless transition of the sticky navigation and the dramatic reveal of content on scroll create a premium, engaging user experience that feels dynamic without being distracting.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

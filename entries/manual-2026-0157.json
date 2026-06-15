@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0157",
+  "source": {
+    "url": "https://www.morningbrew.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0157.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0157__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0157__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0157__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.morningbrew.com/games",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0157__p2.webp"
+      },
+      {
+        "url": "https://www.morningbrew.com/search",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0157__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "news",
+      "publishing",
+      "business"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent, full-width blue banner serves as a primary call-to-action for newsletter signup, strategically placed at both the top of the page and repeated just before the footer."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single sans-serif font family across all text elements, with clear size and weight variations to establish a strong visual hierarchy, complemented by small, uppercase labels for article categories."
+    },
+    {
+      "kind": "color",
+      "note": "A strong brand blue is used for key calls-to-action and branding elements, contrasted with a clean white background and dark grey/black text for high readability, with light grey used for subtle section breaks."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-layered sticky header system is employed: a large, full-width promotional banner initially at the top of the page sticks to the viewport, and the main navigation bar, initially styled to blend with this banner, also sticks and transforms its background and button styling as it scrolls past the initial banner."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, clearly labeled sections such as 'The Latest', 'Editor's Picks', 'Latest Puzzles', 'The Morning Brew Daily Podcast', and 'Watch', each featuring a tailored grid layout for its specific content type."
+    }
+  ],
+  "technique_notes": [
+    "A multi-layered sticky header system is implemented where a full-width promotional banner initially occupies the top of the page and then sticks to the viewport. Simultaneously, the main navigation bar, initially styled to blend with the banner, also sticks and transforms its background and button styling (e.g., background color, button fill) as it scrolls past the initial banner, creating a clear, persistent navigation and call-to-action. This transformation is likely driven by scroll-triggered CSS keyframe animations or JavaScript.",
+    "Content is organized into responsive grid layouts, adapting from two-column main article displays to three-column smaller content cards, providing a structured and readable flow that adjusts to different screen sizes.",
+    "Call-to-action sections are presented as full-width blue banners with clear headlines and email signup forms, strategically placed at the top and bottom of the page to maximize visibility and conversion opportunities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c7ff2",
+        "role": "accent"
+      },
+      {
+        "hex": "#faf9f5",
+        "role": "background"
+      },
+      {
+        "hex": "#231f20",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#dee2e6",
+        "role": "surface"
+      },
+      {
+        "hex": "#e02d3c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sohne",
+        "role": "heading"
+      },
+      {
+        "family": "Sohne",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2-3x body) with smaller, uppercase labels for categories, and a clean, readable body text.",
+    "radius": "Subtle (buttons, image corners, input fields).",
+    "spacing": "Balanced, with generous vertical spacing in hero/CTA banners and tighter spacing within article grids."
+  },
+  "standout": "The site's distinctive design lies in its dual-layered sticky header system: a prominent, full-width blue promotional banner sticks to the top, and the main navigation bar, initially integrated, then transforms its appearance as it also sticks, creating a highly persistent and branded call-to-action alongside navigation. This, combined with a clean, editorial layout and consistent branding, makes the newsletter signup a central and unavoidable element of the user experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

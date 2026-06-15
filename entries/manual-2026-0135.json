@@ -1,0 +1,124 @@
+{
+  "id": "manual-2026-0135",
+  "source": {
+    "url": "https://www.awwwards.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0135.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0135__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0135__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0135__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.awwwards.com/blog",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0135__p2.webp"
+      },
+      {
+        "url": "https://www.awwwards.com/faqs",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0135__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-agency",
+      "platform"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are clearly delineated by generous vertical spacing and often introduced by oversized, centered, bold sans-serif headings."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with very large, heavy sans-serif headings for major section titles, contrasting with a clean, readable sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a predominantly monochrome palette of light greys and dark greys, with high-contrast, vibrant orange and purple used sparingly as accent colors for interactive elements and small labels."
+    },
+    {
+      "kind": "motion",
+      "note": "A floating navigation bar appears over the hero image as the user scrolls, providing quick access to key content categories, while the main header shrinks and gains a background."
+    },
+    {
+      "kind": "section",
+      "note": "Many content areas, such as 'Recent Sites of the Day' and 'W.CREATORS', are presented in a grid of card-like elements, each featuring an image, title, and relevant metadata."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar at the top of the page transforms upon scroll, shrinking in height and gaining a solid background color and subtle shadow, while the initial large hero text scrolls out of view.",
+    "A large hero image employs a subtle parallax effect, scrolling at a slightly slower rate than the foreground content to create a sense of depth.",
+    "A secondary, floating navigation bar is revealed with a subtle fade-in or slide-up animation as the user scrolls past the initial hero content, likely using a scroll-triggered animation library like GSAP or Framer Motion."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#FA5D29",
+        "role": "accent"
+      },
+      {
+        "hex": "#502BD8",
+        "role": "accent"
+      },
+      {
+        "hex": "#EDEDED",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~3-5x body text) for section titles, with smaller, lighter sans-serif for body text and labels, creating a strong visual hierarchy.",
+    "radius": "Subtle (small corner radius on cards, buttons, and input fields, maintaining a clean, modern edge).",
+    "spacing": "Airy (generous vertical spacing between major sections and balanced padding within content blocks, contributing to a clean and uncluttered feel)."
+  },
+  "standout": "This site distinguishes itself with its bold, oversized typography for section titles, which acts as a primary visual anchor. The combination of a minimalist, monochrome color palette with sparse, high-contrast accent colors and subtle, well-executed scroll-triggered motion (like the floating navigation bar) creates a sophisticated and editorial feel that elevates it beyond a standard directory.",
+  "animation_tech": [
+    "css-keyframes",
+    "framer-motion",
+    "gsap",
+    "lottie",
+    "swiper",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

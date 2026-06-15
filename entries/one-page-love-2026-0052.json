@@ -1,0 +1,111 @@
+{
+  "id": "one-page-love-2026-0052",
+  "source": {
+    "url": "https://www.opus.pro",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0052.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0052__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0052__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0052__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "video-editing",
+      "ai-tools"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dark mode aesthetic with high-contrast light text and a consistent use of full-width sections that center content, often within rounded container cards."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold, sans-serif headings for impact, paired with a more neutral sans-serif for body text and smaller, often uppercase, labels for sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette is dominated by a deep charcoal background, pure white text, and subtle accents of soft pink/peach and muted red for highlights and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero content scrolls away, revealing a key interactive element (video input field and CTA button) that animates into a prominent, centered position as the user scrolls down, effectively transforming the hero's primary interaction point."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently employ a two-column layout with an image/visual on one side and descriptive text on the other, alternating sides down the page."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that remains visible throughout the scroll. The hero section's primary content scrolls out of view, while a core interactive element from the hero animates and re-centers itself as a persistent call to action, using a combination of CSS transforms and opacity changes. Subsequent content sections are revealed with a subtle fade-in and slight upward slide effect as they enter the viewport, likely orchestrated with a JavaScript animation library like GSAP ScrollTrigger or similar CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e1015",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#f0c3bd",
+        "role": "accent"
+      },
+      {
+        "hex": "#be717b",
+        "role": "cta"
+      },
+      {
+        "hex": "#e2e3e7",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) create strong visual anchors, complemented by smaller, often uppercase, labels for categorization and clear, readable body text.",
+    "radius": "Subtle; elements like buttons, input fields, and content cards feature a soft, consistent corner rounding.",
+    "spacing": "Balanced; generous vertical spacing between major sections provides an airy feel, while content within cards maintains a comfortable density."
+  },
+  "standout": "The site's standout feature is its dynamic hero section, where the primary call to action (a video input field) transforms and re-centers itself as the user scrolls, maintaining interactive prominence beyond the initial hero view. This, combined with a sleek dark mode and video-centric examples, creates a highly engaging and product-focused experience.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "rive",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

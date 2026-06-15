@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-2026-0047",
+  "source": {
+    "url": "https://www.greenhouse.io",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0047.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0047__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0047__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0047__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "human-resources",
+      "recruiting-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a two-column layout with a prominent image or graphic on one side and descriptive text with a call to action on the other, often alternating sides."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive dark forest green is used as a primary brand color for backgrounds, text, and accents, providing a strong contrast against white and a light teal-green."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a bold, sans-serif font, often with a mix of regular and italicized words to emphasize key phrases, creating a dynamic yet readable hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky and maintains its white background as the user scrolls down. The hero section's content (images, text, and UI elements) subtly scales down and translates upwards, creating a gentle parallax effect against its background."
+    },
+    {
+      "kind": "section",
+      "note": "Key feature sections are presented as card-like elements with subtle borders and shadows, arranged in a grid, often with a consistent three-column structure."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is initially static and then transitions to a fixed position at the top of the viewport upon scroll, maintaining its background color.",
+    "The hero section utilizes a scroll-triggered animation (likely GSAP) where internal elements like images and text scale down and move vertically at a slower rate than the scroll, creating a subtle parallax and depth effect.",
+    "Content sections below the hero are revealed with a staggered fade-up or slide-in animation as they enter the viewport, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#133F36",
+        "role": "text"
+      },
+      {
+        "hex": "#C6F0E7",
+        "role": "surface"
+      },
+      {
+        "hex": "#1DB987",
+        "role": "cta"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "border"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clear hierarchy, often using italicization for emphasis, paired with highly readable body text.",
+    "radius": "Subtle rounded corners on buttons, input fields, and card elements, giving a soft but modern feel.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, and a slightly more airy feel in the hero, transitioning to a balanced grid for feature content."
+  },
+  "standout": "The site's standout feature is its sophisticated use of a deep forest green and a vibrant teal-green, which creates a distinctive, professional, and fresh brand identity. This is combined with subtle, integrated UI elements within the hero imagery and gentle scroll-triggered animations that add a layer of polish without being distracting.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0114",
+  "source": {
+    "url": "https://www.apollo.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0114.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0114__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0114__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0114__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "sales-enablement",
+      "b2b-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a generous max-width container, creating clear reading columns, while some sections like the hero and footer span full width."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases within headings and body text are highlighted with a vibrant yellow background, drawing immediate attention to benefits and features."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark text on light backgrounds is consistently punctuated by a bright, almost neon yellow accent for CTAs and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport as the user scrolls down the page, ensuring constant access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by subtle background color shifts (white to light grey) and generous vertical spacing, improving readability and content segmentation."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element, maintaining its position at the top of the screen during scroll. The hero section features a dynamic visual element, likely a video or Lottie animation, that highlights key phrases and demonstrates product functionality, playing on page load rather than being scroll-triggered. Other sections use standard static layouts with clear visual hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ccc9c6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#47423d",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#f8ff2c",
+        "role": "accent"
+      },
+      {
+        "hex": "#00b95c",
+        "role": "success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Soehne",
+        "role": "heading"
+      },
+      {
+        "family": "Soehne",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong visual impact, complemented by clear, legible body text and smaller uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., buttons, input fields, cards) provide a soft, modern touch without being overly playful.",
+    "spacing": "Balanced spacing throughout, with an airy hero section transitioning to a more structured, yet still open, grid for feature and testimonial sections."
+  },
+  "standout": "The most distinctive element is the bold and consistent use of a bright, almost neon yellow as the primary accent color, which immediately grabs attention and injects energy into an otherwise clean and minimal design. This is effectively paired with dynamic, app-like product demonstrations directly within the hero section.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

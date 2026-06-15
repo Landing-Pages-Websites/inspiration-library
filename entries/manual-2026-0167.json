@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0167",
+  "source": {
+    "url": "https://www.robinhood.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0167.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0167__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0167__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0167__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://robinhood.com/us/en/strategies",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0167__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "investment",
+      "trading"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, pairing a large product image or device mockup with descriptive text and a call to action."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are rendered in an oversized, bold sans-serif, creating strong visual hierarchy, often contrasted with smaller, uppercase labels for categories or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode theme is dominant, featuring white text on a near-black background, punctuated by a single, vibrant neon green accent color for CTAs and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight upward slide animation as they enter the viewport, creating a dynamic scroll experience. The hero background image exhibits a parallax effect, scrolling slower than foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "The page is structured with distinct full-width sections, alternating between dark backgrounds and a striking full-bleed neon green background to create strong visual breaks and emphasize key messages."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically shrinks in height, gains a solid dark background, and transforms its call-to-action button style (from outline to solid fill) as the user scrolls past the initial hero section.",
+    "Utilize JavaScript (e.g., Intersection Observer API or a scroll animation library) to trigger subtle fade-in and upward slide animations for content blocks and product imagery as they become visible within the viewport, enhancing engagement.",
+    "Achieve a parallax effect in the hero section by having the background image scroll at a slower rate than the foreground text and elements, creating a sense of depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#CCFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Nib Pro Display",
+        "role": "heading"
+      },
+      {
+        "family": "Capsule Sans Text",
+        "role": "body"
+      },
+      {
+        "family": "Phonic",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) create strong visual impact, complemented by clear, moderately sized body text and small, often uppercase, functional labels.",
+    "radius": "Predominantly sharp corners on UI elements and content blocks, with very subtle rounding on interactive elements like buttons.",
+    "spacing": "Generally airy spacing, particularly in the hero and between major sections, creating a sense of spaciousness, while content within feature blocks is well-spaced but not overly dense."
+  },
+  "standout": "The site's design is distinctive through its audacious and consistent application of a single, highly saturated neon green accent color against a stark dark background. This, combined with oversized, almost architectural typography for key brand elements, creates a bold, modern, and memorable identity that stands apart from typical corporate financial aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

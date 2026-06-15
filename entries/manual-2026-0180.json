@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0180",
+  "source": {
+    "url": "https://www.wired.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0180.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0180__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0180__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0180__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.wired.com/ai-issue",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0180__p2.webp"
+      },
+      {
+        "url": "https://www.wired.com/china-issue",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0180__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "technology",
+      "journalism"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, multi-column grid layout for article listings, reminiscent of a print magazine, with prominent featured articles breaking the grid at the top of the homepage."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy featuring a distinctive, bold serif typeface for major headlines that contrasts with a clean, legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette primarily using black, white, and various shades of gray, punctuated by vibrant red and green accents for links, calls-to-action, and section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent, larger state to a smaller, sticky bar with a solid white background and subtle shadow upon scrolling down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Long-form article pages utilize alternating background colors (black, white, green) for distinct sections, creating visual breaks and emphasizing different content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar uses a scroll-triggered transformation, shrinking in height and gaining a solid background and subtle shadow as the user scrolls past the initial hero section.",
+    "Content sections throughout the site are designed to subtly reveal themselves, often with a gentle fade-in or slide-up effect, as they enter the viewport, leveraging CSS keyframe animations for a smooth user experience.",
+    "Article listings are structured into a responsive grid system that adapts column counts based on viewport size, maintaining a consistent visual rhythm while maximizing content density."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#EB0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#00C559",
+        "role": "accent"
+      },
+      {
+        "hex": "#DADADA",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BreveText",
+        "role": "heading"
+      },
+      {
+        "family": "Apercu",
+        "role": "body"
+      },
+      {
+        "family": "WiredMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful serif headings (often ~3-4x body text) with a strong, editorial presence, complemented by clean, legible sans-serif body text and smaller mono-spaced labels.",
+    "radius": "Sharp, with almost all elements featuring 0px border-radius, maintaining a crisp, angular aesthetic.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and article blocks, creating an airy feel, while article grids themselves are dense."
+  },
+  "standout": "The site's distinctive use of a high-contrast, limited color palette (black, white, red, green) combined with a bold, editorial serif typeface for headlines creates a strong, authoritative, and magazine-like aesthetic that feels both classic and modern. The willingness to break from the main grid for visually impactful, immersive storytelling on interior pages is also notable.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

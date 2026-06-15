@@ -1,0 +1,115 @@
+{
+  "id": "one-page-love-2026-0046",
+  "source": {
+    "url": "https://www.gong.io",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0046.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0046__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0046__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0046__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "b2b",
+      "revenue-operations",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often featuring a central content block or a grid of cards, creating distinct visual breaks between content areas."
+    },
+    {
+      "kind": "color",
+      "note": "Prominent use of vibrant purple-to-pink/orange gradients as full-bleed background elements in hero and key sections, creating a dynamic and modern aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif headings for primary messaging, contrasted with smaller, legible body text and occasional uppercase labels for emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in effect as the user scrolls, creating a guided content discovery experience. The hero background also exhibits a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Feature cards are designed with subtle gradient backgrounds and distinct icons, arranged in a responsive grid to showcase product capabilities."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky navigation bar that transitions from a transparent state to a solid white background with a subtle shadow after a certain scroll threshold, while an initial top announcement bar disappears. Use scroll-triggered animations (likely `css-keyframes` or a JS library like GSAP, given the detected `canvas` and `css-keyframes`) to reveal content sections with a staggered fade-up or slide-in effect as they enter the viewport. The hero background utilizes a subtle parallax effect where the background image moves slower than the foreground content.",
+    "Apply dynamic, multi-color gradients as full-bleed background elements for hero sections and as subtle fills for interactive cards, creating a sense of depth and vibrancy. These gradients often transition between purples and pinks/oranges.",
+    "Utilize a clear typographic hierarchy with extremely large, bold sans-serif headings for primary messaging and smaller, highly readable sans-serif for body content, ensuring strong visual impact and readability across all devices."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#bcbcbc",
+        "role": "surface"
+      },
+      {
+        "hex": "#350791",
+        "role": "background"
+      },
+      {
+        "hex": "#7434f4",
+        "role": "accent"
+      },
+      {
+        "hex": "#f434f4",
+        "role": "cta"
+      },
+      {
+        "hex": "#6b55a2",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero headings (~5-6x body) with large, bold section headings (~2-3x body) and smaller, legible body text, often with uppercase labels.",
+    "radius": "Subtle rounding on buttons, cards, and input fields, maintaining a modern and approachable feel without being fully rounded or sharp.",
+    "spacing": "Airy, especially in hero and between major sections, creating clear visual separation; content within sections is more balanced."
+  },
+  "standout": "The site's distinctive use of vibrant, multi-color gradients as full-bleed background elements and subtle card fills, combined with oversized, bold typography, creates a powerful and modern tech aesthetic that feels both sophisticated and energetic. If a builder copied only one idea, it should be the dynamic and pervasive application of these gradients to define sections and highlight content.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}
