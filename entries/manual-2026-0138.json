@@ -1,0 +1,130 @@
+{
+  "id": "manual-2026-0138",
+  "source": {
+    "url": "https://www.bigcommerce.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0138.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0138__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0138__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0138__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.bigcommerce.com/apps",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0138__p2.webp"
+      },
+      {
+        "url": "https://www.bigcommerce.com/product",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0138__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ecommerce",
+      "business-services"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a split layout with text on one side and a visual (image, illustration, or UI screenshot) on the other, often with a subtle background shape or gradient behind the visual."
+    },
+    {
+      "kind": "layout",
+      "note": "Many content blocks and cards feature softly rounded corners, sometimes with a 'squircle' or 'blob' like shape, especially for hero text containers and app cards."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font, often in dark blue or white, contrasting with a lighter, more neutral sans-serif for body text, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich navy blue is the primary brand color, used extensively for backgrounds and key text, complemented by bright, energetic blues for calls-to-action and accents, and light greys for secondary backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms upon scroll, shrinking in height and becoming sticky at the top of the viewport, while a 'New Product Releases' banner at the very top disappears."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero appear to reveal with a subtle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The site features extensive app and integration marketplace sections, presented as a grid of cards with icons, titles, and ratings, categorized for easy browsing."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky navigation, implement a JavaScript listener for scroll events that detects when the user scrolls past a certain point, then applies a CSS class to the navigation bar to reduce its height, remove the top banner, and fix its position to the top of the viewport.",
+    "Section reveals can be achieved by observing elements as they enter the viewport using an Intersection Observer API, then applying CSS transitions for opacity and transform (e.g., `translateY`) to make them fade in and slide up from below.",
+    "Content sections are structured with a maximum width container centered on the page, using flexbox or grid to arrange text and visual elements side-by-side, often with a background shape (SVG or CSS pseudo-element) that extends beyond the content width for visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#031649",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#edeff3",
+        "role": "background"
+      },
+      {
+        "hex": "#0066ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#d0fdfa",
+        "role": "accent"
+      },
+      {
+        "hex": "#dbdfe7",
+        "role": "surface"
+      },
+      {
+        "hex": "#081f5e",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Gotham",
+        "role": "heading"
+      },
+      {
+        "family": "Gotham",
+        "role": "body"
+      },
+      {
+        "family": "Big Shoulders Display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (Gotham) are prominent, with hero text using an even larger, heavier display font (Big Shoulders Display) for impact, while body text remains highly legible at a comfortable size.",
+    "radius": "subtle to rounded; buttons and cards have a subtle radius, while some content containers and image frames feature a more pronounced, almost 'squircle' or 'blob-like' rounded shape.",
+    "spacing": "balanced; sections are well-separated with ample vertical padding, creating an airy feel, while content within sections maintains a comfortable density for readability."
+  },
+  "standout": "The site's distinctive use of softly rounded, almost 'blob-like' shapes for key content containers and image frames, particularly in the hero and feature sections, sets it apart from typical sharp-edged or uniformly rounded designs. This, combined with the deep navy and bright accent blues, creates a unique blend of professionalism and approachability.",
+  "animation_tech": [],
+  "status": "approved"
+}

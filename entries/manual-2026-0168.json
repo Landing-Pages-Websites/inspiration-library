@@ -1,0 +1,104 @@
+{
+  "id": "manual-2026-0168",
+  "source": {
+    "url": "https://www.sendgrid.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0168.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0168__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0168__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0168__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "communications",
+      "email-marketing"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with a deep dark blue background, containing content centered within a constrained maximum width."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast dark theme using a deep dark blue as the primary background, white for main text, and a vibrant red for accents, CTAs, and key iconography."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up and slide-in animation as they enter the viewport during scroll, while the main navigation remains sticky at the top."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, paired with a clear, readable sans-serif for body text, all on a dark background."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating shades of dark blue are used for background colors to visually separate distinct content blocks within the page."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation is implemented as a sticky element that remains fixed at the top of the viewport throughout the scroll.",
+    "Content sections are revealed using scroll-triggered animations, where elements fade in and slide up from the bottom as they become visible in the viewport, leveraging CSS keyframes for smooth transitions.",
+    "A subtle parallax effect is applied to the hero illustration, causing it to scroll at a slightly slower rate than the foreground text, adding depth to the initial view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000434",
+        "role": "background"
+      },
+      {
+        "hex": "#0A0E3D",
+        "role": "surface"
+      },
+      {
+        "hex": "#F22F46",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, regular weight body text and occasional small uppercase labels.",
+    "radius": "Subtle rounding on buttons and content cards.",
+    "spacing": "Airy vertical spacing between major sections, balanced spacing within content blocks."
+  },
+  "standout": "The distinctive use of a deep, dark blue background paired with a vibrant, almost neon red accent color creates a bold and modern aesthetic. The clean, flat illustrations and clear, concise messaging reinforce a professional yet approachable tech brand identity, especially effective for communicating a significant brand migration.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

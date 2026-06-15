@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0134",
+  "source": {
+    "url": "https://www.adobe.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0134.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0134__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0134__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0134__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.adobe.com/acrobat.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0134__p2.webp"
+      },
+      {
+        "url": "https://www.adobe.com/education.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0134__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "software",
+      "creative-tools",
+      "productivity"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a background video, followed by a mix of grid-based product cards and full-width content sections."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is clear and readable, often accompanied by smaller uppercase labels for categories or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep dark blues/blacks and crisp whites is accented by a vibrant array of reds, pinks, and purples used in product imagery and occasional UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top shrinks in height and gains a solid background upon scroll, remaining sticky. A secondary product category bar, initially below the hero, becomes temporarily sticky at the bottom of the viewport before scrolling out of view. Content sections below the hero reveal with a subtle fade-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a prominent headline with a grid of product or solution cards, sometimes using a split layout with imagery on one side and text on the other."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-bleed background video with a dark, semi-transparent overlay to ensure text readability. The main navigation bar transitions its height and background color on scroll, maintaining a sticky position at the top. A unique secondary navigation bar is programmed to become sticky at the bottom of the viewport for a specific scroll range, then un-sticks. Content sections below the hero are revealed using scroll-triggered animations, typically a subtle fade and slight upward translation, as they become visible in the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A0A0A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#D73220",
+        "role": "accent"
+      },
+      {
+        "hex": "#D92361",
+        "role": "accent"
+      },
+      {
+        "hex": "#7155FA",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Adobe Clean",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, readable body text and smaller uppercase labels for categories.",
+    "radius": "Subtle (cards, buttons, input fields), creating a soft, approachable feel.",
+    "spacing": "Balanced, with airy padding in hero and main content sections, transitioning to a denser layout in feature grids and the extensive footer."
+  },
+  "standout": "This site distinguishes itself with a sophisticated motion design system, particularly the dynamic sticky behavior of both the top navigation and a unique, temporarily sticky product category bar at the bottom of the viewport. The full-bleed video hero also sets a high visual standard, making the site feel premium and engaging beyond a standard marketing template.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

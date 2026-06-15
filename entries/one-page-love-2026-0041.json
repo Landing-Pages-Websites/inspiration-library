@@ -1,0 +1,120 @@
+{
+  "id": "one-page-love-2026-0041",
+  "source": {
+    "url": "https://www.Adobe.com/products/firefly.html",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0041.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0041__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0041__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0041__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "creative-tools",
+      "ai",
+      "digital-media"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page primarily uses a dark mode aesthetic with full-bleed sections, alternating between solid black backgrounds and dark gray textured backgrounds for content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, creating a strong visual hierarchy, often paired with smaller, uppercase labels or subheadings for context."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of black, white, and various shades of dark gray is accented by vibrant, saturated colors like yellow, blue, and green for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial full-bleed video hero dynamically transitions to a static black background with the main headline and CTA as the user scrolls down, before scrolling completely out of view."
+    },
+    {
+      "kind": "motion",
+      "note": "A promotional banner appears at the very top of the page after a slight scroll, then disappears as the user scrolls further down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero appear to reveal themselves with a subtle fade-in or slide-up effect as they enter the viewport, creating a guided scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive-looking content blocks, such as image generation input fields and feature cards, are presented within distinct, full-width dark sections."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video that dynamically transitions to a static dark background with the main headline and call to action upon initial scroll, then scrolls away to reveal subsequent content. This creates a layered, dynamic introduction.",
+    "A temporary, dismissible banner is revealed at the top of the page after a short scroll, providing timely promotions, and then scrolls out of view or is dismissed.",
+    "Content sections throughout the page are revealed with a staggered animation, such as a subtle fade-in or slide-up, as they enter the user's viewport, enhancing engagement and guiding attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E9E9E9",
+        "role": "surface"
+      },
+      {
+        "hex": "#EDCC2D",
+        "role": "accent"
+      },
+      {
+        "hex": "#05834E",
+        "role": "accent"
+      },
+      {
+        "hex": "#2C2C2C",
+        "role": "surface"
+      },
+      {
+        "hex": "#4285F4",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Adobe Clean",
+        "role": "heading"
+      },
+      {
+        "family": "Adobe Clean",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong impact, complemented by clean, legible body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and input fields, while most large content blocks maintain sharp edges.",
+    "spacing": "Balanced density with an airy, expansive hero section and subsequent content sections featuring a more structured grid layout for features and cards."
+  },
+  "standout": "The site's most distinctive feature is its dynamic hero section, which transforms significantly on scroll from a full-bleed video collage to a focused text-based hero, and then seamlessly transitions into an interactive input field. This creates a highly engaging and progressive introduction to the product without requiring user interaction.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

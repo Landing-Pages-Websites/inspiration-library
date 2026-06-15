@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0139",
+  "source": {
+    "url": "https://www.pizzapilgrims.co.uk",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0139.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0139__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0139__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0139__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-service",
+      "restaurant",
+      "pizza"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently feature full-bleed photography or large illustrative background elements, often with text overlays or content cards positioned on top."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between bold, distressed display fonts for main headings and clean, legible sans-serif fonts for body text and smaller labels creates a playful yet clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark forest green background is consistently used, providing a rich canvas for vibrant lime green accents and white text, creating high contrast and brand recognition."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, playful illustrative elements (e.g., green truck, airplane, clapping hands) are integrated as background visuals that are revealed or parallax as the user scrolls, adding depth and narrative."
+    },
+    {
+      "kind": "section",
+      "note": "Key content sections are introduced with large, impactful headings and often feature unique visual treatments like tilted image frames or custom background illustrations."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using scroll-triggered animations, where content fades in and slides slightly upwards as it enters the viewport, likely leveraging Intersection Observer API or a library like GSAP. Large, playful illustrations are integrated as background elements that are revealed or parallax as the user scrolls, adding dynamic visual interest, potentially using Lottie for animated elements or CSS keyframes for transitions. The hero section uses a static image with text overlays and calls to action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#003019",
+        "role": "background"
+      },
+      {
+        "hex": "#00CC00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: ChelseaRR",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Pizza Pilgrims",
+        "role": "heading"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, and often distressed display headings (~4-5x body) with clean, legible sans-serif body text and uppercase labels.",
+    "radius": "subtle rounded corners on buttons and some image containers, with more pronounced rounding on elements like the cookie banner.",
+    "spacing": "balanced to airy, with generous vertical spacing between main sections and a more dense arrangement within content blocks."
+  },
+  "standout": "The site's distinctive use of a deep forest green background paired with vibrant lime green accents and playful, distressed typography creates a unique brand identity that feels authentic and energetic. The integration of large, whimsical background illustrations that reveal on scroll adds a memorable, narrative quality, setting it apart from generic modern marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0165",
+  "source": {
+    "url": "https://www.prismic.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0165.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0165__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0165__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0165__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://prismic.io/demo",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0165__p2.webp"
+      },
+      {
+        "url": "https://prismic.io/page-builder",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0165__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "content-management",
+      "web-development",
+      "marketing-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is structured into distinct, full-width sections that alternate between white, light gray, and dark gray backgrounds to create visual segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using very large, bold, sans-serif headings for section titles, contrasted with a more neutral and legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "The design primarily uses a high-contrast monochrome palette of black, white, and light gray, with a single vibrant green (#52B256) used consistently for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections animate into view with a subtle upward slide and fade-in effect as the user scrolls down the page, revealing content progressively."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky and remains visible at the top of the viewport after the initial hero section scrolls past, ensuring constant access to navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Feature and explanation sections frequently employ a two-column layout, pairing a prominent heading and descriptive text with a relevant visual, often a clean UI mockup or abstract illustration."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed with a subtle upward slide and fade-in animation as they scroll into view, creating a dynamic content flow, likely using CSS keyframes triggered by JavaScript intersection observers. The primary navigation bar becomes sticky after initial scroll, maintaining access to key links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#151515",
+        "role": "text"
+      },
+      {
+        "hex": "#EEEEEE",
+        "role": "surface"
+      },
+      {
+        "hex": "#52B256",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, legible body text and very small uppercase labels for categories or sub-navigation.",
+    "radius": "Subtle rounded corners on buttons, input fields, and card elements, maintaining a clean and modern feel.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while content within sections is more tightly grouped."
+  },
+  "standout": "This site stands out with its stark, high-contrast monochrome palette, which is then punctuated by a single, vibrant accent green. The heavy use of clean, abstract UI mockups and illustrations, combined with a subtle scroll-reveal animation, creates a sophisticated and modern feel that avoids visual clutter.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "lapa-ninja-2026-0121",
+  "source": {
+    "url": "https://www.casper.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0121.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0121__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0121__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0121__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "sleep-products",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often containing content within a centered, constrained width container."
+    },
+    {
+      "kind": "layout",
+      "note": "Card-based grid layouts are used for product categories and features, often featuring subtle drop shadows for depth."
+    },
+    {
+      "kind": "type",
+      "note": "A dual-font strategy employs a distinctive, elegant serif (NewKansas) for prominent headings and a clean, modern sans-serif (Roboto, Calibre) for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A deep navy blue serves as the primary brand color for navigation, footer, and key text, contrasted with soft pastel backgrounds (like a light pink hero) and crisp white content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle slide-up and fade-in animation as they enter the viewport, creating a dynamic content flow."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar sticks to the top of the viewport, maintaining its full height and dark blue background throughout the scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Accordion-style elements are used for the Frequently Asked Questions section, allowing for concise content presentation."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed with a subtle slide-up and fade-in animation as they enter the viewport, creating a dynamic scrolling experience, likely using a scroll-triggered library.",
+    "The primary navigation bar is fixed to the top of the viewport, maintaining its full height and background color throughout the scroll.",
+    "A horizontal carousel component, powered by Swiper, is used for browsing product categories, allowing users to swipe through options."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e306e",
+        "role": "primary"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#f0e0e0",
+        "role": "accent-background"
+      },
+      {
+        "hex": "#0c0c14",
+        "role": "text"
+      },
+      {
+        "hex": "#5a70b1",
+        "role": "accent"
+      },
+      {
+        "hex": "#e53935",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NewKansas-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "NewKansas-Thin",
+        "role": "display"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "Calibre",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold serif headings (NewKansas) provide strong visual anchors, contrasted with clean, legible sans-serif body text (Roboto/Calibre) that is typically smaller and regular weight.",
+    "radius": "Subtle rounding on card corners and button edges, with some larger content sections featuring a more pronounced corner radius.",
+    "spacing": "Airy spacing in hero and main content sections, transitioning to a more balanced density in product grids and the footer."
+  },
+  "standout": "The site effectively blends a sophisticated, editorial serif typeface for headings with clean, modern sans-serifs for body text, creating a unique brand voice that feels both established and approachable. The use of soft pastel hero backgrounds against a deep navy navigation also provides a distinctive color contrast.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0163",
+  "source": {
+    "url": "https://www.peloton.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0163.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0163__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0163__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0163__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.peloton.com/about-us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0163__p2.webp"
+      },
+      {
+        "url": "https://www.peloton.com/use-cases",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0163__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "energy",
+      "oil-gas",
+      "renewables",
+      "industrial-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark charcoal backgrounds and white backgrounds to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of large, bold, uppercase sans-serif typography for section titles and key labels, creating a strong visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic application of a vibrant green accent color for call-to-action buttons, key highlights, and graphic elements against a largely monochromatic dark grey and white palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking slightly and gaining a solid dark background with a subtle shadow."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements, such as timeline entries on the 'About' page, reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Grid-based feature sections (e.g., 'Platform in Action', 'Peloton Apps By Use Case') use large icons and concise descriptions within dark, uniform cards."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation transitions from a transparent state to a solid, slightly condensed dark background with a subtle drop shadow as the user scrolls past the initial hero section.",
+    "Content blocks and specific elements, particularly within the 'About' page's timeline, are revealed with a staggered fade-up or slide-in animation as they become visible in the viewport, likely orchestrated by a scroll-triggered JavaScript animation library.",
+    "Complex vector animations, identified as Lottie, are integrated into sections to visually explain abstract concepts or data flows, adding dynamic visual interest without relying on traditional video."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#51525b",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#6ebe4a",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder sans-serifs (~3-4x body text), often in uppercase, creating a strong contrast with the readable sans-serif body text.",
+    "radius": "subtle \u2014 primarily on buttons and card elements, providing a soft edge without being overly rounded.",
+    "spacing": "balanced \u2014 generous vertical padding between sections, with well-distributed content within blocks, leaning towards an airy feel in hero areas."
+  },
+  "standout": "This site stands out through its sophisticated integration of Lottie animations to demystify complex industrial processes, combined with a clean, authoritative design language that uses a vibrant green accent to punctuate a dark charcoal and white palette. The interactive timeline on the 'About' page is also a distinctive and engaging way to present company history.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "approved"
+}

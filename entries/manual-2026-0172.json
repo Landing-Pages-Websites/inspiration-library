@@ -1,0 +1,110 @@
+{
+  "id": "manual-2026-0172",
+  "source": {
+    "url": "https://www.square.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0172.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0172__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0172__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0172__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fintech",
+      "business-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections are used extensively, with content often centered or arranged in clean grids, creating a sense of spaciousness and focus."
+    },
+    {
+      "kind": "type",
+      "note": "A modern, geometric sans-serif typeface is used consistently across all text, establishing a clear visual hierarchy through varying weights and sizes, from large, impactful headlines to legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a high-contrast palette of black and white, accented by a vibrant, saturated blue for primary calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that scrolls underneath the main content, creating a dynamic parallax-like effect as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms upon scroll, changing from a dark background with light text to a sticky, light background with dark text, maintaining visibility and brand presence."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the hero section, a full-width video element should be positioned absolutely behind the main content, with its scroll position linked to the viewport scroll to create a parallax or 'scroll-under' effect. The overlaying text and CTAs should be positioned relative to the viewport or a container that scrolls normally.",
+    "The sticky navigation can be rebuilt by detecting the scroll position. Once a certain scroll threshold is met, a CSS class is applied to the navigation element, triggering a transition that changes its background color, text color, and makes it fixed to the top of the viewport. This can be achieved using CSS keyframes for smooth transitions.",
+    "Content sections below the hero appear to reveal as they enter the viewport, likely using a simple fade-in or slide-up animation triggered by scroll events, enhancing engagement without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#006aff",
+        "role": "cta"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Square Sans Text VF",
+        "role": "heading"
+      },
+      {
+        "family": "Square Sans Text",
+        "role": "body"
+      },
+      {
+        "family": "Square Sans Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold headings (e.g., hero text ~3-4x body) create strong impact, complemented by clear, legible body text and smaller, uppercase labels for navigation and subheadings.",
+    "radius": "Subtle rounding on buttons and interactive elements, maintaining a clean and modern aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and within the hero, while content grids (like product cards) maintain a more structured, balanced density."
+  },
+  "standout": "This site's design is distinctive for its bold, high-contrast aesthetic, primarily using black, white, and a vibrant blue. The standout feature is the dynamic full-bleed video hero that scrolls *under* the main content, creating an immersive and engaging introduction, coupled with a transforming sticky navigation that reinforces brand presence.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "rive",
+    "video-hero"
+  ],
+  "status": "approved"
+}

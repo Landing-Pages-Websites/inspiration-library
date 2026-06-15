@@ -1,0 +1,128 @@
+{
+  "id": "manual-2026-0174",
+  "source": {
+    "url": "https://www.tana.inc",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0174.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0174__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0174__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0174__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tana.inc/mission",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0174__p2.webp"
+      },
+      {
+        "url": "https://tana.inc/integrations/jira",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0174__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "ai",
+      "knowledge-management"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large text blocks with product UI screenshots or illustrative images, often alternating sides down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A prominent, elegant serif typeface is used for main section headings, creating an editorial feel, contrasted with a clean, modern sans-serif for all body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-white backgrounds and dark text is softened by subtle, multi-color gradient overlays used in the hero section and as background elements in some content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks (such as feature cards and text paragraphs) reveal with a smooth fade-up or slide-up animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport and slightly reduces in height after the initial scroll, maintaining a clean, minimal presence."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section prominently features a dynamic product UI screenshot, making the product itself the central visual element rather than a static image or video."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered reveals: Sections and content elements animate into view with a subtle fade and slide-up effect as the user scrolls, creating a dynamic and engaging content flow. This is likely powered by a library like locomotive-scroll.",
+    "Sticky header: The navigation bar transitions to a slightly smaller, fixed state with a solid background after the initial scroll, ensuring persistent access to navigation.",
+    "Gradient backgrounds: Subtle, multi-color gradients are used as background elements in the hero and some sections, adding depth and a modern aesthetic without overwhelming the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbfbfb",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "button-background"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "border-subtle"
+      },
+      {
+        "hex": "#f7e8e5",
+        "role": "gradient-light-warm"
+      },
+      {
+        "hex": "#f2d7e0",
+        "role": "gradient-light-pink"
+      },
+      {
+        "hex": "#d9e0f2",
+        "role": "gradient-light-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, complemented by a clean, legible sans-serif for body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounded corners (e.g., ~8-12px) on cards, buttons, and product UI elements, providing a soft, approachable feel.",
+    "spacing": "Airy, with generous vertical spacing between major sections and balanced padding within content blocks, creating a sense of calm and clarity."
+  },
+  "standout": "The site's distinctive use of an elegant, almost editorial serif typeface for prominent headings, combined with subtle, multi-color gradient backgrounds and smooth scroll-triggered reveals, creates a sophisticated and modern aesthetic that feels both luxurious and highly functional. The integration of the product UI directly into the hero section, rather than just a static image, makes it feel more dynamic and central to the experience.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

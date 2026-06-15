@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0132",
+  "source": {
+    "url": "https://www.klook.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0132.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0132__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0132__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0132__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "activity-booking",
+      "tourism"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of horizontal carousels for content discovery across multiple sections ('Offers for you', 'Where to next?', 'Travelers' favorite choices'), allowing users to browse a high volume of options efficiently."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and playful color palette featuring a dominant orange, complemented by purple, yellow, and teal accents, used for CTAs, icons, and decorative background shapes to create an energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a static position to a sticky state at the top of the viewport after an initial scroll, while a top promotional bar disappears."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where decorative abstract shapes (orange blob, blue squiggle) and the background image scroll at slightly different rates than the main hero text and search input."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections with clear headings, many of which utilize card-based layouts within horizontal carousels for browsing various travel options."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented with a sticky behavior, where it fixes to the top of the viewport after the initial scroll depth, replacing a disappearing top promotional bar.",
+    "The hero section employs a parallax scrolling effect, where background imagery and decorative SVG-like shapes move at a slower rate than the foreground text and interactive elements, creating a sense of depth.",
+    "Content carousels, likely powered by Swiper.js as hinted, are used extensively to display multiple items horizontally, allowing users to swipe or click through various offers, destinations, and activities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff5b00",
+        "role": "cta"
+      },
+      {
+        "hex": "#4d40ca",
+        "role": "primary-accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#fff0e5",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "border"
+      },
+      {
+        "hex": "#ffc200",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#00cbd0",
+        "role": "tertiary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear hierarchy with bold, prominent headings (~2.5-3x body) and smaller, often uppercase, labels for categories and navigation.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and content cards.",
+    "spacing": "Balanced and airy in hero and main sections, becoming denser within the horizontal carousels to maximize content display."
+  },
+  "standout": "The site's distinctive use of a vibrant, playful color palette, particularly the combination of bright orange and purple, paired with organic, abstract shapes that animate subtly in the hero, creates an energetic and inviting feel that stands out from typical travel booking sites. The extensive use of horizontal carousels for content discovery is also a key differentiator.",
+  "animation_tech": [
+    "canvas",
+    "swiper"
+  ],
+  "status": "approved"
+}

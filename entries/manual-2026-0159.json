@@ -1,0 +1,130 @@
+{
+  "id": "manual-2026-0159",
+  "source": {
+    "url": "https://www.nextjs.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0159.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0159__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0159__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0159__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://nextjs.org/docs",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0159__p2.webp"
+      },
+      {
+        "url": "https://nextjs.org/learn",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0159__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-development",
+      "framework"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented within a consistent max-width container, often centered, with generous vertical spacing between major sections, creating a clean and breathable layout."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold sans-serif headings for section titles, balanced with a highly readable sans-serif for body text, and a distinct monospaced font for code examples and command-line instructions."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette is monochromatic (black, white, and various grays), with a vibrant blue used sparingly for calls-to-action, links, and key interactive elements, providing clear visual emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-in and slight upward slide as they enter the viewport during scrolling, creating a dynamic but smooth content flow."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar becomes sticky to the top of the viewport after the initial scroll, maintaining access to key navigation elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background grid pattern scrolls at a slightly slower rate than the foreground text and calls-to-action."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are often introduced with a prominent, bold question or statement, followed by a grid-based layout of features, testimonials, or product examples."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (using css-keyframes) to reveal content. As the user scrolls, new sections fade in and slide up from the bottom of the viewport. The main navigation bar transitions to a sticky position at the top once the user scrolls past the hero section. The hero background features a subtle parallax effect, where a dotted grid pattern moves at a different speed than the foreground content.",
+    "A responsive grid system is used to structure content, allowing for full-width hero sections, centered text blocks, and multi-column card layouts that adapt across different screen sizes.",
+    "Typography is managed with a clear scale, using a primary sans-serif font for all text, with varying weights and sizes to denote hierarchy, and a secondary monospaced font for code snippets, ensuring readability and technical clarity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#3291ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#61dafb",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) establish strong hierarchy, complemented by a clear, readable sans-serif body text and distinct monospaced code snippets.",
+    "radius": "Subtle; small corner radius on buttons, cards, and input fields, maintaining a modern and clean aesthetic.",
+    "spacing": "Balanced to airy; generous vertical spacing between sections and comfortable padding within content blocks create a sense of clarity and ease of reading."
+  },
+  "standout": "This site distinguishes itself with an exceptionally clean and minimalist design that effectively presents highly technical information without feeling overwhelming. The subtle background grid, combined with smooth scroll-triggered reveals and a precise typographic hierarchy, conveys a strong sense of authority and sophistication, making complex concepts appear approachable and well-organized.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
