@@ -1,0 +1,130 @@
+{
+  "id": "manual-ceros-com-eb44cc",
+  "source": {
+    "url": "https://www.ceros.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ceros-com-eb44cc.webp",
+    "scroll": [
+      "shots/_proposed/manual-ceros-com-eb44cc__scroll0.webp",
+      "shots/_proposed/manual-ceros-com-eb44cc__scroll1.webp",
+      "shots/_proposed/manual-ceros-com-eb44cc__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ceros.com/ai",
+        "full": "shots/_proposed/manual-ceros-com-eb44cc__p2.webp"
+      },
+      {
+        "url": "https://www.ceros.com/inspire",
+        "full": "shots/_proposed/manual-ceros-com-eb44cc__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "content-creation",
+      "marketing-tech"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often featuring asymmetrical content blocks where text is paired with product UI elements or visual examples."
+    },
+    {
+      "kind": "type",
+      "note": "Very large, bold, sans-serif headings in white against dark backgrounds, contrasted with smaller, lighter body text and distinct uppercase labels for categories or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep charcoal/near-black background (#0a0a0e) provides a high-contrast canvas for vibrant, saturated accent colors (electric blue, magenta, green, yellow) used for CTAs and graphical elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header transforms on scroll, reducing its height and gaining a solid dark background. The hero section's background image collage exhibits a subtle parallax effect, moving slower than the foreground content."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements, such as cards and product UI snippets, animate into view with a subtle fade-up or slide-up motion as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Many sections integrate actual product UI screenshots or interactive content examples directly into the design, showcasing the platform's capabilities rather than just describing them."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically reduces its height and changes its background color from transparent to solid dark upon scrolling past the hero section.",
+    "Create a parallax scrolling effect for the hero background image, where it moves slower than the foreground content, likely using GSAP or CSS transforms.",
+    "Utilize scroll-triggered animations (e.g., using GSAP ScrollTrigger) to reveal content sections and individual elements with a subtle fade-up or slide-up motion as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0e",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#1b00fb",
+        "role": "accent"
+      },
+      {
+        "hex": "#870b46",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8e8e8",
+        "role": "surface"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Source Sans 3",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, sans-serif headings (up to ~4-5x body text size) with generous line height, paired with a clear hierarchy of smaller, lighter body and descriptive text.",
+    "radius": "Subtle rounding (e.g., 4-8px) for buttons, cards, and input fields, maintaining a modern, soft-edged feel.",
+    "spacing": "Balanced to airy, particularly in hero and major section introductions, with content grids and card layouts maintaining a consistent, slightly more dense rhythm."
+  },
+  "standout": "The site's distinctive use of its own product UI and content examples as integral design elements, combined with a bold, high-contrast dark theme featuring vibrant, almost neon, accent colors, creates a dynamic and immersive showcase of its capabilities rather than just describing them.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

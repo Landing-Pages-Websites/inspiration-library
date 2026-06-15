@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-typeform-com-aa22e9",
+  "source": {
+    "url": "https://www.typeform.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-typeform-com-aa22e9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-typeform-com-aa22e9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-typeform-com-aa22e9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-typeform-com-aa22e9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "forms",
+      "automation",
+      "marketing-tech"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background sections with centered content blocks, often utilizing a three-column grid for feature descriptions and value propositions."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy with very large, elegant sans-serif headings for impact, complemented by smaller, often uppercase sans-serif labels for categorization and context."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark theme featuring a deep charcoal/purple background, contrasted with vibrant, often gradient-based, accent colors (blues, purples, oranges) for interactive elements and visual highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal elements reveal with a staggered fade-up and slight slide-up animation as they enter the viewport. The hero section features a subtle parallax effect where the background image scrolls slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Clear visual separation between content blocks is achieved through distinct background color shifts and ample vertical spacing, creating a clean, segmented flow."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations using a library like GSAP ScrollTrigger to detect when elements enter the viewport. Apply a staggered fade-up and subtle slide-up transform to reveal sections and their internal content, creating a dynamic and engaging scroll experience.",
+    "For the hero section, create a sense of depth by having a background image or video element scroll at a slower rate than the foreground text and interactive components, achieving a subtle parallax effect.",
+    "Establish a deep, dark primary background color for the site. Use white for primary text to ensure readability. Introduce a limited, vibrant palette of accent colors, often applied as gradients, for calls-to-action, interactive states, and key visual elements, ensuring high contrast and visual pop against the dark canvas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1221",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#006BFF",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#EF6451",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#635BFF",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#2A2031",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Gt America Web",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant sans-serif headings (~4-5x body) with balanced sans-serif body text and small, often uppercase labels, creating a clear and sophisticated hierarchy.",
+    "radius": "Subtle (e.g., buttons and cards have a soft 8-12px border-radius).",
+    "spacing": "Airy, particularly in the hero and between major sections, providing ample breathing room, while content within sections maintains a balanced density."
+  },
+  "standout": "This site distinguishes itself with a sophisticated dark theme that feels premium and modern, avoiding the typical bright SaaS aesthetic. The combination of elegant, oversized typography, vibrant gradient accents, and subtle scroll-triggered motion creates a highly polished and engaging user experience that feels more editorial than transactional.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

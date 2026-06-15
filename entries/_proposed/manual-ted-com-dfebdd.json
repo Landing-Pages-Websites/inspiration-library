@@ -1,0 +1,122 @@
+{
+  "id": "manual-ted-com-dfebdd",
+  "source": {
+    "url": "https://www.ted.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ted-com-dfebdd.webp",
+    "scroll": [
+      "shots/_proposed/manual-ted-com-dfebdd__scroll0.webp",
+      "shots/_proposed/manual-ted-com-dfebdd__scroll1.webp",
+      "shots/_proposed/manual-ted-com-dfebdd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ted.com/talks",
+        "full": "shots/_proposed/manual-ted-com-dfebdd__p2.webp"
+      },
+      {
+        "url": "https://www.ted.com/about",
+        "full": "shots/_proposed/manual-ted-com-dfebdd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "education",
+      "non-profit"
+    ],
+    "mood": [
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections that alternate between light and dark backgrounds, creating clear visual breaks."
+    },
+    {
+      "kind": "layout",
+      "note": "A responsive grid system is used extensively to display video and article thumbnails, maintaining consistent spacing and alignment across various content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently large, bold, and sans-serif, providing strong visual hierarchy, while metadata and labels often use smaller, uppercase text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant red (#EB0028) is used as a primary accent color for CTAs, active states, and key brand elements, standing out against a largely monochromatic palette of whites, blacks, and greys."
+    },
+    {
+      "kind": "motion",
+      "note": "Both the primary navigation bar and a secondary content category filter bar become sticky at the top of the viewport after initial scroll, providing persistent access to navigation and content filtering."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards appear to fade in or slide up subtly as they enter the viewport, creating a dynamic reveal effect during scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar and a secondary category filter bar transition to a fixed position at the top of the viewport after the user scrolls past their initial placement, ensuring key navigation and content filters remain accessible.",
+    "Content sections and individual cards are revealed using scroll-triggered animations (likely css-keyframes), where elements fade in or slide upwards as they enter the visible area of the browser.",
+    "Horizontal carousels, likely implemented with a library like Swiper, are used for browsing content categories and other collections, allowing users to scroll through many items without consuming excessive vertical space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#EB0028",
+        "role": "accent"
+      },
+      {
+        "hex": "#F6F6F6",
+        "role": "surface"
+      },
+      {
+        "hex": "#767676",
+        "role": "text"
+      },
+      {
+        "hex": "#CFD0CF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, often uppercase, labels for categories and metadata, creating a clear content hierarchy.",
+    "radius": "Subtle (minimal rounding on buttons and cards, mostly sharp edges for content blocks).",
+    "spacing": "Balanced (comfortable padding around content blocks and sections, with content grids being relatively dense to maximize information display)."
+  },
+  "standout": "This site stands out by effectively managing a vast library of content through a highly structured, editorial design. The combination of a sticky main navigation and a secondary sticky category filter bar is particularly effective for discoverability, allowing users to easily browse and filter content on a content-heavy platform without losing context.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

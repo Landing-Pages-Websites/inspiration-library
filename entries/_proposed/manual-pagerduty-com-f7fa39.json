@@ -1,0 +1,118 @@
+{
+  "id": "manual-pagerduty-com-f7fa39",
+  "source": {
+    "url": "https://www.pagerduty.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-pagerduty-com-f7fa39.webp",
+    "scroll": [
+      "shots/_proposed/manual-pagerduty-com-f7fa39__scroll0.webp",
+      "shots/_proposed/manual-pagerduty-com-f7fa39__scroll1.webp",
+      "shots/_proposed/manual-pagerduty-com-f7fa39__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.pagerduty.com/demo",
+        "full": "shots/_proposed/manual-pagerduty-com-f7fa39__p2.webp"
+      },
+      {
+        "url": "https://www.pagerduty.com/drops",
+        "full": "shots/_proposed/manual-pagerduty-com-f7fa39__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "incident-management",
+      "devops"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with a consistent max-width content container, often using dark backgrounds for impact and contrast, alternating with lighter sections."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold sans-serif headings for section titles, paired with smaller, highly legible body text, creating a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme (near-black background, white text) accented by a vibrant, almost neon green for CTAs and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport and dynamically reduces its height while gaining a subtle backdrop shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and their elements reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a dynamic browsing experience."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of detailed, realistic UI screenshots and interactive-looking product illustrations as primary visual elements to explain features and benefits throughout the page."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that dynamically reduces its height and adds a subtle shadow or background blur effect once the user scrolls past the initial hero section.",
+    "Content sections are revealed using scroll-triggered animations, where elements subtly fade and slide upwards into view as they enter the viewport, creating a dynamic browsing experience, likely leveraging css-keyframes.",
+    "The hero and feature sections prominently display complex, high-fidelity product UI screenshots and animated illustrations, often embedded within device mockups or abstract shapes, to visually demonstrate the software's capabilities, potentially using video-hero for the main product demo."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#00c040",
+        "role": "accent"
+      },
+      {
+        "hex": "#f9fafb",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, impactful headings (~3-4x body text) with clear hierarchy, supported by a clean, readable body text.",
+    "radius": "Subtle rounding (~4-8px) on buttons, cards, and input fields.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, creating a sense of openness."
+  },
+  "standout": "The site's distinctive use of highly detailed, interactive-looking product UI screenshots and animated illustrations as the primary visual language, rather than generic stock photos or abstract graphics. This directly showcases the product's functionality and builds immediate credibility.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

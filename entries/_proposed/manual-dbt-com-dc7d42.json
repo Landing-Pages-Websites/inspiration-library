@@ -1,0 +1,105 @@
+{
+  "id": "manual-dbt-com-dc7d42",
+  "source": {
+    "url": "https://www.dbt.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-dbt-com-dc7d42.webp"
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-analytics",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, pairing a large visual (often a code editor UI) with a text block containing a heading, description, and call to action."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant purple-to-blue gradients are used as background fills for key feature sections, contrasting with a bright orange accent for calls to action and hero graphics."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles often use a smaller, uppercase sans-serif font to introduce the main heading, which is significantly larger and bolder."
+    },
+    {
+      "kind": "motion",
+      "note": "Key content sections and cards reveal with a subtle fade-up or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating background colors and gradients (white, light grey, purple gradient, dark blue gradient) are used to clearly delineate distinct content sections down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a dynamic visual element (an abstract wave and code editor UI) that exhibits a subtle parallax effect, moving at a different rate than the foreground content as the user scrolls.",
+    "Content sections are introduced using scroll-triggered animations, where elements fade and slide into view from the bottom as they become visible in the viewport, likely using CSS keyframes for smooth transitions.",
+    "The primary navigation bar remains fixed at the top of the viewport, maintaining accessibility to site links throughout the user's scroll journey."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FE6703",
+        "role": "accent"
+      },
+      {
+        "hex": "#430068",
+        "role": "gradient-dark"
+      },
+      {
+        "hex": "#936DFF",
+        "role": "gradient-light"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#000033",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~4-5x body) with smaller, often uppercase, sans-serif labels for section introductions.",
+    "radius": "Subtle rounded corners on buttons, cards, and interactive elements, creating a soft, modern feel.",
+    "spacing": "Balanced density overall, with an airy hero section and consistent vertical rhythm between content blocks."
+  },
+  "standout": "The site's distinctive use of code editor UIs as central visual elements within feature sections, combined with vibrant, deep purple and blue gradients, immediately communicates a sophisticated, developer-centric, and data-focused identity. The dynamic orange wave in the hero adds a unique visual energy.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

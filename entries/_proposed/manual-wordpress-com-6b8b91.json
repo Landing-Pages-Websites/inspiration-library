@@ -1,0 +1,129 @@
+{
+  "id": "manual-wordpress-com-6b8b91",
+  "source": {
+    "url": "https://www.wordpress.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-wordpress-com-6b8b91.webp",
+    "scroll": [
+      "shots/_proposed/manual-wordpress-com-6b8b91__scroll0.webp",
+      "shots/_proposed/manual-wordpress-com-6b8b91__scroll1.webp",
+      "shots/_proposed/manual-wordpress-com-6b8b91__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://wordpress.com/",
+        "full": "shots/_proposed/manual-wordpress-com-6b8b91__p2.webp"
+      },
+      {
+        "url": "https://wordpress.com/ai",
+        "full": "shots/_proposed/manual-wordpress-com-6b8b91__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-hosting",
+      "website-builder"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are frequently separated by a subtle, organic wave-like divider, transitioning between solid background colors."
+    },
+    {
+      "kind": "layout",
+      "note": "The hero section features a large, full-width blue background with a subtle grid pattern, containing text, CTA, and layered device mockups."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings use a large, bold serif font for impact, while body text and subheadings utilize a clean, highly legible sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, deep blue serves as the primary brand color, used for the hero background and call-to-action buttons, contrasting with clean white and dark grey content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section dynamically collapses in height as the user scrolls down, revealing the next content section while the navigation remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "A prominent 'Drag, drop, set it apart' section showcases a diverse, scrollable grid of website design examples, emphasizing visual variety and ease of use."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a scroll-triggered animation (likely css-keyframes) to reduce its vertical height and scale its internal elements, creating a dynamic transition as the user scrolls down the page.",
+    "A sticky navigation bar is implemented, maintaining its position at the top of the viewport without changing its background or height, providing persistent access to navigation links.",
+    "Subtle parallax is applied to background elements within the hero section, making them scroll at a slightly different rate than foreground content, adding depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3858e9",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1d1d",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#cf2e2e",
+        "role": "illustration-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Recoleta",
+        "role": "heading"
+      },
+      {
+        "family": "Google Sans",
+        "role": "body"
+      },
+      {
+        "family": "Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful serif headings (~3-4x body) are paired with clean, readable sans-serif body text, with smaller sans-serif labels and uppercase navigation.",
+    "radius": "Subtle rounding on buttons and card corners (e.g., 4-8px), with some elements like the 'Get started' button having slightly more rounded corners. Images within mockups are often sharp.",
+    "spacing": "Balanced to airy. The hero section is very airy, while feature grids maintain a balanced, consistent spacing between cards. Vertical rhythm is consistent with generous padding between main sections."
+  },
+  "standout": "The site distinguishes itself with its dynamic, collapsing hero section that smoothly transitions as the user scrolls, combined with unique wave-like section dividers. This creates a fluid and engaging visual experience that feels more interactive and less static than a generic marketing template.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

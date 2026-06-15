@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-read-ai-e36903",
+  "source": {
+    "url": "https://www.read.ai",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-read-ai-e36903.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-read-ai-e36903__scroll0.webp",
+      "shots/_proposed/one-page-love-read-ai-e36903__scroll1.webp",
+      "shots/_proposed/one-page-love-read-ai-e36903__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "productivity-tool"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with varying background colors (white, light gray, dark gray, gradient) are used to delineate content blocks, often featuring centered content or a split layout with text on one side and an image/video on the other."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with oversized, bold sans-serif headings for primary messages, supported by smaller, legible sans-serif body text and occasional uppercase labels for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A deep purple (#4C47CC) serves as the primary accent color, used for calls-to-action, key headings, and a prominent gradient banner, contrasting effectively with a clean white background and dark text."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a top informational banner disappears, and the main navigation bar transforms by shrinking slightly, gaining a solid white background with a subtle shadow, and becoming sticky at the top of the viewport. Subsequent content sections appear to slide or fade into view from the bottom as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented using a grid of icon cards, each with a concise title and description, providing a scannable overview of product capabilities."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its appearance (background, height) upon scroll, transitioning from transparent to a solid white with a shadow. Sections are revealed using scroll-triggered animations, likely a staggered fade-up or slide-in effect, as they enter the user's viewport. A hero video plays in the background, with text and CTA overlays scrolling normally over it, creating a subtle parallax-like effect for the video content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#4C47CC",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A2E3B",
+        "role": "text"
+      },
+      {
+        "hex": "#6A5ACD",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, with clear hierarchy down to legible body text.",
+    "radius": "Subtle rounded corners on buttons, input fields, and some card elements, contributing to a soft, modern feel.",
+    "spacing": "Balanced density overall, with an airy hero section and balanced spacing in feature grids, ensuring readability and visual comfort."
+  },
+  "standout": "The site's standout feature is its bold, yet clean, presentation of a complex AI product. The prominent video hero immediately conveys the product's purpose, while the consistent use of a vibrant purple accent color and large, confident typography creates a distinctive and authoritative brand presence.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

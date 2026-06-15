@@ -1,0 +1,127 @@
+{
+  "id": "lapa-ninja-together-ai-b30a77",
+  "source": {
+    "url": "https://www.together.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-together-ai-b30a77.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-together-ai-b30a77__scroll0.webp",
+      "shots/_proposed/lapa-ninja-together-ai-b30a77__scroll1.webp",
+      "shots/_proposed/lapa-ninja-together-ai-b30a77__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "cloud-computing"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with prominent, large-scale 3D abstract graphics on one side balancing text content and calls-to-action on the other."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed background illustrations, particularly in the footer and as a persistent element from the hero, create a sense of depth and visual continuity."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold sans-serif headings for impact, paired with smaller, readable sans-serif body text and distinct uppercase labels for categories or features."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light background (white to subtle off-white) is contrasted with a deep dark blue/black for primary text and accented by a vibrant, multi-color palette (orange, pink, purple, light blue) used in graphics and subtle UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero's abstract 3D graphic dynamically transforms on scroll, scaling down and transitioning into a blurred, semi-transparent background element that persists as the user scrolls further down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar shrinks in height and gains a subtle backdrop as the user scrolls past the initial hero section, becoming a sticky header."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use a grid of distinct, subtly colored cards or boxes to highlight different aspects of the platform, each with a concise title and icon/label."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, use a JavaScript animation library like GSAP with ScrollTrigger or Locomotive Scroll to orchestrate scroll-linked animations. Implement a sticky header that reduces in height and changes its background/shadow properties when the scroll position passes a certain threshold. Create a parallax effect for the hero's 3D graphic, where it scales, translates, and blurs as the user scrolls, eventually becoming a fixed background element. Utilize scroll-triggered reveals (e.g., fade-up, slide-in) for subsequent content sections as they enter the viewport.",
+    "Achieve the distinctive visual style by integrating large, abstract 3D rendered graphics as hero elements and persistent background textures. These graphics should feature translucent, gradient-like materials and dynamic shapes, providing a modern and ethereal aesthetic.",
+    "Implement a clean, spacious layout with generous vertical padding between sections and centered content. Use a consistent card-based design for feature highlights and news items, employing subtle corner radii and light background fills to differentiate them."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1D2E40",
+        "role": "text"
+      },
+      {
+        "hex": "#F6FAFD",
+        "role": "surface"
+      },
+      {
+        "hex": "#FC4C02",
+        "role": "accent"
+      },
+      {
+        "hex": "#EF2CC1",
+        "role": "accent"
+      },
+      {
+        "hex": "#CAAEE5",
+        "role": "accent"
+      },
+      {
+        "hex": "#E5F3FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "PP Neue Montreal Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, readable body text and small, uppercase sans-serif labels for categories.",
+    "radius": "subtle (buttons, cards, input fields)",
+    "spacing": "airy, with generous vertical spacing between sections and within the hero, creating a sense of openness and clarity."
+  },
+  "standout": "The distinctive use of large, abstract 3D rendered graphics that serve as both hero focal points and dynamic background elements, transforming and persisting across scroll depths. This creates a unique, modern, and almost ethereal visual identity that elevates the site beyond a generic tech template.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

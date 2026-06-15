@@ -1,0 +1,120 @@
+{
+  "id": "one-page-love-langchain-com-4829e3",
+  "source": {
+    "url": "https://www.langchain.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-langchain-com-4829e3.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-langchain-com-4829e3__scroll0.webp",
+      "shots/_proposed/one-page-love-langchain-com-4829e3__scroll1.webp",
+      "shots/_proposed/one-page-love-langchain-com-4829e3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools",
+      "machine-learning"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed layout with content centered on a wide canvas, using full-bleed sections for background elements and subtle visual separators."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, light-blue sans-serif headings contrast with white body text, often accompanied by smaller, uppercase labels for section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark blue/black background (#030710) is consistently paired with vibrant light blue (#9ed2fa, #7fc8ff) for headings, links, and accents, creating a glowing, high-tech aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in animation as they enter the viewport during scroll, enhancing content discovery."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, semi-transparent brand logo (LangChain) is used as a background element in the footer, slowly revealing as the user scrolls to the bottom of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair textual descriptions with detailed, dashboard-like graphical representations of the product's UI, providing concrete visual context."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation bar that transforms its background from transparent to solid dark blue and gains a subtle shadow after the user scrolls past the initial hero section.",
+    "Content sections are revealed using scroll-triggered animations, likely leveraging GSAP ScrollTrigger, where elements fade in and slide up from the bottom as they become visible in the viewport.",
+    "Intricate, abstract line graphics and dotted patterns are used as background elements, providing visual depth and a high-tech feel without distracting from the primary content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#030710",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#9ed2fa",
+        "role": "heading-accent"
+      },
+      {
+        "hex": "#7fc8ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#006ddd",
+        "role": "cta"
+      },
+      {
+        "hex": "#25486c",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, clean sans-serif headings (~3-4x body text) with a modern character, complemented by highly readable body text and smaller, uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, input fields, and cards, maintaining a clean yet approachable feel.",
+    "spacing": "Balanced spacing overall, with a more airy feel in the hero section and between major content blocks, transitioning to a denser, information-rich layout within feature grids."
+  },
+  "standout": "The site's standout design is its sophisticated dark theme, which masterfully uses glowing blue accents and intricate, abstract background graphics to create a high-tech, almost futuristic atmosphere. The integration of detailed, dashboard-like visuals directly into the feature descriptions is particularly distinctive, effectively communicating the product's technical capabilities and data-driven nature.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

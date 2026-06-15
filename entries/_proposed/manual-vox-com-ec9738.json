@@ -1,0 +1,113 @@
+{
+  "id": "manual-vox-com-ec9738",
+  "source": {
+    "url": "https://www.vox.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-vox-com-ec9738.webp",
+    "scroll": [
+      "shots/_proposed/manual-vox-com-ec9738__scroll0.webp",
+      "shots/_proposed/manual-vox-com-ec9738__scroll1.webp",
+      "shots/_proposed/manual-vox-com-ec9738__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.vox.com/advice",
+        "full": "shots/_proposed/manual-vox-com-ec9738__p2.webp"
+      },
+      {
+        "url": "https://www.vox.com/culture",
+        "full": "shots/_proposed/manual-vox-com-ec9738__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "news",
+      "journalism",
+      "media"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized in a flexible grid, adapting from single-column for hero/featured articles to multi-column (two or three) for article listings, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a bold, uppercase sans-serif font for all section titles (e.g., 'EXPLAINERS', 'POLITICS'), creating strong visual breaks and a consistent editorial tone."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme dominated by a vibrant yellow, black, and white, with yellow consistently used for the full-width header and footer backgrounds, acting as a strong brand identifier."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms upon scroll: the initial tall yellow bar with a large 'Vox' logo and centered navigation shrinks into a compact sticky bar at the top, with a smaller logo and navigation elements repositioned to the right, along with new 'SIGN IN' and 'BECOME A MEMBER' links."
+    },
+    {
+      "kind": "section",
+      "note": "A distinctive 'Start Here' section uses a numbered list format to highlight key introductory articles, guiding users through essential content in a structured manner."
+    }
+  ],
+  "technique_notes": [
+    "The header implements a scroll-triggered transformation: initially a tall, full-width yellow bar with a large, centered logo and main navigation below it, it transitions into a compact, sticky yellow bar at the top of the viewport. During this transition, the logo shrinks and moves to the top-left, while the main navigation items reposition to its right, and additional utility links appear on the far right.",
+    "The hero section features an auto-playing video background that provides dynamic visual interest, with article headlines and text overlaid for readability.",
+    "Content sections are clearly delineated by bold, uppercase headings and utilize a flexible grid system that adapts to display articles in one, two, or three columns, often accompanied by prominent images or video thumbnails."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff200",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#8e8e8e",
+        "role": "surface"
+      },
+      {
+        "hex": "#020202",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2.5x body) with smaller, uppercase labels for categories and very readable body text.",
+    "radius": "sharp",
+    "spacing": "balanced, with clear vertical rhythm between sections and articles, and generous padding in the header and footer."
+  },
+  "standout": "The bold and consistent use of a vibrant, almost neon yellow as a primary brand color, especially in the full-width header and footer, immediately distinguishes the site. This, combined with the large, custom 'Vox' wordmark and the transforming sticky header, creates a strong, recognizable brand presence that feels both modern and authoritative.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

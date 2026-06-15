@@ -1,0 +1,121 @@
+{
+  "id": "manual-heights-app-42aba1",
+  "source": {
+    "url": "https://www.heights.app",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-heights-app-42aba1.webp",
+    "scroll": [
+      "shots/_proposed/manual-heights-app-42aba1__scroll0.webp",
+      "shots/_proposed/manual-heights-app-42aba1__scroll1.webp",
+      "shots/_proposed/manual-heights-app-42aba1__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "health-tech",
+      "wellness"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric section layouts with large blocks of whitespace and content often aligned to one side, creating visual interest and clear hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold sans-serif headings are used for section titles and key statements, contrasting with a more standard-sized, readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of vibrant, solid accent colors (lime green, bright red, orange) as background fills or graphic elements to highlight specific sections or calls to action, breaking up an otherwise neutral palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video section scrolls upwards, revealing the subsequent content sections below it."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections dynamically reveal themselves with a subtle fade-in and upward slide as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky at the top of the page after the initial scroll, remaining visible throughout the user's journey."
+    },
+    {
+      "kind": "section",
+      "note": "Accordion-style content blocks are used to present detailed information in a concise, expandable format, particularly for 'the process is simple' and 'the Heights difference' sections."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero is used as the primary visual, playing on loop with text overlaid and a subtle dark gradient for contrast, creating an immersive and dynamic introduction.",
+    "Scroll-triggered animations are employed to reveal content sections, making them fade in and translate slightly upwards as they become visible within the viewport.",
+    "The primary navigation bar is implemented to stick to the top of the browser window once the user scrolls past the initial hero, ensuring persistent access to site links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F7F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#CCFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF3300",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF9900",
+        "role": "accent"
+      },
+      {
+        "hex": "#2F4F4F",
+        "role": "hero-overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong visual hierarchy, complemented by a clear, readable body text.",
+    "radius": "Sharp corners are consistently applied to all elements, including buttons, image frames, and section backgrounds.",
+    "spacing": "Airy and generous vertical spacing between major sections, with balanced internal padding within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The site distinguishes itself with a bold and unexpected color palette, using vibrant lime green, bright red, and orange as strong accent colors against a minimalist white and off-white backdrop. This, combined with the large, impactful typography and a dynamic video hero, creates a fresh, energetic, and modern aesthetic that avoids generic corporate design.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

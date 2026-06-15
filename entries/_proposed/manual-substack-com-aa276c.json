@@ -1,0 +1,123 @@
+{
+  "id": "manual-substack-com-aa276c",
+  "source": {
+    "url": "https://www.substack.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-substack-com-aa276c.webp",
+    "scroll": [
+      "shots/_proposed/manual-substack-com-aa276c__scroll0.webp",
+      "shots/_proposed/manual-substack-com-aa276c__scroll1.webp",
+      "shots/_proposed/manual-substack-com-aa276c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://substack.com/@cb",
+        "full": "shots/_proposed/manual-substack-com-aa276c__p2.webp"
+      },
+      {
+        "url": "https://substack.com/explore",
+        "full": "shots/_proposed/manual-substack-com-aa276c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "publishing",
+      "content-creation",
+      "platform"
+    ],
+    "mood": [
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A multi-column layout features a central scrolling content feed flanked by a sticky left navigation sidebar and a sticky right utility/login panel, with the presence of these sidebars adapting to the specific page context."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a classic serif font for prominent headings and a clean sans-serif for body text and UI elements, ensuring readability and a professional tone across all content."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange and a deep green are consistently used as primary accent colors for calls to action and promotional banners, providing strong visual contrast against a largely monochromatic background and text palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Key navigation and utility elements, specifically the left sidebar and the right login/signup panel, remain fixed at the top of the viewport as the main content scrolls, providing persistent access."
+    },
+    {
+      "kind": "section",
+      "note": "Promotional cards with distinct background colors and clear calls to action are strategically interspersed within the continuous content feed, breaking up the flow and guiding users towards platform features."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a multi-column layout where the central content area scrolls independently, while the left navigation and right utility panels are fixed to the viewport. These sidebars are conditionally rendered or styled based on the specific page context.",
+    "Calls to action and key informational banners are highlighted using a strong accent color (orange) and a complementary brand color (green) against a neutral background, drawing immediate attention.",
+    "The site utilizes a sticky positioning strategy for its primary left navigation and right utility/login panels, ensuring they remain visible and accessible at the top of the viewport as the main content area scrolls. The visibility and specific content of these sticky sidebars are dynamically controlled based on the current page context; no other complex scroll-triggered animations were detected."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#363737",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#757575",
+        "role": "text-tertiary"
+      },
+      {
+        "hex": "#ff6719",
+        "role": "cta"
+      },
+      {
+        "hex": "#2d6e50",
+        "role": "accent"
+      },
+      {
+        "hex": "#b6b6b6",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Spectral",
+        "role": "heading"
+      },
+      {
+        "family": "Cahuenga",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings use a distinct serif font, significantly larger and bolder than the clean sans-serif body text, establishing a clear and readable content hierarchy.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, input fields, and content cards, softening the overall aesthetic.",
+    "spacing": "Balanced spacing provides good readability within content blocks, while the overall feed presents a moderately dense information display."
+  },
+  "standout": "The site's distinctive design lies in its seamless integration of a dynamic content feed with strategically placed promotional cards, all within a flexible multi-column layout. The way the sticky sidebars adapt their presence based on the page context, while maintaining core navigation and utility, creates a highly functional and personalized user experience.",
+  "animation_tech": [],
+  "status": "proposed"
+}

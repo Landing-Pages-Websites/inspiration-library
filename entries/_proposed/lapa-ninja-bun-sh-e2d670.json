@@ -1,0 +1,125 @@
+{
+  "id": "lapa-ninja-bun-sh-e2d670",
+  "source": {
+    "url": "https://www.bun.sh",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-bun-sh-e2d670.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-bun-sh-e2d670__scroll0.webp",
+      "shots/_proposed/lapa-ninja-bun-sh-e2d670__scroll1.webp",
+      "shots/_proposed/lapa-ninja-bun-sh-e2d670__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dark-themed, full-width sections with content constrained to a central max-width container, creating a focused reading experience."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a monospaced font for code examples and technical details, contrasting with a modern sans-serif for headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A 'Dracula' theme-inspired color palette with a deep dark background and vibrant, high-contrast accent colors (pink, green, yellow, purple) used for syntax highlighting and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transitions from a transparent overlay on the hero to a sticky, opaque bar with a solid background upon scrolling down."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and their internal elements are revealed with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A dedicated testimonial section features a horizontally scrolling carousel of tweet cards, allowing users to browse developer feedback."
+    },
+    {
+      "kind": "section",
+      "note": "Several sections are designed to mimic code editor interfaces, showcasing code snippets, performance comparisons, and technical details with syntax highlighting."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-width, auto-playing video as its background, overlaid with primary text content and calls to action.",
+    "The main navigation bar employs a sticky effect, starting as transparent over the hero and then adopting a solid dark background and fixed position at the top of the viewport after the user scrolls past the initial hero section.",
+    "Content sections and their internal components are introduced with scroll-triggered reveal animations, where elements fade in and subtly slide up from the bottom as they become visible. This effect is likely achieved using CSS keyframes combined with JavaScript for scroll detection."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#282a36",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f8f2",
+        "role": "text"
+      },
+      {
+        "hex": "#ff79c6",
+        "role": "accent"
+      },
+      {
+        "hex": "#50fa7b",
+        "role": "accent"
+      },
+      {
+        "hex": "#f1fa8c",
+        "role": "accent"
+      },
+      {
+        "hex": "#bd93f9",
+        "role": "accent"
+      },
+      {
+        "hex": "#6272a4",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "SFMono-Regular",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold, often uppercase headings (up to ~4x body) paired with clear, readable body text and distinct monospaced code blocks for technical content.",
+    "radius": "Subtle rounded corners (small radius) on buttons, cards, and code blocks, maintaining a clean but not sharp aesthetic.",
+    "spacing": "Balanced density overall, with airy hero and section intros, transitioning to denser, information-rich code and comparison blocks."
+  },
+  "standout": "The site's distinctive 'Dracula' theme aesthetic, combining a deep dark background with vibrant, syntax-highlighting-like accent colors, is consistently applied, especially within the integrated code editor-style UI elements and the horizontally scrolling developer testimonials. This creates a strong, developer-centric, and almost 'hacker' feel that sets it apart.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

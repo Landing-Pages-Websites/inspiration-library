@@ -1,0 +1,112 @@
+{
+  "id": "manual-siteinspire-com-beff23",
+  "source": {
+    "url": "https://www.siteinspire.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-siteinspire-com-beff23.webp",
+    "scroll": [
+      "shots/_proposed/manual-siteinspire-com-beff23__scroll0.webp",
+      "shots/_proposed/manual-siteinspire-com-beff23__scroll1.webp",
+      "shots/_proposed/manual-siteinspire-com-beff23__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.siteinspire.com/websites",
+        "full": "shots/_proposed/manual-siteinspire-com-beff23__p2.webp"
+      },
+      {
+        "url": "https://www.siteinspire.com/website/13455-cenee",
+        "full": "shots/_proposed/manual-siteinspire-com-beff23__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "inspiration",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, while a secondary category filter bar scrolls up and then also becomes sticky directly below the primary navigation."
+    },
+    {
+      "kind": "layout",
+      "note": "A prominent, full-width carousel occupies the initial hero section, showcasing featured website examples with subtle dot and arrow navigation."
+    },
+    {
+      "kind": "layout",
+      "note": "The main content area is structured as a dense, multi-column grid of website thumbnail cards, each displaying a small image, title, and metadata."
+    },
+    {
+      "kind": "type",
+      "note": "Small, uppercase sans-serif text is consistently used for category labels, metadata, and filter options, providing clear hierarchical distinction."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast color scheme relies on an off-white background and dark gray text, punctuated by a single bright red accent for interactive elements and branding."
+    },
+    {
+      "kind": "section",
+      "note": "Interior pages feature a large hero image of the showcased website, followed by a 'Similar Websites' section that reuses the main content grid layout."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a two-tiered sticky header system: a primary navigation bar is always fixed at the top, and a secondary filter bar scrolls into view and then locks below the primary header, providing persistent access to content filtering.",
+    "Website examples are presented within a responsive grid layout, where each item is a card containing a screenshot thumbnail, title, and descriptive text, designed for easy scanning and navigation.",
+    "The initial viewport features a large, interactive carousel that cycles through featured design examples, using subtle visual cues for navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fafafa",
+        "role": "background"
+      },
+      {
+        "hex": "#18181b",
+        "role": "text"
+      },
+      {
+        "hex": "#71717a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ef4444",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Headings are clear and distinct, but not overly large, maintaining a balanced relationship with the body text. Labels are consistently small and uppercase.",
+    "radius": "Subtle rounding on cards and buttons, giving a soft but not overly playful feel.",
+    "spacing": "Balanced density in the main content grid, with more airy spacing in the hero and footer sections."
+  },
+  "standout": "The site's distinctive feature is its highly organized and visually rich showcase of web design examples, presented through a clean, minimalist interface. The dual-sticky header system, combining main navigation with a persistent category filter, provides an efficient browsing experience for a large volume of content.",
+  "animation_tech": [],
+  "status": "proposed"
+}

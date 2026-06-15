@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-headspace-com-c78283",
+  "source": {
+    "url": "https://www.headspace.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-headspace-com-c78283.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-headspace-com-c78283__scroll0.webp",
+      "shots/_proposed/lapa-ninja-headspace-com-c78283__scroll1.webp",
+      "shots/_proposed/lapa-ninja-headspace-com-c78283__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-wellness",
+      "meditation-app",
+      "saas"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently alternate between full-width layouts and structured two-column or card-grid arrangements, often with distinct background colors for visual separation."
+    },
+    {
+      "kind": "type",
+      "note": "A single friendly, rounded sans-serif font is used consistently across all text, establishing a clear typographic hierarchy with large, inviting headings and legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A core neutral palette of white and light beige is consistently punctuated by vibrant, optimistic accent colors (yellow, blue, orange, green) used for illustrations, calls to action, and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward translation as they enter the viewport, creating a smooth, guided scrolling experience. A sticky header remains visible at the top, and a promotional banner appears on initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Key features and testimonials are presented within distinct, rounded-corner cards, often arranged in grids, making information digestible and visually appealing."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that remains fixed at the top of the viewport, ensuring primary navigation is always accessible. Additionally, a promotional banner should appear from the top on scroll and stick.",
+    "Utilize scroll-triggered animations, likely leveraging a library like GSAP or an Intersection Observer API, to reveal content sections with a subtle fade-in and a slight upward slide effect as they become visible in the viewport.",
+    "Integrate Lottie animations for decorative and illustrative elements throughout the page. These animations should play as their respective sections enter the viewport or on page load, adding a dynamic and playful character to the design."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f9f4f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#2d2c2b",
+        "role": "text"
+      },
+      {
+        "hex": "#0061ef",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffce00",
+        "role": "accent"
+      },
+      {
+        "hex": "#10b",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Apercu",
+        "role": "heading"
+      },
+      {
+        "family": "Apercu",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, friendly sans-serif headings (~3-4x body) with clear hierarchy, supported by legible body text and smaller, often uppercase, labels.",
+    "radius": "Rounded corners on all interactive elements, content cards, and image containers, creating a soft and approachable aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical spacing between sections and within content blocks, contributing to readability and a clean aesthetic."
+  },
+  "standout": "The site's distinctive use of cheerful, simple, and often animated (Lottie) illustrations, combined with a vibrant, optimistic color palette, creates a uniquely friendly and approachable feel for a mental wellness platform, avoiding clinical or overly serious tones. If a builder copied only one idea from this site, it should be the integration of playful, branded Lottie animations to convey a lighthearted and supportive mood.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

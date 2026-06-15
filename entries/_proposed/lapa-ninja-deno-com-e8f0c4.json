@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-deno-com-e8f0c4",
+  "source": {
+    "url": "https://www.deno.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-deno-com-e8f0c4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-deno-com-e8f0c4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-deno-com-e8f0c4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-deno-com-e8f0c4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "development",
+      "open-source"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are presented in a clean, single-column layout with generous vertical padding, often alternating between white and light blue/grey backgrounds to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, creating strong visual hierarchy, complemented by a legible sans-serif for body text and a distinct monospaced font for code examples."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and light grey is accented by a vibrant, almost neon green for primary calls-to-action and key highlights, with a soft blue used for links and illustrative elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport during scrolling. The top announcement banner disappears after initial scroll, while the main navigation remains sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Code examples are integrated directly into feature sections, presented in distinct, dark-themed blocks with syntax highlighting, often accompanied by descriptive text and interactive elements."
+    }
+  ],
+  "technique_notes": [
+    "Uses scroll-triggered animations (likely GSAP ScrollTrigger or CSS keyframes) to progressively reveal content sections with a gentle fade-up or slide-in effect as the user scrolls down the page. The top announcement bar is designed to hide after a short scroll distance, while the main navigation bar is fixed to the top of the viewport.",
+    "Visual content is structured with ample whitespace, using full-width sections that alternate background colors (white, light blue, dark grey) to create clear visual breaks. Call-to-action buttons are designed with a high-contrast green fill against both light and dark backgrounds to ensure prominence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#3ecc5f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ecf3fd",
+        "role": "surface"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#76b3e1",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) provide strong hierarchy, paired with a clean, readable sans-serif body text and a distinct monospaced font for code snippets.",
+    "radius": "Subtle. Buttons and interactive elements feature a slight corner radius (e.g., 4-8px), maintaining a modern but not overly soft aesthetic.",
+    "spacing": "Airy. Generous vertical and horizontal padding creates a spacious, uncluttered layout, particularly noticeable between sections and around content blocks."
+  },
+  "standout": "The site's distinctive use of custom, friendly illustrations (like the Deno dinosaur) alongside a highly technical product description creates an approachable yet authoritative feel. The seamless integration of interactive code examples within a clean, spacious layout makes complex information digestible and engaging.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

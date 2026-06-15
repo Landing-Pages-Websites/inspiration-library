@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-kit-com-acb800",
+  "source": {
+    "url": "https://www.kit.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-kit-com-acb800.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-kit-com-acb800__scroll0.webp",
+      "shots/_proposed/lapa-ninja-kit-com-acb800__scroll1.webp",
+      "shots/_proposed/lapa-ninja-kit-com-acb800__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing",
+      "creator-economy"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a prominent, engaging image on one side and a clear value proposition and call-to-action on the other, balanced by a 'Trusted by' social proof carousel."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections are used to visually segment content blocks and create clear transitions down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is frequently presented in card-based layouts, often arranged in multi-column grids for features, testimonials, and integrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport and compacts slightly in height after the initial scroll, becoming more streamlined."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, consistent blue is used for all primary call-to-action buttons and interactive elements, providing a clear visual cue for user action."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header bar is implemented at the top of the viewport, which dynamically reduces its vertical padding or height after a user scrolls past the initial hero section, creating a more compact navigation experience without losing functionality.",
+    "Content sections are presented in a linear scroll, with no complex scroll-triggered reveal animations for entire sections; elements simply scroll into view as the user progresses down the page.",
+    "The hero section utilizes a two-column layout to balance a large, engaging image with a concise value proposition and a primary call-to-action, reinforced by a horizontally scrolling social proof element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0059a7",
+        "role": "cta"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#e6f7ed",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (~3-4x body size) establish a strong visual hierarchy, complemented by smaller, lighter body text and uppercase labels for categories.",
+    "radius": "Subtle rounded corners (~4-8px) are applied consistently to buttons, input fields, and card elements, softening the overall aesthetic.",
+    "spacing": "Balanced density; the hero section is airy with generous vertical padding, while feature grids and the footer are more dense, maintaining a clear visual rhythm."
+  },
+  "standout": "The site effectively combines a clean, modern aesthetic with a strong emphasis on social proof and clear, data-driven benefits. The asymmetrical hero with the 'Trusted by' carousel and the direct, benefit-oriented headlines create an immediate sense of authority and value, making the site feel both professional and approachable.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

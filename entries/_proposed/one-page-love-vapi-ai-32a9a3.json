@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-vapi-ai-32a9a3",
+  "source": {
+    "url": "https://www.vapi.ai",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-vapi-ai-32a9a3.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-vapi-ai-32a9a3__scroll0.webp",
+      "shots/_proposed/one-page-love-vapi-ai-32a9a3__scroll1.webp",
+      "shots/_proposed/one-page-love-vapi-ai-32a9a3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "voice-ai",
+      "enterprise-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central column, often alternating between dark and light backgrounds to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, sans-serif headings with a strong weight contrast against lighter, smaller body text, creating a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black and off-white, punctuated by a vibrant, almost neon, green accent used for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar transforms from transparent to opaque white with dark text upon scroll, paired with a subtle parallax effect on the hero video background."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a large heading with a grid of descriptive text blocks or visual examples, such as dashboard screenshots, to illustrate capabilities."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-bleed video background in the hero section, which scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect. This is likely achieved using the detected video-hero tech.",
+    "A top navigation bar transitions from a transparent overlay to a solid white background with dark text and a subtle shadow as the user scrolls past the hero section, remaining sticky at the top of the viewport.",
+    "Content sections are revealed using a combination of fade-in and subtle slide-up animations as they enter the viewport, enhancing engagement. This could be managed by a scroll-triggered animation library."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e0e13",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f3f2ee",
+        "role": "background"
+      },
+      {
+        "hex": "#2a2a2a",
+        "role": "text"
+      },
+      {
+        "hex": "#00e600",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (hero ~3-4x body) with a clear hierarchy, complemented by a clean, readable body text.",
+    "radius": "Subtle rounding on buttons and interactive elements, otherwise sharp corners for most structural components.",
+    "spacing": "Balanced and airy, particularly in the hero and main section breaks, providing ample whitespace around content blocks."
+  },
+  "standout": "The site's standout feature is its sophisticated integration of dynamic visual elements, particularly the full-bleed video hero with a subtle parallax scroll and the 'API-first by design' section which visually represents complex data and code interfaces. This creates a highly polished and authoritative feel, effectively communicating advanced technology in an accessible way.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

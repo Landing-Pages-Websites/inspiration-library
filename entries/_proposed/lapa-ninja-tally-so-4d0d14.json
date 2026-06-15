@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-tally-so-4d0d14",
+  "source": {
+    "url": "https://www.tally.so",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tally-so-4d0d14.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tally-so-4d0d14__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tally-so-4d0d14__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tally-so-4d0d14__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "form-builder",
+      "productivity-tools"
+    ],
+    "mood": [
+      "minimal",
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Centered content sections with generous vertical spacing, often featuring a full-width hero and alternating background colors for visual segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy using a single sans-serif font (Inter) with large, bold headings for emphasis and smaller, readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette dominated by white and dark grey, accented by a vibrant blue for CTAs and a playful pink/purple for decorative elements."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered content reveals or parallax effects are observable in the provided scroll sequence; the page content scrolls statically."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct content blocks are visually separated by ample vertical whitespace and subtle background color shifts (white to light grey), often incorporating embedded UI mockups or illustrative elements."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the visual style, combine clean, functional UI components (like form inputs and cards) with whimsical, hand-drawn \"scribble\" illustrations that appear to be integrated directly into the page layout.",
+    "The site's motion system relies on static scrolling for content sections. Any animations, such as for the decorative scribbles, are likely subtle CSS keyframe animations triggered on page load or as looping effects, rather than scroll-triggered reveals.",
+    "Content is presented within a fixed-width container, centered on the page, with generous vertical padding between sections to create an airy feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#37352f",
+        "role": "text"
+      },
+      {
+        "hex": "#007aff",
+        "role": "cta"
+      },
+      {
+        "hex": "#f81ce5",
+        "role": "accent"
+      },
+      {
+        "hex": "#20c933",
+        "role": "success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body size) create strong visual anchors, supported by clear subheadings and readable body text, all within a consistent sans-serif family.",
+    "radius": "Subtle (e.g., buttons, input fields, and card corners have a small, consistent border-radius).",
+    "spacing": "Airy, with significant vertical spacing between major content sections and within the hero, creating a sense of openness and clarity."
+  },
+  "standout": "The site distinctively blends a clean, modern SaaS interface aesthetic with playful, hand-drawn \"scribble\" illustrations, creating an approachable and friendly brand personality that softens the technical nature of a form builder. The direct embedding of interactive form examples within the page content is also a powerful way to demonstrate the product.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "manual-axiom-co-72c7d6",
+  "source": {
+    "url": "https://www.axiom.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-axiom-co-72c7d6.webp",
+    "scroll": [
+      "shots/_proposed/manual-axiom-co-72c7d6__scroll0.webp",
+      "shots/_proposed/manual-axiom-co-72c7d6__scroll1.webp",
+      "shots/_proposed/manual-axiom-co-72c7d6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://axiom.co/demo",
+        "full": "shots/_proposed/manual-axiom-co-72c7d6__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-analytics",
+      "developer-tools",
+      "observability"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dark-themed full-width sections with content constrained to a central max-width container, creating a focused and modern aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a modern sans-serif for headings and body text, complemented by a monospace font for code-like elements and data displays."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast dark background with light text, punctuated by a vibrant orange for primary calls to action and subtle accents within data visualizations."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered section reveals, where content blocks subtly fade and slide into view as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Embedded animated terminal UIs and data visualizations that play automatically when their section enters the viewport, providing dynamic product demonstrations."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent use of large, interactive-looking terminal UI elements as hero visuals and within feature explanations to convey product functionality."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video loop is used as the background for the hero section, providing dynamic visual context for the site's core message.",
+    "Content sections and key visual elements (especially the large terminal UIs) are animated to fade up and slide slightly into view as they enter the user's viewport, creating a guided and engaging scrolling experience.",
+    "The main navigation bar is fixed to the top of the browser window, ensuring persistent access to site navigation throughout the user's journey."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#ededed",
+        "role": "text"
+      },
+      {
+        "hex": "#d9d9db",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#da5c2c",
+        "role": "cta"
+      },
+      {
+        "hex": "#e2b13c",
+        "role": "accent"
+      },
+      {
+        "hex": "#7e1bcc",
+        "role": "accent"
+      },
+      {
+        "hex": "#d6d6d6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Roboto Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Headings are bold and range from very large in the hero (~3-4x body) to moderately large in section titles (~1.5-2x body). Body text is legible and well-spaced. Small, uppercase labels are used for categorization.",
+    "radius": "Subtle. Elements like buttons, input fields, and terminal UI containers have a very slight corner radius, appearing almost sharp but with a soft edge.",
+    "spacing": "Balanced. Sections are separated by generous vertical padding. Content within sections, especially around the large visual elements, maintains a comfortable and readable rhythm."
+  },
+  "standout": "The site's most distinctive feature is its immersive integration of dynamic, terminal-like UI elements and data visualizations. These aren't just static images; they are often animated or video-based, creating a highly authentic and engaging demonstration of the product's functionality directly within the page content, especially in the hero and key feature sections. This goes beyond typical product screenshots, making the experience feel very 'live' and technical.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

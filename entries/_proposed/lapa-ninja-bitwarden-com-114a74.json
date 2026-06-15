@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-bitwarden-com-114a74",
+  "source": {
+    "url": "https://www.bitwarden.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-bitwarden-com-114a74.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-bitwarden-com-114a74__scroll0.webp",
+      "shots/_proposed/lapa-ninja-bitwarden-com-114a74__scroll1.webp",
+      "shots/_proposed/lapa-ninja-bitwarden-com-114a74__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "security",
+      "password-manager"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with a consistent maximum width for inner content, creating a clean, structured appearance across the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings establish a clear hierarchy, complemented by highly readable body text and uppercase labels for section titles and navigation items."
+    },
+    {
+      "kind": "color",
+      "note": "A strong brand identity is established through a primary dark blue for headings and backgrounds, accented by a vibrant yellow/orange for calls to action and key highlights, and various shades of light blue for gradients and secondary elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky header navigation bar remains fixed at the top of the viewport as the user scrolls, providing continuous access to key navigation links and calls to action."
+    },
+    {
+      "kind": "section",
+      "note": "Complex product features are explained through a combination of concise text and detailed, high-fidelity UI mockups or illustrative graphics embedded directly into the page layout."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element, maintaining its position at the top of the browser window during scroll. While the site utilizes CSS keyframes and Lottie animations, the provided scroll sequence does not reveal explicit scroll-triggered section fade-ins or parallax effects; animations appear to be primarily for in-viewport elements or initial load.",
+    "Call-to-action buttons feature a solid background color (yellow or blue) with subtle rounded corners and clear, contrasting text, often presented in pairs (primary and secondary styles) for user choice.",
+    "Product features are visually communicated using detailed, realistic UI mockups and illustrations, often presented within card-like structures or as central hero elements, providing clear context and functionality examples."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#002e47",
+        "role": "primary-dark-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-white"
+      },
+      {
+        "hex": "#ffbf00",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#68c5ed",
+        "role": "secondary-light-blue"
+      },
+      {
+        "hex": "#a4def9",
+        "role": "gradient-light-blue"
+      },
+      {
+        "hex": "#cfd4da",
+        "role": "border-light-grey"
+      },
+      {
+        "hex": "#044d80",
+        "role": "secondary-dark-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Bw Modelica",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Bw Modelica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~3-4x body) with clear weight differentiation for subheadings and smaller, highly readable body text. Uppercase labels are used for navigation and section titles.",
+    "radius": "Subtle rounding (small radius) applied consistently to buttons, input fields, and card elements, creating a soft and approachable feel.",
+    "spacing": "Balanced spacing with generous vertical separation between major sections, creating an airy feel, while internal content within sections maintains a comfortable, readable density."
+  },
+  "standout": "The site's distinctive use of highly detailed, realistic UI mockups and illustrations directly integrated into the hero and feature sections effectively communicates product functionality and builds trust. This visual storytelling elevates it beyond typical marketing sites that rely solely on abstract icons or generic screenshots.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

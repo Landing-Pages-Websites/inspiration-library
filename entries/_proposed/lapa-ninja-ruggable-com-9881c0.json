@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-ruggable-com-9881c0",
+  "source": {
+    "url": "https://www.ruggable.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ruggable-com-9881c0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ruggable-com-9881c0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ruggable-com-9881c0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ruggable-com-9881c0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "home-goods",
+      "e-commerce",
+      "rugs"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width hero image with overlaid text is used, followed by distinct, full-width content sections that alternate between product grids and lifestyle imagery."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established using a bold, decorative serif for key display text and a clean, legible sans-serif for body copy and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The palette combines warm, earthy neutrals for backgrounds and text with a deep, rich red for primary calls-to-action and sale indicators, creating a sophisticated yet inviting feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial top announcement bar collapses on scroll, while the main navigation bar becomes sticky at the top. The hero image background exhibits a subtle parallax effect as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product browsing is organized into distinct 'Shop by' sections (Size, Color, Room) that utilize horizontal carousels for efficient content display."
+    }
+  ],
+  "technique_notes": [
+    "The top announcement bar is designed to animate out of view or collapse its height when the user scrolls past the initial viewport, while the main navigation bar transitions to a fixed position at the top of the screen, maintaining accessibility.",
+    "The hero section employs a background image that scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect as the user navigates down the page.",
+    "Content sections below the hero are revealed with a gentle fade-in or slide-up animation as they enter the viewport, enhancing visual engagement and guiding the user's attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1817",
+        "role": "text"
+      },
+      {
+        "hex": "#f6f4ef",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#b30000",
+        "role": "cta"
+      },
+      {
+        "hex": "#282521",
+        "role": "background"
+      },
+      {
+        "hex": "#a2790d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Apris",
+        "role": "display"
+      },
+      {
+        "family": "Manrope",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (Apris) provide strong hierarchy, complemented by a clean, readable sans-serif body text (Manrope) with good line spacing.",
+    "radius": "Subtle rounding on product cards and buttons, creating a soft but refined feel.",
+    "spacing": "Balanced spacing throughout, with generous vertical padding between main sections and a slightly denser grid for product displays."
+  },
+  "standout": "The site effectively combines aspirational lifestyle photography with a highly functional e-commerce layout. The emphasis on 'washable rugs' is clearly communicated through dedicated sections and imagery, making a strong case for its unique selling proposition. The use of carousels for various 'Shop by' categories (size, color, room) provides an intuitive and engaging browsing experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

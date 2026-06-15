@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-hopper-com-e199e8",
+  "source": {
+    "url": "https://www.hopper.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hopper-com-e199e8.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hopper-com-e199e8__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hopper-com-e199e8__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hopper-com-e199e8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "booking",
+      "hospitality"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with a central, prominent search interface that dynamically integrates into the sticky header on scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Consistent use of multi-column grid layouts for displaying destination cards, typically 3-4 columns wide, ensuring visual consistency across content listings."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with bold, medium-sized headings for section titles and a clean, legible sans-serif for body text, maintaining readability across various content types."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, energetic blue (#1875ec) is used as the primary accent and CTA color, providing clear visual cues against a predominantly neutral white and light grey background."
+    },
+    {
+      "kind": "motion",
+      "note": "Sticky header with a significant transformation: the large search bar and main navigation collapse into a compact, fixed top bar with a solid background, integrating the search input and navigation links as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Destination cards feature a consistent layout: a hero image, a bold title, a brief description, and a prominent 'Book Now' button, presented in a clean, white-background container with subtle rounding."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system (likely using CSS keyframes and/or JavaScript) to transform the header. Initially, a large hero section contains a prominent search bar and primary navigation. Upon scrolling, the hero image scales down and moves up, while the search bar and primary navigation collapse into a compact, sticky header with a solid background, integrating the search input and navigation links.",
+    "Cards and interactive elements consistently use subtle rounded corners and soft shadows for a lifted, approachable feel.",
+    "Full-width sections alternate between white and light grey backgrounds to visually separate content blocks and provide clear content segmentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f6f6f6",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#1875ec",
+        "role": "primary-cta"
+      },
+      {
+        "hex": "#494849",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#aaaaaa",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#fac624",
+        "role": "accent"
+      },
+      {
+        "hex": "#f9c5c2",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Proxima Nova",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately large and bold (~2-3x body text) for clear section breaks, while body text is clean and legible, often accompanied by smaller, uppercase labels for categories.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to interactive elements like buttons, search inputs, and content cards, contributing to an approachable feel.",
+    "spacing": "Balanced density; sections are separated by generous vertical padding, while content within cards and grids is more compact but maintains good readability."
+  },
+  "standout": "The most distinctive design element is the dynamic, transforming sticky header. It seamlessly transitions from a large, integrated search and navigation area within the hero to a compact, functional top bar upon scroll, effectively maximizing initial screen real estate while maintaining accessibility to key functions.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

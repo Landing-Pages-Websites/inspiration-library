@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-clearbit-com-cd30af",
+  "source": {
+    "url": "https://www.clearbit.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-clearbit-com-cd30af.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-clearbit-com-cd30af__scroll0.webp",
+      "shots/_proposed/lapa-ninja-clearbit-com-cd30af__scroll1.webp",
+      "shots/_proposed/lapa-ninja-clearbit-com-cd30af__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-analytics",
+      "b2b-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layout for feature sections, where a large, detailed graphic occupies one column and descriptive text with a heading occupies the other, switching sides down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, creating strong visual hierarchy, contrasted with lighter weight, smaller sans-serif body text and even smaller, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette featuring a dominant white background, dark blue-grey text, and a bright, clear blue for calls to action and subtle accents within the detailed graphics."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new content sections reveal by subtly fading in and sliding up from the bottom of the viewport. The complex illustrative graphics within these sections appear to be static during scroll, but are likely Lottie animations that play on section entry."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently pair a concise, benefit-oriented heading and supporting paragraph with a large, highly detailed graphic that visually explains or demonstrates the feature, often mimicking a UI or data visualization."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar at the top of the page remains fixed or sticky after initial scroll, ensuring constant access to key actions.",
+    "Content sections are revealed using a scroll-triggered animation system (e.g., Intersection Observer API or a library like GSAP ScrollTrigger) that applies a subtle fade-in and a slight upward translation effect as each section enters the viewport. The complex, vector-based illustrations (likely Lottie animations, as hinted) are configured to play their animation sequence once their respective content section is fully visible within the viewport, rather than being directly scrubbed by scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#091135",
+        "role": "heading"
+      },
+      {
+        "hex": "#36394A",
+        "role": "body-text"
+      },
+      {
+        "hex": "#666D80",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "cta"
+      },
+      {
+        "hex": "#EBF2FF",
+        "role": "light-accent-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) establish clear hierarchy, supported by lighter weight body text and smaller, often uppercase, informational labels.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, input fields, and card-like graphic elements, avoiding sharp corners or full pills.",
+    "spacing": "Airy spacing is used between major sections to create clear visual separation, while content within sections maintains a balanced density for readability."
+  },
+  "standout": "The most distinctive aspect is the use of highly detailed, illustrative graphics that are not merely decorative but serve as rich visual explanations of complex data and UI concepts. These sophisticated visuals elevate the content beyond typical marketing site imagery, making abstract B2B services more tangible and engaging.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

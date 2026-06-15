@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-eataly-com-114c95",
+  "source": {
+    "url": "https://www.eataly.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-eataly-com-114c95.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-eataly-com-114c95__scroll0.webp",
+      "shots/_proposed/lapa-ninja-eataly-com-114c95__scroll1.webp",
+      "shots/_proposed/lapa-ninja-eataly-com-114c95__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food",
+      "retail",
+      "italian-food",
+      "gourmet-grocer"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width immersive imagery with overlaid text and constrained-width content blocks, often featuring product grids or carousels."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant script font is used for the primary brand element ('The Piazza'), contrasted with clean, modern sans-serifs for all other headings and body text, creating a blend of traditional and contemporary."
+    },
+    {
+      "kind": "color",
+      "note": "The palette centers on warm neutrals (creams, light greys) for backgrounds, a deep, rich red for branding and accents, and a vibrant golden yellow for calls to action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner cycles through different messages with a subtle animation. Sections and content blocks reveal with a gentle fade-up or slide-up effect as they scroll into the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Large, full-bleed photographic sections serve as visual dividers and thematic introductions, often featuring a single, prominent headline or call to action."
+    }
+  ],
+  "technique_notes": [
+    "The site employs CSS keyframe animations for dynamic elements like the cycling promotional banner at the top of the page. Scroll-triggered animations are used to reveal new content sections with a subtle fade and upward translation as they enter the viewport. Product and content carousels are implemented using a JavaScript library like Swiper.js, enabling horizontal navigation through collections of items.",
+    "Visual sections are defined by alternating background colors and full-bleed imagery. Immersive hero and interstitial sections use large, high-quality photographs, sometimes with a subtle dark overlay to ensure text legibility. Content within these sections is typically centered and presented with generous padding to maintain an airy feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#C00000",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8AE00",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#737373",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Great Vibes",
+        "role": "display"
+      },
+      {
+        "family": "Nunito",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) for section titles, with smaller uppercase labels, and a very large, distinctive script font for the primary brand mark. Body text is a readable sans-serif.",
+    "radius": "Subtle for interactive elements like buttons, otherwise sharp for cards and overall layout.",
+    "spacing": "Balanced to airy, with generous vertical padding between main sections and within the hero, while product grids maintain a more balanced density."
+  },
+  "standout": "This site stands out by masterfully blending a sophisticated, almost editorial aesthetic with a vibrant celebration of Italian food and culture. The distinctive script font for 'The Piazza' brand element, paired with clean sans-serifs and immersive photography, creates a unique brand identity that feels both traditional and contemporary, making the browsing experience feel like a curated culinary journey.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "manual-dexcom-com-fae575",
+  "source": {
+    "url": "https://www.dexcom.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-dexcom-com-fae575.webp",
+    "scroll": [
+      "shots/_proposed/manual-dexcom-com-fae575__scroll0.webp",
+      "shots/_proposed/manual-dexcom-com-fae575__scroll1.webp",
+      "shots/_proposed/manual-dexcom-com-fae575__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.dexcom.com/en-us",
+        "full": "shots/_proposed/manual-dexcom-com-fae575__p2.webp"
+      },
+      {
+        "url": "https://www.dexcom.com/es-us",
+        "full": "shots/_proposed/manual-dexcom-com-fae575__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "medical-device",
+      "diabetes-management"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero and section background images are used to establish distinct visual blocks, often with text overlays for content."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently alternate between image-left/text-right and image-right/text-left layouts, creating a dynamic yet balanced flow."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, deep green is consistently used as the primary brand accent color for CTAs, the sticky navigation, and the footer, contrasting with light backgrounds and dark text."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms from a transparent, taller overlay on the hero section to a compact, solid dark green bar with white text and logo as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Feature comparison sections utilize a clean, multi-column grid layout to clearly present product differences and benefits."
+    }
+  ],
+  "technique_notes": [
+    "The header employs a scroll-triggered state change: it starts as a transparent, taller element with light text, then transitions to a smaller, solid dark green bar with light text and logo once the scroll position moves past the initial hero section. This is likely achieved with CSS keyframes or JavaScript event listeners.",
+    "Full-bleed lifestyle imagery serves as a background for entire sections, with text content placed directly over it. A subtle dark gradient or overlay is applied to these images to ensure text readability.",
+    "Content sections are revealed through standard vertical scrolling, with no complex entrance animations for individual elements within those sections; the focus is on clear presentation as content enters the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#137d00",
+        "role": "accent"
+      },
+      {
+        "hex": "#161a1d",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e8f4f9",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7fafc",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Gilroy",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large and bold, creating a strong visual hierarchy, while body text is clear and highly readable with a balanced line height.",
+    "radius": "Subtle rounding on buttons and card elements, maintaining a clean, modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks, contributing to a sense of openness."
+  },
+  "standout": "The site's distinctive use of a deep, vibrant green as a primary brand color, consistently applied across navigation, CTAs, and footer, creates a strong, memorable brand identity. This is effectively paired with high-quality, full-bleed lifestyle imagery that integrates the product seamlessly.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

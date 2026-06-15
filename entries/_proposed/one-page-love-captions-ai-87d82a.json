@@ -1,0 +1,116 @@
+{
+  "id": "one-page-love-captions-ai-87d82a",
+  "source": {
+    "url": "https://www.captions.ai",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-captions-ai-87d82a.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-captions-ai-87d82a__scroll0.webp",
+      "shots/_proposed/one-page-love-captions-ai-87d82a__scroll1.webp",
+      "shots/_proposed/one-page-love-captions-ai-87d82a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "video-editing",
+      "ai-tools"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent max-width container for text and primary elements, often using alternating layouts like text-left/image-right or multi-column grids for features."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, soft gradient (orange to blue) is used prominently in the hero section, creating a dynamic background that contrasts with the largely monochromatic content sections."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs a strong typographic hierarchy with an oversized, bold sans-serif for main headings and a clean, lighter sans-serif for body text, often accompanied by small, uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar sticks to the top of the viewport as the user scrolls, maintaining a translucent, frosted-glass appearance. The hero's gradient background appears to be fixed or slowly parallaxing, creating a layered depth effect as content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by ample vertical spacing and varying background treatments, including the hero gradient, solid light backgrounds, and subtle off-white surfaces for card grids."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar achieves its frosted-glass effect by using a sticky position combined with a backdrop filter for blur and transparency. The hero section utilizes a fixed or slow-parallaxing background element, allowing the main content to scroll independently over it to create a sense of depth. Individual content sections likely use CSS keyframes to animate elements (e.g., fade-up or slide-in) as they enter the viewport, enhancing engagement.",
+    "Interactive elements like buttons and input fields, as well as content cards, are designed with subtle rounded corners and soft drop shadows, giving them a friendly, approachable, and slightly elevated appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f9fa",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1f20",
+        "role": "text"
+      },
+      {
+        "hex": "#ffcfcf",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#9af1ff",
+        "role": "gradient-end"
+      },
+      {
+        "hex": "#f99f3f",
+        "role": "accent"
+      },
+      {
+        "hex": "#5bf6bb",
+        "role": "cta"
+      },
+      {
+        "hex": "#e8eff2",
+        "role": "surface"
+      },
+      {
+        "hex": "#d0d6d7",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DenimINK",
+        "role": "heading"
+      },
+      {
+        "family": "Exposure",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, complemented by clean, readable body text and small, often uppercase labels for feature descriptions.",
+    "radius": "Subtle rounded corners (small to medium radius) are consistently applied to cards, buttons, and interactive elements, contributing to a soft and modern aesthetic.",
+    "spacing": "Balanced to airy spacing is used throughout, with generous vertical padding between sections and within the hero, creating a clean and uncluttered feel, while feature grids maintain a comfortable density."
+  },
+  "standout": "The site's distinctive use of a large, dynamic gradient background that appears to be fixed or slowly parallaxing behind the scrolling content, combined with a frosted-glass sticky navigation, creates a modern, layered, and premium feel. The overall aesthetic is clean and spacious, emphasizing the product's AI capabilities with clear, concise messaging and engaging video examples.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
