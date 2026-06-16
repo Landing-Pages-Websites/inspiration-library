@@ -1,0 +1,101 @@
+{
+  "id": "manual-craftedbygc-com-45eeea",
+  "source": {
+    "url": "https://craftedbygc.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-craftedbygc-com-45eeea.webp",
+    "scroll": [
+      "shots/_proposed/manual-craftedbygc-com-45eeea__scroll0.webp",
+      "shots/_proposed/manual-craftedbygc-com-45eeea__scroll1.webp",
+      "shots/_proposed/manual-craftedbygc-com-45eeea__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "marketing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A single, extremely large display character at the center of the hero section dynamically morphs or swaps between different letters (E, N, U) as the user scrolls down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "The page employs a minimalist, centered layout with a dominant hero element (the animating letter) and supporting text, maximizing whitespace and visual focus."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography is used, featuring an enormous, stylized display font for the central animating character paired with small, understated sans-serif text for the studio description."
+    },
+    {
+      "kind": "color",
+      "note": "The color scheme is predominantly dark, using deep greys for backgrounds and light grey/white for text, with a subtle, soft light accent color appearing briefly at the top of the initial viewport."
+    }
+  ],
+  "technique_notes": [
+    "The primary motion involves a large, central character that dynamically changes its form or letter as the user scrolls. This effect is likely achieved using a WebGL/Three.js canvas to render and animate the 3D letter, with scroll position driving the animation state or character selection. The background color subtly transitions between dark grey shades, potentially synchronized with the WebGL canvas animation or via CSS transitions.",
+    "The page uses a full-bleed background that shifts from a split color (dark grey top, light accent bottom) to a solid dark grey as the user scrolls, maintaining a consistent dark canvas for the animating letter."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#212121",
+        "role": "background-secondary"
+      },
+      {
+        "hex": "#ededed",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "display-text"
+      },
+      {
+        "hex": "#f0e9e6",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Saol Display",
+        "role": "display"
+      },
+      {
+        "family": "Neue Montreal",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, stylized display characters (easily 10x body text height) paired with small, understated sans-serif body text for descriptions.",
+    "radius": "sharp",
+    "spacing": "Very airy, with significant vertical and horizontal whitespace around the central content, creating a sense of spaciousness and focus."
+  },
+  "standout": "The most distinctive feature is the interactive, morphing single letter that dominates the hero section and changes with scroll, creating a highly artistic and memorable first impression that immediately communicates a focus on dynamic visual design.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

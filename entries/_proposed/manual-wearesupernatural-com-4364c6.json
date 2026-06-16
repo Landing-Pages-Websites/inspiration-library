@@ -1,0 +1,106 @@
+{
+  "id": "manual-wearesupernatural-com-4364c6",
+  "source": {
+    "url": "https://www.wearesupernatural.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-wearesupernatural-com-4364c6.webp",
+    "scroll": [
+      "shots/_proposed/manual-wearesupernatural-com-4364c6__scroll0.webp",
+      "shots/_proposed/manual-wearesupernatural-com-4364c6__scroll1.webp",
+      "shots/_proposed/manual-wearesupernatural-com-4364c6__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "vr-fitness",
+      "community"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts for profile sections, alternating image and text placement on left/right sides as the user scrolls down."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast dark mode with a vibrant, energetic lime green (#f2ff4c) used as a primary accent color for CTAs, logos, and key text highlights against a deep charcoal background."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, modern sans-serif headings create strong visual impact, complemented by smaller, uppercase labels for section introductions and sub-headings."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that remains fixed or subtly parallaxes while overlaid text and a call-to-action scroll up and out of view. Subsequent content sections reveal with a staggered fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'updates' section provides key announcements and bulleted information, breaking from the visual flow with a distinct, more text-heavy presentation."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a smooth scrolling library (locomotive-scroll) to create a fluid user experience and enable precise scroll-triggered animations.",
+    "A full-bleed video is used as a hero background, with text and a call-to-action overlaid. The video either remains fixed or has a subtle parallax effect as the user scrolls, allowing content to scroll over it.",
+    "Content sections and individual elements within them are revealed using scroll-triggered animations, typically fading in and sliding up from the bottom as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#151518",
+        "role": "background"
+      },
+      {
+        "hex": "#f2ff4c",
+        "role": "accent"
+      },
+      {
+        "hex": "#e3e3e3",
+        "role": "text"
+      },
+      {
+        "hex": "#8e918f",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#1f1f1f",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, often uppercase, supporting labels and standard body text.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and the cookie banner, otherwise sharp edges dominate the layout.",
+    "spacing": "Airy spacing in the hero section and between major content blocks, transitioning to a more balanced density within text-heavy sections and profile cards."
+  },
+  "standout": "The site's distinctive use of a deep, moody dark theme paired with a highly energetic, almost neon, lime accent color creates a powerful visual identity. This is amplified by the emotional, community-focused video hero and the smooth, scroll-triggered content reveals, making the experience feel premium and engaging.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

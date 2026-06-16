@@ -1,0 +1,114 @@
+{
+  "id": "manual-noom-com-836d2c",
+  "source": {
+    "url": "https://www.noom.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-noom-com-836d2c.webp",
+    "scroll": [
+      "shots/_proposed/manual-noom-com-836d2c__scroll0.webp",
+      "shots/_proposed/manual-noom-com-836d2c__scroll1.webp",
+      "shots/_proposed/manual-noom-com-836d2c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "weight-loss",
+      "digital-health"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section with a dynamic background image/video, overlaid with content cards and primary messaging."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a warm, muted gold/bronze accent color against a predominantly dark teal/blue-grey and off-white palette to highlight key information and calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings create strong visual hierarchy, complemented by smaller, legible body text and uppercase labels for navigation and buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image features a subtle parallax effect, with the foreground content scrolling over it. Sections likely reveal with a smooth fade-in or slide-up animation as they enter the viewport, facilitated by a custom scroll library."
+    },
+    {
+      "kind": "section",
+      "note": "Program offerings are presented in a three-column card layout with distinct background colors and clear calls to action, providing a quick overview of different pathways."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large, dynamic image or video as a fixed or subtly parallaxing background, over which text and interactive cards are absolutely positioned to create a layered effect.",
+    "Scroll-triggered animations are implemented using a custom scroll library (likely locomotive-scroll), causing content sections to smoothly fade or slide into view as the user scrolls down the page, enhancing engagement and visual flow.",
+    "The primary navigation bar is initially transparent over the hero and becomes sticky, likely transforming (e.g., shrinking, gaining a solid background) as the user scrolls past the initial hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a2e3b",
+        "role": "background"
+      },
+      {
+        "hex": "#eef3ed",
+        "role": "surface"
+      },
+      {
+        "hex": "#191717",
+        "role": "text"
+      },
+      {
+        "hex": "#ad925e",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#aa3521",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Untitled Sans",
+        "role": "heading"
+      },
+      {
+        "family": "BrownLLWeb",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif hero headings (~4-5x body) with smaller, uppercase labels and clear, readable body text.",
+    "radius": "Subtle rounded corners on buttons and cards, otherwise sharp edges for most structural elements.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable internal spacing within content blocks."
+  },
+  "standout": "The site's distinctive use of a cinematic, high-production-value hero image with strategically overlaid product cards and a powerful headline immediately conveys a premium, authoritative brand. The warm gold accent against the cool dark palette creates a sophisticated and trustworthy feel, setting it apart from typical health and wellness sites.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

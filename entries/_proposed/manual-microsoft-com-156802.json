@@ -1,0 +1,120 @@
+{
+  "id": "manual-microsoft-com-156802",
+  "source": {
+    "url": "https://www.microsoft.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-microsoft-com-156802.webp",
+    "scroll": [
+      "shots/_proposed/manual-microsoft-com-156802__scroll0.webp",
+      "shots/_proposed/manual-microsoft-com-156802__scroll1.webp",
+      "shots/_proposed/manual-microsoft-com-156802__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.microsoft.com/en-us",
+        "full": "shots/_proposed/manual-microsoft-com-156802__p2.webp"
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/microsoft-365-copilot",
+        "full": "shots/_proposed/manual-microsoft-com-156802__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "software",
+      "consumer-electronics"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The global header transforms on scroll, shrinking in height and changing background color while revealing a promotional banner below it."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed-position chat support widget expands and slides into view from the right edge of the screen as the user scrolls down."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large product image on a soft gradient background, balanced by a concise text block and CTA on the left."
+    },
+    {
+      "kind": "layout",
+      "note": "Consistent use of multi-column card grids (3-4 columns) for product showcases and informational content, maintaining visual rhythm across various sections."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant brand blue for primary CTAs, interactive elements, and key navigational components, contrasted with a clean white and light grey palette."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy established with large, bold sans-serif headings for section titles and smaller, legible sans-serif for body text and descriptive labels."
+    }
+  ],
+  "technique_notes": [
+    "The global navigation bar implements a sticky effect where it transitions from a taller, transparent state to a more compact, solid-colored state with an additional banner appearing below it, triggered by scroll depth.",
+    "A fixed-position support widget is revealed on scroll, expanding from a small tab into a full chat interface that slides in from the right edge of the viewport.",
+    "Content sections are presented with full-width backgrounds, often using subtle gradients or solid light colors, to visually segment the page without hard dividers."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#242424",
+        "role": "text"
+      },
+      {
+        "hex": "#0f6cbd",
+        "role": "accent"
+      },
+      {
+        "hex": "#0067b8",
+        "role": "cta"
+      },
+      {
+        "hex": "#ebebeb",
+        "role": "surface"
+      },
+      {
+        "hex": "#107c10",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Segoe UI",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Segoe UI",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) for impact, with clear hierarchy down to small, uppercase labels.",
+    "radius": "Subtle (buttons, card corners, input fields have a slight curve).",
+    "spacing": "Balanced, with generous vertical spacing between major sections and consistent internal padding within cards and components."
+  },
+  "standout": "The site effectively uses scroll-triggered transformations for both its global navigation and a prominent support chat widget, creating a dynamic and interactive experience that feels responsive to user engagement. The subtle gradient backgrounds and consistent application of brand blue across various components also contribute to a cohesive and polished feel.",
+  "animation_tech": [],
+  "status": "proposed"
+}

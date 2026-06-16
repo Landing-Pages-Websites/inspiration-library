@@ -1,0 +1,122 @@
+{
+  "id": "manual-jam3-com-8bc968",
+  "source": {
+    "url": "https://www.jam3.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-jam3-com-8bc968.webp",
+    "scroll": [
+      "shots/_proposed/manual-jam3-com-8bc968__scroll0.webp",
+      "shots/_proposed/manual-jam3-com-8bc968__scroll1.webp",
+      "shots/_proposed/manual-jam3-com-8bc968__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "technology",
+      "agency"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize a mix of full-bleed imagery and content blocks, often with asymmetrical arrangements where text and visuals are balanced across the width."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs a striking contrast between oversized, bold display typography for hero and section titles, and a clean, legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark theme dominates, using deep grays and near-blacks as backgrounds, contrasted with light text and vibrant, gradient-infused accents of purple and pink."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, fixed or slow-parallaxing brand name and tagline, while the background video scrolls up and out of view, creating a layered depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation transforms from a transparent overlay to an opaque, dark sticky bar with a language selector and a slightly adjusted logo/button layout as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by varying background treatments, including solid dark tones, light grays, and full-bleed images or gradients, providing visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video background that scrolls independently, creating a parallax effect where the large, central brand text appears to float over the moving imagery. This is likely achieved with a combination of CSS positioning and scroll-triggered transformations.",
+    "The primary navigation bar dynamically changes its appearance on scroll: it starts as a transparent overlay with white text, then transitions to an opaque dark background with a slightly reduced height and a visible language selector, remaining sticky at the top of the viewport.",
+    "Content sections are revealed with a subtle fade-in and slight upward translation effect as they enter the viewport, creating a dynamic and engaging scrolling experience. This could be implemented using a JavaScript library like GSAP ScrollTrigger or Intersection Observer API."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2d2d2d",
+        "role": "background"
+      },
+      {
+        "hex": "#eae8e4",
+        "role": "text"
+      },
+      {
+        "hex": "#001d38",
+        "role": "surface"
+      },
+      {
+        "hex": "#3c0c60",
+        "role": "accent"
+      },
+      {
+        "hex": "#dfbbfe",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffb2e8",
+        "role": "accent"
+      },
+      {
+        "hex": "#440035",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body) with clear, legible body text and small uppercase labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and cards, maintaining a generally clean, modern aesthetic.",
+    "spacing": "Airy spacing in hero and between major sections, transitioning to a balanced density within content grids and text blocks."
+  },
+  "standout": "This site stands out with its sophisticated dark theme, elevated by a dynamic full-bleed video hero and a distinctive, oversized display typeface for branding. The transforming sticky navigation and subtle scroll-triggered content reveals add a layer of polish and interactivity that feels premium and engaging.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "manual-designrepublic-com-ffa94b",
+  "source": {
+    "url": "https://www.designrepublic.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-designrepublic-com-ffa94b.webp",
+    "scroll": [
+      "shots/_proposed/manual-designrepublic-com-ffa94b__scroll0.webp",
+      "shots/_proposed/manual-designrepublic-com-ffa94b__scroll1.webp",
+      "shots/_proposed/manual-designrepublic-com-ffa94b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://designrepublic.com/en",
+        "full": "shots/_proposed/manual-designrepublic-com-ffa94b__p2.webp"
+      },
+      {
+        "url": "https://designrepublic.com/en/products/sacco",
+        "full": "shots/_proposed/manual-designrepublic-com-ffa94b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "furniture",
+      "e-commerce",
+      "home-decor"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections often employ a split-screen or multi-column grid layout for content presentation, such as the hero and various product showcases."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently bold, sans-serif, and significantly larger than body text, establishing a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich blue (#2121a1) is used as a primary accent color for CTAs, interactive elements, and section backgrounds, contrasting with a predominantly white and black palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in animation as they enter the viewport, enhancing content engagement."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Our stores' section features unique, detailed line-art illustrations of building facades, providing a distinctive visual anchor."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the section reveal effect, use CSS keyframes to animate elements from a slightly lower opacity and position (e.g., translateY(20px)) to full opacity and original position as they scroll into view.",
+    "The hero section uses a full-bleed, two-column layout with large, impactful imagery and overlaid text that is legible due to a subtle dark gradient or overlay on the images.",
+    "Product displays are organized into flexible grids that adapt to different screen sizes, maintaining consistent padding around each item for a clean, organized look."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2121a1",
+        "role": "accent"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#919191",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: HelveticaNeue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and significantly larger than the clean, readable body text, creating a strong visual hierarchy with ample contrast in size and weight.",
+    "radius": "Sharp corners are dominant for most structural elements, with subtle rounding applied to interactive elements like buttons and some image containers.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and consistent internal padding within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The distinctive line-art illustrations for the 'Our stores' section, combined with the strong, consistent use of a deep blue accent color, give the site a unique blend of modern e-commerce and a touch of artistic flair.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "manual-brightline-com-045c54",
+  "source": {
+    "url": "https://brightline.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-brightline-com-045c54.webp",
+    "scroll": [
+      "shots/_proposed/manual-brightline-com-045c54__scroll0.webp",
+      "shots/_proposed/manual-brightline-com-045c54__scroll1.webp",
+      "shots/_proposed/manual-brightline-com-045c54__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "pediatric-care"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs an asymmetrical layout, positioning descriptive text and a call-to-action on the left, balanced by a large, expressive hand-drawn illustration on the right."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, warm orange is consistently used as a primary accent color, prominently featured in calls-to-action, key illustrations, and a large, abstract decorative graphic in the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent top navigation bar remains fixed at the top of the viewport, maintaining visibility and access to primary navigation links as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly delineated by alternating full-width background colors (white, light off-white, and a solid orange) or by full-bleed photographic elements, creating distinct visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation is implemented as a sticky header, allowing it to remain visible and accessible at the top of the browser window while the page content scrolls underneath.",
+    "Content sections are visually separated by applying full-width background colors or images, with the textual and interactive elements contained within a consistent maximum content width.",
+    "Service offerings and informational articles are presented in a grid-based layout using distinct cards, each featuring a solid background color, a clear heading, and a concise description."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F9F7F2",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFB800",
+        "role": "accent"
+      },
+      {
+        "hex": "#2C333F",
+        "role": "text"
+      },
+      {
+        "hex": "#66CC99",
+        "role": "accent-secondary"
+      },
+      {
+        "hex": "#99CCFF",
+        "role": "accent-tertiary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and range from a large display size for the hero (~3-4x body) to medium section titles (~2x body), with body text being a comfortable reading size.",
+    "radius": "Subtle rounding (4-8px) is applied to buttons and card corners, contributing to a friendly and approachable feel.",
+    "spacing": "Balanced density overall, with generous vertical spacing between major sections and a more airy feel in the hero and footer areas, creating a clear visual hierarchy."
+  },
+  "standout": "This site distinguishes itself by blending professional healthcare information with a remarkably playful and approachable visual style. This is primarily achieved through its vibrant orange color palette and charming, hand-drawn illustrations that convey empathy and support rather than clinical seriousness. The large, abstract orange graphic in the footer further reinforces this unique brand personality.",
+  "animation_tech": [],
+  "status": "proposed"
+}

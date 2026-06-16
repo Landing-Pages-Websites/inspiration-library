@@ -1,0 +1,101 @@
+{
+  "id": "manual-clerky-com-76dc70",
+  "source": {
+    "url": "https://www.clerky.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-clerky-com-76dc70.webp",
+    "scroll": [
+      "shots/_proposed/manual-clerky-com-76dc70__scroll0.webp",
+      "shots/_proposed/manual-clerky-com-76dc70__scroll1.webp",
+      "shots/_proposed/manual-clerky-com-76dc70__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "legal",
+      "saas",
+      "startup-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently presented within a centered, fixed-width column, providing ample whitespace on the sides for a focused reading experience."
+    },
+    {
+      "kind": "type",
+      "note": "Major section headings use a very large, bold, and heavy sans-serif typeface to establish strong visual hierarchy and draw immediate attention."
+    },
+    {
+      "kind": "color",
+      "note": "A single vibrant blue is used exclusively for all interactive elements such as call-to-action buttons, links, and checkboxes, creating clear visual cues for user action."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion; the design relies on static hierarchy and clear content presentation, with elements simply scrolling into and out of view."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Form & Go Further' section presents a multi-part form-like interface with distinct steps and options, guiding the user through a complex process."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a standard vertical scrolling mechanism without any advanced scroll-triggered animations, parallax effects, or sticky elements; content simply moves up as the user scrolls down.",
+    "Visual hierarchy is strongly established through significant variations in font size and weight, with large, bold headings drawing attention to key sections, supported by lighter body text for details.",
+    "Interactive elements like buttons, links, and form fields are clearly distinguished using a vibrant accent blue against a predominantly white and light gray background, ensuring high contrast and discoverability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#008FD5",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#989EA6",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, and heavy sans-serif headings (~3-4x body) provide strong visual anchors, complemented by a clear, readable body text and smaller, often uppercase labels for details.",
+    "radius": "Subtle rounded corners (approx. 4-8px) are consistently applied to buttons, input fields, and card-like elements, softening the overall aesthetic.",
+    "spacing": "Balanced spacing, with ample whitespace around major sections and within content blocks, creating an airy feel, while specific components like the pricing table have a denser, more structured layout."
+  },
+  "standout": "The site's standout feature is its clear, direct, and highly functional presentation of complex legal services. It demystifies legal paperwork for startups through a clean, almost form-like interface in its 'Form & Go Further' section, making a potentially intimidating process feel approachable and organized.",
+  "animation_tech": [],
+  "status": "proposed"
+}

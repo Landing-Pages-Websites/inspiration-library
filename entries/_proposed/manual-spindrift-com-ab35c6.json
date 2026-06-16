@@ -1,0 +1,97 @@
+{
+  "id": "manual-spindrift-com-ab35c6",
+  "source": {
+    "url": "https://www.spindrift.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-spindrift-com-ab35c6.webp",
+    "scroll": [
+      "shots/_proposed/manual-spindrift-com-ab35c6__scroll0.webp",
+      "shots/_proposed/manual-spindrift-com-ab35c6__scroll1.webp",
+      "shots/_proposed/manual-spindrift-com-ab35c6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "classical-music",
+      "publishing"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are visually delineated by a full-width, light grey dotted line that acts as a subtle horizontal separator."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a distinct, bold sans-serif font, while body text is a lighter weight, standard sans-serif, creating a clear content hierarchy without heavy styling."
+    },
+    {
+      "kind": "color",
+      "note": "A very restrained color palette primarily uses white for the background, dark grey for text, and subtle light green and orange accents for interactive elements like buttons and links."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar and site logo remain fixed at the top of the viewport as the user scrolls down the page, providing persistent access to navigation."
+    }
+  ],
+  "technique_notes": [
+    "The page structure uses a wide, single-column layout with content blocks separated by a repeating dotted border style.",
+    "The primary navigation and site logo are contained within a header element that is positioned to stick to the top of the browser window during scroll.",
+    "No scroll-triggered reveals, fade-ins, or parallax effects are used; content simply scrolls into view statically."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#A5D6A7",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "cta"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "separator"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Economica",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~2-3x body) than the standard body text, providing clear visual hierarchy without excessive variation.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 sections have generous vertical spacing, but text within sections is standard density."
+  },
+  "standout": "The site's design is distinctive for its extremely minimalist, almost academic or blog-like aesthetic, relying heavily on text content and simple dotted line separators rather than modern visual flair or complex layouts. The design prioritizes content readability and direct information delivery over elaborate visual effects.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "manual-zillow-com-5bf93e",
+  "source": {
+    "url": "https://www.zillow.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-zillow-com-5bf93e.webp"
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "property-tech",
+      "financial-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent left-hand utility navigation bar provides quick access to core features like search, updates, favorites, and inbox, remaining visible alongside the main content."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections with clear headings, often featuring horizontal carousels for property listings or three-column grids for service offerings."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface for immediate impact, contrasting with smaller, highly legible sans-serif text for body content and property details."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, deep blue is consistently used for primary call-to-action buttons, interactive elements, and key branding, providing strong visual anchors against a predominantly white and light gray background."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion (such as reveals, animations, or parallax) is observed in the provided single full-page screenshot; the design relies on static hierarchy and interactive elements like carousels for content discovery."
+    },
+    {
+      "kind": "section",
+      "note": "Property listings are presented in a card-based format within carousels, each card featuring an image, price, key property stats, and a small, descriptive tag (e.g., 'Year-round natural light')."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background image with a subtle, dark overlay to ensure high contrast and readability for the prominent white headline and search input field.",
+    "Interactive content carousels are implemented with clear left and right navigation arrows, allowing users to horizontally browse through multiple property listings or related items within a section.",
+    "Service offering cards (e.g., 'Buy a home', 'Finance a home') feature rounded corners and subtle drop shadows, creating a sense of depth and visual separation from the background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0041d9",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#111116",
+        "role": "text"
+      },
+      {
+        "hex": "#cdcdd3",
+        "role": "surface"
+      },
+      {
+        "hex": "#bfdfff",
+        "role": "accent"
+      },
+      {
+        "hex": "#001962",
+        "role": "dark-blue-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual hierarchy, supported by clear, readable body text and smaller, functional labels.",
+    "radius": "Subtle rounded corners are consistently applied to cards, buttons, and input fields, contributing to a soft, approachable aesthetic.",
+    "spacing": "Balanced spacing throughout, with a slightly airy hero section and consistent vertical rhythm between content blocks and within card grids."
+  },
+  "standout": "The most distinctive design element is the persistent left-hand utility navigation bar, which provides a unique and efficient way for users to access core site functions regardless of their scroll position. This, combined with the strong brand blue and clean card-based layouts, creates a highly functional and trustworthy user experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

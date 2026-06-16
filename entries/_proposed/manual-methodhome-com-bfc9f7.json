@@ -1,0 +1,124 @@
+{
+  "id": "manual-methodhome-com-bfc9f7",
+  "source": {
+    "url": "https://www.methodhome.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-methodhome-com-bfc9f7.webp",
+    "scroll": [
+      "shots/_proposed/manual-methodhome-com-bfc9f7__scroll0.webp",
+      "shots/_proposed/manual-methodhome-com-bfc9f7__scroll1.webp",
+      "shots/_proposed/manual-methodhome-com-bfc9f7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-goods",
+      "home-care",
+      "personal-care",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections are frequently broken up by full-bleed background colors or gradients, creating distinct visual blocks."
+    },
+    {
+      "kind": "layout",
+      "note": "Product and collection displays utilize horizontal scrolling carousels to showcase multiple items within a compact area."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse color palette is used, featuring bright purples, teals, pinks, and greens, often in gradients, against a predominantly white background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image background elements exhibit a subtle parallax effect, scrolling at a slower rate than the foreground text and CTA, creating a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a gentle fade-in and slight upward translation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, condensed sans-serif typeface, often highlighting key words or phrases with a contrasting accent color."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a background image that scrolls at a slower pace than the overlaying text and call-to-action, achieving a subtle parallax effect that adds visual depth.",
+    "Content sections are progressively revealed as the user scrolls down the page, appearing with a soft fade and a slight upward movement, likely orchestrated by a scroll-triggered animation library like locomotive-scroll combined with CSS keyframes.",
+    "Product and collection galleries are implemented as horizontal carousels, allowing users to navigate through items by swiping or clicking, powered by a library like Swiper."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#414042",
+        "role": "text"
+      },
+      {
+        "hex": "#7800bf",
+        "role": "accent"
+      },
+      {
+        "hex": "#00d2b1",
+        "role": "accent"
+      },
+      {
+        "hex": "#009cdd",
+        "role": "accent"
+      },
+      {
+        "hex": "#9526f0",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#b408e5",
+        "role": "accent-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Haffer XH",
+        "role": "heading"
+      },
+      {
+        "family": "Haffer",
+        "role": "heading"
+      },
+      {
+        "family": "Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, condensed sans-serif headings (~3-5x body text) are paired with a clean, regular-weight sans-serif for body copy and uppercase labels.",
+    "radius": "Subtle rounded corners (~4-8px) are consistently applied to buttons, product cards, and input fields.",
+    "spacing": "Balanced to airy; generous vertical spacing separates major content sections, while product grids maintain a more compact but clear arrangement."
+  },
+  "standout": "The site's design is distinctive for its energetic and playful use of a broad, vibrant color palette and gradients, particularly in section backgrounds and interactive elements like the color wheel. This bold approach, combined with modern, impactful typography, creates a highly engaging and memorable brand experience that feels fresh and dynamic.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "manual-airbnb-com-3e191a",
+  "source": {
+    "url": "https://www.airbnb.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-airbnb-com-3e191a.webp",
+    "scroll": [
+      "shots/_proposed/manual-airbnb-com-3e191a__scroll0.webp",
+      "shots/_proposed/manual-airbnb-com-3e191a__scroll1.webp",
+      "shots/_proposed/manual-airbnb-com-3e191a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "hospitality",
+      "accommodation",
+      "experiences"
+    ],
+    "mood": [
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of a flexible, responsive grid for displaying diverse content types (listings, experiences) with horizontal carousels for browsing within categories."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single sans-serif font family across all text, with clear hierarchy established through size and weight variations for headings, subheadings, and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A bright, warm red/pink accent color is used sparingly but effectively for interactive elements, branding, and to draw attention against a predominantly neutral white and gray palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large header section, including the primary search bar, transforms into a compact, sticky navigation and search bar upon scroll, while a contextual modal can appear centrally, obscuring page content."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, scrollable horizontal carousels within vertical sections, each introduced by a clear heading and often a descriptive subtitle."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation and search bar implement a sticky transformation: on initial load, a larger search component is present, which then condenses into a compact, fixed header with a streamlined search interface as the user scrolls down the page.",
+    "A prominent modal window appears centrally on the screen, likely triggered by a user action or specific scroll depth, featuring a subtle entrance animation (e.g., fade-in or slide-up) and a semi-transparent backdrop to focus user attention.",
+    "Content sections utilize a responsive grid layout for individual items, with categories presented as horizontal carousels that allow users to swipe through multiple listings or experiences."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#6a6a6a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#c1c1c1",
+        "role": "border"
+      },
+      {
+        "hex": "#ff5a5f",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Airbnb Cereal VF",
+        "role": "heading"
+      },
+      {
+        "family": "Airbnb Cereal VF",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately larger and bolder than body text, maintaining a clean, readable sans-serif character across all sizes.",
+    "radius": "Subtle rounding on cards, buttons, and input fields, creating a friendly and approachable feel.",
+    "spacing": "Balanced density, with ample padding around sections and elements, but a tighter grid for listing cards to maximize content display."
+  },
+  "standout": "The site's distinctive use of a vibrant, warm red/pink as a primary accent color against a largely neutral white and gray palette creates a friendly and inviting brand identity. The dynamic, transforming sticky header and the extensive, highly visual grid of listings with horizontal carousels are also notable.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

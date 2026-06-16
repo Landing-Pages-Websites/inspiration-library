@@ -1,0 +1,119 @@
+{
+  "id": "manual-chipotle-com-3fbcef",
+  "source": {
+    "url": "https://www.chipotle.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-chipotle-com-3fbcef.webp",
+    "scroll": [
+      "shots/_proposed/manual-chipotle-com-3fbcef__scroll0.webp",
+      "shots/_proposed/manual-chipotle-com-3fbcef__scroll1.webp",
+      "shots/_proposed/manual-chipotle-com-3fbcef__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.chipotle.com/catering",
+        "full": "shots/_proposed/manual-chipotle-com-3fbcef__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-service",
+      "restaurant",
+      "fast-casual"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width hero section featuring a video background with a semi-transparent dark overlay to ensure text readability."
+    },
+    {
+      "kind": "layout",
+      "note": "Grid-based display for menu items and featured products, often pairing a large image with a concise text label below."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent sticky header transforms from a taller, transparent state to a compact version with a solid white background and repositioned elements upon scrolling down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video subtly scales or parallaxes as the user scrolls, creating a dynamic background effect behind the overlayed content."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a warm, earthy gold/orange for primary call-to-action buttons and key accent elements, reinforcing brand identity."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings are used for section titles, often in all caps or title case, providing strong visual hierarchy against smaller, readable body text."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar uses CSS transitions or keyframes to smoothly reduce its height, change its background to solid white, and adjust the positioning of its elements when the user scrolls past the initial hero, making it sticky at the top of the viewport.",
+    "The hero section features a full-bleed video that plays automatically, with a semi-transparent dark overlay applied to ensure text readability. The video itself appears to have a subtle parallax or scaling effect triggered by scroll, giving a dynamic background feel.",
+    "Content sections below the hero are revealed by simple vertical scrolling, with no complex fade-ins or slide-ups observed beyond the natural scroll behavior."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#451400",
+        "role": "text"
+      },
+      {
+        "hex": "#ad2118",
+        "role": "accent"
+      },
+      {
+        "hex": "#786259",
+        "role": "surface"
+      },
+      {
+        "hex": "#d4a017",
+        "role": "cta"
+      },
+      {
+        "hex": "#c8e0b4",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Gotham",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body text) with smaller, readable body text and uppercase labels for navigation and buttons.",
+    "radius": "Subtle rounded corners (approx. 4-8px) on buttons and some image containers, providing a soft but not overly playful character.",
+    "spacing": "Balanced density overall, with an airy hero section and clear vertical separation between content blocks, leading to good readability."
+  },
+  "standout": "The site's distinctive use of a full-bleed, high-quality video hero combined with a sophisticated, transforming sticky navigation creates a premium and dynamic first impression. The consistent brand color palette, especially the warm gold for CTAs, reinforces brand identity without being overwhelming.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

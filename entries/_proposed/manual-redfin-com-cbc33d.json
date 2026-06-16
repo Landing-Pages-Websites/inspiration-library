@@ -1,0 +1,105 @@
+{
+  "id": "manual-redfin-com-cbc33d",
+  "source": {
+    "url": "https://www.redfin.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-redfin-com-cbc33d.webp",
+    "scroll": [
+      "shots/_proposed/manual-redfin-com-cbc33d__scroll0.webp",
+      "shots/_proposed/manual-redfin-com-cbc33d__scroll1.webp",
+      "shots/_proposed/manual-redfin-com-cbc33d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "property-listings",
+      "home-buying"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width hero with a centrally aligned, multi-faceted search bar, immediately followed by horizontally scrollable card carousels for property listings."
+    },
+    {
+      "kind": "type",
+      "note": "A clear, modern sans-serif typeface (Google Sans/Roboto) is used consistently, with bold, larger weights for headings and a lighter weight for body text, ensuring readability and hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme featuring a dominant, bright red for all primary calls to action and branding, set against clean white and subtle light gray backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky navigation bar at the top of the viewport that maintains full functionality and appearance as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Property listings are presented as a horizontally scrollable carousel of uniform cards, each featuring a large image, price, key property details, and interactive icons."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero image serves as a backdrop for a prominent, centrally-aligned search input field, which is further enhanced by a subtle dark overlay to ensure high contrast for overlaid text and interactive elements.",
+    "Key content sections are visually delineated by alternating background colors (white and light gray), providing clear breaks and structure to the page flow.",
+    "Interactive content, such as property listings and service explanations, is presented in a card-based format, arranged in horizontal carousels that allow users to browse multiple items efficiently."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#de3341",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#1877f2",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and significantly larger than body text, creating a clear hierarchy, with a strong contrast between the hero headline and smaller supporting text.",
+    "radius": "Subtle rounding on buttons and card corners (e.g., property listings, search input).",
+    "spacing": "Balanced spacing, with airy sections (like the hero) and more dense, grid-like arrangements for content cards."
+  },
+  "standout": "The site's design stands out with its immediate and highly functional search-centric hero, which integrates a multi-option search bar directly into a visually appealing background. This, combined with the prominent, scrollable property listing cards right below the fold, creates a highly efficient and direct user experience focused on property discovery.",
+  "animation_tech": [],
+  "status": "proposed"
+}
