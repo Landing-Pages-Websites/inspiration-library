@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0216",
+  "source": {
+    "url": "https://www.liquid-iv.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0216.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0216__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0216__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0216__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "hydration",
+      "e-commerce",
+      "food-and-beverage"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with generous vertical padding, often featuring large background imagery or solid color blocks to segment information."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold, uppercase sans-serif typography is used for main headings and calls to action, creating a strong, energetic visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and energetic color palette combines deep blues and crisp whites with bright accent colors like teal, red, and yellow, particularly for product highlights and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid white background as it detaches from the hero section, while a top promotional banner remains sticky at the very top of the viewport. A floating circular search button also remains fixed on the right side of the screen."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize a tabbed navigation system to filter product categories, presenting items in a responsive grid layout with clear pricing and 'Add to Cart' buttons."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is implemented as a full-bleed carousel, likely using the detected Swiper library, allowing for multiple promotional slides with large imagery and overlaid text. Content within the hero scrolls up with the page.",
+    "The main header employs a sticky transformation effect: initially transparent and integrated with the hero, it transitions to a condensed, solid white bar with a subtle shadow as the user scrolls past the hero section.",
+    "Content sections below the hero appear to slide or fade up into view as they enter the viewport, creating a dynamic reveal experience as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#003f6a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#01cec7",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#9b9b9b",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e5002b",
+        "role": "accent"
+      },
+      {
+        "hex": "#fecb00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase sans-serif headings (~3-4x body) create strong impact, complemented by clear, legible body text and smaller, often uppercase labels.",
+    "radius": "Subtle rounding is applied to buttons, product cards, and input fields, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced spacing is used throughout, with airy sections for the hero and impact statements, and a more compact but clear grid for product displays."
+  },
+  "standout": "The site's standout feature is its bold and playful integration of a major brand collaboration (Spider-Man) directly into the hero and product imagery, creating an energetic and distinctive visual narrative that feels less like a generic e-commerce site and more like a themed experience. The use of vibrant, almost comic-book-style typography and color accents reinforces this unique brand personality.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

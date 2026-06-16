@@ -1,0 +1,128 @@
+{
+  "id": "manual-2026-0213",
+  "source": {
+    "url": "https://www.kiva.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0213.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0213__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0213__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0213__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.kiva.org/lend",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0213__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "microfinance",
+      "social-impact"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content area features a responsive grid of individual loan cards, each with an image, location, brief description, funding goal, and a visual progress bar, allowing users to quickly scan and identify opportunities."
+    },
+    {
+      "kind": "layout",
+      "note": "Major content sections are visually segmented using full-width background colors that alternate between a deep green, white, and a light off-white/grey, providing clear visual breaks and organizing the page flow."
+    },
+    {
+      "kind": "type",
+      "note": "Key section titles and the hero headline use a very large, bold sans-serif font, immediately drawing attention and conveying importance, contrasted with smaller, legible body text and uppercase labels for categories."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent palette of greens (dark forest green, a brighter lime green, a softer sage green) is used for branding, backgrounds, and primary CTAs, reinforcing the organization's mission and natural/growth connotations."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial transparent header with a prominent search bar and logo transforms into a more compact, opaque, sticky header with a slightly less prominent search bar and a 'Support Kiva' button after scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Community Impact' section uses large, bold numbers paired with simple, illustrative icons to represent key statistics, making complex data easily digestible and emotionally resonant."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Success Stories' section features a carousel-like horizontal scroll for individual narratives, allowing users to browse multiple stories without navigating away from the current page context."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that initially sits transparently over the hero image. Upon scrolling, it transitions to a solid background, reduces in height, and maintains its position at the top of the viewport, ensuring navigation is always accessible.",
+    "Content sections are visually segmented using full-width background colors that alternate between a deep green, white, and a light off-white/grey, providing clear visual breaks and organizing the page flow.",
+    "Loan opportunities are presented as a responsive grid of cards, each featuring an image, key details, and a visual progress bar, allowing users to quickly scan and identify funding opportunities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#223829",
+        "role": "background"
+      },
+      {
+        "hex": "#2AA967",
+        "role": "cta"
+      },
+      {
+        "hex": "#4FAF4E",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#EDF4F1",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#A6A6A6",
+        "role": "text"
+      },
+      {
+        "hex": "#00A0FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "dovetail-mvb",
+        "role": "heading"
+      },
+      {
+        "family": "PostGrotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, impactful headings (~3-4x body) with clear hierarchy, complemented by smaller, legible body text and uppercase labels for categories.",
+    "radius": "subtle (small corner radius on cards, buttons, and input fields)",
+    "spacing": "balanced (comfortable spacing between elements and sections, with an airy hero section and a more compact footer)"
+  },
+  "standout": "The site effectively blends a marketplace for micro-lending with a powerful storytelling and impact-driven narrative. Its standout feature is the clear, direct presentation of individual loan opportunities alongside compelling visual statistics and success stories, creating a highly engaging and trustworthy experience that encourages direct participation in global development.",
+  "animation_tech": [],
+  "status": "approved"
+}

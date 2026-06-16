@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0224",
+  "source": {
+    "url": "https://www.nvidia.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0224.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0224__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0224__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0224__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.nvidia.com/en-us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0224__p2.webp"
+      },
+      {
+        "url": "https://www.nvidia.com/es-la",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0224__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "hardware",
+      "ai",
+      "gaming"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections below the hero utilize a full-width container with a centered, constrained inner content area, consistently presenting information in a grid of cards (typically 3-4 columns) for related articles or events."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, distinct brand green is strategically used as a primary accent color for call-to-action buttons, hero elements, and the brand logo, providing strong visual contrast against dark and white backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar is sticky and transforms on scroll, reducing its height and gaining a solid dark background as it fixes to the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background image within a prominent hexagonal geometric overlay that exhibits a subtle parallax effect, moving slower than the foreground text and button content as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content category (e.g., 'Artificial Intelligence', 'Gaming and Creating') is introduced with a large, bold heading, a descriptive paragraph, and a 'Quick Links' dropdown, followed by a grid of relevant content cards."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically adjusts its height and background appearance (e.g., from transparent to solid dark) using CSS transitions or JavaScript triggered by scroll events.",
+    "Create a hero section with a background image that has a fixed attachment or a slower scroll rate than the foreground content, achieving a parallax effect. Overlay this with a semi-transparent geometric pattern (e.g., SVG or CSS shapes) that also scrolls at a different rate or is fixed.",
+    "Utilize a responsive grid system for displaying content cards, ensuring consistent spacing and alignment across various screen sizes, with clear image, category, and title elements within each card."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#76B900",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NVIDIA Sans",
+        "role": "heading"
+      },
+      {
+        "family": "NVIDIA Sans",
+        "role": "body"
+      },
+      {
+        "family": "Font Awesome 6 Pro",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero heading (~4-5x body) with a clear hierarchy down to small, uppercase labels on content cards.",
+    "radius": "Sharp for most content blocks and images, with subtle rounding applied only to interactive elements like buttons.",
+    "spacing": "Balanced to airy, characterized by generous vertical spacing between major content sections and consistent, well-defined grid spacing for content cards."
+  },
+  "standout": "The site's design is distinctive for its bold and consistent use of a vibrant, geometric hexagonal overlay in the hero section, combined with a subtle parallax effect, which immediately establishes a strong brand identity. This signature green is effectively leveraged throughout the site as a powerful accent, making the brand instantly recognizable.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0189",
+  "source": {
+    "url": "https://www.betterhelp.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0189.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0189__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0189__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0189__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "telehealth"
+    ],
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with distinct background colors are frequently separated by large, organic, wavy shapes, creating soft visual transitions."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layouts are used for feature descriptions, pairing concise text with relevant illustrations or photographs."
+    },
+    {
+      "kind": "color",
+      "note": "A calming dark green serves as a primary background color, complemented by a lighter accent green for organic separators and a soft off-white for main content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "Content blocks and entire sections are revealed with a subtle fade-in and upward slide animation as they scroll into the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, centered sans-serif headings are used for section titles, establishing clear hierarchy with varying sizes and weights."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a card-based navigation system, using friendly, diverse illustrations to represent different user types (Individual, Couples, Teen)."
+    }
+  ],
+  "technique_notes": [
+    "Sections and individual content blocks are revealed with a subtle fade-in and upward slide animation as they scroll into view, creating a dynamic but smooth content flow, likely managed by an Animate On Scroll (AOS) library.",
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access to site links and calls to action without changing its visual style.",
+    "Background colors transition between sections using large, organic, wave-like shapes that act as visual dividers, adding a soft, natural feel to the page flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#337755",
+        "role": "background"
+      },
+      {
+        "hex": "#BDE8B5",
+        "role": "accent"
+      },
+      {
+        "hex": "#DEF6D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#555555",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with a clear hierarchy, while body text is consistently sized for readability.",
+    "radius": "Subtle rounding on buttons and cards, maintaining a soft, approachable feel.",
+    "spacing": "Balanced and airy, with generous vertical padding between sections and comfortable line spacing for text, creating an open and uncluttered appearance."
+  },
+  "standout": "The site's distinctive use of large, organic, wave-like background shapes to transition between full-width color sections creates a unique visual rhythm and a soft, approachable aesthetic that stands out from typical hard-edged section dividers. This, combined with friendly illustrations and a calming color palette, effectively conveys a sense of empathy and trustworthiness.",
+  "animation_tech": [
+    "aos",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

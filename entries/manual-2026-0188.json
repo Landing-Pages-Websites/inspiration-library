@@ -1,0 +1,139 @@
+{
+  "id": "manual-2026-0188",
+  "source": {
+    "url": "https://www.bcg.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0188.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0188__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0188__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0188__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.bcg.com/x",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0188__p2.webp"
+      },
+      {
+        "url": "https://www.bcg.com/bcg-answer",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0188__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "management-consulting",
+      "technology-consulting",
+      "ai-solutions"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background colors (dark green, light green, off-white) are used to clearly delineate major content blocks, with content centered within a consistent max-width container."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings for hero and major section titles, complemented by smaller, often uppercase, sans-serif labels for contextual information."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette revolves around a sophisticated range of greens (dark, light, vibrant accent) contrasted with deep charcoal for text and clean off-white/light grey for backgrounds and card surfaces."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport across all scroll depths, ensuring persistent access to site navigation and branding."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic, subtly animated background of shifting green gradients and abstract shapes, creating a sense of depth and modern technology."
+    },
+    {
+      "kind": "section",
+      "note": "Content is frequently presented in asymmetrical layouts, pairing large images or video embeds with adjacent text blocks or card grids, creating visual interest and dynamic balance."
+    }
+  ],
+  "technique_notes": [
+    "A persistent, sticky navigation bar maintains brand presence and access to key actions throughout the user's scroll journey.",
+    "The hero section features a generative background animation, likely implemented with a canvas, that creates a subtle, shifting gradient of greens and abstract shapes, providing a dynamic yet non-distracting visual foundation.",
+    "Scroll-triggered animations, managed by a library like Locomotive Scroll, progressively reveal content sections and individual cards with a smooth fade-up or slide-in effect as they enter the viewport, enhancing content discovery and visual flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#212427",
+        "role": "text"
+      },
+      {
+        "hex": "#0c2b15",
+        "role": "background"
+      },
+      {
+        "hex": "#144622",
+        "role": "background"
+      },
+      {
+        "hex": "#e3fddb",
+        "role": "background"
+      },
+      {
+        "hex": "#a8f0b8",
+        "role": "background"
+      },
+      {
+        "hex": "#21bf61",
+        "role": "cta"
+      },
+      {
+        "hex": "#f2f2f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#d4d4d4",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "henderson-bcg-headline",
+        "role": "heading"
+      },
+      {
+        "family": "henderson-bcg-sans",
+        "role": "body"
+      },
+      {
+        "family": "henderson-bcg-serif",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (hero ~4-5x body) with clear hierarchy, complemented by smaller, often uppercase, sans-serif labels for context. Body text is legible and well-spaced.",
+    "radius": "Subtle rounding on buttons and input fields, but main content blocks and cards generally maintain sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a professional and breathable layout."
+  },
+  "standout": "The site's distinctive use of a dynamic, subtly animated green gradient background in the hero, combined with a sophisticated, smooth scrolling experience, elevates it beyond a standard corporate site. This creates an immersive and modern feel that subtly reinforces the 'deep tech' aspect of their brand.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

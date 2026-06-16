@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0215",
+  "source": {
+    "url": "https://www.lemonade.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0215.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0215__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0215__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0215__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "insurance",
+      "financial-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Centered content sections with full-width background colors, creating clear visual breaks between distinct content blocks while maintaining a consistent reading width."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant magenta accent color is used sparingly for CTAs and key highlights against a predominantly white and light grey background, creating high contrast and drawing immediate attention."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings establish a strong hierarchy, complemented by a lighter weight sans-serif for body text, maintaining readability and a modern, approachable feel."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header with the main navigation and logo persists at the top of the viewport as the user scrolls. New content sections reveal from the bottom with a subtle animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Custom, playful line-art illustrations are integrated into hero and process explanation sections, adding a distinctive brand personality and making complex information visually engaging."
+    }
+  ],
+  "technique_notes": [
+    "Full-width sections use alternating light background colors to visually separate content blocks. Content within these sections is horizontally centered and constrained to a readable width.",
+    "A fixed header element remains visible at the top of the screen, providing persistent navigation. Page sections are designed to appear with a subtle reveal animation as they scroll into the user's viewport, often using CSS keyframes for a smooth transition. Complex, engaging illustrations are implemented using Lottie animations to add dynamic visual interest to key sections.",
+    "Interactive elements like cards and buttons feature subtle rounded corners and use a bright accent color for their primary state, often with a slightly darker shade for hover states."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#282828",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#4A4A4A",
+        "role": "text-body"
+      },
+      {
+        "hex": "#FF0083",
+        "role": "accent"
+      },
+      {
+        "hex": "#B40060",
+        "role": "cta-hover"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, lighter sans-serif body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners (small radius) on buttons, cards, and input fields, maintaining a soft but not overly playful feel.",
+    "spacing": "Balanced density overall, with more airy spacing in the hero and between major sections, transitioning to a tighter grid for feature cards and footer links."
+  },
+  "standout": "The site stands out with its distinctive, playful line-art illustrations that humanize the typically dry insurance industry. These custom graphics, especially the Lottie-powered animations, inject personality and approachability into a clean, modern layout, making complex information feel light and engaging.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "approved"
+}

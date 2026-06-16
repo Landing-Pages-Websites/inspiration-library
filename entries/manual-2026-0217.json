@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0217",
+  "source": {
+    "url": "https://www.loewe.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0217.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0217__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0217__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0217__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.loewe.com/usa/en/sr",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0217__p2.webp"
+      },
+      {
+        "url": "https://www.loewe.com/usa/en/home",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0217__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "fashion",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution photography and video are used as primary section dividers and content blocks, often spanning the entire viewport width."
+    },
+    {
+      "kind": "type",
+      "note": "The brand name 'LOEWE' is presented in a distinct, large, custom sans-serif font, often integrated directly into hero imagery, while other headings and body text use a clean, modern sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of white and black for backgrounds and text is consistently contrasted with vibrant, rich colors from product photography and occasional brand accents like red and a golden yellow in the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page transforms on scroll, reducing its height and gaining a solid white background, while the initial hero image exhibits a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are predominantly visual, introduced by large, impactful images or video, with minimal accompanying text placed either as an overlay or directly beneath the visual."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented that dynamically shrinks in height and applies a solid background color as the user scrolls down the page, moving past the initial hero section. The hero section itself employs a subtle parallax scrolling effect, where the background image moves at a slower rate than the foreground content, creating a sense of depth.",
+    "The site's visual structure relies heavily on full-bleed, high-resolution imagery and video content that serves as primary section breaks and focal points. Text is used sparingly, often overlaid on these visuals with high contrast or placed in minimal blocks immediately adjacent to them."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ed1b30",
+        "role": "accent"
+      },
+      {
+        "hex": "#f2ca56",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Loewe",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Avus",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful display font for the brand logo and hero text, with a clear hierarchy down to smaller, legible sans-serif for body text and navigation. Headings are generally uppercase and well-spaced.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous whitespace around content blocks and between text elements, especially in the hero and image-heavy sections, contributing to a luxurious feel."
+  },
+  "standout": "The site's distinctive use of monumental, full-bleed photography and video as primary content blocks, often with the brand name integrated directly into the hero image, creates an immersive and highly visual brand experience that prioritizes aesthetic impact over dense information.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

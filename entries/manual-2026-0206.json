@@ -1,0 +1,99 @@
+{
+  "id": "manual-2026-0206",
+  "source": {
+    "url": "https://www.gymshark.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0206.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0206__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0206__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0206__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "activewear",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often using alternating dark and light background colors to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, contrasting with smaller, legible body text. Some labels and calls-to-action use uppercase styling."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochromatic palette of black, white, and light grey is used for the site's structure, with vibrant product photography providing the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page transforms on scroll, shrinking in height and gaining a solid black background from its initial transparent state."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections are organized into horizontal carousels or multi-column grids, often grouped by 'New In', 'Best Of', or 'Popular Right Now' categories."
+    }
+  ],
+  "technique_notes": [
+    "The sticky header's transformation is achieved by applying CSS transitions to its height and background color properties, triggered by a JavaScript event listener that adds a class when the user scrolls past a certain threshold.",
+    "Sections reveal themselves as they scroll into the viewport, likely using simple CSS keyframe animations for a subtle fade-in or slide-up effect, enhancing content discovery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear, readable body text and occasional uppercase labels.",
+    "radius": "sharp corners on all elements, including buttons, image containers, and cards.",
+    "spacing": "balanced to airy, with generous vertical padding between sections and within the hero area, while product grids maintain a more balanced density."
+  },
+  "standout": "This site stands out through its powerful use of high-quality, aspirational photography featuring diverse models in dynamic poses, which creates a strong emotional connection. The dark, high-contrast aesthetic combined with these vibrant product shots gives the brand a distinctive, luxe, and bold identity that elevates it beyond a typical e-commerce template.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "manual-2026-0235",
+  "source": {
+    "url": "https://www.snowflake.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0235.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0235__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0235__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0235__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.snowflake.com/en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0235__p2.webp"
+      },
+      {
+        "url": "https://www.snowflake.com/brand-guidelines",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0235__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-platform",
+      "cloud-computing"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A clean, multi-column grid system is consistently applied for presenting feature sets, content cards, and partner logos, ensuring clear organization and readability across various content types."
+    },
+    {
+      "kind": "type",
+      "note": "Major headings and calls to action utilize a bold, often uppercase sans-serif typeface (Texta) for strong visual impact, while body text employs a highly readable, neutral sans-serif (Lato) for clarity."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, branded blue (#0077E4) serves as the primary accent color for CTAs, interactive elements, and key branding, balanced by extensive white space and subtle light blue/teal backgrounds for section differentiation."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background graphic (mountains/iceberg) that exhibits a subtle parallax effect, moving at a slower rate than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from an initially transparent state, integrated into the hero, to a solid blue bar with a subtle shadow and fixed position as the user scrolls past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated through alternating background colors (white, light blue, light teal) and generous vertical padding, creating distinct visual blocks that aid content scanning."
+    }
+  ],
+  "technique_notes": [
+    "The site's motion system leverages a combination of CSS keyframes and potentially GSAP for scroll-triggered effects. The sticky navigation bar transitions its background color and adds a subtle shadow using CSS transitions on scroll. The hero background parallax effect is likely achieved with CSS transforms or GSAP ScrollTrigger, applying a slower scroll speed to the background element. Other content sections and cards appear to fade up or slide in as they enter the viewport, suggesting the use of GSAP ScrollTrigger for staggered reveals.",
+    "A clean and modern aesthetic is achieved through a structured grid layout, ample white space, and card-based content presentation. Cards and buttons feature subtle rounded corners and soft drop shadows to provide depth without appearing heavy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0077E4",
+        "role": "primary-brand-blue"
+      },
+      {
+        "hex": "#042130",
+        "role": "midnight-dark-blue"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background-white"
+      },
+      {
+        "hex": "#535862",
+        "role": "body-text"
+      },
+      {
+        "hex": "#D4F0FA",
+        "role": "light-section-background"
+      },
+      {
+        "hex": "#C6EDF1",
+        "role": "light-accent-background"
+      },
+      {
+        "hex": "#00509D",
+        "role": "secondary-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Texta",
+        "role": "heading"
+      },
+      {
+        "family": "Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, often uppercase sans-serif headings (~3-5x body) establish strong hierarchy, complemented by a clear, readable sans-serif body text.",
+    "radius": "Subtle rounding (e.g., 4-8px) is consistently applied to buttons, input fields, and content cards, providing a soft, approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical padding between major sections and within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The site distinguishes itself with a dynamic and sophisticated hero section that combines a vibrant brand blue, a subtle parallax background, and a transforming sticky navigation. This creates a memorable and authoritative first impression that feels both modern and highly polished, effectively setting the tone for a leading tech company.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

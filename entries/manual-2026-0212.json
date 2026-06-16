@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0212",
+  "source": {
+    "url": "https://www.khanacademy.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0212.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0212__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0212__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0212__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "non-profit",
+      "e-learning"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with primary text and interactive CTA cards on one side, balanced by a dynamic image collage with abstract shapes on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold serif headings for impact and legible sans-serif for body text, creating strong contrast and readability."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, optimistic green accent color is used strategically for CTAs, icons, and illustrative elements against a largely neutral palette of white, light grey, and dark blue."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like cards and illustrations) reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, maintaining consistent access to site navigation without visual transformation."
+    },
+    {
+      "kind": "section",
+      "note": "Subject category sections are presented as expandable accordion-like cards within a grid, each with a distinct icon and detailed sub-topics."
+    }
+  ],
+  "technique_notes": [
+    "Uses scroll-triggered animations to progressively reveal content sections and individual elements with a gentle fade and slight upward translation as they become visible in the viewport, enhancing engagement (likely using locomotive-scroll).",
+    "The main navigation bar is implemented as a sticky element that remains fixed at the top of the browser window throughout the scroll, ensuring persistent access to key site functions.",
+    "Interactive call-to-action cards in the hero section are styled as distinct, subtly rounded buttons with an arrow indicator, inviting user interaction to select a role."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#2e3644",
+        "role": "heading"
+      },
+      {
+        "hex": "#656565",
+        "role": "text"
+      },
+      {
+        "hex": "#14bf96",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a3b5d",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Serif Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful serif headings (~3-4x body) with clear hierarchy, complemented by a clean, readable sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounding (small border-radius) applied consistently to buttons, input fields, and content cards.",
+    "spacing": "Generally airy with generous vertical spacing between major sections, balanced by a more compact layout within content cards and the footer."
+  },
+  "standout": "The site's distinctive blend of playful, hand-drawn-style illustrations and abstract shapes with a clean, structured layout creates an approachable yet authoritative educational experience. The visual storytelling through collages and dynamic elements makes complex information feel engaging and accessible.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

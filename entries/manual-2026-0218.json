@@ -1,0 +1,127 @@
+{
+  "id": "manual-2026-0218",
+  "source": {
+    "url": "https://www.mayoclinic.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0218.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0218__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0218__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0218__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.mayoclinic.org/uk",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0218__p2.webp"
+      },
+      {
+        "url": "https://www.mayoclinic.org/possible",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0218__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "healthcare",
+      "medical-services",
+      "hospital"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a two-column grid with a prominent image on one side and text/CTAs on the other, alternating image placement for visual rhythm."
+    },
+    {
+      "kind": "layout",
+      "note": "Key information and navigation are presented in card-like modules with subtle borders and imagery, such as locations and featured care areas."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive serif font is used for large, impactful headings, contrasting with a clean sans-serif for body text and subheadings to establish authority and readability."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, authoritative blue serves as the primary brand color, used for backgrounds and key elements, powerfully contrasted by a bright, energetic yellow for calls to action and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms on scroll, shrinking in height and changing from a transparent overlay to a solid white background with a blue logo, while the hero content below it scrolls up."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by alternating background colors (white, light gray, and deep blue) and full-width content blocks, creating a structured and organized flow down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video or image background with a dark overlay, over which the main heading and calls to action are positioned to remain visually prominent as the background scrolls or plays.",
+    "The primary navigation implements a sticky effect where it transitions from a transparent, overlaid state to a condensed, solid-background state with a color-shifted logo once the user scrolls past the hero section.",
+    "Content sections are designed to reveal dynamically as they enter the viewport, likely using a subtle fade-in or slide-up animation to introduce new information smoothly."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#002443",
+        "role": "background"
+      },
+      {
+        "hex": "#0057b8",
+        "role": "primary"
+      },
+      {
+        "hex": "#ffc72c",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#080808",
+        "role": "text"
+      },
+      {
+        "hex": "#696969",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#9d9d9d",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "mayo-display",
+        "role": "heading"
+      },
+      {
+        "family": "mayo-sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, authoritative serif headings (~3-4x body) are paired with clear, readable sans-serif body text, with uppercase sans-serif used for section labels.",
+    "radius": "Subtle rounding (approx. 4-8px) on buttons, input fields, and image corners, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced density with generous vertical spacing between major content sections, creating a clear hierarchy, while internal card layouts maintain a more compact, organized rhythm."
+  },
+  "standout": "This site distinctively blends a highly authoritative and sophisticated brand presence, conveyed through deep blues and elegant serif typography, with a human-centered and empathetic approach, evident in its imagery and clear communication. The strategic use of a vibrant yellow accent against the deep blue creates a memorable and energetic visual identity that avoids feeling sterile.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

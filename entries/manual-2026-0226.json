@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0226",
+  "source": {
+    "url": "https://www.oura.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0226.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0226__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0226__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0226__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "transport",
+      "public-services",
+      "regional-government"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a prominent, centrally-aligned search and ticket purchase module, acting as the primary functional hero element, rather than a large visual hero image."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-color palette is used for abstract background shapes, icons, and the logo, contrasting with a clean white background and a primary blue for interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy is established using a clean sans-serif for body text and slightly bolder sans-serif for headings, maintaining readability across various content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation header remains fixed at the top of the viewport as the user scrolls down, ensuring persistent access to core navigation and branding."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, clearly labeled sections, often utilizing card-based layouts for news items and service categories, with ample white space between sections."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element is positioned at the top of the viewport, maintaining visibility of the primary navigation and branding throughout the user's scroll journey. Content sections below it are revealed by standard vertical scrolling.",
+    "Card-based layouts are used to present digestible chunks of information, such as news articles or service options, with subtle shadows to give them depth.",
+    "A carousel component (swiper) is implemented for horizontal browsing of news and event items, allowing users to scroll through multiple entries within a confined space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#0071c2",
+        "role": "primary-cta"
+      },
+      {
+        "hex": "#f1f8fd",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#00497c",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#6b3460",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#fdf4ff",
+        "role": "accent-background-light"
+      },
+      {
+        "hex": "#591c4d",
+        "role": "accent-dark-purple"
+      },
+      {
+        "hex": "#0077a8",
+        "role": "link-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Roboto Slab",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A balanced type scale with clear sans-serif headings (Roboto Slab) that are distinct but not overly large, paired with a legible sans-serif body text (Roboto) for functional content.",
+    "radius": "Subtle rounding on cards, buttons, and input fields, contributing to a friendly and approachable feel.",
+    "spacing": "Balanced spacing with generous padding around main content blocks and within cards, creating an airy yet organized layout without feeling sparse."
+  },
+  "standout": "The site's distinctive use of a vibrant, multi-color abstract graphic language, integrated into the logo, background elements, and iconography, sets it apart. This playful visual identity is effectively combined with a highly functional, clean interface, creating a unique blend of authority and approachability.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

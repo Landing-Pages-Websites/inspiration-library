@@ -1,0 +1,131 @@
+{
+  "id": "manual-2026-0208",
+  "source": {
+    "url": "https://www.ideo.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0208.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0208__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0208__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0208__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ideo.com/iq",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0208__p2.webp"
+      },
+      {
+        "url": "https://www.ideo.com/about",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0208__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design-consulting",
+      "professional-services",
+      "innovation"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with a dark background are frequently used, often alternating with slightly different dark tones or featuring a bright accent color for contrast."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, oversized, and stylized display font is used for the hero headline, creating a strong visual impact, while other headings use a modern sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, pairing deep, sophisticated dark backgrounds with a vibrant, almost neon yellow as the primary accent and call-to-action color."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a fixed or slow-scrolling background image with an animated, abstract overlay of yellow dots that creates a parallax effect as the main content scrolls over it."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections throughout the site reveal with a subtle fade-up or slide-in animation as they enter the viewport, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Horizontal scrolling card carousels are used to present 'Latest' articles or featured content, allowing for efficient display of multiple items."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header remains visible at the top of the viewport, providing persistent navigation and branding as the user scrolls down the page.",
+    "The hero section combines a fixed background image with a semi-transparent, animated overlay of abstract graphic elements (like dots) that parallax over the main content as it scrolls, creating a sense of depth and dynamism.",
+    "Sections throughout the site are revealed with a staggered fade-up or slide-in animation as they enter the viewport, likely using a scroll-triggering library (detected css-keyframes)."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#151f27",
+        "role": "background"
+      },
+      {
+        "hex": "#d9ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#fdbf4e",
+        "role": "highlight"
+      },
+      {
+        "hex": "#393f42",
+        "role": "surface"
+      },
+      {
+        "hex": "#4f5659",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#253342",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Fhoscar",
+        "role": "display"
+      },
+      {
+        "family": "Manrope",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Helvetica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (Fhoscar) for the hero, large Manrope headings for sections, with a clear hierarchy down to legible body text.",
+    "radius": "Subtle (e.g., buttons, input fields, card corners have a slight rounding).",
+    "spacing": "Balanced overall, with an airy hero section and more dense content grids for featured items."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of corporate authority and creative playfulness. This is achieved through the high-contrast palette of deep darks and a vibrant, almost neon yellow, combined with unique hand-drawn graphic overlays and a bold display typeface in the hero section.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0245",
+  "source": {
+    "url": "https://wealthfront.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0245.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0245__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0245__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0245__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "investment",
+      "wealth-management"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, interactive 3D-rendered device graphic on the right, balanced by a concise value proposition and call-to-action on the left."
+    },
+    {
+      "kind": "color",
+      "note": "A primary deep indigo/purple color palette is used for backgrounds and key elements, contrasted with white for text and card surfaces, and subtle lighter purple gradients for visual depth."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a large, bold sans-serif font for strong impact and hierarchy, while body text is smaller and lighter, maintaining readability against varied backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport upon scroll, maintaining its original appearance. The hero section's 3D phone graphic subtly parallaxes against its background as the user scrolls, and its on-screen data animates dynamically."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented using a card-based layout, often against alternating light grey and purple background colors, providing clear visual separation and focus for each offering."
+    }
+  ],
+  "technique_notes": [
+    "The sticky navigation is implemented by fixing the header to the top of the viewport after a short scroll, without any visual transformation or shrinking.",
+    "The hero section features a prominent 3D-rendered device graphic, likely using canvas for its rendering and subtle parallax motion, while dynamic on-screen data is animated using Lottie for a sophisticated, interactive feel.",
+    "Content sections are introduced with a subtle reveal effect as they enter the viewport, where elements appear to slide or fade up from the bottom, creating a smooth and engaging scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#230b59",
+        "role": "background"
+      },
+      {
+        "hex": "#4840bb",
+        "role": "primary"
+      },
+      {
+        "hex": "#958cf2",
+        "role": "accent"
+      },
+      {
+        "hex": "#e5e2ff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f0f0f2",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#f6e9e2",
+        "role": "subtle-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~4-5x body text) create strong visual hierarchy, complemented by lighter, smaller body text for detail.",
+    "radius": "Subtle (cards and buttons feature a slight, consistent corner rounding, avoiding sharp edges or full pills).",
+    "spacing": "Balanced (comfortable padding around elements and sections, with a slightly more airy feel in the hero section)."
+  },
+  "standout": "This site distinguishes itself with the sophisticated use of a 3D-rendered, interactive phone graphic in the hero section, which displays dynamic, animated data. This, combined with a deep, rich purple color palette and clean typography, creates a premium and trustworthy feel for a financial product, effectively avoiding generic stock imagery and conveying a sense of modern authority.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "approved"
+}

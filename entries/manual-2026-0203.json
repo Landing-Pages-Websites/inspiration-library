@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0203",
+  "source": {
+    "url": "https://www.ferrari.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0203.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0203__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0203__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0203__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ferrari.com/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0203__p2.webp"
+      },
+      {
+        "url": "https://www.ferrari.com/en-EN/fda",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0203__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-cars",
+      "racing"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections with dynamic imagery or video are used extensively, often featuring a dark overlay to ensure text readability."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently employ a split-screen layout, dividing the viewport horizontally or vertically to showcase two distinct pieces of content side-by-side."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and key labels consistently use an uppercase, bold sans-serif font, reinforcing a strong and authoritative brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a high-contrast palette of deep blacks and whites, with the iconic Ferrari red used sparingly as a powerful accent for calls to action and branding."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-up animation as they scroll into the viewport, creating a dynamic and engaging browsing experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent overlay on the hero section to a solid dark background with white text once the user scrolls down the page."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed hero sections are implemented with a dark, semi-transparent overlay positioned over background images or videos to enhance text contrast and legibility.",
+    "Scroll-triggered animations are used to reveal content sections, where elements subtly fade in and slide upwards from the bottom as they enter the user's viewport, likely leveraging CSS keyframes.",
+    "The main navigation bar is designed to be sticky, dynamically changing its background from transparent to a solid dark color upon scrolling past the initial hero content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#181818",
+        "role": "surface"
+      },
+      {
+        "hex": "#303030",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#CDCBCB",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#FF2800",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large, bold, and often uppercase sans-serifs, while body text is a clear, readable sans-serif at a standard size, with smaller uppercase labels for subheadings.",
+    "radius": "Sharp for most structural elements and image cards, with subtle rounding on interactive elements like buttons.",
+    "spacing": "Balanced overall, featuring airy hero sections and more compact, grid-based layouts for news and article content."
+  },
+  "standout": "The site's design is distinctive for its bold, high-contrast aesthetic, leveraging deep blacks and whites with strategic pops of Ferrari red to convey luxury and performance. The immersive use of full-bleed dynamic media, combined with subtle scroll-triggered reveals, creates a premium and engaging brand experience that feels both modern and iconic.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

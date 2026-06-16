@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0232",
+  "source": {
+    "url": "https://www.rolls-roycemotorcars.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0232.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0232__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0232__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0232__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.rolls-roycemotorcars.com/en_US/home.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0232__p2.webp"
+      },
+      {
+        "url": "https://www.rolls-roycemotorcars.com/en_US/muse.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0232__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury",
+      "high-end-vehicles"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-definition video and image sections dominate the page, creating an immersive, cinematic experience that unfolds vertically."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use an elegant, widely-spaced sans-serif, often in uppercase, contrasting with smaller, highly legible body text and subtle uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark palette of deep browns, charcoals, and black serves as a backdrop for crisp white text, with minimal, precise accents of red and bronze from branding elements."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new full-bleed video or image sections reveal sequentially, often accompanied by text overlays and call-to-action buttons that fade or slide into view over the media."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-screen media-rich sections, with a dedicated 'Explore Further' section presenting three equal-width content cards."
+    }
+  ],
+  "technique_notes": [
+    "The site uses full-bleed video and image backgrounds for primary content sections, with text and interactive elements overlaid centrally. These sections are revealed sequentially as the user scrolls, often with a subtle fade-in or slide-up animation for the overlaid content, creating a dynamic, unfolding narrative. The initial hero is a looping video. This scroll-triggered reveal system is likely implemented using JavaScript for scroll detection and CSS keyframes for the element animations.",
+    "Typography is handled with a clear hierarchy: large, elegant sans-serifs for titles with generous letter-spacing, and a smaller, clean sans-serif for body text. Text overlays on dark media backgrounds use white for high contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#281432",
+        "role": "deep-background"
+      },
+      {
+        "hex": "#151515",
+        "role": "surface"
+      },
+      {
+        "hex": "#A72020",
+        "role": "accent"
+      },
+      {
+        "hex": "#B89A7F",
+        "role": "subtle-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized elegant headings with generous letter spacing, paired with smaller, highly legible body text and uppercase labels.",
+    "radius": "sharp for most elements, subtle rounding for interactive elements like buttons.",
+    "spacing": "airy overall, with generous vertical spacing between full-bleed sections, creating a sense of grandeur; content within cards is more balanced."
+  },
+  "standout": "The site's most distinctive feature is its immersive, cinematic presentation, utilizing full-bleed, high-definition video and photography as primary content sections that unfold sequentially. This creates a highly emotional and luxurious user journey, rather than a typical static page layout, making the browsing experience feel like an interactive film.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

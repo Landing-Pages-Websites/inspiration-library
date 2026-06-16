@@ -1,0 +1,104 @@
+{
+  "id": "manual-2026-0231",
+  "source": {
+    "url": "https://www.reformation.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0231.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0231__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0231__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0231__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-fashion photography serves as primary content blocks and section dividers, often with minimal text overlays, creating a magazine-like visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, heavy sans-serif typeface is used for the brand logo and large display headings, providing a bold, editorial character, contrasted with a lighter, more standard sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is predominantly monochromatic with white and black, allowing the vibrant colors of the product photography to stand out, with a subtle off-white/beige for background variation."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero images exhibit a subtle parallax effect on scroll, and content sections reveal with a gentle fade-in or slide-up as they enter the viewport. The primary navigation transforms into a compact, sticky black bar after scrolling past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage alternates between large, full-bleed editorial imagery (acting as visual anchors or secondary heroes) and clean, grid-based product displays, creating a dynamic browsing experience."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation library (like locomotive-scroll) to implement subtle parallax on large hero images and to reveal subsequent content sections with a staggered fade-in or slide-up effect as they become visible in the viewport. A larger initial navigation bar is replaced by a more compact, sticky navigation bar that appears from the top after the user scrolls past the hero section.",
+    "Achieves a high-fashion, editorial aesthetic by employing full-bleed photography for key visual statements, often with text overlaid directly onto the images using a strong contrast for readability.",
+    "Establishes a clear typographic hierarchy by pairing an oversized, heavy display sans-serif for brand and headline impact with a clean, legible sans-serif for all functional and descriptive text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#EEEDE4",
+        "role": "surface"
+      },
+      {
+        "hex": "#575757",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F50100",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Newtime R",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~3-4x body) create strong visual impact, while body and navigation text are clean and legible in a standard sans-serif.",
+    "radius": "Sharp corners are used consistently across all elements, including images, buttons, and input fields.",
+    "spacing": "Balanced to airy; generous vertical spacing between major sections, with product grids maintaining a moderate density."
+  },
+  "standout": "The site's design is distinctive for its bold, editorial use of full-bleed, high-fashion photography as the primary content vehicle, often with minimal text overlays, creating a browsing experience akin to a luxury fashion magazine. This visual-first approach, combined with a strong, distinctive sans-serif typeface for branding, elevates the product display beyond a typical e-commerce grid.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

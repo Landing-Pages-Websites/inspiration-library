@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0199",
+  "source": {
+    "url": "https://www.convex.dev",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0199.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0199__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0199__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0199__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "backend-services"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large textual content block on the left and a complex, multi-panel UI illustration on the right."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a dark background for primary sections and footer, alternating with a very light off-white background for other content sections to create strong visual contrast and rhythm."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonial section displays developer quotes within a grid of distinct cards, each featuring a profile image and a clear border."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent header navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented to maintain navigation visibility. Main content sections are revealed by scrolling into the viewport from the bottom, with subtle entrance animations (e.g., slight fade-up or slide-in) potentially applied using CSS keyframes as they become visible.",
+    "Complex, multi-panel UI illustrations are used prominently in hero and feature sections to visually demonstrate product functionality and user experience without relying solely on text.",
+    "Pixel art graphics are integrated as a consistent decorative motif, serving as background textures or standalone elements to reinforce a unique brand identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f1ff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#bab6c0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#fc618d",
+        "role": "cta"
+      },
+      {
+        "hex": "#d48a5a",
+        "role": "pixel-art-accent"
+      },
+      {
+        "hex": "#7bd88f",
+        "role": "success-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized bold hero (~3x body) with clear, readable body text and smaller, uppercase labels for categories.",
+    "radius": "Subtle rounded corners on buttons, cards, and UI elements.",
+    "spacing": "Airy sections with generous vertical padding, balanced content spacing within sections."
+  },
+  "standout": "The distinctive use of pixel art as a recurring decorative motif, combined with the complex, multi-panel UI illustrations, gives the site a unique blend of retro-tech aesthetic and modern SaaS functionality. The overall dark theme with vibrant accents also contributes to its character.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
