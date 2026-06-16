@@ -1,0 +1,108 @@
+{
+  "id": "manual-found-com-4fdad2",
+  "source": {
+    "url": "https://found.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-found-com-4fdad2.webp",
+    "scroll": [
+      "shots/_proposed/manual-found-com-4fdad2__scroll0.webp",
+      "shots/_proposed/manual-found-com-4fdad2__scroll1.webp",
+      "shots/_proposed/manual-found-com-4fdad2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fintech",
+      "business-banking"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark and light backgrounds, often featuring product UI mockups embedded directly into the layout."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of a large, elegant serif font for primary headings and a clean, modern sans-serif for body text and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring deep charcoal/black, crisp white, and a distinctive muted gold/green accent color used for branding and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, where elements within a section (like product UI mockups) subtly fade or slide into view as the section enters the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent use of realistic, layered product UI mockups (e.g., phone screens, laptop interfaces) as central visual elements within feature sections, demonstrating the product's functionality directly on the page."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar uses a sticky positioning technique to remain visible at the top of the viewport throughout scrolling.",
+    "The hero section incorporates a full-bleed video background that plays automatically, creating dynamic visual interest behind the primary headline and call to action.",
+    "Content sections are revealed using scroll-triggered animations, where elements within each section (such as product mockups or text blocks) subtly fade up or slide into their final positions as the user scrolls them into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#151418",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#a89d74",
+        "role": "accent"
+      },
+      {
+        "hex": "#6e7277",
+        "role": "text"
+      },
+      {
+        "hex": "#eff2f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#343239",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "quincy-cf",
+        "role": "heading"
+      },
+      {
+        "family": "Fakt",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (up to ~4-5x body text) with generous line height, paired with a clean, legible sans-serif for body and supporting text.",
+    "radius": "Subtle rounding (around 4-8px) on cards, buttons, and input fields, maintaining a soft but not overly playful feel.",
+    "spacing": "Balanced and airy, with ample vertical spacing between sections and within content blocks, creating a sense of calm and readability."
+  },
+  "standout": "The site's distinctive use of highly realistic, layered product UI mockups, often animated on scroll, directly within the marketing content. This approach effectively demonstrates the product's functionality and interface without requiring a separate demo, making the value proposition immediately tangible. The sophisticated serif/sans-serif font pairing also adds a unique, authoritative feel.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

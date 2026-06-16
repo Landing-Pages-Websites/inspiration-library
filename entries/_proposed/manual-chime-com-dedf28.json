@@ -1,0 +1,105 @@
+{
+  "id": "manual-chime-com-dedf28",
+  "source": {
+    "url": "https://www.chime.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-chime-com-dedf28.webp",
+    "scroll": [
+      "shots/_proposed/manual-chime-com-dedf28__scroll0.webp",
+      "shots/_proposed/manual-chime-com-dedf28__scroll1.webp",
+      "shots/_proposed/manual-chime-com-dedf28__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "banking",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts often pair large, impactful text on one side with a prominent product image or graphic on the other, typically within a dark green full-bleed background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme uses a dominant deep forest green for backgrounds, paired with crisp white text and a vibrant, almost neon green for calls-to-action and key accent elements."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in an oversized, extremely bold sans-serif typeface, creating strong visual hierarchy and impact, while body text uses a clean, legible sans-serif."
+    },
+    {
+      "kind": "motion",
+      "note": "Key elements in the hero section, such as the phone graphic and a '5% CASH BACK' badge, exhibit a subtle parallax effect, moving at a different speed than the background as the user scrolls, with the badge then sticking to the top right."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by alternating background colors, primarily between the deep forest green and a very light, almost white-green, often featuring card-like elements for testimonials and feature descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar transitions from a transparent overlay with white text to a solid dark green background with a vibrant green CTA button, becoming sticky at the top of the viewport after scrolling past the hero section.",
+    "Hero elements, specifically the product phone graphic, are animated to scroll at a slower rate than the page background, creating a subtle depth and parallax effect.",
+    "Content sections are revealed with a staggered fade-in and slight upward slide animation as they enter the viewport, drawing attention to new information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d4029",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#00e676",
+        "role": "cta"
+      },
+      {
+        "hex": "#ecf9ee",
+        "role": "surface"
+      },
+      {
+        "hex": "#052316",
+        "role": "background-darker"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, extremely bold sans-serif headings (hero ~4-5x body text) create strong impact, complemented by clean, legible body text and smaller, often uppercase labels.",
+    "radius": "Subtle rounding (e.g., buttons, cards, phone screens) with a consistent small radius across interactive and display elements.",
+    "spacing": "Balanced density, with an airy hero section providing ample breathing room, transitioning to comfortable spacing between content blocks and a denser layout for legal disclaimers."
+  },
+  "standout": "The site's distinctive use of a deep, almost monochromatic dark green color palette, punctuated by a vibrant, almost neon green for accents and CTAs, creates a modern, premium, and highly branded feel. This strong color identity, combined with oversized, impactful typography, makes the design immediately recognizable and memorable.",
+  "animation_tech": [],
+  "status": "proposed"
+}

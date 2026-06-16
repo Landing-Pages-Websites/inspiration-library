@@ -1,0 +1,113 @@
+{
+  "id": "manual-quay-com-9e0c48",
+  "source": {
+    "url": "https://www.quay.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-quay-com-9e0c48.webp",
+    "scroll": [
+      "shots/_proposed/manual-quay-com-9e0c48__scroll0.webp",
+      "shots/_proposed/manual-quay-com-9e0c48__scroll1.webp",
+      "shots/_proposed/manual-quay-com-9e0c48__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "eyewear",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed lifestyle imagery and video are used extensively to showcase products in context, often serving as section backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic, elegant serif display font is contrasted with a clean, modern sans-serif for body and UI elements, creating a sophisticated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated neutral palette of white, light beige, and black forms the base, with subtle, context-driven accent colors (like a light green for promotional banners) providing visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-stage sticky header system is employed: an initial promotional bar disappears on scroll, the main navigation then becomes sticky, and a secondary promotional banner slides in below it, also becoming sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Product grids often feature a mix of clean product shots and aspirational lifestyle images, breaking the uniformity of typical e-commerce layouts."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered sticky header system. Initially, a top promotional bar is visible. Upon scrolling, this bar disappears, and the main navigation becomes fixed at the top. Further scrolling reveals a secondary promotional banner that slides into view below the sticky navigation, also becoming fixed. The hero video acts as a background element that scrolls beneath these sticky elements.",
+    "Full-bleed hero video and large lifestyle imagery are used to create an immersive brand experience, often with text overlays for key messages, leveraging the 'video-hero' animation tech.",
+    "Product displays integrate a mix of clean product photography and aspirational lifestyle shots within flexible grid layouts, often using a light beige background to differentiate sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EDEAE0",
+        "role": "surface"
+      },
+      {
+        "hex": "#800020",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#D4E0C9",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "gellix_regular",
+        "role": "body"
+      },
+      {
+        "family": "termina_medium",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif display font for hero headlines (~4-5x body) contrasted with a clean, balanced sans-serif for body and UI elements, with some bold uppercase labels.",
+    "radius": "subtle \u2014 primarily on buttons and input fields, maintaining a clean edge elsewhere.",
+    "spacing": "airy \u2014 particularly in hero and lifestyle sections, with balanced density in product grids and footer."
+  },
+  "standout": "The site's distinctive use of a dramatic, elegant serif font for hero headlines, combined with full-bleed lifestyle video and imagery, creates a high-fashion, editorial feel that elevates the product beyond typical e-commerce. The multi-stage sticky header system also adds a refined, dynamic touch to the user experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "manual-oscar-com-dc2998",
+  "source": {
+    "url": "https://www.oscar.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-oscar-com-dc2998.webp",
+    "scroll": [
+      "shots/_proposed/manual-oscar-com-dc2998__scroll0.webp",
+      "shots/_proposed/manual-oscar-com-dc2998__scroll1.webp",
+      "shots/_proposed/manual-oscar-com-dc2998__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "entertainment",
+      "media",
+      "television"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented on a dark background using a combination of a large hero image block, a 2x2 grid for featured articles, and horizontal carousels for browsing news and recommended shows."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently uppercase sans-serif, providing clear content segmentation, while article titles use a larger, mixed-case sans-serif for prominence."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark theme (black background, white text) is accented by a distinct reddish-brown bar in the social footer section, creating a sophisticated contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky header navigation bar remains fixed at the top of the viewport as the user scrolls down the page, maintaining access to core navigation and branding."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content category, such as 'LATEST OSCARS NEWS' and 'RECOMMENDED SHOWS', is introduced by a full-width section heading and features a horizontally scrollable carousel of image-based cards."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that maintains its position at the top of the viewport during vertical scrolling. Content sections are revealed by standard vertical scrolling, with no apparent scroll-triggered animations for section entry. Horizontal carousels are used within sections for browsing content, indicated by navigation arrows."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#7A3D1F",
+        "role": "accent"
+      },
+      {
+        "hex": "#4D4D4D",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inspire",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Prominent sans-serif headings (uppercase for section titles) with a clear hierarchy, supported by smaller, legible body and link text.",
+    "radius": "Subtle rounded corners on image cards and interactive elements, contrasting with sharp edges for the overall page layout.",
+    "spacing": "Balanced spacing between content blocks and within carousels, providing clear visual separation without feeling overly dense or airy."
+  },
+  "standout": "The site's distinctive dark, almost cinematic aesthetic, combined with a strong emphasis on large, image-rich content cards and horizontal carousels, creates an immersive browsing experience for media consumption. The integrated Rolex advertisement within the sticky header also adds a unique, high-end brand partnership feel.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

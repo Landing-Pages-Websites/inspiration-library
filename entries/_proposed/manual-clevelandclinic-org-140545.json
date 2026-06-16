@@ -1,0 +1,107 @@
+{
+  "id": "manual-clevelandclinic-org-140545",
+  "source": {
+    "url": "https://www.clevelandclinic.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-clevelandclinic-org-140545.webp",
+    "scroll": [
+      "shots/_proposed/manual-clevelandclinic-org-140545__scroll0.webp",
+      "shots/_proposed/manual-clevelandclinic-org-140545__scroll1.webp",
+      "shots/_proposed/manual-clevelandclinic-org-140545__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "healthcare",
+      "hospital",
+      "medical-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently presented within a centered, fixed-width container, while section backgrounds span full-width, creating a clear visual boundary for information."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a slightly condensed sans-serif font (Roboto Condensed) for a modern, efficient feel, while body text uses a standard, highly readable sans-serif (Roboto-Regular)."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent brand blue is used as the primary accent color for all interactive elements, links, and calls-to-action, providing clear visual cues for user interaction."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar is sticky and transforms upon scroll, reducing its height and changing from a transparent background to a solid white background after passing the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Information is frequently organized into a grid of card-like blocks, each featuring a distinct illustration or icon, a concise title, and a brief description, making complex services digestible."
+    },
+    {
+      "kind": "section",
+      "note": "Accordion components are used to manage content density, particularly for 'For Providers' and 'News & More' sections, allowing users to expand details as needed."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed hero image with a dark overlay to ensure text contrast, followed by content sections that alternate between white and light gray backgrounds to delineate information blocks.",
+    "A sticky header is implemented that dynamically adjusts its height and background color as the user scrolls past the initial hero content, providing a compact and persistent navigation experience.",
+    "Content is structured using a flexible grid system, typically featuring three-column layouts for feature overviews and two-column arrangements for more detailed information, all contained within a central content well."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#0077C8",
+        "role": "accent"
+      },
+      {
+        "hex": "#004B8D",
+        "role": "dark-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Balanced hierarchy with a large hero heading (~3x body) and clear, proportional subheadings; body text is highly readable, and labels often use uppercase for emphasis.",
+    "radius": "Subtle; cards and buttons feature very slight corner rounding, maintaining a clean and professional aesthetic.",
+    "spacing": "Balanced; sections have generous vertical padding, creating an airy feel between major content blocks, while internal content is well-aligned and moderately dense."
+  },
+  "standout": "This site stands out for its ability to present a vast amount of complex medical information in an exceptionally clear, organized, and approachable manner. The consistent use of friendly, illustrative icons and a robust information architecture makes navigating a large institutional site feel intuitive and user-friendly, rather than overwhelming.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "manual-intercom-com-a08537",
+  "source": {
+    "url": "https://www.intercom.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-intercom-com-a08537.webp",
+    "scroll": [
+      "shots/_proposed/manual-intercom-com-a08537__scroll0.webp",
+      "shots/_proposed/manual-intercom-com-a08537__scroll1.webp",
+      "shots/_proposed/manual-intercom-com-a08537__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.intercom.com/pricing",
+        "full": "shots/_proposed/manual-intercom-com-a08537__p2.webp"
+      },
+      {
+        "url": "https://www.intercom.com/app-store",
+        "full": "shots/_proposed/manual-intercom-com-a08537__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "customer-service",
+      "ai-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout combining oversized typography with a dynamic, collage-like collection of small, diverse images."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, extra-large sans-serif headings are used for primary messaging, creating strong visual hierarchy against smaller, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark text on predominantly white or very light off-white backgrounds, with black used for primary call-to-action buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a fixed, subtly textured background that creates a parallax effect, while a collection of small images within the hero subtly slides horizontally as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections throughout the page reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar shrinks in height and gains a subtle shadow, becoming sticky to the top of the viewport after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently use alternating background colors (white and a very light beige) to visually separate distinct blocks of information."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented that transforms its height and adds a subtle shadow effect upon scroll, remaining fixed at the top of the viewport.",
+    "Scroll-triggered animations, likely using CSS keyframes, are used to reveal content sections with a subtle fade-up or slide-in effect as they enter the user's view.",
+    "The hero section employs a fixed background image with a subtle texture to create a parallax-like depth effect, while a collection of small, diverse images within the foreground of the hero section are animated to slide horizontally using CSS keyframes as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "primary-cta"
+      },
+      {
+        "hex": "#050505",
+        "role": "text"
+      },
+      {
+        "hex": "#313130",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F8F7F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, impactful headings (hero ~4-5x body) with clear hierarchy and smaller, legible body text.",
+    "radius": "Subtle (buttons, cards, input fields).",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, creating a clean, open feel."
+  },
+  "standout": "The site's distinctive use of a dynamic, collage-like hero section featuring a collection of small, diverse images that subtly animate horizontally upon scroll, combined with oversized, bold typography and a fixed, textured background, creates a sophisticated yet artistic first impression that avoids generic corporate aesthetics.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

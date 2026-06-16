@@ -1,0 +1,104 @@
+{
+  "id": "manual-tripadvisor-com-e48b9d",
+  "source": {
+    "url": "https://www.tripadvisor.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tripadvisor-com-e48b9d.webp",
+    "scroll": [
+      "shots/_proposed/manual-tripadvisor-com-e48b9d__scroll0.webp",
+      "shots/_proposed/manual-tripadvisor-com-e48b9d__scroll1.webp",
+      "shots/_proposed/manual-tripadvisor-com-e48b9d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "tourism",
+      "booking"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width background colors (white, vibrant green, dark green, black) while content within each section is consistently constrained to a central maximum width."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for strong impact, while body text and labels use a clean, legible sans-serif, often in uppercase for categories and filters."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green (#00eb5b) is used as a primary accent color for all interactive elements like CTAs, search bars, and key promotional blocks, creating high contrast against white and dark backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header, containing the logo, primary navigation, and search bar, remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Content is frequently presented in a card-based grid layout, featuring images, titles, and brief descriptions for various interests, experiences, and destinations."
+    }
+  ],
+  "technique_notes": [
+    "The main header is implemented as a sticky element, fixed to the top of the viewport so that navigation and search functionality are always accessible while the page content scrolls beneath it.",
+    "Promotional hero sections utilize a split layout within a full-bleed colored container, combining a large image on one side with a concise headline, descriptive text, and a prominent call-to-action on the other.",
+    "Content listings are structured as responsive cards, each featuring an image, title, and relevant details, arranged in a grid that adapts to different screen sizes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#00eb5b",
+        "role": "accent"
+      },
+      {
+        "hex": "#00210c",
+        "role": "surface"
+      },
+      {
+        "hex": "#292b2e",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) establish clear hierarchy, complemented by smaller, uppercase labels and standard body text.",
+    "radius": "Subtle (e.g., search bar, buttons, card corners have a slight curve).",
+    "spacing": "Balanced overall, with airy spacing in hero and major section breaks, but a denser grid for content cards."
+  },
+  "standout": "The site's design is distinctive for its bold and consistent use of a vibrant, almost neon green as a primary accent color, which injects energy and playfulness into the user interface. This color is strategically applied to key interactive elements and large promotional blocks, making the site feel modern and engaging without being overwhelming.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "manual-charitywater-org-8bad1c",
+  "source": {
+    "url": "https://www.charitywater.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-charitywater-org-8bad1c.webp",
+    "scroll": [
+      "shots/_proposed/manual-charitywater-org-8bad1c__scroll0.webp",
+      "shots/_proposed/manual-charitywater-org-8bad1c__scroll1.webp",
+      "shots/_proposed/manual-charitywater-org-8bad1c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.charitywater.org/crypto",
+        "full": "shots/_proposed/manual-charitywater-org-8bad1c__p2.webp"
+      },
+      {
+        "url": "https://www.charitywater.org/fundraise",
+        "full": "shots/_proposed/manual-charitywater-org-8bad1c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "charity",
+      "humanitarian-aid",
+      "water-conservation"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light cream and dark charcoal background sections create a clear visual rhythm and delineate content blocks, often with full-width imagery or content areas."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of a large, elegant serif display font for primary headings and a clean, modern sans-serif for body text and UI elements, with uppercase used for labels and calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring a warm cream, deep charcoal, and vibrant yellow accent, grounded by a calming teal in the hero, used to delineate sections and highlight calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background image that parallaxes, moving slower than the foreground content as the user scrolls. Subsequent content sections reveal with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent, full-width hero section with an emotional image and a direct, integrated donation form, immediately followed by educational content and multiple calls to action presented in a card-based layout."
+    }
+  ],
+  "technique_notes": [
+    "The hero background image is set to move at a slower rate than the foreground content, creating a subtle parallax scrolling effect. Content sections below the hero are animated to fade in and slide up slightly as they become visible in the viewport, enhancing engagement. The main navigation bar is fixed to the top of the screen after the initial scroll, remaining accessible. Horizontal content sections utilize a carousel component for browsing multiple items.",
+    "The site uses a responsive grid system for content arrangement, adapting layouts for different screen sizes while maintaining generous spacing. Interactive elements like buttons and input fields feature subtle rounded corners and clear hover states."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#00838f",
+        "role": "accent"
+      },
+      {
+        "hex": "#fcf8f0",
+        "role": "background"
+      },
+      {
+        "hex": "#222520",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffcc00",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#003366",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Kazimir Text Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Proxima Nova Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) with clean, legible sans-serif body text and small uppercase labels for UI elements.",
+    "radius": "Subtle rounded corners on buttons, input fields, and content cards, providing a soft, approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable spacing within content blocks, creating an open and inviting layout."
+  },
+  "standout": "This site stands out through its powerful, emotionally resonant photography, particularly in the hero, which is seamlessly integrated with a direct donation mechanism. The sophisticated typography, combining an elegant serif with a modern sans-serif, and a distinctive color palette of teal, cream, and bright yellow, elevate the design beyond typical non-profit sites, conveying a sense of authority and impact.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
