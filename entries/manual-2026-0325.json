@@ -1,0 +1,111 @@
+{
+  "id": "manual-2026-0325",
+  "source": {
+    "url": "https://www.priori.legal",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0325.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0325__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0325__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0325__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "legal",
+      "saas",
+      "professional-services"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections, with internal content constrained to a central maximum width, creating a structured and readable flow."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and contrasting brand palette of deep blue and bright purple is consistently used for primary call-to-action buttons, prominent feature cards, and section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Key content sections and feature cards reveal with a subtle animation (e.g., fade-up or slide-in) as the user scrolls down the page, creating a dynamic content discovery experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Horizontal scrolling carousels are used to present multiple client success stories or data visualizations within a single section, allowing users to explore content without excessive vertical scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent two-column card layouts, featuring a distinct blue and purple color scheme, are used to highlight core offerings and are echoed in the footer's call-to-action section with similar styling."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for impact and clear hierarchy, complemented by clean, readable sans-serif body text and smaller, often uppercase, labels."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation library (like GSAP or ScrollMagic, as detected) to reveal content sections with a subtle fade-up or slide-in effect as they enter the viewport, enhancing engagement and guiding the user's eye.",
+    "Interactive horizontal carousels are implemented with navigation arrows, allowing users to swipe or click through a series of content cards, effectively displaying a large amount of related information in a compact space.",
+    "The design employs a strong brand color palette, using a deep blue for foundational elements and vibrant blue and purple as primary accents for interactive components and key content blocks, ensuring visual consistency and brand recognition."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a1370",
+        "role": "background"
+      },
+      {
+        "hex": "#005de9",
+        "role": "accent"
+      },
+      {
+        "hex": "#9213b2",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ddd",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (hero ~3-4x body) with clear, readable sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on interactive elements and cards (e.g., 4-8px radius).",
+    "spacing": "Balanced to airy. The hero section is airy, while content sections maintain a balanced density with clear visual separation between elements and sections."
+  },
+  "standout": "The site's distinctive use of a vibrant, contrasting blue and purple color palette, particularly in its prominent two-column feature cards and footer CTA, creates a strong and memorable brand identity. The integration of horizontal scrolling carousels for showcasing client results and data visualizations also stands out as an engaging and efficient way to present detailed content.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "scrollmagic",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

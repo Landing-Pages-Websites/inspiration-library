@@ -1,0 +1,110 @@
+{
+  "id": "manual-2026-0308",
+  "source": {
+    "url": "https://www.maze.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0308.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0308__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0308__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0308__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "user-research",
+      "product-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed background sections (white, light beige, vibrant green) create clear visual breaks and hierarchy across the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, oversized sans-serif headings are used for main section titles, often with a single key word highlighted or on its own line for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and a distinctive vibrant lime green is used to delineate sections and draw attention to key information and CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a dynamic scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features abstract background elements that parallax subtly behind the main text as the user scrolls, adding depth."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header navigation that remains visible throughout the scroll, ensuring constant access to main links and CTAs.",
+    "Scroll-triggered animations, likely using CSS keyframes or a JavaScript library, are used to reveal content sections with a staggered fade-in and slight upward translation as they become visible in the viewport.",
+    "The hero section utilizes a subtle parallax effect where abstract background graphics move at a slower rate than the foreground text, enhancing visual depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#F4F4F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#B2FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#EAE7E1",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: ArialMT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~4x body) are contrasted with smaller, legible body text and very small, uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., ~4-8px) are applied to buttons, input fields, and some card elements, while most section edges remain sharp.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness, balanced with tighter content grids."
+  },
+  "standout": "The site's design is distinctive for its bold and energetic use of a vibrant lime green as a primary accent color, which is strategically applied to full-bleed sections and key interactive elements. This, combined with oversized, clean typography and subtle scroll-triggered animations, creates a highly modern and dynamic user experience that feels both professional and visually engaging.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "manual-2026-0313",
+  "source": {
+    "url": "https://www.nanushka.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0313.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0313__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0313__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0313__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.nanushka.com/pages/grants-vekop",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0313__p2.webp"
+      },
+      {
+        "url": "https://www.nanushka.com/collections/bridal-edit",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0313__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section utilizes an asymmetric split-screen layout, presenting two large, distinct editorial images side-by-side, each with minimal text overlay."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and gaining a solid dark background as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero images exhibit a subtle parallax effect, scrolling vertically at a slower rate than the page content, creating a sense of depth as new sections are revealed."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic pairing uses a clean, modern sans-serif for most body text and navigation, contrasted with a distinctive, elegant serif font for display elements and subtle labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a refined, muted color palette dominated by neutral tones (whites, creams, grays, blacks), allowing the rich product photography to provide the primary visual interest and color accents."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header element transitions its background color from transparent to a solid dark, and its height reduces, once the user scrolls past the initial hero section, remaining fixed at the top of the page.",
+    "Large background images within the hero section are configured to scroll at a slower rate than the foreground content, creating a layered depth effect as the user scrolls down the page, often referred to as parallax scrolling.",
+    "Sections and content blocks are revealed with a smooth, scroll-triggered animation (likely using locomotive-scroll), appearing to slide or fade into view as they enter the viewport, enhancing the flow between content areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#2c2c2c",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: ABC Arizona Text",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Balanced heading sizes (approx. 2-3x body) with a clean sans-serif, complemented by small, uppercase sans-serif labels and an elegant serif for select display text.",
+    "radius": "sharp",
+    "spacing": "airy in hero and product grids, becoming more balanced in footer and informational sections"
+  },
+  "standout": "The site distinguishes itself with an editorial, art-gallery-like presentation, particularly in its hero and content blocks. It leverages large, high-quality photography with minimal text, creating a sophisticated and immersive browsing experience that feels more like a curated magazine than a typical e-commerce site.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

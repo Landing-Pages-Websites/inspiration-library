@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0336",
+  "source": {
+    "url": "https://www.springhealth.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0336.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0336__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0336__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0336__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width hero imagery, centered text blocks, and multi-column grids for features or data presentation, often with a clear visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs a strong sans-serif typeface for all text, featuring oversized, bold headings for impact and clear, readable body text. Uppercase labels are used for sub-headings and navigation items."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of deep and vibrant greens is used for branding, calls-to-action, and section backgrounds, contrasted with clean white and light grey backgrounds, and dark grey text for readability."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent with white text to a solid dark green background with white text and a slightly reduced height as the user scrolls past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections animate into view with a subtle fade-in and slight upward translation as they enter the viewport, creating a dynamic and guided scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Key information is presented in distinct, full-width sections that often alternate background colors (white, light green, dark green) to visually segment content and guide the user down the page."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar uses a scroll listener to detect scroll depth, triggering a CSS class change that applies a solid background color, reduces its height, and adjusts text color for contrast.",
+    "Scroll-triggered animations, likely orchestrated with GSAP, reveal content sections by applying a subtle fade-in and a slight upward translate effect as they enter the viewport, enhancing engagement without being distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#01382e",
+        "role": "background"
+      },
+      {
+        "hex": "#068262",
+        "role": "accent"
+      },
+      {
+        "hex": "#effff2",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Muoto Medium 205 Tf",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, complemented by smaller, highly readable body text and uppercase labels.",
+    "radius": "subtle \u2014 a slight rounding on buttons, cards, and input fields.",
+    "spacing": "balanced \u2014 the hero section is airy, while subsequent content sections maintain a comfortable, structured density with clear padding between elements."
+  },
+  "standout": "This site stands out through its confident and empathetic messaging, paired with a clean, professional aesthetic that leverages a distinctive green color palette. The subtle scroll-triggered animations and clear information hierarchy create a trustworthy and engaging user experience without feeling overwhelming.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "approved"
+}

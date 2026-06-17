@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0334",
+  "source": {
+    "url": "https://www.sondermind.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0334.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0334__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0334__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0334__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.sondermind.com/faqs",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0334__p2.webp"
+      },
+      {
+        "url": "https://www.sondermind.com/payors",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0334__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "therapy",
+      "insurance"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, often with an image or graphic on one side and text on the other, sometimes with elements slightly overlapping or offset from the main content grid."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for large, elegant headings, while a clean, highly readable sans-serif font is used for body text and smaller labels, creating a clear and refined typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The primary brand color is a deep, muted teal/blue-green, used extensively for backgrounds and key text, complemented by warm off-white/beige backgrounds and a subtle gold accent for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-in and slight upward slide as they enter the viewport, creating a smooth and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive FAQ sections are used to provide detailed information, presented in an accordion format to manage content density."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (likely using css-keyframes as hinted) to reveal content sections. Elements like images and text blocks fade in and slide up slightly as they enter the viewport, creating a dynamic but smooth reading experience. The main navigation bar transforms into a sticky header after scrolling past the hero, reducing its height and gaining a solid background. The hero image also exhibits a subtle parallax effect, where the background image scrolls at a slower rate than the foreground text.",
+    "Content is structured within a wide, centered container, often using a flexible grid system to arrange text and imagery in asymmetrical two-column layouts. Full-bleed background colors and images are used to define distinct sections, with content layered over them, sometimes with subtle overlays for text contrast.",
+    "A clear typographic hierarchy is established by pairing a sophisticated serif font for large headings with a clean sans-serif for body text and smaller labels. Headings are often large and elegant, while body text is highly readable. Italicization is used sparingly for emphasis within headings."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#004455",
+        "role": "primary-brand-color"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#161616",
+        "role": "text"
+      },
+      {
+        "hex": "#f1d77d",
+        "role": "cta"
+      },
+      {
+        "hex": "#8e4f17",
+        "role": "accent-brown"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Kepler Std",
+        "role": "heading"
+      },
+      {
+        "family": "Proxima Nova",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body size) with generous line height, paired with clear, readable sans-serif body text and smaller, often uppercase, sans-serif labels.",
+    "radius": "Subtle (for cards, buttons, and input fields), maintaining a clean, modern aesthetic.",
+    "spacing": "Airy (generous vertical and horizontal padding, especially in hero and between major sections), balanced (within content blocks)."
+  },
+  "standout": "The site distinguishes itself with a sophisticated, editorial aesthetic achieved through the elegant pairing of a classic serif display font for headings with a clean sans-serif for body text. This is complemented by a refined color palette of deep teal, warm beige, and muted gold, which feels both professional and inviting. The asymmetrical layouts and subtle scroll animations contribute to a premium, trustworthy feel that avoids generic marketing templates.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

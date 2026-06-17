@@ -1,0 +1,103 @@
+{
+  "id": "manual-2026-0285",
+  "source": {
+    "url": "https://www.epicgames.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0285.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0285__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0285__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0285__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "digital-storefront",
+      "software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed, full-width layout with content organized into horizontal carousels of game cards, allowing extensive browsing within categories."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette featuring a deep charcoal background, bright white text, and vibrant accent colors primarily derived from game art and CTA buttons."
+    },
+    {
+      "kind": "section",
+      "note": "Repeated use of 'category row' sections, each with a clear heading and a horizontally scrollable grid of game cards, often with price and discount information."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary hero banner at the top of the page functions as a content slider, cycling through featured games or promotions. The main navigation bar remains sticky at the top of the viewport during scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Game cards consistently feature a prominent image, title, and price, often with a discount badge, presented in a clean, minimalist container."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible at the top of the screen, providing persistent navigation and search access. The main hero section is built as a full-width content carousel, likely using a library like Swiper, to showcase rotating featured items with large imagery and overlaid text. Content sections below the hero are structured as horizontal scrollable grids, allowing users to browse numerous items within a category without navigating away. The overall dark theme is achieved by setting a deep charcoal background for the entire page and using white or light-colored text and icons for high readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2a2a2a",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#0078f2",
+        "role": "cta"
+      },
+      {
+        "hex": "#5e2a87",
+        "role": "accent"
+      },
+      {
+        "hex": "#3a3a3a",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Tight",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clear sans-serif hierarchy with distinct headings (~2x body) and readable body text, often accompanied by smaller, uppercase labels for categories.",
+    "radius": "Subtle rounded corners on cards, buttons, and main content containers, providing a soft, modern feel.",
+    "spacing": "Balanced density with generous padding around sections and within cards, ensuring content is easily scannable without feeling cramped."
+  },
+  "standout": "The site's immersive dark theme, combined with its extensive use of horizontal carousels for game discovery, creates a highly browsable and content-rich digital storefront experience. The design effectively balances a vast catalog with a clean, modern aesthetic, making it feel less like a traditional e-commerce site and more like a curated media platform.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

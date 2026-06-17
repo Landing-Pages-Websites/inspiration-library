@@ -1,0 +1,106 @@
+{
+  "id": "manual-2026-0329",
+  "source": {
+    "url": "https://www.riot.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0329.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0329__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0329__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0329__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "entertainment",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of horizontal scrolling carousels for content discovery in 'Games' and 'Esports & Entertainment' sections, allowing for a high density of visual content within a compact area."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings for section titles, often in white against a dark background, creating strong visual anchors and clear content hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark background palette (#050505) contrasted with bright white text and vibrant, often gradient-filled, accent colors (purples, blues, reds) for CTAs and illustrative elements, creating a high-contrast, immersive feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, where elements like headings and cards subtly fade in and slide up as they enter the viewport. The hero section features a background illustration that parallaxes behind the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width dark backgrounds, often featuring distinct content presentation methods such as a grid of news cards, horizontal carousels, and a split-layout 'hiring' section with statistics and a large illustrative image."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations, likely using CSS keyframes, to progressively reveal content. As the user scrolls, sections and their internal elements (like headings and cards) animate into view with a subtle fade-in and slight upward translation. The hero section's background image also utilizes a parallax effect, moving at a slower rate than the foreground content to add depth. The primary navigation bar is sticky, remaining fixed at the top of the viewport throughout the scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#551ed8",
+        "role": "accent"
+      },
+      {
+        "hex": "#e03131",
+        "role": "cta"
+      },
+      {
+        "hex": "#fcfcfc",
+        "role": "surface"
+      },
+      {
+        "hex": "#6f4acc",
+        "role": "accent-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual impact, while body text remains clear and legible, maintaining a balanced hierarchy.",
+    "radius": "Subtle to rounded; buttons and cards feature a noticeable but not overly aggressive corner curvature.",
+    "spacing": "Balanced; sections have generous vertical padding, while content within sections is well-spaced, and horizontal carousels are densely packed with visual content."
+  },
+  "standout": "The site's standout feature is its effective integration of a dark, immersive aesthetic with vibrant, game-world inspired illustrations and dynamic content carousels. The use of subtle scroll-triggered animations and parallax in the hero creates a premium, engaging feel without being distracting, making content discovery highly interactive.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

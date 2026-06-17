@@ -1,0 +1,111 @@
+{
+  "id": "manual-2026-0315",
+  "source": {
+    "url": "https://www.net-a-porter.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0315.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0315__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0315__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0315__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.net-a-porter.com/en-us/shop/sale",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0315__p2.webp"
+      },
+      {
+        "url": "https://www.net-a-porter.com/en-us/shop/new-in",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0315__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-retail",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A flexible grid system is used to present product listings and editorial content, often featuring full-width hero images or multi-column layouts for articles and curated selections."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic hierarchy combines a high-contrast, elegant serif font for prominent headings and display text with a clean, legible sans-serif for body copy, product details, and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette is monochromatic (black and white), allowing vibrant product photography to provide the main visual interest, with a striking red used sparingly for sale indicators and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header navigation remains fixed at the top of the viewport as the user scrolls, and a prominent promotional modal appears on page load, overlaying the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage intersperses curated product grids ('New In', 'Shop the Look') with rich editorial features ('Jodie Comer', 'NET-A-PORTER Live') and lifestyle content ('What to pack for your vacation'), creating a magazine-like browsing experience."
+    }
+  ],
+  "technique_notes": [
+    "A persistent header navigation is implemented to stick to the top of the viewport, ensuring key site links and search are always accessible. A full-screen promotional modal is triggered on page load, using CSS keyframes for its appearance, requiring user interaction to dismiss it before accessing the main content.",
+    "Full-bleed, high-resolution photography is central to the design, used for hero sections and editorial blocks, often serving as a backdrop for elegant text overlays. Product displays are presented in clean, minimal grids with subtle hover effects on items."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#CC0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Chronicle Display",
+        "role": "heading"
+      },
+      {
+        "family": "AkkuratPro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) for editorial sections, with smaller, clean sans-serif for body text and product details.",
+    "radius": "Sharp",
+    "spacing": "Balanced, with generous vertical spacing in editorial sections and tighter grids for product displays."
+  },
+  "standout": "The site masterfully blends high-fashion editorial content with a retail experience, using large, impactful photography and sophisticated typography to create a luxurious, magazine-like feel that elevates product browsing beyond a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

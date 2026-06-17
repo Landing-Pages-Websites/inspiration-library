@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0289",
+  "source": {
+    "url": "https://www.flos.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0289.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0289__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0289__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0289__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://flos.com/en/us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0289__p2.webp"
+      },
+      {
+        "url": "https://flos.com/en/wo",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0289__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "lighting",
+      "luxury-goods",
+      "home-decor",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive photography dominates hero and major content sections, often with text overlays positioned to maintain visual balance with the product imagery."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant serif font for large headings and a clean sans-serif for body text and UI elements, creating a high-end editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of black and white is extensively used for backgrounds and text, allowing the rich, warm tones of the product photography to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a gentle flow down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial transparent header transforms into a smaller, sticky header with a solid dark background and reduced branding elements upon scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero sections feature a subtle parallax effect where the background image scrolls slower than the foreground text and CTA, adding depth to the initial view."
+    },
+    {
+      "kind": "section",
+      "note": "Product categories are presented in a clean, responsive grid of image cards, each featuring a product image and minimal text, allowing for quick visual browsing."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero effect, a large background image is set to cover the viewport, with its scroll speed slightly slower than the main document scroll, while text content is positioned absolutely over it and scrolls with the page flow.",
+    "The navigation bar transitions from a transparent, full-height state to a condensed, sticky version with a solid background by detecting scroll position and applying a class that changes its height, background, and potentially font sizes or logo visibility.",
+    "Content sections are revealed using scroll-triggered animations that apply a fade-in and a slight translateY transformation as the element enters the user's viewport, often with a staggered delay for elements within a section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#BC644A",
+        "role": "accent"
+      },
+      {
+        "hex": "#146FF8",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4CFC7",
+        "role": "neutral"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cormorant",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, oversized serif headings (~3-4x body) are paired with clean, legible sans-serif body text and very small, often uppercase sans-serif labels, creating a distinct hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between sections and ample padding around content blocks create a sense of spaciousness and luxury."
+  },
+  "standout": "The site's standout feature is its sophisticated, gallery-like presentation of lighting products, where high-quality, art-directed photography and elegant typography combine to create an immersive, editorial brand experience that transcends typical e-commerce. The product itself (lighting) is central to the aesthetic, with images often highlighting the interplay of light and shadow.",
+  "animation_tech": [],
+  "status": "approved"
+}

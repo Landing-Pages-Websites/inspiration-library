@@ -1,0 +1,100 @@
+{
+  "id": "manual-2026-0287",
+  "source": {
+    "url": "https://www.feedly.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0287.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0287__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0287__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0287__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cybersecurity",
+      "threat-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections are used to create visual rhythm and clearly delineate content blocks, with dark sections often featuring inverted text colors."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green (#2BB24C) is consistently used as a primary accent color for call-to-action buttons, key highlights within product UI elements, and subtle background gradients or glows."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from a transparent overlay with white text to a solid white background with dark text and a slightly reduced height as the user scrolls down the page, becoming sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Complex, data-rich product UI screenshots are integrated as hero elements and section backgrounds, often featuring subtle green gradient overlays or glows to tie into the brand's accent color."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar uses a CSS transition to smoothly change its background color, text color, and height when the user scrolls past the initial hero section, making it a sticky element at the top of the viewport. Sections are revealed using a simple fade-in or slide-up animation as they enter the viewport, likely triggered by JavaScript (e.g., Intersection Observer).",
+    "Full-bleed product UI screenshots are used as hero and background elements, often enhanced with a subtle green gradient or glow effect applied over them to integrate with the brand's accent color and provide visual depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#2BB24C",
+        "role": "accent"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (~4-5x body text) establish a clear hierarchy, complemented by legible and well-spaced body text.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, input fields, and card elements, contributing to a clean, modern feel.",
+    "spacing": "Balanced overall, with generous vertical spacing between major sections to prevent visual clutter, and a more compact grid within feature and integration areas."
+  },
+  "standout": "This site distinguishes itself by making its complex product UI the central visual hero, integrating detailed screenshots directly into the marketing narrative. Instead of abstract imagery, it immediately showcases the software's capabilities and interface, enhanced by subtle green gradients that tie into the brand's accent color.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

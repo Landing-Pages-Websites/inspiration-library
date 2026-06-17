@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0257",
+  "source": {
+    "url": "https://www.bonvivant.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0257.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0257__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0257__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0257__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "domain-brokerage",
+      "digital-assets"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent two-column layout is used for the initial hero section, with the main content on the left and a critical action panel (purchase form) on the right, transitioning to a single-column layout for subsequent informational sections."
+    },
+    {
+      "kind": "color",
+      "note": "Primary calls-to-action utilize a vibrant, multi-color gradient (red to orange) that stands out against a predominantly white and light grey background with subtle purple and blue accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transitions from static to sticky, shrinking slightly in height as it fixes to the top of the viewport. A prominent purchase panel on the right side of the initial view becomes sticky as the user scrolls, remaining in view for a significant portion of the page before eventually scrolling out of sight."
+    },
+    {
+      "kind": "section",
+      "note": "All content, including feature lists, statistics, and FAQs, is organized into distinct, rounded-corner cards with subtle drop shadows, creating a modular and clean presentation."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar at the top of the page uses a scroll-triggered transformation to become fixed to the top of the viewport, simultaneously reducing its height to create a more compact sticky header.",
+    "A key purchase information panel on the right side of the initial view employs a sticky positioning effect, allowing it to remain visible as the user scrolls down the page, until its natural scroll position dictates it should move out of view.",
+    "Content is consistently presented within card-like containers, achieved by applying a subtle background color, generous padding, rounded corners, and a soft shadow effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F2F4F9",
+        "role": "surface"
+      },
+      {
+        "hex": "#19184A",
+        "role": "text"
+      },
+      {
+        "hex": "#727272",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#A78BFA",
+        "role": "accent"
+      },
+      {
+        "hex": "#0EA5E9",
+        "role": "accent"
+      },
+      {
+        "hex": "#637CF7",
+        "role": "verified-indicator"
+      },
+      {
+        "hex": "#FF6B6B",
+        "role": "cta-gradient-start"
+      },
+      {
+        "hex": "#FFA500",
+        "role": "cta-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Plus Jakarta Sans",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      },
+      {
+        "family": "Product Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) for sections, with smaller, lighter body text. Key statistics feature significantly oversized and bold numbers (~5x body) for emphasis.",
+    "radius": "Rounded corners are consistently applied to all interactive elements, cards, and input fields, creating a soft and approachable aesthetic.",
+    "spacing": "Balanced and airy, with generous padding within card components and ample vertical spacing between sections, contributing to a clean and uncluttered layout."
+  },
+  "standout": "The site's design stands out by effectively combining a high-value, single-item offering with a sophisticated, card-based UI. The partially sticky purchase panel on the right, coupled with a vibrant gradient CTA against a clean, muted background, creates a highly focused and trustworthy user experience for a premium product.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

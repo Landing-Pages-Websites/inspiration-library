@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0264",
+  "source": {
+    "url": "https://www.checkout.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0264.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0264__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0264__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0264__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "payments",
+      "financial-services"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dark-themed full-width sections with high-contrast white text, creating a sophisticated and modern aesthetic."
+    },
+    {
+      "kind": "layout",
+      "note": "Dynamic, asymmetrical grid layouts are used prominently in the hero section to showcase diverse use cases and in content sections for resources and articles."
+    },
+    {
+      "kind": "type",
+      "note": "Very large, bold, uppercase sans-serif typography is employed as impactful section dividers or statements, such as the 'PERFORMANCE' text, to create strong visual anchors."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme features a deep charcoal background with crisp white text, accented by a vibrant blue for interactive elements and a secondary orange for highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-up or slide-in animation as they enter the viewport during scroll, enhancing engagement."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent background to a solid dark background and becomes sticky at the top of the viewport after initial scroll."
+    }
+  ],
+  "technique_notes": [
+    "A dark, high-contrast visual theme is established with a deep charcoal background and bright white text, ensuring readability and a modern, premium aesthetic across the site.",
+    "Uses GSAP ScrollTrigger to orchestrate scroll-triggered animations, revealing content sections with a staggered fade-up or slide-in effect as they become visible in the viewport.",
+    "The main navigation bar employs a sticky behavior, initially transparent and full-width, then shrinking slightly and gaining a solid dark background after the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181818",
+        "role": "background"
+      },
+      {
+        "hex": "#272932",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#006cff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff9500",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#c6c1c1",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "light-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Roboto Bold",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-5x body) with clear, legible body text and smaller uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners on buttons, cards, and input fields, creating a soft, modern feel.",
+    "spacing": "Balanced density with airy hero and large typographic sections, transitioning to a more structured grid density for feature and resource listings."
+  },
+  "standout": "The site stands out with its sophisticated dark theme, employing a dynamic, asymmetrical grid in the hero that feels less static than typical hero sections. The use of extremely large, bold typography as a visual statement (e.g., 'PERFORMANCE') creates a powerful, almost architectural feel, elevating key messages beyond standard headings.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

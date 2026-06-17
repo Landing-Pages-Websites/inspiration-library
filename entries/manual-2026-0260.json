@@ -1,0 +1,124 @@
+{
+  "id": "manual-2026-0260",
+  "source": {
+    "url": "https://www.carta.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0260.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0260__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0260__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0260__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://carta.com/ai",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0260__p2.webp"
+      },
+      {
+        "url": "https://carta.com/customer-stories",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0260__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "private-equity",
+      "venture-capital",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections are used to visually separate major content blocks, with dark sections often featuring white text for contrast."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established using a large, elegant serif font for primary headings and a clean, readable sans-serif for body text and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette of black, white, and various shades of grey is accented by a warm orange/red for interactive elements and key data visualizations."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks (like cards and data points) reveal with a subtle fade-up or slide-up animation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The abstract globe graphic in the hero section features subtle internal animation and/or parallax, giving it a dynamic, interactive feel without being distracting."
+    },
+    {
+      "kind": "section",
+      "note": "Data points and feature lists are presented in balanced three-column grids, often with a bold number or icon leading the description."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport, providing persistent navigation and calls to action as the user scrolls.",
+    "Scroll-triggered reveals are implemented using CSS keyframes, causing content blocks to subtly fade and slide upwards as they enter the user's view, creating a dynamic browsing experience.",
+    "The hero section features an abstract, animated graphic that uses CSS keyframes to create subtle movement and interaction, enhancing visual engagement without relying on a full video."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#dedfdf",
+        "role": "surface"
+      },
+      {
+        "hex": "#a7aaaa",
+        "role": "border"
+      },
+      {
+        "hex": "#ff6633",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, elegant serif headings (~4-5x body text) with generous line height, paired with clear sans-serif body text and small, often uppercase, sans-serif labels.",
+    "radius": "Subtle rounding on buttons and card corners, typically 4-8px.",
+    "spacing": "Generally airy and spacious, particularly in the hero and between major sections, with balanced spacing within content grids."
+  },
+  "standout": "The site's design stands out through its sophisticated blend of elegant serif typography for impactful headings and a clean, modern layout. The abstract, subtly animated data visualizations in the hero and other sections are distinctive, conveying authority and innovation without being overly technical or flashy.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "manual-2026-0293",
+  "source": {
+    "url": "https://www.gitpod.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0293.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0293__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0293__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0293__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "enterprise-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in distinct, full-width sections that alternate between a clean white background and a dark, almost black, background, creating clear visual breaks and hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a very large, bold sans-serif typeface, creating a strong visual impact and clear hierarchy against smaller, legible body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette relies on high contrast between stark white backgrounds and very dark grey/black text and accent elements, with a subtle, warm orange used sparingly for interactive elements or highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent navigation bar sticks to the top of the viewport as the user scrolls down the page, maintaining its size and background."
+    },
+    {
+      "kind": "motion",
+      "note": "A temporary announcement banner slides into view from the bottom of the viewport when the user scrolls past the initial hero section, and then is no longer visible as the user scrolls further down."
+    },
+    {
+      "kind": "section",
+      "note": "The site frequently uses a 'partner showcase' section featuring a horizontal scrollable list of prominent company logos, indicating trust and adoption."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented with a fixed position, maintaining its height and background color throughout the scroll, ensuring constant access to navigation links.",
+    "A contextual announcement banner is positioned fixed to the bottom of the viewport, appearing with a slide-up animation when a certain scroll threshold is met, and then either automatically dismisses or slides out of view after further scrolling or a set duration.",
+    "Content sections are structured within a centered, maximum-width container, providing ample whitespace around the primary content blocks for readability and a clean aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#12100c",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffb45b",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual anchors, complemented by clear, readable body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounded corners are applied to interactive elements like buttons and cards, providing a soft touch without being overly rounded.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within the hero, balanced by a more standard density for feature grids and text blocks."
+  },
+  "standout": "The design's standout quality is its authoritative minimalism, achieved through the stark contrast of large, bold, dark typography against vast white space. This creates a highly sophisticated and confident brand presence that feels both modern and substantial, avoiding the generic 'clean' aesthetic by its sheer typographic impact and disciplined use of color.",
+  "animation_tech": [],
+  "status": "approved"
+}

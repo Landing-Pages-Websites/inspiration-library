@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0294",
+  "source": {
+    "url": "https://www.goop.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0294.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0294__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0294__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0294__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://goop.com/editorial",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0294__p2.webp"
+      },
+      {
+        "url": "https://goop.com/sale/c",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0294__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "fashion",
+      "wellness",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of horizontal scrolling carousels for product displays and editorial content, allowing for dense content presentation without excessive vertical scrolling."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layouts for editorial sections, combining larger hero images with smaller, multi-column article cards."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of a classic, elegant serif font for prominent headings and a clean, modern sans-serif for body text and navigation, creating a high-end editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist and neutral color palette (white, light grey, black, subtle cream) that allows the rich product photography and editorial imagery to be the primary source of color and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header navigation that remains visible at the top of the viewport after initial scroll, providing persistent access to key site sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Multiple horizontal scrolling content sections (powered by Swiper) that allow users to browse collections of products or articles without leaving the current page section."
+    },
+    {
+      "kind": "section",
+      "note": "Clear visual separation between content blocks using full-width background colors (mostly white) and distinct heading styles, creating a modular and easy-to-scan page structure."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header navigation that collapses slightly in height after the initial scroll, maintaining brand presence and key links.",
+    "Content sections are organized into a vertical stack, with many sections featuring horizontal carousels for browsing items, implemented using a JavaScript slider library like Swiper.",
+    "The overall page structure uses a clean grid system for product and editorial cards, often with asymmetrical arrangements to add visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#EFEBE6",
+        "role": "subtle-background-accent"
+      },
+      {
+        "hex": "#707070",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (hero ~4x body, section headings ~2x body) paired with a clean, legible sans-serif for body text and navigation, creating a sophisticated and editorial hierarchy.",
+    "radius": "Subtle rounding (2-4px) on buttons and some image containers, but predominantly sharp edges for a clean, modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within editorial layouts, while product grids maintain a tighter, consistent rhythm."
+  },
+  "standout": "The site masterfully blends high-end e-commerce with rich editorial content, creating a sophisticated online magazine experience where shopping feels integrated with discovery. The extensive use of horizontal scrolling carousels for both products and articles is a distinctive pattern that encourages exploration and keeps the user on the page.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

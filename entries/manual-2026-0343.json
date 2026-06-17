@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0343",
+  "source": {
+    "url": "https://www.uniswap.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0343.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0343__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0343__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0343__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://uniswap.org/trademark",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0343__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "crypto",
+      "defi",
+      "finance"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a maximum width, with full-width sections often serving as containers for these centered blocks, creating a clear visual hierarchy and focus."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings provide strong visual impact and hierarchy, contrasting with smaller, highly legible body text and compact uppercase labels for a modern, clean aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly clean white background is accented by vibrant, gradient-like colors (pink, green, purple) used for interactive elements, icons, and subtle background shapes, creating a playful yet sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Blurred, colorful abstract shapes in the background parallax slowly as the user scrolls, creating a sense of depth and dynamism behind the static content. The main navigation bar remains sticky at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Complex information is broken down into distinct, card-based sections, often with multiple cards arranged in a grid or cluster, each focusing on a specific feature or benefit with clear visual separation."
+    }
+  ],
+  "technique_notes": [
+    "The primary visual effect is a dynamic background layer of blurred, colorful abstract shapes that move at a slower rate than the foreground content, creating a parallax scrolling effect. This is likely achieved using CSS transforms or canvas animations triggered by scroll position. Sections and individual content cards likely reveal with a subtle fade-in or slide-up animation as they enter the viewport, leveraging CSS keyframes for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f9f9f9",
+        "role": "background"
+      },
+      {
+        "hex": "#131313",
+        "role": "text"
+      },
+      {
+        "hex": "#fc0fa4",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#0c8911",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#8247e5",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Basel",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) provide strong hierarchy, complemented by smaller, functional body text and uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and content cards, softening the overall aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and comfortable padding within content blocks, creating an open and uncluttered feel."
+  },
+  "standout": "The most distinctive element is the vibrant, blurred, and subtly animated background of floating abstract shapes, which adds a playful and modern character without distracting from the core content. This creates a unique brand identity that feels both sophisticated and approachable, setting it apart from typical crypto sites.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

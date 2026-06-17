@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0296",
+  "source": {
+    "url": "https://www.harvey.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0296.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0296__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0296__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0296__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.harvey.ai/blog",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0296__p2.webp"
+      },
+      {
+        "url": "https://www.harvey.ai/press",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0296__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "legal",
+      "saas",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section with a dark video background and left-aligned text overlay, setting a sophisticated tone."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, large serif display font for primary headings, contrasted with a clean, highly readable sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly dark theme using a very dark grey background with high-contrast white text, creating a luxurious and serious aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image/video exhibits a subtle parallax effect, scrolling slower than the foreground content. The main navigation bar transforms on scroll, shrinking slightly and gaining a solid dark background."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, often separated by significant vertical spacing and sometimes using alternating background shades (dark grey to slightly lighter dark grey)."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that reduces in height and changes its background from transparent to a solid dark color upon scrolling. The hero section utilizes a video or large image background that scrolls at a slower rate than the foreground text content, creating a subtle parallax depth effect. Content sections further down the page are revealed using scroll-triggered animations, likely a combination of fade-up and slide-in effects, orchestrated with CSS keyframes or a JavaScript animation library.",
+    "Achieve a sophisticated dark mode aesthetic by using a very dark grey as the primary background color, paired with pure white text for maximum contrast and readability. Hero images or videos are overlaid with a dark, subtle gradient to ensure text legibility without obscuring the background details entirely."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e1d1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#eeeeee",
+        "role": "surface"
+      },
+      {
+        "hex": "#0052b4",
+        "role": "accent"
+      },
+      {
+        "hex": "#d80027",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffda44",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "ArialMT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings with generous line height (~3-4x body) are paired with clean, legible sans-serif body text and smaller, often uppercase, sans-serif labels.",
+    "radius": "sharp",
+    "spacing": "airy, particularly in the hero and between major sections, with a balanced density within content blocks."
+  },
+  "standout": "The site's standout feature is its sophisticated and luxurious dark aesthetic, achieved through a dominant dark grey palette, elegant serif typography for headings, and subtle parallax motion in the hero. It avoids common bright, airy SaaS designs for a more authoritative and high-end feel.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
