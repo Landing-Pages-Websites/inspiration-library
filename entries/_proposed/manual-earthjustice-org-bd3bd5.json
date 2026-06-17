@@ -1,0 +1,123 @@
+{
+  "id": "manual-earthjustice-org-bd3bd5",
+  "source": {
+    "url": "https://www.earthjustice.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-earthjustice-org-bd3bd5.webp",
+    "scroll": [
+      "shots/_proposed/manual-earthjustice-org-bd3bd5__scroll0.webp",
+      "shots/_proposed/manual-earthjustice-org-bd3bd5__scroll1.webp",
+      "shots/_proposed/manual-earthjustice-org-bd3bd5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://earthjustice.org/",
+        "full": "shots/_proposed/manual-earthjustice-org-bd3bd5__p2.webp"
+      },
+      {
+        "url": "https://earthjustice.org/our-work",
+        "full": "shots/_proposed/manual-earthjustice-org-bd3bd5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "environmental",
+      "legal"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central max-width container, frequently employing two-column layouts for image/text pairings and three-column grids for statistics or feature summaries."
+    },
+    {
+      "kind": "type",
+      "note": "High-impact, bold, and often uppercase sans-serif headings are used to convey urgency and authority, contrasting with a more standard, readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark grey/black and white is punctuated by a vibrant yellow-green for primary calls to action and a warm orange for urgent campaign messaging."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header transitions from transparent to solid white with a subtle shadow upon scroll, while the hero background image exhibits a gentle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "A prominent hero section immediately presents a strong mission statement and a direct call to action, often accompanied by an urgent campaign overlay or modal."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its background from transparent to solid white and adds a subtle drop shadow as the user scrolls past the initial hero content.",
+    "A subtle parallax scrolling effect is applied to the hero background image, making it move at a slower rate than the foreground content to create a sense of depth, likely using CSS keyframes.",
+    "Calls to action are visually emphasized through the use of high-contrast, vibrant accent colors (yellow-green and orange) against the site's predominantly monochrome palette."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#aaff00",
+        "role": "cta"
+      },
+      {
+        "hex": "#f58220",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      },
+      {
+        "hex": "#c0c0c0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica",
+        "role": "body"
+      },
+      {
+        "family": "Trebuchet",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold, and often uppercase headings (up to ~4-5x body text) create strong visual hierarchy, supported by clear, readable body text.",
+    "radius": "Subtle rounding on interactive elements like buttons, while content blocks and images maintain sharp, defined corners.",
+    "spacing": "Balanced overall, with an airy hero section that uses ample negative space, transitioning to a more structured and moderately dense layout for content sections."
+  },
+  "standout": "The site immediately confronts the user with a bold, urgent call to action and a prominent donation modal, leveraging a high-contrast palette and impactful typography to convey a sense of immediate importance and authority. This direct, no-nonsense approach to fundraising and advocacy sets it apart.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

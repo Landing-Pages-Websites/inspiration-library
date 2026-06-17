@@ -1,0 +1,131 @@
+{
+  "id": "manual-gensler-com-67307c",
+  "source": {
+    "url": "https://www.gensler.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-gensler-com-67307c.webp",
+    "scroll": [
+      "shots/_proposed/manual-gensler-com-67307c__scroll0.webp",
+      "shots/_proposed/manual-gensler-com-67307c__scroll1.webp",
+      "shots/_proposed/manual-gensler-com-67307c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.gensler.com/blog",
+        "full": "shots/_proposed/manual-gensler-com-67307c__p2.webp"
+      },
+      {
+        "url": "https://www.gensler.com/about",
+        "full": "shots/_proposed/manual-gensler-com-67307c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "urban-planning",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed imagery and video are consistently used as dominant section backgrounds, often with text overlays, creating immersive visual experiences."
+    },
+    {
+      "kind": "layout",
+      "note": "A consistent multi-column grid system, typically 3-column, is used for presenting articles, news, and project cards across various sections and pages."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a distinct, slightly condensed sans-serif font, paired with a more readable sans-serif for body text, often with uppercase for subheadings and labels to create clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast dark mode sections are interspersed with light mode sections, creating clear visual breaks and emphasizing specific content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a prominent background video that plays automatically and scrolls out of view, revealing subsequent content without complex parallax effects."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar is sticky and maintains a compact state from the top of the page, providing persistent access to site links."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-width background video that plays automatically and is fixed in place until the user scrolls past it, creating an immediate immersive experience.",
+    "Content sections are revealed by scrolling, with no complex scroll-triggered animations like fade-ups or slides; the design relies on clear visual hierarchy and strong imagery to guide the user.",
+    "The main navigation bar is fixed to the top of the viewport and remains compact throughout the scroll, providing persistent access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F1C400",
+        "role": "accent"
+      },
+      {
+        "hex": "#C6530C",
+        "role": "cta"
+      },
+      {
+        "hex": "#66A33C",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SharpGrotesk-20",
+        "role": "heading"
+      },
+      {
+        "family": "KievitWebBold",
+        "role": "heading"
+      },
+      {
+        "family": "KievitWeb",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful headings (~3-4x body) with clear weight distinction, often paired with smaller, uppercase labels for emphasis.",
+    "radius": "Sharp corners are consistently used throughout for all elements, images, and buttons.",
+    "spacing": "Balanced density overall, with airy full-bleed hero and spotlight sections, transitioning to a tighter grid for articles and projects."
+  },
+  "standout": "The site's distinctive use of large-scale, immersive photography and video as primary content backdrops, combined with a clean, editorial layout, creates a strong sense of authority and visual impact. This approach makes the content feel substantial and aspirational, elevating the brand's perceived expertise and global reach.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

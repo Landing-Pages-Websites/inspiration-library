@@ -1,0 +1,120 @@
+{
+  "id": "manual-dwell-com-fd07dd",
+  "source": {
+    "url": "https://www.dwell.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-dwell-com-fd07dd.webp",
+    "scroll": [
+      "shots/_proposed/manual-dwell-com-fd07dd__scroll0.webp",
+      "shots/_proposed/manual-dwell-com-fd07dd__scroll1.webp",
+      "shots/_proposed/manual-dwell-com-fd07dd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.dwell.com/adus",
+        "full": "shots/_proposed/manual-dwell-com-fd07dd__p2.webp"
+      },
+      {
+        "url": "https://www.dwell.com/kids",
+        "full": "shots/_proposed/manual-dwell-com-fd07dd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "interior-design",
+      "publishing"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The main content area on the homepage uses a two-column layout, featuring a primary article list on the left and a sticky 'Current Issue' magazine promotion sidebar on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Article listings consistently use a horizontal layout with a left-aligned image thumbnail and a right-aligned text block containing the title, description, and author/date."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold serif headlines are used for main article titles, creating a strong editorial feel, contrasted with smaller, lighter sans-serif for body text and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of black text on a clean white background is dominant, accented by a distinct teal/blue for interactive elements like links and CTA buttons, and a dark grey for the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page remains sticky, fixed to the viewport as the user scrolls down, ensuring constant access to main site sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'Current Issue' sidebar on the homepage also employs a sticky behavior, remaining visible in the right column alongside the main content for a significant portion of the page scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width, high-impact promotional banners, such as 'Unlock The Best of Dwell', are strategically interspersed between article listings to break content flow and drive subscriptions."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a classic sticky header that stays fixed at the top of the viewport, ensuring navigation is always accessible regardless of scroll depth.",
+    "A right-hand sidebar containing a 'Current Issue' promotion is implemented with a sticky behavior, allowing it to remain in view alongside the main content as the user scrolls down the page.",
+    "Content sections and articles are revealed progressively as the user scrolls, with no complex scroll-triggered animations like fade-ins or parallax effects beyond the sticky elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#007bff",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffc107",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold serif headings (~3-4x body) with smaller, lighter sans-serif body text and even smaller uppercase sans-serif labels for metadata.",
+    "radius": "Subtle, with most elements featuring sharp corners and only very slight rounding on interactive elements or images.",
+    "spacing": "Balanced, providing good readability for articles, with slightly more airy spacing in hero sections and a denser grid for article listings on interior pages."
+  },
+  "standout": "The site's design stands out for its sophisticated editorial layout, effectively blending a traditional magazine aesthetic with modern web patterns. The prominent use of a classic serif font for headlines against a clean sans-serif body, combined with a sticky 'Current Issue' sidebar, creates an authoritative and immersive reading experience that feels more like a digital publication than a typical blog.",
+  "animation_tech": [],
+  "status": "proposed"
+}

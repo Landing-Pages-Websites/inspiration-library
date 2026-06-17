@@ -1,0 +1,108 @@
+{
+  "id": "manual-doctors-without-borders-org-322b5c",
+  "source": {
+    "url": "https://www.doctors-without-borders.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-doctors-without-borders-org-322b5c.webp",
+    "scroll": [
+      "shots/_proposed/manual-doctors-without-borders-org-322b5c__scroll0.webp",
+      "shots/_proposed/manual-doctors-without-borders-org-322b5c__scroll1.webp",
+      "shots/_proposed/manual-doctors-without-borders-org-322b5c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "humanitarian",
+      "non-profit",
+      "aid-organization"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with varying background colors (white, dark grey) are used to clearly delineate distinct content blocks and provide visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, condensed sans-serif typography is used for headlines, often in all caps for labels, creating a strong, authoritative, and urgent voice."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme primarily uses stark white, deep black, and a vibrant, urgent red as the primary accent and call-to-action color, emphasizing critical information."
+    },
+    {
+      "kind": "motion",
+      "note": "A top announcement bar slides up and out of view on scroll, revealing a sticky main navigation that transforms from an initial state to a solid black background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image appears to parallax or reveal more of its content as the user scrolls, with the main headline text scrolling up and out of view over the image."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-bleed horizontal sections, often featuring responsive grid layouts for news articles or feature cards."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a dynamic header system where an initial announcement bar is dismissed on scroll, and the primary navigation bar transitions from an initial state (possibly transparent or a different background) to a fixed, solid black background with white text, remaining sticky at the top of the viewport.",
+    "The hero section employs a parallax-like effect where the background image subtly shifts or reveals more of itself as the user scrolls, while the overlaying text content scrolls naturally over it, creating a sense of depth.",
+    "Content sections are structured using responsive grid layouts, presenting articles and features in a visually organized and digestible manner, often with image-heavy cards with clear titles and dates."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EE0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#D6D6D6",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GT America Condensed Medium",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, condensed headings (~3-4x body) with smaller, regular-weight sans-serif body text and very small, uppercase labels.",
+    "radius": "sharp",
+    "spacing": "Balanced, with generous vertical spacing in hero and section breaks, transitioning to a denser grid layout for article listings."
+  },
+  "standout": "The site's design is distinctive for its impactful and urgent tone, primarily achieved through the bold, condensed typography and the strategic, high-contrast use of a vibrant red against stark black and white. This creates a powerful visual identity that immediately conveys the serious nature of their work, avoiding a generic corporate feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "manual-datadoghq-com-3c92bd",
+  "source": {
+    "url": "https://www.datadoghq.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-datadoghq-com-3c92bd.webp",
+    "scroll": [
+      "shots/_proposed/manual-datadoghq-com-3c92bd__scroll0.webp",
+      "shots/_proposed/manual-datadoghq-com-3c92bd__scroll1.webp",
+      "shots/_proposed/manual-datadoghq-com-3c92bd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.datadoghq.com/blog",
+        "full": "shots/_proposed/manual-datadoghq-com-3c92bd__p2.webp"
+      },
+      {
+        "url": "https://www.datadoghq.com/trust",
+        "full": "shots/_proposed/manual-datadoghq-com-3c92bd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-monitoring",
+      "cybersecurity",
+      "devops"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content areas with vibrant gradient backgrounds and clean white backgrounds with constrained content."
+    },
+    {
+      "kind": "color",
+      "note": "A striking palette of deep purples, electric blues, and fuchsia gradients is used for background elements, contrasting sharply with white and dark grey content areas."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a bold, modern sans-serif, often in all caps for emphasis, creating a clear hierarchy against a readable sans-serif body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport and maintains its initial white background and dark text appearance without transforming or shrinking on scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Product features and benefits are often presented in visually distinct sections, some utilizing accordion-style content reveals or side-by-side layouts with large product screenshots."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, detailed 3D isometric illustration of a dashboard, providing a sophisticated visual representation of the product. While the provided screenshots show a static image, the detected animation tech indicates the design is built to accommodate a video hero.",
+    "Sections are visually differentiated by alternating full-bleed vibrant gradient backgrounds (combining purples, blues, and pinks) with clean white or solid dark purple backgrounds, creating clear visual breaks and a dynamic flow.",
+    "The site employs a sticky header navigation that retains its full height and styling as the user scrolls, providing persistent access to links without visual changes. No other scroll-triggered reveals or parallax effects are visibly implemented on the homepage based on the provided scroll sequence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#555555",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#110617",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#8000FF",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#0060FF",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#FF0080",
+        "role": "accent-pink"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy, paired with a readable sans-serif body text.",
+    "radius": "Subtle, with slightly rounded corners on buttons, cards, and input fields.",
+    "spacing": "Balanced, with generous vertical spacing between sections and within content blocks, creating an airy feel, especially in the hero."
+  },
+  "standout": "The distinctive use of complex, detailed 3D isometric illustrations for product visualization, combined with vibrant, dynamic gradient backgrounds, creates a high-tech and visually engaging aesthetic that avoids generic stock imagery.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

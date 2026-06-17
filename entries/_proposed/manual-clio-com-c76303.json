@@ -1,0 +1,101 @@
+{
+  "id": "manual-clio-com-c76303",
+  "source": {
+    "url": "https://www.clio.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-clio-com-c76303.webp",
+    "scroll": [
+      "shots/_proposed/manual-clio-com-c76303__scroll0.webp",
+      "shots/_proposed/manual-clio-com-c76303__scroll1.webp",
+      "shots/_proposed/manual-clio-com-c76303__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "legal",
+      "saas",
+      "legal-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Feature showcase with animated UI mockups: Many sections feature a large, detailed UI mockup or illustration that animates to demonstrate a feature, often accompanied by descriptive text and statistics."
+    },
+    {
+      "kind": "motion",
+      "note": "Progressive content reveal on scroll: Sections and their internal elements (especially UI mockups and statistics) fade in or slide up as they enter the viewport, creating a dynamic browsing experience."
+    },
+    {
+      "kind": "color",
+      "note": "Brand blue as primary interactive accent: A consistent, bright blue is used exclusively for primary call-to-action buttons, links, and key interactive elements, standing out against a largely neutral palette."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to progressively reveal content. As the user scrolls, entire sections, individual text blocks, and detailed UI mockups animate into view with subtle fade-up or slide-in transitions. The main navigation bar also transforms, becoming sticky and slightly more compact after the initial scroll depth. The hero section features a looping background video.",
+    "Information is structured into distinct, full-width sections with ample vertical padding, creating a clean and airy layout. Many sections utilize a split-layout, pairing a large, illustrative UI mockup or data visualization on one side with concise descriptive text and key statistics on the other, often alternating the visual's position for rhythm. Primary calls-to-action are rendered as solid, high-contrast blue buttons, while secondary actions are presented as outlined buttons or simple text links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a2e",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#1a73e8",
+        "role": "cta"
+      },
+      {
+        "hex": "#404040",
+        "role": "body-text"
+      },
+      {
+        "hex": "#f7f5f5",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#4a4a68",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~3-4x body text) establish clear hierarchy, complemented by a readable sans-serif body text.",
+    "radius": "Subtle (buttons, cards, and input fields feature a slight, consistent corner rounding).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable internal padding within content blocks."
+  },
+  "standout": "The site effectively uses animated, detailed UI mockups and data visualizations within its feature sections to dynamically illustrate complex software capabilities, making the product feel tangible and engaging without requiring a live demo. This goes beyond static screenshots or simple icons, providing a clear and interactive understanding of the product's value.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

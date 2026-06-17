@@ -1,0 +1,101 @@
+{
+  "id": "manual-fjordnet-com-63a5dd",
+  "source": {
+    "url": "https://www.fjordnet.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-fjordnet-com-63a5dd.webp",
+    "scroll": [
+      "shots/_proposed/manual-fjordnet-com-63a5dd__scroll0.webp",
+      "shots/_proposed/manual-fjordnet-com-63a5dd__scroll1.webp",
+      "shots/_proposed/manual-fjordnet-com-63a5dd__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "technology",
+      "design-agency"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site predominantly uses a dark mode layout with full-width sections, creating a high-contrast visual experience."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, pairing a deep black background with white text, punctuated by a single vibrant purple for accents and calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "A single, modern sans-serif typeface is used across the site, with significant variations in size and weight to establish a clear typographic hierarchy, from oversized hero headings to smaller body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar transforms upon scroll, changing from a transparent overlay to a sticky bar with a solid dark background and an added purple branding element at the top."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a large background image that scrolls at a different rate than the foreground text, eventually revealing a solid black background behind the text as the image scrolls out of view."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar that initially appears transparent over the hero, then transitions to a solid background with an added branding element (purple bar) and a slight height reduction after the user scrolls past the hero section.",
+    "The hero section features a large background image that scrolls at a different rate than the foreground text, creating a subtle parallax effect, eventually revealing a solid background behind the text as the image scrolls completely out of view.",
+    "Content sections below the hero appear to reveal with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement, likely utilizing detected animation tech like Lottie for dynamic elements and video for hero backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#A100FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, complemented by smaller, regular-weight body text for readability.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's distinctive use of a deep black background combined with a single, vibrant purple accent creates a sophisticated and bold aesthetic. The dynamic hero section, where the background image scrolls away to reveal a solid black behind the main text, is a memorable and elegant transition.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

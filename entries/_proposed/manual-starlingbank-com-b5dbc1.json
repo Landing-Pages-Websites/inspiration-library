@@ -1,0 +1,109 @@
+{
+  "id": "manual-starlingbank-com-b5dbc1",
+  "source": {
+    "url": "https://www.starlingbank.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-starlingbank-com-b5dbc1.webp",
+    "scroll": [
+      "shots/_proposed/manual-starlingbank-com-b5dbc1__scroll0.webp",
+      "shots/_proposed/manual-starlingbank-com-b5dbc1__scroll1.webp",
+      "shots/_proposed/manual-starlingbank-com-b5dbc1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "banking",
+      "fintech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds and full-width light backgrounds to create clear visual separation and rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary messaging, creating strong visual impact, while body text remains highly legible and clean."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich purple/brown (#321e37) is used as a dominant background color, providing a sophisticated and distinctive base, contrasted with a bright teal accent (#00E0B7)."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent state with light text to an opaque white background with dark text and a teal CTA button as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a full-bleed image of a hand holding a smartphone, directly showcasing the app experience, with a large headline overlaid for immediate impact."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the sticky navigation effect, the header element should be positioned fixed at the top of the viewport. On scroll, a JavaScript listener detects the scroll position, and once it passes a certain threshold, a class is added to the header to change its background to solid white, its text color to dark, and its button text color to dark while maintaining the teal button background.",
+    "Section delineation is achieved by applying distinct, full-width background colors to major content blocks, alternating between a deep, dark purple/brown and a light off-white or pure white. Content within these sections is typically centered and constrained to a maximum width."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#321e37",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#DCDCE6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#00E0B7",
+        "role": "accent"
+      },
+      {
+        "hex": "#706273",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#835e00",
+        "role": "accent-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) establish strong hierarchy, supported by clear and readable body text.",
+    "radius": "Subtle (buttons and cards feature a slight, consistent corner rounding).",
+    "spacing": "Balanced (generous vertical spacing between sections, comfortable padding within content blocks, and a clean grid for feature displays)."
+  },
+  "standout": "This site stands out with its sophisticated and distinctive color palette, particularly the use of a deep purple/brown as a primary brand color, which elevates it beyond typical corporate banking aesthetics. The prominent, app-centric hero section immediately communicates a modern, digital-first approach to banking.",
+  "animation_tech": [],
+  "status": "proposed"
+}

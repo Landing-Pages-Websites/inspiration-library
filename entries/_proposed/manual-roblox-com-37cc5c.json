@@ -1,0 +1,99 @@
+{
+  "id": "manual-roblox-com-37cc5c",
+  "source": {
+    "url": "https://www.roblox.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-roblox-com-37cc5c.webp",
+    "scroll": [
+      "shots/_proposed/manual-roblox-com-37cc5c__scroll0.webp",
+      "shots/_proposed/manual-roblox-com-37cc5c__scroll1.webp",
+      "shots/_proposed/manual-roblox-com-37cc5c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "entertainment",
+      "saas"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed, dynamic collage of game thumbnails forms the background, with a centrally positioned, semi-transparent content block for the primary signup form."
+    },
+    {
+      "kind": "motion",
+      "note": "The background image collage subtly parallaxes, moving slower than the scroll, while the central form and footer remain relatively fixed, creating a sense of depth."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, almost black background provides high contrast for white primary text and vibrant game imagery, with a distinct blue (#335fff) used consistently for interactive elements and links."
+    },
+    {
+      "kind": "section",
+      "note": "The page is structured around a prominent signup form, followed by a clear section for device download links, and a standard utility footer."
+    }
+  ],
+  "technique_notes": [
+    "The background image collage creates a sense of depth by moving at a slower rate than the foreground content as the user scrolls, achieving a parallax effect. The site also incorporates CSS keyframe animations for subtle dynamic elements, contributing to an engaging visual experience.",
+    "Interactive elements like buttons and links are highlighted using a consistent accent color to guide user attention and indicate interactivity.",
+    "Content blocks, such as the signup form, use a semi-transparent dark background to maintain readability against the busy background while allowing some of the background imagery to show through."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#335fff",
+        "role": "accent"
+      },
+      {
+        "hex": "#282828",
+        "role": "surface"
+      },
+      {
+        "hex": "#A3A3A3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Gotham",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Gotham",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Balanced sans-serif headings are moderately larger than body text, with a clear hierarchy but no extreme size variations.",
+    "radius": "Subtle rounding on input fields and buttons, giving a soft, approachable feel.",
+    "spacing": "Balanced density, with clear vertical rhythm between form elements and sections, but not overly airy."
+  },
+  "standout": "The most distinctive feature is the dynamic, full-bleed background composed of a collage of game thumbnails, which subtly parallaxes as the user scrolls. This creates an immersive and engaging visual experience that immediately communicates the product's nature (gaming) without being distracting from the primary signup action.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

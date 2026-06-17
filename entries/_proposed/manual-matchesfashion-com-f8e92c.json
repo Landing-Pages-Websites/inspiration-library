@@ -1,0 +1,86 @@
+{
+  "id": "manual-matchesfashion-com-f8e92c",
+  "source": {
+    "url": "https://www.matchesfashion.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-matchesfashion-com-f8e92c.webp",
+    "scroll": [
+      "shots/_proposed/manual-matchesfashion-com-f8e92c__scroll0.webp",
+      "shots/_proposed/manual-matchesfashion-com-f8e92c__scroll1.webp",
+      "shots/_proposed/manual-matchesfashion-com-f8e92c__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "fashion"
+    ],
+    "mood": [
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content block is centered both horizontally and vertically within the initial viewport, creating a strong focal point with ample negative space."
+    },
+    {
+      "kind": "color",
+      "note": "The entire page uses a single, soft pastel green as its background, creating a calm and cohesive visual field."
+    },
+    {
+      "kind": "type",
+      "note": "The main brand name uses a large, uppercase, widely tracked sans-serif font, providing a bold yet elegant statement, contrasted with smaller, regular-cased sans-serif for all supporting text."
+    },
+    {
+      "kind": "motion",
+      "note": "The entire page content scrolls vertically, revealing a standard footer section at the bottom of the page as the user scrolls down."
+    }
+  ],
+  "technique_notes": [
+    "The page content is contained within a single scrollable viewport, with the main call-to-action block centered using flexbox or grid properties. The footer is positioned at the very bottom of the content, naturally coming into view as the user scrolls to the end of the page without any special animation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#B3E0C3",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "button-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "p22-underground",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, uppercase, widely spaced heading (~3x body) with smaller, regular-weight body text.",
+    "radius": "Sharp corners for all interactive elements like the input field and button.",
+    "spacing": "Extremely airy, with significant vertical and horizontal negative space around all content elements, creating a sense of calm and focus."
+  },
+  "standout": "The site's extreme minimalism, using a single, soft pastel background color across the entire page, combined with a centered, sparse content block, creates a distinctive, almost art-gallery-like presentation for a 'coming soon' page. Its simplicity is its strength.",
+  "animation_tech": [],
+  "status": "proposed"
+}

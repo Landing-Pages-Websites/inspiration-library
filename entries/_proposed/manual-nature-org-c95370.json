@@ -1,0 +1,117 @@
+{
+  "id": "manual-nature-org-c95370",
+  "source": {
+    "url": "https://www.nature.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-nature-org-c95370.webp",
+    "scroll": [
+      "shots/_proposed/manual-nature-org-c95370__scroll0.webp",
+      "shots/_proposed/manual-nature-org-c95370__scroll1.webp",
+      "shots/_proposed/manual-nature-org-c95370__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.nature.org/en-us",
+        "full": "shots/_proposed/manual-nature-org-c95370__p2.webp"
+      },
+      {
+        "url": "https://www.nature.org/en-us/magazine",
+        "full": "shots/_proposed/manual-nature-org-c95370__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "environmental-conservation",
+      "nature"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero and key section background images are used, often with content cards or text overlays positioned centrally or to one side, creating a layered effect."
+    },
+    {
+      "kind": "color",
+      "note": "A strong two-tone background system alternates between clean white and a deep forest green to clearly delineate major content blocks and sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling at a slower rate than the foreground content card, adding depth to the initial view."
+    },
+    {
+      "kind": "section",
+      "note": "Impact metrics and goals are presented in a four-column grid, each with a large number, an icon, and descriptive text, set against a distinct background color."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a background image that scrolls at a slower rate than the overlaying content card, creating a subtle parallax depth effect. Other elements likely use CSS keyframe animations for gentle fade-in or slide-up reveals as they enter the viewport, enhancing content discovery.",
+    "Content is frequently presented within distinct cards, often with a white background, which are sometimes overlaid on full-bleed background images or placed within multi-column grids to organize information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A3D2F",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#33694F",
+        "role": "cta"
+      },
+      {
+        "hex": "#8CC63F",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-body"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Raleway",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately sized and often bold, with a clear hierarchy that supports readability without being overly dramatic, complemented by legible body text.",
+    "radius": "Subtle (small corner radius on buttons and cards)",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within content blocks, creating an airy feel, but tighter within card grids."
+  },
+  "standout": "The site effectively uses full-bleed, high-quality nature photography as a primary design element, often serving as a background for overlaid content cards, which creates a strong emotional connection and a sense of immersion. The consistent use of a deep forest green alongside white provides a distinct, natural brand identity.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

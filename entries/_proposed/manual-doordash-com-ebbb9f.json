@@ -1,0 +1,112 @@
+{
+  "id": "manual-doordash-com-ebbb9f",
+  "source": {
+    "url": "https://www.doordash.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-doordash-com-ebbb9f.webp",
+    "scroll": [
+      "shots/_proposed/manual-doordash-com-ebbb9f__scroll0.webp",
+      "shots/_proposed/manual-doordash-com-ebbb9f__scroll1.webp",
+      "shots/_proposed/manual-doordash-com-ebbb9f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-delivery",
+      "e-commerce",
+      "logistics"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width content blocks, typically with an image on one side and text/CTA on the other, creating a clear visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Strong typographic hierarchy with large, bold sans-serif headings for section titles and smaller, readable sans-serif for body text and descriptive content."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant brand red for primary CTAs and key brand elements, contrasted with a palette of soft, muted pastel background colors for distinct sections."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion observed; the design relies on static hierarchy and clear calls to action. A modal overlay appears on user interaction (not scroll-triggered)."
+    },
+    {
+      "kind": "section",
+      "note": "Repeated use of 'Grow your business' and 'Unlock opportunity' sections with a consistent layout of a large hero image and a concise call to action."
+    }
+  ],
+  "technique_notes": [
+    "Sections are visually separated by alternating background colors and full-bleed imagery, often with text content aligned to one side.",
+    "Call-to-action buttons are prominent, using the brand's primary accent color, with clear, concise text.",
+    "A modal overlay for login/signup appears centered on the screen, obscuring the background content with a semi-transparent backdrop, and features rounded corners and distinct social login buttons."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EA1D2C",
+        "role": "cta"
+      },
+      {
+        "hex": "#1E3A3C",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FCF89A",
+        "role": "background"
+      },
+      {
+        "hex": "#D1F0F6",
+        "role": "background"
+      },
+      {
+        "hex": "#BFC8F2",
+        "role": "background"
+      },
+      {
+        "hex": "#FFE0DB",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DD Norms",
+        "role": "heading"
+      },
+      {
+        "family": "TT Norms",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual breaks, complemented by smaller, readable sans-serif body text.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and card elements, including the modal overlay.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while content within sections is more compact."
+  },
+  "standout": "The site's distinctive use of vibrant, high-quality food and lifestyle photography, combined with a playful yet clear color palette of muted pastels for section backgrounds, creates an inviting and energetic brand presence that stands out from typical service sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

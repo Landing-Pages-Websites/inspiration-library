@@ -1,0 +1,99 @@
+{
+  "id": "manual-grubhub-com-413742",
+  "source": {
+    "url": "https://www.grubhub.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-grubhub-com-413742.webp",
+    "scroll": [
+      "shots/_proposed/manual-grubhub-com-413742__scroll0.webp",
+      "shots/_proposed/manual-grubhub-com-413742__scroll1.webp",
+      "shots/_proposed/manual-grubhub-com-413742__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-delivery",
+      "restaurant",
+      "logistics"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section uses a split layout with prominent text and CTA on the left and a large, engaging product image on the right, setting a dynamic visual balance."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, light beige background is consistently used for primary content areas, contrasted with a vibrant orange for calls to action and key brand elements, creating an inviting yet energetic feel."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a bold, modern sans-serif typeface, providing clear hierarchy, while body text uses a highly legible, slightly lighter sans-serif for readability within card components."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the large product image and its background shape scroll at a slower rate than the foreground text, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, self-contained cards with consistently rounded corners and a clean white background, making information digestible and visually separated."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar remains fixed at the top of the viewport as the user scrolls, ensuring persistent access to key site functions.",
+    "A parallax scrolling effect is applied to the hero image and its decorative background shape, causing them to move at a slower speed than the page's main content, enhancing visual depth and engagement.",
+    "Information is presented within a grid of card components, each featuring a rounded border and a clean background, designed to visually group related content and improve scannability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FDF8F0",
+        "role": "background"
+      },
+      {
+        "hex": "#FF5722",
+        "role": "accent"
+      },
+      {
+        "hex": "#575655",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Fira Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: graphik",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (hero ~3-4x body) with clear, legible body text and smaller, uppercase labels for buttons.",
+    "radius": "Rounded corners on cards, buttons, and input fields, giving a soft and approachable feel.",
+    "spacing": "Balanced to airy, with generous padding in the hero and between major sections, and comfortable spacing within card components."
+  },
+  "standout": "The site's distinctive use of a warm, light beige background color paired with a vibrant, energetic orange accent creates a friendly yet dynamic brand identity that feels fresh and inviting. The subtle parallax in the hero adds a touch of polished interactivity without being distracting.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
