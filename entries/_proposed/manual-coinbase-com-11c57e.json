@@ -1,0 +1,104 @@
+{
+  "id": "manual-coinbase-com-11c57e",
+  "source": {
+    "url": "https://www.coinbase.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-coinbase-com-11c57e.webp",
+    "scroll": [
+      "shots/_proposed/manual-coinbase-com-11c57e__scroll0.webp",
+      "shots/_proposed/manual-coinbase-com-11c57e__scroll1.webp",
+      "shots/_proposed/manual-coinbase-com-11c57e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "cryptocurrency",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column content blocks, often pairing descriptive text with a visual element like a device mockup or data visualization."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings (Google Sans/CoinbaseSans) for impact, contrasted with a clean, readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant blue (#0052ff) used as a primary accent for CTAs and key elements, standing out against a predominantly white and dark blue/black background."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slide-up animation as they enter the viewport. The hero section features a video background that appears to parallax or remain fixed while text scrolls over it, and the top promotional banner disappears on scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated sections for different product features, each with a clear heading, descriptive text, and a call to action, often incorporating interactive elements or data displays."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (likely using css-keyframes) to reveal content sections. As the user scrolls, new sections subtly fade into view and slide upwards from the bottom of the viewport. The hero section features a full-width video background that creates a sense of depth by appearing to move slower than the foreground content, giving a parallax effect. The top informational banner collapses and disappears as the user scrolls down, while the main navigation bar sticks to the top of the screen, maintaining accessibility.",
+    "Visual elements frequently use device mockups (e.g., phone, tablet screens) to display product interfaces and data, often with dynamic or animated content within the screen to illustrate functionality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0052ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#00006c",
+        "role": "text"
+      },
+      {
+        "hex": "#add",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "CoinbaseSans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Prominent, bold sans-serif headings (up to ~4x body text size) create strong hierarchy, supported by a clean, well-spaced sans-serif for body content.",
+    "radius": "Subtle rounding (e.g., 8-12px) applied consistently to buttons, cards, and image containers, softening the overall aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical padding between main sections and comfortable spacing within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "Coinbase stands out with its sophisticated blend of bold, impactful typography and dynamic, data-rich visualizations embedded within sleek device mockups. The strategic use of a vibrant blue accent against a clean, high-contrast white and dark blue palette creates a modern, trustworthy, and authoritative brand presence that avoids generic marketing aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

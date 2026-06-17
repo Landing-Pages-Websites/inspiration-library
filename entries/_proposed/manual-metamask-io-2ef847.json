@@ -1,0 +1,118 @@
+{
+  "id": "manual-metamask-io-2ef847",
+  "source": {
+    "url": "https://www.metamask.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-metamask-io-2ef847.webp",
+    "scroll": [
+      "shots/_proposed/manual-metamask-io-2ef847__scroll0.webp",
+      "shots/_proposed/manual-metamask-io-2ef847__scroll1.webp",
+      "shots/_proposed/manual-metamask-io-2ef847__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "crypto",
+      "web3"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently feature asymmetrical arrangements of elements, often combining a large illustration or a primary content block with smaller, distinct card groupings."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, oversized, and blocky display typeface is used for hero text and major headings, creating a bold and playful brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a vibrant and contrasting color palette, employing large blocks of light pink, peach, white, and deep purple for section backgrounds, accented with bright orange, green, and blue for interactive elements and illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms its appearance, switching from a transparent background with white elements to a solid white background with black elements, as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct content sections are visually separated by alternating background colors, creating clear visual breaks and guiding the user through the page content."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar implements a sticky behavior, changing its background from transparent to solid white and its text/logo color from white to black once the user scrolls past the initial hero section. While not explicitly visible in the provided scroll sequence, the presence of 'gsap', 'locomotive-scroll', 'lottie', and 'webgl-three' suggests the site likely uses these technologies for smooth scrolling, subtle scroll-triggered reveals (e.g., elements fading or sliding into view), and potentially interactive or animated 3D illustrations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#292d39",
+        "role": "text"
+      },
+      {
+        "hex": "#181c20",
+        "role": "text"
+      },
+      {
+        "hex": "#fef9f7",
+        "role": "background"
+      },
+      {
+        "hex": "#f8893a",
+        "role": "accent"
+      },
+      {
+        "hex": "#a7e04b",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#0066dc",
+        "role": "accent"
+      },
+      {
+        "hex": "#373c4b",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Bungee",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body text) with clean, legible sans-serif body text for content.",
+    "radius": "Subtle rounded corners on buttons and card elements.",
+    "spacing": "Airy, with generous vertical spacing between sections and within card groupings, creating a comfortable visual rhythm."
+  },
+  "standout": "The bold, blocky display typeface combined with a vibrant, almost playful color palette and abstract 3D illustrations creates a distinctive, modern, and energetic feel that stands apart from typical corporate crypto sites. The use of asymmetrical card layouts also adds visual interest.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

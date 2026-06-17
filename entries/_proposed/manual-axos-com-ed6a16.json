@@ -1,0 +1,107 @@
+{
+  "id": "manual-axos-com-ed6a16",
+  "source": {
+    "url": "https://www.axos.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-axos-com-ed6a16.webp",
+    "scroll": [
+      "shots/_proposed/manual-axos-com-ed6a16__scroll0.webp",
+      "shots/_proposed/manual-axos-com-ed6a16__scroll1.webp",
+      "shots/_proposed/manual-axos-com-ed6a16__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "banking",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between a dark brand blue background and a light background to create visual segmentation and rhythm down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "Information is frequently presented in digestible card-like structures or icon-accompanied lists, especially for feature overviews and service offerings."
+    },
+    {
+      "kind": "color",
+      "note": "A strong, consistent dark blue serves as the primary brand color, providing a professional and trustworthy foundation, contrasted with a bright orange accent for calls to action and key financial figures."
+    },
+    {
+      "kind": "type",
+      "note": "A clean, sans-serif typeface is used consistently across all text, with clear hierarchy established through variations in size and weight for headings, body text, and labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport as the user scrolls, providing persistent access to key site sections."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element, ensuring it remains visible and accessible at the top of the screen throughout the user's scroll journey.",
+    "Content sections primarily reveal by scrolling into view from the bottom, without complex scroll-triggered reveal animations or parallax effects. Subtle CSS keyframe animations may be employed for micro-interactions or element entrances not captured in the scroll sequence.",
+    "Visual emphasis on key financial figures and calls to action is achieved by rendering them in a vibrant accent color against the dominant brand palette."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#14263d",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#4a5560",
+        "role": "text"
+      },
+      {
+        "hex": "#faa74a",
+        "role": "cta"
+      },
+      {
+        "hex": "#98ddff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Open Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clear hierarchy with bold, larger headings (approx 2-3x body text) and a consistent, readable body text size.",
+    "radius": "Subtle rounding (approx 4-8px) on buttons, image corners, and card elements.",
+    "spacing": "Balanced density; hero is airy, feature grids are well-spaced, footer is dense."
+  },
+  "standout": "The site effectively uses a strong, consistent dark blue brand color to establish a sense of trust and professionalism, contrasting it with a bright orange accent for key financial figures and calls to action, which helps guide user attention and highlights critical information.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "manual-wundermanthompson-com-f1f027",
+  "source": {
+    "url": "https://www.wundermanthompson.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-wundermanthompson-com-f1f027.webp",
+    "scroll": [
+      "shots/_proposed/manual-wundermanthompson-com-f1f027__scroll0.webp",
+      "shots/_proposed/manual-wundermanthompson-com-f1f027__scroll1.webp",
+      "shots/_proposed/manual-wundermanthompson-com-f1f027__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "advertising",
+      "creative-agency"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed photographic imagery is used as the primary background for entire sections, often with minimal text overlays, creating distinct visual blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Very large, bold, sans-serif headings are used to create strong visual impact, often appearing directly over full-bleed images or as prominent section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base is combined with rich, deep, earthy tones derived from the dominant colors of the full-bleed photographic section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport throughout the scroll, providing persistent access to site navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls slower than the foreground text and call-to-action, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width blocks, each often featuring a unique background image or solid color, creating clear visual separation between different themes or content types."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is positioned fixed at the top of the viewport, ensuring it remains visible and accessible as the user scrolls down the page.",
+    "The hero section's background image is set to scroll at a slower rate than the foreground content (text and call-to-action), creating a subtle depth effect. The foreground content scrolls normally, revealing more of the background image before it eventually scrolls out of view.",
+    "Each major content section utilizes a full-width, full-height image or a solid color as its background, with content overlaid. This creates a visually immersive and distinct block for each topic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1A3A4A",
+        "role": "surface"
+      },
+      {
+        "hex": "#4A5A3A",
+        "role": "surface"
+      },
+      {
+        "hex": "#8A5A2A",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, sans-serif headings (~3-5x body) with smaller, legible body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "Balanced overall, with generous vertical spacing between full-bleed sections and more compact grids for article listings."
+  },
+  "standout": "The site's distinctive use of massive, full-bleed photographic imagery as primary section backgrounds, often with minimal text overlays, creates an immersive and editorial experience. The bold, oversized typography directly integrated into these images is particularly impactful.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "manual-cerebral-com-52fa7d",
+  "source": {
+    "url": "https://www.cerebral.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-cerebral-com-52fa7d.webp",
+    "scroll": [
+      "shots/_proposed/manual-cerebral-com-52fa7d__scroll0.webp",
+      "shots/_proposed/manual-cerebral-com-52fa7d__scroll1.webp",
+      "shots/_proposed/manual-cerebral-com-52fa7d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-health",
+      "telehealth"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently alternate between full-width content blocks and split layouts, often with text on one side and an image or illustration on the other."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold, sans-serif headings for impact, complemented by lighter-weight body text and smaller, often uppercase, labels for supporting information."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a consistent brand palette of deep purple for primary backgrounds and text, contrasted with a warm orange for calls-to-action and key accents, and a light off-white for secondary section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background image that remains partially visible or moves slower than the foreground content as the user scrolls, creating a subtle parallax effect."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (like 'How it works' illustrations and feature cards) reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly delineated by alternating background colors (deep purple, off-white, light grey) to provide distinct visual breaks and guide the user's eye."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (likely using CSS keyframes or a JS library) to progressively reveal content sections with a gentle fade-up or slide-in effect as they become visible in the viewport. The hero image utilizes a fixed background or a slower scroll speed to create a subtle parallax depth effect. The main navigation bar transitions to a fixed position at the top of the screen once the user scrolls past the initial hero section.",
+    "Content is structured into clear, distinct sections, often using alternating background colors to provide visual segmentation. Key statistics and benefits are presented using large, bold numbers and concise descriptions to highlight impact. Custom illustrations are integrated to visually explain complex processes in an approachable and engaging manner."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#222128",
+        "role": "background"
+      },
+      {
+        "hex": "#ef724a",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "background-secondary"
+      },
+      {
+        "hex": "#8d8e90",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#1c1e21",
+        "role": "text-heading"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "MozaicHum",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings provide strong hierarchy, while body text is smaller and lighter, creating clear distinction and readability.",
+    "radius": "Subtle rounding on buttons, cards, and input fields, contributing to a soft and approachable feel.",
+    "spacing": "Balanced to airy spacing, particularly in the hero section and between major content blocks, with tighter density within feature grids and form elements."
+  },
+  "standout": "This site stands out by blending a professional, trustworthy aesthetic with a warm, approachable feel through its distinctive color palette and friendly illustrations. The subtle, yet consistent, scroll-triggered animations and the clear, data-backed presentation of results effectively build confidence, making mental healthcare feel accessible and less clinical.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "manual-chainalysis-com-098b46",
+  "source": {
+    "url": "https://www.chainalysis.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-chainalysis-com-098b46.webp",
+    "scroll": [
+      "shots/_proposed/manual-chainalysis-com-098b46__scroll0.webp",
+      "shots/_proposed/manual-chainalysis-com-098b46__scroll1.webp",
+      "shots/_proposed/manual-chainalysis-com-098b46__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.chainalysis.com/blog",
+        "full": "shots/_proposed/manual-chainalysis-com-098b46__p2.webp"
+      },
+      {
+        "url": "https://www.chainalysis.com/defi",
+        "full": "shots/_proposed/manual-chainalysis-com-098b46__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "cryptocurrency",
+      "blockchain",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks frequently pair a large visual (diagram, screenshot, or illustration) with descriptive text, often with elements slightly overlapping or offset from a strict grid line."
+    },
+    {
+      "kind": "type",
+      "note": "A strong, bold sans-serif is used for primary headings, creating clear hierarchy, while a clean, legible sans-serif handles body text. Uppercase styling is consistently applied to secondary labels and calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep navy and white is punctuated by a vibrant orange accent for calls to action and key highlights, creating a sophisticated and energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them are revealed with a subtle fade-in or slide-up animation as they enter the viewport, creating a dynamic scrolling experience. The main navigation and a chat widget remain sticky at the top and bottom-right, respectively."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often integrate complex data visualizations or product screenshots directly into the layout, serving as the primary visual anchor for the accompanying text."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar and a floating chat widget are fixed to the viewport, maintaining accessibility and persistent interaction points throughout scrolling.",
+    "Content sections and individual elements within them are progressively revealed as the user scrolls, typically with a gentle fade-in or slide-up animation, likely using a JavaScript library to trigger these CSS keyframe animations based on viewport intersection.",
+    "The hero section uses a subtle, repeating dotted grid pattern as a background texture to add visual depth and a technical aesthetic without distracting from the main message."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#122149",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff5300",
+        "role": "cta"
+      },
+      {
+        "hex": "#293972",
+        "role": "surface"
+      },
+      {
+        "hex": "#d1d3e0",
+        "role": "text"
+      },
+      {
+        "hex": "#04243c",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Chainalysis",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, complemented by smaller, uppercase labels for secondary information.",
+    "radius": "Subtle rounding on buttons, cards, and input fields, maintaining a clean yet approachable feel.",
+    "spacing": "Balanced density overall, with airy hero and feature sections providing breathing room, while information-dense areas like news listings and the footer maintain clear rhythm."
+  },
+  "standout": "The site's distinctive use of abstract, geometric diagrams and data visualizations, often with a subtle 3D or layered effect, is integrated directly into content sections. This visual language elevates the presentation of complex information beyond typical flat illustrations, reinforcing the 'intelligence layer' theme with sophisticated clarity.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

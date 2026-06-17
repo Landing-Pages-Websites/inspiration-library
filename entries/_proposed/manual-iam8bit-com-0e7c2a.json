@@ -1,0 +1,112 @@
+{
+  "id": "manual-iam8bit-com-0e7c2a",
+  "source": {
+    "url": "https://www.iam8bit.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-iam8bit-com-0e7c2a.webp",
+    "scroll": [
+      "shots/_proposed/manual-iam8bit-com-0e7c2a__scroll0.webp",
+      "shots/_proposed/manual-iam8bit-com-0e7c2a__scroll1.webp",
+      "shots/_proposed/manual-iam8bit-com-0e7c2a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.iam8bit.com/collections",
+        "full": "shots/_proposed/manual-iam8bit-com-0e7c2a__p2.webp"
+      },
+      {
+        "url": "https://www.iam8bit.com/collections/new",
+        "full": "shots/_proposed/manual-iam8bit-com-0e7c2a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "collectibles",
+      "video-games"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with dark backgrounds are used throughout the page, creating a dramatic stage for product imagery and vibrant accent colors."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and key marketing messages utilize a bold, uppercase sans-serif font, creating strong visual impact and clear hierarchy against smaller, regular-weight body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, pairing deep dark backgrounds (black/dark grey) with bright white text and a striking hot pink for calls to action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-screen modal pop-up appears shortly after page load or initial scroll, presenting a discount offer to the user. The main navigation bar becomes sticky and slightly more compact with a solid background after scrolling past the initial promotional banner."
+    },
+    {
+      "kind": "section",
+      "note": "Key content is organized into distinct, full-width sections, including a prominent hero, categorized product grids, 'What's New' carousels, and a large 'Discover Our Collections' section showcasing brand logos."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented, transitioning from a transparent, larger state to a compact, solid-background state upon scrolling down the page. A full-screen modal is triggered on initial page interaction or scroll, presenting a discount offer. Product listings and featured items are presented in horizontal carousels, likely using a library like Swiper for smooth transitions. Section content generally appears statically as it enters the viewport without complex scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c0c0c",
+        "role": "background"
+      },
+      {
+        "hex": "#e01a78",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#f00",
+        "role": "highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase headings (~4-5x body text) create a strong statement, complemented by smaller, regular-weight body and label text.",
+    "radius": "Subtle (small corner radius on buttons, input fields, and product cards).",
+    "spacing": "Balanced density overall, with an airy hero section and denser grids for product listings and brand logos."
+  },
+  "standout": "The site's distinctive use of a vibrant hot pink as a primary accent color against a predominantly dark background creates an energetic and bold brand identity. This, combined with the focus on collectible merchandise and an extensive grid of brand logos, positions it as an authority in its niche, moving beyond a generic e-commerce template.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

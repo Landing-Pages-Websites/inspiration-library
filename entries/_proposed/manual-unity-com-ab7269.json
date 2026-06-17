@@ -1,0 +1,116 @@
+{
+  "id": "manual-unity-com-ab7269",
+  "source": {
+    "url": "https://unity.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-unity-com-ab7269.webp",
+    "scroll": [
+      "shots/_proposed/manual-unity-com-ab7269__scroll0.webp",
+      "shots/_proposed/manual-unity-com-ab7269__scroll1.webp",
+      "shots/_proposed/manual-unity-com-ab7269__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "game-development",
+      "3d-modeling"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with a dark background, often featuring large, immersive visuals (videos, 3D renders) that span the width of the viewport."
+    },
+    {
+      "kind": "layout",
+      "note": "Content within sections is typically centered or aligned to a clear grid, maintaining generous horizontal padding."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme with a dominant black/dark grey background and white text, punctuated by vibrant purple and blue accent colors for interactive elements and visual highlights."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface for impact, while body text is a lighter weight sans-serif, providing clear hierarchy against the dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar remains at the top of the viewport after initial scroll, maintaining its dark background and structure."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-in or slide-up animation as they enter the viewport, creating a dynamic scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a large visual (image, video, or 3D render) with a concise text block and call-to-action, alternating their left/right alignment down the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark, immersive aesthetic by using full-bleed sections with deep black backgrounds. Text contrast is achieved with white typography, and key interactive elements are highlighted with vibrant purple and blue gradients or solid fills.",
+    "Scroll-triggered animations are used to progressively reveal content. As the user scrolls, new sections and their internal elements (images, text blocks) appear to fade in and subtly slide upwards from the bottom of the viewport, enhancing engagement. This likely uses css-keyframes for the reveal animations.",
+    "The primary navigation bar transitions to a sticky state upon scrolling past the hero section. It maintains its dark background and full functionality, ensuring persistent access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#292B2E",
+        "role": "surface"
+      },
+      {
+        "hex": "#656565",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#5A2DDC",
+        "role": "accent"
+      },
+      {
+        "hex": "#3366FF",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body size) create strong visual hierarchy, complemented by smaller, lighter sans-serif body text and even smaller uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are applied to buttons, cards, and input fields, providing a soft, modern feel without being overly rounded.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and ample internal padding within content blocks, creating a sense of openness, especially in the hero and main feature areas."
+  },
+  "standout": "The site's standout feature is its immersive, high-contrast dark theme, which effectively highlights the vibrant purple and blue accents and the rich, dynamic visuals of game development. The seamless integration of full-bleed video and 3D renders against the deep black background creates a premium, cutting-edge feel that elevates it beyond typical marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

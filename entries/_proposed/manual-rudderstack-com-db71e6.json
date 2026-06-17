@@ -1,0 +1,105 @@
+{
+  "id": "manual-rudderstack-com-db71e6",
+  "source": {
+    "url": "https://www.rudderstack.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-rudderstack-com-db71e6.webp",
+    "scroll": [
+      "shots/_proposed/manual-rudderstack-com-db71e6__scroll0.webp",
+      "shots/_proposed/manual-rudderstack-com-db71e6__scroll1.webp",
+      "shots/_proposed/manual-rudderstack-com-db71e6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-platform",
+      "customer-data-platform"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent dark, grid-patterned background unifies the entire page, giving a deep, immersive feel. Content blocks are often framed with subtle borders or contained within dark, slightly elevated cards."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold, sans-serif headings for main sections, smaller, lighter sans-serif for body text, and distinct uppercase sans-serif labels for sub-sections or categories."
+    },
+    {
+      "kind": "color",
+      "note": "A limited, high-contrast palette of deep blues/blacks, white, and a vibrant electric blue for accents and interactive elements, creating a technical and sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Most content sections are revealed with a staggered fade-up animation as they scroll into view. The hero background features a fixed or slow-parallaxing grid with a continuously animated glowing data flow line."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually separated by ample vertical space and typically feature a prominent heading, followed by a mix of text, illustrative diagrams (many animated), and card-based content."
+    }
+  ],
+  "technique_notes": [
+    "A persistent top banner remains fixed at the very top of the viewport.",
+    "The primary navigation bar transitions from a transparent state to a solid, dark background with a subtle shadow as the user scrolls past the hero section, remaining sticky at the top.",
+    "Content sections are revealed using a staggered fade-up animation as they enter the viewport, creating a dynamic reading experience, likely implemented with a scroll-triggering library (css-keyframes)."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#020a16",
+        "role": "background"
+      },
+      {
+        "hex": "#0d192b",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#a4cbff",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#2b8bff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Degular",
+        "role": "heading"
+      },
+      {
+        "family": "Degular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) with a clean, readable sans-serif body text. Uppercase labels are used for section categories.",
+    "radius": "Subtle (minimal rounding on buttons, cards, and input fields).",
+    "spacing": "Airy, especially in the hero and between major sections, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The site's distinctive use of a deep, dark, grid-patterned background combined with vibrant electric blue accents and sophisticated, animated data flow diagrams (Lottie) creates a highly technical, immersive, and futuristic aesthetic that elevates it beyond a typical SaaS marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

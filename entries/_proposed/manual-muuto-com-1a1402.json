@@ -1,0 +1,118 @@
+{
+  "id": "manual-muuto-com-1a1402",
+  "source": {
+    "url": "https://www.muuto.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-muuto-com-1a1402.webp",
+    "scroll": [
+      "shots/_proposed/manual-muuto-com-1a1402__scroll0.webp",
+      "shots/_proposed/manual-muuto-com-1a1402__scroll1.webp",
+      "shots/_proposed/manual-muuto-com-1a1402__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.muuto.com/20years",
+        "full": "shots/_proposed/manual-muuto-com-1a1402__p2.webp"
+      },
+      {
+        "url": "https://www.muuto.com/neuroaesthetics",
+        "full": "shots/_proposed/manual-muuto-com-1a1402__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "furniture",
+      "home-goods",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, featuring large, editorial-style images or solid color blocks dominating one side, balanced by text content on the other."
+    },
+    {
+      "kind": "color",
+      "note": "Distinct, full-width color blocks (white, yellow, olive, light grey) serve as background canvases to visually segment major content sections and create strong visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Editorial-scale headings are significantly larger and bolder than body text, often spanning multiple lines, creating a dramatic and impactful typographic statement."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight slide-up animation as they scroll into the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Product and editorial content is presented in a flexible grid of image cards, each featuring a high-quality visual, a concise title, and a short descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access. Content sections are revealed with a subtle fade-in and slight upward translation as they enter the viewport, creating a dynamic scroll experience. The initial hero image appears to have a subtle parallax effect, moving slower than the foreground content as the page scrolls.",
+    "Full-width color blocks are used as section backgrounds to create strong visual divisions and a sense of progression. Within these blocks, content is arranged in flexible, often asymmetrical, grid layouts that pair large, high-quality images with concise text blocks, leveraging the detected swiper for image carousels and video-hero for the main banner."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f572",
+        "role": "accent"
+      },
+      {
+        "hex": "#efeeeb",
+        "role": "surface"
+      },
+      {
+        "hex": "#5a614c",
+        "role": "accent"
+      },
+      {
+        "hex": "#e4e4dc",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) are paired with legible body text and smaller, often uppercase, labels, creating a clear and dramatic typographic hierarchy.",
+    "radius": "Sharp corners are used universally for all elements, including images, cards, and buttons.",
+    "spacing": "Airy and spacious, particularly in hero and section breaks, creating an open and gallery-like feel, while internal content blocks maintain a balanced density."
+  },
+  "standout": "The site's distinctive use of large, asymmetrical color blocks as backgrounds for content sections, combined with high-quality, editorial-style photography and bold, minimalist typography, creates a sophisticated and art-gallery-like browsing experience. It feels less like a typical e-commerce site and more like a curated design magazine.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

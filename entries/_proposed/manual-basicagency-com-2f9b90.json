@@ -1,0 +1,118 @@
+{
+  "id": "manual-basicagency-com-2f9b90",
+  "source": {
+    "url": "https://www.basicagency.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-basicagency-com-2f9b90.webp",
+    "scroll": [
+      "shots/_proposed/manual-basicagency-com-2f9b90__scroll0.webp",
+      "shots/_proposed/manual-basicagency-com-2f9b90__scroll1.webp",
+      "shots/_proposed/manual-basicagency-com-2f9b90__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.basicagency.com/blog",
+        "full": "shots/_proposed/manual-basicagency-com-2f9b90__p2.webp"
+      },
+      {
+        "url": "https://www.basicagency.com/about",
+        "full": "shots/_proposed/manual-basicagency-com-2f9b90__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "advertising-agency",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video or image backgrounds are used for hero sections and prominent content blocks, often with text overlaid directly on the visual."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold, uppercase sans-serif headings for section titles, contrasted with smaller, legible sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette is monochromatic (black, white, and various grays), with vibrant accent colors introduced contextually within content (e.g., a deep red for a CTA, warm brown from a video background)."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, full-bleed video hero section scrolls out of view to reveal subsequent content. A prominent, oversized brand mark (B/D) appears fixed in the viewport for a brief period after the hero, then scrolls away with the content."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, many featuring large background visuals (videos or images) that define the section's aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero (detected: video-hero) plays on loop as the initial viewport. As the user scrolls, this hero section scrolls out of view, revealing subsequent content sections that animate into place from the bottom. A large, fixed brand mark is temporarily displayed after the hero, creating a strong brand moment before it too scrolls off-screen. The main navigation remains sticky at the top throughout the scroll.",
+    "Full-bleed background videos or images are used for hero and key content sections, often with a subtle dark overlay to ensure text readability. Content is structured in clean, often asymmetric grids for showcasing work, news, and team members.",
+    "A full-screen modal overlay can be triggered, presenting content (e.g., a client's app page) while subtly dimming the background page content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#BCBCBC",
+        "role": "surface"
+      },
+      {
+        "hex": "#444444",
+        "role": "text"
+      },
+      {
+        "hex": "#723926",
+        "role": "accent"
+      },
+      {
+        "hex": "#D80027",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (up to ~6x body text) create strong visual hierarchy, paired with legible, regular-weight sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy in hero and section titles, balanced in content grids with generous vertical separation between sections."
+  },
+  "standout": "The site's distinctive use of full-bleed, high-quality video backgrounds for hero and key content sections, combined with a bold, almost brutalist typographic approach for section titles and a large, temporary fixed brand mark (B/D) that appears after the hero, creates a powerful and memorable brand experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

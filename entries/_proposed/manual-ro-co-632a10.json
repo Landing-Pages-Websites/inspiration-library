@@ -1,0 +1,118 @@
+{
+  "id": "manual-ro-co-632a10",
+  "source": {
+    "url": "https://www.ro.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ro-co-632a10.webp",
+    "scroll": [
+      "shots/_proposed/manual-ro-co-632a10__scroll0.webp",
+      "shots/_proposed/manual-ro-co-632a10__scroll1.webp",
+      "shots/_proposed/manual-ro-co-632a10__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "telehealth",
+      "pharmaceuticals",
+      "weight-loss"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width hero sections transition into structured multi-column grids for product displays and informational cards, maintaining a consistent visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold sans-serif headings for impact and section demarcation, paired with a highly legible, lighter-weight sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly neutral palette of white and dark grey is strategically accented with vibrant, distinct colors (blue, orange, red, green) to highlight calls to action and differentiate product categories."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky header ensures navigation is always available, complemented by a subtle parallax effect on a key background image to add visual depth during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Each major health category (e.g., Weight Loss, Sexual Health) is presented as a distinct, full-width section, often beginning with a large heading and followed by a grid of related products or informational cards."
+    }
+  ],
+  "technique_notes": [
+    "The main header with the logo and navigation links remains fixed at the top of the viewport as the user scrolls down, maintaining accessibility to key site sections.",
+    "A large background image in a hero-like section scrolls at a slower rate than the foreground content, creating a subtle depth effect, likely using CSS transforms or fixed positioning.",
+    "A prominent section features an embedded video player, serving as a visual hero or engaging content block, indicated by a play button and time overlay, leveraging the detected video-hero animation tech."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#1A76C3",
+        "role": "accent"
+      },
+      {
+        "hex": "#EB6A20",
+        "role": "accent"
+      },
+      {
+        "hex": "#ED2020",
+        "role": "accent"
+      },
+      {
+        "hex": "#0DA098",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#7F7F7F",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful headings (~3-4x body text) with clear hierarchy, supported by smaller, highly legible body and label text.",
+    "radius": "Subtle rounding on cards, buttons, and image containers (~4-8px), creating a soft, approachable feel.",
+    "spacing": "Balanced and airy, especially in hero sections and between major content blocks, with consistent, slightly airy gutters in card grids."
+  },
+  "standout": "The site effectively combines a clean, modern, and trustworthy aesthetic with direct, solution-oriented messaging for sensitive health topics. Its use of real people and clear product presentation, alongside educational content, builds authority and approachability in a typically complex industry, making it distinctive for telehealth services.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

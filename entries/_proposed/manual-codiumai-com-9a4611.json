@@ -1,0 +1,114 @@
+{
+  "id": "manual-codiumai-com-9a4611",
+  "source": {
+    "url": "https://www.codiumai.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-codiumai-com-9a4611.webp",
+    "scroll": [
+      "shots/_proposed/manual-codiumai-com-9a4611__scroll0.webp",
+      "shots/_proposed/manual-codiumai-com-9a4611__scroll1.webp",
+      "shots/_proposed/manual-codiumai-com-9a4611__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize a full-width dark background with content constrained to a central maximum width, often employing asymmetrical arrangements of text and visual elements."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases within large, bold headings are highlighted with a vibrant gradient fill, drawing immediate attention to the core value proposition."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent dark mode aesthetic dominates, using deep charcoal and black backgrounds, contrasted with bright, multi-color gradients (purple, pink, teal) for CTAs and emphasized text."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic and engaging scroll experience. The navigation bar becomes sticky and gains a subtle background on scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The 'How Qodo Works' section features a unique layered card design that animates to reveal content as the user scrolls, visually representing a process flow."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed sequentially as they enter the viewport, typically with a subtle fade and upward translation, using scroll-triggered animation. The main navigation bar transitions to a sticky position with a semi-transparent dark background once the user scrolls past the initial hero content.",
+    "Headings and call-to-action buttons incorporate a vibrant, multi-stop gradient fill that provides a striking visual contrast against the dark backgrounds.",
+    "Interactive elements like buttons and cards feature subtle hover effects, such as background color shifts or slight lifts, to indicate interactivity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1348",
+        "role": "background"
+      },
+      {
+        "hex": "#0d0d0d",
+        "role": "background-darkest"
+      },
+      {
+        "hex": "#7968fa",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#9939eb",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#87f5d8",
+        "role": "accent-teal"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-heading"
+      },
+      {
+        "hex": "#b4b3c1",
+        "role": "text-body"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Figtree",
+        "role": "heading"
+      },
+      {
+        "family": "Figtree",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) with a clear hierarchy, complemented by smaller, lighter body text and uppercase labels for sub-sections.",
+    "radius": "Subtle rounding (small border-radius) for cards, buttons, and input fields, providing a soft, modern feel without being fully rounded or sharp.",
+    "spacing": "Balanced to airy spacing, particularly in the hero section and between major content blocks, creating a sense of openness. Content within card grids maintains good padding for readability."
+  },
+  "standout": "The site's distinctive use of vibrant, multi-color gradients for text highlights and CTAs against a sophisticated dark mode background creates a premium and modern aesthetic. The scroll-triggered animations, especially the layered card reveal in the 'How Qodo Works' section, add a unique interactive dimension that elevates the user experience beyond typical marketing sites.",
+  "animation_tech": [
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

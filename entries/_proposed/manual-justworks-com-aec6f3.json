@@ -1,0 +1,118 @@
+{
+  "id": "manual-justworks-com-aec6f3",
+  "source": {
+    "url": "https://www.justworks.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-justworks-com-aec6f3.webp",
+    "scroll": [
+      "shots/_proposed/manual-justworks-com-aec6f3__scroll0.webp",
+      "shots/_proposed/manual-justworks-com-aec6f3__scroll1.webp",
+      "shots/_proposed/manual-justworks-com-aec6f3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.justworks.com/peo",
+        "full": "shots/_proposed/manual-justworks-com-aec6f3__p2.webp"
+      },
+      {
+        "url": "https://www.justworks.com/eor",
+        "full": "shots/_proposed/manual-justworks-com-aec6f3__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "hr-tech",
+      "payroll-services"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width background elements and a constrained central column for text and structured content, creating visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary section titles, often accompanied by a slightly smaller, lighter weight sub-heading for context."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant blue is used as the primary brand color, prominently featured in the hero background, navigation, and interactive elements, contrasted with clean white and subtle light grey backgrounds for content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms from a transparent overlay with a white logo and text to a solid white background with a blue logo and text, and a reduced height, as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sets are presented using a grid of cards, each with a distinct background color, icon, and concise description, providing a visually engaging and scannable overview of services."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed gradient background with a complex, multi-layered illustration (likely a Lottie animation) positioned to the right, creating a dynamic visual anchor for the primary headline and call-to-action.",
+    "Interactive elements like buttons and input fields feature subtle rounded corners and clear hover states, maintaining a friendly and approachable feel.",
+    "The navigation bar transitions from a transparent, overlaying state to a fixed, solid background with reduced height and updated logo/text colors upon scrolling, ensuring persistent access to navigation while optimizing screen real estate."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0092f6",
+        "role": "primary-brand-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-white"
+      },
+      {
+        "hex": "#f7f8fb",
+        "role": "background-light-grey"
+      },
+      {
+        "hex": "#5e6167",
+        "role": "body-text"
+      },
+      {
+        "hex": "#f65c3c",
+        "role": "cta-orange"
+      },
+      {
+        "hex": "#848890",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Oately",
+        "role": "heading"
+      },
+      {
+        "family": "Karla",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong hierarchy, complemented by a readable, balanced body text.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, cards, and input fields, contributing to an approachable aesthetic.",
+    "spacing": "Balanced density overall, with an airy hero section and more compact, yet well-spaced, feature grids and content blocks."
+  },
+  "standout": "The site's distinctive use of detailed, illustrative Lottie-style animations and graphics to visually explain complex HR and payroll concepts makes it highly engaging and approachable for a B2B service. This visual storytelling elevates the content beyond typical static corporate imagery.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

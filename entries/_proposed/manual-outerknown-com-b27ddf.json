@@ -1,0 +1,119 @@
+{
+  "id": "manual-outerknown-com-b27ddf",
+  "source": {
+    "url": "https://www.outerknown.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-outerknown-com-b27ddf.webp",
+    "scroll": [
+      "shots/_proposed/manual-outerknown-com-b27ddf__scroll0.webp",
+      "shots/_proposed/manual-outerknown-com-b27ddf__scroll1.webp",
+      "shots/_proposed/manual-outerknown-com-b27ddf__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.outerknown.com/blogs/journey",
+        "full": "shots/_proposed/manual-outerknown-com-b27ddf__p2.webp"
+      },
+      {
+        "url": "https://www.outerknown.com/pages/outerworn",
+        "full": "shots/_proposed/manual-outerknown-com-b27ddf__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "apparel",
+      "e-commerce",
+      "lifestyle",
+      "sustainable-fashion"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality lifestyle photography and video are used extensively as section backgrounds and hero elements, creating an immersive brand experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections, often alternating between image-heavy blocks, product grids, and editorial cards."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and key labels use a clean, modern sans-serif font, often in uppercase for emphasis, contrasting with a slightly lighter weight sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette of black, white, and light grey dominates, allowing the rich imagery to stand out, with dark backgrounds used for footers and some call-to-action elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The transparent header transforms into a solid white, slightly condensed sticky navigation bar upon scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport, enhancing content discovery."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-width background video that scrolls out of view to reveal the main content, creating an engaging initial impression.",
+    "A sticky navigation bar dynamically changes its background color and height as the user scrolls, transitioning from transparent over the hero to a solid backdrop for better readability over content.",
+    "Content sections are progressively revealed using scroll-triggered animations (likely `aos`), where elements subtly fade or slide into place as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#030712",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#f4f4f6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#515151",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Univers LT Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A balanced sans-serif type scale with clear hierarchy; headings are prominent but not oversized (~2-3x body), often uppercase, with body text being highly legible.",
+    "radius": "Subtle rounding (small radius) is applied to buttons and image cards, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced density overall, with airy, full-bleed hero and editorial sections, transitioning to a more compact grid for product displays."
+  },
+  "standout": "This site distinguishes itself by seamlessly integrating aspirational, high-quality lifestyle photography and video with a robust e-commerce platform. The strong emphasis on brand storytelling through dedicated 'Journey' and 'Outerworn' editorial content, combined with a clean, minimalist design, elevates it beyond a typical product catalog into a lifestyle brand experience.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

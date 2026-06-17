@@ -1,0 +1,112 @@
+{
+  "id": "manual-nurx-com-7f5251",
+  "source": {
+    "url": "https://www.nurx.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-nurx-com-7f5251.webp",
+    "scroll": [
+      "shots/_proposed/manual-nurx-com-7f5251__scroll0.webp",
+      "shots/_proposed/manual-nurx-com-7f5251__scroll1.webp",
+      "shots/_proposed/manual-nurx-com-7f5251__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "women's-health",
+      "telemedicine"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content and contained content, often employing a two-column split with an image on one side and text on the other, or a grid of cards."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary section titles, often left-aligned, while body text is a clean, readable sans-serif. Smaller, uppercase labels are frequently used for categories or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A warm and inviting palette is used, featuring a dominant light cream/beige background (#fef7ec) contrasted with crisp white sections, black/dark grey text, and soft orange/peach (#da532c) and light blue (#5bbad5) accents for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll: an initial promotional banner disappears, and the main navigation bar shrinks slightly, gains a solid white background, and becomes sticky at the top of the viewport. The hero section features content scrolling over a large, relatively static background image, creating a parallax-like effect."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections visually separated by alternating background colors (light cream, white, and black for the footer), each typically introduced by a prominent, bold heading."
+    }
+  ],
+  "technique_notes": [
+    "A responsive header system initially displays a promotional banner and a transparent navigation bar over the hero. Upon scrolling, the banner is hidden, and the main navigation bar transitions to a smaller, fixed-position element with a solid white background, ensuring persistent access.",
+    "The hero section utilizes a large, high-quality photographic background that remains largely static or exhibits a subtle parallax effect as the page content scrolls over it, creating a sense of depth and focus on the imagery.",
+    "Content is structured into clearly defined, full-width sections, often using alternating light background colors (cream and white) for visual separation. Within these sections, content is typically centered or arranged in a two-column grid, frequently featuring image-text pairings or card-based displays for services and testimonials."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fef7ec",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#da532c",
+        "role": "accent"
+      },
+      {
+        "hex": "#fdecd3",
+        "role": "surface-subtle"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Arial",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) with a clean, readable sans-serif body text. Uppercase labels are used for emphasis.",
+    "radius": "Subtle rounding (~4-8px) on cards, buttons, and input fields.",
+    "spacing": "Balanced overall, with a notably airy hero section and comfortable padding around content blocks, creating a sense of openness."
+  },
+  "standout": "The site distinguishes itself with a warm, inviting, and professional aesthetic, achieved through a soft, health-conscious color palette and high-quality, authentic photography of diverse individuals. This creates a distinctive sense of approachability and trust, moving beyond typical clinical or overly corporate health branding.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

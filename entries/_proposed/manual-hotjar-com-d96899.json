@@ -1,0 +1,122 @@
+{
+  "id": "manual-hotjar-com-d96899",
+  "source": {
+    "url": "https://www.hotjar.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hotjar-com-d96899.webp",
+    "scroll": [
+      "shots/_proposed/manual-hotjar-com-d96899__scroll0.webp",
+      "shots/_proposed/manual-hotjar-com-d96899__scroll1.webp",
+      "shots/_proposed/manual-hotjar-com-d96899__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "analytics",
+      "user-experience",
+      "marketing-tech"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page features a full-bleed, dark-themed initial hero, which then transitions to a clean, white-background layout for subsequent content sections, indicating a significant brand or content shift."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold sans-serif, often in dark grey or white, with a secondary accent color (orange in the scrolled view). Body text is a legible sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A bold, deep red/maroon is used for the initial hero, contrasting with a predominantly white and dark blue palette for the rest of the page, with light pink/red and light grey accents in feature sections."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial dark red hero section is replaced by a clean, white-background content area. Simultaneously, the navigation transforms into a sticky header with a white background and a combined brand logo, indicating a brand transition."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct full-width blocks, some with alternating background colors (e.g., light pink cards, light grey comparison table in the initial view), and others with a consistent white background in the scrolled view."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed video hero with a dark overlay for text contrast, setting an immediate bold tone.",
+    "A significant visual transformation occurs on scroll: the initial hero section is replaced by a new content block, and the navigation bar changes its appearance, background, and branding, becoming sticky. This suggests a scroll-triggered state change, possibly using CSS keyframes or JavaScript to manage the transition and sticky behavior.",
+    "Content sections are clearly delineated by full-width background colors, creating visual breaks and hierarchy, with some sections using subtle card-like containers for features."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#6B0022",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#FF0033",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#2F3335",
+        "role": "text"
+      },
+      {
+        "hex": "#FFE3E3",
+        "role": "accent-surface"
+      },
+      {
+        "hex": "#D7E1E1",
+        "role": "surface"
+      },
+      {
+        "hex": "#020249",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#2C2C8C",
+        "role": "link"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4-5x body text) establish clear hierarchy, complemented by a readable sans-serif body text.",
+    "radius": "Subtle rounding on buttons and content cards, maintaining a clean yet approachable feel.",
+    "spacing": "Balanced density with generous vertical spacing between major content blocks, creating an airy feel, especially in the initial hero."
+  },
+  "standout": "The site's most distinctive feature is the dramatic visual and branding shift that occurs upon scrolling past the initial hero. It effectively communicates a brand transition (Hotjar becoming part of Contentsquare) by completely changing the page's aesthetic and navigation structure mid-scroll, moving from a bold, dark red theme to a clean, white, and blue corporate design.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "manual-deepmind-com-dbdae3",
+  "source": {
+    "url": "https://www.deepmind.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-deepmind-com-dbdae3.webp",
+    "scroll": [
+      "shots/_proposed/manual-deepmind-com-dbdae3__scroll0.webp",
+      "shots/_proposed/manual-deepmind-com-dbdae3__scroll1.webp",
+      "shots/_proposed/manual-deepmind-com-dbdae3__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "research",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Consistent use of card-based layouts for news, updates, and research articles, often arranged in multi-column grids, providing a structured and digestible content display."
+    },
+    {
+      "kind": "type",
+      "note": "Hierarchical typography with large, bold sans-serif headings for impact, paired with a clean, readable sans-serif for body text and smaller, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly light backgrounds and dark text, punctuated by vibrant, abstract imagery within content cards that serve as visual accents and content differentiators."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains sticky at the top of the viewport, while the hero section features a looping background video. Content sections reveal by simply scrolling into view without complex fade-ins or slide-ins."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'Recent updates' and 'Latest news and experiments' sections utilize a consistent card grid pattern to showcase diverse content types, each with a thumbnail, title, and brief description."
+    }
+  ],
+  "technique_notes": [
+    "A persistent top navigation bar is implemented using a sticky positioning effect, ensuring key navigation links and call-to-action buttons are always accessible as the user scrolls.",
+    "The hero section incorporates a full-bleed background video (detected as video-hero) that plays on loop, adding dynamic visual interest and setting the tone for the page.",
+    "Content sections and individual cards are designed to appear as they scroll into the viewport, using a standard scroll-reveal mechanism without complex fade-ins or slide-ups, maintaining a clean and direct content presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#101218",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#f9f9fb",
+        "role": "surface"
+      },
+      {
+        "hex": "#0a0a0a",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#25f4ee",
+        "role": "accent"
+      },
+      {
+        "hex": "#fe2c55",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans Flex",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (hero title ~4-5x body, section titles ~2-3x body) create strong hierarchy, complemented by clear, readable body text and small, often uppercase labels.",
+    "radius": "Subtle. Cards, buttons, and input fields feature a consistent, slight corner rounding.",
+    "spacing": "Balanced. Generous vertical spacing between major sections and within card grids provides an airy feel, while content within cards is more compact."
+  },
+  "standout": "The site effectively balances a clean, research-oriented aesthetic with dynamic visual elements like the hero video and vibrant, abstract imagery within the content cards. The consistent card-based content display across various news and research updates, combined with a clear, hierarchical typography, makes complex information digestible and visually engaging without being overwhelming.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
