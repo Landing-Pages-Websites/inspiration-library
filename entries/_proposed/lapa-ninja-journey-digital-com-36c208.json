@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-journey-digital-com-36c208",
+  "source": {
+    "url": "https://journey-digital.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-journey-digital-com-36c208.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-journey-digital-com-36c208__scroll0.webp",
+      "shots/_proposed/lapa-ninja-journey-digital-com-36c208__scroll1.webp",
+      "shots/_proposed/lapa-ninja-journey-digital-com-36c208__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "digital-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with dramatic, oversized typography as primary visual anchors, often using a dark background for high contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic scale contrast, pairing a very large, condensed display sans-serif for headings with a more neutral, readable sans-serif for body text and small, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette dominated by deep blacks and whites, punctuated by a vibrant, almost neon, lime green as a primary accent color for key statements and sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial full-screen video hero with a serene starry ocean scene transitions dramatically on scroll, revealing a new, static hero section dominated by massive, bold text."
+    },
+    {
+      "kind": "section",
+      "note": "Distinctive full-width sections are used to break up content, each with a unique background treatment ranging from video to solid dark, a vibrant lime green, or a patterned dark texture."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic hero transition where an initial full-screen video background with a subtle tagline is replaced by a static, text-heavy hero section as the user scrolls down, creating a sense of reveal and progression. This likely uses css-keyframes for the transition.",
+    "Content sections appear to animate into view as they enter the viewport, typically with a subtle fade-up or slide-in effect, enhancing engagement and guiding the user's eye through the content.",
+    "Typography is used as a primary design element, with display headings rendered in an exceptionally large, condensed sans-serif font to create immediate visual impact, while body text uses a more standard sans-serif for readability. Small, uppercase text is used for labels and metadata."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#131313",
+        "role": "surface"
+      },
+      {
+        "hex": "#D7FF6B",
+        "role": "accent"
+      },
+      {
+        "hex": "#FAFFE3",
+        "role": "surface"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TWK Lausanne 350",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, condensed display headings (~5-8x body text) create a bold statement, contrasted with smaller, often uppercase labels and a readable body font.",
+    "radius": "Sharp, with almost all elements featuring crisp, 90-degree corners, contributing to a modern and precise aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of grandeur, while internal content blocks maintain a comfortable reading rhythm."
+  },
+  "standout": "The site's design is distinctive for its audacious use of typography, where massive, condensed headings dominate the visual hierarchy, creating an immediate and powerful impression. This, combined with a stark black-and-white palette punctuated by a vibrant lime green, gives the site a unique, almost editorial-magazine feel that avoids generic marketing aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

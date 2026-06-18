@@ -1,0 +1,127 @@
+{
+  "id": "manual-synthesia-io-7d5857",
+  "source": {
+    "url": "https://www.synthesia.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-synthesia-io-7d5857.webp",
+    "scroll": [
+      "shots/_proposed/manual-synthesia-io-7d5857__scroll0.webp",
+      "shots/_proposed/manual-synthesia-io-7d5857__scroll1.webp",
+      "shots/_proposed/manual-synthesia-io-7d5857__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.synthesia.io/pricing",
+        "full": "shots/_proposed/manual-synthesia-io-7d5857__p2.webp"
+      },
+      {
+        "url": "https://www.synthesia.io/features",
+        "full": "shots/_proposed/manual-synthesia-io-7d5857__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "video-production"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical feature sections combine text blocks with large visual examples or interactive elements, breaking from strict grid layouts to create dynamic compositions."
+    },
+    {
+      "kind": "type",
+      "note": "Hero headlines use a two-tone color scheme (dark blue and accent blue) to emphasize key product terms, creating visual interest and hierarchy within the main statement."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant accent blue is consistently used for primary calls-to-action, interactive elements, and key terms in headings, contrasting sharply with a dark navy and light gradient backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle fade-up animation as they scroll into the viewport, creating a dynamic content loading experience. The hero video element exhibits a gentle parallax effect against its background gradient."
+    },
+    {
+      "kind": "section",
+      "note": "An extensive, multi-column footer acts as a comprehensive sitemap, categorizing links under 'Features', 'Use Cases', 'Resources', and 'Company' for easy navigation."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using a scroll-triggered animation system (likely css-keyframes as hinted) that makes elements subtly fade and slide upwards as they enter the user's viewport, creating a smooth content flow. The hero section features a large video or image that parallaxes gently against a soft gradient background, adding depth to the initial view. The main navigation bar transitions to a sticky state with a solid background color once the user scrolls past the hero section.",
+    "Large, impactful headings utilize a two-tone color treatment, where specific keywords are highlighted in a bright accent blue against a darker primary text color, drawing immediate attention to the product's core value proposition. Content is presented in a modular, card-based system, often with subtle shadows, allowing for flexible layouts and easy scanning of features and examples."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d0f2c",
+        "role": "dark-background-text"
+      },
+      {
+        "hex": "#3e57da",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#e3ebff",
+        "role": "light-background-gradient"
+      },
+      {
+        "hex": "#ebf6df",
+        "role": "subtle-accent-background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface-background-text"
+      },
+      {
+        "hex": "#1a280b",
+        "role": "dark-text-secondary"
+      },
+      {
+        "hex": "#fffadb",
+        "role": "subtle-accent"
+      },
+      {
+        "hex": "#42230a",
+        "role": "subtle-accent-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Basiersquare Webfont",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (up to ~4-5x body text size) with a mix of dark and accent blue, paired with clear, readable body text. Smaller, uppercase labels provide hierarchical context.",
+    "radius": "Subtle (mostly 4-8px for cards, buttons, and input fields), with some elements like the hero video player featuring more rounded corners.",
+    "spacing": "Balanced to airy; the hero section is very airy, while content sections maintain generous vertical padding and card grids have balanced spacing."
+  },
+  "standout": "The distinctive use of a large, dynamic hero video/image that integrates seamlessly with a subtle gradient background and a prominent, split-color headline creates an immediate high-tech impression. The overall design feels very polished and effectively uses color and motion to highlight key features of an AI product without feeling overwhelming or cluttered.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

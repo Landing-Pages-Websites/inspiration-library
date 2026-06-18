@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-superchill-org-1e95cc",
+  "source": {
+    "url": "https://superchill.org/en/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-superchill-org-1e95cc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-superchill-org-1e95cc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-superchill-org-1e95cc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-superchill-org-1e95cc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "mental-wellness",
+      "childrens-app"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections often feature an asymmetrical two-column layout, balancing large text blocks on one side with illustrative elements or content cards on the other, creating visual interest and clear hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Key words within large, bold, uppercase headings are frequently highlighted with a vibrant lime-green accent color, drawing attention and reinforcing brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of black and off-white for primary content, punctuated by a vibrant, multi-color gradient in the hero and a strong lime-green accent for CTAs and text highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them reveal with a subtle fade-up or slide-in animation as they enter the viewport during scrolling, creating a dynamic and engaging user experience."
+    },
+    {
+      "kind": "section",
+      "note": "Content cards and interactive elements consistently feature soft, rounded corners and often incorporate gradient backgrounds or vibrant imagery, distinguishing them from the more minimal page background."
+    }
+  ],
+  "technique_notes": [
+    "Implement smooth scrolling and scroll-triggered element reveals using a library like locomotive-scroll. Elements should animate into view (e.g., fade up, slide in from bottom) as their parent section becomes visible in the viewport, often with a slight delay or stagger for multiple elements. The main navigation bar remains fixed at the top of the screen with a subtle shadow.",
+    "Create a full-bleed hero section with a dynamic, multi-color gradient background that spans the entire viewport width. Overlay large, bold, uppercase typography, with specific words highlighted using a bright accent color. Integrate playful, custom illustrations and a device mock-up to showcase the product."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5F5F5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#DAFD19",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#112337",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy, uppercase display headings (up to ~4-5x body text size) with key words highlighted in an accent color, paired with a clean, legible sans-serif for body text.",
+    "radius": "Subtle to rounded; most interactive elements and content cards feature soft, rounded corners.",
+    "spacing": "Airy vertical spacing between major sections and within the hero, creating a sense of calm and openness, while content within cards is more balanced."
+  },
+  "standout": "The site's distinctive blend of a vibrant, playful gradient hero with a friendly illustrated character, combined with bold, almost brutalist-style uppercase typography and hand-drawn accent squiggles, creates a unique and approachable brand identity that feels both modern and whimsical.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

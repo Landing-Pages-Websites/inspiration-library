@@ -1,0 +1,103 @@
+{
+  "id": "lapa-ninja-generousbranding-com-827cd8",
+  "source": {
+    "url": "https://generousbranding.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-generousbranding-com-827cd8.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-generousbranding-com-827cd8__scroll0.webp",
+      "shots/_proposed/lapa-ninja-generousbranding-com-827cd8__scroll1.webp",
+      "shots/_proposed/lapa-ninja-generousbranding-com-827cd8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "branding",
+      "design-agency",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs full-screen hero sections that occupy the entire viewport and transition on scroll, followed by a responsive grid of project cards and a full-width client marquee."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, ultra-thin sans-serif headings are used for hero titles, creating a dramatic visual impact, contrasted with smaller, regular-weight sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A strictly monochrome palette of black, white, and various shades of grey is used throughout, with background colors dynamically changing between full-screen sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen hero sections transition with a scroll-snap effect, replacing the previous content and background color. Project cards reveal with a subtle fade-up animation as they enter the viewport. A continuous horizontal marquee displays client names at the bottom of the page."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured into distinct full-screen hero experiences, followed by a 'Work' section presented as a grid of project cards, and a 'Clients' section as a scrolling marquee, culminating in a minimal footer."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-snapping mechanism to transition between full-screen hero sections, where each section reveals new content and a distinct background color. GSAP ScrollTrigger is likely used to orchestrate these full-page transitions and to animate individual project cards with a fade-up effect as they scroll into view. A continuous horizontal marquee animation is employed for the client logo section, creating an infinite scroll effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "surface"
+      },
+      {
+        "hex": "#515151",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Helvetica Neue UltraLight",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Dramatic contrast with oversized, ultra-thin sans-serif headings (approx. 4-5x body text) paired with smaller, regular-weight sans-serif for body and navigation.",
+    "radius": "Sharp corners universally applied to all elements and containers.",
+    "spacing": "Very airy and spacious in hero sections, transitioning to a balanced grid density for project cards, and a more compact but still legible footer."
+  },
+  "standout": "The site's most distinctive feature is its use of full-screen, scroll-snapping hero sections that dramatically transition content and background colors on scroll. This, combined with the ultra-thin, oversized typography and a strict monochrome palette, creates a highly sophisticated and editorial feel that elevates the agency's portfolio beyond typical marketing sites.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-paper-design-e70ae6",
+  "source": {
+    "url": "https://paper.design/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-paper-design-e70ae6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-paper-design-e70ae6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-paper-design-e70ae6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-paper-design-e70ae6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts consistently pair a large, detailed UI screenshot with explanatory text, often with the text on the left and the image on the right, or vice-versa, creating a dynamic visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, and bold sans-serif headings are used for section titles, providing strong hierarchy, while body text is smaller and lighter, and code snippets within UI examples use a distinct monospaced font."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant very light, almost off-white background (#edebe1) provides a clean canvas for dark grey/black text and vibrant, detailed UI screenshots that introduce subtle accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, entire content blocks (text and associated UI images) slide or fade into view from the bottom as they enter the viewport, while a subtle grid texture in the background parallaxes at a slower rate."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is dedicated to a specific product feature or benefit, consistently presented with a clear heading, concise description, and a high-fidelity, realistic UI screenshot demonstrating the concept."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered reveals for content sections, where entire blocks of text and their accompanying UI images animate into view with a subtle upward slide and fade as they enter the viewport, using a scroll animation library like locomotive-scroll.",
+    "Create a sense of depth by applying a subtle parallax effect to a background layer featuring a grid texture, making it scroll slower than the foreground content.",
+    "Integrate highly detailed and realistic UI screenshots as primary visual elements within content sections, often with subtle drop shadows to give them a floating, three-dimensional presence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#edebe1",
+        "role": "background"
+      },
+      {
+        "hex": "#080808",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#efefe4",
+        "role": "surface-secondary"
+      },
+      {
+        "hex": "#81acec",
+        "role": "accent-ui"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong hierarchy, complemented by standard body text and smaller monospaced text for code examples.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied to interactive elements and UI components, while overall content blocks maintain sharp corners.",
+    "spacing": "Airy spacing is used throughout, particularly in the hero section and between major content blocks, creating clear visual separation and a sense of openness."
+  },
+  "standout": "The site's design is distinctive for its exceptional fidelity and seamless integration of highly detailed, realistic UI screenshots as primary visual content, effectively making the product itself the hero. This is complemented by a subtle, animated background grid that adds depth without distracting from the core product visuals.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

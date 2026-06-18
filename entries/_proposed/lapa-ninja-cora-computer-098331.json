@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-cora-computer-098331",
+  "source": {
+    "url": "https://cora.computer/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-cora-computer-098331.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-cora-computer-098331__scroll0.webp",
+      "shots/_proposed/lapa-ninja-cora-computer-098331__scroll1.webp",
+      "shots/_proposed/lapa-ninja-cora-computer-098331__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "email-management"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive background imagery that spans the entire viewport and changes dynamically with scroll depth, creating a continuous visual journey."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant, slightly condensed serif font for prominent headings and a clean, modern sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A natural, earthy color palette transitioning from bright sky blues to warm golden field tones, accented by a vibrant blue for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The background image seamlessly transitions from a blue sky to a golden field as the user scrolls down, while the central product screenshot scales down and moves upwards, eventually disappearing, creating a dynamic visual narrative."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in vertically stacked, centered blocks over the immersive background, with clear visual separation between hero, testimonials, pricing, and FAQ sections."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely using GSAP and WebGL, to create a continuous, immersive background parallax effect where the environment visually transforms from a blue sky to a golden field. Key content elements, such as the product screenshot, are animated to scale, translate, and fade in/out in sync with the scroll, while other sections reveal with subtle fade-up or slide-in transitions as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3399FF",
+        "role": "background"
+      },
+      {
+        "hex": "#C08000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#2B2B2B",
+        "role": "text"
+      },
+      {
+        "hex": "#787878",
+        "role": "text"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "cta"
+      },
+      {
+        "hex": "#D6D6D6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, paired with smaller, legible sans-serif body text and uppercase labels for clarity.",
+    "radius": "Subtle rounding (approx 4-8px) applied consistently to buttons, cards, and the product screenshot, providing a soft, approachable feel.",
+    "spacing": "Airy in the hero section, transitioning to a balanced density in content blocks, maintaining clear vertical rhythm and ample breathing room around elements."
+  },
+  "standout": "The site's most distinctive feature is its seamless, immersive background transition from a serene blue sky to a vibrant golden field, coupled with the dynamic scaling and positioning of the product screenshot during scroll. This creates a highly engaging and visually narrative experience that goes beyond typical static or simple parallax effects.",
+  "animation_tech": [
+    "gsap",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

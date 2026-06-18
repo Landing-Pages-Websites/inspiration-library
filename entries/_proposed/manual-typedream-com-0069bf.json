@@ -1,0 +1,131 @@
+{
+  "id": "manual-typedream-com-0069bf",
+  "source": {
+    "url": "https://www.typedream.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-typedream-com-0069bf.webp",
+    "scroll": [
+      "shots/_proposed/manual-typedream-com-0069bf__scroll0.webp",
+      "shots/_proposed/manual-typedream-com-0069bf__scroll1.webp",
+      "shots/_proposed/manual-typedream-com-0069bf__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://typedream.com/",
+        "full": "shots/_proposed/manual-typedream-com-0069bf__p2.webp"
+      },
+      {
+        "url": "https://typedream.com/docs",
+        "full": "shots/_proposed/manual-typedream-com-0069bf__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "no-code",
+      "website-builder"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with centered, constrained-width content blocks, often alternating between a light background and pure white for visual separation."
+    },
+    {
+      "kind": "type",
+      "note": "Key headlines feature a prominent, bold sans-serif font, with specific keywords highlighted in a vibrant accent color (e.g., purple) to draw attention to the core value proposition."
+    },
+    {
+      "kind": "color",
+      "note": "A neutral base palette of off-white and light grey is consistently accented with a diverse range of vibrant, distinct colors (purple, blue, green, yellow) used for CTAs, tags, and text highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section dynamically cycles its main headline, sub-headline, and accompanying illustration/tags, presenting different value propositions (e.g., 'agency' vs. 'template') as the user scrolls or over time."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page, ensuring constant access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently employ a two-column layout, pairing descriptive text on one side with a relevant product mockup or illustration on the other, often alternating the side of the text block."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a content rotation mechanism, likely using JavaScript to swap out text strings and associated illustrations/tags, either on a timed interval or triggered by scroll position, to showcase various product applications. This could involve CSS keyframes for smooth transitions between content states or Lottie animations for the illustrations.",
+    "The main navigation bar is fixed to the top of the viewport, maintaining accessibility to key links throughout the user's scroll journey.",
+    "Interactive elements like buttons and cards feature subtle rounded corners and soft shadows, providing a modern, approachable feel without being overly playful."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8FA",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#808080",
+        "role": "body-text"
+      },
+      {
+        "hex": "#8B5CF6",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#3994FF",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#34D399",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#FFC107",
+        "role": "accent-yellow"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Mona Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong hierarchy, complemented by smaller, legible body text and tiny uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to cards, buttons, and input fields, avoiding sharp edges or full pills.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and comfortable padding within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The most distinctive design element is the dynamic hero section that actively cycles through different value propositions, changing both the headline text and the accompanying product illustrations. This creates an engaging and versatile introduction, immediately showcasing multiple facets of the product without requiring user interaction or excessive scrolling.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

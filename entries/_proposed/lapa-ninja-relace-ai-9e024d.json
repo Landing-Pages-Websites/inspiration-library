@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-relace-ai-9e024d",
+  "source": {
+    "url": "https://relace.ai/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-relace-ai-9e024d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-relace-ai-9e024d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-relace-ai-9e024d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-relace-ai-9e024d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, particularly in hero and feature sections, balancing large headings or visuals with supporting text and creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant serif font is used for large headings, providing a sophisticated and editorial feel that contrasts with the clean, modern sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "The primary page background is a warm, soft off-white (#fffef2), which gives the site a unique, inviting, and less stark feel compared to pure white backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar is sticky and transforms on scroll: it reduces in height and gains a solid light background, transitioning from its initial transparent state."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent, full-width visual elements, such as the embedded code editor screenshot and the mountain range image, are used as strong visual anchors or dividers between content blocks."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header system is implemented where the navigation bar dynamically shrinks in height and applies a solid background color as the user scrolls down the page, ensuring it remains visible and compact.",
+    "Large, impactful display typography, set in a unique serif font, is used for main headings to establish a strong brand voice and clear visual hierarchy across the site.",
+    "Content sections are often designed with an asymmetrical balance, utilizing generous negative space to highlight key information and create an open, uncluttered aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fffef2",
+        "role": "background"
+      },
+      {
+        "hex": "#191918",
+        "role": "text"
+      },
+      {
+        "hex": "#fcaa2d",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "code-background"
+      },
+      {
+        "hex": "#e3e2d8",
+        "role": "subtle-divider"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Parabole Trial",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Decima Mono Pro",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, expressive serif headings (Parabole Trial, ~3-5x body) are paired with a clean, readable sans-serif body text (Inter), creating a sophisticated and clear hierarchy.",
+    "radius": "Subtle rounding (2-4px) is applied to interactive elements like buttons and the code editor window, while most structural elements maintain sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and ample padding within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site stands out with its sophisticated blend of a unique, editorial-style serif typeface for headings, a warm off-white background, and the prominent integration of code editor visuals. This combination creates a distinctive, high-end tech aesthetic that feels both professional and inviting, moving beyond typical SaaS templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

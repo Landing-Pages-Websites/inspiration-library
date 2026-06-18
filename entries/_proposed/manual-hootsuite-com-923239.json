@@ -1,0 +1,125 @@
+{
+  "id": "manual-hootsuite-com-923239",
+  "source": {
+    "url": "https://www.hootsuite.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hootsuite-com-923239.webp",
+    "scroll": [
+      "shots/_proposed/manual-hootsuite-com-923239__scroll0.webp",
+      "shots/_proposed/manual-hootsuite-com-923239__scroll1.webp",
+      "shots/_proposed/manual-hootsuite-com-923239__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hootsuite.com/plans",
+        "full": "shots/_proposed/manual-hootsuite-com-923239__p2.webp"
+      },
+      {
+        "url": "https://www.hootsuite.com/about",
+        "full": "shots/_proposed/manual-hootsuite-com-923239__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "social-media-management",
+      "marketing-tech"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks with large illustrations or images alternating sides, creating visual interest and breaking up text-heavy sections."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of large, bold numbers and statistics to highlight key achievements and data points, often within dedicated visual elements or infographics."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant brand blue and a contrasting red accent against a largely neutral white and light grey background to draw attention to CTAs, key features, and status indicators."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic top banner with a countdown timer that collapses out of view upon initial scroll, revealing a sticky main navigation bar that fixes to the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'social proof' sections featuring prominent client logos, user testimonials in card format, and case study summaries to reinforce credibility and trust."
+    }
+  ],
+  "technique_notes": [
+    "The top promotional banner with a countdown timer is initially visible, then smoothly collapses out of view as the user scrolls down, revealing a sticky main navigation bar that fixes to the top of the viewport. This transition maintains a clean header while preserving navigation access.",
+    "Sections and content blocks appear to animate into view with a subtle fade-up or slide-in effect as they enter the viewport, enhancing engagement and guiding the user's attention. This likely leverages CSS keyframes or a JavaScript animation library for scroll-triggered reveals.",
+    "Complex concepts and data points are communicated through custom, modern, flat-style illustrations and infographics, often paired with concise text, to make information digestible and visually appealing."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#f2f4f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#012b3a",
+        "role": "text"
+      },
+      {
+        "hex": "#2867b2",
+        "role": "cta"
+      },
+      {
+        "hex": "#e03035",
+        "role": "accent"
+      },
+      {
+        "hex": "#41606b",
+        "role": "body-text"
+      },
+      {
+        "hex": "#e8f8f0",
+        "role": "banner-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and significantly larger than body text, with a clear hierarchical sizing. Body text is legible and well-spaced. Small uppercase labels are used for subheadings and accents.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied to buttons, cards, and input fields, providing a soft, approachable feel.",
+    "spacing": "Balanced overall, with airy sections in the hero and top content blocks, transitioning to a slightly denser layout in feature grids and the extensive footer, maintaining a clear vertical rhythm."
+  },
+  "standout": "This site effectively combines a clean, professional aesthetic with vibrant, modern illustrations and a strong emphasis on social proof and data. The unique collapsing top banner with a countdown timer, which reveals a sticky navigation, is a distinctive touch. The extensive use of custom illustrations and data visualizations throughout the page, rather than just stock photos, helps convey a sense of expertise and modernity.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "rive",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-diabrowser-com-e75d28",
+  "source": {
+    "url": "https://www.diabrowser.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-diabrowser-com-e75d28.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-diabrowser-com-e75d28__scroll0.webp",
+      "shots/_proposed/lapa-ninja-diabrowser-com-e75d28__scroll1.webp",
+      "shots/_proposed/lapa-ninja-diabrowser-com-e75d28__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "browser",
+      "productivity",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a generous max-width container, surrounded by ample negative space, creating a focused and airy presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface with specific words emphasized in an even bolder weight, creating a strong visual hierarchy and drawing attention to key concepts."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is predominantly monochromatic (black text on white/light grey backgrounds) with subtle, soft gradients and bright, contained accent colors used sparingly in UI elements and the hero background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features floating UI elements (profile card, app icons, media players) that animate and parallax as the user scrolls, moving out of view to reveal the main content. The top navigation transforms into a sticky, pill-shaped element with a background after scrolling past the hero."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by large headings and often feature multiple, detailed product screenshots or UI mockups arranged in a grid or flow to visually explain features."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a large, fixed background gradient that remains in place while content scrolls over it, creating a layered depth effect. Floating UI elements within the hero are animated using Lottie or CSS transforms to parallax and move out of view on scroll. The top navigation uses a scroll-triggered transformation to shrink and gain a background, becoming sticky after the initial hero content scrolls past.",
+    "Product features are explained through a series of high-fidelity screenshots and UI mockups, often grouped in grids or sequences, to visually demonstrate the browser's functionality rather than relying solely on text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EBEBEB",
+        "role": "surface"
+      },
+      {
+        "hex": "#F2FCB3",
+        "role": "accent"
+      },
+      {
+        "hex": "#5092C7",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFDC5C",
+        "role": "accent"
+      },
+      {
+        "hex": "#0358F7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~4-5x body) with specific words emphasized in an even heavier weight, contrasted with a highly legible, well-spaced body text.",
+    "radius": "Subtle rounded corners (e.g., 8-12px) on buttons, cards, and UI elements, providing a soft, modern aesthetic.",
+    "spacing": "Very airy in the hero and between major sections, creating a sense of calm and focus. Content within sections is balanced with comfortable line heights and paragraph spacing."
+  },
+  "standout": "The site's distinctive use of animated, floating UI elements and detailed product screenshots as integral design components, rather than static images, creates an immersive and highly visual explanation of the browser's features. This, combined with an 'Apple-esque' clean aesthetic, makes the product feel premium and intuitive.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

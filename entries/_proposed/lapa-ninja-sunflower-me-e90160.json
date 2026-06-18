@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-sunflower-me-e90160",
+  "source": {
+    "url": "https://sunflower.me/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sunflower-me-e90160.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sunflower-me-e90160__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sunflower-me-e90160__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sunflower-me-e90160__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-tool",
+      "email-client"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered horizontally within full-bleed sections, creating a strong vertical flow with ample negative space."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast in typography, pairing a large, elegant display serif font for key headings with a clean, modern sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site transitions between high-contrast light and dark themes across sections, using white and a light off-white for initial sections, then shifting to deep dark blues and black for subsequent sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle vertical slide-up and fade-in effect as the user scrolls, creating a progressive narrative. Key animated elements, like the sunflower icon and glowing orb, transform or appear dynamically within these sections."
+    },
+    {
+      "kind": "section",
+      "note": "Each major section functions as a distinct visual chapter, often featuring a unique background color or animated element that reinforces the narrative progression."
+    }
+  ],
+  "technique_notes": [
+    "The page employs scroll-triggered animations to reveal content sections sequentially. As the user scrolls, new sections slide up from the bottom and fade into view, creating a smooth, guided experience.",
+    "Dynamic visual elements, such as the transforming sunflower icon and the glowing orb, are implemented using canvas animations, providing rich, organic visual effects that respond to scroll depth and enhance the storytelling.",
+    "Backgrounds in certain sections utilize video-hero technology to create subtle, ambient motion, adding depth and atmosphere without distracting from the primary content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A33",
+        "role": "background"
+      },
+      {
+        "hex": "#FAD241",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) provide strong visual anchors, complemented by a clean, legible sans-serif for body text.",
+    "radius": "Subtle rounding on interactive elements like input fields and buttons, maintaining a refined aesthetic.",
+    "spacing": "Very airy, with generous vertical spacing between major sections and within content blocks, contributing to a sense of calm and focus."
+  },
+  "standout": "This site's design is distinctive for its dramatic, scroll-driven narrative, where each section unveils a new visual and thematic chapter. The use of sophisticated canvas animations for organic, glowing elements (like the sunflower and orb) against high-contrast dark backgrounds creates a unique, almost ethereal experience that elevates the product beyond a typical utility.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

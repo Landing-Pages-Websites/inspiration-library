@@ -1,0 +1,116 @@
+{
+  "id": "manual-coda-io-dde981",
+  "source": {
+    "url": "https://www.coda.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-coda-io-dde981.webp",
+    "scroll": [
+      "shots/_proposed/manual-coda-io-dde981__scroll0.webp",
+      "shots/_proposed/manual-coda-io-dde981__scroll1.webp",
+      "shots/_proposed/manual-coda-io-dde981__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://coda.io/",
+        "full": "shots/_proposed/manual-coda-io-dde981__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "collaboration-tool",
+      "productivity"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large, bold text on one side with a detailed product UI screenshot or embedded video on the other."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with extremely large, bold sans-serif headlines that command attention, contrasted with a clear, readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site strategically uses a warm, light beige background for the hero and footer, providing a distinct visual break from the crisp white used for main content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "New content sections reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a guided and engaging scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections are introduced with a concise, bold headline and immediately followed by a grid of small, illustrative UI examples or screenshots to demonstrate functionality."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations (potentially using a library or Intersection Observer) to reveal content sections with a subtle vertical slide-in and fade-in effect as they become visible in the viewport.",
+    "Utilize a flexible grid system that allows for prominent, asymmetrical two-column arrangements, often dedicating one column to large, impactful typography and the other to detailed product UI visuals or embedded media.",
+    "Integrate high-fidelity product UI screenshots and embedded video players (leveraging the 'video-hero' capability) directly into content sections to demonstrate functionality and provide visual context."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbf7f5",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#0066ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#a91e1e",
+        "role": "accent"
+      },
+      {
+        "hex": "#e2f8e8",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Features an extremely large, bold, and condensed sans-serif for primary headlines, creating a strong visual impact, while body text is a clear, readable sans-serif at a standard size.",
+    "radius": "Subtle rounding applied consistently to buttons, input fields, and image/card containers, giving a soft, approachable feel.",
+    "spacing": "Generally airy, especially in hero and major section breaks, with ample whitespace around content blocks, contributing to a clean and modern aesthetic."
+  },
+  "standout": "The site's distinctive use of highly detailed, interactive-looking product UI screenshots and embedded videos as primary visual elements, often presented in an asymmetrical layout, immediately communicates the product's functionality and sophistication without relying on abstract illustrations.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

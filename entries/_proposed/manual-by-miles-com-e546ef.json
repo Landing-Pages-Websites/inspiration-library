@@ -1,0 +1,112 @@
+{
+  "id": "manual-by-miles-com-e546ef",
+  "source": {
+    "url": "https://www.by-miles.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-by-miles-com-e546ef.webp",
+    "scroll": [
+      "shots/_proposed/manual-by-miles-com-e546ef__scroll0.webp",
+      "shots/_proposed/manual-by-miles-com-e546ef__scroll1.webp",
+      "shots/_proposed/manual-by-miles-com-e546ef__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "insurance",
+      "automotive",
+      "finance"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and split layouts, often with text on the left and a graphic or image on the right, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Headings frequently use a vibrant orange underline for emphasis, creating a consistent brand accent across key titles."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive deep purple (#320b42) is used as a primary brand color for backgrounds and prominent text, contrasted with bright white and a vivid light blue for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent to a solid white background and becomes sticky at the top of the viewport after initial scroll. The hero section exhibits a subtle parallax effect, where the mountain background scrolls slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Illustrative line-art graphics are consistently used to introduce and visually represent content sections, such as the phone graphic for 'How it works' and the detailed city/car scene in the footer."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar transitions its background color and fixes its position to the top of the viewport once the user scrolls past the initial hero content.",
+    "Content sections are revealed with a subtle slide-up or fade-in animation as they enter the viewport, creating a dynamic scrolling experience.",
+    "Illustrative graphics, likely implemented with Lottie, are integrated throughout the page to add visual interest and explain concepts without relying on static images."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#320b42",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f9644b",
+        "role": "accent"
+      },
+      {
+        "hex": "#00c6e0",
+        "role": "cta"
+      },
+      {
+        "hex": "#00b67a",
+        "role": "accent"
+      },
+      {
+        "hex": "#dcdce6",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BM-Biotif",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with a clear hierarchy, complemented by smaller, lighter subheadings and legible body text.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to buttons and card-like elements.",
+    "spacing": "Balanced spacing overall, with an airy hero section and distinct vertical rhythm between content blocks, becoming denser in feature grids and FAQ sections."
+  },
+  "standout": "The site's distinctive use of a deep purple and vibrant orange accent, combined with playful, detailed line-art illustrations, creates a unique and approachable brand identity that stands apart from typical financial service designs. The orange underline on headings is a simple yet effective branding element.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}
