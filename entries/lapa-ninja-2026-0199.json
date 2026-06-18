@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-2026-0199",
+  "source": {
+    "url": "https://www.synthesis.partners/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0199.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0199__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0199__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0199__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "data",
+      "consulting",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Sticky header navigation that transforms on scroll, reducing its height, shrinking the logo, and changing its background from transparent to a solid light color."
+    },
+    {
+      "kind": "motion",
+      "note": "Dynamic, interactive canvas animation of colorful dots in the hero section that appears to parallax or shift as the user scrolls."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layouts for content sections, often pairing large text blocks with illustrative elements or image collages."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color blocking, notably the transition from a light cream background to a vibrant orange footer."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a distinctive, slightly condensed serif typeface for major headings, creating a sophisticated and editorial feel."
+    },
+    {
+      "kind": "section",
+      "note": "Unique 'Menu 2035' section presenting service categories within a circular, illustrative motif."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar that dynamically reduces its height, shrinks the logo, and changes its background color from transparent to a solid light tone after the initial scroll.",
+    "The hero section features a dynamic, interactive graphic of colorful dots, likely implemented with a canvas animation and GSAP, which appears to parallax or react to scroll depth.",
+    "Content sections are revealed as the user scrolls, potentially using GSAP ScrollTrigger for staggered fade-in or slide-up effects, though the primary visible motion is the sticky nav and hero element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FDF9F5",
+        "role": "background"
+      },
+      {
+        "hex": "#FF4E28",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-accent"
+      },
+      {
+        "hex": "#FFAB00",
+        "role": "accent-secondary"
+      },
+      {
+        "hex": "#6B9C3F",
+        "role": "accent-tertiary"
+      },
+      {
+        "hex": "#FE7D14",
+        "role": "accent-quaternary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, expressive serif headings (up to ~4-5x body text) are contrasted with smaller, often uppercase sans-serif labels and a readable body text.",
+    "radius": "Sharp corners for all elements, including buttons and image containers.",
+    "spacing": "Airy and generous, particularly in the hero and main content sections, creating a sense of openness."
+  },
+  "standout": "The site's distinctive use of playful, abstract, and colorful illustrations, particularly the dynamic data visualization in the hero and the circular motifs in the 'Menu 2035' section, sets it apart. This visual language, combined with a bold color palette and a unique display typeface, creates a sophisticated yet approachable brand identity that avoids generic corporate aesthetics.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

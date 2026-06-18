@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0176",
+  "source": {
+    "url": "https://www.monologue.to/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0176.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0176__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0176__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0176__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "voice-transcription",
+      "productivity-tool"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background sections with content centered horizontally, often featuring a prominent device illustration or large typography as a visual anchor."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic, oversized serif typography is used for the brand name and primary headings, creating a strong editorial and sophisticated feel, contrasted with a clean sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark palette transitions from deep black in the hero to a dark teal/blue in subsequent sections, accented by bright cyan/blue for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The large 'Monologue' text in the hero section appears to parallax, moving slower than the foreground content as the user scrolls, eventually revealing a background color transition from black to dark teal."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background color changes and often introduce a central visual element, such as a stylized device or a grid of feature cards."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the hero motion, use a scroll-triggered animation (e.g., GSAP ScrollTrigger) to create a parallax effect where the oversized brand name moves at a slower rate than the main content, giving a sense of depth. Simultaneously, trigger a background color transition for the main page wrapper as the user scrolls past the initial hero viewport.",
+    "Implement scroll-triggered reveals for content sections, where elements like text blocks and cards fade in or slide up from the bottom as they enter the viewport, using CSS keyframes or a JavaScript animation library.",
+    "Utilize a dark, full-bleed background for sections, with content constrained to a central column. Employ a distinct color shift for the background between major sections to visually separate them."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1ad0e8",
+        "role": "background-secondary"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#4f4f4f",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#19d0e8",
+        "role": "accent"
+      },
+      {
+        "hex": "#282828",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "DM Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif display headings (~4-5x body) create a strong visual impact, complemented by a clean, legible sans-serif for body and UI text.",
+    "radius": "Subtle rounded corners (e.g., on buttons, cards, and device illustrations) provide a soft, modern touch without being overly rounded.",
+    "spacing": "Balanced to airy; the hero section features very generous vertical spacing, while content sections maintain a clear, organized rhythm with ample padding around elements and between sections."
+  },
+  "standout": "The site's distinctive use of dramatic, oversized serif typography for the brand name and key headings, combined with a dark, industrial-chic aesthetic and a subtle background color transition on scroll, creates a sophisticated and memorable brand experience. The custom-designed device illustrations are also a unique visual motif.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "rive"
+  ],
+  "status": "approved"
+}

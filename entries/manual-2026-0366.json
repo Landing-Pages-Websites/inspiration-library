@@ -1,0 +1,127 @@
+{
+  "id": "manual-2026-0366",
+  "source": {
+    "url": "https://www.humaan.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0366.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0366__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0366__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0366__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.humaan.com/xmas",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0366__p2.webp"
+      },
+      {
+        "url": "https://www.humaan.com/about",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0366__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "web-design",
+      "creative-services"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with generous vertical padding and alternating background colors create clear visual breaks and a sense of spaciousness."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and major section headings use an extremely large, bold sans-serif typeface, creating immediate visual impact and strong hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon, yellow-green (#eafb7f) is used as a primary accent color for interactive elements, icons, and subtle highlights against a palette of muted light beige, deep purple, and dark blue."
+    },
+    {
+      "kind": "motion",
+      "note": "The footer call-to-action features a dynamic text swap ('delightful' to 'beautiful') synchronized with an animation of an adjacent abstract face icon as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "A distinctive 'What's New' section presents recent articles or case studies in a horizontally scrollable carousel, breaking the vertical flow of content."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented that changes its background color and highlights the active navigation item with a pill-shaped background upon scroll. An SVG icon within the header also animates its state.",
+    "Content sections are revealed with a subtle slide-up or fade-in effect as they enter the viewport, creating a sense of progression.",
+    "Hero sections utilize either a dynamic canvas animation or a full-bleed video background to create an engaging visual anchor, with large typography overlaid for key messaging."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ecfffc",
+        "role": "background"
+      },
+      {
+        "hex": "#122a2a",
+        "role": "text"
+      },
+      {
+        "hex": "#663399",
+        "role": "accent-background-purple"
+      },
+      {
+        "hex": "#1a597b",
+        "role": "accent-background-blue"
+      },
+      {
+        "hex": "#eafb7f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#999999",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#3dbeac",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) create strong visual anchors, complemented by a clean, readable sans-serif for body copy.",
+    "radius": "Subtle rounding on cards and buttons, with prominent circular shapes used for team member profile images.",
+    "spacing": "Generally airy, with generous vertical padding between sections and a balanced grid for content blocks, creating an open and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of playful, abstract 3D canvas animations in the hero and the dynamic, text-swapping footer CTA with an animating icon sets it apart. The bold application of a vibrant yellow-green as a key accent color against a sophisticated, muted palette also creates a memorable brand identity.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

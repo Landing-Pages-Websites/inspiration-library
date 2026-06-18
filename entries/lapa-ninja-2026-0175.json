@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0175",
+  "source": {
+    "url": "https://moneda.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0175.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0175__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0175__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0175__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "finance",
+      "blockchain"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with a dark overlay for text contrast, transitioning to a clean white background for subsequent content sections."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are paired with smaller, uppercase sans-serif labels to introduce sections or features."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep charcoal/black and crisp white is punctuated by a vibrant, electric cyan accent color for calls to action and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The transparent header transforms into a solid, slightly smaller sticky header with a background and subtle shadow upon scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image employs a subtle parallax effect, moving at a slower rate than the foreground content as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented as dark, full-width cards with white text, creating a strong visual break from the lighter background sections."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header dynamically changes its appearance, including background, size, and shadow, after a specific scroll threshold is met.",
+    "The hero background image utilizes a subtle parallax effect, where it scrolls at a different speed than the foreground content to create a sense of depth.",
+    "Content sections are revealed with a staggered fade-up animation as they enter the viewport, likely orchestrated using GSAP ScrollTrigger to enhance engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#00C8FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0EAEC",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) for impact, complemented by smaller uppercase sans-serif labels and readable body text.",
+    "radius": "Subtle rounded corners (e.g., on buttons and image cards) provide a soft, modern feel without being overly playful.",
+    "spacing": "Airy spacing in the hero and between major sections, transitioning to a balanced density within content blocks for readability."
+  },
+  "standout": "The bold, graphic use of the vibrant cyan accent, particularly the striking line through the hero text and the full-bleed call-to-action section, combined with sophisticated photography, creates a distinctive modern and trustworthy aesthetic.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "manual-2026-0392",
+  "source": {
+    "url": "https://www.vanta.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0392.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0392__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0392__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0392__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.vanta.com/demo",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0392__p2.webp"
+      },
+      {
+        "url": "https://www.vanta.com/vanta-delivers",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0392__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "compliance",
+      "security"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are frequently used, pairing large product screenshots or illustrations on one side with descriptive text and calls-to-action on the other, often within full-width sections."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive brand palette of deep purple and light lavender is consistently applied for section backgrounds, creating strong visual segmentation and high contrast for white text elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar dynamically transforms on scroll, shrinking in height and gaining a solid dark purple background, while a new informational banner simultaneously appears directly below it."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'trust' sections prominently feature client logos, professional testimonials with headshots, and clear compliance certifications, strategically placed to build credibility."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings are used for all major section titles, often centered, creating strong visual anchors and a clear content hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions from a transparent, taller initial state to a compact, solid dark purple state with a subtle shadow as the user scrolls past the hero section, likely using CSS transitions or GSAP for smooth animation.",
+    "Content sections are revealed with a subtle fade-in and slight upward translation effect as they enter the viewport, orchestrated using a scroll-triggered animation library like GSAP ScrollTrigger.",
+    "The site employs a consistent grid system with generous vertical padding between major full-width sections, creating an airy and spacious feel, while content within individual blocks is more densely arranged for readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#240642",
+        "role": "background"
+      },
+      {
+        "hex": "#a13dff",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f4f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#151414",
+        "role": "text"
+      },
+      {
+        "hex": "#8f47d5",
+        "role": "surface"
+      },
+      {
+        "hex": "#fbad41",
+        "role": "accent"
+      },
+      {
+        "hex": "#00b06b",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "SFMono-Regular",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body size) establish a clear hierarchy, complemented by legible body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding (4-8px) is applied consistently to buttons, input fields, and card elements, maintaining a clean and modern aesthetic without being overly soft.",
+    "spacing": "Balanced to airy, with significant vertical padding between full-width sections and a more balanced density within content blocks, creating a comfortable reading experience."
+  },
+  "standout": "The site's distinctive use of a rich, deep purple as a primary brand color, combined with a clean and sophisticated interface for showcasing complex compliance software, creates a highly trustworthy and authoritative impression. The dynamic product screenshots and a relentless focus on 'trust' through visual elements like certifications and client logos are particularly effective in conveying expertise.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie"
+  ],
+  "status": "approved"
+}

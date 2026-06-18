@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0358",
+  "source": {
+    "url": "https://www.d-id.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0358.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0358__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0358__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0358__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.d-id.com/ethics",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0358__p2.webp"
+      },
+      {
+        "url": "https://www.d-id.com/ai-agents",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0358__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "video-technology"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-bleed dark backgrounds (black or orange) and white or light grey backgrounds, creating strong visual separation and contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text uses a highly legible, slightly lighter sans-serif, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep black and vibrant orange is used for primary branding, with white and light grey serving as clean background and text colors."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the main navigation bar shrinks in height and becomes sticky at the top of the viewport. Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent, small video avatar widget floats in the bottom right corner of the screen on key product pages, offering an interactive element that showcases the core offering."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar uses a scroll-triggered transformation to reduce its height and fix its position at the top of the viewport, likely using CSS transitions for a smooth effect. Sections are revealed using scroll-triggered animations, where elements fade in and subtly slide upwards as they become visible, likely orchestrated with JavaScript (e.g., Intersection Observer) and CSS keyframes. The floating video avatar is a fixed-position element, potentially a Lottie animation or a live video feed, that remains visible on specific pages."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#090604",
+        "role": "background"
+      },
+      {
+        "hex": "#ff882e",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#6c757d",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Manrope",
+        "role": "heading"
+      },
+      {
+        "family": "Libre Franklin",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (hero ~4-5x body) with clear hierarchy, complemented by a readable, well-spaced body text.",
+    "radius": "Subtle rounding on buttons and card elements, maintaining a modern but not overly soft aesthetic.",
+    "spacing": "Balanced to airy, with generous padding in hero sections and good vertical rhythm between content blocks."
+  },
+  "standout": "The most distinctive aspect is the seamless integration of AI-generated video avatars, not just as the product itself, but as a persistent, interactive UI element on key pages. This directly showcases the core offering in a dynamic and engaging way, reinforcing the brand's innovative identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

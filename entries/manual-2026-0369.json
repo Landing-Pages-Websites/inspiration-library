@@ -1,0 +1,127 @@
+{
+  "id": "manual-2026-0369",
+  "source": {
+    "url": "https://www.lemon.markets",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0369.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0369__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0369__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0369__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.lemon.markets/en-de/media",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0369__p2.webp"
+      },
+      {
+        "url": "https://www.lemon.markets/en-de/contact",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0369__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "saas",
+      "financial-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for hero and feature sections, typically placing text on the left and a detailed illustration or graphic on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections often alternate between full-width light (white or light grey) and dark (dark grey/black) backgrounds, creating clear visual separation and rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings for primary titles, contrasted with lighter weight body text and smaller, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a high-contrast palette of stark white and deep charcoal/black, with a vibrant lemon yellow serving as the primary accent color for branding and key elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms upon scroll, shrinking in height and gaining a solid white background with a subtle shadow as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "A consistent 'Partner with us' call-to-action section, featuring a dark background with a subtle grid pattern, is placed just above the footer on multiple pages."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (likely using css-keyframes or a JavaScript library) to reveal content sections with a subtle fade-up or slide-in effect as they enter the viewport. The navigation bar dynamically transforms its height, background, and shadow upon scrolling past the initial hero section, creating a sticky, compact header.",
+    "Complex financial concepts are visually communicated through sophisticated, abstract 3D illustrations that often incorporate elements like code snippets, data visualizations, and subtle grid patterns. These visuals are integrated into asymmetrical layouts to balance textual content.",
+    "The layout utilizes full-width sections with content centered within a defined maximum width, often alternating background colors to delineate different thematic areas. Feature sets and partner logos are organized into responsive card and grid systems with consistent internal spacing."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111418",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#F9FAFB",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#FFEB00",
+        "role": "accent"
+      },
+      {
+        "hex": "#E9EAEC",
+        "role": "border"
+      },
+      {
+        "hex": "#25282D",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong focal points, complemented by lighter body text and smaller, often uppercase, labels for detail.",
+    "radius": "Subtle rounding on buttons and cards (e.g., ~4-8px), maintaining a clean yet approachable aesthetic.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of sophisticated, abstract 3D illustrations and subtle grid patterns, particularly in the hero and dark sections, elevates it beyond a typical corporate template. These visuals, combined with a crisp, high-contrast color palette and precise typography, create a highly polished and trustworthy aesthetic that effectively communicates complex financial technology.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "approved"
+}

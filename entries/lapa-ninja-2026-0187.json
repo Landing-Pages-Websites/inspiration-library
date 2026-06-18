@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-2026-0187",
+  "source": {
+    "url": "https://readme.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0187.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0187__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0187__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0187__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section is presented as a large, full-width, rounded-corner card with a distinct dark background, visually separating it from the page's main white background."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections below the hero alternate between a deep indigo background with light text and a clean white background with dark text, creating clear visual segmentation and contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a large, bold, sans-serif typeface, often in white against dark backgrounds or dark blue against light, ensuring high readability and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep indigo/dark blue is used for primary backgrounds and key interactive elements, establishing a strong, sophisticated brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section, a large rounded-corner card, dramatically shrinks and transforms into the sticky navigation bar as the user scrolls down, revealing the main page content."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is initially presented as a large, full-width, rounded-corner container with a distinct dark background and subtle grid overlay. Upon scrolling, this container animates by shrinking in height and width, increasing its border-radius, and repositioning to become the fixed navigation bar at the top of the viewport. The original navigation links then appear within this transformed container.",
+    "Content sections below the hero are designed with alternating background colors (dark indigo and white) to provide clear visual breaks and structure. Text color is adjusted for optimal contrast against each background, with light text on dark and dark text on light."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0A0A33",
+        "role": "background"
+      },
+      {
+        "hex": "#5C5CFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A4A8A",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4x body) with clear, legible body text and smaller, uppercase labels.",
+    "radius": "Rounded (prominent on the hero card and buttons, becoming more rounded on the sticky nav).",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, but tighter spacing in feature grids."
+  },
+  "standout": "The most distinctive element is the hero section's dynamic transformation from a large, rounded-corner card into the sticky navigation bar upon scroll. This creates a highly engaging and memorable initial interaction that seamlessly integrates the primary call to action area with the persistent navigation.",
+  "animation_tech": [],
+  "status": "approved"
+}

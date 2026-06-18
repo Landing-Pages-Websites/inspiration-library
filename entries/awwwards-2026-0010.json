@@ -1,0 +1,115 @@
+{
+  "id": "awwwards-2026-0010",
+  "source": {
+    "url": "https://vaulk.com",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/awwwards-2026-0010.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/awwwards-2026-0010__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/awwwards-2026-0010__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/awwwards-2026-0010__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://vaulk.com/en-GB/shelter-products",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/awwwards-2026-0010__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "defense",
+      "security",
+      "manufacturing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark backgrounds and lighter content areas, creating a strong visual rhythm and clear content segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, and bold sans-serif headings are paired with smaller, highly legible body text and very small, often uppercase, monospace labels for metadata and section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring a dominant dark charcoal background, light gray surfaces, and stark white text, punctuated by a vibrant orange accent for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them reveal with a staggered fade-up or slide-in animation as they enter the viewport, creating a dynamic and engaging scroll experience. A horizontal timeline element animates its progress as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "A multi-step process or timeline is visualized with a horizontal, rule-based graphic that highlights current progress as the user scrolls, integrating visual storytelling into the page flow."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to reveal content. As the user scrolls, sections and individual elements (text blocks, images, icons) fade in and slide up into view, often in a staggered sequence. The hero image features a subtle parallax effect, moving slower than the foreground content. The navigation bar transforms from a transparent overlay to a sticky, solid-background element upon scrolling past the hero. A horizontal timeline graphic animates its progress based on scroll depth. These effects are likely achieved using CSS keyframes for element reveals and potentially JavaScript for scroll-depth tracking and parallax, leveraging the detected canvas and css-keyframes capabilities.",
+    "Full-bleed background images are used to establish a strong visual context for certain sections, transitioning sharply between different visual themes (e.g., outdoor landscape, concrete tunnel) while maintaining content legibility through text contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2d3030",
+        "role": "background"
+      },
+      {
+        "hex": "#dce0dd",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#f4682b",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-on-light"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Telegraf",
+        "role": "heading"
+      },
+      {
+        "family": "Chivo Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) for impact, complemented by smaller, highly legible body text and very small, uppercase monospace labels for detail and metadata.",
+    "radius": "Mostly sharp corners, with subtle rounding on interactive elements like buttons and some image containers.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, becoming more dense in content grids and product listings."
+  },
+  "standout": "This site's design is distinctive for its stark, almost brutalist aesthetic, combining a deep charcoal background with a vibrant orange accent. The sophisticated scroll-triggered content reveals, including an interactive horizontal timeline, and the seamless transitions between full-bleed imagery and dark content sections create a high-tech, authoritative, and immersive experience that feels premium and highly engineered.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

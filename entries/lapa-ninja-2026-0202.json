@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0202",
+  "source": {
+    "url": "https://www.turn.io/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0202.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0202__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0202__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0202__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "saas",
+      "healthcare-tech",
+      "messaging-platform"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large text blocks with illustrative images or UI mockups, often with the image side slightly elevated or offset."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant accent green (#137345) to highlight key product names (e.g., 'WhatsApp') within dark green (#003642) headings, creating strong brand association."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide animation as they enter the viewport, creating a dynamic content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use a grid of cards with a light background, each containing an icon, title, and short description, contrasting with darker full-width sections."
+    },
+    {
+      "kind": "type",
+      "note": "Headings frequently use a large, bold sans-serif font, with specific keywords emphasized by a contrasting color to draw attention to core concepts."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using scroll-triggered CSS keyframe animations that apply a subtle fade-in and translate-up effect as they become visible.",
+    "The primary navigation bar remains fixed at the top of the viewport during scroll, maintaining accessibility to site links without visual transformation.",
+    "Key product names or features within large headings are visually emphasized by applying a contrasting brand accent color to specific words."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#003642",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#137345",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF643B",
+        "role": "cta"
+      },
+      {
+        "hex": "#D2F2E3",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#CCF0F8",
+        "role": "surface-light-blue"
+      },
+      {
+        "hex": "#00B4DC",
+        "role": "icon-accent"
+      },
+      {
+        "hex": "#4A2A57",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body size) with a clear hierarchy, complemented by readable body text and smaller, often uppercase labels.",
+    "radius": "Subtle rounding on buttons and some card elements, but mostly sharp corners for overall layout and section boundaries.",
+    "spacing": "Balanced, with airy hero and generous section padding, while content within feature cards maintains a moderate density."
+  },
+  "standout": "The site's distinctive use of a deep, rich dark green as a primary background, paired with a vibrant accent green to highlight key product names like 'WhatsApp' in large headings, creates a strong, memorable brand identity. The integration of realistic UI mockups directly into asymmetrical layouts also effectively showcases the product's functionality.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

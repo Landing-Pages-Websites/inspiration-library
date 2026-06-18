@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0196",
+  "source": {
+    "url": "https://www.subframe.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0196.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0196__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0196__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0196__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "developer-tools",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are primarily centered within a maximum width, providing ample whitespace on the sides, while some background elements extend full-width."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established by pairing large, elegant serif display headings with clean, legible sans-serif body and UI text."
+    },
+    {
+      "kind": "color",
+      "note": "The design uses a predominantly monochromatic palette of white, light gray, and black, accented sparingly with a warm orange and a vibrant blue for calls to action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation transforms from a transparent bar with a text-based logo to a compact, solid-background bar with an icon logo as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often combine descriptive text with a grid of supporting visuals, such as product screenshots or diagrams, to illustrate functionality."
+    }
+  ],
+  "technique_notes": [
+    "The sticky navigation bar dynamically changes its background, height, and logo upon scroll, likely using JavaScript to detect scroll position and apply CSS class changes or inline styles. The hero section features a prominent 3D-rendered device that scrolls out of view with the page content, creating a sense of depth without complex parallax. Section content appears to scroll into view naturally without additional fade-in or slide-up animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#FDBA74",
+        "role": "accent"
+      },
+      {
+        "hex": "#3E63DD",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant serif headings (~3-4x body) contrast with clean, legible sans-serif body text and small, functional sans-serif labels.",
+    "radius": "subtle (buttons, cards, and input fields have a slight border-radius, creating soft corners).",
+    "spacing": "airy (generous vertical and horizontal spacing, especially in the hero and between major content sections, contributing to a clean and uncluttered feel)."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of a highly detailed, almost photorealistic 3D-rendered UI element in the hero with an elegant serif display font. This combination, along with the seamless sticky navigation transformation, elevates the site beyond a generic template, giving it a premium and cutting-edge tech aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0152",
+  "source": {
+    "url": "https://bykins.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0152.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0152__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0152__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0152__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding",
+      "consultancy"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout for 'Featured Projects' where text entries on the left correspond to large, full-bleed images on the right that span multiple text items."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of extremely large, bold, condensed sans-serif headings for impact, contrasted with a more refined, readable sans-serif for body text and a monospace font for labels/metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is punctuated by vibrant, full-color imagery in project showcases and subtle accent colors for interactive elements or key phrases."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content elements reveal with a subtle fade-up or slide-in animation as they enter the viewport. The 'Awards & Recognition' section features a continuous horizontal scroll/marquee effect for partner logos. A large, semi-transparent 'Kins' text element appears to parallax or fade in the background of the footer as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Our Partners' section uses a continuous, auto-scrolling horizontal strip of logos, creating a dynamic and engaging display of affiliations."
+    }
+  ],
+  "technique_notes": [
+    "The hero section's main headline appears to fade in or slide up as the user scrolls past the initial header area. Subsequent content sections, such as 'Featured Projects' and 'Three ways we make you the Only', utilize scroll-triggered reveals where elements (text and images) animate into view with a staggered fade-up or slide-in effect as they enter the viewport. The large 'Kins' text in the footer is implemented as a background element that reveals and possibly parallaxes or fades with scroll depth, potentially using canvas or CSS keyframes for its dynamic appearance. The 'Awards & Recognition' section employs CSS keyframes for a continuous horizontal marquee animation.",
+    "Full-bleed imagery is used extensively, particularly in the 'Featured Projects' section, where large, impactful images are positioned to the right of corresponding text descriptions, creating a visually dominant and immersive experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#E6FFF0",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4D4D4",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Manuka Black",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Fragment Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, and condensed display headings (~4-5x body) create strong visual hierarchy, complemented by a clear, readable body text and small, uppercase monospace labels.",
+    "radius": "Sharp for most content blocks and images, with subtle rounding on interactive elements like buttons and the sticky navigation pill.",
+    "spacing": "Airy in the hero and between major sections, creating a sense of spaciousness and allowing content to breathe, while feature grids maintain a balanced density."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist typography in the hero and section headings, which conveys confidence and authority. The 'Featured Projects' section stands out with its unique asymmetrical layout, pairing concise text entries with large, dynamic, full-bleed images that visually dominate the right side of the screen. The large, fading 'Kins' text in the footer also adds a memorable, branded touch.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

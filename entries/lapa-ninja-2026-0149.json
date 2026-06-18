@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-2026-0149",
+  "source": {
+    "url": "https://aave.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0149.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0149__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0149__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0149__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "crypto",
+      "defi",
+      "fintech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width light backgrounds with central content and full-width dark backgrounds, creating clear visual breaks and hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use an oversized, bold sans-serif font for strong impact, contrasted with a clean, readable sans-serif for body text and smaller, often uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive gradient of light purples and blues is used as a background element in key sections, providing a modern and branded feel without being overwhelming."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the cluster of phone mockups scrolls at a slightly different rate than the background and text, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms upon scroll, shrinking in height and gaining a solid white background to maintain visibility and reduce visual footprint."
+    },
+    {
+      "kind": "section",
+      "note": "Key information and trust signals are presented in a grid of uniformly styled cards with rounded corners and subtle shadows, maintaining visual consistency across different content types."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered parallax effect where foreground elements (phone mockups) move at a slower rate than the background and main text content, creating a layered depth perception. This effect is likely achieved using CSS transforms and scroll event listeners or a JavaScript animation library.",
+    "The main navigation bar uses a sticky positioning, transitioning from a transparent background and larger padding to a solid white background with reduced height and padding once the user scrolls past the initial hero section. This transformation is animated using CSS transitions.",
+    "Content sections and individual elements within them (like cards or text blocks) appear to reveal with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement. This is likely implemented using CSS keyframes triggered by JavaScript intersection observers."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E2E0FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#BDBBFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A88F8",
+        "role": "cta"
+      },
+      {
+        "hex": "#9896FF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFD1B6",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FT Regola Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Aave Repro Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body text) create strong visual impact, complemented by clear, readable body text and smaller, often uppercase labels for detail.",
+    "radius": "Subtle to rounded; buttons, input fields, and cards feature a consistent, gentle border-radius, avoiding sharp corners.",
+    "spacing": "Balanced to airy; generous vertical padding separates sections, while content grids maintain a balanced, comfortable density."
+  },
+  "standout": "The site's design is distinctive for its sophisticated integration of a unique purple-blue gradient palette and stylized app mockups, which effectively convey a modern, trustworthy, and tech-forward brand identity for a DeFi platform. The subtle parallax in the hero adds a premium, dynamic feel.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

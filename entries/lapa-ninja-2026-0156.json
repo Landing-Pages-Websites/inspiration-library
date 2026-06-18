@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0156",
+  "source": {
+    "url": "https://designcode.io/framer-web-design-intro",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0156.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0156__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0156__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0156__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "software",
+      "web-development",
+      "design-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width dark hero section transitions sharply into a constrained-width, light-background content area, which then flows into a full-width dark footer separated by a distinctive wave shape."
+    },
+    {
+      "kind": "type",
+      "note": "The main hero heading uses a very large, bold sans-serif font, creating a strong visual anchor against the dark background, while body text is a more modest sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a high-contrast dark theme for the hero and footer, with a clean white background for the extensive instructional content, punctuated by subtle purple accents and gradients."
+    },
+    {
+      "kind": "motion",
+      "note": "The top banner and main navigation bar become sticky after initial scroll, with the navigation gaining a solid dark background as it fixes to the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The main content area is structured as a very long, documentation-style page, featuring numerous instructional sections with headings, descriptive text, and embedded video players."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features an auto-playing video background that scrolls beneath the main title and hexagonal partner grid. The top navigation and a promotional banner are fixed to the top of the viewport after the initial scroll, with the navigation bar adopting a solid background to maintain readability over scrolling content. Content sections reveal by simply scrolling into view without complex animations, relying on the page's long-form structure. A custom SVG or image asset is used to create a wavy visual separator between the main content and the footer."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a2e3b",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#4a3b7a",
+        "role": "accent"
+      },
+      {
+        "hex": "#8c80b8",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: SF Pro Text",
+        "role": "body"
+      },
+      {
+        "family": "SFMono-Regular",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "oversized bold hero heading (~3-4x body) with standard body text and smaller, regular labels.",
+    "radius": "subtle rounded corners on cards and embedded elements, otherwise sharp.",
+    "spacing": "airy in the hero section, balanced to dense in the long-form content areas, with a consistent vertical rhythm for instructional blocks."
+  },
+  "standout": "This site stands out for its unique blend of a modern, dark video-hero with a hexagonal partner grid, immediately transitioning into an exceptionally long, documentation-style content page. The extensive, detailed content, combined with the distinct wavy footer, creates a highly authoritative and comprehensive feel, rather than a typical marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

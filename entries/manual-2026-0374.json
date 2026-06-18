@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0374",
+  "source": {
+    "url": "https://www.muji.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0374.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0374__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0374__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0374__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.muji.com/jp/business",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0374__p2.webp"
+      },
+      {
+        "url": "https://www.muji.com/jp/mujibooks",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0374__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "home-goods",
+      "lifestyle",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A clean, grid-based layout is consistently used for product displays and feature sections, maintaining clear visual separation and order."
+    },
+    {
+      "kind": "type",
+      "note": "All text, including headings and body copy, utilizes a single, neutral sans-serif font, reinforcing the minimalist and functional brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "The design heavily relies on a muted, natural color palette of off-whites, light beiges, and greys for backgrounds, contrasted with dark grey/black text, creating a serene and understated visual experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and becoming a sticky, compact header at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by generous vertical spacing and subtle background color shifts (e.g., white to light beige), often introduced by large, centered headings."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar dynamically reduces its height and fixes to the top of the screen as the user scrolls down, providing a persistent, space-efficient navigation experience. This likely uses GSAP for smooth transitions.",
+    "Product carousels, powered by Swiper, are employed to showcase multiple items or collections within a confined horizontal space, allowing users to browse through content efficiently.",
+    "The overall page structure uses a flexible grid system with consistent padding to arrange diverse content blocks, from product cards to informational modules, ensuring visual harmony and readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F7F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#3C3C43",
+        "role": "text"
+      },
+      {
+        "hex": "#9D9DA0",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#E0CEAA",
+        "role": "accent"
+      },
+      {
+        "hex": "#7F0019",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Noto Sans",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Noto Sans",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Balanced and legible; headings are moderately larger than body text, with a consistent, understated sans-serif weight across all text.",
+    "radius": "Sharp; most elements feature crisp, 90-degree corners, with very subtle rounding only on interactive elements like buttons or input fields.",
+    "spacing": "Airy; generous padding and margins create a sense of calm and order, particularly around product grids and section breaks, contributing to a minimalist feel."
+  },
+  "standout": "The site's design is distinctive for its unwavering commitment to a minimalist, functional aesthetic that deeply reflects the MUJI brand philosophy. It avoids any superfluous design elements, instead relying on clean layouts, ample whitespace, and high-quality, natural product photography to convey a sense of calm, quality, and understated elegance.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

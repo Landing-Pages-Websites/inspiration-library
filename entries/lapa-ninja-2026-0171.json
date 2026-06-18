@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0171",
+  "source": {
+    "url": "https://maggie-app.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0171.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0171__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0171__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0171__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "parenting",
+      "mobile-app",
+      "family-activities"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width, distinct color-blocked sections with large, centered, bold typography serving as primary headlines for each content block."
+    },
+    {
+      "kind": "type",
+      "note": "A very heavy, oversized sans-serif display font is used for main section headings, contrasted with a playful, handwritten script font for subheadings and accent text."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a vibrant, alternating pastel color palette for full-bleed section backgrounds, creating clear visual separation and a playful mood."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections reveal themselves by sliding up into view from the bottom as the user scrolls, often accompanied by smaller illustrative elements or product mockups animating into place within the newly revealed section."
+    },
+    {
+      "kind": "section",
+      "note": "Each scrollable section introduces a new value proposition or feature, clearly delineated by a distinct background color and a large, impactful headline."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the section reveals, use a scroll-triggered animation library (like GSAP ScrollTrigger or similar) to detect when each full-width content block enters the viewport, then apply a subtle slide-up and fade-in effect. Elements within these sections, such as phone mockups and small illustrations, should animate into their final positions using CSS keyframes for a playful bounce or staggered fade-in, triggered once their parent section is visible."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#82eda6",
+        "role": "background"
+      },
+      {
+        "hex": "#ffff94",
+        "role": "background"
+      },
+      {
+        "hex": "#fccddc",
+        "role": "background"
+      },
+      {
+        "hex": "#aefbff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#03594d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BN Dime Display Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Homemade Apple",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy display headings (~4-5x body) are paired with a playful script accent font, while body text remains clear and readable.",
+    "radius": "Subtle rounding on interactive elements and image containers, maintaining a soft but not overly rounded aesthetic.",
+    "spacing": "Very airy in hero and between major sections, creating a sense of openness and allowing the bold typography to breathe. Content within sections is balanced."
+  },
+  "standout": "The site's distinctive design lies in its bold, almost cartoonish typography combined with a vibrant, alternating pastel color palette and whimsical illustrations. This creates a highly playful and approachable brand identity that feels unique and memorable, moving beyond typical clean and modern aesthetics.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0359",
+  "source": {
+    "url": "https://www.designmuseum.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0359.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0359__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0359__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0359__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://designmuseum.org/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0359__p2.webp"
+      },
+      {
+        "url": "https://designmuseum.org/whats-on",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0359__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "arts-and-culture",
+      "museum",
+      "design"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive hero sections that dominate the initial viewport, transitioning to structured content blocks below with alternating background colors."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, clean sans-serif typography for headings, often in all caps or with strong weight, contrasted with a more neutral sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring a deep charcoal/black, a bright, almost neon yellow accent, and clean whites/off-whites for text and background variations."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero area features a scroll-triggered sequence of full-screen 3D rendered objects that replace each other as the user scrolls, creating a dynamic and artistic introduction."
+    },
+    {
+      "kind": "section",
+      "note": "Distinctive 'visual narrative' sections that use large-scale photography, illustrations, or 3D renders to tell a story or introduce a theme, often preceding detailed information."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a WebGL/Three.js powered full-screen canvas to present a series of high-fidelity 3D models that dynamically swap and animate as the user scrolls, creating an interactive and artistic hero experience.",
+    "Content sections are visually separated by alternating background colors (dark charcoal and off-white) and often feature large, full-bleed images or illustrations alongside text blocks.",
+    "Call-to-action buttons and key interactive elements are highlighted with a vibrant yellow fill, providing strong visual contrast and guiding user attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1918",
+        "role": "background"
+      },
+      {
+        "hex": "#e8e315",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#444444",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#8b735c",
+        "role": "illustration-detail"
+      },
+      {
+        "hex": "#6a8e6a",
+        "role": "illustration-detail"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (2-3x body text) provide strong visual hierarchy, with smaller uppercase labels for navigation and secondary information.",
+    "radius": "Sharp corners throughout for all elements, including buttons, images, and section containers.",
+    "spacing": "Balanced to airy, with very airy hero sections focusing on large visuals, and comfortable padding in content sections."
+  },
+  "standout": "The most distinctive feature is the use of a full-screen, scroll-triggered 3D environment in the hero section, which dynamically displays different rendered objects as the user scrolls down. This creates a highly immersive and artistic introduction, setting a unique tone that goes beyond typical video or static image heroes.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "approved"
+}

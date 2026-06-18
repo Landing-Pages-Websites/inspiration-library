@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0368",
+  "source": {
+    "url": "https://www.later.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0368.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0368__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0368__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0368__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://later.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0368__p2.webp"
+      },
+      {
+        "url": "https://later.com/case-studies",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0368__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "saas",
+      "influencer-marketing"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero sections feature large, impactful typography on one side balanced by a dynamic image or video on the other, often with a diagonal cut-out effect."
+    },
+    {
+      "kind": "type",
+      "note": "Headlines utilize overwhelmingly large, bold, sans-serif display typography to create a strong visual hierarchy and immediate impact, contrasting with smaller, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, full-bleed gradient backgrounds (red to orange) are used for high-energy sections, providing a strong contrast to the clean off-white and black content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight slide-up effect as they enter the viewport, creating a dynamic and engaging scroll experience. The hero image appears to have a subtle parallax or sticky effect as content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width sections with distinct background colors or gradients are used to clearly delineate content blocks and highlight key messages or data points, often featuring large numbers or bold statements."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (likely using locomotive-scroll as hinted) to progressively reveal content. Elements within sections fade in and subtly slide upwards as they become visible in the viewport, creating a smooth, dynamic flow. The hero image utilizes a sticky or parallax effect, allowing subsequent content to scroll over it while the image itself moves at a slower pace or remains fixed."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f2ea",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffae73",
+        "role": "cta"
+      },
+      {
+        "hex": "#5124c1",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffcdcd",
+        "role": "gradient-start"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Super X sans Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter Tight",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~4-5x body text) with a strong, impactful presence, complemented by clear, legible body text.",
+    "radius": "Subtle to sharp corners on most elements, with primary call-to-action buttons having a slightly more rounded appearance.",
+    "spacing": "Balanced to airy spacing, particularly in hero and feature sections, allowing large typography and imagery to breathe. Tighter spacing is used in the footer and client logo sections."
+  },
+  "standout": "The site's distinctive use of massive, bold display typography combined with vibrant, full-bleed gradient sections and high-impact, close-up photography creates an energetic and modern feel. The sophisticated scroll-triggered reveals add a layer of dynamism, making the content feel engaging and progressive.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

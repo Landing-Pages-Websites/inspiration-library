@@ -1,0 +1,106 @@
+{
+  "id": "manual-2026-0381",
+  "source": {
+    "url": "https://www.sfmoma.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0381.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0381__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0381__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0381__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "museum",
+      "non-profit"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent, full-bleed hero section features oversized, partially visible typographic elements that interact dynamically with the background image on scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections below the hero are primarily structured in a two-column card grid, featuring images and concise text summaries for articles and events."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale is used, with massive, bold sans-serif for the hero's branding overlay and a more restrained, legible sans-serif for all body and heading text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette of white and black is accented by a vibrant, institutional red used for navigation highlights, call-to-action buttons, and the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero features a sophisticated parallax effect where a large, fixed-position text overlay ('SFMOMA') remains static while a dynamic, full-bleed background image scrolls and subtly changes beneath it, creating a sense of depth and movement."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a WebGL/Three.js driven animation where a large, fixed typographic element is overlaid on a dynamic background image or 3D scene that scrolls at a different rate, creating a deep parallax effect and an immersive visual experience. Subsequent content sections simply scroll into view without additional animation.",
+    "Content cards utilize a simple image-on-top, text-below structure, with clear headings and short descriptive paragraphs, maintaining a consistent visual hierarchy across various content types."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E60028",
+        "role": "accent"
+      },
+      {
+        "hex": "#ABB8C3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Impact",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, heavy display text (~8x body) for the hero branding, contrasted with a balanced sans-serif for headings (~2-3x body) and legible body text.",
+    "radius": "Sharp corners are consistently applied to all interactive elements, images, and content cards, contributing to a clean, modern aesthetic.",
+    "spacing": "Balanced density for content sections with clear vertical rhythm, while the hero section feels very airy due to the large scale of its elements and dynamic background."
+  },
+  "standout": "The most distinctive feature is the hero's dynamic, large-scale typographic overlay that interacts with a WebGL-driven background image. This creates a highly immersive and memorable first impression, elevating the museum's brand beyond a static image and drawing the user into the experience.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "approved"
+}

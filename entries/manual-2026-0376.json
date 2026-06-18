@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0376",
+  "source": {
+    "url": "https://www.primer.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0376.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0376__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0376__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0376__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.primer.io/security",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0376__p2.webp"
+      },
+      {
+        "url": "https://www.primer.io/contact-us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0376__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "saas",
+      "payments"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections alternate between a light off-white background and a dark, rich brown, creating distinct visual breaks and emphasizing content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Key statistics and large numbers are presented in an exceptionally large, bold sans-serif typeface, making them highly impactful and easily scannable."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, warm orange serves as the primary accent and call-to-action color, providing energetic contrast against the site's dominant dark brown and off-white palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and gaining a solid background as the initial news banner disappears, while content sections animate into view with a subtle slide-up and fade-in effect."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed, interactive-looking product UI mockups are integrated directly into various sections, serving as the primary visual to demonstrate functionality and features contextually."
+    }
+  ],
+  "technique_notes": [
+    "The header implements a sticky behavior where it initially appears taller and transparent, then smoothly transitions to a shorter height with a solid background color as the user scrolls down the page.",
+    "Sections are revealed using a scroll-triggered animation system (likely GSAP ScrollTrigger), where elements slide up and fade into visibility as they enter the viewport, creating a dynamic content flow.",
+    "Complex product user interface elements are embedded as high-fidelity visuals within the page layout, often appearing as interactive dashboards or configuration screens to illustrate the product's capabilities directly."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F9F4F1",
+        "role": "background"
+      },
+      {
+        "hex": "#262626",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#FF7C4F",
+        "role": "accent"
+      },
+      {
+        "hex": "#E58FC1",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#A075FF",
+        "role": "tertiary-accent"
+      },
+      {
+        "hex": "#FF7E51",
+        "role": "cta-variant"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, establishing a clear hierarchy, with display numbers reaching extreme sizes for emphasis.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, input fields, and card-like elements, contributing to a soft, modern feel.",
+    "spacing": "Balanced spacing with generous vertical separation between major sections, creating an airy feel, while content blocks maintain a readable density."
+  },
+  "standout": "The site distinguishes itself by deeply integrating highly detailed, interactive-looking product UI mockups directly into the marketing narrative. This approach allows the product's functionality to be demonstrated in context, making the value proposition immediately tangible without requiring external demos or static screenshots.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}
