@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-mojostudio-co-3c48a5",
+  "source": {
+    "url": "https://mojostudio.co/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-mojostudio-co-3c48a5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-mojostudio-co-3c48a5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-mojostudio-co-3c48a5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-mojostudio-co-3c48a5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "marketing",
+      "design-studio"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed, left-aligned navigation block with the logo and menu items remains visible and accessible throughout the page scroll."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette, pairing bright, almost neon accent colors (green, blue, red) with a neutral base of black, white, and a warm light beige."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial black screen transitions to reveal the hero section with a light beige background and concentric circle pattern, which then gives way to a plain white background for mid-page content, and finally returns to the beige concentric pattern for the footer."
+    },
+    {
+      "kind": "type",
+      "note": "The hero section features an extremely large, bold, uppercase sans-serif heading that dominates the initial viewport, contrasting with smaller, lighter sans-serif text for subheadings and navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct sections are visually separated by alternating background treatments: a recurring light beige with concentric circles for the hero and footer, and a clean white for intermediate content."
+    }
+  ],
+  "technique_notes": [
+    "The page employs an initial full-screen overlay or loading state (black screen) that transitions to reveal the main hero content upon load or initial scroll interaction.",
+    "Backgrounds are designed to change dynamically as the user scrolls, creating distinct visual sections. This involves swapping out full-width background images or colors at specific scroll points.",
+    "A sticky navigation element is anchored to the top-left corner, ensuring constant access to primary menu links regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f0e8",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#808080",
+        "role": "heading"
+      },
+      {
+        "hex": "#6adca2",
+        "role": "accent"
+      },
+      {
+        "hex": "#2d1aff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ed1b57",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif hero text (~5-6x body) with smaller, lighter sans-serif subheadings and standard body text.",
+    "radius": "Sharp",
+    "spacing": "Airy, with generous vertical spacing in hero and footer sections, creating a sense of openness."
+  },
+  "standout": "The site's design is distinctive for its dramatic initial black screen reveal, followed by a bold, oversized hero text against a recurring concentric circle background. The use of bright, almost neon accent colors against a largely neutral palette provides a playful yet sophisticated contrast.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

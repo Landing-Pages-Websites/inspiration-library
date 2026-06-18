@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-motion-dev-96934c",
+  "source": {
+    "url": "https://motion.dev/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-motion-dev-96934c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-motion-dev-96934c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-motion-dev-96934c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-motion-dev-96934c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "animation"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with high contrast backgrounds (vibrant yellow, deep charcoal, light grey) to clearly delineate distinct content blocks and create visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy uses a single sans-serif font family with varying weights and sizes, from oversized display headings in the hero to smaller, legible body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme built around a vibrant yellow, deep charcoal, and a light off-white, with subtle green and blue accents used for interactive elements, branding, and code examples."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar is sticky and transforms its background and text color from transparent/dark text to a solid dark background/white text as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a prominent, continuously animating graph (likely canvas-based) that visually represents motion, directly showcasing the product's core offering."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive animation example grids are used as primary content sections, allowing users to directly experience the library's capabilities within the page layout rather than just reading about them."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a canvas or video element to display a dynamic, continuously looping animation that visually represents the product's function and expertise.",
+    "A sticky navigation bar is implemented, which dynamically changes its background color and text color based on the scroll position, transitioning from transparent on the hero to a solid dark background on subsequent sections.",
+    "Scroll-triggered animations, likely powered by GSAP, are used to reveal sections and elements as they enter the viewport, potentially with subtle fade-ins or slide-ups, enhancing engagement and guiding the user's eye through the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F7DF1E",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#E8EEEE",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#34D399",
+        "role": "cta"
+      },
+      {
+        "hex": "#61DAFB",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) create strong visual impact and hierarchy, complemented by a clear, readable sans-serif for body text and smaller, uppercase labels.",
+    "radius": "Mostly sharp corners for overall layout elements and content blocks, with subtle rounding applied to interactive elements like buttons and input fields for a touch of softness.",
+    "spacing": "Airy and generous spacing in the hero and between major sections creates a sense of openness, transitioning to a more balanced density within content grids and feature lists."
+  },
+  "standout": "The site's design is a direct and compelling demonstration of its product: a production-grade animation library. The pervasive use of high-quality, dynamic animations, from the hero's abstract graph to interactive code examples, makes the site itself a powerful showcase of what it offers, rather than merely describing it. This 'show, don't tell' approach, combined with a bold yellow and dark contrast, creates a distinctive and energetic user experience.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

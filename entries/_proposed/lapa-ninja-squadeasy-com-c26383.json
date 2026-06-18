@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-squadeasy-com-c26383",
+  "source": {
+    "url": "https://www.squadeasy.com/en/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-squadeasy-com-c26383.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-squadeasy-com-c26383__scroll0.webp",
+      "shots/_proposed/lapa-ninja-squadeasy-com-c26383__scroll1.webp",
+      "shots/_proposed/lapa-ninja-squadeasy-com-c26383__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "team-building",
+      "employee-engagement"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks within sections, often combining large text elements with smaller, 'floating' image or data point elements."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, and often uppercase numbers and text are used as primary visual anchors and section titles, creating a strong, energetic typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and playful palette of pastel and bright colors is used for full-width background blocks, creating distinct visual sections and a dynamic page flow."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks reveal themselves with a staggered fade-up and subtle slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent, full-width call-to-action sections utilize high-contrast background and text colors (e.g., bright green with black text) to stand out."
+    }
+  ],
+  "technique_notes": [
+    "Elements and sections are revealed with a staggered fade-up and subtle slide-in effect as they enter the viewport, orchestrated by an 'Animate On Scroll' system. Number counters animate dynamically from zero to their target value upon visibility.",
+    "The header bar dynamically reduces in height and gains a solid background and subtle shadow as the user scrolls down, providing a compact navigation experience.",
+    "Major content sections are visually delineated by distinct, full-width background color blocks, creating a clear and energetic page flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E4FF60",
+        "role": "accent"
+      },
+      {
+        "hex": "#EA5DA3",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFEB3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#EFE7DE",
+        "role": "background"
+      },
+      {
+        "hex": "#D0E8FF",
+        "role": "background"
+      },
+      {
+        "hex": "#E8DFFF",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Epilogue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, often uppercase headings (~3-4x body) with very large, bold numbers for counters, contrasted with smaller, readable body text.",
+    "radius": "Subtle (buttons, image frames, and counter backgrounds have a slight, consistent curve).",
+    "spacing": "Airy (generous vertical spacing between sections and ample padding within content blocks, creating a light and open feel)."
+  },
+  "standout": "The site's distinctive use of large, bold, often uppercase numbers and text elements as primary visual anchors within sections, combined with a vibrant, almost playful, pastel and bright color palette for background blocks and accents, creates a dynamic and engaging feel that avoids a generic corporate aesthetic. The animated counters and scroll-triggered reveals add to this energetic character.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

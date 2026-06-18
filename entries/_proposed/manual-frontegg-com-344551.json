@@ -1,0 +1,119 @@
+{
+  "id": "manual-frontegg-com-344551",
+  "source": {
+    "url": "https://www.frontegg.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-frontegg-com-344551.webp",
+    "scroll": [
+      "shots/_proposed/manual-frontegg-com-344551__scroll0.webp",
+      "shots/_proposed/manual-frontegg-com-344551__scroll1.webp",
+      "shots/_proposed/manual-frontegg-com-344551__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "http://frontegg.com/ciam",
+        "full": "shots/_proposed/manual-frontegg-com-344551__p2.webp"
+      },
+      {
+        "url": "https://frontegg.com/contact-sales",
+        "full": "shots/_proposed/manual-frontegg-com-344551__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "identity-management",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark-mode dominant layout with high contrast white text and a centered content column, providing ample negative space around key information."
+    },
+    {
+      "kind": "type",
+      "note": "Headings feature large, bold, and widely-spaced sans-serif typography, creating a strong visual hierarchy and modern aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant electric blue is used as a primary accent color for calls-to-action, links, and key interactive elements, standing out against the dark monochrome background."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle slide-up and fade-in animation as they enter the viewport, creating a dynamic scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid background color after the initial hero section passes."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are presented in a horizontally scrolling or grid-like section that appears dynamically as the user scrolls down the page."
+    }
+  ],
+  "technique_notes": [
+    "Sections are animated into view using scroll-triggered CSS keyframes, applying a subtle vertical translation and opacity change to reveal content as it enters the viewport.",
+    "The global navigation bar is implemented as a sticky element that dynamically adjusts its padding and background color via CSS transitions when the scroll position changes, creating a compact, persistent header.",
+    "Interactive elements like buttons and links utilize a distinct blue accent color for their primary state and a slightly darker blue for hover, providing clear visual feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#010101",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#003AE4",
+        "role": "cta"
+      },
+      {
+        "hex": "#9999A5",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#243D4D",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Neue Montreal",
+        "role": "heading"
+      },
+      {
+        "family": "Manrope",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and widely-spaced display headings (~3-4x body) with smaller, legible body text and occasional uppercase labels.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, input fields, and card containers.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced density within content blocks."
+  },
+  "standout": "The site's distinctive use of a high-contrast dark theme, combined with large, impactful typography and a vibrant electric blue accent, creates a sophisticated and modern feel that avoids generic marketing aesthetics. The subtle scroll-triggered animations enhance engagement without being distracting.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

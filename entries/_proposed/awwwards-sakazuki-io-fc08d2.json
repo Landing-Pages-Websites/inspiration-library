@@ -1,0 +1,111 @@
+{
+  "id": "awwwards-sakazuki-io-fc08d2",
+  "source": {
+    "url": "https://sakazuki.io",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-sakazuki-io-fc08d2.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-sakazuki-io-fc08d2__scroll0.webp",
+      "shots/_proposed/awwwards-sakazuki-io-fc08d2__scroll1.webp",
+      "shots/_proposed/awwwards-sakazuki-io-fc08d2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sakazuki.io/products",
+        "full": "shots/_proposed/awwwards-sakazuki-io-fc08d2__p2.webp"
+      },
+      {
+        "url": "https://sakazuki.io/mint/asitflows",
+        "full": "shots/_proposed/awwwards-sakazuki-io-fc08d2__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "nft",
+      "art",
+      "collectibles"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric, full-bleed sections with dramatic background color shifts are used to delineate content, often with large, abstract geometric shapes acting as visual dividers."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, heavy sans-serif typography is used for primary headings, often appearing fragmented or with wide letter spacing, making text a dominant visual element."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and a light beige/grey is punctuated by a vibrant, pure red used as a strong accent color for key information and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered animations reveal large text elements by having them appear fragmented and then coalesce into place, or slide in with a staggered effect. Background sections transition by sliding large, angled color blocks or shapes over the previous content."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by full-width background color changes, creating distinct visual blocks that often feature large, animating text as their focal point."
+    }
+  ],
+  "technique_notes": [
+    "Large display text elements are animated into view using CSS keyframes, appearing to break apart and then reassemble or slide in with a staggered reveal. This creates a dynamic, almost glitch-like effect.",
+    "Background sections transition with a layered effect, where large, angled geometric color blocks slide over the viewport as the user scrolls, revealing the next content area. This could be achieved with canvas animations or complex CSS transforms and scroll-triggered events.",
+    "The overall layout relies on full-bleed sections with strong background color contrasts to create visual separation and impact, often using the background shapes themselves as part of the scroll-triggered reveal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#040217",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E2E3F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy display headings (~4-5x body) with wide tracking, contrasted by clean, legible body text.",
+    "radius": "sharp",
+    "spacing": "Airy hero and section titles with generous vertical spacing, balanced content grids within sections."
+  },
+  "standout": "This site's design is distinctive for its dramatic use of massive, animating typography that appears fragmented and then coalesces, combined with bold, full-bleed background color shifts and large, angled geometric reveals. It creates a highly dynamic and artistic experience that feels more like an interactive art piece than a traditional marketing site, making the content feel exclusive and high-end.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

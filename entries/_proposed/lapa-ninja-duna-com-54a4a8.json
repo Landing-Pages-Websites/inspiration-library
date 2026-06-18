@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-duna-com-54a4a8",
+  "source": {
+    "url": "https://duna.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-duna-com-54a4a8.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-duna-com-54a4a8__scroll0.webp",
+      "shots/_proposed/lapa-ninja-duna-com-54a4a8__scroll1.webp",
+      "shots/_proposed/lapa-ninja-duna-com-54a4a8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "business-onboarding",
+      "ai",
+      "compliance"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often featuring a centered main content block or a two-column layout with text and an illustrative element."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold sans-serif headings for primary statements, standard sans-serif for body text, and small, often uppercase sans-serif for labels and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of black, white, and various shades of grey is consistently used for UI elements and text, providing a clean backdrop for occasional rich, illustrative background images."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport as the user scrolls down. The hero section's background image appears to be fixed or subtly parallaxed, allowing the foreground content to scroll over it."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating background treatments for sections, primarily white and a very light grey, create visual separation and rhythm down the page."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky navigation, the header element should be positioned fixed to the top of the viewport with a high z-index, ensuring it remains visible above all other content during scroll.",
+    "The hero background effect can be achieved by setting the hero image as a fixed background attachment on a container, or by using a subtle parallax effect where the background image scrolls at a slower rate than the foreground content, creating depth.",
+    "Content sections are structured with consistent horizontal padding and varying vertical spacing to create a balanced, airy feel, using a mix of centered text blocks, multi-column grids, and text-plus-image layouts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#898683",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#222221",
+        "role": "dark-grey-text"
+      },
+      {
+        "hex": "#1B0624",
+        "role": "cta"
+      },
+      {
+        "hex": "#F0D0B0",
+        "role": "hero-accent-sky"
+      },
+      {
+        "hex": "#A0C0E0",
+        "role": "hero-accent-water"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GT America Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Fragment Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with standard body text and small, often uppercase sans-serif labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and input fields, and on card-like content blocks.",
+    "spacing": "Balanced to airy, with particularly generous vertical padding in the hero section and comfortable spacing between content blocks and within grids."
+  },
+  "standout": "The site's distinctive use of custom, painterly illustrations for the hero and footer backgrounds, which evoke a serene, natural landscape, creates a unique contrast with the high-tech AI/business focus. This visual style elevates the brand beyond typical corporate SaaS aesthetics.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-future-co-214411",
+  "source": {
+    "url": "https://future.co/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-future-co-214411.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-future-co-214411__scroll0.webp",
+      "shots/_proposed/lapa-ninja-future-co-214411__scroll1.webp",
+      "shots/_proposed/lapa-ninja-future-co-214411__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "personal-training",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality aspirational photography is used as section backgrounds, often with a dark overlay for text contrast, creating a strong visual impact."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent use of device mockups (specifically a smartphone) to integrate and showcase the app's UI directly within content sections, making the product tangible."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring very dark backgrounds with white text, punctuated by a single vibrant green accent color for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation remains sticky at the top, transforming from a transparent background to a solid, slightly darker background with adjusted text color upon scrolling down."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images in the hero and footer sections exhibit a subtle parallax effect, moving slower than the foreground content as the user scrolls, adding depth to the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header navigation that dynamically changes its background and text color properties after a certain scroll threshold, ensuring readability against varying background content.",
+    "Large, full-bleed background images are used in key sections, such as the hero and footer, and are implemented with a subtle parallax scrolling effect, where the image moves at a slower rate than the foreground content, adding depth.",
+    "Interactive elements like buttons and cards utilize a vibrant accent color for their primary state, providing clear visual cues for user interaction within the dark theme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#010703",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#65d92b",
+        "role": "accent"
+      },
+      {
+        "hex": "#e7e7e7",
+        "role": "surface"
+      },
+      {
+        "hex": "#272a2b",
+        "role": "surface"
+      },
+      {
+        "hex": "#b6b7b8",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong hierarchy, complemented by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Subtle rounded corners are applied to buttons and image cards, providing a soft, modern touch without being overly rounded.",
+    "spacing": "Balanced spacing is used throughout, with an airy feel in the hero section and well-defined, clear separation between content blocks."
+  },
+  "standout": "The site's design is distinctive for its seamless integration of the app's UI directly into the hero and other content sections via prominent device mockups. This, combined with high-quality, aspirational fitness photography and a sleek dark theme, creates a strong product-centric yet lifestyle-driven aesthetic that feels both modern and trustworthy.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

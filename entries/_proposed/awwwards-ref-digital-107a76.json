@@ -1,0 +1,116 @@
+{
+  "id": "awwwards-ref-digital-107a76",
+  "source": {
+    "url": "https://ref.digital",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-ref-digital-107a76.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-ref-digital-107a76__scroll0.webp",
+      "shots/_proposed/awwwards-ref-digital-107a76__scroll1.webp",
+      "shots/_proposed/awwwards-ref-digital-107a76__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "web-design",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical composition with large, sparse sections and significant negative space, often balancing a dominant visual or text block with smaller, precise labels."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between large, bold sans-serif headings and smaller, often uppercase, monospaced or technical-looking labels used for section titles and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted palette dominated by off-white/light beige and black, punctuated by a vibrant, almost neon, lime-yellow accent for interactive elements or highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle slide-up and fade-in effect as they enter the viewport, creating a dynamic but controlled flow down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Specific content blocks, like the 'CellArt' image gallery, feature horizontal scrolling within a vertically scrolling page, allowing for exploration of a series of items without leaving the current section."
+    },
+    {
+      "kind": "section",
+      "note": "Integration of abstract, data-visualization-inspired graphics (e.g., pixelated patterns, network graphs) as full-width visual anchors between content sections, reinforcing a technical and analytical brand identity."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented, maintaining the main logo and navigation links visible at the top of the viewport throughout the scroll, without shrinking or transforming.",
+    "Scroll-triggered animations are used to reveal main content sections, where each section slides up from the bottom and fades into full opacity as it becomes visible in the viewport, likely utilizing GSAP ScrollTrigger.",
+    "Horizontal scrolling content is embedded within a vertical page scroll, allowing users to swipe or drag through a series of images or items in a specific section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F3F1EF",
+        "role": "background"
+      },
+      {
+        "hex": "#EEFFA8",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A7F62",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Habitus",
+        "role": "heading"
+      },
+      {
+        "family": "Aeonik",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are paired with smaller, often uppercase, monospaced labels, creating a strong visual hierarchy and a technical, editorial feel.",
+    "radius": "sharp",
+    "spacing": "Very airy and spacious, with generous padding around content blocks and significant negative space between sections, contributing to a minimal and high-end aesthetic."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of high-end minimalism with 'developer console' or 'data visualization' aesthetics, achieved through abstract technical graphics, monospaced labels, and a precise, sparse layout. The integration of horizontal scrolling content within vertical sections also sets it apart.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

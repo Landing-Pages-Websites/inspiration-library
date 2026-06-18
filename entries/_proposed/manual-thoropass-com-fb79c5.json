@@ -1,0 +1,129 @@
+{
+  "id": "manual-thoropass-com-fb79c5",
+  "source": {
+    "url": "https://www.thoropass.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-thoropass-com-fb79c5.webp",
+    "scroll": [
+      "shots/_proposed/manual-thoropass-com-fb79c5__scroll0.webp",
+      "shots/_proposed/manual-thoropass-com-fb79c5__scroll1.webp",
+      "shots/_proposed/manual-thoropass-com-fb79c5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.thoropass.com/advantage",
+        "full": "shots/_proposed/manual-thoropass-com-fb79c5__p2.webp"
+      },
+      {
+        "url": "https://www.thoropass.com/frameworks",
+        "full": "shots/_proposed/manual-thoropass-com-fb79c5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cybersecurity",
+      "compliance",
+      "audit"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds and lighter backgrounds, with content consistently constrained to a central maximum-width container."
+    },
+    {
+      "kind": "layout",
+      "note": "Extensive use of multi-column grids to display features, frameworks, team members, and certifications, often with distinct card-like elements."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases or words within large headings are often highlighted with a contrasting accent color (yellow, green, or bright blue) to draw attention."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich teal/dark blue serves as the primary brand color for hero sections and prominent backgrounds, contrasted with vibrant yellow and green for primary and secondary calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Testimonial and review sections utilize a horizontal carousel (swiper) to display multiple cards, indicated by navigation dots below the content."
+    },
+    {
+      "kind": "section",
+      "note": "Hero sections consistently feature a prominent headline, a clear call to action, and either a video background or a large illustrative image, often accompanied by trust logos."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport, ensuring navigation is always accessible. The hero section features an embedded video that plays automatically to convey dynamic content. Content sections are designed to reveal elements with a subtle fade-in or slide-up animation as they enter the viewport, likely using CSS keyframes for a smooth scroll-triggered experience. Testimonial and review sections implement a horizontal carousel system (swiper) for browsing multiple content cards."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000d14",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f0f5fa",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#127ada",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffbe20",
+        "role": "cta"
+      },
+      {
+        "hex": "#288309",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) establish clear hierarchy, with body text being a legible, well-spaced sans-serif. Accent words within headings often use a different color for emphasis.",
+    "radius": "Subtle; buttons and card elements feature slightly rounded corners, while most images and section edges remain sharp.",
+    "spacing": "Balanced; sections have generous vertical padding, and content within sections is well-distributed, avoiding both extreme density and excessive airiness."
+  },
+  "standout": "The site's distinctive use of a deep, rich teal/dark blue as a primary brand color, combined with vibrant yellow and green accents, creates a professional yet energetic feel. The integration of a video hero and dynamic, illustrative graphics (like the abstract compliance icons or data visualizations) elevates the visual appeal beyond a standard corporate site, effectively communicating complex services with modern polish.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

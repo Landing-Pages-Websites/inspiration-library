@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-shiftnudge-com-4cdc9a",
+  "source": {
+    "url": "https://shiftnudge.com/figma",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-shiftnudge-com-4cdc9a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-shiftnudge-com-4cdc9a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-shiftnudge-com-4cdc9a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-shiftnudge-com-4cdc9a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "design",
+      "software-training"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, full-width layout with content centered horizontally, featuring an asymmetrical hero section where text and a form occupy the left, balanced by large, vibrant 3D illustrations on the right."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark grey/black background (#111111) provides a stark contrast for white text and bright, playful accent colors primarily from the 3D illustrations, with a consistent magenta (#E74694) used for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The large 3D illustrations in the hero section exhibit a subtle parallax effect, moving upwards at a different speed than the scroll, eventually disappearing as the user scrolls down. Content sections like the course outline and testimonials appear to slide or fade into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar transforms from a transparent state to a sticky, solid dark background with a slightly reduced height after the initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a clear section structure: a hero with a value proposition and signup form, followed by a detailed course outline/features list, and then a grid of testimonial cards."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, use a scroll-triggered animation library (like GSAP ScrollTrigger or the detected locomotive-scroll) to create a parallax effect for the hero's 3D elements, making them scroll out of view at a different rate than the main content. Implement scroll-triggered fade-up or slide-in animations for subsequent content sections as they enter the viewport. The sticky header should transition its background color and height on scroll using CSS transitions triggered by JavaScript.",
+    "The visual design relies on a dark mode aesthetic with high contrast. Use a deep charcoal or black for the primary background and bright white for main text. Integrate vibrant, multi-colored 3D illustrations as hero elements, ensuring they pop against the dark backdrop. Use a single, bright accent color for all interactive elements and calls-to-action to maintain visual consistency."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E74694",
+        "role": "accent"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Headings are moderately larger than body text, maintaining a clear hierarchy without being overly dramatic; hero text is prominent but not excessively large.",
+    "radius": "Subtle rounding (e.g., 4-8px) on input fields and buttons, while content cards like testimonials feature sharp, angular corners.",
+    "spacing": "Balanced, with generous vertical spacing between major content sections and within the hero area, creating an airy feel, while internal elements like form fields are more tightly grouped."
+  },
+  "standout": "The most distinctive feature is the integration of vibrant, playful 3D illustrations within an otherwise minimal and dark interface. Their scroll-driven motion adds a dynamic and engaging layer that elevates the site beyond a standard marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

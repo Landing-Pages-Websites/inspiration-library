@@ -1,0 +1,103 @@
+{
+  "id": "manual-1stdibs-com-01a00f",
+  "source": {
+    "url": "https://www.1stdibs.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-1stdibs-com-01a00f.webp",
+    "scroll": [
+      "shots/_proposed/manual-1stdibs-com-01a00f__scroll0.webp",
+      "shots/_proposed/manual-1stdibs-com-01a00f__scroll1.webp",
+      "shots/_proposed/manual-1stdibs-com-01a00f__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "luxury-goods",
+      "art-and-antiques"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Grid-based product and content displays with consistent spacing, often in 4-column layouts for product previews and 2-column for editorial content, maintaining a clean and organized structure."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy established by pairing an elegant serif font for prominent headings with a clean sans-serif for body text and navigation, often using uppercase for labels and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "Dominant use of off-white backgrounds and dark text, creating a high-contrast, clean aesthetic, with minimal, sophisticated accent colors primarily for calls to action or sale indicators."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent sticky header that transforms from a larger initial state with a full search bar and logo to a compact version with a streamlined search and navigation upon scrolling down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial-style content sections, such as 'In the Spotlight' and 'Introspective Magazine,' are integrated seamlessly with product showcases, using large, high-quality imagery to elevate the browsing experience."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transforms from a larger, initially visible state to a smaller, fixed-position bar with a solid background as the user scrolls down the page, maintaining accessibility to key links. This transition is a smooth, size-based animation.",
+    "Content sections appear to reveal or fade into view as they enter the viewport, creating a dynamic scroll experience without abrupt transitions, likely using CSS keyframes for subtle animations to bring elements into focus."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F4F2F0",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-heading"
+      },
+      {
+        "hex": "#C0392B",
+        "role": "accent-sale"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) are paired with a clean, legible sans-serif for body text and navigation, often using uppercase for labels and subheadings.",
+    "radius": "Sharp corners for most elements, with subtle rounding on interactive elements like search bars and buttons.",
+    "spacing": "Airy and balanced, with generous vertical spacing between sections and consistent horizontal padding within content blocks, creating a sense of luxury."
+  },
+  "standout": "The site stands out by seamlessly blending a high-end editorial magazine aesthetic with a sophisticated e-commerce platform, using large, aspirational imagery and elegant typography to elevate product presentation beyond a typical marketplace. Its distinctive feature is the integrated content that educates and inspires alongside product listings.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

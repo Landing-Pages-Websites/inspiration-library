@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-griflan-com-02334f",
+  "source": {
+    "url": "https://griflan.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-griflan-com-02334f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-griflan-com-02334f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-griflan-com-02334f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-griflan-com-02334f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding",
+      "digital-agency"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with dark backgrounds are used throughout the page, often featuring large, centered text blocks for emphasis."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast is established between oversized, elegant serif headings and clean, legible sans-serif body text, with smaller uppercase labels used for secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette is used, dominated by deep charcoal/black backgrounds, bright red accents for CTAs and key highlights, and crisp white or light off-white for primary text."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic hero transition occurs on initial scroll, where a full-screen video hero completely disappears, revealing a new, persistent header and the main content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Testimonial cards are presented in a scattered, rotated arrangement and animate into view with a subtle reveal as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio items are displayed in a clean grid layout, with each item featuring a distinct visual and a clear call to action."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen video hero that transitions out of view on scroll, replaced by a new, persistent header and the main content area, creating a distinct visual shift.",
+    "Content sections are revealed with a subtle fade-in or slide-up animation as they enter the viewport, ensuring a smooth and engaging content progression.",
+    "Testimonial cards are individually rotated and positioned, then animated into their scattered layout as the user scrolls, likely using a staggered reveal effect for each card."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181616",
+        "role": "background"
+      },
+      {
+        "hex": "#FF3831",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Tan",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (approx. 3-4x body text) with clean, legible sans-serif body and smaller uppercase labels.",
+    "radius": "sharp",
+    "spacing": "Airy and generous in hero sections and between major content blocks, becoming more balanced in grids and lists."
+  },
+  "standout": "The site's distinctive use of a dramatic, full-screen video hero that completely transitions out to reveal a new, persistent header and content, combined with the playful, scattered, and animated testimonial cards, creates a memorable and dynamic user experience that feels more interactive than a typical marketing site.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

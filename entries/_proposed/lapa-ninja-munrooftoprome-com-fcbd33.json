@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-munrooftoprome-com-fcbd33",
+  "source": {
+    "url": "https://munrooftoprome.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-munrooftoprome-com-fcbd33.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-munrooftoprome-com-fcbd33__scroll0.webp",
+      "shots/_proposed/lapa-ninja-munrooftoprome-com-fcbd33__scroll1.webp",
+      "shots/_proposed/lapa-ninja-munrooftoprome-com-fcbd33__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "bar",
+      "restaurant"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks with centered text and split layouts featuring an image on one side and descriptive text with a call to action on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Headings consistently use a very thin, wide-letter-spaced sans-serif font, often in uppercase, creating an elegant and airy feel."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme relies on a deep, dark blue background contrasted with light text, punctuated by muted, desaturated accent colors for specific section backgrounds and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dramatic full-screen moon parallax effect where the moon scales up and moves to fill the viewport as the user scrolls down, progressively covering initial hero text and revealing the brand logo and footer."
+    },
+    {
+      "kind": "section",
+      "note": "Key information sections like 'Signature Menu' and 'Events' are presented with large, bold, uppercase titles and a 'DISCOVER MORE' link, creating clear content hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The hero uses a large background image of a moon that is initially positioned and scaled to allow text overlay. As the user scrolls, the moon image is animated to scale up significantly and translate vertically, creating a 'zoom-in' effect that eventually fills the entire screen. This animation is synchronized with scroll depth, allowing the moon to parallax behind and then cover other fixed or slower-moving content elements.",
+    "Typography combines a very light-weight, wide-letter-spaced sans-serif for display headings with a more standard, readable sans-serif for body copy, ensuring legibility while maintaining a sophisticated aesthetic.",
+    "Interactive elements like buttons and input fields feature subtle corner rounding, contrasting with the generally sharp edges of the layout for a touch of softness."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#222944",
+        "role": "background"
+      },
+      {
+        "hex": "#f2f0dd",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#92aba0",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, thin, uppercase headings (~3-4x body) with generous letter spacing, paired with smaller, readable body text.",
+    "radius": "Subtle for buttons and input fields; otherwise sharp for layout elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and comfortable padding around content blocks."
+  },
+  "standout": "The most distinctive element is the dramatic, full-screen moon parallax effect in the hero section, which transforms the initial view into an immersive celestial backdrop for the site's branding and footer. This creates a strong, memorable visual identity that effectively uses scroll depth to reveal core brand elements.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

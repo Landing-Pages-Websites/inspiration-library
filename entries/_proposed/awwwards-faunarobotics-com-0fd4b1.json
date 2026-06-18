@@ -1,0 +1,122 @@
+{
+  "id": "awwwards-faunarobotics-com-0fd4b1",
+  "source": {
+    "url": "https://faunarobotics.com",
+    "gallery": "awwwards",
+    "harvest_date": "2026-06-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/awwwards-faunarobotics-com-0fd4b1.webp",
+    "scroll": [
+      "shots/_proposed/awwwards-faunarobotics-com-0fd4b1__scroll0.webp",
+      "shots/_proposed/awwwards-faunarobotics-com-0fd4b1__scroll1.webp",
+      "shots/_proposed/awwwards-faunarobotics-com-0fd4b1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://faunarobotics.com/company",
+        "full": "shots/_proposed/awwwards-faunarobotics-com-0fd4b1__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "robotics",
+      "technology",
+      "consumer-electronics"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are frequently defined by large, rounded-corner background containers that sometimes overlap or are offset, creating a soft, organic flow rather than strict rectangular blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, light beige background is consistently paired with a vibrant orange accent for CTAs and a secondary palette of muted, friendly pastel colors (yellow, pink, teal, olive) used in illustrations and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms on scroll, shrinking and gaining a solid background. The hero image exhibits a subtle parallax and scale effect, moving slower than the foreground content. Subsequent content sections reveal themselves with a staggered fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif, conveying a friendly yet authoritative tone, while body text is a highly legible, slightly lighter weight sans-serif."
+    },
+    {
+      "kind": "section",
+      "note": "Many content sections feature an asymmetrical layout, often pairing a prominent image or abstract graphic on one side with descriptive text on the other, all contained within rounded background shapes."
+    }
+  ],
+  "technique_notes": [
+    "The sticky navigation bar transitions its height, background color, and text color using CSS transitions. The hero image's subtle parallax and scaling effect, along with the staggered fade-in reveals of content sections, are likely achieved using a JavaScript animation library like GSAP ScrollTrigger, animating elements as they enter the viewport.",
+    "Extensive use of large border-radius values on all interactive elements, image containers, and section backgrounds creates a consistent soft, friendly aesthetic. Content blocks are often given distinct background colors or subtle shadows to differentiate them without hard borders."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F4EF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A2E3B",
+        "role": "text"
+      },
+      {
+        "hex": "#F16B46",
+        "role": "cta"
+      },
+      {
+        "hex": "#DBB154",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9B8C4",
+        "role": "accent"
+      },
+      {
+        "hex": "#8FC0BA",
+        "role": "accent"
+      },
+      {
+        "hex": "#908D7D",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) are paired with a legible, slightly lighter weight sans-serif for body copy, with smaller uppercase labels used for sub-navigation or categories.",
+    "radius": "Rounded. A consistent, large border-radius is applied to almost all containers, buttons, and image frames, giving the entire site a soft and approachable character.",
+    "spacing": "Airy. Generous vertical and horizontal padding is used throughout, particularly in the hero section and between major content blocks, contributing to a clean and uncluttered visual rhythm."
+  },
+  "standout": "This site distinctively blends advanced robotics technology with an unusually friendly and playful aesthetic. It achieves this through a warm, pastel color palette, extensive use of rounded shapes, and abstract, block-like graphics, successfully avoiding the typical cold or overly futuristic tech design.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "rive",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
