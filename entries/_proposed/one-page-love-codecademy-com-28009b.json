@@ -1,0 +1,111 @@
+{
+  "id": "one-page-love-codecademy-com-28009b",
+  "source": {
+    "url": "https://www.codecademy.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-codecademy-com-28009b.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-codecademy-com-28009b__scroll0.webp",
+      "shots/_proposed/one-page-love-codecademy-com-28009b__scroll1.webp",
+      "shots/_proposed/one-page-love-codecademy-com-28009b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "e-learning",
+      "tech-education"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site predominantly uses a dark background, strategically interspersed with full-width sections featuring light, pastel-colored backgrounds to segment content and provide visual contrast."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, pairing a deep dark blue background with bright white text and a vibrant yellow for primary calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page transforms from a transparent background to a solid white background with a subtle shadow and slightly reduced height as the user scrolls down."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections, such as skill categories and course offerings, are presented in responsive grid layouts featuring prominent icons or images alongside concise text descriptions."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section headings utilize an extremely large, bold, geometric sans-serif font for high impact, while body text and UI elements use a more humanist sans-serif for readability."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions its styling on scroll, changing from a transparent background to a solid white background with a subtle drop shadow and a slight reduction in height, creating a sticky header effect.",
+    "Content sections and individual elements within them are revealed using CSS keyframe animations, typically fading up or sliding into view as they enter the viewport to create a dynamic scrolling experience.",
+    "The hero section integrates a large, interactive search input field directly into its primary visual space, encouraging immediate user engagement and action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#10162f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ffe000",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff0e5",
+        "role": "surface"
+      },
+      {
+        "hex": "#f5fcff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f5ffe3",
+        "role": "surface"
+      },
+      {
+        "hex": "#1557ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Suisse",
+        "role": "heading"
+      },
+      {
+        "family": "Apercu",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold geometric sans-serif for hero text (~5x body) and large headings, with a readable humanist sans-serif for body text and smaller UI labels.",
+    "radius": "rounded, consistently applied to buttons, input fields, and content cards.",
+    "spacing": "balanced, with an airy hero section transitioning to a more dense but well-structured grid for content features and course listings."
+  },
+  "standout": "The site's distinctive dark mode aesthetic, punctuated by a vibrant yellow for calls to action and strategically placed pastel-colored content blocks, creates a sophisticated yet energetic feel. The prominent, interactive search bar in the hero section immediately invites user engagement, setting it apart from typical static hero designs.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

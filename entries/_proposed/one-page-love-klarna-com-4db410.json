@@ -1,0 +1,121 @@
+{
+  "id": "one-page-love-klarna-com-4db410",
+  "source": {
+    "url": "https://www.klarna.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-klarna-com-4db410.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-klarna-com-4db410__scroll0.webp",
+      "shots/_proposed/one-page-love-klarna-com-4db410__scroll1.webp",
+      "shots/_proposed/one-page-love-klarna-com-4db410__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "payments"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs an asymmetrical layout with a large, left-aligned text block contrasting with a full-bleed, dynamic image on the right, creating a strong visual imbalance."
+    },
+    {
+      "kind": "type",
+      "note": "Key headings and service lists utilize extremely oversized, bold sans-serif typography, often layered or partially obscured by images, creating a dramatic and editorial feel, particularly in the 'Explore our offering' section."
+    },
+    {
+      "kind": "color",
+      "note": "The footer transitions to a dark background with light text, featuring an enormous, semi-transparent Klarna logo as a background element to reinforce brand identity at the page's end."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling at a slightly slower rate than the foreground content, adding depth to the initial viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'Get the app' QR code box is a persistent floating call-to-action, fixed to the bottom-right of the viewport, which transforms to include text and a close button after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "A central section presents a list of services using very large, stacked typography, where each service name is designed to animate or highlight as it enters the viewport, creating an engaging content block."
+    }
+  ],
+  "technique_notes": [
+    "The hero image is implemented as a background element that scrolls at a slower rate than the foreground text and interactive components, creating a subtle parallax depth effect.",
+    "The main navigation bar is fixed to the top of the viewport, ensuring it remains accessible throughout the user's scroll journey.",
+    "Sections and individual content blocks, especially the large service list, are designed to animate into view (e.g., fade up, slide in) as they enter the viewport, leveraging CSS keyframes for smooth, staggered transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b051d",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#e2e2e7",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#f3f3f5",
+        "role": "surface-subtle"
+      },
+      {
+        "hex": "#e4e0f7",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#37363f",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#c4c3ca",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Klarna Text",
+        "role": "heading"
+      },
+      {
+        "family": "Klarna Text",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Graphik",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Very oversized, bold display headings (~4-5x body text) with a clear hierarchy, using a single sans-serif family for both headings and body, but with significant weight and size variations.",
+    "radius": "Subtle rounding on interactive elements like buttons and cards, while overall section containers and images maintain sharp corners.",
+    "spacing": "Airy in the hero and main content sections, with generous vertical spacing between major content blocks. The 'Explore our offering' section uses dense, stacked typography within its airy container."
+  },
+  "standout": "The site's distinctive use of oversized, layered typography, particularly in the 'Your money treated right' hero and 'Explore our offering' sections, creates a bold and editorial aesthetic that feels more like a magazine spread than a typical marketing site. This, combined with the subtle hero parallax and the persistent, transforming QR code CTA, offers a dynamic yet sophisticated user experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

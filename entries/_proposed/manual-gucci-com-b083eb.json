@@ -1,0 +1,124 @@
+{
+  "id": "manual-gucci-com-b083eb",
+  "source": {
+    "url": "https://www.gucci.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-gucci-com-b083eb.webp",
+    "scroll": [
+      "shots/_proposed/manual-gucci-com-b083eb__scroll0.webp",
+      "shots/_proposed/manual-gucci-com-b083eb__scroll1.webp",
+      "shots/_proposed/manual-gucci-com-b083eb__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.gucci.com/ca/en",
+        "full": "shots/_proposed/manual-gucci-com-b083eb__p2.webp"
+      },
+      {
+        "url": "https://www.gucci.com/us/en",
+        "full": "shots/_proposed/manual-gucci-com-b083eb__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution editorial photography and video are used as dominant hero and section backgrounds, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "The site prominently features an oversized, high-contrast serif font for the 'GUCCI' brand logo, which is distinct from the clean sans-serif used for all other UI text and headings."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface elements predominantly use a monochrome palette of black, white, and various shades of grey, allowing the vibrant colors of the product photography to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is initially transparent and overlays the hero video, then transforms to a solid white background and remains sticky as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero, such as product grids and service cards, reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Service offerings (e.g., 'Book an Appointment', 'Personalization') are consistently presented as a three-column grid of equal-width cards featuring black and white photography."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes an auto-playing video that spans the full width and height of the viewport, with calls to action and branding text overlaid for immediate impact.",
+    "The global navigation bar is implemented as a sticky element that dynamically changes its appearance; it starts transparent over the hero and then gains a solid background and potentially a subtle shadow or height adjustment once the user scrolls past the initial hero content.",
+    "Scroll-triggered animations are used to progressively reveal content sections. Elements within these sections, such as product images and text blocks, appear with a gentle fade-in or slide-up effect as they become visible in the viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#757575",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#F1C40F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Didot",
+        "role": "display"
+      },
+      {
+        "family": "Gucci Sans Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Gucci Sans Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, airy sans-serif headings with generous letter-spacing are paired with a more compact body text. The brand logo uses an extremely large, high-contrast serif font, creating a strong visual hierarchy.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially in hero sections and between major content blocks, contributing to a luxurious and uncluttered feel. Product grids maintain balanced padding."
+  },
+  "standout": "This site's design is distinctive for its bold, editorial approach, leveraging full-bleed, high-fashion photography and video to create an immersive brand experience that feels more like a digital magazine than a typical e-commerce site. The minimalist, monochrome UI serves to elevate the product imagery, while the oversized, high-contrast serif logo provides a unique and powerful brand signature.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

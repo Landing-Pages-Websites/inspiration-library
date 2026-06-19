@@ -1,0 +1,104 @@
+{
+  "id": "one-page-love-dagster-io-89d117",
+  "source": {
+    "url": "https://www.dagster.io",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-dagster-io-89d117.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-dagster-io-89d117__scroll0.webp",
+      "shots/_proposed/one-page-love-dagster-io-89d117__scroll1.webp",
+      "shots/_proposed/one-page-love-dagster-io-89d117__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-platform",
+      "dev-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and two-column layouts, often pairing descriptive text with large, detailed product screenshots or UI elements."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold sans-serif headings for impact, supported by a highly readable sans-serif for body text, and small uppercase labels for categories or metadata."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette combines a clean white background with deep indigo/dark blue for UI elements and footer, accented by a vibrant purple for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar remains fixed at the top of the viewport. The hero section features a large, dark product UI illustration that appears to be fixed or scrolls at a significantly slower rate than the foreground text, creating a subtle parallax effect as content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "The site prominently features detailed, dark-themed product UI screenshots and dashboard mockups as central visual elements within the hero and feature sections, rather than generic illustrations."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that maintains its position at the top of the viewport. The hero section's large product illustration is implemented with a parallax scrolling effect, where the background image moves slower than the foreground content, creating depth. Other content sections likely use scroll-triggered reveal animations (e.g., fade-up or slide-in) as they enter the viewport, leveraging CSS keyframes or GSAP for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A32",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#6B48FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Barlow",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) create strong visual anchors, complemented by a clear, readable body text and small, often uppercase, supporting labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, cards, and UI elements, contributing to a modern, approachable feel.",
+    "spacing": "Airy and generous, particularly in the hero and between major content sections, providing ample negative space that enhances readability and visual clarity."
+  },
+  "standout": "The sophisticated integration of detailed, dark-themed product UI elements (dashboards, code snippets, notification bubbles) directly into the hero and feature sections, using parallax to make the product itself a dynamic visual centerpiece, is highly distinctive.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "manual-tesla-com-912ca6",
+  "source": {
+    "url": "https://www.tesla.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tesla-com-912ca6.webp",
+    "scroll": [
+      "shots/_proposed/manual-tesla-com-912ca6__scroll0.webp",
+      "shots/_proposed/manual-tesla-com-912ca6__scroll1.webp",
+      "shots/_proposed/manual-tesla-com-912ca6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.tesla.com/new",
+        "full": "shots/_proposed/manual-tesla-com-912ca6__p2.webp"
+      },
+      {
+        "url": "https://www.tesla.com/fsd",
+        "full": "shots/_proposed/manual-tesla-com-912ca6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "electric-vehicles",
+      "energy"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution imagery dominates sections, often with minimal text overlaid directly on the image, creating an immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, creating a strong visual hierarchy against clean, minimal body text, often in all caps for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of black, white, and dark grey is punctuated by a vibrant blue for primary calls to action and a distinct red/orange for promotional accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a smooth slide-up animation as they enter the viewport, creating a dynamic scrolling experience, complemented by a subtle hero image parallax."
+    },
+    {
+      "kind": "section",
+      "note": "Product sections are presented as large, immersive image cards with overlaid product names and brief descriptions, often in a two-column grid."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations (css-keyframes) to reveal content; as the user scrolls, new sections smoothly slide up into view from the bottom, creating a sense of progression.",
+    "The hero section features a subtle parallax effect where the background image scrolls at a slower rate than the foreground elements, adding depth.",
+    "The main navigation bar becomes fixed to the top of the viewport after a short scroll, ensuring constant access without changing its visual style."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#171a20",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#3e6ae1",
+        "role": "cta"
+      },
+      {
+        "hex": "#ed4e3b",
+        "role": "accent"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Gotham",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase headings (~4-5x body text) with clear, legible body and descriptive text, maintaining a modern sans-serif character.",
+    "radius": "Subtle (buttons, card corners).",
+    "spacing": "Balanced, with generous vertical spacing between major sections and a tighter grid for product listings, creating a clean, open feel."
+  },
+  "standout": "The site's design is distinctive for its highly immersive, full-bleed product photography that serves as the primary visual element, often with text directly overlaid. This, combined with subtle scroll-triggered reveals and a minimalist aesthetic, creates a premium, cinematic experience that prioritizes visual impact over dense information.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

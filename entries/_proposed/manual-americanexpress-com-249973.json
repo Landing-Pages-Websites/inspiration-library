@@ -1,0 +1,115 @@
+{
+  "id": "manual-americanexpress-com-249973",
+  "source": {
+    "url": "https://www.americanexpress.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-americanexpress-com-249973.webp",
+    "scroll": [
+      "shots/_proposed/manual-americanexpress-com-249973__scroll0.webp",
+      "shots/_proposed/manual-americanexpress-com-249973__scroll1.webp",
+      "shots/_proposed/manual-americanexpress-com-249973__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "credit-cards",
+      "banking"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent two-column main layout featuring a fixed-width left-hand navigation sidebar for product categories, alongside a scrollable main content area that adapts to full-width sections and multi-column grids."
+    },
+    {
+      "kind": "motion",
+      "note": "A dual-level sticky navigation system where both the global header (logo, main links) and the left-aligned product category menu remain fixed at the top and left edges, respectively, allowing page content to scroll seamlessly underneath them."
+    },
+    {
+      "kind": "color",
+      "note": "Prominent use of a vibrant, deep blue as the primary accent color for calls-to-action, active navigation states, and key informational banners, consistently contrasted with a clean white and subtle light grey palette for backgrounds and surfaces."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, frequently employing a three-column grid for showcasing related products, features, or informational cards, maintaining consistent internal padding and visual separation."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using a modern sans-serif typeface, with bold, moderately larger headings for section titles and smaller, lighter text for descriptions, navigation items, and legal disclaimers."
+    }
+  ],
+  "technique_notes": [
+    "The global header and the left-aligned secondary navigation panel are implemented as sticky elements, maintaining their position at the top and left of the viewport as the user scrolls, allowing main content to pass underneath. Scroll-triggered reveals for content sections likely use GSAP or CSS keyframes for subtle fade-in or slide-up effects as elements enter the viewport, though these specific animations are not strongly evident in the provided scroll sequence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#006fcf",
+        "role": "cta"
+      },
+      {
+        "hex": "#0066be",
+        "role": "accent"
+      },
+      {
+        "hex": "#56a1e3",
+        "role": "light-accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#fbfbfb",
+        "role": "surface"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "border"
+      },
+      {
+        "hex": "#8c8c8c",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#333333",
+        "role": "primary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BentonSans",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear and functional type scale, using a primary sans-serif for headings that are moderately larger and bolder, while body text and navigation elements are smaller and often lighter in weight, ensuring readability and hierarchy.",
+    "radius": "Subtle rounding (e.g., 4-8px) on interactive elements like buttons and card containers, providing a soft, modern touch without being overly playful.",
+    "spacing": "Balanced and consistent spacing, with generous vertical padding between sections and horizontal padding within content blocks, creating an airy yet structured feel."
+  },
+  "standout": "The most distinctive design element is the persistent two-column layout, where both the global header and a detailed left-hand product navigation remain sticky, providing constant access to core site functions and product categories. This creates a highly functional and always-available navigation experience, especially for a site with many product offerings.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "proposed"
+}

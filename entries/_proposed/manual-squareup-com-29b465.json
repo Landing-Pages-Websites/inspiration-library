@@ -1,0 +1,125 @@
+{
+  "id": "manual-squareup-com-29b465",
+  "source": {
+    "url": "https://www.squareup.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-squareup-com-29b465.webp",
+    "scroll": [
+      "shots/_proposed/manual-squareup-com-29b465__scroll0.webp",
+      "shots/_proposed/manual-squareup-com-29b465__scroll1.webp",
+      "shots/_proposed/manual-squareup-com-29b465__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://squareup.com/us/en",
+        "full": "shots/_proposed/manual-squareup-com-29b465__p2.webp"
+      },
+      {
+        "url": "https://squareup.com/au/en",
+        "full": "shots/_proposed/manual-squareup-com-29b465__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fintech",
+      "business-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with alternating dark and light backgrounds, often featuring large hero-style imagery or video."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, large-scale sans-serif headings on dark backgrounds, contrasted with smaller, often uppercase, supporting labels."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast palette dominated by deep blacks and whites, with a vibrant electric blue used exclusively for primary calls to action and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals where content blocks and individual elements (text, buttons, images) fade in and slide up into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero section features a full-bleed background video that remains fixed or subtly parallaxes as the user scrolls, creating a dynamic backdrop for the main headline."
+    },
+    {
+      "kind": "section",
+      "note": "Horizontal scrolling carousels used to showcase product hardware or partner logos, allowing for a dense display of visual information without excessive vertical space."
+    }
+  ],
+  "technique_notes": [
+    "Sections and key content blocks are revealed with a staggered fade-in and subtle vertical slide-up animation as they enter the viewport, creating a dynamic scroll experience. This effect is likely powered by JavaScript scroll-triggering libraries or CSS keyframes, leveraging the detected `css-keyframes` technology.",
+    "The hero section utilizes a full-bleed background video that is either fixed in place or has a subtle parallax effect, providing a rich, immersive backdrop that moves independently of the foreground content, as indicated by the `video-hero` detection.",
+    "Interactive horizontal scrolling carousels are implemented for showcasing multiple product images or partner logos, allowing users to swipe or click through a collection of items within a confined horizontal space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#006AFF",
+        "role": "cta"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#101010",
+        "role": "background-darker"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Square Sans Display",
+        "role": "heading"
+      },
+      {
+        "family": "Square Sans Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual hierarchy, complemented by smaller, often uppercase, supporting labels and clear body text.",
+    "radius": "Subtle rounding on buttons and some card elements, with product images and larger content blocks featuring sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing in hero and section breaks, and a tighter grid for product showcases."
+  },
+  "standout": "The site's design is distinctive for its bold, almost editorial use of large-scale typography on deep, dark backgrounds, creating a high-impact visual experience. This is combined with a dynamic video hero and sophisticated scroll-triggered animations that reveal content smoothly, making the page feel premium and interactive rather than static.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "rive",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

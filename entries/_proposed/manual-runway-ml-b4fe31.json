@@ -1,0 +1,103 @@
+{
+  "id": "manual-runway-ml-b4fe31",
+  "source": {
+    "url": "https://www.runway.ml",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-runway-ml-b4fe31.webp",
+    "scroll": [
+      "shots/_proposed/manual-runway-ml-b4fe31__scroll0.webp",
+      "shots/_proposed/manual-runway-ml-b4fe31__scroll1.webp",
+      "shots/_proposed/manual-runway-ml-b4fe31__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "video-production"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic video background that transitions between different high-fidelity CGI scenes as the page loads or scrolls, with a central text overlay and CTA appearing over the second video scene."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width dark backgrounds and full-width light backgrounds, creating a strong visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large and bold, often appearing in a single line, contrasting with smaller, lighter body text and subtle uppercase labels for categories or dates."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent client and partner logo grids are strategically placed after the hero and within content sections to establish authority and social proof."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero dynamically changes its content or plays a different segment after an initial load, featuring a central, high-contrast text overlay and call-to-action button. The navigation bar remains sticky at the top throughout the scroll.",
+    "Sections are structured with generous vertical padding, alternating between dark and light full-width backgrounds to delineate content blocks. Content within these sections often uses flexible grids for cards and images."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f7fa",
+        "role": "background"
+      },
+      {
+        "hex": "#eef1f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#3a3a3a",
+        "role": "text"
+      },
+      {
+        "hex": "#595959",
+        "role": "text"
+      },
+      {
+        "hex": "#00a84f",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3x body) with smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Subtle for interactive elements like buttons and image cards, otherwise sharp for overall section boundaries.",
+    "spacing": "Airy, with generous vertical padding between major sections and balanced, consistent spacing within content grids."
+  },
+  "standout": "The site's most distinctive feature is its cinematic, high-fidelity video hero that dynamically transitions between striking CGI scenes, immediately conveying the product's advanced capabilities. This visual sophistication is carried throughout the page with polished imagery and a clean, authoritative layout.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

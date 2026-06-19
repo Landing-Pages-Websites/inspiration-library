@@ -1,0 +1,111 @@
+{
+  "id": "manual-prada-com-a4db2a",
+  "source": {
+    "url": "https://www.prada.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-prada-com-a4db2a.webp",
+    "scroll": [
+      "shots/_proposed/manual-prada-com-a4db2a__scroll0.webp",
+      "shots/_proposed/manual-prada-com-a4db2a__scroll1.webp",
+      "shots/_proposed/manual-prada-com-a4db2a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.prada.com/gb/en/store-locator.html",
+        "full": "shots/_proposed/manual-prada-com-a4db2a__p2.webp"
+      },
+      {
+        "url": "https://www.prada.com/gb/en/prada-services.html",
+        "full": "shots/_proposed/manual-prada-com-a4db2a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury",
+      "retail"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a unique, header-less layout, presenting content in full-bleed, vertically-stacked sections with generous spacing, creating an immersive, editorial experience."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a wide, clean sans-serif typeface (GT-America) across all text, with uppercase for labels and some headings, and very generous letter spacing for an airy, sophisticated feel."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast color scheme primarily using black, white, and light grey, which emphasizes content and photography without visual distraction."
+    },
+    {
+      "kind": "motion",
+      "note": "Content elements within large sections, such as hero text and subsequent content blocks, reveal with a subtle fade-in and slight upward translation as they scroll into the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Major content blocks are presented as full-width, full-height sections, often alternating between light and dark backgrounds, acting as distinct visual chapters for different product categories or brand stories."
+    }
+  ],
+  "technique_notes": [
+    "Sections and their internal content elements are revealed with a subtle fade-in and slight upward translation as they scroll into the viewport, creating a dynamic content flow. The hero section utilizes a video background with text overlays that animate into view.",
+    "The site employs a full-bleed, section-based layout where each major content block occupies the full width of the screen, often with significant vertical padding to create an airy, spacious feel.",
+    "The homepage specifically omits a persistent top navigation bar, creating an immersive, content-first experience. A standard navigation bar is present on interior pages."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GT-America",
+        "role": "heading"
+      },
+      {
+        "family": "GT-America",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, airy headings (~3-4x body) with small, widely-spaced uppercase labels, all using a consistent sans-serif font.",
+    "radius": "sharp",
+    "spacing": "Very airy, with large vertical gaps between sections and generous padding within content blocks, creating a minimalist and luxurious feel."
+  },
+  "standout": "The homepage's extreme minimalism is distinctive, characterized by the complete absence of a visible header or navigation, large expanses of whitespace, and a focus on large, centered typography and full-bleed content blocks. This creates an immersive, editorial experience that prioritizes visual impact over immediate navigation.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

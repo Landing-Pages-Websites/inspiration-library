@@ -1,0 +1,120 @@
+{
+  "id": "manual-on-running-com-f8ed9e",
+  "source": {
+    "url": "https://www.on-running.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-on-running-com-f8ed9e.webp",
+    "scroll": [
+      "shots/_proposed/manual-on-running-com-f8ed9e__scroll0.webp",
+      "shots/_proposed/manual-on-running-com-f8ed9e__scroll1.webp",
+      "shots/_proposed/manual-on-running-com-f8ed9e__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "apparel",
+      "footwear",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography is used as background for hero sections and as primary content for category and product displays, creating an immersive visual experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Product and category listings are presented in flexible grid layouts that adapt to different content types (e.g., 3-column for categories, 5-column for new arrivals, 4-column for stories)."
+    },
+    {
+      "kind": "type",
+      "note": "A clean, modern sans-serif typeface is used consistently across all headings and body text, maintaining a minimalist and sophisticated brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white color scheme dominates the UI elements and text, allowing product photography to provide the primary visual interest and color."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay to a solid black background with slightly reduced height and padding as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls, adding depth to the initial view."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial content blocks featuring large imagery and concise text are interspersed throughout the page, breaking up product displays and telling brand stories."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that changes its visual properties (background, height, padding) upon scroll, transitioning from a transparent overlay to a solid, more compact bar.",
+    "The hero section employs a subtle parallax scrolling effect on its background image, where the image moves at a slower rate than the foreground content, creating a sense of depth.",
+    "Content sections are primarily revealed by static scrolling, with no complex fade-ins or slide-ups observed for individual elements as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#4D4D4D",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-tertiary"
+      },
+      {
+        "hex": "#ED0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#E15F14",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "On",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Google Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy, complemented by smaller, often uppercase labels for categories and buttons.",
+    "radius": "Sharp corners are consistently used for buttons, image containers, and input fields, contributing to a modern and precise aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while product grids maintain a more balanced, organized density."
+  },
+  "standout": "The site's standout feature is its masterful integration of high-quality, aspirational photography with a minimalist design, making the products and the active lifestyle they represent the absolute focal point. The design feels less like a typical e-commerce site and more like an editorial magazine, using large, full-bleed images to convey emotion and brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

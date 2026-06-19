@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-glossier-com-11b3e0",
+  "source": {
+    "url": "https://www.glossier.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-glossier-com-11b3e0.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-glossier-com-11b3e0__scroll0.webp",
+      "shots/_proposed/one-page-love-glossier-com-11b3e0__scroll1.webp",
+      "shots/_proposed/one-page-love-glossier-com-11b3e0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "cosmetics",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a full-bleed, high-contrast background with large, angled text and a central graphic that overlap and extend beyond typical content boundaries."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale is used, with massive, bold, and often angled display text for promotional content, sharply differentiated from smaller, clean sans-serif body and navigation text."
+    },
+    {
+      "kind": "color",
+      "note": "A single, vibrant, high-impact color (bright orange) dominates the hero section, creating a strong visual anchor, which then transitions to a more neutral palette of white, light grey, and subtle pink for product displays."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero elements, including the large '25% OFF' text and the central 'FRIENDS OF GLOSSIER' smiley graphic, exhibit a subtle parallax and scaling effect as the user scrolls, creating a dynamic sense of depth and movement."
+    },
+    {
+      "kind": "motion",
+      "note": "A temporary, sticky promotional banner ('LAST CHANCE') appears on the left side of the viewport as the user begins to scroll past the hero, then disappears once the hero section is fully out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections consistently use a clean, multi-column grid layout, presenting product images, names, prices, and color swatches in a uniform and easily browsable manner."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background with large, angled text and graphic elements that are positioned to overlap and create a sense of dynamic energy. These elements are animated to scale and parallax subtly with scroll, enhancing the initial visual impact.",
+    "A primary navigation bar remains fixed at the top of the viewport, providing persistent access to site navigation and utilities.",
+    "A secondary, temporary promotional banner is implemented to appear sticky on the left side of the screen during a specific scroll range, providing a prominent call-to-action that then gracefully exits the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F94200",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFE6EE",
+        "role": "surface"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Kanit-Klaviyo-Hosted",
+        "role": "heading"
+      },
+      {
+        "family": "Apercu",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, and often angled display headings (~5-6x body text) for promotional content, contrasted with clean, legible sans-serif body text for general information and navigation.",
+    "radius": "Subtle rounded corners on buttons and product cards, contributing to a soft and approachable aesthetic.",
+    "spacing": "Balanced overall, with an airy, full-bleed hero section that transitions into a more dense and organized product grid below."
+  },
+  "standout": "The site's design is distinctive for its bold and almost overwhelming use of a single, vibrant color (bright orange) in the hero, combined with massive, angled, and animated typography. The playful 'FRIENDS OF GLOSSIER' smiley graphic and the temporary, sticky 'LAST CHANCE' banner add a unique, energetic, and direct promotional character that stands out from typical clean e-commerce layouts.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

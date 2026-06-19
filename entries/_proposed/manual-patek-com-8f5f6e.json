@@ -1,0 +1,123 @@
+{
+  "id": "manual-patek-com-8f5f6e",
+  "source": {
+    "url": "https://www.patek.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-patek-com-8f5f6e.webp",
+    "scroll": [
+      "shots/_proposed/manual-patek-com-8f5f6e__scroll0.webp",
+      "shots/_proposed/manual-patek-com-8f5f6e__scroll1.webp",
+      "shots/_proposed/manual-patek-com-8f5f6e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.patek.com/en/collection",
+        "full": "shots/_proposed/manual-patek-com-8f5f6e__p2.webp"
+      },
+      {
+        "url": "https://www.patek.com/en/points-of-sale",
+        "full": "shots/_proposed/manual-patek-com-8f5f6e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "horology"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution product photography and video are used as dominant visual elements, often spanning the full width of the viewport or large sections to create an immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "A classic, elegant serif typeface with sharp serifs is used for prominent display text and the brand logo, contrasting with a clean, highly legible sans-serif for body copy and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode palette with deep charcoal backgrounds and white text is consistently applied, allowing the metallic gleam of the watches and occasional warm gold accents from product details to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax scroll, where the background watch image moves slower than the foreground text and overlay, creating a sense of layered depth as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar (logo, menu, search) transitions from an initial transparent state over the hero to a sticky, opaque dark bar at the top of the viewport once the hero section scrolls out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently pair large, evocative product imagery with concise text blocks, often in an alternating left-right layout, maintaining visual balance and a luxurious feel."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video or image hero section is established with a dark, semi-transparent overlay to ensure text legibility. The background image is set to parallax, scrolling at a slower rate than the foreground content, creating a layered depth effect using css-keyframes.",
+    "The global navigation bar is initially transparent and positioned over the hero content. Upon scrolling past the hero, it becomes fixed to the top of the viewport and adopts a solid dark background, maintaining accessibility and brand presence throughout the page.",
+    "Content sections are presented with generous vertical spacing, using a mix of full-width imagery and two-column layouts where text and images are balanced, emphasizing the product and brand story."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#C6BA82",
+        "role": "accent"
+      },
+      {
+        "hex": "#8C7A66",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Trajan Pro",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, large serif headings (~3-4x body) with generous letter-spacing, paired with a clear, well-spaced sans-serif for body text.",
+    "radius": "Sharp corners throughout, no visible rounding on elements or images.",
+    "spacing": "Airy, with significant vertical padding between sections and ample whitespace around content blocks, conveying a sense of luxury and exclusivity."
+  },
+  "standout": "The site's standout quality is its masterful integration of high-fidelity product photography and video with a dark, minimalist aesthetic. This creates an immersive, editorial experience that elevates the brand and product to an art form, rather than just a retail display, making the watches feel like collectible works of art.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

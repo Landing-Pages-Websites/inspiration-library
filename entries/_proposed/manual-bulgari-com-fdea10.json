@@ -1,0 +1,129 @@
+{
+  "id": "manual-bulgari-com-fdea10",
+  "source": {
+    "url": "https://www.bulgari.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-bulgari-com-fdea10.webp",
+    "scroll": [
+      "shots/_proposed/manual-bulgari-com-fdea10__scroll0.webp",
+      "shots/_proposed/manual-bulgari-com-fdea10__scroll1.webp",
+      "shots/_proposed/manual-bulgari-com-fdea10__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.bulgari.com/en-us",
+        "full": "shots/_proposed/manual-bulgari-com-fdea10__p2.webp"
+      },
+      {
+        "url": "https://www.bulgari.com/en-us/jewelry",
+        "full": "shots/_proposed/manual-bulgari-com-fdea10__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "jewelry",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed artistic illustrations and photography are used as prominent section headers, creating an immersive, editorial feel before transitioning to structured product grids."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for primary headings, contrasted with a clean, legible sans-serif for body text and small, uppercase labels, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A refined palette of crisp whites, deep blacks, and light grays provides a neutral backdrop, allowing rich, earthy tones and vibrant product photography to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, scrolling slower than the page content, while the main navigation bar transforms from transparent to opaque and sticky upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into alternating full-bleed visual storytelling sections and structured product display grids, creating a rhythm of inspiration and commerce."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered animation system (likely locomotive-scroll) to create a smooth scrolling experience and reveal content.",
+    "Hero images implement a subtle parallax effect, where the background image scrolls at a slower rate than the foreground content, adding depth.",
+    "The global navigation bar dynamically transforms from a transparent overlay with light text to a solid background with dark text as the user scrolls past the initial hero section, maintaining a sticky position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#181818",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#C6D7F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "surface-secondary"
+      },
+      {
+        "hex": "#A08060",
+        "role": "accent-illustration"
+      },
+      {
+        "hex": "#604020",
+        "role": "accent-illustration-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bulgari Type",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "Bulgari_Capitalis",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized elegant serif headings (~3-4x body) with generous letter spacing, complemented by small, uppercase sans-serif labels and CTAs.",
+    "radius": "Sharp corners dominate for all major content blocks, images, and buttons.",
+    "spacing": "Airy for hero and large illustrative sections, balanced for product grids, and denser for the footer, creating an overall sense of spaciousness."
+  },
+  "standout": "The site's distinctive use of highly artistic, illustrative hero and section images, often resembling painted canvases, sets it apart from typical e-commerce sites. These visuals evoke a strong sense of luxury, heritage, and storytelling, seamlessly integrated with product displays.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

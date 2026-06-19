@@ -1,0 +1,117 @@
+{
+  "id": "manual-tiffany-com-e82ef2",
+  "source": {
+    "url": "https://www.tiffany.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tiffany-com-e82ef2.webp",
+    "scroll": [
+      "shots/_proposed/manual-tiffany-com-e82ef2__scroll0.webp",
+      "shots/_proposed/manual-tiffany-com-e82ef2__scroll1.webp",
+      "shots/_proposed/manual-tiffany-com-e82ef2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.tiffany.com/gifts",
+        "full": "shots/_proposed/manual-tiffany-com-e82ef2__p2.webp"
+      },
+      {
+        "url": "https://www.tiffany.com/watches",
+        "full": "shots/_proposed/manual-tiffany-com-e82ef2__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "jewelry",
+      "retail",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed lifestyle imagery with structured product grids creates a dynamic visual rhythm across the page."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for the brand logo and key display headings, contrasted with a clean, modern sans-serif for body text and navigation, establishing an elegant yet readable hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The iconic Tiffany Blue is strategically used as a subtle accent color for calls-to-action, links, and subtle graphic elements, standing out against a predominantly white and black palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms upon scroll, shrinking in height and gaining a solid white background, while the initial hero section content scrolls up over the fixed background image."
+    },
+    {
+      "kind": "section",
+      "note": "Product categories are introduced with large, aspirational lifestyle photography, followed by dense, clean grids of individual product shots, often in 3-column or 4-column layouts."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, implement a scroll listener that applies a class to the header element when the scroll position exceeds a certain threshold, triggering CSS transitions for height reduction and background color change.",
+    "Content sections are revealed with a subtle fade-up or slide-up animation as they enter the viewport, likely using CSS keyframes or a JavaScript-based animation library (like GSAP or ScrollReveal) to trigger these effects on scroll.",
+    "The hero section features a large, full-bleed image or video that remains fixed or subtly parallaxes in the background while overlaying text and subsequent content scroll over it, creating depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1C1B1F",
+        "role": "surface"
+      },
+      {
+        "hex": "#51C4C0",
+        "role": "accent"
+      },
+      {
+        "hex": "#009CAD",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Didot",
+        "role": "display"
+      },
+      {
+        "family": "Red Hat Display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, oversized serif headings (~3-4x body) for brand statements, with a clean, legible sans-serif for body text and navigation.",
+    "radius": "Sharp corners dominate for most elements and imagery, with very subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within hero content, while product grids maintain a tighter, organized density."
+  },
+  "standout": "This site's design stands out through its masterful blend of aspirational, high-quality lifestyle photography with meticulously clean product displays. The consistent, subtle application of the iconic Tiffany Blue as an accent, combined with classic serif typography for branding, creates an unmistakable sense of luxury and heritage without feeling dated or overly ornate.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

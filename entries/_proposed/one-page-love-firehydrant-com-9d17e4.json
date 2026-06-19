@@ -1,0 +1,104 @@
+{
+  "id": "one-page-love-firehydrant-com-9d17e4",
+  "source": {
+    "url": "https://www.firehydrant.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-firehydrant-com-9d17e4.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-firehydrant-com-9d17e4__scroll0.webp",
+      "shots/_proposed/one-page-love-firehydrant-com-9d17e4__scroll1.webp",
+      "shots/_proposed/one-page-love-firehydrant-com-9d17e4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "incident-management",
+      "devops"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with alternating dark blue and lighter dark blue backgrounds, using a centered max-width container for text and imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, contrasting with lighter-weight body text and occasional uppercase labels for feature categories."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, sophisticated dark blue serves as the primary background, paired with white text for high contrast, and a vibrant blue for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent background to a solid dark blue with reduced height and padding as the user scrolls down the page, remaining sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently pair a concise heading and descriptive text with large, detailed product screenshots or diagrams to visually explain complex functionalities."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that changes its visual properties (background color, height, padding) via a CSS class or JavaScript trigger once the user scrolls past the initial hero section.",
+    "Content sections are designed to be full-width, with inner content constrained to a maximum width and horizontally centered, providing a structured and readable layout."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#041635",
+        "role": "background"
+      },
+      {
+        "hex": "#003b5c",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#2F80ED",
+        "role": "cta"
+      },
+      {
+        "hex": "#97999b",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Polar-73716d71a24c412d",
+        "role": "heading"
+      },
+      {
+        "family": "Polar-73716d71a24c412d",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with generous line height, complemented by lighter-weight body text and occasional uppercase labels.",
+    "radius": "Subtle (mostly sharp corners, with CTAs having a slight, soft curve).",
+    "spacing": "Balanced (comfortable padding around sections and within content blocks, creating an airy feel in the hero and a structured density in feature grids)."
+  },
+  "standout": "The site's distinctive use of a deep, sophisticated dark blue palette combined with a clean, modern sans-serif typeface creates an authoritative and technically proficient aesthetic. It effectively leverages large, detailed product screenshots within a structured layout to clearly communicate complex incident management features.",
+  "animation_tech": [],
+  "status": "proposed"
+}

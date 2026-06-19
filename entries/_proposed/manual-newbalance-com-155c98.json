@@ -1,0 +1,124 @@
+{
+  "id": "manual-newbalance-com-155c98",
+  "source": {
+    "url": "https://www.newbalance.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-newbalance-com-155c98.webp",
+    "scroll": [
+      "shots/_proposed/manual-newbalance-com-155c98__scroll0.webp",
+      "shots/_proposed/manual-newbalance-com-155c98__scroll1.webp",
+      "shots/_proposed/manual-newbalance-com-155c98__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.newbalance.com/530",
+        "full": "shots/_proposed/manual-newbalance-com-155c98__p2.webp"
+      },
+      {
+        "url": "https://www.newbalance.com/men",
+        "full": "shots/_proposed/manual-newbalance-com-155c98__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "footwear",
+      "fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs a full-width, section-based layout that intersperses large, editorial-style image/video blocks with more functional product grids, creating a dynamic and magazine-like flow."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for prominent display headings, contrasting with a clean, modern sans-serif for body text, product details, and navigation, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The color palette is predominantly high-contrast, utilizing crisp white and deep black for backgrounds and text, accented sparingly but effectively with a vibrant red for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and product cards reveal with a subtle fade-in and slight upward translation as they enter the viewport, creating a smooth, engaging scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Large hero and promotional image sections feature a gentle parallax scroll effect on their background imagery, adding depth and visual interest as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from an initial state with a top promotional banner to a sticky, slightly condensed version without the banner, maintaining visibility and saving vertical space upon scroll."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a smooth scrolling library (like locomotive-scroll) to provide a fluid and enhanced scroll experience, rather than the browser's native scroll behavior.",
+    "Content sections and individual elements are animated into view using scroll-triggered reveals, typically involving a subtle fade-in combined with a slight upward movement as they enter the user's viewport.",
+    "Large background images and video elements in hero and promotional sections implement a gentle parallax effect, where they scroll at a slower rate than the foreground content, creating a sense of depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EBECED",
+        "role": "surface"
+      },
+      {
+        "hex": "#CF0A2C",
+        "role": "accent"
+      },
+      {
+        "hex": "#151415",
+        "role": "background"
+      },
+      {
+        "hex": "#737B82",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, oversized serif headings (~4-5x body text) are paired with clean, legible sans-serif body text and small, often uppercase, sans-serif labels, creating a sophisticated and clear hierarchy.",
+    "radius": "Sharp corners are consistently applied across all elements, including buttons, cards, and image containers, contributing to a modern and precise aesthetic.",
+    "spacing": "Airy and generous vertical spacing between major content blocks and sections creates a premium, uncrowded feel, while product grids maintain a balanced density for efficient browsing."
+  },
+  "standout": "The site distinguishes itself with an editorial, magazine-like layout that masterfully blends large-scale, high-quality photography with sophisticated typography. The subtle scroll-triggered animations and parallax effects contribute to a premium, immersive browsing experience, making product discovery feel curated rather than just transactional.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "one-page-love-scrimba-com-46589a",
+  "source": {
+    "url": "https://www.scrimba.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-scrimba-com-46589a.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-scrimba-com-46589a__scroll0.webp",
+      "shots/_proposed/one-page-love-scrimba-com-46589a__scroll1.webp",
+      "shots/_proposed/one-page-love-scrimba-com-46589a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "e-learning",
+      "software-development"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent, full-height left sidebar navigation remains visible and functional throughout the scroll, providing constant access to main categories and a prominent upgrade call-to-action."
+    },
+    {
+      "kind": "layout",
+      "note": "The main content area utilizes a responsive grid system for displaying course and career path cards, typically arranging them in three columns on wider screens."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for primary titles, smaller sans-serif for body text, and even smaller, lighter-colored sans-serif for metadata and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The design uses a high-contrast color scheme with dark text on a predominantly white background, accented by a bright, medium blue for primary calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The left sidebar navigation, including the 'UPGRADE TO PRO' button, and the top header bar remain sticky at the top and left edges of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "All content items (courses, paths) are presented in a highly modular and consistent card format, each with a title, description, key statistics, and an avatar, often accompanied by 'PRO' or 'FREE' badges."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation and a secondary header bar are implemented as sticky elements, fixing them to the viewport edges to ensure constant accessibility as the user scrolls through extensive content.",
+    "Content is structured into uniform, self-contained cards that maintain consistent padding and a subtle border, arranged within a flexible grid that adapts to different screen sizes.",
+    "No scroll-triggered animations or reveals are used for content sections; elements simply scroll into and out of view, with the design relying on static hierarchy and sticky elements for navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#616161",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "cta"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "border"
+      },
+      {
+        "hex": "#8E24AA",
+        "role": "accent-pro"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "accent-free"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual anchors, complemented by smaller, legible body text and very small, light-grey meta information.",
+    "radius": "Subtle rounded corners are consistently applied to interactive elements like buttons and content cards, providing a soft, approachable feel.",
+    "spacing": "Balanced spacing is used throughout, with a slightly airy hero section and consistent, moderate padding within content cards and between grid items, creating a clear visual rhythm."
+  },
+  "standout": "The site's most distinctive feature is its persistent, full-height left sidebar navigation, which remains visible and functional throughout the scroll, providing constant access to main categories and a prominent upgrade call-to-action. This, combined with the highly modular and consistent card-based content presentation, creates a very structured and navigable learning platform experience.",
+  "animation_tech": [],
+  "status": "proposed"
+}

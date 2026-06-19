@@ -1,0 +1,116 @@
+{
+  "id": "one-page-love-infura-io-40de09",
+  "source": {
+    "url": "https://www.infura.io",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-infura-io-40de09.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-infura-io-40de09__scroll0.webp",
+      "shots/_proposed/one-page-love-infura-io-40de09__scroll1.webp",
+      "shots/_proposed/one-page-love-infura-io-40de09__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "blockchain",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently constrained to a central column, creating a strong vertical rhythm and clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast dark mode default with a vibrant orange accent used strategically for calls-to-action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation header transforms on scroll, shrinking in height and gaining a solid black background as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed using scroll-triggered animations, where elements fade in and subtly slide upwards as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent hero section featuring a bold, centered statement and dual calls-to-action (a primary button and a secondary text link)."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating section background colors (dark, light, dark, dark purple, orange) are used to visually delineate distinct content blocks and provide visual interest."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented that dynamically changes its height and background from transparent to solid black upon scrolling past the initial hero section, using CSS transitions for a smooth effect.",
+    "Content sections are revealed using scroll-triggered animations, likely leveraging JavaScript (e.g., Intersection Observer API) to apply CSS keyframe animations (fade-in and subtle slide-up) as elements enter the viewport.",
+    "An interactive 3D globe visualization is rendered using a canvas element, likely driven by JavaScript, to add a dynamic and engaging visual element to a key informational section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#131313",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF5833",
+        "role": "accent"
+      },
+      {
+        "hex": "#FEFEFE",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF6B4A",
+        "role": "accent-light"
+      },
+      {
+        "hex": "#4C1400",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#1F0033",
+        "role": "background-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~3-4x body text) with clear, legible body text and small, uppercase labels for categories.",
+    "radius": "Subtle, consistent corner-radius applied to buttons, cards, and input fields, providing a soft but not fully rounded feel.",
+    "spacing": "Balanced density, with generous vertical padding between sections and airy spacing in the hero, transitioning to a more compact grid for feature displays."
+  },
+  "standout": "This site stands out with its confident, high-contrast dark mode aesthetic, effectively using a vibrant orange as a powerful accent. The sophisticated motion design, including a transforming sticky header and a dynamic canvas-rendered 3D globe, elevates the user experience beyond a typical marketing site. If a builder copied only one idea, it should be the bold and consistent application of the dark theme with a single, strong accent color.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
