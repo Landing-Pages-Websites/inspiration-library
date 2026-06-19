@@ -1,0 +1,103 @@
+{
+  "id": "one-page-love-divvy-com-cee3fc",
+  "source": {
+    "url": "https://www.divvy.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-divvy-com-cee3fc.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-divvy-com-cee3fc__scroll0.webp",
+      "shots/_proposed/one-page-love-divvy-com-cee3fc__scroll1.webp",
+      "shots/_proposed/one-page-love-divvy-com-cee3fc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "online-gambling",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The main content area is fixed-width and centered, flanked by full-width header and footer sections that span the entire viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact sticky header bar with essential navigation and actions appears after initial scroll, replacing the taller, multi-row initial header. Concurrently, a sticky footer bar with price and primary calls-to-action (login, daftar) becomes visible at the bottom of the viewport."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme uses dark neutrals (black, dark gray) for headers, footers, and primary text, with white and light gray for content backgrounds. Bright red and a golden yellow are used as prominent accent colors for CTAs, ratings, and branding elements."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, vertically stacked sections, often separated by subtle background color changes (white to light gray) and introduced by bold, dark headings, creating a clear information hierarchy for a detailed product/service page."
+    }
+  ],
+  "technique_notes": [
+    "The header dynamically transforms on scroll: the initial, taller header with multiple rows collapses into a single, compact sticky bar with a solid background, maintaining key navigation and actions. Simultaneously, a sticky footer bar containing critical information (price) and calls-to-action (login, register) is revealed and remains fixed at the bottom of the screen.",
+    "Content is presented within a centered, fixed-width container, allowing for consistent readability, while the header and footer extend full-width to maintain a strong visual frame. Information is segmented into logical blocks using alternating light background colors to visually differentiate sections, enhancing scannability on a content-rich page. Product images are displayed in a carousel, likely using a library like Swiper, with smaller thumbnails for navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#CF2929",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFC107",
+        "role": "accent"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are clear, bold sans-serifs, moderately larger than the body text, establishing a strong visual hierarchy. Body text is compact and highly legible.",
+    "radius": "Subtle (buttons and input fields feature slightly rounded corners, while most other elements are sharp).",
+    "spacing": "Balanced (content sections have moderate vertical padding, and text blocks are dense but maintain good line spacing for readability)."
+  },
+  "standout": "The site's design is distinctive for its dual sticky elements (header and footer) that provide persistent navigation and calls to action, which is a practical yet visually impactful choice for a content-heavy product page. This is combined with a somewhat playful, bold brand identity, particularly evident in the prominent, katana-themed logo.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

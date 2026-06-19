@@ -1,0 +1,113 @@
+{
+  "id": "one-page-love-affirm-com-e9c3c8",
+  "source": {
+    "url": "https://www.affirm.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-affirm-com-e9c3c8.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-affirm-com-e9c3c8__scroll0.webp",
+      "shots/_proposed/one-page-love-affirm-com-e9c3c8__scroll1.webp",
+      "shots/_proposed/one-page-love-affirm-com-e9c3c8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "fintech",
+      "payments"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark-themed, full-width section layout with content consistently centered and ample vertical spacing between major sections."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark blue-black background (#101820) is contrasted with white text and accented with subtle purple-blue gradients and glows, particularly around interactive elements and product mockups."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, providing clear hierarchy against smaller, lighter body text, often accompanied by small uppercase labels for context."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from transparent to a solid dark background and slightly shrinks as the user scrolls past the hero. Content sections fade in and slide up subtly as they enter the viewport, and a large, glowing outline of the 'affirm' logo gradually reveals itself in the background towards the bottom of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Many content sections feature a prominent product mockup (e.g., phone app, credit card) on one side, balanced by explanatory text and calls to action on the other, often with a subtle glowing effect around the mockups."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header dynamically changes its background color and height upon scroll, providing a compact navigation experience after the initial hero section.",
+    "Content sections are revealed with a staggered fade-up and subtle slide-in animation as they enter the viewport, creating a dynamic and engaging scroll experience, likely managed by a scroll animation library like locomotive-scroll.",
+    "A large, stylized brand logo is integrated as a background element in the footer, animating its glow and outline as the user scrolls towards the end of the page, possibly using canvas or SVG animation for a distinctive visual anchor."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101820",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#9CADFC",
+        "role": "accent"
+      },
+      {
+        "hex": "#3A3C3D",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#D4D6D7",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "shadow-overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Axiforma",
+        "role": "heading"
+      },
+      {
+        "family": "Calibre",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear hierarchy, complemented by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Rounded; a consistent large radius is applied to cards, buttons, input fields, and product mockups, contributing to a soft and approachable feel.",
+    "spacing": "Balanced to airy; generous vertical spacing between full-width sections, with content within sections maintaining comfortable padding and margins."
+  },
+  "standout": "The site's distinctive use of a dark theme with subtle, glowing purple-blue accents, combined with consistently rounded corners across all UI elements and the unique, large animated background logo at the page's end, creates a sophisticated yet approachable and modern aesthetic that feels premium and trustworthy.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

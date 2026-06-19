@@ -1,0 +1,115 @@
+{
+  "id": "manual-mclaren-com-871cdd",
+  "source": {
+    "url": "https://www.mclaren.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-mclaren-com-871cdd.webp",
+    "scroll": [
+      "shots/_proposed/manual-mclaren-com-871cdd__scroll0.webp",
+      "shots/_proposed/manual-mclaren-com-871cdd__scroll1.webp",
+      "shots/_proposed/manual-mclaren-com-871cdd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.mclaren.com/racing",
+        "full": "shots/_proposed/manual-mclaren-com-871cdd__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "racing",
+      "luxury-brand"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections with dynamic imagery and fixed overlay elements, transitioning to a grid-based content layout for subsequent sections."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant brand orange as an accent color for CTAs and key highlights against a predominantly dark grey and white background."
+    },
+    {
+      "kind": "type",
+      "note": "Strong, all-caps sans-serif typography for headings and navigation, paired with a clean, legible sans-serif for body text, reinforcing a modern and authoritative brand voice."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic background that transitions through a sequence of full-bleed images or video clips as the user scrolls, while interactive buttons remain fixed in place."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-in and slight upward slide animation as they enter the viewport, creating a smooth and engaging scroll experience."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-bleed video or image sequence that changes dynamically based on scroll depth or a timed interval, with interactive overlay elements positioned absolutely to remain fixed over the changing background.",
+    "Content sections are animated into view using a scroll-triggered library like GSAP, applying a subtle fade-in and vertical translation effect as each section's trigger point enters the viewport.",
+    "The main navigation bar is implemented as a sticky element, maintaining its position at the top of the screen throughout the user's scroll, ensuring persistent access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF8000",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: McLaren Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: McLaren Sans",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: McLaren Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Bold, uppercase headings are significantly larger (~3-4x body text) with a clean sans-serif character, while body text is compact and highly legible.",
+    "radius": "Subtle rounding on buttons and image cards, maintaining a sleek and modern feel.",
+    "spacing": "Balanced to airy spacing, particularly in hero and between major content blocks, with tighter grids for news and feature cards."
+  },
+  "standout": "The site's most distinctive feature is its highly dynamic and immersive full-bleed hero, which uses a sequence of high-impact brand imagery that transitions on scroll, immediately conveying a sense of luxury, performance, and brand identity. This creates a powerful and memorable first impression that goes beyond a static hero.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

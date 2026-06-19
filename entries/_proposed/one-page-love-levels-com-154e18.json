@@ -1,0 +1,110 @@
+{
+  "id": "one-page-love-levels-com-154e18",
+  "source": {
+    "url": "https://www.levels.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-levels-com-154e18.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-levels-com-154e18__scroll0.webp",
+      "shots/_proposed/one-page-love-levels-com-154e18__scroll1.webp",
+      "shots/_proposed/one-page-love-levels-com-154e18__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "wellness",
+      "nutrition",
+      "data-analytics"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width dark and light background sections create clear visual breaks and content hierarchy, with content often centered or presented in clean grids."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings command attention, contrasted with smaller, legible body text and often uppercase, slightly lighter labels for sub-headings or categories."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black and off-white dominates, punctuated by a subtle, muted teal/green accent for calls to action and key information."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content sections (text blocks, image cards, data visualizations) reveal themselves by fading in and subtly sliding up from the bottom as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Data visualization elements, such as progress bars and percentage displays, are integrated directly into content sections to highlight key metrics and outcomes."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations using CSS keyframes or a JavaScript library to reveal content sections. Elements should fade in and translate slightly upwards as they become visible in the viewport.",
+    "The header navigation should be initially transparent and fixed, then transition to a solid background color and potentially a subtle shadow after a certain scroll threshold, maintaining its sticky position.",
+    "Utilize a full-bleed hero section with a very dark background (potentially a video) to establish a strong visual presence, transitioning smoothly to lighter content sections below."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#131413",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#1d7d6c",
+        "role": "accent"
+      },
+      {
+        "hex": "#585a59",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e6eeeb",
+        "role": "light-surface-variant"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (especially in the hero) with a clear hierarchy, complemented by a clean, legible body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons, input fields, and cards.",
+    "spacing": "Airy, particularly in the hero and between major sections, creating a sense of calm and focus. Content blocks maintain a balanced density."
+  },
+  "standout": "The design's distinctiveness lies in its high-contrast, almost monochromatic aesthetic, leveraging a very dark (near black) background for impactful hero and key sections. This creates a sophisticated, editorial feel that strongly emphasizes the direct, data-driven value proposition, making it feel more like a premium service than a generic health app.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "one-page-love-offerpad-com-1a0dd0",
+  "source": {
+    "url": "https://www.offerpad.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-offerpad-com-1a0dd0.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-offerpad-com-1a0dd0__scroll0.webp",
+      "shots/_proposed/one-page-love-offerpad-com-1a0dd0__scroll1.webp",
+      "shots/_proposed/one-page-love-offerpad-com-1a0dd0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "home-services",
+      "ibuyer"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width white backgrounds and full-width dark blue backgrounds, with content consistently centered and constrained."
+    },
+    {
+      "kind": "type",
+      "note": "Display headings feature a distinctive layered, textured, or shadowed effect, giving them a playful, almost hand-drawn character, contrasting with clean sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange is used as a primary accent for CTAs and the sticky navigation, complemented by a bright teal for emphasis in key headings."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll: it shrinks in height, the logo scales down, and its background changes from transparent to a solid orange, sticking to the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section employs a subtle parallax effect where the background image scrolls at a slower rate than the foreground text and input elements, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Hand-drawn, sketchy illustrations and arrows are integrated throughout the content sections, particularly in the 'How it Works' diagram, to guide the user and add a unique, approachable aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is initially transparent and full-height, then transitions to a reduced height with a solid background color and a scaled-down logo as the user scrolls, remaining fixed at the top.",
+    "The hero section's background image is fixed or scrolls at a slower rate than the overlaying content (headline, input field, checklist), creating a parallax scrolling effect.",
+    "Display typography is rendered with layered text effects, potentially using multiple text shadows or SVG filters to achieve a dimensional, textured, and outlined appearance, as seen in the 'GET YOUR CASH OFFER' and 'EVERYTHING EASIER' headings."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eb7726",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#112337",
+        "role": "surface"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#204ce5",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bourton Base",
+        "role": "heading"
+      },
+      {
+        "family": "Palmer Lake Print",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and layered display headings (~4-5x body) create a strong visual impact, complemented by a clean, legible sans-serif for body text and smaller, uppercase labels.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, input fields, and some card elements, maintaining a soft but not overly rounded aesthetic.",
+    "spacing": "Balanced density with airy hero and section top padding, transitioning to a more compact layout for feature grids and footer links, maintaining a clear visual hierarchy."
+  },
+  "standout": "The site's most distinctive feature is its playful and approachable typography, particularly the layered, textured display headings and the integration of hand-drawn, sketchy illustrations and arrows. This gives a typically serious industry a unique, friendly, and memorable personality that stands out from generic real estate sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

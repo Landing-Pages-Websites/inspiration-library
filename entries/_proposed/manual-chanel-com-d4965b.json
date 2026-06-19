@@ -1,0 +1,123 @@
+{
+  "id": "manual-chanel-com-d4965b",
+  "source": {
+    "url": "https://www.chanel.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-chanel-com-d4965b.webp",
+    "pages": [
+      {
+        "url": "https://www.chanel.com/us",
+        "full": "shots/_proposed/manual-chanel-com-d4965b__p2.webp"
+      },
+      {
+        "url": "https://www.chanel.com/us/watches/coco-game",
+        "full": "shots/_proposed/manual-chanel-com-d4965b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "fashion",
+      "beauty",
+      "jewelry"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution editorial photography and video are used as dominant section backgrounds, often with centered text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with elegant, large serif headings contrasted with clean, smaller sans-serif body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated monochrome palette of black, white, and various greys dominates, allowing product imagery to introduce vibrant accent colors naturally."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary hero section features a subtle parallax effect where the background image scrolls slower than the foreground content. The main navigation remains sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Specific interior pages or product showcases (e.g., 'Coco Game') feature complex 3D interactive models that animate and reveal descriptive text based on scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width blocks, each typically featuring a single large image or video with a concise title and call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header navigation bar remains visible at the top of the viewport across all pages.",
+    "The initial hero section uses a background image that scrolls at a slightly slower rate than the foreground content, creating a subtle parallax effect.",
+    "Subsequent content sections on the homepage are revealed as the user scrolls, appearing from the bottom of the viewport without explicit fade or slide animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d1d",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#767676",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#cd0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#949494",
+        "role": "divider"
+      },
+      {
+        "hex": "#d8d8d8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "abchanel-2022",
+        "role": "heading"
+      },
+      {
+        "family": "helvetica",
+        "role": "body"
+      },
+      {
+        "family": "abchanel-corpo",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) are paired with smaller, clean sans-serif body text and uppercase labels, creating a sophisticated and clear hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 large full-bleed imagery and generous vertical spacing between sections create a sense of luxury and openness."
+  },
+  "standout": "This site's design is distinctive for its seamless integration of high-fashion editorial photography and video as the primary content, creating an immersive, magazine-like experience. The sophisticated typography and the use of advanced 3D interactive elements for specific product showcases elevate it beyond a typical e-commerce site, making it feel more like a digital art gallery or luxury publication.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

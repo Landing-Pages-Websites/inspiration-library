@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-hydrow-com-1b4287",
+  "source": {
+    "url": "https://www.hydrow.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-hydrow-com-1b4287.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-hydrow-com-1b4287__scroll0.webp",
+      "shots/_proposed/one-page-love-hydrow-com-1b4287__scroll1.webp",
+      "shots/_proposed/one-page-love-hydrow-com-1b4287__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "sports-equipment",
+      "luxury-fitness"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with high-contrast dark backgrounds and light typography, often featuring immersive photography or product imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold, uppercase sans-serif headings are used for section titles, creating strong visual anchors against dark backgrounds."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode aesthetic (deep blues, black) is consistently used, contrasted with white text and a single vibrant orange/red accent color for CTAs and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images in multiple sections (e.g., 'ONE PHILOSOPHY', 'Our Award-Winning Lineup', 'ALWAYS CHALLENGING. NEVER BORING.') are fixed or parallax as foreground content scrolls over them, creating a layered depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent overlay on the hero to a solid dark background with white text and a slightly more compact form factor after scrolling past the initial hero section."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling library (like locomotive-scroll) to enhance user experience and enable sophisticated scroll-triggered animations. This includes parallax effects where background images move at a different rate than foreground content, creating a sense of depth and visual interest as the user scrolls.",
+    "A sticky header is implemented that starts as a transparent overlay on the hero section. Upon scrolling past the hero, it transitions to a solid dark background with white text and a slightly reduced height, maintaining navigation visibility.",
+    "Sections are designed as full-bleed containers, often utilizing solid dark colors or large, immersive background images. Content within these sections is typically centered or aligned to a clear grid, with ample padding to create an airy, premium feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#20344b",
+        "role": "background"
+      },
+      {
+        "hex": "#e84e33",
+        "role": "accent"
+      },
+      {
+        "hex": "#fcfbf9",
+        "role": "surface"
+      },
+      {
+        "hex": "#c3c6c9",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~3-4x body) with generous line height, complemented by highly legible, smaller sans-serif body text.",
+    "radius": "Subtle (e.g., button corners, image frames), avoiding sharp angles or fully rounded elements.",
+    "spacing": "Airy, with generous vertical and horizontal padding around content blocks and between sections, contributing to a premium and spacious feel."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated use of scroll-triggered parallax effects with full-bleed, high-quality imagery, creating an immersive and dynamic visual experience. This, combined with a high-contrast dark aesthetic and bold typography, elevates the brand beyond a typical fitness equipment site.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

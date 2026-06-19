@@ -1,0 +1,132 @@
+{
+  "id": "manual-github-com-001918",
+  "source": {
+    "url": "https://www.github.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-github-com-001918.webp",
+    "scroll": [
+      "shots/_proposed/manual-github-com-001918__scroll0.webp",
+      "shots/_proposed/manual-github-com-001918__scroll1.webp",
+      "shots/_proposed/manual-github-com-001918__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://github.com/",
+        "full": "shots/_proposed/manual-github-com-001918__p2.webp"
+      },
+      {
+        "url": "https://github.com/mobile",
+        "full": "shots/_proposed/manual-github-com-001918__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "software-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds and slightly lighter dark backgrounds, with content constrained to a central max-width container."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, creating strong visual hierarchy, complemented by smaller, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, deep blue/purple and charcoal grey color scheme dominates, providing a high-contrast backdrop for white text and vibrant green call-to-action elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background code editor graphic moves slower than the foreground text as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections animate into view with a fade-up or slide-up effect as they enter the viewport, creating a dynamic reveal experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent with white text to a sticky, solid dark background with adjusted text color after scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Product features and benefits are consistently illustrated with dark-themed, glowing UI screenshots or mockups, often embedded within a device frame or abstract container."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large background image or video that scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect.",
+    "A sticky navigation bar is implemented that changes its background color and text styling from transparent to solid dark once the user scrolls past the initial hero content.",
+    "Scroll-triggered animations, likely powered by locomotive-scroll, reveal new content sections by fading them up or sliding them into view as they enter the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d1117",
+        "role": "background"
+      },
+      {
+        "hex": "#1e2327",
+        "role": "surface"
+      },
+      {
+        "hex": "#24292f",
+        "role": "surface-alt"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#979a9c",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#2ea44f",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Segoe UI",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Segoe UI",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: monospace",
+        "role": "code"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) provide strong visual anchors, with body text being clear and legible. Labels and secondary text are smaller and lighter.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and card-like UI elements.",
+    "spacing": "Balanced spacing throughout most content sections, with a notably airy hero section that provides ample breathing room around the primary message."
+  },
+  "standout": "The site's distinctive use of dark, glowing, code editor-themed UI elements and product screenshots as a pervasive visual language creates an immersive, high-tech, and sophisticated aesthetic that goes beyond typical product showcases.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

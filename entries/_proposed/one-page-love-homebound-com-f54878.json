@@ -1,0 +1,98 @@
+{
+  "id": "one-page-love-homebound-com-f54878",
+  "source": {
+    "url": "https://www.homebound.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-homebound-com-f54878.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-homebound-com-f54878__scroll0.webp",
+      "shots/_proposed/one-page-love-homebound-com-f54878__scroll1.webp",
+      "shots/_proposed/one-page-love-homebound-com-f54878__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "home-building",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width hero image with a dark, moody aesthetic, followed by a grid of four feature cards with image backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The sticky header transforms from transparent with white text to solid white with dark text and logo upon scrolling down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A large content section initially appears as a solid dark background, but as the user scrolls further, a full-width background image is revealed behind the foreground content, creating a layered parallax effect."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette dominated by deep blacks, off-whites, and dark greys, with a single vibrant accent color used sparingly for visual interest (e.g., a tree in the hero)."
+    }
+  ],
+  "technique_notes": [
+    "The header element is fixed to the top of the viewport and changes its background color, text color, and logo variant based on scroll position, transitioning from transparent to opaque white.",
+    "A content section uses a fixed or slow-scrolling background image that is initially obscured or not fully visible, revealing itself as the user scrolls, creating a sense of depth behind overlaying content cards or text.",
+    "Feature cards utilize background images with a semi-transparent dark overlay to ensure high contrast and readability for white text placed on top."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#353535",
+        "role": "text"
+      },
+      {
+        "hex": "#A020F0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Open Sans",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Headings are moderately larger than body text, maintaining a clean sans-serif character. Body text is legible and well-spaced.",
+    "radius": "Subtle rounding on buttons and image cards, contributing to a refined but not overly soft aesthetic.",
+    "spacing": "Balanced overall, with generous vertical spacing between main sections and within the hero, creating an airy feel without being sparse."
+  },
+  "standout": "The striking use of a deep, almost black, architectural hero image creates an immediate sense of modern luxury and sophistication. This is reinforced by the subtle background image reveal in a later section, adding depth and visual interest without being overtly flashy.",
+  "animation_tech": [],
+  "status": "proposed"
+}
