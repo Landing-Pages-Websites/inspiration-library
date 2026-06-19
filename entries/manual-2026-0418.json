@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0418",
+  "source": {
+    "url": "https://www.intelligentsiacoffee.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0418.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0418__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0418__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0418__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "coffee",
+      "e-commerce",
+      "food-and-beverage"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring artfully arranged product photography as the background, with text and CTA overlaid on a clear area."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a deep, rich red (#D42927) as a primary accent for CTAs and a full-width section background, contrasting with a clean white and dark grey palette."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a bold, condensed sans-serif for headings and uppercase labels, creating a strong, editorial feel, complemented by a readable, clean sans-serif for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section exhibits a subtle parallax effect where the background image scrolls slower than the foreground text and button, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections with alternating background colors (white, red, dark grey) to clearly delineate different content blocks."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero effect, a large background image is set to cover the viewport, and its position is adjusted at a slower rate than the scroll speed, while foreground text and buttons scroll normally over it.",
+    "The main navigation bar is fixed to the top of the viewport using a sticky positioning technique, ensuring it remains accessible throughout the user's scroll journey.",
+    "Content sections are built as full-width blocks, with varying background colors applied to provide visual separation and guide the user's eye through the page's narrative."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#D42927",
+        "role": "accent"
+      },
+      {
+        "hex": "#2E2925",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FEFBF8",
+        "role": "surface"
+      },
+      {
+        "hex": "#B8AAA3",
+        "role": "subtle-background-pattern"
+      },
+      {
+        "hex": "#A8DDE4",
+        "role": "hero-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DIN Next LT Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, and slightly tracked-out sans-serif headings (~3-4x body) are used for impact, with smaller, legible sans-serif for body text and uppercase labels for emphasis.",
+    "radius": "Sharp corners are consistently used for buttons, image containers, and section edges, contributing to a clean and modern aesthetic.",
+    "spacing": "Balanced spacing with generous vertical separation between major sections, creating an airy feel, while content within grids is more tightly packed."
+  },
+  "standout": "The site's standout feature is its exceptional product photography, particularly in the hero section, which uses a flat-lay, editorial style to create an immediate sense of quality and artistry. This visual storytelling, combined with a bold red accent and clean typography, elevates the brand beyond a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

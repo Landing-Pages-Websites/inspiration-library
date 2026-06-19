@@ -1,0 +1,127 @@
+{
+  "id": "manual-2026-0410",
+  "source": {
+    "url": "https://www.drunkelephant.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0410.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0410__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0410__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0410__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.drunkelephant.com/search",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0410__p2.webp"
+      },
+      {
+        "url": "https://www.drunkelephant.com/philosophy",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0410__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column content blocks are frequently used, often pairing a large product image or lifestyle shot with concise text and a call to action on the opposing side."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using a bold, slightly condensed sans-serif for prominent headings and a lighter, more open sans-serif for body text and descriptive labels, with uppercase used for subheadings and CTAs."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast palette featuring crisp white backgrounds, deep black text, and specific brand accents of a soft pastel purple and a vibrant, almost neon, lime green/yellow."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections dynamically reveal with a subtle fade-in and slight upward translation as they scroll into the viewport, creating a guided content discovery experience, while the main navigation remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize a clean, grid-based card layout for individual products, each featuring a prominent image, product name, price, and a clear 'Add to Bag' call to action, often within a horizontal carousel."
+    }
+  ],
+  "technique_notes": [
+    "Sticky navigation: The primary navigation bar and a top announcement banner remain fixed at the top of the viewport after initial scroll, ensuring persistent access to site navigation and key information.",
+    "Scroll-triggered section reveals: Content sections are introduced with a subtle animation, typically a fade-in combined with a slight upward slide, as they become visible within the user's viewport. This effect is likely achieved using CSS keyframes or a JavaScript-based scroll library.",
+    "Horizontal product carousels: Product collections are presented in interactive horizontal carousels, allowing users to swipe or click through multiple items within a single section, likely implemented using a library like Swiper."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#45474A",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#E0BBE4",
+        "role": "accent-pastel-purple"
+      },
+      {
+        "hex": "#DFFF00",
+        "role": "accent-lime-green"
+      },
+      {
+        "hex": "#298266",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#CDCDCD",
+        "role": "border-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BrownBold",
+        "role": "heading"
+      },
+      {
+        "family": "BrownRegular",
+        "role": "body"
+      },
+      {
+        "family": "Roboto",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, creating clear hierarchy. Body text is legible and slightly airy, with uppercase used for subheadings and CTAs.",
+    "radius": "Subtle rounding on buttons and some product card elements, but main content blocks and images largely maintain sharp, defined edges.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more balanced density within product grids and text blocks."
+  },
+  "standout": "The site's distinctive use of a vibrant, almost neon, lime green/yellow for the footer and some accent elements, combined with a soft pastel purple in the hero, creates a unique and playful yet sophisticated brand identity. This unexpected color pairing, alongside clean product photography and a minimal layout, makes the site feel fresh and memorable, avoiding a generic beauty e-commerce aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

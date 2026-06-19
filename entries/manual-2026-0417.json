@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0417",
+  "source": {
+    "url": "https://www.innisfree.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0417.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0417__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0417__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0417__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of horizontal product carousels to showcase various categories like 'New', 'Best Sellers', 'Exclusive Offers', and 'Skincare in Action', allowing for dense product display within a clean layout."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for hero and section titles, contrasted with a smaller, clean sans-serif for body text and product descriptions, maintaining high readability."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon yellow is used as a primary accent in the hero section, providing a strong visual anchor against a predominantly white and light grey background, complemented by a deep forest green for the footer and key brand elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms into a sticky, slightly condensed header upon scroll, while the initial promotional banner at the very top of the page disappears. Sections below the hero appear to reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated full-width sections are used to highlight specific product categories or brand stories, often featuring a large image or video background with overlayed text, breaking up the product carousels."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-width image carousel, likely implemented with a library like Swiper, featuring large, impactful imagery and clear calls to action. Navigation arrows and pagination dots provide user control.",
+    "Scroll-triggered animations, likely using CSS keyframes, are employed to create a dynamic experience where content sections subtly fade or slide into view as the user scrolls down the page, enhancing engagement.",
+    "The header implements a sticky behavior where it reduces in height and potentially changes its background or shadow after the initial scroll, ensuring navigation remains accessible without consuming excessive screen space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffe600",
+        "role": "accent"
+      },
+      {
+        "hex": "#194037",
+        "role": "background"
+      },
+      {
+        "hex": "#00c781",
+        "role": "cta"
+      },
+      {
+        "hex": "#090a0b",
+        "role": "text"
+      },
+      {
+        "hex": "#474747",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "tolstoy-custom-heading-font-family",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy, complemented by smaller, legible sans-serif body text and uppercase labels for categories.",
+    "radius": "Subtle rounded corners on buttons, product cards, and input fields, contributing to a soft, approachable feel.",
+    "spacing": "Balanced density with airy hero and full-width sections, transitioning to a more compact grid for product listings and carousels, maintaining clear visual separation."
+  },
+  "standout": "The site's distinctive use of a vibrant, almost neon yellow as a primary accent color in the hero section immediately grabs attention, setting a bold and energetic tone. This is effectively balanced by a clean, product-focused layout and a deep, earthy green footer, creating a unique brand identity that feels both fresh and established.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

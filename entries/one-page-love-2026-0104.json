@@ -1,0 +1,108 @@
+{
+  "id": "one-page-love-2026-0104",
+  "source": {
+    "url": "https://www.unrealengine.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0104.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0104__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0104__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0104__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "game-development",
+      "3d-modeling"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent dark theme is applied site-wide, using deep charcoal backgrounds for sections and slightly lighter dark grey for content cards, creating a high-contrast backdrop for white text and vibrant accents."
+    },
+    {
+      "kind": "layout",
+      "note": "Information is presented in a modular, card-based grid system, used for news articles, product categories, and licensing options, providing clear visual separation and scannability."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header navigation bar remains fixed at the top of the viewport, ensuring primary navigation links and key actions (like 'Download') are always accessible as the user scrolls down the page."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant blue and purple/pink hues are used as accent colors for interactive elements like call-to-action buttons, links, and subtle graphical elements, providing visual pop against the dark background."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for section titles, smaller bold sans-serif for subheadings, and a clean, readable sans-serif for body text and labels."
+    }
+  ],
+  "technique_notes": [
+    "Implement a persistent dark mode using a deep charcoal background and white text, ensuring sufficient contrast for readability across all content modules.",
+    "Utilize a sticky header component that remains fixed at the top of the viewport, allowing primary navigation and actions to be accessible at all scroll depths.",
+    "Structure content into distinct, card-like modules with subtle rounded corners, arranged in responsive grids that adapt to different screen sizes and content types."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1d",
+        "role": "background"
+      },
+      {
+        "hex": "#242427",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#007bff",
+        "role": "cta"
+      },
+      {
+        "hex": "#868afd",
+        "role": "accent"
+      },
+      {
+        "hex": "#f1b8dd",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2-3x body) create strong section breaks, complemented by smaller, readable sans-serif body text and uppercase labels.",
+    "radius": "subtle rounded corners on cards, buttons, and input fields.",
+    "spacing": "balanced, with generous vertical padding between sections and comfortable spacing within card modules."
+  },
+  "standout": "The site's distinctive use of a deep, dark theme combined with vibrant, almost neon-like blue and purple accents creates a sophisticated yet energetic feel. The consistent card-based layout across various content types (news, categories, licensing) provides a highly organized and digestible information architecture within this dark aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "approved"
+}

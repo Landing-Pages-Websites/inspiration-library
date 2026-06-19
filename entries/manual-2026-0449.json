@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0449",
+  "source": {
+    "url": "https://www.zoom.us",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0449.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0449__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0449__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0449__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://zoom.us/pricing",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0449__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "video-conferencing",
+      "collaboration-tools"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with varied background colors (gradient blue, white, dark blue) are used to segment content, often featuring a central content area with a maximum width."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent horizontal carousels, using a card-like structure, are immediately visible below the hero to showcase multiple product features or use cases interactively."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, clear blue is consistently used as the primary accent color for calls to action, links, and key interactive elements, providing strong contrast against dark blue and white backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The global navigation bar transforms on scroll, shrinking in height and gaining a solid dark blue background as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero are revealed with a subtle fade-in or slide-up animation as they enter the user's viewport, enhancing content flow and engagement."
+    },
+    {
+      "kind": "section",
+      "note": "The 'One platform. Endless ways to work together.' section consistently uses a two-column layout, pairing descriptive text on one side with a relevant product screenshot or UI example on the other to illustrate features."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions from a transparent overlay on the hero to a sticky, solid-background header with a reduced height as the user scrolls down the page, providing persistent access while saving vertical space.",
+    "Product features are presented in a dynamic horizontal carousel, likely implemented with a library like Swiper, allowing users to interactively swipe through card-based content that displays product screenshots and brief descriptions.",
+    "Content sections are introduced with a subtle animation, such as a fade-in or slide-up effect, as they enter the viewport, leveraging CSS keyframes to create a smooth reveal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e71eb",
+        "role": "cta"
+      },
+      {
+        "hex": "#0f172a",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#e8173d",
+        "role": "accent"
+      },
+      {
+        "hex": "#3b82f6",
+        "role": "hero-gradient-start"
+      },
+      {
+        "hex": "#6366f1",
+        "role": "hero-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with clear, readable body text and smaller, often uppercase labels for sub-sections.",
+    "radius": "subtle rounding on interactive elements like buttons and cards, with sharper edges for overall section containers.",
+    "spacing": "balanced, with ample vertical spacing between major content blocks and a more compact grid for feature cards."
+  },
+  "standout": "The site effectively uses a dynamic, gradient blue hero background that subtly shifts, combined with a highly interactive product carousel immediately below the fold. This creates an immediate sense of modern capability and encourages exploration of their diverse offerings right from the start, rather than relying on a static hero image.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

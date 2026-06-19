@@ -1,0 +1,111 @@
+{
+  "id": "one-page-love-2026-0107",
+  "source": {
+    "url": "https://www.zocdoc.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0107.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0107__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0107__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0107__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "medical-appointments",
+      "healthcare-provider-search"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width white, light grey, and light yellow backgrounds to visually separate content blocks and create a clear flow."
+    },
+    {
+      "kind": "layout",
+      "note": "Doctor listings and specialty categories are presented in horizontal scrollable carousels, allowing for many items without excessive vertical space on the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a strong, modern sans-serif typeface for clear hierarchy, while body text maintains readability with a clean, approachable sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A bright, warm yellow is consistently used for primary call-to-action buttons and key highlights, providing a cheerful contrast to the neutral page backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page transforms into a more compact, sticky header with a subtle shadow as the user scrolls down, ensuring persistent access to navigation."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that dynamically reduces its height and adds a subtle drop shadow as the user scrolls past the initial hero section, providing persistent navigation without obstructing content. This transformation is achieved using css-keyframes.",
+    "Content sections are visually segmented by alternating full-width background colors (white, light grey, and a soft yellow) to create clear visual breaks and guide the user's eye down the page.",
+    "Doctor and specialty listings are presented within horizontal scrollable carousels, allowing for efficient display of numerous items within a confined area, often with a 'See all' link for full access to more options."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f3f3f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff04b",
+        "role": "accent-background"
+      },
+      {
+        "hex": "#f8cc30",
+        "role": "cta"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#00234b",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "sharp-sans-bold",
+        "role": "heading"
+      },
+      {
+        "family": "sharp-sans-semibold",
+        "role": "heading"
+      },
+      {
+        "family": "sharp-sans-medium",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3x body) establish clear hierarchy, supported by legible sans-serif body text for readability.",
+    "radius": "Subtle rounding on input fields and buttons, with circular doctor profile images and slightly rounded corners on card elements.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and within the hero, maintaining good readability without feeling sparse."
+  },
+  "standout": "The site stands out with its friendly and approachable illustrative style, particularly in the hero and app promotion sections, which injects a playful personality into a typically serious healthcare service. This visual warmth, combined with a highly functional and data-rich interface for finding doctors, creates a distinctive and trustworthy user experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

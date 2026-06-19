@@ -1,0 +1,105 @@
+{
+  "id": "manual-2026-0440",
+  "source": {
+    "url": "https://www.spotify.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0440.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0440__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0440__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0440__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "music",
+      "streaming",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page employs a persistent two-column layout with a fixed-width left sidebar for navigation and library access, alongside a main content area that scrolls vertically."
+    },
+    {
+      "kind": "layout",
+      "note": "Content within the main area is organized into distinct sections, each featuring a horizontal grid of consistently styled cards for songs, artists, and albums."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, using deep charcoal backgrounds with white primary text and a vibrant green for interactive elements and calls-to-action."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar, left sidebar, and a promotional banner at the bottom of the viewport remain fixed in place as the user scrolls, providing constant access to key features and offers."
+    }
+  ],
+  "technique_notes": [
+    "The layout utilizes a persistent two-column structure, where a fixed-width left navigation panel provides static access to library features, while the main content area is designed to scroll independently.",
+    "A sticky header containing search and account actions, along with a sticky promotional footer banner, are implemented to maintain constant visibility and access to critical functionalities and offers, while the central content scrolls vertically.",
+    "Content is presented in a modular fashion using card components, arranged in implied horizontal scrollable grids within vertically stacked sections, allowing for extensive content display and discovery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#B3B3B3",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#1DB954",
+        "role": "cta"
+      },
+      {
+        "hex": "#8400B8",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#E02070",
+        "role": "accent-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately larger and bolder than body text, with card titles serving as a mid-point in size and weight, all using a clean sans-serif.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, search fields, and content cards, contributing to a soft, modern feel.",
+    "spacing": "Balanced spacing is used throughout, providing clear separation between sections and grid items without feeling overly dense or excessively airy."
+  },
+  "standout": "The design creates an immersive, application-like experience with its persistent navigation elements and a dark, high-contrast theme that puts content (album art, artist photos) at the forefront. The consistent card-based display across various content types makes for a highly scannable and discoverable interface.",
+  "animation_tech": [],
+  "status": "approved"
+}

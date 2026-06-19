@@ -1,0 +1,102 @@
+{
+  "id": "manual-2026-0396",
+  "source": {
+    "url": "https://www.audemarspiguet.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0396.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0396__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0396__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0396__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "fashion"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution imagery dominates sections, often serving as immersive backgrounds for minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif fonts are used for primary headings, contrasting with clean sans-serif for body text and navigation, creating a sophisticated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark palette (black, dark grey, deep teal) serves as a luxurious backdrop for white or light grey text, with metallic accents from product photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle background image parallax and zoom effect, creating depth as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The global navigation bar transforms upon scroll, shrinking in height and changing its background and logo color to maintain contrast against new content."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are introduced with a subtle upward slide or fade-in animation as they enter the viewport, enhancing content discovery."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large background image that scales and repositions slightly slower than the scroll speed, creating a subtle parallax and zoom effect behind a fixed text overlay.",
+    "The global navigation bar dynamically adjusts its height and background styling (from transparent to solid dark) and changes the color of its logo and text links once the user scrolls past the initial hero section.",
+    "Content sections are revealed using a scroll-triggered animation that makes them gently slide up and fade into view as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#2A4242",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#C0A06B",
+        "role": "accent-implied"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (approx. 3-4x body size) with generous letter-spacing, paired with smaller, legible sans-serif body text.",
+    "radius": "Sharp corners are consistently used across all elements, from buttons to image containers.",
+    "spacing": "Airy and spacious, particularly in hero and main content sections, with ample negative space around elements to emphasize luxury."
+  },
+  "standout": "The site's standout feature is its masterful use of full-bleed, high-fidelity product photography and video, integrated with subtle, elegant motion (like the hero parallax and section reveals) to create an immersive, editorial experience that feels more like a luxury magazine than a typical e-commerce site. The dark, sophisticated palette further elevates this premium feel.",
+  "animation_tech": [],
+  "status": "approved"
+}

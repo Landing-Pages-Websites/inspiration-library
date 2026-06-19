@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0404",
+  "source": {
+    "url": "https://www.cartier.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0404.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0404__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0404__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0404__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.cartier.com/en-us/home",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0404__p2.webp"
+      },
+      {
+        "url": "https://www.cartier.com/en-us/fathers-day-gifting.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0404__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "jewelry",
+      "watches"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Minimalist, spacious layout with ample white space, particularly in the main content area, emphasizing product imagery and brand messaging."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of uppercase for navigation and sub-headings, paired with a distinctive serif logo, creating an elegant and authoritative typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of white backgrounds, black text, and a signature Cartier red used for subtle accents and the footer background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image background (sketched castle and sun) exhibits a subtle parallax effect, moving slower than the foreground elements (watch, ring, 'FATHER'S DAY GIFTING' text) as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar (Cartier logo, main menu items) becomes sticky and remains at the top of the viewport after scrolling past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Additional descriptive text ('With a world of gifts...') is revealed below the main hero text with a subtle fade-in or slide-up animation as the user scrolls further into the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "A full-width hero section with a large, illustrative image and prominent text, followed by a sparse content area before a detailed, multi-column footer."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely powered by `locomotive-scroll`, enhancing the perceived fluidity of page navigation.",
+    "The hero section features a multi-layered parallax effect, where the illustrative background scrolls at a slower rate than the product imagery and primary text, creating a dynamic sense of depth.",
+    "As the user scrolls, additional descriptive text related to the hero message is revealed with a subtle fade-in or slide-up animation, drawing attention to key messaging."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#202020",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e60023",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Brilliant Cut",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif logo and large, bold sans-serif headings contrast with smaller, refined sans-serif body text and uppercase navigation, conveying luxury and clarity.",
+    "radius": "Sharp for most elements, with subtle rounding for input fields and buttons, maintaining a sophisticated and precise aesthetic.",
+    "spacing": "Airy, with significant vertical and horizontal padding, creating a sense of luxury and allowing elements to breathe, particularly in the hero and footer sections."
+  },
+  "standout": "The distinctive hand-drawn, illustrative hero imagery, combined with the brand's iconic products, creates a unique blend of whimsical artistry and high-end luxury. This approach elevates the brand experience beyond typical product photography, making it feel more personal and artistic.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

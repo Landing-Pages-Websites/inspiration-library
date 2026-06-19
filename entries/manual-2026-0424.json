@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0424",
+  "source": {
+    "url": "https://www.mastercard.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0424.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0424__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0424__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0424__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.mastercard.com/us/en.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0424__p2.webp"
+      },
+      {
+        "url": "https://www.mastercard.com/news/ap/en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0424__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "payments"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for section introductions, pairing a large, bold heading with a smaller, descriptive paragraph to its right."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with oversized, bold sans-serif headings for main sections, contrasted with lighter weight body text and very small, uppercase labels for categories or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "Mastercard's signature red, orange, and yellow gradient is strategically applied as a vibrant accent for branding elements, call-to-action buttons, and key visual highlights against a predominantly neutral off-white and dark gray palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video container dynamically scales down and increases its corner radius as the user scrolls, while the main navigation bar simultaneously transforms from a transparent, integrated state to a distinct, smaller, sticky bar with a light background and rounded end caps."
+    },
+    {
+      "kind": "section",
+      "note": "Content is frequently presented within large, rounded-corner image cards, often featuring subtle text overlays or integrated calls-to-action, to showcase various services, insights, and experiences."
+    }
+  ],
+  "technique_notes": [
+    "A hero video is presented within a large, full-bleed container that dynamically scales down and increases its corner radius as the user scrolls, revealing content below.",
+    "The primary navigation bar transitions from a transparent, overlaid state within the hero to a compact, sticky bar with a solid, light background and dark text, featuring rounded end caps, as the user scrolls past the hero section.",
+    "Content sections below the hero are revealed with a subtle fade-in and slight upward translation effect as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#EB001B",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF5F00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFCC00",
+        "role": "accent"
+      },
+      {
+        "hex": "#E5E5E5",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, lighter body text and very small, uppercase labels for categories.",
+    "radius": "Very rounded for the hero video container and prominent image cards (large radius, ~20-30px), with subtle rounding for buttons and smaller elements.",
+    "spacing": "Generally airy in the hero and main section headings, transitioning to a balanced density for content grids, creating an open and inviting feel."
+  },
+  "standout": "The dynamic, transforming hero video container and navigation bar on scroll is distinctive, elegantly transitioning from an immersive brand statement to a functional content browsing experience. This is complemented by the consistent use of large, rounded-corner image cards that give the site a soft, approachable yet bold aesthetic.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-2026-0100",
+  "source": {
+    "url": "https://www.tempo.fit",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0100.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0100__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0100__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0100__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "personal-training",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light background sections create clear visual breaks and content hierarchy throughout the page."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color blocking is used prominently, featuring a vibrant yellow hero, deep black and dark grey content sections, and crisp white text."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky footer bar with a call to action remains anchored at the bottom of the viewport, ensuring constant visibility of the primary conversion path."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms its appearance upon scroll, transitioning from a transparent overlay on the hero to a solid white background with black text and a subtle shadow."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently employ an asymmetrical two-column layout, pairing large, aspirational imagery or app screenshots with concise, benefit-driven headlines and body text."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a sticky header that dynamically changes its background, text color, and adds a subtle shadow as the user scrolls past the initial hero section, providing clear visual feedback and maintaining navigation prominence.",
+    "A fixed-position footer bar is implemented at the bottom of the screen, containing a call to action that remains visible regardless of scroll depth, serving as a persistent conversion element.",
+    "Content sections are revealed through simple vertical scrolling, with no complex parallax, fade-in, or slide-up animations observed between content blocks. The hero section uses a static image rather than a video, despite the detected 'video-hero' tech hint."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFD700",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark-background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-light-background"
+      },
+      {
+        "hex": "#2e291d",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#e15247",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Moderat",
+        "role": "heading"
+      },
+      {
+        "family": "Moderat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual impact, complemented by a legible, standard-sized sans-serif body text.",
+    "radius": "subtle rounding on buttons and app UI elements, maintaining a modern and approachable feel.",
+    "spacing": "airy, with generous vertical spacing between sections and within the hero, creating a sense of openness and clear content separation."
+  },
+  "standout": "This site's design is distinctive for its bold, high-contrast color blocking, particularly the vibrant yellow hero paired with deep blacks and dark greys. The combination of aspirational fitness imagery, clean sans-serif typography, and a persistent sticky footer with a CTA creates an energetic and authoritative brand presence that feels premium and goal-oriented.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

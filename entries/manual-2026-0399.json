@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0399",
+  "source": {
+    "url": "https://www.bentleymotors.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0399.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0399__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0399__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0399__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.bentleymotors.com/en.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0399__p2.webp"
+      },
+      {
+        "url": "https://www.bentleymotors.com/uk/en.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0399__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-vehicles"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently utilize full-bleed, high-resolution imagery or video as backgrounds, often with text and calls-to-action overlaid."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections often employ an asymmetrical or split-screen layout, pairing a large image on one side with a concise text block and CTA on the other."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using elegant serif fonts for prominent headings and clean sans-serif fonts for body text, navigation, and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark overlay, often with a subtle blue tint, is applied to most full-bleed background images and videos to enhance text contrast and maintain a luxurious mood."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video that transitions to a static, darkened image on scroll, while its overlaid text content remains visible for a period before scrolling out of view."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky and transforms its appearance, shrinking in height and gaining an opaque dark background, as the user scrolls past the initial hero."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero plays automatically, with text and a call-to-action positioned over it. On initial scroll, the video either pauses or transitions to a static, darkened image, creating a fixed background effect for the hero content before the entire section scrolls away. Concurrently, the sticky header shrinks in height and changes from transparent to an opaque dark background.",
+    "Sections are designed with large, high-quality images or videos that span the full width of the viewport, serving as immersive backdrops for textual content and interactive elements.",
+    "Content blocks often combine a dominant visual element (image or video) with a concise text description and a call-to-action button, arranged in a balanced yet dynamic composition."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a1420",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f7f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#c0a060",
+        "role": "accent"
+      },
+      {
+        "hex": "#3a5a40",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with a luxurious character, complemented by clean, legible sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons and image cards, maintaining a refined but not overly soft aesthetic.",
+    "spacing": "Airy, with generous vertical padding between major sections and within content blocks, contributing to a premium and uncrowded feel."
+  },
+  "standout": "The site's standout feature is its seamless integration of high-quality, full-bleed automotive imagery and video with a sophisticated, transforming sticky navigation. This creates an immersive and luxurious brand experience that feels both modern and timeless, effectively conveying the prestige of Bentley.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

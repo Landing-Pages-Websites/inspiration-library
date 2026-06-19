@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-2026-0062",
+  "source": {
+    "url": "https://www.climeworks.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0062.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0062__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0062__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0062__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "clean-tech",
+      "environmental",
+      "carbon-removal"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video hero with centered, large white text and two distinct call-to-action buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms on scroll, shrinking in height and gaining a solid white background with dark text, while remaining sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background video parallaxes subtly upwards as the user scrolls, creating a sense of depth behind the static text content."
+    },
+    {
+      "kind": "color",
+      "note": "A bright, clear blue is used as a primary accent color for call-to-action buttons and interactive elements, standing out against a largely monochromatic (white, black, grey) and dark natural (hero video) palette."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by alternating background colors (white, light grey, black) to create visual breaks and hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header transitions from a transparent overlay with white text to a solid white background with dark text and reduced height, likely using CSS transitions or keyframes for a smooth effect.",
+    "The hero section utilizes a full-bleed background video that subtly parallaxes upwards as the user scrolls, creating a dynamic and immersive initial experience.",
+    "Content sections appear to reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2299dd",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#1a2a2a",
+        "role": "hero-overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold hero (~3-4x body) with clear, structured heading hierarchy and legible body text.",
+    "radius": "subtle (buttons) to sharp (cards and overall structure)",
+    "spacing": "airy (hero) to balanced (content sections) with consistent vertical rhythm."
+  },
+  "standout": "The site's distinctive use of a full-bleed, high-quality video hero immediately conveys its mission and creates an immersive, impactful first impression. The subtle parallaxing of this video adds a sophisticated layer of motion that elevates it beyond a static image or simple video loop.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

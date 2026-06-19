@@ -1,0 +1,116 @@
+{
+  "id": "manual-2026-0444",
+  "source": {
+    "url": "https://www.tatcha.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0444.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0444__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0444__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0444__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tatcha.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0444__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a large lifestyle image or video with elegant, centrally aligned text overlay and a call-to-action button."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for prominent headings, paired with a clean, legible sans-serif for body text and UI elements, creating a luxurious yet accessible feel."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, natural color palette dominates, with off-white backgrounds and dark grey text, allowing vibrant product packaging colors (lavender, teal, gold) to serve as primary accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from transparent with white text to a solid dark background with white text and a subtle bottom border as the user scrolls past the hero section, becoming sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize a clean grid layout, often featuring product images against a simple white background, with minimal text for product names and prices."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-width video background that plays silently, providing dynamic visual interest without distracting from the overlaid text. This is likely achieved using the `video-hero` technique.",
+    "Scroll-triggered animations, likely powered by GSAP, reveal content sections as they enter the viewport. Elements within these sections appear with a subtle fade-up or slide-in effect, creating a smooth and engaging reveal experience.",
+    "The main navigation bar uses CSS transitions to smoothly change its background color, text color, and add a subtle border when it becomes sticky after the user scrolls past the initial hero view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E0E0DD",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta-background"
+      },
+      {
+        "hex": "#8A79B0",
+        "role": "accent-lavender"
+      },
+      {
+        "hex": "#4A9B9B",
+        "role": "accent-teal"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Siaga",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: proxima-nova",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant and balanced; large, thin serif headings (~3x body) are paired with clean, readable sans-serif body text, with smaller uppercase labels for product categories.",
+    "radius": "Subtle rounding on buttons and product card containers, creating a soft and refined aesthetic.",
+    "spacing": "Balanced and airy, particularly in hero and testimonial sections, with product grids maintaining a slightly denser but still clean arrangement."
+  },
+  "standout": "The site's standout feature is its exceptional product photography and videography, which elevates the brand to a luxury status. The seamless integration of a high-quality video hero with elegant typography creates an immediate sense of aspiration and sophistication, making the products feel like art pieces.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

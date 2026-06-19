@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0438",
+  "source": {
+    "url": "https://www.sephora.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0438.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0438__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0438__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0438__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.sephora.com/brands-list",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0438__p2.webp"
+      },
+      {
+        "url": "https://www.sephora.com/shop/gifts",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0438__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "beauty",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Prominent full-width hero/promotional banners at the top, followed by horizontally scrollable product carousels for curated selections like 'Chosen For You' and 'Beauty Offers'."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic and consistent use of a vibrant red for all promotional messaging, sales, and calls-to-action, creating immediate visual emphasis against a largely monochromatic black and white base."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic header system where a top promotional banner disappears on scroll, and the main navigation bar below it condenses in height and becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "layout",
+      "note": "Dense, multi-column grid layouts for product listings on interior pages, allowing for extensive browsing and comparison."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold sans-serif headings for section titles, a readable sans-serif for body text, and smaller, lighter text for product details and metadata."
+    }
+  ],
+  "technique_notes": [
+    "Implement a responsive header that initially includes a top promotional banner, which then hides on scroll. The main navigation bar below it should shrink in height and become fixed to the top of the viewport, maintaining key navigation elements.",
+    "Utilize a grid system for product displays, often within horizontally scrollable carousels for featured sections, allowing users to browse many items without leaving the current page context.",
+    "Employ a consistent color strategy where a vibrant red is reserved exclusively for sales, discounts, and primary calls-to-action, ensuring high visibility and urgency."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#CF112C",
+        "role": "accent"
+      },
+      {
+        "hex": "#00B3EE",
+        "role": "link"
+      },
+      {
+        "hex": "#FCECEC",
+        "role": "surface"
+      },
+      {
+        "hex": "#008048",
+        "role": "badge"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Open Sans",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A clear hierarchy with large, bold sans-serif headings for section titles, a readable sans-serif for body text, and smaller, lighter text for product details and metadata.",
+    "radius": "Subtle; elements like product cards, buttons, and search inputs have slightly rounded corners (e.g., 4-8px).",
+    "spacing": "Balanced overall, with generous vertical spacing between major sections and tighter packing within product grids and carousels."
+  },
+  "standout": "The site's standout feature is its highly organized and dynamic presentation of a massive product catalog, leveraging strong visual cues like a consistent, vibrant red for all promotional content to guide user attention. The combination of personalized carousels and extensive filtering options within a clean, high-contrast design makes browsing a vast inventory feel manageable and engaging.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

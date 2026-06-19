@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0421",
+  "source": {
+    "url": "https://www.lamborghini.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0421.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0421__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0421__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0421__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.lamborghini.com/en-en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0421__p2.webp"
+      },
+      {
+        "url": "https://www.lamborghini.com/en-en/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0421__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-vehicles",
+      "sports-cars"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently feature full-bleed, high-resolution imagery of vehicles, often with dark overlays to ensure text readability."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a custom, bold, and often uppercase sans-serif font ('LamboType') for a strong brand presence, contrasted with a more legible sans-serif for body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark theme, predominantly black and dark grey, with vibrant accent colors (blue and orange/red) used sparingly for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains fixed at the top of the viewport as the user scrolls down the page, maintaining persistent access to site navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "Product sections like 'MODELS' and 'CONFIGURE YOUR TEMERARIO' utilize interactive carousels with clear navigation arrows and pagination dots to showcase different vehicle models and configurations."
+    },
+    {
+      "kind": "section",
+      "note": "Key content sections are clearly delineated with large, bold headings and often feature a single dominant vehicle image or a carousel, creating distinct visual blocks."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar maintains brand presence and access to key links throughout the scroll, transitioning from a transparent overlay on the hero to a solid background.",
+    "Full-width hero and product sections use large, high-quality background images or potential video backgrounds, with a dark gradient overlay to ensure text contrast and maintain a luxurious aesthetic.",
+    "Product display sections implement full-width carousels, likely using a library like Swiper, to allow users to browse multiple items with clear navigation controls and smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1e90ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#da532c",
+        "role": "cta"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#ccc",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "LamboType",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, often uppercase headings (~3-4x body) with smaller, uppercase labels and standard body text, creating a strong visual hierarchy.",
+    "radius": "Sharp corners dominate the overall design, with subtle rounding applied only to interactive elements like input fields and some buttons.",
+    "spacing": "Balanced to airy, emphasizing large imagery and clear separation between content blocks, particularly in hero and section headers, with tighter spacing in news grids."
+  },
+  "standout": "The site's distinctive use of a deep, high-contrast dark theme combined with vibrant, almost neon-like accent colors for CTAs and interactive elements creates a luxurious and performance-oriented feel. This dramatic backdrop effectively highlights the sleek car designs and reinforces the brand's premium identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

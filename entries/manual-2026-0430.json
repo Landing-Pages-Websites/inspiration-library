@@ -1,0 +1,107 @@
+{
+  "id": "manual-2026-0430",
+  "source": {
+    "url": "https://www.omega.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0430.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0430__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0430__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0430__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "industrial-supply",
+      "manufacturing",
+      "cryogenics"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent 'Quick Order' form is fixed to the right side of the hero section, providing immediate access to product ordering."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page condenses in height and sticks to the viewport after scrolling, with the 'All Products' button changing color from red to blue."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero content dynamically updates, changing from a placeholder image to a specific product device as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated with alternating light grey and white backgrounds, using a consistent grid for product and industry categories."
+    },
+    {
+      "kind": "color",
+      "note": "A strong, deep blue is used as the primary brand color for navigation, footer, and key accents, contrasting with a clean white and light grey background palette."
+    }
+  ],
+  "technique_notes": [
+    "The main header navigation is implemented as a sticky element that transforms its height and styling (e.g., button color) upon scroll, providing a compact persistent navigation.",
+    "A key call-to-action element, the 'Quick Order' form, is fixed to the right side of the viewport, ensuring it remains visible and accessible as the user scrolls through the initial page content.",
+    "Sections and content blocks likely reveal with a fade-up or slide-in animation as they enter the viewport, leveraging an animation-on-scroll library like AOS for a dynamic content presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#043faf",
+        "role": "primary-brand-blue"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface-light-grey"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#E02020",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Open Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and hierarchical, with the hero text being notably larger, while body text maintains a clear, legible size.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, input fields, and image cards.",
+    "spacing": "Balanced to airy, with generous padding around major sections and consistent, moderate spacing within grid layouts."
+  },
+  "standout": "The site's design is distinctive for its highly functional and conversion-focused approach, particularly through the persistent 'Quick Order' form fixed on the right side of the hero. This, combined with the dynamic hero content that updates on scroll, creates an immediate and efficient user experience for an industrial supplier, moving beyond a typical marketing site to prioritize utility.",
+  "animation_tech": [
+    "aos"
+  ],
+  "status": "approved"
+}

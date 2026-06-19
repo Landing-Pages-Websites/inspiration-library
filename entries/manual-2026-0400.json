@@ -1,0 +1,101 @@
+{
+  "id": "manual-2026-0400",
+  "source": {
+    "url": "https://www.bmw.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0400.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0400__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0400__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0400__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-vehicles"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero and editorial sections with high-quality, aspirational imagery, often featuring a dark overlay for text contrast."
+    },
+    {
+      "kind": "layout",
+      "note": "Grid-based product and offer displays with consistent card styling, featuring an image, title, brief description, and clear call-to-action."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a deep, branded blue (#0066b1) as a primary accent color for interactive elements, calls to action, and the sticky navigation background."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay on the hero section to a solid blue background with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating content blocks between large, immersive image/video sections and structured content grids or icon-based feature lists."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky navigation, implement a scroll-triggered class change on the header element. Initially, the header has a transparent background and sits over the hero content. After scrolling past a certain threshold (e.g., the bottom of the hero image), a class is added that applies a solid blue background, a subtle box shadow, and potentially adjusts padding or height, making it visually distinct and always visible.",
+    "Content sections are designed with full-bleed background images or solid colors, with text content often placed within a constrained width container for readability. Large, aspirational imagery is used extensively to convey brand prestige and create an immersive experience.",
+    "Interactive elements like buttons and links consistently use the brand's primary blue color for their background or text, providing clear visual cues for user interaction and maintaining brand consistency."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0066b1",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#3969b3",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#6f6f6f",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BMWTypeNext",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) with smaller, lighter sans-serif body text and uppercase, slightly bolder labels/CTAs.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons and card elements, maintaining a sophisticated feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within content blocks, creating a sense of luxury and clarity."
+  },
+  "standout": "The site effectively leverages large, high-quality aspirational imagery and video backgrounds to create an immersive and luxurious experience, seamlessly integrating product displays with brand storytelling. The subtle yet effective sticky navigation transformation reinforces brand presence without being intrusive.",
+  "animation_tech": [],
+  "status": "approved"
+}

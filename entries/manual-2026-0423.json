@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0423",
+  "source": {
+    "url": "https://www.marqeta.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0423.webp",
+    "pages": [
+      {
+        "url": "https://www.marqeta.com/blog",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0423__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "payments",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-bleed dark backgrounds (deep purple/blue) and white backgrounds, with content consistently centered and constrained to a maximum width."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for impact, supported by smaller, readable sans-serif body text, and occasional uppercase labels for feature descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated brand palette uses a dominant deep purple-blue (#2a206a) as a primary background and brand color, vibrantly contrasted with a bright, energetic green (#3cb982) for calls-to-action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent overlay to a compact, opaque sticky bar with a solid dark background as the user scrolls down the page. Content sections reveal with a subtle fade-up or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features a prominent social proof section displaying client logos (e.g., Uber, Klarna) in a clean, minimalist grid, reinforcing trust and authority."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered reveals animate sections into view with a subtle fade-up or slide-up effect as they enter the viewport, likely using CSS keyframes. The main navigation transforms from a transparent overlay to a compact, opaque sticky bar with a solid background after initial scroll, adjusting text color for contrast. The initial hero graphic, which appears to be a dynamic 3D-rendered element, is designed to be a prominent visual that gives way to content upon scrolling, potentially leveraging canvas animation for its interactive qualities.",
+    "Content is structured within full-width sections that alternate background colors, with all textual and interactive elements contained within a consistent central maximum width for readability and focus. A modular grid system is employed for displaying content cards, ensuring consistent spacing and alignment across various content types."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2a206a",
+        "role": "background"
+      },
+      {
+        "hex": "#3cb982",
+        "role": "cta"
+      },
+      {
+        "hex": "#8ed0be",
+        "role": "accent"
+      },
+      {
+        "hex": "#9d99d8",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-on-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual impact, complemented by readable sans-serif body text and smaller, often uppercase, labels for emphasis.",
+    "radius": "Subtle rounded corners (~4-8px) are applied consistently to buttons, cards, and input fields, contributing to a modern and approachable aesthetic.",
+    "spacing": "Balanced to airy. Generous vertical spacing separates major sections and elements, while content grids maintain a consistent, slightly denser rhythm for efficient information display."
+  },
+  "standout": "The site's distinctive use of a deep, rich purple-blue as a primary brand color, contrasted with a vibrant, almost neon green accent, creates a sophisticated yet energetic feel. The dynamic, almost 3D-rendered hero graphic that elegantly transitions out on scroll is a memorable touch, setting a high bar for visual engagement beyond a static image.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

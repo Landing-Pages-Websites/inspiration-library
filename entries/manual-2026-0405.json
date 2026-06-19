@@ -1,0 +1,106 @@
+{
+  "id": "manual-2026-0405",
+  "source": {
+    "url": "https://www.celine.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0405.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0405__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0405__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0405__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.celine.com/en-us/home",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0405__p2.webp"
+      },
+      {
+        "url": "https://www.celine.com/de-at/home",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0405__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-goods",
+      "retail"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed, narrow left-hand navigation column remains visible while the main content area scrolls independently on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed, black background sections featuring only the large brand logo serve as dramatic visual intermissions between content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and navigation links consistently use an all-caps, clean sans-serif typeface, maintaining a minimalist and editorial aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "The primary brand palette is a stark high-contrast black and white, allowing product imagery to introduce the main bursts of color."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen brand logo sections scroll vertically out of view to reveal subsequent content blocks, creating a deliberate, paced reveal of information rather than a continuous scroll."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling library (like locomotive-scroll) to control the scroll experience, creating a distinct, almost 'slide-like' transition between major sections. Large, full-viewport brand sections with prominent typography are designed to scroll out of view, acting as intermissions that reveal the next content section. Content sections themselves appear to slide up into the viewport as they become visible, contributing to the deliberate pacing. The left-hand navigation is fixed, maintaining its position regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#888888",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Neue Haas Grotesk Display",
+        "role": "display"
+      },
+      {
+        "family": "Neue Haas Grotesk Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Massive, full-screen brand logos (many times body size) contrast with smaller, all-caps sans-serif headings and body text, creating a strong hierarchy with significant visual impact.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly around the full-screen logo sections and between major content blocks, with more balanced spacing within product grids."
+  },
+  "standout": "The most distinctive feature is the use of full-screen, black-background sections featuring only the large 'CELINE' logo as dramatic, minimalist intermissions between content blocks. This creates a strong brand presence and a deliberate, almost editorial pacing to the scroll experience, rather than a continuous flow of information.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

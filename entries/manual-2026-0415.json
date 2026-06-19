@@ -1,0 +1,106 @@
+{
+  "id": "manual-2026-0415",
+  "source": {
+    "url": "https://www.hellomonday.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0415.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0415__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0415__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0415__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hellomonday.com/work",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0415__p2.webp"
+      },
+      {
+        "url": "https://www.hellomonday.com/product",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0415__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "digital-products",
+      "product-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section with content centered, followed by subsequent sections that use a wide, consistent content column with generous vertical spacing."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast typography with oversized, bold, widely-spaced sans-serif headings and smaller, lighter sans-serif body text. Uppercase is used for subtle labels and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white palette is dominant, with dark grey used for alternating section backgrounds to create visual separation and depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's main text remains fixed in the viewport while subsequent content scrolls up and visually overlays the hero's background image/video. New content sections, such as client logos, reveal with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are presented as a vertical list rather than a typical grid, emphasizing individual brands and creating a strong visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a fixed position for its primary text content, while the background image or video is either fixed or subtly parallaxing. Subsequent page content is designed to scroll up and visually layer over the hero's background, creating a persistent title effect. Scroll-triggered animations, likely leveraging GSAP, are used to reveal new sections (like client logos) with a subtle fade-up or slide-in as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1d1f23",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and widely-spaced headings (~4-5x body) create a strong visual impact, contrasted with smaller, lighter body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero and between major sections, contributing to a minimal and premium feel, while content within sections maintains a balanced density."
+  },
+  "standout": "The distinctive scroll behavior where the hero text remains fixed while subsequent content scrolls *over* its background, creating a layered, persistent title effect. This, combined with a high-contrast, minimalist aesthetic and generous spacing, makes the site feel premium and intentional.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

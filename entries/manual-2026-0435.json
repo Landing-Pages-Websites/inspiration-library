@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0435",
+  "source": {
+    "url": "https://www.rolex.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0435.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0435__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0435__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0435__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.rolex.com/en-us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0435__p2.webp"
+      },
+      {
+        "url": "https://www.rolex.com/en-us/watches",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0435__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections with central, large-scale typography and a clear call to action, transitioning to a spacious, minimalist product grid layout."
+    },
+    {
+      "kind": "type",
+      "note": "Distinctive pairing of an elegant, large-scale serif font for primary headings with a clean, modern sans-serif for body text and smaller uppercase serif for labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, restrained palette dominated by off-white/cream backgrounds, dark text, and subtle gold/beige accents, with a single, understated green for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic hero area that transitions its visual content (image/video) upon initial scroll, followed by scroll-triggered reveals for subsequent content sections and individual product items."
+    },
+    {
+      "kind": "section",
+      "note": "Product grid sections feature large, high-resolution images of individual watches, each paired with a concise title and description, presented against a clean, minimalist background."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-bleed hero area that dynamically swaps its background content (e.g., from a static image to a video or another image) as the user initiates scrolling, creating an immediate visual change.",
+    "A primary navigation bar transitions from an initial transparent state to a compact, sticky version with a solid background and subtle shadow once the user scrolls past the hero section.",
+    "Content sections and individual product items are revealed using scroll-triggered animations, likely employing CSS keyframes, where elements subtly fade and slide upwards into view as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#edd3b0",
+        "role": "accent"
+      },
+      {
+        "hex": "#006B54",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "RolexFont-XL",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Now Text",
+        "role": "body"
+      },
+      {
+        "family": "RolexFont-S",
+        "role": "display"
+      }
+    ],
+    "type_scale": "oversized, elegant serif headings (~4-5x body) paired with clean sans-serif body text and small uppercase serif labels.",
+    "radius": "sharp",
+    "spacing": "airy; very generous vertical spacing between sections and within content blocks, creating a sense of luxury and breathing room."
+  },
+  "standout": "The site's design is distinctive for its seamless, almost cinematic hero transitions upon scroll, combined with an exceptionally airy and elegant presentation of high-resolution product imagery. It masterfully balances brand authority with a minimalist aesthetic, making each product feel exclusive.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
