@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0513",
+  "source": {
+    "url": "https://payloadcms.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0513.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0513__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0513__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0513__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "web-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site consistently uses a dark-mode aesthetic with full-bleed sections, often featuring embedded, high-fidelity UI mockups or code editor interfaces as primary visual content."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are rendered in a very large, bold sans-serif font, creating a strong visual impact and clear hierarchy, contrasted with a more understated sans-serif for body text and distinct monospace for code snippets."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant palette of deep black and dark gray backgrounds is consistently used, providing a stark contrast for crisp white text and subtle, functional accents of light blue, green, and orange within interactive elements and code highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms upon scroll, shrinking in height and gaining a solid dark background to become a sticky element at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, complex UI mockup (likely a video or animated sequence) that exhibits a subtle parallax effect, moving at a slower rate than the foreground text as the user scrolls, adding depth to the composition."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently integrate realistic, interactive-looking UI mockups of code editors or content management systems as central visual elements, rather than relying on abstract imagery or simple screenshots."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation bar that dynamically reduces its height and changes its background from transparent to solid dark as the user scrolls past the initial hero section.",
+    "The hero section utilizes a video or complex animation for its background UI element, which appears to parallax or move independently of the foreground text, creating a sense of depth and dynamism, likely achieved with css-keyframes or a JavaScript-based scroll animation library.",
+    "Content sections are revealed using a subtle fade-in or slide-up animation as they enter the viewport, drawing attention to new information as the user scrolls, suggesting the use of scroll-triggered css-keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#007AFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#28A745",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (up to ~4-5x body text) are paired with a clean, readable sans-serif for body copy and a distinct monospace for code.",
+    "radius": "Subtle rounding (2-4px) is applied to interactive elements and UI components, maintaining sharp corners for overall section boundaries.",
+    "spacing": "The hero section and major content blocks feature airy spacing, transitioning to a more balanced density within feature grids and text-heavy sections."
+  },
+  "standout": "The site's distinctive use of high-fidelity, interactive-looking code editor and content management system UI mockups as central visual elements throughout the page is highly effective. This approach immediately communicates the product's technical nature and functionality, making it stand out from typical marketing sites that rely on abstract illustrations or generic product shots.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

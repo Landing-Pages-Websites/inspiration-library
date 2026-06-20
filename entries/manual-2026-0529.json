@@ -1,0 +1,109 @@
+{
+  "id": "manual-2026-0529",
+  "source": {
+    "url": "https://screen.studio",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0529.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0529__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0529__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0529__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "screen-recording"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are full-width with a dark background, but the primary content within each section is centered and constrained to a consistent maximum width."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, often paired with a lighter, smaller sans-serif for body text and occasional uppercase labels for feature descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, using a very dark grey/black background with crisp white text, accented by a vibrant purple for calls to action and key brand elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle slide-up and fade-in animation as they enter the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Product features are demonstrated through embedded, high-fidelity screenshots or video-like elements, often presented within a subtle gradient frame against the dark background."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered reveal system, likely using CSS keyframes or a JavaScript library, to animate sections into view with a gentle upward slide and fade as they become visible in the viewport.",
+    "A dark, high-contrast visual theme is established using a deep charcoal background, bright white typography, and a striking purple for interactive elements and brand accents, ensuring readability and visual pop.",
+    "Product demonstrations are integrated directly into feature sections using static images or short video clips that appear to be embedded screen recordings, often framed with a subtle gradient border to highlight them against the dark page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#13151b",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#4d2ff5",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#8e44ad",
+        "role": "gradient-component"
+      },
+      {
+        "hex": "#ff007f",
+        "role": "gradient-component"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy, complemented by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Subtle rounding for buttons and card-like elements, while main content blocks maintain sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing in the hero and between major sections, and a more balanced density within feature descriptions and grids."
+  },
+  "standout": "The site's most distinctive feature is its sophisticated and seamless integration of high-fidelity product screenshots and video-like demonstrations directly into the narrative flow of each feature section. This visual-first approach, combined with a dark, high-contrast aesthetic and subtle gradient framing, effectively showcases the product's capabilities without relying on extensive text, making the user experience highly engaging and informative.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

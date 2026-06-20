@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0453",
+  "source": {
+    "url": "https://www.area17.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0453.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0453__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0453__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0453__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://area17.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0453__p2.webp"
+      },
+      {
+        "url": "https://area17.com/clients",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0453__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "design-agency",
+      "technology-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical layout for main content blocks, often featuring a large text block on the left and ample whitespace or a content placeholder on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of a single sans-serif typeface with extreme variations in size and weight, from oversized, bold headings to small, light body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white base palette, with vibrant, saturated accent colors introduced primarily through full-bleed embedded media and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video/image scales down and parallaxes as the user scrolls, eventually disappearing to reveal the main content. Content sections subtly slide or fade into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation 'A/' logo and menu items shrink slightly and stick to the top of the viewport after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are separated by significant vertical whitespace, creating a very airy and uncluttered feel, with clear visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "Implement a full-bleed hero video that scales down and applies a subtle parallax effect as the user scrolls, eventually transitioning out of view.",
+    "Create a sticky header that dynamically shrinks its height and font size after a certain scroll threshold, maintaining a minimal presence at the top of the page.",
+    "Utilize a smooth scrolling library (like locomotive-scroll) to orchestrate scroll-triggered animations, revealing content blocks with a subtle slide-up or fade-in effect as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#013CE8",
+        "role": "accent"
+      },
+      {
+        "hex": "#EA4826",
+        "role": "accent"
+      },
+      {
+        "hex": "#BE2856",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) with smaller, lighter body text and very small, uppercase labels for navigation and categories.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between sections and large margins around text blocks, creating a sense of openness."
+  },
+  "standout": "The site's design is distinctive for its cinematic, full-bleed video hero that dynamically scales and parallaxes on scroll, combined with a stark, high-contrast black-and-white UI. This creates a sophisticated, almost editorial feel that prioritizes visual impact and a smooth, engaging scroll experience over dense information display.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

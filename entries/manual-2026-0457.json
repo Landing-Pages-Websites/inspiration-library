@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0457",
+  "source": {
+    "url": "https://www.brompton.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0457.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0457__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0457__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0457__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.brompton.com/p-line",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0457__p2.webp"
+      },
+      {
+        "url": "https://www.brompton.com/why-brompton",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0457__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "bicycles",
+      "transportation"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a prominent auto-playing video background with overlaid text and a call-to-action."
+    },
+    {
+      "kind": "layout",
+      "note": "Consistent use of multi-column grid layouts for displaying product lines and categories, typically in three-column arrangements."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast design primarily using black and white for backgrounds and text, with a vibrant green used sparingly as an accent color for branding and subtle highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, maintaining its full size and appearance without transformation as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a video that plays continuously and scrolls out of view with the rest of the page content, without any parallax or complex scroll-triggered effects on the video itself."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and set in a clean sans-serif typeface, creating a strong visual hierarchy against smaller, legible body text."
+    }
+  ],
+  "technique_notes": [
+    "A full-width, auto-playing video serves as the background for the hero section, with primary messaging and a call-to-action positioned over it, ensuring high visual impact upon page load.",
+    "The global navigation bar is implemented as a sticky element, fixed to the top of the browser window, maintaining its original dimensions and styling throughout the scroll experience.",
+    "Content sections are structured using a combination of flexible grid systems for product showcases and full-width blocks for informational content, with standard vertical scrolling revealing new sections without additional scroll-triggered animations or reveals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#163",
+        "role": "surface"
+      },
+      {
+        "hex": "#008B29",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual impact, complemented by smaller, uppercase labels and clear, legible body text.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 the hero section is airy, while content grids maintain a consistent, balanced density."
+  },
+  "standout": "This site stands out with its sophisticated use of a full-bleed video hero that immediately conveys a lifestyle and brand identity, rather than just a static image. The design maintains a premium feel through a high-contrast black and white palette, allowing the product's vibrant colors and the dynamic video content to be the primary visual focus.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

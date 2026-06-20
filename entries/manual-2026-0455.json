@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0455",
+  "source": {
+    "url": "https://blueland.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0455.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0455__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0455__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0455__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "home-goods",
+      "sustainable-products",
+      "e-commerce",
+      "cleaning-products"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light blue and white full-width sections create visual rhythm and separation for content blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, deep blue is used as the primary brand color for backgrounds, navigation, and key text, contrasted with a fresh green for calls to action and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up or slide-in animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize horizontal carousels (e.g., 'The Bestsellers') allowing users to browse multiple items without leaving the current view."
+    },
+    {
+      "kind": "layout",
+      "note": "Feature lists are presented in a grid format with prominent icons and concise descriptions, often centered within a section."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transforms on scroll: it initially appears transparent over the hero, then shrinks slightly in height and gains a solid blue background as it becomes sticky at the top of the viewport. The top announcement bar disappears on scroll.",
+    "Sections are revealed using scroll-triggered animations, likely employing CSS keyframes or a JavaScript library to apply a subtle fade-in and upward translation effect as they become visible.",
+    "The hero section uses a full-width video as a background element, with text and a call-to-action overlaid. The video appears to move at a slightly different rate than the foreground content, creating a parallax depth effect as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#133cd1",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-white"
+      },
+      {
+        "hex": "#f0f7ff",
+        "role": "light-blue-background"
+      },
+      {
+        "hex": "#a0ddff",
+        "role": "medium-light-blue-accent"
+      },
+      {
+        "hex": "#78d97e",
+        "role": "accent-green-cta"
+      },
+      {
+        "hex": "#e1f2ff",
+        "role": "light-blue-background-variant"
+      },
+      {
+        "hex": "#eff5ff",
+        "role": "light-blue-background-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold and significantly larger than body text, establishing a clear hierarchy, while body text maintains excellent readability with comfortable sizing.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, input fields, and product cards, creating a soft but not overly rounded aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable spacing within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "This site stands out by effectively blending a clean, almost clinical aesthetic, reinforced by its dominant blue and white palette, with warm, natural, and playful imagery of families and nature. This combination creates a trustworthy yet approachable brand identity for sustainable cleaning products, making the 'clean' message feel both effective and gentle.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

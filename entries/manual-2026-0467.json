@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0467",
+  "source": {
+    "url": "https://directus.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0467.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0467__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0467__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0467__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "backend-as-a-service"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections consistently use a dark, full-width background with content constrained to a central column, often featuring a two-column split for text and accompanying UI screenshots or diagrams."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic hierarchy uses a large, elegant serif font for primary headings, a clean sans-serif for body text and UI labels, and a distinct monospaced font for code snippets."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode theme dominates, pairing near-black backgrounds with white text, accented by a vibrant purple/blue for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, new content sections and large UI elements slide up smoothly into the viewport from the bottom, creating a progressive reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Many content sections follow a pattern of a concise descriptive text block on one side, paired with a detailed, high-fidelity screenshot or diagram of the product UI on the other."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the overall aesthetic, use a deep, dark background color for the entire page, with lighter shades of dark gray for card-like surfaces, and pure white for primary text. Accent colors should be vibrant and used sparingly for CTAs and interactive elements.",
+    "Implement a sticky navigation bar that maintains its position and appearance at the top of the viewport as the user scrolls.",
+    "For scroll-triggered reveals, use CSS keyframes or a JavaScript library to animate sections as they enter the viewport, making them slide up from below the fold into their final position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#090909",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#b3a2ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#262626",
+        "role": "surface"
+      },
+      {
+        "hex": "#bdbdbd",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Serif 4",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) provide strong visual hierarchy, complemented by a clean sans-serif for body text and a distinct monospaced font for code.",
+    "radius": "Subtle (small corner radius on buttons, cards, and UI elements, creating a refined but not overly soft feel).",
+    "spacing": "Balanced (comfortable spacing between elements and sections, providing clarity without feeling overly dense or airy)."
+  },
+  "standout": "The site's standout feature is its sophisticated dark theme, which combines elegant serif typography for headings with detailed, high-fidelity UI screenshots. This creates a premium, authoritative, and visually rich experience for a developer tool, distinguishing it from the often stark or overly simplistic designs common in the SaaS space.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

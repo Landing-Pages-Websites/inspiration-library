@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0502",
+  "source": {
+    "url": "https://modal.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0502.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0502__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0502__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0502__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width dark background with content constrained to a central, wide column, creating a focused reading experience."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold sans-serif headings paired with smaller, lighter body text and occasional uppercase labels for hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme (near-black background) with a vibrant, almost neon, green as the primary accent color for interactive elements and key information."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a dynamic scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Integration of terminal-like code snippets and 3D-rendered green cube graphics within content sections to visually reinforce the technical nature of the product."
+    }
+  ],
+  "technique_notes": [
+    "A persistent header navigation that shrinks slightly and gains a solid dark background after initial scroll, maintaining brand presence.",
+    "Scroll-triggered animations (likely using a library like GSAP or a custom canvas/Lottie implementation for the 3D elements) to reveal content sections with a staggered fade-up effect as they become visible.",
+    "Buttons and interactive elements feature a subtle gradient fill using shades of bright green, providing a modern, energetic call to action against the dark background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141614",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#80EE64",
+        "role": "accent"
+      },
+      {
+        "hex": "#09AF58",
+        "role": "cta"
+      },
+      {
+        "hex": "#BFF9B4",
+        "role": "text-subtle"
+      },
+      {
+        "hex": "#28281F",
+        "role": "surface"
+      },
+      {
+        "hex": "#212525",
+        "role": "surface-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, wide headings (hero ~4-5x body) with smaller, lighter body text and occasional small uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, cards, and input fields, maintaining a clean but not sharp aesthetic.",
+    "spacing": "Balanced to airy; generous vertical spacing between major sections, with comfortable padding within content blocks and grids."
+  },
+  "standout": "The site's distinctive use of a high-contrast dark theme with a vibrant, almost glowing, green accent color immediately sets a modern, technical, and premium tone. This is further enhanced by the integration of 3D-rendered green cube motifs and terminal-like UI elements, creating a cohesive visual language that speaks directly to a developer audience.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

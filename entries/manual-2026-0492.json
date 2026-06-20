@@ -1,0 +1,110 @@
+{
+  "id": "manual-2026-0492",
+  "source": {
+    "url": "https://jam.dev",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0492.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0492__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0492__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0492__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "bug-reporting"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width dark sections, creating a focused reading experience against a deep background."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use an extra-large, bold sans-serif font for high impact, contrasted with smaller, readable sans-serif body text and occasional uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring a near-black background paired with light grey text and vibrant, gradient-like accent colors (pink, green, teal) for key elements and interactive states."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's central device illustration exhibits a subtle parallax effect, scrolling at a slower rate than the background to create a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Key information and social proof (client logos, testimonials) are presented in horizontal carousels, allowing for efficient display of numerous items without excessive vertical scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark mode aesthetic with a deep, almost black background and light text, using vibrant, often gradient-filled, accent colors to highlight calls to action, key words, and interactive elements.",
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access to site links as the user scrolls.",
+    "The hero section's primary visual element, a device illustration, is animated with a subtle parallax scroll effect, making it appear to float over the background and creating a sense of layered depth. This effect, along with the background's subtle particle animation, likely leverages a canvas-based rendering system."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e2624",
+        "role": "background"
+      },
+      {
+        "hex": "#c3cad3",
+        "role": "text"
+      },
+      {
+        "hex": "#ff4070",
+        "role": "accent"
+      },
+      {
+        "hex": "#73e5bf",
+        "role": "cta"
+      },
+      {
+        "hex": "#8b94a3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#2a3632",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual hierarchy, complemented by clear, readable body text and smaller uppercase labels.",
+    "radius": "Subtle to rounded; buttons and card-like elements feature soft, rounded corners.",
+    "spacing": "Balanced to airy; sections have generous vertical padding, and content within blocks is well-spaced, contributing to a clean, uncluttered feel."
+  },
+  "standout": "This site's design is distinctive for its bold use of a deep, dark theme combined with vibrant, almost neon, gradient accents that highlight key information and calls to action. The interactive, illustrative device mockups, coupled with subtle parallax and background animations, create a dynamic and engaging experience that feels both modern and playful, setting it apart from typical SaaS marketing sites.",
+  "animation_tech": [
+    "canvas",
+    "swiper"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "manual-2026-0490",
+  "source": {
+    "url": "https://www.itsnicethat.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0490.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0490__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0490__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0490__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.itsnicethat.com/pov",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0490__p2.webp"
+      },
+      {
+        "url": "https://www.itsnicethat.com/film",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0490__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "design",
+      "publishing"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into flexible, multi-column grids for article listings, often featuring a prominent, full-width hero or featured article at the top of each section."
+    },
+    {
+      "kind": "color",
+      "note": "Sections are visually segmented by full-bleed, contrasting background colors, creating a vibrant, block-like structure that guides the user through different content categories."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the page, the initial top header disappears, and a persistent, sticky navigation bar emerges from the bottom of the viewport, offering quick access to main categories and search."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content category (e.g., 'Projects + Creatives', 'Insight + Opinion') is introduced with a full-width section that uses a distinct background color or graphic, clearly delineating content types."
+    },
+    {
+      "kind": "type",
+      "note": "Hero headlines and key calls-to-action utilize a very large, bold, and condensed sans-serif typeface for high impact, contrasting with a more standard, readable sans-serif for body text and article titles."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic navigation system where the initial top header scrolls out of view, and a secondary, sticky navigation bar emerges from the bottom of the viewport, remaining fixed as the user continues to scroll. This bottom navigation provides persistent access to core site functionalities.",
+    "Content is presented in a flexible grid system, adapting column counts based on content type and screen size, with prominent images accompanying each article entry to enhance visual appeal.",
+    "Sections are visually separated by full-bleed background colors and sometimes bold graphic elements, creating a block-like structure that guides the user through different content categories and adds a playful, editorial feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#362b1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f9f9fb",
+        "role": "background"
+      },
+      {
+        "hex": "#bad263",
+        "role": "accent"
+      },
+      {
+        "hex": "#f3b33b",
+        "role": "cta"
+      },
+      {
+        "hex": "#c3928a",
+        "role": "accent"
+      },
+      {
+        "hex": "#a6a4aa",
+        "role": "text"
+      },
+      {
+        "hex": "#6633ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, condensed sans-serif headlines (~4-5x body text) create strong visual impact, while body text and article titles use a clear, readable sans-serif.",
+    "radius": "Subtle (minimal rounding on buttons and some card elements, with most elements featuring sharp, defined edges).",
+    "spacing": "Balanced (good use of whitespace around content blocks and within grids, with distinct vertical rhythm created by full-width section backgrounds)."
+  },
+  "standout": "The most distinctive feature is the dynamic, bottom-fixed navigation bar that appears on scroll, offering persistent access to categories and search. This unconventional placement provides a fresh take on persistent navigation, especially for content-heavy sites. The bold, graphic-heavy section headers and varied, vibrant background colors also give the site a playful and editorial feel distinct from typical minimal content sites.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

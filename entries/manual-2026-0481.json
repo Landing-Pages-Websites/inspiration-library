@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0481",
+  "source": {
+    "url": "https://grove.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0481.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0481__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0481__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0481__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "home-goods",
+      "personal-care",
+      "sustainability"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with a large headline on the left and product imagery artfully arranged on the right, creating visual interest and dynamic balance."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating full-width section background colors (deep teal, light green, white) are used to visually segment content and provide a clear rhythm down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A transforming sticky header that shrinks in height and gains a solid white background as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a dynamic and engaging browsing experience."
+    },
+    {
+      "kind": "section",
+      "note": "Curated product collection sections are presented with a horizontal scrollable carousel, allowing users to browse many items without navigating away from the current page."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of large, bold sans-serif headings for primary titles, paired with smaller, lighter sans-serif for body text and often uppercase labels for categories."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that transitions its height and background color from transparent to solid white upon scrolling past the hero section, using CSS transitions.",
+    "Utilize a scroll-triggered animation library (like locomotive-scroll combined with CSS keyframes) to reveal content sections with a gentle fade-in and subtle upward translation as they enter the viewport.",
+    "Design product display sections using a responsive grid for static content and horizontal carousels for extensive product collections, ensuring smooth navigation with touch/drag support."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#033b4c",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#e9f3d7",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#090909",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#298266",
+        "role": "cta"
+      },
+      {
+        "hex": "#20124d",
+        "role": "banner-accent"
+      },
+      {
+        "hex": "#303030",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body text) with a clean, readable body text and smaller, often uppercase, labels.",
+    "radius": "Subtle (small corner radius on buttons, cards, and input fields).",
+    "spacing": "Balanced (comfortable padding around elements and sections, with generous vertical spacing between major content blocks)."
+  },
+  "standout": "The site stands out with its sophisticated yet approachable presentation of sustainable home and personal care products. The design effectively balances a clean, trustworthy aesthetic with engaging product displays and a clear commitment to environmental values, making the shopping experience feel curated and responsible.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "approved"
+}

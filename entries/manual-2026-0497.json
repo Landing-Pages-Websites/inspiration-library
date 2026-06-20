@@ -1,0 +1,98 @@
+{
+  "id": "manual-2026-0497",
+  "source": {
+    "url": "https://layers.to",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0497.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0497__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0497__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0497__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-platform",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content area utilizes a responsive masonry grid layout to display a diverse collection of design examples, allowing for varied card sizes and an organic flow."
+    },
+    {
+      "kind": "motion",
+      "note": "New content cards are dynamically loaded and revealed with an infinite scroll mechanism as the user scrolls down the page, while the header and a right-aligned sidebar remain sticky in the viewport."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of black text on a white background dominates the UI, with individual content cards introducing a wide array of vibrant and varied accent colors."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent right sidebar provides contextual information such as 'Recent jobs' and 'Recent signups', maintaining visibility regardless of scroll depth."
+    }
+  ],
+  "technique_notes": [
+    "The main content area is structured as a responsive masonry grid that continuously fetches and appends new items as the user scrolls, creating an infinite feed experience. This is combined with a fixed header and a sticky right sidebar that maintain their position at the top and right of the viewport respectively, ensuring navigation and key information are always accessible.",
+    "Interactive elements like category filters in the header highlight the active selection with a distinct accent color and a subtle underline, providing clear visual feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1A73E8",
+        "role": "accent"
+      },
+      {
+        "hex": "#6002EE",
+        "role": "accent"
+      },
+      {
+        "hex": "#F1F3F4",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "InterVar",
+        "role": "heading"
+      },
+      {
+        "family": "Google Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A balanced sans-serif type scale with clear hierarchy; headings are moderately larger and often bolder than body text, maintaining readability across various content cards.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to cards, input fields, and buttons, softening the overall aesthetic.",
+    "spacing": "Balanced and airy, with generous gutters in the masonry grid and ample padding within cards and around UI elements, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of a dynamic, infinite-scrolling masonry grid to showcase a vast collection of design exemplars, combined with a persistent right sidebar for community engagement, creates an immersive and continuously engaging browsing experience. The seamless loading of new content makes exploration feel endless and fluid.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

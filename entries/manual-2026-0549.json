@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0549",
+  "source": {
+    "url": "https://xata.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0549.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0549__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0549__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0549__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "database",
+      "developer-tools",
+      "ai-infrastructure"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered, often featuring a prominent, complex visual element (diagram, chart, table) as the primary focus, flanked by concise text."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, almost black background is consistently used across all sections, contrasted with white text and vibrant purple and green accents for interactive elements, status indicators, and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and gaining a solid dark background with a subtle border. Content sections reveal with a subtle fade-up or slide-in effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Complex, interactive-looking UI diagrams and data visualizations are central to many sections, serving as primary visual explanations of the product's features and capabilities."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with large, bold sans-serif headings and legible body text, complemented by a monospaced font for code-like elements within the UI diagrams and data displays."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations (likely `css-keyframes` or a JavaScript library) to reveal content sections. Elements within sections appear to fade or slide upwards as they enter the viewport. The main navigation bar transforms from a transparent, larger state to a solid, smaller, sticky state after the initial scroll.",
+    "Complex, data-rich UI diagrams are rendered using a canvas or SVG-based system, featuring interconnected nodes and real-time data representations, enhanced by vibrant accent colors on a dark background. These visuals are integral to explaining the product's functionality.",
+    "A dark mode theme is consistently applied, using a deep purple-black background with high-contrast white text. Interactive elements and status indicators leverage bright purple and green for visual emphasis and clarity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1530",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#8468f6",
+        "role": "accent"
+      },
+      {
+        "hex": "#5dffb1",
+        "role": "accent"
+      },
+      {
+        "hex": "#ddd2f9",
+        "role": "surface"
+      },
+      {
+        "hex": "#3d2f6b",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (~4-5x body text) with clear hierarchy, complemented by smaller uppercase labels and a monospaced font for data.",
+    "radius": "Subtle; buttons and cards feature slightly rounded corners (e.g., 4-8px).",
+    "spacing": "Airy; generous vertical spacing between sections creates a sense of openness, while content within sections is balanced and not overly dense."
+  },
+  "standout": "The site's most distinctive feature is its sophisticated, interactive-looking UI diagrams and simulations that are deeply integrated into the content. These dynamic visuals are not merely decorative but serve as the primary means of explaining complex product functionality, giving a strong sense of a live, high-tech system. The dark theme with vibrant, almost neon, accent colors further enhances this tech-forward, almost futuristic feel.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0499",
+  "source": {
+    "url": "https://livekit.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0499.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0499__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0499__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0499__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed layout with full-width sections, each containing content centered horizontally, often with a clear visual hierarchy of large headings and supporting text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette featuring deep charcoal backgrounds, bright white primary text, and vibrant blue accents for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal elements (like 3D renders or numerical grids) reveal with a subtle fade-in and slight upward slide as they enter the viewport during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a concise heading and descriptive paragraph with a sophisticated, often animated or 3D-rendered, visual on the opposite side."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for impact, contrasted with a lighter weight sans-serif for body text and a distinct monospace font for technical details or code snippets."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation bar that remains at the top of the viewport. Content sections are revealed using scroll-triggered animations, likely leveraging CSS keyframes or a JavaScript animation library, causing elements to subtly fade and slide into view as the user scrolls down the page. The hero section features a dynamic, abstract background animation, likely implemented with canvas or WebGL, which scrolls with the page content but maintains its animated state. Product visuals are presented as high-fidelity 3D renders, enhancing the perception of advanced technology."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#070707",
+        "role": "background"
+      },
+      {
+        "hex": "#1f1f1f",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#999999",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#1fd5f9",
+        "role": "cta"
+      },
+      {
+        "hex": "#5a8bff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong visual anchors, complemented by a readable sans-serif body text and a distinct monospace for technical details.",
+    "radius": "subtle (buttons, input fields, and card-like elements have a slight, consistent corner rounding)",
+    "spacing": "balanced (sections are well-separated, providing breathing room, while content within sections maintains a comfortable density)"
+  },
+  "standout": "The site's standout feature is its sophisticated integration of high-fidelity 3D renders and subtle, dynamic background animations within a sleek, dark-mode interface. This creates a highly polished and futuristic aesthetic that effectively communicates advanced technology without feeling cluttered or overwhelming.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

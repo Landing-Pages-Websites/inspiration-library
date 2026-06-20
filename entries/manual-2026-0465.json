@@ -1,0 +1,105 @@
+{
+  "id": "manual-2026-0465",
+  "source": {
+    "url": "https://devrev.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0465.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0465__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0465__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0465__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "enterprise-software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature comparisons and detailed explanations, often pairing a large visual or interactive element on one side with text and structured cards on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize an extremely bold, large sans-serif typeface for maximum impact and hierarchy, contrasting sharply with a more neutral, legible sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark black, white, and subtle light grey is consistently punctuated by a vibrant, almost neon yellow for primary calls to action, key highlights, and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal with a subtle fade-in and slight upward slide animation as they enter the viewport during scrolling, creating a dynamic content progression."
+    },
+    {
+      "kind": "section",
+      "note": "Key statistical claims and efficiency metrics are presented in a grid of distinct, card-like modules, each featuring a large, bold number and a concise descriptive label."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation bar that remains fixed at the top of the viewport, ensuring constant access to primary navigation links as the user scrolls.",
+    "The hero section features a looping video background that plays continuously, providing dynamic visual interest and context behind the main headline and call to action.",
+    "Content sections are revealed using scroll-triggered animations, where elements fade into view and slightly slide up from the bottom as they become visible in the viewport, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFE602",
+        "role": "cta"
+      },
+      {
+        "hex": "#7A7579",
+        "role": "text-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Degular-text",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, impactful headings (~3-4x body text) with a clear hierarchy, complemented by a clean, legible body text.",
+    "radius": "Subtle (buttons and cards feature a slight border-radius, appearing almost sharp but with a soft edge).",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within card grids, creating an airy feel in some areas and a more compact density in others like the footer."
+  },
+  "standout": "The site's distinctive use of a high-impact, almost brutalist typographic style for headings, combined with a striking, almost neon yellow accent color against a stark black and white palette, creates a memorable and energetic brand presence. The dynamic video hero and scroll-triggered reveals further enhance this modern, bold aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

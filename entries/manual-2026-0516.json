@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0516",
+  "source": {
+    "url": "https://pocus.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0516.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0516__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0516__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0516__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "sales-enablement",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered and constrained to a maximum width, often using a grid for feature presentation (e.g., 3-column for stats, 2-column for features with images)."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, oversized display headings in a bold sans-serif font, contrasted with smaller, lighter body text and occasional uppercase labels for subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant gradient purple palette dominates, used for backgrounds and accents, complemented by white and light grey sections for contrast. A bright teal/aqua is used for primary CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal elements (text, cards, images) with a subtle fade-in and slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a parallax effect where a large app screenshot moves at a different speed than the background, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from transparent over the hero to a solid purple background with a subtle shadow and remains sticky at the top of the viewport after scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Repeated use of large, illustrative app screenshots or abstract UI elements integrated into feature sections, often paired with descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "Visual sections are defined by alternating background colors and gradients, with content centered within a maximum width.",
+    "Scroll-triggered animations are used to reveal content: elements within sections (text, images, cards) fade in and slide up from the bottom as they enter the viewport, likely orchestrated with a library like GSAP ScrollTrigger.",
+    "The hero section employs a parallax scrolling effect where a large, illustrative app screenshot moves vertically at a slower rate than the background, creating a sense of depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#8c4cde",
+        "role": "primary background"
+      },
+      {
+        "hex": "#ead8fe",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#8450d6",
+        "role": "accent background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "primary text"
+      },
+      {
+        "hex": "#40e0d0",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Pulp Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~3-4x body text) with clear visual hierarchy, complemented by smaller, legible body text and occasional uppercase sub-labels.",
+    "radius": "Subtle. Buttons, cards, and UI elements have a consistent, slightly rounded corner radius (e.g., 8-12px).",
+    "spacing": "Balanced to airy. Generous vertical padding between sections and comfortable spacing within content blocks, creating a breathable layout."
+  },
+  "standout": "The site's distinctive use of a rich, gradient purple color palette combined with large, illustrative app screenshots that often feature subtle parallax or reveal animations. This creates a strong, product-centric visual identity that feels both modern and sophisticated, moving beyond typical marketing site templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

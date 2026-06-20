@@ -1,0 +1,128 @@
+{
+  "id": "manual-2026-0472",
+  "source": {
+    "url": "https://www.figma.com/about",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0472.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0472__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0472__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0472__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.figma.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0472__p2.webp"
+      },
+      {
+        "url": "https://www.figma.com/make",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0472__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central maximum width, often using a grid for feature displays or image galleries."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings paired with a clean, readable sans-serif for body text, often featuring smaller, uppercase labels for context."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, neutral base of white and black, punctuated by a vibrant and diverse palette of accent colors (blues, greens, reds, yellows, pinks) used in illustrations, UI elements, and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Dynamic, collage-style hero sections with elements that parallax or shift on scroll, creating depth, combined with scroll-triggered fade-in or slide-up animations for content sections as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating light background colors (white, light green, light blue) to visually differentiate major content sections, creating clear visual breaks down the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic hero section where a collage of UI elements and abstract shapes animates using canvas or video, creating a lively, interactive backdrop that responds to initial page load and subtle scroll movements.",
+    "Scroll-triggered animations are used extensively to reveal content sections. As the user scrolls, elements like text blocks, images, and cards subtly fade in or slide up from the bottom, enhancing engagement and guiding the user's eye.",
+    "The primary navigation transforms from a transparent background to a solid white background with a subtle shadow and remains sticky at the top of the viewport after initial scroll, ensuring persistent access."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#00B6FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#24CB71",
+        "role": "accent"
+      },
+      {
+        "hex": "#972121",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFB3B3",
+        "role": "accent"
+      },
+      {
+        "hex": "#C7F8FB",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A2E3B",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (H1-H2) are significantly larger than body text, creating strong hierarchy, while body text is clear and legible, and labels are often smaller and uppercase.",
+    "radius": "Subtle rounding on buttons and cards, with some UI elements featuring more pronounced, soft rounding.",
+    "spacing": "Balanced to airy, particularly in hero sections and between major content blocks, providing ample whitespace for readability and visual breathing room."
+  },
+  "standout": "The site's distinctive use of vibrant, almost playful, collage-style animated hero sections that integrate product UI elements, creating a highly dynamic and engaging first impression that immediately communicates the creative nature of the product. This approach is consistently applied across key pages.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

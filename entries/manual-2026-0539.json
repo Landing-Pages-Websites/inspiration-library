@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0539",
+  "source": {
+    "url": "https://turso.tech/blog",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0539.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0539__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0539__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0539__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "tech",
+      "software-development",
+      "database"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A responsive three-column grid layout is used for displaying article cards, ensuring content is well-organized and scannable."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme is employed, featuring deep desaturated backgrounds paired with bright white text and a single vibrant teal accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The global navigation bar becomes sticky at the top of the viewport after scrolling past the initial announcement banner."
+    },
+    {
+      "kind": "section",
+      "note": "Article cards consistently feature a prominent image or icon, a bold title, a category tag (sometimes highlighted with an accent color), and a publication date."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy is established with large, bold sans-serif headings for page titles, medium-bold sans-serif for article titles, and smaller, legible sans-serif for body and metadata."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions from its initial position to a fixed position at the top of the screen once the user scrolls past the top announcement banner, maintaining its original dimensions and styling.",
+    "A deep, desaturated background color is used across the site, with text rendered in high-contrast white. A single, vibrant teal is reserved for interactive elements, calls to action, and key highlights.",
+    "Content is structured into a flexible grid system, allowing article cards to adapt their column count based on viewport width, ensuring readability and visual balance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#18222b",
+        "role": "background"
+      },
+      {
+        "hex": "#26303b",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#4ff8d2",
+        "role": "accent"
+      },
+      {
+        "hex": "#283945",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#1ebca1",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) are used for page titles, with medium-bold sans-serif for article titles and smaller, lighter sans-serif for metadata.",
+    "radius": "Subtle (small corner radius on cards and buttons, giving a slightly softened edge).",
+    "spacing": "Balanced (good padding around elements and between grid items, creating a clean and organized feel without being overly dense or airy)."
+  },
+  "standout": "This site's design is distinctive for its sophisticated dark theme, which pairs deep, desaturated blues and greys with a single, highly saturated teal accent. The use of abstract, often illustrative, imagery and icons within article cards, rather than traditional photography, reinforces a modern, tech-forward brand identity.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

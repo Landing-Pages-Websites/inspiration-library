@@ -1,0 +1,111 @@
+{
+  "id": "manual-2026-0533",
+  "source": {
+    "url": "https://www.stoneisland.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0533.webp",
+    "pages": []
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "apparel",
+      "fashion",
+      "luxury-fashion",
+      "technical-apparel"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality product photography dominates sections, often with minimal, precisely placed text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent monospaced or highly geometric sans-serif typeface is used for almost all text, from small uppercase labels to main headings, creating a technical and precise brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "A dark mode aesthetic with a dominant black or very dark grey background, contrasted with white or light grey text, allowing product imagery to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the main product image scrolls slower than the background and text, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a gentle fade-in and slight upward slide as they enter the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "section",
+      "note": "Product carousels are used for 'latest articles' and other product showcases, featuring large, clean product shots with minimal text."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transforms on scroll: an initial transparent top bar disappears, and the main logo/menu bar shrinks slightly in height while gaining a solid dark background, remaining sticky at the top.",
+    "Hero imagery is implemented with a subtle parallax effect, where the main subject moves at a slower rate than the scroll, creating a sense of depth against the background.",
+    "Content sections are revealed using scroll-triggered animations (likely AOS), where elements fade in and slide up slightly as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      },
+      {
+        "hex": "#888888",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#DA532C",
+        "role": "accent"
+      },
+      {
+        "hex": "#5BBAD5",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Mono",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, precise, and often uppercase text for labels and subheadings, with main headings being moderately sized, maintaining a consistent, almost technical feel across all text elements.",
+    "radius": "sharp",
+    "spacing": "Airy, with generous vertical spacing between major content blocks and within the hero section, balanced by more compact product grids."
+  },
+  "standout": "The site's distinctive use of a monospaced-like typeface for almost all text, from headings to body, combined with a dark, minimalist aesthetic and large, high-quality product photography, creates a unique blend of technical precision and high-fashion luxury. The subtle, controlled scroll animations enhance this sophisticated feel without being distracting.",
+  "animation_tech": [
+    "aos",
+    "swiper"
+  ],
+  "status": "approved"
+}

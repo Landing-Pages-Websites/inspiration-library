@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0478",
+  "source": {
+    "url": "https://www.genesis.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0478.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0478__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0478__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0478__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "http://www.genesis.com/us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0478__p2.webp"
+      },
+      {
+        "url": "https://www.genesis.com/worldwide/en/main.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0478__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-vehicles"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution automotive photography and video dominate key sections, often with dark overlays for text legibility."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently alternate between dark (black/dark grey) and light (white/light grey) backgrounds to create visual rhythm and delineate content."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a clean, modern sans-serif typeface in varying weights, with subheadings and labels often set in uppercase for a sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-width image carousel (using swiper) that transitions smoothly between different vehicle visuals, accompanied by subtle text changes."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, maintaining access to key links as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases consistently use a grid of cards, each featuring a vehicle image, model name, and brief details, with a clear call to action."
+    }
+  ],
+  "technique_notes": [
+    "A persistent, dark-themed header navigation is fixed to the top of the viewport, ensuring continuous access to site navigation elements.",
+    "Hero sections are implemented as full-bleed image carousels, likely using a library like Swiper, with text overlays that dynamically adapt to the background imagery for optimal contrast.",
+    "Content sections are introduced with subtle scroll-triggered animations, such as a gentle fade-in or slide-up effect, as they enter the viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are paired with smaller, often uppercase, sans-serif labels (~0.8x body) for a modern, authoritative feel.",
+    "radius": "Subtle; buttons and cards have slightly rounded corners, but overall forms are sharp and precise.",
+    "spacing": "Balanced; generous vertical spacing between major sections creates an airy feel, while internal content grids maintain a tighter, organized rhythm."
+  },
+  "standout": "The site's distinctive use of dramatic, cinematic full-bleed photography and video for its hero and key product sections, combined with a predominantly dark, minimalist aesthetic, creates an exceptionally premium and aspirational brand experience. It prioritizes visual impact and emotional connection over detailed specifications on the homepage.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

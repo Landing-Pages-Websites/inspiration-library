@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0474",
+  "source": {
+    "url": "https://www.fosterandpartners.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0474.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0474__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0474__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0474__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.fosterandpartners.com/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0474__p2.webp"
+      },
+      {
+        "url": "https://www.fosterandpartners.com/studio",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0474__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "engineering"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark-themed, full-width section layout, often presenting content in asymmetrical blocks (large image + text) or multi-column grids of image cards."
+    },
+    {
+      "kind": "type",
+      "note": "All text uses sans-serif fonts, with large, bold headings for section titles and smaller, often uppercase labels for image card descriptions, maintaining high contrast against dark backgrounds."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark charcoal background is used throughout the site, providing a high-contrast canvas for white text and vibrant architectural photography, creating a sophisticated, gallery-like aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-in and slight slide-up animation as they enter the viewport, creating a smooth, progressive loading experience. The main navigation bar remains sticky at the top of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Immersive image cards are a primary content delivery mechanism, used to introduce major categories like 'Studio' or 'Expertise', often paired with a concise text description or leading to a grid of related sub-topics."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using a scroll-triggered animation system (likely AOS), where content blocks subtly fade in and slide up from the bottom as they enter the user's viewport, creating a smooth progressive disclosure of information. The main navigation bar maintains a fixed position at the top of the screen.",
+    "The site employs a dark mode aesthetic with a deep charcoal background and crisp white typography, enhancing the visual impact of high-quality architectural photography. Content is organized into full-width sections, often featuring large, immersive image cards that serve as entry points to detailed content, sometimes with a subtle overlay for text legibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#212529",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#ebebeb",
+        "role": "surface"
+      },
+      {
+        "hex": "#6c757d",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body) contrast with standard body text and small, uppercase sans-serif labels.",
+    "radius": "Subtle rounded corners (small radius) on image cards and input fields, maintaining a clean, modern edge.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "The site's distinctive use of a consistently dark, almost black, background across all pages, paired with high-resolution architectural photography, creates an immersive, gallery-like experience. This sophisticated dark theme elevates the visual presentation of their projects, making the content feel premium and highly curated, rather than just informational.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

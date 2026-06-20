@@ -1,0 +1,107 @@
+{
+  "id": "manual-2026-0545",
+  "source": {
+    "url": "https://www.volkswagen.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0545.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0545__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0545__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0545__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "vehicle-manufacturer",
+      "car-dealership"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent internal grid system, often centering main headings and displaying product or offer cards in rows of three or four."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a large, bold sans-serif typeface for strong visual impact and hierarchy, complemented by a lighter weight sans-serif for body text and occasional uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, primarily using dark backgrounds (black/dark grey) with white text, and light backgrounds with dark text, accented by a vibrant blue for interactive elements and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky and dynamically reduces its height and changes its background appearance as the user scrolls down the page, providing persistent access."
+    },
+    {
+      "kind": "section",
+      "note": "Product and offer displays are consistently presented as card-like elements with prominent images, clear titles, and call-to-action buttons, often featuring a subtle dark overlay on images for text legibility."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented with a sticky position, using CSS transitions to smoothly animate its height and background color change when the scroll position moves past the initial hero section. The hero section itself features an autoplaying video as a full-bleed background, which scrolls out of view with the page content.",
+    "Content sections are structured with clear, centered headings and utilize a flexible grid system for displaying product or offer cards, ensuring a consistent visual rhythm without complex scroll-triggered reveal animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#1D1F20",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#0070AD",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Volkswagen Head",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Volkswagen Text",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "secondary"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong hierarchy, paired with lighter weight sans-serif body text and occasional uppercase labels.",
+    "radius": "Subtle (small corner radius on buttons and product cards).",
+    "spacing": "Balanced (comfortable spacing between elements and sections, with a slightly more airy hero section)."
+  },
+  "standout": "The site's distinctive use of a full-bleed, autoplaying video hero immediately establishes a modern and dynamic brand presence, effectively combining motion with a high-contrast, structured layout for clear product presentation.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

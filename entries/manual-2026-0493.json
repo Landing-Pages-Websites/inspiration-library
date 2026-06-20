@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0493",
+  "source": {
+    "url": "https://jitter.video",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0493.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0493__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0493__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0493__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tool",
+      "animation-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with light and dark backgrounds, often featuring a central content column for text and a full-bleed area for visual examples or interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy with oversized, bold sans-serif headings for impact, complemented by a clear, legible sans-serif for body text and smaller, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark white, deep charcoal, and light gray, punctuated by vibrant purple, electric blue, and a distinctive lime-yellow for accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "A complex, scroll-driven animation sequence in the 'Motion design made simple' section, where layered phone mockups appear to stick and transition content (e.g., '4K' text) as the user scrolls through the section."
+    }
+  ],
+  "technique_notes": [
+    "A sticky navigation bar is used to maintain global access throughout the scroll. Content sections are revealed with a subtle fade and slide-up effect as they scroll into view, creating a dynamic flow. A sophisticated scroll-driven animation system (likely using canvas or Lottie, as detected) is employed for the 'Motion design made simple' section, where multiple device mockups are layered and content within them transitions based on scroll depth, creating an interactive storytelling experience. Inline text elements also feature subtle, scroll-triggered animations, such as dynamic underlines or highlights."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#19171c",
+        "role": "text"
+      },
+      {
+        "hex": "#f2f1f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#7a40ed",
+        "role": "accent"
+      },
+      {
+        "hex": "#29a9ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#c3c3c6",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#fef000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TWK Lausanne",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Euclid Circular B",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~5-6x body text) create strong visual impact, balanced by a clear, readable body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding on buttons, input fields, and section containers, maintaining a modern yet approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and ample whitespace around content, especially in the hero area, contributing to a clean and premium aesthetic."
+  },
+  "standout": "The site's standout feature is its sophisticated and playful use of scroll-driven animations, particularly the multi-layered, interactive device mockups that dynamically transition content. This, combined with the bold typography and high-contrast color palette, elevates the user experience beyond a typical marketing page, effectively demonstrating the product's capabilities through its own design.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

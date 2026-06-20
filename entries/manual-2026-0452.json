@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0452",
+  "source": {
+    "url": "https://www.archdaily.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0452.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0452__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0452__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0452__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.archdaily.com/tag/city",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0452__p2.webp"
+      },
+      {
+        "url": "https://www.archdaily.com/office/deb",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0452__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "construction"
+    ],
+    "mood": [
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Prominent image-first content blocks, often featuring a large hero image followed by a gallery of smaller related images, creating a rich visual showcase for each project."
+    },
+    {
+      "kind": "layout",
+      "note": "A two-column main content area on the homepage, with a primary feed of articles/projects on the left and a narrower sidebar for events and product highlights on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a clear, modern sans-serif typeface for all text, maintaining high readability across headings, body text, and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette dominated by white backgrounds and dark grey/black text, punctuated by a distinct, vibrant blue for interactive elements like links, buttons, and the brand logo."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent header navigation that remains fixed at the top of the viewport as the user scrolls, providing continuous access to site navigation and search."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcase sections consistently include a main image, title, brief description, and a detailed metadata block (architects, year, area, etc.), providing comprehensive information at a glance."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible and functional at the top of the screen as the user scrolls down, ensuring navigation is always accessible.",
+    "Content is structured using a responsive grid system, allowing for large, image-centric project displays that adapt to different screen sizes, often featuring a main image and a subsequent gallery of smaller images.",
+    "Interactive image carousels, likely powered by Swiper, are used within project showcases to display multiple related images in a compact, browsable format."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#27292e",
+        "role": "text"
+      },
+      {
+        "hex": "#00308e",
+        "role": "cta"
+      },
+      {
+        "hex": "#616873",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f1f1f1",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Sans 3",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear, hierarchical sans-serif scale with prominent, bold headings (~2-3x body) for project titles, and smaller, lighter text for metadata and descriptions.",
+    "radius": "Subtle rounding (2-4px) on buttons and some image containers, but predominantly sharp corners for overall layout elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major content blocks and sections, creating a clean, uncrowded feel, while metadata within project cards is more compact."
+  },
+  "standout": "The site's standout feature is its highly editorial, image-driven presentation of architectural projects, combining a clean, minimalist aesthetic with an impressive depth of detailed metadata for each entry. It effectively functions as a visual encyclopedia for architecture, prioritizing high-quality imagery and comprehensive information over flashy animations or complex layouts.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}
