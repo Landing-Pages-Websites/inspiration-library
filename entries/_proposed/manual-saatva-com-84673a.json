@@ -1,0 +1,121 @@
+{
+  "id": "manual-saatva-com-84673a",
+  "source": {
+    "url": "https://saatva.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-saatva-com-84673a.webp",
+    "scroll": [
+      "shots/_proposed/manual-saatva-com-84673a__scroll0.webp",
+      "shots/_proposed/manual-saatva-com-84673a__scroll1.webp",
+      "shots/_proposed/manual-saatva-com-84673a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "home-goods",
+      "mattress"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a video background with foreground content (mattresses, text, CTAs) centered over it, creating a dynamic and immersive introduction."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light background sections, often with full-width imagery or product grids, used to visually segment content and guide the user down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A transforming sticky header: the initial transparent, taller navigation bar shrinks in height and gains a solid white background as the user scrolls down, remaining fixed at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Subtle parallax scrolling in the hero section where the background video/image scrolls at a slower rate than the foreground content, enhancing depth perception."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered content reveals where sections and their internal elements (e.g., text blocks, image cards) fade in and subtly slide upwards as they enter the viewport."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant teal/green accent color for primary calls to action and key interactive elements, providing clear visual hierarchy against a largely neutral dark grey, white, and light grey palette."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent pairing of a prominent, clean sans-serif for headings with a slightly lighter weight sans-serif for body text, maintaining a sophisticated yet approachable brand voice."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'trust' sections featuring customer reviews, brand values (sustainability, quality, origin), and awards, integrated throughout the page to build credibility."
+    }
+  ],
+  "technique_notes": [
+    "The hero section integrates a full-width video background, which is then overlaid with a subtle dark gradient or tint to ensure optimal contrast and readability for the superimposed text and calls to action.",
+    "A sticky header is implemented using CSS, where the initial transparent and taller navigation bar dynamically transitions to a shorter, solid white background version once the user scrolls past the hero section, maintaining persistent access to navigation.",
+    "Scroll-triggered content reveals are used throughout the page. As sections enter the viewport, elements within them (e.g., images, text blocks, cards) animate into view with a combination of a fade-in and a subtle upward slide, likely orchestrated using CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c0c14",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#62c2b1",
+        "role": "cta"
+      },
+      {
+        "hex": "#e5e5e9",
+        "role": "surface"
+      },
+      {
+        "hex": "#313142",
+        "role": "text"
+      },
+      {
+        "hex": "#e2e2ff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Calibre",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Calibre",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, readable sans-serif body text; subheadings are often slightly lighter weight.",
+    "radius": "Subtle (mostly sharp corners, but some buttons and input fields have a very slight radius of 2-4px).",
+    "spacing": "Balanced (comfortable padding around sections, airy hero, but product grids are quite dense)."
+  },
+  "standout": "The site stands out with its sophisticated blend of high-quality product photography and a clean, modern aesthetic that elevates the perception of mattresses from a commodity to a luxury item, despite the 'affordable' messaging. The subtle motion design, particularly the hero parallax and scroll-triggered reveals, adds a premium, interactive feel without being distracting.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "manual-plausible-io-95d12c",
+  "source": {
+    "url": "https://plausible.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-plausible-io-95d12c.webp",
+    "scroll": [
+      "shots/_proposed/manual-plausible-io-95d12c__scroll0.webp",
+      "shots/_proposed/manual-plausible-io-95d12c__scroll1.webp",
+      "shots/_proposed/manual-plausible-io-95d12c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "analytics",
+      "privacy-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections consistently use a fixed maximum width, centered on the page, while background elements (like the hero or footer) extend full-bleed across the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a single sans-serif typeface for all text, with significant size and weight variations to establish a clear hierarchy from large, bold headings to lighter, readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, light background is contrasted with a deep indigo for primary text and footer, with a vibrant purple used consistently for calls to action and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page becomes sticky and slightly reduces its height and padding as the user scrolls down, maintaining a compact presence at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Key information is presented in distinct, well-separated sections, often featuring a large, centered heading followed by a concise paragraph and then detailed bullet points or a grid of features."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation is implemented to transition from a static element to a fixed, sticky bar at the top of the screen once the user scrolls past the initial hero content, simultaneously reducing its vertical dimensions to save space.",
+    "Content is structured within a consistent maximum width container that is horizontally centered, allowing for full-width background colors or imagery to provide visual separation between sections while keeping text content readable.",
+    "Feature lists and pricing plans are presented in a responsive grid layout, with individual items or cards maintaining consistent padding and alignment, and a specific pricing tier visually highlighted with a distinct background and border."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F9FC",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#2F365F",
+        "role": "text"
+      },
+      {
+        "hex": "#4A5568",
+        "role": "body-text"
+      },
+      {
+        "hex": "#5B42F3",
+        "role": "cta"
+      },
+      {
+        "hex": "#7A60F8",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Hero headings are very large and bold (~4-5x body text), with subsequent section headings being large and bold (~2-3x body text), and body text being a comfortable, legible size.",
+    "radius": "Subtle. Buttons and cards feature a small, consistent border-radius, giving elements a soft, approachable feel without being fully rounded.",
+    "spacing": "Balanced to airy. There is generous vertical spacing between major sections and within content blocks, contributing to a clean, uncluttered layout and easy readability."
+  },
+  "standout": "This site distinguishes itself through its clear, data-driven presentation and a strong emphasis on privacy, communicated through a clean, modern design that avoids visual clutter. The straightforward layout and direct language make complex analytics feel accessible and trustworthy, setting it apart from more visually dense or abstract competitors.",
+  "animation_tech": [],
+  "status": "proposed"
+}

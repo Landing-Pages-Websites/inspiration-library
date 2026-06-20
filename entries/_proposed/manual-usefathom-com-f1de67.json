@@ -1,0 +1,101 @@
+{
+  "id": "manual-usefathom-com-f1de67",
+  "source": {
+    "url": "https://usefathom.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-usefathom-com-f1de67.webp",
+    "scroll": [
+      "shots/_proposed/manual-usefathom-com-f1de67__scroll0.webp",
+      "shots/_proposed/manual-usefathom-com-f1de67__scroll1.webp",
+      "shots/_proposed/manual-usefathom-com-f1de67__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "analytics",
+      "privacy-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a clean, single-column flow with generous vertical spacing between sections, creating an airy and uncluttered feel."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for primary messages and a highly legible, slightly lighter sans-serif for body text. Small, uppercase labels are used for feature badges and secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "The design uses a highly minimal color palette, primarily relying on white and light grey backgrounds with dark grey text, punctuated by a single vibrant purple accent color for all primary calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains fixed at the top of the viewport upon scroll, maintaining its initial appearance without any size or color transformations."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually differentiated by alternating between a pure white and a very subtle light grey background color, providing a soft visual break without harsh lines."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element that stays visible at the top of the page throughout the scroll, providing persistent access to navigation links and calls to action. No other scroll-triggered animations or reveals are present.",
+    "Sections are visually separated by alternating between a pure white and a very light grey background color, creating a subtle rhythm and aiding content segmentation.",
+    "Primary calls to action are rendered as solid, vibrant purple buttons, while secondary actions are presented as simple text links or outline buttons, clearly distinguishing their importance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#947FFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clear hierarchy, complemented by a legible, slightly lighter body text. Small, uppercase labels are used for badges and feature tags.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, input fields, and some card-like elements, contributing to a soft, modern feel.",
+    "spacing": "Airy, with generous vertical padding between sections and within content blocks, creating a sense of openness and allowing content to breathe."
+  },
+  "standout": "The site stands out with its extremely clean, almost stark, minimal aesthetic that prioritizes content clarity and readability above all else. The disciplined use of a single, vibrant purple accent against a predominantly monochrome background creates a focused visual hierarchy that feels modern and efficient without being cluttered.",
+  "animation_tech": [],
+  "status": "proposed"
+}

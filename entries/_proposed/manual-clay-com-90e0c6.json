@@ -1,0 +1,125 @@
+{
+  "id": "manual-clay-com-90e0c6",
+  "source": {
+    "url": "https://clay.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-clay-com-90e0c6.webp",
+    "scroll": [
+      "shots/_proposed/manual-clay-com-90e0c6__scroll0.webp",
+      "shots/_proposed/manual-clay-com-90e0c6__scroll1.webp",
+      "shots/_proposed/manual-clay-com-90e0c6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-analytics",
+      "marketing-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical arrangements of text and large, detailed UI screenshots, often with a playful 3D illustration acting as a visual anchor or separator."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, sans-serif headings paired with smaller, highly legible body text, and a distinct monospaced font for code-like examples or data points within the UI."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette of black and white, accented by vibrant, multi-colored 3D illustrations and distinct color blocks within the UI examples (purple, green, blue)."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal themselves with a subtle slide-up and fade-in animation as they enter the viewport, creating a dynamic reading experience. Hero illustrations exhibit a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of embedded, high-fidelity UI screenshots to illustrate product capabilities directly within the content flow, often framed by descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that transforms on scroll, shrinking in height and gaining a solid background for improved readability over content.",
+    "Scroll-triggered animations, likely powered by GSAP, reveal content sections with a staggered fade-up and slight upward translation as they enter the viewport, creating a smooth, engaging reveal effect.",
+    "Playful 3D illustrations are integrated into the layout, some of which exhibit a subtle parallax effect against the scrolling content, adding depth and visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f9f9f9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#181818",
+        "role": "surface"
+      },
+      {
+        "hex": "#dfdfdf",
+        "role": "surface"
+      },
+      {
+        "hex": "#9f9b93",
+        "role": "text"
+      },
+      {
+        "hex": "#7b42f6",
+        "role": "accent"
+      },
+      {
+        "hex": "#28a745",
+        "role": "accent"
+      },
+      {
+        "hex": "#007bff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, readable body text and smaller, distinct monospaced labels for data.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, cards, and UI elements, maintaining a soft but not overly rounded aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while maintaining a clear grid for content blocks."
+  },
+  "standout": "The site masterfully blends highly detailed, realistic product UI screenshots with whimsical, colorful 3D illustrations. This combination creates a unique aesthetic that is both authoritative and approachable, effectively demonstrating complex data workflows in an engaging and visually appealing manner, moving beyond typical flat mockups.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

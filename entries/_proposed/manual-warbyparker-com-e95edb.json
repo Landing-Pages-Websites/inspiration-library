@@ -1,0 +1,114 @@
+{
+  "id": "manual-warbyparker-com-e95edb",
+  "source": {
+    "url": "https://warbyparker.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-warbyparker-com-e95edb.webp",
+    "scroll": [
+      "shots/_proposed/manual-warbyparker-com-e95edb__scroll0.webp",
+      "shots/_proposed/manual-warbyparker-com-e95edb__scroll1.webp",
+      "shots/_proposed/manual-warbyparker-com-e95edb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "eyewear",
+      "fashion"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with either large lifestyle imagery or product grids, often using a light background color to differentiate."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with large, bold sans-serif headings for impact, complemented by a legible, clean sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a deep navy blue for primary branding and calls to action, contrasted with a palette of soft pastels (light blue-green, off-white, very light blue) for section backgrounds, and vibrant accents in illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms from transparent with white text to a solid dark blue background with white text and a slightly reduced height as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, colorful, abstract geometric illustration is revealed at the very bottom of the page as the user scrolls, acting as a distinctive visual anchor before the footer links."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent use of 'shop by' sections featuring product categories or curated collections, presented in clean, multi-column grids with clear product imagery and pricing."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is initially transparent and overlaid on the hero content. Upon scrolling past the hero, it transitions to a fixed position at the top of the viewport, adopting a solid background color and slightly reducing its vertical height to maintain prominence without obstructing content.",
+    "Sections are primarily full-width, utilizing a mix of large, aspirational photography and structured product grids. Background colors subtly shift between sections to create visual breaks.",
+    "A large, full-width abstract illustration is positioned at the bottom of the page content, designed to be fully revealed only when the user scrolls to the very end, creating a playful and memorable brand moment before the standard footer links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d4ed8",
+        "role": "primary-brand-blue"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#faf8f5",
+        "role": "background-light"
+      },
+      {
+        "hex": "#caeaf5",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#00a2e1",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#ff6c91",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#dbeafe",
+        "role": "background-light-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero text (~4-5x body) with clear, distinct headings and smaller, uppercase labels for navigation and product details.",
+    "radius": "Subtle rounded corners on buttons and interactive elements, while product images and content blocks maintain sharp, defined edges.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of playful, colorful abstract illustrations, particularly the large one at the page's conclusion, sets it apart from typical e-commerce sites. This, combined with a clean, product-focused layout and strong brand blue, creates a memorable and sophisticated yet approachable aesthetic.",
+  "animation_tech": [],
+  "status": "proposed"
+}

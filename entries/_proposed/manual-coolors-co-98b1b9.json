@@ -1,0 +1,115 @@
+{
+  "id": "manual-coolors-co-98b1b9",
+  "source": {
+    "url": "https://www.coolors.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-coolors-co-98b1b9.webp",
+    "scroll": [
+      "shots/_proposed/manual-coolors-co-98b1b9__scroll0.webp",
+      "shots/_proposed/manual-coolors-co-98b1b9__scroll1.webp",
+      "shots/_proposed/manual-coolors-co-98b1b9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://coolors.co/",
+        "full": "shots/_proposed/manual-coolors-co-98b1b9__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design-tools",
+      "creative-software",
+      "web-development"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections with clear headings, often using a grid layout for feature cards and resources."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a strong typographic hierarchy with oversized, bold, sans-serif headings for impact, contrasted with smaller, highly legible sans-serif body text and very small, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "A clean white background and black text provide a neutral canvas, allowing vibrant, multi-color palettes to be the central visual element and a key part of the brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks slide or fade up into view as the user scrolls down the page, creating a dynamic reveal effect. The hero section features a large, colorful graphic that parallaxes slightly, moving upwards and scaling as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Feature cards for tools and resources are presented in a consistent grid layout, each with a distinct background color from a vibrant palette, a clear title, and a call to action."
+    }
+  ],
+  "technique_notes": [
+    "The hero section's large color palette graphic employs a subtle parallax effect, where it moves at a different speed than the scroll, likely achieved using CSS transforms or a canvas animation. Scroll-triggered reveals for subsequent content sections are implemented by animating elements (like cards and headings) to slide or fade upwards into the viewport as they become visible, likely using CSS keyframes combined with JavaScript for intersection observation.",
+    "Interactive elements like buttons and cards feature subtle corner rounding and hover effects that provide visual feedback without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0073CE",
+        "role": "cta"
+      },
+      {
+        "hex": "#FF0096",
+        "role": "accent"
+      },
+      {
+        "hex": "#F6821F",
+        "role": "accent"
+      },
+      {
+        "hex": "#FBAD41",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, condensed sans-serif headings (~3-4x body) provide strong visual impact, complemented by smaller, highly legible body text and very small, often uppercase, labels.",
+    "radius": "Subtle rounding (small radius) on buttons and card corners, maintaining a modern and approachable feel.",
+    "spacing": "Balanced density overall, with an airy hero section and footer, and a more compact, grid-based layout for feature cards and resources."
+  },
+  "standout": "The site's distinctive use of vibrant, dynamic color palettes as both a core product feature and a primary design element is highly effective. The playful, interactive presentation of color tools, combined with a clean, minimal layout, makes the complex topic of color theory feel accessible and engaging. The large, animated 'Make something colorful!' text at the bottom adds a memorable, brand-reinforcing touch.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual-passionfroot-me-3438be",
+  "source": {
+    "url": "https://passionfroot.me",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-passionfroot-me-3438be.webp",
+    "scroll": [
+      "shots/_proposed/manual-passionfroot-me-3438be__scroll0.webp",
+      "shots/_proposed/manual-passionfroot-me-3438be__scroll1.webp",
+      "shots/_proposed/manual-passionfroot-me-3438be__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "marketing",
+      "creator-economy"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with distinct, often illustrative or photographic backgrounds, typically featuring centered content within a constrained width."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary messaging, contrasted with a lighter weight, highly readable sans-serif for body text and descriptive content."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and playful accent palette (orange, pink, blue, purple) is used for calls-to-action, highlights, and illustrative elements, set against a dark primary background and light content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's illustrative background (stars, clouds, and character) exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Integrated, illustrative UI mockups are embedded within content sections to visually demonstrate product functionality, often featuring a whimsical character interacting with the interface."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a large, illustrative background image with a subtle dark overlay to ensure text legibility. This background is configured to parallax, creating a sense of depth by moving at a slower rate than the foreground content during scrolling.",
+    "Interactive UI elements, such as the 'campaign card' in the hero, are designed as static overlays on the background. They employ CSS keyframe animations to simulate dynamic interactions like progress updates or button presses, enhancing perceived interactivity.",
+    "Content sections below the hero are designed to reveal with a fade-in or subtle slide-up animation as they enter the viewport, using CSS keyframes to progressively introduce content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#eb6928",
+        "role": "cta"
+      },
+      {
+        "hex": "#b036a4",
+        "role": "accent"
+      },
+      {
+        "hex": "#2c91af",
+        "role": "accent"
+      },
+      {
+        "hex": "#fcfcf7",
+        "role": "surface"
+      },
+      {
+        "hex": "#ee5968",
+        "role": "accent"
+      },
+      {
+        "hex": "#b26bf5",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Nunito Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Nunito Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, supported by a clear hierarchy of subheadings and a highly readable body text.",
+    "radius": "Subtle rounded corners (approx. 8-12px) are consistently applied to buttons, cards, and UI elements, contributing to a friendly and approachable aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness and preventing visual clutter."
+  },
+  "standout": "The distinctive integration of a whimsical, illustrative character (the purple root) throughout the site, particularly within the hero and footer, combined with highly stylized, interactive-looking UI mockups that blend product demonstration with a playful aesthetic, sets this design apart.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

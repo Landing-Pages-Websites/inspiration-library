@@ -1,0 +1,106 @@
+{
+  "id": "manual-resend-com-c98f01",
+  "source": {
+    "url": "https://resend.com/home",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-resend-com-c98f01.webp",
+    "scroll": [
+      "shots/_proposed/manual-resend-com-c98f01__scroll0.webp",
+      "shots/_proposed/manual-resend-com-c98f01__scroll1.webp",
+      "shots/_proposed/manual-resend-com-c98f01__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "email-api"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs a dark-mode aesthetic with high contrast, using black or very dark grey backgrounds and white or light grey text, creating a sophisticated and focused visual environment."
+    },
+    {
+      "kind": "type",
+      "note": "Main headings utilize a prominent, elegant serif typeface, creating an authoritative and luxurious feel, which is sharply contrasted with a clean, modern sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The color palette is extremely restrained, primarily relying on shades of black, white, and grey, with minimal use of a subtle green for status indicators or small accents, reinforcing a minimal and professional brand."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle scroll-triggered animation, where elements fade in and slide slightly upwards as they enter the viewport, creating a dynamic and engaging browsing experience."
+    },
+    {
+      "kind": "section",
+      "note": "Code snippets and terminal-like UI elements are integrated directly into content sections, serving as primary visual anchors and demonstrating functionality in a way that resonates with a developer audience."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark theme with high contrast typography, using a sophisticated serif for display headings and a clean sans-serif for body text to establish an elegant yet technical brand voice.",
+    "Sections are revealed using scroll-triggered animations, where content elements fade in and subtly slide upwards as they enter the viewport, creating a dynamic browsing experience. This likely leverages CSS keyframes or a JavaScript animation library.",
+    "The hero section features a subtle, abstract video background that adds depth and visual interest without distracting from the primary message, using the 'video-hero' technique."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#464a4d",
+        "role": "surface"
+      },
+      {
+        "hex": "#28a745",
+        "role": "status-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, complemented by smaller, clean sans-serif body text and even smaller uppercase labels for navigation and subheadings.",
+    "radius": "Subtle rounded corners (small radius) on buttons, input fields, and some card-like UI elements, maintaining a modern but not overly soft feel.",
+    "spacing": "Generally airy and spacious, particularly in the hero and between major content sections, providing breathing room for the dark aesthetic. Content within code blocks or feature grids can be denser."
+  },
+  "standout": "The site's distinctive blend of a sophisticated, almost editorial serif typography for headings with a stark, dark-mode developer aesthetic (featuring prominent code snippets and terminal UI) creates a unique and authoritative brand identity. It successfully marries elegance with technicality, making the complex subject matter feel premium and accessible.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

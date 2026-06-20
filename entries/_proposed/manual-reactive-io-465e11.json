@@ -1,0 +1,124 @@
+{
+  "id": "manual-reactive-io-465e11",
+  "source": {
+    "url": "https://www.reactive.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-reactive-io-465e11.webp",
+    "scroll": [
+      "shots/_proposed/manual-reactive-io-465e11__scroll0.webp",
+      "shots/_proposed/manual-reactive-io-465e11__scroll1.webp",
+      "shots/_proposed/manual-reactive-io-465e11__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://reactive.io/",
+        "full": "shots/_proposed/manual-reactive-io-465e11__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, full-width background serves as a canvas for content sections, which are primarily centered and contained, with a distinct hero section and a grid of feature cards."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif for impact, while body text is a legible, slightly smaller sans-serif. Category labels are small and uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, distinct linear gradients are used as backgrounds for feature cards, providing strong visual separation and a modern aesthetic against the dark page background."
+    },
+    {
+      "kind": "motion",
+      "note": "The abstract spheres in the hero section exhibit a subtle parallax effect, moving slower than the foreground text as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, providing persistent access to links as the user scrolls down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero background elements are animated to move at a slower rate than the page scroll, creating a subtle parallax depth effect. The main navigation is implemented as a fixed element that stays at the top of the screen.",
+    "Feature cards are designed with full-bleed linear gradient backgrounds that transition between two distinct, vibrant colors, providing a strong visual identity for each service against a dark page backdrop.",
+    "A consistent dark background color is used across the entire page, allowing white text and colorful graphic elements to pop and maintain high contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#18181B",
+        "role": "background"
+      },
+      {
+        "hex": "#E4E4E7",
+        "role": "text"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      },
+      {
+        "hex": "#4B0082",
+        "role": "card-gradient-dark-purple"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "card-gradient-light-purple"
+      },
+      {
+        "hex": "#008080",
+        "role": "card-gradient-dark-teal"
+      },
+      {
+        "hex": "#00CED1",
+        "role": "card-gradient-light-teal"
+      },
+      {
+        "hex": "#8B0000",
+        "role": "card-gradient-dark-red"
+      },
+      {
+        "hex": "#FF69B4",
+        "role": "card-gradient-light-pink"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "InterLocalDisplay",
+        "role": "heading"
+      },
+      {
+        "family": "InterLocal",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~3-4x body) for strong hierarchy, while body text is standard and labels are small uppercase.",
+    "radius": "Subtle rounded corners are applied consistently to cards and buttons, providing a soft, modern edge.",
+    "spacing": "Balanced density with an airy hero section and a more compact, yet well-padded, feature card grid."
+  },
+  "standout": "The site's standout feature is its bold use of distinct, vibrant gradient backgrounds for each feature card, which pop dramatically against the deep, minimal dark background. This creates a strong visual identity for each service while maintaining a cohesive, modern aesthetic.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "manual-dezeen-com-7fc1ff",
+  "source": {
+    "url": "https://www.dezeen.com/design/",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-dezeen-com-7fc1ff.webp",
+    "scroll": [
+      "shots/_proposed/manual-dezeen-com-7fc1ff__scroll0.webp",
+      "shots/_proposed/manual-dezeen-com-7fc1ff__scroll1.webp",
+      "shots/_proposed/manual-dezeen-com-7fc1ff__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.dezeen.com/showroom",
+        "full": "shots/_proposed/manual-dezeen-com-7fc1ff__p2.webp"
+      },
+      {
+        "url": "https://www.dezeen.com/tag/big",
+        "full": "shots/_proposed/manual-dezeen-com-7fc1ff__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "architecture",
+      "interiors",
+      "media"
+    ],
+    "mood": [
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, multi-column grid layout is used for article listings, often mixing 2, 3, and 4 columns on the same page, creating a dynamic, magazine-like visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and article titles use a strong, bold sans-serif font, while body text is a lighter weight sans-serif, maintaining a clear hierarchy. Many navigational elements and labels are set in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is high-contrast black and white, with vibrant red and orange used sparingly but effectively for links, accents, and calls-to-action, drawing immediate attention."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling down, the initial full-height header shrinks vertically, becomes sticky to the top of the viewport, and its primary navigation links collapse into a hamburger menu icon, while the logo, social icons, and search bar remain visible."
+    },
+    {
+      "kind": "section",
+      "note": "Key content is highlighted in 'Design highlights' sections featuring a horizontal scrollable row of cards, each with an image and a short title, providing a curated overview."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, the initial header element should have a fixed position and a larger height. On scroll past a certain threshold, a CSS class is added to reduce its height, transform the main navigation into a hamburger icon, and ensure it remains fixed at the top of the viewport.",
+    "The article grid can be built using CSS Grid or Flexbox, dynamically adjusting column counts based on viewport size or content type. Each article card maintains consistent internal padding and typography for readability within the dense layout.",
+    "The high-contrast color scheme relies on a stark white background with black text, using specific hex values for red and orange to highlight interactive elements and create visual interest without overwhelming the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e42c2c",
+        "role": "accent"
+      },
+      {
+        "hex": "#faa61a",
+        "role": "cta"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "StandardCT",
+        "role": "heading"
+      },
+      {
+        "family": "StandardCT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2-3x body) provide strong hierarchy, complemented by smaller, uppercase labels for navigation and categories.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 a dense content grid is balanced by ample internal padding within article cards and a initially airy header that condenses on scroll."
+  },
+  "standout": "This site stands out with its strong editorial, magazine-like aesthetic, achieved through a dynamic, dense grid layout that prioritizes high-quality imagery and clear, high-contrast typography. The consistent use of black and white with strategic pops of red and orange creates a sophisticated yet direct visual language, making it feel like a premium digital publication rather than a generic website.",
+  "animation_tech": [],
+  "status": "proposed"
+}

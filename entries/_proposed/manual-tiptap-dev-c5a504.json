@@ -1,0 +1,110 @@
+{
+  "id": "manual-tiptap-dev-c5a504",
+  "source": {
+    "url": "https://tiptap.dev",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tiptap-dev-c5a504.webp",
+    "scroll": [
+      "shots/_proposed/manual-tiptap-dev-c5a504__scroll0.webp",
+      "shots/_proposed/manual-tiptap-dev-c5a504__scroll1.webp",
+      "shots/_proposed/manual-tiptap-dev-c5a504__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "developer-tools",
+      "content-creation"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width sections, often using a grid for feature cards or a stacked layout for text and accompanying visuals/mockups."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a very large, bold sans-serif font for impact, contrasted with smaller, legible sans-serif for body text and very small, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light grey/off-white background provides a clean canvas, with dark text for high contrast. Accent colors are used sparingly, such as a vibrant pink for a temporary banner and a deep blue/purple gradient for the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from transparent to a solid, slightly blurred background with a subtle shadow as the user scrolls down. A Rive animation of a rocket appears and animates next to the hero text 'faster' shortly after the initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by generous vertical spacing and sometimes by a change in background color or a subtle top border, creating distinct content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar should be implemented to become sticky and gain a solid background color and a subtle shadow effect once the user scrolls past the initial hero content. The temporary top banner should disappear on scroll.",
+    "A Rive animation is used for the rocket icon within the hero text. This animation should be triggered to appear and play as the user scrolls down slightly from the top of the page, integrating a dynamic element directly into the headline.",
+    "Content sections are revealed as the user scrolls, likely using a subtle fade-in or slide-up effect as they enter the viewport, creating a sense of progressive disclosure."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#FF4081",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#4A00E0",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#8E2DE2",
+        "role": "gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, legible body text and very small, often uppercase, labels.",
+    "radius": "Subtle rounded corners (e.g., ~8-12px) on cards, buttons, and section containers, giving a soft, modern feel.",
+    "spacing": "Airy in the hero and between major sections, becoming more balanced in feature grids and slightly denser in the footer link columns."
+  },
+  "standout": "The site's distinctive use of a Rive animation directly within the hero headline, making the core message dynamic and engaging. The clean, almost app-like presentation of editor mockups throughout the page, combined with a subtle yet impactful dark gradient footer, elevates the overall aesthetic beyond a typical marketing site.",
+  "animation_tech": [
+    "canvas",
+    "rive"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "manual-recursion-com-be8f3f",
+  "source": {
+    "url": "https://www.recursion.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-recursion-com-be8f3f.webp",
+    "scroll": [
+      "shots/_proposed/manual-recursion-com-be8f3f__scroll0.webp",
+      "shots/_proposed/manual-recursion-com-be8f3f__scroll1.webp",
+      "shots/_proposed/manual-recursion-com-be8f3f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.recursion.com/faq",
+        "full": "shots/_proposed/manual-recursion-com-be8f3f__p2.webp"
+      },
+      {
+        "url": "https://www.recursion.com/mission",
+        "full": "shots/_proposed/manual-recursion-com-be8f3f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "biotech",
+      "pharmaceuticals",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used within content sections, often pairing a large image or visual with descriptive text, sometimes reversing the order."
+    },
+    {
+      "kind": "type",
+      "note": "Key section titles and specific phrases (e.g., 'Decoding biology to radically improve lives') are highlighted using a vibrant gradient color, contrasting with the otherwise monochromatic text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, predominantly white and light gray background is punctuated by strategic use of vibrant accent colors like a deep blue, a bright purple, and a yellow-orange gradient for CTAs, links, and highlighted text."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary motion observed is a sticky navigation bar that remains fixed at the top of the viewport and a full-bleed hero section with a looping video background that scrolls out of view to reveal content below."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by full-width background color changes (white to light gray) and generous vertical spacing, creating distinct visual blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a persistent sticky header that maintains its position and styling throughout the scroll. The hero section features a full-bleed video background with a dark overlay to ensure text readability, playing on a loop. Content sections below the hero simply scroll into view without complex reveal animations, relying on the natural scroll behavior. Interactive elements like buttons and cards have subtle rounded corners and hover states, and accordions are used for FAQ sections on interior pages."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#F4F4F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#0342B5",
+        "role": "cta"
+      },
+      {
+        "hex": "#993399",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFC000",
+        "role": "accent"
+      },
+      {
+        "hex": "#565662",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "acumin-pro",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, often condensed sans-serif headings (~4-5x body text) with a clean, legible body text. Subheadings and accent text often use a vibrant purple or gradient.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, cards, and interactive elements, maintaining a modern but not overly soft aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness and hierarchy. Card grids are more balanced."
+  },
+  "standout": "The site's distinctive use of a dynamic, abstract video background in the hero, paired with a bold, scientific headline, immediately conveys a high-tech and authoritative presence. This is further enhanced by the strategic application of vibrant, almost neon, gradient colors for key textual accents, which injects a modern, high-value feel into an otherwise clean and structured layout.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

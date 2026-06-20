@@ -1,0 +1,100 @@
+{
+  "id": "manual-linear-app-c20fad",
+  "source": {
+    "url": "https://linear.app/releases",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-linear-app-c20fad.webp",
+    "scroll": [
+      "shots/_proposed/manual-linear-app-c20fad__scroll0.webp",
+      "shots/_proposed/manual-linear-app-c20fad__scroll1.webp",
+      "shots/_proposed/manual-linear-app-c20fad__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "productivity-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site consistently employs a dark-mode aesthetic with light text on a deep charcoal background, maintaining high contrast and a clean visual hierarchy across all sections, including the header and extensive footer."
+    },
+    {
+      "kind": "type",
+      "note": "Typography is characterized by a single, clean sans-serif font used for all text, with subtle variations in size and weight to establish clear information hierarchy without visual clutter."
+    },
+    {
+      "kind": "color",
+      "note": "A highly restrained color palette is used, primarily relying on shades of dark gray and white, with a single, distinct red accent color reserved for primary calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion or animations are observed in the provided sequence; the page content remains static as the user scrolls, relying on its inherent layout and typography for presentation."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a comprehensive, multi-column link structure that mirrors the site's overall dark theme and clean typography, providing extensive navigation to various product and company resources."
+    }
+  ],
+  "technique_notes": [
+    "The site establishes a dark-mode design by setting a very dark gray as the primary background color for the entire page, contrasting it with white or light gray text for all content. Interactive elements like buttons utilize a distinct red accent color to draw attention.",
+    "The layout is structured with a fixed-position header for global navigation and actions, a centrally aligned main content area for page-specific information, and a multi-column footer that provides extensive links. All content is contained within a consistent maximum width.",
+    "The page is designed without any scroll-triggered animations or reveals. Content is rendered fully on load, and scrolling only reveals more static content, relying on static hierarchy for information presentation. Any detected CSS keyframe animations are likely used for subtle non-scroll interactions or loading states not visible in the scroll sequence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#08090a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#585a5c",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f34f52",
+        "role": "cta"
+      },
+      {
+        "hex": "#191d20",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear, subtle type scale with main headings slightly larger and bolder than body text, and navigation/footer links using a smaller, consistent size.",
+    "radius": "Subtle radius on interactive elements like buttons, otherwise sharp corners for most layout elements.",
+    "spacing": "Balanced spacing throughout, with generous vertical padding between main sections and a more compact, but still readable, density within the multi-column footer."
+  },
+  "standout": "The site's design is distinctive for its confident and consistent dark-mode implementation across all elements, from the header to the extensive footer. It combines a minimalist aesthetic with a highly functional, information-rich footer, creating a professional and understated user experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
