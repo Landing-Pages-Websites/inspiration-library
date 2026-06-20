@@ -1,0 +1,127 @@
+{
+  "id": "manual-rmi-org-73a2b4",
+  "source": {
+    "url": "https://www.rmi.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-rmi-org-73a2b4.webp",
+    "scroll": [
+      "shots/_proposed/manual-rmi-org-73a2b4__scroll0.webp",
+      "shots/_proposed/manual-rmi-org-73a2b4__scroll1.webp",
+      "shots/_proposed/manual-rmi-org-73a2b4__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://rmi.org/",
+        "full": "shots/_proposed/manual-rmi-org-73a2b4__p2.webp"
+      },
+      {
+        "url": "https://rmi.org/about",
+        "full": "shots/_proposed/manual-rmi-org-73a2b4__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "clean-energy",
+      "environmental-advocacy"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical layout, combining a prominent mission statement on the left with a grid of related articles and content on the right, all within a dark blue background."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a four-column grid for presenting distinct service areas or impact categories, each with an image, title, description, and a call-to-action arrow."
+    },
+    {
+      "kind": "color",
+      "note": "A primary dark blue (#13294b) is consistently used for major backgrounds and the footer, contrasted with bright accent colors like a vibrant blue (#1863dc), teal (#45cfcc), and yellow (#ffc107) for calls to action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal with a subtle fade-up animation as they scroll into the viewport, creating a dynamic and engaging content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated call-to-action banners, like the 'Track the latest clean energy stories' section, use a full-width background color with a clear headline and a prominent button to drive engagement."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed with a subtle fade-up or slide-up animation as they enter the viewport, likely orchestrated using a scroll-triggered animation library such as AOS (Animate On Scroll) or similar CSS keyframe animations. The main navigation bar remains fixed at the top of the viewport, maintaining its appearance without shrinking or changing background.",
+    "Content is structured within a consistent max-width container, centered on the page, with full-width background colors or images for sections to create visual separation and hierarchy.",
+    "Interactive cards for impact areas or solutions consistently feature an image, a concise title, a brief description, and a circular button with an arrow, encouraging further exploration."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#13294b",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#1863dc",
+        "role": "cta"
+      },
+      {
+        "hex": "#45cfcc",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffc107",
+        "role": "accent"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "background"
+      },
+      {
+        "hex": "#737373",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Mulish",
+        "role": "heading"
+      },
+      {
+        "family": "Mulish",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy; smaller uppercase labels for categories.",
+    "radius": "Subtle; consistent slight rounding on cards, buttons, and input fields.",
+    "spacing": "Balanced; generous vertical padding between sections, with well-distributed content within sections."
+  },
+  "standout": "The site's distinctive hero section combines a prominent mission statement with an integrated grid of related content, creating an immediate sense of depth and authority. The consistent use of scroll-triggered reveal animations adds a polished, dynamic feel without being overly flashy.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "manual-ganni-com-9a749f",
+  "source": {
+    "url": "https://www.ganni.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ganni-com-9a749f.webp",
+    "scroll": [
+      "shots/_proposed/manual-ganni-com-9a749f__scroll0.webp",
+      "shots/_proposed/manual-ganni-com-9a749f__scroll1.webp",
+      "shots/_proposed/manual-ganni-com-9a749f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ganni.com/us/home",
+        "full": "shots/_proposed/manual-ganni-com-9a749f__p2.webp"
+      },
+      {
+        "url": "https://www.ganni.com/us/shoes",
+        "full": "shots/_proposed/manual-ganni-com-9a749f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content area is dominated by a responsive product grid, typically displaying four items per row on larger screens, allowing for extensive product browsing."
+    },
+    {
+      "kind": "type",
+      "note": "Product information (name, price) is presented in a clear sans-serif font, with product names slightly bolder and larger than prices, maintaining a clean and legible hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site predominantly uses a high-contrast black and white palette for UI elements and text, allowing vibrant product photography to provide the main bursts of color."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page transforms from a taller, transparent overlay on the hero image to a shorter, opaque white bar with a subtle shadow, sticking to the top of the viewport as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Product listing sections consistently feature a 'quick add' button that appears as a solid black square with a white plus icon on hover over each product image."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar uses a scroll-triggered state change: initially it's a taller, transparent overlay positioned over the hero image. Upon scrolling past a certain threshold, it transitions to a fixed position at the top of the viewport, reducing its height, gaining a solid white background, and adding a subtle drop shadow for separation from content.",
+    "Product cards in the grid display a 'quick add' button as a solid black square with a white plus icon, which is revealed with a subtle animation or fade-in effect when the user hovers over the product image."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#CAC3BD",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Headings are moderately larger than body text, with product names slightly larger and bolder than prices, and small uppercase labels for navigation and details.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, with generous spacing between product grid items and within the hero section, while footer links are more dense."
+  },
+  "standout": "The site's design stands out through its confident minimalism, allowing the high-quality, vibrant product photography to be the primary visual focus. The subtle yet polished sticky navigation transformation enhances usability without distracting from the rich visual content, creating an impression of accessible luxury.",
+  "animation_tech": [],
+  "status": "proposed"
+}

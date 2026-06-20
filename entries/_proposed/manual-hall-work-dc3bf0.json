@@ -1,0 +1,105 @@
+{
+  "id": "manual-hall-work-dc3bf0",
+  "source": {
+    "url": "https://hall.work",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hall-work-dc3bf0.webp",
+    "scroll": [
+      "shots/_proposed/manual-hall-work-dc3bf0__scroll0.webp",
+      "shots/_proposed/manual-hall-work-dc3bf0__scroll1.webp",
+      "shots/_proposed/manual-hall-work-dc3bf0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "web-design"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content is presented as a single, large, centered block floating on a vast white background, creating a minimalist and focused presentation."
+    },
+    {
+      "kind": "type",
+      "note": "An elegant, oversized serif font is used for the main heading, contrasting with a light, clean sans-serif for all body text and form labels."
+    },
+    {
+      "kind": "color",
+      "note": "A limited palette of white, light grey, and dark grey dominates, with a single subtle dark blue accent used only in the small header logo."
+    },
+    {
+      "kind": "motion",
+      "note": "A very small, unobtrusive logo in the top-left corner remains fixed to the viewport as the user scrolls, while the rest of the header and page content scrolls normally underneath it."
+    },
+    {
+      "kind": "section",
+      "note": "The entire page content is essentially a single, self-contained 'hero' section that also functions as a direct contact form, foregoing traditional multi-section layouts."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the main content layout, a fixed-width container should be horizontally centered within the viewport, with ample vertical padding to create the 'floating' effect on a plain background.",
+    "The contact form fields should use a subtle light grey background with a very slight border radius, maintaining a clean and approachable aesthetic.",
+    "The fixed logo element in the header should be positioned absolutely or with `position: fixed` to remain in place during scroll, while its surrounding header elements are allowed to scroll with the page flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#D2D2D2",
+        "role": "surface"
+      },
+      {
+        "hex": "#EEEEEE",
+        "role": "form-field-background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#003388",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Mate",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif heading (~3-4x body) with light-weight sans-serif body text for descriptions and form labels.",
+    "radius": "Sharp for the main content block, with subtle rounding on input fields and buttons.",
+    "spacing": "Very airy overall, with the main content block floating in a large white space; balanced internal spacing within the content block."
+  },
+  "standout": "The site's extreme minimalism and singular focus on a large, centered contact form as its primary content is distinctive. The unusual choice of a tiny, fixed logo while the rest of the header scrolls away adds a subtle, almost quirky, design detail.",
+  "animation_tech": [],
+  "status": "proposed"
+}

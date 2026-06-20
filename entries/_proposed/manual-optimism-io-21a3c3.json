@@ -1,0 +1,142 @@
+{
+  "id": "manual-optimism-io-21a3c3",
+  "source": {
+    "url": "https://www.optimism.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-optimism-io-21a3c3.webp",
+    "scroll": [
+      "shots/_proposed/manual-optimism-io-21a3c3__scroll0.webp",
+      "shots/_proposed/manual-optimism-io-21a3c3__scroll1.webp",
+      "shots/_proposed/manual-optimism-io-21a3c3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://optimism.io/actions",
+        "full": "shots/_proposed/manual-optimism-io-21a3c3__p2.webp"
+      },
+      {
+        "url": "https://optimism.io/op-stack",
+        "full": "shots/_proposed/manual-optimism-io-21a3c3__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "blockchain",
+      "fintech",
+      "web3"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented on a full-bleed dark background, with primary information centered within a constrained width and often organized into multi-column grids for features and statistics."
+    },
+    {
+      "kind": "type",
+      "note": "A modern sans-serif font is used for headings and body text, complemented by a distinct monospace font for technical data points, labels, and code-like elements, creating a clear visual hierarchy for technical information."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark theme with light text, using subtle green and red accents to highlight status, key metrics, or interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic and engaging scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images in the hero and other full-width sections exhibit a subtle parallax effect, moving at a slower rate than the foreground content during scroll to add depth."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent 'Terms & Conditions' popup remains fixed in the bottom right corner of the viewport, overlaying content as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Complex, detailed technical diagrams and wireframe-style illustrations are used extensively to explain modular system architecture and processes, often appearing animated or interactive."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations are used to reveal content sections with a subtle fade-up or slide-in effect as they enter the viewport, likely orchestrated using a combination of `locomotive-scroll` for smooth scrolling and `css-keyframes` for the specific animation sequences.",
+    "Background images in key sections are implemented with a parallax scrolling effect, where they move at a slower rate than the foreground content, enhancing visual depth and engagement.",
+    "Intricate technical diagrams and illustrations are integrated, likely leveraging `canvas` or `lottie` for their complex animations and potential interactivity, to visually communicate abstract concepts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#282827",
+        "role": "background"
+      },
+      {
+        "hex": "#fafaf9",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f3f3f1",
+        "role": "surface"
+      },
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#236758",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff0421",
+        "role": "accent"
+      },
+      {
+        "hex": "#8d8d8c",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Riforma LL",
+        "role": "heading"
+      },
+      {
+        "family": "Riforma LL",
+        "role": "body"
+      },
+      {
+        "family": "Roboto Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual impact, complemented by a distinct, smaller monospace font for technical details and data points.",
+    "radius": "Subtle rounded corners on cards, buttons, and popups, providing a soft, modern feel without being overly rounded.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy and open feel, while content within feature blocks can be more compact."
+  },
+  "standout": "The site's design is distinctive for its sophisticated dark mode aesthetic, which is elevated by intricate, animated technical diagrams and a consistent system of subtle scroll-triggered content reveals. The persistent 'Terms & Conditions' popup also adds a unique, ever-present interaction element, contributing to an overall impression of high-tech authority and meticulous attention to detail.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "lottie"
+  ],
+  "status": "proposed"
+}

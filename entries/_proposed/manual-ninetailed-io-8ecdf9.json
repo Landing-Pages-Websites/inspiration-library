@@ -1,0 +1,105 @@
+{
+  "id": "manual-ninetailed-io-8ecdf9",
+  "source": {
+    "url": "https://www.ninetailed.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ninetailed-io-8ecdf9.webp",
+    "scroll": [
+      "shots/_proposed/manual-ninetailed-io-8ecdf9__scroll0.webp",
+      "shots/_proposed/manual-ninetailed-io-8ecdf9__scroll1.webp",
+      "shots/_proposed/manual-ninetailed-io-8ecdf9__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "content-management",
+      "marketing-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with internal content centered and constrained, often using a subtle curved bottom edge on background elements to transition between sections."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used consistently, with large, bold headings establishing a clear hierarchy and smaller, highly readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant bright blue is used for primary calls to action and key visual accents, contrasted with a clean white and light grey background, and dark charcoal text."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial top banner disappears, and the main navigation bar shrinks in height and gains a solid white backdrop, becoming sticky. Subsequent content sections reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Complex product features and benefits are explained through a combination of concise text, clear headings, and detailed illustrative diagrams or mockups, often arranged in multi-column grids."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation transforms on scroll: initially transparent and full height, it shrinks vertically and gains a solid background color and subtle shadow once the user scrolls past the hero section, remaining fixed at the top of the viewport.",
+    "Sections and key content blocks are revealed using a scroll-triggered animation system (likely leveraging a library like GSAP ScrollTrigger or similar, given the detected 'swiper' for potential carousels and 'lottie' for animations elsewhere) that makes them fade in or slide up from the bottom as they enter the user's view.",
+    "Interactive elements like buttons and cards feature subtle hover states, such as a background color change or a slight lift with a soft shadow, to indicate interactivity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1770e6",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      },
+      {
+        "hex": "#2b2d31",
+        "role": "text-dark-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Archivo",
+        "role": "heading"
+      },
+      {
+        "family": "Archivo",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (up to ~3x body text) create strong visual anchors, complemented by a clear hierarchy of subheadings and highly readable body text.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to buttons, cards, and the edges of some section background elements.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and within the hero, transitioning to a more compact but still clear grid layout for feature displays and resource cards."
+  },
+  "standout": "This site stands out for its exceptional clarity in explaining complex technical concepts through a combination of clean, modern design and highly detailed, custom illustrative diagrams. The visual storytelling is precise and engaging, making abstract ideas tangible without sacrificing a professional aesthetic.",
+  "animation_tech": [
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

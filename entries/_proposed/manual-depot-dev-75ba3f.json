@@ -1,0 +1,115 @@
+{
+  "id": "manual-depot-dev-75ba3f",
+  "source": {
+    "url": "https://depot.dev",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-depot-dev-75ba3f.webp",
+    "scroll": [
+      "shots/_proposed/manual-depot-dev-75ba3f__scroll0.webp",
+      "shots/_proposed/manual-depot-dev-75ba3f__scroll1.webp",
+      "shots/_proposed/manual-depot-dev-75ba3f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "cloud-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs a dark-themed interface with high-contrast white text and vibrant accent colors for interactive elements and data visualization."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections are primarily composed of card-like modules, often presenting comparative data or code snippets side-by-side within a grid or stacked layout."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent background to a solid, slightly darker background with a subtle shadow as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections are revealed with a subtle fade-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Faster builds for everyone' section features a horizontally scrollable carousel of user testimonials, allowing for a dense display of social proof without excessive vertical space."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the visual style, use a deep charcoal or black as the primary background, with pure white for main text and a slightly off-white for secondary text. Accent colors (a bright green and a clear blue) should be used sparingly for CTAs, links, and data highlights.",
+    "The site's motion system involves a sticky header that dynamically changes its background opacity and adds a subtle shadow once the user scrolls past the initial hero content. Additionally, new content sections are introduced with a staggered fade-up animation as they become visible in the viewport, likely orchestrated using CSS keyframes triggered by scroll events.",
+    "Interactive content blocks, such as the testimonial section, are implemented as horizontally scrollable carousels, allowing users to browse multiple items within a confined vertical space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#EEEEF0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#231F20",
+        "role": "surface"
+      },
+      {
+        "hex": "#46A759",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#4B9DD6",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#D33833",
+        "role": "error"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4-5x body) establish clear hierarchy, complemented by readable body text and small uppercase labels for categories.",
+    "radius": "Subtle rounded corners on cards, buttons, and input fields, maintaining a modern, soft aesthetic.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, while content within cards and comparison tables is more tightly packed for information efficiency."
+  },
+  "standout": "This site stands out by effectively leveraging a dark mode aesthetic with high-contrast data visualizations and code snippets to convey technical performance benefits. The horizontal scrolling testimonial carousel is a distinctive way to present social proof without overwhelming the vertical scroll, making the site feel both modern and information-rich.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

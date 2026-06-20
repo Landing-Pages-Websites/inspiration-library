@@ -1,0 +1,124 @@
+{
+  "id": "manual-officinegenerale-com-eb404c",
+  "source": {
+    "url": "https://www.officinegenerale.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-officinegenerale-com-eb404c.webp",
+    "scroll": [
+      "shots/_proposed/manual-officinegenerale-com-eb404c__scroll0.webp",
+      "shots/_proposed/manual-officinegenerale-com-eb404c__scroll1.webp",
+      "shots/_proposed/manual-officinegenerale-com-eb404c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.officinegenerale.com/pages/home-dlc",
+        "full": "shots/_proposed/manual-officinegenerale-com-eb404c__p2.webp"
+      },
+      {
+        "url": "https://www.officinegenerale.com/collections/all",
+        "full": "shots/_proposed/manual-officinegenerale-com-eb404c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "luxury-retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed editorial photography dominates hero and key section introductions, creating an immersive visual experience with minimal UI elements."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for the main brand identity and key section titles, contrasted with a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, sophisticated palette of deep charcoal/navy, crisp white, and natural earth tones from photography, with minimal accent colors used sparingly for interaction."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero sections feature a subtle parallax effect where large background images scroll slower than foreground text and overlays, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent, full-width image-based hero sections introduce content, often with overlaid uppercase text, followed by structured product grids."
+    }
+  ],
+  "technique_notes": [
+    "The site employs large, full-bleed background images in hero sections that exhibit a subtle parallax scrolling effect, where the image moves at a slower rate than the foreground content, enhancing depth. This effect is likely achieved using JavaScript (e.g., webgl-three or custom scroll-triggered animation).",
+    "A sticky header is implemented, featuring the brand logo and main navigation links, which remains visible at the top of the viewport as the user scrolls down the page.",
+    "Product listings are presented in a responsive grid layout, where individual product cards maintain consistent spacing and alignment, often with hover effects for details or calls to action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1f2a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#f2f0e6",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "Hanken Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif display font (~4-5x body) for brand identity, with clear, legible sans-serifs for headings (~2-3x body) and body text. Many labels are small and uppercase.",
+    "radius": "Sharp corners throughout, no visible rounded elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a structured, consistent grid for product displays."
+  },
+  "standout": "The site's distinctive use of high-fashion editorial photography as dominant, full-bleed visual elements, combined with a sophisticated, almost minimalist typographic hierarchy, elevates the e-commerce experience beyond a typical product catalog into a curated brand narrative.",
+  "animation_tech": [
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

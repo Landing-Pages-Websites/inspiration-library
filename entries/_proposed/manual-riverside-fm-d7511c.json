@@ -1,0 +1,110 @@
+{
+  "id": "manual-riverside-fm-d7511c",
+  "source": {
+    "url": "https://riverside.fm",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-riverside-fm-d7511c.webp",
+    "scroll": [
+      "shots/_proposed/manual-riverside-fm-d7511c__scroll0.webp",
+      "shots/_proposed/manual-riverside-fm-d7511c__scroll1.webp",
+      "shots/_proposed/manual-riverside-fm-d7511c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "content-creation",
+      "video-editing",
+      "podcasting"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, immersive background for most sections, punctuated by lighter off-white sections for contrast and readability, and a unique textured background for a key transitional message."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and modern sans-serif, providing strong visual hierarchy, complemented by clear, readable sans-serif body text and smaller, often uppercase labels for feature tags and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark grey/near-black (#1d1d1d) is used for backgrounds, contrasted with off-white (#f6f6f3) for text and secondary backgrounds, and a vibrant purple (#9671ff) as a primary accent and call-to-action color."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background video scrolls slower than the foreground content. Subsequent content sections reveal by sliding up into view, often with a soft fade, and a distinct full-width textured background section transitions in to highlight a key message."
+    },
+    {
+      "kind": "section",
+      "note": "Product features are showcased through a combination of large, high-fidelity product mockups and embedded video players, often presented in a two-column layout with descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-bleed video background that scrolls at a slower rate than the overlaying text and interactive elements, creating a subtle parallax depth effect. This is likely achieved using CSS transforms or a JavaScript library.",
+    "Content sections are revealed as the user scrolls, appearing to slide up from the bottom of the viewport with a gentle fade-in. This scroll-triggered animation system likely uses CSS keyframes or a JavaScript animation library to orchestrate the staggered appearance of elements within each section.",
+    "A horizontal carousel, likely implemented with Swiper.js, is used to display a series of user testimonials or featured content, allowing users to swipe through items."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d1d",
+        "role": "background"
+      },
+      {
+        "hex": "#f6f6f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#9671ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#eae3ff",
+        "role": "cta-hover"
+      },
+      {
+        "hex": "#888888",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#111111",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter-custom-woff2",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) with clear, legible body text and smaller, often uppercase labels, creating a modern and authoritative feel.",
+    "radius": "Subtle rounded corners (approx. 4-8px) are consistently applied to buttons, input fields, and card-like elements, providing a soft, modern touch without being overly rounded.",
+    "spacing": "Balanced to airy, with generous vertical padding between main sections, particularly in the hero, and well-distributed elements within content blocks, ensuring good readability and visual breathing room."
+  },
+  "standout": "The site's standout feature is its immersive, dark-themed aesthetic combined with high-quality, dynamic product visuals and video integration. The use of a subtle parallax hero and distinct, full-width background transitions for key messaging sections creates a premium, engaging, and highly professional user experience that feels more like an interactive product demo than a static marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

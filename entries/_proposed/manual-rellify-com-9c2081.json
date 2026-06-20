@@ -1,0 +1,116 @@
+{
+  "id": "manual-rellify-com-9c2081",
+  "source": {
+    "url": "https://rellify.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-rellify-com-9c2081.webp",
+    "scroll": [
+      "shots/_proposed/manual-rellify-com-9c2081__scroll0.webp",
+      "shots/_proposed/manual-rellify-com-9c2081__scroll1.webp",
+      "shots/_proposed/manual-rellify-com-9c2081__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "business-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with centered content, frequently featuring large, detailed product UI screenshots or conceptual diagrams that span a significant portion of the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with prominent, oversized display headings (e.g., 'The Expert Agent System') paired with smaller, legible body text and occasional uppercase labels for categories or tags."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of clean whites and dark grays/blacks, vibrantly accented by a purple-to-blue gradient used in hero backgrounds, footer elements, and CTA buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar remains fixed at the top. The hero section employs a layered scroll effect where the main content (including a large product UI screenshot) scrolls over a static or very slowly parallaxing background gradient, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of illustrative product UI screenshots and diagrams, integrated directly into content sections, to visually explain complex features and system architectures."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header navigation that remains visible at the top of the viewport during scroll, providing persistent access to site links.",
+    "Create a layered hero section where a large, detailed product UI graphic scrolls with the page content, while a vibrant background gradient behind it remains fixed or subtly parallaxed, giving a sense of depth and visual interest.",
+    "Design feature sections using a combination of concise text, clear headings, and large, high-fidelity product screenshots or conceptual diagrams to visually explain complex functionalities and system benefits."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#101011",
+        "role": "text"
+      },
+      {
+        "hex": "#6B47ED",
+        "role": "cta"
+      },
+      {
+        "hex": "#F3F1EE",
+        "role": "surface"
+      },
+      {
+        "hex": "#09F",
+        "role": "accent"
+      },
+      {
+        "hex": "#2B2B2C",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "light-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Switzer",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~3-4x body) with clear hierarchy, complemented by smaller, uppercase labels.",
+    "radius": "Subtle rounded corners on cards, buttons, and input fields, maintaining a modern and approachable feel.",
+    "spacing": "Balanced overall, with airy spacing in the hero and between major sections, becoming more dense in feature grids and pricing tables."
+  },
+  "standout": "The site's distinctive strength lies in its sophisticated integration of large, detailed product UI screenshots and conceptual diagrams directly into the page content. This visual storytelling makes the abstract concept of 'expert agent systems' tangible and highly credible, effectively showcasing the product's depth and functionality.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

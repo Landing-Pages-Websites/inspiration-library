@@ -1,0 +1,108 @@
+{
+  "id": "manual-koala-sh-2b72a4",
+  "source": {
+    "url": "https://koala.sh",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-koala-sh-2b72a4.webp",
+    "scroll": [
+      "shots/_proposed/manual-koala-sh-2b72a4__scroll0.webp",
+      "shots/_proposed/manual-koala-sh-2b72a4__scroll1.webp",
+      "shots/_proposed/manual-koala-sh-2b72a4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "content-creation",
+      "seo-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily presented in a dark-themed, centered layout with generous vertical spacing between sections, often utilizing multi-column card grids for features, testimonials, and examples."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used consistently, featuring large, bold headings for impact, clear body text, and smaller, uppercase labels for contextual information."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark background is contrasted with light gray and white text, with a vibrant blue used sparingly but effectively for calls-to-action, links, and subtle accent elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content cards (testimonials, features, examples) are revealed with a subtle fade-in and slight slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms into a compact, sticky header with a hamburger menu and a call-to-action button after the user scrolls past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Information is broken down into distinct, full-width sections, each with a clear heading and often a grid of related content cards, creating a modular and scannable page structure."
+    }
+  ],
+  "technique_notes": [
+    "Uses CSS keyframe animations to reveal content sections and individual cards with a fade-in and subtle vertical translation as they scroll into view.",
+    "The main header dynamically shrinks and changes its content (replacing logo and full nav with a hamburger menu and CTA) to become a sticky navigation bar after a certain scroll threshold.",
+    "Card elements feature a subtle border and background color that is distinct from the main page background, providing visual separation and depth in the dark theme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#11191f",
+        "role": "background"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "text"
+      },
+      {
+        "hex": "#9ba2ae",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#4a70ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a232b",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (H1, H2) create strong hierarchy, with body text being clear and readable, complemented by smaller, uppercase labels for emphasis.",
+    "radius": "Subtle rounding on cards, buttons, and input fields, providing a soft, modern feel without being overly rounded.",
+    "spacing": "Balanced to airy, with generous vertical padding between main sections and comfortable spacing within card elements, contributing to a clean and uncluttered appearance."
+  },
+  "standout": "The site's distinctive dark mode aesthetic, combined with a highly modular card-based layout and subtle scroll-triggered content reveals, creates a professional and engaging user experience. The consistent use of a single vibrant blue accent against the deep dark background is particularly effective in guiding attention.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "manual-squadcast-com-b54219",
+  "source": {
+    "url": "https://squadcast.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-squadcast-com-b54219.webp",
+    "scroll": [
+      "shots/_proposed/manual-squadcast-com-b54219__scroll0.webp",
+      "shots/_proposed/manual-squadcast-com-b54219__scroll1.webp",
+      "shots/_proposed/manual-squadcast-com-b54219__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "enterprise-software",
+      "incident-management"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll: the initial announcement bar disappears, and the nav bar itself slightly reduces in height while gaining a subtle shadow and backdrop blur effect as it becomes sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like headlines, text blocks, and images) animate into view with a subtle fade-up or slide-up effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "layout",
+      "note": "Consistent use of two-column content blocks throughout the page, typically pairing descriptive text on one side with a relevant illustration, diagram, or product screenshot on the other."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic application of a vibrant orange accent color for primary call-to-action buttons and key brand graphics, providing a high-contrast focal point against the dominant cool blues and neutral backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "The sticky header effect is achieved by detecting scroll position: an initial top banner is hidden, and the main navigation bar dynamically adjusts its height and applies a subtle box-shadow and backdrop blur filter to differentiate it from the page content.",
+    "Scroll-triggered content reveals are implemented using CSS keyframes, animating sections and individual content elements (like text and images) with a staggered fade-up or slide-up motion as they become visible within the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f3f5f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#1b7ff1",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#000080",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#fbad41",
+        "role": "cta"
+      },
+      {
+        "hex": "#807f93",
+        "role": "body-text"
+      },
+      {
+        "hex": "#9939eb",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Mulish",
+        "role": "heading"
+      },
+      {
+        "family": "Nunitosans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings establish a clear hierarchy, complemented by highly readable body text, maintaining a professional and modern character.",
+    "radius": "Subtle rounded corners are applied consistently to buttons, cards, and image containers, contributing to a soft yet professional aesthetic.",
+    "spacing": "Balanced to airy spacing is used throughout, with generous vertical padding between sections and comfortable internal spacing within content blocks, ensuring readability and visual breathing room."
+  },
+  "standout": "This site masterfully blends an enterprise-grade, authoritative tone with a clean, approachable visual style. Its distinctive use of a vibrant orange accent color, coupled with clear information architecture and a strong emphasis on trust signals (awards, customer logos, testimonials), effectively conveys both reliability and ease of use without feeling cluttered.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

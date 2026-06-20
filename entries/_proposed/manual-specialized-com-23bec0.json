@@ -1,0 +1,123 @@
+{
+  "id": "manual-specialized-com-23bec0",
+  "source": {
+    "url": "https://www.specialized.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-specialized-com-23bec0.webp",
+    "scroll": [
+      "shots/_proposed/manual-specialized-com-23bec0__scroll0.webp",
+      "shots/_proposed/manual-specialized-com-23bec0__scroll1.webp",
+      "shots/_proposed/manual-specialized-com-23bec0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.specialized.com/us/en/faq",
+        "full": "shots/_proposed/manual-specialized-com-23bec0__p2.webp"
+      },
+      {
+        "url": "https://www.specialized.com/us/en/stories",
+        "full": "shots/_proposed/manual-specialized-com-23bec0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "cycling",
+      "e-commerce",
+      "outdoor-gear"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero and feature sections utilize large, aspirational photography as backgrounds, often with text overlays."
+    },
+    {
+      "kind": "layout",
+      "note": "Horizontal carousels are used to display collections of products or articles, allowing users to browse multiple items efficiently within a section."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark mode for global elements like the header and footer, and a predominantly light mode for main content areas, creating clear visual separation."
+    },
+    {
+      "kind": "type",
+      "note": "Smaller, uppercase labels are frequently used for categories, sub-headers, or secondary information, providing clear hierarchy and a modern aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls slower than the foreground text and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, maintaining its dark background and white text without transformation as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "The hero section creates depth with a subtle background parallax effect, where the large image scrolls at a slower rate than the overlaid text and buttons. Horizontal content carousels, likely powered by Swiper, are implemented to showcase multiple items in a compact, interactive format. The global navigation bar is fixed to the top of the screen, providing persistent access without visual changes on scroll.",
+    "Sections are often introduced with large, full-width photographic backgrounds, sometimes with a dark overlay to ensure text readability. Content within these sections is typically centered or aligned to a clear grid, maintaining a clean and organized presentation.",
+    "Typography uses a bold, modern sans-serif for headings to create impact, while body text employs a highly legible sans-serif. Smaller, uppercase text is used for labels and secondary information to establish a clear visual hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#414141",
+        "role": "surface"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface-accent"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "placeholder"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4-5x body text) with clean, legible body text and smaller, uppercase labels for categories.",
+    "radius": "Mostly sharp corners for cards and buttons, with very subtle rounding on input fields.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and well-distributed elements within grids."
+  },
+  "standout": "The site's design is distinguished by its consistent use of stunning, large-scale, aspirational photography that deeply integrates with the content, especially in hero and feature sections. This visual storytelling, combined with a clean, high-contrast design, effectively conveys a sense of adventure and high performance, making the brand feel premium and authentic to the cycling lifestyle.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

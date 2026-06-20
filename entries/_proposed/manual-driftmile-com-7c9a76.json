@@ -1,0 +1,102 @@
+{
+  "id": "manual-driftmile-com-7c9a76",
+  "source": {
+    "url": "https://driftmile.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-driftmile-com-7c9a76.webp",
+    "scroll": [
+      "shots/_proposed/manual-driftmile-com-7c9a76__scroll0.webp",
+      "shots/_proposed/manual-driftmile-com-7c9a76__scroll1.webp",
+      "shots/_proposed/manual-driftmile-com-7c9a76__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-services",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content is centered horizontally and vertically within a dark, full-bleed background, creating a focused interstitial experience."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, featuring light text and a vibrant green call-to-action button against a deep, dark background."
+    },
+    {
+      "kind": "type",
+      "note": "The page uses a clear typographic hierarchy with a large, prominent heading for the main message, smaller descriptive text, and very small legal disclaimers at the bottom."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion is observed; the page content remains static regardless of scroll depth. The only animation is an internal loading spinner."
+    },
+    {
+      "kind": "section",
+      "note": "The page is structured as a single, full-screen interstitial section, dedicated entirely to a loading or waiting state."
+    }
+  ],
+  "technique_notes": [
+    "The page is designed as a static interstitial screen, displaying a central loading animation to indicate progress. No elements reveal, animate, parallax, or stick based on user scroll, maintaining a fixed viewport experience.",
+    "A central content block is positioned using flexbox or grid properties to ensure it remains perfectly centered on the screen, regardless of viewport size, against a solid background color."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#212A32",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#B0B0B0",
+        "role": "surface"
+      },
+      {
+        "hex": "#38B26C",
+        "role": "cta"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Noto Sans SC",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Noto Sans SC",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A clear hierarchy with a large, bold heading (~2x body) for the main message, standard body text, and very small, light disclaimer text.",
+    "radius": "subtle \u2014 primarily seen on the CTA button and the central content box.",
+    "spacing": "airy \u2014 significant whitespace surrounds the central content block, creating a sense of calm and focus, while text within the block is balanced."
+  },
+  "standout": "This site's design is distinctive in its absolute minimalism, serving as a highly focused interstitial loading screen. The standout feature is the stark contrast between the dark, expansive background and the brightly lit, centered content block, drawing immediate attention to the loading state and call to action.",
+  "animation_tech": [],
+  "status": "proposed"
+}

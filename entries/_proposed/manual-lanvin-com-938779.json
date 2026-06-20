@@ -1,0 +1,111 @@
+{
+  "id": "manual-lanvin-com-938779",
+  "source": {
+    "url": "https://www.lanvin.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-lanvin-com-938779.webp",
+    "scroll": [
+      "shots/_proposed/manual-lanvin-com-938779__scroll0.webp",
+      "shots/_proposed/manual-lanvin-com-938779__scroll1.webp",
+      "shots/_proposed/manual-lanvin-com-938779__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed editorial imagery sections are interspersed with structured product grids, creating a magazine-like flow that prioritizes visual impact."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for the brand logo and prominent display text, contrasted with a clean, modern sans-serif for navigation, body copy, and product details, often in uppercase for labels."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of off-white backgrounds and black text is punctuated by vibrant, high-contrast colors within product photography and occasional red accents for sale indicators."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a parallax effect where the background image scrolls slower than the overlayed text and decorative corner elements. The main header shrinks in height and maintains its sticky position after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial-style full-bleed image sections featuring models or styled products are used to break up and visually enhance product listing areas, often with subtle textured backgrounds and decorative frame overlays."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax scrolling effect, likely using CSS transforms or JavaScript, where the background image moves at a slower rate than the foreground text and decorative frame elements, creating a sense of depth. This section also functions as a carousel, likely powered by Swiper, for multiple hero visuals.",
+    "The global navigation bar transitions from a taller, more prominent state to a condensed, sticky version with reduced height and padding after the user scrolls past the initial viewport, maintaining brand presence without obstructing content.",
+    "Product and editorial content is presented using full-bleed, high-resolution photography that spans the width of the viewport, giving a premium, immersive feel. These are often paired with subtle textured backgrounds and decorative corner overlays to mimic a physical print layout."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F7F7F7",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#B50700",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2F2F2",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "LanvinUnica",
+        "role": "display"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif headings are significantly larger than the clean sans-serif body text, with navigation and labels often in small, uppercase sans-serif.",
+    "radius": "sharp corners throughout for images, buttons, and product cards.",
+    "spacing": "airy hero and editorial sections, balanced spacing in product grids and footer."
+  },
+  "standout": "The site effectively blends high-fashion editorial photography with a clean e-commerce interface. The use of full-bleed, art-directed imagery, often with a subtle textured background and decorative frame elements, elevates the product presentation beyond a typical grid, creating a distinct luxury magazine feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

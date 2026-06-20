@@ -1,0 +1,118 @@
+{
+  "id": "manual-cap-so-5f0009",
+  "source": {
+    "url": "https://cap.so",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-cap-so-5f0009.webp",
+    "scroll": [
+      "shots/_proposed/manual-cap-so-5f0009__scroll0.webp",
+      "shots/_proposed/manual-cap-so-5f0009__scroll1.webp",
+      "shots/_proposed/manual-cap-so-5f0009__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "screen-recording"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are used for feature sections, alternating the placement of descriptive text and large product mockups on left and right sides."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings introduce each major section, providing clear hierarchy and visual weight against smaller, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light, off-white background is contrasted with a vibrant, multi-color accent palette primarily used within product UI mockups and call-to-action elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections reveal themselves with a subtle slide-up and fade-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the page, providing persistent access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Each feature section is anchored by a large, detailed product UI mockup that visually demonstrates the functionality being described."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed with a staggered fade-up and slight upward translation as they scroll into view, creating a dynamic content flow.",
+    "The hero section features a full-width video player that auto-plays, immediately showcasing product functionality.",
+    "Complex product mockups are rendered with dynamic animations, likely using canvas or CSS keyframes, to illustrate interactive UI elements and feature workflows."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f8f8",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#4785ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#cba6f7",
+        "role": "accent"
+      },
+      {
+        "hex": "#a6e3a1",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff5f57",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffbd2e",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual hierarchy, complemented by comfortable body text and small, uppercase labels.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, cards, and UI elements within product mockups.",
+    "spacing": "Balanced to airy spacing is used throughout, with generous vertical separation between sections and comfortable horizontal padding within content blocks."
+  },
+  "standout": "The site's most distinctive feature is its use of highly detailed, animated product UI mockups as the primary visual elements for explaining features. These are not static images but dynamic, almost interactive representations of the software, effectively demonstrating functionality without requiring a live demo.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "manual-typebot-io-da1600",
+  "source": {
+    "url": "https://typebot.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-typebot-io-da1600.webp",
+    "scroll": [
+      "shots/_proposed/manual-typebot-io-da1600__scroll0.webp",
+      "shots/_proposed/manual-typebot-io-da1600__scroll1.webp",
+      "shots/_proposed/manual-typebot-io-da1600__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "chatbots",
+      "no-code"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site consistently uses a dark mode aesthetic with centered content blocks and generous vertical spacing between sections, creating a clean and focused presentation."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant orange and multi-color gradients are strategically used as accent colors against the dark background, drawing attention to CTAs and key visual elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent bottom navigation bar smoothly reveals itself after the initial scroll, providing always-available access to important site links."
+    },
+    {
+      "kind": "section",
+      "note": "Feature lists and departmental offerings are presented as distinct, icon-led cards with concise descriptions, often grouped in a grid or list format."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, establishing a clear hierarchy against smaller, readable body text, all in a high-contrast white or light gray."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video with a subtle, dynamic gradient overlay, creating an engaging and modern first impression.",
+    "A sticky bottom navigation bar is designed to appear after a user scrolls past the initial hero, providing persistent access to key navigation items without cluttering the top of the page.",
+    "Content sections are primarily static, revealing sequentially as the user scrolls down the page, maintaining a clear visual hierarchy without complex scroll-triggered animations for individual elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#b3b3b3",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#ff5924",
+        "role": "cta"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff8963",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#e44a19",
+        "role": "accent-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, readable body text, creating a strong visual hierarchy.",
+    "radius": "Subtle rounded corners on buttons, cards, and input fields, providing a soft, modern feel without being overly rounded.",
+    "spacing": "Balanced to airy, with generous vertical padding between major sections and well-distributed elements within content blocks."
+  },
+  "standout": "This site stands out with its bold, dark mode aesthetic, effectively using vibrant gradient accents to highlight key information and calls to action. The distinctive sticky bottom navigation bar that appears on scroll is a unique approach to persistent navigation, offering a fresh alternative to traditional top-fixed headers.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "manual-climateinteractive-org-4bdbec",
+  "source": {
+    "url": "https://www.climateinteractive.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-climateinteractive-org-4bdbec.webp",
+    "scroll": [
+      "shots/_proposed/manual-climateinteractive-org-4bdbec__scroll0.webp",
+      "shots/_proposed/manual-climateinteractive-org-4bdbec__scroll1.webp",
+      "shots/_proposed/manual-climateinteractive-org-4bdbec__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.climateinteractive.org/blog",
+        "full": "shots/_proposed/manual-climateinteractive-org-4bdbec__p2.webp"
+      },
+      {
+        "url": "https://www.climateinteractive.org/donate",
+        "full": "shots/_proposed/manual-climateinteractive-org-4bdbec__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "environmental",
+      "research"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within a fixed maximum width, allowing for full-bleed background colors or images to extend across the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using a single sans-serif font family, with bold, prominent headings for sections and smaller, often uppercase labels for sub-sections or call-to-action elements."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant palette of deep blues, white, and light grey is used to convey authority and professionalism, with varying shades of blue distinguishing interactive elements and content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content sections and individual elements (like cards and text blocks) animate into view with a subtle fade-up or slide-up effect, creating a dynamic reveal experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay on the hero section to a solid white, slightly condensed sticky bar with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Key impact metrics are highlighted immediately below the hero in a prominent three-card grid, using distinct shades of blue to differentiate each statistic."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the scroll-triggered motion, elements should be initially hidden or positioned off-screen, then animated into their final visible state (e.g., fading in and sliding up) using CSS keyframe animations or a JavaScript-based scroll animation library when they enter the viewport. The navigation bar's transformation can be achieved by applying CSS class changes based on scroll position, altering its background, height, and potentially adding a box-shadow.",
+    "Full-width sections with contained content can be built using a main container with a max-width and horizontal auto-margins, while background elements are applied to parent wrappers that span 100% of the viewport width."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EEEEEE",
+        "role": "surface"
+      },
+      {
+        "hex": "#004785",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "secondary-blue"
+      },
+      {
+        "hex": "#17A2B8",
+        "role": "accent-teal"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clear hierarchy with prominent, bold sans-serif headings (hero ~3x body, section ~2x body) and smaller, often uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners on buttons, cards, and input fields, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced with generous vertical spacing between major sections, creating an airy feel, while content within sections (e.g., card grids) maintains a consistent, slightly tighter rhythm."
+  },
+  "standout": "The site effectively communicates complex scientific information with a clear, authoritative, and trustworthy visual language. Its distinctive use of a deep blue palette combined with clean typography and impact-driven metrics creates a sense of gravitas and urgency without being overwhelming. The design's strength lies in its ability to present data-heavy content in an accessible and engaging manner.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

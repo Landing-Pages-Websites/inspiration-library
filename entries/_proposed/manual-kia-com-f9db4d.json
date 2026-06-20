@@ -1,0 +1,112 @@
+{
+  "id": "manual-kia-com-f9db4d",
+  "source": {
+    "url": "https://www.kia.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-kia-com-f9db4d.webp",
+    "scroll": [
+      "shots/_proposed/manual-kia-com-f9db4d__scroll0.webp",
+      "shots/_proposed/manual-kia-com-f9db4d__scroll1.webp",
+      "shots/_proposed/manual-kia-com-f9db4d__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.kia.com/us/en/k4",
+        "full": "shots/_proposed/manual-kia-com-f9db4d__p2.webp"
+      },
+      {
+        "url": "https://www.kia.com/us/en/ev",
+        "full": "shots/_proposed/manual-kia-com-f9db4d__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "car-manufacturer"
+    ],
+    "mood": [
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of full-bleed, high-resolution photography as background elements for major sections, often with a dark overlay for text contrast."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating dark (deep blue/black) and light (white/light grey) background sections to visually segment content blocks and create clear hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-bleed background images in key sections exhibit a subtle parallax or fixed-position effect, creating a layered depth as foreground content scrolls over them."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a gentle fade-in or slide-up animation as they enter the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep dark blues/blacks and crisp whites, accented by a vibrant red for branding and key calls to action."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to enhance the user experience. As the user scrolls, new content sections are revealed with a subtle fade-in or slide-up effect. Large, full-bleed background images are either fixed in place or implement a gentle parallax, creating a sense of depth as foreground elements scroll past. The primary navigation bar remains sticky at the top of the viewport, maintaining accessibility. This motion system likely leverages a JavaScript library for scroll observation and animation control, potentially using canvas for more complex visual effects if present, though the observed motion is primarily CSS-driven reveals and background effects.",
+    "Content is presented in distinct, full-width sections that alternate between dark and light backgrounds. Text is often placed directly over full-bleed images, utilizing a semi-transparent dark overlay to ensure high contrast and readability.",
+    "Calls to action are typically presented as rectangular buttons with subtle rounded corners, using either a white background with dark text or a dark background with white text, providing clear visual hierarchy and inviting interaction."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#05141f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e02020",
+        "role": "accent"
+      },
+      {
+        "hex": "#cccccc",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with clear, legible body text and smaller uppercase labels for categories or sub-headings.",
+    "radius": "subtle; buttons and cards have a slight corner radius, while most images and section edges are sharp.",
+    "spacing": "balanced to airy; generous vertical spacing between major sections, with comfortable padding within content blocks."
+  },
+  "standout": "The site's distinctive use of full-bleed, high-quality automotive photography as integral background elements, combined with subtle scroll-triggered depth effects, creates an immersive and premium visual experience. This approach elevates the product presentation beyond a typical marketing site, making the vehicles the undeniable focal point.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

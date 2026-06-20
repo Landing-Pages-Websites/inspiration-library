@@ -1,0 +1,120 @@
+{
+  "id": "manual-therabody-com-d5045a",
+  "source": {
+    "url": "https://www.therabody.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-therabody-com-d5045a.webp",
+    "scroll": [
+      "shots/_proposed/manual-therabody-com-d5045a__scroll0.webp",
+      "shots/_proposed/manual-therabody-com-d5045a__scroll1.webp",
+      "shots/_proposed/manual-therabody-com-d5045a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.therabody.com/pages/quiz",
+        "full": "shots/_proposed/manual-therabody-com-d5045a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "wellness-devices",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, where the background image scrolls at a slower rate than the foreground content and text, adding depth to the initial view."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar at the top of the page transforms from a taller, transparent state to a more compact, sticky bar with a solid white background and a subtle shadow after the user scrolls past the hero section."
+    },
+    {
+      "kind": "layout",
+      "note": "Product grids consistently feature small, distinct 'Sale' or 'New' badges in the top-left corner of each product card, using a contrasting color for immediate visual emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "Many content sections utilize a very light, warm off-white background color (#f7f3e9 or #fffcf5) to subtly differentiate them from the pure white page background, creating a soft visual rhythm and segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "Main section headings are consistently rendered in an uppercase, clean sans-serif font, providing clear hierarchy and a modern, authoritative tone."
+    },
+    {
+      "kind": "section",
+      "note": "The site frequently employs large, aspirational lifestyle imagery as full-width section backgrounds or prominent visual elements, often with text overlaid directly on the image or within a contrasting text block."
+    }
+  ],
+  "technique_notes": [
+    "The motion system uses scroll-triggered animations to reveal content sections. As the user scrolls down, new sections fade in or slide up smoothly into view, creating a dynamic but non-distracting reveal. The hero image employs a parallax scrolling effect where the background moves slower than the foreground elements. The main header transitions its height and background properties to become a sticky navigation bar after an initial scroll threshold.",
+    "Product cards are presented on a subtly tinted background, featuring a clean layout with a prominent product image, title, and price. Small, colored badges are positioned absolutely in the corner of the cards to highlight sales or new arrivals.",
+    "The site establishes a clear visual hierarchy through the use of large, uppercase sans-serif headings for major sections, followed by descriptive body text. Call-to-action buttons use high contrast dark backgrounds with light text for prominence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#252525",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f3e9",
+        "role": "surface"
+      },
+      {
+        "hex": "#b03730",
+        "role": "accent"
+      },
+      {
+        "hex": "#666666",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Suisse Int'l",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, clean sans-serif headings (~2-3x body) with generous line height, paired with legible body text. Uppercase is frequently used for section titles and labels.",
+    "radius": "Subtle rounding on buttons and input fields, with most content blocks and images featuring sharp corners or very slight, almost imperceptible, corner rounding on product cards.",
+    "spacing": "Balanced density overall, with airy spacing around the hero and main content blocks, transitioning to a more compact layout within product grids and the footer."
+  },
+  "standout": "The site's distinctive use of a very subtle, warm off-white background tint across many content sections, rather than pure white, creates a soft, inviting, and slightly premium feel. This, combined with the clean, uppercase typography and aspirational lifestyle imagery, gives the brand a sophisticated and cohesive presence that feels less stark than many modern e-commerce sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
