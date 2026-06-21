@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-builder-io-0e50fa",
+  "source": {
+    "url": "https://builder.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-builder-io-0e50fa.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-builder-io-0e50fa__scroll0.webp",
+      "shots/_proposed/lapa-ninja-builder-io-0e50fa__scroll1.webp",
+      "shots/_proposed/lapa-ninja-builder-io-0e50fa__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "headless-cms"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark mode aesthetic with high-contrast text and accent colors, often presenting complex technical diagrams and UI elements as central visual components within content sections."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold headings, standard body text, and very small, often uppercase labels used for context or sub-sections, sometimes employing a monospaced font for technical details."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant cyan/blue (#01c8f1) is consistently used as a primary accent color for calls to action, links, and key highlights against a predominantly dark background (#0a0a0a) and light text (#faf9f5)."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content sections and their internal elements (text blocks, diagrams, cards) are revealed with a subtle fade-in and slight upward translation animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently pair a concise heading and descriptive text with an intricate, often animated, visual element such as a diagram, code snippet, or UI screenshot that illustrates the concept being explained."
+    }
+  ],
+  "technique_notes": [
+    "Uses CSS keyframe animations, likely triggered by scroll events (e.g., Intersection Observer), to reveal content sections and individual elements with a subtle fade-in and upward slide effect as they become visible in the viewport. The main navigation bar maintains a sticky position at the top of the page.",
+    "Complex technical diagrams and UI mockups are integrated as dynamic, often animated, visual components directly within content sections, rather than static images, to enhance engagement and comprehension.",
+    "The dark theme is implemented with careful attention to contrast, using a deep charcoal background and light text, ensuring readability while allowing the vibrant accent color to pop for interactive elements and key information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#faf9f5",
+        "role": "text"
+      },
+      {
+        "hex": "#01c8f1",
+        "role": "accent"
+      },
+      {
+        "hex": "#5e5e5e",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#f2f2f2",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: monospace",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) provide strong hierarchy, complemented by standard body text and very small, often uppercase labels for detail and context.",
+    "radius": "Subtle \u2014 small corner radius applied consistently to cards, buttons, and input fields, maintaining a clean, modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within complex visual components, creating a sense of clarity and ease of reading."
+  },
+  "standout": "The site's most distinctive feature is its sophisticated integration of a dark, high-contrast theme with intricate, animated technical diagrams and interactive UI elements. These visuals are not merely decorative but are core to explaining complex software concepts, making the product feel tangible and dynamic within the design.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

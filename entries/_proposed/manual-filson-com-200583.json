@@ -1,0 +1,123 @@
+{
+  "id": "manual-filson-com-200583",
+  "source": {
+    "url": "https://www.filson.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-filson-com-200583.webp",
+    "scroll": [
+      "shots/_proposed/manual-filson-com-200583__scroll0.webp",
+      "shots/_proposed/manual-filson-com-200583__scroll1.webp",
+      "shots/_proposed/manual-filson-com-200583__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.filson.com/search",
+        "full": "shots/_proposed/manual-filson-com-200583__p2.webp"
+      },
+      {
+        "url": "https://www.filson.com/pages/repairs",
+        "full": "shots/_proposed/manual-filson-com-200583__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "outdoor-gear",
+      "apparel",
+      "heritage-brand"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography is used extensively for hero sections and large content blocks, often with text overlays for branding and calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "A strong hierarchy is established with large, bold sans-serif headlines for major sections and product categories, complemented by smaller, often uppercase sans-serif text for labels and product details."
+    },
+    {
+      "kind": "color",
+      "note": "The palette features a dominant warm, earthy beige (#e6dbcb) contrasted with deep charcoal/black (#0e0e0b) for text and dark backgrounds, accented by a rich reddish-brown (#bf4940) for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image background parallaxes as the user scrolls, creating a sense of depth, while the main navigation bar transforms into a sticky, condensed version with a solid background."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, visually impactful sections, often alternating between light backgrounds with product grids and dark, full-width photographic brand story blocks."
+    }
+  ],
+  "technique_notes": [
+    "The motion system uses CSS keyframes to create a subtle parallax effect on the hero background image, making it scroll slower than the foreground content. The main navigation bar employs a transform and background change to transition from its initial transparent state to a condensed, sticky version with a solid backdrop upon scrolling. A promotional banner is revealed by sliding down from the top of the viewport after a specific scroll depth is reached.",
+    "Hero sections utilize large, high-resolution images set as full-bleed backgrounds, with text content positioned centrally and given a strong visual weight through large typography and clear contrast against the image.",
+    "Product and category displays are structured in flexible grid layouts, adapting from two to four columns, with each item featuring an image, title, and price, often with a subtle hover effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e6dbcb",
+        "role": "background"
+      },
+      {
+        "hex": "#0e0e0b",
+        "role": "text"
+      },
+      {
+        "hex": "#bf4940",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#00b3ee",
+        "role": "link"
+      },
+      {
+        "hex": "#212324",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FoundersGroteskXCondensed",
+        "role": "display"
+      },
+      {
+        "family": "FoundersGroteskText",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, legible sans-serif body text, frequently using uppercase for labels and product names.",
+    "radius": "Subtle: minimal rounding on buttons and image containers, maintaining a generally sharp aesthetic.",
+    "spacing": "Balanced: generous vertical spacing between sections, with well-defined padding within content blocks and product grids."
+  },
+  "standout": "This site stands out by masterfully blending rugged, high-quality photography with a refined, modern sans-serif typography. The combination creates a distinctive brand identity that feels both heritage-rich and contemporary, avoiding generic e-commerce aesthetics. The subtle parallax and transforming sticky header add a premium, interactive layer without distracting from the product focus.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

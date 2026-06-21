@@ -1,0 +1,115 @@
+{
+  "id": "manual-rag-bone-com-b0b886",
+  "source": {
+    "url": "https://www.rag-bone.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-rag-bone-com-b0b886.webp",
+    "scroll": [
+      "shots/_proposed/manual-rag-bone-com-b0b886__scroll0.webp",
+      "shots/_proposed/manual-rag-bone-com-b0b886__scroll1.webp",
+      "shots/_proposed/manual-rag-bone-com-b0b886__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.rag-bone.com/sale",
+        "full": "shots/_proposed/manual-rag-bone-com-b0b886__p2.webp"
+      },
+      {
+        "url": "https://www.rag-bone.com/mens",
+        "full": "shots/_proposed/manual-rag-bone-com-b0b886__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with clear visual breaks, often using large imagery or solid background colors, creating distinct content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of uppercase sans-serif for navigation, subheadings, and calls to action, providing a clean, modern, and slightly editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark navy, black, and white, with light grey as a secondary background, creating a sophisticated and clean aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "A promotional modal appears on initial page load and then reappears after a significant scroll depth, prompting email signup."
+    },
+    {
+      "kind": "section",
+      "note": "Product listings are consistently presented in multi-column grids, typically 3-4 columns, with clear product images and minimal text."
+    }
+  ],
+  "technique_notes": [
+    "A full-width video element is used as the primary hero background, playing on a loop, with text content overlaid for calls to action.",
+    "The main navigation bar remains fixed at the top of the viewport as the user scrolls, maintaining access to key links and search functionality.",
+    "A full-screen overlay modal is triggered both on initial page load and again after the user scrolls past a certain point, prompting email signup."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#202336",
+        "role": "surface"
+      },
+      {
+        "hex": "#2d2d2d",
+        "role": "text"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are generally large and bold sans-serif, often uppercase, contrasting with smaller, lighter body text for descriptions and navigation.",
+    "radius": "sharp",
+    "spacing": "Balanced overall, with generous vertical spacing in the hero and between main sections, while product grids are more densely packed."
+  },
+  "standout": "The site's distinctive use of a full-bleed, auto-playing video hero combined with a high-contrast, editorial aesthetic creates an immediate sense of modern luxury and dynamic engagement, setting it apart from typical static image heroes. The re-triggering of the email signup modal on scroll is also a notable pattern.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

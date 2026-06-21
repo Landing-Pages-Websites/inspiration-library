@@ -1,0 +1,115 @@
+{
+  "id": "manual-maisonmargiela-com-9653fc",
+  "source": {
+    "url": "https://www.maisonmargiela.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-maisonmargiela-com-9653fc.webp",
+    "scroll": [
+      "shots/_proposed/manual-maisonmargiela-com-9653fc__scroll0.webp",
+      "shots/_proposed/manual-maisonmargiela-com-9653fc__scroll1.webp",
+      "shots/_proposed/manual-maisonmargiela-com-9653fc__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.maisonmargiela.com/en-us",
+        "full": "shots/_proposed/manual-maisonmargiela-com-9653fc__p2.webp"
+      },
+      {
+        "url": "https://www.maisonmargiela.com/en-us/help",
+        "full": "shots/_proposed/manual-maisonmargiela-com-9653fc__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-fashion photography is used as immersive hero backgrounds, often with minimal text overlays, creating a strong visual impact."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for the brand logo and key headings, contrasted with a clean, minimalist sans-serif for body text and navigation, often in uppercase for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black, white, and various greys forms the base, punctuated by a single, bold accent color (red) for specific product highlights or interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, while large hero background images exhibit a subtle parallax effect, scrolling slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "The page structure alternates between expansive, full-width image-heavy hero sections and more structured content blocks like product grids or centered informational text."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky navigation, create a fixed header element that maintains its position at the top of the viewport, ensuring it has a high z-index to overlay scrolling content.",
+    "For the hero sections, implement large background images that are set to cover the container and use a fixed or slow-scrolling background attachment to achieve a subtle parallax effect as foreground text and calls-to-action scroll over them.",
+    "Typography is established by pairing a refined serif font for brand elements and titles with a highly legible, minimalist sans-serif for all other text, often using uppercase styling for calls to action and labels to maintain a clean, editorial feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#CC0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Didot",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~2.5x body) are paired with clean, legible sans-serif body text, and small, uppercase sans-serif labels and CTAs.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical padding around hero sections and between major content blocks, creating a sense of luxury and breathing room."
+  },
+  "standout": "The site's design is distinctive for its bold, editorial use of high-fashion photography as full-bleed hero sections, creating an immersive and luxurious brand experience. The stark black and white palette, punctuated by a single accent color, combined with sophisticated typography, elevates the visual narrative beyond a typical e-commerce site.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

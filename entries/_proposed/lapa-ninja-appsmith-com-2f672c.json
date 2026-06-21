@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-appsmith-com-2f672c",
+  "source": {
+    "url": "https://appsmith.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-appsmith-com-2f672c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-appsmith-com-2f672c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-appsmith-com-2f672c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-appsmith-com-2f672c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "low-code",
+      "development-tools"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark purple and white/light purple backgrounds create a clear visual rhythm and segment content."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headlines are used for primary messaging, often featuring a vibrant purple highlight on key numbers or words."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent vibrant purple is used for all primary call-to-action buttons, interactive elements, and textual highlights, serving as the main accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a looping video demonstrating the product's UI, and subsequent feature sections use similar embedded video or animated sequences to illustrate product capabilities dynamically."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are structured as multi-step processes, each step clearly delineated and paired with a relevant animated product screenshot or video demonstration."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero dynamically showcases product functionality immediately upon page load, engaging the user with a live demonstration of the UI, likely implemented using `video-hero` technology.",
+    "Scroll-triggered reveals bring in new content sections with a subtle fade-up or slide-in effect as they enter the viewport, enhancing content flow and user engagement, likely orchestrated with `gsap`.",
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access to site navigation and calls to action without visual transformation on scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#200F3F",
+        "role": "background"
+      },
+      {
+        "hex": "#7441F7",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F5FF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold hero headline (~4-5x body) with clear hierarchy down to smaller, readable body text and labels.",
+    "radius": "Subtle rounded corners on buttons and interactive elements, maintaining a soft but modern feel.",
+    "spacing": "Balanced and airy, with generous vertical padding between sections and clear internal spacing within content blocks."
+  },
+  "standout": "The site's most distinctive feature is its heavy reliance on high-quality, embedded video and animated UI demonstrations throughout the page, particularly in the hero and feature sections. This effectively communicates complex product functionality without requiring extensive text, making the product feel tangible and dynamic.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "manual-tutima-com-82dd39",
+  "source": {
+    "url": "https://www.tutima.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tutima-com-82dd39.webp",
+    "scroll": [
+      "shots/_proposed/manual-tutima-com-82dd39__scroll0.webp",
+      "shots/_proposed/manual-tutima-com-82dd39__scroll1.webp",
+      "shots/_proposed/manual-tutima-com-82dd39__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tutima.com/",
+        "full": "shots/_proposed/manual-tutima-com-82dd39__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "manufacturing"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive video/image sections dominate the scroll experience, each presenting a distinct visual and thematic statement."
+    },
+    {
+      "kind": "type",
+      "note": "Large, uppercase, single-word headings are used to introduce new thematic sections, creating a bold, editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is used for text and UI elements, allowing the rich, often desaturated, background imagery to take prominence."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero features a subtle parallax effect on the product and background, transitioning into full-screen, scroll-triggered section reveals with large, animating text overlays."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block is presented as a full-viewport section with a distinct background video/image and a prominent, single-word heading."
+    }
+  ],
+  "technique_notes": [
+    "Implement a full-bleed hero section with a video background that subtly parallaxes as the user scrolls, while a key product element (the watch) also moves with a slight offset.",
+    "Create a secondary navigation bar that initially sits below the hero, then becomes sticky at the top of the viewport after a certain scroll threshold.",
+    "Design subsequent content sections as full-viewport height containers, each with its own background video or image. Use scroll-triggered animations to reveal large, uppercase text overlays as each section scrolls into view, creating a dramatic, sequential narrative, leveraging video-hero technology for backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#898989",
+        "role": "surface"
+      },
+      {
+        "hex": "#6B4226",
+        "role": "accent"
+      },
+      {
+        "hex": "#C0A060",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase headings (~4-5x body) create strong visual impact, while body text is small and functional.",
+    "radius": "sharp",
+    "spacing": "airy hero and section breaks, with balanced spacing in footer elements."
+  },
+  "standout": "The site's design is distinctive for its cinematic, full-bleed video backgrounds that serve as immersive section dividers, paired with large, single-word headings that create a powerful, editorial narrative. The prominent, almost sculptural display of the product in the hero section, combined with subtle parallax, sets a luxurious and high-quality tone.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

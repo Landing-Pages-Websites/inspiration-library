@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-merge-dev-7b4ee5",
+  "source": {
+    "url": "https://merge.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-merge-dev-7b4ee5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-merge-dev-7b4ee5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-merge-dev-7b4ee5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-merge-dev-7b4ee5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "api-integration",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent maximum content width, centered horizontally, often featuring asymmetrical arrangements of text and supporting visuals."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is a highly legible, slightly lighter weight sans-serif, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a high-contrast dark text on a light, almost white, background, with a vibrant orange serving as the primary accent color for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, abstract background graphic subtly parallaxes, moving slower than the foreground content, creating a sense of depth as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections of content are revealed with a gentle slide-up and fade-in animation as they enter the viewport, guiding the user's attention through the page."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features a prominent social proof section immediately after the hero, displaying a grid of well-known company logos to build trust early."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header transitions its height and background color from transparent to solid dark after a short scroll, providing persistent navigation in a compact form.",
+    "Content sections are animated into view using scroll-triggered effects, likely leveraging `locomotive-scroll` to detect viewport entry and apply CSS keyframe animations for a subtle fade-up or slide-in.",
+    "A large, abstract background element is set to parallax, moving at a slower rate than the main content as the user scrolls, creating a dynamic sense of depth without distracting from the information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d9d9d9",
+        "role": "background"
+      },
+      {
+        "hex": "#2c2a25",
+        "role": "text"
+      },
+      {
+        "hex": "#ff6e06",
+        "role": "accent"
+      },
+      {
+        "hex": "#274249",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "Inconsolata",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~3-4x body) with standard, legible body text and smaller, often uppercase labels.",
+    "radius": "subtle; buttons and cards have gently rounded corners.",
+    "spacing": "balanced, with generous vertical spacing between major sections and a more compact, grid-like density for feature lists and logo walls."
+  },
+  "standout": "The site's distinctive feature is its use of a large, abstract, and subtly parallaxing background graphic that provides visual interest and depth without competing with the content. This, combined with a very clean, almost stark, content presentation, creates a sophisticated and modern feel that avoids generic marketing aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

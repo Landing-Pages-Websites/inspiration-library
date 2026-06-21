@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-braintrust-dev-da864f",
+  "source": {
+    "url": "https://braintrust.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-braintrust-dev-da864f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-braintrust-dev-da864f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-braintrust-dev-da864f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-braintrust-dev-da864f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "software-development"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background colors are used to segment content, creating strong visual breaks and a clear hierarchy down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and sans-serif, providing strong visual impact, while body text is highly legible and well-spaced."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost electric blue is used as a primary accent and for key interactive elements, contrasting with a largely monochromatic base of white and black, and punctuated by bold, full-bleed section colors like pink and dark green."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic, abstract dot pattern animation that scrolls upwards with the page, while subsequent content sections appear to reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is frequently presented in a two-column layout within sections, often with text on one side and a graphic, chart, or image on the other, maintaining visual balance."
+    }
+  ],
+  "technique_notes": [
+    "The hero background uses a canvas animation to render a dynamic, abstract dot pattern that moves with the scroll, adding a sense of interactivity and modern flair.",
+    "Major content sections are introduced with full-bleed background colors that change dramatically, visually separating distinct topics and creating a strong sense of progression.",
+    "Scroll-triggered animations, likely using CSS keyframes, are employed to reveal content blocks and entire sections as they become visible in the viewport, often with a subtle fade or slide-up effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#4285F4",
+        "role": "cta"
+      },
+      {
+        "hex": "#FA500F",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A4731",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFD800",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with standard readable body text and small, uppercase labels for categories.",
+    "radius": "Subtle rounding on buttons and card-like elements, otherwise sharp corners dominate the overall layout.",
+    "spacing": "Balanced to airy, with generous vertical padding between full-bleed sections and comfortable spacing within content blocks."
+  },
+  "standout": "The site's design is distinctive for its dynamic, animated hero background that creates an immediate sense of modern technology, combined with a bold use of full-bleed, contrasting color sections that provide clear visual segmentation and a strong, confident aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-qovery-com-d04a5a",
+  "source": {
+    "url": "https://qovery.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-qovery-com-d04a5a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-qovery-com-d04a5a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-qovery-com-d04a5a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-qovery-com-d04a5a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "infrastructure",
+      "developer-tools",
+      "ai-platform"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts pairing large text blocks with complex, illustrative diagrams or UI snippets, often with dark backgrounds for the visuals."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings with key phrases highlighted in a vibrant accent purple to draw attention and create visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast between dark (deep purple/black) and light (off-white) sections, unified by a consistent vibrant purple accent for CTAs and highlighted text."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, where elements subtly fade or slide into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A transforming sticky header that changes background, height, and CTA button style (ghost to filled) upon scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently use a combination of descriptive text and detailed, often interconnected, visual diagrams or mockups to explain complex technical concepts."
+    }
+  ],
+  "technique_notes": [
+    "Individual content blocks and sections are animated to appear with a subtle fade-up or slide-in effect as they scroll into the user's view, enhancing engagement. This effect is likely driven by css-keyframes triggered by scroll events.",
+    "The primary navigation bar transitions from a transparent, taller state with a ghost button in the hero to a solid white, slightly condensed state with a filled accent button once the user scrolls down the page.",
+    "Technical concepts are explained through a combination of concise text and intricate, often dark-themed, diagrammatic illustrations or UI components that visually represent the platform's architecture and capabilities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141419",
+        "role": "dark-background-text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "light-background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "off-white-surface"
+      },
+      {
+        "hex": "#642dff",
+        "role": "primary-accent-cta"
+      },
+      {
+        "hex": "#b296ff",
+        "role": "secondary-accent-subtle"
+      },
+      {
+        "hex": "#c7c7d1",
+        "role": "body-text"
+      },
+      {
+        "hex": "#ff5c6a",
+        "role": "tertiary-accent-highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~4-5x body text) with key phrases in accent color, complemented by smaller, legible body text and uppercase labels.",
+    "radius": "subtle rounding (e.g., buttons, cards, input fields) for a soft, modern feel.",
+    "spacing": "balanced to airy, with generous vertical padding between sections and comfortable spacing within content blocks, creating an open layout."
+  },
+  "standout": "The site's distinctive use of complex, interconnected diagrams and UI snippets, often presented in dark-themed sections, effectively communicates the technical nature of the platform while maintaining a sophisticated and clean aesthetic. The dynamic sticky header with its button transformation also adds a polished touch.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

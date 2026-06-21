@@ -1,0 +1,115 @@
+{
+  "id": "manual-therow-com-b8e488",
+  "source": {
+    "url": "https://www.therow.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-therow-com-b8e488.webp",
+    "scroll": [
+      "shots/_proposed/manual-therow-com-b8e488__scroll0.webp",
+      "shots/_proposed/manual-therow-com-b8e488__scroll1.webp",
+      "shots/_proposed/manual-therow-com-b8e488__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.therow.com/pages/wishlist",
+        "full": "shots/_proposed/manual-therow-com-b8e488__p2.webp"
+      },
+      {
+        "url": "https://www.therow.com/pages/contact-us",
+        "full": "shots/_proposed/manual-therow-com-b8e488__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-fashion",
+      "apparel"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An extremely minimalist layout featuring a full-bleed hero image or video that dominates the initial viewport, with minimal overlay text."
+    },
+    {
+      "kind": "type",
+      "note": "All textual elements, including navigation, body, and labels, consistently use a small, understated sans-serif typeface, often in uppercase, with generous letter-spacing."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette dominated by white or very light off-white backgrounds and dark grey or black text, allowing product imagery to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero visual (model) subtly zooms in or scales up as the user scrolls down the page, creating a gentle parallax-like effect that draws attention to the subject."
+    },
+    {
+      "kind": "layout",
+      "note": "A fixed header and footer are present on the initial load, with the footer then scrolling up with the page content as the user progresses down."
+    }
+  ],
+  "technique_notes": [
+    "Implement a subtle, slow-motion zoom or scale transformation on the primary hero image or video element, synchronized with the scroll position, to create a sense of depth and focus. This can be achieved using a scroll-triggered animation library like locomotive-scroll or GSAP.",
+    "Design with an abundance of whitespace around all elements, particularly in the hero and footer areas, to convey a sense of luxury and exclusivity. Content sections are sparse and highly focused.",
+    "Utilize a consistent, small-scale sans-serif typography system across all text, including navigation, headings, and body copy, to maintain an understated and elegant brand voice."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1c1b1b",
+        "role": "text"
+      },
+      {
+        "hex": "#6a6a6a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#dddddd",
+        "role": "border"
+      },
+      {
+        "hex": "#b2a281",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Basic Commercial",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, consistent sans-serif for all text elements, with very little size variation between headings and body, emphasizing a quiet, uniform presence.",
+    "radius": "sharp",
+    "spacing": "Very airy, characterized by generous padding and line-heights, especially in the hero and footer, creating a sense of spaciousness and calm."
+  },
+  "standout": "The site's extreme minimalism and almost complete absence of typical marketing content, relying instead on a single, high-quality, full-bleed visual and subtle scroll-triggered motion to convey luxury and brand identity. It feels more like an art installation or gallery than a traditional e-commerce site.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

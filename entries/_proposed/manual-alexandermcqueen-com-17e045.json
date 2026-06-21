@@ -1,0 +1,112 @@
+{
+  "id": "manual-alexandermcqueen-com-17e045",
+  "source": {
+    "url": "https://www.alexandermcqueen.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-alexandermcqueen-com-17e045.webp",
+    "scroll": [
+      "shots/_proposed/manual-alexandermcqueen-com-17e045__scroll0.webp",
+      "shots/_proposed/manual-alexandermcqueen-com-17e045__scroll1.webp",
+      "shots/_proposed/manual-alexandermcqueen-com-17e045__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.alexandermcqueen.com/en-us/storelocator",
+        "full": "shots/_proposed/manual-alexandermcqueen-com-17e045__p2.webp"
+      },
+      {
+        "url": "https://www.alexandermcqueen.com/en-us/cp/faq",
+        "full": "shots/_proposed/manual-alexandermcqueen-com-17e045__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-fashion",
+      "apparel"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution editorial photography dominates sections, often with text overlays, creating an immersive, magazine-like experience."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for the brand logo and key headings, contrasted with a clean, minimalist sans-serif for body text and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white palette forms the base, allowing the rich, desaturated tones of the photography to provide visual interest and depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation and a top promotional banner transform from transparent overlays to solid black, sticky headers upon scroll, maintaining brand presence and improving legibility."
+    },
+    {
+      "kind": "section",
+      "note": "Large, impactful hero and feature image sections are interspersed with smaller, grid-based product or service showcases, creating a dynamic visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed, high-resolution photography is used as background elements for entire sections, often with a subtle dark overlay to ensure text legibility and create a dramatic mood.",
+    "The main navigation and a top promotional bar are initially transparent and overlay the hero content. Upon scrolling, they transition to a solid black background and become sticky at the top of the viewport, using a smooth CSS animation for the background change.",
+    "Content sections are presented as large, immersive image blocks, sometimes with text and call-to-action buttons directly overlaid, creating a magazine-like editorial feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#C08070",
+        "role": "accent"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, large serif headings (~3-4x body) for impact, complemented by smaller, refined sans-serif body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, with significant vertical padding between major content blocks and full-bleed images, creating a sense of luxury and space."
+  },
+  "standout": "The site's standout feature is its unwavering commitment to high-fashion editorial photography, which serves as the primary design element rather than just supporting content. This creates an immersive, magazine-like experience that prioritizes visual storytelling and brand mood over typical product catalog layouts.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

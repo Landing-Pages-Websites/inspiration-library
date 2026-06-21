@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-signoz-io-71d853",
+  "source": {
+    "url": "https://signoz.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-signoz-io-71d853.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-signoz-io-71d853__scroll0.webp",
+      "shots/_proposed/lapa-ninja-signoz-io-71d853__scroll1.webp",
+      "shots/_proposed/lapa-ninja-signoz-io-71d853__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "observability"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections heavily feature realistic, detailed product UI mockups and data visualizations as their primary visual elements, often spanning significant horizontal space and integrated directly into the explanatory text."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent dark mode theme is used throughout, featuring a deep charcoal background, high-contrast white or light gray text, and vibrant orange and blue accent colors primarily for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the page, content sections reveal with a subtle fade-in and a slight upward slide effect, making new information dynamically appear in the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, often accompanied by smaller, uppercase sub-labels, creating a clear hierarchy against the standard body text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark theme with high contrast typography, using a deep charcoal background and light text for readability, with accent colors reserved for interactive elements.",
+    "Call-to-action buttons utilize solid fills with distinct accent colors (orange and blue) and subtle rounded corners, providing clear visual targets.",
+    "Scroll-triggered animations are used to reveal content sections. As the user scrolls, new sections subtly fade into view and slide up from the bottom, creating a dynamic reading experience. This is likely implemented using CSS keyframes or a JavaScript animation library that observes element visibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#C0C1C3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F4743A",
+        "role": "cta-orange"
+      },
+      {
+        "hex": "#4285F4",
+        "role": "cta-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) with smaller, often uppercase, sans-serif sub-labels, creating a strong, technical hierarchy.",
+    "radius": "Subtle rounded corners on buttons and input fields, but predominantly sharp edges for content blocks and product UI elements.",
+    "spacing": "Balanced to airy; the hero section is quite airy, while feature grids maintain a comfortable but not overly dense rhythm."
+  },
+  "standout": "This site stands out by making its complex product UI and data visualizations the central visual language of its marketing. Instead of abstract illustrations, the actual product experience is showcased directly and extensively, lending immediate credibility and clarity to its technical offerings within a sophisticated dark theme.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

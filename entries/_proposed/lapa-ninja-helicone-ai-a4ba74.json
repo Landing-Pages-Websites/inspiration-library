@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-helicone-ai-a4ba74",
+  "source": {
+    "url": "https://helicone.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-helicone-ai-a4ba74.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-helicone-ai-a4ba74__scroll0.webp",
+      "shots/_proposed/lapa-ninja-helicone-ai-a4ba74__scroll1.webp",
+      "shots/_proposed/lapa-ninja-helicone-ai-a4ba74__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width light blue backgrounds and white or dark grey content blocks, with content consistently constrained to a central maximum width."
+    },
+    {
+      "kind": "type",
+      "note": "Key product features and statistics are highlighted with oversized, bold sans-serif numbers and text, contrasting with smaller, lighter body copy."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent palette of light blues and cyan is used for backgrounds, accents, and call-to-action buttons, providing a cohesive and modern feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar sticks to the top of the viewport after initial scroll, maintaining its full size and styling."
+    },
+    {
+      "kind": "section",
+      "note": "Dashboard UI elements and code snippets are integrated directly into the page layout as prominent, full-width visual sections, serving as both illustration and proof points."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented with a fixed position, ensuring it remains visible at the top of the screen as the user scrolls down the page.",
+    "Sections are structured with alternating background colors and full-width containers, while inner content is centered and constrained to a maximum readable width.",
+    "Subtle, scattered AI-related icons are placed around key text blocks and call-to-action areas, likely using CSS keyframe animations for a gentle floating or rotation effect to add visual interest without distracting from content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f2f9fc",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#32aceb",
+        "role": "cta"
+      },
+      {
+        "hex": "#0ea5e9",
+        "role": "accent"
+      },
+      {
+        "hex": "#1e293b",
+        "role": "text"
+      },
+      {
+        "hex": "#94a3b8",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e2e8f0",
+        "role": "subtle-surface"
+      },
+      {
+        "hex": "#c2fcf6",
+        "role": "background-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large and bold, creating strong visual hierarchy, while body text is smaller and lighter for readability, with occasional oversized numbers for emphasis.",
+    "radius": "Subtle rounded corners are applied consistently to buttons, cards, and image containers, contributing to a soft and approachable feel.",
+    "spacing": "Generous vertical spacing between major sections creates an airy and uncluttered layout, while internal section elements maintain a balanced density."
+  },
+  "standout": "The site distinctively integrates complex dashboard UI screenshots and code snippets directly into the page flow as primary visual elements, making the product's functionality immediately tangible. The scattered, slightly rotated AI-related icons add a playful and dynamic layer without overwhelming the clean layout.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

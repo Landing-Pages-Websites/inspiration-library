@@ -1,0 +1,113 @@
+{
+  "id": "manual-readymag-com-25aef0",
+  "source": {
+    "url": "https://readymag.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-readymag-com-25aef0.webp",
+    "scroll": [
+      "shots/_proposed/manual-readymag-com-25aef0__scroll0.webp",
+      "shots/_proposed/manual-readymag-com-25aef0__scroll1.webp",
+      "shots/_proposed/manual-readymag-com-25aef0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://readymag.com/learn",
+        "full": "shots/_proposed/manual-readymag-com-25aef0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-design-platform",
+      "creative-tools"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a dynamic, multi-column grid of diverse visual content (images, videos, interactive elements) that acts as a showcase, breaking from a traditional single hero image."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, modern sans-serif typeface with generous letter-spacing, creating a strong, confident visual statement, while body text is a clean, legible sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a clean white background, with vibrant, often saturated accent colors introduced through showcased content and a consistent bright orange for primary calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the top navigation bar visibly shrinks in height and gains a subtle background fill, while subsequent content sections slide or fade into view from the bottom."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, well-spaced sections, each with a clear purpose and often a unique visual treatment, such as the eclectic hero grid versus the structured 'Learn' cards."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a complex, interactive grid layout that likely uses a combination of canvas, WebGL (Three.js), and CSS keyframe animations to display a diverse array of dynamic content, potentially including video elements.",
+    "A sticky navigation bar is implemented to transform on scroll, reducing its height and adding a solid background color to maintain visibility and reduce visual footprint.",
+    "Content sections are revealed using scroll-triggered animations, where elements slide up or fade in as they enter the viewport, creating a smooth, engaging scrolling experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "cta"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "custom_37866",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with generous letter-spacing, paired with a clean, readable sans-serif for body text.",
+    "radius": "Subtle radius on interactive elements like buttons, otherwise sharp corners for content blocks and cards.",
+    "spacing": "Balanced to airy; sections are well-separated with ample vertical padding, while content within sections maintains a comfortable density."
+  },
+  "standout": "The site's most distinctive feature is its highly dynamic and visually eclectic hero section, which functions as a living portfolio or showcase of diverse design possibilities rather than a static image. This approach immediately communicates the platform's creative power and flexibility.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

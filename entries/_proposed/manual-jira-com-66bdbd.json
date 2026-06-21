@@ -1,0 +1,113 @@
+{
+  "id": "manual-jira-com-66bdbd",
+  "source": {
+    "url": "https://www.jira.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-jira-com-66bdbd.webp",
+    "scroll": [
+      "shots/_proposed/manual-jira-com-66bdbd__scroll0.webp",
+      "shots/_proposed/manual-jira-com-66bdbd__scroll1.webp",
+      "shots/_proposed/manual-jira-com-66bdbd__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "project-management",
+      "software-development"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are frequently used, pairing a primary text column with a larger, illustrative visual (product UI mockups, diagrams, or card grids) on the opposite side."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a dark background section ('Discover Teamwork') creates a strong visual break and highlights complex product UI elements with glowing accents, contrasting with the predominantly light page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-in and slight upward translation as they scroll into the viewport, creating a dynamic content loading experience."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed, interactive-looking UI mockups and product screenshots are embedded directly into feature sections, serving as primary visual explanations of functionality rather than abstract illustrations."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold display headings for section titles, supported by smaller, legible body text and distinct labels for card elements."
+    }
+  ],
+  "technique_notes": [
+    "A persistent header navigation bar remains fixed at the top of the screen, maintaining access to key links and calls to action without visual transformation as the user scrolls.",
+    "Sections are revealed with a subtle fade-in and slight upward translation as they scroll into the viewport, creating a dynamic content loading experience. This effect is likely achieved using CSS keyframe animations triggered by scroll events.",
+    "Content is organized into full-width sections that alternate between light and dark background colors, with content constrained to a central maximum-width container for readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1868db",
+        "role": "accent"
+      },
+      {
+        "hex": "#101214",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1558bc",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#dfe1e6",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#ffab00",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Charlie Display",
+        "role": "heading"
+      },
+      {
+        "family": "Charlie Text",
+        "role": "body"
+      },
+      {
+        "family": "SFMono-Medium",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, establishing a clear visual hierarchy, with subheadings providing a mid-range size for section introductions.",
+    "radius": "subtle rounded corners (approx. 4-8px) on buttons, input fields, and card elements.",
+    "spacing": "balanced and airy, with generous vertical padding between sections and comfortable horizontal padding for content within containers."
+  },
+  "standout": "The site's distinctive use of highly detailed, embedded UI mockups and interactive-looking product screenshots within its content sections, particularly the dark 'Discover Teamwork' section with glowing elements, effectively demonstrates the product's functionality and sophistication. This approach moves beyond generic illustrations to show the product in action.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

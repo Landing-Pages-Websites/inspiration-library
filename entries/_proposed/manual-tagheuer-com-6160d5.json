@@ -1,0 +1,124 @@
+{
+  "id": "manual-tagheuer-com-6160d5",
+  "source": {
+    "url": "https://www.tagheuer.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-tagheuer-com-6160d5.webp",
+    "scroll": [
+      "shots/_proposed/manual-tagheuer-com-6160d5__scroll0.webp",
+      "shots/_proposed/manual-tagheuer-com-6160d5__scroll1.webp",
+      "shots/_proposed/manual-tagheuer-com-6160d5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.tagheuer.com/f1.html",
+        "full": "shots/_proposed/manual-tagheuer-com-6160d5__p2.webp"
+      },
+      {
+        "url": "https://www.tagheuer.com/us/en",
+        "full": "shots/_proposed/manual-tagheuer-com-6160d5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "automotive"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image transitions into a deep black background for subsequent content sections, creating high contrast and a sense of luxury."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is consistently accented with a vibrant, bold red for calls to action and key brand elements."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section titles use a very wide, thin, uppercase sans-serif font for a sophisticated and modern display effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect where the background moves at a different speed than the foreground watch as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay to a solid white background with black text and icons upon scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections below the hero are presented on a solid black background, often featuring full-width imagery or grid layouts with minimal padding, maintaining a premium feel."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a layered approach with a background image and a foreground product image, both moving at slightly different rates to create a subtle parallax scroll effect. Text elements are positioned absolutely over this composition.",
+    "The main navigation bar employs a scroll-triggered state change: initially transparent with light text, it transitions to a solid white background with dark text and icons once the user scrolls past a certain point, likely using a CSS class toggle.",
+    "Content sections appear to reveal with a fade-in or slide-up animation as they enter the viewport, creating a dynamic and engaging scroll experience. This could be achieved using CSS keyframes or a JavaScript library like Lottie for more complex animations, triggered by scroll events."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ee0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#707070",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#f2f2f2",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#dad9d9",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Open Sans Light Condensed",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, thin, uppercase sans-serif headings (~3-4x body) provide a sophisticated display, complemented by smaller, regular-weight uppercase labels and standard body text.",
+    "radius": "Sharp corners are dominant throughout the design, with only very subtle rounding applied to interactive elements like buttons.",
+    "spacing": "Very airy in the hero and between major content blocks, creating a sense of spaciousness; content grids and footer sections are more balanced in density."
+  },
+  "standout": "The site's distinctive use of a dramatic, full-bleed hero with subtle parallax, immediately transitioning to a deep black background for all subsequent content, creates a powerful, high-contrast, and luxurious brand experience. This bold shift in background color and density is highly impactful.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "manual-lucid-co-cbc12e",
+  "source": {
+    "url": "https://lucid.co",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-lucid-co-cbc12e.webp",
+    "scroll": [
+      "shots/_proposed/manual-lucid-co-cbc12e__scroll0.webp",
+      "shots/_proposed/manual-lucid-co-cbc12e__scroll1.webp",
+      "shots/_proposed/manual-lucid-co-cbc12e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://lucid.co/customers",
+        "full": "shots/_proposed/manual-lucid-co-cbc12e__p2.webp"
+      },
+      {
+        "url": "https://lucid.co/lucidspark",
+        "full": "shots/_proposed/manual-lucid-co-cbc12e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "productivity-tools",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with distinct background colors (white, dark blue, light yellow) to visually segment content and create a clear flow."
+    },
+    {
+      "kind": "type",
+      "note": "Key terms within large, bold section headings are highlighted with a contrasting accent blue color to draw attention to core concepts."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, deep indigo (#282c33) is used as a primary brand color for large background sections, providing a strong visual anchor and contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section dynamically reduces its height on scroll, revealing the subsequent content while the navigation bar remains sticky and gains a solid background."
+    },
+    {
+      "kind": "section",
+      "note": "Product and solution offerings are presented in a consistent grid of cards, each featuring an icon, title, brief description, and a 'Learn More' link."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a scroll-triggered height reduction, where the initial large hero area smoothly collapses to a smaller height as the user scrolls down.",
+    "The global navigation bar uses a sticky position, initially appearing transparent over the hero, then transitioning to a solid white background with a subtle shadow as it sticks to the top of the viewport.",
+    "Content sections are revealed using scroll-triggered animations, likely involving a subtle fade-in and slide-up effect as they enter the viewport, leveraging CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#282c33",
+        "role": "background"
+      },
+      {
+        "hex": "#3c41c2",
+        "role": "accent"
+      },
+      {
+        "hex": "#cdccff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7f4e4",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#dfe3e8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Graphik",
+        "role": "heading"
+      },
+      {
+        "family": "Graphik",
+        "role": "body"
+      },
+      {
+        "family": "GraphikWide",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (Graphik) with a clear hierarchy, often featuring a single accent word in blue, complemented by legible body text.",
+    "radius": "Subtle rounding (e.g., 4-8px) on cards, buttons, and input fields.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within the hero, but a tighter grid for product cards and feature lists."
+  },
+  "standout": "The site effectively uses a strong, consistent brand blue to highlight key terms within large headings, drawing immediate attention to the core value proposition. This, combined with the dynamic shrinking hero and the blend of custom illustrations and detailed product UI screenshots, creates a sophisticated and engaging user experience that feels both authoritative and approachable.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
