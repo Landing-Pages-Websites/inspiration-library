@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0248",
+  "source": {
+    "url": "https://pallet.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0248.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0248__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0248__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0248__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "logistics",
+      "supply-chain",
+      "saas",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently feature a dark background with high-contrast light text, often paired with illustrative UI mockups or data visualizations that span a significant portion of the width."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface for impact, while body text maintains readability with a clean, slightly lighter weight sans-serif, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a sophisticated dark mode palette, primarily using deep dark grays and blacks for backgrounds, contrasted with white or light gray for primary text, and a vibrant red/magenta for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic UI overlay that visually progresses through different states or processes as the user scrolls, demonstrating the product's functionality, while the background video exhibits a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Key sections are introduced with a large, impactful headline and a concise sub-headline, followed by a grid of feature cards or a combination of text and detailed product UI illustrations."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-bleed video hero with a dark overlay to ensure text legibility, creating an immersive initial experience. Subsequent content sections maintain a dark theme with high contrast typography.",
+    "Interactive UI elements are integrated directly into the design, often appearing as detailed, animated mockups that visually explain complex processes or data flows, serving as a core method of product communication.",
+    "The motion system leverages a `video-hero` for an immersive background and `css-keyframes` or similar animation techniques to progressively reveal and animate complex UI mockups within the hero and other sections as the user scrolls, creating a guided visual explanation of the product's capabilities. The navigation bar also transitions to a solid background and subtle shadow upon scrolling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E6004C",
+        "role": "cta"
+      },
+      {
+        "hex": "#544F50",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, legible body text and smaller uppercase labels for navigation and sub-sections.",
+    "radius": "subtle \u2014 minimal rounding on buttons and card corners, maintaining a sharp, modern aesthetic.",
+    "spacing": "balanced \u2014 airy hero section with generous padding, transitioning to a more balanced density in feature grids and content blocks."
+  },
+  "standout": "This site's design is distinctive for its sophisticated integration of complex, animated UI mockups directly into the page content. Rather than static images, these dynamic visuals serve as a primary storytelling device, effectively demonstrating the product's intricate AI processes in a highly engaging and understandable way, elevating functional explanation to a core design element.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

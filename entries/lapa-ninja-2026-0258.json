@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0258",
+  "source": {
+    "url": "https://unkey.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0258.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0258__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0258__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0258__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "api-platform"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use an asymmetrical two-column layout, pairing descriptive text on one side with a visual element like a code snippet, diagram, or UI screenshot on the other."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, almost black background (#040406) is used consistently across all sections, providing a high-contrast canvas for light text and vibrant accent colors."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are paired with smaller, highly legible body text, often with a monospaced font used for code examples and data displays."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic, animated background that subtly parallaxes as the user scrolls, while the main text content scrolls over it. The primary navigation remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are full-bleed, utilizing the entire viewport width, and are visually separated by distinct content blocks rather than explicit dividers or background color changes."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-bleed, dynamic background animation (likely canvas-based) that provides a subtle parallax effect, moving slower than the foreground content as the user scrolls, creating depth.",
+    "A sticky navigation bar maintains its position at the top of the viewport, ensuring consistent access to site links regardless of scroll depth.",
+    "Content sections are designed with a dark, uniform background, using internal padding and visual hierarchy to define distinct content blocks. Visual elements like code snippets and diagrams are integrated directly into the layout, often in a split-panel arrangement with accompanying text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#040406",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#BABABA",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#878787",
+        "role": "tertiary-text"
+      },
+      {
+        "hex": "#6EE7B7",
+        "role": "accent"
+      },
+      {
+        "hex": "#10B981",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear, legible body text and distinct monospaced text for code examples.",
+    "radius": "Subtle (mostly sharp corners, with a very slight radius on interactive elements like buttons and cards).",
+    "spacing": "Balanced to airy, with generous vertical padding between full-bleed sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "The site's standout feature is its sophisticated, dark-themed aesthetic combined with a dynamic, data-visualization-like hero animation. The seamless integration of code snippets and technical diagrams directly into the content sections, all within a consistent high-contrast dark mode, creates a highly professional and developer-centric experience.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

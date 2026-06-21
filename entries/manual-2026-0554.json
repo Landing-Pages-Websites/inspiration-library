@@ -1,0 +1,116 @@
+{
+  "id": "manual-2026-0554",
+  "source": {
+    "url": "https://www.chopard.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0554.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0554__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0554__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0554__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.chopard.com/en-us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0554__p2.webp"
+      },
+      {
+        "url": "https://www.chopard.com/en-us/watches",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0554__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "jewelry",
+      "watches",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent full-width, dark-themed layout with content sections often centered or presented in structured grids, maintaining a sophisticated and uncluttered appearance."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses an elegant serif font for prominent headings and brand elements, contrasted with a clean, legible sans-serif for body text, product details, and navigation, often in uppercase for labels and CTAs."
+    },
+    {
+      "kind": "color",
+      "note": "A luxurious dark mode palette dominates, featuring deep black backgrounds, crisp white or light gray text, and a distinctive warm gold/bronze accent color used for interactive elements, brand logos, and product highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video that subtly zooms and pans as the user scrolls, creating a dynamic parallax effect. The main navigation bar transforms from transparent to an opaque, slightly shrunken dark bar upon scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections are introduced with large, centered serif headings, followed by a consistent 4-column grid of product cards, each featuring a product image and minimal text details on a dark background."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero is implemented with a subtle parallax or zoom effect that activates on scroll, making the background video appear to move independently from the foreground content, enhancing immersion.",
+    "The primary navigation bar employs a sticky behavior, initially appearing transparent over the hero video. Upon scrolling, it transitions to a fixed position, adopting an opaque dark background and slightly reducing its height to maintain prominence without obstructing content.",
+    "Product displays utilize a grid system, likely enhanced by a 'swiper' component for horizontal scrolling carousels in specific sections, allowing users to browse multiple items efficiently within a confined space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E0C29F",
+        "role": "accent"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) for section titles, with smaller, clean sans-serif for body text and uppercase labels.",
+    "radius": "Subtle. Product images and some cards feature sharp corners, while interactive elements like buttons have a very slight rounding.",
+    "spacing": "Balanced to airy. The hero section and main content blocks feature generous vertical spacing, while product grids maintain a balanced density with clear separation between items."
+  },
+  "standout": "This site distinguishes itself through its sophisticated and immersive dark theme, which is consistently applied across all elements. The combination of an elegant serif typeface with a subtly parallaxing video hero creates a high-end, editorial experience that effectively showcases luxury products, making the brand feel exclusive and aspirational.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "manual-2026-0552",
+  "source": {
+    "url": "https://assemblyai.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0552.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0552__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0552__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0552__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.assemblyai.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0552__p2.webp"
+      },
+      {
+        "url": "https://www.assemblyai.com/docs",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0552__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools",
+      "api-platform"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with distinct background colors (light grey/white and dark charcoal) create clear visual breaks. Content blocks within sections often use an asymmetric layout, pairing text on one side with a visual element (image, code block, illustration) on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings are used for main sections, often accompanied by a more technical or descriptive sub-heading. A distinct monospaced font is consistently applied for code examples and technical snippets, reinforcing the developer-focused nature."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted color palette of off-white, light beige, charcoal grey, and a distinct purple accent is used. This combination creates a professional yet modern and technical feel, with the purple serving as the primary call-to-action and interactive element highlight."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from its initial state to a more compact, sticky version with a subtle background and shadow as the user scrolls down the page. Content sections are revealed with subtle fade-in and slight upward slide animations as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site integrates interactive-looking code examples and technical diagrams directly into content sections, often as the primary visual element, rather than relying solely on abstract imagery. This grounds the marketing in the product's technical reality."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions from an initial transparent state to a more compact, sticky state with a subtle background and shadow once the user scrolls past the hero section, using CSS transitions for a smooth effect.",
+    "Content sections are revealed using scroll-triggered animations (likely via JavaScript, leveraging css-keyframes), where elements like headings, text blocks, and cards fade in and subtly slide upwards as they enter the viewport, creating a dynamic browsing experience.",
+    "The hero section incorporates a looping video (video-hero) that simulates a code editor environment, providing a dynamic and technical visual without requiring user interaction, enhancing the product's identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#887bdd",
+        "role": "accent"
+      },
+      {
+        "hex": "#d7d3f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#e3dfcd",
+        "role": "background"
+      },
+      {
+        "hex": "#d2d1d0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Oceanic Text",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: UN 11ST",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Modern Gothic Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (~3-4x body size) are paired with clean, readable body text and very small, often uppercase, labels for technical details or sub-navigation, creating a clear hierarchy.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to buttons, cards, and input fields, giving a soft but professional feel without being overly playful.",
+    "spacing": "Balanced and airy, particularly in the hero and between major sections, providing ample whitespace. Content within sections is well-spaced but denser, maintaining readability for technical information."
+  },
+  "standout": "The site effectively blends a sophisticated, almost editorial aesthetic with a highly technical product by integrating code-like visuals and monospaced typography directly into the marketing narrative. The distinctive video hero that mimics a code editor, combined with the clean, structured layout, makes the complex offering feel approachable yet authoritative and modern.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

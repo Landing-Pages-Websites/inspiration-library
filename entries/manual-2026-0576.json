@@ -1,0 +1,123 @@
+{
+  "id": "manual-2026-0576",
+  "source": {
+    "url": "https://www.marmot.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0576.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0576__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0576__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0576__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.marmot.com/our_story.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0576__p2.webp"
+      },
+      {
+        "url": "https://www.marmot.com/technology.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0576__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "outdoor-gear",
+      "apparel"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality aspirational photography serves as dominant background elements for hero and key content sections, often with text overlays."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is frequently presented in responsive grids for product categories, features, and product listings, maintaining visual consistency."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, large sans-serif headings are used for primary messaging, contrasting with a clean, readable sans-serif for body text and descriptive content."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of dark charcoal, white, and subtle light greys dominates, allowing vibrant outdoor photography to provide visual interest and accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and gaining a solid dark background as it becomes sticky."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls at a slower rate than the foreground content and text."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar uses a scroll-triggered transformation, starting as transparent over the hero and then shrinking in height and gaining a solid dark background as the user scrolls down. This effect is likely achieved with CSS transitions or keyframes triggered by scroll position.",
+    "The hero section features a background image that moves at a slower rate than the foreground content, creating a subtle parallax effect. This can be achieved using CSS background-attachment: fixed or JavaScript-based scroll event listeners.",
+    "Full-bleed, high-resolution outdoor photography is used extensively as section backgrounds, often with a subtle dark overlay to ensure text readability and create a cohesive brand aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f9f9f9",
+        "role": "surface-subtle"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#000066",
+        "role": "brand-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "WorkSans-ExtraBold",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body size) with a clear hierarchy, paired with a clean, readable sans-serif body text.",
+    "radius": "Subtle rounded corners on interactive elements and image frames, with predominantly sharp edges for structural layouts.",
+    "spacing": "Airy spacing in hero and major section breaks, transitioning to a balanced density within product grids and feature lists."
+  },
+  "standout": "The site's standout feature is its immersive use of high-quality, aspirational outdoor photography as full-bleed backgrounds and hero elements, often with dynamic framing and subtle parallax. This creates a strong emotional connection to the brand's adventurous spirit, making the product feel integrated into an active lifestyle rather than just displayed.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

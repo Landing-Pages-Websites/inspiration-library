@@ -1,0 +1,115 @@
+{
+  "id": "manual-2026-0553",
+  "source": {
+    "url": "https://www.breguet.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0553.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0553__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0553__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0553__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.breguet.com/en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0553__p2.webp"
+      },
+      {
+        "url": "https://www.breguet.com/breguet-house",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0553__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "horology"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently alternate between full-width content blocks and split layouts featuring large, high-quality imagery alongside text, often with generous vertical padding."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for primary headings and brand elements, contrasting with a clean, legible sans-serif for body text and navigation, creating an elegant yet modern feel."
+    },
+    {
+      "kind": "color",
+      "note": "The palette relies on a deep, rich navy/charcoal as a primary background and text color, complemented by warm off-whites and a distinctive golden-tan accent for headings and key elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video that plays automatically. As the user scrolls down, the main navigation bar at the top of the page transitions from a transparent, slightly larger state to a smaller, sticky bar with a solid dark background."
+    },
+    {
+      "kind": "section",
+      "note": "Many content sections are introduced with large, impactful photography or video, often full-bleed, emphasizing visual storytelling and product craftsmanship."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using a library like locomotive-scroll, which also orchestrates scroll-triggered animations. Sections are revealed with a gentle fade-up or slide-in motion as they become visible in the viewport.",
+    "The hero section utilizes a full-bleed video background that remains fixed or subtly parallaxes as content scrolls over it, creating depth and an immersive introduction.",
+    "The primary navigation bar dynamically shrinks in height and gains a solid dark background when the user scrolls past the initial hero section, becoming a sticky element at the top of the page for persistent access."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111827",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#cdad69",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8ded0",
+        "role": "surface"
+      },
+      {
+        "hex": "#9ca3af",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, large serif headings (up to ~3-4x body text) paired with smaller, highly legible sans-serif body text. Some uppercase sans-serif labels for buttons and navigation.",
+    "radius": "sharp",
+    "spacing": "airy hero and between major sections, creating a sense of luxury and space; content within sections is balanced."
+  },
+  "standout": "The site's distinctive use of a full-bleed, high-quality video hero combined with elegant serif typography and a restrained, luxurious color palette immediately conveys a sense of heritage and high craftsmanship. The design prioritizes large, impactful imagery and generous white space to highlight the product's prestige rather than relying on dense information.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

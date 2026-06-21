@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-2026-0230",
+  "source": {
+    "url": "https://dvc.org",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0230.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0230__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0230__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0230__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-science",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width sections, often utilizing a two-column grid for feature descriptions and calls to action, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A dynamic, subtle gradient background shifts across sections and appears to parallax, transitioning from light purple to light blue/teal, providing a modern and engaging backdrop."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings (GalanoGrotesque-Bold) are used for impact, paired with clear, readable body text (Roboto), and smaller, uppercase sans-serif labels (Brandon Grotesque) for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, subtle background gradient is fixed to the viewport, creating a gentle parallax effect as the page content scrolls over it, adding depth and visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently present two distinct offerings side-by-side, each with its own set of calls to action and a supporting isometric illustration, clearly differentiating use cases."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar remains visible at the top of the viewport as the user scrolls, while a promotional banner above it dismisses on scroll.",
+    "The site utilizes a large, subtle background gradient that is fixed to the viewport, creating a gentle parallax effect as the page content scrolls over it, implemented with CSS for smooth transitions.",
+    "Isometric illustrations are used to visually represent product features and use cases, likely implemented with Lottie for subtle animations or interactivity on load or hover, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#1f2124",
+        "role": "text"
+      },
+      {
+        "hex": "#003388",
+        "role": "cta"
+      },
+      {
+        "hex": "#945dd6",
+        "role": "accent"
+      },
+      {
+        "hex": "#0ea5e9",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#0891b2",
+        "role": "gradient-mid"
+      },
+      {
+        "hex": "#258c82",
+        "role": "gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GalanoGrotesque-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Brandon Grotesque",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (approx. 3-4x body size) with clear, readable body text. CTAs and labels use a smaller, uppercase sans-serif.",
+    "radius": "Subtle rounded corners (approx. 4-8px) on buttons, input fields, and card elements, providing a soft, modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, but tighter spacing for lists and footer links, creating a comfortable reading experience."
+  },
+  "standout": "The distinctive use of vibrant, shifting gradient backgrounds combined with detailed isometric illustrations gives this site a modern, tech-forward, and slightly playful feel, differentiating it from typical corporate SaaS sites. The illustrations are central to the visual identity, effectively communicating complex concepts in an engaging way.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}

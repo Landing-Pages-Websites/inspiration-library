@@ -1,0 +1,129 @@
+{
+  "id": "manual-2026-0588",
+  "source": {
+    "url": "https://resemble.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0588.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0588__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0588__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0588__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.resemble.ai/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0588__p2.webp"
+      },
+      {
+        "url": "https://www.resemble.ai/products",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0588__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "security",
+      "deepfake-detection"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts with large, impactful headings on one side and supporting content or interactive elements on the other, often within a full-bleed dark background."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, oversized sans-serif headings (Inter) are used for key messages, creating a strong visual hierarchy against smaller, readable body text and distinct monospace elements for technical details."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features deep dark backgrounds (#050505, #111111) paired with bright white text, punctuated by vibrant accent colors like electric green (#25fc54) and reddish-orange (#ff5d48) for CTAs and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport upon scroll. In the hero section, a central interactive card appears to be fixed in the viewport while the background image behind it scrolls, creating a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating full-width sections between very dark backgrounds and lighter grey backgrounds, providing clear visual separation and rhythm down the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible at the top of the viewport as the user scrolls. The hero section features a fixed-position interactive element (a card) that stays centered while a background image behind it scrolls, creating a layered parallax effect. Other content sections reveal themselves by scrolling normally into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#494b4a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#25fc54",
+        "role": "cta"
+      },
+      {
+        "hex": "#ff5d48",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff9e98",
+        "role": "accent-light"
+      },
+      {
+        "hex": "#8bd5bd",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong impact, with a clear hierarchy down to smaller, readable body text and distinct monospace labels.",
+    "radius": "Subtle; elements like buttons and cards feature slightly rounded corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a tighter density within card components."
+  },
+  "standout": "The site's design is distinctive for its bold, high-contrast aesthetic, combining deep dark backgrounds with stark white typography and vibrant, almost neon, accent colors. The use of a fixed interactive element within a parallaxing hero background creates a unique visual anchor that immediately draws attention and sets a modern, tech-forward tone.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

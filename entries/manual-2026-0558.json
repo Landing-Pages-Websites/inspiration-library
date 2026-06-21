@@ -1,0 +1,110 @@
+{
+  "id": "manual-2026-0558",
+  "source": {
+    "url": "https://creately.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0558.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0558__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0558__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0558__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://creately.com/tour",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0558__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "collaboration"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with white and light gray backgrounds are used to visually separate distinct content blocks and improve readability."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for primary sections, scaled down for subheadings, and a clean, readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant blue is consistently used for primary calls-to-action, interactive elements, and key brand accents, providing a clear focal point against a predominantly white and dark blue interface."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport after the initial scroll, remaining accessible throughout the page content."
+    },
+    {
+      "kind": "section",
+      "note": "Most feature sections follow a consistent structure: a prominent heading, a concise descriptive paragraph, and a large, detailed screenshot or diagram that visually demonstrates the product's functionality."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element, fixed to the top of the browser window after the initial hero section scrolls out of view.",
+    "Content sections are revealed by simply scrolling into the viewport; there are no complex scroll-triggered animations like parallax, staggered fade-ins, or slide-ups observed between sections. Any 'css-keyframes' are likely for subtle micro-interactions or hover states.",
+    "Large, high-fidelity screenshots and product diagrams are integrated directly into the content sections, serving as visual demonstrations of the application's features and user interface."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#06263d",
+        "role": "text"
+      },
+      {
+        "hex": "#2172e0",
+        "role": "cta"
+      },
+      {
+        "hex": "#f0f4f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#6c757d",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with the hero heading being oversized (~4x body) and subsequent section headings scaled down but still prominent.",
+    "radius": "Subtle rounded corners are applied to buttons, input fields, and elements within the product diagrams, creating a soft, approachable feel.",
+    "spacing": "Balanced density overall; the hero section features airy spacing, while feature grids maintain good internal padding despite a denser layout."
+  },
+  "standout": "The site's most distinctive design element is its direct and extensive use of large, detailed product screenshots and diagrams embedded throughout the homepage. This approach immediately showcases the core visual nature of the product, allowing users to see exactly what they'll be creating and interacting with, rather than relying solely on abstract descriptions.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

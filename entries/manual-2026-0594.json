@@ -1,0 +1,124 @@
+{
+  "id": "manual-2026-0594",
+  "source": {
+    "url": "https://www.trello.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0594.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0594__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0594__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0594__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://trello.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0594__p2.webp"
+      },
+      {
+        "url": "https://trello.com/pricing",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0594__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "project-management",
+      "productivity"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with large, left-aligned text and a prominent illustrative graphic on the right, featuring a mobile device displaying the product UI."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating background colors for major content sections (white and a very light blue/grey) to visually separate content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal with a subtle fade-in and slide-up effect as they scroll into the viewport, creating a dynamic content loading experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the page, maintaining access to key links and calls to action throughout scrolling."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of vibrant accent colors (orange and purple) in illustrations and occasional UI elements against a predominantly blue and white brand palette."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to reveal content sections. As a user scrolls down, new sections fade into view and subtly slide upwards from the bottom of the viewport, enhancing engagement. This effect is likely managed by a JavaScript library like locomotive-scroll or similar, combined with CSS keyframes for the visual transitions.",
+    "The main navigation bar is implemented as a sticky header, fixed to the top of the viewport after initial scroll, ensuring persistent access to navigation and primary calls to action.",
+    "Illustrative elements in the hero section, particularly the phone graphic and abstract shapes, appear to have a subtle parallax effect, moving at a slightly different speed than the foreground text as the user scrolls, adding depth to the visual."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F0F3F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#172B4D",
+        "role": "text"
+      },
+      {
+        "hex": "#0052CC",
+        "role": "cta"
+      },
+      {
+        "hex": "#505258",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent-illustration-orange"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "accent-illustration-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Charlie Display",
+        "role": "heading"
+      },
+      {
+        "family": "Charlie Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) establish clear hierarchy, complemented by legible body text and smaller, uppercase labels for feature descriptions.",
+    "radius": "Subtle rounding (small radius) is applied consistently to buttons, input fields, and card-like elements, contributing to a soft, approachable feel.",
+    "spacing": "Balanced spacing throughout most content sections, with a notably airy hero section that provides ample breathing room around the primary message and illustration."
+  },
+  "standout": "The site's distinctive use of playful yet professional illustrations, particularly the central phone UI with dynamic elements, effectively communicates product functionality. This is combined with a clean, functional layout and a vibrant accent color palette (orange and purple) that makes the design feel modern and engaging without being overly complex.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

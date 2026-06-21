@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0255",
+  "source": {
+    "url": "https://toptal.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0255.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0255__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0255__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0255__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "talent-acquisition",
+      "professional-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are clearly delineated by alternating background colors (white, light gray, dark blue) and generous vertical spacing, creating distinct content blocks."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent two-column layouts are frequently used for feature sections, often pairing a large headline and descriptive text with a relevant image or illustration."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for all major section titles, establishing a clear content hierarchy, often complemented by smaller, uppercase labels for categorization."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, bright green is consistently used for all primary call-to-action buttons, providing a strong visual anchor for user interaction."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll: initially transparent with a white logo over the hero, it shrinks in height, gains a solid white background, and changes the logo color to blue as the user scrolls down, remaining sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-in and slide-up animation as they enter the viewport, creating a dynamic and engaging scroll experience."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is designed to be initially transparent and overlay the hero content. Upon scrolling past a certain threshold, it transitions to a fixed position at the top of the viewport, reducing its height, adopting a solid white background with a subtle shadow, and updating its logo color for contrast.",
+    "Content sections are progressively revealed as the user scrolls down the page. Each section or significant content block is animated to fade into view and subtly slide upwards from the bottom as it enters the user's viewport, likely using CSS keyframes triggered by JavaScript intersection observers."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbfcfc",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#204ecf",
+        "role": "background"
+      },
+      {
+        "hex": "#455065",
+        "role": "text"
+      },
+      {
+        "hex": "#aeb6cd",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#00e676",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Proxima Nova",
+        "role": "heading"
+      },
+      {
+        "family": "Proxima Nova",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2-3x body text) create strong visual hierarchy, supported by legible body text and smaller, often uppercase, descriptive labels.",
+    "radius": "Subtle (small border-radius on buttons, cards, and images, giving a soft but not overly rounded feel).",
+    "spacing": "Balanced (comfortable padding around sections and elements, creating an airy feel in the hero and main sections, while content grids maintain a clear, organized density)."
+  },
+  "standout": "The site's standout feature is its immediate and consistent emphasis on 'top 3% talent' through professional photography of diverse individuals, prominent 'Previously at' logos, and a dynamic hero carousel. This effectively builds authority and trust from the first glance, distinguishing it from generic talent platforms.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0600",
+  "source": {
+    "url": "https://www.zenith-watches.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0600.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0600__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0600__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0600__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.zenith-watches.com/en_us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0600__p2.webp"
+      },
+      {
+        "url": "https://www.zenith-watches.com/en_us/FAQ",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0600__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watchmaking",
+      "jewelry"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution product imagery is used extensively, often as background for text overlays or as dominant elements in grid layouts."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar shrinks in height and gains a solid white background with a subtle shadow as the user scrolls down, becoming sticky."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slide-up animation as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a gentle parallax effect, moving slower than the foreground text and call-to-action as the user scrolls."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich blue is consistently used for the footer and specific content blocks, providing a strong brand anchor and contrasting with white text."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent headings utilize an elegant serif typeface, establishing a classic and luxurious feel, while body text and navigation use a clean, modern sans-serif."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations are used to reveal content sections. As the user scrolls down, new sections subtly fade in and slide upwards into view, creating a smooth, engaging content flow. The hero image also exhibits a gentle parallax effect, moving slower than the foreground content.",
+    "The main navigation bar at the top of the page is initially transparent and full-height, then transforms into a smaller, sticky bar with a solid background and subtle shadow after the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#001C60",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#52B256",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (approx. 3-4x body) paired with clean, legible sans-serif body text and smaller uppercase labels.",
+    "radius": "Sharp for most elements, with subtle rounding on buttons and input fields.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while content within sections is more compact."
+  },
+  "standout": "The site stands out with its sophisticated blend of classic luxury imagery and modern web interactions. The subtle, elegant scroll-triggered animations, particularly the hero parallax and section reveals, elevate the user experience beyond a typical static product showcase, making the high-end watches feel more dynamic and premium.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual-2026-0570",
+  "source": {
+    "url": "https://www.iwc.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0570.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0570__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0570__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0570__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.iwc.com/us-en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0570__p2.webp"
+      },
+      {
+        "url": "https://www.iwc.com/ca-en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0570__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Immersive, full-bleed hero video that acts as a background layer for initial content, creating depth as subsequent sections scroll over it."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating full-width image sections with concise, left-aligned text blocks, creating a rhythmic visual flow down the page."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette dominated by deep blues and off-whites, accented sparingly with a rich gold for product details and subtle highlights."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy established by pairing an elegant, classic serif for prominent headings and a clean, modern sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transitions from transparent and full-height over the hero video to a slightly reduced height with a solid white background and subtle shadow upon scroll."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video (detected: video-hero) serves as the initial viewport background, with text overlaid. As the user scrolls, subsequent content sections slide up over this video, which remains fixed or subtly parallaxes in the background, creating a layered depth effect.",
+    "The header (IWC logo, menu, icons) is initially transparent and positioned over the hero video. Upon scrolling, it shrinks slightly in height, gains a solid white background, and a subtle drop shadow, becoming a sticky navigation bar.",
+    "Product displays utilize a responsive grid system, potentially incorporating carousels (detected: swiper) to showcase high-resolution product images with minimal accompanying text, allowing the product's design to speak for itself."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#100f0f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#dfe2e6",
+        "role": "text"
+      },
+      {
+        "hex": "#0a1f34",
+        "role": "background"
+      },
+      {
+        "hex": "#c0a26b",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Garamond",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (up to ~4-5x body text) paired with a clean, legible sans-serif for body copy, creating a sophisticated and clear hierarchy.",
+    "radius": "Sharp for most structural elements and images, with very subtle rounding on interactive elements like buttons.",
+    "spacing": "Airy and generous, particularly in hero and main content sections, emphasizing the luxury and craftsmanship of the products."
+  },
+  "standout": "The site's distinctive design lies in its masterful use of high-fidelity, full-bleed product imagery and video, creating an immersive and almost tactile experience. The minimalist presentation and sophisticated color palette allow the luxury watches to command full attention, elevating the brand beyond a typical e-commerce site to an editorial showcase.",
+  "animation_tech": [
+    "canvas",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

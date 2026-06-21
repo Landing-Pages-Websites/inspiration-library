@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0218",
+  "source": {
+    "url": "https://buildkite.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0218.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0218__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0218__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0218__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "development-tools",
+      "ci-cd"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layout for feature sections, typically with descriptive text on the left and a supporting visual or data representation on the right, maintaining a consistent content width."
+    },
+    {
+      "kind": "color",
+      "note": "Strong contrast between a deep, rich purple gradient background in the hero and a clean, light off-white background for subsequent content sections, creating a clear visual break."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport during scroll, creating a dynamic reading experience."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a complex, multi-layered visual with a large number of company logos and detailed dashboard-like UI elements, all integrated into a dark gradient background."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, bold sans-serif for main headings, complemented by smaller, often uppercase labels for sub-elements and calls to action."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar remains fixed at the top of the viewport after initial scroll, providing persistent access to site navigation without changing its visual style.",
+    "Sections below the hero are introduced with a scroll-triggered animation, likely using CSS keyframes, where elements fade in and subtly translate upwards as they become visible.",
+    "The hero background features a subtle, animated gradient and floating company logos, possibly achieved with canvas or CSS keyframe animations, giving a sense of depth and activity without being distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#220044",
+        "role": "background"
+      },
+      {
+        "hex": "#F9FAFB",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#C9BFFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#646464",
+        "role": "text"
+      },
+      {
+        "hex": "#7F00FF",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero heading (~4-5x body) with clear hierarchy down to standard body text and small, often uppercase labels.",
+    "radius": "Subtle rounding on buttons and card-like elements, maintaining a modern but not overly soft aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable spacing within content blocks, ensuring readability and visual breathing room."
+  },
+  "standout": "The site's hero section is exceptionally distinctive, integrating a complex, data-rich dashboard illustration with a dynamic array of enterprise logos on a deep purple, subtly animated background. This immediately communicates technical sophistication and broad adoption, setting it apart from typical SaaS landing pages.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

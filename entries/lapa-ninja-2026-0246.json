@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0246",
+  "source": {
+    "url": "https://newrelic.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0246.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0246__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0246__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0246__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "devops",
+      "monitoring"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs a split-screen layout where the left side contains prominent textual content and CTAs, while the right side features dynamic, interactive dashboard-like visuals on a dark background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme (near-black) is consistently used for most content sections, punctuated by a light, off-white background for the hero's left panel and specific callout sections, creating visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in an extremely large, bold sans-serif typeface, creating a strong visual hierarchy and impact, especially in the hero and section titles."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms upon scroll: it starts with a transparent background over the hero, then shrinks slightly and gains a solid dark background as the user scrolls down, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a distinct split-scroll effect where the left textual content scrolls normally with the page, while the right visual panel appears to have a fixed background or slower scroll speed, creating a subtle parallax-like depth."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the sticky navigation, the header element should be positioned absolutely over the hero, then transition to a fixed position with a solid background and reduced height/padding once the user scrolls past a certain threshold.",
+    "The split-screen hero can be built using a grid or flexbox layout. The left content panel scrolls with the document flow, while the right visual panel uses a fixed background attachment or a separate scrollable container with a slower scroll rate to create the parallax effect relative to the left content.",
+    "The site uses a dark base theme with a vibrant accent color. This can be implemented by setting a dark primary background color and a contrasting light text color, with a bright, saturated color reserved for interactive elements like buttons and links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#080f11",
+        "role": "background"
+      },
+      {
+        "hex": "#e5e4d8",
+        "role": "surface"
+      },
+      {
+        "hex": "#008c99",
+        "role": "accent"
+      },
+      {
+        "hex": "#f1f0e4",
+        "role": "text"
+      },
+      {
+        "hex": "#1d252c",
+        "role": "surface-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Mona Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, complemented by a clear, readable sans-serif for body text.",
+    "radius": "Subtle rounding (small border-radius) is applied consistently to buttons, cards, and input fields, providing a soft, modern feel without being overly rounded.",
+    "spacing": "Balanced spacing is used throughout, with an airy hero section that gives way to a more structured, balanced density in content grids and feature sections."
+  },
+  "standout": "The site's distinctive design lies in its dynamic, split-screen hero section that combines impactful typography with interactive, dashboard-like visuals, creating an immediate sense of sophistication and technical capability. The strong contrast between the dark theme and the vibrant teal accent also makes it visually memorable.",
+  "animation_tech": [],
+  "status": "approved"
+}

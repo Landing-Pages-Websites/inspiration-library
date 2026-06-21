@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0216",
+  "source": {
+    "url": "https://bugsnag.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0216.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0216__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0216__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0216__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "bug-monitoring"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, pairing descriptive text with a product screenshot or video on the opposing side."
+    },
+    {
+      "kind": "color",
+      "note": "Subtle background gradients, primarily light blue to white, are used in the hero and some section dividers to add depth without distracting from content."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar shrinks in height and gains a subtle shadow as the user scrolls down, remaining sticky at the top of the viewport. Content sections reveal themselves with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually separated using alternating background treatments: clean white, subtle light blue gradients, and solid dark blue blocks for contrast and emphasis."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for immediate impact and clear hierarchy, complemented by a consistent, readable sans-serif for body text."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that dynamically reduces its height and applies a subtle box shadow once the user scrolls past the initial hero section.",
+    "Content sections are designed to animate into view, typically with a fade-up or slide-in effect, as they become visible within the user's viewport, enhancing engagement (likely using scroll-triggered CSS keyframes or JavaScript animation libraries).",
+    "The hero section features an embedded video that auto-plays, providing an immediate visual demonstration of the product's interface and functionality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#2D3277",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#6D7BF7",
+        "role": "accent"
+      },
+      {
+        "hex": "#173647",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#84A7FF",
+        "role": "gradient-light-blue"
+      },
+      {
+        "hex": "#D9272D",
+        "role": "cta"
+      },
+      {
+        "hex": "#231F20",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      },
+      {
+        "family": "WistiaPlayerInter",
+        "role": "secondary"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual hierarchy, paired with a clean, readable sans-serif for body copy.",
+    "radius": "Subtle rounding (small radius) is applied consistently to buttons, input fields, and card elements, softening the overall aesthetic.",
+    "spacing": "Balanced to airy density, with generous vertical spacing between major sections and within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The site's distinctive use of a prominent video hero combined with large, impactful typography immediately communicates its value proposition. The subtle background gradients and consistent blue color palette create a professional yet approachable feel, differentiating it from more generic corporate SaaS designs.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

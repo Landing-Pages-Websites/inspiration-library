@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0208",
+  "source": {
+    "url": "https://appsignal.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0208.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0208__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0208__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0208__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "monitoring"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use a two-column asymmetrical layout, often pairing descriptive text with a detailed code snippet, UI screenshot, or diagram on the opposing side."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and often use a mix of white and a vibrant yellow accent color, creating high contrast against the dark background. Sub-headings and labels often use uppercase text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a dark mode aesthetic with a deep charcoal background, using bright yellow and purple as primary accent colors for headlines, CTAs, and background graphics, with white for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky at the top of the viewport after initial scroll. In the hero section, the background graphic of purple squiggly lines with error messages appears to be fixed or parallax very slowly, creating a layered depth effect as the main content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a problem-solution narrative structure, with sections explicitly titled 'When it's broken', 'Why it happened', and 'How to fix it', guiding the user through the pain point and the product's value proposition."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the sticky header, the navigation element is set to a fixed position after a certain scroll threshold, often with a subtle shadow or background change to differentiate it from the content below. The hero section's background graphic uses a fixed or slow-parallaxing position, allowing the main content to scroll over it, creating a sense of depth. Section reveals and other subtle animations are likely driven by CSS keyframes, animating elements like text or images into view as they enter the viewport, often with a slight delay or fade-in effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#131414",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#ECB22E",
+        "role": "accent"
+      },
+      {
+        "hex": "#8133BD",
+        "role": "accent-graphic"
+      },
+      {
+        "hex": "#36C5F0",
+        "role": "link"
+      },
+      {
+        "hex": "#D4E3EE",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~3-4x body) with a mix of white and accent yellow, complemented by smaller, legible body text and distinct uppercase labels.",
+    "radius": "Subtle; buttons and card-like elements feature a slight corner rounding.",
+    "spacing": "Balanced; the hero section is airy, while content sections maintain a comfortable density with clear visual separation between elements."
+  },
+  "standout": "The site's most distinctive feature is its bold, provocative hero headline, 'Why the f #k did my app crash?', which immediately grabs attention and directly addresses a core pain point. This, combined with the dark, high-contrast theme and the use of actual code snippets and UI elements as primary visual content, creates a highly authentic and relatable experience for its developer audience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

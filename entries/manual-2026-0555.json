@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0555",
+  "source": {
+    "url": "https://www.colmar.it",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0555.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0555__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0555__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0555__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed lifestyle photography is consistently used as a background for major category sections and product showcases, with minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and labels frequently utilize uppercase sans-serif typography, often in a lighter weight, for a clean and sophisticated presentation."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of white, black, and various shades of grey is accented by a distinctive deep red/burgundy, primarily from the brand logo and subtle UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and removing the top announcement bar to become a compact, sticky header."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls slower than the overlaid text and elements, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Product listings are presented within horizontal carousels, allowing users to swipe or navigate through multiple items within a specific category."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element dynamically reduces its height and removes a top announcement bar upon scrolling, transitioning into a compact sticky navigation.",
+    "The hero section employs a background image that scrolls at a slower rate than the foreground text and calls-to-action, creating a subtle parallax depth effect.",
+    "Product showcases utilize a horizontal slider component, likely powered by Swiper, enabling users to navigate through multiple items within a category using swipe gestures or navigation controls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1E1E1E",
+        "role": "text"
+      },
+      {
+        "hex": "#B32020",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F8F3",
+        "role": "surface"
+      },
+      {
+        "hex": "#363E4B",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, often uppercase sans-serif headings (up to ~4-5x body text) are paired with smaller, clean body text, creating a clear hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced, with generous vertical spacing between major content blocks and sections, while product grids maintain a tighter, more dense arrangement."
+  },
+  "standout": "The site's distinctive use of large, aspirational lifestyle photography as the primary visual element for category navigation and product showcases sets a strong, high-end brand tone. This is combined with a very clean, almost minimalist text overlay, allowing the imagery to dominate and convey the brand's aesthetic.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}
