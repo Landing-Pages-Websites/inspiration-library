@@ -1,0 +1,120 @@
+{
+  "id": "manual-orvis-com-4ba690",
+  "source": {
+    "url": "https://www.orvis.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-orvis-com-4ba690.webp",
+    "scroll": [
+      "shots/_proposed/manual-orvis-com-4ba690__scroll0.webp",
+      "shots/_proposed/manual-orvis-com-4ba690__scroll1.webp",
+      "shots/_proposed/manual-orvis-com-4ba690__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.orvis.com/men",
+        "full": "shots/_proposed/manual-orvis-com-4ba690__p2.webp"
+      },
+      {
+        "url": "https://www.orvis.com/hunt",
+        "full": "shots/_proposed/manual-orvis-com-4ba690__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "outdoor-gear",
+      "fishing",
+      "hunting"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with large, aspirational photography are used extensively for hero areas and feature blocks, often with text overlays for calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "A strong, clean sans-serif typeface is used for all headings and body text, with some uppercase styling for labels and calls to action, providing clear hierarchy and readability."
+    },
+    {
+      "kind": "color",
+      "note": "A deep teal/forest green is consistently used as the primary brand accent color for navigation, links, and key text elements, contrasting with white and light grey backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport after an initial promotional top bar scrolls away. Sections appear to reveal with a subtle fade-in or slide-up effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Product grids are presented with a clean, minimal design, featuring product images, names, prices, and star ratings, often within a horizontal scrollable carousel."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a smooth scrolling library (locomotive-scroll) to enhance the user experience. Sections are revealed with scroll-triggered animations, likely using CSS keyframes, where elements fade in and subtly slide into place as they become visible in the viewport.",
+    "A sticky header is implemented where the primary navigation bar fixes to the top of the screen on scroll, while a smaller, promotional top bar disappears.",
+    "Large background images are used in hero and feature sections, with text content positioned over them. These images may have a subtle fixed background or parallax effect as the user scrolls, creating depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#014c53",
+        "role": "primary-brand-accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#007e7e",
+        "role": "link-accent"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "sale-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Source Sans Pro",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Source Sans Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are bold sans-serif, ranging from large hero text (~3x body) to clear section titles, with body text and labels in a legible sans-serif.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 airy hero sections and content blocks, with denser but well-padded product grids."
+  },
+  "standout": "The site's standout feature is its masterful integration of high-quality, aspirational outdoor photography with a clean, functional e-commerce layout. The consistent use of a deep teal brand color and strong sans-serif typography creates a sophisticated yet rugged brand identity that feels authentic to its outdoor lifestyle products.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

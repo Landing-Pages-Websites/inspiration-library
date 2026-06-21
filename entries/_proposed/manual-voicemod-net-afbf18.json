@@ -1,0 +1,121 @@
+{
+  "id": "manual-voicemod-net-afbf18",
+  "source": {
+    "url": "https://voicemod.net",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-voicemod-net-afbf18.webp",
+    "scroll": [
+      "shots/_proposed/manual-voicemod-net-afbf18__scroll0.webp",
+      "shots/_proposed/manual-voicemod-net-afbf18__scroll1.webp",
+      "shots/_proposed/manual-voicemod-net-afbf18__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.voicemod.net/",
+        "full": "shots/_proposed/manual-voicemod-net-afbf18__p2.webp"
+      },
+      {
+        "url": "https://www.voicemod.net/en/obs",
+        "full": "shots/_proposed/manual-voicemod-net-afbf18__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "software",
+      "audio-tools",
+      "streaming-tools"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with dark backgrounds, often featuring a two-column split for content presentation, alternating text and image/graphic sides."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, often neon-like, gradient overlays and accent colors (purples, blues, greens) are used extensively against a predominantly dark background for high contrast and a dynamic feel."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a very large, bold sans-serif typeface, creating a strong visual hierarchy that contrasts with smaller, legible body text and occasional uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks (like text, images, and cards) are revealed with a subtle fade-up or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Repeated use of 'feature showcase' sections, each with a distinct headline, descriptive text, and an illustrative graphic or product screenshot, often arranged in a grid or alternating two-column layout."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar remains fixed at the top of the viewport as the user scrolls down the page.",
+    "Content sections and individual elements within them are animated into view using scroll-triggered reveals. As a section enters the user's viewport, its elements (text, images, cards) are given a subtle animation, typically a fade-in combined with a slight upward translation, orchestrated by JavaScript observing scroll position and applying predefined CSS keyframe animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#5e00ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#00ffc4",
+        "role": "accent"
+      },
+      {
+        "hex": "#00c4ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) establish a strong visual presence, complemented by clear, readable body text and occasional uppercase labels.",
+    "radius": "Subtle to rounded, with buttons and content cards featuring soft rounded corners, while some graphic elements maintain sharp edges.",
+    "spacing": "Balanced density, with airy hero and section spacing providing breathing room, transitioning to more dense grids for feature showcases and app icons."
+  },
+  "standout": "The site's distinctive use of a dark, almost black, background contrasted with vibrant, often gradient-filled, neon-like accent colors and stylized character art creates a high-energy, modern gaming aesthetic. The consistent application of scroll-triggered reveals further enhances this dynamic and engaging user experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

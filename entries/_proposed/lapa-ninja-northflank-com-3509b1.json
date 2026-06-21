@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-northflank-com-3509b1",
+  "source": {
+    "url": "https://northflank.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-northflank-com-3509b1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-northflank-com-3509b1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-northflank-com-3509b1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-northflank-com-3509b1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-platform",
+      "devops"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, full-bleed background serves as the canvas, with content sections contained within a central, generous column, frequently integrating complex UI mockups or architectural diagrams."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, using a very dark blue/black background, white/light grey text for readability, and a vibrant green for primary calls-to-action and key highlights."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold, sans-serif headings for impact, complemented by legible body text and distinct monospace styling for code or terminal-like content."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport after the user scrolls past the hero section. Content sections reveal into view as they enter the viewport, creating a progressive scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Feature and explanation sections consistently integrate detailed, realistic UI mockups or intricate architectural diagrams to visually explain complex technical concepts, rather than relying on abstract illustrations."
+    }
+  ],
+  "technique_notes": [
+    "The site employs an immersive dark background that spans the full width of the viewport, with all primary content carefully centered and constrained within a readable width. This creates a focused reading experience against a deep backdrop.",
+    "Interactive elements such as buttons, input fields, and card containers feature subtle rounded corners, contributing to a modern and approachable feel. A consistent vibrant green is used to highlight primary actions and key information across the site.",
+    "The main navigation bar is designed to transition into a sticky state once the user scrolls beyond the initial hero section, ensuring continuous access to site navigation. Content sections are revealed with a simple fade-in or slide-up effect as they scroll into the viewport, enhancing engagement without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c1017",
+        "role": "background"
+      },
+      {
+        "hex": "#151c28",
+        "role": "surface"
+      },
+      {
+        "hex": "#334670",
+        "role": "secondary-ui"
+      },
+      {
+        "hex": "#2dd881",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#d5dcec",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#7a89a1",
+        "role": "text-tertiary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:monospace",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual hierarchy, complemented by legible body text and distinct monospace styling for technical content.",
+    "radius": "subtle \u2014 consistently applied to buttons, cards, and input fields.",
+    "spacing": "balanced \u2014 with airy spacing in the hero section and between major content blocks, transitioning to a more dense layout within detailed feature grids."
+  },
+  "standout": "This site distinguishes itself through its deep, dark, and technically sophisticated aesthetic, which is reinforced by the pervasive use of highly detailed, almost functional-looking UI mockups and architectural diagrams. This approach creates a strong sense of authority and clarity, effectively communicating complex technical value beyond generic marketing visuals.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

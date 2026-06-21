@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-fiddler-ai-baf25a",
+  "source": {
+    "url": "https://fiddler.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-fiddler-ai-baf25a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-fiddler-ai-baf25a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-fiddler-ai-baf25a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-fiddler-ai-baf25a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "enterprise-software"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero and major section backgrounds featuring aspirational, cosmic imagery, often with a prominent astronaut motif, creating a consistent visual narrative across the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a wide, bold sans-serif typeface for strong impact, contrasted with a more neutral, legible sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, using deep blues and near-blacks as backgrounds, bright white for primary text, and a vibrant electric blue for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a background image (starry sky) that parallaxes against the foreground elements (astronaut, hill, text) as the user scrolls. The entire hero section then scrolls out of view to reveal a new, visually similar section with different content."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by large, often full-bleed, illustrative backgrounds or diagrams, maintaining a dark aesthetic throughout the page."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar transitions from transparent to a solid dark background and becomes sticky after a short scroll, ensuring persistent access to navigation links.",
+    "The hero section employs a parallax scrolling effect where the background image moves at a different rate than the foreground elements, enhancing depth. This is followed by a full-section transition, likely using GSAP ScrollTrigger, where the initial hero content scrolls completely off-screen to reveal a new, thematically linked section that then blends into the footer.",
+    "Large, complex diagrams and data visualizations are integrated directly into content sections, often presented on dark backgrounds to maintain visual consistency and focus attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#26272b",
+        "role": "background"
+      },
+      {
+        "hex": "#106ed7",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "MJXZERO",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold display headings (~3-4x body size) with standard body text and smaller, often uppercase, labels for secondary information.",
+    "radius": "Subtle, with soft rounding on buttons and card elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more balanced density within content blocks."
+  },
+  "standout": "The site's distinctive use of a recurring astronaut and cosmic exploration motif, integrated into full-bleed hero and section backgrounds, creates a powerful sense of aspiration and innovation. This consistent visual storytelling elevates the brand beyond typical enterprise software aesthetics.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

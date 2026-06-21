@@ -1,0 +1,112 @@
+{
+  "id": "manual-reima-com-fd1c67",
+  "source": {
+    "url": "https://www.reima.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-reima-com-fd1c67.webp",
+    "scroll": [
+      "shots/_proposed/manual-reima-com-fd1c67__scroll0.webp",
+      "shots/_proposed/manual-reima-com-fd1c67__scroll1.webp",
+      "shots/_proposed/manual-reima-com-fd1c67__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://reima.com/de",
+        "full": "shots/_proposed/manual-reima-com-fd1c67__p2.webp"
+      },
+      {
+        "url": "https://reima.com/en",
+        "full": "shots/_proposed/manual-reima-com-fd1c67__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "childrens-clothing",
+      "outdoor-gear"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses a flexible grid system for product displays, alternating between 3-column category grids and 4-column product grids, interspersed with full-width lifestyle image sections."
+    },
+    {
+      "kind": "type",
+      "note": "A clean, modern sans-serif typeface is used consistently, with clear hierarchy established through varying weights and sizes. Uppercase styling is frequently applied to call-to-action buttons and some section titles for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "The design heavily relies on a bright, clean aesthetic with white and light grey backgrounds, accented by a bold, energetic red for primary call-to-actions and key messaging."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary observed motion is interactive image carousels (sliders) used in the hero section and for product showcases. No scroll-triggered animations, parallax effects, or sticky elements are observed as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width blocks that alternate between large, immersive lifestyle photography with overlaid text and structured product or category grids."
+    }
+  ],
+  "technique_notes": [
+    "Interactive image carousels are implemented using a slider component (like Swiper) to present a series of full-bleed lifestyle images or product highlights. The page content otherwise relies on static presentation; there are no scroll-triggered reveal animations, parallax effects, or sticky elements that change appearance or position based on scroll depth.",
+    "The layout employs a responsive grid for product and category displays, allowing for varied column counts (e.g., three or four items per row) depending on the content type. Full-width sections with large background images are used to create visual breaks and reinforce brand messaging.",
+    "Typography maintains a consistent sans-serif style, with a clear hierarchy achieved through size and weight variations. Call-to-action buttons and important labels often use uppercase text to draw attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f4f4f4",
+        "role": "background"
+      },
+      {
+        "hex": "#38383b",
+        "role": "text"
+      },
+      {
+        "hex": "#d2092d",
+        "role": "accent"
+      },
+      {
+        "hex": "#a6a6a6",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Campton",
+        "role": "heading"
+      },
+      {
+        "family": "Campton",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clear hierarchy with headings (~2-3x body) and smaller uppercase labels for categories and buttons, all in a clean sans-serif.",
+    "radius": "Subtle rounding on buttons and image containers, maintaining a clean, modern aesthetic.",
+    "spacing": "Balanced to airy, particularly in hero and lifestyle sections, becoming denser in product grids for efficient browsing."
+  },
+  "standout": "The site's design stands out by seamlessly integrating vibrant, high-quality lifestyle photography of active children with a clean, functional e-commerce interface. This strong visual storytelling around an 'active kids' brand identity elevates it beyond a typical clothing retailer, creating an aspirational and engaging experience.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-circleci-com-3a3e4f",
+  "source": {
+    "url": "https://circleci.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-circleci-com-3a3e4f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-circleci-com-3a3e4f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-circleci-com-3a3e4f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-circleci-com-3a3e4f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ci-cd"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into full-width sections, some with a light background and others with a dark background, creating clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and sans-serif, creating a strong visual hierarchy, often paired with smaller, uppercase labels for context."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark blue-grey and white is used for backgrounds and text, punctuated by a vibrant, almost neon, green for calls to action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport as the user scrolls, while content sections simply scroll into view without complex animations or parallax effects."
+    },
+    {
+      "kind": "section",
+      "note": "Key information and feature explanations are presented within distinct, subtly rounded 'card' containers that stand out against the page background."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the layout, use full-width containers for sections, alternating between a dark background for hero and footer areas and light backgrounds for intermediate content. Within these sections, content is constrained to a central maximum width. Key information is presented in card-like elements with subtle rounded corners and a slight shadow.",
+    "The typography system relies on a single sans-serif font family. Headings are rendered significantly larger and bolder than body text, establishing a clear visual hierarchy. Small, uppercase text is used for labels and secondary information. Text color adapts to the background, using white on dark backgrounds and dark grey on light backgrounds.",
+    "The motion system is straightforward: the main navigation bar is implemented as a sticky element that remains at the top of the viewport on scroll. Content sections are revealed by the natural scroll of the page, without any additional scroll-triggered animations like fade-ins, slides, or parallax effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#161616",
+        "role": "background"
+      },
+      {
+        "hex": "#161616",
+        "role": "text"
+      },
+      {
+        "hex": "#00ff55",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear hierarchy, complemented by standard body text and small uppercase labels.",
+    "radius": "subtle \u2014 used consistently on buttons and card-like containers.",
+    "spacing": "balanced \u2014 with airy vertical spacing in the hero section and between major content blocks, and a more balanced density within feature grids."
+  },
+  "standout": "This site stands out with its bold, almost brutalist typography for headings, which creates a strong, confident voice. The high-contrast dark blue-grey and white palette, accented by a striking neon green, gives it a modern, tech-forward feel that avoids generic corporate aesthetics.",
+  "animation_tech": [],
+  "status": "proposed"
+}

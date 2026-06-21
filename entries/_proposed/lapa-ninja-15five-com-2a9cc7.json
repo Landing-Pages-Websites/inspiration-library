@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-15five-com-2a9cc7",
+  "source": {
+    "url": "https://15five.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-15five-com-2a9cc7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-15five-com-2a9cc7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-15five-com-2a9cc7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-15five-com-2a9cc7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "human-resources",
+      "performance-management"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts often pair a large visual (screenshot, illustration) on one side with a concise text block and CTA on the other, breaking up the vertical flow."
+    },
+    {
+      "kind": "color",
+      "note": "Dynamic, multi-color gradient backgrounds (e.g., orange-pink, purple-blue) are used for hero, footer, and key CTA sections, providing visual energy and brand distinction."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a high-contrast serif display font for main headings, paired with a clean, modern sans-serif for body text and smaller, uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (cards, images) reveal with a staggered fade-up and slight slide-in animation as they enter the viewport, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonial sections feature a grid of distinct cards with star ratings and quotes, emphasizing social proof from multiple sources."
+    }
+  ],
+  "technique_notes": [
+    "Leverages a scroll-triggered animation library (like AOS) to progressively reveal content. Elements such as cards, images, and text blocks animate into view with a subtle fade-up and slight vertical translation as they enter the viewport. The primary navigation bar becomes sticky at the top of the page after initial scroll, gaining a subtle backdrop shadow for contrast.",
+    "Achieves a vibrant and modern aesthetic through the strategic application of multi-stop linear gradients (e.g., orange to pink, deep purple to blue) as full-bleed backgrounds for key sections like the hero, footer, and prominent call-to-action banners.",
+    "Presents data points, features, and testimonials within distinct card components. These cards feature a clean design with subtle border-radius, often incorporating icons or small charts, and are arranged in responsive grids."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F4F4F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#475569",
+        "role": "text"
+      },
+      {
+        "hex": "#FF4B11",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF52A1",
+        "role": "accent"
+      },
+      {
+        "hex": "#270687",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DM Serif Display",
+        "role": "heading"
+      },
+      {
+        "family": "Manrope",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful display headings (~3-5x body text) with generous line height, contrasted with clean, readable sans-serif body text and smaller, often uppercase sans-serif labels.",
+    "radius": "Subtle rounding (4-8px) for cards, buttons, and input fields, maintaining a soft but not overly playful feel.",
+    "spacing": "Balanced to airy. The hero section is very airy, while content sections use balanced spacing with clear separation between elements and sections."
+  },
+  "standout": "The site stands out with its bold and dynamic use of vibrant, multi-color gradients that transition smoothly across sections and elements, creating a sense of energy and modernity. This is combined with a clean, structured layout and subtle scroll-triggered animations, making the content feel engaging and premium without being overwhelming.",
+  "animation_tech": [
+    "aos",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

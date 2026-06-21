@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-zuplo-com-8a9645",
+  "source": {
+    "url": "https://zuplo.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-zuplo-com-8a9645.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-zuplo-com-8a9645__scroll0.webp",
+      "shots/_proposed/lapa-ninja-zuplo-com-8a9645__scroll1.webp",
+      "shots/_proposed/lapa-ninja-zuplo-com-8a9645__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "api-management",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented within a centered, fixed-width container with generous horizontal padding, creating a focused reading experience against a full-width background."
+    },
+    {
+      "kind": "layout",
+      "note": "Major sections are visually delineated by alternating background colors (white, light gray, dark gray), providing clear structural breaks and visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large, bold, sans-serif, and often accompanied by a concise, centered descriptive paragraph, establishing clear hierarchy and readability."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-color accent palette (pink, blue, green, purple, orange) is used sparingly but effectively for small highlights, icons, data visualizations, and progress indicators against a predominantly monochromatic (white, gray, dark gray) base."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, sections and individual content elements (e.g., feature cards, charts, badges) animate into view with a subtle fade-up and slight upward translation effect."
+    },
+    {
+      "kind": "section",
+      "note": "Feature and benefit sections often pair a two-column grid of icon-led descriptions with a larger, illustrative graphic or data visualization on the opposing side."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar remains fixed at the top of the viewport after initial scroll, maintaining its original size and styling.",
+    "Content sections and individual elements are revealed with a scroll-triggered animation, typically involving a fade-in combined with a slight upward movement as they enter the viewport. This creates a dynamic and engaging loading experience for new content.",
+    "Data visualizations and progress indicators utilize the detected canvas technology to render dynamic charts and numerical highlights with vibrant accent colors, enhancing interactivity and visual appeal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F9FAFB",
+        "role": "surface"
+      },
+      {
+        "hex": "#1F2937",
+        "role": "text"
+      },
+      {
+        "hex": "#6B7280",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#3b82f6",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#ff00bd",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#10b981",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#a855f7",
+        "role": "accent-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (hero ~3-4x body) with clear hierarchy, supported by legible body text and smaller, often uppercase labels.",
+    "radius": "Subtle (slightly rounded corners on buttons, cards, and input fields).",
+    "spacing": "Airy (generous vertical and horizontal spacing, especially in the hero and between major sections, creating a sense of openness)."
+  },
+  "standout": "This site distinguishes itself through the sophisticated integration of a vibrant, multi-color accent palette to highlight data and key information within an otherwise clean, professional, and largely monochromatic layout. This approach creates a dynamic and engaging visual experience for a technical product without compromising clarity or authority.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

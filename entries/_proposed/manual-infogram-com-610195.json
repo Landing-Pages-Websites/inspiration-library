@@ -1,0 +1,126 @@
+{
+  "id": "manual-infogram-com-610195",
+  "source": {
+    "url": "https://infogram.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-infogram-com-610195.webp",
+    "scroll": [
+      "shots/_proposed/manual-infogram-com-610195__scroll0.webp",
+      "shots/_proposed/manual-infogram-com-610195__scroll1.webp",
+      "shots/_proposed/manual-infogram-com-610195__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://infogram.com/demo",
+        "full": "shots/_proposed/manual-infogram-com-610195__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-visualization",
+      "analytics"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently pair a prominent, full-width data visualization graphic with concise textual explanations, often in a two-column arrangement."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a modern, slightly condensed sans-serif for impact, while body text employs a clean, highly readable sans-serif, complemented by smaller, often uppercase, labels for sub-sections and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, data-driven palette of teal, orange, and various blues is consistently used for graphics and section backgrounds, providing strong contrast against a clean white base and black text, with red reserved for primary calls to action and the logo."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll, shrinking in height and changing from a transparent background with light text to a solid white background with dark text and a red logo."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses full-width sections with distinct, often patterned or gradient, background colors to clearly delineate content blocks, frequently featuring large, illustrative data visualizations as the primary visual element."
+    }
+  ],
+  "technique_notes": [
+    "The header transitions from a transparent, full-height state with light text to a condensed, solid white background with dark text and a colored logo upon scroll, creating a sticky navigation effect.",
+    "The hero section incorporates a large, complex data visualization that functions as a dynamic hero element, likely using CSS keyframe animations or an embedded video to showcase interactivity and data points.",
+    "Sections are visually separated by alternating background colors, often featuring vibrant, full-bleed graphics or patterns that extend across the width of the page to create distinct content zones."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e03131",
+        "role": "cta"
+      },
+      {
+        "hex": "#ff9933",
+        "role": "accent"
+      },
+      {
+        "hex": "#64ccca",
+        "role": "accent"
+      },
+      {
+        "hex": "#3d8087",
+        "role": "accent"
+      },
+      {
+        "hex": "#679dcf",
+        "role": "accent"
+      },
+      {
+        "hex": "#357099",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (approx. 3-4x body text) paired with clean, readable sans-serif body text and smaller, often uppercase, labels.",
+    "radius": "Subtle (buttons, cards, and input fields have a slight border-radius of a few pixels).",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within the hero, but a denser grid for feature icons and footer links."
+  },
+  "standout": "The site's distinctive use of vibrant, complex, and often interactive data visualizations as core design elements, integrated seamlessly into the layout rather than just static images. This creates a strong sense of authority and capability in data presentation, making the product itself the hero of the design.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

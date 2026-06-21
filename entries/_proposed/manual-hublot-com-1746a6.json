@@ -1,0 +1,120 @@
+{
+  "id": "manual-hublot-com-1746a6",
+  "source": {
+    "url": "https://www.hublot.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hublot-com-1746a6.webp",
+    "scroll": [
+      "shots/_proposed/manual-hublot-com-1746a6__scroll0.webp",
+      "shots/_proposed/manual-hublot-com-1746a6__scroll1.webp",
+      "shots/_proposed/manual-hublot-com-1746a6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hublot.com/en-us",
+        "full": "shots/_proposed/manual-hublot-com-1746a6__p2.webp"
+      },
+      {
+        "url": "https://www.hublot.com/boutiques",
+        "full": "shots/_proposed/manual-hublot-com-1746a6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution product and lifestyle photography dominates hero and key section introductions, often with text overlaid on a dark, muted portion of the image."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark theme uses deep charcoal (#171717) as the primary background, contrasted with crisp white text and vibrant, multi-colored accents derived directly from the featured watch designs."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold, sans-serif typeface, often in all caps, creating a strong, authoritative presence, while body text is smaller and highly legible."
+    },
+    {
+      "kind": "motion",
+      "note": "The header bar transforms from a transparent, slightly taller state to an opaque, smaller bar with a solid background and subtle shadow upon scrolling down. The hero image exhibits a subtle parallax effect where the foreground watch element moves at a slightly different speed than its background."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections alternate between full-width imagery and structured grids for product showcases and news articles, maintaining a consistent dark background for most textual content blocks."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the hero, use a large, high-quality image with a dark overlay or a dark area for text placement. Implement a subtle parallax effect where the main product (watch) moves slightly faster or scales independently of its background as the user scrolls.",
+    "The sticky header should transition its height, background color, and potentially add a shadow class when the scroll position moves past the initial hero section.",
+    "Content sections below the hero appear to reveal themselves, likely with a subtle fade-in or slide-up animation, as they enter the viewport during scrolling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#171717",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#4f60ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#cbe0f1",
+        "role": "accent"
+      },
+      {
+        "hex": "#cfb1ba",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Red Hat Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Gotham Book",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase headings (~3-4x body) create strong visual anchors, complemented by smaller, highly legible body and label text.",
+    "radius": "Sharp for most structural elements and images, with subtle rounding on buttons and product cards.",
+    "spacing": "Airy in hero and between major sections, creating a sense of luxury and focus, transitioning to a balanced density within product grids and news layouts."
+  },
+  "standout": "The site's distinctive use of dramatic, full-bleed product photography, often featuring watches in vibrant, multi-colored ceramics, against a sophisticated dark background, creates an immersive and luxurious brand experience that feels more like an editorial spread than a typical e-commerce site. The subtle motion and elegant typography reinforce this premium feel.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-windmill-dev-2084cb",
+  "source": {
+    "url": "https://windmill.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-windmill-dev-2084cb.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-windmill-dev-2084cb__scroll0.webp",
+      "shots/_proposed/lapa-ninja-windmill-dev-2084cb__scroll1.webp",
+      "shots/_proposed/lapa-ninja-windmill-dev-2084cb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "internal-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large text blocks with detailed isometric illustrations or code snippets to explain complex concepts."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font, often with a single key phrase highlighted in a vibrant blue to draw attention."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent palette of blues (primary, accent) is used against a clean white/light grey background and dark text, creating a professional and trustworthy feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal content reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a guided scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Complex software concepts are explained through a combination of descriptive text, code blocks, and detailed isometric diagrams within feature sections."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, sections are configured to animate into view with a subtle vertical slide and fade effect as they become visible in the viewport, likely using a scroll-triggered animation library. The main navigation bar is implemented as a sticky element, remaining at the top of the screen throughout the scroll. The 'Get a tour' section features an embedded Lottie animation or video player.",
+    "The site uses a clean, modular layout with full-width sections. Content within these sections is often presented in a two-column grid, balancing large, impactful typography with illustrative graphics or code examples.",
+    "Interactive elements like buttons and input fields feature subtle corner rounding and consistent blue accent colors for calls to action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8FAFC",
+        "role": "surface"
+      },
+      {
+        "hex": "#0B1220",
+        "role": "text"
+      },
+      {
+        "hex": "#3B82F6",
+        "role": "cta"
+      },
+      {
+        "hex": "#60A5FA",
+        "role": "accent"
+      },
+      {
+        "hex": "#93C5FD",
+        "role": "accent"
+      },
+      {
+        "hex": "#80A8FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4-5x body text) with a clear hierarchy, complemented by smaller, often uppercase, labels for context.",
+    "radius": "Subtle (buttons, cards, input fields, section corners).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks."
+  },
+  "standout": "This site stands out by effectively integrating detailed isometric illustrations and functional code snippets directly into its content to explain complex software concepts. This visual and textual pairing makes the technical information highly digestible and engaging for a developer audience, moving beyond generic stock imagery.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "manual-jcrew-com-d75a48",
+  "source": {
+    "url": "https://www.jcrew.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-jcrew-com-d75a48.webp",
+    "scroll": [
+      "shots/_proposed/manual-jcrew-com-d75a48__scroll0.webp",
+      "shots/_proposed/manual-jcrew-com-d75a48__scroll1.webp",
+      "shots/_proposed/manual-jcrew-com-d75a48__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.jcrew.com/company/rewards",
+        "full": "shots/_proposed/manual-jcrew-com-d75a48__p2.webp"
+      },
+      {
+        "url": "https://www.jcrew.com/company/credit-card",
+        "full": "shots/_proposed/manual-jcrew-com-d75a48__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "retail",
+      "apparel"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections and prominent category banners feature large, high-quality fashion photography that dominates the viewport, often with minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic pairing uses large, elegant serif fonts for primary headings and a clean, often uppercase sans-serif for body text, navigation, and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is predominantly neutral (white, light grey, black) to highlight product imagery, with bold red and bright blue used as strong accent colors for promotions and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar, containing the J.Crew logo, search, and utility icons, becomes sticky at the top of the viewport after initial scroll, maintaining its full height and background."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by alternating background colors (white, light grey, dark blue/green) and distinct grid layouts for product displays versus informational blocks."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element that fixes to the top of the viewport upon scrolling, maintaining its original height and background without any visual transformation. Other content scrolls naturally beneath it.",
+    "Hero and category sections utilize full-bleed photography with large, elegant serif typography overlaid directly on the images. Text contrast is achieved through careful placement and sometimes a subtle text shadow, rather than a heavy dark overlay.",
+    "Product and category displays are structured using a responsive grid system, typically showcasing 2-4 items per row. Each item features a prominent image and minimal descriptive text, allowing the visuals to speak for themselves."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#F00000",
+        "role": "accent-promo"
+      },
+      {
+        "hex": "#00B3EE",
+        "role": "link-cta"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "surface-secondary"
+      },
+      {
+        "hex": "#222222",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#063613",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#949494",
+        "role": "text-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Soleil",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Freight Big Pro",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with a light weight, contrasted with clean, often uppercase sans-serif for body text and labels.",
+    "radius": "Sharp for most elements, with subtle rounding on buttons and card edges.",
+    "spacing": "Balanced overall, featuring airy hero sections and more dense product grids within a consistent vertical rhythm."
+  },
+  "standout": "The site distinguishes itself with an editorial, magazine-like aesthetic, leveraging large, high-quality fashion photography paired with minimal, elegant typography. This creates an aspirational and sophisticated browsing experience that elevates the brand beyond a typical e-commerce catalog.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

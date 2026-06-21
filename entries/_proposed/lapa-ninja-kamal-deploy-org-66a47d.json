@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-kamal-deploy-org-66a47d",
+  "source": {
+    "url": "https://kamal-deploy.org",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-kamal-deploy-org-66a47d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-kamal-deploy-org-66a47d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-kamal-deploy-org-66a47d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-kamal-deploy-org-66a47d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "web-development",
+      "devops"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented within a centered, constrained-width column, providing ample horizontal padding on larger screens for a focused reading experience."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings establish clear hierarchy for sections, contrasting with a lighter weight sans-serif for body text and a distinct monospaced font for code examples."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features a stark white background, dark gray text for readability, and a vibrant blue (#0a82f5) consistently used for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport as the user scrolls, providing persistent access to key site links."
+    },
+    {
+      "kind": "section",
+      "note": "Major content blocks are separated by generous vertical whitespace, creating distinct sections that are easy to scan and digest."
+    }
+  ],
+  "technique_notes": [
+    "A full-width header contains a sticky navigation bar that maintains its position at the top of the viewport during scroll, ensuring constant access to site links.",
+    "The hero section features a prominent video player embedded within a stylized code editor interface, serving as a dynamic visual demonstration of the product's functionality (video-hero).",
+    "Content sections utilize a centered, constrained width layout for readability, with headings, paragraphs, and code block elements clearly structured to guide the user through technical explanations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-logo"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-body"
+      },
+      {
+        "hex": "#0a82f5",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong hierarchy, complemented by a readable body text size and smaller, uppercase navigation labels.",
+    "radius": "Sharp corners are consistently applied to buttons, the video player, and overall UI elements, contributing to a precise, technical feel.",
+    "spacing": "Airy, with significant vertical spacing between major content sections and paragraphs, enhancing readability and giving elements room to breathe."
+  },
+  "standout": "The site's distinctive blend of a clean, almost minimal marketing page aesthetic with deeply technical content, prominently featuring a code-editor-style video hero and a classic, hand-drawn illustration. It manages to convey a serious, developer-focused product without resorting to overly complex or flashy design.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

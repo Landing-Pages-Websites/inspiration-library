@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-iterative-ai-f8a568",
+  "source": {
+    "url": "https://iterative.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-iterative-ai-f8a568.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-iterative-ai-f8a568__scroll0.webp",
+      "shots/_proposed/lapa-ninja-iterative-ai-f8a568__scroll1.webp",
+      "shots/_proposed/lapa-ninja-iterative-ai-f8a568__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "data-management",
+      "cloud-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within full-width sections, using a dark background with subtle variations in dark grey for section separation."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases within large, bold headings utilize a multi-color gradient text effect for emphasis, contrasting with white or light grey surrounding text."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, almost black, background is consistently paired with vibrant accent colors (purple, teal, orange) for interactive elements, icons, and gradient text."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar remains sticky at the top of the viewport as the user scrolls, and new content sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by strong, centered headings and often feature a grid-based layout for presenting features or benefits with associated icons."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport during scroll. Sections are introduced with scroll-triggered animations, likely using CSS keyframes, causing them to subtly fade in or slide up as they become visible in the viewport. Key text elements feature a multi-stop gradient fill, giving them a distinctive, colorful appearance against the dark background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-heading"
+      },
+      {
+        "hex": "#cccccc",
+        "role": "text-body"
+      },
+      {
+        "hex": "#945dd6",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#13adc7",
+        "role": "accent-teal"
+      },
+      {
+        "hex": "#f46837",
+        "role": "accent-orange"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sora",
+        "role": "heading"
+      },
+      {
+        "family": "Sora",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with smaller, often uppercase, supporting labels; body text is clear and legible.",
+    "radius": "subtle (buttons, cards, input fields)",
+    "spacing": "balanced to airy, with generous vertical spacing between major sections and a more balanced density within feature grids."
+  },
+  "standout": "The site's distinctive use of multi-color gradient text for impactful phrases within headings, combined with a dark, high-contrast aesthetic and subtle scroll-triggered reveals, creates a sophisticated and modern tech-forward impression.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

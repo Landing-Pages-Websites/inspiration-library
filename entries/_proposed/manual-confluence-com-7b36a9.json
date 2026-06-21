@@ -1,0 +1,133 @@
+{
+  "id": "manual-confluence-com-7b36a9",
+  "source": {
+    "url": "https://www.confluence.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-confluence-com-7b36a9.webp",
+    "scroll": [
+      "shots/_proposed/manual-confluence-com-7b36a9__scroll0.webp",
+      "shots/_proposed/manual-confluence-com-7b36a9__scroll1.webp",
+      "shots/_proposed/manual-confluence-com-7b36a9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.confluence.com/news",
+        "full": "shots/_proposed/manual-confluence-com-7b36a9__p2.webp"
+      },
+      {
+        "url": "https://www.confluence.com/events",
+        "full": "shots/_proposed/manual-confluence-com-7b36a9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "financial-services",
+      "investment-management"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently presented within full-width sections, with primary content centered in a fixed-width container, creating clear visual boundaries."
+    },
+    {
+      "kind": "layout",
+      "note": "A three-column grid is frequently used for presenting related items such as statistics, solution features, and news articles, maintaining a consistent visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Section introductory labels are consistently set in a smaller, uppercase, light-weight sans-serif, providing a clear hierarchy before the main heading."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark blue is used as a primary brand color for the sticky navigation and footer, providing a strong, authoritative base for the site's identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms upon scroll, changing from a transparent background with dark branding to a solid dark blue background with white branding."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle background parallax effect, where the textured background image scrolls at a slower rate than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Latest news & resources' section uses a card-based layout with images, titles, and metadata, allowing for easy scanning of multiple content pieces."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a transforming sticky header that changes its background color and logo/text color scheme from transparent/dark to solid/light as the user scrolls past the initial hero section.",
+    "A subtle parallax effect is used in the hero section, where the background image scrolls at a slower rate than the foreground content, creating a sense of depth.",
+    "Content is organized into distinct, full-width sections, each with a clear heading and often using a grid system for presenting information, such as feature cards or news articles."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#002147",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      },
+      {
+        "hex": "#66a800",
+        "role": "cta"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#4a4a4a",
+        "role": "text"
+      },
+      {
+        "hex": "#007cba",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "WistiaPlayerInterNumbersSemiBold",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) provide strong visual anchors, complemented by smaller, lighter body text and very large, heavy numbers for statistics.",
+    "radius": "subtle rounded corners on buttons and cards, maintaining a professional yet approachable feel.",
+    "spacing": "balanced, with generous vertical spacing in the hero section and well-defined padding around content blocks, creating an airy but structured density."
+  },
+  "standout": "The transforming sticky navigation bar, which elegantly switches from a transparent, dark-text state to a solid, light-text state upon scroll, adds a layer of sophistication. This, combined with the subtle hero background parallax, elevates the site beyond a standard corporate template, conveying a sense of polished professionalism.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

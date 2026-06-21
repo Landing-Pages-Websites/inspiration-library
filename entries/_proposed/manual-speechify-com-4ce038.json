@@ -1,0 +1,123 @@
+{
+  "id": "manual-speechify-com-4ce038",
+  "source": {
+    "url": "https://speechify.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-speechify-com-4ce038.webp",
+    "scroll": [
+      "shots/_proposed/manual-speechify-com-4ce038__scroll0.webp",
+      "shots/_proposed/manual-speechify-com-4ce038__scroll1.webp",
+      "shots/_proposed/manual-speechify-com-4ce038__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://speechify.com/edu",
+        "full": "shots/_proposed/manual-speechify-com-4ce038__p2.webp"
+      },
+      {
+        "url": "https://speechify.com/blog",
+        "full": "shots/_proposed/manual-speechify-com-4ce038__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "productivity-tool"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background sections with content centered horizontally, creating a focused viewing experience and strong visual separation between content blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode theme with white text and vibrant, multi-color gradient accents (primarily blue and purple) for illustrations, buttons, and key UI elements."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, extra-bold sans-serif headings are paired with lighter weight, smaller sans-serif body text for clear hierarchy, often accompanied by small, uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal elements reveal with a subtle fade-up or slide-up animation as they enter the viewport during scroll, creating a dynamic content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently pair a large, illustrative graphic or UI screenshot on one side with a concise text description and call-to-action on the other, alternating sides down the page."
+    }
+  ],
+  "technique_notes": [
+    "To create the scroll-triggered reveals, use a JavaScript library like GSAP ScrollTrigger or a CSS Intersection Observer to detect when sections or elements enter the viewport, then apply a CSS transform (translateY) and opacity transition to animate them into view.",
+    "Implement a sticky navigation bar that maintains its appearance and position at the top of the viewport as the user scrolls down the page.",
+    "Design interactive UI elements like buttons and cards with subtle gradient fills that shift or animate on hover, providing visual feedback and emphasizing calls to action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#171717",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#2d2d2d",
+        "role": "surface"
+      },
+      {
+        "hex": "#808080",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#e4eaf1",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#4a90e2",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#9b59b6",
+        "role": "accent-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, extra-bold sans-serif headings (~3-4x body) create strong visual impact, complemented by smaller, lighter body text and tiny uppercase labels.",
+    "radius": "subtle (cards, buttons, and input fields have slightly rounded corners)",
+    "spacing": "airy (generous vertical spacing between sections and within content blocks, creating a spacious and uncluttered feel)"
+  },
+  "standout": "This site stands out with its bold, high-contrast dark mode design, leveraging vibrant blue and purple gradients to highlight key UI elements and illustrations. The prominent use of celebrity endorsements directly in the hero section, combined with a clear focus on AI-powered voice technology, gives it a distinctive, authoritative, yet approachable feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
