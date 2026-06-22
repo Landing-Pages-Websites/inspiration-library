@@ -1,0 +1,118 @@
+{
+  "id": "manual-hipcamp-com-803328",
+  "source": {
+    "url": "https://hipcamp.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hipcamp-com-803328.webp",
+    "scroll": [
+      "shots/_proposed/manual-hipcamp-com-803328__scroll0.webp",
+      "shots/_proposed/manual-hipcamp-com-803328__scroll1.webp",
+      "shots/_proposed/manual-hipcamp-com-803328__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hipcamp.com/en-US",
+        "full": "shots/_proposed/manual-hipcamp-com-803328__p2.webp"
+      },
+      {
+        "url": "https://www.hipcamp.com/search",
+        "full": "shots/_proposed/manual-hipcamp-com-803328__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "outdoor-recreation",
+      "camping",
+      "marketplace"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily presented in a flexible grid of image-rich cards, often with a horizontal scroll mechanism for discovery sections, allowing for diverse content types (destinations, activities, specific listings) to share a consistent visual structure."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold, sans-serif font for impact, while body text is a lighter weight sans-serif. Small, uppercase labels are used for categories or metadata, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, bright white background dominates, contrasted with a vibrant orange/red as the primary accent color for calls to action and interactive elements. Dark gray is used for most text, maintaining readability."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms upon scroll: initially, it features a light green background and a prominent 'Why Hipcamp?' link. As the user scrolls down, the header shrinks slightly, its background becomes white with a subtle shadow, and some secondary navigation links are removed or consolidated, while the 'Sign up' button changes to a dark green fill."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background colors (mostly white, occasionally light gray) and large, centered headings, often followed by a grid of image cards or a horizontal carousel."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, use CSS keyframes or a JavaScript scroll listener to detect scroll depth. Apply a class that transitions the header's background color, padding, and text color, while also conditionally hiding or showing certain navigation elements and changing the CTA button's style.",
+    "Implement content sections using a responsive grid system for cards, allowing them to reflow based on screen size. For horizontal carousels, use a flexbox container with `overflow-x: scroll` and snap points, ensuring cards maintain consistent sizing and spacing.",
+    "Achieve the prominent typography by setting a large, bold sans-serif for main titles and a lighter weight for body text. Use CSS `text-transform: uppercase` for small labels, paired with appropriate letter-spacing for legibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#333121",
+        "role": "text"
+      },
+      {
+        "hex": "#ec5017",
+        "role": "accent"
+      },
+      {
+        "hex": "#6e6e6e",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#adada6",
+        "role": "border"
+      },
+      {
+        "hex": "#ffa100",
+        "role": "highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Calibre",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2.5x body) provide strong visual anchors, complemented by a readable body text and very small, uppercase labels for categories.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, search inputs, and image cards, softening the overall aesthetic.",
+    "spacing": "Balanced density, with airy hero sections and clear vertical separation between content blocks, while card grids maintain a tighter, consistent rhythm."
+  },
+  "standout": "The site's standout feature is its highly visual, card-based content organization that effectively showcases a vast inventory of unique camping locations. The consistent use of large, appealing imagery within a flexible grid, combined with a clean, modern aesthetic, makes discovery engaging and intuitive, moving beyond typical list-based travel sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

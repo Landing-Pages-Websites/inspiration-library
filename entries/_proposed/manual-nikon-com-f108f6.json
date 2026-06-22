@@ -1,0 +1,98 @@
+{
+  "id": "manual-nikon-com-f108f6",
+  "source": {
+    "url": "https://www.nikon.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-nikon-com-f108f6.webp",
+    "scroll": [
+      "shots/_proposed/manual-nikon-com-f108f6__scroll0.webp",
+      "shots/_proposed/manual-nikon-com-f108f6__scroll1.webp",
+      "shots/_proposed/manual-nikon-com-f108f6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.nikon.com/company",
+        "full": "shots/_proposed/manual-nikon-com-f108f6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "manufacturing",
+      "technology",
+      "electronics"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a dominant three-column hero section, where each column acts as a primary navigation link to a major site category (Business, Consumer, About Us), each with a distinct background image and large text overlay."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the initial top bar containing the country/region selector slides up and out of view, while the main navigation bar simultaneously shrinks in height, gains a solid dark background, and becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white color scheme dominates the site for text and backgrounds, providing high contrast, with the brand's distinctive yellow used exclusively for the Nikon logo."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif typography is consistently used for hero panel labels and section headings, establishing a clear and strong visual hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The header implements a scroll-triggered transformation where an initial top bar is hidden, and the primary navigation bar reduces its vertical dimension and switches from a transparent to a solid dark background, fixing its position at the top of the screen."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFD200",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are used for hero panels and section titles, with standard legible body text.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 the hero section is airy with large visual elements, while content sections like news lists and footers are more dense."
+  },
+  "standout": "The site's most distinctive feature is its three-panel hero section, which functions as a primary navigation hub, visually segmenting the company's core offerings (Business, Consumer, About Us) with large, impactful imagery and text. This creates a strong, immediate sense of corporate structure and purpose.",
+  "animation_tech": [],
+  "status": "proposed"
+}

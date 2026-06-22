@@ -1,0 +1,129 @@
+{
+  "id": "manual-studiodumbar-com-ec2cae",
+  "source": {
+    "url": "https://www.studiodumbar.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-studiodumbar-com-ec2cae.webp",
+    "scroll": [
+      "shots/_proposed/manual-studiodumbar-com-ec2cae__scroll0.webp",
+      "shots/_proposed/manual-studiodumbar-com-ec2cae__scroll1.webp",
+      "shots/_proposed/manual-studiodumbar-com-ec2cae__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://studiodumbar.com/work/into",
+        "full": "shots/_proposed/manual-studiodumbar-com-ec2cae__p2.webp"
+      },
+      {
+        "url": "https://studiodumbar.com/work/openai",
+        "full": "shots/_proposed/manual-studiodumbar-com-ec2cae__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "creative-studio"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode aesthetic with a pure black background (#000000) serving as a canvas for intensely vibrant, often neon or glowing, accent colors."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections and project showcases dominate the viewport, often featuring large-scale imagery, video, or abstract motion graphics that fill the entire screen."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are typically large, uppercase, and set in a thin sans-serif font, creating a modern and editorial feel against the dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial homepage hero features a dynamic, animated geometric pattern that recedes or disappears on scroll, giving way to full-screen project showcases."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation undergoes a visual transformation on initial scroll (changing logo style and text color) and is designed to be temporarily obscured by full-screen project sections, reappearing as a sticky header on interior pages."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections on interior pages reveal themselves with subtle fade-in or slide-up animations as they enter the viewport, creating a guided viewing experience."
+    }
+  ],
+  "technique_notes": [
+    "The site uses full-screen, immersive hero sections that transition abruptly or with subtle fades, often featuring video backgrounds or complex WebGL-like animations for a dramatic entrance, designed to temporarily take over the entire viewport and obscure the header.",
+    "A dynamic header system is implemented where the navigation initially appears integrated with the homepage hero, then transforms its visual style (e.g., logo and text color) on scroll, and is designed to be temporarily hidden by full-screen content blocks before reappearing as a persistent sticky navigation on subsequent detailed content pages.",
+    "Scroll-triggered animations, likely powered by GSAP, are used extensively to reveal content. Elements such as text blocks, images, and grids fade up or slide into view with a slight delay as the user scrolls down the page, creating a dynamic and engaging content flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF00FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful headings (~3-4x body text) with a thin, modern sans-serif weight, contrasted by smaller, legible body text.",
+    "radius": "Sharp corners are used throughout, contributing to a clean, modern, and digital aesthetic.",
+    "spacing": "Very airy, with generous vertical spacing between major sections and content blocks, allowing elements to breathe on the dark canvas."
+  },
+  "standout": "This site distinguishes itself with an exceptionally bold and immersive dark mode design, leveraging pure black backgrounds as a canvas for intensely vibrant, often glowing, accent colors and abstract motion graphics. The overall experience feels less like a traditional website and more like an interactive digital art exhibition, making it highly memorable.",
+  "animation_tech": [
+    "aos",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

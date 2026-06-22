@@ -1,0 +1,125 @@
+{
+  "id": "manual-glamping-com-2224b0",
+  "source": {
+    "url": "https://www.glamping.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-glamping-com-2224b0.webp",
+    "scroll": [
+      "shots/_proposed/manual-glamping-com-2224b0__scroll0.webp",
+      "shots/_proposed/manual-glamping-com-2224b0__scroll1.webp",
+      "shots/_proposed/manual-glamping-com-2224b0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.glamping.com/about",
+        "full": "shots/_proposed/manual-glamping-com-2224b0__p2.webp"
+      },
+      {
+        "url": "https://www.glamping.com/about-us",
+        "full": "shots/_proposed/manual-glamping-com-2224b0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "luxury-travel",
+      "hospitality",
+      "glamping"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections with text overlays and prominent call-to-action buttons are used for primary content, transitioning to structured grid layouts for featured listings and blog content."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a bold, wide sans-serif for main headings and titles, often in uppercase, contrasted with a more readable sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette combines deep charcoal/teal backgrounds with crisp white text, accented by a vibrant red for calls-to-action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic image slider with changing property details. As the user scrolls past the initial hero, the transparent header transforms into a solid, dark-background sticky header with a dark logo and navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections throughout the page are revealed with a subtle fade-in and slide-up animation as they enter the viewport, creating a guided reading experience."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct sections with clear headings, often separated by subtle horizontal rules or changes in background color (white to light grey to dark teal), providing visual rhythm and structure."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed image or video background with a dark gradient overlay to ensure text legibility. A content slider cycles through different featured properties, updating the image, title, and call-to-action dynamically.",
+    "A transforming sticky header is implemented: initially transparent with light text and logo, it transitions to a solid background with dark text and logo once the user scrolls past the hero section, maintaining navigation visibility.",
+    "Scroll-triggered animations are used to progressively reveal content. As sections enter the viewport, they animate into place with a subtle fade-in and upward translation, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#bd081c",
+        "role": "cta"
+      },
+      {
+        "hex": "#e9e9e9",
+        "role": "surface"
+      },
+      {
+        "hex": "#4a6067",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BrandonGrotesque-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Google Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are used for impact, with smaller uppercase sans-serif labels and standard body text for readability.",
+    "radius": "Subtle: buttons and input fields feature slightly rounded corners, maintaining a clean yet approachable aesthetic.",
+    "spacing": "Balanced: the hero section is airy, while content grids and feature sections maintain a comfortable density with consistent vertical rhythm."
+  },
+  "standout": "This site stands out by effectively blending aspirational, high-quality imagery of luxury travel with a highly functional and organized content structure. The dynamic hero slider and the transforming sticky header create a premium and engaging user experience that feels both luxurious and practical for discovery.",
+  "animation_tech": [
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

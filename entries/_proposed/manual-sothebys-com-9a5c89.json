@@ -1,0 +1,127 @@
+{
+  "id": "manual-sothebys-com-9a5c89",
+  "source": {
+    "url": "https://www.sothebys.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-sothebys-com-9a5c89.webp",
+    "scroll": [
+      "shots/_proposed/manual-sothebys-com-9a5c89__scroll0.webp",
+      "shots/_proposed/manual-sothebys-com-9a5c89__scroll1.webp",
+      "shots/_proposed/manual-sothebys-com-9a5c89__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.sothebys.com/en",
+        "full": "shots/_proposed/manual-sothebys-com-9a5c89__p2.webp"
+      },
+      {
+        "url": "https://www.sothebys.com/sthelenaconcierge",
+        "full": "shots/_proposed/manual-sothebys-com-9a5c89__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury-goods",
+      "auction",
+      "art",
+      "collectibles"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Generous use of white space around content blocks and between sections, creating an airy and premium feel."
+    },
+    {
+      "kind": "layout",
+      "note": "Product listings are presented in a responsive grid, typically 3-4 columns, with consistent card styling and information display."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using an elegant serif for major headings and a modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of predominantly white backgrounds, dark grays for text, and a distinctive warm gold accent color for interactive elements and subtle underlines."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms into a compact sticky header upon scroll, reducing its height and scaling down the logo and primary links."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image appears to be a fixed background or has a subtle parallax effect, allowing subsequent content to scroll up and overlay the lower portion of the hero."
+    },
+    {
+      "kind": "section",
+      "note": "Section titles are often underlined with a thin gold line, providing a subtle visual anchor and reinforcing the brand's accent color."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically reduces its height and scales down the logo and primary navigation links using CSS transitions as the user scrolls past the initial hero section.",
+    "Create a full-width hero section where the background image is either fixed or has a subtle parallax effect, allowing the content below it to scroll up and overlay the lower portion of the hero.",
+    "Utilize a flexible grid system for displaying product cards, ensuring consistent spacing, alignment, and information hierarchy across different screen sizes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A2B3C",
+        "role": "dark-blue-surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#C8A76F",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "light-gray-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif headings are significantly larger than the body text, often with generous letter spacing, while body text is clear and readable with a modern sans-serif.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields; product images and main content blocks have sharp corners.",
+    "spacing": "Balanced to airy, with ample padding around content blocks and between sections, contributing to a premium, uncrowded feel."
+  },
+  "standout": "The site's standout feature is its ability to blend a high-end, editorial aesthetic with a functional e-commerce platform. The use of a classic serif typeface alongside a clean sans-serif, combined with a sophisticated color palette and generous white space, evokes the feeling of a luxury art gallery or museum catalog, rather than a typical online store. The subtle sticky navigation transformation and the hero's fixed background effect further enhance this premium experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

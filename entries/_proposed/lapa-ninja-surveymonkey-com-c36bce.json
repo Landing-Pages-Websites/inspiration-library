@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-surveymonkey-com-c36bce",
+  "source": {
+    "url": "https://www.surveymonkey.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-surveymonkey-com-c36bce.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-surveymonkey-com-c36bce__scroll0.webp",
+      "shots/_proposed/lapa-ninja-surveymonkey-com-c36bce__scroll1.webp",
+      "shots/_proposed/lapa-ninja-surveymonkey-com-c36bce__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "market-research",
+      "data-analytics"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width white, dark blue, and dark green backgrounds to clearly delineate content blocks and create visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A strong, bold sans-serif is used for all major headings, creating immediate impact and clear hierarchy, while a more neutral sans-serif provides readability for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, energetic green (#00bf6f) is consistently used as a primary accent and call-to-action color, contrasting effectively with the deep professional blue (#05467e) and clean white backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and key elements reveal with a subtle fade-in and slight upward slide as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section features a prominent, concise headline, often accompanied by a visual element or data points, to quickly convey its purpose and value."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar remains fixed at the top of the viewport after initial scroll, maintaining its original appearance without transformation.",
+    "Content sections and individual elements within them are animated to subtly fade in and slide up from the bottom as they scroll into the user's view, creating a dynamic and engaging reveal effect, likely leveraging CSS keyframes.",
+    "Interactive elements like buttons, input fields, and content cards consistently feature a moderate, uniform corner radius, contributing to a friendly yet professional aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#05467e",
+        "role": "primary-dark-blue"
+      },
+      {
+        "hex": "#00bf6f",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#224f3c",
+        "role": "dark-green-background"
+      },
+      {
+        "hex": "#2d3748",
+        "role": "body-text"
+      },
+      {
+        "hex": "#e2e8f0",
+        "role": "light-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "National 2",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body text) establish clear hierarchy, complemented by legible body text and smaller, often uppercase, labels for detail.",
+    "radius": "Rounded, consistently applied to buttons, cards, and interactive elements.",
+    "spacing": "Balanced and generous, with ample vertical spacing between sections and within content blocks, contributing to a clean and professional layout."
+  },
+  "standout": "The confident and consistent application of a vibrant, energetic green as the primary accent color against a deep, professional blue and clean white. This color choice is not just for CTAs but also for key data points and visual highlights, making the site feel dynamic and trustworthy simultaneously.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

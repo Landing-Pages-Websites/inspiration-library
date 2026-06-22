@@ -1,0 +1,123 @@
+{
+  "id": "manual-visitnorway-com-8add3f",
+  "source": {
+    "url": "https://visitnorway.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-visitnorway-com-8add3f.webp",
+    "scroll": [
+      "shots/_proposed/manual-visitnorway-com-8add3f__scroll0.webp",
+      "shots/_proposed/manual-visitnorway-com-8add3f__scroll1.webp",
+      "shots/_proposed/manual-visitnorway-com-8add3f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.visitnorway.com/all-listings",
+        "full": "shots/_proposed/manual-visitnorway-com-8add3f__p2.webp"
+      },
+      {
+        "url": "https://www.visitnorway.com/typically-norwegian",
+        "full": "shots/_proposed/manual-visitnorway-com-8add3f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "tourism",
+      "destination-marketing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of diverse card grid layouts (2, 3, and 4 columns) to organize a large volume of content, often with full-bleed images and concise text overlays or descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating background colors for major sections, primarily using a deep navy blue, light blue-grey, and white to visually segment content and provide rhythm."
+    },
+    {
+      "kind": "motion",
+      "note": "Sticky header navigation that transforms from a transparent overlay with a subtle logo to an opaque white bar with a more prominent logo and search/menu icons upon scrolling past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Clear thematic content grouping, with each major section introduced by a large, bold sans-serif heading and often followed by a curated selection of related content cards."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a large, bold, sans-serif typeface for all primary headings and section titles, creating a strong visual hierarchy against smaller, highly legible sans-serif body text."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video that plays on loop, serving as an immersive visual anchor while the main page content scrolls over it.",
+    "The primary navigation bar dynamically changes its appearance, transitioning from a transparent state over the hero video to a solid white background with a more prominent logo and adjusted text colors once the user scrolls down the page.",
+    "Content sections below the hero appear to reveal with a subtle fade-in or slide-up animation as they enter the viewport, likely orchestrated using CSS keyframes to enhance engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#06132a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#e8f4f9",
+        "role": "surface"
+      },
+      {
+        "hex": "#c8102e",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#9db2ca",
+        "role": "text"
+      },
+      {
+        "hex": "#ffc107",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear visual hierarchy, paired with a highly legible sans-serif for body and card descriptions.",
+    "radius": "Subtle; small border-radius applied consistently to cards, buttons, and the hero text box for a soft, approachable feel.",
+    "spacing": "Balanced to airy; generous vertical spacing between major sections, with balanced padding and margins within card grids and content blocks."
+  },
+  "standout": "This site stands out for its effective combination of an immersive, video-driven hero with an exceptionally rich and well-organized content architecture. It masterfully presents a vast array of travel information through diverse, visually appealing card layouts and clear thematic sections, making a large amount of content digestible and engaging.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

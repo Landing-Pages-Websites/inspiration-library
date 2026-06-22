@@ -1,0 +1,115 @@
+{
+  "id": "manual-foodpanda-com-27ce8b",
+  "source": {
+    "url": "https://www.foodpanda.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-foodpanda-com-27ce8b.webp",
+    "scroll": [
+      "shots/_proposed/manual-foodpanda-com-27ce8b__scroll0.webp",
+      "shots/_proposed/manual-foodpanda-com-27ce8b__scroll1.webp",
+      "shots/_proposed/manual-foodpanda-com-27ce8b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.foodpanda.com/about-foodpanda",
+        "full": "shots/_proposed/manual-foodpanda-com-27ce8b__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-delivery",
+      "e-commerce",
+      "logistics"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use an asymmetrical two-column layout, pairing a prominent image or graphic on one side with descriptive text and a call-to-action on the other."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast color scheme, primarily using black and white, punctuated by a vibrant, almost neon pink (#FF2B85) for accents and calls-to-action."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed hero sections feature large, bold white text overlaid on a dark-tinted background image or video, creating a strong visual impact and ensuring text readability."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport throughout scrolling, providing persistent access to links and CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the large heading text scrolls at a slightly slower rate than its background image, creating a sense of depth."
+    },
+    {
+      "kind": "layout",
+      "note": "A horizontal scrolling carousel is used for displaying news or press releases, allowing users to browse multiple cards within a confined space."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed header navigation that remains at the top of the viewport on scroll, ensuring constant access to site navigation.",
+    "Create a hero section with a full-bleed background video or image, applying a dark gradient overlay to enhance text contrast. Achieve a subtle parallax effect by making the overlaying text scroll at a slightly slower rate than the background.",
+    "Utilize a JavaScript library (like Swiper.js) to build a horizontally scrollable card section for dynamic content, where each card can contain an image, text, and a label."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FF2B85",
+        "role": "accent"
+      },
+      {
+        "hex": "#7A00DF",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~4-5x body) with clear hierarchy, paired with a readable, slightly condensed sans-serif body text.",
+    "radius": "Subtle (buttons and cards feature slightly rounded corners, typically 4-8px).",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within content blocks, creating an airy feel, especially in the hero and main content areas."
+  },
+  "standout": "The site's distinctive use of a vibrant, almost neon pink as a primary accent color against a high-contrast black and white palette immediately grabs attention, making the CTAs and key information pop. The full-bleed video heroes with subtle parallax also contribute to a dynamic and engaging first impression.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "manual-fourseasons-com-720605",
+  "source": {
+    "url": "https://www.fourseasons.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-fourseasons-com-720605.webp",
+    "scroll": [
+      "shots/_proposed/manual-fourseasons-com-720605__scroll0.webp",
+      "shots/_proposed/manual-fourseasons-com-720605__scroll1.webp",
+      "shots/_proposed/manual-fourseasons-com-720605__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.fourseasons.com/maui",
+        "full": "shots/_proposed/manual-fourseasons-com-720605__p2.webp"
+      },
+      {
+        "url": "https://www.fourseasons.com/oahu",
+        "full": "shots/_proposed/manual-fourseasons-com-720605__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "luxury-travel",
+      "resorts"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed immersive photography and video backgrounds are used extensively for hero sections and major content blocks, creating a highly visual and aspirational experience."
+    },
+    {
+      "kind": "layout",
+      "note": "The site primarily uses a dark theme with black backgrounds and white text, interspersed with occasional light grey sections for visual rhythm and content separation."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, elegant serif display font is used for primary headings and brand elements, creating a luxurious feel, contrasted with a clean, modern sans-serif for body text and functional elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-stage hero transition system reveals different full-bleed visual experiences as the user scrolls, starting with a brand statement, then a booking interface, before settling into the main content."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact sticky header with the brand logo and menu icon appears and condenses after scrolling past the initial hero content, providing persistent navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Destination and experience cards are presented in dynamic, often horizontally scrollable or grid layouts, featuring large imagery and concise descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a multi-stage scroll-triggered hero transition, where an initial full-bleed video hero fades or slides out to reveal a second full-bleed video hero with interactive elements, before transitioning to the main content. This is likely orchestrated using a scroll animation library, combined with `video-hero` elements for the backgrounds and potentially `lottie` for subtle animated details.",
+    "Full-bleed immersive photography and video are used extensively as section backgrounds, often with subtle dark overlays to ensure text legibility and maintain a sophisticated aesthetic.",
+    "A compact sticky header is revealed after scrolling past the initial hero, providing persistent navigation that is less intrusive than the initial full header."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#231f20",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif display headings (~4-5x body) with smaller, uppercase sans-serif labels and clear, readable sans-serif body text.",
+    "radius": "Sharp corners for most elements, subtle rounding on buttons and interactive cards.",
+    "spacing": "Airy in hero sections and between major content blocks, balanced within content grids and text blocks."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated, multi-stage scroll-triggered hero experience that seamlessly transitions between different full-bleed video and image presentations. This, combined with a predominantly dark theme and elegant typography, creates an exceptionally luxurious and immersive brand narrative that feels more like an editorial experience than a typical booking site.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

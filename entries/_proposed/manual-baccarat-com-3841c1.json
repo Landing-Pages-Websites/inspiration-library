@@ -1,0 +1,127 @@
+{
+  "id": "manual-baccarat-com-3841c1",
+  "source": {
+    "url": "https://www.baccarat.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-baccarat-com-3841c1.webp",
+    "scroll": [
+      "shots/_proposed/manual-baccarat-com-3841c1__scroll0.webp",
+      "shots/_proposed/manual-baccarat-com-3841c1__scroll1.webp",
+      "shots/_proposed/manual-baccarat-com-3841c1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.baccarat.com/en_us/harry-nuriev.html",
+        "full": "shots/_proposed/manual-baccarat-com-3841c1__p2.webp"
+      },
+      {
+        "url": "https://www.baccarat.com/en_us/collections/new-antique",
+        "full": "shots/_proposed/manual-baccarat-com-3841c1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "retail",
+      "crystal",
+      "fragrance"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed editorial imagery with structured product grids (typically 3-column or 2-column) to create visual rhythm and highlight different content types."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy featuring a distinctive serif logo, bold sans-serif headings, and smaller, often uppercase, sans-serif labels for categories and calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white/light gray is consistently used for backgrounds and text, punctuated by a rich, deep red accent for interactive elements and brand highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, maintaining accessibility to key links throughout the scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by generous vertical spacing and often by alternating background colors (white and light gray), creating distinct visual blocks for different product categories or brand stories."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a background image that scrolls at a slower rate than the foreground content, creating a depth-of-field parallax effect.",
+    "Content sections below the hero likely reveal with a subtle fade-up or slide-up animation as they enter the viewport, using CSS keyframes to trigger the transitions.",
+    "The main navigation bar is fixed to the top of the browser window, ensuring it remains visible and accessible as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#3E464A",
+        "role": "text"
+      },
+      {
+        "hex": "#C10A25",
+        "role": "accent"
+      },
+      {
+        "hex": "#A6192E",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Didot",
+        "role": "display"
+      },
+      {
+        "family": "Red Hat Display",
+        "role": "heading"
+      },
+      {
+        "family": "Red Hat Display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, complemented by smaller, often uppercase, sans-serif labels and a clean, legible body text.",
+    "radius": "Predominantly sharp corners on most elements, with very subtle rounding on interactive components like buttons and input fields.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major content sections to create a sense of luxury and allow imagery to breathe, while product grids maintain a more compact density."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of high-contrast black and white editorial photography with rich, vibrant product imagery. This creates a luxurious and aspirational brand experience that feels more like an art gallery or high-fashion editorial than a typical e-commerce site, effectively elevating the perception of the products.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

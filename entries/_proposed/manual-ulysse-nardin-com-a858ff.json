@@ -1,0 +1,120 @@
+{
+  "id": "manual-ulysse-nardin-com-a858ff",
+  "source": {
+    "url": "https://www.ulysse-nardin.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ulysse-nardin-com-a858ff.webp",
+    "scroll": [
+      "shots/_proposed/manual-ulysse-nardin-com-a858ff__scroll0.webp",
+      "shots/_proposed/manual-ulysse-nardin-com-a858ff__scroll1.webp",
+      "shots/_proposed/manual-ulysse-nardin-com-a858ff__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ulysse-nardin.com/watches",
+        "full": "shots/_proposed/manual-ulysse-nardin-com-a858ff__p2.webp"
+      },
+      {
+        "url": "https://www.ulysse-nardin.com/boutiques",
+        "full": "shots/_proposed/manual-ulysse-nardin-com-a858ff__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero and section backgrounds with a split content layout (large text on one side, impactful imagery on the other) or full-width background images with centered text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, large-scale serif font is used for primary headings, creating a luxurious and editorial feel, contrasted with a clean, legible sans-serif for body text and smaller, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant palette of deep black/dark blue and crisp white, accented by a subtle light grey for secondary backgrounds and a vibrant blue for interactive elements, reinforcing a high-end brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent overlay to a solid dark background with a subtle border and slightly reduced height as the user scrolls down the page, becoming sticky."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and product cards reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport, creating a smooth and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Product collections are presented in horizontal carousels on the homepage, allowing users to browse multiple items within a single section, while interior pages use a grid layout."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its appearance: initially transparent and overlaid on the hero, it shrinks slightly and gains a solid dark background with a bottom border upon scroll. This can be achieved with CSS transitions and JavaScript to detect scroll position.",
+    "Content sections and individual elements (like product cards) are revealed with a staggered fade-in or subtle vertical slide-up animation as they become visible in the viewport. This effect is likely managed using CSS keyframes triggered by JavaScript intersection observers.",
+    "Product listings on the homepage are presented within a horizontal carousel, allowing users to swipe or click through items. This is implemented using a slider library (like Swiper, as hinted) with navigation arrows and pagination dots."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#E4E4E4",
+        "role": "surface"
+      },
+      {
+        "hex": "#3170B9",
+        "role": "accent"
+      },
+      {
+        "hex": "#181818",
+        "role": "secondary-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body text) for dramatic impact, complemented by clean sans-serif body text and small, often uppercase, sans-serif labels.",
+    "radius": "Subtle rounding (approx. 4-8px) on interactive elements and product cards, contributing to a refined but not overly soft aesthetic.",
+    "spacing": "Generally airy, with generous vertical padding between main sections and within the hero, creating a sense of luxury and allowing content to breathe. Product grids maintain a more balanced density."
+  },
+  "standout": "The site's distinctive blend of a deep, dark aesthetic with elegant serif typography for headings immediately conveys luxury and heritage. The dramatic, full-bleed hero sections and the sophisticated presentation of products as art pieces, rather than mere commodities, set it apart from typical e-commerce sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

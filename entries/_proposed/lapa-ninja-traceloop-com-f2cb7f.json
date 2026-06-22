@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-traceloop-com-f2cb7f",
+  "source": {
+    "url": "https://www.traceloop.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-traceloop-com-f2cb7f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-traceloop-com-f2cb7f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-traceloop-com-f2cb7f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-traceloop-com-f2cb7f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a consistent dark mode aesthetic with full-width sections, centering content within a maximum width container for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme features a dominant deep dark background, bright white text for primary content, and vibrant yellow/orange accents for calls to action and glowing illustrative elements."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and modern sans-serif, providing strong visual hierarchy, complemented by lighter-weight body text and occasional uppercase labels for emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-up or slide-up animation as they scroll into the viewport. The main navigation bar becomes sticky and transforms (shrinks, adds a solid background) after the initial scroll, while the hero background image exhibits a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Each content section is visually distinct, often featuring a large heading, supporting text, and a prominent, dark-themed visual element such as a dashboard UI or abstract glowing diagram."
+    }
+  ],
+  "technique_notes": [
+    "Uses scroll-triggered animations, likely powered by anime-js, to reveal content sections with a staggered fade-up or slide-up effect as they enter the viewport. The hero section's background image employs a subtle parallax, moving slower than the foreground content. The global navigation transitions to a sticky state, shrinking slightly and gaining a solid background color after a specific scroll threshold.",
+    "The site maintains a consistent dark mode theme throughout, utilizing a very dark background with high-contrast white text and bright accent colors for visual pop and clarity.",
+    "Complex, detailed UI mockups and abstract glowing illustrations are integrated directly into the content sections, serving as primary visual explanations of the product's technical capabilities and concepts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFC700",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFA500",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#B0B0B0",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) with generous line height, paired with smaller, lighter-weight body text and occasional uppercase labels.",
+    "radius": "Subtle; elements like buttons and cards feature a very slight border-radius, appearing almost sharp but with soft corners.",
+    "spacing": "Balanced to airy; sections have generous vertical padding, and content elements within sections maintain a comfortable, uncrowded rhythm."
+  },
+  "standout": "The site's distinctive use of a deep, dark aesthetic combined with glowing, almost ethereal visual elements creates a sophisticated and high-tech atmosphere. The integration of detailed, dark-themed UI mockups as primary visual content, rather than just static images, is particularly effective in conveying the product's technical depth and functionality.",
+  "animation_tech": [
+    "anime-js"
+  ],
+  "status": "proposed"
+}

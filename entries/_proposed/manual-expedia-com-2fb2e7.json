@@ -1,0 +1,125 @@
+{
+  "id": "manual-expedia-com-2fb2e7",
+  "source": {
+    "url": "https://www.expedia.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-expedia-com-2fb2e7.webp",
+    "scroll": [
+      "shots/_proposed/manual-expedia-com-2fb2e7__scroll0.webp",
+      "shots/_proposed/manual-expedia-com-2fb2e7__scroll1.webp",
+      "shots/_proposed/manual-expedia-com-2fb2e7__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.expedia.com/Cars",
+        "full": "shots/_proposed/manual-expedia-com-2fb2e7__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "online-booking",
+      "hospitality"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A highly prominent, multi-tabbed search form is centrally positioned in the hero section, serving as the primary interaction point for all core services."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is organized into clear, grid-based card displays for various travel options (hotels, rentals, packages), maintaining a consistent visual structure across different sections."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, high-contrast blue is consistently used for primary call-to-action buttons, links, and interactive elements, standing out against a predominantly white and light grey background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's background image exhibits a subtle parallax effect, scrolling at a slower rate than the foreground content to create a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header navigation bar at the very top of the page remains sticky, fixing to the viewport after initial scroll to ensure constant access to global navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Informational sections feature tabbed content (e.g., 'Top Hotels on Domestic Destinations') to organize and present large amounts of related data efficiently without overwhelming the user."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large background image that scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect.",
+    "Content sections reveal statically as they scroll into the viewport, maintaining a clear visual hierarchy without complex entrance animations.",
+    "The primary navigation bar at the top of the page remains fixed to the top of the viewport after initial scroll, ensuring constant access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#191e3b",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#1668e3",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffc000",
+        "role": "promotion"
+      },
+      {
+        "hex": "#a7183c",
+        "role": "discount"
+      },
+      {
+        "hex": "#4d5167",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#dfe0e4",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Centra No2",
+        "role": "heading"
+      },
+      {
+        "family": "Centra No2",
+        "role": "body"
+      },
+      {
+        "family": "Reckless XPD",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Clear hierarchy with large, bold sans-serif headings (Centra No2) for sections, and a more classic serif (Reckless XPD) for display text in the hero, contrasted with legible body text.",
+    "radius": "Subtle rounding on cards, buttons, and input fields, creating a friendly but professional feel.",
+    "spacing": "Balanced spacing throughout content grids and sections, with a more airy feel in the hero area to emphasize the search form."
+  },
+  "standout": "The site's standout feature is its highly functional and visually prominent multi-tabbed search form, which acts as the central interaction point, immediately guiding users to their primary task. This is combined with a clear, card-based information architecture that efficiently presents a vast array of travel options.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

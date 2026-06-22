@@ -1,0 +1,127 @@
+{
+  "id": "manual-visiticeland-com-012fd4",
+  "source": {
+    "url": "https://www.visiticeland.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-visiticeland-com-012fd4.webp",
+    "scroll": [
+      "shots/_proposed/manual-visiticeland-com-012fd4__scroll0.webp",
+      "shots/_proposed/manual-visiticeland-com-012fd4__scroll1.webp",
+      "shots/_proposed/manual-visiticeland-com-012fd4__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.visiticeland.com/culture",
+        "full": "shots/_proposed/manual-visiticeland-com-012fd4__p2.webp"
+      },
+      {
+        "url": "https://www.visiticeland.com/eruption",
+        "full": "shots/_proposed/manual-visiticeland-com-012fd4__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "tourism",
+      "destination-marketing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive hero images are used extensively on both the homepage and interior pages, often serving as a dramatic backdrop for large, contrasting text overlays."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently employ a flexible two-column grid, either presenting text alongside a large image or arranging multiple image-based cards for article previews."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently large, bold, and set in uppercase, creating strong visual anchors, while body text uses a clean, highly readable sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, featuring a deep, almost black, background for initial hero sections that transitions to a predominantly clean white background for content areas, with vibrant blue and orange accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent overlay on the hero section to a solid white background with dark text and logo as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero background images exhibit a subtle parallax effect, moving slower than the foreground text and elements, adding depth and visual interest during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Image-centric content cards are a recurring pattern for linking to articles or sub-sections, featuring a prominent photograph, a category tag, and a concise title."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that dynamically changes its background and text color from transparent to solid white with dark text upon scrolling past the initial hero section.",
+    "Hero sections feature a full-bleed background image that creates a subtle depth effect by parallaxing at a slower rate than the overlaid text content during scroll, likely using CSS transforms or canvas for the background movement.",
+    "Content sections are revealed with a gentle fade-in or slide-up animation as they enter the viewport, enhancing the flow of information and likely leveraging CSS keyframes for the transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d0d0f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#02529c",
+        "role": "accent"
+      },
+      {
+        "hex": "#f9a11b",
+        "role": "accent"
+      },
+      {
+        "hex": "#dc1e35",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Stafir Sans Display",
+        "role": "heading"
+      },
+      {
+        "family": "Stafir Sans",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:SFMono-Regular",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase display headings (~4-5x body) are paired with a clean, readable sans-serif body text and smaller, often uppercase, category labels.",
+    "radius": "Subtle; images and cards have very slightly rounded corners, almost sharp, maintaining a crisp aesthetic.",
+    "spacing": "Balanced; the hero section is airy and expansive, while content sections maintain a comfortable grid with consistent padding, creating a clear visual rhythm without feeling overly dense or sparse."
+  },
+  "standout": "The site distinguishes itself with its dramatic, full-bleed photography of Icelandic landscapes, particularly the dark, starry hero images that immediately convey a sense of awe and adventure. The transforming sticky navigation and subtle parallax on these hero images add a layer of polish and engagement that elevates it beyond a standard travel blog, making the destination feel truly epic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

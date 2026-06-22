@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-lambdalabs-com-c213bb",
+  "source": {
+    "url": "https://lambdalabs.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-lambdalabs-com-c213bb.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-lambdalabs-com-c213bb__scroll0.webp",
+      "shots/_proposed/lapa-ninja-lambdalabs-com-c213bb__scroll1.webp",
+      "shots/_proposed/lapa-ninja-lambdalabs-com-c213bb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "cloud-computing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A stark dark mode theme with high-contrast white text dominates the entire site, creating a sophisticated and focused visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Numbered lists (e.g., '01 / You bring models.') are a recurring visual motif for presenting key features or steps, often using a slightly smaller, distinct font style."
+    },
+    {
+      "kind": "color",
+      "note": "A single vibrant purple accent color is used sparingly for primary call-to-action buttons and subtle highlights, standing out against the dark background and white text."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero heading features a dynamic, character-level 'glitch' animation, creating a high-tech, slightly unstable visual effect."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the initial viewport are progressively revealed as the user scrolls down, appearing into view rather than being present from the initial load."
+    },
+    {
+      "kind": "layout",
+      "note": "A persistent, sticky navigation bar remains at the top of the viewport during scrolling, maintaining access to primary navigation links."
+    }
+  ],
+  "technique_notes": [
+    "The hero section incorporates a dynamic character animation, likely using canvas or Lottie, to create a 'glitch' or 'data corruption' effect on the main heading text, giving it a cutting-edge feel.",
+    "Content sections are designed to reveal themselves sequentially as the user scrolls, often with a subtle fade-in or slide-up effect, enhancing engagement and guiding the user through the page's narrative.",
+    "The main navigation bar is implemented as a sticky element, ensuring constant access to primary navigation links regardless of scroll depth, without any visual transformation on scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0b0b",
+        "role": "background"
+      },
+      {
+        "hex": "#e7e6d9",
+        "role": "text"
+      },
+      {
+        "hex": "#5e33ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#252525",
+        "role": "surface"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~4-5x body) with smaller, often uppercase labels and clear, legible body text.",
+    "radius": "sharp corners are consistently used across all elements, including buttons, cards, and images.",
+    "spacing": "airy, with generous vertical spacing between major sections and a balanced density within content blocks."
+  },
+  "standout": "The site's most distinctive feature is the animated 'glitch' effect on the hero heading, which immediately communicates a high-tech, cutting-edge identity. This, combined with the stark dark mode and structured numbered lists, creates a unique blend of sophistication and technical prowess that stands apart from generic templates.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "proposed"
+}
