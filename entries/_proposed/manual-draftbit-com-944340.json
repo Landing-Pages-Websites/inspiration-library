@@ -1,0 +1,126 @@
+{
+  "id": "manual-draftbit-com-944340",
+  "source": {
+    "url": "https://www.draftbit.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-draftbit-com-944340.webp",
+    "scroll": [
+      "shots/_proposed/manual-draftbit-com-944340__scroll0.webp",
+      "shots/_proposed/manual-draftbit-com-944340__scroll1.webp",
+      "shots/_proposed/manual-draftbit-com-944340__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://draftbit.com/",
+        "full": "shots/_proposed/manual-draftbit-com-944340__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "app-development",
+      "no-code"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a consistent central max-width, often featuring alternating text and visual elements like code snippets or app screenshots."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif headings for primary messages, complemented by smaller, often uppercase, labels for feature categories or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-color gradient (purple-blue-pink) is used as a fixed background element in the hero and footer, providing a dynamic contrast to the predominantly clean white content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar that gains a solid white background and subtle shadow upon scrolling past the hero section, maintaining its height."
+    },
+    {
+      "kind": "motion",
+      "note": "Fixed background elements (hero gradient, footer logo) create a strong parallax effect as foreground content scrolls over them."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "An interactive hero input field that prompts users to 'Describe the app you want to build,' immediately engaging them with the product's core value proposition."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky navigation bar that transitions from transparent to a solid white background with a subtle drop shadow once the user scrolls beyond the initial hero content.",
+    "Utilize fixed-position background elements, such as a large, vibrant gradient in the hero and a subtle brand logo in the footer, to create a parallax scrolling effect where foreground content layers over these static backgrounds.",
+    "Employ scroll-triggered animations, likely using CSS keyframes, to reveal content blocks and cards with a staggered fade-in and a slight upward translation as they become visible within the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#020617",
+        "role": "text"
+      },
+      {
+        "hex": "#1E293B",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#5A45FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#EEF2FF",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0BFFF",
+        "role": "gradient-light-purple"
+      },
+      {
+        "hex": "#FFC0CB",
+        "role": "gradient-pink"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear hierarchy, complemented by smaller uppercase labels for categories.",
+    "radius": "Subtle rounding on buttons, input fields, and cards (e.g., 8-12px).",
+    "spacing": "Balanced density with an airy hero section and comfortable vertical rhythm between content blocks."
+  },
+  "standout": "The site's distinctive use of a dynamic, AI-powered text input in the hero section, combined with a vibrant, fixed-parallax gradient background, immediately engages the user by inviting them to describe their app idea. This interactive and visually rich hero sets a high standard for user engagement beyond a typical static headline and CTA.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

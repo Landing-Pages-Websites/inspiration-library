@@ -1,0 +1,92 @@
+{
+  "id": "one-page-love-heavenincolor-com-5025ac",
+  "source": {
+    "url": "https://heavenincolor.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-heavenincolor-com-5025ac.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-heavenincolor-com-5025ac__scroll0.webp",
+      "shots/_proposed/one-page-love-heavenincolor-com-5025ac__scroll1.webp",
+      "shots/_proposed/one-page-love-heavenincolor-com-5025ac__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "photography",
+      "data-visualization"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A minimalist, centered single-column layout with generous vertical spacing and ample whitespace, focusing attention on the central visual element."
+    },
+    {
+      "kind": "type",
+      "note": "Exclusive use of a single elegant serif font for all textual elements, creating a consistent, refined, and artistic voice across headings and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A highly restricted color palette dominated by white, a soft light blue for primary text, and the natural blues and whites of the sky imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The top-level navigation and settings elements ('Night off', 'About', 'Palette') remain sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The primary content area is a large, full-width mosaic composed of numerous small image tiles, which scrolls naturally with the page content."
+    }
+  ],
+  "technique_notes": [
+    "A single elegant serif font is used for all textual elements, with size and weight variations to establish hierarchy while maintaining a cohesive aesthetic.",
+    "The primary visual content is presented as a large, grid-based mosaic of smaller image tiles, filling the central content area and serving as the page's hero.",
+    "The top navigation bar is implemented as a sticky element, maintaining its position at the top of the viewport using CSS positioning, potentially with subtle transitions defined by css-keyframes for its appearance or state changes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#B8D0E8",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "role": "heading|body|display"
+      }
+    ],
+    "type_scale": "Oversized elegant serif headings (~3-4x body) with delicate, small serif labels.",
+    "radius": "Subtle; the main image container has slightly rounded corners.",
+    "spacing": "Airy; generous vertical spacing and ample whitespace around content blocks."
+  },
+  "standout": "The site's distinctive feature is its central, full-width mosaic of sky images, which serves as both the hero and the primary content, creating a unique visual data presentation rather than a typical image or video hero. This artistic approach to displaying a collection of images is highly memorable.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

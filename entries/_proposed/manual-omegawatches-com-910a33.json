@@ -1,0 +1,129 @@
+{
+  "id": "manual-omegawatches-com-910a33",
+  "source": {
+    "url": "https://www.omegawatches.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-omegawatches-com-910a33.webp",
+    "scroll": [
+      "shots/_proposed/manual-omegawatches-com-910a33__scroll0.webp",
+      "shots/_proposed/manual-omegawatches-com-910a33__scroll1.webp",
+      "shots/_proposed/manual-omegawatches-com-910a33__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.omegawatches.com/en-us",
+        "full": "shots/_proposed/manual-omegawatches-com-910a33__p2.webp"
+      },
+      {
+        "url": "https://www.omegawatches.com/en-us/stories",
+        "full": "shots/_proposed/manual-omegawatches-com-910a33__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive hero sections that occupy the entire viewport, transitioning dramatically on scroll to present distinct product narratives."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections are used to create visual rhythm and clearly delineate major content blocks throughout the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of an elegant serif font for main headings, paired with a clean sans-serif for body text and navigation, creating a sophisticated contrast."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep blacks, crisp whites, and light greys, punctuated by a vibrant, rich red for accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen hero sections transition with a dramatic, almost cinematic effect on scroll, completely changing the visual content and product focus rather than just parallaxing."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (images, text blocks) reveal with a subtle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'News & Stories' section presented as a multi-column grid of editorial content, distinct from product showcases and featuring consistent card styling."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-driven narrative, likely using GSAP ScrollTrigger, where full-screen hero sections transition seamlessly. Each hero acts as a distinct visual chapter, potentially using a video background or canvas animation for the initial immersive experience, then switching to static high-resolution imagery for subsequent product showcases.",
+    "As the user scrolls, new content sections and individual elements within them are revealed with a staggered fade-up and slight upward translation, creating a dynamic and engaging content flow.",
+    "The primary navigation remains sticky at the top, maintaining brand presence and easy access throughout the scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#C40D2E",
+        "role": "accent"
+      },
+      {
+        "hex": "#F9F9F9",
+        "role": "surface"
+      },
+      {
+        "hex": "#555555",
+        "role": "text"
+      },
+      {
+        "hex": "#CACACA",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous letter spacing, complemented by smaller, clean sans-serif body text and very small, often uppercase, sans-serif labels.",
+    "radius": "Sharp corners are dominant across all elements, from buttons to image containers, conveying a precise and modern aesthetic.",
+    "spacing": "Generally airy, especially in hero and major content sections, emphasizing individual elements. Product grids and footer content are more balanced in density."
+  },
+  "standout": "The most distinctive feature is the highly cinematic and immersive full-screen hero experience that dramatically transforms on scroll, presenting entirely different product narratives. This isn't just a parallax effect; it's a complete content overhaul for each scroll-snapped section, creating a powerful storytelling journey that feels more like a film than a traditional website.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

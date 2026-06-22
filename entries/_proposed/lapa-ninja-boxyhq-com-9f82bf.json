@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-boxyhq-com-9f82bf",
+  "source": {
+    "url": "https://boxyhq.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-boxyhq-com-9f82bf.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-boxyhq-com-9f82bf__scroll0.webp",
+      "shots/_proposed/lapa-ninja-boxyhq-com-9f82bf__scroll1.webp",
+      "shots/_proposed/lapa-ninja-boxyhq-com-9f82bf__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "identity-management",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width dark and light background sections create clear visual breaks, with content typically contained to a central column within these sections."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sentence-case sans-serif headings are paired with smaller, uppercase sans-serif labels for section introductions and feature highlights."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep dark blue/black and white is consistently used for backgrounds and text, punctuated by vibrant, multi-color isometric illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background illustration moves slower than the foreground text as the user scrolls. Subsequent content sections reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product and feature sections frequently combine concise textual explanations on one side with detailed code snippets, UI mockups, or complex isometric illustrations on the other."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely achieved with a library like locomotive-scroll, which also orchestrates scroll-triggered animations. Sections are revealed with a staggered fade-up or subtle slide-in effect as they become visible in the viewport. The hero image utilizes a parallax effect where the background graphic scrolls at a different rate than the foreground content, creating depth.",
+    "The hero section integrates a video-hero element, presenting a dynamic, looping visual that enhances the initial impression without requiring user interaction to start playback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#040404",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#4C4C4C",
+        "role": "text"
+      },
+      {
+        "hex": "#BCBCBC",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#100B6C",
+        "role": "cta-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong hierarchy, complemented by legible body text and small, uppercase sans-serif labels for categories.",
+    "radius": "Subtle radius on interactive elements like buttons, otherwise sharp corners for most UI components and containers.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and ample whitespace around content blocks, particularly in the hero area."
+  },
+  "standout": "The site's distinctive use of vibrant, multi-layered isometric illustrations against a deep dark background creates a sophisticated and modern tech aesthetic. This visual style, combined with smooth scroll-triggered animations and a clear content structure, elevates it beyond a typical SaaS marketing page.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

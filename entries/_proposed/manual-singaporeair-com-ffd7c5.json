@@ -1,0 +1,124 @@
+{
+  "id": "manual-singaporeair-com-ffd7c5",
+  "source": {
+    "url": "https://www.singaporeair.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-singaporeair-com-ffd7c5.webp",
+    "scroll": [
+      "shots/_proposed/manual-singaporeair-com-ffd7c5__scroll0.webp",
+      "shots/_proposed/manual-singaporeair-com-ffd7c5__scroll1.webp",
+      "shots/_proposed/manual-singaporeair-com-ffd7c5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.singaporeair.com/get-help",
+        "full": "shots/_proposed/manual-singaporeair-com-ffd7c5__p2.webp"
+      },
+      {
+        "url": "https://www.singaporeair.com/feedback-form",
+        "full": "shots/_proposed/manual-singaporeair-com-ffd7c5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "airline"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width horizontal bands, often with a clear heading and supporting text, sometimes featuring a grid of cards for features or information."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent, clean sans-serif font (Proxima Nova) is used for both body text and most headings, ensuring high readability and a professional tone across the site."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep brand blue (#232f67) is used for primary branding and key interactive elements, contrasted with crisp white and light grey backgrounds, and a warm orange (#f99f1c) for secondary accents and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is initially transparent and overlays the hero image, then shrinks in height and gains a solid brand blue background as the user scrolls down the page, remaining sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features a clear progression of content sections: a full-bleed hero with a booking form, followed by a 'Highlights' section with a three-column card grid, and an app promotion section with a background image."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar employs a scroll-triggered transformation, likely using CSS keyframes: it starts as a transparent overlay on the hero, then dynamically reduces its height and applies a solid brand blue background, becoming a fixed, compact header as the user scrolls past the initial viewport.",
+    "Content sections are presented in a clear, stacked layout, appearing as the user scrolls, without complex entrance animations, relying on the scroll position to reveal new information.",
+    "Interactive elements like input fields and buttons feature subtle corner rounding and clear hover states, maintaining a clean and functional aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#232f67",
+        "role": "brand-primary"
+      },
+      {
+        "hex": "#0254ec",
+        "role": "brand-secondary"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#f99f1c",
+        "role": "accent"
+      },
+      {
+        "hex": "#e5e9f0",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Proxima Nova",
+        "role": "body"
+      },
+      {
+        "family": "Proxima Nova",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Sigvar Serial",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with a clear hierarchy from hero title down to section headings, all using a clean sans-serif.",
+    "radius": "Subtle rounding (2-4px) on interactive elements like buttons and input fields, otherwise sharp corners for overall layout.",
+    "spacing": "Balanced and airy, particularly in the hero section, with consistent vertical padding between major content blocks."
+  },
+  "standout": "The site's standout feature is its elegant and highly functional sticky navigation that seamlessly transitions from an overlay on the hero to a compact, solid-background bar, maintaining brand presence and utility throughout the scroll.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

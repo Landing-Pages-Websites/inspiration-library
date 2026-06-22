@@ -1,0 +1,118 @@
+{
+  "id": "manual-zwift-com-8961e2",
+  "source": {
+    "url": "https://www.zwift.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-zwift-com-8961e2.webp",
+    "scroll": [
+      "shots/_proposed/manual-zwift-com-8961e2__scroll0.webp",
+      "shots/_proposed/manual-zwift-com-8961e2__scroll1.webp",
+      "shots/_proposed/manual-zwift-com-8961e2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.zwift.com/racing",
+        "full": "shots/_proposed/manual-zwift-com-8961e2__p2.webp"
+      },
+      {
+        "url": "https://www.zwift.com/events",
+        "full": "shots/_proposed/manual-zwift-com-8961e2__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "cycling",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use an asymmetrical two-column layout, often pairing a large visual (image or video) with a concise text block and call-to-action, alternating sides down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very large, bold, sans-serif typeface, often in all caps, creating a strong visual hierarchy and energetic tone."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, energetic orange is the dominant brand color, used extensively for hero backgrounds, section dividers, and call-to-action buttons, creating a high-contrast and dynamic feel against white and dark grey backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid orange background as it sticks to the top of the viewport. Content sections also reveal with a subtle fade-in and slight upward slide as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a recurring 'journey' or 'get started' section pattern, typically featuring three distinct options presented as cards with images, titles, and brief descriptions, encouraging user engagement."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features an auto-playing video that provides dynamic visual context for the product, enhancing engagement immediately upon page load.",
+    "The global navigation bar is initially transparent and full-height, then uses a CSS transition to shrink in height and adopt a solid background color as the user scrolls down the page, maintaining visibility and brand presence.",
+    "Sections are revealed using a scroll-triggered animation (likely css-keyframes), where elements fade in and translate slightly upwards as they become visible in the viewport, adding a sense of dynamism to the content flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F85A17",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F4F4F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#01B2CC",
+        "role": "accent"
+      },
+      {
+        "hex": "#52B256",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) create strong impact, complemented by smaller uppercase labels and clear, readable body text for a balanced hierarchy.",
+    "radius": "Subtle (buttons and cards feature a slight, consistent corner rounding).",
+    "spacing": "Balanced (comfortable padding around elements and sections, with clear visual separation between content blocks)."
+  },
+  "standout": "The site's standout design is its bold and immersive use of a high-energy orange color palette, which, combined with dynamic video content and clear, action-oriented typography, creates a highly motivating and engaging experience that immediately conveys the fun and excitement of indoor cycling.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

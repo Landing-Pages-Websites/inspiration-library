@@ -1,0 +1,101 @@
+{
+  "id": "manual-hasselblad-com-eb7563",
+  "source": {
+    "url": "https://www.hasselblad.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hasselblad-com-eb7563.webp",
+    "scroll": [
+      "shots/_proposed/manual-hasselblad-com-eb7563__scroll0.webp",
+      "shots/_proposed/manual-hasselblad-com-eb7563__scroll1.webp",
+      "shots/_proposed/manual-hasselblad-com-eb7563__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "luxury-goods",
+      "electronics"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site utilizes a full-bleed dark background with content sections either centered for product displays or arranged in a responsive grid for aspirational imagery, maintaining ample negative space."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, featuring deep black backgrounds paired with crisp white text, accented by subtle, luxurious gold/bronze tones for key titles."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant serif font is used for prominent display headings, creating a sophisticated feel, contrasted with a clean, modern sans-serif for body text, navigation, and product details."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky header navigation bar remains fixed at the top of the viewport without any visual transformation (shrinking, background change) as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product sections are presented as full-width blocks, each featuring a single, large, high-resolution product image centrally placed against the dark background, accompanied by minimal text and an outlined call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed header navigation that maintains its full height, styling, and transparency throughout the entire scroll, ensuring consistent access to navigation links.",
+    "Create a full-viewport hero section with a dramatic, high-resolution background image and centered, high-contrast text, designed to scroll out of view to reveal subsequent content.",
+    "Display individual product features by placing large, detailed product photography on a deep black canvas, with product names, brief descriptions, and minimalist outlined CTA buttons positioned below."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#B8A070",
+        "role": "accent"
+      },
+      {
+        "hex": "#6C7073",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Tw Cen",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Outfit",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif display headings (~3-4x body) for hero and section titles, with clean, legible sans-serif for body text and navigation.",
+    "radius": "sharp (buttons, image corners are mostly sharp)",
+    "spacing": "airy (generous vertical spacing between sections, ample padding around content, especially in product displays)"
+  },
+  "standout": "The site's distinctive use of a deep, dark, almost black canvas to highlight stunning, high-resolution product and artistic photography creates a gallery-like experience. This minimalist design with ample negative space ensures the imagery takes center stage, elevating the brand to a luxury art form rather than just a camera manufacturer.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

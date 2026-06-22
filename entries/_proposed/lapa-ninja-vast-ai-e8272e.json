@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-vast-ai-e8272e",
+  "source": {
+    "url": "https://vast.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-vast-ai-e8272e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-vast-ai-e8272e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-vast-ai-e8272e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-vast-ai-e8272e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "cloud-computing",
+      "infrastructure"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a predominantly dark background with full-width sections, often centering content and employing a grid system for feature cards and comparison tables."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, creating strong visual hierarchy, while body text is smaller and highly legible. Uppercase text is used for navigation items and some section labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring deep charcoal backgrounds (#242424, #1a1a1a) paired with bright white or light gray text, accented by a vibrant primary blue (#315fff) for CTAs and a secondary red/orange (#ff7b72) for emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle, animated background that parallaxes behind the foreground content as the user scrolls. Subsequent content sections are revealed with a gentle slide-up or fade-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Technical details like pricing comparisons, code snippets, and specific product models are integrated directly into feature sections using structured cards and tables, rather than being relegated to separate pages."
+    }
+  ],
+  "technique_notes": [
+    "A persistent navigation bar remains fixed at the top of the viewport, maintaining its appearance throughout the scroll.",
+    "The hero section incorporates a dynamic background, likely a video or CSS keyframe animation, that moves at a slower rate than the foreground content to create a sense of depth and parallax as the user scrolls.",
+    "Content sections are introduced with a scroll-triggered reveal animation, typically sliding up or fading into view as they become visible, enhancing engagement and guiding the user's attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#242424",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#d4d4d4",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#315fff",
+        "role": "cta"
+      },
+      {
+        "hex": "#ff7b72",
+        "role": "accent"
+      },
+      {
+        "hex": "#a8bbff",
+        "role": "link"
+      },
+      {
+        "hex": "#00c853",
+        "role": "status-success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~4-5x body text) with clear hierarchy, complemented by smaller, legible body text and uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, input fields, and cards, providing a soft, modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, but tighter spacing for data tables and card grids."
+  },
+  "standout": "The site's standout feature is its sophisticated dark-mode aesthetic combined with a subtle, dynamic hero background and detailed, technical content presentation. It manages to feel both cutting-edge and highly informative, effectively balancing visual appeal with deep technical data like pricing tables and code snippets.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

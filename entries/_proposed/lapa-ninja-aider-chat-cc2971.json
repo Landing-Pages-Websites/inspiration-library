@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-aider-chat-cc2971",
+  "source": {
+    "url": "https://aider.chat",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-aider-chat-cc2971.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-aider-chat-cc2971__scroll0.webp",
+      "shots/_proposed/lapa-ninja-aider-chat-cc2971__scroll1.webp",
+      "shots/_proposed/lapa-ninja-aider-chat-cc2971__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered and constrained within a maximum width, with full-width sections providing clear visual breaks and background treatments."
+    },
+    {
+      "kind": "type",
+      "note": "A modern sans-serif font is used for all primary text, complemented by a distinct monospace font for code examples and terminal output, reinforcing the developer-focused theme."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features dark text on predominantly white backgrounds, with a vibrant blue used for primary calls to action, links, and accent elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains sticky at the top of the viewport without any visual transformation as the user scrolls. The hero section's background gradient is fixed relative to the viewport, creating a subtle parallax effect as foreground content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Information is organized into distinct, well-labeled sections, frequently using a grid of uniformly styled cards for features, testimonials, and resource links."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that maintains its position and appearance at the top of the viewport throughout the scroll.",
+    "The hero section utilizes a full-bleed background gradient that is fixed in the viewport, while the textual content, buttons, and embedded video scroll normally over this static backdrop, creating a subtle sense of depth.",
+    "Content is structured using responsive grid layouts for feature lists, user testimonials, and informational links, with each item presented within a card featuring subtle rounded corners and a soft shadow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#3B82F6",
+        "role": "cta"
+      },
+      {
+        "hex": "#6B7280",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#D1FAE5",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#BFDBFE",
+        "role": "accent-gradient-end"
+      },
+      {
+        "hex": "#252525",
+        "role": "surface-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Headings are bold and significantly larger than body text, with a clear hierarchy from a very large hero heading (~4-5x body) down to medium section headings (~2x body).",
+    "radius": "Subtle rounded corners are consistently applied to interactive elements like buttons, cards, and the terminal window, providing a soft, modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a comfortable density within content grids, creating a clean and uncluttered layout."
+  },
+  "standout": "The site's distinctive use of a terminal-like video hero, combined with a clean, developer-centric aesthetic, immediately communicates its purpose and target audience. The subtle fixed background gradient in the hero adds a touch of visual depth without being distracting.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

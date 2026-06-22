@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-jotform-com-eac82a",
+  "source": {
+    "url": "https://www.jotform.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-jotform-com-eac82a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-jotform-com-eac82a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-jotform-com-eac82a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-jotform-com-eac82a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "form-builder",
+      "productivity"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered within a max-width container, often featuring large, playful illustrations that extend beyond typical content boundaries."
+    },
+    {
+      "kind": "type",
+      "note": "Hero headings use a very large, bold sans-serif font for primary messaging, paired with a smaller, lighter weight descriptive sub-headline to provide context."
+    },
+    {
+      "kind": "color",
+      "note": "A soft, multi-color gradient (pink-purple to light blue) is used as a background element in the hero and footer, providing a distinct and inviting visual anchor for the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar remains fixed at the top of the viewport as the user scrolls, ensuring primary navigation links and call-to-action buttons are always accessible."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections utilize a grid of three cards, each with a unique, colorful illustration and concise text, breaking down information into digestible, visually appealing blocks."
+    }
+  ],
+  "technique_notes": [
+    "A fixed navigation bar is implemented at the top of the viewport, ensuring primary links and sign-up calls to action are always accessible, even as content scrolls beneath it.",
+    "The page employs a soft, multi-color gradient as a background element in key sections (hero, footer), creating a vibrant yet subtle backdrop that enhances visual depth without distracting from content.",
+    "Content sections are structured with a clear visual hierarchy, using large, impactful headings for main points and smaller, descriptive text, often accompanied by custom illustrations or product screenshots within card components."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#0a1551",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#ffb629",
+        "role": "cta-primary"
+      },
+      {
+        "hex": "#ff6100",
+        "role": "cta-secondary"
+      },
+      {
+        "hex": "#c8ceed",
+        "role": "background-gradient-start"
+      },
+      {
+        "hex": "#343c6a",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#0075e3",
+        "role": "cta-social"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold sans-serif headings (~3-4x body) with smaller, lighter descriptive text and small uppercase labels.",
+    "radius": "subtle rounded corners on cards and input fields, with pill-shaped buttons for primary CTAs.",
+    "spacing": "airy hero section and balanced spacing in feature grids, creating a clean and open feel."
+  },
+  "standout": "The site's design stands out with its playful, illustrative style, particularly the charming cat mascot, which injects personality into a functional product. The prominent, interactive form builder input directly in the hero section, combined with a soft gradient background, makes the core offering immediately clear and inviting, distinguishing it from generic marketing templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "manual-klm-com-7e4653",
+  "source": {
+    "url": "https://www.klm.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-klm-com-7e4653.webp",
+    "scroll": [
+      "shots/_proposed/manual-klm-com-7e4653__scroll0.webp",
+      "shots/_proposed/manual-klm-com-7e4653__scroll1.webp",
+      "shots/_proposed/manual-klm-com-7e4653__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.klm.com/trip",
+        "full": "shots/_proposed/manual-klm-com-7e4653__p2.webp"
+      },
+      {
+        "url": "https://www.klm.com/deals",
+        "full": "shots/_proposed/manual-klm-com-7e4653__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "airline",
+      "aviation"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Card-based content organization with varying grid layouts (2, 3, or 4 columns) for different promotional and informational sections, often featuring images and concise text."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a deep brand blue as a primary accent and background color, contrasted with white and light grey for content areas, with red used sparingly for high-impact offers or warnings."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky header that remains fixed at the top of the viewport after initial scroll, providing constant navigation access without changing its visual appearance."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a single sans-serif font, with large, bold headings for section titles and smaller, regular weight text for body content and descriptions. Navigation and labels frequently use uppercase styling."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features a prominent hero section with an overlaid booking form and promotional content, followed by distinct sections for 'Destinations and deals', 'Stay up to date', 'Looking for more', and 'Get inspired', each with a unique content presentation."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed hero image with a semi-transparent overlay to ensure text legibility for the booking form and promotional offers positioned directly on top. Content sections below the hero are structured using a flexible grid system, adapting column counts based on the type of information presented (e.g., two columns for news, three for inspiration, four for informational cards). The primary scroll-triggered motion is a sticky header that fixes to the top of the viewport after the initial scroll, maintaining its original height and appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#072b45",
+        "role": "background"
+      },
+      {
+        "hex": "#0077cd",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#d4d8da",
+        "role": "surface"
+      },
+      {
+        "hex": "#68737a",
+        "role": "text"
+      },
+      {
+        "hex": "#d40504",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clear hierarchy with large, bold sans-serif headings (~2-3x body) and smaller, regular weight body text; navigation items use smaller uppercase text.",
+    "radius": "subtle (small border-radius on buttons, input fields, and cards)",
+    "spacing": "balanced density, with airy spacing in the hero and promotional cards, transitioning to a denser layout in the footer and detailed content grids"
+  },
+  "standout": "This site's design stands out through its strong brand integration, particularly the prominent display of the Flying Blue credit card within the hero section, which immediately reinforces the airline's loyalty program. The overall aesthetic is highly functional and professional, effectively balancing rich imagery with clear, actionable content, making it feel like a comprehensive airline portal rather than a generic travel site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

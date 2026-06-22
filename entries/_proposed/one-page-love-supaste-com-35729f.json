@@ -1,0 +1,113 @@
+{
+  "id": "one-page-love-supaste-com-35729f",
+  "source": {
+    "url": "https://supaste.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-supaste-com-35729f.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-supaste-com-35729f__scroll0.webp",
+      "shots/_proposed/one-page-love-supaste-com-35729f__scroll1.webp",
+      "shots/_proposed/one-page-love-supaste-com-35729f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-tool",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Feature sections are visually anchored by large, full-width product screenshots that often serve as the primary visual element, with accompanying text placed above or alongside."
+    },
+    {
+      "kind": "type",
+      "note": "Hero headings combine a bold, modern sans-serif for impact with an elegant, script-like serif font for a distinctive and memorable brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-tone blue gradient dominates the hero section, providing a dynamic backdrop that contrasts with the clean black and white content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image features a subtle parallax effect, moving slower than the foreground content as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a gentle fade-in or slide-up animation as they enter the viewport, guiding the user's attention through the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections consistently pair a concise benefit-oriented heading with a high-fidelity screenshot of the application's UI, demonstrating the feature in action."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a large, expressive typography combination over a dynamic gradient background that parallaxes on scroll, with a prominent product screenshot integrated into the lower portion of the initial viewport.",
+    "Scroll-triggered animations, likely using CSS keyframes, are employed to reveal content sections as they enter the viewport, creating a smooth and engaging content flow through subtle fade-ins or upward slides.",
+    "The primary navigation bar transitions from a transparent overlay with white text to an opaque, solid black background with white text and a white button once the user scrolls past the hero section, remaining sticky at the top of the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0070F3",
+        "role": "cta"
+      },
+      {
+        "hex": "#09F",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Instrument Serif",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are paired with a distinctive script-like serif for emphasis, while body text is a clean, readable sans-serif.",
+    "radius": "Subtle rounded corners on buttons, cards, and product screenshots, creating a soft, modern feel.",
+    "spacing": "Balanced spacing overall, with an airy hero section and consistent vertical rhythm between content blocks."
+  },
+  "standout": "The site's design is distinctive for its bold and elegant typographic pairing in the hero, combining a modern sans-serif with a unique script-like serif. This is complemented by a dynamic parallax background and the seamless integration of high-fidelity product screenshots directly into the page layout, making the product itself the central visual element and a key part of the design language.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

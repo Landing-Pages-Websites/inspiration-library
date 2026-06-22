@@ -1,0 +1,113 @@
+{
+  "id": "manual-accorhotels-com-90fd06",
+  "source": {
+    "url": "https://www.accorhotels.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-accorhotels-com-90fd06.webp",
+    "scroll": [
+      "shots/_proposed/manual-accorhotels-com-90fd06__scroll0.webp",
+      "shots/_proposed/manual-accorhotels-com-90fd06__scroll1.webp",
+      "shots/_proposed/manual-accorhotels-com-90fd06__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "travel",
+      "hotels"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-bleed imagery/backgrounds and a centered, max-width container for text and card grids."
+    },
+    {
+      "kind": "layout",
+      "note": "Promotional offers and destinations are presented in responsive card grids, typically 3 or 4 columns, with clear imagery and concise text."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, modern sans-serif font with significant size variation to establish clear hierarchy, while body text is a lighter weight and smaller sans-serif for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of deep blues and purples (#1e1852, #38326c) is used for primary text and interactive elements, contrasted with a clean white and light blue-grey (#eaedf5) for backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling down, the initial hero search bar transforms and integrates into the sticky navigation header, becoming a more compact, persistent search input at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image appears to have a subtle parallax effect, where the image scrolls at a slower rate than the foreground content, creating depth."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation and search bar implement a sophisticated sticky header effect: on initial load, the search bar is prominent below the hero title; upon scroll, it smoothly transitions to a compact, integrated form within the main navigation bar, which itself becomes fixed at the top of the viewport. This could be achieved using JavaScript (like GSAP ScrollTrigger) to detect scroll position and apply CSS transformations and visibility changes.",
+    "Sections are structured with full-width background elements (images or solid colors) that contain content constrained to a central maximum width, providing visual impact while maintaining content readability.",
+    "Interactive elements like buttons and input fields feature subtle rounded corners and consistent hover states, often involving a slight background color change or shadow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e1852",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#eaedf5",
+        "role": "surface"
+      },
+      {
+        "hex": "#38326c",
+        "role": "cta"
+      },
+      {
+        "hex": "#050033",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#a6a6a6",
+        "role": "tertiary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~3-4x body text) with a clear hierarchy, while body and secondary text maintain a clean, readable sans-serif character.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and image cards, contributing to a soft, modern feel.",
+    "spacing": "Balanced density overall; the hero section is airy with ample whitespace, while content grids maintain a consistent, moderate spacing between elements."
+  },
+  "standout": "The most distinctive feature is the dynamic, transforming sticky header. The initial prominent search bar seamlessly shrinks and integrates into the top navigation upon scroll, providing persistent, compact search functionality without cluttering the initial hero view. This intelligent use of motion enhances both aesthetics and usability.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "proposed"
+}

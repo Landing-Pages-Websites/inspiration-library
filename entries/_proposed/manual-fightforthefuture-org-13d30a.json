@@ -1,0 +1,124 @@
+{
+  "id": "manual-fightforthefuture-org-13d30a",
+  "source": {
+    "url": "https://www.fightforthefuture.org",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-fightforthefuture-org-13d30a.webp",
+    "scroll": [
+      "shots/_proposed/manual-fightforthefuture-org-13d30a__scroll0.webp",
+      "shots/_proposed/manual-fightforthefuture-org-13d30a__scroll1.webp",
+      "shots/_proposed/manual-fightforthefuture-org-13d30a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.fightforthefuture.org/join",
+        "full": "shots/_proposed/manual-fightforthefuture-org-13d30a__p2.webp"
+      },
+      {
+        "url": "https://www.fightforthefuture.org/projects",
+        "full": "shots/_proposed/manual-fightforthefuture-org-13d30a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "advocacy",
+      "non-profit",
+      "civil-rights",
+      "technology"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic headline that transitions between key messages (e.g., 'FIGHT FOR DEMOCRACY' to 'FIGHT FOR ENCRYPTION') paired with a looping abstract video background."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-width sections with a dark background and high-contrast white text, creating a dramatic and immersive feel across the page."
+    },
+    {
+      "kind": "color",
+      "note": "A primary palette of black and white is dramatically accented by vibrant, shifting neon colors within the hero video and occasional bright yellow/red for CTAs and highlights."
+    },
+    {
+      "kind": "type",
+      "note": "Hero headings use extremely large, bold, uppercase sans-serif typography for maximum impact, contrasting with a more understated, readable sans-serif for body text."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-bleed sections, often featuring a grid layout for showcasing projects or donation options."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background with a dark, semi-transparent overlay to ensure text readability. The main headline text is animated to transition between different key messages, likely triggered by scroll depth or a timed sequence, creating a dynamic and engaging introduction.",
+    "A compact header navigation bar remains fixed at the top of the viewport as the user scrolls, providing persistent access to site navigation. An initial promotional banner above the header disappears on scroll.",
+    "Content is structured in full-width, vertically stacked sections. Many sections employ a dark background with light text for high contrast. Grids are used within sections to display multiple items, such as project cards or donation incentives, with consistent spacing and visual hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#100e13",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#C9D90D",
+        "role": "accent"
+      },
+      {
+        "hex": "#AF8FFA",
+        "role": "accent"
+      },
+      {
+        "hex": "#495057",
+        "role": "text"
+      },
+      {
+        "hex": "#DC3545",
+        "role": "accent"
+      },
+      {
+        "hex": "#6C757D",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, uppercase hero headings (~4-5x body text) with clear, readable sans-serif body text.",
+    "radius": "sharp throughout for all elements like buttons, cards, and input fields.",
+    "spacing": "balanced to airy, with generous padding around main sections and comfortable spacing within content grids."
+  },
+  "standout": "The most distinctive feature is the dynamic, full-bleed video hero with its changing headline text. This creates a highly engaging and impactful first impression, immediately communicating the site's mission with a sense of urgency and modernity.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

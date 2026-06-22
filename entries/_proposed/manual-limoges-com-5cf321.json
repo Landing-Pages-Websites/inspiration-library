@@ -1,0 +1,115 @@
+{
+  "id": "manual-limoges-com-5cf321",
+  "source": {
+    "url": "https://www.limoges.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-limoges-com-5cf321.webp",
+    "scroll": [
+      "shots/_proposed/manual-limoges-com-5cf321__scroll0.webp",
+      "shots/_proposed/manual-limoges-com-5cf321__scroll1.webp",
+      "shots/_proposed/manual-limoges-com-5cf321__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.limoges.com/collections",
+        "full": "shots/_proposed/manual-limoges-com-5cf321__p2.webp"
+      },
+      {
+        "url": "https://www.limoges.com/collections/patriotic-1",
+        "full": "shots/_proposed/manual-limoges-com-5cf321__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "luxury-goods",
+      "collectibles",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a fixed maximum width, creating clear visual boundaries and a focused reading experience, especially for text blocks and product grids."
+    },
+    {
+      "kind": "type",
+      "note": "Major section headings use a classic serif font, often in uppercase, contrasting with a clean sans-serif for body text, navigation, and product details, establishing a blend of traditional elegance and modern readability."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of white backgrounds and dark grey/black text is consistently used, punctuated by a deep, muted red for accent links and subtle highlights, conveying sophistication."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation transforms from transparent to a solid white background and slightly reduces in height as the user scrolls down, maintaining a sticky presence at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, full-width background images in the hero and key informational sections exhibit a subtle parallax effect, scrolling slower than the foreground content to add depth and visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Informational sections frequently feature a full-width background image with a dark overlay, upon which centered white text is placed, creating a strong visual break and emphasizing key messages."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that transforms on scroll, shrinking slightly and gaining a solid background. Large background images in hero and feature sections utilize a subtle parallax effect, where the image scrolls slower than the foreground content. Sections reveal themselves by simply scrolling into view without complex fade-ins or slide-ups."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#232323",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#A52A2A",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "Almarai",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Hero headings are very large and display-like, section headings are large and often uppercase, while body text is standard and readable, with product titles slightly larger than body and prices smaller.",
+    "radius": "sharp",
+    "spacing": "airy in hero and between major sections, balanced within product grids and text blocks"
+  },
+  "standout": "This site stands out through its sophisticated use of high-quality product photography and a subtle parallax effect on large background images, which elevates the e-commerce experience to feel more like a curated gallery. The blend of classic serif typography for headings with clean sans-serifs for body text also contributes to an elegant, timeless feel that distinguishes it from generic templates.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "manual-uber-com-6e5f96",
+  "source": {
+    "url": "https://www.uber.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-uber-com-6e5f96.webp",
+    "scroll": [
+      "shots/_proposed/manual-uber-com-6e5f96__scroll0.webp",
+      "shots/_proposed/manual-uber-com-6e5f96__scroll1.webp",
+      "shots/_proposed/manual-uber-com-6e5f96__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.uber.com/us/en",
+        "full": "shots/_proposed/manual-uber-com-6e5f96__p2.webp"
+      },
+      {
+        "url": "https://www.uber.com/us/zh",
+        "full": "shots/_proposed/manual-uber-com-6e5f96__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "transportation",
+      "ride-sharing",
+      "food-delivery"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with content blocks, frequently using a two-column layout where text is paired with a large, engaging illustration or image."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, creating a clear hierarchy, while body text is smaller and lighter in weight for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base is consistently used, accented by vibrant brand colors like a light teal and a warm orange/brown, primarily in illustrations and call-to-action elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Services and benefits are introduced through distinct sections, each featuring a concise heading, descriptive text, and a custom illustration or photograph that visually represents the offering."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar is implemented using a sticky positioning technique, ensuring it remains fixed at the top of the browser window during scroll. Sections are visually separated using generous vertical spacing and often alternate between white and light grey backgrounds to create distinct content blocks. Call-to-action buttons are designed with a solid background in brand accent colors to draw attention. Illustrations are custom-designed and integrated as key visual elements rather than simple decorative additions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f6f6f6",
+        "role": "surface"
+      },
+      {
+        "hex": "#9dcdd6",
+        "role": "accent"
+      },
+      {
+        "hex": "#b4540b",
+        "role": "accent"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "UberMove",
+        "role": "heading"
+      },
+      {
+        "family": "UberMoveText",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Google Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold headings (~2-3x body) with clear hierarchy, complemented by smaller, regular weight body text and occasional small uppercase labels.",
+    "radius": "Subtle rounding on buttons, input fields, and cards, maintaining a clean yet approachable aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks."
+  },
+  "standout": "The site's distinctive use of vibrant, custom illustrations, rather than generic photography, creates a unique and approachable brand identity. These illustrations are integral to explaining services and add a playful yet sophisticated visual character that sets it apart from typical service websites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

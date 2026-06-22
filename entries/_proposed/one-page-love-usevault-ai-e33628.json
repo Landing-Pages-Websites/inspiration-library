@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-usevault-ai-e33628",
+  "source": {
+    "url": "https://www.usevault.ai",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-usevault-ai-e33628.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-usevault-ai-e33628__scroll0.webp",
+      "shots/_proposed/one-page-love-usevault-ai-e33628__scroll1.webp",
+      "shots/_proposed/one-page-love-usevault-ai-e33628__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fintech",
+      "business-management"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A deep dark mode aesthetic with full-width sections, centered content, and a subtle background grid pattern that provides depth."
+    },
+    {
+      "kind": "type",
+      "note": "Hierarchical typography uses very large, bold sans-serif headings for primary messages, smaller regular weight text for body content, and tiny uppercase labels for section descriptors."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark background (#03020b) is contrasted with bright white text and subtle blue/purple gradient accents that create a glowing, futuristic effect."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks are revealed with a subtle slide-up or fade-in animation as the user scrolls down the page, creating a dynamic content flow. The main navigation bar remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a text description on one side with a detailed, embedded UI screenshot on the other, showcasing the product's functionality directly."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation bar that remains fixed at the top of the viewport throughout scrolling.",
+    "Scroll-triggered animations, likely using a library like GSAP or similar (given 'canvas' hint for background effects), reveal entire content sections and individual content blocks (like numbered steps or feature descriptions) as they enter the viewport, often with a subtle slide-up or fade-in effect.",
+    "The background features a subtle, dark grid pattern and glowing gradient elements (potentially rendered via canvas) that add depth and a high-tech feel without distracting from the foreground content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#03020b",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#ededfa",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#25222c",
+        "role": "surface"
+      },
+      {
+        "hex": "#090a11",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#4a40ff",
+        "role": "accent-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold headings (~3-4x body) for primary messages, with smaller, uppercase, slightly lighter weight labels (~0.7x body) for section descriptors.",
+    "radius": "Subtle rounding on buttons, input fields, and UI element containers, maintaining a clean but not sharp aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more compact but still clear spacing within detailed UI components."
+  },
+  "standout": "The site's distinctive deep dark mode, combined with subtle glowing blue/purple accents and embedded, highly detailed UI screenshots, creates a sophisticated and high-tech atmosphere. The consistent use of a subtle background grid pattern adds depth and texture, making the design feel premium and well-crafted rather than generic.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "proposed"
+}

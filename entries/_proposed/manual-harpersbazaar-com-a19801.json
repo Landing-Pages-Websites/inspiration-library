@@ -1,0 +1,117 @@
+{
+  "id": "manual-harpersbazaar-com-a19801",
+  "source": {
+    "url": "https://www.harpersbazaar.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-harpersbazaar-com-a19801.webp",
+    "scroll": [
+      "shots/_proposed/manual-harpersbazaar-com-a19801__scroll0.webp",
+      "shots/_proposed/manual-harpersbazaar-com-a19801__scroll1.webp",
+      "shots/_proposed/manual-harpersbazaar-com-a19801__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.harpersbazaar.com/beauty",
+        "full": "shots/_proposed/manual-harpersbazaar-com-a19801__p2.webp"
+      },
+      {
+        "url": "https://www.harpersbazaar.com/fashion",
+        "full": "shots/_proposed/manual-harpersbazaar-com-a19801__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "publishing",
+      "fashion",
+      "beauty",
+      "lifestyle"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent two-column content layout is used for article listings, featuring a larger, more detailed article card on the left and a vertical stack of smaller, image-thumbnail-led articles on the right, creating a magazine-like hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established by using a classic, elegant serif font for the brand logo and major section headings, while all functional text (navigation, body copy, article summaries) uses a clean, modern sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a high-contrast black and white palette as its foundation, with rich imagery providing the primary visual interest and a deep, subtle red used sparingly as a brand accent for specific text elements or links."
+    },
+    {
+      "kind": "motion",
+      "note": "The header dynamically transforms on scroll: an initial two-bar header (utility bar + main navigation) collapses into a single, compact sticky black bar that retains the logo, search functionality, and user account actions, while the main navigation links are removed from the sticky element."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly delineated by full-width, centered, uppercase serif titles, often accompanied by a subtle horizontal rule, reinforcing an editorial, magazine-page structure."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation system uses a sticky header that changes its height and content upon scroll. Initially, it's a two-part header; after scrolling past the hero, it condenses into a single, more compact bar. This effect can be achieved with CSS transitions on height and visibility, triggered by scroll position via JavaScript.",
+    "The hero section on the homepage features a full-width video background, playing silently on a loop, with overlaid text content for immediate impact.",
+    "Content sections appear to reveal as the user scrolls down the page, with new article grids and editorial features simply coming into view rather than using complex fade-in or slide-up animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#aa0703",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings for major sections (~3-4x body), medium sans-serif for article titles (~1.5-2x body), and small sans-serif for metadata and navigation, all with a clear hierarchy.",
+    "radius": "sharp",
+    "spacing": "Balanced density overall, with generous vertical spacing between major content sections and a tighter, grid-based layout for article listings within those sections."
+  },
+  "standout": "The site's design stands out with its strong editorial aesthetic, effectively mimicking a high-fashion magazine layout online. The distinctive use of a classic serif for branding and section titles, contrasted with a modern sans-serif for content, combined with a dynamic, transforming sticky header, creates a sophisticated and highly readable experience that feels premium and established.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "manual-hometogo-com-46fb6c",
+  "source": {
+    "url": "https://www.hometogo.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hometogo-com-46fb6c.webp",
+    "scroll": [
+      "shots/_proposed/manual-hometogo-com-46fb6c__scroll0.webp",
+      "shots/_proposed/manual-hometogo-com-46fb6c__scroll1.webp",
+      "shots/_proposed/manual-hometogo-com-46fb6c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hometogo.com/maui",
+        "full": "shots/_proposed/manual-hometogo-com-46fb6c__p2.webp"
+      },
+      {
+        "url": "https://www.hometogo.com/fiji",
+        "full": "shots/_proposed/manual-hometogo-com-46fb6c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "vacation-rentals",
+      "hospitality"
+    ],
+    "mood": [
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of horizontal carousels to showcase various categories of rentals and destinations, allowing for rich content display without excessive vertical scrolling."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant gradient (purple to pink) is used as a full-bleed background for the hero section, contrasting with predominantly white content sections below."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial transparent header transforms into a solid white, sticky header with a subtle shadow as the user scrolls past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards animate into view with a subtle fade-up effect as they enter the viewport, creating a dynamic reveal of information."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headlines are paired with smaller, lighter sans-serif body text, maintaining a clear visual hierarchy and modern aesthetic."
+    },
+    {
+      "kind": "section",
+      "note": "The hero features stylized, rounded image cutouts embedded within its gradient background, providing visual interest and a unique brand signature."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-width gradient background with strategically placed, rounded image cutouts to create a distinctive visual anchor for the page's primary call to action and headline.",
+    "The site employs a scroll-triggered header transformation, where an initially transparent header becomes a solid white, sticky navigation bar with a subtle drop shadow once the user scrolls past the main hero content.",
+    "Content sections and individual elements within grids or carousels are revealed using a staggered fade-up animation as they enter the viewport, enhancing engagement and guiding the user's eye down the page. This likely leverages CSS keyframes for the reveal and swiper for the carousel functionality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#6A00FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F1F1F1",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#575757",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headlines (~3-4x body) for strong impact, complemented by clean, readable body text and small uppercase labels.",
+    "radius": "Rounded corners are consistently applied across all interactive elements, cards, and even hero imagery, creating a soft and approachable aesthetic.",
+    "spacing": "Balanced to airy, with comfortable padding around sections and generous spacing between grid items, preventing a cluttered feel while maintaining content density."
+  },
+  "standout": "The site's distinctive gradient hero, featuring stylized, rounded image cutouts, immediately differentiates it from typical travel booking platforms. This unique visual treatment, combined with the consistent application of rounded corners throughout, creates a cohesive and inviting brand identity that feels modern and approachable.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

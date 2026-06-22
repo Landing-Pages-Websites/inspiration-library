@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-formbricks-com-61e8c9",
+  "source": {
+    "url": "https://formbricks.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-formbricks-com-61e8c9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-formbricks-com-61e8c9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-formbricks-com-61e8c9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-formbricks-com-61e8c9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "customer-experience",
+      "survey-platform"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within full-width sections, utilizing generous vertical padding to create distinct visual breaks between major information blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for section titles, followed by lighter weight body text for detailed explanations."
+    },
+    {
+      "kind": "color",
+      "note": "The design primarily uses a high-contrast palette of dark blues and white, with a vibrant accent blue for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar and a 'Let's chat' widget remain sticky at the top and bottom-right of the viewport, respectively. Multi-step process illustrations are designed for progressive reveal as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are introduced with prominent, often question-based headings, and feature detailed, illustrative graphics that visually explain complex product features or user journeys."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation and a persistent floating chat widget are fixed to the viewport, maintaining their position throughout the scroll. Content sections, particularly those depicting multi-step processes or user journeys, are structured to progressively appear or animate into view as the user scrolls down the page, likely using a scroll-detection library like locomotive-scroll to trigger CSS keyframe animations for elements sliding or fading in.",
+    "Visual hierarchy is strongly conveyed through the use of oversized, bold sans-serif headings for section titles, paired with a clean, readable body font. Interactive elements like buttons and input fields feature subtle rounded corners and consistent blue accent colors."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8FAFC",
+        "role": "subtle-background"
+      },
+      {
+        "hex": "#1E293B",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#0F172A",
+        "role": "body-text"
+      },
+      {
+        "hex": "#184099",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#142A72",
+        "role": "dark-cta-background"
+      },
+      {
+        "hex": "#2563EB",
+        "role": "accent-blue-cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-5x body text) create strong visual anchors, complemented by a clean, legible body text.",
+    "radius": "Subtle rounding on buttons, input fields, and card elements, contributing to a modern and approachable feel.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, enhancing readability and visual clarity."
+  },
+  "standout": "The site's most distinctive feature is its use of highly detailed, multi-step illustrations that visually guide the user through complex product features and user journeys. These illustrations are designed to be progressively revealed, creating an interactive and engaging experience that clearly communicates the product's value proposition.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
