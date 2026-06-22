@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0674",
+  "source": {
+    "url": "https://www.vistaprint.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0674.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0674__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0674__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0674__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.vistaprint.com/offers",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0674__p2.webp"
+      },
+      {
+        "url": "https://www.vistaprint.com/design",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0674__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "printing",
+      "e-commerce",
+      "marketing-materials"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of responsive grid layouts for product categories and collections, allowing for easy browsing of a large inventory with consistent card sizing."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, full-width promotional banner slides into view from the bottom, replacing the initial hero content as the user scrolls, while the main and secondary navigation bars stick to the top."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent brand blue is used for primary navigation and footers, contrasted with clean white and light grey for content sections, punctuated by bright accent colors for CTAs and sale items."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated sections for 'Explore all categories' and 'Shop by collection' use large, visually distinct product cards with clear labels to organize a vast product catalog."
+    }
+  ],
+  "technique_notes": [
+    "A multi-level sticky navigation system ensures both the primary header and a secondary category navigation remain accessible at the top of the viewport after initial scroll.",
+    "Scroll-triggered content replacement: an initial hero section is dynamically replaced by a full-width promotional banner that slides up into view as the user scrolls past the initial fold, using css-keyframes for the animation.",
+    "Background images are fixed to the viewport, creating a subtle parallax effect as foreground content scrolls over them, adding depth to certain content sections like 'Mailing made easy'."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2f3a53",
+        "role": "brand-blue"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#dcdce6",
+        "role": "surface"
+      },
+      {
+        "hex": "#3a3a3a",
+        "role": "text"
+      },
+      {
+        "hex": "#faa837",
+        "role": "cta"
+      },
+      {
+        "hex": "#9a0202",
+        "role": "sale-accent"
+      },
+      {
+        "hex": "#f6f6ec",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Graphik",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Tiempos",
+        "role": "display"
+      }
+    ],
+    "type_scale": "A clear, hierarchical type scale with prominent sans-serif headings (Graphik) that are typically 2-3x the size of the legible body text, using varied weights for emphasis.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and product cards, softening the overall aesthetic without being overly playful.",
+    "spacing": "Balanced and consistent spacing throughout, with generous padding around sections and a structured grid for product displays, creating an organized and easy-to-scan layout."
+  },
+  "standout": "The site's standout feature is its highly organized and visually rich presentation of an extremely vast product catalog, combined with dynamic, scroll-triggered promotional content that keeps offers top-of-mind without being intrusive. The seamless transition from hero to a persistent offer banner is particularly distinctive.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

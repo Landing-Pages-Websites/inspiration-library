@@ -1,0 +1,111 @@
+{
+  "id": "manual-2026-0657",
+  "source": {
+    "url": "https://www.sigma-global.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0657.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0657__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0657__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0657__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.sigma-global.com/en/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0657__p2.webp"
+      },
+      {
+        "url": "https://www.sigma-global.com/en/about",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0657__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "electronics",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently utilize full-bleed, high-quality product or brand imagery, often serving as a background for minimal text overlays, creating a premium and immersive feel."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for prominent headings and key messages, providing an elegant and editorial character, contrasted with a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, monochromatic palette primarily of black, white, and dark greys, which emphasizes product photography and typography, conveying a sense of luxury and precision."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent or light background with dark text to a solid dark background with light text and a slightly reduced height as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct vertical sections that alternate between dark and light backgrounds, providing clear visual separation and rhythm throughout the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video background (as indicated by 'video-hero') with text content overlaid, which remains fixed for a short scroll distance before scrolling up with the rest of the page.",
+    "A sticky header navigation system is implemented that dynamically changes its background color, text color, and logo color upon scrolling past the initial hero section, providing clear visual feedback and maintaining brand presence.",
+    "Product and brand imagery are presented in large, impactful full-bleed layouts, often with subtle dark overlays to ensure text legibility when placed over busy backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#888888",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Noto Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) for key messages, with smaller, clean sans-serif for body text and navigation.",
+    "radius": "Sharp (predominantly square edges on images and containers).",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within text blocks, creating a sense of luxury and focus on individual elements."
+  },
+  "standout": "This site's design is distinctive for its sophisticated blend of high-quality, moody product photography and elegant, minimalist typography. The prominent use of a refined serif font for main headings, combined with a stark black and white palette, creates a premium, almost editorial feel that elevates the brand beyond typical e-commerce, emphasizing craftsmanship and artistry.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

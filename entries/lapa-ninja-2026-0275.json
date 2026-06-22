@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0275",
+  "source": {
+    "url": "https://www.cursor.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0275.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0275__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0275__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0275__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within a maximum width, flanked by generous horizontal padding, while section backgrounds often span the full viewport width."
+    },
+    {
+      "kind": "type",
+      "note": "A single modern sans-serif font family is used throughout, with clear hierarchy established through varied font weights and sizes, from large, bold headings to smaller, legible body and caption text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a predominantly neutral palette of off-white backgrounds and dark gray text, accented sparingly with muted purples, pinks, and teals for links, subtle highlights, and specific UI elements within the product screenshots."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains fixed at the top of the viewport upon scroll, while the large hero image of the desktop application appears to be a fixed background or has a subtle parallax effect, allowing the introductory text to scroll over it."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a concise text description on one side with a large, detailed screenshot of the product's UI on the other, directly illustrating the described functionality."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation is implemented with a standard sticky positioning, ensuring it remains visible and accessible as the user scrolls down the page.",
+    "The hero section features a large product screenshot that is either set as a fixed background image or uses a subtle parallax effect, where the image scrolls at a slower rate than the foreground content, creating depth.",
+    "Content sections are structured with clear visual separation, often alternating between full-width background colors and contained content. While not explicitly visible in static frames, the detected css-keyframes suggest subtle entrance animations or micro-interactions for elements as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f9f9f7",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#9e94d5",
+        "role": "accent"
+      },
+      {
+        "hex": "#83d6c5",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) provide strong visual anchors, complemented by a clear hierarchy of subheadings and a highly legible body text.",
+    "radius": "Subtle rounded corners are applied consistently to buttons, cards, and product screenshots, contributing to a soft, approachable feel.",
+    "spacing": "Balanced spacing is used throughout, with an airy hero section transitioning to a more dense but still comfortable layout in feature grids and blog post listings."
+  },
+  "standout": "The site's standout feature is its seamless integration of detailed product UI screenshots directly into the content flow, making the software itself the primary visual element. This approach effectively demonstrates functionality and builds trust by showing, not just telling, what the coding agent can do.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "manual-2026-0622",
+  "source": {
+    "url": "https://www.flutterflow.io",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0622.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0622__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0622__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0622__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://flutterflow.io/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0622__p2.webp"
+      },
+      {
+        "url": "https://flutterflow.io/designer",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0622__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "app-development",
+      "low-code"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of embedded, high-fidelity product UI screenshots and diagrams as primary visual elements within content sections, often animated or interactive."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent dark-to-darker purple/blue gradient background across most sections, providing a unified and premium feel."
+    },
+    {
+      "kind": "motion",
+      "note": "A transforming sticky header that condenses and changes its content and background from transparent to solid dark upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, where elements subtly fade or slide into view as they enter the viewport."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently employ a two-column layout, pairing a descriptive text block with a large, illustrative product UI visual."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic header that transitions from a transparent, full-featured navigation bar to a compact, sticky bar with a solid dark background and simplified links once the user scrolls past the initial hero section.",
+    "Content sections are introduced with scroll-triggered animations, causing elements to subtly fade in and slide up as they become visible in the viewport, enhancing engagement.",
+    "The hero section and several subsequent content blocks integrate interactive or animated product UI demonstrations (likely Lottie animations or embedded videos) directly into the layout, serving as the main visual explanation of features."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#060311",
+        "role": "background"
+      },
+      {
+        "hex": "#2B2189",
+        "role": "background-gradient-end"
+      },
+      {
+        "hex": "#8A80FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#C8C8C8",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (H1 is ~4-5x body text size, H2 ~3x) with a clear, modern sans-serif character, paired with a highly legible body text.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, cards, and UI elements within the product screenshots, avoiding sharp edges or full pills.",
+    "spacing": "Balanced to airy. The hero section is quite airy, while content sections maintain a comfortable, readable density with ample vertical separation."
+  },
+  "standout": "The site's standout feature is its deep integration of high-fidelity, often animated or interactive, product UI screenshots directly into the design as the primary visual storytelling mechanism. This goes beyond static mockups, creating an immersive and highly practical demonstration of the product's capabilities within the page layout itself.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

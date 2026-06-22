@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0276",
+  "source": {
+    "url": "https://effect.website",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0276.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0276__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0276__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0276__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "software-framework"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent maximum width for text and interactive elements, centered on a dark background."
+    },
+    {
+      "kind": "type",
+      "note": "Key words within large section headings are highlighted with an accent color, drawing attention to specific features or concepts."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, near-black background is used consistently across the entire site, providing a high-contrast canvas for light text and vibrant accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, specific keywords within prominent section headings dynamically change and re-highlight, creating an interactive narrative that reveals different aspects of the product."
+    },
+    {
+      "kind": "section",
+      "note": "Code examples are presented in stylized, interactive blocks with syntax highlighting and 'Run' buttons, integrated directly into feature descriptions."
+    }
+  ],
+  "technique_notes": [
+    "Implement a scroll-driven content storytelling system where key phrases within prominent headings dynamically update and re-emphasize different words as the user scrolls, guiding the narrative and highlighting various features. This effect is likely achieved using a JavaScript library like GSAP ScrollTrigger.",
+    "Utilize a full-width hero section featuring an autoplaying, muted video embedded within a stylized frame, providing dynamic visual context for the product.",
+    "Design interactive code snippets within visually distinct blocks, complete with syntax highlighting and 'Run' buttons, to enhance engagement for a technical audience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#09090b",
+        "role": "background"
+      },
+      {
+        "hex": "#18181b",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#3178c6",
+        "role": "accent"
+      },
+      {
+        "hex": "#f97583",
+        "role": "accent-secondary"
+      },
+      {
+        "hex": "#2f6eb1",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clear hierarchy, complemented by smaller, uppercase labels and legible body text.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, cards, and code blocks, giving a soft, modern feel.",
+    "spacing": "Balanced to airy; generous vertical spacing between sections, with comfortable padding within content blocks."
+  },
+  "standout": "The most distinctive design element is the scroll-triggered text animation within section headings, where highlighted keywords dynamically change as the user scrolls. This creates an engaging, interactive narrative that feels highly tailored for a technical audience, making the site feel more like an interactive presentation than a static page.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0615",
+  "source": {
+    "url": "https://www.coros.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0615.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0615__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0615__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0615__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.coros.com/apex4",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0615__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "sports-tech",
+      "wearables",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, dark background sections with high-contrast product imagery and text overlays, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, uppercase sans-serif headings are used for major section titles, often with a significant size difference from body text, creating strong visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark (near-black) background with white or light gray text, accented by a vibrant red/pink for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features an auto-playing carousel (swiper) that cycles through different product images and taglines. The main navigation bar sticks to the top of the viewport on scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-up or slide-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases are presented in a grid layout with large, high-quality images and concise product names, often with a 'Learn More' CTA."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a full-width image carousel, likely using a library like Swiper, to present multiple product highlights with smooth transitions between slides. Text overlays are positioned centrally over the dynamic background images.",
+    "A sticky navigation bar is implemented at the top of the page, maintaining visibility of primary navigation links and branding as the user scrolls down.",
+    "Scroll-triggered animations are used to progressively reveal content sections. As a section enters the viewport, its elements (text, images, cards) animate into view, typically with a subtle fade-up or slide-in effect, enhancing engagement. Large background images in certain sections appear to have a fixed or subtle parallax scroll effect, creating depth as foreground content scrolls over them."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#020015",
+        "role": "background"
+      },
+      {
+        "hex": "#f1f1f1",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7045a",
+        "role": "accent"
+      },
+      {
+        "hex": "#e62e3b",
+        "role": "cta"
+      },
+      {
+        "hex": "#767676",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~3-4x body) with smaller, lighter weight sans-serif body text and compact uppercase labels.",
+    "radius": "Sharp corners are consistently used across all elements, including buttons, image containers, and cards, conveying a precise and modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while product grids maintain a more balanced density."
+  },
+  "standout": "The site's distinctive use of a dark, high-contrast aesthetic combined with immersive, full-bleed product photography and dynamic scroll-triggered reveals creates a premium, almost cinematic feel. The emphasis on large, bold typography against dark backgrounds makes the product information feel impactful and authoritative.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

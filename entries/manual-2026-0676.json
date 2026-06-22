@@ -1,0 +1,106 @@
+{
+  "id": "manual-2026-0676",
+  "source": {
+    "url": "https://www.vrbo.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0676.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0676__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0676__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0676__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "vacation-rentals",
+      "hospitality"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width hero section featuring a large background image with a dark overlay, centered headline, and a prominent search bar."
+    },
+    {
+      "kind": "layout",
+      "note": "Responsive grid system for property listings, typically displaying four columns on larger screens with consistent card sizing and information hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation and hero search bar transform from a transparent, larger state over the hero image to a compact, opaque sticky header with a background as the user scrolls down."
+    },
+    {
+      "kind": "color",
+      "note": "A clean palette dominated by white backgrounds, contrasted with dark text and vibrant blue accents for interactive elements and calls to action."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use large, aspirational imagery with content blocks overlaid or presented as a three-column card layout for articles and promotions."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation and search interface dynamically adjust their size and position, transitioning from an initial transparent overlay on the hero to a fixed, opaque bar at the top of the viewport upon scroll.",
+    "Content cards for listings and features utilize subtle corner rounding and consistent internal padding, creating a clean and organized presentation within grid layouts.",
+    "Call-to-action buttons are designed with solid blue backgrounds and white text, providing clear visual hierarchy and consistent interaction points across the site."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#191E3B",
+        "role": "text"
+      },
+      {
+        "hex": "#1668E3",
+        "role": "cta"
+      },
+      {
+        "hex": "#4D5167",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#DFE0E4",
+        "role": "border"
+      },
+      {
+        "hex": "#C8DFF9",
+        "role": "light-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are clear and distinct from body text, with a moderate size difference; hero text is significantly larger and lighter weight for visual impact.",
+    "radius": "Subtle rounding on cards, buttons, and input fields, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced overall, with generous vertical spacing between major sections and a consistent grid rhythm for content cards, creating an airy yet structured layout."
+  },
+  "standout": "The most distinctive feature is the dynamic transformation of the hero search bar. It seamlessly shrinks and integrates into a sticky header upon scroll, making the core search functionality persistently accessible without cluttering the initial hero view.",
+  "animation_tech": [],
+  "status": "approved"
+}

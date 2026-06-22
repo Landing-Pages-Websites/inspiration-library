@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0655",
+  "source": {
+    "url": "https://www.roksanda.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0655.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0655__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0655__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0655__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://roksanda.com/en-us",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0655__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-retail",
+      "apparel"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site heavily features full-bleed, high-resolution product photography that often takes up entire sections or is arranged in an asymmetrical, editorial grid."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent use of a clean, modern sans-serif typeface for all text, with headings and navigation often rendered in uppercase for a refined, minimal aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of white and black is dominant, allowing product imagery with muted pastels and occasional vibrant reds to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon initial scroll, an overlay containing country and language selectors gracefully disappears, revealing a minimal, sticky header navigation that remains fixed at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections often pair a single, large hero image with minimal text, creating a gallery-like experience that prioritizes visual impact over detailed descriptions."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the full-bleed imagery, use large background images or `img` elements set to cover their container, often within a grid or flexbox layout that spans the full viewport width.",
+    "The minimal typography can be achieved by using a single sans-serif font family with varying weights and sizes. Uppercase transformations can be applied via CSS to navigation and section titles.",
+    "The sticky header and initial overlay reveal can be implemented with JavaScript. An initial overlay element is displayed on page load. On scroll, a listener detects the scroll event, hides the overlay (e.g., by changing its opacity and `display` property), and simultaneously makes a separate header element visible and applies `position: sticky` to it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#231F20",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#EB001B",
+        "role": "accent"
+      },
+      {
+        "hex": "#726D75",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Outfit",
+        "role": "heading"
+      },
+      {
+        "family": "BrownProTT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A balanced type scale with headings (~2-3x body) that are often uppercase and body text that is legible and airy, contributing to a spacious feel.",
+    "radius": "sharp",
+    "spacing": "airy, with generous padding around content blocks and between sections, emphasizing the visual breathing room around high-quality imagery."
+  },
+  "standout": "The site's standout feature is its bold, editorial approach to product display, using full-bleed, art-directed photography as the primary content driver, making the site feel more like a digital fashion magazine or gallery than a traditional e-commerce store.",
+  "animation_tech": [],
+  "status": "approved"
+}

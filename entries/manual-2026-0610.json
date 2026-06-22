@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0610",
+  "source": {
+    "url": "https://www.canon.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0610.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0610__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0610__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0610__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "electronics",
+      "manufacturing",
+      "imaging",
+      "technology"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections alternate between clean white/light gray backgrounds for text-heavy content and full-bleed, high-impact image backgrounds with overlaid text for key business areas."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, sans-serif font with significant size variation, from an oversized hero title to moderately large section titles, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A restrained palette of white, dark gray, and light gray is punctuated by a vibrant, consistent red used exclusively for calls-to-action, interactive elements, and brand accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The header initially appears transparent over the hero, then shrinks in height and gains a solid white background as the user scrolls down, remaining sticky at the top of the viewport. The hero's background image collage has a subtle fixed or parallax effect, revealing more of the image as foreground content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Key business and corporate sections are introduced with large, full-bleed photographic backgrounds, often with a subtle dark overlay, featuring a prominent white heading and a 'Learn More' call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is built to be initially transparent and full-height, then transitions to a compact, solid white background with a subtle shadow as the user scrolls past the hero section, using a fixed position.",
+    "The hero section features a dynamic, multi-image collage that acts as a background, possibly using a canvas element or a fixed background attachment, over which the main text content scrolls. This collage also functions as a carousel, likely powered by Swiper, with visible navigation arrows and pagination dots.",
+    "Content sections are revealed by simply scrolling into view, without complex fade-in or slide-up animations for the sections themselves, relying on the sticky header and hero parallax for primary motion interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#BE000B",
+        "role": "accent"
+      },
+      {
+        "hex": "#A3A3A3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#FCE4EC",
+        "role": "hero-gradient-start"
+      },
+      {
+        "hex": "#FFFDE7",
+        "role": "hero-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero heading (~3-4x body) with large, bold section headings (~2x body) and standard body text, all from the same sans-serif family.",
+    "radius": "Subtle (buttons, cards, image containers have slightly rounded corners).",
+    "spacing": "Balanced density with generous vertical spacing between major content sections, creating a clear visual rhythm."
+  },
+  "standout": "The site's distinctive feature is its dynamic hero section, which uses a rich, multi-image collage as a background that subtly parallaxes or remains fixed as foreground content scrolls. This immediately conveys the breadth of the brand's offerings in a visually engaging way, moving beyond a single hero image or video.",
+  "animation_tech": [
+    "canvas",
+    "swiper"
+  ],
+  "status": "approved"
+}

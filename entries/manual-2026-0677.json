@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0677",
+  "source": {
+    "url": "https://www.wallpaper.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0677.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0677__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0677__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0677__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "editorial",
+      "luxury"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent, full-width hero image is followed by a two-column newsletter section, then subsequent content is presented in consistent three-column article grids."
+    },
+    {
+      "kind": "type",
+      "note": "Section and article headings utilize a large, elegant serif font, creating a strong editorial presence, while navigation and meta-information use a smaller, clean sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is a high-contrast black text on a white background, with dark grey used for the footer and very subtle light grey horizontal dividers."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-tiered sticky header system where the main logo/utility navigation, a primary category navigation, and a 'TRENDING' sub-navigation bar all become fixed at the top of the viewport sequentially as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Each content category is introduced by a large, centered serif heading, followed by a grid of image-dominant article cards, and concluded with a 'VIEW MORE' call-to-action button."
+    }
+  ],
+  "technique_notes": [
+    "Implement a multi-level sticky header where the top-most utility bar, the main category navigation, and a 'TRENDING' sub-navigation bar sequentially fix to the top of the viewport as the user scrolls past their initial positions.",
+    "Structure content using a flexible grid system that adapts from a two-column layout for a newsletter section to a consistent three-column layout for article listings, emphasizing large, high-quality images as primary visual elements within each grid item.",
+    "Establish a clear visual hierarchy using a large, elegant serif font for all major headings and article titles to convey a premium editorial feel, complemented by a clean, legible sans-serif for smaller text elements like navigation, bylines, and dates."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1B1B1B",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#EDEDED",
+        "role": "surface"
+      },
+      {
+        "hex": "#9306F9",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A98EE",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Source Serif Pro",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with smaller, functional sans-serif body and meta text.",
+    "radius": "sharp",
+    "spacing": "balanced, leaning towards airy in the hero and section breaks, but dense within article grids"
+  },
+  "standout": "The site's distinctive use of a classic, high-contrast editorial layout, combining elegant serif typography for headlines with a clean, image-heavy grid structure, gives it the feel of a digital luxury magazine rather than a typical blog or news site. The multi-level sticky navigation is also a notable feature.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

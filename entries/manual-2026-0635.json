@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0635",
+  "source": {
+    "url": "https://www.ibm.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0635.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0635__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0635__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0635__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ibm.com/new",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0635__p2.webp"
+      },
+      {
+        "url": "https://www.ibm.com/us-en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0635__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "enterprise-software",
+      "consulting"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Modular grid layouts for content cards, often arranged in horizontal carousels or multi-column grids within full-width sections."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of the IBM Plex Sans typeface across all text elements, maintaining a strong brand identity with clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette dominated by white, dark gray, and a distinctive IBM blue for interactive elements and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky header and a floating circular call-to-action button remain visible during scroll, while content sections scroll vertically. Horizontal carousels are used for browsing related content."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections with clear, prominent headings, often featuring card-based information displays."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header and a floating circular call-to-action button are implemented to maintain navigation and key interaction points always in view during scroll.",
+    "Horizontal content carousels, likely using a library like Swiper, allow users to browse through multiple related items within a compact space, indicated by navigation arrows or pagination dots.",
+    "The overall page structure relies on vertical scrolling to reveal new content sections, with a clean transition between them without complex scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#161616",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#0f62fe",
+        "role": "accent"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "surface"
+      },
+      {
+        "hex": "#c6c6c6",
+        "role": "border"
+      },
+      {
+        "hex": "#525252",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "IBM Plex Sans",
+        "role": "heading"
+      },
+      {
+        "family": "IBM Plex Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3x body) provide clear hierarchy, complemented by readable sans-serif body text and smaller, lighter labels.",
+    "radius": "Subtle rounding on buttons and card corners, maintaining a clean, modern aesthetic.",
+    "spacing": "Balanced and organized, with generous vertical padding between sections and consistent internal spacing within card grids."
+  },
+  "standout": "The site's distinctive use of the IBM Plex typeface family and the iconic IBM blue creates a strong, recognizable brand presence. The combination of dense, modular content grids with interactive horizontal carousels allows for efficient information display without feeling cluttered, while the persistent floating CTA button offers a unique interaction point.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

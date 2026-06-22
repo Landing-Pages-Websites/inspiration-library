@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0652",
+  "source": {
+    "url": "https://www.principle.app",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0652.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0652__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0652__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0652__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.principle.app/docs.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0652__p2.webp"
+      },
+      {
+        "url": "https://www.principle.app/index.html",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0652__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "software",
+      "design-tools",
+      "prototyping"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within a fixed-width container, flanked by full-bleed background colors that define distinct sections."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, consistent blue is used for the hero and footer backgrounds, providing strong brand identity and visual bookends for the page content."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large, bold, and sans-serif, creating clear hierarchy, while body text is lighter and smaller for readability."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport after initial scroll, maintaining access to key links. Sections reveal with a subtle fade-in effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a prominent video hero section with a play button overlay, immediately showcasing the product's core functionality."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible at the top of the screen as the user scrolls down, ensuring persistent navigation.",
+    "Sections are visually separated by alternating full-width background colors (blue, white, dark grey) and reveal with a gentle fade-in as they become visible in the viewport.",
+    "A video hero is used at the top of the page to demonstrate the product's capabilities, with a static thumbnail and play icon that likely triggers a modal video player or in-line playback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#007ec5",
+        "role": "background"
+      },
+      {
+        "hex": "#c33e2e",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#6e3b9e",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:System Sans-serif",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:System Sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) provide strong visual anchors, complemented by standard body text and small, uppercase labels for buttons and sub-sections.",
+    "radius": "Subtle for buttons, sharp for most other UI elements and section corners.",
+    "spacing": "Balanced density overall, with an airy hero section and tighter, grid-based layouts for feature and testimonial sections."
+  },
+  "standout": "The site's design is distinctive for its bold and consistent use of a bright blue as a primary brand color, creating a memorable visual identity. The immediate presentation of a video hero effectively communicates the product's core functionality, making it easy for users to grasp its value quickly.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

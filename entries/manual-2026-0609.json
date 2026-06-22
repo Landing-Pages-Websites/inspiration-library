@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0609",
+  "source": {
+    "url": "https://www.breitling.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0609.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0609__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0609__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0609__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.breitling.com/us-en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0609__p2.webp"
+      },
+      {
+        "url": "https://www.breitling.com/us-en/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0609__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "watches",
+      "retail"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width hero video section with overlaid text and call-to-action buttons, creating an immersive brand introduction."
+    },
+    {
+      "kind": "layout",
+      "note": "Consistent use of horizontal carousels (Swiper) for showcasing product collections and trending items, allowing for efficient browsing."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast brand palette featuring deep navy/black, crisp white, and a vibrant, almost golden yellow as a primary accent."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a distinctive, elegant serif font for a luxurious feel, contrasted with a clean sans-serif for body text and often uppercase labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The top header bar and main navigation shrink and become sticky upon scroll, transforming from a taller, transparent state to a compact, solid yellow background."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (e.g., 'Trending Now', 'An Icon Reimagined') are revealed with a subtle fade-in or slide-up animation as they enter the viewport."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero section plays automatically in the background, with brand messaging and call-to-action buttons positioned over a subtle dark gradient overlay to ensure text readability.",
+    "The primary navigation bar dynamically transforms upon scroll, shrinking in height and changing its background to a solid accent color while remaining fixed at the top of the viewport, using CSS keyframes for the transition.",
+    "Content sections are introduced with a subtle scroll-triggered animation, typically a fade-in or slight slide-up effect, enhancing engagement as the user progresses down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#072c54",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffc62d",
+        "role": "accent"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Italian Plate",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (often in a distinctive serif font) provide strong hierarchy, complemented by clear, readable sans-serif body text and smaller, often uppercase, labels for navigation and sub-headings.",
+    "radius": "Predominantly sharp corners for structural elements and images, with subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "Balanced and generous, particularly in hero and major section breaks, transitioning to a more compact grid for product listings and articles, maintaining a sense of luxury and clarity."
+  },
+  "standout": "The site's distinctive use of a rich, deep navy/black combined with a striking, almost golden yellow accent immediately conveys luxury and brand identity. This bold color pairing, coupled with the elegant serif display font for headings and the prominent video hero, elevates the site beyond a standard e-commerce template, creating a strong, memorable brand presence.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0664",
+  "source": {
+    "url": "https://www.thousandtrails.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0664.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0664__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0664__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0664__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://thousandtrails.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0664__p2.webp"
+      },
+      {
+        "url": "https://thousandtrails.com/groups",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0664__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "camping",
+      "hospitality"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section with a video background and a search bar integrated directly below the main title, which then collapses into the sticky navigation."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast in typography between the large, bold, uppercase display headings in the hero (mixing a heavy sans-serif with a slab serif) and a clean, readable sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A primary palette of deep forest green and white, accented with a vibrant blue for calls-to-action and a warm golden yellow for highlights and 'special offers'."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video background exhibits a subtle parallax effect, scrolling slower than the foreground content. The main navigation and search bar transform into a compact, sticky header with a solid background upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections below the hero utilize a grid layout for featured destinations and offers, often with alternating background colors (white, light green, dark green) to delineate content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero features a full-width video background that scrolls at a slower rate than the page content, creating a subtle parallax depth effect. Overlay text is positioned centrally with a strong visual hierarchy.",
+    "The primary navigation bar and the hero search input dynamically transform into a single, compact sticky header upon scrolling. The initial transparent navigation gains a solid background, shrinks in height, and the search bar integrates into its structure.",
+    "Content sections below the hero are designed to reveal with a subtle fade-up or slide-in animation as they enter the viewport, enhancing engagement as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d6b55",
+        "role": "primary-green"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#146ff8",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#e5c348",
+        "role": "accent-gold"
+      },
+      {
+        "hex": "#000",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#f5f0e8",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "display"
+      },
+      {
+        "family": "Rockwell",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings in the hero (~4-5x body text) with a mix of heavy sans-serif and slab serif, transitioning to clear, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons, input fields, and card images, providing a soft, approachable feel.",
+    "spacing": "Balanced density overall, with a notably airy hero section to emphasize the large typography and video, and well-defined spacing in content grids."
+  },
+  "standout": "The site's distinctive patriotic and celebratory theme, prominently displayed in the 'Find Your Trail AMERICA' hero with its dynamic video background and 'Celebrating 250 Years' message, creates an immersive and memorable first impression. The seamless integration of the search bar into both the hero and the sticky navigation is also a key design feature.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

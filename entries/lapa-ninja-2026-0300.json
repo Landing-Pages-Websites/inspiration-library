@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0300",
+  "source": {
+    "url": "https://paperspace.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0300.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0300__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0300__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0300__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "cloud-computing",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed layout with full-width sections, where content is consistently centered within a defined maximum width, creating a focused reading experience."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode palette featuring deep charcoal backgrounds, contrasting light text, and vibrant green accents for CTAs and key information, complemented by occasional gradient overlays for visual depth."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a single sans-serif font (Open Sans) with bold, large headings for impact and lighter-weight body text for readability, maintaining a consistent professional tone."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport without changing its size or background, while a top promotional banner smoothly disappears on initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero section content scrolls up over a subtly parallaxing background image, creating a layered depth effect as subsequent content sections are revealed."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are visually delineated by alternating subtle shades of dark gray backgrounds, providing clear separation and structure without harsh lines."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that maintains its full size and transparency as the user scrolls. A top-of-page promotional banner is designed to dismiss or scroll out of view once the user begins scrolling down the page.",
+    "Content sections are introduced dynamically as they enter the viewport, likely utilizing scroll-triggered animations (such as subtle fade-ups or slide-ins) to enhance engagement and guide the user's eye through the page. This system would leverage detected animation libraries like anime-js or css-keyframes for smooth transitions.",
+    "Interactive elements like buttons and cards feature subtle hover states, typically involving a slight background color change or shadow lift, providing visual feedback to the user."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d21",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#00e676",
+        "role": "accent"
+      },
+      {
+        "hex": "#333338",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff6b6b",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#ff4d4d",
+        "role": "gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Open Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, while body text is clean and readable at a standard size with a lighter weight.",
+    "radius": "Subtle rounding on buttons and card edges (e.g., ~4-8px), maintaining a modern yet approachable feel.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while internal content blocks maintain a comfortable, readable rhythm."
+  },
+  "standout": "The site's distinctive dark theme, combined with vibrant green accents and sophisticated gradient overlays, creates a premium, high-tech aesthetic that feels both modern and authoritative. It successfully conveys a sense of cutting-edge technology without being overly complex visually.",
+  "animation_tech": [
+    "anime-js",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

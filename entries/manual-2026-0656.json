@@ -1,0 +1,119 @@
+{
+  "id": "manual-2026-0656",
+  "source": {
+    "url": "https://www.runway.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0656.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0656__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0656__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0656__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://runway.com/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0656__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "saas",
+      "business-intelligence"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent, centered maximum-width content column for readability."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface for impact, contrasted with a lighter weight and smaller size for body text and descriptive labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark text on light backgrounds is accented by a warm orange for primary calls-to-action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar is initially transparent over the hero, then shrinks slightly and gains a solid white background with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large application screenshot that remains fixed or subtly parallaxes in the background while the headline and call-to-action buttons scroll over it."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently employ a two-column layout, alternating between text-left/image-right and image-left/text-right to present information clearly."
+    }
+  ],
+  "technique_notes": [
+    "The hero section integrates a detailed product screenshot as a fixed background element, creating a sense of depth as overlaying text and buttons scroll past it. This uses a combination of css-keyframes for subtle background movement or fixed positioning.",
+    "The primary navigation bar transitions from a transparent, overlaying state to a sticky, opaque white bar with a subtle drop shadow and slightly reduced height once the user scrolls beyond the initial hero content.",
+    "Content sections are revealed through the natural scroll of the page, without complex individual element animations, maintaining a clean and direct presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#f9a600",
+        "role": "cta"
+      },
+      {
+        "hex": "#ff492c",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#76613d",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual hierarchy, complemented by legible body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding on buttons and card-like elements, maintaining a clean and modern aesthetic.",
+    "spacing": "Balanced spacing with generous vertical separation between major sections, creating an airy feel, while internal content grids maintain a tighter, organized density."
+  },
+  "standout": "The immediate and prominent display of a detailed, realistic application screenshot directly within the hero section, acting as a fixed background over which the main value proposition scrolls, effectively showcases the product's interface and functionality from the first glance. This creates a strong sense of transparency and authority.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

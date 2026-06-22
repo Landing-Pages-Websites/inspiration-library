@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0293",
+  "source": {
+    "url": "https://www.mage.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0293.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0293__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0293__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0293__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-platform",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with light and dark backgrounds, maintaining a consistent centered content width for readability and visual segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, creating a strong visual hierarchy, complemented by a distinct monospace font for code examples and UI elements within the product screenshots."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black text on white or light grey backgrounds is accented by a vibrant blue for primary calls-to-action and a playful, multi-color scheme (blues, greens, pinks, yellows) in illustrations and feature icons."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the main navigation bar transforms from transparent to a solid white background, and its logo and button styles subtly adjust. Content sections also reveal themselves with a gentle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site frequently uses large, detailed code editor screenshots as hero elements for key sections, visually demonstrating the product's interface and capabilities directly within the page flow."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a dynamic illustration that likely uses a video or CSS keyframe animation to add subtle movement and visual interest, enhancing engagement without being distracting.",
+    "A sticky header is implemented where the navigation bar initially appears transparent over the hero, then transitions to a solid background with adjusted branding elements (e.g., logo size, button styles) once the user scrolls past the initial hero content.",
+    "Scroll-triggered animations are used to progressively reveal content sections. As each section enters the viewport, elements within it (like text blocks, images, or card grids) animate into place with a staggered fade-up or slide-in effect, creating a guided viewing experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2696FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#AED5FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#F1F1EA",
+        "role": "surface"
+      },
+      {
+        "hex": "#00FB82",
+        "role": "accent"
+      },
+      {
+        "hex": "#2B3640",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) establish clear hierarchy, complemented by a readable sans-serif body text and a distinct monospace font for code snippets.",
+    "radius": "Subtle rounded corners (~4-8px) are consistently applied to buttons, cards, and UI elements, contributing to a soft, modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks, ensuring good readability and visual breathing room."
+  },
+  "standout": "This site masterfully blends a highly technical, data-centric product offering with a friendly and approachable visual language, primarily through its use of playful, colorful illustrations in the hero and feature sections. The integration of detailed, interactive-looking code examples directly into the page flow also effectively communicates product functionality in a visually engaging way, setting it apart from typical enterprise SaaS sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

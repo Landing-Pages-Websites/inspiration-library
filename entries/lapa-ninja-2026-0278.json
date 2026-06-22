@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0278",
+  "source": {
+    "url": "https://www.fillout.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0278.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0278__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0278__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0278__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "forms",
+      "business-tools"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating content blocks with text on one side and a detailed UI screenshot or illustration on the other, creating a balanced visual rhythm across feature sections."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant blue and yellow/orange accents are consistently used against a predominantly white and dark grey background to highlight key information and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the illustrated city background scrolls slower than the foreground content, adding a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport throughout the scroll, ensuring constant access to navigation links."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by distinct background colors, transitioning from a vibrant blue hero to clean white content blocks, and concluding with a dark, multi-column footer."
+    }
+  ],
+  "technique_notes": [
+    "The hero background image is set to a fixed position or given a slower scroll speed than the main content, creating a subtle parallax effect as the user scrolls down the page.",
+    "The primary navigation bar is styled to remain fixed at the top of the browser viewport, ensuring it is always visible and accessible regardless of scroll depth.",
+    "Content sections primarily reveal by scrolling into view, maintaining a clean and direct presentation without complex scroll-triggered fade-ins or slide animations, though css-keyframes may be used for internal component animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2f72e2",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#ffc738",
+        "role": "cta-accent"
+      },
+      {
+        "hex": "#242424",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#da552f",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#fff5e4",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (hero ~3x body, section ~2x body) with clear hierarchy, complemented by a clean, readable body text.",
+    "radius": "Subtle rounding (approx. 4-8px) on buttons, cards, and UI elements, maintaining a soft but not overly playful aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical padding between sections and comfortable spacing within content blocks, creating an open feel."
+  },
+  "standout": "The distinctive illustrated city background in the hero section, combined with a subtle parallax effect, gives the site a unique and memorable visual identity that stands out from typical SaaS marketing pages. The consistent use of vibrant yellow/orange accents against a clean blue and white palette also creates a strong brand presence.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

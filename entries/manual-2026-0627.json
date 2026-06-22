@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0627",
+  "source": {
+    "url": "https://www.harman.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0627.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0627__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0627__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0627__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.harman.com/lifestyle",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0627__p2.webp"
+      },
+      {
+        "url": "https://www.harman.com/automotive",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0627__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "audio-visual",
+      "automotive-tech"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical spacing, often featuring full-bleed imagery or video backgrounds to create immersive visual breaks."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently employ a split layout, pairing a prominent image or video with a concise text block, or organizing information into a grid of smaller, visually distinct cards."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark blue/black (`#1f2426`) serves as a dominant background for the header, footer, and key content sections, providing a sophisticated backdrop for white text and a vibrant teal accent."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a strong, modern sans-serif font, providing clear visual hierarchy and a contemporary feel, contrasting with a highly readable sans-serif for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-width video background that plays automatically, creating an engaging and dynamic initial experience as it scrolls out of view."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky, transitioning from a transparent overlay on the hero video to a solid, opaque dark blue background with a subtle drop shadow once the user scrolls past the hero section."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background that plays on loop, creating an immediate, immersive brand experience. This video is positioned to scroll out of the viewport as the user navigates down the page.",
+    "The main navigation bar employs a sticky positioning strategy, initially appearing as a transparent overlay. Upon scrolling, it dynamically transforms into a solid, dark-colored bar, ensuring persistent access to navigation links.",
+    "Content sections are visually delineated through distinct background colors (dark, white, or a light blue tint) and generous vertical padding, creating clear thematic breaks as the user scrolls through the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1f2426",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#23874b",
+        "role": "accent"
+      },
+      {
+        "hex": "#002040",
+        "role": "header-background"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#d0e0e5",
+        "role": "surface-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geologica",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clear hierarchy, paired with standard, readable sans-serif body text for content.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to images, cards, and buttons, contributing to a refined and approachable aesthetic.",
+    "spacing": "Airy vertical spacing between major sections, balanced spacing within content blocks, creating a sense of openness and clarity across the page."
+  },
+  "standout": "The site's distinctive use of a full-bleed, autoplaying video hero immediately establishes a dynamic and modern brand presence, setting a high-tech and immersive tone against a sophisticated dark theme. This combines corporate authority with a sleek, engaging user experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

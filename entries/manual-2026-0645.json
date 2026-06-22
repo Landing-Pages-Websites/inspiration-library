@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0645",
+  "source": {
+    "url": "https://www.maserati.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0645.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0645__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0645__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0645__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.maserati.com/us/en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0645__p2.webp"
+      },
+      {
+        "url": "https://www.maserati.com/eg/en",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0645__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-vehicles"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize full-bleed dark backgrounds with content often centered or presented in a grid, creating a high-contrast, immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, often uppercase, and use a thin to regular weight sans-serif font, providing an elegant and spacious typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark background (#222222, #383838) is consistently used across sections, contrasted with white text and a distinctive golden yellow accent for calls-to-action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'Browse Inventory' call-to-action button remains persistently sticky in the top-right corner of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal sequentially as the user scrolls, with elements appearing to fade or slide into view from the bottom, enhancing engagement."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the persistent call-to-action, a fixed-position element is used, ensuring it remains visible in the top-right corner of the browser viewport regardless of scroll depth.",
+    "The scroll-triggered reveals for sections and content blocks are conceptually built using a scroll-detection library (like locomotive-scroll or scrollmagic mentioned in hints) that monitors element visibility and applies subtle entrance animations (e.g., fade-up, slide-in) as they enter the user's view.",
+    "Full-bleed imagery and video heroes are integrated as background elements, often with dark overlays, to create a cinematic and aspirational visual experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "background"
+      },
+      {
+        "hex": "#383838",
+        "role": "surface"
+      },
+      {
+        "hex": "#FDCB3C",
+        "role": "accent"
+      },
+      {
+        "hex": "#999999",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#D00000",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, often uppercase headings (~3-4x body) with a light to regular weight, creating an elegant and spacious feel.",
+    "radius": "Sharp (mostly rectangular elements and imagery, minimal rounding).",
+    "spacing": "Airy (generous padding and margins, especially vertically between sections, contributing to a premium and uncluttered feel)."
+  },
+  "standout": "This site distinguishes itself through its sophisticated use of a dark, high-contrast theme, which effectively highlights aspirational automotive imagery and a consistent golden yellow accent. The design masterfully balances luxury aesthetics with clear calls-to-action, creating an immersive brand experience that feels both exclusive and accessible.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "lottie",
+    "scrollmagic",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

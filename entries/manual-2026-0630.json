@@ -1,0 +1,104 @@
+{
+  "id": "manual-2026-0630",
+  "source": {
+    "url": "https://haus.house",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0630.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0630__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0630__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0630__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "construction",
+      "home-services",
+      "architecture"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layout for feature sections, where an image occupies one column and descriptive text with a call-to-action occupies the other, switching sides for visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, elegant serif typeface for main section headings, creating a strong visual hierarchy and sophisticated brand character, contrasted with a clean sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy green-grey is used as a primary accent color for the hero overlay and call-to-action buttons, providing a calm and established feel against a white background."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections (e.g., 'About Haus', 'Building Dreams') reveal themselves with a subtle fade-in and slight upward slide animation as they scroll into the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Section titles are consistently centered and underlined with a short, dark grey line, providing a clear and understated visual break between content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background image with a semi-transparent, solid color overlay box positioned over a portion of the image, containing the primary message and call-to-action.",
+    "Content sections are designed to animate into view as the user scrolls, utilizing CSS keyframe animations to apply a subtle fade-in and a slight upward translation effect to elements when they enter the visible viewport, likely triggered by JavaScript scroll detection.",
+    "Call-to-action buttons use a solid background color with contrasting white text and sharp corners, maintaining a consistent visual style across the site."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#7f8f89",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Abril Fatface",
+        "role": "heading"
+      },
+      {
+        "family": "Droid Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, decorative serif headings (~3x body) provide strong visual anchors, while body text is a legible sans-serif; hero text is a medium sans-serif for clarity.",
+    "radius": "sharp \u2014 all elements, including buttons and image frames, maintain crisp, unrounded corners.",
+    "spacing": "balanced \u2014 sections are well-separated with ample vertical padding, while content within sections maintains a comfortable, readable density."
+  },
+  "standout": "This site distinguishes itself with a sophisticated blend of a strong, elegant serif display font for headings and a muted, earthy color palette. The unique hero section, featuring a partial, solid-color overlay box for text, creates a distinctive and refined first impression that avoids generic full-width text overlays.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

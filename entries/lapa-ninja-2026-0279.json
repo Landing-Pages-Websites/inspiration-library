@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-2026-0279",
+  "source": {
+    "url": "https://fleet.so",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0279.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0279__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0279__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0279__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "research"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a generous amount of surrounding whitespace, creating a focused and airy presentation."
+    },
+    {
+      "kind": "type",
+      "note": "A large, decorative initial capital 'F' is used to introduce the main descriptive paragraph, giving an editorial or academic document feel."
+    },
+    {
+      "kind": "color",
+      "note": "A stark contrast between a very light, almost white background and dark text dominates, with vibrant, detailed imagery used sparingly as focal points."
+    },
+    {
+      "kind": "motion",
+      "note": "The header remains sticky at the top of the viewport. As the user scrolls into the footer area, a large ornate 'f' graphic is revealed, which then transforms into a blue wax seal graphic upon further scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The footer section features a prominent, large-scale graphic element (the ornate 'f' / wax seal) positioned to the left of multi-column navigation links."
+    }
+  ],
+  "technique_notes": [
+    "The header uses a fixed position to remain visible throughout the scroll. Main content scrolls naturally. Sections are revealed with a subtle fade-in or slide-up effect as they enter the viewport. A specific graphic element in the footer undergoes a scroll-triggered transformation or swap, changing from an ornate letter to a wax seal, likely orchestrated with CSS keyframes or a JavaScript-driven class toggle based on scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fafafa",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#111112",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#2030A0",
+        "role": "accent-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Garamond",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "logo-and-utility"
+      }
+    ],
+    "type_scale": "Elegant serif headings (~2x body) with a distinctive, oversized decorative initial capital for the first paragraph, complemented by smaller, legible serif body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in the hero and footer, with generous padding and line-heights creating a sense of openness."
+  },
+  "standout": "The site's design stands out by blending a minimalist, academic aesthetic with a sophisticated use of typography, including a large decorative initial capital and an ornate graphic that transforms on scroll. This creates a distinctive, almost archival or editorial feel that is unusual for a modern tech company, giving it a sense of gravitas and timelessness.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

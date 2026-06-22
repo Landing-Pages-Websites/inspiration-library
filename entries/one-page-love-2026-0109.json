@@ -1,0 +1,117 @@
+{
+  "id": "one-page-love-2026-0109",
+  "source": {
+    "url": "https://experiencelab.publicisgroupe.jp",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0109.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0109__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0109__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0109__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "design",
+      "cx-strategy"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are defined by full-bleed background colors, creating strong visual breaks and distinct content areas."
+    },
+    {
+      "kind": "type",
+      "note": "A very large, bold sans-serif typeface is used for the primary hero statement, which then scales down to a small, persistent header."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of light grey, black, and a vibrant, almost neon, pink as a dominant accent and section background color."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text 'Experience.Lab' dynamically scales down and repositions from a large, centered display to a small, sticky top-left header upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The page background color transitions smoothly from a light grey to a vibrant pink as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "A Japanese character overlaid on the hero text fades out and disappears as the hero text transforms during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Decorative 3D floating icons are used within a prominent section to add visual interest and a playful touch."
+    }
+  ],
+  "technique_notes": [
+    "A scroll-triggered animation system orchestrates a multi-stage hero transformation: a large, centered display text scales down and translates to a fixed top-left position, while an overlaid graphic element fades out. This effect is likely achieved using JavaScript for scroll progress tracking and CSS transforms/opacity for the animation.",
+    "The page's primary background color transitions smoothly between two distinct solid colors (light grey to vibrant pink) as the user scrolls past the initial hero section, creating a strong visual shift.",
+    "Content sections and decorative elements, such as the 3D icons, are revealed with a subtle fade-in or slide-up effect as they enter the viewport, enhancing engagement (likely using css-keyframes or JavaScript-driven animations)."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d0d0d0",
+        "role": "background"
+      },
+      {
+        "hex": "#ff016c",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-accent"
+      },
+      {
+        "hex": "#171717",
+        "role": "surface"
+      },
+      {
+        "hex": "#bababa",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An oversized, bold sans-serif hero heading (~5-6x body text) dynamically scales down to a small, regular weight header, while body text remains legible and clean.",
+    "radius": "sharp",
+    "spacing": "airy, with generous negative space around the hero and between major content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The most distinctive element is the dynamic hero text that transforms from a massive, centered display into a small, sticky header upon scroll, accompanied by a background color transition and a fading graphic. This creates a highly interactive and memorable introduction.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

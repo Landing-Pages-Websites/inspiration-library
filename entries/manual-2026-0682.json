@@ -1,0 +1,116 @@
+{
+  "id": "manual-2026-0682",
+  "source": {
+    "url": "https://www.zeiss.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0682.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0682__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0682__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0682__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.zeiss.com/med",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0682__p2.webp"
+      },
+      {
+        "url": "https://www.zeiss.com/smt",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0682__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "manufacturing",
+      "technology",
+      "optics",
+      "medical-devices"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Consistent use of full-width sections with content centered within a defined max-width container, often employing grid layouts for displaying multiple related items (e.g., 2x3 image cards, 3-column news blocks, 10-column icon grid)."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with large, bold sans-serif headings for primary messages, smaller uppercase labels for categories, and legible body text, all in a consistent modern sans-serif typeface."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette dominated by white and light grey backgrounds, black text, and a distinct deep blue used for interactive elements, call-to-action buttons, and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video that acts as a fixed background, while the overlaying text and call-to-action scroll up, creating a subtle parallax-like effect as the hero visually shrinks to reveal the content below. The main navigation bar remains sticky at the top after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by alternating white and light grey background colors, each introduced by a prominent heading and often followed by a grid of related content or a 'View all' / 'Learn more' call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero is implemented with a dark overlay to ensure text contrast. The video content is fixed or has a subtle parallax, while the textual overlay scrolls up, causing the hero section to visually compress and reveal subsequent content.",
+    "The primary navigation bar is designed to remain sticky at the top of the viewport after the initial scroll, ensuring persistent access to navigation and brand identity.",
+    "Content sections are revealed sequentially as the user scrolls down the page, appearing from below the fold without complex entrance animations, relying on clear visual hierarchy and generous spacing to guide the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F0F2F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#0F2DB3",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Open Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) for primary messages, with smaller uppercase labels (~0.8x body text) providing context, all in a clean, modern character.",
+    "radius": "Subtle rounded corners (~4-8px) on buttons and some card elements, maintaining a clean yet approachable feel.",
+    "spacing": "Balanced density with generous vertical spacing between major sections and within the hero, transitioning to a tighter grid for content cards and feature blocks."
+  },
+  "standout": "The site's design is distinctive for its sophisticated use of high-tech, often abstract, and visually striking imagery and video, particularly in the hero section and content blocks. This is combined with an exceptionally clean, structured layout and a precise color palette to convey innovation, precision, and corporate authority, making it feel premium and forward-thinking rather than a generic corporate template.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

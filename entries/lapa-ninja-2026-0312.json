@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0312",
+  "source": {
+    "url": "https://www.wandb.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0312.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0312__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0312__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0312__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "machine-learning",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered within a consistent max-width container, using a dark background for high contrast."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, handwritten-style script font is used for emphasis within headings, contrasting with clean sans-serifs for main text and a monospace font for code snippets."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette is used, featuring a vibrant yellow/orange as the primary accent for CTAs and highlights, complemented by a secondary teal accent."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in effect as they enter the viewport, and key text elements in the hero section exhibit a gentle parallax or scroll-linked transformation."
+    },
+    {
+      "kind": "section",
+      "note": "Stylized code snippets are prominently integrated as visual elements within content sections to illustrate technical capabilities and provide practical examples."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation is implemented, maintaining visibility and access to core site links as the user scrolls down the page.",
+    "Scroll-triggered animations, likely leveraging GSAP ScrollTrigger, are used to reveal content sections with a subtle fade-up or slide-in effect as they enter the viewport, enhancing content flow.",
+    "The hero section features a subtle parallax effect on specific text elements, where the 'easy' script moves at a slightly different rate than the background or surrounding text, adding depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFC107",
+        "role": "accent"
+      },
+      {
+        "hex": "#00BCD4",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Sans Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Source Sans Pro",
+        "role": "body"
+      },
+      {
+        "family": "Inconsolata",
+        "role": "mono"
+      },
+      {
+        "family": "similar-to: Pacifico",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~4-5x body) are used for primary titles, with a distinctive, oversized script font for emphasis, complemented by clear, readable body text and a distinct monospace for code examples.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied to buttons, input fields, and card-like elements such as code blocks and feature cards.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while feature grids maintain a structured, slightly denser layout."
+  },
+  "standout": "The site's design is distinctive for its sophisticated dark theme, which is unexpectedly paired with a playful, handwritten script font for key emphasis. This unique combination, alongside the prominent and meticulously integrated code snippets, creates a blend of technical authority and approachable design that feels both cutting-edge and user-friendly.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "approved"
+}

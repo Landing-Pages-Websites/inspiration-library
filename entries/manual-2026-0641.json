@@ -1,0 +1,107 @@
+{
+  "id": "manual-2026-0641",
+  "source": {
+    "url": "https://www.lalique.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0641.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0641__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0641__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0641__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "jewelry",
+      "home-decor",
+      "fragrance"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography and video are used as section backgrounds and hero elements, often with elegant text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant serif font for brand identity and major headings with a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A refined palette of deep neutrals (white, light beige, dark grey) accented by rich, jewel-toned teal and subtle gold/bronze highlights, conveying luxury."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image/video exhibits a subtle parallax effect on scroll, while the top utility bar and main navigation become sticky and slightly condense after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Product categories are presented in a flexible grid layout, interspersed with editorial-style full-bleed image sections that act as content breaks or thematic introductions."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video background with a dark overlay to ensure text legibility, and the video content subtly parallaxes as the user scrolls.",
+    "A multi-level sticky header system is implemented: an initial utility bar and the main navigation both become fixed at the top of the viewport after scrolling, with the utility bar potentially shrinking or transforming.",
+    "Content sections are revealed using a combination of fade-in and subtle slide-up animations as they enter the viewport, creating a smooth, engaging scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#151515",
+        "role": "text"
+      },
+      {
+        "hex": "#eadcc4",
+        "role": "surface"
+      },
+      {
+        "hex": "#c2ab7b",
+        "role": "accent"
+      },
+      {
+        "hex": "#005757",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "minion-pro",
+        "role": "heading"
+      },
+      {
+        "family": "Assistant",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, large serif headings (~3-4x body) for main titles, with smaller, clean sans-serif for body text and uppercase labels, creating a clear hierarchy with significant size differences.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in hero and section breaks, creating a sense of luxury, while product grids are more compact but still well-spaced."
+  },
+  "standout": "The site distinguishes itself through its seamless integration of high-end, full-bleed photography and video with a sophisticated, editorial layout. The elegant serif typography for brand identity, combined with a clean sans-serif for content, creates a distinctive luxury feel that elevates it beyond a typical e-commerce template.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

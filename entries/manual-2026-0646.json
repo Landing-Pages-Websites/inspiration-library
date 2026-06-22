@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0646",
+  "source": {
+    "url": "https://www.momondo.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0646.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0646__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0646__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0646__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.momondo.com/trips",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0646__p2.webp"
+      },
+      {
+        "url": "https://www.momondo.com/explore",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0646__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "flight-booking",
+      "hotel-booking"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed, deep purple background across all pages, creating a consistent, immersive dark mode aesthetic."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is primarily organized into distinct, rounded-corner cards, often featuring an image at the top and text below, for deals, destinations, and feature explanations."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange is consistently used as the primary accent color for calls to action, interactive elements, and key highlights against the dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms on scroll, shrinking in height and adjusting its internal layout (e.g., logo size, addition of 'Ask AI' button) after the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle, contextual tooltip or toast message appears at the bottom right of the screen after a certain scroll depth on the homepage."
+    },
+    {
+      "kind": "section",
+      "note": "Informational sections, particularly on interior pages, integrate playful Lottie animations alongside text to explain features and concepts."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that initially occupies a larger space and then smoothly transitions to a reduced height with a solid background and potentially rearranged elements (like a smaller logo or added buttons) once the user scrolls past the hero section.",
+    "Design the entire user interface with a deep, dark background color and use high-contrast light text, reserving a single vibrant color for primary calls to action, interactive elements, and key highlights.",
+    "Structure content into distinct, self-contained cards with consistent rounded corners, often featuring an image at the top and descriptive text below, to visually segment information and improve scannability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#192024",
+        "role": "background"
+      },
+      {
+        "hex": "#ff690f",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#9ba8b0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#455063",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: cerapro-regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body text) provide clear hierarchy, complemented by smaller, legible body text and occasional uppercase labels.",
+    "radius": "Rounded corners are consistently applied to cards, buttons, and input fields, creating a soft and friendly feel.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and consistent, moderate spacing within card grids."
+  },
+  "standout": "The site's distinctive use of a deep, immersive dark purple background combined with vibrant orange accents creates a sophisticated yet energetic feel. The integration of playful Lottie animations on interior pages, alongside a highly functional, card-based content structure, sets it apart from typical travel booking sites that often opt for lighter, more utilitarian designs.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "approved"
+}

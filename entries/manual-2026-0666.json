@@ -1,0 +1,120 @@
+{
+  "id": "manual-2026-0666",
+  "source": {
+    "url": "https://www.trainingpeaks.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0666.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0666__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0666__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0666__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.trainingpeaks.com/blog",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0666__p2.webp"
+      },
+      {
+        "url": "https://www.trainingpeaks.com/learn",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0666__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "sports-tech",
+      "coaching"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often constrained to a central max-width container, frequently using a split-screen layout (image on one side, text on the other) for feature blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings paired with a clean, readable sans-serif for body text, often using small uppercase labels for emphasis or categorization."
+    },
+    {
+      "kind": "color",
+      "note": "A deep blue and vibrant blue/purple gradient palette, contrasted with white text and surfaces, creating a professional yet energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-layered parallax effect in the hero section, combined with a sticky, transforming navigation bar and scroll-triggered fade-in/slide-up animations for subsequent content blocks."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often present information in two-column layouts, alternating image and text positions, or in multi-column grids for smaller content cards (e.g., articles, device logos)."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a multi-layered parallax effect where the background gradient and the main hero image/video move at different, slower speeds than the scroll, creating a sense of depth.",
+    "The main navigation bar starts transparent and full-height, then becomes sticky at the top of the viewport, gaining a solid dark background and reducing its height and padding as the user scrolls down.",
+    "Content sections below the hero are revealed with a subtle fade-in and slight upward slide animation as they enter the viewport, likely triggered by scroll events using CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#010f31",
+        "role": "background"
+      },
+      {
+        "hex": "#3177ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#97a6ba",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent"
+      },
+      {
+        "hex": "#f04124",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear hierarchy, complemented by readable body text and small uppercase labels for categories.",
+    "radius": "Subtle rounded corners (approx. 4-8px) on buttons, cards, and image overlays, maintaining a clean and modern feel.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections, creating a sense of openness, while internal content blocks maintain a more balanced density."
+  },
+  "standout": "The site distinctively integrates high-quality athletic imagery with sophisticated data visualizations, often presented with a subtle glassmorphism effect. This immediately communicates the product's value in a visually compelling and professional manner, setting it apart from generic fitness platforms.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

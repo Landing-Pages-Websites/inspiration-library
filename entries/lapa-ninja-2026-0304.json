@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-0304",
+  "source": {
+    "url": "https://sourcegraph.com/cody",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0304.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0304__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0304__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0304__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A three-column layout is consistently used for content pages, featuring a fixed left-hand navigation, a central scrolling content area, and a fixed right-hand 'On this page' navigation."
+    },
+    {
+      "kind": "type",
+      "note": "Clear sans-serif typography with bold, distinct headings for section hierarchy, complemented by smaller, uppercase labels for contextual navigation and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly neutral palette (white, grays) is accented by two distinct, vibrant colors: a bright red/orange for primary links and CTAs, and a softer purple for secondary icons and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header shrinks significantly in height and its elements reposition as the user scrolls down, while both the left-hand and right-hand navigation sidebars remain fixed in the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are introduced by clear, bold headings and often feature supporting icons or bulleted lists, maintaining a consistent visual rhythm and readability."
+    }
+  ],
+  "technique_notes": [
+    "The main header dynamically reduces its height and repositions its internal elements (logo, search bar) as the user scrolls down the page, creating a compact sticky header. The left and right navigation sidebars are implemented as fixed elements, ensuring they remain visible and accessible regardless of scroll depth.",
+    "A video player is embedded directly into the hero section to provide a dynamic visual introduction to the product, playing automatically without scroll-triggered animation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#606060",
+        "role": "body-text"
+      },
+      {
+        "hex": "#F34E3F",
+        "role": "accent-primary"
+      },
+      {
+        "hex": "#A96AF3",
+        "role": "accent-secondary"
+      },
+      {
+        "hex": "#EAEAEA",
+        "role": "border-divider"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Balanced hierarchy with clear, bold headings (approx 2-3x body text) and readable body text, complemented by small uppercase labels for navigation and metadata.",
+    "radius": "Subtle rounding on interactive elements like buttons, input fields, and the video player frame.",
+    "spacing": "Balanced density with generous vertical spacing between major sections and within content blocks, creating an airy and readable layout."
+  },
+  "standout": "The most distinctive aspect is the highly structured three-column layout with two fixed sidebars for navigation, which provides an exceptionally clear and persistent navigational context, especially effective for documentation or feature-rich product pages.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "one-page-love-2026-0113",
+  "source": {
+    "url": "https://thayon.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0113.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0113__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0113__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0113__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "recruiting",
+      "talent-acquisition"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light background sections delineate content blocks, with most content centered and constrained to a comfortable reading width, creating a structured and focused presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large serif headings for section titles are paired with clean sans-serif for body text and navigation, establishing a high-contrast and authoritative typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark color scheme with light text creates a sophisticated and high-contrast aesthetic, subtly accented by an ethereal blue/purple gradient in the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a fixed or slow-parallaxing background video/image with a subtle grid overlay, which remains in place or moves minimally as the foreground content scrolls up to reveal subsequent dark sections. The navigation bar transitions from transparent to a solid dark background and becomes sticky upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The site utilizes a full-width hero with a large, impactful headline and a single call to action, followed by content sections that introduce problems and solutions in a structured, text-heavy manner."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background video or animated image that appears to be fixed or parallax slightly as the user scrolls, creating a sense of depth as the main content scrolls over it. The navigation bar employs a scroll-triggered state change, initially transparent and then adopting a solid dark background and becoming sticky once the user scrolls past the hero area.",
+    "Content sections are presented with a consistent maximum width, centered on the page, and use high contrast text on dark backgrounds for readability, often employing a two-column layout for detailed information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c2024",
+        "role": "background"
+      },
+      {
+        "hex": "#d9d9e0",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-deep"
+      },
+      {
+        "hex": "#80838d",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#363a3f",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Source Serif 4",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful serif headings (~3-4x body) provide strong visual anchors, complemented by clear, legible sans-serif body text and smaller uppercase labels.",
+    "radius": "Sharp corners dominate for most elements and sections, with subtle rounding applied only to interactive elements like buttons.",
+    "spacing": "Balanced and airy, particularly in the hero and between major content sections, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The site's distinctive design lies in its high-contrast aesthetic, combining an ethereal, subtly animated hero background with stark, dark content sections that use bold serif typography for impact. This creates a sophisticated and authoritative feel that avoids generic corporate templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

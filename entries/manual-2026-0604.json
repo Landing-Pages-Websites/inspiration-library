@@ -1,0 +1,99 @@
+{
+  "id": "manual-2026-0604",
+  "source": {
+    "url": "https://www.airfrance.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0604.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0604__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0604__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0604__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "airline"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width hero section features a large, illustrative graphic that subtly interacts with scroll, followed by a centered, multi-column content area designed for extensive navigation lists."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep blue gradient background provides a consistent, sophisticated base, contrasted with crisp white text for readability and selective red accents for key visual elements."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a bold, sans-serif font for prominent headings and subheadings, with a lighter weight for extensive lists of links, maintaining readability on a dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary header remains fixed at the top of the viewport. The hero image elements (hand, globe, bubbles) exhibit a subtle parallax effect, moving slower than the main content as the user scrolls down, eventually moving out of view. Content sections appear to reveal themselves with a gentle fade-in or slide-up animation as they enter the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The header is fixed to the top of the viewport, maintaining primary navigation visibility. The hero image creates a sense of depth by having its background elements scroll at a different, slower rate than the foreground content. Content sections are revealed using scroll-triggered animations, likely involving CSS keyframes, where elements transition from an invisible or slightly offset state to their final visible position as they become active in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#051039",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#f33",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a2b5e",
+        "role": "surface"
+      },
+      {
+        "hex": "#d4d8da",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#68737a",
+        "role": "tertiary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) with smaller, regular weight sans-serif body text for lists and links.",
+    "radius": "Mostly sharp corners for content blocks, with subtle rounding on interactive elements like dropdowns. Hero elements feature perfect circles.",
+    "spacing": "Airy hero section with ample negative space, balanced spacing for content lists, and a denser layout for the footer links."
+  },
+  "standout": "The site's distinctive illustrative hero image, featuring a hand interacting with a globe and floating bubbles, creates a unique and sophisticated visual identity. This, combined with a subtle parallax effect, elevates it beyond a standard marketing page.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

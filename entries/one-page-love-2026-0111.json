@@ -1,0 +1,90 @@
+{
+  "id": "one-page-love-2026-0111",
+  "source": {
+    "url": "https://www.lovably.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0111.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0111__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0111__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0111__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial viewport is dominated by a full-bleed, single-color hero section, pushing all primary informational content (contact, about, client list) entirely below the fold."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, featuring a single vibrant, saturated orange as the primary background for the hero, offset by stark black and white text."
+    },
+    {
+      "kind": "type",
+      "note": "All text uses a consistent, clean sans-serif typeface with subtle variations in size and weight to establish hierarchy, avoiding any decorative or oversized display elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A small informational text element ('Est. 2014 New York') in the top right corner remains fixed to the viewport as the user scrolls, while the large hero background recedes to reveal the main content below."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-bleed hero section that occupies the majority of the initial viewport height, establishing a strong visual presence with a single, bold background color. Content below this hero is revealed through standard document flow as the user scrolls.",
+    "A small, persistent text element is implemented using a fixed positioning strategy, ensuring it remains visible in the top right corner of the browser window regardless of scroll depth, without any additional scroll-triggered transformations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF5500",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#757575",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Subtle hierarchy with small, consistent sans-serif text sizes, lacking oversized display elements; body text is clear and readable.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in the hero section and between content blocks, creating a sense of openness."
+  },
+  "standout": "The site's most distinctive feature is its audacious use of a single, vibrant, full-bleed color that completely dominates the initial screen, pushing all primary content below the fold. This creates an immediate, bold, and memorable first impression that prioritizes brand presence over immediate information delivery.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

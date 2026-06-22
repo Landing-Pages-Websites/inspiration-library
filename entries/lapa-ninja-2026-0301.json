@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0301",
+  "source": {
+    "url": "https://www.permit.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0301.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0301__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0301__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0301__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "security",
+      "ai"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing a prominent AI-generated illustration or image on one side with descriptive text and calls to action on the other."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark blue-purple background (#050816) is consistently used across the site, providing a stark contrast for white text and vibrant purple/pink accent elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transitions from transparent over the hero to a sticky, dark, slightly opaque bar with a subtle backdrop as the user scrolls past the initial viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero reveal with a gentle fade-up and subtle slide-in animation as they enter the viewport, creating a dynamic scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is clearly delineated with generous vertical spacing and often features a distinct, full-width background or subtle gradient, creating clear visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed, high-resolution AI-generated image with a subtle dark overlay to ensure text legibility, and the image itself is set to parallax slightly on scroll.",
+    "A persistent navigation bar is initially transparent over the hero, then adopts a solid, dark, slightly opaque background and sticks to the top of the viewport once the user scrolls past the hero section.",
+    "Content sections are introduced with a staggered reveal animation, where elements like images and text blocks subtly fade up and slide into place from the bottom as they enter the viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050816",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0B0FF",
+        "role": "highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful headings (~3-4x body text) with a slightly condensed, bold character, paired with clear, readable body text and smaller, often uppercase labels.",
+    "radius": "Subtle; a small, consistent border-radius (e.g., 4-8px) is applied to buttons, cards, and input fields.",
+    "spacing": "Balanced; sections have generous vertical padding, creating an airy feel between major content blocks, while content within sections is well-spaced but not overly dense."
+  },
+  "standout": "The site's most distinctive feature is its consistent use of high-quality, fantastical AI-generated imagery, particularly the hero's castle and dog, which creates a unique and memorable brand identity for a technical product. This visual storytelling, combined with a deep, dark color palette and subtle scroll-triggered motion, elevates the user experience beyond a typical SaaS marketing site.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

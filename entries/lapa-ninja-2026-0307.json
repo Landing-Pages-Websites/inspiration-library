@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0307",
+  "source": {
+    "url": "https://www.tinybird.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0307.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0307__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0307__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0307__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "data-analytics",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark mode aesthetic with high-contrast white text and vibrant green accents is used consistently across all sections, creating a modern and technical feel."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for impact, while body text maintains high readability on the dark background. Monospace fonts are integrated for code snippets and terminal outputs."
+    },
+    {
+      "kind": "color",
+      "note": "A single vibrant green is used as the primary accent color for all calls-to-action, interactive elements, and key highlights, providing a clear visual hierarchy against the dark background."
+    },
+    {
+      "kind": "section",
+      "note": "Many content sections directly embed realistic UI elements such as code editors, dashboard screenshots, and terminal outputs to visually explain technical features and concepts."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains fixed at the top of the viewport as the user scrolls. A very large, stylized brand logo is positioned as a background element at the very bottom of the page, gradually revealing itself as the scroll depth increases."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark background with high-contrast light text, using a vibrant accent green for all interactive elements and key information to draw attention. Section backgrounds alternate between pure black and a slightly lighter dark grey to subtly differentiate content blocks.",
+    "Visual explanations are integrated by embedding high-fidelity screenshots of code, dashboards, and terminal interfaces directly into the content flow, often with custom syntax highlighting to match the brand's accent colors.",
+    "The primary navigation is implemented with a sticky positioning strategy, ensuring it remains visible and accessible at all scroll depths. The large brand logo in the footer is a fixed background element or a large image positioned at the bottom of the document, which becomes fully visible only when the user scrolls to the very end of the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#008060",
+        "role": "cta"
+      },
+      {
+        "hex": "#262626",
+        "role": "surface"
+      },
+      {
+        "hex": "#800000",
+        "role": "highlight-red"
+      },
+      {
+        "hex": "#f5c451",
+        "role": "highlight-yellow"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (H1 ~4-5x body) with clear, readable body text and distinct monospace for code.",
+    "radius": "Subtle (small border-radius on buttons, cards, and input fields).",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and comfortable padding within content blocks."
+  },
+  "standout": "The site's distinctive design lies in its deep integration of technical UI elements like code snippets and dashboard screenshots directly into the page, making complex concepts visually tangible. This, combined with a strong dark mode aesthetic and a consistent, vibrant green accent, creates a highly engaging and professional experience. The large, partially revealed brand logo at the bottom adds a unique, subtle brand touch.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

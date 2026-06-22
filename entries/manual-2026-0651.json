@@ -1,0 +1,117 @@
+{
+  "id": "manual-2026-0651",
+  "source": {
+    "url": "https://www.opentable.com",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0651.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0651__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0651__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0651__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.opentable.com/open",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0651__p2.webp"
+      },
+      {
+        "url": "https://www.opentable.com/icons",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0651__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "restaurant-reservations",
+      "food-and-beverage"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is organized into distinct, full-width sections, often with a subtle background color variation, and features a prominent card-based display for restaurants, reviews, and trending experiences."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with bold, larger sans-serif headings for sections, standard sans-serif for body text, and small, uppercase sans-serif labels for categories and secondary navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The primary brand red is consistently used for all calls-to-action and interactive elements, providing a strong visual anchor against a predominantly white and light gray background."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial expansive header with a large search bar transforms into a compact, sticky navigation bar with a smaller search input as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive search prompt sections are integrated throughout the homepage, offering AI-driven suggestions and conversational entry points for restaurant discovery."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a responsive, fluid grid system that adapts content cards and sections to various screen sizes, maintaining readability and visual balance.",
+    "Interactive elements like search inputs and buttons feature subtle hover states and focus rings, providing clear feedback to the user without being overly distracting.",
+    "The header's transformation upon scroll is achieved using CSS keyframe animations, smoothly transitioning its height and content while making it sticky. Content sections likely utilize scroll-triggered CSS keyframe animations to subtly fade or slide into view as they enter the viewport, enhancing perceived responsiveness."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#2D333F",
+        "role": "text"
+      },
+      {
+        "hex": "#D62020",
+        "role": "cta"
+      },
+      {
+        "hex": "#6B7075",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~2-3x body) than the standard body text, with smaller uppercase labels providing clear categorization and contrast.",
+    "radius": "subtle rounding on cards, buttons, and input fields, creating a soft, approachable feel.",
+    "spacing": "balanced, with generous vertical spacing between major sections and consistent internal padding within content cards, contributing to an airy yet organized layout."
+  },
+  "standout": "This site stands out by deeply integrating AI-driven, conversational search prompts directly into the user journey, moving beyond a simple search bar to offer highly personalized and interactive discovery experiences. The emphasis on 'trending experiences' and 'local raves' also adds a distinctive social proof and discovery layer.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

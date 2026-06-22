@@ -1,0 +1,118 @@
+{
+  "id": "manual-2026-0631",
+  "source": {
+    "url": "https://heydays.no",
+    "gallery": "manual",
+    "harvest_date": "2026-06-22"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0631.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0631__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0631__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0631__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://heydays.no/projects/nomono",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0631__p2.webp"
+      },
+      {
+        "url": "https://heydays.no/projects/alotta",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0631__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "branding"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout for project showcases, often featuring a large image on one side and minimal text on the other, creating visual balance and focus."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single sans-serif typeface across all text, with large, bold headings for impact and lighter-weight body text for readability. Uppercase is used sparingly for service lists and descriptive labels."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of stark black and white is dramatically contrasted with a distinctive, muted peach/pink (#dab3a0) that serves as a primary background color after initial scroll. Project pages introduce a broader, yet still muted, secondary palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The entire page background transitions from black to a muted peach/pink as the user scrolls down from the hero section. Content sections slide up into view with a subtle reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as distinct, full-width blocks, each featuring a large hero image or video, a concise title, and a brief description, creating a portfolio-like flow."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-page background color transition, where the initial black background smoothly animates to a specific peach tone as the user scrolls past the hero section. This is likely achieved by changing a global CSS variable or body class based on scroll position.",
+    "The header navigation remains sticky at the top of the viewport, dynamically adapting its background color and text color to maintain contrast against the changing page background.",
+    "Content sections, including project images and text blocks, are revealed with a subtle slide-up animation as they enter the viewport, creating a gentle sense of progression. The detected 'video-hero' tech is utilized on interior project pages, where videos play as the primary visual element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#dab3a0",
+        "role": "background"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "surface"
+      },
+      {
+        "hex": "#475635",
+        "role": "surface"
+      },
+      {
+        "hex": "#565537",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual hierarchy, complemented by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Sharp corners are used universally for all elements, including images, buttons, and containers, contributing to a clean and modern aesthetic.",
+    "spacing": "Very airy, with generous vertical spacing between major sections and a balanced density within content blocks, emphasizing minimalism and readability."
+  },
+  "standout": "The most distinctive feature is the dramatic, full-page background color shift on scroll, which transforms the site's initial stark black and white mood to a softer, warmer peach palette. This, combined with the large, impactful typography and generous spacing, creates a sophisticated and memorable user experience that feels both minimal and luxurious.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}
