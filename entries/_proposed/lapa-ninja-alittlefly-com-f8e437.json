@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-alittlefly-com-f8e437",
+  "source": {
+    "url": "https://alittlefly.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-alittlefly-com-f8e437.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-alittlefly-com-f8e437__scroll0.webp",
+      "shots/_proposed/lapa-ninja-alittlefly-com-f8e437__scroll1.webp",
+      "shots/_proposed/lapa-ninja-alittlefly-com-f8e437__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "modeling",
+      "photography",
+      "talent-agency",
+      "fashion"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column grid for initial content sections, featuring a large image on one side and a heading with a smaller image/link on the other, creating visual tension and interest."
+    },
+    {
+      "kind": "type",
+      "note": "Strong contrast between oversized, bold, uppercase sans-serif headings and smaller, elegant, condensed serif text for navigation, body copy, and calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white base palette is heavily augmented by the rich, naturalistic colors and tones present in the full-bleed photography, which serves as the primary source of color."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the main content sections scroll normally, but a fixed top navigation remains visible. A distinctive effect occurs in the lower section where a block of text remains fixed in the viewport while its full-bleed background image dynamically transitions through a sequence of different photographs."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a mission statement section with text overlaid on a full-bleed background image, which then dynamically changes to other images as the user scrolls, creating a cinematic reveal."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the dynamic background effect, a section's text content is positioned to remain fixed in the viewport, while its background image is swapped or transitioned using CSS keyframes or a WebGL-based animation library as the user scrolls to different depths within that section.",
+    "The navigation bar at the top of the page is implemented as a sticky element, maintaining its position at the top of the viewport as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#80C040",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4B89C",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Druk-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Junicode-ItalicCondensed",
+        "role": "body"
+      },
+      {
+        "family": "NHaasGroteskTXPro-55Rg",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~3-4x body) provide strong visual anchors, contrasted with smaller, elegant, condensed serif text for navigation and descriptive copy.",
+    "radius": "Sharp corners are consistently used for all image frames and content blocks, contributing to a clean and precise aesthetic.",
+    "spacing": "Airy and spacious, particularly in the hero and initial content sections, with generous whitespace around images and text, creating a gallery-like feel. The footer is more dense with logos."
+  },
+  "standout": "The most distinctive feature is the cinematic scroll-triggered background image transitions. A block of text remains fixed while a sequence of full-bleed, high-quality photographs fades or slides in behind it, creating a highly engaging and editorial visual narrative.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

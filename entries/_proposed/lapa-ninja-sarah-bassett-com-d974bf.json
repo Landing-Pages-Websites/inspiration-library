@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-sarah-bassett-com-d974bf",
+  "source": {
+    "url": "https://www.sarah-bassett.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sarah-bassett-com-d974bf.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sarah-bassett-com-d974bf__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sarah-bassett-com-d974bf__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sarah-bassett-com-d974bf__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "art-direction",
+      "fashion"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site transitions from an initial mosaic grid of project thumbnails to a full-bleed, full-height media display for individual projects, creating an immersive, gallery-like experience."
+    },
+    {
+      "kind": "type",
+      "note": "All text, including navigation, project titles, and descriptive labels, uses a consistent, understated sans-serif typeface in small, often uppercase sizes, maintaining a minimal and editorial aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is monochromatic (black and white), allowing the rich, full-bleed imagery and video content to provide the dominant visual interest and color."
+    },
+    {
+      "kind": "motion",
+      "note": "Scrolling down triggers a full-screen transition between projects: the current full-bleed media fades out to a solid black screen, which then fades into the next project's full-bleed media. The header and footer remain fixed during these transitions."
+    },
+    {
+      "kind": "section",
+      "note": "Each project is presented as a distinct, full-screen media section, separated by a black interstitial screen, emphasizing individual works as self-contained experiences."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven full-page media player. As the user scrolls, the main content area snaps or transitions between full-bleed video or image sections. Each transition is a deliberate sequence: the current media fades out to a solid black background, then the next media item fades in, creating a 'chapter' or 'slide' effect. This is likely achieved using css-keyframes or a JavaScript library like GSAP for scroll-triggered animations, combined with video-hero elements for the media content. The header and footer are fixed elements, overlaying the dynamic content transitions.",
+    "Typography is consistently small and uppercase for navigation and labels, using a clean sans-serif. Project titles are also sans-serif, slightly larger but still understated, maintaining a hierarchy without visual loudness."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#AFB0B0",
+        "role": "surface"
+      },
+      {
+        "hex": "#7E7E7E",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "HelveticaNowText",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Caslon 540 LT Std",
+        "role": "display"
+      }
+    ],
+    "type_scale": "A relatively flat type scale with small, uppercase sans-serif text for navigation and labels, and slightly larger but still modest sans-serif for project titles, creating an understated and editorial feel.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous spacing around the full-bleed media, with a dense initial grid of thumbnails."
+  },
+  "standout": "The site's most distinctive feature is its cinematic, scroll-driven full-screen media transitions. Instead of a continuous scroll, it presents projects as distinct, full-bleed 'chapters' separated by a solid black screen, creating a highly immersive and dramatic viewing experience that feels more like a film reel or art exhibition than a typical portfolio.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

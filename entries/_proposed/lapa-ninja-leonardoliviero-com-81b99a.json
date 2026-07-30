@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-leonardoliviero-com-81b99a",
+  "source": {
+    "url": "https://leonardoliviero.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-leonardoliviero-com-81b99a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-leonardoliviero-com-81b99a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-leonardoliviero-com-81b99a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-leonardoliviero-com-81b99a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "art-direction"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed video hero with minimal, centrally placed text transitions to a spacious, asymmetrical grid layout for project showcases, maintaining ample negative space."
+    },
+    {
+      "kind": "type",
+      "note": "The primary brand name uses a highly stylized, unique display serif font, creating a strong visual identity, which is contrasted with very small, understated sans-serif text for navigation and content labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep black backgrounds and white text is consistently used, allowing the vibrant and detailed product and art photography to be the dominant color elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero video content scrolls up and out of view, while the brand name and navigation elements smoothly transition from an overlay position to a fixed, compact header at the top of the page, with the brand name also gaining a subtitle."
+    },
+    {
+      "kind": "section",
+      "note": "Project and product showcases are presented as a sparse, gallery-like grid of high-quality, art-directed images, each accompanied by a minimal text label and a numerical index."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a full-screen video as its initial hero, which scrolls away to reveal the main content. Simultaneously, key navigation and branding elements smoothly transition from an initial overlay position to a fixed header at the top of the viewport, likely using a combination of position sticky or fixed with CSS transforms/transitions triggered by scroll events. Content sections below the hero appear to fade or slide into view as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#d3d3d3",
+        "role": "surface"
+      },
+      {
+        "hex": "#a9a9a9",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Apoc-Revelations",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "The main brand name uses an oversized, elegant display font (~3x body) with small, uppercase sans-serif text for navigation and content labels, creating a strong hierarchy through contrast.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's distinctive use of a highly artistic, sculptural video hero combined with a stark, almost gallery-like presentation of work, using minimal typography and a high-contrast palette, sets it apart. The seamless transition of the brand name from a hero overlay to a sticky header is also a standout feature.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
