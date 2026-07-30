@@ -1,0 +1,91 @@
+{
+  "id": "manual-bluehillfarm-com-f82d36",
+  "source": {
+    "url": "https://bluehillfarm.com",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-bluehillfarm-com-f82d36.webp",
+    "scroll": [
+      "shots/_proposed/manual-bluehillfarm-com-f82d36__scroll0.webp",
+      "shots/_proposed/manual-bluehillfarm-com-f82d36__scroll1.webp",
+      "shots/_proposed/manual-bluehillfarm-com-f82d36__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "restaurant",
+      "farm-to-table",
+      "events"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features two distinct, full-width hero image sections stacked vertically, creating an immersive visual experience before any textual content beyond the header."
+    },
+    {
+      "kind": "type",
+      "note": "A prominent, elegant serif font is used for the main site logo, contrasting with a consistent, understated sans-serif for all navigation and body text, establishing a refined and editorial tone."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette is starkly minimal, relying on a clean white background and dark grey/black text, allowing the rich, natural colors of the photographic content to dominate."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the top utility navigation bar slides out of view, while the main navigation bar smoothly transitions to a sticky position at the very top of the viewport, becoming a compact, persistent header."
+    },
+    {
+      "kind": "section",
+      "note": "Key information and calls to action are presented in a highly minimalist fashion, often as simple text links or a single email signup field, rather than elaborate graphical sections."
+    }
+  ],
+  "technique_notes": [
+    "The site uses large, full-bleed photographic sections to establish atmosphere and context, with minimal text overlays, allowing the imagery to tell the story.",
+    "The header employs a dynamic sticky behavior where an initial utility navigation bar disappears on scroll, and the main navigation bar then moves up to become a fixed, compact header at the top of the viewport.",
+    "The overall design emphasizes ample whitespace and a clean, uncluttered presentation, ensuring focus remains on the high-quality photography and essential information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Prominent serif logo (~2x body) with small, consistent sans-serif for navigation and body text, creating a subtle hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very open header and footer, with large image sections providing visual breathing room."
+  },
+  "standout": "This site stands out by using two distinct, full-width, immersive hero images stacked vertically on the homepage, creating a powerful sense of place and narrative without relying on extensive text or complex layouts. The subtle, yet effective, sticky header transformation also contributes to its refined feel.",
+  "animation_tech": [],
+  "status": "proposed"
+}

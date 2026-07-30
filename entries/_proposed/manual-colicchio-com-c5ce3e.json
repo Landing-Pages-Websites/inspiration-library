@@ -1,0 +1,102 @@
+{
+  "id": "manual-colicchio-com-c5ce3e",
+  "source": {
+    "url": "https://www.colicchio.com",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-colicchio-com-c5ce3e.webp",
+    "scroll": [
+      "shots/_proposed/manual-colicchio-com-c5ce3e__scroll0.webp",
+      "shots/_proposed/manual-colicchio-com-c5ce3e__scroll1.webp",
+      "shots/_proposed/manual-colicchio-com-c5ce3e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "domain-names",
+      "web-services"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs a two-column layout, with the primary textual message and a 'More info' call to action aligned to the left, and a conversion-focused contact form prominently placed on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings use a bold, uppercase sans-serif font for strong impact, contrasting with smaller, lighter-weight sans-serif text for body content and form labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, featuring white text against dark blue-black backgrounds, with a single vibrant red accent color reserved exclusively for the primary call-to-action button."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's background image exhibits a subtle parallax effect, scrolling upwards at a slower rate than the foreground content as the user scrolls down the page. A scroll-to-top button also appears in the bottom right corner after the initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated value proposition section presents key benefits using a grid of circular icon cards with accompanying text, set against a solid, neutral grey background."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background image with a dark, semi-transparent overlay to ensure text readability, while the foreground content (title, description, and form) remains fixed relative to the viewport.",
+    "A subtle parallax scrolling effect is applied to the hero background image, making it move slower than the page content as the user scrolls down, creating a sense of depth. This effect is likely achieved using CSS keyframes or similar animation techniques.",
+    "Form fields are styled with a subtle border and white background for clarity against a dark form container, maintaining a clean and functional appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1dc9",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "surface"
+      },
+      {
+        "hex": "#F23939",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase headings (~3-4x body) for primary messaging, with smaller, lighter body text and form labels.",
+    "radius": "Subtle rounded corners on form fields and buttons, otherwise sharp edges for layout containers.",
+    "spacing": "Balanced spacing, with a slightly more airy hero section and consistent vertical rhythm in subsequent content blocks."
+  },
+  "standout": "The site's distinctiveness lies in its singular focus on a high-value domain name sale, presented with a bold, almost stark visual style. The use of a complex, abstract network graphic as a hero background, combined with a direct conversion form, creates an immediate sense of digital authority and purpose, rather than a typical marketing site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

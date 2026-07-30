@@ -1,0 +1,119 @@
+{
+  "id": "manual-thefatduck-co-uk-2d4276",
+  "source": {
+    "url": "https://www.thefatduck.co.uk",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-thefatduck-co-uk-2d4276.webp",
+    "scroll": [
+      "shots/_proposed/manual-thefatduck-co-uk-2d4276__scroll0.webp",
+      "shots/_proposed/manual-thefatduck-co-uk-2d4276__scroll1.webp",
+      "shots/_proposed/manual-thefatduck-co-uk-2d4276__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "fine-dining",
+      "restaurant"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, organic layout with content blocks often centered or left-aligned, surrounded by dynamic illustrative elements that break the grid."
+    },
+    {
+      "kind": "type",
+      "note": "Distinctive use of a large, elegant display serif for the main brand and hero headings, contrasted with a clean, legible sans-serif for body text and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of crisp white, deep charcoal text, and vibrant, yet subtle, blues and light blues, complemented by organic, translucent accent colors in the background illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, often with a subtle fade-up or slide-in effect as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, dynamic background layer featuring floating, organic, watercolor-like shapes that exhibit parallax motion relative to the main content scroll, creating depth and visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent, full-width footer featuring a large, stylized brand name and essential contact/navigation links, acting as a strong visual anchor."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that maintains navigation and branding visibility throughout the user's scroll journey.",
+    "Content sections are introduced using scroll-triggered animations, likely leveraging GSAP, to create a staggered fade-up or slide-in effect as they enter the viewport, enhancing engagement.",
+    "A visually rich, interactive background layer, possibly rendered with WebGL (Three.js) or advanced CSS keyframes, features abstract, organic shapes that move with a subtle parallax effect, creating depth and a distinctive brand aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#212529",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#3003E1",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#180270",
+        "role": "accent-deep-blue"
+      },
+      {
+        "hex": "#E7EDFF",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#03B2CB",
+        "role": "accent-teal"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cormorant Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant display serif for hero and brand name (~4-5x body) with a clear hierarchy down to legible sans-serif body text.",
+    "radius": "Subtle (buttons, input fields, modal corners) with soft, rounded edges.",
+    "spacing": "Airy, particularly in the hero and between major content sections, creating a sense of luxury and breathing room."
+  },
+  "standout": "The site's most distinctive feature is its sophisticated and artistic use of dynamic, organic background elements that move with subtle parallax and animation. These abstract, watercolor-like forms, likely powered by WebGL, transform the page into a living canvas, creating an immersive and luxurious experience that perfectly complements the high-end culinary brand.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

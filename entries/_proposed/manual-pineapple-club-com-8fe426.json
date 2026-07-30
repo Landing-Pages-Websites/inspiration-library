@@ -1,0 +1,108 @@
+{
+  "id": "manual-pineapple-club-com-8fe426",
+  "source": {
+    "url": "https://www.pineapple-club.com",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-pineapple-club-com-8fe426.webp",
+    "scroll": [
+      "shots/_proposed/manual-pineapple-club-com-8fe426__scroll0.webp",
+      "shots/_proposed/manual-pineapple-club-com-8fe426__scroll1.webp",
+      "shots/_proposed/manual-pineapple-club-com-8fe426__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "bar",
+      "restaurant",
+      "nightlife"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections consistently use a two-column layout with a dark background, alternating between text-heavy and image-heavy content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "The hero section features oversized, decorative serif typography with custom underlines for key action words, creating a strong visual statement."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a high-contrast dark theme (black/very dark brown) for content sections, offset by a light off-white for the footer and a distinct muted pink accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll: it shrinks in height and gains a solid dark background, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "All major content blocks (cocktails, about, hours) are presented as full-width sections with a uniform dark background, creating a cohesive visual flow."
+    }
+  ],
+  "technique_notes": [
+    "The hero section combines a full-bleed background image with large, custom-styled text elements that include decorative underlines. The text scrolls with the image, without parallax.",
+    "A sticky header effect is implemented where the navigation bar dynamically reduces its height and changes its background from transparent to a solid dark color once the user scrolls past the initial hero section.",
+    "Content sections utilize a simple two-column grid within a dark container, allowing for flexible arrangement of text and imagery, often with a call-to-action button styled with an underlined text link."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#D38396",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "Cormorant Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "Raleway",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, decorative serif headings (~4-5x body) for the hero, with elegant serif headings (~2x body) for sections, and clean sans-serif for body text and navigation.",
+    "radius": "Sharp, with all elements maintaining crisp, angular corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks, especially in the hero."
+  },
+  "standout": "The site's distinctive use of a bold, decorative display font for the hero text, combined with custom underlines and a rich, dark interior photograph, immediately conveys an upscale and sophisticated brand identity. The specific muted pink accent color further enhances this unique, luxurious feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
