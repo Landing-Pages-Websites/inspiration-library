@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0328",
+  "source": {
+    "url": "https://www.primary-paper.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0328.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0328__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0328__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0328__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art",
+      "publishing",
+      "editorial"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a clean, minimalist grid layout for image galleries and content sections, allowing photography to be the primary visual focus."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast is created between small, uppercase sans-serif text for navigation and labels, and very large, bold serif typography for the brand name in the footer."
+    },
+    {
+      "kind": "color",
+      "note": "The color palette is dominated by stark black and white for text and backgrounds, complemented by the rich, natural tones present in the editorial photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains fixed at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image scrolls at a slightly slower rate than the foreground content, creating a subtle parallax effect as the page content moves over it."
+    },
+    {
+      "kind": "section",
+      "note": "Image galleries are presented in a flexible grid that adapts to different aspect ratios, maintaining visual interest without rigid uniformity."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that remains visible at the top of the viewport throughout the scroll.",
+    "The initial hero section uses a large, full-bleed background image that scrolls at a slower rate than the page content, creating a subtle parallax effect as foreground text and subsequent sections scroll over it.",
+    "Content sections below the hero are revealed by standard vertical scrolling, with no apparent scroll-triggered animations like fade-ins or slide-ups; the design relies on static hierarchy and strong imagery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#8A8A8A",
+        "role": "text"
+      },
+      {
+        "hex": "#6B7B6B",
+        "role": "accent"
+      },
+      {
+        "hex": "#A08A70",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Times New Roman",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A dramatic contrast between small, uppercase sans-serif labels (~0.5x body) and an extremely oversized, bold serif brand logo (~10x body), with body text being a comfortable reading size.",
+    "radius": "sharp \u2014 all elements feature crisp, unrounded corners.",
+    "spacing": "airy \u2014 generous whitespace surrounds images and text blocks, creating a sense of calm and allowing content to breathe, especially in the hero and footer sections."
+  },
+  "standout": "This site stands out with its bold, editorial aesthetic, prioritizing large-scale, high-quality photography and minimalist layouts. The dramatic use of oversized serif typography for the brand name in the footer creates a powerful and memorable visual statement, elevating it beyond a typical content site.",
+  "animation_tech": [],
+  "status": "approved"
+}

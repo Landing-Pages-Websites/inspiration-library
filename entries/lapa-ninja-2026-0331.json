@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-0331",
+  "source": {
+    "url": "https://selvincortez.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0331.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0331__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0331__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0331__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-services",
+      "visual-design"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed photographic sections alternate with large-scale typographic statements, creating a visually impactful and immersive scrolling experience."
+    },
+    {
+      "kind": "type",
+      "note": "A highly condensed, bold sans-serif is used for dominant, large-scale headings and statements, providing strong visual impact, contrasted with a more standard, legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "The design primarily uses a high-contrast black and white aesthetic, often inverted for different sections, with a deep, desaturated blue tint applied to the hero imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic flow as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Distinctive text animations are used for key headlines, including a glitch/distortion effect on the hero text and a word-by-word reveal for the final call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system (likely GSAP ScrollTrigger) to orchestrate the reveal of full-width content sections. As each section enters the viewport, its constituent elements, such as images and text blocks, animate into view with a subtle fade-up or slide-in effect.",
+    "The hero section features a dynamic text animation where the headline text distorts and glitches as the user scrolls, eventually disappearing to reveal the next content. The background image in the hero also exhibits a subtle parallax scrolling effect.",
+    "A fixed navigation element (logo) and a call-to-action button remain sticky in the viewport corners throughout the scroll, providing persistent branding and interaction points."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0a1428",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sorren",
+        "role": "display"
+      },
+      {
+        "family": "Neue Montreal",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed sans-serif headings (~4-5x body) create strong visual statements, complemented by a legible, standard sans-serif for body text and labels.",
+    "radius": "sharp",
+    "spacing": "Balanced, with generous negative space around full-bleed images and large typographic elements, creating an airy and focused presentation."
+  },
+  "standout": "The site's distinctive use of dynamic text animations, particularly the glitching hero headline and the word-by-word reveal in the call-to-action, sets it apart. Combined with the full-bleed, high-contrast photography, it creates a highly engaging and memorable visual experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

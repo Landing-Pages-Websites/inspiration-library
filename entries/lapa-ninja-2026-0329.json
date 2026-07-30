@@ -1,0 +1,90 @@
+{
+  "id": "lapa-ninja-2026-0329",
+  "source": {
+    "url": "https://www.robertaungaro.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0329.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0329__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0329__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0329__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-portfolio",
+      "fashion"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent vertical split-screen layout divides the viewport, with each half scrolling independently to reveal new full-bleed photographic content."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a small, uppercase, monospaced font for all navigational elements, labels, and body text, creating a technical and minimalist aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette (black and white) is used for the structural elements and typography, with a single vibrant red used exclusively for subtle accentuation and emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation and bottom footer remain fixed at the viewport edges, framing the main content area. The main content area is split vertically, with each half scrolling independently to reveal a sequence of full-bleed images and text blocks."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into implicit sections defined by the full-bleed images and text blocks that scroll into view within the persistent split-screen layout, rather than explicit section dividers."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed header and footer that remain visible at all times, framing the main content.",
+    "The core content area is divided into two vertical, independently scrolling panels. Each panel contains a stack of full-height content blocks (primarily images), which scroll vertically within their respective panels as the user scrolls the page, creating a continuous, gallery-like experience.",
+    "Typography uses a single monospaced font family, with hierarchy established through uppercase styling, color (red for accents), and subtle variations in font weight, maintaining a consistent, technical aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "small, consistent monospaced text for navigation and labels, with larger, sometimes bold, monospaced text for titles/quotes. The overall scale is quite flat, relying on case and color for hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced, but the large images make it feel airy. Text is tightly packed."
+  },
+  "standout": "The most distinctive feature is the persistent, independently scrolling vertical split-screen layout, where each half reveals new, full-bleed photographic content. This creates a dynamic, almost gallery-like experience within a single page, making the act of scrolling an integral part of content discovery.",
+  "animation_tech": [],
+  "status": "approved"
+}
