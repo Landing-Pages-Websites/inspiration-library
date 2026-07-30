@@ -1,0 +1,104 @@
+{
+  "id": "manual-2026-0697",
+  "source": {
+    "url": "https://www.wildair.nyc",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0697.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0697__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0697__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0697__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "restaurant",
+      "hospitality",
+      "food-service"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image dominates the viewport, with key branding and calls to action overlaid directly on the visual content."
+    },
+    {
+      "kind": "type",
+      "note": "A bold, condensed display sans-serif is used for primary branding and headlines, contrasting with a more legible, modern sans-serif for navigation and detailed information."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast, almost brutalist color blocking with a vibrant, almost neon orange footer and an electric blue call-to-action button against a rich, photographic background."
+    },
+    {
+      "kind": "motion",
+      "note": "The main background image exhibits a subtle parallax effect as the user scrolls, while a prominent, full-width footer section slides up from the bottom of the screen to reveal contact and legal information."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured as a single, impactful hero section followed by a distinct, high-contrast footer that reveals on scroll, with navigation elements sticky at the top."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed background image, likely rendered via WebGL/Three.js for subtle parallax and potential interactive effects, with text elements positioned absolutely over it. A dark overlay or text shadows are used for readability against varying image tones.",
+    "The main navigation and logo at the top of the page are implemented as sticky elements, remaining visible as the user scrolls down.",
+    "A vibrant, full-width footer section is initially off-screen and animates into view from the bottom as the user scrolls, creating a clear visual break and revealing secondary information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF5500",
+        "role": "accent"
+      },
+      {
+        "hex": "#3333FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-on-accent"
+      },
+      {
+        "hex": "#2C2C2C",
+        "role": "background-dark-contrast"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Anton",
+        "role": "display"
+      },
+      {
+        "family": "Space Grotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed display headings (~4-5x body) create a strong visual impact, complemented by smaller, highly legible sans-serif text for navigation and details.",
+    "radius": "Sharp corners are dominant, with a single instance of a pill-shaped button for the primary call to action.",
+    "spacing": "An airy, expansive hero section provides ample breathing room around the central message, contrasting with a more densely packed footer for contact and legal information."
+  },
+  "standout": "The site's distinctive design lies in its bold, almost confrontational use of high-contrast, vibrant colors (electric orange and blue) against a high-fidelity, full-bleed food photograph. This creates an immediate, memorable visual identity that feels both modern and slightly rebellious, eschewing typical restaurant website aesthetics.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "approved"
+}

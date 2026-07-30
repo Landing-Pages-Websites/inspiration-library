@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0694",
+  "source": {
+    "url": "https://www.tala.co.uk",
+    "gallery": "manual",
+    "harvest_date": "2026-06-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0694.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0694__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0694__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0694__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tala.co.uk/pages/b-corp",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0694__p2.webp"
+      },
+      {
+        "url": "https://tala.co.uk/pages/rewards",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0694__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "lighting",
+      "home-decor",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently alternate between full-width blocks and two-column layouts, often pairing large, aspirational imagery with concise text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif headings (Cormorant) are used for primary titles, creating a luxurious feel, contrasted with clean, readable sans-serif (Mont) for body text and functional elements."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of deep forest green and warm off-whites dominates, providing a natural and refined backdrop for product photography and accentuating key calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The header is sticky and transforms on scroll, transitioning from a transparent overlay with white text over the hero video to an opaque light background with dark text and a slightly reduced height."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features prominent editorial-style content blocks that integrate large, high-quality lifestyle photography with descriptive text, enhancing brand storytelling."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed hero section with a looping video background, over which primary messaging and navigation are overlaid. This creates an immediate immersive and dynamic introduction.",
+    "A sticky navigation bar is implemented that dynamically changes its appearance upon scroll: initially transparent over the hero, it shrinks slightly and gains a solid light background and dark text as the user scrolls down the page.",
+    "Content sections are structured to balance large, impactful imagery with textual information, often using a split-screen approach where one side features a compelling photograph and the other provides concise details or calls to action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a3431",
+        "role": "primary-dark-green"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background-white"
+      },
+      {
+        "hex": "#f3f0f0",
+        "role": "surface-off-white"
+      },
+      {
+        "hex": "#000000",
+        "role": "body-text"
+      },
+      {
+        "hex": "#23443e",
+        "role": "secondary-green-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cormorant",
+        "role": "heading"
+      },
+      {
+        "family": "Mont",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous letter spacing, paired with a clean sans-serif for body copy and smaller, often uppercase, sans-serif subheadings.",
+    "radius": "Subtle (minimal rounding on buttons and image containers, almost sharp edges).",
+    "spacing": "Airy (generous padding and margins throughout, particularly in the hero and between major content sections, contributing to an uncluttered and luxurious feel)."
+  },
+  "standout": "This site distinguishes itself through its sophisticated, editorial aesthetic, driven by exceptional lifestyle photography and elegant serif typography. The seamless integration of a full-bleed hero video and the prominent emphasis on the brand's B Corp certification create a distinctive, trustworthy, and aspirational feel that elevates it beyond typical product showcases.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

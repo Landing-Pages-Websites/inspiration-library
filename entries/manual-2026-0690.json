@@ -1,0 +1,113 @@
+{
+  "id": "manual-2026-0690",
+  "source": {
+    "url": "https://www.noma.dk",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0690.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0690__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0690__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0690__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "restaurant",
+      "fine-dining",
+      "hospitality"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for content sections, often pairing a large image on one side with a concise text block on the other, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established through the contrast of large, elegant serif headings (e.g., 'Reckless') and clean, legible sans-serif body text (e.g., 'Roobert') and navigation elements (e.g., 'Pressura')."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette is employed, primarily using a warm off-white for backgrounds and deep black for text, with the hero section utilizing a dark overlay over video for stark text contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky and dynamically adjusts its text color (white on dark backgrounds, dark on light backgrounds) to maintain optimal contrast and readability as the user scrolls or navigates between page sections."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by generous vertical spacing and often by full-width imagery or distinct background colors, creating well-defined visual blocks that guide the user's eye."
+    }
+  ],
+  "technique_notes": [
+    "A full-width hero section features an autoplaying background video with a dark, semi-transparent overlay to ensure legibility of overlaid white text, creating an immersive initial experience.",
+    "The main navigation bar employs a sticky position, changing its text color from light to dark (or vice-versa) using CSS transitions based on the luminosity of the content it overlays, ensuring constant readability.",
+    "Content is structured using a flexible grid system that often presents information in an asymmetrical two-column layout, pairing large, impactful images with concise text blocks to create visual balance and focus."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F5",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#DCDCDC",
+        "role": "border"
+      },
+      {
+        "hex": "#888888",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Reckless",
+        "role": "heading"
+      },
+      {
+        "family": "Roobert",
+        "role": "body"
+      },
+      {
+        "family": "Pressura",
+        "role": "navigation"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (e.g., ~3-4x body size) are paired with clean, well-spaced sans-serif body text, creating a sophisticated and readable hierarchy.",
+    "radius": "Sharp corners are consistently used for all elements, including buttons, input fields, and image frames, contributing to a crisp and modern aesthetic.",
+    "spacing": "An airy and balanced spacing rhythm is maintained throughout the site, with generous vertical padding between sections and comfortable line-heights for text, contributing to an open and premium feel."
+  },
+  "standout": "The site stands out with its sophisticated blend of rustic, natural, and often artful food photography against a minimalist, editorial layout. The use of an elegant serif font for prominent headings, combined with a clean sans-serif for body text, creates a distinctive high-end, almost magazine-like aesthetic that elevates the brand beyond a typical restaurant website.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "manual-2026-0684",
+  "source": {
+    "url": "https://www.alinearestaurant.com",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0684.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0684__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0684__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0684__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "fine-dining",
+      "restaurant"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width hero imagery, centered text blocks, and multi-column image grids, creating visual rhythm and clear content hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "An elegant serif font is used for prominent headings and the brand name, contrasted with a clean sans-serif for body text and navigation, establishing a sophisticated tone."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, sophisticated palette of off-white, light grey, and deep charcoal is consistently used for backgrounds and text, allowing the rich, vibrant colors of the food photography to serve as primary accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero image features a subtle parallax effect, where the background image scrolls at a slower rate than the foreground text, creating depth. The main navigation bar transforms from transparent to a solid light background and slightly reduces in height as the user scrolls down, becoming sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Key information like 'Mailing List' and 'Dining Room' are presented in distinct, full-width sections with generous vertical padding, often featuring large, centered headings."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-driven parallax effect where the background image translates at a different speed than the foreground elements, creating a sense of depth. This could be achieved using CSS transforms or WebGL for more complex 3D effects. The navigation bar uses CSS transitions to smoothly change its background color and height when a scroll threshold is met, making it sticky to the top of the viewport. Content sections reveal themselves as they enter the viewport, likely using CSS keyframes for fade-in or slide-up animations triggered by JavaScript intersection observers."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#EAEAEA",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#7A7A7A",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#B0B0B0",
+        "role": "cta-background"
+      },
+      {
+        "hex": "#8A0303",
+        "role": "accent-from-photography"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cormorant Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif headings (~2-3x body) are paired with clean sans-serif body text, with some uppercase sans-serif used for labels and navigation.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between sections and within the hero, creating a sense of luxury and breathing room."
+  },
+  "standout": "The site's standout feature is its masterful integration of high-quality, artful food photography with sophisticated typography and subtle motion. The imagery is not merely decorative but central to the brand's luxurious and artistic identity, making the food itself the primary visual hero and accent, rather than relying on a complex color palette or bold graphics.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
