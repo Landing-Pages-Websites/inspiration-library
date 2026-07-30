@@ -1,0 +1,98 @@
+{
+  "id": "one-page-love-thedeepend-space-0ee58f",
+  "source": {
+    "url": "https://thedeepend.space",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-thedeepend-space-0ee58f.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-thedeepend-space-0ee58f__scroll0.webp",
+      "shots/_proposed/one-page-love-thedeepend-space-0ee58f__scroll1.webp",
+      "shots/_proposed/one-page-love-thedeepend-space-0ee58f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "wellness",
+      "events",
+      "immersive-experience"
+    ],
+    "mood": [
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, overlapping image grid is used in the content section below the hero, creating a dynamic and artful presentation of visual content."
+    },
+    {
+      "kind": "type",
+      "note": "All textual content, including headings and body text, is rendered in uppercase sans-serif, contributing to a clean, minimalist, and somewhat formal aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent palette of warm, earthy neutrals (beiges, browns) dominates the background and content cards, contrasted with stark white text for high readability and a sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The central content card, containing event details and the site title, exhibits a sticky scroll behavior. It initially floats over a full-bleed background video, remaining fixed in the viewport as the video scrolls underneath, then detaches and scrolls normally with the rest of the page content."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a full-bleed video background with a dark, semi-transparent overlay, providing a rich visual backdrop while ensuring text legibility."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background video that scrolls upwards as the user descends the page. A prominent content card is positioned centrally over this video, and it is implemented with a sticky effect, allowing it to remain in a fixed viewport position for a period, floating over the scrolling video and subsequent content, before eventually releasing and scrolling with the page. The site uses a combination of video-hero for the background and likely custom JavaScript or a library like GSAP ScrollTrigger for the sticky and parallax-like behavior of the content card."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#bda38b",
+        "role": "background"
+      },
+      {
+        "hex": "#3d2e24",
+        "role": "surface"
+      },
+      {
+        "hex": "#9b826a",
+        "role": "secondary-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large and all-caps, with a clear but not overly dramatic size hierarchy, while body text is smaller and also all-caps, maintaining a consistent minimalist tone.",
+    "radius": "sharp",
+    "spacing": "Airy spacing is used, particularly around the central content card and between image elements, contributing to a sense of calm and luxury."
+  },
+  "standout": "The most distinctive design element is the central content card's sophisticated scroll behavior, which acts as a sticky overlay over a full-bleed video hero, then gracefully detaches. This creates a dynamic focal point that guides the user's attention while revealing the immersive visual content.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-laiaeilpagliaio-it-898ec3",
+  "source": {
+    "url": "https://laiaeilpagliaio.it/en",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-laiaeilpagliaio-it-898ec3.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-laiaeilpagliaio-it-898ec3__scroll0.webp",
+      "shots/_proposed/one-page-love-laiaeilpagliaio-it-898ec3__scroll1.webp",
+      "shots/_proposed/one-page-love-laiaeilpagliaio-it-898ec3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "tourism",
+      "historical-site"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark earthy backgrounds and lighter card-like content sections, creating a clear visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between a large, elegant serif font for primary headings and a clean, readable sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, rustic color palette dominated by deep browns, terracotta accents, and light cream surfaces, evoking a natural and historical feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling slower than the foreground content, while the navigation bar transforms into a sticky, solid bar with a light background upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently use a two-column layout, often pairing descriptive text with a relevant image or interactive element like a booking form."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a fixed background image that scrolls at a slower rate than the content layered over it, creating a subtle parallax depth effect. Scroll-triggered animations, likely using GSAP, are employed to reveal subsequent content sections with a fade-in or slide-up effect as they enter the viewport. The main navigation bar transitions from a transparent overlay to a solid, slightly condensed bar with a background color and shadow once the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2d2819",
+        "role": "background"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-light"
+      },
+      {
+        "hex": "#1a2c37",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#b4190f",
+        "role": "cta"
+      },
+      {
+        "hex": "#e7e7e7",
+        "role": "border-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Amelia Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Manrope",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, impactful serif headings (~4-5x body) with a slightly condensed character, paired with a clean, legible sans-serif for body text and UI elements.",
+    "radius": "Subtle rounding (approx. 4-8px) applied consistently to buttons, input fields, and card containers.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "The site's distinctive use of a deep, earthy color palette combined with elegant, slightly condensed serif typography creates a sophisticated and authentic historical ambiance. The full-bleed hero image of the stone structure immediately sets a unique, immersive tone, moving beyond generic travel templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "proposed"
+}
