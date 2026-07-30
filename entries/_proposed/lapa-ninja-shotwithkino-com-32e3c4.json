@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-shotwithkino-com-32e3c4",
+  "source": {
+    "url": "https://www.shotwithkino.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-shotwithkino-com-32e3c4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-shotwithkino-com-32e3c4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-shotwithkino-com-32e3c4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-shotwithkino-com-32e3c4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "video-editing",
+      "mobile-app"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast dark mode theme throughout, with a deep black background, white primary text, and vibrant red, green, and blue accents for branding and interactive elements."
+    },
+    {
+      "kind": "layout",
+      "note": "Product mockups (iPhone screens) are central to most sections, often presented full-width or alternating with text blocks on either side, creating a strong product-focused visual narrative."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are paired with smaller, lighter body text, maintaining clear hierarchy within a minimalist aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-up or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar becomes sticky at the top of the page after scrolling past the hero section, retaining its original size and background."
+    }
+  ],
+  "technique_notes": [
+    "A global dark theme is established using a pure black background, contrasted with bright white text for readability and vibrant, saturated colors for accents and interactive elements.",
+    "Scroll-triggered animations, likely using GSAP ScrollTrigger, are employed to reveal new content sections with a gentle vertical slide and fade effect as the user scrolls down the page.",
+    "The main navigation bar is implemented to become fixed to the top of the browser window once the user scrolls beyond the initial hero content, maintaining its full size and appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#888888",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are used for section titles, often accompanied by smaller, lighter subheadings, while body text is clean and legible.",
+    "radius": "Subtle rounding on interactive elements and product mockups, otherwise sharp corners for layout containers.",
+    "spacing": "Very airy vertical spacing between major sections, creating clear content separation, with balanced internal padding within content blocks."
+  },
+  "standout": "The site's distinctive use of a deep, high-contrast dark theme immediately sets it apart, creating a sophisticated and focused atmosphere. The design masterfully integrates detailed product mockups directly into the content flow, making the app itself the star of the page rather than relying on generic stock imagery or abstract graphics.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

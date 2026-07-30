@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-aloneinnewyork-com-f5f293",
+  "source": {
+    "url": "https://aloneinnewyork.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-aloneinnewyork-com-f5f293.webp"
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art",
+      "editorial"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-impact editorial photography serves as the primary visual element, often with large text overlays, creating an immersive, magazine-like experience."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy uses extremely large, bold sans-serif headings for dramatic impact, contrasted with smaller, highly legible sans-serif body text for narrative content."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features white text against dark, often desaturated or moody photographic backgrounds, with occasional shifts to lighter backgrounds for specific content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls, adding depth. Subsequent content sections reveal themselves with a gentle fade-in and slight upward slide as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by distinct full-bleed images or solid background colors, creating clear visual breaks and a narrative flow without explicit section dividers."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, full-bleed background image that parallaxes at a slower rate than the scroll, creating a sense of depth and movement. This effect is likely orchestrated using a canvas-based animation system.",
+    "Content blocks throughout the page are revealed with a subtle, staggered animation, typically a fade-in combined with a slight upward translation, triggered as they scroll into the user's view. This also leverages the canvas animation capabilities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#986551",
+        "role": "accent-brown"
+      },
+      {
+        "hex": "#7f898f",
+        "role": "accent-grey-blue"
+      },
+      {
+        "hex": "#bbaa9b",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#5a585f",
+        "role": "surface-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Graphik",
+        "role": "heading"
+      },
+      {
+        "family": "Cooper Hewitt",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero headings (~5-6x body text size) create dramatic impact, complemented by a clean, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between content blocks and ample negative space around text, enhancing the editorial feel."
+  },
+  "standout": "This site distinguishes itself through its bold, editorial use of large-scale, gritty photography and minimalist typography, creating an immersive visual narrative. The subtle, canvas-driven parallax on the hero and the elegant scroll-triggered content reveals elevate the experience beyond a typical static page, making it feel like a dynamic digital art piece or magazine feature.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}
