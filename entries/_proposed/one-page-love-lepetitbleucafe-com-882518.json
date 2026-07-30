@@ -1,0 +1,102 @@
+{
+  "id": "one-page-love-lepetitbleucafe-com-882518",
+  "source": {
+    "url": "https://www.lepetitbleucafe.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-lepetitbleucafe-com-882518.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-lepetitbleucafe-com-882518__scroll0.webp",
+      "shots/_proposed/one-page-love-lepetitbleucafe-com-882518__scroll1.webp",
+      "shots/_proposed/one-page-love-lepetitbleucafe-com-882518__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "restaurant",
+      "cafe",
+      "food-service"
+    ],
+    "mood": [
+      "playful",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent split-screen layout is used, with a fixed right panel displaying full-bleed imagery and a scrollable left panel containing all textual content and interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, decorative serif typography is used for main section headings, creating a strong visual statement, contrasted with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant teal/aqua color serves as the primary accent, used for branding, large headings, and interactive elements, set against a soft, warm cream background."
+    },
+    {
+      "kind": "motion",
+      "note": "The fixed right panel dynamically changes its full-bleed background image or scene as the user scrolls down the left content panel, providing contextual visuals for each section."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced by a very large, decorative serif heading that acts as a strong visual anchor and clearly delineates content areas."
+    }
+  ],
+  "technique_notes": [
+    "A two-column grid layout is implemented where the right column is fixed to the viewport, while the left column is independently scrollable to reveal content.",
+    "The fixed right column acts as a dynamic visual backdrop, with its background imagery transitioning or swapping based on the scroll position of the left content column. This effect is likely achieved using scroll-triggered events (e.g., GSAP ScrollTrigger) that map specific content sections to corresponding image or video changes in the fixed panel.",
+    "Large, decorative serif typefaces are employed for prominent section titles, creating a strong visual hierarchy and contributing significantly to the brand's unique identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F2",
+        "role": "background"
+      },
+      {
+        "hex": "#008080",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Matter SQ",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, decorative serif headings (approximately 5-6x body text size) create a strong visual statement, paired with a clean, legible sans-serif for all other content.",
+    "radius": "Subtle; interactive elements and image containers feature a very slight corner rounding, almost appearing sharp.",
+    "spacing": "Airy; generous vertical spacing between sections and within content blocks contributes to an uncrowded and relaxed feel, particularly around large headings."
+  },
+  "standout": "The most distinctive feature is the split-screen layout where the right panel remains fixed and dynamically changes its full-bleed background image in response to the user's scroll depth on the left content panel. This creates a unique, immersive, and visually engaging browsing experience that feels more like an interactive editorial piece than a typical website.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

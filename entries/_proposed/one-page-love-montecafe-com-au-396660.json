@@ -1,0 +1,106 @@
+{
+  "id": "one-page-love-montecafe-com-au-396660",
+  "source": {
+    "url": "https://montecafe.com.au",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-montecafe-com-au-396660.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-montecafe-com-au-396660__scroll0.webp",
+      "shots/_proposed/one-page-love-montecafe-com-au-396660__scroll1.webp",
+      "shots/_proposed/one-page-love-montecafe-com-au-396660__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "restaurant",
+      "hotel"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are primarily centered with a consistent max-width, creating clear reading areas, while hero and some image sections are full-bleed."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, large serif font is used for primary headings and venue names, contrasted with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette of dark charcoal, off-whites, and warm beige/terracotta is used for backgrounds and text, often derived directly from the photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The header starts transparent over the hero image, then transforms into an opaque white bar with a subtle bottom border as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Image galleries and venue listings are presented in clean, responsive grids, maintaining visual consistency across different content types."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header element is positioned at the top of the viewport. On scroll, a JavaScript listener (likely using GSAP ScrollTrigger) detects the scroll position and applies a class or inline styles to change its background color to solid white and add a subtle bottom border, ensuring text contrast over content. Sections below the hero likely fade or slide into view with a gentle delay as they enter the viewport, orchestrated by GSAP for a smooth reveal.",
+    "Full-bleed hero images are used with text overlaid, ensuring the image extends to the viewport edges. Content sections below use a fixed maximum width and horizontal centering to maintain readability and a structured appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#112337",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#dcdcdc",
+        "role": "border"
+      },
+      {
+        "hex": "#8b7e73",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Domaine Text",
+        "role": "heading"
+      },
+      {
+        "family": "Modern Gothic",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) are paired with a clean, readable sans-serif for body text, and smaller uppercase sans-serif for labels and calls to action.",
+    "radius": "Subtle, with minimal rounding on buttons and image corners, maintaining a refined and crisp aesthetic.",
+    "spacing": "Balanced to airy, particularly in hero and descriptive sections, creating a sense of calm and luxury. Grid layouts are more dense but still maintain clear separation."
+  },
+  "standout": "This site distinguishes itself through its sophisticated typography, pairing a grand serif with a modern sans-serif, and a muted, earthy color palette that feels deeply integrated with its high-quality photography. The overall effect is one of understated luxury and editorial elegance, rather than overt salesmanship.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

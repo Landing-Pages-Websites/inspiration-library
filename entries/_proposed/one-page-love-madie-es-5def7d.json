@@ -1,0 +1,106 @@
+{
+  "id": "one-page-love-madie-es-5def7d",
+  "source": {
+    "url": "https://madie.es",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-madie-es-5def7d.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-madie-es-5def7d__scroll0.webp",
+      "shots/_proposed/one-page-love-madie-es-5def7d__scroll1.webp",
+      "shots/_proposed/one-page-love-madie-es-5def7d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "bakery",
+      "cafe"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A rich, deep maroon (almost burgundy) is used as the primary brand color for backgrounds and overlays, creating a warm and luxurious foundation."
+    },
+    {
+      "kind": "type",
+      "note": "The site contrasts a bold, modern sans-serif for prominent headings and body text with an elegant, handwritten script font for the brand logo and decorative section titles."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ a split-screen layout, pairing high-quality product photography with concise text blocks, often with a dark overlay for text contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section dynamically shrinks on scroll, transitioning the top navigation into a sticky header with a solid background, while subsequent content sections reveal with a subtle fade-in effect."
+    }
+  ],
+  "technique_notes": [
+    "Implement a responsive hero section that uses a video background and dynamically reduces its height on scroll, simultaneously transforming the top navigation into a fixed, opaque header.",
+    "Utilize CSS keyframe animations to progressively reveal content sections and individual elements (like product cards) with a staggered fade-up or slide-in motion as they enter the user's viewport.",
+    "Establish a strong brand presence through a dominant deep red color palette, using it for full-bleed backgrounds and translucent overlays to enhance product photography and ensure text readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#63001e",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#fbbc05",
+        "role": "accent"
+      },
+      {
+        "hex": "#500018",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Pacifico",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~3-4x body) for impact, complemented by smaller, often uppercase labels and an elegant script for decorative titles.",
+    "radius": "subtle, used on buttons, image corners, and interactive elements like the map container.",
+    "spacing": "balanced to airy, with generous padding in the hero section and good separation between content blocks."
+  },
+  "standout": "The site's distinctive use of a rich, deep maroon combined with a playful, elegant script font and high-quality, warm food photography creates a luxurious yet approachable brand identity. It avoids a sterile, minimal feel by embracing a strong color palette and expressive typography, making the product feel premium and inviting.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

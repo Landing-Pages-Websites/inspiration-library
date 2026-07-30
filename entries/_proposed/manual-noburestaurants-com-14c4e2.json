@@ -1,0 +1,103 @@
+{
+  "id": "manual-noburestaurants-com-14c4e2",
+  "source": {
+    "url": "https://www.noburestaurants.com",
+    "gallery": "manual",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-noburestaurants-com-14c4e2.webp",
+    "scroll": [
+      "shots/_proposed/manual-noburestaurants-com-14c4e2__scroll0.webp",
+      "shots/_proposed/manual-noburestaurants-com-14c4e2__scroll1.webp",
+      "shots/_proposed/manual-noburestaurants-com-14c4e2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "restaurant",
+      "hotel"
+    ],
+    "mood": [
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width imagery or dark overlays and contained text blocks, creating a balanced visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of uppercase for all major headings, sub-headings, and labels, conveying a sophisticated and structured tone."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, monochromatic palette of white, various shades of gray, and black is used throughout, with imagery providing the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dramatic scroll-triggered reveal where an initial dark overlay lifts to expose a full-bleed background image/video as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent, full-width hero section that acts as a brand introduction, followed by a series of distinct content blocks detailing various aspects of the brand."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a video-hero effect where a dark, semi-transparent overlay initially covers a full-screen background image or video. As the user scrolls, this overlay animates upwards or fades out, revealing the full background content while the primary hero text and call-to-action remain fixed or parallax slightly over the revealing media.",
+    "The main navigation bar remains sticky at the top of the viewport, maintaining brand presence and navigation access throughout the user's scroll journey."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "hero-overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Raleway",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant headings (hero text is ~4-5x body, section titles ~2-3x body) with consistent uppercase styling, paired with readable body text.",
+    "radius": "sharp",
+    "spacing": "airy; generous vertical padding between sections and ample whitespace around text blocks, contributing to a premium feel."
+  },
+  "standout": "The site's distinctive use of a dramatic, scroll-triggered hero reveal, where a dark overlay lifts to expose a full-bleed, high-quality image or video, immediately establishes a sense of luxury and immersion. This, combined with the elegant, uppercase typography, creates a sophisticated and memorable brand introduction.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

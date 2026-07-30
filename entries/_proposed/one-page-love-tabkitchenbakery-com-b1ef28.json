@@ -1,0 +1,121 @@
+{
+  "id": "one-page-love-tabkitchenbakery-com-b1ef28",
+  "source": {
+    "url": "https://tabkitchenbakery.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-tabkitchenbakery-com-b1ef28.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-tabkitchenbakery-com-b1ef28__scroll0.webp",
+      "shots/_proposed/one-page-love-tabkitchenbakery-com-b1ef28__scroll1.webp",
+      "shots/_proposed/one-page-love-tabkitchenbakery-com-b1ef28__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "cafe",
+      "bakery"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts with large, distinct content blocks, often featuring a dominant image or illustration on one side and text on the other, sometimes with text wrapping around circular elements."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic hierarchy blending an elegant serif for main headings, a decorative script font for section titles, and a clean monospace or sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy color palette featuring muted beige, reddish-brown, and dark green, used for full-bleed section backgrounds to create strong visual breaks and mood shifts."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section dynamically swaps its central illustration for a video or photo upon initial scroll, and subsequent sections reveal with distinct full-screen background changes and large typography."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are often separated or accented by custom, hand-drawn illustrative elements like leaves, swirls, or geometric patterns, reinforcing a unique, artisanal brand aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The hero area uses a scroll-triggered mechanism (likely GSAP or CSS keyframes) to transition its primary visual content from a static illustration to a dynamic video or photo, while maintaining the main heading text in place.",
+    "Full-bleed sections with strong, contrasting background colors and large, stylized typography are introduced as visual interruptions, likely using a scroll-triggered reveal or fade effect to create distinct thematic breaks.",
+    "A gallery section implements a horizontal scrolling mechanism to display multiple images within a confined vertical space, allowing users to explore content without excessive vertical scrolling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5F0E6",
+        "role": "background"
+      },
+      {
+        "hex": "#7A473F",
+        "role": "accent"
+      },
+      {
+        "hex": "#472E1B",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#B89C7F",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Lora",
+        "role": "heading"
+      },
+      {
+        "family": "Shrikhand",
+        "role": "display"
+      },
+      {
+        "family": "Sometype Mono",
+        "role": "body"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized elegant serif headings (~3-4x body) and decorative script titles (~2-3x body) are paired with smaller, legible monospace and sans-serif body text, creating a balanced yet distinctive hierarchy.",
+    "radius": "Subtle to rounded, with prominent oval shapes for hero content and images, and soft corners for other elements, contributing to a gentle and organic feel.",
+    "spacing": "Airy, with generous vertical spacing between major sections and within the hero, creating a relaxed and unhurried rhythm that allows content to breathe."
+  },
+  "standout": "The site's distinctive blend of elegant serif, decorative script, and monospace typography, combined with custom hand-drawn illustrations and dynamic hero content transitions, creates a unique, artisanal brand identity that feels both sophisticated and playfully authentic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
