@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-tokyodesignforum-com-37812e",
+  "source": {
+    "url": "https://www.tokyodesignforum.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-tokyodesignforum-com-37812e.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-tokyodesignforum-com-37812e__scroll0.webp",
+      "shots/_proposed/one-page-love-tokyodesignforum-com-37812e__scroll1.webp",
+      "shots/_proposed/one-page-love-tokyodesignforum-com-37812e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "events",
+      "conference"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero background features a full-bleed video or canvas animation of a city skyline that subtly parallaxes, moving slower than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-up or slide-up animation as they enter the viewport, appearing over the persistent hero background."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent overlay with white text to a solid, opaque black background with white text, remaining sticky at the top after the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "layout",
+      "note": "A consistent dark-mode aesthetic is applied across all sections, featuring full-width content blocks that are often centered, with grid-based layouts used for elements like speaker profiles and testimonials."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, primarily using black backgrounds with white or light grey text, creating a sophisticated and minimal visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a modern sans-serif typeface with large, bold headings for impact, complemented by smaller, lighter-weight body text and uppercase labels for emphasis."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero video or canvas animation is set as a background element, which either subtly parallaxes or remains fixed in the background while foreground content scrolls over it, creating depth.",
+    "Scroll-triggered animations are used to reveal content sections as they enter the viewport, typically with a subtle fade-up or slide-up effect, enhancing engagement as the user explores the page.",
+    "The global navigation bar employs a sticky behavior, transitioning its background from transparent to an opaque, solid color with contrasting text after a specific scroll threshold, ensuring readability and persistent access."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#808080",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Host Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Host Grotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (~3-4x body) with generous letter spacing, paired with smaller, lighter-weight body text and uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) on buttons, input fields, and card elements, providing a soft modern touch without being overly playful.",
+    "spacing": "Generally airy, with ample vertical spacing between major sections and content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The site's distinctive use of a dark, moody aesthetic with a captivating city skyline video/canvas as a persistent background element, combined with a clean, editorial typography and subtle scroll-triggered reveals, creates a sophisticated and immersive experience that feels more like an art piece than a typical conference page.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "one-page-love-rendez-vous-franceclat-fr-c70f82",
+  "source": {
+    "url": "https://rendez-vous.franceclat.fr",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-30"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-rendez-vous-franceclat-fr-c70f82.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-rendez-vous-franceclat-fr-c70f82__scroll0.webp",
+      "shots/_proposed/one-page-love-rendez-vous-franceclat-fr-c70f82__scroll1.webp",
+      "shots/_proposed/one-page-love-rendez-vous-franceclat-fr-c70f82__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "events",
+      "jewelry"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with varying background treatments (hero image, solid white, solid dark, vibrant gradient) create distinct visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and main section headings use a very large, bold sans-serif font, often in all caps, creating a strong visual hierarchy against smaller body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange-to-pink gradient is used as a prominent background for the hero overlay and the entire footer section, contrasting with stark black and white content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features large, overlapping text elements that scroll vertically at a different rate than the background image, creating a subtle parallax and content reveal effect as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent call-to-action button ('OBTENIR MON PASS') remains sticky to the right side of the viewport throughout the page scroll, ensuring constant visibility."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a full-height, full-width section dominated by a large, left-aligned heading and the brand's signature gradient, making it a significant visual anchor rather than a typical compact footer."
+    }
+  ],
+  "technique_notes": [
+    "The hero section combines a background image with an overlay that has a subtle gradient. Large, overlapping text elements are positioned within this hero, and as the user scrolls, these text elements translate vertically at a faster rate than the background image, creating a layered parallax effect that reveals the content below.",
+    "A fixed-position element is used for the call-to-action button, ensuring it stays anchored to the right edge of the viewport regardless of scroll depth.",
+    "Content sections transition by simply scrolling into view, relying on strong visual contrast in background colors and typography to define their boundaries."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF7921",
+        "role": "accent"
+      },
+      {
+        "hex": "#F97436",
+        "role": "accent"
+      },
+      {
+        "hex": "#F78DA7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are used for hero and section titles, with standard-sized body text and smaller uppercase labels.",
+    "radius": "Sharp corners are consistently used for all interactive elements and content blocks, contributing to a clean, modern aesthetic.",
+    "spacing": "Balanced spacing is used throughout, with airy sections for the hero and footer, and a more dense, grid-like arrangement for content listings."
+  },
+  "standout": "The site's design is distinctive for its bold, full-height gradient footer that acts as a major visual statement, rather than a utilitarian element. The dynamic, overlapping text treatment in the hero, combined with a sticky, ever-present CTA, also sets it apart from generic templates.",
+  "animation_tech": [],
+  "status": "proposed"
+}
