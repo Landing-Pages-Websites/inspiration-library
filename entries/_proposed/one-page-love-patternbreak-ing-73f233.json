@@ -1,0 +1,101 @@
+{
+  "id": "one-page-love-patternbreak-ing-73f233",
+  "source": {
+    "url": "https://patternbreak.ing",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-patternbreak-ing-73f233.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-patternbreak-ing-73f233__scroll0.webp",
+      "shots/_proposed/one-page-love-patternbreak-ing-73f233__scroll1.webp",
+      "shots/_proposed/one-page-love-patternbreak-ing-73f233__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "ux-design",
+      "fashion",
+      "research"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with high-contrast background colors create strong visual breaks and define distinct content areas."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme scale contrast is used, featuring oversized, bold, wide sans-serif display headings that dominate the page, juxtaposed with smaller, legible sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette of black, white, and a vibrant, almost neon, yellow/lime green is used, with purple serving as a secondary accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a scroll-triggered animation, sliding up from the bottom and fading into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Large display text elements feature a distinctive pixelated or glitch distortion effect, contributing to a digital and experimental aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using a scroll-triggered animation system (like GSAP ScrollTrigger) that slides them up from the bottom and fades them in as they enter the viewport, creating a dynamic content flow.",
+    "Key display text elements feature a dynamic pixelation or glitch distortion effect, likely implemented using a WebGL shader or SVG filter, which may animate on load or as they become visible.",
+    "The hero section employs a layered composition where a large, static text overlay scrolls over a detailed illustration with floating UI elements, creating a sense of depth and visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FDFF6D",
+        "role": "accent"
+      },
+      {
+        "hex": "#9966FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, wide sans-serif headings (up to ~8x body text size) create a dominant visual hierarchy, contrasted with smaller, legible sans-serif body text.",
+    "radius": "Sharp corners are consistently used for all elements, including buttons, cards, and section edges, contributing to a crisp, modern feel.",
+    "spacing": "Generally airy, with generous vertical padding between sections and ample whitespace around large text elements, contributing to a bold and impactful presentation."
+  },
+  "standout": "The site's distinctive use of extreme, distorted typography, particularly the pixelated/glitch effect on large headings, combined with a high-contrast, almost neon, color palette (black, white, vibrant yellow, purple) creates a unique, edgy, and digital-native aesthetic that feels experimental and bold.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

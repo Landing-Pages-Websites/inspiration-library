@@ -1,0 +1,106 @@
+{
+  "id": "one-page-love-neuropelvicsurgery-com-f535fd",
+  "source": {
+    "url": "https://neuropelvicsurgery.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-neuropelvicsurgery-com-f535fd.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-neuropelvicsurgery-com-f535fd__scroll0.webp",
+      "shots/_proposed/one-page-love-neuropelvicsurgery-com-f535fd__scroll1.webp",
+      "shots/_proposed/one-page-love-neuropelvicsurgery-com-f535fd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "medical",
+      "surgery",
+      "education"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width hero-style presentations and structured two-column layouts, often with a prominent image or illustration on one side and text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a clear typographic hierarchy with oversized, bold sans-serif headings for impact and smaller, readable sans-serif text for body content and descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark white backgrounds and black text is consistently accented by a vibrant, warm orange/yellow (seen in illustrations and the footer gradient) and a professional deep blue for links and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the hero section's large text and neuron illustration move upwards, with the neuron appearing to parallax slightly. Subsequent content sections reveal themselves with a subtle fade-in or slide-up effect as they enter the viewport. A sticky header remains at the top, and a right-side pagination indicator highlights the current section."
+    },
+    {
+      "kind": "section",
+      "note": "Process steps are presented as a numbered vertical list, where each step's title is large and bold, followed by a concise description, creating a clear, scannable flow."
+    }
+  ],
+  "technique_notes": [
+    "The scroll-triggered animations, including the hero parallax, section reveals, and sticky header, are orchestrated using a JavaScript animation library like GSAP ScrollTrigger. Elements are set to animate their position or opacity as they enter or exit the viewport, creating a dynamic and engaging scroll experience.",
+    "The hero section combines a large, impactful heading with a detailed, organic illustration (neuron) that is positioned to create depth and visual interest, moving independently from the text during scroll to enhance the parallax effect.",
+    "Interactive elements like buttons and accordion FAQs feature subtle hover states, typically involving a background color change or a slight scale transformation, providing clear visual feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      },
+      {
+        "hex": "#007CBA",
+        "role": "cta"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual anchors, complemented by clear, regular-weight sans-serif body text for readability.",
+    "radius": "Subtle for interactive elements like buttons, otherwise sharp for most structural components, maintaining a clean and precise aesthetic.",
+    "spacing": "Airy, with generous vertical spacing between sections and ample padding within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "This site distinguishes itself with the sophisticated integration of a complex, organic illustration (the neuron) into its hero section, which then dynamically parallaxes with scroll. The combination of a clean, almost clinical aesthetic with these vibrant, illustrative elements and a striking orange gradient footer creates a unique and memorable brand identity that feels both professional and visually engaging.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}
