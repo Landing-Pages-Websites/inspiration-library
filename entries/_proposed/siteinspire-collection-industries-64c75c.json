@@ -1,0 +1,111 @@
+{
+  "id": "siteinspire-collection-industries-64c75c",
+  "source": {
+    "url": "https://www.collection.industries/en",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-collection-industries-64c75c.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-collection-industries-64c75c__scroll0.webp",
+      "shots/_proposed/siteinspire-collection-industries-64c75c__scroll1.webp",
+      "shots/_proposed/siteinspire-collection-industries-64c75c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.collection.industries/fr",
+        "full": "shots/_proposed/siteinspire-collection-industries-64c75c__p2.webp"
+      },
+      {
+        "url": "https://www.collection.industries/en/projects/can-am",
+        "full": "shots/_proposed/siteinspire-collection-industries-64c75c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "advertising",
+      "design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage employs an extreme minimalist layout, featuring only a large logo and typographic hero, relying heavily on scroll-triggered motion to reveal subsequent content."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, with massive, bold sans-serif display headings (~8-10x body) and very small, light sans-serif text used for navigation and body content."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette dominated by black text and elements on a pure white background, allowing any imagery to provide the only color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large, centered logo shrinks and moves to become a central element within a newly revealed sticky top navigation bar as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The massive hero text scrolls upwards and simultaneously blurs and fades out, making way for a new, smaller, static text element ('THAT'S ALL FOLKS!') to appear centered on the screen."
+    },
+    {
+      "kind": "section",
+      "note": "Project pages feature full-bleed imagery interspersed with concise, centered text blocks, creating a dynamic visual narrative with ample negative space."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-driven animation system (likely locomotive-scroll) to orchestrate a multi-stage hero transformation: the initial hero text scrolls and blurs away, the main logo shrinks and repositions, and a new sticky navigation bar with the transformed logo and a new text element ('THAT'S ALL FOLKS!') appears.",
+    "The header navigation dynamically transforms from a sparse initial state to a compact, sticky bar with the logo integrated, appearing after the initial hero scroll.",
+    "Content sections on interior pages, such as images and text blocks, are revealed with subtle fade-in and slight upward slide animations as they enter the viewport, creating a dynamic but smooth reading experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif hero headings (~8-10x body) with small, light sans-serif navigation and body text.",
+    "radius": "Sharp corners throughout, no visible rounded elements.",
+    "spacing": "Extremely airy on the homepage and initial sections, transitioning to a balanced density with generous padding around content blocks on interior project pages."
+  },
+  "standout": "The site's standout feature is its extreme minimalist homepage, which acts as a dramatic, interactive typographic reveal. Instead of a traditional hero image, it uses massive, animated text and a transforming logo to create an immediate sense of sophisticated, motion-driven design, culminating in a stark 'THAT'S ALL FOLKS!' statement before revealing the client list.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "siteinspire-atttd-com-cd607d",
+  "source": {
+    "url": "https://atttd.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-atttd-com-cd607d.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-atttd-com-cd607d__scroll0.webp",
+      "shots/_proposed/siteinspire-atttd-com-cd607d__scroll1.webp",
+      "shots/_proposed/siteinspire-atttd-com-cd607d__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "film",
+      "production-studio",
+      "advertising"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive video segments dominate the entire viewport, serving as the primary content display with minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "All textual elements, including navigation and project titles, are rendered in a consistent, small, uppercase sans-serif font, maintaining a subtle informational layer over the dominant visuals."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, featuring white text against predominantly dark, moody, and often desaturated video backgrounds, with accent colors emerging directly from the video content."
+    },
+    {
+      "kind": "motion",
+      "note": "The site's core interaction is a scroll-triggered sequence where each scroll depth reveals a new, distinct full-screen video segment, creating a continuous visual reel. The minimalist navigation remains sticky at the top-left."
+    },
+    {
+      "kind": "section",
+      "note": "Each 'section' of the site is defined by a new full-screen video segment that appears on scroll, effectively presenting individual projects as distinct, immersive cinematic experiences rather than traditional content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-screen video player that dynamically changes its source or plays through a curated sequence of distinct video clips as the user scrolls down the page. Each video segment is treated as a full-viewport 'section' that snaps into view.",
+    "Minimalist, uppercase text labels are positioned centrally over these video sections, providing project titles, and a persistent navigation menu is fixed to the top-left corner, maintaining readability against varying video backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "implied-background"
+      },
+      {
+        "hex": "#BEBAB5",
+        "role": "surface"
+      },
+      {
+        "hex": "#043E7C",
+        "role": "accent"
+      },
+      {
+        "hex": "#70110F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very flat type scale, with all text (navigation and project titles) appearing in a small, consistent uppercase size, providing a subtle informational layer over the dominant visuals.",
+    "radius": "Sharp, with no visible corner rounding on any elements, contributing to a clean and precise aesthetic.",
+    "spacing": "Extremely airy, characterized by full-bleed media and minimal, strategically placed text, creating a sense of vastness and focus on the visual content."
+  },
+  "standout": "The site's most distinctive feature is its use of a continuous, full-screen, scroll-triggered video reel as the primary content and navigation mechanism. Instead of traditional sections, the user scrolls through a curated sequence of high-production-value video clips, each representing a project, creating an immersive and cinematic portfolio experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
