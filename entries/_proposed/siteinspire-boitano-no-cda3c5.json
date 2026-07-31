@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-boitano-no-cda3c5",
+  "source": {
+    "url": "https://boitano.no",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-boitano-no-cda3c5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-boitano-no-cda3c5__scroll0.webp",
+      "shots/_proposed/siteinspire-boitano-no-cda3c5__scroll1.webp",
+      "shots/_proposed/siteinspire-boitano-no-cda3c5__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "consulting",
+      "venture-capital",
+      "product-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric hero section with a large, left-aligned heading and a right-aligned list of services, creating a dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a bold, sans-serif typeface for all headings and a lighter weight for body text, maintaining strong hierarchy. Arrow icons are frequently used as visual bullet points or directional indicators."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and off-white is consistently accented by a soft, light pink background for key sections, providing visual segmentation and brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, abstract geometric graphic is positioned in the background, creating a parallax-like effect as foreground content scrolls over it, adding depth and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, ensuring constant access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background color changes (white, light pink, black), creating distinct content blocks that guide the user's eye down the page."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header bar is implemented to keep the site navigation persistently visible at the top of the screen during scrolling.",
+    "A large, abstract geometric graphic is rendered as a background element, potentially using canvas for animation, and is set to scroll at a slower rate than the foreground content, creating a parallax depth effect.",
+    "Visual hierarchy is established through a type scale that features oversized, bold sans-serif headings contrasted with a clean, readable sans-serif for body text, often accompanied by custom arrow icons for lists and navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#161515",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FFDFF3",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFC378",
+        "role": "cta"
+      },
+      {
+        "hex": "#FF8467",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Boitano Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with a clean, legible sans-serif for body copy, creating a strong and modern hierarchy.",
+    "radius": "Sharp corners throughout all elements, contributing to a clean and precise aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more compact grid for feature cards and team members."
+  },
+  "standout": "The site's most distinctive feature is the prominent use of a large, abstract geometric graphic that acts as a dynamic background element, creating a unique sense of depth and visual intrigue. This, combined with a high-contrast, limited color palette featuring a soft pink accent, elevates the design beyond a typical corporate site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "siteinspire-otherkind-design-73d0c5",
+  "source": {
+    "url": "https://www.otherkind.design",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-otherkind-design-73d0c5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-otherkind-design-73d0c5__scroll0.webp",
+      "shots/_proposed/siteinspire-otherkind-design-73d0c5__scroll1.webp",
+      "shots/_proposed/siteinspire-otherkind-design-73d0c5__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "product-design",
+      "brand-identity"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a highly minimalist, centered layout with generous vertical whitespace, creating a sense of spaciousness and focus on individual elements."
+    },
+    {
+      "kind": "type",
+      "note": "A single, highly distinctive and rounded display typeface is used exclusively for the main brand logo, contrasting sharply with a simple, understated sans-serif for all other textual content."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a stark monochromatic palette of deep black text and elements against a very subtle off-white background, with no additional accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "The oversized hero logo dramatically scales down and repositions from the center of the screen to the top-left corner, becoming a persistent, smaller header element as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Team members are introduced with unique, stylized, cutout-style illustrations, each accompanied by their name and role, arranged in a clean grid."
+    }
+  ],
+  "technique_notes": [
+    "A large, centered hero element (the brand logo) dynamically scales down and transitions to a fixed position in the top-left corner of the viewport as the user scrolls, effectively transforming into a sticky header.",
+    "Content sections below the initial hero appear to slide up into view with a subtle reveal effect as the user scrolls down the page, maintaining a smooth flow.",
+    "A persistent footer containing navigation links remains fixed at the bottom of the viewport once it has been scrolled into view, providing continuous access to key actions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0e0c",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Cooper Black",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, rounded display font for the hero (~8x body) with small, understated sans-serif body text and labels.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially in the hero and between main content blocks, creating a sense of spaciousness and deliberate hierarchy."
+  },
+  "standout": "The site's most distinctive feature is the dynamic, transforming hero logo that dramatically scales and repositions to become a sticky header upon scroll. This, combined with the unique, stylized illustrations for team members, gives the site a strong, memorable personality that feels more like an art piece than a generic agency portfolio.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

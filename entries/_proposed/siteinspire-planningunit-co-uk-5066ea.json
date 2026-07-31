@@ -1,0 +1,117 @@
+{
+  "id": "siteinspire-planningunit-co-uk-5066ea",
+  "source": {
+    "url": "https://planningunit.co.uk",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-planningunit-co-uk-5066ea.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-planningunit-co-uk-5066ea__scroll0.webp",
+      "shots/_proposed/siteinspire-planningunit-co-uk-5066ea__scroll1.webp",
+      "shots/_proposed/siteinspire-planningunit-co-uk-5066ea__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "http://planningunit.co.uk/films",
+        "full": "shots/_proposed/siteinspire-planningunit-co-uk-5066ea__p2.webp"
+      },
+      {
+        "url": "http://planningunit.co.uk/contact",
+        "full": "shots/_proposed/siteinspire-planningunit-co-uk-5066ea__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "branding"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Project showcase sections feature dynamic, overlapping image collages that break from a strict grid, creating a visually rich and editorial feel."
+    },
+    {
+      "kind": "type",
+      "note": "A single clean sans-serif typeface is used consistently, with large, bold headings for impact and smaller, lighter weights for body text and subtle labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark mode (black backgrounds with white text) for key sections and transitions, alternating with a clean light mode (white backgrounds with dark text) for content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-screen, complex lottie animation appears as a dramatic visual interlude immediately after the hero video on initial scroll, before the main content sections are revealed."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual project elements reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a smooth scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are presented in a dense, multi-column grid on a light background, providing social proof in a clean, organized manner."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero section features a full-width video that plays automatically. Upon scrolling, this hero transitions to a full-screen black background with a large, white, animated lottie graphic that acts as a visual separator and engaging interlude.",
+    "The main navigation bar is sticky, initially transparent over the hero, and then adopts a solid dark background with white text as the user scrolls down the page.",
+    "Content sections throughout the site are revealed with a subtle, staggered fade-in or slide-up effect as they enter the user's viewport, enhancing engagement without being distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#323232",
+        "role": "text"
+      },
+      {
+        "hex": "#919191",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with generous line height, complemented by smaller, lighter body text and very small, uppercase labels.",
+    "radius": "Sharp corners for most elements and images, with subtle rounding for interactive elements like buttons and input fields.",
+    "spacing": "Balanced to airy, with ample vertical spacing between major sections and within the hero, creating a sense of openness, while project image collages have tighter, more dynamic spacing."
+  },
+  "standout": "The most distinctive element is the dramatic full-screen Lottie animation that appears as a scroll-triggered transition after the hero video, serving as a captivating visual interlude. This, combined with the dynamic, overlapping image layouts in project showcases, gives the site a highly artistic and editorial feel that goes beyond typical portfolio sites.",
+  "animation_tech": [
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

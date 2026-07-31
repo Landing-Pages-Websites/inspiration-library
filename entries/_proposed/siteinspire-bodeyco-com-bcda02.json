@@ -1,0 +1,101 @@
+{
+  "id": "siteinspire-bodeyco-com-bcda02",
+  "source": {
+    "url": "https://www.bodeyco.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-bodeyco-com-bcda02.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-bodeyco-com-bcda02__scroll0.webp",
+      "shots/_proposed/siteinspire-bodeyco-com-bcda02__scroll1.webp",
+      "shots/_proposed/siteinspire-bodeyco-com-bcda02__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.bodeyco.com/news",
+        "full": "shots/_proposed/siteinspire-bodeyco-com-bcda02__p2.webp"
+      },
+      {
+        "url": "https://www.bodeyco.com/projects",
+        "full": "shots/_proposed/siteinspire-bodeyco-com-bcda02__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "production-company",
+      "advertising"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Fixed header, footer, and left-aligned project counter frame a central, scrolling media-rich content area, creating a consistent viewport for dynamic content."
+    },
+    {
+      "kind": "type",
+      "note": "Minimalist sans-serif typography is used consistently for all UI elements and project titles, maintaining a clean and understated aesthetic that supports the visual content."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic UI palette of white and black allows the vibrant, diverse colors of the photographic and video content to dominate the visual experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Fixed header, footer, and a left-aligned project counter remain static while large, full-width media blocks scroll vertically, sequentially revealing each project as the user progresses down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Each project is presented as a distinct, full-width media block that occupies the majority of the central viewport, often accompanied by a small title and description below it."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a fixed positioning strategy for its header, footer, and a left-aligned project index. The main content area is a vertically scrolling container where large media blocks (images or videos, including a potential video hero at the top) are stacked, appearing one after another as the user scrolls down, creating an immersive, sequential portfolio viewing experience.",
+    "Content sections are presented as full-bleed media blocks that fill the central content area, creating an immersive visual experience where the UI elements recede to highlight the visuals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small body text with slightly larger, but still understated, project titles, all in a clean sans-serif.",
+    "radius": "Sharp, with no visible rounded corners on any UI elements or media.",
+    "spacing": "Very airy side margins frame the central content, which features vertically stacked media blocks with minimal spacing between them."
+  },
+  "standout": "The site's distinctive design lies in its extremely minimal UI, which recedes entirely to allow a continuous, immersive scroll of large, high-quality photographic and video content to be the sole focus. It functions as a dynamic, full-screen visual portfolio.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

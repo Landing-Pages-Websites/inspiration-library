@@ -1,0 +1,125 @@
+{
+  "id": "siteinspire-laruemichel-re-b1175f",
+  "source": {
+    "url": "https://laruemichel.re",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-laruemichel-re-b1175f.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-laruemichel-re-b1175f__scroll0.webp",
+      "shots/_proposed/siteinspire-laruemichel-re-b1175f__scroll1.webp",
+      "shots/_proposed/siteinspire-laruemichel-re-b1175f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.laruemichel.re/agence/edition",
+        "full": "shots/_proposed/siteinspire-laruemichel-re-b1175f__p2.webp"
+      },
+      {
+        "url": "https://www.laruemichel.re/agence/culturel",
+        "full": "shots/_proposed/siteinspire-laruemichel-re-b1175f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "advertising",
+      "content-production"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Prominent use of a dynamic, full-width image grid as the primary hero and content display mechanism, where high-quality images are the main content."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections often feature a dark (black) background, making images and white text pop with high contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles are consistently large, bold, and uppercase, acting as strong visual dividers and anchors for content blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is used for the UI and backgrounds, with all visual interest and vibrant color provided exclusively by the high-quality photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar transforms from a transparent overlay to a solid white background with a subtle height reduction as the user scrolls down, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed by standard vertical scrolling, with the initial hero image grid scrolling out of view to expose subsequent content blocks without complex entrance animations."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a responsive grid system for displaying images, allowing for varied aspect ratios and arrangements that adapt to different screen sizes while maintaining visual impact.",
+    "A sticky header navigation is implemented, which dynamically changes its background color to solid white and slightly reduces its height upon scroll, ensuring readability over diverse content. This transition likely uses CSS keyframes for a smooth effect.",
+    "Sections are revealed through standard vertical scrolling, where the initial full-bleed image grid scrolls out of view to expose subsequent content blocks, which themselves appear without complex entrance animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "accent"
+      },
+      {
+        "hex": "#E69A3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#F06292",
+        "role": "accent"
+      },
+      {
+        "hex": "#2196F3",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "aktiv-grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "aktiv-grotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase headings (approx 3-4x body text size) provide strong visual hierarchy, complemented by smaller, legible body and navigation text.",
+    "radius": "Sharp corners are consistently used across all elements, contributing to a clean and modern aesthetic.",
+    "spacing": "Generally balanced spacing, with a slightly more airy feel in the hero section due to large image blocks, transitioning to a more compact but still clear layout in content grids."
+  },
+  "standout": "The site's distinctive design lies in its bold, image-first approach, where the content *is* the design. It uses a minimalist black and white UI as a sophisticated frame for vibrant, full-bleed photography, creating an editorial magazine-like experience that prioritizes visual storytelling over extensive text.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

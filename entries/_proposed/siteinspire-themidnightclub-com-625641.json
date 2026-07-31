@@ -1,0 +1,103 @@
+{
+  "id": "siteinspire-themidnightclub-com-625641",
+  "source": {
+    "url": "https://themidnightclub.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-themidnightclub-com-625641.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-themidnightclub-com-625641__scroll0.webp",
+      "shots/_proposed/siteinspire-themidnightclub-com-625641__scroll1.webp",
+      "shots/_proposed/siteinspire-themidnightclub-com-625641__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "agency",
+      "marketing"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric content presentation where large, impactful images often occupy a significant portion of the screen, balanced by expansive whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "Minimalist, all-caps sans-serif typography is used for all functional text (navigation, company info), creating a stark, utilitarian contrast to the visual content."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color scheme featuring deep dark tones for the initial hero and text, juxtaposed with vast white content areas, accented by a single bright yellow for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The header remains fixed at the top of the viewport, while the initial full-bleed hero image scrolls up to reveal a large, empty white space, followed by content sections that simply appear as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured with a prominent full-bleed hero followed by sections dominated by large, singular images and significant negative space, rather than dense text blocks or complex layouts."
+    }
+  ],
+  "technique_notes": [
+    "The header is implemented as a sticky element, maintaining its position at the top of the viewport throughout the scroll.",
+    "The initial hero section is designed to scroll out of view, revealing a substantial amount of empty space before subsequent content sections become visible, creating a dramatic sense of reveal and spaciousness.",
+    "Content sections are revealed using a simple scroll-triggered appearance, where elements become visible as they enter the viewport from the bottom, without complex animations beyond their initial display."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181c20",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#292d39",
+        "role": "text"
+      },
+      {
+        "hex": "#535760",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Small, all-uppercase sans-serif text is used for all functional and informational elements, creating a minimal and stark typographic presence.",
+    "radius": "sharp",
+    "spacing": "very airy; the initial scroll reveals a vast expanse of empty space, and subsequent content sections maintain generous padding and margins."
+  },
+  "standout": "The site's most distinctive feature is its extreme commitment to negative space and minimalist text, creating a stark, almost brutalist aesthetic that prioritizes large-scale, impactful imagery and a sense of quiet authority. The initial scroll revealing a vast expanse of white before any substantial content appears is particularly striking and sets a unique tone.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "siteinspire-alchemy-digital-ec121a",
+  "source": {
+    "url": "https://alchemy.digital",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-alchemy-digital-ec121a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-alchemy-digital-ec121a__scroll0.webp",
+      "shots/_proposed/siteinspire-alchemy-digital-ec121a__scroll1.webp",
+      "shots/_proposed/siteinspire-alchemy-digital-ec121a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://alchemy.digital/project/envy",
+        "full": "shots/_proposed/siteinspire-alchemy-digital-ec121a__p2.webp"
+      },
+      {
+        "url": "https://alchemy.digital/project/bafta",
+        "full": "shots/_proposed/siteinspire-alchemy-digital-ec121a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "web-development",
+      "ux-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A clean, full-width layout with generous vertical spacing between major content blocks, using a flexible grid for showcasing work examples."
+    },
+    {
+      "kind": "type",
+      "note": "A minimalist sans-serif typeface is used consistently for all text, with large, bold headings contrasting with smaller, lighter body text and navigation links."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochrome palette of black and white dominates the site, with project imagery providing the primary bursts of color."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content sections smoothly fade or slide into view from the bottom, and the hero image exhibits a subtle parallax effect. The small circular logo in the sticky header transforms into a downward arrow icon upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Work examples are presented in a dynamic grid, where each project thumbnail is a distinct card with a title, maintaining a consistent visual hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using a library like locomotive-scroll, which also orchestrates scroll-triggered animations. Sections and elements are revealed with a subtle fade-up or slide-in effect as they enter the viewport. The hero image uses a gentle parallax to create depth against the scrolling content. The header remains sticky, and a specific icon within it animates its form based on scroll position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#038",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with hero-level text like 'Let's Talk' being exceptionally oversized (~6x body) to create strong visual impact.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 sections are well-separated with ample vertical padding, and grid items have generous internal and external spacing."
+  },
+  "standout": "This site stands out with its sophisticated, almost editorial minimalism, which is elevated by subtle yet impactful scroll-triggered animations. The transforming header icon and the smooth, controlled content reveals create a premium feel that distinguishes it from typical agency portfolios.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
