@@ -1,0 +1,98 @@
+{
+  "id": "siteinspire-2026-0013",
+  "source": {
+    "url": "https://www.supernormalgreens.se",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0013.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0013__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0013__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0013__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "biotech",
+      "agriculture",
+      "plant-science"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, with one column containing large imagery or a dominant text block, and the other providing supporting text or a list."
+    },
+    {
+      "kind": "type",
+      "note": "The hero section features extremely oversized, multi-line headings that command attention, contrasting with smaller, highly legible body text and uppercase labels for sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, natural color palette dominates, primarily using a dark forest green for text and a warm, light off-white for backgrounds, creating a sophisticated and earthy feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up and slight slide-in animation as they enter the viewport during scroll, creating a smooth, guided content progression."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, generously spaced sections, often with a full-width image or a large text block acting as a visual anchor for the section's theme."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to reveal sections with a staggered fade-up and slight vertical translation as they enter the viewport, enhancing content discovery.",
+    "The navigation bar is sticky, transitioning from a transparent background to a solid, light background with a subtle shadow after the initial scroll, ensuring persistent access.",
+    "The hero features an oversized, multi-line heading that scrolls with the page content, creating a dramatic and impactful first impression without complex parallax."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FCF9ED",
+        "role": "background"
+      },
+      {
+        "hex": "#193722",
+        "role": "text"
+      },
+      {
+        "hex": "#DDE8DD",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Graphik",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero headings (~4-5x body text) with a strong, modern sans-serif, complemented by smaller, legible body text and uppercase sub-labels.",
+    "radius": "Sharp corners are consistently used for all elements, including buttons and image frames, contributing to a clean and precise aesthetic.",
+    "spacing": "Very airy in the hero and between major sections, creating a sense of calm and luxury, while content within sections maintains a balanced density."
+  },
+  "standout": "The site's design is distinctive for its bold, oversized, multi-line hero typography that immediately captures attention, combined with a sophisticated, muted color palette and generous white space. This creates an almost editorial, high-end feel that elevates the scientific subject matter beyond a typical corporate site.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

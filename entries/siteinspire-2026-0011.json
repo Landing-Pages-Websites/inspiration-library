@@ -1,0 +1,120 @@
+{
+  "id": "siteinspire-2026-0011",
+  "source": {
+    "url": "https://quitenice.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0011.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0011__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0011__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0011__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://quitenice.com/pages/our-science",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0011__p2.webp"
+      },
+      {
+        "url": "https://quitenice.com/products/prebiotic-oatmeal-2-plan",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0011__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "health-food",
+      "nutrition"
+    ],
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between a light background (beige/light green) and a dark background (dark green), creating clear visual breaks and guiding the eye down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, organic-feeling display serif font is used for primary headings, contrasting with a clean, readable sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A natural, earthy palette dominated by various shades of green, light beige, and a warm yellow accent for CTAs, reinforcing the product's health and natural attributes."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero section elements (product bowls, leafy illustrations) exhibit a subtle parallax effect, moving at different speeds relative to the scroll, adding depth and visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Product flavor cards are presented in a grid, each with a distinct color-coded background and a small product image, making them easily scannable and visually appealing. Testimonials are presented in a horizontally scrollable carousel format, allowing users to browse multiple reviews."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a layered approach where background elements and product imagery parallax at slightly different rates as the user scrolls, creating a subtle depth effect. Subsequent content sections are revealed with a gentle fade-in or slide-up animation as they enter the viewport, likely triggered by scroll events using CSS keyframes or JavaScript. The main navigation remains fixed at the top of the screen. Testimonials are presented within a horizontal carousel, allowing users to swipe or click through reviews.",
+    "Content is structured into full-width sections that alternate between a light, airy background and a rich, dark background, providing clear visual separation and rhythm. Within these sections, content is typically centered and constrained to a comfortable reading width.",
+    "Product photography is vibrant and styled to emphasize freshness and natural ingredients, often featuring bowls of the product with colorful fruit and garnishes. Organic, hand-drawn-style illustrations of leaves and vines are used as decorative elements to enhance the natural theme and add a playful touch."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fefaef",
+        "role": "background"
+      },
+      {
+        "hex": "#195908",
+        "role": "dark-green-background"
+      },
+      {
+        "hex": "#4b7500",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#91c085",
+        "role": "light-green-surface"
+      },
+      {
+        "hex": "#f7d794",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Recoleta",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, expressive display headings with a distinct organic serif character (~3-4x body), supported by clear, readable sans-serif body text and smaller, often uppercase labels.",
+    "radius": "Predominantly rounded corners (subtle to rounded) used consistently on buttons, input fields, cards, and section containers, contributing to a soft, friendly aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical padding between main sections and comfortable spacing within content blocks, preventing a dense or cramped feel."
+  },
+  "standout": "The site's standout feature is its unique blend of a sophisticated, organic display typeface for headings with playful, hand-drawn-style botanical illustrations and a fresh, earthy color palette. This combination creates a distinctive brand identity that feels both wholesome and premium, avoiding generic health food aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}
