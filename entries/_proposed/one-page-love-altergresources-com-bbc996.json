@@ -1,0 +1,114 @@
+{
+  "id": "one-page-love-altergresources-com-bbc996",
+  "source": {
+    "url": "https://altergresources.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-altergresources-com-bbc996.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-altergresources-com-bbc996__scroll0.webp",
+      "shots/_proposed/one-page-love-altergresources-com-bbc996__scroll1.webp",
+      "shots/_proposed/one-page-love-altergresources-com-bbc996__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "energy",
+      "geothermal",
+      "renewable-energy"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with generous vertical padding, using a clean grid for image galleries and team member cards."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is a lighter weight, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of white and dark grey is accented by a deep blue for informational sections and a vibrant green for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A distinctive geometric grid overlay animates into view as the user scrolls, transitioning between major content blocks and adding a dynamic visual layer."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar shrinks in height and transforms its 'Contact' button from a ghost style to a filled style upon scrolling down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Team' section features a grid of individual profile cards, each with a circular image and clear role description, presented against a light blue background."
+    }
+  ],
+  "technique_notes": [
+    "The sticky navigation bar is implemented to dynamically change its size and the styling of its primary call-to-action button after a certain scroll threshold, providing a compact persistent header.",
+    "Scroll-triggered animations, likely using GSAP or Locomotive Scroll, reveal content sections with a subtle fade-in or slide-up effect as they enter the viewport. A unique geometric grid overlay animates across the screen to visually transition between distinct content areas, creating a sense of depth and dynamism.",
+    "Full-bleed hero images and background sections are used, with text content layered on top, ensuring visual impact while maintaining readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#BFD1E1",
+        "role": "surface"
+      },
+      {
+        "hex": "#3A668F",
+        "role": "text"
+      },
+      {
+        "hex": "#336633",
+        "role": "background"
+      },
+      {
+        "hex": "#66CC66",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, impactful headings (~3-4x body) with a clean sans-serif character, supported by clear, readable body text.",
+    "radius": "subtle for interactive elements like buttons, sharp for image corners and overall section boundaries.",
+    "spacing": "balanced to airy, with significant vertical spacing between major sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "The site's distinctive geometric grid overlay animation, which acts as a dynamic visual transition between sections, elevates the user experience beyond a standard scroll-reveal. This, combined with the authoritative and clean presentation of complex technical information, makes the design feel sophisticated and unique.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}
