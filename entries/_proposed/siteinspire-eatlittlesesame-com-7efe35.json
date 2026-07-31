@@ -1,0 +1,132 @@
+{
+  "id": "siteinspire-eatlittlesesame-com-7efe35",
+  "source": {
+    "url": "https://www.eatlittlesesame.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-eatlittlesesame-com-7efe35.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-eatlittlesesame-com-7efe35__scroll0.webp",
+      "shots/_proposed/siteinspire-eatlittlesesame-com-7efe35__scroll1.webp",
+      "shots/_proposed/siteinspire-eatlittlesesame-com-7efe35__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.eatlittlesesame.com/collections",
+        "full": "shots/_proposed/siteinspire-eatlittlesesame-com-7efe35__p2.webp"
+      },
+      {
+        "url": "https://www.eatlittlesesame.com/pages/farm",
+        "full": "shots/_proposed/siteinspire-eatlittlesesame-com-7efe35__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "consumer-packaged-goods",
+      "healthy-food"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with varied background colors create distinct visual breaks, often featuring content centered or split into text-left, image-right arrangements."
+    },
+    {
+      "kind": "type",
+      "note": "A playful, bold sans-serif is used for primary headings, contrasted with a clean, readable sans-serif for body text, and a distinctive rounded display font for the logo and key accents."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of dark teal, bright yellow, and off-white is consistently used for branding and CTAs, complemented by a rotating set of pastel section background colors (light green, pink, blue-grey) on interior pages."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, sections reveal with a subtle fade-in or slide-up effect, and the initial transparent navigation bar transforms into a sticky bar with a solid dark background."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize a grid layout for individual items and bundles, often accompanied by large, high-quality lifestyle photography."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that transitions from a transparent overlay on the hero to a solid, dark background with a subtle shadow as the user scrolls down. Scroll-triggered animations, likely powered by locomotive-scroll, reveal new content sections with a gentle fade-in or slide-up effect as they enter the viewport. The hero section features a full-bleed video background that remains fixed or subtly parallaxes while the overlaying text and calls to action scroll upwards. A modal pop-up appears on page load or after a short delay, offering a discount."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2b545f",
+        "role": "primary-dark-teal"
+      },
+      {
+        "hex": "#fde757",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#fffaf7",
+        "role": "background-off-white"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface-white"
+      },
+      {
+        "hex": "#c0d9d9",
+        "role": "section-background-light-blue-grey"
+      },
+      {
+        "hex": "#e0f0d0",
+        "role": "section-background-light-green"
+      },
+      {
+        "hex": "#f0e0e0",
+        "role": "section-background-light-pink"
+      },
+      {
+        "hex": "#878787",
+        "role": "secondary-text-grey"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Pangram",
+        "role": "heading"
+      },
+      {
+        "family": "Barlow",
+        "role": "body"
+      },
+      {
+        "family": "Brice",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold, and playful sans-serif headings (~3-4x body) are used for hero and section titles, complemented by clear, readable body text and small uppercase labels for categories.",
+    "radius": "Subtle rounding on buttons and some image containers, with most product cards and content blocks maintaining sharp corners.",
+    "spacing": "Airy vertical padding in the hero section and between major content blocks, transitioning to a more balanced density within product grids and feature sections."
+  },
+  "standout": "The site's distinctive design lies in its successful blend of high-quality, editorial-style food photography with a playful, almost childlike brand identity, characterized by a unique logo, bright yellow accents, and varied pastel section backgrounds. This creates a premium yet approachable and fun aesthetic that feels fresh for a food brand.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

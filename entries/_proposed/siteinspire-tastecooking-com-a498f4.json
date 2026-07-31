@@ -1,0 +1,122 @@
+{
+  "id": "siteinspire-tastecooking-com-a498f4",
+  "source": {
+    "url": "https://tastecooking.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-tastecooking-com-a498f4.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-tastecooking-com-a498f4__scroll0.webp",
+      "shots/_proposed/siteinspire-tastecooking-com-a498f4__scroll1.webp",
+      "shots/_proposed/siteinspire-tastecooking-com-a498f4__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tastecooking.com/recipes",
+        "full": "shots/_proposed/siteinspire-tastecooking-com-a498f4__p2.webp"
+      },
+      {
+        "url": "https://tastecooking.com/features",
+        "full": "shots/_proposed/siteinspire-tastecooking-com-a498f4__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "media",
+      "publishing"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, custom illustration on one side and a concise article title and metadata on the other, creating visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold serif headings for article titles are contrasted with smaller, lighter sans-serif text for categories, authors, and body content, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant, high-contrast yellow as an accent color for full-width section backgrounds and call-to-action buttons, breaking up the predominantly white and black layout."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and article cards reveal with a subtle fade-up animation as they scroll into the viewport, creating a dynamic and engaging content discovery experience."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated 'issue' sections feature a full-width, bold background color (e.g., yellow) with a large title and a clear call-to-action, acting as prominent content hubs."
+    }
+  ],
+  "technique_notes": [
+    "Content sections are revealed with a subtle fade-up or slide-up animation as they enter the viewport, creating a dynamic scrolling experience, likely orchestrated using a scroll-triggering library.",
+    "The main navigation bar remains fixed at the top of the screen, providing persistent access to site sections without shrinking or changing its appearance.",
+    "The hero illustration employs a subtle parallax effect, moving at a slightly different speed than the foreground text as the user scrolls, adding depth to the initial view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#efc300",
+        "role": "accent"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#007cba",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#ddd",
+        "role": "subtle-divider"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Fort-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Fort-Book",
+        "role": "body"
+      },
+      {
+        "family": "Shift-Book",
+        "role": "metadata"
+      }
+    ],
+    "type_scale": "Large, bold serif headings (~3-4x body) for article titles, with smaller, lighter sans-serif for categories and metadata, creating a clear hierarchy.",
+    "radius": "Sharp for most elements and buttons, with subtle rounding on article card images.",
+    "spacing": "Balanced to airy, particularly in hero and between major sections, with comfortable gutters in article grids."
+  },
+  "standout": "The site's distinctive use of vibrant, often whimsical illustrations, particularly the large hero image and the smaller article thumbnails, sets it apart. This playful yet sophisticated visual language, combined with bold, full-width accent sections, creates a strong editorial identity that feels both modern and unique.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

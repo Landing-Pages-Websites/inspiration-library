@@ -1,0 +1,103 @@
+{
+  "id": "siteinspire-luca-restaurant-e428a0",
+  "source": {
+    "url": "https://luca.restaurant",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-luca-restaurant-e428a0.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-luca-restaurant-e428a0__scroll0.webp",
+      "shots/_proposed/siteinspire-luca-restaurant-e428a0__scroll1.webp",
+      "shots/_proposed/siteinspire-luca-restaurant-e428a0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://luca.restaurant/people",
+        "full": "shots/_proposed/siteinspire-luca-restaurant-e428a0__p2.webp"
+      },
+      {
+        "url": "https://luca.restaurant/private-dining",
+        "full": "shots/_proposed/siteinspire-luca-restaurant-e428a0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "restaurant",
+      "fine-dining",
+      "hospitality"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently feature large, full-bleed photography paired with minimal text, often in an asymmetrical arrangement that prioritizes visual storytelling."
+    },
+    {
+      "kind": "type",
+      "note": "A single, elegant, light-weight sans-serif typeface is used consistently across all textual elements, from the prominent brand logo to navigation and body text, creating a cohesive and refined aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, muted forest green dominates the background, providing a sophisticated and moody backdrop for crisp white text and vibrant food photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a full-screen brand logo that scrolls out of view, revealing a sticky, minimalist navigation bar that appears from the top with a subtle transition."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured into distinct, vertically stacked content sections, each typically featuring a large hero image or a small grid of images, with very sparse accompanying descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero experience is created by displaying a large, centered brand logo that occupies the full viewport. As the user scrolls, this hero element scrolls out of view, and a sticky header containing a smaller version of the brand name and navigation links fades in or slides down from the top. Subsequent content sections reveal themselves as they enter the viewport, appearing to slide up or fade in from the bottom, utilizing CSS keyframes for smooth transitions.",
+    "The layout relies on a spacious grid system with generous negative space, allowing large, high-quality images to breathe. Text blocks are kept concise and are often positioned adjacent to or subtly overlaid on images, creating an editorial feel.",
+    "Typography is characterized by the exclusive use of a single, very light-weight sans-serif font. The brand logo is initially presented at a very large scale, then scales down to a smaller, consistent size within the sticky header and for all body and navigation text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2d3f2f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Light",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized thin hero logo (~5x body) with small uppercase labels and consistent, understated body text.",
+    "radius": "sharp",
+    "spacing": "airy, with significant negative space around hero elements and between content sections, creating a sense of luxury and focus."
+  },
+  "standout": "The site's distinctive design lies in its dramatic, image-first approach, where the brand identity is initially presented as a full-screen, minimalist logo that gracefully gives way to a highly curated visual narrative. The deep, moody color palette and sparse, elegant typography create an atmosphere of understated luxury and sophistication, making the photography the primary storyteller.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}
