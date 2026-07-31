@@ -1,0 +1,120 @@
+{
+  "id": "siteinspire-potluckmarket-com-e73a41",
+  "source": {
+    "url": "https://potluckmarket.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-potluckmarket-com-e73a41.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-potluckmarket-com-e73a41__scroll0.webp",
+      "shots/_proposed/siteinspire-potluckmarket-com-e73a41__scroll1.webp",
+      "shots/_proposed/siteinspire-potluckmarket-com-e73a41__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://potluckmarket.com/pages/about",
+        "full": "shots/_proposed/siteinspire-potluckmarket-com-e73a41__p2.webp"
+      },
+      {
+        "url": "https://potluckmarket.com/products/ssamjang",
+        "full": "shots/_proposed/siteinspire-potluckmarket-com-e73a41__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "e-commerce",
+      "korean-food"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "High-contrast, vibrant color blocking is used extensively, primarily with lime green, hot pink, and black to define distinct sections and create visual energy."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif typography is a core branding element, with the 'POTLUCK' logotype dominating the hero section and large headings used for strong visual impact."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and gaining a solid lime green background as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A dark-themed newsletter signup bar slides up from the bottom of the viewport and remains sticky as the user scrolls, providing a persistent call to action."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections are structured using full-width, distinct color blocks that stack vertically, creating clear visual separation and a modular feel."
+    }
+  ],
+  "technique_notes": [
+    "The site uses CSS keyframe animations to create a dynamic scrolling experience. The main navigation bar transitions its background color and height to become sticky, while the hero image employs a subtle parallax effect. Additionally, a newsletter signup bar is revealed with a slide-up animation from the bottom of the screen, becoming sticky on scroll.",
+    "Sections are defined by bold, full-bleed color blocks that provide high contrast for text and imagery. The brand's oversized logotype is integrated as a hero element, initially dominating the screen and then scrolling away to reveal content, maintaining a strong brand presence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d8e303",
+        "role": "accent"
+      },
+      {
+        "hex": "#1c1c1c",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ff00ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#3d3d3d",
+        "role": "surface"
+      },
+      {
+        "hex": "#676986",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (e.g., 'POTLUCK' logo is ~8-10x body text height) with clear hierarchy down to legible body and caption text.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, especially in the hero and section breaks, with tighter spacing in content grids."
+  },
+  "standout": "The site's distinctive use of an extremely bold, oversized logotype as a primary design element that interacts with scroll, combined with a high-contrast, almost neon color palette (lime green, hot pink, black), creates a memorable and energetic brand identity that feels both modern and playful.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

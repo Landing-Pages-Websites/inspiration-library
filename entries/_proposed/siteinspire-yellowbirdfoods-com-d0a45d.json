@@ -1,0 +1,120 @@
+{
+  "id": "siteinspire-yellowbirdfoods-com-d0a45d",
+  "source": {
+    "url": "https://www.yellowbirdfoods.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-07-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-yellowbirdfoods-com-d0a45d.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-yellowbirdfoods-com-d0a45d__scroll0.webp",
+      "shots/_proposed/siteinspire-yellowbirdfoods-com-d0a45d__scroll1.webp",
+      "shots/_proposed/siteinspire-yellowbirdfoods-com-d0a45d__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.yellowbirdfoods.com/blogs/blog",
+        "full": "shots/_proposed/siteinspire-yellowbirdfoods-com-d0a45d__p2.webp"
+      },
+      {
+        "url": "https://www.yellowbirdfoods.com/pages/about",
+        "full": "shots/_proposed/siteinspire-yellowbirdfoods-com-d0a45d__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "hot-sauce",
+      "condiments"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed, vibrant yellow background as a dominant canvas, creating a strong and consistent brand presence across most sections."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, custom-look display font is used for the main brand name and key headings, contrasted with a clean, modern sans-serif for body text and navigation, and a monospaced-like font for labels."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette is high-contrast, featuring a bright, energetic yellow, stark black for text and outlines, and a punchy red for accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a scroll-triggered animation where the large 'Yellowbird' logo scales down and the 'THIS WORLD'S TASTIEST HOT SAUCE' tagline appears from behind it as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width yellow backgrounds and often feature large, bold, centered headings, frequently accompanied by playful, black line-art illustrations that reinforce the brand's quirky personality."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered animation (likely using css-keyframes) where the main logo dynamically scales and reveals a tagline as the user scrolls down the page, creating an engaging introduction.",
+    "Product and recipe galleries utilize a horizontal scrolling carousel system (indicated by 'swiper' tech) to efficiently display multiple items within a compact, interactive area.",
+    "Content sections appear to reveal with subtle fade-in or slide-up animations as they enter the viewport, enhancing visual flow and user engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffe845",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#eb001b",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#d6d6d6",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Gooper",
+        "role": "display"
+      },
+      {
+        "family": "ABC Monument Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Pitch Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, rounded display headings (up to ~4-5x body) with smaller, uppercase, monospaced-like labels and a clear, legible sans-serif for body text.",
+    "radius": "Subtle rounded corners (small radius) consistently applied to cards, buttons, and image containers, giving a friendly but not overly soft feel.",
+    "spacing": "Balanced and generous, with ample negative space around key elements and illustrations, creating an airy and uncluttered feel, especially in the hero and illustrated sections."
+  },
+  "standout": "The site's most distinctive feature is its incredibly strong, playful brand identity, driven by the dominant bright yellow color, unique custom typography for the logo, and a consistent use of quirky, black line-art illustrations. This creates an immediate, memorable, and fun impression that sets it apart from typical food product sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
