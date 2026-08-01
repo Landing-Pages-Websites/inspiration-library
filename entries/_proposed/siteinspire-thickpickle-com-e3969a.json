@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-thickpickle-com-e3969a",
+  "source": {
+    "url": "https://thickpickle.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thickpickle-com-e3969a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thickpickle-com-e3969a__scroll0.webp",
+      "shots/_proposed/siteinspire-thickpickle-com-e3969a__scroll1.webp",
+      "shots/_proposed/siteinspire-thickpickle-com-e3969a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://thickpickle.com/products/big-reggie",
+        "full": "shots/_proposed/siteinspire-thickpickle-com-e3969a__p2.webp"
+      },
+      {
+        "url": "https://thickpickle.com/products/brine-soaker",
+        "full": "shots/_proposed/siteinspire-thickpickle-com-e3969a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "novelty-products",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Consistent use of a single, vibrant neon green as the primary accent against deep, dark, muted backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of an extremely bold, condensed, uppercase sans-serif for all major headings and branding, creating a strong, impactful visual presence."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often centered, utilizing generous vertical spacing between major content blocks to create an airy feel, contrasting with denser product grids."
+    },
+    {
+      "kind": "motion",
+      "note": "Dynamic hero section that transforms on scroll, including a background animation and a header that shrinks and becomes sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are introduced with large, impactful typographic titles that often span the full width of the content area, acting as strong visual dividers."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system, likely using CSS keyframes and a JavaScript library, to create a dynamic hero experience. As the user scrolls, the initial hero content (large product image and primary headline) scrolls out of view. Simultaneously, the main navigation transforms, with the logo shrinking and becoming sticky at the top of the viewport. A background video or canvas animation is used in a subsequent section to create a dynamic liquid texture behind a large, central brand name. Further down the page, content sections appear to reveal as they enter the viewport, likely with a subtle fade-in or slide-up effect.",
+    "Visuals are built around a high-contrast, two-tone palette, leveraging a single, intense neon green for all interactive elements, headlines, and key branding against a dark, almost black background. Typography is a key design element, with oversized, blocky sans-serif fonts used to create a strong, impactful visual hierarchy, often filling the available space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e1216",
+        "role": "background"
+      },
+      {
+        "hex": "#8eff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed display headings (e.g., 'THICK PICKLE' is ~10x body text height) with smaller, clean sans-serif for body and navigation.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, especially in the hero and between major sections, but product grids are dense"
+  },
+  "standout": "The site's design is distinctive for its aggressive and unapologetic use of a single, extremely vibrant neon green as the primary accent color against a deep, dark background. This, combined with the oversized, blocky typography and quirky product branding, creates a bold, almost rebellious aesthetic that is highly memorable and unique for an e-commerce site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "siteinspire-thedaughter-ca-47de08",
+  "source": {
+    "url": "https://thedaughter.ca",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thedaughter-ca-47de08.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thedaughter-ca-47de08__scroll0.webp",
+      "shots/_proposed/siteinspire-thedaughter-ca-47de08__scroll1.webp",
+      "shots/_proposed/siteinspire-thedaughter-ca-47de08__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.thedaughter.ca/",
+        "full": "shots/_proposed/siteinspire-thedaughter-ca-47de08__p2.webp"
+      },
+      {
+        "url": "https://www.thedaughter.ca/collections",
+        "full": "shots/_proposed/siteinspire-thedaughter-ca-47de08__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "wine",
+      "hospitality",
+      "retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered with generous vertical spacing between distinct sections, often featuring full-width imagery or a two-column split for information blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between elegant, large serif headings and smaller, clean sans-serif body text creates a sophisticated and readable hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, deep brown/burgundy is used as a dominant background color for the hero and age gate, contrasted with warm off-white backgrounds for content sections and dark text."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content elements (images, text blocks) are expected to reveal with subtle fade-in or slide-up animations as they scroll into the viewport, creating a smooth, engaging browsing experience."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-bleed photography, distinct background colors, or prominent typographic headings, guiding the user through different content themes."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen age gate modal with a semi-transparent dark overlay appears on initial load, requiring user interaction before the main content is accessible.",
+    "The site uses a smooth scrolling library (locomotive-scroll) to enhance the user's scroll experience, likely coupled with scroll-triggered animations that reveal content elements with a staggered fade-up or slide-in effect as they enter the viewport.",
+    "Hero and key visual sections utilize high-quality, full-bleed photography to establish mood and brand identity, often paired with minimal text overlays."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#6B3327",
+        "role": "background"
+      },
+      {
+        "hex": "#FDF9F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#121212",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#FEF58F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Panama",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, oversized serif hero text (~4-5x body) with large, refined serif section headings, complemented by smaller, legible sans-serif body text.",
+    "radius": "Sharp, with most elements and images featuring crisp, unrounded corners.",
+    "spacing": "Airy, particularly in the hero and between major content sections, creating a sense of luxury and allowing elements to breathe."
+  },
+  "standout": "The site's distinctive use of a prominent, full-screen age gate immediately sets a sophisticated and exclusive tone. This, combined with the elegant serif typography and rich, deep color palette, creates an atmosphere of refined luxury and curated experience, rather than a typical e-commerce or hospitality site.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

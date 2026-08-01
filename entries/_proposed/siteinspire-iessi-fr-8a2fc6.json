@@ -1,0 +1,125 @@
+{
+  "id": "siteinspire-iessi-fr-8a2fc6",
+  "source": {
+    "url": "https://iessi.fr",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-iessi-fr-8a2fc6.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-iessi-fr-8a2fc6__scroll0.webp",
+      "shots/_proposed/siteinspire-iessi-fr-8a2fc6__scroll1.webp",
+      "shots/_proposed/siteinspire-iessi-fr-8a2fc6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://iessi.fr/collections/shop",
+        "full": "shots/_proposed/siteinspire-iessi-fr-8a2fc6__p2.webp"
+      },
+      {
+        "url": "https://iessi.fr/collections/drinks",
+        "full": "shots/_proposed/siteinspire-iessi-fr-8a2fc6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "alcohol-free",
+      "spirits"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with solid vibrant red backgrounds and clean white backgrounds create strong visual breaks and emphasize content."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently large, bold, and uppercase sans-serif, providing clear hierarchy and a modern, impactful feel."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette is dominated by a single vibrant red (#EB3300) used extensively for full-section backgrounds and calls to action, paired with white and black for text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, moving slower than the foreground text and button as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them (like product cards and recipe images) reveal with a staggered fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid white background after the initial hero section is passed, while remaining sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Product and recipe displays are presented in clean, consistent grid layouts, often with a title, image, and brief description, maintaining visual order across the site."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that dynamically changes its size and background color based on scroll position, transitioning from transparent to a solid white backdrop.",
+    "Create a parallax scrolling effect for the hero image where the background image moves at a slower rate than the foreground content, giving a sense of depth.",
+    "Utilize a scroll-triggered animation library (like AOS) to reveal sections and individual content blocks with a subtle fade-in and slight upward translation as they enter the user's viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EB3300",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#212121",
+        "role": "surface"
+      },
+      {
+        "hex": "#AB8C52",
+        "role": "subtle-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Josefin Sans",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase sans-serif headings (~3-4x body text) create strong visual hierarchy, with an exceptionally oversized hero text, contrasted by smaller, lighter body and descriptive text.",
+    "radius": "Subtle; elements like buttons and image containers have very slight corner rounding, almost appearing sharp.",
+    "spacing": "Balanced to airy; generous vertical padding separates sections, and content within grids is well-spaced, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its bold and confident use of a single, vibrant red as a dominant brand color, applied in full-bleed sections to create powerful visual statements. This strong color blocking, combined with clean, modern typography and high-quality product photography, gives the brand an energetic and premium identity that stands out from typical e-commerce sites.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

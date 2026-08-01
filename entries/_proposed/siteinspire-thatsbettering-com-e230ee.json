@@ -1,0 +1,111 @@
+{
+  "id": "siteinspire-thatsbettering-com-e230ee",
+  "source": {
+    "url": "https://www.thatsbettering.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thatsbettering-com-e230ee.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thatsbettering-com-e230ee__scroll0.webp",
+      "shots/_proposed/siteinspire-thatsbettering-com-e230ee__scroll1.webp",
+      "shots/_proposed/siteinspire-thatsbettering-com-e230ee__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.thatsbettering.com/faq",
+        "full": "shots/_proposed/siteinspire-thatsbettering-com-e230ee__p2.webp"
+      },
+      {
+        "url": "https://www.thatsbettering.com/blog",
+        "full": "shots/_proposed/siteinspire-thatsbettering-com-e230ee__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "alcohol",
+      "cannabis"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Full-screen background color transitions smoothly between bold, saturated hues as the user scrolls down the page, acting as a visual separator for content states."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary content (age gate question and options) remains visually fixed in the viewport while the background color changes and the page content scrolls underneath, creating a layered effect where foreground elements adapt their color for contrast."
+    },
+    {
+      "kind": "layout",
+      "note": "The initial page content is centrally aligned and minimal, featuring a single interactive element, contrasting with a multi-column, text-heavy footer that appears after scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, bold sans-serif typeface for key interactive elements, with smaller, lighter sans-serif for secondary navigation and information in the footer."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered animation system (likely locomotive-scroll) where the background color of the main content area changes dynamically based on scroll position. The foreground content (age gate text and icon) maintains a fixed position relative to the viewport, while its color adapts for contrast against the changing background.",
+    "Sections are revealed by scrolling, with the background color acting as a strong visual separator and transition between different content states or sections, rather than traditional section dividers."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F78C2F",
+        "role": "background"
+      },
+      {
+        "hex": "#E62E4F",
+        "role": "background"
+      },
+      {
+        "hex": "#F8D0DB",
+        "role": "background"
+      },
+      {
+        "hex": "#5C3E21",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif for primary interactive elements (~3-4x body text), with smaller, regular sans-serif for navigation and informational text.",
+    "radius": "Sharp, with no visible rounded corners on elements or containers.",
+    "spacing": "Very airy for the initial age gate, transitioning to a balanced density for the footer content with clear vertical rhythm."
+  },
+  "standout": "The most distinctive feature is the full-screen, scroll-triggered background color transitions that dynamically adapt to the content, creating a highly immersive and interactive initial experience. The age gate itself is presented as a persistent, adapting overlay rather than a modal, making it feel integrated with the page's scroll journey.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

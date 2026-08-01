@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-aurabora-com-6cc4fd",
+  "source": {
+    "url": "https://aurabora.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-aurabora-com-6cc4fd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-aurabora-com-6cc4fd__scroll0.webp",
+      "shots/_proposed/siteinspire-aurabora-com-6cc4fd__scroll1.webp",
+      "shots/_proposed/siteinspire-aurabora-com-6cc4fd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://aurabora.com/products/cactus-rose",
+        "full": "shots/_proposed/siteinspire-aurabora-com-6cc4fd__p2.webp"
+      },
+      {
+        "url": "https://aurabora.com/products/lime-cardamom",
+        "full": "shots/_proposed/siteinspire-aurabora-com-6cc4fd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "sparkling-water",
+      "consumer-packaged-goods"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, illustrative background and prominent product packaging on one side, balanced by a large, playful headline on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Heavy use of a custom, rounded, outlined display font for major headings and section titles, creating a distinct playful and bold brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, natural color palette featuring various shades of green, sunny yellow, and warm orange, often used in large blocks or as background illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-layered parallax effect where background illustrations, main headline text, and the product can scroll at different, slower rates than the foreground, creating depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Product flavor cards are presented in a horizontal scrollable carousel, allowing users to browse multiple options without leaving the current viewport."
+    }
+  ],
+  "technique_notes": [
+    "The hero section creates a sense of depth and movement by having multiple background and foreground elements scroll at varying, slower speeds than the main page content, giving a layered parallax effect. This is likely achieved using CSS transforms or JavaScript-based scroll-triggered animations.",
+    "Sections are revealed as the user scrolls, often sliding up or fading in, ensuring content appears dynamically as it enters the viewport.",
+    "Major display text uses a custom font with a distinct outline effect, achieved by layering text elements or using CSS text-stroke properties."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#004f2d",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#d8e47e",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#febc3f",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#fffef6",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#f0eade",
+        "role": "section-background"
+      },
+      {
+        "hex": "#41751c",
+        "role": "text-green"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Bubblegum Sans",
+        "role": "display"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, outlined display headings (~4-5x body) create a playful impact, contrasted with a clean, legible sans-serif for body text and smaller labels.",
+    "radius": "Rounded corners are consistently applied to product cards, buttons, and input fields, contributing to a soft, friendly aesthetic.",
+    "spacing": "Balanced density overall, with a notably airy hero section that uses ample negative space to highlight the product and headline. Feature grids maintain a comfortable, readable rhythm."
+  },
+  "standout": "The site's design is distinctive for its highly illustrative and playful aesthetic, particularly the custom outlined display font and the multi-layered parallax hero. The vibrant, natural color palette and the integration of whimsical illustrations throughout the page create a unique, branded experience that feels less like a generic template and more like a bespoke, characterful brand.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

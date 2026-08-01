@@ -1,0 +1,122 @@
+{
+  "id": "siteinspire-drinkvuum-com-6b1a63",
+  "source": {
+    "url": "https://drinkvuum.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-drinkvuum-com-6b1a63.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-drinkvuum-com-6b1a63__scroll0.webp",
+      "shots/_proposed/siteinspire-drinkvuum-com-6b1a63__scroll1.webp",
+      "shots/_proposed/siteinspire-drinkvuum-com-6b1a63__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://drinkvuum.com/pages/about",
+        "full": "shots/_proposed/siteinspire-drinkvuum-com-6b1a63__p2.webp"
+      },
+      {
+        "url": "https://drinkvuum.com/products/variety",
+        "full": "shots/_proposed/siteinspire-drinkvuum-com-6b1a63__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "health-and-wellness",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column hero layout on the homepage, featuring a large lifestyle image on the left and a sticky, scrollable product display on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a clean sans-serif typeface with varied weights for hierarchy, often employing uppercase for section titles and call-to-action labels."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white base palette accented by a vibrant red/pink for interactive elements and key brand messaging."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport, and a product display column on the homepage remains fixed on the right side as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A modal popup appears shortly after page load, prompting user engagement with a discount offer."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented in a clean three-column grid with minimalist icons and concise descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky header that remains visible at the top of the viewport after an initial scroll, ensuring constant access to site navigation.",
+    "A unique split-screen layout on the homepage utilizes a fixed-position container for product display on the right, which maintains visibility of key products while the main content area scrolls independently on the left.",
+    "Interactive elements like product image carousels are built using a slider library (swiper), allowing users to navigate through multiple product views with swipe gestures or navigation controls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#EF3340",
+        "role": "cta"
+      },
+      {
+        "hex": "#AEE5FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFDB45",
+        "role": "accent"
+      },
+      {
+        "hex": "#C6ED56",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Roboto",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with uppercase used for emphasis in labels and CTAs.",
+    "radius": "Subtle rounding on buttons and input fields, otherwise sharp edges on content blocks and images.",
+    "spacing": "Balanced, with ample whitespace around major content blocks, creating an airy feel, while product grids are more compact."
+  },
+  "standout": "The distinctive split-screen hero on the homepage, combining a large lifestyle image with a sticky, scrollable product display, effectively balances brand storytelling with immediate product visibility and purchase opportunity.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}
