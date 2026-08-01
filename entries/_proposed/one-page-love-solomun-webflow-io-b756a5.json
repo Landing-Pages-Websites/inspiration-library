@@ -1,0 +1,113 @@
+{
+  "id": "one-page-love-solomun-webflow-io-b756a5",
+  "source": {
+    "url": "https://solomun.webflow.io",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-solomun-webflow-io-b756a5.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-solomun-webflow-io-b756a5__scroll0.webp",
+      "shots/_proposed/one-page-love-solomun-webflow-io-b756a5__scroll1.webp",
+      "shots/_proposed/one-page-love-solomun-webflow-io-b756a5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "entertainment",
+      "dj"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video and image sections create an immersive, cinematic feel, often with text overlays for dramatic effect."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic, oversized script and bold sans-serif typography are used for hero and section titles, frequently with red accenting key words."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring stark black backgrounds, white text, and vibrant red accents for emphasis and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed-position video hero plays in the background while initial text content scrolls over it, creating a layered parallax effect where the background appears to move slower."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, such as text blocks and timeline entries, are revealed with a subtle fade-in and slight upward slide as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A unique horizontal timeline layout is used to present career milestones, breaking from the vertical flow of other content sections."
+    }
+  ],
+  "technique_notes": [
+    "Implement a full-width, auto-playing video as a fixed background element in the hero section, allowing subsequent content to scroll over it for a parallax-like effect.",
+    "Utilize scroll-triggered animations (css-keyframes) to reveal content sections, applying a combination of opacity changes and subtle vertical translation as elements enter the user's viewport.",
+    "Design a sticky sidebar element that appears after a certain scroll depth, providing persistent navigation or contextual information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f6e86c",
+        "role": "accent"
+      },
+      {
+        "hex": "#282828",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Brush Script MT",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Lucida Grande",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Lucida Grande",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Hero text is dramatically oversized (~5-6x body), section headings are large and bold (~3x body), with small uppercase labels for sub-headings.",
+    "radius": "Sharp corners throughout, no visible rounding.",
+    "spacing": "Airy, with generous vertical spacing between major content blocks and within the hero section, creating a sense of grandeur."
+  },
+  "standout": "The site's standout feature is its dramatic, full-bleed video hero that acts as a fixed background while content scrolls over it, combined with the bold, high-contrast dark aesthetic and impactful red typography. The unique horizontal timeline presentation also adds a distinctive touch.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "one-page-love-anidachi-com-efe5c1",
+  "source": {
+    "url": "https://anidachi.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-anidachi-com-efe5c1.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-anidachi-com-efe5c1__scroll0.webp",
+      "shots/_proposed/one-page-love-anidachi-com-efe5c1__scroll1.webp",
+      "shots/_proposed/one-page-love-anidachi-com-efe5c1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "digital-pet",
+      "toy"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Vibrant, full-bleed background colors define distinct content sections, creating strong visual breaks and a playful mood."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, pixelated display headings serve as prominent visual anchors for each section, contrasting with clean sans-serif body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero content scrolls away to reveal a larger, centered product shot that takes over the viewport, creating a focused product reveal."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle pixelated background pattern continuously shifts or parallaxes as the user scrolls, adding dynamic texture."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width, full-height sections, each with a distinct background color and a large, centered heading."
+    }
+  ],
+  "technique_notes": [
+    "Achieve a retro-futuristic pixel art aesthetic by using a custom pixelated font for display text and integrating pixel-grid patterns into backgrounds and graphic elements.",
+    "Create distinct full-width sections with vibrant, solid background colors that scroll into view, each introduced by an oversized, pixelated heading.",
+    "Implement scroll-triggered animations (using css-keyframes) where initial hero content scrolls out, revealing a larger, focused product image that temporarily takes over the viewport. A sticky call-to-action button persists in the header throughout the scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#24c0fe",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0e1216",
+        "role": "text"
+      },
+      {
+        "hex": "#a7f03d",
+        "role": "background"
+      },
+      {
+        "hex": "#ff69b4",
+        "role": "background"
+      },
+      {
+        "hex": "#ff4081",
+        "role": "background"
+      },
+      {
+        "hex": "#e0f8cf",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Press Start 2P",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, pixelated display headings (~4-5x body) with clean, legible sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on product elements, but overall aesthetic leans sharp/pixelated.",
+    "spacing": "Airy and generous spacing between full-bleed sections, creating clear visual separation and impact."
+  },
+  "standout": "The site's distinctive pixel art aesthetic, combined with vibrant, almost neon color blocking and a playful, retro-futuristic product design, creates a unique and memorable brand identity that stands apart from typical modern tech product sites. The oversized, pixelated headings are a strong visual signature.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

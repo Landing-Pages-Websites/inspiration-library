@@ -1,0 +1,117 @@
+{
+  "id": "one-page-love-pelatapieces-com-d17a4b",
+  "source": {
+    "url": "https://www.pelatapieces.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-pelatapieces-com-d17a4b.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-pelatapieces-com-d17a4b__scroll0.webp",
+      "shots/_proposed/one-page-love-pelatapieces-com-d17a4b__scroll1.webp",
+      "shots/_proposed/one-page-love-pelatapieces-com-d17a4b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-design",
+      "retail",
+      "toys"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses a long-scrolling, single-page layout where each product is presented in a distinct, full-width section with a large, colorful heading."
+    },
+    {
+      "kind": "type",
+      "note": "There is a strong typographic contrast between oversized, bold, and colorful display headings for product names and small, monospaced body text for descriptions and details."
+    },
+    {
+      "kind": "color",
+      "note": "Each product section is visually segmented by assigning a unique, vibrant accent color to its primary heading, creating a playful and distinct identity for each item."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the page, each product section, particularly its large, colorful heading and accompanying text, appears to animate into view with a subtle reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Product sections consistently follow a structure of a large, colorful product name, followed by a smaller 'by [designer]' credit, then a two-column layout for descriptive text and a 'Shop Now' call to action."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the distinct product section presentation, use a full-width container for each product. The large, colorful headings should be rendered with a custom display font and dynamically assigned a unique accent color.",
+    "Implement scroll-triggered animations using a JavaScript library (or the detected canvas animation engine) to reveal each product section as it enters the viewport. The large, colorful headings could animate with a slight scale-up and fade-in, while the accompanying monospaced text fades in after a short delay.",
+    "The body text and calls to action should use a monospaced font with generous line-height for readability, contrasting sharply with the display headings. CTA buttons should feature a thin border matching the section's accent color."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ff7711",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#da532c",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#66cc33",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#e6d900",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#777777",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact-esque Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "subheading"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extreme contrast with oversized, bold display headings (~5-6x body) and small, monospaced body text, creating a playful and impactful hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical spacing between sections and around the large display headings."
+  },
+  "standout": "The site's design is distinctive for its bold, playful use of oversized, colorful typography for product names, which creates an immediate, toy-like aesthetic. This strong visual identity is uniquely contrasted with a minimal, monospaced body text, making the product names the undeniable heroes of the page.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

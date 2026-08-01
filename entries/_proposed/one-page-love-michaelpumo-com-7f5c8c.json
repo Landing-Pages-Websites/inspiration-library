@@ -1,0 +1,113 @@
+{
+  "id": "one-page-love-michaelpumo-com-7f5c8c",
+  "source": {
+    "url": "https://michaelpumo.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-michaelpumo-com-7f5c8c.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-michaelpumo-com-7f5c8c__scroll0.webp",
+      "shots/_proposed/one-page-love-michaelpumo-com-7f5c8c__scroll1.webp",
+      "shots/_proposed/one-page-love-michaelpumo-com-7f5c8c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-services",
+      "design",
+      "development",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical two-column layout with a large, prominent portrait image on the right and the main heading and call-to-action on the left."
+    },
+    {
+      "kind": "layout",
+      "note": "Project showcases consistently use a two-column grid where each project entry presents text details on the left and a corresponding visual (image or graphic) on the right."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark mode theme, primarily using a black background with white text, punctuated by subtle, vibrant accent colors for interactive elements and visual highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks (such as project cards and the 'Play' section items) are revealed with a subtle slide-up and fade-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's large portrait image on the right appears to be sticky or parallax slightly, remaining in view longer or moving slower than the accompanying text content on the left as the user scrolls down."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes scroll-triggered animations, likely powered by GSAP ScrollTrigger, to create dynamic reveals. As the user scrolls, content sections and individual elements (like project cards) animate into view with a staggered fade-up and subtle slide-in effect from the bottom.",
+    "The hero section implements a sophisticated scroll effect where the main textual content scrolls up and out of view, while a large background image on the right side remains fixed or moves with a subtle parallax, creating a sense of depth before the entire hero section eventually transitions off-screen.",
+    "The overall design language is built on a high-contrast dark theme, emphasizing bold, sans-serif typography for headings and a clean, readable sans-serif for body text, ensuring strong visual hierarchy and legibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#d83333",
+        "role": "accent"
+      },
+      {
+        "hex": "#3ecf8e",
+        "role": "accent"
+      },
+      {
+        "hex": "#61dafb",
+        "role": "accent"
+      },
+      {
+        "hex": "#f041ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#d97757",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Saans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Saans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (hero ~3-4x body) provide strong hierarchy, complemented by a clean, readable sans-serif for body text, maintaining a modern and impactful character.",
+    "radius": "Sharp corners are consistently applied across all content blocks, cards, and interactive elements, contributing to a precise and modern aesthetic.",
+    "spacing": "Balanced to airy, with generous negative space around major sections and content blocks, particularly in the hero, creating a clean and uncluttered visual rhythm."
+  },
+  "standout": "This site distinguishes itself with a highly personalized dark mode aesthetic, combining bold, clean typography with subtle, sophisticated scroll-triggered animations that bring content to life. The explicit 'Play' section, inviting users to customize typeface and palette, showcases a unique attention to design detail and user preference, making the site feel interactive and bespoke.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "proposed"
+}

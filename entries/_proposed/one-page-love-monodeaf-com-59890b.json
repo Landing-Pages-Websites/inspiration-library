@@ -1,0 +1,112 @@
+{
+  "id": "one-page-love-monodeaf-com-59890b",
+  "source": {
+    "url": "https://monodeaf.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-monodeaf-com-59890b.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-monodeaf-com-59890b__scroll0.webp",
+      "shots/_proposed/one-page-love-monodeaf-com-59890b__scroll1.webp",
+      "shots/_proposed/one-page-love-monodeaf-com-59890b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "artist-portfolio",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent, fixed-position left sidebar houses primary navigation and secondary content (like releases), while the main content area scrolls independently on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, featuring massive, condensed display headings (e.g., 'SIKK KIDD') alongside smaller, highly legible sans-serif body text and monospaced data labels."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode palette with deep black backgrounds, high-contrast white text, and subtle gray for secondary elements, accented by vibrant green for positive data indicators."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a 3D album art element that subtly rotates and reveals more of its depth as the user scrolls, creating a dynamic visual effect, while the left sidebar remains sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Data visualization is presented in a grid of distinct, dark-themed cards, each with high-contrast numerical values and clear labels, providing an at-a-glance overview of statistics."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed-position left sidebar that remains visible and interactive while the main content area scrolls independently, using CSS `position: fixed` and appropriate z-indexing.",
+    "Create a hero section where a 3D-transformed album art element subtly rotates and reveals more of its depth as the user scrolls, likely using GSAP ScrollTrigger to link scroll progress to CSS `transform` properties for rotation and perspective.",
+    "Utilize a dark color scheme with high contrast text and subtle accent colors for data visualization, applying subtle rounded corners to interactive elements and content cards for a polished feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#030303",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#808080",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent-positive"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Funnel Display",
+        "role": "display"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Massive, condensed display headings (~5x body) with clean sans-serif body text and smaller monospaced labels for data.",
+    "radius": "Subtle rounded corners on buttons and card elements, maintaining a generally sharp aesthetic.",
+    "spacing": "Very airy, with generous vertical spacing between sections and within the hero, creating an uncrowded and spacious feel."
+  },
+  "standout": "The site's distinctive design lies in its persistent, fixed left sidebar, which creates an almost desktop-application feel for a web page. This, combined with the extreme contrast in typography and the subtle 3D parallax of the hero album art, elevates it beyond a typical marketing site. If a builder copied only one idea, it should be the integrated, content-rich fixed sidebar.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

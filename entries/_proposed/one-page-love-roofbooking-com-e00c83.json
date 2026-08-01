@@ -1,0 +1,96 @@
+{
+  "id": "one-page-love-roofbooking-com-e00c83",
+  "source": {
+    "url": "https://www.roofbooking.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-roofbooking-com-e00c83.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-roofbooking-com-e00c83__scroll0.webp",
+      "shots/_proposed/one-page-love-roofbooking-com-e00c83__scroll1.webp",
+      "shots/_proposed/one-page-love-roofbooking-com-e00c83__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "booking",
+      "talent-agency",
+      "music-industry"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sparse, single-column layout with abundant negative space, especially in the hero section, creating a minimalist and focused presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of extremely large, ultra-thin sans-serif typography for headings and list items, making text a primary visual and atmospheric element."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black and white is dramatically accented by a single, vibrant, glowing yellow-green graphic."
+    },
+    {
+      "kind": "motion",
+      "note": "The logo in the header shrinks and sticks to the top-left corner upon scrolling, while a large, glowing circular graphic in the background parallaxes, moving slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "A distinct hero section featuring oversized branding and a prominent graphic, followed by a long, scrollable list of content items presented with large, repeating typography."
+    }
+  ],
+  "technique_notes": [
+    "The header logo implements a sticky behavior, transforming its size to a smaller scale as the user scrolls down the page.",
+    "A large, luminous background graphic employs a parallax scrolling effect, creating a sense of depth by moving at a slower rate than the foreground content.",
+    "Content sections, specifically the list of names, are revealed progressively as the user scrolls into view, likely facilitated by the locomotive-scroll library for a smooth and controlled scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#DFFF00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter Thin",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter Thin",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, thin hero headings (~5-6x body text) with small, regular-weight body text. List items also use very large, thin typography.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero section, transitioning to a denser layout with large text elements in the content list sections."
+  },
+  "standout": "The site's standout feature is its bold, almost abstract minimalism, using a single, large, glowing graphic and oversized, ultra-thin typography as the primary visual and informational elements. This creates a unique, atmospheric brand presence that prioritizes visual impact and mood over conventional content density.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

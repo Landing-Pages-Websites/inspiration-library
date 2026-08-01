@@ -1,0 +1,111 @@
+{
+  "id": "one-page-love-creativeatishay-in-b225d9",
+  "source": {
+    "url": "https://creativeatishay.in",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-creativeatishay-in-b225d9.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-creativeatishay-in-b225d9__scroll0.webp",
+      "shots/_proposed/one-page-love-creativeatishay-in-b225d9__scroll1.webp",
+      "shots/_proposed/one-page-love-creativeatishay-in-b225d9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a single, narrow, centered column with extremely wide side margins, creating a focused reading experience on a predominantly white canvas."
+    },
+    {
+      "kind": "layout",
+      "note": "Timeline-style presentation is used for 'EXPERIENCE' and 'PROJECTS' sections, with dates aligned to the left and corresponding content blocks to the right."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Let's Talk' section is designed as an interactive chat interface, mimicking a messaging application with sender/receiver bubbles."
+    },
+    {
+      "kind": "motion",
+      "note": "Whimsical, illustrative elements (a cloud, a tree, and a small animal) are fixed to the viewport corners, providing a persistent visual frame that remains in place as the main content scrolls."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette of white background and dark grey text is accented by a vibrant blue for interactive elements and subtle, earthy tones from the whimsical illustrations."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the fixed whimsical elements, small illustrative assets (likely Lottie animations or SVGs) are absolutely positioned relative to the viewport, ensuring they remain visible and static in the corners during page scroll.",
+    "The chat interface is built using distinct message bubble components, styled to resemble a conversation, with interactive elements for user input or contact information.",
+    "The site primarily relies on standard vertical scrolling to reveal content sections, without complex scroll-triggered fade-ins, slide-ins, or parallax effects on the main content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#2c2c2c",
+        "role": "text"
+      },
+      {
+        "hex": "#4285F4",
+        "role": "accent"
+      },
+      {
+        "hex": "#74b843",
+        "role": "illustration"
+      },
+      {
+        "hex": "#7e5f32",
+        "role": "illustration"
+      },
+      {
+        "hex": "#d8b876",
+        "role": "illustration"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "balanced, clear hierarchy with moderately larger headings (~1.5-2x body) and small uppercase labels for section titles.",
+    "radius": "subtle for interactive elements like buttons and chat bubbles, with most other content blocks featuring sharp corners.",
+    "spacing": "airy, characterized by generous vertical spacing between sections and very wide horizontal margins around the central content column."
+  },
+  "standout": "This site distinguishes itself with whimsical, fixed illustrations that frame the content, adding a playful touch to an otherwise minimal design. The 'Let's Talk' section, designed as an interactive chat interface, provides a unique and engaging way for visitors to connect. The timeline-style presentation of experience and projects also offers a clear and structured narrative.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "one-page-love-belgrade-klmln-com-630473",
+  "source": {
+    "url": "https://belgrade.klmln.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-belgrade-klmln-com-630473.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-belgrade-klmln-com-630473__scroll0.webp",
+      "shots/_proposed/one-page-love-belgrade-klmln-com-630473__scroll1.webp",
+      "shots/_proposed/one-page-love-belgrade-klmln-com-630473__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "history",
+      "cultural-heritage"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are presented as full-width grayscale images, each followed by a numbered caption and a brief description, creating a sequential, gallery-like experience."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, blocky, pixelated display font is used for all major headings and numerical labels, creating a strong visual identity that contrasts with a clean, modern sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "The design employs a stark, high-contrast color palette, primarily using a vibrant, almost neon red as an accent color against a monochromatic grayscale background for all imagery and most text."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero title dynamically transforms on scroll, shrinking significantly and repositioning from a large, central display to a persistent, smaller header element in the top-left corner."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, consisting of image-text pairs, reveal sequentially as the user scrolls down the page, appearing to slide up into the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each content item is structured as a full-bleed image, followed by a large, blocky number and a concise textual description, forming a consistent module for presenting information."
+    }
+  ],
+  "technique_notes": [
+    "The hero title is implemented with a scroll-triggered transformation, where its font size and position animate to a smaller, fixed header state as the user scrolls past the initial viewport.",
+    "Content sections are revealed using a scroll-based animation, where each section appears to slide or fade up into view as it enters the viewport, creating a staggered reveal effect.",
+    "A sticky navigation element remains visible in the top right corner, and a distinct, full-width red footer section with 'Back to top' functionality appears to stick to the bottom of the viewport once the main content is scrolled past."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#E62E4A",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "background"
+      },
+      {
+        "hex": "#8C8C8C",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pixelated Sans-serif",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, blocky display headings (~4-5x body) and large numbers, contrasted with a clean, smaller sans-serif for body text and uppercase labels.",
+    "radius": "Sharp corners throughout all elements, contributing to a stark aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major content blocks and a more compact arrangement for image-text pairs."
+  },
+  "standout": "The site's design is highly distinctive for its bold, almost brutalist aesthetic, achieved through the striking combination of a vibrant, almost neon red with stark grayscale photography. The unique pixelated display font for headings and numbering, coupled with the dynamic transformation of the hero title into a persistent header, creates a memorable and unconventional user experience that feels both modern and archival.",
+  "animation_tech": [],
+  "status": "proposed"
+}

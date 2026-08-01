@@ -1,0 +1,116 @@
+{
+  "id": "one-page-love-magnetlover-com-0bb998",
+  "source": {
+    "url": "https://www.magnetlover.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-magnetlover-com-0bb998.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-magnetlover-com-0bb998__scroll0.webp",
+      "shots/_proposed/one-page-love-magnetlover-com-0bb998__scroll1.webp",
+      "shots/_proposed/one-page-love-magnetlover-com-0bb998__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "merchandise",
+      "entertainment"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, grid-based layout with full-width content sections, using a subtle grid pattern in the background for texture."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, wide, and bold display typeface for main headings, creating a strong visual impact, contrasted with a more standard sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast between a deep purple-grey background and off-white text, punctuated by a vibrant, multi-color rainbow accent palette used for lines and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Parallaxing 3D-rendered magnet elements in the hero section move and rotate at different speeds as the user scrolls, creating a sense of depth and playfulness."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually separated and connected by continuous, scrolling colorful 'tape' lines that act as a dynamic branding motif throughout the page."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that slightly reduces in height and gains a solid background color upon scroll, maintaining navigation visibility.",
+    "Hero elements, specifically the scattered 3D magnet graphics, are animated with a parallax effect, moving and rotating at varying speeds relative to the scroll position, creating a sense of depth. This is likely achieved using css-keyframes for the individual element transformations and scroll-triggered JavaScript for timing.",
+    "Content sections below the hero appear to reveal with a subtle fade-in or slide-up animation as they enter the viewport, likely triggered by scroll events."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#30293a",
+        "role": "background"
+      },
+      {
+        "hex": "#f8e6d1",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#fcc716",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#5a5266",
+        "role": "secondary-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Doner Semi Bold Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, wide, bold display headings (~4-5x body text) for impact, paired with a clean, legible sans-serif for body text.",
+    "radius": "Sharp corners for most interactive elements and content blocks, giving a structured, almost retro-digital feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a comfortable line height for body text."
+  },
+  "standout": "The distinctive retro-futuristic aesthetic, particularly the use of 3D-rendered, parallaxing 'magnet' elements and the continuous, scrolling 'tape recorder' rainbow lines, creates a strong, playful, and memorable brand identity. This unique visual language elevates the site beyond a typical marketing page.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

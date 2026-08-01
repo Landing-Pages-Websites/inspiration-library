@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-nor-ma-b75219",
+  "source": {
+    "url": "https://nor.ma",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-nor-ma-b75219.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-nor-ma-b75219__scroll0.webp",
+      "shots/_proposed/one-page-love-nor-ma-b75219__scroll1.webp",
+      "shots/_proposed/one-page-love-nor-ma-b75219__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "tech",
+      "productivity"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with high-contrast alternating dark and light backgrounds, creating distinct visual breaks and emphasizing content."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, and bold sans-serif headings are consistently paired with smaller, lighter body text and tiny, uppercase labels for contextual information."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black, white, and dark gray dominates, creating a sophisticated and minimal aesthetic with very limited use of accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images and videos in hero-like sections exhibit a subtle parallax effect, scrolling slower than the foreground text and elements."
+    },
+    {
+      "kind": "motion",
+      "note": "New content sections are revealed with a smooth slide-up animation as they enter the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Key product imagery and video are integrated as immersive, full-bleed backgrounds or central, large-scale elements within sections, often with minimal text overlays."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling library (locomotive-scroll) to create a fluid and continuous scroll experience across the entire page.",
+    "Hero and prominent product sections utilize full-bleed video or high-resolution photography backgrounds, often with a subtle dark overlay to ensure optimal text legibility.",
+    "Scroll-triggered animations (likely via locomotive-scroll) reveal new content sections by sliding them up from the bottom of the viewport with a gentle ease-in effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold headings (~4-5x body text) with smaller, lighter body text and tiny, uppercase labels for context.",
+    "radius": "Subtle rounding (2-4px) on buttons and some interactive elements, otherwise sharp.",
+    "spacing": "Airy, with generous vertical spacing between sections and within content blocks, creating a sense of openness and focus on individual elements."
+  },
+  "standout": "The site's distinctive use of full-bleed, high-quality product photography and video as immersive backgrounds, combined with sophisticated scroll-triggered animations and a minimalist aesthetic, creates a highly engaging and premium brand experience. The physical product is consistently the hero, presented with a sense of gravitas and modern elegance.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
