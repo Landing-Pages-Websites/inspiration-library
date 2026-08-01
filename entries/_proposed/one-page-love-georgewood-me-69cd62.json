@@ -1,0 +1,101 @@
+{
+  "id": "one-page-love-georgewood-me-69cd62",
+  "source": {
+    "url": "https://www.georgewood.me",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-georgewood-me-69cd62.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-georgewood-me-69cd62__scroll0.webp",
+      "shots/_proposed/one-page-love-georgewood-me-69cd62__scroll1.webp",
+      "shots/_proposed/one-page-love-georgewood-me-69cd62__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "web-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Two-column split layout with a fixed-width left content column and a full-height, full-width right background panel."
+    },
+    {
+      "kind": "motion",
+      "note": "The left content column scrolls vertically, while the right background panel remains static, creating a fixed split-screen effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The top-left header block (name, location, listening to) remains sticky at the top of the viewport as the page scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "A 'Recently Watched' section features a horizontally scrolling grid of content cards (movie posters)."
+    },
+    {
+      "kind": "type",
+      "note": "Extensive use of small, highly legible sans-serif text for body content and list items, with minimal variation in size for headings."
+    }
+  ],
+  "technique_notes": [
+    "Split-screen layout where one side scrolls independently: The main content area is a fixed-width column that scrolls, while a large, solid color panel occupies the remaining viewport width and remains fixed in place, creating a strong visual anchor.",
+    "Sticky header element: A specific content block at the top of the left column is positioned to remain visible at the top of the viewport as the user scrolls down the page, providing persistent context.",
+    "Horizontal content carousel: A section displays a grid of items that can be scrolled horizontally within its container, allowing for more content to be presented without increasing vertical page length."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0038ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, highly legible body text with slightly larger, but not dramatically scaled, headings, maintaining a consistent and understated typographic hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced for general content, with a denser grid for the horizontal scroll section."
+  },
+  "standout": "The most distinctive feature is the fixed split-screen layout where only the left content column scrolls, creating a strong visual anchor and a unique browsing experience. This provides a clear separation of content from the background, making the page feel both dynamic and stable.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

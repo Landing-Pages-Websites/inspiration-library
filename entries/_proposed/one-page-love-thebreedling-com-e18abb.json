@@ -1,0 +1,89 @@
+{
+  "id": "one-page-love-thebreedling-com-e18abb",
+  "source": {
+    "url": "https://thebreedling.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-thebreedling-com-e18abb.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-thebreedling-com-e18abb__scroll0.webp",
+      "shots/_proposed/one-page-love-thebreedling-com-e18abb__scroll1.webp",
+      "shots/_proposed/one-page-love-thebreedling-com-e18abb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "experimental-media",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast monochrome palette dominates, using pure black for the background and pure white for all primary text and graphic elements."
+    },
+    {
+      "kind": "type",
+      "note": "All text on the page utilizes a single, distinct display font, with the main 'ENTER' call-to-action featuring a larger size and a subtle outline effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The page features continuous, non-scroll-triggered animation of a central skeletal ouroboros graphic and subtle background particles, creating a dynamic yet static entry point. The 'ENTER' text also exhibits a glitch-like character scramble before settling."
+    },
+    {
+      "kind": "layout",
+      "note": "The design is a single, full-screen, centrally-aligned interactive gateway, devoid of traditional navigation or content sections, focusing entirely on the central graphic and call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "The entire page is a single, non-scrolling view. A canvas element is used to render a continuously animating particle effect in the background, giving a subtle sense of depth and movement.",
+    "A central graphic, likely rendered via canvas or SVG, is continuously animated to simulate a slow, organic rotation or crawling motion of the ouroboros.",
+    "The primary call-to-action text features a character-scramble or glitch effect on initial load, settling into its final state."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Truculenta",
+        "role": "display"
+      }
+    ],
+    "type_scale": "A single display font is used across all text, with the main 'ENTER' CTA being significantly larger and outlined, and secondary text being smaller and plain.",
+    "radius": "Sharp corners are consistently applied to all interactive elements and the warning box.",
+    "spacing": "Very airy, characterized by a large central focus element and ample negative space, creating a sense of isolation and emphasis."
+  },
+  "standout": "The site's design is distinctive for its stark, high-contrast monochrome aesthetic combined with a continuously animating, unsettling central graphic. It eschews traditional navigation and content sections, instead presenting a single, immersive, and slightly ominous interactive gateway that immediately sets a unique mood.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

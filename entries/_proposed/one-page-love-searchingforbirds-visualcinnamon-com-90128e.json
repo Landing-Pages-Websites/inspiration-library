@@ -1,0 +1,108 @@
+{
+  "id": "one-page-love-searchingforbirds-visualcinnamon-com-90128e",
+  "source": {
+    "url": "https://searchingforbirds.visualcinnamon.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-searchingforbirds-visualcinnamon-com-90128e.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-searchingforbirds-visualcinnamon-com-90128e__scroll0.webp",
+      "shots/_proposed/one-page-love-searchingforbirds-visualcinnamon-com-90128e__scroll1.webp",
+      "shots/_proposed/one-page-love-searchingforbirds-visualcinnamon-com-90128e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "data-visualization",
+      "ornithology"
+    ],
+    "mood": [
+      "playful",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Long-form, single-page editorial layout with generous vertical spacing and centered content blocks, creating an airy and focused reading experience."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy featuring a large, elegant display serif font for main titles, complemented by a clean, readable sans-serif for body text and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, muted background palette (light beige) provides a calm canvas, against which vibrant, illustrative accent colors are used extensively within custom data visualizations and detailed illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals: Content sections and individual elements (text blocks, charts, illustrations) animate into view with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero parallax: The decorative bird illustrations surrounding the main title in the hero section move at a slower rate than the foreground content, creating a subtle parallax depth effect as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of custom, colorful data visualizations and detailed bird illustrations integrated directly into the content flow, acting as visual anchors and engaging section dividers."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience (likely using locomotive-scroll) combined with scroll-triggered animations. As the user scrolls, content blocks and visual elements are revealed with a gentle fade and a slight upward slide.",
+    "The initial hero section features background elements that parallax, moving at a different speed than the foreground text, to create a sense of depth.",
+    "Large, custom illustrations and data visualizations are integrated full-width or near full-width, often appearing with a gentle animation as they come into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f4efe5",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#ecc3a0",
+        "role": "accent"
+      },
+      {
+        "hex": "#f9564e",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffcc2d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Jost",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant display heading (~3-4x body) for the main title, with clear, slightly smaller sans-serif subheadings and readable body text.",
+    "radius": "Sharp (mostly square edges for content blocks and images, though illustrations are organic).",
+    "spacing": "Very airy, especially in the hero and between major content sections, creating a relaxed and editorial feel."
+  },
+  "standout": "The site's standout feature is its seamless integration of highly detailed, custom bird illustrations and sophisticated data visualizations directly into a long-form editorial piece. This creates a visually rich and engaging narrative that elevates the content beyond a typical article, making it feel like an interactive report or a digital art piece.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}
