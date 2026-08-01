@@ -1,0 +1,119 @@
+{
+  "id": "siteinspire-goodmeat-co-b91aab",
+  "source": {
+    "url": "https://www.goodmeat.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-goodmeat-co-b91aab.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-goodmeat-co-b91aab__scroll0.webp",
+      "shots/_proposed/siteinspire-goodmeat-co-b91aab__scroll1.webp",
+      "shots/_proposed/siteinspire-goodmeat-co-b91aab__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.goodmeat.co/process",
+        "full": "shots/_proposed/siteinspire-goodmeat-co-b91aab__p2.webp"
+      },
+      {
+        "url": "https://www.goodmeat.co/purpose",
+        "full": "shots/_proposed/siteinspire-goodmeat-co-b91aab__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "biotechnology",
+      "cultivated-meat"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed imagery and video sections alternate with solid color blocks, often featuring a split layout with large media on one side and text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, sans-serif headings are used as dominant visual elements, frequently overlapping or interacting with background imagery or solid color fields."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette dominated by vibrant orange, stark black, and clean white/off-white creates a bold and impactful visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections scroll into view, replacing the previous section, with text and key visual elements animating in (fading up or sliding) as they become visible."
+    },
+    {
+      "kind": "motion",
+      "note": "A minimal navigation bar at the top and a distinctive brand mark in the bottom-left corner remain fixed in position as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Hero and key informational sections frequently combine large, impactful typography with dynamic media (video or high-quality photography) to convey core messages."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed sequentially as the user scrolls, with text and imagery animating into place (e.g., fading up or sliding from the side) once their section enters the viewport, likely using CSS keyframes. The initial hero features an auto-playing background video. Both the top navigation and a distinctive brand mark in the bottom-left corner are implemented as sticky elements, remaining visible throughout the scroll.",
+    "The site employs a grid-based layout for content sections, often splitting the screen horizontally or vertically with large media on one side and text on the other, or full-width content blocks.",
+    "Typography utilizes a display-style sans-serif font for headings, rendered at extremely large sizes to create a strong visual impact, often set against contrasting solid color backgrounds or overlaid on imagery with sufficient contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF5028",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F5F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#4A5464",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sharp Grotesk Medium 25",
+        "role": "heading"
+      },
+      {
+        "family": "Haas Grot Disp R Roman",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold, condensed sans-serif headings (up to ~6x body text size) paired with a clean, legible sans-serif for body copy.",
+    "radius": "Sharp, with minimal to no visible corner rounding on elements or containers.",
+    "spacing": "Airy, with generous vertical spacing between major sections and ample padding within content blocks, creating a sense of openness."
+  },
+  "standout": "The site's standout feature is its audacious use of massive, bold typography as a primary design element, often layered over dynamic video backgrounds or stark color blocks. This, combined with a high-contrast, limited color palette and full-bleed media, creates an incredibly impactful and almost brutalist aesthetic that feels both modern and authoritative.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-mathesonfoodcompany-com-21a9bd",
+  "source": {
+    "url": "https://www.mathesonfoodcompany.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-mathesonfoodcompany-com-21a9bd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-mathesonfoodcompany-com-21a9bd__scroll0.webp",
+      "shots/_proposed/siteinspire-mathesonfoodcompany-com-21a9bd__scroll1.webp",
+      "shots/_proposed/siteinspire-mathesonfoodcompany-com-21a9bd__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "e-commerce",
+      "retail"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections utilize alternating background colors (red, white, light grey, yellow) to visually delineate different content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, uppercase sans-serif typography is used for the main brand name as a background element and for prominent section titles, creating a strong, almost confrontational visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast primary palette of vibrant red, stark white, and deep black dominates the design, with occasional bright yellow accents for specific product categories or highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A massive, red, uppercase brand name ('MATHESON FOOD COMPANY') acts as a persistent background element, scrolling at a slower rate than the foreground content to create a parallax depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact, sticky navigation bar with a white background and brand logo appears at the top of the viewport after the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Product and recipe sections are presented in a two-column grid layout, each item featuring an image, bold title, and sometimes a brief descriptor, often against a solid background color."
+    }
+  ],
+  "technique_notes": [
+    "A large, full-viewport background text element is positioned with a lower z-index and scrolls at a slower, controlled rate than the main content using CSS transforms or JavaScript-driven parallax, creating a dynamic sense of depth.",
+    "A primary navigation bar is initially integrated into the hero or hidden, then becomes fixed to the top of the viewport with a distinct background color and reduced height after the user scrolls past a predefined threshold.",
+    "Content sections employ full-bleed background colors that alternate to clearly separate different thematic blocks, often using a simple two-column grid for displaying product or recipe items."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#D62121",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EBEBEB",
+        "role": "surface"
+      },
+      {
+        "hex": "#FEE700",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Arial",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase sans-serif headings (~10x body text height) with smaller, regular-weight sans-serif body and label text, creating a high-impact typographic hierarchy.",
+    "radius": "Sharp corners throughout, with no visible rounding on buttons, cards, or image containers.",
+    "spacing": "Balanced to dense in product grids and feature sections, with generous vertical spacing between major content blocks to maintain readability despite the bold aesthetic."
+  },
+  "standout": "The site's most distinctive feature is the aggressive use of an enormous, red, uppercase brand name ('MATHESON FOOD COMPANY') as a persistent, parallaxing background element that scrolls slowly behind all content. This, combined with the sharp, high-contrast color palette and direct typography, gives it a raw, unapologetic, and highly memorable brand presence.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
