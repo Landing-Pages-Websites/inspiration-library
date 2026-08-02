@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-valiocon-com-f195ca",
+  "source": {
+    "url": "https://valiocon.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-valiocon-com-f195ca.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-valiocon-com-f195ca__scroll0.webp",
+      "shots/_proposed/lapa-ninja-valiocon-com-f195ca__scroll1.webp",
+      "shots/_proposed/lapa-ninja-valiocon-com-f195ca__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "events",
+      "tech-conference"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first",
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed hero video background subtly persists throughout the entire page, transitioning into a desaturated, fixed background image that unifies all content sections."
+    },
+    {
+      "kind": "type",
+      "note": "A playful, oversized, bold sans-serif display font is used for the main conference branding, contrasted with an elegant serif font for section headings and a clean sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, energetic blue is used as a primary accent color for calls-to-action and key branding elements, standing out against a largely neutral palette of off-white and dark grey."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero text (conference name and tagline) scrolls up and fades out as the user scrolls down, while a sticky 'Register' button with a price remains fixed at the bottom right of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, generously spaced sections, each introduced by a large, centered serif heading, giving an editorial and structured feel."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video background is used in the hero section, which then transitions into a fixed, highly desaturated or overlaid background image that subtly unifies the entire page content as the user scrolls.",
+    "The main hero text animates out of view with a fade and scroll-up effect using CSS keyframes as the user scrolls down, revealing the content below.",
+    "A persistent, sticky call-to-action button with a price indicator is anchored to the bottom right of the viewport, maintaining a clear conversion path."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#325aed",
+        "role": "accent"
+      },
+      {
+        "hex": "#202021",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f4ef",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Instrument Serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Features an oversized, bold sans-serif display font for the hero and main branding, contrasted with a more traditional, readable serif for section titles and a clean sans-serif for body text, creating a clear hierarchy.",
+    "radius": "Subtle rounded corners (e.g., 8-12px) are consistently applied to buttons, image containers (speakers), and content cards.",
+    "spacing": "Generally airy, with generous vertical padding between major sections and balanced spacing within content blocks, contributing to a clean, uncluttered feel."
+  },
+  "standout": "The most distinctive feature is the continuous, subtle background video/image that persists throughout the entire page, creating a cohesive and immersive experience. This is effectively combined with the playful, oversized typography for the conference branding and a direct, sticky call-to-action with pricing.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "one-page-love-caitobin-com-f63133",
+  "source": {
+    "url": "https://www.caitobin.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-caitobin-com-f63133.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-caitobin-com-f63133__scroll0.webp",
+      "shots/_proposed/one-page-love-caitobin-com-f63133__scroll1.webp",
+      "shots/_proposed/one-page-love-caitobin-com-f63133__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "diving",
+      "athlete-personal-brand"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with a large, bold text block on a solid background on the left, paired with a full-bleed video on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Dense, multi-column grid layout for displaying detailed performance statistics, where each card presents multiple data points and a prominent score."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a wide, uppercase sans-serif font for main headings and names, creating a strong, athletic brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast color scheme using a deep navy as the primary background, bright red as a strong accent for key names and numbers, and white for primary text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that plays automatically, providing dynamic visual interest upon page load."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed sequentially as the user scrolls down the page, with no observed complex scroll-triggered animations or sticky elements in the provided sequence."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated horizontal scrolling section showcases large, captioned images, allowing users to explore different aspects of the athlete's activity without vertical page jumps."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background to create an immersive and dynamic introduction, with text overlaid on a solid color block for optimal readability.",
+    "The site primarily relies on standard vertical scrolling to reveal content sections, presenting information in a clear, linear flow without complex scroll-triggered animations or parallax effects.",
+    "A horizontal scrollable component is implemented to display a series of large, captioned images, providing an interactive way to showcase visual content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f1f3d",
+        "role": "background"
+      },
+      {
+        "hex": "#d63c2a",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f0c040",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1a3260",
+        "role": "surface"
+      },
+      {
+        "hex": "#243b6e",
+        "role": "detail"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bebas Neue",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, wide uppercase headings for names and key metrics (~4-5x body), contrasted with smaller, legible sans-serif text for details and body content.",
+    "radius": "subtle (small corner radius on cards and buttons, giving a slightly softened edge)",
+    "spacing": "balanced (airy hero, but content sections like the results grid are dense and information-rich)"
+  },
+  "standout": "This site stands out by combining a dynamic video hero with an exceptionally data-driven presentation of an athlete's career. The dense, detailed performance grids and historical timelines create a compelling, authoritative personal brand experience that goes beyond typical athlete profiles.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

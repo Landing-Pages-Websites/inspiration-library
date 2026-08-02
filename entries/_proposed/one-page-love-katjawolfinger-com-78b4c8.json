@@ -1,0 +1,100 @@
+{
+  "id": "one-page-love-katjawolfinger-com-78b4c8",
+  "source": {
+    "url": "https://katjawolfinger.com/en",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-katjawolfinger-com-78b4c8.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-katjawolfinger-com-78b4c8__scroll0.webp",
+      "shots/_proposed/one-page-love-katjawolfinger-com-78b4c8__scroll1.webp",
+      "shots/_proposed/one-page-love-katjawolfinger-com-78b4c8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "personal-branding",
+      "tennis"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks often pair images and text, with one element sometimes spanning wider or acting as a full-bleed background."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif headings are used for section titles, creating a strong visual hierarchy and impactful statements."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color blocking is a dominant theme, primarily using black, white, and a vibrant lime green (#d9fd21) to define sections and highlight key information."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent overlay on the hero video to a solid, high-contrast lime green sticky bar with black text as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed, single-color background sections (especially lime green) are used to punctuate content flow and create visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "A full-width video plays as the hero background, which scrolls out of view to reveal the main page content. This uses the detected video-hero technique.",
+    "The primary navigation bar dynamically changes its appearance from transparent to a solid, high-contrast background color (lime green) and sticks to the top of the viewport after the initial hero section scrolls past.",
+    "Content sections are revealed sequentially as the user scrolls down the page, appearing from the bottom of the viewport without complex fade-ins or slides."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#d9fd21",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0d0d0d",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, uppercase-capable headings (up to ~4-5x body text size) are paired with smaller, regular-weight body text for high contrast and impact.",
+    "radius": "Sharp corners universally applied to all elements, including buttons and image frames.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and moderate padding within content blocks."
+  },
+  "standout": "The aggressive and consistent use of a high-contrast black and vibrant lime green color palette, combined with oversized, bold sans-serif typography, creates an energetic and almost brutalist aesthetic that is highly distinctive.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-thenewindustrials-com-4e5d6a",
+  "source": {
+    "url": "https://thenewindustrials.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-thenewindustrials-com-4e5d6a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-thenewindustrials-com-4e5d6a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-thenewindustrials-com-4e5d6a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-thenewindustrials-com-4e5d6a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "consulting",
+      "technology"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A strong, visible grid system is used throughout the site, with explicit lines defining content boundaries and creating an editorial, structured feel, particularly evident in the hero and footer."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast in typography, pairing an oversized, classic serif display font for major headings with a clean, modern sans-serif for body text and small, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs bold, high-contrast color shifts between major sections, transitioning from a vibrant gradient hero to light blue, dark, and then a striking lime green background for different content blocks and interior pages."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms its appearance: it is transparent on the initial homepage hero, but shifts to a solid black background with white text on interior pages, suggesting a sticky header behavior on scroll or page load."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is presented as a full-bleed block with a distinct background color or visual treatment, creating clear visual separation and a magazine-like layout."
+    }
+  ],
+  "technique_notes": [
+    "Implements a sticky header that dynamically changes its appearance (from transparent to a solid black bar with white text) either upon scrolling past the hero section or when navigating to interior pages. The hero section likely utilizes a canvas-based animation for its gradient background, potentially incorporating subtle movement or texture, as indicated by the 'canvas' and 'video-hero' hints.",
+    "Uses a robust grid system with visible divider lines to segment content, creating a precise and structured layout that enhances readability and visual hierarchy.",
+    "Integrates large, abstract 3D graphics as hero elements or prominent section visuals, often featuring vibrant, contrasting colors that stand out against solid or gradient backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      },
+      {
+        "hex": "#00BFFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#800080",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif display headings (~4-5x body) with small, uppercase sans-serif labels and a clean, readable sans-serif body.",
+    "radius": "sharp",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within text blocks, creating a sense of spaciousness."
+  },
+  "standout": "The site's most distinctive feature is its bold, almost jarring shifts in background color and visual style between sections, particularly the gradient hero, the dark image sections, and the vibrant lime green footer/interior page. This, combined with the strong grid lines and the use of abstract 3D art, creates a highly editorial and experimental aesthetic that breaks from typical corporate design.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
