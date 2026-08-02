@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-2026-0340",
+  "source": {
+    "url": "https://www.reducations.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0340.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0340__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0340__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0340__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "creative-technology",
+      "design-academy"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical layout with large, bold text overlapping a background image, complemented by a smaller, dynamically placed inset image."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely bold, condensed sans-serif typography is used for all major headings and the prominent brand name, creating a strong, impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is accented by vibrant orange for CTAs and a striking orange-to-purple gradient used for background transitions and the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "A massive, full-screen brand name ('REDUCTIONS') reveals from the bottom as the user scrolls, replacing the main content and transitioning the background to a vibrant gradient, acting as a dramatic brand statement and footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation button transforms from a transparent background to a solid purple background with white text as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Course offerings are presented in a clean grid of image-based cards, each featuring a bold title and a subtle hover effect."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonials are displayed in a multi-column grid of cards, each with a subtle background gradient and a clear profile image."
+    }
+  ],
+  "technique_notes": [
+    "The hero section combines a large background image with overlaying, dynamically positioned text and a smaller, layered image to create a rich, editorial visual depth.",
+    "Scroll-triggered animations, likely powered by GSAP, are used to reveal the large brand name as a full-screen takeover, transitioning the background to a vibrant gradient and creating a memorable brand moment.",
+    "The main navigation button dynamically changes its background color and opacity upon scroll, indicating a sticky state and providing visual feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "hex": "#9933FF",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#FF9933",
+        "role": "gradient-end"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed sans-serif headings (~4-6x body) create a bold statement, complemented by smaller uppercase labels and legible body text.",
+    "radius": "Subtle rounding is applied to buttons and cards, while main content blocks maintain sharp corners.",
+    "spacing": "Generally airy in the hero and between major sections, with a balanced density within content grids and card layouts."
+  },
+  "standout": "The most distinctive feature is the dramatic, full-screen reveal of the brand name 'REDUCTIONS' as a massive, animated element that takes over the page upon scroll, transforming into a vibrant gradient footer. This creates a powerful, memorable brand statement that is far from a generic footer.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

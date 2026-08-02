@@ -1,0 +1,108 @@
+{
+  "id": "one-page-love-2026-0149",
+  "source": {
+    "url": "https://frontend.supply",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0149.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0149__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0149__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0149__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web-development",
+      "agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within a maximum width, creating clear visual boundaries and generous negative space on either side."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast, minimal palette of black and white, punctuated by a subtle light gray for alternating section backgrounds, and vibrant blue, green, and red for specific status indicators and calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, establishing a strong hierarchy, while body text remains highly legible and clean, often accompanied by smaller, uppercase labels for clarity."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the page, new content sections subtly reveal themselves, likely sliding up or fading in from the bottom, creating a smooth and engaging content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by large, bold headings and often separated by alternating background colors (white and light gray), providing distinct visual breaks for different content blocks like features, testimonials, and pricing."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, use a JavaScript animation library like GSAP with ScrollTrigger to detect when sections enter the viewport. Animate these sections with a subtle fade-up or slide-in effect, ensuring a smooth and staggered reveal for elements within a section, such as individual feature cards or pricing tiers.",
+    "Achieve the clean layout by wrapping all primary content in a container with a fixed maximum width and horizontal auto-margins, ensuring it remains centered. Apply generous vertical padding to sections to create an airy feel and clear separation.",
+    "Implement the color scheme using a base of pure black for text and pure white for backgrounds, with a very light gray for secondary section backgrounds. Introduce specific, bright accent colors for interactive elements (blue for CTAs) and status indicators (green for availability, red for urgency) to draw attention without overwhelming the minimal design."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#2AABEE",
+        "role": "accent"
+      },
+      {
+        "hex": "#34C759",
+        "role": "status-success"
+      },
+      {
+        "hex": "#FF3B30",
+        "role": "status-alert"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong hierarchy, complemented by smaller, often uppercase, labels for context.",
+    "radius": "subtle (buttons, cards)",
+    "spacing": "airy (generous vertical spacing between sections, balanced horizontal padding within content blocks)"
+  },
+  "standout": "The site's design stands out with its extremely clean, almost stark, minimal aesthetic that prioritizes direct communication. The subtle, abstract geometric pattern in the hero section adds a unique, sophisticated texture without distracting from the core message, making the site feel premium and focused.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "approved"
+}
