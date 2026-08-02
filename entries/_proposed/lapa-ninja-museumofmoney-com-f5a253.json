@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-museumofmoney-com-f5a253",
+  "source": {
+    "url": "https://www.museumofmoney.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-museumofmoney-com-f5a253.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-museumofmoney-com-f5a253__scroll0.webp",
+      "shots/_proposed/lapa-ninja-museumofmoney-com-f5a253__scroll1.webp",
+      "shots/_proposed/lapa-ninja-museumofmoney-com-f5a253__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "museum",
+      "education",
+      "entertainment"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts frequently pair large, engaging imagery or graphic elements with text blocks, often with a strong left or right alignment."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of bold, uppercase sans-serif typography for all headings and many labels, frequently emphasized by being placed within a hand-drawn yellow highlight box."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast primary palette of bright yellow, royal blue, and black/white is used for distinct section backgrounds and text, complemented by a light beige for secondary surfaces and a vibrant purple for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and changing its background from transparent to a solid light beige, while content sections reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The 'As Seen In' section is presented as a horizontally scrolling ticker at the bottom of the hero, providing social proof in a dynamic, non-intrusive way."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a smooth scrolling library (locomotive-scroll) to create a fluid, controlled scroll experience, combined with scroll-triggered animations that reveal content sections and transform the sticky navigation bar.",
+    "A full-bleed video hero plays on loop, serving as a dynamic background for the initial viewport, with key messaging overlaid in high-contrast typography.",
+    "Interactive elements like buttons and input fields are designed with a hand-drawn, slightly irregular yellow highlight or outline, giving them a playful, sketched appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFEC00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F0E3",
+        "role": "surface"
+      },
+      {
+        "hex": "#9933CC",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, uppercase display headings (~4-5x body) with smaller, often uppercase, labels and standard readable body text.",
+    "radius": "Predominantly sharp corners for blocks and images, with subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, creating a clear visual hierarchy."
+  },
+  "standout": "The distinctive blend of a vibrant, high-contrast color palette (electric yellow, royal blue, purple) with playful, hand-drawn graphic elements and bold, uppercase typography creates a unique, energetic, and interactive brand identity that perfectly suits a museum focused on engaging visitors.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

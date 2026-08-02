@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-destigmatize-ca-e5736e",
+  "source": {
+    "url": "https://destigmatize.ca",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-destigmatize-ca-e5736e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-destigmatize-ca-e5736e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-destigmatize-ca-e5736e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-destigmatize-ca-e5736e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "personal-development",
+      "coaching",
+      "branding"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-contrast color-blocked sections define the page structure, creating distinct visual breaks and strong emotional shifts as the user scrolls."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic, oversized serif typography is used for key headings, often with a script-like quality, contrasted with clean, legible sans-serif for body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A limited, high-contrast palette of deep black/brown, vibrant red, and soft peach is used for full-section backgrounds, creating a bold and sophisticated visual rhythm."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections smoothly scroll into view, replacing the previous content in a full-page transition, with the hero video playing and then receding as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a 'hero video to form' journey, starting with an immersive video, transitioning through evocative messaging, and culminating in a detailed sign-up form section."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen video hero plays on load, serving as an initial immersive experience before smoothly scrolling out of view to reveal the main content.",
+    "The entire page employs a smooth, scroll-driven animation system (likely locomotive-scroll) where distinct, full-bleed content sections transition seamlessly into the viewport, replacing the previous section as the user scrolls.",
+    "Key textual elements, particularly large headings, are often centered and presented with ample negative space to maximize their visual impact and readability against contrasting backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#E03B3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8E7DB",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant serif display headings (~4-5x body) with smaller, clean sans-serif body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical padding between full-bleed sections and balanced spacing within content blocks."
+  },
+  "standout": "The site's distinctive use of a full-screen video hero that smoothly transitions into a series of high-contrast, full-bleed color sections, combined with dramatic, elegant typography, creates a highly immersive and emotionally impactful brand experience that feels more like a cinematic journey than a typical webpage.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

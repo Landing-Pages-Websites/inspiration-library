@@ -1,0 +1,101 @@
+{
+  "id": "one-page-love-bymonolog-com-8578bc",
+  "source": {
+    "url": "https://bymonolog.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-bymonolog-com-8578bc.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-bymonolog-com-8578bc__scroll0.webp",
+      "shots/_proposed/one-page-love-bymonolog-com-8578bc__scroll1.webp",
+      "shots/_proposed/one-page-love-bymonolog-com-8578bc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "web-design",
+      "digital-agency"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed dark background serves as a consistent canvas, with content sections often featuring asymmetrical arrangements of large text blocks and imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale is used, with massive, bold sans-serif display headings dominating sections, while body text remains clean, legible, and significantly smaller."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, monochromatic dark theme, primarily using black for backgrounds and light grey/off-white for all text and primary visual elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dramatic, oversized text element ('M\u00d8NOLOG') that scales up and parallaxes out of view as the user scrolls, revealing the main content below. Subsequent content sections and individual elements within them animate into view with a subtle fade and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are presented in a horizontal, grid-like arrangement, and work examples are showcased as large, full-width image cards with minimal text overlays."
+    }
+  ],
+  "technique_notes": [
+    "A large, custom-font text element is initially full-screen, then scales down and parallaxes upwards as the user scrolls, creating a strong visual anchor and a dramatic transition to the main content. This effect is likely achieved using a scroll-triggered animation library like GSAP ScrollTrigger.",
+    "Content sections and individual elements (such as image cards, text blocks, and service lists) are animated into view with a subtle fade and slight upward translation as they enter the viewport, providing a dynamic and engaging scroll experience. This is a common pattern for scroll-triggered reveals.",
+    "A subtle, dark-on-dark granular or halftone texture is applied to the background throughout the site, adding depth and visual interest without distracting from the high-contrast content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "text"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif headings (up to ~8x body text) create strong visual anchors, contrasted with a clean, smaller sans-serif for body copy and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero and between major sections, creating a sense of spaciousness and impact; balanced within content blocks."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, full-screen hero text animation that scales and parallaxes to reveal the main content. This, combined with the bold, oversized typography and high-contrast dark aesthetic, creates a powerful and memorable first impression that feels both luxurious and cutting-edge.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

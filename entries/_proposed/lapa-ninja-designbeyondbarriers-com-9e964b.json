@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-designbeyondbarriers-com-9e964b",
+  "source": {
+    "url": "https://designbeyondbarriers.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-designbeyondbarriers-com-9e964b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-designbeyondbarriers-com-9e964b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-designbeyondbarriers-com-9e964b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-designbeyondbarriers-com-9e964b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "accessibility",
+      "publishing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Main content sections utilize a two-column layout where a bold, left-aligned heading occupies a narrower left column, and detailed body text fills the wider right column."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established by pairing large, bold sans-serif headings with a more traditional, legible serif font for body text."
+    },
+    {
+      "kind": "color",
+      "note": "The design primarily uses a high-contrast black and white palette, with a subtle light grey for background textures and section dividers, and a slightly softer dark grey for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "Main content sections (e.g., 'About the project', 'Why now?') reveal with a subtle fade-up animation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A cookie consent banner remains sticky at the bottom-left of the viewport until dismissed."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a grid of numerous small, black-and-white, hand-drawn illustrations depicting people with speech bubbles, visually representing the 'chat bubbles' content option."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using CSS keyframe animations that trigger a subtle fade-up effect as they scroll into the visible viewport.",
+    "The cookie consent banner is implemented as a fixed element, maintaining its position at the bottom-left of the screen regardless of scroll depth.",
+    "A subtle, light grey grid pattern is used as a background texture across the entire page, providing a technical or blueprint aesthetic without distracting from content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "heading"
+      },
+      {
+        "hex": "#202021",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E3E3E7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GT America - Bold",
+        "role": "heading"
+      },
+      {
+        "family": "GT America - Medium",
+        "role": "display"
+      },
+      {
+        "family": "PT Serif - Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized bold sans-serif headings (~4-5x body) with a clear hierarchy, paired with a legible serif body text.",
+    "radius": "subtle \u2014 buttons and the cookie banner have slightly rounded corners.",
+    "spacing": "very airy hero, balanced content sections with generous vertical spacing between and within elements."
+  },
+  "standout": "The site's distinctive use of numerous small, hand-drawn, black-and-white illustrations depicting people interacting with speech bubbles creates a unique, playful yet informative visual language, especially in the hero section. This, combined with the subtle grid background and strong typographic hierarchy, gives it an editorial and almost academic but approachable feel.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
