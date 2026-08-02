@@ -1,0 +1,131 @@
+{
+  "id": "siteinspire-mesura-eu-18e41e",
+  "source": {
+    "url": "https://mesura.eu",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-mesura-eu-18e41e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-mesura-eu-18e41e__scroll0.webp",
+      "shots/_proposed/siteinspire-mesura-eu-18e41e__scroll1.webp",
+      "shots/_proposed/siteinspire-mesura-eu-18e41e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.mesura.eu/",
+        "full": "shots/_proposed/siteinspire-mesura-eu-18e41e__p2.webp"
+      },
+      {
+        "url": "https://www.mesura.eu/studio",
+        "full": "shots/_proposed/siteinspire-mesura-eu-18e41e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality architectural and design photography serves as the primary background for entire content sections, creating immersive visual experiences."
+    },
+    {
+      "kind": "type",
+      "note": "A single, elegant serif typeface is used consistently for both headings and body text, establishing a strong editorial and sophisticated typographic voice."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases and section titles are presented as very large, overlaid text elements, often spanning the full width of the viewport and interacting with background imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation ('HOME, SEARCH', 'ABOUT') remains sticky at the top of the viewport throughout the scroll, providing persistent access."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen hero sections transition dramatically, where one full-bleed image and its overlaid text scroll out to reveal an entirely new, full-bleed visual section."
+    },
+    {
+      "kind": "motion",
+      "note": "A massive, full-width brand logo ('mesura') is revealed with a smooth scroll-up animation, acting as a significant visual break and brand statement between content blocks."
+    },
+    {
+      "kind": "color",
+      "note": "The color palette is minimalist, relying on stark black and white typography contrasted against the rich, natural tones and textures found within the photographic backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element is implemented to keep primary navigation visible and accessible at all times, independent of scroll position.",
+    "Full-bleed image sections are designed to occupy the entire viewport, with scroll-triggered animations (likely using GSAP) that facilitate a complete visual transition from one section to the next, rather than simple scrolling.",
+    "Large, impactful typography is layered directly over background images, with text color dynamically adjusted or a subtle dark overlay applied to the image to ensure optimal contrast and readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#D4D4D4",
+        "role": "surface"
+      },
+      {
+        "hex": "#A09B8E",
+        "role": "accent"
+      },
+      {
+        "hex": "#5C5C5C",
+        "role": "surface"
+      },
+      {
+        "hex": "#8B735C",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body size) with generous line height, paired with a readable serif body text and small, uppercase sans-serif labels for navigation.",
+    "radius": "sharp",
+    "spacing": "Airy, with generous vertical spacing between sections and within text blocks, contributing to an unhurried, editorial feel."
+  },
+  "standout": "This site distinguishes itself through its bold use of full-bleed, high-quality photography as the primary visual language, combined with dramatic, full-screen scroll-triggered section transitions. The integration of massive, overlaid serif typography as a core design element, culminating in a full-width logo reveal, creates a highly immersive and editorial brand experience that feels more like an art gallery than a typical website.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

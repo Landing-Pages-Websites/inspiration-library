@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-wam-studio-2fae7a",
+  "source": {
+    "url": "https://wam.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-wam-studio-2fae7a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-wam-studio-2fae7a__scroll0.webp",
+      "shots/_proposed/siteinspire-wam-studio-2fae7a__scroll1.webp",
+      "shots/_proposed/siteinspire-wam-studio-2fae7a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://wam.studio/work",
+        "full": "shots/_proposed/siteinspire-wam-studio-2fae7a__p2.webp"
+      },
+      {
+        "url": "https://wam.studio/people",
+        "full": "shots/_proposed/siteinspire-wam-studio-2fae7a__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "real-estate"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are often composed of a full-bleed background (solid color, abstract pattern, or video) with content layered on top, frequently featuring a strong left-aligned graphic element contrasting with right-aligned text."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a very large, bold sans-serif typeface, creating a strong visual hierarchy against smaller, lighter-weight body text, all within the same font family."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of deep blue, white, and light grey is consistently accented by a vibrant, multi-color secondary palette (orange, teal, red, green) used for large geometric shapes and background blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero features a full-bleed video background of water, which scrolls up to reveal subsequent content. A compact, sticky header appears after the hero section is out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Large, abstract geometric shapes and patterns (e.g., a white maze, colorful L-shaped blocks) are used as primary visual elements within sections, serving as graphic anchors or dividers rather than purely decorative elements."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video background is used in the hero section, with a semi-transparent overlay to ensure text legibility, creating an immersive and dynamic introduction.",
+    "A compact, fixed header with branding and navigation is revealed and sticks to the top of the viewport once the user scrolls past the initial hero content.",
+    "Sections are visually differentiated through full-width background treatments, which include solid colors, abstract patterns, or large, colorful geometric shapes that act as prominent graphic elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#00649f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ececec",
+        "role": "surface"
+      },
+      {
+        "hex": "#ec7d2e",
+        "role": "accent"
+      },
+      {
+        "hex": "#48a5cd",
+        "role": "accent"
+      },
+      {
+        "hex": "#d47182",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "die-grotesk-a",
+        "role": "heading"
+      },
+      {
+        "family": "die-grotesk-b",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are paired with a clean, legible sans-serif body text, maintaining a strong visual hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 sections are well-separated with ample vertical padding, while content within sections maintains a comfortable density."
+  },
+  "standout": "The site's distinctive use of large, abstract geometric shapes and patterns as integral visual elements, often full-bleed or as strong left-aligned anchors, sets it apart. This, combined with a dynamic video hero and a clean, editorial text presentation, creates a unique and bold aesthetic that feels both artistic and professional.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

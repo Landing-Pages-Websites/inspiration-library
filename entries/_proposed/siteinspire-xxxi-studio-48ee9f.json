@@ -1,0 +1,101 @@
+{
+  "id": "siteinspire-xxxi-studio-48ee9f",
+  "source": {
+    "url": "https://xxxi.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-xxxi-studio-48ee9f.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-xxxi-studio-48ee9f__scroll0.webp",
+      "shots/_proposed/siteinspire-xxxi-studio-48ee9f__scroll1.webp",
+      "shots/_proposed/siteinspire-xxxi-studio-48ee9f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://xxxi.studio/project/baz",
+        "full": "shots/_proposed/siteinspire-xxxi-studio-48ee9f__p2.webp"
+      },
+      {
+        "url": "https://xxxi.studio/project/furia",
+        "full": "shots/_proposed/siteinspire-xxxi-studio-48ee9f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "product-design",
+      "construction",
+      "creative-agency"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive photographic sections dominate the viewport, serving as both background and primary content for each project."
+    },
+    {
+      "kind": "type",
+      "note": "A single, large, fixed block of descriptive text overlays the initial sequence of full-bleed images, providing a studio introduction before project-specific details."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images transition vertically with a subtle parallax effect as the user scrolls, while the main introductory text remains fixed in the viewport until it scrolls out."
+    },
+    {
+      "kind": "motion",
+      "note": "Project titles and details appear at the bottom-left of the viewport, associated with each new full-bleed image section, while the 'Info' link and copyright notice remain sticky."
+    },
+    {
+      "kind": "color",
+      "note": "Text elements are consistently light (white or light grey) to ensure high contrast against the diverse and often dark photographic backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen vertical scrolling mechanism where each scroll 'snap' reveals a new full-bleed background image, effectively creating a dynamic, image-driven portfolio experience.",
+    "A large, semi-transparent text block is positioned fixedly over the initial sequence of these full-bleed images, creating a subtle parallax effect as the background scrolls beneath it, enhancing depth and focus.",
+    "As each new full-bleed image section comes into view, associated project metadata (title, year, type, location) is revealed at the bottom left, while a global 'Info' link and copyright notice remain sticky at the bottom of the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized hero text (~3-4x body) with smaller, legible project details and navigation.",
+    "radius": "sharp",
+    "spacing": "airy hero, balanced project details"
+  },
+  "standout": "The site's design is distinctive for its immersive, full-screen image transitions combined with a fixed, large introductory text block that creates a unique parallax scrolling experience. It feels like dynamically flipping through a high-end design magazine, offering a highly engaging and visually rich portfolio presentation.",
+  "animation_tech": [],
+  "status": "proposed"
+}

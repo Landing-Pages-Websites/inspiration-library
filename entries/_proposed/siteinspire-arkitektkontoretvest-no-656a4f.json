@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-arkitektkontoretvest-no-656a4f",
+  "source": {
+    "url": "https://arkitektkontoretvest.no",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-arkitektkontoretvest-no-656a4f.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-arkitektkontoretvest-no-656a4f__scroll0.webp",
+      "shots/_proposed/siteinspire-arkitektkontoretvest-no-656a4f__scroll1.webp",
+      "shots/_proposed/siteinspire-arkitektkontoretvest-no-656a4f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://arkitektkontoretvest.no/project/line",
+        "full": "shots/_proposed/siteinspire-arkitektkontoretvest-no-656a4f__p2.webp"
+      },
+      {
+        "url": "https://arkitektkontoretvest.no/project/y-huset",
+        "full": "shots/_proposed/siteinspire-arkitektkontoretvest-no-656a4f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "real-estate"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features an asymmetrical, staggered grid layout for project thumbnails, where images of varying aspect ratios are arranged in a visually dynamic, non-uniform composition."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif typeface is used consistently across all text elements, with subtle variations in weight and size to establish hierarchy without introducing visual clutter."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent, very light off-white background (#f5f2ed) dominates the site, providing a clean, expansive canvas that allows the rich architectural photography to be the primary source of color and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "Individual project images on the homepage reveal with a subtle animation (a gentle fade-in and slight upward translation) as they scroll into the viewport, creating a soft, engaging reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Interior project pages are structured with a prominent full-width hero image at the top, followed by a series of smaller detail images and descriptive text blocks, creating a clear and focused project showcase."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to animate individual project thumbnail images on the homepage. As each image enters the viewport, it performs a subtle fade-in and a slight upward translation, creating a gentle, staggered reveal effect.",
+    "The homepage employs a responsive, asymmetrical grid system where project images of varying aspect ratios are arranged to create a visually dynamic and non-uniform layout, breaking from typical rigid grids.",
+    "A single, minimalist sans-serif typeface is used throughout the site, with typographic hierarchy established through subtle changes in font weight and size rather than multiple font families, maintaining a clean and understated aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f2ed",
+        "role": "background"
+      },
+      {
+        "hex": "#343434",
+        "role": "text"
+      },
+      {
+        "hex": "#c0c0c0",
+        "role": "surface"
+      },
+      {
+        "hex": "#8b4513",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, understated navigation and body text (~14-16px) with slightly larger, bolder project titles (~20-24px) and very large, thin page titles on interior pages (~3-4x body).",
+    "radius": "Sharp corners on all elements, including images and structural components, contributing to a precise and modern feel.",
+    "spacing": "Very airy, with generous padding around content blocks and significant negative space, especially on interior project pages, creating a sense of calm and focus."
+  },
+  "standout": "The site's distinctive use of an asymmetrical, almost collage-like grid for project previews on the homepage, combined with a highly minimalist aesthetic that prioritizes large, high-quality architectural photography, makes it feel more like an art gallery than a typical portfolio.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}
