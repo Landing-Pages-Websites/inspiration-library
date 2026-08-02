@@ -1,0 +1,107 @@
+{
+  "id": "siteinspire-austen-fun-cd6433",
+  "source": {
+    "url": "https://austen.fun",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-austen-fun-cd6433.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-austen-fun-cd6433__scroll0.webp",
+      "shots/_proposed/siteinspire-austen-fun-cd6433__scroll1.webp",
+      "shots/_proposed/siteinspire-austen-fun-cd6433__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://austen.fun/project/pogo",
+        "full": "shots/_proposed/siteinspire-austen-fun-cd6433__p2.webp"
+      },
+      {
+        "url": "https://austen.fun/project/tally",
+        "full": "shots/_proposed/siteinspire-austen-fun-cd6433__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features an asymmetrical, masonry-style grid of large, high-quality image cards, creating a visually rich and dynamic portfolio overview."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new image cards are revealed into view with a subtle fade-in or slide-up effect. Most notably, a specific 'Mandatory Attendance' card dynamically switches its entire visual content from product photography to a large animated brand logo on a vibrant background as it scrolls into a certain viewport position."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a minimalist monochrome base palette (white background, black text) to allow the diverse and often vibrant colors within the large image and video content to dominate the visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Text is kept minimal and functional, primarily using a clean, modern sans-serif for small labels on image cards and for body text on detail pages, maintaining a subtle presence against the strong imagery."
+    }
+  ],
+  "technique_notes": [
+    "The portfolio grid items are revealed on scroll, likely using an intersection observer to trigger a fade-in or subtle translate-Y animation as they enter the viewport.",
+    "A specific portfolio card employs a sophisticated scroll-triggered content swap, where its entire visual presentation (from static images to an animated brand identity) changes dynamically based on scroll depth. This effect likely leverages video playback or WebGL for the animated segment, as indicated by the source hints.",
+    "Interior project pages use a clean, single-column layout for descriptive text, complemented by multi-column image galleries that showcase project details without visual clutter."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f0e0c0",
+        "role": "accent"
+      },
+      {
+        "hex": "#d4b8a8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, functional sans-serif labels on the homepage; detail pages use a balanced sans-serif for body text with moderately larger, clean headings.",
+    "radius": "sharp \u2014 all image cards and content blocks feature crisp, 90-degree corners.",
+    "spacing": "airy \u2014 the homepage grid uses generous spacing between large image cards, creating an open and gallery-like feel; detail pages maintain a balanced, readable density."
+  },
+  "standout": "The site's distinctive use of a dynamic, content-switching card within its portfolio grid, where a static image transforms into a vibrant, animated brand experience upon scroll, sets it apart. This sophisticated interaction elevates a standard portfolio item into a memorable, interactive showcase.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

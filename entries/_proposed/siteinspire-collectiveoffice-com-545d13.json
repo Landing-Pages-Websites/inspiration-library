@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-collectiveoffice-com-545d13",
+  "source": {
+    "url": "https://collectiveoffice.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-collectiveoffice-com-545d13.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-collectiveoffice-com-545d13__scroll0.webp",
+      "shots/_proposed/siteinspire-collectiveoffice-com-545d13__scroll1.webp",
+      "shots/_proposed/siteinspire-collectiveoffice-com-545d13__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://collectiveoffice.com/work",
+        "full": "shots/_proposed/siteinspire-collectiveoffice-com-545d13__p2.webp"
+      },
+      {
+        "url": "https://collectiveoffice.com/studio",
+        "full": "shots/_proposed/siteinspire-collectiveoffice-com-545d13__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design-firm",
+      "real-estate-development"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical layout featuring a fixed, vertically oriented branding and navigation bar on the right side of the viewport, providing persistent access and brand reinforcement."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, heavy sans-serif typography is used for key branding elements (like the footer logo and sticky navigation text) and main section headings, creating a strong, impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted base palette of light beige and dark grey is subtly accented with a vibrant pink/magenta, used sparingly for highlights, underlines, and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed vertical branding element and hamburger menu persist on the right side of the screen during scroll, maintaining brand presence until the very bottom of the page where it disappears to reveal an oversized footer logo."
+    },
+    {
+      "kind": "section",
+      "note": "The footer features an exceptionally large, full-width rendition of the brand logo, serving as a dramatic and memorable closing statement for the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background video that plays automatically, establishing an immediate dynamic visual. Content sections are revealed by standard vertical scrolling. A persistent vertical navigation bar and branding text are fixed to the right edge of the viewport, providing continuous access and brand reinforcement. This fixed element then smoothly transitions out of view as the user reaches the bottom of the page, revealing a dramatically oversized brand logo in the footer."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ebe6e2",
+        "role": "background"
+      },
+      {
+        "hex": "#141413",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff5caa",
+        "role": "accent"
+      },
+      {
+        "hex": "#231f20",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~3-5x body text) with smaller, readable body text and subtle uppercase labels. The footer logo is dramatically scaled up.",
+    "radius": "Subtle (minimal rounding on cards and buttons, almost sharp).",
+    "spacing": "Airy, with generous vertical spacing between major content sections, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The site's distinctive design lies in its bold use of typography and brand presence. A persistent, vertically oriented 'Collective' branding and navigation element on the right side of the screen maintains brand visibility throughout the scroll, culminating in an exceptionally large, full-width logo in the footer that acts as a powerful, memorable closing statement.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

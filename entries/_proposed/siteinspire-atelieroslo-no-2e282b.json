@@ -1,0 +1,90 @@
+{
+  "id": "siteinspire-atelieroslo-no-2e282b",
+  "source": {
+    "url": "https://atelieroslo.no",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-atelieroslo-no-2e282b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-atelieroslo-no-2e282b__scroll0.webp",
+      "shots/_proposed/siteinspire-atelieroslo-no-2e282b__scroll1.webp",
+      "shots/_proposed/siteinspire-atelieroslo-no-2e282b__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, irregular masonry grid of project images dominates the content area, filling the viewport as the user scrolls and creating a continuous visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a strong typographic contrast, featuring a large, elegant serif typeface for the main brand title and a much smaller, understated sans-serif for navigation links."
+    },
+    {
+      "kind": "color",
+      "note": "The design employs a minimalist monochromatic base palette of black text on a white background, allowing the rich and varied colors of the architectural photography to be the primary visual focus."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains fixed and sticky at the top of the viewport, while the main content area, including the initial large brand title, scrolls fluidly underneath it."
+    },
+    {
+      "kind": "section",
+      "note": "The page is structured as a continuous, flowing stream of project images without distinct section breaks, headings, or background changes, creating an immersive, gallery-like experience."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation is implemented, fixed to the top of the viewport, while the main page content scrolls beneath it. The initial large brand title scrolls out of view, leaving only the sticky navigation visible.",
+    "Project images are displayed in a responsive, irregular masonry grid layout that adapts to the viewport, creating a dynamic and visually rich presentation of work.",
+    "The site employs a minimalist text-based approach, relying heavily on high-quality photography to convey information, with text elements serving primarily for navigation and branding."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif display heading (~3-4x body) with small, functional sans-serif navigation links.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy spacing around the initial brand title, transitioning to a dense, tightly packed grid of images below."
+  },
+  "standout": "This site stands out for its extreme reliance on a continuous, dense, and irregular masonry grid of high-quality architectural photography as its primary content. It eschews traditional sectioning and heavy text, creating an immersive, gallery-like scrolling experience that prioritizes visual impact and exploration over explicit navigation or detailed descriptions.",
+  "animation_tech": [],
+  "status": "proposed"
+}

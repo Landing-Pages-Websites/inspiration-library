@@ -1,0 +1,107 @@
+{
+  "id": "siteinspire-dowenfarmer-com-13c78b",
+  "source": {
+    "url": "https://www.dowenfarmer.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-dowenfarmer-com-13c78b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-dowenfarmer-com-13c78b__scroll0.webp",
+      "shots/_proposed/siteinspire-dowenfarmer-com-13c78b__scroll1.webp",
+      "shots/_proposed/siteinspire-dowenfarmer-com-13c78b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://dowenfarmer.com/projects/holme",
+        "full": "shots/_proposed/siteinspire-dowenfarmer-com-13c78b__p2.webp"
+      },
+      {
+        "url": "https://dowenfarmer.com/projects/the-hq",
+        "full": "shots/_proposed/siteinspire-dowenfarmer-com-13c78b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "real-estate-development"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed images and extremely large typographic elements dominate the screen, often overlapping or acting as a visual frame for content."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles are rendered in an enormous, bold sans-serif font, often spanning the full width or height of the viewport, creating a strong graphic presence."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is high-contrast monochrome (black text on white background), allowing the vibrant colors of the architectural imagery to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, bold text elements (acting as section titles) remain fixed or parallax slowly, while full-bleed project images and descriptive text scroll up and appear *behind* or *underneath* them, creating a layered reveal effect."
+    },
+    {
+      "kind": "section",
+      "note": "Each project or major content block is introduced by a full-screen typographic title that then transitions to reveal the associated imagery and details as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, implement large, fixed or slow-parallaxing text elements that act as visual overlays. As the user scrolls, full-bleed images and content sections should animate or slide into view from below, passing behind these typographic overlays. The detected 'lottie' animation tech could be used for subtle transitions or interactive elements within the revealed content, though the primary scroll effect is a layering reveal.",
+    "Achieve the dramatic typographic impact by setting section titles in a very large, bold sans-serif font that scales to fill a significant portion of the viewport, treating the text itself as a primary graphic element rather than just readable content.",
+    "Utilize full-bleed imagery that extends to the edges of the viewport, providing an immersive visual experience that contrasts with the stark, minimalist typography."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#dedede",
+        "role": "subtle-ui"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Bold",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif headings (~10x body text) with small, uppercase navigation labels and standard-sized body text.",
+    "radius": "sharp",
+    "spacing": "Very airy, with generous whitespace around all elements, especially the large typographic titles and full-bleed images."
+  },
+  "standout": "The site's most distinctive feature is its audacious use of monumental, full-screen typography that acts as a graphic overlay, with project imagery and details scrolling dramatically behind it. This creates a highly artistic and immersive experience where text is as much a visual element as the photography.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}
