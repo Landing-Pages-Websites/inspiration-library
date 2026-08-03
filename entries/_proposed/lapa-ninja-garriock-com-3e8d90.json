@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-garriock-com-3e8d90",
+  "source": {
+    "url": "https://www.garriock.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-garriock-com-3e8d90.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-garriock-com-3e8d90__scroll0.webp",
+      "shots/_proposed/lapa-ninja-garriock-com-3e8d90__scroll1.webp",
+      "shots/_proposed/lapa-ninja-garriock-com-3e8d90__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "consulting",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An extremely minimal layout with vast amounts of vertical whitespace, emphasizing the primary brand name and creating an airy, gallery-like feel."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic typographic hierarchy featuring an oversized, elegant serif font for the main brand identity, contrasted with small, understated sans-serif text for navigation, section labels, and calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic color scheme using black text on a very light off-white background, creating a high-contrast, sophisticated aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The large 'Garriock&Co.' brand name persistently sticks to the bottom of the viewport, acting as a fixed footer while new content sections scroll upwards and over it."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed sequentially as the user scrolls, sliding up from the bottom of the viewport with a subtle entrance animation."
+    },
+    {
+      "kind": "section",
+      "note": "Each content section is introduced by a small numerical index (e.g., '01/') and a concise title, appearing one after another as the user scrolls down the single-page experience."
+    }
+  ],
+  "technique_notes": [
+    "The main brand element is fixed to the bottom of the viewport using sticky positioning, with a z-index that allows subsequent content to scroll over it, creating a layered effect.",
+    "Content sections are revealed using scroll-triggered animations, where each section slides into view from the bottom as it enters the viewport, likely utilizing CSS transforms and opacity changes defined by css-keyframes.",
+    "The top navigation bar remains sticky at the top of the viewport, providing persistent access to key links and a subtle scroll progress indicator."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#EDECE8",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Serrif Condensed Light",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely dramatic, with an oversized, elegant serif for the primary brand (~8x body) and small, understated sans-serif for all other text and UI elements.",
+    "radius": "sharp",
+    "spacing": "very airy, with significant vertical padding between content blocks and around the main brand element, creating a sense of spaciousness and deliberate presentation."
+  },
+  "standout": "The most distinctive feature is the oversized, persistent brand name 'Garriock&Co.' that sticks to the bottom of the screen, acting as a constant anchor while minimal content sections scroll over it. This, combined with the extreme whitespace and dramatic type scale, gives the site an editorial, almost art-gallery-like presence that feels highly curated and sophisticated.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

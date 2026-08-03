@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-theresolute-ai-2c1aac",
+  "source": {
+    "url": "https://www.theresolute.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-theresolute-ai-2c1aac.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-theresolute-ai-2c1aac__scroll0.webp",
+      "shots/_proposed/lapa-ninja-theresolute-ai-2c1aac__scroll1.webp",
+      "shots/_proposed/lapa-ninja-theresolute-ai-2c1aac__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "wellness",
+      "ai",
+      "personalized-medicine"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections create visual rhythm, with a consistent centered content column for readability."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for prominent headings, paired with a clean sans-serif for body text and uppercase labels, establishing an editorial yet modern feel."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, deep maroon serves as a primary brand accent and background for key sections and the footer, contrasting with light neutrals and a warm peach/orange accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background mountain range moves slower than the foreground elements as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent overlay on the hero to a solid white, sticky header with a logo and navigation links after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "A complex, interactive 'How it works' diagram visually explains the service's methodology, using interconnected nodes and circular progress indicators."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its appearance (from transparent to solid white) and position upon scroll. Hero imagery utilizes a subtle parallax scrolling effect, where background elements move at a different rate than foreground content to create depth. Content sections are likely revealed with scroll-triggered animations, such as fade-ins or slide-ups, as they enter the viewport, potentially orchestrated by GSAP or a similar animation library for smooth transitions and synchronized reveals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#5C1A2E",
+        "role": "primary-accent"
+      },
+      {
+        "hex": "#eacab1",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#c0b090",
+        "role": "surface"
+      },
+      {
+        "hex": "#d3d3d3",
+        "role": "surface"
+      },
+      {
+        "hex": "#bababa",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, contrasted with legible sans-serif body text and smaller, uppercase sans-serif labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and input fields, with most layout blocks maintaining sharp edges.",
+    "spacing": "Balanced to airy, with significant vertical padding between major sections and a more compact, but still readable, density within content blocks like the 'How it works' diagram."
+  },
+  "standout": "The site's standout feature is its sophisticated visual storytelling, particularly the intricate 'How it works' diagram that elegantly explains a complex process. This, combined with the aspirational hero imagery and the distinctive use of a deep maroon as a primary brand color, elevates it beyond a typical health-tech site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "rive"
+  ],
+  "status": "proposed"
+}

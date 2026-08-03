@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-corygrossman-co-af3d82",
+  "source": {
+    "url": "https://www.corygrossman.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-corygrossman-co-af3d82.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-corygrossman-co-af3d82__scroll0.webp",
+      "shots/_proposed/lapa-ninja-corygrossman-co-af3d82__scroll1.webp",
+      "shots/_proposed/lapa-ninja-corygrossman-co-af3d82__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "web-design",
+      "portfolio"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are introduced with full-width, oversized typographic headings, often centered, creating strong visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast in font sizes and styles, pairing extremely large, bold sans-serif display fonts with elegant, condensed serifs and clean, smaller sans-serifs for labels and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, featuring deep black backgrounds with off-white text, accented by muted, warm gold or tan tones for specific section backgrounds or highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transitions from transparent over the hero to a solid black, sticky bar with reduced height upon scroll. Content sections reveal with a subtle fade-in or slide-up effect as they enter the viewport, and large typographic statements appear to animate into place."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases in the 'Selected Work' section use an asymmetrical grid layout with varying card sizes and some elements positioned off-center, breaking traditional grid rigidity."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero video or image is used as the initial viewport background, overlaid with large, high-contrast display typography.",
+    "Scroll-triggered animations, likely using GSAP, reveal content sections with a staggered fade-up or slide-in effect as they become visible in the viewport.",
+    "The primary navigation bar is initially transparent and fixed, then transforms into a sticky, solid-background bar with a slightly reduced height after the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#e6e7e0",
+        "role": "text"
+      },
+      {
+        "hex": "#e9decb",
+        "role": "accent"
+      },
+      {
+        "hex": "#af8d4d",
+        "role": "surface"
+      },
+      {
+        "hex": "#f0ede1",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "forma-djr-display",
+        "role": "display"
+      },
+      {
+        "family": "orpheus-pro-condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold display headings (~4-5x body) with elegant, condensed sub-headings and compact uppercase labels, creating a strong typographic hierarchy.",
+    "radius": "sharp corners throughout, with no visible rounded elements.",
+    "spacing": "very airy, especially in the hero and between major sections, contributing to a minimalist and high-end feel."
+  },
+  "standout": "The site's distinctive use of extremely oversized and highly stylized typography, particularly for section headings and the final 'CORY GROSSMANCO' statement, sets it apart. This, combined with a dark, minimalist aesthetic and subtle scroll-triggered reveals, makes the design feel more like an art piece or editorial layout than a typical portfolio.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

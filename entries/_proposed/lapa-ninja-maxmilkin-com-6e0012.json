@@ -1,0 +1,93 @@
+{
+  "id": "lapa-ninja-maxmilkin-com-6e0012",
+  "source": {
+    "url": "https://www.maxmilkin.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-maxmilkin-com-6e0012.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-maxmilkin-com-6e0012__scroll0.webp",
+      "shots/_proposed/lapa-ninja-maxmilkin-com-6e0012__scroll1.webp",
+      "shots/_proposed/lapa-ninja-maxmilkin-com-6e0012__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "portfolio",
+      "web-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, minimalist layout with generous vertical spacing between sections, emphasizing large, impactful typography and a clean, uncluttered presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings use extremely large, thin, uppercase sans-serif fonts, creating a dramatic and editorial feel, contrasted with smaller, more readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, featuring a deep charcoal background with light grey text, occasionally accented by a subtle, muted greenish-grey."
+    },
+    {
+      "kind": "motion",
+      "note": "An initial pre-loader animation displays a percentage and then reveals text characters in a circular, expanding motion before the main page content loads. No scroll-triggered motion is observed after the initial page load based on the provided sequence."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by significant vertical whitespace and sometimes subtle background color shifts, with 'My Projects' and 'Experience' using a list-based, two-column layout."
+    }
+  ],
+  "technique_notes": [
+    "An initial page load animation uses character-by-character reveal and circular path animation for text elements, creating a dynamic pre-loader experience. The main content then loads statically without further scroll-triggered animations.",
+    "The site employs a dark mode aesthetic with high contrast, using a very dark background and light text to make content pop. Large, sparse typography is used to create a sense of grandeur and focus on key information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "text"
+      },
+      {
+        "hex": "#A0A89C",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, thin, uppercase headings (~4-5x body text) with smaller, standard sans-serif body text for readability.",
+    "radius": "Sharp, with predominantly rectangular elements and no noticeable rounded corners.",
+    "spacing": "Very airy, especially in the hero and between major sections, creating a sense of spaciousness and focused content blocks."
+  },
+  "standout": "The site's distinctive use of a dramatic, almost theatrical dark aesthetic combined with extremely large, thin, uppercase typography for section titles creates a strong, minimalist, and high-impact visual identity. The circular pre-loader animation is also a unique and engaging touch.",
+  "animation_tech": [],
+  "status": "proposed"
+}
