@@ -1,0 +1,104 @@
+{
+  "id": "siteinspire-helenedelmarmol-com-8abdfe",
+  "source": {
+    "url": "https://helenedelmarmol.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-helenedelmarmol-com-8abdfe.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-helenedelmarmol-com-8abdfe__scroll0.webp",
+      "shots/_proposed/siteinspire-helenedelmarmol-com-8abdfe__scroll1.webp",
+      "shots/_proposed/siteinspire-helenedelmarmol-com-8abdfe__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "luxury-goods",
+      "jewelry"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed-position left sidebar contains primary navigation and a detailed project list, while the main content area scrolls independently on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "The main content area features a vertically stacked, dynamic grid of images, varying in size and aspect ratio, creating a gallery-like presentation."
+    },
+    {
+      "kind": "type",
+      "note": "An extremely oversized, semi-transparent brand name is used as a background element in the main content area, revealing itself gradually as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The left navigation sidebar and a bottom-left newsletter signup button remain sticky and fixed in place, while the main content area, including images and the large background text, scrolls vertically."
+    }
+  ],
+  "technique_notes": [
+    "The page is structured with a fixed-position left column for navigation and a fixed-position element at the bottom-left for a call-to-action, allowing the primary content area on the right to scroll independently. A large, semi-transparent text element is layered behind the scrolling image content, creating a parallax-like effect where the text appears to reveal itself as the foreground content moves past."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#888888",
+        "role": "text"
+      },
+      {
+        "hex": "#555555",
+        "role": "display-text"
+      },
+      {
+        "hex": "#FEE76B",
+        "role": "accent"
+      },
+      {
+        "hex": "#95D7B7",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0B0B0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Small, consistent sans-serif for navigation and body text, sharply contrasted with an extremely oversized, bold sans-serif for the background display text.",
+    "radius": "Subtle (for the newsletter button), otherwise sharp corners dominate.",
+    "spacing": "Airy, with significant whitespace around images and a clear visual separation between the fixed sidebar and the scrolling content."
+  },
+  "standout": "The site's most distinctive feature is the use of an enormous, semi-transparent brand name as a background element that reveals itself through the scrolling content. This, combined with a persistent, fixed-position navigation sidebar, creates a unique, gallery-like browsing experience that feels both artistic and highly curated, emphasizing the brand's identity as a visual backdrop.",
+  "animation_tech": [],
+  "status": "proposed"
+}

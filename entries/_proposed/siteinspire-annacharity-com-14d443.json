@@ -1,0 +1,123 @@
+{
+  "id": "siteinspire-annacharity-com-14d443",
+  "source": {
+    "url": "https://www.annacharity.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-annacharity-com-14d443.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-annacharity-com-14d443__scroll0.webp",
+      "shots/_proposed/siteinspire-annacharity-com-14d443__scroll1.webp",
+      "shots/_proposed/siteinspire-annacharity-com-14d443__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.annacharity.com/Work",
+        "full": "shots/_proposed/siteinspire-annacharity-com-14d443__p2.webp"
+      },
+      {
+        "url": "https://www.annacharity.com/kama",
+        "full": "shots/_proposed/siteinspire-annacharity-com-14d443__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "illustration",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Generous vertical spacing between full-width content sections, often with alternating background colors to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, friendly sans-serif typography for headings and hero text, contrasted with smaller, readable sans-serif for body content and uppercase labels for section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of light blue, dark grey, and white, frequently accented by vibrant, character-driven illustrations that introduce a broader range of playful colors."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header remains visible on scroll. The hero illustration features a subtle parallax effect, scrolling slower than the foreground text. A horizontal text ticker creates a continuous scrolling effect for location information."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio sections utilize a flexible grid system, adapting from three to six columns for project previews, each with a title below."
+    },
+    {
+      "kind": "section",
+      "note": "The footer features a unique, wavy-edged call-to-action button, breaking from the site's otherwise subtle corner radii."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that maintains its position at the top of the viewport. The hero section employs a background element that scrolls at a slower rate than the foreground content, creating a subtle parallax effect for the main illustration. A horizontally scrolling text container with duplicated content creates a continuous, infinite loop for location tags.",
+    "Integrate custom, character-driven illustrations as primary visual elements, often occupying significant screen real estate in hero sections and as section dividers, to convey a playful and approachable brand personality. Utilize a clean, spacious layout with ample padding and a consistent grid system for displaying content, maintaining visual hierarchy and readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#93ADFA",
+        "role": "accent"
+      },
+      {
+        "hex": "#242424",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FCF4EB",
+        "role": "surface"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Satoshi",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Relative Medium",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, friendly sans-serif headings (~3-4x body) with a clear hierarchy, complemented by smaller, readable body text and uppercase labels.",
+    "radius": "Subtle rounding for buttons and image containers, with mostly sharp edges for overall layout, but a distinctive wavy shape for the primary call-to-action button.",
+    "spacing": "Airy, especially in the hero and between major sections, creating a sense of calm and focus; content within grids is balanced."
+  },
+  "standout": "The distinctive, playful, character-driven illustrations are central to the brand identity and are integrated throughout the site, giving it a unique, approachable, and memorable feel that goes beyond typical portfolio sites. The custom wavy 'Get in Touch' button also adds a unique touch of personality.",
+  "animation_tech": [],
+  "status": "proposed"
+}

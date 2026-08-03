@@ -1,0 +1,108 @@
+{
+  "id": "siteinspire-corentinbernadou-com-ada63f",
+  "source": {
+    "url": "https://corentinbernadou.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-corentinbernadou-com-ada63f.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-corentinbernadou-com-ada63f__scroll0.webp",
+      "shots/_proposed/siteinspire-corentinbernadou-com-ada63f__scroll1.webp",
+      "shots/_proposed/siteinspire-corentinbernadou-com-ada63f__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://corentinbernadou.com/work/ruby-campbell",
+        "full": "shots/_proposed/siteinspire-corentinbernadou-com-ada63f__p2.webp"
+      },
+      {
+        "url": "https://corentinbernadou.com/work/shaped-by-earth",
+        "full": "shots/_proposed/siteinspire-corentinbernadou-com-ada63f__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric full-screen sections with a single dominant visual element (e.g., large typography, 3D image cube) balanced by small, detailed text elements in the corners."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, featuring monumental, bold, wide sans-serif display text that often serves as a primary graphic element, juxtaposed with very small, fine-print sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette primarily using deep black, stark white, and a single vibrant orange as an accent and background for full-screen sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero features a large 'FW' and a list of works that remain sticky or parallax very slowly, while a dynamic 3D image cube animates into view and continuously rotates over the 'W' as the user scrolls. Subsequent sections transition by changing the full-screen background color and revealing oversized, single-word titles that slide up from the bottom of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed, distinct sections that occupy the entire viewport, each introduced by a dramatic background color change and a large, single-word title."
+    }
+  ],
+  "technique_notes": [
+    "The site uses GSAP ScrollTrigger to orchestrate complex scroll-based animations. Key elements like the large initial text and navigation list are pinned or given a very slow parallax effect, maintaining their presence while other elements animate. A 3D image cube is revealed and set into continuous rotation upon scroll. Full-screen sections are implemented with viewport-height containers, where scrolling triggers a background color change and a large text element to slide into view from the bottom, creating a dramatic, sequential reveal of content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#070304",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff4500",
+        "role": "accent"
+      },
+      {
+        "hex": "#141414",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, wide display headings (~8-10x body text) are used as primary visual elements, contrasting sharply with very small, fine-print body and navigational text.",
+    "radius": "sharp",
+    "spacing": "Very airy, with extensive use of negative space, especially in hero and section introductions, creating a minimalist and impactful presentation."
+  },
+  "standout": "The site's distinctive design lies in its audacious use of monumental, architectural typography as primary visual elements, combined with a highly interactive and persistent initial hero section featuring a rotating 3D image cube. The stark, high-contrast color palette and full-screen section transitions create a dramatic and memorable user experience.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

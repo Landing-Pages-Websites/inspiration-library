@@ -1,0 +1,107 @@
+{
+  "id": "siteinspire-bizar-ro-8bbfe1",
+  "source": {
+    "url": "https://bizar.ro",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-bizar-ro-8bbfe1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-bizar-ro-8bbfe1__scroll0.webp",
+      "shots/_proposed/siteinspire-bizar-ro-8bbfe1__scroll1.webp",
+      "shots/_proposed/siteinspire-bizar-ro-8bbfe1__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "digital-art",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-contrast sections with content often presented in a split-screen or asymmetrical arrangement."
+    },
+    {
+      "kind": "type",
+      "note": "Juxtaposition of highly decorative, often distorted display typefaces with clean, minimalist sans-serifs for functional and descriptive text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white palette forms the base, accented by vibrant RGB chromatic aberration effects on animated elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered WebGL animations apply liquid-like distortion and glitch effects to text and abstract graphic elements as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are full-viewport height, transitioning with dynamic, motion-driven reveals rather than static breaks."
+    }
+  ],
+  "technique_notes": [
+    "The site leverages WebGL (likely Three.js) to implement sophisticated scroll-triggered animations. Text and graphic elements are revealed with a distinctive liquid or glitch distortion effect that animates as they scroll into view, creating a dynamic, almost melting appearance. Abstract lines also feature a chromatic aberration effect, enhancing the digital art aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:UnifrakturMaguntia",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Features an extreme typographic hierarchy, contrasting oversized, highly decorative display fonts (up to 5x body text size) with small, uppercase sans-serifs for labels and functional text.",
+    "radius": "sharp",
+    "spacing": "airy (generous use of negative space, particularly in hero sections and between major content blocks, creating a sparse and deliberate composition)"
+  },
+  "standout": "The site's most distinctive feature is its bold and experimental use of WebGL-driven, scroll-triggered text and graphic distortions. This creates a unique, almost avant-garde digital art experience that transcends typical portfolio aesthetics, making the content itself a dynamic, interactive element.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

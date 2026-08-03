@@ -1,0 +1,117 @@
+{
+  "id": "siteinspire-jameswalsh-studio-996cbb",
+  "source": {
+    "url": "https://www.jameswalsh.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-jameswalsh-studio-996cbb.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-jameswalsh-studio-996cbb__scroll0.webp",
+      "shots/_proposed/siteinspire-jameswalsh-studio-996cbb__scroll1.webp",
+      "shots/_proposed/siteinspire-jameswalsh-studio-996cbb__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.jameswalsh.studio/works/vase",
+        "full": "shots/_proposed/siteinspire-jameswalsh-studio-996cbb__p2.webp"
+      },
+      {
+        "url": "https://www.jameswalsh.studio/works/blocks",
+        "full": "shots/_proposed/siteinspire-jameswalsh-studio-996cbb__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-design",
+      "furniture-design",
+      "art-studio"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical split-screen layout with large, full-bleed product imagery occupying the left side of the viewport, contrasted with expansive whitespace or minimal text content on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single, light-weight sans-serif typeface for all text elements, including navigation, product titles, and body copy, creating a subtle and understated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a deep reddish-brown as a full-bleed background section to punctuate the otherwise neutral, light-toned palette and act as a visual separator or accent."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections of content, primarily large product images or solid color blocks, slide vertically into the viewport from the bottom as the user scrolls, creating a continuous, gallery-like reveal."
+    },
+    {
+      "kind": "section",
+      "note": "Each product or work is presented as a distinct, near full-viewport height section, creating a focused, one-at-a-time browsing experience."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header for global navigation that remains fixed at the top of the viewport.",
+    "Content sections are designed as full-height or near full-height panels. As the user scrolls, new content panels (large images or solid color blocks) slide up from the bottom of the viewport, replacing the previous content in a sequential reveal.",
+    "Product titles and descriptions on the right side appear to fade in or slide in subtly as their corresponding image section becomes prominent in the left viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f3ef",
+        "role": "background"
+      },
+      {
+        "hex": "#8f392b",
+        "role": "accent"
+      },
+      {
+        "hex": "#33343e",
+        "role": "text"
+      },
+      {
+        "hex": "#b58f71",
+        "role": "surface"
+      },
+      {
+        "hex": "#e5dab7",
+        "role": "surface"
+      },
+      {
+        "hex": "#232323",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely subtle, almost uniform scale with small, light-weight uppercase text for navigation and titles, and slightly larger but still modest body text.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially on the right side of the split layout, with large areas of whitespace and distinct, well-separated content sections."
+  },
+  "standout": "The site's distinctive feature is its highly minimalist, gallery-like presentation using a split-screen layout with large, full-bleed product images on the left and vast amounts of whitespace on the right. The subtle scroll-triggered vertical reveals of these large image sections, punctuated by bold, full-bleed color blocks, creates a refined and deliberate browsing experience that prioritizes visual impact and product focus over dense information.",
+  "animation_tech": [],
+  "status": "proposed"
+}

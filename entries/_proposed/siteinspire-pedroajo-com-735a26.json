@@ -1,0 +1,102 @@
+{
+  "id": "siteinspire-pedroajo-com-735a26",
+  "source": {
+    "url": "https://pedroajo.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-pedroajo-com-735a26.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-pedroajo-com-735a26__scroll0.webp",
+      "shots/_proposed/siteinspire-pedroajo-com-735a26__scroll1.webp",
+      "shots/_proposed/siteinspire-pedroajo-com-735a26__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A flexible, responsive grid layout is used to display portfolio items, with varying aspect ratios and sizes, creating visual interest within a structured framework."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and descriptive text use a clean, modern sans-serif typeface with generous letter-spacing, contributing to an airy and sophisticated feel."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies heavily on a high-contrast black and white palette, allowing the diverse colors and imagery of the portfolio pieces to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, portfolio items smoothly fade and slide into view from the bottom, creating a staggered reveal effect."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle pagination element transitions from a central position to a sticky top-center position upon scrolling, maintaining navigation context."
+    },
+    {
+      "kind": "motion",
+      "note": "A minimalist footer containing 'WORK' and 'INFO' buttons appears from the bottom and remains sticky at the bottom of the viewport after initial scroll."
+    }
+  ],
+  "technique_notes": [
+    "Sections of content and individual portfolio items are revealed with a subtle fade-in and slight upward translation as they enter the viewport, creating a dynamic scroll experience.",
+    "Key navigational elements, specifically a page indicator and a primary action footer, transition from their initial positions to fixed, sticky positions at the top and bottom of the viewport respectively, maintaining accessibility throughout the scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, airy headings (~2-3x body) with generous letter-spacing, complemented by smaller, clean body text.",
+    "radius": "Subtle rounded corners (e.g., on pagination and footer buttons), otherwise sharp.",
+    "spacing": "Very airy, especially in the initial hero area and between major sections, transitioning to a balanced density within the portfolio grid."
+  },
+  "standout": "The site's standout feature is its extremely minimalist and almost stark presentation, where the content (portfolio work) is the absolute focus. The subtle, yet precise, scroll-triggered animations for revealing content and the unique sticky pagination and footer elements provide a refined and interactive experience without overwhelming the user, making it feel highly curated and intentional.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "siteinspire-mitchelleaton-com-67451a",
+  "source": {
+    "url": "https://mitchelleaton.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-mitchelleaton-com-67451a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-mitchelleaton-com-67451a__scroll0.webp",
+      "shots/_proposed/siteinspire-mitchelleaton-com-67451a__scroll1.webp",
+      "shots/_proposed/siteinspire-mitchelleaton-com-67451a__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "image-making",
+      "photography"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The oversized hero text dynamically distorts and transforms into a series of rippling horizontal lines as the user scrolls down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "A full-width, edge-to-edge grid layout is used for portfolio items, with images filling the available horizontal space."
+    },
+    {
+      "kind": "type",
+      "note": "There is an extreme contrast in typography, featuring a highly experimental, distorted display font for the hero and small, functional sans-serifs for navigation and project titles."
+    },
+    {
+      "kind": "color",
+      "note": "The design predominantly uses a monochromatic palette of black and white, creating a stark and high-contrast visual experience."
+    }
+  ],
+  "technique_notes": [
+    "To recreate the hero motion, use a scroll-driven animation library like GSAP ScrollTrigger in conjunction with a custom SVG or canvas animation. The large, stylized text element should be animated to compress, distort, and then morph into a series of horizontally rippling lines as the user scrolls past the initial viewport.",
+    "Implement a responsive grid system for the portfolio items where images are full-bleed and reveal with a subtle fade-in or slide-up effect as they enter the viewport, likely using a scroll observation library like Intersection Observer or Locomotive Scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "die-grotesk-b",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "extremely oversized, distorted display text (~10x body) with small, functional sans-serif for navigation and project titles",
+    "radius": "sharp",
+    "spacing": "airy in the hero, balanced in the portfolio grid"
+  },
+  "standout": "The site's most distinctive feature is its highly experimental and animated hero text, which dynamically transforms into an abstract, wave-like graphic element as the user scrolls, creating a unique and memorable interactive experience that elevates a standard portfolio site.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

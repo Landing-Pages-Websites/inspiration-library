@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-arthurpetrillo-co-2f5d11",
+  "source": {
+    "url": "https://arthurpetrillo.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-arthurpetrillo-co-2f5d11.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-arthurpetrillo-co-2f5d11__scroll0.webp",
+      "shots/_proposed/siteinspire-arthurpetrillo-co-2f5d11__scroll1.webp",
+      "shots/_proposed/siteinspire-arthurpetrillo-co-2f5d11__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://arthurpetrillo.co/home",
+        "full": "shots/_proposed/siteinspire-arthurpetrillo-co-2f5d11__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A minimalist, single-column layout with generous vertical spacing emphasizes typography and creates an airy, uncluttered feel."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy uses a very large, bold sans-serif for primary headings, a lighter sans-serif for body text, and small, uppercase labels for metadata, creating clear visual distinction."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is a high-contrast monochromatic base (white/dark grey and dark grey/light grey) which dynamically inverts, punctuated by a vibrant, warm accent palette (orange, light pink) within a specific, immersive section."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-page, scroll-triggered background and text color inversion (light to dark, then dark to light) acts as a primary visual transition between major content blocks, dynamically changing the site's theme."
+    },
+    {
+      "kind": "motion",
+      "note": "A complex, animated, three-dimensional-like grid of graphic elements is revealed and then hidden as a user scrolls through a specific section, creating an immersive, interactive experience."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are delineated by large, bold headings and subtle horizontal rules, rather than distinct background blocks or containers, maintaining a minimalist aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered theme switch, where the entire page's background and text colors invert (from light to dark, then back to light) at specific scroll depths, creating a dynamic visual flow using css-keyframes.",
+    "A highly interactive, three-dimensional-like graphic section is revealed and animated using webgl-three, where abstract design elements in a distinct color palette appear to float and rotate in a grid as the user scrolls, creating an immersive portfolio showcase.",
+    "The navigation bar remains sticky at the top, dynamically adapting its background and text colors to match the current page theme (light or dark) as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#A3A3A3",
+        "role": "text"
+      },
+      {
+        "hex": "#FF6B35",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7DED7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "wtqc",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~4-5x body) with a generous line height, contrasted with smaller, lighter sans-serif body text and tiny, uppercase metadata labels.",
+    "radius": "sharp",
+    "spacing": "Very airy and open, particularly in the hero and between major text blocks, creating a sense of calm and focus on typography."
+  },
+  "standout": "The site's distinctive use of a full-page, scroll-triggered background and text color inversion, combined with an immersive, animated 3D-like graphic section, creates a highly dynamic and memorable portfolio experience that transcends a typical static layout.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
