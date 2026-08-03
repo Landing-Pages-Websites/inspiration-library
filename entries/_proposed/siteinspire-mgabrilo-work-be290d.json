@@ -1,0 +1,105 @@
+{
+  "id": "siteinspire-mgabrilo-work-be290d",
+  "source": {
+    "url": "https://mgabrilo.work",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-mgabrilo-work-be290d.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-mgabrilo-work-be290d__scroll0.webp",
+      "shots/_proposed/siteinspire-mgabrilo-work-be290d__scroll1.webp",
+      "shots/_proposed/siteinspire-mgabrilo-work-be290d__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://mgabrilo.work/project/dali",
+        "full": "shots/_proposed/siteinspire-mgabrilo-work-be290d__p2.webp"
+      },
+      {
+        "url": "https://mgabrilo.work/project/pyre",
+        "full": "shots/_proposed/siteinspire-mgabrilo-work-be290d__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-portfolio",
+      "art-direction"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent two-column grid is used for project display, featuring a large visual on the left and concise textual details on the right, maintaining ample whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "All primary text elements, including navigation, project titles, and descriptive labels, are rendered in uppercase with generous letter-spacing, contributing to a clean, editorial aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast monochrome palette of white backgrounds and black text for the UI, allowing the diverse and often vibrant project imagery to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the homepage, entire project sections vertically slide into view from the bottom, replacing the previous section in a full-viewport transition, while the top navigation remains fixed."
+    },
+    {
+      "kind": "section",
+      "note": "Each project is presented as a distinct, full-viewport-height section, creating an immersive, sequential gallery experience on the homepage."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a full-screen scroll-snapping mechanism where each project occupies the entire viewport. As the user scrolls, the current project smoothly slides upwards and out of view, while the next project slides in from the bottom, creating a seamless, page-turn-like content transition. The top navigation bar maintains a sticky position throughout this motion.",
+    "Project details are presented in a clean, minimal two-column layout, with large, impactful imagery on one side and concise, uppercase text details on the other, ensuring focus on the visual work."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "subtle-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "All text uses a sans-serif font, with headings and key labels often in uppercase and slightly larger, but maintaining a relatively consistent, balanced scale with body text. Emphasis is achieved through spacing and weight rather than dramatic size differences.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous margins and padding are consistently applied, especially around project content and navigation, creating a very open and uncluttered feel."
+  },
+  "standout": "This site's design is distinctive for its immersive, full-screen project showcase, where each portfolio item takes over the entire viewport and transitions with a smooth vertical slide on scroll. This creates a highly focused and cinematic viewing experience that elevates each piece of work.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

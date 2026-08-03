@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-centrephotogeneve-ch-6c4d61",
+  "source": {
+    "url": "https://www.centrephotogeneve.ch",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-centrephotogeneve-ch-6c4d61.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-centrephotogeneve-ch-6c4d61__scroll0.webp",
+      "shots/_proposed/siteinspire-centrephotogeneve-ch-6c4d61__scroll1.webp",
+      "shots/_proposed/siteinspire-centrephotogeneve-ch-6c4d61__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.centrephotogeneve.ch/shop",
+        "full": "shots/_proposed/siteinspire-centrephotogeneve-ch-6c4d61__p2.webp"
+      },
+      {
+        "url": "https://www.centrephotogeneve.ch/events",
+        "full": "shots/_proposed/siteinspire-centrephotogeneve-ch-6c4d61__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "gallery",
+      "exhibition"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, full-height image sections dominate the initial scroll, each featuring a large, high-contrast title overlaid on the image, creating distinct visual blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are extremely large, bold, and sans-serif, often using vibrant, contrasting colors against photographic backgrounds, while supporting text is much smaller and more subtle."
+    },
+    {
+      "kind": "color",
+      "note": "Each primary content section introduces a new, bold accent color for its main heading text (e.g., electric blue, soft pink, vibrant red, intense green), creating a dynamic and visually segmented experience."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, each full-bleed image section reveals its content with a parallax effect where the background image scrolls at a slower rate than the foreground text, making the text appear to float over the changing scenery before the entire section scrolls away."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a 'hero stack' approach where multiple full-screen hero-like sections are stacked vertically, each introducing a new exhibition or major content block with its own distinct visual theme and color palette."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible throughout the scroll. Main content sections are full-bleed images with large, dynamically colored text overlays. As the user scrolls, these background images parallax behind the text, which remains relatively fixed in the viewport for a period, creating a layered depth effect. New content sections, such as image grids and event lists, are revealed as they scroll into the viewport, appearing as standard scroll-up reveals after the initial hero stack."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#003388",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFC1C1",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "stand-font",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif headings (~6-8x body) with small, subtle uppercase labels for dates/categories, creating a strong visual hierarchy.",
+    "radius": "Sharp, with all elements and images featuring crisp, unrounded corners.",
+    "spacing": "Airy for the full-bleed hero sections, transitioning to a balanced density for product grids and event lists further down the page."
+  },
+  "standout": "This site's design is distinctive for its bold, almost aggressive use of full-bleed photographic sections with dynamically colored, oversized text overlays that parallax as you scroll. The shifting, high-contrast text colors for each section create a powerful visual rhythm and a gallery-like experience that feels more like an art installation than a typical website.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

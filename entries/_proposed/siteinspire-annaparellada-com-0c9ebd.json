@@ -1,0 +1,126 @@
+{
+  "id": "siteinspire-annaparellada-com-0c9ebd",
+  "source": {
+    "url": "https://www.annaparellada.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-annaparellada-com-0c9ebd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-annaparellada-com-0c9ebd__scroll0.webp",
+      "shots/_proposed/siteinspire-annaparellada-com-0c9ebd__scroll1.webp",
+      "shots/_proposed/siteinspire-annaparellada-com-0c9ebd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.annaparellada.com/about",
+        "full": "shots/_proposed/siteinspire-annaparellada-com-0c9ebd__p2.webp"
+      },
+      {
+        "url": "https://www.annaparellada.com/work/mango",
+        "full": "shots/_proposed/siteinspire-annaparellada-com-0c9ebd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "High-contrast, minimalist layout with generous white space, emphasizing large typographic elements over imagery on primary navigation pages."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold serif typography is used as the primary visual element for headings and key statements, creating a dramatic and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A monochromatic base of black text on a white background is consistently used, with vibrant, full-saturation accent colors introduced strategically within project pages to define sections and add energy."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, impactful numerical element ('97%') is revealed and animated on scroll, appearing prominently in the viewport before disappearing as scrolling continues."
+    },
+    {
+      "kind": "motion",
+      "note": "A thin, vibrant yellow bar animates horizontally to underline the 'Work' title in the hero section, indicating an active state or focus."
+    },
+    {
+      "kind": "section",
+      "note": "Project listings on the work page are presented as large, bold serif text links, without accompanying images, maintaining a clean and typography-focused aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a smooth scrolling experience, likely powered by Locomotive Scroll, which also enables scroll-triggered animations. Elements like section titles, images, and the unique '97%' numerical display are revealed or animated (e.g., fading in, sliding up, or transforming) as they enter the viewport, orchestrated by a library like GSAP.",
+    "The hero section and key headings utilize full-bleed, high-contrast typography as the dominant visual element, often paired with a subtle animating accent like a horizontal underline, which could be achieved with CSS keyframes or GSAP.",
+    "Project detail pages employ a dynamic, asymmetrical grid layout for images and color blocks, allowing for varied visual compositions while maintaining a consistent typographic style."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ffc700",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff5c00",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff007f",
+        "role": "accent"
+      },
+      {
+        "hex": "#00bfff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very dramatic scale, with oversized, bold serif headings (~5-8x body text) and smaller, legible sans-serif body text for details.",
+    "radius": "Sharp",
+    "spacing": "Airy, with significant vertical and horizontal padding, especially around headings and between major content blocks, creating a sense of spaciousness."
+  },
+  "standout": "The site's distinctive use of extremely large, bold serif typography as a primary design element, combined with a high-contrast, minimalist aesthetic and playful scroll-triggered reveals (like the '97%' and the yellow animating underline), makes it stand out from typical portfolios.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

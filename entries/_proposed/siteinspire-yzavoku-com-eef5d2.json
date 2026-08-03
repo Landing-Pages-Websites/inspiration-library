@@ -1,0 +1,102 @@
+{
+  "id": "siteinspire-yzavoku-com-eef5d2",
+  "source": {
+    "url": "https://www.yzavoku.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-yzavoku-com-eef5d2.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-yzavoku-com-eef5d2__scroll0.webp",
+      "shots/_proposed/siteinspire-yzavoku-com-eef5d2__scroll1.webp",
+      "shots/_proposed/siteinspire-yzavoku-com-eef5d2__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dynamic three-panel layout where the central panel is a full-bleed, scroll-driven canvas animation, flanked by changing black and white photographic panels."
+    },
+    {
+      "kind": "motion",
+      "note": "The entire central canvas area undergoes a complete visual transformation (background color, central figure, and main text content) as the user scrolls, cycling through distinct artistic 'chapters' or states."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited palette primarily featuring stark black, white, and a vibrant, saturated red, used for dramatic and immersive effect."
+    },
+    {
+      "kind": "type",
+      "note": "Minimalist, all-caps sans-serif typography is used for navigation and the central dynamic text, maintaining a consistent, understated presence against the dominant visuals."
+    },
+    {
+      "kind": "section",
+      "note": "Instead of traditional content sections, the site uses scroll depth to trigger full-screen, immersive visual 'states' or 'chapters,' each with a unique aesthetic and thematic text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen, scroll-triggered canvas animation system that completely re-renders the central visual experience, including background color, primary graphic elements, and overlay text, as the user scrolls. This creates a sequential, chapter-like narrative, leveraging detected canvas and video-hero technologies.",
+    "The flanking side panels also update their photographic content in sync with the central canvas transitions, maintaining a cohesive visual flow across the entire viewport.",
+    "The main navigation and branding text are overlaid on this dynamic canvas, remaining fixed in position while the background transforms, ensuring persistent access to key links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Neue Haas Grotesk Display Pro",
+        "role": "body"
+      },
+      {
+        "family": "Neue Haas Grotesk Display Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "minimalist and consistent, with main text and navigation being relatively small and all-caps, allowing the visuals to dominate.",
+    "radius": "sharp",
+    "spacing": "airy, with significant negative space around the central dynamic elements, creating a sense of drama and focus."
+  },
+  "standout": "This site's design is distinctive for its highly immersive, scroll-driven full-screen canvas animation that completely transforms the page's visual theme and content with each scroll depth. It functions more as an interactive art piece or a visual narrative than a traditional website, making the user experience a journey through distinct artistic 'chapters.'",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

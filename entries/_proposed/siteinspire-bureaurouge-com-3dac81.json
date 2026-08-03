@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-bureaurouge-com-3dac81",
+  "source": {
+    "url": "https://bureaurouge.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-bureaurouge-com-3dac81.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-bureaurouge-com-3dac81__scroll0.webp",
+      "shots/_proposed/siteinspire-bureaurouge-com-3dac81__scroll1.webp",
+      "shots/_proposed/siteinspire-bureaurouge-com-3dac81__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://bureaurouge.com/projects/archimode",
+        "full": "shots/_proposed/siteinspire-bureaurouge-com-3dac81__p2.webp"
+      },
+      {
+        "url": "https://bureaurouge.com/projects/adidas-spot",
+        "full": "shots/_proposed/siteinspire-bureaurouge-com-3dac81__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "photography",
+      "film-production"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A minimalist, full-bleed layout that transitions from a single hero element to a structured grid with fixed-position sidebars upon scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Exclusive use of a monospaced font for all textual elements, including navigation, headings, body text, and metadata, creating a consistent, code-like aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette featuring dark grey backgrounds, off-white text, and a vibrant red used sparingly for accents and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sophisticated scroll-triggered content transitions: the initial hero content (text and background image/video) changes on scroll, followed by the reveal of left and right sidebars, and subsequent content (images, quotes) fading in and out within the main content area."
+    },
+    {
+      "kind": "section",
+      "note": "Project detail pages consistently feature a main content area for images/videos, a left sidebar for project metadata (client, year), and a right sidebar for related project links or categories."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven animation system where the initial hero content dynamically swaps out text and subtly adjusts the background image/video as the user scrolls. Further scrolling triggers the appearance of fixed-position left and right sidebars, which then frame subsequent content sections that fade in and out sequentially.",
+    "A consistent, minimal grid system is used, where content areas expand to full width or are contained within a central column, flanked by fixed-position sidebars that appear after the initial hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#fdfdfa",
+        "role": "text"
+      },
+      {
+        "hex": "#e60000",
+        "role": "accent"
+      },
+      {
+        "hex": "#cccccc",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Mono",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "minimal hierarchy, almost all text (headings, body, labels) uses a small, monospaced font, with subtle size variations for emphasis.",
+    "radius": "sharp",
+    "spacing": "airy in the initial hero, transitioning to a balanced, grid-like density with the appearance of sidebars and project content."
+  },
+  "standout": "This site's design is distinctive for its rigorous adherence to a monospaced typeface for all content, creating a unique, almost command-line interface aesthetic. This is combined with a sophisticated, scroll-triggered narrative that transforms the page layout and content dynamically, making the user experience feel highly interactive and curated rather than a static display.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
