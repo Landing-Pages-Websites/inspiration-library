@@ -1,0 +1,107 @@
+{
+  "id": "one-page-love-lennysproductpass-com-8490eb",
+  "source": {
+    "url": "https://www.lennysproductpass.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-lennysproductpass-com-8490eb.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-lennysproductpass-com-8490eb__scroll0.webp",
+      "shots/_proposed/one-page-love-lennysproductpass-com-8490eb__scroll1.webp",
+      "shots/_proposed/one-page-love-lennysproductpass-com-8490eb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-deals",
+      "membership"
+    ],
+    "mood": [
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Large, highly rounded-corner cards are used consistently for product offers and pricing tiers, often arranged in flexible grids that adapt to content density."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, inviting palette centers on a light peach/orange as a primary background for content sections, contrasted with a brighter, saturated orange for calls to action and key accents."
+    },
+    {
+      "kind": "type",
+      "note": "A playful, script-like display font is used for the brand logo and select large headings, providing a friendly, approachable tone that contrasts with the clean, modern sans-serif used for body text and most other headings."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation transforms on scroll, shrinking in height and gaining a solid background color, while the logo and text scale down proportionally, maintaining legibility."
+    },
+    {
+      "kind": "section",
+      "note": "Informational sections, such as FAQs and advice blocks, are presented within large, rounded-corner containers with a consistent light orange background, visually grouping related content."
+    }
+  ],
+  "technique_notes": [
+    "Implement a header that is initially transparent and full-height, then uses CSS transitions to smoothly reduce its height, apply a solid background color, and scale down its internal logo and navigation text when the user scrolls past a certain threshold.",
+    "Utilize a grid system to display product offers and pricing plans within distinct, large cards featuring deeply rounded corners, subtle drop shadows, and a consistent internal layout for icons, titles, and value propositions.",
+    "Combine a custom, script-style font for the brand identity and emotional headlines with a highly readable sans-serif for all other textual content, ensuring a clear hierarchy and distinct brand voice."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff9f5",
+        "role": "background"
+      },
+      {
+        "hex": "#ffecda",
+        "role": "surface"
+      },
+      {
+        "hex": "#f67014",
+        "role": "cta"
+      },
+      {
+        "hex": "#da915a",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#565656",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pacifico",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are generally bold and range from large (~3x body) to medium (~1.5x body), with body text being legible and well-spaced; the display font for the logo is quite large in the hero.",
+    "radius": "Rounded corners are consistently used across cards, buttons, input fields, and section containers, giving a soft, friendly feel.",
+    "spacing": "Balanced to airy; sections have generous vertical padding, and content within cards and lists is well-spaced."
+  },
+  "standout": "The playful, hand-drawn illustration style, particularly the product pass lanyards in the hero, combined with the warm, inviting color palette and soft rounded corners, creates a distinctive friendly and approachable brand identity for a product that is essentially a collection of software deals.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

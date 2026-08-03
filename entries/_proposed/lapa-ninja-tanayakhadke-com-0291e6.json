@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-tanayakhadke-com-0291e6",
+  "source": {
+    "url": "https://tanayakhadke.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tanayakhadke-com-0291e6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tanayakhadke-com-0291e6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tanayakhadke-com-0291e6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tanayakhadke-com-0291e6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "design",
+      "illustration",
+      "motion-graphics",
+      "portfolio"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetric, collage-like arrangement of illustrative elements and text snippets scattered around a central, large script name, creating a dynamic and playful visual field."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is used, pairing a large, expressive handwritten script for the main name with bold, uppercase sans-serif fonts for section titles and navigation, and a monospaced sans-serif for body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a vibrant and high-contrast color palette, combining a soft, light background with bold primary and secondary colors (blue, pink, green) for accents, section backgrounds, and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar remains sticky at the top of the viewport across all pages. The hero section implies interactive motion with a 'DRAG TO MOVE' hint and numerous floating, illustrative elements, suggesting user-initiated animation rather than scroll-triggered page reveals."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a prominent, two-tone block of solid color (blue and pink) featuring large, bold navigation links and contact information, acting as a distinct visual anchor at the bottom of the page."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the interactive hero, use CSS keyframes or a JavaScript animation library to create a dynamic, floating effect for various illustrative elements around the central name, with potential for user interaction like dragging. The navigation bar should be implemented with a sticky position to remain visible on scroll.",
+    "Achieve the high-contrast color blocking by using full-width sections with solid, vibrant background colors that starkly differentiate content areas and provide strong backdrops for white or dark text.",
+    "Implement the mixed typography by carefully selecting a script font for display, a bold sans-serif for headings and calls to action, and a monospaced font for body copy and labels, ensuring clear hierarchy and visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eeedfd",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#02bb7b",
+        "role": "accent"
+      },
+      {
+        "hex": "#4262ff",
+        "role": "primary-cta"
+      },
+      {
+        "hex": "#ffb3e0",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#686a62",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#303030",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "on-color-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pacifico",
+        "role": "display"
+      },
+      {
+        "family": "Anton",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An extremely oversized, expressive script font for the hero name (~8x body) contrasts with large, bold, uppercase sans-serif headings (~3x body) and a smaller, legible monospaced body text.",
+    "radius": "Mostly sharp corners for structural elements, with organic and rounded shapes appearing within the illustrative components.",
+    "spacing": "Very airy and scattered in the hero section, creating a sense of playfulness, transitioning to a more balanced and structured density in subsequent content sections."
+  },
+  "standout": "The site's most distinctive feature is its highly illustrative and interactive hero section, which eschews a traditional static layout for a dynamic, collage-like arrangement of floating elements and a prominent, handwritten name. This creates an immediate impression of creativity and playfulness, setting it apart from typical portfolio sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

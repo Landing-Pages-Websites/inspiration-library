@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-cydstumpel-nl-c5136a",
+  "source": {
+    "url": "https://cydstumpel.nl",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-cydstumpel-nl-c5136a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-cydstumpel-nl-c5136a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-cydstumpel-nl-c5136a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-cydstumpel-nl-c5136a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "consulting",
+      "personal-brand"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, collage-like grid for project blocks, where elements are offset and use varied background colors, contrasting with more conventional, structured blog card grids."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic hierarchy with oversized, bold serif display headings (e.g., 'Creative Engineer', 'CYD STUMPEL') that dominate sections, paired with small, clean sans-serif body and label text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse palette of distinct background colors for content blocks and hero sections, shifting from a light cream to a bold orange-red, complemented by a range of pastel-like accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section undergoes a multi-stage, complete content and background transformation as the user scrolls, rather than just revealing or parallaxing existing elements."
+    },
+    {
+      "kind": "section",
+      "note": "Oversized, repeating brand name text ('CYD STUMPEL') is used as a fixed background or foreground element that other content scrolls over, creating a layered visual effect."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-driven animation library (likely GSAP and Locomotive Scroll) to create a highly dynamic, multi-stage hero section transformation. As the user scrolls, the entire hero content and its background color transition to entirely new content and background, rather than simply revealing or parallaxing existing elements.",
+    "Large, repeating text elements are positioned as fixed background or foreground layers, creating a parallax-like effect where other content scrolls over or under them, adding depth and brand reinforcement.",
+    "Content sections are revealed with subtle fade-in or slide-up animations as they enter the viewport, ensuring a smooth and engaging content flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e2fc91",
+        "role": "background"
+      },
+      {
+        "hex": "#d9533f",
+        "role": "accent"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#ba9eff",
+        "role": "accent"
+      },
+      {
+        "hex": "#3b323d",
+        "role": "surface"
+      },
+      {
+        "hex": "#152918",
+        "role": "surface"
+      },
+      {
+        "hex": "#83cef6",
+        "role": "accent"
+      },
+      {
+        "hex": "#d80a0a",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold serif headings (~8x body text) with a strong, impactful presence, contrasted with small, clean sans-serif body and label text for detail.",
+    "radius": "Sharp corners throughout, with no visible rounding on any elements.",
+    "spacing": "Balanced to airy, with a very airy hero section and footer due to large typography, and a more balanced density in content grids."
+  },
+  "standout": "The most distinctive feature is the highly dynamic, multi-stage hero section that completely transforms its content and background on scroll, creating a narrative progression. This, combined with the playful, collage-like arrangement of content blocks and the extreme typographic scale, makes the site feel unique and highly interactive beyond a typical marketing template.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

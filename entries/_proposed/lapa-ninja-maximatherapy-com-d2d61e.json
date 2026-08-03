@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-maximatherapy-com-d2d61e",
+  "source": {
+    "url": "https://maximatherapy.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-maximatherapy-com-d2d61e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-maximatherapy-com-d2d61e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-maximatherapy-com-d2d61e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-maximatherapy-com-d2d61e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "child-development",
+      "education"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are full-bleed, often featuring large, custom illustrations or photographs that span the width of the viewport, creating distinct visual breaks and a playful, immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and sans-serif, providing strong hierarchy and a friendly, approachable tone, often paired with smaller, uppercase labels for context or calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast, vibrant color palette with dominant primary and secondary colors (greens, yellows, oranges, blues, pinks) for full-section backgrounds, creating energetic and distinct visual segments."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero area dynamically transforms on scroll, completely swapping its background color, primary illustration, and main heading content to reveal different program offerings in a narrative sequence. The main navigation and 'Donate' button remain sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced by a large, often multi-line, bold heading that acts as a visual anchor, followed by supporting text and custom illustrations or photography."
+    }
+  ],
+  "technique_notes": [
+    "The hero area features a series of full-screen, distinct visual states that completely swap their background color, primary illustration, and main heading as the user scrolls, creating a dynamic, narrative progression through key program offerings. This effect likely leverages JavaScript to detect scroll position and trigger full-section content and style changes. Custom Lottie animations are used for playful, character-based illustrations that are integrated into these sections, enhancing the site's engaging and friendly feel. A sticky header ensures persistent navigation and calls to action.",
+    "Custom, flat, and geometric illustrations are central to the site's visual identity, often depicting characters or abstract shapes that convey a sense of playfulness and support, integrated directly into section backgrounds or alongside text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff2700",
+        "role": "cta"
+      },
+      {
+        "hex": "#006aff",
+        "role": "accent"
+      },
+      {
+        "hex": "#fdcb40",
+        "role": "background"
+      },
+      {
+        "hex": "#5CB85C",
+        "role": "background"
+      },
+      {
+        "hex": "#FFC0CB",
+        "role": "background"
+      },
+      {
+        "hex": "#050505",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-5x body text) create strong visual impact, complemented by smaller, often uppercase, labels for emphasis.",
+    "radius": "Subtle to rounded; buttons and some UI elements have rounded corners, while illustrations frequently incorporate soft, curved shapes.",
+    "spacing": "Airy; generous vertical padding between full-bleed sections and ample whitespace around text blocks and illustrations contribute to a clean, open feel."
+  },
+  "standout": "The site's most distinctive feature is its dynamic, full-screen hero section that completely transforms its visual content (background color, illustrations, and text) on scroll, creating a narrative progression rather than a static hero. This, combined with the extensive use of custom, playful Lottie animations and a vibrant, high-contrast color palette, makes the site feel exceptionally engaging and unique compared to typical marketing templates.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "proposed"
+}

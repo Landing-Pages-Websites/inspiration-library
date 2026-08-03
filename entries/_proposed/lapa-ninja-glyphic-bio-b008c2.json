@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-glyphic-bio-b008c2",
+  "source": {
+    "url": "https://www.glyphic.bio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-glyphic-bio-b008c2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-glyphic-bio-b008c2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-glyphic-bio-b008c2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-glyphic-bio-b008c2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "biotech",
+      "science",
+      "research"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed, continuous background image or canvas spans the entire page, with all content sections overlaid in a centered, constrained column, creating a layered depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, full-page animated background of scientific elements (spheres and DNA-like structures) scrolls at a significantly slower rate than the foreground content, creating a deep parallax effect across all sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero headline 'Protein Sequencing by Expansion' remains visible and appears to scroll slower than the page, creating a sticky or slow-scroll effect over the parallax background."
+    },
+    {
+      "kind": "motion",
+      "note": "After an initial scroll, the primary navigation is replaced by a minimalist 'LKYC' progress indicator in the top left, providing a subtle navigational cue."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold, uppercase sans-serif font, often with generous letter spacing, contrasting with smaller, lighter body text for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark charcoal/black for text and primary backgrounds is paired with bright white or very light gray for content blocks, allowing the subtle greens and blues of the background animation to provide visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, well-spaced sections, often featuring a prominent image or graphic on one side and descriptive text on the other, creating an asymmetrical balance."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-viewport canvas or video element for a continuous, animated background of scientific imagery (spheres, DNA strands) that scrolls at a slower rate than the main content, giving a deep parallax illusion.",
+    "The hero section's main headline is implemented to scroll at a significantly slower pace than the page, making it appear to stick or slowly reveal new content as the user scrolls past the initial viewport.",
+    "After an initial scroll, the primary navigation is replaced by a minimalist 'LKYC' progress indicator in the top left, providing a subtle navigational cue."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#201",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#A4A4A4",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#AABDD5",
+        "role": "accent"
+      },
+      {
+        "hex": "#C5CDC9",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase headings (~3-4x body) with generous letter spacing, paired with a clean, legible body text.",
+    "radius": "Sharp corners throughout, with no visible rounding on elements.",
+    "spacing": "Airy, with significant vertical padding between sections and within content blocks, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The most distinctive feature is the immersive, full-page animated background of scientific elements that continuously parallax scrolls beneath all content, creating a unique sense of depth and scientific wonder. This, combined with the sticky, slow-scrolling hero headline, makes the site feel dynamic and sophisticated without being overwhelming.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

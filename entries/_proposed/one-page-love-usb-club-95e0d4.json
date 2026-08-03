@@ -1,0 +1,105 @@
+{
+  "id": "one-page-love-usb-club-95e0d4",
+  "source": {
+    "url": "https://usb.club/transport",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-usb-club-95e0d4.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-usb-club-95e0d4__scroll0.webp",
+      "shots/_proposed/one-page-love-usb-club-95e0d4__scroll1.webp",
+      "shots/_proposed/one-page-love-usb-club-95e0d4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "electronics",
+      "consumer-tech",
+      "luxury-goods"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution product photography dominates each scroll section, often serving as the primary visual element with minimal, centered text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A highly stylized, wide, and thin sans-serif display font is used for key product names ('TRANSPORT'), contrasting with a clean, modern sans-serif for all other headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a stark, high-contrast palette of deep charcoal/black backgrounds with crisp white or light grey typography, emphasizing the metallic and reflective qualities of the product."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero product image and main title ('TRANSPORT') exhibit a subtle parallax effect, moving at a slower rate than the scroll, creating a sense of depth against the dark background. Subsequent content sections reveal with a smooth slide-up and fade-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-screen sections, each introduced by a large product image and a concise, benefit-oriented heading, creating a narrative flow as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a 3D rendered product model (likely WebGL/Three.js) that subtly parallaxes against a static background as the user scrolls, giving a sense of depth and premium quality. Subsequent content sections are revealed using scroll-triggered animations, where large, full-bleed images and associated text elements slide up and fade into view with a smooth transition. The top navigation bar remains fixed, providing persistent access to site navigation.",
+    "The overall visual presentation relies on dramatic, high-fidelity product renders or photography, often against a dark, minimalist backdrop, to convey a sense of luxury and advanced technology."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181818",
+        "role": "background"
+      },
+      {
+        "hex": "#cfcfcf",
+        "role": "text"
+      },
+      {
+        "hex": "#a5a5a5",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#3a3a3a",
+        "role": "surface"
+      },
+      {
+        "hex": "#9a9a9a",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, thin, uppercase display headings (~4-5x body) for product names, with smaller, clean sans-serif for feature descriptions and labels.",
+    "radius": "sharp \u2014 all elements, including buttons and image containers, feature crisp, unrounded corners.",
+    "spacing": "airy \u2014 generous negative space surrounds key elements and text blocks, particularly in the hero and feature sections, creating a sense of luxury and focus."
+  },
+  "standout": "The site's standout feature is its cinematic product presentation, using dramatic, full-bleed photography and subtle 3D parallax motion against a minimalist dark background to elevate a simple USB drive into a high-end, desirable object. It's less about features and more about the aspirational experience.",
+  "animation_tech": [
+    "canvas",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-swehl-com-f04c3f",
+  "source": {
+    "url": "https://swehl.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-swehl-com-f04c3f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-swehl-com-f04c3f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-swehl-com-f04c3f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-swehl-com-f04c3f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "parenting",
+      "e-commerce"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed video hero section dominates the initial viewport, followed by a mix of full-width content sections and constrained-width grids."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, inviting color palette uses earthy tones (peach, cream, dark brown) as backgrounds, accented by pops of bright yellow for CTAs and headlines, and a soft lavender for a prominent overlay."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, curved, lavender-colored call-to-action section animates into view from the bottom of the screen as the user scrolls, remaining sticky as an overlay."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections feature horizontally scrollable cards, used for both product displays and resource articles, allowing for dense information presentation without excessive vertical scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, all-caps sans-serif headings are used for major section titles and hero text, providing strong visual hierarchy and a bold brand voice."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video with a large, bold text overlay for immediate impact.",
+    "A sticky navigation bar remains at the top of the viewport, providing persistent access to site links.",
+    "A unique, scroll-triggered overlay element with a custom organic, wave-like top edge animates into a fixed position from the bottom of the viewport, serving as a persistent call-to-action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#8B2A00",
+        "role": "background"
+      },
+      {
+        "hex": "#FFD874",
+        "role": "accent"
+      },
+      {
+        "hex": "#EAD1FF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFA977",
+        "role": "background"
+      },
+      {
+        "hex": "#FFF4D9",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, all-caps sans-serif headings (~3-4x body) for impact, paired with clear, readable body text.",
+    "radius": "Subtle rounding on buttons and product cards, contrasted with a distinctive organic, wave-like top edge on the scroll-triggered overlay section.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within card layouts, creating a comfortable visual rhythm."
+  },
+  "standout": "The most distinctive element is the large, organically curved, lavender-colored call-to-action overlay that animates into view from the bottom of the screen and remains sticky. This unique, playful, and persistent interaction immediately captures attention and encourages engagement, setting it apart from standard sticky footers or pop-ups.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
