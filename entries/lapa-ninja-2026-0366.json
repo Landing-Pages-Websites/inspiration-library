@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-2026-0366",
+  "source": {
+    "url": "https://superpower.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0366.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0366__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0366__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0366__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "wellness",
+      "biotech",
+      "membership-service"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with dark backgrounds and high-contrast white typography, often featuring large, impactful imagery or video."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing a dominant visual (image, video, or graphic) with a concise text block."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, vibrant orange (#fc5f2b) is used as a primary accent for CTAs and key highlights, contrasting sharply with the dark gray and black dominant palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal with a subtle fade-in and slight upward translation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent to a solid dark background with a subtle border on scroll, maintaining its sticky position."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a full-width video background with a dramatic, focused spotlight effect on the subject, creating an immediate sense of intrigue and sophistication."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that transitions its background from transparent to a solid dark color upon scrolling past the hero section, likely using CSS transitions or a JavaScript library.",
+    "Sections below the hero are revealed with a subtle fade-in and slight upward translation as they enter the viewport, suggesting the use of a scroll-triggered animation library like GSAP.",
+    "The hero section features a full-width video background with a dramatic, focused spotlight effect, creating a moody and engaging introduction."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#fc5f2b",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#71717a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#d4d4d8",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#00b67a",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NB International",
+        "role": "heading"
+      },
+      {
+        "family": "NB International",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear, legible body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle (small rounded corners on buttons, input fields, and some card elements).",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and comfortable padding within content blocks, creating a premium feel."
+  },
+  "standout": "The site distinguishes itself with a dramatic, high-production-value video hero featuring a focused spotlight effect, immediately setting a sophisticated and intriguing tone. This, combined with a predominantly dark, high-contrast palette and editorial-style photography, elevates it beyond typical health tech sites, conveying a sense of luxury and cutting-edge science.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

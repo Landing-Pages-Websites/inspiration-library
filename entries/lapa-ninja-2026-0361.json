@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0361",
+  "source": {
+    "url": "https://www.michaelbernard.fr",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0361.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0361__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0361__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0361__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical portfolio grid with varying card sizes and a mix of two-column and full-width layouts, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast in typography, pairing an elegant, oversized serif for headings and expressive statements with a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast, minimalist color palette primarily using off-white and deep charcoal, with a single vibrant blue accent used sparingly for emphasis and unique display text."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-page background color transition occurs on scroll, shifting from a light off-white to a deep charcoal, affecting the entire viewport and creating distinct content zones."
+    },
+    {
+      "kind": "section",
+      "note": "Large, full-width typographic statements serve as impactful section dividers, breaking up the content flow and reinforcing the brand's voice."
+    }
+  ],
+  "technique_notes": [
+    "A smooth scrolling experience is implemented across the entire page, enhancing user interaction and visual flow.",
+    "Scroll-triggered animations are used for a full-page background color transition, dynamically changing the background from a light off-white to a deep charcoal as the user scrolls past the main portfolio content.",
+    "The sticky navigation bar dynamically inverts its color scheme (text and background) to maintain readability and contrast against the changing page background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f6f6f3",
+        "role": "background"
+      },
+      {
+        "hex": "#2d2d2d",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Blocky Display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body) with a clean sans-serif for body text and small labels, creating a high-contrast and expressive typographic hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very open spacing in the hero and between major sections, with a balanced density in the portfolio grid."
+  },
+  "standout": "The site's most distinctive feature is its dramatic use of typography, particularly the large, overlapping serif statements and the unique blocky display font in the hero. This, combined with the full-page background color transition on scroll, creates a highly dynamic and editorial feel that elevates it beyond a standard portfolio.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

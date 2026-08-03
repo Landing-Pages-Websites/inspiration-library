@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0356",
+  "source": {
+    "url": "https://www.joegarnerdesign.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0356.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0356__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0356__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0356__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "design",
+      "portfolio",
+      "agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric content alignment, often with key information or labels positioned to the far left, creating a strong visual anchor against the main content block."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic juxtaposition of extremely large, bold sans-serif display headings with elegant, thin script fonts for secondary titles and small, uppercase sans-serif for functional labels."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast palette featuring a dominant light background, dark text, and occasional full-width black sections that serve as visual breaks and provide contrast for white text."
+    },
+    {
+      "kind": "motion",
+      "note": "A monumental, semi-transparent text element ('WORKS') is fixed in the background, creating a layered depth effect as foreground content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are separated by vast amounts of negative space, emphasizing minimalism and allowing each content block to breathe, sometimes punctuated by a full-bleed background color change."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed background element with extremely large, semi-transparent typography that remains static while the main content scrolls over it, creating a sense of depth and visual layering.",
+    "Scroll-triggered animations, likely using GSAP, reveal content sections with a subtle fade-in or slide-up effect as they enter the viewport, enhancing engagement.",
+    "A minimalist top navigation and bottom footer are initially hidden or partially off-screen, then become fixed to the viewport edges after an initial scroll, providing persistent access to navigation and branding."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#0e1216",
+        "role": "text"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif display headings (~8-10x body) are contrasted with elegant script subheadings (~2x body) and small, uppercase sans-serif labels (~1x body).",
+    "radius": "Sharp corners are consistently used throughout the design, with no visible rounded elements.",
+    "spacing": "Very airy, characterized by generous vertical and horizontal padding, especially around major headings and between distinct content sections, creating a sense of spaciousness."
+  },
+  "standout": "The most distinctive feature is the use of monumental, fixed background typography ('WORKS') that foreground content scrolls over, creating a strong sense of depth and a unique visual anchor for the page. This, combined with the minimalist, high-contrast aesthetic and elegant script accents, elevates it beyond a generic portfolio template.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

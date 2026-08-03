@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-2026-0365",
+  "source": {
+    "url": "https://sethlukin.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0365.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0365__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0365__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0365__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "digital-product"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-viewport height sections that replace each other on scroll, creating a distinct narrative flow rather than continuous scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Juxtaposition of oversized, bold, uppercase sans-serif headings with smaller, clean sans-serif for supporting text and labels, creating strong visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Dominant black background with stark white text, accented by vibrant primary colors (blue, red, yellow) used in pixel art illustrations and generative background animations."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered full-page section transitions, where each new section slides into view to replace the previous one, creating a sequential narrative experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Dynamic, generative background animations using canvas, featuring abstract shapes and subtle color shifts that provide a living backdrop to the main hero text."
+    },
+    {
+      "kind": "section",
+      "note": "Consistent use of pixel art illustrations and iconography throughout the site, from the initial hero character to small decorative elements and skill icons, reinforcing a retro-digital aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-page scroll-snapping or section-based scrolling system, where each major content block occupies the entire viewport and transitions smoothly into place as the user scrolls, likely using a JavaScript library or custom scroll-snap implementation.",
+    "Dynamic background visuals are created using canvas animation, generating abstract, fluid patterns that subtly shift color and form behind the main textual content, enhancing the digital and creative feel.",
+    "Pixel art assets are integrated throughout the design, from hero illustrations to small decorative icons, providing a consistent retro-digital aesthetic that contrasts with the modern typography."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#111111",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Neue Montreal Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Onest",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase sans-serif headings (~4-5x body) paired with clean, legible sans-serif for supporting text and labels.",
+    "radius": "Sharp corners throughout for buttons, cards, and general UI elements, reinforcing a digital, pixelated aesthetic.",
+    "spacing": "Airy, full-bleed sections with generous vertical spacing between major content blocks, but dense within the '5 Years in Design' skill list."
+  },
+  "standout": "The most distinctive aspect is the seamless integration of pixel art aesthetics with modern, bold typography and dynamic generative art backgrounds. This creates a unique retro-futuristic and playful yet professional brand identity that stands out from typical design portfolios.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "approved"
+}

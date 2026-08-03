@@ -1,0 +1,125 @@
+{
+  "id": "lapa-ninja-2026-0371",
+  "source": {
+    "url": "https://www.trushaneogi.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-03"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0371.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0371__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0371__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0371__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-design",
+      "ui-ux",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width dark sections with centrally aligned, constrained-width content blocks, creating a strong visual focus on the primary information."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant script font is used for stylistic emphasis in the hero sub-headline and the footer signature, providing a personal touch that contrasts with the modern, bold sans-serif headings."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent dark mode base (black/dark gray) is used for backgrounds, providing a stark canvas for white text and vibrant, isolated accent colors that highlight individual project cards."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual project cards reveal with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic content loading experience."
+    },
+    {
+      "kind": "motion",
+      "note": "A playful, dynamic GIF in the footer changes its content (from a video to a 'Thank You' message) once it's fully visible in the viewport, adding a unique and memorable interactive touch."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a set of visually distinct, layered 'cards' that serve as interactive entry points to different aspects of the designer's profile and work."
+    }
+  ],
+  "technique_notes": [
+    "The site uses CSS keyframe animations to create scroll-triggered reveals for content sections and individual elements. As sections enter the viewport, they animate into place with a subtle upward translation and fade-in effect.",
+    "The main navigation bar is implemented as a sticky element, remaining fixed at the top of the viewport once the user scrolls past the initial hero content, ensuring constant access to navigation links.",
+    "The hero section features a set of interactive 'cards' that are visually distinct and appear to be layered, inviting engagement and providing a unique visual metaphor for different skill sets or content types."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141414",
+        "role": "background"
+      },
+      {
+        "hex": "#fefefe",
+        "role": "text"
+      },
+      {
+        "hex": "#9e9e9e",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffeb3b",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#673ab7",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#e91e63",
+        "role": "accent-red"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Nanum Pen Script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a distinctive, elegant script font for key phrases, and clear, readable sans-serif body text.",
+    "radius": "Subtle rounded corners (small radius) on cards, buttons, and interactive elements, maintaining a clean yet soft aesthetic.",
+    "spacing": "Balanced and airy in the hero section, transitioning to a more structured and slightly denser grid layout for the portfolio work, with generous vertical spacing between main sections."
+  },
+  "standout": "The site stands out with its sophisticated dark mode aesthetic, punctuated by vibrant, isolated color accents within the portfolio pieces. The playful, dynamic GIF in the footer, which changes content upon scroll, adds a memorable and personal touch that elevates it beyond a standard portfolio.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
