@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-2026-0434",
+  "source": {
+    "url": "https://www.dorianlods.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0434.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0434__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0434__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0434__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "web-development",
+      "design",
+      "interactive-experiences"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a highly minimalist, centered column on a dark background, emphasizing vertical flow and ample negative space around text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "An extreme typographic contrast is used, featuring a large, ornate, custom display typeface for the hero identity, paired with a clean, understated sans-serif for all body and descriptive text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is used for text and background, with vibrant, iridescent blues, purples, and pinks introduced solely through the dynamic 3D WebGL object in the hero."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero's custom typographic element and 3D object scale down significantly and parallax upwards, becoming a persistent, smaller header at the top of the viewport as the user scrolls, while subsequent content scrolls normally underneath."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by large vertical spacing and distinct text blocks rather than visual dividers or background changes, maintaining a consistent dark canvas."
+    }
+  ],
+  "technique_notes": [
+    "The hero section prominently features a custom-rendered typographic element combined with a dynamic, interactive 3D crystalline object, both powered by WebGL (specifically Three.js). As the user scrolls, these elements smoothly scale down, parallax upwards, and the 3D object subtly rotates, transitioning into a sticky, compact header that remains visible while other content scrolls beneath it.",
+    "Body content is structured as a single, centered text column with generous line spacing and paragraph breaks, ensuring high readability against the dark background and directing focus to the interactive hero and concise information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#4A00FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF00FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Old English Text MT",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, decorative hero text (~8-10x body) with small, consistent sans-serif body text and slightly larger, bolded labels.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially in the hero and between major text blocks, creating a sense of luxury and focus on individual elements."
+  },
+  "standout": "The site's standout feature is its highly distinctive, interactive hero section, which combines custom, ornate typography with a dynamic, WebGL-rendered 3D object that scales and parallaxes to become a persistent header. This creates a unique, memorable brand identity that is both artistic and technically sophisticated.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "approved"
+}

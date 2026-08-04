@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0429",
+  "source": {
+    "url": "https://casadisolare.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0429.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0429__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0429__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0429__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "home-goods",
+      "lighting"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A simple rounded rectangular shape animates and transforms into the main hero visual (a glowing sphere) upon page load, followed by the navigation appearing."
+    },
+    {
+      "kind": "layout",
+      "note": "The hero section features a single, large, centrally placed 3D rendered object as its primary visual focus, occupying most of the screen with minimal overlay text."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent warm, earthy, and glowing color palette is used, transitioning from a light beige to rich orange, reddish-brown, and bright yellow, creating a luxurious and inviting atmosphere."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a distinct pairing of an elegant, almost calligraphic display serif for the brand name and a clean, modern sans-serif for navigation and functional text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated preloader animation where a simple geometric shape morphs and expands into the main interactive hero element, likely using CSS keyframes and canvas/WebGL.",
+    "The hero section features a full-screen, immersive 3D environment, likely rendered using WebGL or canvas (three.js), with a prominent, glowing spherical object that appears to be a light source.",
+    "Smooth scrolling is implemented across the page, likely using a library like locomotive-scroll, which would also facilitate scroll-triggered animations for subsequent section reveals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F0ECE0",
+        "role": "background"
+      },
+      {
+        "hex": "#FFB037",
+        "role": "accent"
+      },
+      {
+        "hex": "#C1B9A4",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFF7D4",
+        "role": "glow"
+      },
+      {
+        "hex": "#A07060",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#4A4A4A",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "solare-intense",
+        "role": "display"
+      },
+      {
+        "family": "helvetica-neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant display font for the brand name, moderately sized, paired with small, understated sans-serif for navigation and functional text.",
+    "radius": "Predominantly rounded corners, from the initial pill shape to the hero sphere and button elements.",
+    "spacing": "Very airy and open, emphasizing the central visual elements and creating a sense of calm and luxury."
+  },
+  "standout": "The site's distinctive use of a transformative loading animation that directly integrates into a full-screen, interactive 3D hero element, creating an immediate and immersive brand experience centered around a glowing, sun-like object.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

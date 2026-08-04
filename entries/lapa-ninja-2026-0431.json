@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0431",
+  "source": {
+    "url": "https://www.clayboan.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0431.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0431__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0431__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0431__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-services",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Each portfolio piece or content section is presented as a full-bleed, visually distinct block, often appearing as a tilted 3D plane that fills the viewport as it scrolls into focus."
+    },
+    {
+      "kind": "type",
+      "note": "A striking, ornate gothic/blackletter typeface is used exclusively for the brand's primary display text, creating a strong visual identity that contrasts with a clean, modern sans-serif for all other functional and body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site predominantly uses a high-contrast monochrome palette of deep black and crisp white for structural elements and typography, allowing the vibrant colors within the showcased work to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a dramatic 3D-like rotation or tilt effect as they scroll into the viewport, making each section feel like a physical object rotating into place."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio items are presented as individual, full-screen experiences, each introduced by a large, dynamically revealed image or graphic, emphasizing the visual impact of the work."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, decorative text overlaying a subtle background image that exhibits a gentle parallax and scaling effect as the user scrolls, creating depth.",
+    "Individual content sections are revealed using a WebGL/Three.js driven animation where each section appears to be a flat plane that rotates or tilts into its final, full-width position as it enters the viewport, giving a strong 3D presentation to the content.",
+    "The primary navigation remains sticky at the top of the page, maintaining accessibility while the dramatic content reveals unfold below it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e0e0e",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#86868b",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#424242",
+        "role": "subtle-detail"
+      },
+      {
+        "hex": "#f40000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Emeritus Display",
+        "role": "display"
+      },
+      {
+        "family": "Aeonik Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, ornate display headings (~8x body) for branding, contrasted with small, clean sans-serif for navigation and body text.",
+    "radius": "Sharp corners are consistently used across all elements and content blocks, reinforcing a precise and modern aesthetic.",
+    "spacing": "Airy spacing in the hero and between major content sections, creating a sense of grandeur and allowing each visual piece to breathe."
+  },
+  "standout": "The site's most distinctive feature is the dramatic, almost sculptural presentation of each portfolio piece, where content sections reveal by rotating into view as tilted 3D planes. This, combined with the bold, gothic typography for the brand name, creates a highly memorable and artistic user experience that elevates it beyond a typical portfolio.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

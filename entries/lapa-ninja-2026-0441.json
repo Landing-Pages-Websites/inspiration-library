@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-0441",
+  "source": {
+    "url": "https://www.granola.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0441.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0441__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0441__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0441__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "meeting-management"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, bold serif headline on the left and layered, interactive app screenshots on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, impactful display serif font for main headings, contrasted with a clean, legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive olive green is used as a primary accent color for calls to action and specific section backgrounds, providing a fresh contrast to the dominant white and dark gray palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent state to a sticky bar with a solid white background and subtle shadow as the user scrolls past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within sections (like app screenshots and text blocks) reveal themselves with a subtle fade-in and slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently integrate detailed app screenshots, often presented with a slight perspective or layered effect, to visually explain product capabilities."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, implement a scroll-triggered animation library (like locomotive-scroll or GSAP ScrollTrigger) to handle smooth scrolling and orchestrate element reveals. Sections should fade and slide into view as they enter the viewport. The navigation bar should use a sticky position with a CSS transition to change its background and add a shadow once a specific scroll threshold is met.",
+    "Create an asymmetrical hero layout using a grid or flexbox, dedicating more space to the headline and subtext on one side, and layering multiple image assets with subtle z-index variations and transforms on the other to create depth.",
+    "Utilize a strong typographic hierarchy with a custom display serif font for large, impactful headlines and a clean sans-serif for all other text, ensuring ample line height and letter spacing for readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fcfcf8",
+        "role": "surface"
+      },
+      {
+        "hex": "#484844",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#d1e043",
+        "role": "accent"
+      },
+      {
+        "hex": "#dedede",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Canela",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold serif headings (~4-5x body) create strong visual impact, complemented by smaller, often uppercase sans-serif labels and clear body text.",
+    "radius": "Subtle rounded corners on buttons and UI elements within app screenshots, otherwise sharp edges for section containers.",
+    "spacing": "Airy spacing in the hero and between major sections, creating a sense of openness, with balanced density within content blocks."
+  },
+  "standout": "The site's distinctive use of a bold, elegant display serif typeface for headlines, paired with a vibrant olive green accent, creates a sophisticated yet modern aesthetic. The integration of detailed, layered app screenshots as primary visual elements, often with a slight 3D perspective, effectively showcases the product's interface and features.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

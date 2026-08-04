@@ -1,0 +1,94 @@
+{
+  "id": "lapa-ninja-2026-0447",
+  "source": {
+    "url": "https://jessicamillearchitecte.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0447.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0447__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0447__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0447__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "interior-design",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width, responsive image grid showcases project work, with each image having a subtle number and project title overlay."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses an extremely oversized, bold, and wide sans-serif typeface for primary headings and brand elements, creating a strong, editorial statement, contrasted with a much smaller, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted palette features a dominant off-white/cream background paired with a deep, rich reddish-brown for key text and branding, evoking a sense of warmth and luxury."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large header 'JESSICA MILLE ARCHITECTE' and navigation links shrink and transform into a compact, sticky header upon scroll, with the brand name becoming a small 'JM' icon."
+    },
+    {
+      "kind": "section",
+      "note": "The footer prominently features the brand name in the same oversized, bold typeface as the hero, visually integrated with a subtle Golden Ratio spiral graphic."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the transforming sticky header, implement a scroll-triggered state change that reduces the font size and element dimensions of the brand name and navigation, repositioning them to a fixed top position. The brand name also transitions from full text to a compact icon.",
+    "The display typography effect is achieved by using a single, very heavy weight of a wide sans-serif font at extremely large sizes for main titles and brand elements, often spanning a significant portion of the viewport width, with generous letter-spacing for impact.",
+    "The project grid is a standard responsive grid layout where each item is an image with a dark overlay on hover or focus, revealing a project title and a sequential number."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F0",
+        "role": "background"
+      },
+      {
+        "hex": "#532C32",
+        "role": "text"
+      },
+      {
+        "hex": "#181C20",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (~5-8x body text) create a dramatic visual hierarchy, while body and navigation text remain small and understated.",
+    "radius": "sharp",
+    "spacing": "Very airy in hero and footer sections, creating a sense of grandeur, with balanced spacing within the project image grid."
+  },
+  "standout": "The site's most distinctive feature is its bold and dramatic use of typography, particularly the oversized, wide sans-serif for the brand name and main headings, which transforms from a massive hero element to a subtle sticky icon, and is artfully integrated into the footer with a Golden Ratio graphic.",
+  "animation_tech": [],
+  "status": "approved"
+}

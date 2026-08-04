@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-2026-0449",
+  "source": {
+    "url": "https://kitskinkind.com.au",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0449.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0449__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0449__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0449__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "cosmetics"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed imagery and content sections, with some sections featuring horizontally scrollable content galleries."
+    },
+    {
+      "kind": "type",
+      "note": "Bold, oversized serif typography (Kit Simon Mono) is used for brand statements and key section headings, creating a strong, editorial feel, contrasted with clean sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant, deep red (#C20019) is used as a primary brand color for backgrounds, accents, and calls to action, creating a high-contrast and impactful visual identity against off-white and black."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a top announcement bar disappears, and the main navigation becomes sticky. Content sections reveal themselves with a subtle fade-up or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a prominent, full-bleed hero section with dramatic product photography, followed by a mix of product galleries, large typographic brand statements, and grid-based product displays."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that activates after initial scroll, where a top announcement bar collapses. Sections are revealed using scroll-triggered animations, likely a combination of CSS keyframes or a JavaScript library like GSAP, causing elements to fade and slide into view as they enter the viewport. Horizontal product carousels are implemented using a slider library like Swiper, allowing users to browse multiple items within a single row."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#C20019",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Kit Simon Mono",
+        "role": "display"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~3-4x body) for dramatic effect, with smaller, legible sans-serif for body and UI elements.",
+    "radius": "Subtle: buttons and product cards feature slightly rounded corners.",
+    "spacing": "Balanced to airy; the hero section is particularly airy, while product grids maintain a balanced density."
+  },
+  "standout": "The site's design is distinctive for its bold, almost theatrical use of a deep red color palette and a unique, oversized serif typeface for brand messaging. This combination, paired with dramatic product photography, creates a strong, memorable brand identity that feels both luxurious and edgy, moving beyond typical clean and modern aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

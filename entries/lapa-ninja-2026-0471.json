@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0471",
+  "source": {
+    "url": "https://tayanecklace.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0471.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0471__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0471__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0471__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "consumer-electronics",
+      "luxury-goods"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections alternate between light and dark backgrounds, creating distinct visual breaks and a strong sense of content segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, large-scale serif font is used for all primary headings, creating an elegant and editorial feel, contrasted with clean sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The palette relies on high contrast between very light, almost off-white backgrounds and deep, muted dark tones, with minimal use of bright accent colors, emphasizing a refined aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling slower than the foreground content, while subsequent content sections reveal with a gentle fade-up animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent state on the hero to a sticky dark background with a contrasting 'Preorder now' button as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses aspirational, single-line statements as section titles, often centered, to convey a sense of purpose and emotion rather than direct feature descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video or image background with a subtle parallax scroll effect, allowing foreground text to move independently and reveal more of the background as the user scrolls.",
+    "A sticky header navigation dynamically changes its background color, text color, and button styling (from light to dark) as the user scrolls past the initial hero section, providing clear visual feedback of its active state.",
+    "Content sections are revealed using a scroll-triggered animation system that applies a gentle fade-up or slide-up effect as each section enters the user's viewport, enhancing engagement and visual flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fffef8",
+        "role": "light-background"
+      },
+      {
+        "hex": "#000000",
+        "role": "dark-text-and-elements"
+      },
+      {
+        "hex": "#252628",
+        "role": "dark-section-background"
+      },
+      {
+        "hex": "#0d2951",
+        "role": "dark-footer-background"
+      },
+      {
+        "hex": "#ece9ea",
+        "role": "subtle-light-background"
+      },
+      {
+        "hex": "#fff9e6",
+        "role": "subtle-light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Aguila Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "General Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) provide a luxurious feel, complemented by clean, legible sans-serif for body text and uppercase labels.",
+    "radius": "Subtle; elements like buttons and image containers feature very slightly rounded corners, maintaining a refined and modern edge.",
+    "spacing": "Airy; generous vertical and horizontal spacing between sections and content blocks creates a sense of calm and allows elements to breathe, particularly in the hero and main text sections."
+  },
+  "standout": "This site's design is distinctive for its sophisticated blend of large, elegant serif typography with a minimalist layout and subtle scroll-triggered animations. It creates an editorial, almost art-gallery-like experience, focusing on aspirational messaging and emotional connection rather than overt product features. The seamless transition of the sticky navigation from transparent to dark is particularly well-executed.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

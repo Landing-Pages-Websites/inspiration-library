@@ -1,0 +1,98 @@
+{
+  "id": "lapa-ninja-2026-0454",
+  "source": {
+    "url": "https://www.mbrown.work",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0454.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0454__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0454__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0454__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Initial hero features massive, full-height typographic elements ('M' and 'B') flanking a central image, creating a strong, symmetrical visual anchor before transitioning to content."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, pairing massive, condensed sans-serif display headings with small, monospaced or technical sans-serif text for labels and body content."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast two-tone palette of very dark brown and off-white is used consistently across all sections, creating a sophisticated and minimal aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero transitions dramatically on scroll: the central image disappears, revealing a tagline, and then the entire section is replaced by a new full-screen content block with a large headline, while the navigation remains sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in distinct, full-screen or near full-screen sections, often dominated by a single large image, a bold typographic statement, or a grid of smaller images."
+    }
+  ],
+  "technique_notes": [
+    "The motion system uses GSAP to orchestrate dramatic, full-screen section transitions. As the user scrolls, entire content blocks are replaced or slide into view, with large typographic elements animating in and out of the viewport to guide the user's focus.",
+    "Full-bleed imagery is used extensively, often in black and white, with subtle text overlays or integrated into grid layouts, maintaining a consistent visual mood.",
+    "The navigation bar remains fixed at the top of the viewport, providing persistent access while the main content area undergoes significant visual changes and transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#211811",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Massive, condensed sans-serif headings (~8x body) create strong visual impact, contrasted with small, monospaced body and label text.",
+    "radius": "sharp",
+    "spacing": "airy in hero and full-screen text sections, becoming more balanced in image galleries and contact areas."
+  },
+  "standout": "The site's most distinctive feature is its bold, almost brutalist use of typography as a primary design element, particularly the massive, animating letters in the hero and the full-screen typographic section transitions. It feels less like a website and more like an interactive editorial piece.",
+  "animation_tech": [
+    "canvas",
+    "gsap"
+  ],
+  "status": "approved"
+}

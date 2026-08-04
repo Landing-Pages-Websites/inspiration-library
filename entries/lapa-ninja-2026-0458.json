@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0458",
+  "source": {
+    "url": "https://mindmarket.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0458.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0458__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0458__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0458__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "business-services",
+      "market-research",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are full-bleed with distinct background colors, often featuring large, impactful headings and a mix of illustrative and photographic content."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses an extremely oversized, bold sans-serif typeface for main headings, creating a strong visual hierarchy and a modern, confident tone."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and energetic color palette dominates, primarily using a bright, almost neon green and a sunny yellow, contrasted with black text and occasional light beige sections."
+    },
+    {
+      "kind": "motion",
+      "note": "A continuous, winding 3D-like path illustration acts as a primary visual element, parallaxing against fixed text elements in the hero section and revealing new content and characters as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Key information is presented in distinct, full-width sections with alternating background colors (green, photo, beige, yellow) to clearly delineate content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-driven animation system, likely using locomotive-scroll, to create a smooth scrolling experience. A large, illustrative 3D path is rendered, possibly with canvas or Rive, and scrolls with a strong parallax effect against static viewport elements. New content sections and individual elements within them (like number cards) are revealed with staggered fade-up or slide-in animations as they enter the viewport, triggered by scroll position. The main navigation bar remains sticky at the top of the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#8ed462",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5e211",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f0f4f7",
+        "role": "background"
+      },
+      {
+        "hex": "#ff705d",
+        "role": "accent"
+      },
+      {
+        "hex": "#368d32",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, heavy-weight sans-serif headings (~4-5x body text) create a dominant visual presence, while body text remains clear and legible.",
+    "radius": "Subtle rounded corners are applied consistently to buttons, cards, and section containers, contributing to a friendly and modern feel.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within hero areas, balanced by a more standard density in feature grids and footer content."
+  },
+  "standout": "The most distinctive feature is the dynamic, winding 3D-like path illustration that serves as a continuous visual narrative throughout the page, guiding the user's eye and revealing content with a strong parallax effect. This, combined with the bold, almost neon color palette, creates a highly engaging and memorable experience.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "rive"
+  ],
+  "status": "approved"
+}

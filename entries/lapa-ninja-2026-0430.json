@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0430",
+  "source": {
+    "url": "https://chipsa.design",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0430.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0430__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0430__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0430__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "web-design",
+      "3d-design"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-bleed dark backgrounds and a bright, contrasting full-bleed yellow background, creating strong visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and major section headings use extremely large, bold, uppercase sans-serif typography for high impact, often spanning multiple lines."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark charcoal/black background is contrasted with bright white text and vibrant accent colors like electric yellow and various shades of blue for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary hero 3D element undergoes a continuous, complex transformation and animation as the user scrolls, evolving from a rocky landscape to a golden tube, and then sprouting crystalline structures, directly tied to scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Achievements' section features large, stylized numerical counters and icons integrated into an asymmetrical layout, emphasizing key metrics."
+    }
+  ],
+  "technique_notes": [
+    "The site extensively uses WebGL/Three.js to render and animate sophisticated 3D models that are central to the hero and 'About the Studio' sections. These 3D elements are dynamically transformed and animated in response to scroll events, creating a continuous, immersive visual narrative. Text elements are layered over these 3D scenes and likely fade or slide in/out in sync with the 3D transitions.",
+    "Section reveals are handled with subtle fade-ins or slide-ups as they enter the viewport, maintaining a smooth flow while the main 3D animation provides the primary visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181c20",
+        "role": "background"
+      },
+      {
+        "hex": "#292d39",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0066dc",
+        "role": "cta"
+      },
+      {
+        "hex": "#8c92a4",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~4-5x body) create a bold statement, complemented by smaller, often uppercase, sans-serif labels and a clean, readable body text.",
+    "radius": "Subtle; elements like buttons and image cards feature slightly rounded corners.",
+    "spacing": "Balanced to airy; generous negative space around hero text and 3D elements, with a more structured but still open feel in content grids."
+  },
+  "standout": "The site's most distinctive feature is its sophisticated and continuously evolving WebGL/Three.js 3D animation, which transforms a central visual element throughout the scroll experience. This isn't just a decorative background; it's an integral, dynamic part of the storytelling and visual identity, making the page feel alive and highly interactive.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "approved"
+}

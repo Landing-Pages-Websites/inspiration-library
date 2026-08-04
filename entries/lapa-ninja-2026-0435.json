@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-0435",
+  "source": {
+    "url": "https://www.duten.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0435.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0435__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0435__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0435__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "manufacturing",
+      "plumbing-fixtures",
+      "luxury-goods"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a single product image with overlayed text, setting a minimalist and product-focused tone."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content sections often pair large product photography or imagery with concise text blocks, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, sans-serif headings are used for section titles, contrasting with smaller, clean body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of white, light grey, and black is accented by metallic product finishes and a subtle golden hue for specific brand elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header containing the brand logo and hamburger menu remains fixed at the top of the viewport throughout scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal their content with a staggered fade-up or slide-up animation as they enter the viewport, creating a smooth, guided scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero product image employs a subtle parallax effect, moving upwards and out of view as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Large, semi-transparent text elements are used as decorative background features that scroll with the page content, subtly identifying sections and adding visual depth."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header containing the brand logo and navigation toggle remains fixed at the top of the viewport.",
+    "The initial hero image employs a subtle parallax effect, moving upwards and out of view as the user scrolls down.",
+    "Sections are revealed using GSAP ScrollTrigger, where content elements (text, images, client lists) animate into view with a staggered fade-up or slide-up motion as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#EDEDED",
+        "role": "surface"
+      },
+      {
+        "hex": "#80878E",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#C99814",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (up to ~4x body text) with smaller, uppercase labels and clean body text.",
+    "radius": "Sharp, with no visible corner rounding on UI elements.",
+    "spacing": "Airy, with generous vertical spacing between sections and content blocks, creating a sense of spaciousness."
+  },
+  "standout": "The distinctive use of oversized, semi-transparent background text as a scrolling, decorative element that subtly identifies content sections, combined with a minimalist aesthetic and high-quality product photography, creates a unique editorial feel.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

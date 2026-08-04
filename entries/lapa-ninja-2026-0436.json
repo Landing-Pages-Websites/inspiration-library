@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0436",
+  "source": {
+    "url": "https://faceformula.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0436.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0436__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0436__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0436__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "skincare",
+      "beauty",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections are used throughout, often featuring large background imagery or solid color blocks, with content centered or aligned to a clear internal grid."
+    },
+    {
+      "kind": "type",
+      "note": "Key brand statements and section titles utilize an oversized, condensed serif typeface, creating a strong, editorial presence, contrasted with a clean sans-serif for body text and product details."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted color palette dominates, combining deep charcoal and off-white with earthy browns and a subtle teal accent, reinforcing a premium and natural aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "A narrow promotional banner at the very top of the page remains sticky, providing a persistent message or offer as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections feature a clean, minimal grid of product cards, prioritizing large product imagery with subtle text details below each item."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky top banner, create a fixed-position element at the top of the viewport with a distinct background color and text, ensuring it has a high z-index to overlay other content during scroll.",
+    "The hero section combines a full-bleed, high-quality product photograph with large, condensed serif typography directly overlaid, using color contrast to ensure readability without a heavy overlay.",
+    "Product grids are constructed with a responsive layout, where each product card features a prominent image, a product title, and a price, all contained within a subtly rounded border and presented on a light background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3b505a",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f2f5f8",
+        "role": "surface"
+      },
+      {
+        "hex": "#108474",
+        "role": "accent"
+      },
+      {
+        "hex": "#58737e",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#b39074",
+        "role": "top-banner-background"
+      },
+      {
+        "hex": "#cbd3d8",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Libre Caslon Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "Circular Pro",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, condensed serif headings (~4-5x body) create a strong visual impact, complemented by a clean, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "Subtle (small corner rounding on product cards, buttons, and input fields).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, but a tighter grid for product displays."
+  },
+  "standout": "The site's distinctive use of oversized, condensed serif typography for brand statements, layered directly onto rich, naturalistic product photography, creates a highly sophisticated and editorial feel that elevates it beyond typical e-commerce. The muted, earthy color palette further reinforces this premium, natural aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

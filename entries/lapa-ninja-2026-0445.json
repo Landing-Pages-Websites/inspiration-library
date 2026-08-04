@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-0445",
+  "source": {
+    "url": "https://www.jackredley.design",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0445.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0445__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0445__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0445__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-design",
+      "digital-agency",
+      "creative-services"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are used for content sections, often pairing a large heading or image with a smaller block of descriptive text."
+    },
+    {
+      "kind": "type",
+      "note": "Large, expressive serif headings are paired with clean, legible sans-serif body text, creating a strong typographic contrast and hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light, off-white background is punctuated by bold, solid accent colors (pink, orange, dark grey) for specific content blocks and the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transitions from transparent to a solid light grey background and becomes sticky as the user scrolls down the page. Content sections appear to reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are separated by significant vertical whitespace, often featuring a large, centered serif heading that acts as a clear divider and focal point."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that changes its background color from transparent to a solid light grey after a certain scroll threshold. Sections are revealed using scroll-triggered animations, likely leveraging GSAP ScrollTrigger to animate elements' opacity and vertical position as they enter the viewport, creating a staggered fade-up effect. The overall layout relies on generous padding and margin to create an airy feel, with full-width content blocks and image grids."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#FF69B4",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF6633",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant serif headings (~3-4x body) with a mix of regular and uppercase sans-serif body and label text.",
+    "radius": "sharp corners for most elements, with subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "very airy, with significant vertical and horizontal whitespace, especially in the hero and between major content sections, creating a sense of calm and focus."
+  },
+  "standout": "The site's distinctive quality lies in its confident blend of classic, elegant serif typography for headings with a modern, spacious layout and unexpected pops of bold, solid color. The 'Playground' section, featuring quirky 3D renders, adds a unique, playful touch that differentiates it from typical agency portfolios.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

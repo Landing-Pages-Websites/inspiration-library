@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0463",
+  "source": {
+    "url": "https://www.rhumb.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0463.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0463__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0463__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0463__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "web-design",
+      "digital-experiences"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Generous vertical spacing between major content sections, creating an airy and uncrowded feel, particularly in the hero and testimonial areas."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, elegant serif typography is used for all primary headings and hero text, contrasting with clean, understated sans-serif for body copy and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode is used for the initial hero, transitioning to a light mode for subsequent content, with a consistent bright blue accent for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section transforms on scroll: an initial dark, text-focused hero with a small image grid transitions to a light-grey background featuring a prominent 3D architectural model, while the main hero text remains in place."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar with a light background and primary links appears after initial scroll, replacing the initial minimal header."
+    },
+    {
+      "kind": "section",
+      "note": "Numbered lists are used for service offerings, providing a clear, structured overview of capabilities."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a scroll-triggered state change: an initial dark, text-only hero transitions to a lighter background with a prominent 3D canvas model as the user scrolls down. The main hero text remains fixed relative to the viewport during this transition, while a new sticky navigation bar appears at the top.",
+    "Content sections below the hero appear to reveal with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#181c20",
+        "role": "background"
+      },
+      {
+        "hex": "#f2f5f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#292d39",
+        "role": "text"
+      },
+      {
+        "hex": "#535760",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#0066dc",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body) paired with clean, legible sans-serif body text and small uppercase labels.",
+    "radius": "Sharp (all corners are 0-2px, giving a crisp, modern feel).",
+    "spacing": "Airy (generous vertical spacing, especially in hero and between major content blocks, creating a sense of calm and luxury)."
+  },
+  "standout": "The most distinctive feature is the dynamic hero section that transforms on scroll, transitioning from a dark, text-heavy introduction to a lighter, visually rich scene with a 3D architectural model, all while maintaining the core message. This creates a highly engaging and memorable first impression.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}
