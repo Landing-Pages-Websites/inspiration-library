@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-amritpalace-com-6eb0e2",
+  "source": {
+    "url": "https://amritpalace.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-amritpalace-com-6eb0e2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-amritpalace-com-6eb0e2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-amritpalace-com-6eb0e2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-amritpalace-com-6eb0e2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "restaurant",
+      "indian-cuisine",
+      "fine-dining"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with central, oversized serif typography and subtle script accents, establishing a luxurious tone immediately."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections, with content often presented in a two-column layout (image + text) or full-width content blocks for visual variety."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of an elegant, high-contrast serif font for primary headings, paired with a clean sans-serif for body text and a distinctive script font for decorative details like dates or sub-labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette centered around deep, warm browns/blacks, light beige, and a rich gold accent, creating a luxurious and inviting atmosphere."
+    },
+    {
+      "kind": "motion",
+      "note": "A consistently transparent sticky navigation bar that maintains its appearance across all scroll depths, rather than transforming or gaining a background."
+    },
+    {
+      "kind": "motion",
+      "note": "Horizontally scrolling testimonial cards, allowing users to browse multiple reviews without vertical page jumps."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'GIF' section that showcases animated product cards, adding an interactive and dynamic element to the page's visual storytelling."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed hero image with a dark, semi-transparent overlay to enhance the legibility of the large, light-colored serif text. Content sections utilize a clear visual rhythm by alternating between a light, warm background and a deep, dark background, often featuring large, high-quality food photography. Testimonials are presented as individual cards within a horizontally scrollable container.",
+    "A sticky navigation bar is implemented that remains transparent and fixed at the top of the viewport throughout the entire page scroll, providing consistent access without visual changes. The hero section features a subtle parallax effect where the background image scrolls slower than the foreground text. Sections below the hero are introduced with a staggered fade-up or slide-in animation as they enter the viewport, likely using a library like GSAP for scroll-triggered reveals. The 'GIF' section specifically uses CSS keyframes or GSAP to animate individual cards upon entry."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F0E8",
+        "role": "surface"
+      },
+      {
+        "hex": "#C09B6E",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#4A5464",
+        "role": "text"
+      },
+      {
+        "hex": "#728197",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      },
+      {
+        "family": "Bad Script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~4-5x body text) with generous letter spacing, contrasted with smaller, clean sans-serif body text and very small, decorative script accents.",
+    "radius": "Subtle. Images and cards have very slight rounding, almost sharp, while buttons feature a soft, subtle curve.",
+    "spacing": "Airy. Generous vertical spacing between sections and within content blocks, particularly in the hero, creating a sense of luxury and unhurried presentation."
+  },
+  "standout": "The site stands out with its sophisticated blend of elegant serif typography for major headings and a decorative script for subtle accents, creating a luxurious and established feel. The use of a consistently transparent sticky navigation, even over diverse section backgrounds, maintains a seamless and refined user experience, avoiding the common shrinking or background-changing effect.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

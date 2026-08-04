@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-unitedcarriers-com-8f00df",
+  "source": {
+    "url": "https://unitedcarriers.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-unitedcarriers-com-8f00df.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-unitedcarriers-com-8f00df__scroll0.webp",
+      "shots/_proposed/lapa-ninja-unitedcarriers-com-8f00df__scroll1.webp",
+      "shots/_proposed/lapa-ninja-unitedcarriers-com-8f00df__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "logistics",
+      "freight",
+      "shipping",
+      "supply-chain"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site utilizes full-viewport height sections that transition distinctly on scroll, creating a series of immersive, full-bleed visual experiences rather than a continuous scroll."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold, uppercase sans-serif headings contrasting sharply with smaller, highly legible monospaced text used for body content and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark color scheme (black/dark grey) serves as a backdrop for bright, high-contrast accents in electric blue, white, and occasional industrial orange, creating a technical and bold aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections snap into full view as the user scrolls, revealing new content. A 'UNITEDCARRIERS' logo element remains sticky on the left, appearing to expand or transform as different sections become active. Elements within sections, such as map dots and text, appear to animate into view as their section is revealed."
+    },
+    {
+      "kind": "section",
+      "note": "Each full-screen section presents a unique visual concept, from an abstract hero to an interactive world map and a detailed product illustration, maintaining engagement through varied presentation styles."
+    }
+  ],
+  "technique_notes": [
+    "Implement full-viewport height sections that snap into place on scroll, likely using a combination of Swiper for section transitions and GSAP ScrollTrigger for orchestrating element reveals (fade-ins, slides) as each section becomes active. A sticky branding element (logo) should persist across these sections, potentially changing its size or position based on scroll depth.",
+    "Utilize canvas or SVG for the interactive world map visualization, allowing for dynamic highlighting of locations and data points. The hero section likely uses canvas or video-hero for its dynamic background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#0016CB",
+        "role": "accent"
+      },
+      {
+        "hex": "#212326",
+        "role": "surface"
+      },
+      {
+        "hex": "#E67E22",
+        "role": "accent"
+      },
+      {
+        "hex": "#004080",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Space Mono",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~3-4x body) provide strong visual impact, complemented by smaller, monospaced body and label text for technical clarity.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 content is sparse and well-distributed within full-screen sections, creating a sense of spaciousness and focus."
+  },
+  "standout": "The site's distinctive use of full-screen, scroll-snapped sections, each with a unique visual narrative (abstract hero, interactive world map, detailed product illustration), creates a highly immersive and dynamic user journey. This, combined with a persistent, transforming brand element, makes the site feel less like a traditional scroll and more like an interactive presentation.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

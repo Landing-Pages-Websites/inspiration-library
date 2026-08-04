@@ -1,0 +1,94 @@
+{
+  "id": "lapa-ninja-chdartmaker-com-161c63",
+  "source": {
+    "url": "https://www.chdartmaker.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-chdartmaker-com-161c63.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-chdartmaker-com-161c63__scroll0.webp",
+      "shots/_proposed/lapa-ninja-chdartmaker-com-161c63__scroll1.webp",
+      "shots/_proposed/lapa-ninja-chdartmaker-com-161c63__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "fabrication",
+      "design-services",
+      "architecture"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often centered or left-aligned, utilizing generous negative space, especially in the hero and key messaging areas."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic scale contrast, featuring massive, bold, uppercase display headings for impact, paired with a clean, smaller sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A strict monochromatic palette of black and white is used throughout, creating a high-contrast, stark, and sophisticated visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation becomes sticky at the top of the viewport after scrolling, while the large hero title scales down and parallaxes out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as large, full-width image cards with minimal text overlays, often arranged in a grid or staggered layout."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using a library like locomotive-scroll, which provides a fluid, eased scroll rather than the browser's default behavior.",
+    "The hero section features a large, fixed-position title that dynamically scales down and translates upwards, creating a parallax effect as the user scrolls, eventually moving out of view to reveal the content below.",
+    "The primary navigation bar transitions from its initial position within the hero to a fixed, sticky state at the top of the viewport once the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BebasNeue",
+        "role": "heading"
+      },
+      {
+        "family": "Okomito",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase display headings (~8-10x body text) with smaller, clean sans-serif body text and labels, creating a dramatic contrast.",
+    "radius": "Sharp; all elements, including images and containers, feature crisp, 0px corner radii.",
+    "spacing": "Balanced to airy; the hero section is very airy, and content sections use generous vertical spacing between blocks, while text within blocks is dense."
+  },
+  "standout": "The site's distinctive use of extreme typographic scale, particularly the massive, fixed-position hero title that interacts with scroll, immediately sets it apart. This, combined with the stark black and white palette and smooth scrolling, creates a highly impactful and memorable brand presence that feels more like an art installation than a typical website.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

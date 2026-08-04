@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-worldlabs-ai-a9fdaf",
+  "source": {
+    "url": "https://www.worldlabs.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-worldlabs-ai-a9fdaf.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-worldlabs-ai-a9fdaf__scroll0.webp",
+      "shots/_proposed/lapa-ninja-worldlabs-ai-a9fdaf__scroll1.webp",
+      "shots/_proposed/lapa-ninja-worldlabs-ai-a9fdaf__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "3d-rendering"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are used for feature descriptions, consistently placing text content on one side and a large image or video placeholder on the other."
+    },
+    {
+      "kind": "type",
+      "note": "A prominent, elegant serif typeface is used for primary headings, creating a sophisticated feel, contrasted with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette features a very light background, deep charcoal text for readability, and a distinct, bright blue for interactive elements and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text and the large, detailed illustrative graphic animate out of view by sliding upwards and fading as the user scrolls down, creating a smooth transition to the main content."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are visually separated by generous vertical padding, creating an airy feel, and often feature full-width content cards or distinct asymmetrical layouts."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, detailed 3D illustration and prominent text that dynamically slides upwards and fades out as the user scrolls, creating a smooth transition to the main content. This effect is likely achieved using a scroll-triggered animation library or custom canvas animation.",
+    "The primary navigation bar remains fixed at the top of the viewport, maintaining accessibility and brand presence throughout the scroll.",
+    "Content is presented in a mix of full-width feature blocks with an image or video placeholder on one side and descriptive text on the other, and grid-based card layouts for showcasing articles or projects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#292d39",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#535760",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#0066dc",
+        "role": "accent"
+      },
+      {
+        "hex": "#181c20",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with a lighter weight, paired with a clean, legible sans-serif for body text and navigation.",
+    "radius": "Subtle: buttons and content cards have a very slight corner rounding, almost sharp but not quite.",
+    "spacing": "Airy: generous vertical spacing between sections and ample internal padding within content blocks, creating a sense of openness and luxury."
+  },
+  "standout": "The site stands out with its sophisticated integration of highly detailed, almost photorealistic 3D illustrations and renders, particularly in the hero and feature sections. This visual richness is balanced by a clean, airy layout and elegant serif typography, creating a distinctive blend of cutting-edge technology and refined aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

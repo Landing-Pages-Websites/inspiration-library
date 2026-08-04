@@ -1,0 +1,93 @@
+{
+  "id": "lapa-ninja-deadwater-fr-03fc17",
+  "source": {
+    "url": "https://www.deadwater.fr",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-deadwater-fr-03fc17.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-deadwater-fr-03fc17__scroll0.webp",
+      "shots/_proposed/lapa-ninja-deadwater-fr-03fc17__scroll1.webp",
+      "shots/_proposed/lapa-ninja-deadwater-fr-03fc17__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "digital-products",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout for main content sections, with a dominant left column for primary text and a right column for supporting details or visuals, creating a dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, featuring massive, condensed sans-serif display headings that act as primary visual elements, juxtaposed with smaller, highly legible sans-serif body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast dark mode palette with a deep charcoal background and bright, light grey text, emphasizing readability and a sophisticated, minimal aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The oversized hero title text ('DEADWATER') scrolls at a significantly slower rate than the page content, creating a strong parallax effect where subsequent sections appear to slide underneath it."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport, maintaining a smooth and engaging scroll experience."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky navigation bar that remains fixed at the top of the viewport throughout the scroll.",
+    "Create a dramatic parallax effect for the main hero title by setting its scroll speed slower than the main page content, allowing other sections to scroll over or under it. This can be achieved using GSAP ScrollTrigger with a scrubbed animation.",
+    "Utilize GSAP ScrollTrigger to orchestrate scroll-triggered reveals for content sections, applying a subtle fade-in and slight upward translation animation as each section enters the user's view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#cfcfcf",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Humane-e7e4f97560e0ec4c",
+        "role": "display"
+      },
+      {
+        "family": "Inter-dcbae5534c949be2",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed display headings (~8-10x body) with clear hierarchy for smaller body text and uppercase labels.",
+    "radius": "Sharp corners throughout all elements, contributing to a precise and modern feel.",
+    "spacing": "Very airy, with generous vertical spacing between major sections and ample negative space around elements, creating a sense of luxury and focus."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, oversized, parallaxing hero text that acts as a dynamic visual anchor, combined with a stark, high-contrast dark mode aesthetic. This creates an immersive and memorable first impression that feels more like an interactive art piece than a conventional website, making the brand feel exceptionally bold and modern.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

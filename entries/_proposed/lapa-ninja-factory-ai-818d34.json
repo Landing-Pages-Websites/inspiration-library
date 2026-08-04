@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-factory-ai-818d34",
+  "source": {
+    "url": "https://factory.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-factory-ai-818d34.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-factory-ai-818d34__scroll0.webp",
+      "shots/_proposed/lapa-ninja-factory-ai-818d34__scroll1.webp",
+      "shots/_proposed/lapa-ninja-factory-ai-818d34__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "enterprise-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark-themed layout with full-width sections, featuring a prominent split-layout hero (text on left, complex data visualization on right) and subsequent centered text blocks for value propositions."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast typography uses large, bold sans-serif headings for impact, paired with lighter-weight body text and very small, uppercase labels for navigation and dashboard elements."
+    },
+    {
+      "kind": "color",
+      "note": "A limited, high-contrast color palette of deep charcoal/black backgrounds and light grey/white text, punctuated by vibrant orange for CTAs and a mix of green and orange for data visualization accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a scroll-triggered animation, where elements slide up and subtly fade into view from the bottom as they enter the viewport, creating a dynamic progression down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section prominently features a detailed, interactive-looking data dashboard as a primary visual element, immediately conveying a data-driven and technical product."
+    }
+  ],
+  "technique_notes": [
+    "A dark mode aesthetic is consistently applied across the site, utilizing deep charcoal backgrounds and light text for high contrast and a modern, technical feel.",
+    "Content sections are revealed using scroll-triggered animations, where elements slide up and subtly fade in as they enter the viewport, creating a dynamic browsing experience. This is likely achieved with CSS keyframes for controlled transitions.",
+    "The primary navigation bar at the top and a persistent cookie consent banner at the bottom remain fixed in the viewport as the user scrolls, ensuring constant access to key actions and information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1a18",
+        "role": "background"
+      },
+      {
+        "hex": "#bababa",
+        "role": "text"
+      },
+      {
+        "hex": "#ee6018",
+        "role": "accent"
+      },
+      {
+        "hex": "#a0ca92",
+        "role": "accent"
+      },
+      {
+        "hex": "#80756f",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#b3541d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) provide strong hierarchy, complemented by smaller, lighter body text and very small, uppercase labels for navigation and data points.",
+    "radius": "Subtle rounded corners (e.g., buttons, dashboard cards, content blocks) provide a soft, modern feel without being overly playful.",
+    "spacing": "Balanced to airy, with generous vertical spacing in hero and centered text sections, and more compact arrangements within the dashboard and footer link areas."
+  },
+  "standout": "The site's most distinctive feature is the prominent, interactive-looking data dashboard integrated directly into the hero section. This immediately communicates a sophisticated, data-driven product and sets a highly technical, authoritative tone, moving beyond typical hero imagery.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

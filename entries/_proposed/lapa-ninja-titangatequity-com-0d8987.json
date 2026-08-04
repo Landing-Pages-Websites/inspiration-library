@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-titangatequity-com-0d8987",
+  "source": {
+    "url": "https://titangatequity.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-titangatequity-com-0d8987.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-titangatequity-com-0d8987__scroll0.webp",
+      "shots/_proposed/lapa-ninja-titangatequity-com-0d8987__scroll1.webp",
+      "shots/_proposed/lapa-ninja-titangatequity-com-0d8987__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "investment",
+      "blockchain",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections feature a full-bleed dark background with content often centered or arranged in an asymmetrical two-column layout, using ample negative space to separate elements."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and modern sans-serif, often paired with smaller, uppercase labels for context, creating a strong visual hierarchy against the dark background."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark mode theme, primarily using deep blacks and dark greys for backgrounds, paired with crisp white and light grey for all text and iconography."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle, dynamic background animation (likely video or WebGL). A highly distinctive scroll-triggered motion involves the entire page content collapsing or transitioning to a minimal, full-screen black display with only 'TGE' centered, after scrolling past the initial content."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, each introduced by a large, impactful heading, often with a subtle background graphic or texture."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a full-bleed dark aesthetic, where deep black or dark grey backgrounds extend across the entire viewport, providing a sophisticated canvas for light-colored text and graphics.",
+    "Typography is managed with a modern sans-serif font, employing significant size and weight variations to distinguish headings from body text and small, uppercase labels. Text is consistently light-colored for contrast against dark backgrounds.",
+    "The motion system is driven by GSAP ScrollTrigger, orchestrating scroll-based reveals where content sections likely fade or slide into view as they enter the viewport. The hero section integrates a dynamic background, possibly a video or WebGL animation, to create an immersive initial experience. A prominent interaction involves a dramatic full-screen content transformation or collapse, where the page transitions to a minimal 'TGE' display after a certain scroll depth, likely powered by GSAP and WebGL."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#131313",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#545454",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#595959",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Supply Sans",
+        "role": "heading"
+      },
+      {
+        "family": "PP Supply Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold headings (~3-4x body) with smaller, often uppercase labels and legible body text, all in a modern sans-serif.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between major sections and within the hero, creating a sense of grandeur and clarity."
+  },
+  "standout": "The site's most distinctive feature is its dramatic scroll-triggered content transformation, where the entire page transitions from rich content to a minimal, full-screen 'TGE' display. This, combined with the sophisticated dark aesthetic and dynamic WebGL/video backgrounds, creates a highly immersive and memorable user experience that goes beyond typical marketing site animations.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

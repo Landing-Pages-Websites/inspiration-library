@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-mk-gd-ed1aa5",
+  "source": {
+    "url": "https://mk.gd",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-mk-gd-ed1aa5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-mk-gd-ed1aa5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-mk-gd-ed1aa5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-mk-gd-ed1aa5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "footwear",
+      "sustainable-fashion"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks pairing large, high-quality imagery with concise text, often alternating sides for visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between a sophisticated, often condensed serif for display headings and a clean sans-serif for body and functional text, with frequent use of uppercase for labels."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of black, white, and subtle greys, punctuated by a distinctive, desaturated lavender accent color and natural tones from photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-layered parallax effect where background elements, foreground elements, and text shift at different rates, creating a sense of depth as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width sections with generous vertical padding, often alternating between image-heavy and text-heavy compositions to guide the eye down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a multi-layered parallax effect where different image and text elements are positioned at varying depths and scroll at different speeds, creating a dynamic, immersive introduction. This effect is likely achieved using CSS keyframes or a JavaScript library for scroll-triggered animations.",
+    "The main navigation bar transitions from a transparent background to a solid, opaque white background with a subtle border or shadow as the user scrolls past the hero section, remaining fixed at the top of the viewport.",
+    "Sections are designed with large, impactful photography and bold typography, using generous spacing to create a premium and editorial feel, with content often aligned to one side to create visual tension."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0D9F0",
+        "role": "accent"
+      },
+      {
+        "hex": "#A88FE0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Editorial New",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "Athletics",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, condensed serif headings (~3-5x body) with smaller, clean sans-serif body text and uppercase labels for emphasis.",
+    "radius": "Sharp corners throughout.",
+    "spacing": "Airy, with generous vertical spacing between sections and within content blocks, creating a sense of spaciousness and premium feel."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated integration of large, abstract graphic elements (like the purple 'M' shapes) with high-quality, natural photography. This is paired with a bold, editorial typography style and a multi-layered parallax hero that creates a unique sense of depth and brand identity, elevating it beyond a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

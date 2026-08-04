@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-farmminerals-com-ef96bc",
+  "source": {
+    "url": "https://www.farmminerals.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-farmminerals-com-ef96bc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-farmminerals-com-ef96bc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-farmminerals-com-ef96bc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-farmminerals-com-ef96bc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "agriculture",
+      "farming",
+      "biotechnology"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with a warm off-white background and deep olive green background, creating clear visual breaks and content grouping."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent use of split-screen layouts, pairing large, high-quality imagery with concise text blocks to convey information efficiently."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings are used for primary section titles, often with generous line height, creating a strong visual hierarchy and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated two-tone color scheme dominates, featuring a deep, earthy olive green (#404f1d) and a warm, soft off-white (#f4ede6) for backgrounds and primary text contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight upward translation as they enter the viewport, creating a smooth and engaging scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, with the 'MENU' button disappearing and the 'Farm Minerals' logo shrinking slightly while remaining sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Partner logo carousels or grids are used immediately after the hero to establish credibility and authority early in the user journey."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a dynamic background, likely a video or canvas animation, to create a subtle floating effect for the product capsule and blurred background elements, adding depth and visual interest.",
+    "A sticky header system is implemented where the navigation bar reduces in size and modifies its content (e.g., removing a menu button) upon scrolling down, optimizing for screen real estate.",
+    "Scroll-triggered animations, likely powered by GSAP ScrollTrigger, are used to reveal content sections. As sections enter the viewport, they gently fade in and translate upwards, guiding the user's eye through the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#404f1d",
+        "role": "background"
+      },
+      {
+        "hex": "#f4ede6",
+        "role": "surface"
+      },
+      {
+        "hex": "#7a8d57",
+        "role": "accent"
+      },
+      {
+        "hex": "#2e3816",
+        "role": "text"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (~3-4x body text) with generous line height, often complemented by smaller, uppercase labels or subheadings.",
+    "radius": "Subtle (minimal rounding on buttons and cards, otherwise sharp edges for most layout blocks).",
+    "spacing": "Airy (generous vertical spacing between sections and ample internal padding, creating a calm and premium feel)."
+  },
+  "standout": "The site's distinctive use of a rich, deep olive green paired with a warm off-white creates a sophisticated and natural aesthetic that elevates the perception of an agricultural product. The subtle, yet effective, scroll-triggered animations and the dynamic hero section convey a sense of innovation and quality, making the design feel premium and authoritative.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
