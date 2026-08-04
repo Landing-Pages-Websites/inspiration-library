@@ -1,0 +1,119 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.theminories.org",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-theminories-org-498c73.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-theminories-org-498c73__scroll0.webp",
+      "shots/_proposed/siteinspire-theminories-org-498c73__scroll1.webp",
+      "shots/_proposed/siteinspire-theminories-org-498c73__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.theminories.org/whats-on",
+        "full": "shots/_proposed/siteinspire-theminories-org-498c73__p2.webp"
+      },
+      {
+        "url": "https://www.theminories.org/event/snipping",
+        "full": "shots/_proposed/siteinspire-theminories-org-498c73__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "arts-and-culture",
+      "museum",
+      "events"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed vertical left sidebar and a fixed top-right logo frame the main content area, which scrolls independently underneath, creating a consistent visual anchor."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, particularly at the top of pages, balancing a prominent visual element (like an event card) with a detailed, text-heavy list of information."
+    },
+    {
+      "kind": "type",
+      "note": "Very small, uppercase, widely letter-spaced labels are used for metadata (e.g., 'DATE', 'EVENT', 'FREE'), providing a subtle yet distinct editorial detail that contrasts with larger headings."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of muted, light background colors (e.g., light teal, light purple-grey) subtly highlights specific content blocks like 'Current Opportunities' without introducing strong visual breaks."
+    },
+    {
+      "kind": "motion",
+      "note": "The left vertical navigation bar and the top-right site logo remain fixed in position as the user scrolls, while all other content scrolls vertically beneath them without any additional scroll-triggered animations or reveals."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed-position left sidebar and a fixed top-right logo, allowing the main content area to scroll independently underneath these persistent elements, maintaining a consistent brand frame.",
+    "Content sections are presented statically, relying on clear visual hierarchy, generous whitespace, and subtle background color shifts for organization, with no scroll-triggered animations or reveals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F5",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#C8502E",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0F0EC",
+        "role": "surface"
+      },
+      {
+        "hex": "#EAE7EB",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Neue Haas Grotesk Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Roboto Condensed",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, clean sans-serif display headings (~3-4x body) are paired with a readable sans-serif body text and very small, uppercase, tracked labels.",
+    "radius": "Sharp (mostly square corners, with subtle rounding on some event cards and input fields).",
+    "spacing": "Airy (generous whitespace, especially vertically between sections and around text blocks, creating a calm and open feel)."
+  },
+  "standout": "The most distinctive feature is the persistent, vertically oriented left sidebar combined with a fixed top-right logo, which frames the main content area and gives the site a unique, almost editorial or gallery-like feel. The minimalist approach to event listings, often using only text and thin dividers, also stands out.",
+  "animation_tech": [],
+  "status": "proposed"
+}

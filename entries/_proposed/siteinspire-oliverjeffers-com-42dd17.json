@@ -1,0 +1,120 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://oliverjeffers.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-oliverjeffers-com-42dd17.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-oliverjeffers-com-42dd17__scroll0.webp",
+      "shots/_proposed/siteinspire-oliverjeffers-com-42dd17__scroll1.webp",
+      "shots/_proposed/siteinspire-oliverjeffers-com-42dd17__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://oliverjeffers.com/art/for-all-we-know",
+        "full": "shots/_proposed/siteinspire-oliverjeffers-com-42dd17__p2.webp"
+      },
+      {
+        "url": "https://oliverjeffers.com/art/the-night-in-bloom",
+        "full": "shots/_proposed/siteinspire-oliverjeffers-com-42dd17__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "publishing",
+      "creative-services",
+      "personal-brand"
+    ],
+    "mood": [
+      "playful",
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, distinct vertical sections with varying background colors (video, pink, dark, dark blue, yellow) create strong visual breaks and thematic shifts, resembling pages in a digital book."
+    },
+    {
+      "kind": "type",
+      "note": "A highly expressive, handwritten-style display font is used for prominent headings, contrasting with a clean, legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon yellow is used as a primary accent color for display text, set against a palette of soft pinks, deep blacks, and dark blues."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in animation as they scroll into view, creating a dynamic reading experience. The initial hero features a looping video background."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block is presented as a full-width, full-height (or near full-height) section with a unique background and thematic content, reinforcing the 'digital book' feel."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed looping video background with a large, custom-drawn text overlay that remains fixed or subtly scales as the user scrolls, eventually revealing the next section. A sticky header with branding and navigation persists at the top. Content sections below the hero are revealed using scroll-triggered animations (likely AOS), where elements fade in and slide slightly upwards as they enter the viewport, creating a staggered reveal effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FADCE0",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#0A1428",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#521010",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: handwritten script",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, expressive handwritten display headings (~4-5x body text) with a clean, balanced sans-serif for body and subheadings.",
+    "radius": "Sharp, with minimal rounding on interactive elements like input fields and buttons.",
+    "spacing": "Airy, with generous vertical padding between full-width sections and comfortable line spacing within text blocks."
+  },
+  "standout": "The site's most distinctive feature is its bold and playful use of a custom, handwritten-style display font for primary headings, especially overlaid on the hero video. This, combined with the full-bleed, thematically distinct sections, creates an immersive, almost storybook-like experience that strongly reflects an artist's personal brand.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
