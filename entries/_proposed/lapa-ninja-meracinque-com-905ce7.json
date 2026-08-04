@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-meracinque-com-905ce7",
+  "source": {
+    "url": "https://www.meracinque.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-meracinque-com-905ce7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-meracinque-com-905ce7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-meracinque-com-905ce7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-meracinque-com-905ce7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food",
+      "agriculture",
+      "gourmet-food"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site is structured into distinct, full-width, immersive sections, each with a unique background color or image, creating a strong visual separation and narrative flow."
+    },
+    {
+      "kind": "type",
+      "note": "Large, elegant serif headings are used for primary section titles, providing a sophisticated and editorial feel, contrasted with clean, readable sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated and warm color palette combines a dominant light beige/cream with a deep, rich purple-blue, accented by a soft pinkish-red and subtle greens."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections dynamically reveal with a scroll-triggered animation, appearing from below or fading into view as they enter the viewport, creating a guided and engaging scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block is treated as a full-screen or near full-screen experience, often featuring a single hero image or video, a prominent heading, and concise supporting text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system, likely using CSS keyframes, to reveal full-width content sections. As the user scrolls, each new section animates into view with a fade-in and/or slight upward slide effect, creating a dynamic and engaging narrative flow.",
+    "The hero section features an auto-playing video background that provides an immersive visual experience, with text overlaid for brand messaging and a subtle parallax effect as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#faf6e6",
+        "role": "background"
+      },
+      {
+        "hex": "#232438",
+        "role": "text"
+      },
+      {
+        "hex": "#e95f6d",
+        "role": "accent"
+      },
+      {
+        "hex": "#f0ecdd",
+        "role": "surface"
+      },
+      {
+        "hex": "#ebafb4",
+        "role": "accent"
+      },
+      {
+        "hex": "#1f9c48",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Ayer",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body text) are paired with clear, readable sans-serif body text, often accompanied by smaller uppercase labels for context.",
+    "radius": "Subtle; most elements feature sharp corners, with only minor rounding on interactive elements like input fields.",
+    "spacing": "Airy; generous vertical spacing between and within sections, creating a sense of calm and allowing content elements to breathe."
+  },
+  "standout": "The site's distinctive use of large, immersive, full-width sections that dynamically reveal on scroll, combined with a sophisticated color palette and elegant typography, creates a compelling and editorial brand narrative. The seamless transition between these visually distinct sections makes the scrolling experience feel like turning pages in a high-quality magazine.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

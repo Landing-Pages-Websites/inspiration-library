@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-getquoti-ai-9db655",
+  "source": {
+    "url": "https://www.getquoti.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-getquoti-ai-9db655.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-getquoti-ai-9db655__scroll0.webp",
+      "shots/_proposed/lapa-ninja-getquoti-ai-9db655__scroll1.webp",
+      "shots/_proposed/lapa-ninja-getquoti-ai-9db655__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "home-services",
+      "business-management"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are frequently used, balancing large images or abstract shapes against text, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Headlines feature very large, bold, and slightly condensed sans-serif typography for maximum impact, contrasting with smaller, regular-weight body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette is employed, featuring a dominant dark grey/black, a vibrant orange accent for CTAs and highlights, and a distinct purple for specific background sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay to a solid white background with a subtle shadow as the user scrolls down the page, indicating a sticky header."
+    },
+    {
+      "kind": "section",
+      "note": "Abstract, organic, and geometric shapes are integrated as large decorative background or foreground elements, particularly noticeable in the purple section and the footer of interior pages."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background video that loops continuously, serving as a dynamic backdrop for the main headline and calls to action.",
+    "A sticky header navigation bar transitions its appearance on scroll, changing from a transparent state to a solid white background and gaining a subtle drop shadow once the user scrolls past the initial hero content.",
+    "Content sections are designed to reveal themselves with subtle animations, such as a fade-up or slide-in effect, as they enter the viewport, likely orchestrated using a scroll-triggering library like GSAP ScrollTrigger."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#252322",
+        "role": "background"
+      },
+      {
+        "hex": "#fd5b2c",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#7B52A8",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and slightly condensed sans-serif headings (up to ~4-5x body text) create strong visual hierarchy, complemented by smaller, readable body text and uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are applied consistently to buttons, input fields, and card-like elements, avoiding sharp edges or full pills.",
+    "spacing": "Balanced to airy, with generous vertical padding between main sections and comfortable spacing within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of bold, condensed typography in the hero, combined with a dynamic video background, immediately grabs attention. This is further enhanced by the unexpected integration of large, abstract, and playful geometric and organic shapes as decorative elements throughout the page, breaking from typical grid-based layouts.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

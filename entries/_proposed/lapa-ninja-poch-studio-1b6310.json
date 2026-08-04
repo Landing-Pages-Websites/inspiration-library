@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-poch-studio-1b6310",
+  "source": {
+    "url": "https://poch.studio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-poch-studio-1b6310.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-poch-studio-1b6310__scroll0.webp",
+      "shots/_proposed/lapa-ninja-poch-studio-1b6310__scroll1.webp",
+      "shots/_proposed/lapa-ninja-poch-studio-1b6310__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "branding",
+      "marketing",
+      "digital-services"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dominant dark-mode aesthetic with a deep black background and high-contrast light text, creating a bold and modern visual foundation."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column content blocks where one side features a list of items or descriptive text, and the other side contains a single, large, often interactive or visually dynamic element."
+    },
+    {
+      "kind": "motion",
+      "note": "A unique scroll-triggered introductory sequence that begins with a minimalist logo, then reveals a sticky footer navigation, followed by a full-screen animated, stylized brand mark, before finally displaying the main page content."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered content reveals where individual text blocks, images, and interactive elements (like progress bars) animate into view with a subtle fade-up or slide effect as they enter the viewport."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of vibrant, playful accent colors (yellow, pink, light blue) against the dark background and white text to highlight calls-to-action, pricing, and key interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive blend of a playful, almost hand-drawn display typeface for the logo and large headings, contrasted with a clean, modern sans-serif for body text and navigation, balancing whimsy with readability."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark theme with high contrast typography, using a deep black background and light-colored text for readability and a sophisticated feel.",
+    "A distinctive scroll-triggered introductory sequence is used, where the initial view is a minimalist logo, which then transitions to reveal a persistent footer navigation, followed by a full-screen animated brand mark, before finally displaying the main page content with subsequent scroll-triggered reveals for individual sections. This motion is likely achieved using a combination of CSS keyframes and JavaScript for scroll detection.",
+    "Interactive elements like progress bars and feature cards are designed with subtle animations, likely using CSS keyframes, to provide visual feedback and engagement as the user scrolls or interacts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFF6C6",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFA5C6",
+        "role": "accent"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lacquer",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Season Sans SemiBold",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, and sometimes playful display headings (~3-4x body) with a clean, legible sans-serif for body text and navigation elements.",
+    "radius": "Rounded corners on buttons, input fields, and some card elements, contributing to a soft and friendly aesthetic.",
+    "spacing": "Generally airy, with generous vertical spacing between sections and within content blocks, creating a sense of openness and ease of reading."
+  },
+  "standout": "The site's most distinctive feature is its playful, almost hand-drawn aesthetic applied to a professional services site, combined with a highly engaging and unique scroll-triggered introduction that progressively reveals the brand identity and navigation before the main content. This creates a memorable and interactive first impression that breaks from typical agency websites.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

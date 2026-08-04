@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-scoutmotors-com-861e01",
+  "source": {
+    "url": "https://www.scoutmotors.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-scoutmotors-com-861e01.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-scoutmotors-com-861e01__scroll0.webp",
+      "shots/_proposed/lapa-ninja-scoutmotors-com-861e01__scroll1.webp",
+      "shots/_proposed/lapa-ninja-scoutmotors-com-861e01__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "electric-vehicles",
+      "manufacturing"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, edge-to-edge imagery and video are used for hero sections and major content blocks, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Monumental, condensed, sans-serif typography is used for key headlines, often animating into view and dominating the screen."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep dark tones (almost black) and crisp white text is consistently punctuated by a vibrant, energetic orange for accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Large typographic elements animate into view with a fade-up or slide-up effect as their respective sections scroll into the viewport. The initial hero image/video exhibits a subtle parallax or scaling effect on scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar appears after initial scroll, transitioning from transparent overlaying the hero to a solid white bar with a subtle shadow."
+    },
+    {
+      "kind": "section",
+      "note": "Sections frequently feature dark backgrounds with white text, creating a dramatic and premium feel, often showcasing vehicles in cinematic settings."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video or high-resolution image with a subtle parallax effect, where the background moves at a slightly different rate than the foreground content on scroll. Text overlays are used for initial messaging.",
+    "Scroll-triggered animations, likely using a library like locomotive-scroll or GSAP ScrollTrigger, are employed to reveal large, impactful text headlines. These headlines appear to slide or fade up from the bottom as their sections enter the viewport, creating a dynamic content reveal.",
+    "A sticky header is implemented that initially overlays the hero content transparently. Upon scrolling past the hero, it transforms into a solid white bar with a subtle drop shadow, maintaining navigation visibility throughout the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#11232f",
+        "role": "background"
+      },
+      {
+        "hex": "#1c1b1f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff5722",
+        "role": "accent"
+      },
+      {
+        "hex": "#808080",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Oswald",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed, bold display headings (~6-8x body size) create dramatic impact, complemented by clean, legible body text and uppercase labels.",
+    "radius": "Sharp corners are consistently used across all elements, from buttons to image frames, reinforcing a modern and precise aesthetic.",
+    "spacing": "Airy spacing in hero and large typographic sections emphasizes grandeur and visual breathing room, while content grids maintain a balanced density."
+  },
+  "standout": "This site stands out by leveraging cinematic full-bleed visuals and monumental, scroll-triggered typography to create an immersive, dramatic brand narrative rather than a typical product showcase. The bold orange call to action serves as a powerful, unmissable anchor.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
