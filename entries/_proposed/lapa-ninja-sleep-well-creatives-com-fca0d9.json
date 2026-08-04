@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-sleep-well-creatives-com-fca0d9",
+  "source": {
+    "url": "https://sleep-well-creatives.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sleep-well-creatives-com-fca0d9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sleep-well-creatives-com-fca0d9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sleep-well-creatives-com-fca0d9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sleep-well-creatives-com-fca0d9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "digital-services"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with alternating dark blue and light beige backgrounds create distinct visual blocks, with content consistently centered horizontally within each section."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in an all-caps sans-serif font with generous letter spacing, creating a bold and expansive feel, contrasting with a more standard sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep navy blue and light cream dominates, accented by brighter blues in graphic elements and a subtle yellow hint."
+    },
+    {
+      "kind": "motion",
+      "note": "A preloader screen with a central icon and 'Enter Site' text is displayed before the main content loads. No scroll-triggered motion, such as reveals, parallax, or sticky elements, is observed on the main homepage content from the provided scroll sequence."
+    },
+    {
+      "kind": "section",
+      "note": "Key sections feature large, abstract, and stylized 3D graphic elements as central visual motifs, often integrated into the background or foreground of the content block."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed sections are used to establish clear visual hierarchy and separation, with background colors changing to signal new content blocks.",
+    "Abstract, rendered 3D graphic elements are incorporated into the design to serve as focal points and add a sense of depth and modern artistry.",
+    "A preloader animation, likely using CSS keyframes, presents a simple icon and text to the user while the main page assets load, then transitions to reveal the static homepage content. The main page itself relies on static content presentation without scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#002e77",
+        "role": "background"
+      },
+      {
+        "hex": "#fef1d0",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0042af",
+        "role": "accent"
+      },
+      {
+        "hex": "#2451b5",
+        "role": "accent"
+      },
+      {
+        "hex": "#d4c500",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase headings (~3-4x body text) with wide letter spacing, providing strong visual anchors against smaller, regular body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical padding between full-width sections and ample line height within text blocks creates a spacious and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of abstract, sculptural 3D graphic elements as central visual motifs, combined with a high-contrast, limited color palette and a complete absence of scroll-triggered motion on the main page, gives it an unusually artistic and almost gallery-like presence, rather than a typical dynamic marketing site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

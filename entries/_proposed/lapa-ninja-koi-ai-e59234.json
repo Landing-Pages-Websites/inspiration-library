@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-koi-ai-e59234",
+  "source": {
+    "url": "https://www.koi.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-koi-ai-e59234.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-koi-ai-e59234__scroll0.webp",
+      "shots/_proposed/lapa-ninja-koi-ai-e59234__scroll1.webp",
+      "shots/_proposed/lapa-ninja-koi-ai-e59234__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "cybersecurity",
+      "software",
+      "b2b"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between a light, dotted background and solid dark blue or dark brown backgrounds, creating clear visual breaks and thematic shifts."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, and often uppercase display headings are paired with smaller, highly legible body text, creating a strong typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, inviting palette of off-white, accent reds/oranges, and deep blues is used, contrasting with the serious nature of cybersecurity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the main illustration and text move at a different rate than the background, eventually scrolling out of view to reveal subsequent content."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a staggered fade-up or slide-in animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact, sticky navigation bar appears after scrolling past the initial hero, and a 'Watch Now' video call-to-action button remains fixed to the bottom right of the screen."
+    },
+    {
+      "kind": "section",
+      "note": "Complex technical concepts are introduced and explained through whimsical, detailed illustrations that serve as visual anchors for each section."
+    }
+  ],
+  "technique_notes": [
+    "The site uses GSAP ScrollTrigger to orchestrate scroll-triggered animations, including hero element parallax, section reveals with fade-up and slide-in effects, and the transformation of the sticky navigation bar.",
+    "Lottie animations are integrated for the numerous whimsical illustrations, allowing for lightweight, scalable, and interactive visual storytelling that can be controlled by scroll or other triggers.",
+    "A video hero element (or a prominent video section) is used to engage users, likely with an autoplay or easily accessible play button, as indicated by the 'video-hero' hint and the persistent 'Watch Now' CTA."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbf7f0",
+        "role": "background"
+      },
+      {
+        "hex": "#f93f12",
+        "role": "accent"
+      },
+      {
+        "hex": "#0e1216",
+        "role": "text"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "surface"
+      },
+      {
+        "hex": "#83311a",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffe08a",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Season Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~3-4x body) with smaller, uppercase labels and highly legible body text.",
+    "radius": "Subtle rounded corners on buttons and card-like elements, maintaining a soft yet professional feel.",
+    "spacing": "Airy and balanced, with generous vertical spacing between sections and ample padding within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The most distinctive aspect is the bold and playful visual storytelling, using whimsical, almost cartoonish illustrations to explain complex cybersecurity concepts. This approach makes a potentially dry and technical topic highly engaging and approachable, setting it apart from typical enterprise software sites.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

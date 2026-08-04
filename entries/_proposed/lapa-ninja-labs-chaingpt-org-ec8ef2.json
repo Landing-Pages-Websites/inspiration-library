@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-labs-chaingpt-org-ec8ef2",
+  "source": {
+    "url": "https://labs.chaingpt.org",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-labs-chaingpt-org-ec8ef2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-labs-chaingpt-org-ec8ef2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-labs-chaingpt-org-ec8ef2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-labs-chaingpt-org-ec8ef2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web3",
+      "blockchain",
+      "venture-capital",
+      "tech-incubation"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A strong, visible grid system defines the layout, with thin grey lines segmenting the page vertically and horizontally, creating a structured, almost technical aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark black text on a very light grey/white background is consistently used, punctuated by a vibrant orange for calls-to-action and key accents."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a bold, modern sans-serif typeface, often in all caps, creating a strong, authoritative voice, while body text maintains readability with a slightly lighter weight."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent 3D robot graphic in the hero section remains fixed or parallaxes subtly in the background as page content scrolls over it, creating depth. Sections below the hero reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Key information is presented in distinct, full-width sections often framed by the underlying grid lines, with clear, concise headings and supporting text or interactive elements like carousels and accordions."
+    }
+  ],
+  "technique_notes": [
+    "The primary visual structure is built upon a rigid grid, likely implemented with CSS Grid, where thin borders define cells and sections. Content elements are carefully aligned within these grid cells.",
+    "Scroll-triggered animations are used to reveal content sections. As the user scrolls, new sections fade in or slide up from the bottom, likely orchestrated using GSAP ScrollTrigger or similar JavaScript animation libraries, combined with CSS keyframes for the visual effects.",
+    "The hero section features a dynamic 3D model or video of a robot that maintains its position or parallaxes gently against the scrolling content. This effect could be achieved using WebGL (e.g., Three.js) for a 3D model, or a video hero element, with its position fixed or transformed relative to the scroll position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF7120",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "grid-lines"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Bold, uppercase headings (~2-3x body) create strong visual hierarchy, complemented by clear, readable body text and smaller, often uppercase, labels.",
+    "radius": "Sharp corners are consistently used for all interactive elements, buttons, and card-like containers, reinforcing a precise and modern aesthetic.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, creating an airy feel, while content within grid cells is tightly composed for efficiency."
+  },
+  "standout": "The site's distinctive use of a visible, architectural grid system as a foundational design element, combined with a prominent 3D/video hero and a large, stylized 'LABS' footer graphic that both interact with scroll, sets it apart from typical marketing sites. It feels highly structured and technologically advanced.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

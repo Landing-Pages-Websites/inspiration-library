@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-maticrobots-com-1d2c38",
+  "source": {
+    "url": "https://maticrobots.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-maticrobots-com-1d2c38.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-maticrobots-com-1d2c38__scroll0.webp",
+      "shots/_proposed/lapa-ninja-maticrobots-com-1d2c38__scroll1.webp",
+      "shots/_proposed/lapa-ninja-maticrobots-com-1d2c38__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "smart-home",
+      "robotics"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A full-page modal overlay appears immediately on page load and persists, obscuring the underlying page content which scrolls vertically behind it, creating an inescapable call to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains fixed at the top of the viewport, maintaining brand presence and navigation access while the page content scrolls beneath it."
+    },
+    {
+      "kind": "layout",
+      "note": "A horizontal carousel is used for displaying social proof (review snippets) directly below the hero, allowing for numerous endorsements without consuming excessive vertical space."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a full-bleed background video, establishing an immersive and dynamic first impression for the product."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark grey/black and white is consistently accented with a vibrant teal/green for primary calls to action and key informational banners."
+    }
+  ],
+  "technique_notes": [
+    "A full-page modal overlay is triggered on page load and remains persistently visible, covering the entire viewport while the underlying page content scrolls vertically behind it. The main navigation bar is fixed to the top of the viewport, maintaining visibility during scroll. A full-bleed video hero section with a dark, semi-transparent overlay ensures text readability over dynamic background content. A horizontal content carousel, likely implemented with a library like Swiper, is used to display multiple review snippets efficiently."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1f2022",
+        "role": "text"
+      },
+      {
+        "hex": "#006759",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f3ef",
+        "role": "pop-up-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#eceae3",
+        "role": "background"
+      },
+      {
+        "hex": "#54524e",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#dbdbdb",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero text and headings create strong visual hierarchy, contrasting with legible body text.",
+    "radius": "Subtle rounding on interactive elements like buttons and modals, with slightly more pronounced curves on content cards.",
+    "spacing": "Balanced spacing overall, with an airy hero section and a denser, horizontally scrolling review grid."
+  },
+  "standout": "The immediate, full-page, illustrated modal with a countdown creates a strong sense of urgency and exclusivity, making the site feel like an event rather than just a product page. The playful aesthetic applied to a high-tech product is also distinctive.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

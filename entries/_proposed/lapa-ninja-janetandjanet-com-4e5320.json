@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-janetandjanet-com-4e5320",
+  "source": {
+    "url": "https://janetandjanet.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-janetandjanet-com-4e5320.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-janetandjanet-com-4e5320__scroll0.webp",
+      "shots/_proposed/lapa-ninja-janetandjanet-com-4e5320__scroll1.webp",
+      "shots/_proposed/lapa-ninja-janetandjanet-com-4e5320__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-fashion photography is used as the dominant background for most content sections, creating an immersive visual experience that prioritizes imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme scale typography is used for hero text and section titles, often overlapping imagery and serving as a primary visual element rather than just informational text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is consistently used for text and structural elements, with vibrant accent colors derived directly from the full-bleed photography."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero text elements parallax against their background images, moving at a slower rate than the scroll to create a subtle depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar at the top transforms from a transparent background with white text to a solid white background with black text as the user scrolls past the initial hero section, becoming sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Typographic hero sections feature extremely large, light-colored text overlaid on full-bleed imagery, establishing a bold, editorial tone immediately."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed, high-resolution photography is used as background for most content sections, creating an immersive visual experience that feels like a fashion magazine spread.",
+    "A sticky header navigation bar transitions its background from transparent to solid white and changes text color from white to black upon scrolling past the initial hero section.",
+    "Hero text elements are designed to parallax, moving at a slower rate than the scroll, creating a depth effect against the background image, likely using GSAP or Locomotive Scroll for precise control."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "background"
+      },
+      {
+        "hex": "#ebebeb",
+        "role": "surface"
+      },
+      {
+        "hex": "#1863dc",
+        "role": "accent"
+      },
+      {
+        "hex": "#e0b0b0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif headings (~8x body) with smaller, lighter sans-serif body and navigation text.",
+    "radius": "Sharp corners are consistently used across all elements, including buttons and input fields, reinforcing a clean, modern aesthetic.",
+    "spacing": "Airy spacing in hero and large typographic sections, creating a sense of grandeur, while footer links are more densely packed for information density."
+  },
+  "standout": "The site's design is distinctive for its bold, almost extreme use of typography, where section titles and hero text are scaled to monumental proportions, often overlapping full-bleed, high-fashion photography. This creates an editorial, magazine-like aesthetic that feels more like a visual art piece than a typical e-commerce site, emphasizing brand identity and visual impact.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

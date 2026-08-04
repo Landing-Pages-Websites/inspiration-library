@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-halaskastudio-com-17035e",
+  "source": {
+    "url": "https://halaskastudio.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-halaskastudio-com-17035e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-halaskastudio-com-17035e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-halaskastudio-com-17035e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-halaskastudio-com-17035e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-studio",
+      "software-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Large, full-bleed project cards with embedded UI screenshots are presented in an alternating two-column layout, often with a gradient overlay or distinct background color."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, blocky, almost pixelated display font is used for the main brand logo and large footer text, contrasting with a clean, modern sans-serif for all other content."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a very light, almost white background with a deep dark blue for primary text and interactive elements, punctuated by vibrant, multi-color gradients within project card backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the initial hero content scrolls away, and two distinct call-to-action buttons appear and stick: a circular 'Book a call with Chris' button at the top center and a rectangular 'Book a call' button at the bottom right."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are displayed in a horizontal, scrollable carousel, indicating a large portfolio of partnerships."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, impactful headline and subtext, followed by a grid of client logos that scroll horizontally. Below this, project cards are presented with a mix of gradient overlays and embedded product UI screenshots, creating a rich visual showcase.",
+    "Scroll-triggered sticky elements are implemented for calls-to-action: a circular button with an avatar sticks to the top of the viewport, and a rectangular button sticks to the bottom-right. These likely use CSS position: sticky or a JavaScript-driven scroll listener.",
+    "The overall page structure uses generous vertical spacing between sections, creating an airy feel, while content within cards and text blocks maintains a balanced density. The detected animation tech (canvas, css-keyframes, rive) suggests potential for subtle background animations or interactive elements, though the primary scroll motion observed is the sticky CTA reveal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f6fcff",
+        "role": "background"
+      },
+      {
+        "hex": "#051a24",
+        "role": "text"
+      },
+      {
+        "hex": "#0d212c",
+        "role": "cta"
+      },
+      {
+        "hex": "#c8d5db",
+        "role": "surface"
+      },
+      {
+        "hex": "#79878f",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e0ebf0",
+        "role": "light-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FK Raster Roman Compact Smooth",
+        "role": "display"
+      },
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold display headings (~4-5x body) with a clear hierarchy down to smaller, legible body text and labels, all using a clean sans-serif, except for the unique display font.",
+    "radius": "Subtle rounding on buttons and card corners, with some elements (like the display font) featuring sharp, angular edges.",
+    "spacing": "Airy, with significant vertical padding between major sections and a balanced density within content blocks and cards."
+  },
+  "standout": "The most distinctive design element is the use of a highly unique, blocky, almost pixelated display font for the brand's logo and large footer text, which provides a strong, memorable identity that contrasts sharply with the otherwise clean and modern sans-serif typography. This, combined with the large, illustrative project cards featuring embedded UI, creates a strong portfolio showcase.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "rive"
+  ],
+  "status": "proposed"
+}

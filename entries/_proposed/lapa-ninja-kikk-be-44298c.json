@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-kikk-be-44298c",
+  "source": {
+    "url": "https://www.kikk.be",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-kikk-be-44298c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-kikk-be-44298c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-kikk-be-44298c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-kikk-be-44298c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "arts",
+      "festival",
+      "technology",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layouts for content sections, often combining large text with smaller image or card elements, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Use of large, bold, uppercase sans-serif typography for section titles, creating strong visual hierarchy against a dark background."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white base palette, punctuated by extremely vibrant, almost neon, geometric accent colors in key graphic elements and the hero."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent, full-screen modal is fixed in the viewport, while the main page content scrolls underneath it, creating a layered experience."
+    },
+    {
+      "kind": "motion",
+      "note": "Sticky vertical text labels on the left and numerical indicators on the right provide scroll progress or section context, remaining fixed as content scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections with clear, large headings, often featuring a grid-like arrangement of sub-items."
+    }
+  ],
+  "technique_notes": [
+    "To create the visual impact, use a stark dark background with white text, and introduce bursts of highly saturated, contrasting colors through abstract, geometric graphic elements.",
+    "Implement a fixed, full-viewport modal that overlays the entire page content upon load, allowing the background content to scroll behind it.",
+    "Utilize CSS keyframe animations to introduce subtle reveals or transitions for elements as they enter the viewport, complementing the overall scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#33FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF00FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Tight",
+        "role": "heading"
+      },
+      {
+        "family": "Inter Tight",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, uppercase headings (~3-4x body) with a clear hierarchy, contrasted with smaller, legible body text.",
+    "radius": "Sharp corners throughout, with no visible rounding.",
+    "spacing": "Balanced overall, with generous vertical spacing between major sections and within the hero, but tighter spacing within content grids."
+  },
+  "standout": "The site's most distinctive feature is its bold, almost brutalist use of high-contrast black and white typography combined with vibrant, glitch-art-inspired geometric patterns and colors. This creates a dynamic and energetic visual identity that feels both modern and avant-garde, immediately setting it apart from typical event or creative organization sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-steno-ai-ebe4b7",
+  "source": {
+    "url": "https://www.steno.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-steno-ai-ebe4b7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-steno-ai-ebe4b7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-steno-ai-ebe4b7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-steno-ai-ebe4b7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "personal-branding"
+    ],
+    "mood": [
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs an asymmetrical layout, featuring a prominent, large-scale text block on the left balanced by a dynamic, multi-layered visual element on the right."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant, large-scale serif typeface for headings with a clean, modern sans-serif for body text and UI elements creates a blend of classic and contemporary aesthetics."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a refined palette of warm, muted neutrals (light beige, dark charcoal) as primary and secondary colors, strikingly accented by a vibrant, almost neon, lime green for calls to action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content elements are revealed with a subtle, staggered fade-in or slide-up animation as the user scrolls down the page, creating a guided and engaging content discovery experience."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is uniquely presented as a distinct, semi-transparent card with rounded corners, appearing to float above a blurred background image that is revealed upon reaching the bottom of the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section integrates a video or animated sequence, likely using `video-hero` and `gsap`, where a central figure is dynamically framed by page-like elements that animate around her.",
+    "Content sections are introduced using scroll-triggered animations, employing `gsap` or `css-keyframes` to achieve a staggered fade-up or slide-in effect as elements enter the viewport.",
+    "The footer is implemented as a distinct UI component with a backdrop blur effect, giving it a frosted glass appearance, and is positioned to overlay a fixed or parallaxing background image as the user scrolls to the page's end."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f0edda",
+        "role": "background"
+      },
+      {
+        "hex": "#282724",
+        "role": "text"
+      },
+      {
+        "hex": "#caff75",
+        "role": "accent"
+      },
+      {
+        "hex": "#fffdf1",
+        "role": "surface"
+      },
+      {
+        "hex": "#efedd9",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, complemented by a clean, readable sans-serif for body text and smaller UI elements.",
+    "radius": "Subtle rounded corners (small radius) on buttons and the footer card, providing a soft, modern touch.",
+    "spacing": "Balanced and airy, particularly in the hero section, with clear vertical separation between content blocks and ample padding around elements."
+  },
+  "standout": "This site stands out with its sophisticated blend of classic serif typography and a modern, vibrant lime green accent. The unique footer design, presented as a floating, semi-transparent card over a blurred background, is particularly distinctive, as is the dynamic, multi-layered video hero that frames the central figure with animated page elements.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

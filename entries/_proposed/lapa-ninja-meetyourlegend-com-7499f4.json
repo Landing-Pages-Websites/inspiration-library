@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-meetyourlegend-com-7499f4",
+  "source": {
+    "url": "https://meetyourlegend.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-meetyourlegend-com-7499f4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-meetyourlegend-com-7499f4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-meetyourlegend-com-7499f4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-meetyourlegend-com-7499f4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "creative-industry",
+      "mentorship",
+      "talent-recruitment"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are primarily full-width, using a dark background for content and a vibrant orange for impactful hero and call-to-action areas, creating strong visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use an extremely bold, condensed, uppercase sans-serif font, often in white against dark or orange backgrounds, creating a powerful, almost industrial aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep dark brown/black, bright white, and a vivid, almost neon orange is used consistently to define hierarchy and draw attention."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a full-bleed hero section with a grid of desaturated faces and large text ('MEET YOUR LEGEND') appears to stick or parallax, then dynamically transforms its text content ('LEGEND TEAM?') while maintaining the vibrant orange background. A 'SUBSCRIBE TO NEWSLETTER' bar also slides up from the bottom to become sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections feature a three-column layout for key service descriptions, each introduced by a bold, uppercase title and a small graphic element."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic, full-bleed hero section that uses a canvas-driven background for a vibrant orange wash. As the user scrolls, this hero section appears to stick, and its overlaying text content transitions or animates to reveal new messaging, while the background maintains its presence. This creates a continuous, immersive visual experience.",
+    "Scroll-triggered animations are used to reveal a sticky footer element (newsletter subscription bar) that slides up from the bottom of the viewport as the user scrolls past a certain point, remaining fixed at the bottom."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Bebas Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed, uppercase headings (~4-5x body) create strong visual impact, complemented by clear, legible body text and smaller, uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy in hero and call-to-action sections, with generous vertical padding; balanced density in content sections with clear separation between elements."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist typography, which is used to create high-impact headlines and section titles. This is combined with a vibrant, full-bleed orange background that dynamically transforms content as the user scrolls, giving the site an energetic and modern feel that stands apart from typical corporate mentorship platforms.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}
