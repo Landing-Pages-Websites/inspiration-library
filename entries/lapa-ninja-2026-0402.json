@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0402",
+  "source": {
+    "url": "https://www.iwcglobal.net",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0402.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0402__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0402__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0402__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "wealth-management",
+      "medical-finance"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section with an abstract, gradient-based background that extends across the initial viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, oversized serif typography is used for primary headings, creating a sophisticated and established feel, contrasted with a clean, legible sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A limited, refined color palette dominated by deep, rich blues and ethereal light blues/whites, evoking a sense of calm, trust, and luxury."
+    },
+    {
+      "kind": "motion",
+      "note": "The abstract, cloud-like background elements within the hero section exhibit a subtle parallax effect as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero, such as the 'YOUR STORY SHAPES THE STRATEGY' block, appear to reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Abstract, soft gradient shapes and cloud-like motifs are consistently used as background elements, providing a cohesive and distinctive visual identity across different sections."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background with a complex, animated gradient or canvas effect that subtly shifts or parallaxes as the user scrolls, creating depth and visual interest, likely leveraging canvas and/or GSAP for animation.",
+    "Content sections below the hero are designed to appear with a staggered reveal animation, such as a fade-up or slide-in, as they become visible in the viewport, orchestrated by a scroll-triggered animation library like GSAP.",
+    "The primary navigation is handled via a full-screen overlay menu that appears with a smooth transition, presenting contact information and structured site navigation links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A306A",
+        "role": "background"
+      },
+      {
+        "hex": "#5C7DC2",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0E8F5",
+        "role": "text"
+      },
+      {
+        "hex": "#F0F6FC",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body text) with smaller, clean sans-serif body text and uppercase labels for navigation and subheadings.",
+    "radius": "Subtle, with a slight curve on interactive elements like buttons and input fields.",
+    "spacing": "Airy, particularly in the hero and between major content blocks, creating a sense of calm and luxury with ample negative space."
+  },
+  "standout": "The site's distinctive use of abstract, cloud-like gradient backgrounds combined with elegant serif typography creates a sophisticated, almost ethereal brand presence that feels unique for a financial services firm. The focus on a niche (medical community) is also well-integrated into this refined aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "approved"
+}

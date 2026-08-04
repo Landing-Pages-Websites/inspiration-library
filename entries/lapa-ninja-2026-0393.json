@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0393",
+  "source": {
+    "url": "https://www.florafauna.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0393.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0393__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0393__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0393__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "creative-tools",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Immersive full-bleed sections with a dark aesthetic, often featuring centered primary content or large text overlays."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical card grids for showcasing features and content, breaking from rigid alignment within a structured framework."
+    },
+    {
+      "kind": "type",
+      "note": "Large, stacked, and often partially obscured display typography used as a primary visual element, creating a bold and artistic statement."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast dark theme with deep blacks and dark grays, accented by a single vibrant green for primary calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Sticky navigation bar that transitions from transparent to a solid dark background with a subtle blur effect upon scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "Large text elements parallax over a slower-moving background image as the user scrolls, creating a sense of depth and dynamic reveal."
+    },
+    {
+      "kind": "section",
+      "note": "Hero section features an auto-playing background video with centered, high-contrast text overlay and a prominent call to action."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (css-keyframes detected) to create a dynamic experience. A sticky header transitions its background and potentially its height as the user scrolls past the hero. Sections reveal their content with subtle fade-in or slide-up effects as they enter the viewport. A prominent parallax effect is used where large, layered text elements move at a different speed than their background image, enhancing depth. The hero section utilizes a full-bleed auto-playing video (video-hero detected) for an immersive introduction.",
+    "The visual design leverages a sophisticated dark mode, using deep blacks and dark grays as primary backgrounds, contrasted with crisp white text. A single, vibrant green is strategically used for calls to action to guide user attention. Content is organized into full-width sections, often with centered primary messaging. Card-based layouts are used extensively, featuring subtle borders and shadows to define content blocks on the dark canvas. Typography is modern and sans-serif, with a clear hierarchy established through significant size and weight variations, and large, stacked text elements are used as impactful visual statements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#71d083",
+        "role": "cta"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#7b7b7b",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#b4b4b4",
+        "role": "tertiary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Variable",
+        "role": "heading"
+      },
+      {
+        "family": "Geist Variable",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with clear hierarchy, complemented by smaller, often uppercase labels and technical-looking numbers.",
+    "radius": "Subtle (cards and buttons have slightly rounded corners, but not overly soft).",
+    "spacing": "Balanced (sections have generous vertical padding, card grids are well-spaced, creating a comfortable density)."
+  },
+  "standout": "The site's standout feature is its sophisticated use of dark mode combined with dynamic, large-scale typography and subtle scroll-triggered motion. The integration of a video hero and parallaxing text over immersive imagery creates a highly engaging and premium feel, moving beyond a standard marketing site with its artistic and technical presentation.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

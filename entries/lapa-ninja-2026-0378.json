@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0378",
+  "source": {
+    "url": "https://atlantic.vc",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0378.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0378__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0378__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0378__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "venture-capital",
+      "technology",
+      "innovation"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed, dark background with content sections often centered or aligned to a subtle grid, maintaining generous vertical spacing between major content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently very large, bold, and sans-serif, creating strong visual hierarchy, complemented by smaller, clean body text and uppercase labels for sub-sections or metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring a black background, white primary text, vibrant blue for interactive elements and accents, and a distinct orange for calls-to-action and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic text transformation, where the main heading changes content and styling as the user scrolls down, accompanied by a parallaxing, animated background texture."
+    },
+    {
+      "kind": "motion",
+      "note": "The footer/contact section transitions into a generative art animation with radiating blue lines that dynamically expand from the center, creating a sense of depth and energy."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently employ a grid-based layout for showcasing items like 'pioneers' or 'stories,' using cards with subtle borders and clear calls to action."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a full-bleed, interactive background powered by WebGL/Three.js and canvas, which subtly animates and parallaxes with scroll, creating a dynamic and immersive visual experience.",
+    "Hero text undergoes a scroll-triggered content and style transformation, where the initial message animates into a new statement as the user scrolls past the initial viewport.",
+    "Scroll-triggered animations, likely orchestrated by a smooth scrolling library like Locomotive Scroll, reveal content sections with subtle fade-ins or shifts as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF4105",
+        "role": "cta"
+      },
+      {
+        "hex": "#565657",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#D8EAFF",
+        "role": "subtle-background-texture"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold sans-serif headings (up to ~6x body text) with clean, legible body text and small, uppercase labels.",
+    "radius": "Sharp corners for all UI elements, buttons, and content containers.",
+    "spacing": "Very airy, with generous vertical spacing between sections and ample padding within content blocks, contributing to a premium and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its highly dynamic and interactive background, which leverages WebGL/canvas to create evolving textures and geometric animations that respond to scroll. This transforms the page from a static layout into a living, breathing experience, making the content feel integrated into a larger, immersive environment.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

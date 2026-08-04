@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0385",
+  "source": {
+    "url": "https://dotconnect.vc",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0385.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0385__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0385__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0385__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "software",
+      "engineering-consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with high contrast backgrounds (dark, light, orange) create distinct visual breaks and guide the user down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, sans-serif headings dominate the page, often occupying multiple lines, creating a strong visual hierarchy and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black and white is consistently used for backgrounds and text, punctuated by a vibrant orange for calls to action and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section scrolls to reveal a full-screen, dark background with a dynamically animated neon brain graphic, transitioning from a subtle background element to a prominent interactive visual."
+    },
+    {
+      "kind": "section",
+      "note": "Section titles are often presented as large, uppercase, bold labels, sometimes with a preceding bullet point, providing clear navigation points and a structured feel."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transitions from a transparent, light state to a solid dark background with a slightly modified logo and text color as the user scrolls past the hero section.",
+    "The hero content scrolls normally, but a background element (an abstract brain graphic) appears to parallax subtly. As the hero content exits the viewport, a new full-screen section with a dark background and an animated neon brain illustration (likely using canvas or Lottie) is revealed, creating a dynamic visual transition.",
+    "Content sections and individual elements within them are revealed with subtle fade-in or slide-up animations as they enter the viewport, enhancing engagement and guiding attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#f6821f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ededea",
+        "role": "surface"
+      },
+      {
+        "hex": "#521010",
+        "role": "subtle-accent"
+      },
+      {
+        "hex": "#00e0b2",
+        "role": "neon-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: SF Pro Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: SF Pro Text",
+        "role": "body"
+      },
+      {
+        "family": "Consolas",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold, modern sans-serif headings (~4-5x body text) with generous line height, contrasted with clean, readable body text and uppercase, slightly tracked-out labels.",
+    "radius": "Sharp corners are consistently applied to all interactive elements, buttons, and content cards.",
+    "spacing": "Generally airy, with significant vertical spacing between major sections and a balanced density within content blocks, contributing to a clean and modern feel."
+  },
+  "standout": "The site's distinctive use of a stark dark/light color palette punctuated by a vibrant orange, combined with extremely large, bold, and modern typography. The central 'brain' motif, evolving from a subtle background graphic to a full-screen animated neon illustration, serves as a powerful and memorable visual metaphor for their 'engineering-driven' identity.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0381",
+  "source": {
+    "url": "https://column.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0381.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0381__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0381__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0381__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "digital-assets",
+      "blockchain"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with alternating dark and light background colors create a strong visual rhythm and clear content separation."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are paired with monospaced numerical section markers for a structured, technical feel, often in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "A deep navy/black and white base palette is accented with a vibrant blue for interactive elements and a subtle red for highlights or warnings."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up animation as they scroll into view, accompanied by large, numbered section indicators that also appear dynamically."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block is introduced with a prominent, two-digit number (e.g., '01') and a clear, uppercase heading, establishing a sequential narrative."
+    }
+  ],
+  "technique_notes": [
+    "A sticky navigation bar transitions from transparent over the hero to a solid dark background with a subtle shadow upon scroll, maintaining persistent access.",
+    "Content sections are designed to animate into view, typically sliding up and fading in, triggered as they enter the viewport. The large numerical section markers also animate their appearance, likely using CSS keyframes or canvas animation for a dynamic reveal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#011821",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#0c6997",
+        "role": "accent"
+      },
+      {
+        "hex": "#a9acb6",
+        "role": "text"
+      },
+      {
+        "hex": "#d80027",
+        "role": "highlight"
+      },
+      {
+        "hex": "#e3e9f2",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SuisseIntl",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "SuisseIntlMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (~3-4x body) with a strong weight contrast against smaller, regular-weight body text and monospaced numerical labels.",
+    "radius": "sharp",
+    "spacing": "balanced, with generous vertical padding between full-width sections and a tighter grid for card-based content."
+  },
+  "standout": "The distinctive use of large, two-digit numerical section markers that animate into view alongside the section content, combined with a sophisticated dark-mode aesthetic and a precise typographic hierarchy, gives the site a highly structured and authoritative feel.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

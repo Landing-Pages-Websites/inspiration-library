@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-0409",
+  "source": {
+    "url": "https://www.osmo.supply",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0409.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0409__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0409__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0409__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "web-development"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts with large, bold headings on one side and supporting visuals or interactive elements on the other, creating dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif headings are used to introduce major sections, creating strong visual hierarchy and impact, often paired with smaller, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of black and white is consistently punctuated by vibrant, saturated accent colors (electric purple and bright green) for key elements like CTAs and decorative shapes."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar shrinks and gains a backdrop as the user scrolls, while a secondary green navigation bar appears below it, offering additional site exploration options."
+    },
+    {
+      "kind": "motion",
+      "note": "Elements within the hero section, specifically the product cards, exhibit a subtle 3D rotation and parallax effect as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Sections frequently alternate between light (white/light gray) and dark (black/dark gray) backgrounds, providing clear visual separation and rhythm throughout the page."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed sections are used with generous vertical padding, often featuring a split layout where large typography is balanced by dynamic visual elements like embedded videos or interactive card displays.",
+    "A sophisticated scroll-triggered animation system, likely using GSAP and Locomotive Scroll, orchestrates multiple effects: a sticky header that transforms on scroll, a secondary sticky navigation bar that reveals, and a subtle 3D parallax effect on hero elements as the page scrolls.",
+    "Interactive elements like buttons and cards use subtle hover effects, such as background color changes or slight lifts, to indicate interactivity and provide feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F9F9F9",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#131313",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#6840FF",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#8AFF00",
+        "role": "accent-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) create strong visual impact, complemented by legible body text and small, often uppercase, functional labels.",
+    "radius": "Subtle rounding (2-4px) on buttons and cards, maintaining a clean, modern aesthetic.",
+    "spacing": "Airy and generous, particularly in hero and section breaks, creating a sense of spaciousness and allowing elements to breathe. Content grids within sections are balanced."
+  },
+  "standout": "This site stands out with its dynamic, scroll-driven interactions, particularly the 3D parallax effect on hero elements and the transforming sticky navigation. The bold, oversized typography combined with a high-contrast palette and vibrant accent colors creates a distinctive, modern, and highly engaging experience that feels premium and developer-focused.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

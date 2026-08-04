@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0391",
+  "source": {
+    "url": "https://flexion.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0391.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0391__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0391__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0391__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "robotics",
+      "ai",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero section dramatically transitions from a dark, text-focused overlay to a vibrant, full-bleed landscape image with a subtle parallax effect as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms its appearance and stickiness: initially dark and opaque, then transparent over the hero, and finally a solid white bar with a subtle shadow when sticky at the top."
+    },
+    {
+      "kind": "layout",
+      "note": "Key information is presented in asymmetrical text blocks, often with a large, bold heading paired with smaller, legible body text, creating a clear visual hierarchy and modern feel."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and light gray is consistently used, punctuated by vibrant, gradient-like accent colors (pink, purple, blue) for subtle background elements and brand highlights."
+    },
+    {
+      "kind": "type",
+      "note": "Monospaced, uppercase labels are employed for section identifiers and metadata, providing a structured and technical counterpoint to the primary sans-serif headings and body text."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a video-hero background that is initially obscured by a dark, semi-transparent overlay. As the user scrolls, the overlay lifts or fades, revealing the full-bleed video content underneath with a subtle parallax movement, while the text elements remain fixed relative to the viewport.",
+    "The global navigation bar dynamically changes its background, opacity, and shadow based on the user's scroll position, transitioning from an initial dark state to a transparent overlay over the hero, and then becoming a sticky, solid white bar with a soft drop shadow after the hero section is scrolled past.",
+    "Large brand elements, such as the company logo, are used as semi-transparent background graphics in the footer, revealing progressively as the user scrolls to the bottom of the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F3F2EF",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#179AEB",
+        "role": "accent"
+      },
+      {
+        "hex": "#D38EEC",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF86C6",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Hauss-Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Fragment Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are paired with legible body text and distinct, smaller uppercase monospaced labels, creating a modern and structured hierarchy.",
+    "radius": "Sharp; elements like buttons and content blocks feature crisp, unrounded corners.",
+    "spacing": "Balanced to airy; generous vertical spacing between sections and within text blocks contributes to a clean, open layout."
+  },
+  "standout": "The site's most distinctive feature is its dynamic hero section, which dramatically transforms from a dark, text-focused overlay to a vibrant, full-bleed landscape image with a parallax effect upon scrolling. This, combined with the large, semi-transparent brand logo used as a background element in the footer, creates a memorable and sophisticated visual experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

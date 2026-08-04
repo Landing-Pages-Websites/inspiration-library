@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0394",
+  "source": {
+    "url": "https://flow.google",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0394.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0394__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0394__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0394__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "creative-tools",
+      "ai-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background with large, distinct content sections presented as dark, rounded cards or full-width content blocks."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent use of image grids, often with rounded corners, to showcase visual content and provide context for AI capabilities."
+    },
+    {
+      "kind": "type",
+      "note": "Hierarchical typography with very large, bold, white sans-serif headings on a dark background, contrasted with smaller, lighter body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette, primarily black and white, allowing vibrant imagery and subtle accent colors to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle slide-up and fade-in effect as they enter the viewport, creating a dynamic and engaging scrolling experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section transforms on scroll, with the overlaid text and image grid receding to reveal the next content block."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky navigation bar that remains at the top of the viewport, maintaining site navigation throughout the scroll.",
+    "Design content sections as large, dark, rounded-corner cards or full-width blocks that animate into view using a subtle slide-up and fade-in effect as they become visible during scrolling, likely leveraging a scroll animation library like Locomotive Scroll.",
+    "Create a dynamic hero section where an initial image grid and overlaid text recede or fade out as the user scrolls, smoothly transitioning to the next content block."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#8B5CF6",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized bold headings (~4-5x body) with generous letter spacing for display, paired with clean, legible body text.",
+    "radius": "Rounded, consistently applied to image containers, buttons, and content cards, giving a soft, modern feel.",
+    "spacing": "Airy, with significant vertical padding between major sections and within large content blocks, creating a sense of spaciousness and clear content separation."
+  },
+  "standout": "The immersive, app-like dark mode experience, where content sections are presented as large, interactive-looking 'cards' that dynamically reveal on scroll, creating a sense of depth and engagement beyond a typical marketing site. The integration of UI elements directly into the marketing content (e.g., the chat UI in the 'Unlock your best creative work' section) is also distinctive.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

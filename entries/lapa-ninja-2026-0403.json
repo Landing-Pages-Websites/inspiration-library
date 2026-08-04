@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0403",
+  "source": {
+    "url": "https://www.limeiq.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0403.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0403__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0403__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0403__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "data-solutions",
+      "market-intelligence"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections feature generous vertical padding, often with a single, large heading centered or left-aligned, creating an airy and spacious feel."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, oversized serif typeface is used for all major headings, contrasting sharply with a clean, modern sans-serif for body text, navigation, and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a sophisticated, muted palette dominated by warm off-whites and dark browns, accented by subtle, rich gradients (gold, teal, purple) in background elements."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, text elements slide up and fade into view, while background images exhibit a subtle parallax effect, creating depth and a dynamic reveal of content."
+    },
+    {
+      "kind": "section",
+      "note": "Hero sections are characterized by minimal text, focusing on a single, impactful headline and a full-width background image or gradient that often parallaxes."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the scroll-triggered motion, use a JavaScript library like locomotive-scroll or GSAP ScrollTrigger to orchestrate element reveals. Text blocks should animate with a subtle slide-up and fade-in as they enter the viewport, while background images should scroll at a slower rate than foreground content to achieve a parallax effect.",
+    "The typography system relies on a custom, decorative serif font for display headings, which should be rendered at very large sizes to serve as visual anchors. This is paired with a highly legible, modern sans-serif for all functional text, ensuring a clear hierarchy and readability.",
+    "The site's color scheme can be achieved by setting a dominant warm off-white as the primary background, using a deep, muted brown for primary text and dark elements, and incorporating subtle, multi-color gradients for background accents that provide visual interest without overwhelming the minimal aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e5ded6",
+        "role": "background"
+      },
+      {
+        "hex": "#2e2522",
+        "role": "text"
+      },
+      {
+        "hex": "#cec7c0",
+        "role": "surface"
+      },
+      {
+        "hex": "#b7b0aa",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#c7a040",
+        "role": "accent-gold"
+      },
+      {
+        "hex": "#203435",
+        "role": "accent-teal"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Canela",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, artistic serif headings (~4-5x body text) with a luxurious, flowing character, complemented by a clean, readable sans-serif for body and small, uppercase labels.",
+    "radius": "Sharp corners are dominant, with very subtle rounding (barely perceptible) on card elements.",
+    "spacing": "Very airy, characterized by expansive vertical padding between sections and generous line-heights, creating a sense of calm and luxury."
+  },
+  "standout": "The site's most distinctive feature is its bold and artistic use of an oversized, custom serif typeface for headings, which acts as a primary visual element. This, combined with a sophisticated, muted color palette and subtle scroll-triggered animations, elevates the design beyond a typical corporate site into a high-end, editorial experience. The large, stylized 'LimeIQ' logo reveal in the footer also reinforces this unique brand identity.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

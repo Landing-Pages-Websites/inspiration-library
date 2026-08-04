@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-2026-0398",
+  "source": {
+    "url": "https://huehaus.design",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0398.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0398__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0398__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0398__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "branding"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, dynamic compositions are created by large, blocky text elements and geometric blue/white stripe motifs that break traditional grid lines."
+    },
+    {
+      "kind": "layout",
+      "note": "A full-screen menu overlay provides navigation through a clean, grid-based layout of links, contrasting with the main page's dynamic content."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, blocky, geometric display typography is used for primary headlines and the brand logo, creating a strong visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette combines a warm off-white background with bold primary blue, stark black, and vibrant accent colors like yellow and red."
+    },
+    {
+      "kind": "motion",
+      "note": "The full-screen menu overlay animates in, with the 'HUE HAUS' logo text transitioning through a multi-color palette and navigation links appearing in a staggered reveal."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, impactful text sections on the homepage are designed for scroll-triggered reveal animations, likely sliding or fading into view as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Recurring horizontal blue and white stripe motifs are used consistently as background elements, visual dividers, and decorative accents across various sections."
+    }
+  ],
+  "technique_notes": [
+    "Utilize GSAP ScrollTrigger to reveal large textual headlines and content blocks on the homepage with a subtle slide-up or fade-in animation as they enter the viewport, enhancing engagement and visual flow.",
+    "Implement a full-screen menu overlay that animates in, with the 'HUE HAUS' logo text transitioning colors via CSS keyframes or GSAP, and individual menu items appearing with a staggered fade-in or slide-in effect.",
+    "Create dynamic background elements using CSS keyframes or video-hero techniques, particularly for the abstract shapes and stripes in the hero section and throughout the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f6f1eb",
+        "role": "background"
+      },
+      {
+        "hex": "#0443b5",
+        "role": "primary-blue"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fbb833",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#e6e2dc",
+        "role": "surface"
+      },
+      {
+        "hex": "#1f1f1f",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent-red"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Mondwest Regular",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, blocky display headings (~8-10x body) with smaller, clean sans-serif body text and uppercase labels.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy, generous spacing around major sections and large text blocks, creating a sense of grandeur and impact."
+  },
+  "standout": "The site's distinctive use of extremely oversized, blocky, geometric typography for key headlines, combined with a dynamic interplay of bold primary colors and a recurring horizontal stripe motif, creates a highly energetic and memorable visual identity. The full-screen animated menu further reinforces this playful yet sophisticated aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}
