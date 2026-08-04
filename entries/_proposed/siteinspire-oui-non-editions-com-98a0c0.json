@@ -1,0 +1,112 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://oui-non-editions.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-oui-non-editions-com-98a0c0.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-oui-non-editions-com-98a0c0__scroll0.webp",
+      "shots/_proposed/siteinspire-oui-non-editions-com-98a0c0__scroll1.webp",
+      "shots/_proposed/siteinspire-oui-non-editions-com-98a0c0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://oui-non-editions.com/products/routine-desire",
+        "full": "shots/_proposed/siteinspire-oui-non-editions-com-98a0c0__p2.webp"
+      },
+      {
+        "url": "https://oui-non-editions.com/products/daily-banalities",
+        "full": "shots/_proposed/siteinspire-oui-non-editions-com-98a0c0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "publishing",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Product grid uses generous white space around each item, creating a gallery-like presentation rather than a dense e-commerce catalog."
+    },
+    {
+      "kind": "type",
+      "note": "A unique, hand-drawn display font for the brand logo is used in stark contrast to a very minimal, light-weight sans-serif for all functional text."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface is strictly monochromatic (black on white), allowing product images to be the sole source of color and visual vibrancy."
+    },
+    {
+      "kind": "motion",
+      "note": "The header becomes sticky on scroll, and a secondary navigation label ('CATALOG') dynamically repositions itself to align with the main navigation links."
+    },
+    {
+      "kind": "section",
+      "note": "Each product item in the grid consistently displays an image, title, artist, year, type, price, and a simple 'ADD TO CART' button, maintaining a uniform information hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation area transitions from a static position to a fixed, sticky header upon scrolling, with a specific page indicator ('CATALOG') dynamically moving to integrate cleanly within the main navigation links.",
+    "Product listings are presented in a flexible, image-centric grid, utilizing ample white space to give each item a distinct, gallery-like presence.",
+    "The site's visual identity is built on a stark black and white foundation for all interface elements, ensuring that the diverse and often colorful product photography remains the undisputed focal point."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fecb00",
+        "role": "accent"
+      },
+      {
+        "hex": "#e6007e",
+        "role": "accent"
+      },
+      {
+        "hex": "#d1212c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Hand-drawn Sketch",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An oversized, hand-drawn logo (~3-4x body text) contrasts sharply with small, light-weight sans-serif text used for all other elements, creating a flat hierarchy with one dominant visual anchor.",
+    "radius": "sharp",
+    "spacing": "airy, especially around product items and in the header, creating a gallery-like feel."
+  },
+  "standout": "The most distinctive aspect is the juxtaposition of the highly unique, hand-drawn, widely-spaced logo typography with an otherwise extremely minimal, almost stark, black-and-white interface. This creates an immediate artistic and editorial impression, elevating the product photography to gallery status rather than typical e-commerce.",
+  "animation_tech": [],
+  "status": "proposed"
+}

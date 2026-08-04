@@ -1,0 +1,119 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://i-d.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-i-d-co-e71c5b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-i-d-co-e71c5b__scroll0.webp",
+      "shots/_proposed/siteinspire-i-d-co-e71c5b__scroll1.webp",
+      "shots/_proposed/siteinspire-i-d-co-e71c5b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://i-d.co/feed/evian",
+        "full": "shots/_proposed/siteinspire-i-d-co-e71c5b__p2.webp"
+      },
+      {
+        "url": "https://i-d.co/feed/438409",
+        "full": "shots/_proposed/siteinspire-i-d-co-e71c5b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "fashion",
+      "culture",
+      "editorial"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout featuring a large, fixed-position brand logo on the right side that visually overlaps the main content area."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, fixed-position brand logo on the right side of the hero section scales down and repositions to become a sticky element in the top-left header upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "A secondary navigation bar (Latest, Shop, Subscribe, Search) becomes sticky at the bottom of the viewport after initial scroll, providing persistent access to key sections."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white base palette is consistently used for backgrounds and text, with a single vibrant accent color reserved for interactive elements like buttons and links."
+    },
+    {
+      "kind": "section",
+      "note": "Article content is presented with full-bleed imagery, often with minimal text overlay or adjacent to the image, creating a magazine-like visual experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Article detail pages feature a main content column alongside a 'Discover more' sidebar on the right, providing related content suggestions."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate a complex header transformation: a large, initially fixed brand logo scales down and animates its position to become a compact, sticky element in the top-left corner of the viewport as the user scrolls. Simultaneously, a bottom navigation bar also becomes sticky.",
+    "Content sections are presented with full-bleed imagery, often with text overlaid directly on the image or in a minimal adjacent block, mimicking editorial layouts.",
+    "Interactive elements like buttons use a single, strong accent color against a high-contrast black and white background to draw attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "cta"
+      },
+      {
+        "hex": "#ddd",
+        "role": "surface"
+      },
+      {
+        "hex": "#007cba",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, regular weight sans-serif body text and uppercase labels for categories.",
+    "radius": "Sharp (predominantly square elements with minimal to no corner rounding).",
+    "spacing": "Balanced (comfortable spacing between article cards and content blocks, with a more expansive feel in the hero section)."
+  },
+  "standout": "The site's distinctive use of a large, fixed-position brand logo that dynamically transforms into a minimalist sticky header on scroll, combined with a persistent bottom navigation, creates a unique, magazine-like browsing experience that prioritizes visual content and a strong brand presence.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

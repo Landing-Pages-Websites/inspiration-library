@@ -1,0 +1,85 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://public.work",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-public-work-12364a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-public-work-12364a__scroll0.webp",
+      "shots/_proposed/siteinspire-public-work-12364a__scroll1.webp",
+      "shots/_proposed/siteinspire-public-work-12364a__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "archive",
+      "digital-library"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dynamic masonry grid layout is used for the main content area, continuously displaying a vast collection of images without distinct section breaks."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains fixed at the top of the viewport, providing persistent access to site functions while the image grid scrolls infinitely beneath it."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a muted, monochromatic color scheme, primarily using a light background and dark text, allowing the sepia and grayscale tones of the historical images to dominate the visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Typography is minimal and functional, consisting of small, sans-serif text used for navigation and search, with no prominent headings, which emphasizes the visual content over textual hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The primary content area utilizes a masonry grid system that dynamically loads and appends new images as the user scrolls down, creating a seamless infinite scroll experience.",
+    "The global navigation bar is implemented as a sticky element, fixed to the top of the browser window, ensuring it is always accessible regardless of scroll depth.",
+    "No scroll-triggered motion beyond the sticky header and continuous content loading; the design relies on static hierarchy and the inherent visual interest of the image content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1717",
+        "role": "text"
+      },
+      {
+        "hex": "#6b6b6b",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, functional sans-serif text is used throughout for navigation and search, creating a flat typographic hierarchy that defers to the visual content.",
+    "radius": "Sharp corners are consistently applied to image frames, buttons, and the search bar, contributing to a clean and unadorned aesthetic.",
+    "spacing": "Airy spacing around individual images within the grid allows each piece of content to stand out, while the header maintains a balanced, functional density."
+  },
+  "standout": "The site's primary distinction is its absolute focus on the visual content, presented as an endless, unadorned gallery. The design itself is almost invisible, serving purely as a frame for the vast collection of historical and artistic public domain works, making the content the hero without any typical marketing flair.",
+  "animation_tech": [],
+  "status": "proposed"
+}

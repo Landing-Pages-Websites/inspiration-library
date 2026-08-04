@@ -1,0 +1,96 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://portport.jp",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-portport-jp-37e9c7.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-portport-jp-37e9c7__scroll0.webp",
+      "shots/_proposed/siteinspire-portport-jp-37e9c7__scroll1.webp",
+      "shots/_proposed/siteinspire-portport-jp-37e9c7__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "arts",
+      "culture",
+      "export-import"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, high-contrast layouts with large, bold typography dominating sections and ample negative space."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast between monumental, condensed display headings and elegant, smaller serif body text, often paired with tiny uppercase sans-serif labels."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black and white, with dark grey used sparingly for secondary text, emphasizing high contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "A monumental, oversized brand name graphic is integrated into the page flow, scrolling with the content but so large that it acts as a continuous visual anchor, slowly revealing its full form across multiple screen heights."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by thin horizontal rules, often introduced by a small, uppercase label followed by a large, bold heading."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header maintains navigation access while the main content scrolls beneath it.",
+    "A full-page-height, oversized brand graphic is placed as a background element within the document flow, allowing foreground content to scroll over it. Its immense scale ensures it remains a dominant visual presence throughout the scroll, creating a sense of continuous brand immersion.",
+    "Content sections are revealed with a simple appearance as they enter the viewport, maintaining a clean and focused presentation without complex animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed display headings (~8-10x body) with elegant, smaller serif body text and tiny, uppercase sans-serif labels.",
+    "radius": "Sharp corners universally.",
+    "spacing": "Very airy, with generous vertical spacing between major sections and elements, creating a sense of grandeur and allowing typography to breathe."
+  },
+  "standout": "The site's design is distinctive for its audacious use of oversized, condensed typography, particularly the 'PURPORT' graphic, which acts as a persistent, almost architectural brand element throughout the scroll. This, combined with the stark black-and-white palette and minimalist layout, creates a powerful, editorial, and almost art-gallery-like experience.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

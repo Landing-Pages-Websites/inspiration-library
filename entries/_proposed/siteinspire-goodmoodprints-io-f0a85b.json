@@ -1,0 +1,111 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.goodmoodprints.io",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-goodmoodprints-io-f0a85b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-goodmoodprints-io-f0a85b__scroll0.webp",
+      "shots/_proposed/siteinspire-goodmoodprints-io-f0a85b__scroll1.webp",
+      "shots/_proposed/siteinspire-goodmoodprints-io-f0a85b__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "art",
+      "home-decor"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical split layout, with a large, impactful heading and call-to-action on the left, balanced by a dynamic collage of artwork on the right."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, modern sans-serif font with subtle inktrap details is used for primary headings, providing an artistic and unique character, contrasted with a clean, highly legible sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site utilizes a predominantly neutral palette of white and light beige for backgrounds and black for text, allowing the vibrant and diverse colors of the displayed artwork to be the main visual focus and source of accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from a transparent overlay to a solid white background with a subtle shadow and becomes sticky at the top of the viewport as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections feature horizontally scrollable carousels, indicated by clear navigation arrows, allowing for a large collection of items to be browsed efficiently without excessive vertical scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is initially transparent and positioned over the hero content. Upon scrolling, it detects when it passes the hero section and smoothly transitions to a fixed position at the top of the viewport, acquiring a solid white background and a subtle drop shadow to maintain contrast against subsequent content.",
+    "Content sections are presented with a clean, minimal layout, allowing the vibrant product imagery to take center stage. Product carousels are implemented with horizontal scrolling functionality and clear navigation controls to showcase a wide range of items within a compact space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f8f5f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#de1a21",
+        "role": "accent"
+      },
+      {
+        "hex": "#fa5f00",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffde69",
+        "role": "accent"
+      },
+      {
+        "hex": "#3a7dc9",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ABC Whyte Inktrap",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, modern sans-serif headings (hero title is approximately 3-4 times the size of body text) with clean, readable body text for product descriptions and UI elements.",
+    "radius": "Subtle rounding on interactive elements like buttons and product card containers, contributing to a soft, approachable feel.",
+    "spacing": "Balanced, with generous whitespace in the hero section and around major content blocks, creating an airy feel, while product grids maintain a more compact and organized density."
+  },
+  "standout": "The site's design is distinctive for its confident use of a clean, gallery-like interface that serves as a neutral backdrop for highly expressive, often whimsical, and vibrantly colored artwork. The choice of a unique 'inktrap' display font for headings adds a subtle artistic flair that perfectly complements the product without overwhelming it.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

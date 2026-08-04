@@ -1,0 +1,124 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://asp.waw.pl",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-asp-waw-pl-09ef30.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-asp-waw-pl-09ef30__scroll0.webp",
+      "shots/_proposed/siteinspire-asp-waw-pl-09ef30__scroll1.webp",
+      "shots/_proposed/siteinspire-asp-waw-pl-09ef30__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://asp.waw.pl/przemiany",
+        "full": "shots/_proposed/siteinspire-asp-waw-pl-09ef30__p2.webp"
+      },
+      {
+        "url": "https://asp.waw.pl/koszmar-nocy-letniej",
+        "full": "shots/_proposed/siteinspire-asp-waw-pl-09ef30__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "education",
+      "arts",
+      "university"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A grid-based layout is consistently used for displaying event and news cards, allowing for flexible arrangement and visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Strong typographic hierarchy is established with large, bold sans-serif headings for titles, contrasted with smaller, regular-weight body text and distinct uppercase labels for metadata like dates and categories."
+    },
+    {
+      "kind": "color",
+      "note": "The design primarily uses a high-contrast black text on a clean white background, with vibrant accent colors (blues, purples, teals) introduced through imagery and subtle UI elements like links and buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent horizontal carousel is used for featured content, allowing users to swipe through key events or news items."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual cards appear to reveal with a subtle animation as the user scrolls down, likely a fade-up or slide-in effect, inferred from the detected animation technology."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent, full-width cookie consent banner is displayed at the top of the page until dismissed, using a dark background for contrast."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header remains visible at the top of the viewport, providing consistent navigation and branding as the user scrolls.",
+    "Content is organized into distinct sections with generous vertical spacing, often featuring full-width hero images or content blocks that break the main content grid.",
+    "Scroll-triggered animations are used to progressively reveal content sections and individual elements (like event cards) as they enter the viewport, creating a dynamic and engaging scrolling experience. This is likely implemented using locomotive-scroll for smooth scrolling and viewport detection, combined with CSS transitions or JavaScript animations for the reveal effects. A Swiper.js carousel is employed for horizontal navigation of featured content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#101010",
+        "role": "text"
+      },
+      {
+        "hex": "#3a8fff",
+        "role": "accent"
+      },
+      {
+        "hex": "#aad9e2",
+        "role": "accent"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent"
+      },
+      {
+        "hex": "#1e1e1e",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings establish clear hierarchy, significantly larger than the regular-weight body text, with small uppercase labels for metadata.",
+    "radius": "Subtle, with most elements having sharp corners but some interactive elements like buttons showing slight rounding.",
+    "spacing": "Balanced, with ample whitespace between major sections and content blocks, while individual content cards maintain a concise information density."
+  },
+  "standout": "The site's distinctive use of a clean, editorial layout combined with vibrant, abstract art and photography within content cards creates a dynamic visual experience despite a minimalist base. The prominent display of event information with clear dates and categories is also exceptionally well-executed, making it easy to digest a large volume of content.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

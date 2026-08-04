@@ -1,0 +1,113 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.pardon.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-pardon-com-6626aa.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-pardon-com-6626aa__scroll0.webp",
+      "shots/_proposed/siteinspire-pardon-com-6626aa__scroll1.webp",
+      "shots/_proposed/siteinspire-pardon-com-6626aa__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.pardon.com/arts",
+        "full": "shots/_proposed/siteinspire-pardon-com-6626aa__p2.webp"
+      },
+      {
+        "url": "https://www.pardon.com/ethos",
+        "full": "shots/_proposed/siteinspire-pardon-com-6626aa__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "venture-capital",
+      "arts",
+      "creative-agency"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column content blocks, often featuring a large, high-quality image on one side and descriptive text on the other, with the image-text pairing alternating sides down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a very large, bold sans-serif typeface for the main brand name and section titles, establishing a strong visual hierarchy and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette dominated by black text on a white background, with sparse, deliberate use of a warm orange/red accent for bullet points and subtle highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header that transforms by shrinking in height and gaining a solid background on scroll, combined with scroll-triggered reveals where content sections slide up and fade in as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by large, bold headings and consistently feature a large, high-quality image paired with concise descriptive text, often with a 'More' link."
+    }
+  ],
+  "technique_notes": [
+    "The header element is initially large and transparent, then uses a CSS keyframe animation to shrink in height and become a sticky, smaller navigation bar with a solid background as the user scrolls past the initial hero content.",
+    "Content blocks and individual elements within sections are revealed using scroll-triggered CSS keyframe animations, causing them to slide up from below and fade into full opacity as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fbad41",
+        "role": "accent"
+      },
+      {
+        "hex": "#de5052",
+        "role": "accent"
+      },
+      {
+        "hex": "#521010",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Work Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Massive, bold display headings (~10x body) for the brand name, large bold section headings (~2-3x body), standard body text, and small uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between major content sections and within the hero area, creating a sense of openness."
+  },
+  "standout": "The site's distinctive use of its brand name 'PARDON' as a monumental, almost architectural, graphic element in the hero section, combined with an editorial layout and high-quality, art-focused photography, elevates it beyond a typical corporate site. It feels more like a curated publication or gallery.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
