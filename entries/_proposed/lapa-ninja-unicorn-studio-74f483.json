@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-unicorn-studio-74f483",
+  "source": {
+    "url": "https://www.unicorn.studio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-unicorn-studio-74f483.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-unicorn-studio-74f483__scroll0.webp",
+      "shots/_proposed/lapa-ninja-unicorn-studio-74f483__scroll1.webp",
+      "shots/_proposed/lapa-ninja-unicorn-studio-74f483__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tool",
+      "webgl"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a dark, full-width container, with ample vertical spacing between major sections to create clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, while body text is a lighter weight and smaller size, maintaining a clear hierarchy. Small, uppercase labels are used for secondary information or navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark charcoal background dominates the site, providing a high contrast canvas for white text and vibrant purple accents, particularly in interactive elements and abstract background visuals."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a prominent background image with a purple aurora effect that parallaxes subtly as the user scrolls down. Subsequent content sections slide or fade into view from the bottom as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often present information in a grid-like structure (e.g., 2x2 or 2x3 cards) with concise headings and descriptive text, sometimes accompanied by small icons or illustrative screenshots."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark mode aesthetic with a near-black background and light text, ensuring high readability and a sophisticated feel.",
+    "Scroll-triggered animations are used to reveal content sections. As the user scrolls, new sections smoothly slide or fade up into the viewport, creating a dynamic and engaging experience. The hero background utilizes WebGL for a continuous, interactive parallax effect that shifts independently of the foreground content.",
+    "Interactive elements like buttons and navigation links feature subtle hover states, typically involving a color change or a slight glow effect, reinforcing the digital and modern theme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0F0F11",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#9B51E0",
+        "role": "accent"
+      },
+      {
+        "hex": "#7B42C1",
+        "role": "cta"
+      },
+      {
+        "hex": "#B0B0B0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Overused Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Sprat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) provide strong visual anchors, complemented by smaller, legible body text and very small uppercase labels for functional elements.",
+    "radius": "subtle \u2014 buttons and some UI elements have slightly rounded corners, contributing to a modern but not overly soft feel.",
+    "spacing": "airy \u2014 generous vertical spacing between sections and within content blocks creates a sense of openness and prevents visual clutter, especially in the hero and feature grids."
+  },
+  "standout": "The site's standout feature is its sophisticated use of WebGL for the hero background, which not only creates a visually stunning and dynamic effect but also directly showcases the product's core capability (WebGL design). This 'dogfooding' approach makes the design itself a powerful demonstration of the tool's potential.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

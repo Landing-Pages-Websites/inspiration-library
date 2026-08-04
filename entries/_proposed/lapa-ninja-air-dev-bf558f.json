@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-air-dev-bf558f",
+  "source": {
+    "url": "https://air.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-air-dev-bf558f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-air-dev-bf558f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-air-dev-bf558f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-air-dev-bf558f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, almost black background with light text, creating a high-contrast, developer-tool aesthetic reminiscent of a code editor's dark theme."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive pixelated, blocky font is used for all major headings, contrasting with a clean, modern sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A subtle gradient from dark blue to bright cyan-blue is used in the sticky header and as an accent color within the dark UI, providing a visual highlight against the dominant dark grey palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar remains sticky at the top of the viewport, while a background pattern of connected, rounded shapes scrolls at a slower rate than the foreground content, creating a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in alternating blocks of text and large, full-width screenshots of the product's UI, effectively demonstrating features in context."
+    }
+  ],
+  "technique_notes": [
+    "The primary background uses a deep dark grey. A subtle, repeating pattern of rounded, connected shapes is layered behind the main content and animated to scroll slower than the foreground, creating a parallax depth effect. The header is fixed to the top of the viewport, maintaining a consistent navigation and branding presence. Product screenshots are embedded as large, full-bleed images within content sections, often framed by the dark UI of the application itself.",
+    "The motion system combines a sticky header with a background parallax effect. The background pattern is likely animated using CSS keyframes to achieve its slower scroll speed relative to the page content, enhancing the sense of depth. No explicit scroll-triggered reveals or fade-ins for content sections are observed in the provided sequence, but the background animation contributes to a dynamic feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#323232",
+        "role": "background"
+      },
+      {
+        "hex": "#292a2c",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0d3e56",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#00bfff",
+        "role": "accent-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pixelated",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, blocky pixelated headings (~3-4x body) are used for major sections, with a clean, readable sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounded corners (almost sharp) are used for UI elements and buttons, maintaining a clean, functional aesthetic.",
+    "spacing": "Balanced spacing throughout, with an airy hero section and footer, and content blocks that are well-separated for readability."
+  },
+  "standout": "The site's most distinctive feature is its bold use of a pixelated, retro-futuristic font for all major headings, which immediately communicates a tech-forward, developer-centric identity. This, combined with the dark, code-editor-like UI and the subtle animated background pattern, creates a unique and cohesive brand experience that stands apart from generic SaaS templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

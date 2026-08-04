@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-floema-com-77c09c",
+  "source": {
+    "url": "https://www.floema.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-floema-com-77c09c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-floema-com-77c09c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-floema-com-77c09c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-floema-com-77c09c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "furniture",
+      "public-spaces",
+      "design"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial hero section features a full-bleed background image with text overlaid, which then gives way to a vast expanse of clean, light-colored background before content sections begin to appear."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant serif font is used for prominent display headings, creating a sophisticated brand voice, contrasted with a clean, highly legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The site predominantly uses a muted, earthy palette of various light beige and off-white tones for backgrounds, accented by a deep, dark teal for key sections and subtle yellow highlights for interactive elements or icons."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image and its overlay text scroll away to reveal a plain background, while the navigation bar transforms into a sticky, slightly condensed version. Subsequent content sections are revealed with a gentle slide-up or fade-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcase sections are designed with a minimalist approach, featuring large product imagery, small icon-based metadata, and a clear 'Details' call-to-action, maintaining a clean aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered effect where the foreground text scrolls over a fixed or slow-parallaxing background image, causing the image and text to disappear upwards, revealing the main page background. The detected canvas and css-keyframes suggest custom animation for this effect.",
+    "The primary navigation bar transitions from a transparent, full-height state to a solid-background, slightly reduced-height sticky bar once the user scrolls past the hero section, using CSS transitions for a smooth effect.",
+    "Content sections below the hero are introduced with scroll-triggered reveal animations, where elements slide up or fade into view as they enter the viewport, likely orchestrated using CSS keyframes or a JavaScript animation library."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ebe7df",
+        "role": "background"
+      },
+      {
+        "hex": "#241f21",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#e9e778",
+        "role": "accent"
+      },
+      {
+        "hex": "#203a3a",
+        "role": "section-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Zimula",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) are used for key messages, complemented by a clean, readable sans-serif for body text and navigation.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in the initial scroll, creating significant vertical whitespace; content sections feature generous padding."
+  },
+  "standout": "The site's distinctive use of vast, empty vertical space after the hero, combined with a sophisticated serif display font and subtle scroll-triggered content reveals, creates a highly minimalist and luxurious feel that prioritizes visual breathing room over immediate content density.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

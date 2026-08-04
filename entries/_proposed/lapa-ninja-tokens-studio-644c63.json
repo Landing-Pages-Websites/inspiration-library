@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-tokens-studio-644c63",
+  "source": {
+    "url": "https://tokens.studio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tokens-studio-644c63.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tokens-studio-644c63__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tokens-studio-644c63__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tokens-studio-644c63__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "software-development"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and split layouts, often pairing bold text with illustrative graphics or interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs an extremely large, bold, and condensed display typeface for hero and major section headings, creating a strong visual impact that contrasts with the more standard, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, deep teal/purple background serves as a canvas for vibrant, high-contrast accent colors (cyan, pink, purple, green) used in illustrations, CTAs, and highlighted text."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the main navigation bar sticks to the top of the viewport, while content sections reveal themselves with a subtle fade-in or slide-up effect, and elements within the hero section exhibit a gentle parallax movement."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a prominent, oversized headline accompanied by a cluster of playful, abstract 3D illustrations that visually explain the product's capabilities."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, implement a sticky header that remains fixed at the top of the viewport on scroll. Utilize scroll-triggered animations (e.g., using CSS keyframes or a JavaScript library) to reveal content sections as they enter the viewport, applying a subtle fade-up or slide-in effect. For the hero, apply a gentle parallax effect to the illustrative elements, making them move at a slightly different speed than the background as the user scrolls.",
+    "The visual design relies on a dark background with high-contrast, vibrant UI elements and 3D illustrations. Text is primarily white or light-colored against the dark background. Interactive elements like buttons use bright, saturated accent colors with subtle rounded corners.",
+    "Typography is characterized by a very large, bold, and condensed display font for major headings, paired with a clean, modern sans-serif for body text. This creates a strong visual hierarchy and a contemporary, impactful feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c0f0f",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f5ff",
+        "role": "text"
+      },
+      {
+        "hex": "#38e8f5",
+        "role": "cta"
+      },
+      {
+        "hex": "#4e24a6",
+        "role": "accent"
+      },
+      {
+        "hex": "#7034ea",
+        "role": "accent"
+      },
+      {
+        "hex": "#d32257",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff709c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Almarena Neue Display Bold",
+        "role": "display"
+      },
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and condensed display headings (~4-5x body) create a strong visual statement, complemented by a clear hierarchy of smaller, legible sans-serif text.",
+    "radius": "Subtle rounded corners are applied consistently to buttons, cards, and interactive elements, providing a soft, modern touch without being overly rounded.",
+    "spacing": "Balanced density with an airy hero section and generous vertical spacing between major content blocks, creating a comfortable reading experience while allowing elements to breathe."
+  },
+  "standout": "The site's distinctive design lies in its bold, almost brutalist typography for headlines, which is unexpectedly paired with playful, vibrant, and abstract 3D illustrations. This combination creates a unique aesthetic that feels both cutting-edge and approachable, setting it apart from typical tech marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

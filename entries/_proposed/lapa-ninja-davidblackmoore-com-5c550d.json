@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-davidblackmoore-com-5c550d",
+  "source": {
+    "url": "https://davidblackmoore.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-davidblackmoore-com-5c550d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-davidblackmoore-com-5c550d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-davidblackmoore-com-5c550d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-davidblackmoore-com-5c550d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width content blocks with distinct backgrounds (large hero image, video, solid light, solid dark) create clear visual separation between sections."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy uses an oversized, bold, uppercase sans-serif for primary headings and section titles, contrasted with a smaller, regular sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast is achieved through the dominant use of very dark text/elements against light, almost cream-colored backgrounds, with occasional dark image backgrounds for hero and video sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport. The hero section features content scrolling over a fixed background image, creating a subtle parallax effect. Sections below the hero appear to reveal with a subtle animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Repeating graphic banners featuring the 'LOVENOW' branding are strategically placed as visual dividers and brand reinforcement between major content sections."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation is implemented as a sticky element, remaining fixed at the top of the screen during scroll.",
+    "The hero section uses a large background image that is fixed or scrolls at a slower rate than the foreground content, creating a subtle parallax effect.",
+    "Content sections below the hero are designed to animate into view, likely using CSS keyframes to achieve a fade-in or slide-up effect as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#060c0c",
+        "role": "background"
+      },
+      {
+        "hex": "#fefaef",
+        "role": "surface"
+      },
+      {
+        "hex": "#1e1e1e",
+        "role": "text"
+      },
+      {
+        "hex": "#999999",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "border"
+      },
+      {
+        "hex": "#2a4a3a",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~4-5x body) create a strong visual impact, while body text is a standard, legible sans-serif.",
+    "radius": "Sharp corners are consistently used for all elements, including buttons, images, and content blocks.",
+    "spacing": "A balanced to airy density is maintained, with generous vertical spacing between major sections and a more compact but still breathable layout for product grids."
+  },
+  "standout": "The site's design is distinctive for its raw, almost editorial aesthetic, achieved through the combination of bold, impactful typography, unique photography, and the strong, repeating graphic banners that reinforce the brand's visual identity. It feels less like a generic e-commerce template and more like a curated visual experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

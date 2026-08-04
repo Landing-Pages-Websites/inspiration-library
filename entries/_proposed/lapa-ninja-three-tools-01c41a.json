@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-three-tools-01c41a",
+  "source": {
+    "url": "https://three.tools",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-three-tools-01c41a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-three-tools-01c41a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-three-tools-01c41a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-three-tools-01c41a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "web-development"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark mode aesthetic is used throughout, with content centered horizontally within full-width sections, creating a focused and high-contrast presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, providing strong visual hierarchy, complemented by smaller, lighter body text and occasional uppercase labels for sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme relies on a deep black background with white or light gray text, accented by a vibrant orange for call-to-action buttons and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar remains at the top of the viewport during scroll. Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented with a clear structure, pairing a prominent headline with a visual (often a screenshot or graphic) and concise descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, interactive 3D graphic built with WebGL/Three.js, serving as a dynamic visual centerpiece that immediately conveys the product's technical nature.",
+    "Content sections are animated to appear with a staggered fade-up effect as they scroll into view, using CSS keyframes to create a smooth and engaging reveal.",
+    "A persistent top navigation bar is implemented to stick to the top of the browser window, ensuring key actions like 'Get access' are always visible."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#929292",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ff4a00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) create strong impact, paired with smaller, lighter body text for readability and occasional uppercase labels.",
+    "radius": "Rounded corners are consistently applied to buttons, input fields, and accordion items, ranging from subtle to rounded, contributing to a modern and approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical padding between major sections and within the hero, creating clear visual separation and a clean layout."
+  },
+  "standout": "The site's most distinctive feature is its prominent, interactive 3D WebGL graphic in the hero section, which immediately communicates the product's advanced technical capabilities and creates a memorable, high-tech first impression. This sophisticated visual, combined with a polished dark mode, elevates it beyond a standard marketing site.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

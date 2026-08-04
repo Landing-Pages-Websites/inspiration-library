@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-overlay-com-67fdd5",
+  "source": {
+    "url": "https://www.overlay.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-overlay-com-67fdd5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-overlay-com-67fdd5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-overlay-com-67fdd5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-overlay-com-67fdd5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "saas",
+      "artificial-intelligence",
+      "cosmetics-tech"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Centered content blocks with full-width, gradient-infused hero and footer sections, creating a balanced and spacious feel."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif for primary headings, clean sans-serif for body and subheadings, and monospaced for small labels and metadata, establishing a sophisticated hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Soft, ethereal gradient backgrounds in the hero and footer sections, contrasting with a predominantly white main background and dark text for clarity."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a staggered fade-up and slight upward translation as they enter the viewport, creating a sense of unfolding content."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero features a subtle parallax effect on the central 3D model and continuously rotating abstract elements around it, adding depth and dynamism."
+    },
+    {
+      "kind": "section",
+      "note": "Card-like containers with a frosted glass background effect are used for key information blocks and calls to action, particularly in the footer, adding a modern, translucent aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered section reveals are implemented using a staggered fade-in and subtle upward translation for elements as they enter the viewport, likely orchestrated with GSAP ScrollTrigger.",
+    "The hero section employs a dynamic, animated gradient background and a sophisticated 3D-rendered model with subtle lighting effects, suggesting the use of WebGL/Three.js or canvas for real-time visual richness.",
+    "Interactive UI elements, such as buttons and input fields, feature subtle hover states that involve color shifts and slight scaling, enhancing user engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2E2F53",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0E0FF",
+        "role": "gradient-light-purple"
+      },
+      {
+        "hex": "#D0F0F0",
+        "role": "gradient-light-blue-green"
+      },
+      {
+        "hex": "#F0F8E0",
+        "role": "gradient-light-yellow-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous letter spacing, complemented by clean sans-serif body text and very small, uppercase monospaced labels.",
+    "radius": "Rounded (subtle to moderate, consistently applied to buttons, cards, and image corners).",
+    "spacing": "Airy (generous vertical and horizontal padding, creating a sense of spaciousness, especially in the hero and between major sections)."
+  },
+  "standout": "The distinctive blend of high-tech visuals (3D model, animated gradients) with a soft, ethereal, and luxurious aesthetic, particularly the use of frosted glass elements and elegant typography. It feels like a high-end beauty brand meeting cutting-edge AI, creating a unique 'luxe tech' identity.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

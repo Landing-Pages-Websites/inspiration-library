@@ -1,0 +1,124 @@
+{
+  "id": "lapa-ninja-paperclip-ing-1e9236",
+  "source": {
+    "url": "https://paperclip.ing",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-paperclip-ing-1e9236.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-paperclip-ing-1e9236__scroll0.webp",
+      "shots/_proposed/lapa-ninja-paperclip-ing-1e9236__scroll1.webp",
+      "shots/_proposed/lapa-ninja-paperclip-ing-1e9236__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark mode interface with a very dark background and high-contrast white text, using vibrant, multi-color gradients as primary visual accents."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is centered within a defined maximum width, providing generous horizontal padding on larger screens for readability."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold sans-serif headings are used to introduce each major section, establishing a clear content hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Dynamic, multi-color gradients are a signature visual element, prominently featured in the hero and as subtle background details."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar transforms from transparent over the hero to a solid dark background and slightly reduced height upon scrolling down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic, colorful gradient element that appears to parallax or remain fixed in the background as the page content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Code snippets and terminal-like interfaces are integrated as visual examples within feature sections, reinforcing the product's technical nature."
+    }
+  ],
+  "technique_notes": [
+    "Implement a global dark theme using a very dark background color for the page and sections, paired with high-contrast white for primary text and lighter gray for secondary information and links.",
+    "Create a sticky header that initially has a transparent background, then transitions to a solid dark background and a slightly reduced height using CSS transitions or transforms when the user scrolls past the hero section.",
+    "Utilize a video or animated SVG for the hero's vibrant, multi-color gradient element, positioning it with a fixed or parallax effect so that page content scrolls over it while the background element moves at a different rate or remains stationary."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#fb8b24",
+        "role": "gradient-accent-orange"
+      },
+      {
+        "hex": "#ff4d4d",
+        "role": "gradient-accent-red"
+      },
+      {
+        "hex": "#3c23fb",
+        "role": "gradient-accent-blue"
+      },
+      {
+        "hex": "#921ff8",
+        "role": "gradient-accent-purple"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body size) with a clean, modern sans-serif body text for high readability on a dark background.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, input fields, and card-like elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a particularly airy hero section."
+  },
+  "standout": "The site's distinctive use of a dynamic, multi-color gradient hero on a deep dark background creates a striking and modern visual identity. This vibrant, almost playful element contrasts effectively with the otherwise clean, high-contrast interface, making the site feel both sophisticated and approachable for a technical product.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

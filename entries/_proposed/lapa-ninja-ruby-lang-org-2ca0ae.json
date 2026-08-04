@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-ruby-lang-org-2ca0ae",
+  "source": {
+    "url": "https://www.ruby-lang.org/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ruby-lang-org-2ca0ae.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ruby-lang-org-2ca0ae__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ruby-lang-org-2ca0ae__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ruby-lang-org-2ca0ae__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "programming",
+      "open-source",
+      "software-development"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar becomes sticky at the top of the viewport after scrolling past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Consistent use of a quote card component featuring an avatar, a quote, and attribution for community testimonials and voices."
+    },
+    {
+      "kind": "layout",
+      "note": "The 'News' and 'Security' sections are presented in a clear two-column grid layout for listing articles and updates."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented with a standard sticky positioning, fixing it to the top of the viewport once the user scrolls beyond the initial hero content.",
+    "Custom, whimsical line-art illustrations are integrated as background elements and decorative accents, providing a unique visual identity without relying on complex animations.",
+    "Content is organized into distinct card-like containers with subtle borders and light background fills, used for code examples, quotes, and news items to provide visual separation and hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E03E4F",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Noto Sans JP",
+        "role": "heading"
+      },
+      {
+        "family": "Noto Sans JP",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Consolas",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Headings are moderately larger than body text, maintaining a clear hierarchy. Body text is legible, and code blocks use a smaller, fixed-width font.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied to buttons, code blocks, and quote cards, giving a soft, friendly feel.",
+    "spacing": "Balanced overall, with generous vertical spacing in the hero section and between major content blocks, and a tighter grid for news listings."
+  },
+  "standout": "The site's most distinctive feature is its extensive use of playful, hand-drawn illustrations and icons, which infuse a warm, community-driven personality into a technical subject. This whimsical visual language, combined with the 'Happy Hacking!' signature in the footer, creates an unusually friendly and approachable feel for a programming language website.",
+  "animation_tech": [],
+  "status": "proposed"
+}
