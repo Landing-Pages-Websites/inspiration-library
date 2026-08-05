@@ -1,0 +1,104 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.kultur5.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-kultur5-com-29d00c.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-kultur5-com-29d00c__scroll0.webp",
+      "shots/_proposed/siteinspire-kultur5-com-29d00c__scroll1.webp",
+      "shots/_proposed/siteinspire-kultur5-com-29d00c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.kultur5.com/collections/all",
+        "full": "shots/_proposed/siteinspire-kultur5-com-29d00c__p2.webp"
+      },
+      {
+        "url": "https://www.kultur5.com/products/core-bracelet",
+        "full": "shots/_proposed/siteinspire-kultur5-com-29d00c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layout that pairs large-format, often full-bleed photography with minimalist text blocks, creating a visually striking and spacious composition."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a clean, sans-serif typeface across all text, with small uppercase labels for navigation and product details, maintaining a stark and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "Dominant use of white as a background, contrasted with black text and the metallic silver tones of the jewelry, creating a high-contrast, minimalist palette."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header and footer remain fixed at the top and bottom of the viewport, respectively, while the main content area scrolls independently beneath them."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, often full-width or half-width blocks, with generous negative space around each element, emphasizing individual product shots and concise messaging."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the sticky header and footer, apply fixed positioning to these elements, ensuring they stay visible at the top and bottom of the screen while the central content scrolls underneath.",
+    "The minimalist layout can be rebuilt using a flexible grid system that allows for large, often full-bleed images to be placed alongside concise text blocks, prioritizing ample negative space to create an airy feel.",
+    "The distinctive photography style can be replicated by integrating raw, documentary-style product shots, often featuring the jewelry in unexpected, everyday contexts or against simple, unpolished backdrops, to convey authenticity and artistic flair."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: UnionBold",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A clean sans-serif hierarchy with relatively large, clear headings, standard body text, and small, uppercase labels for navigation and product details.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Very airy, with generous padding and margins around content blocks and images, creating a sense of openness and visual breathing room."
+  },
+  "standout": "The site's standout feature is its striking, almost anti-commercial product photography, which uses raw, everyday settings and objects (like a red car hood or pliers) to showcase the jewelry. This creates an authentic and artistic brand identity that contrasts sharply with the stark, minimalist web design, making the products feel more like art pieces than mere commodities.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

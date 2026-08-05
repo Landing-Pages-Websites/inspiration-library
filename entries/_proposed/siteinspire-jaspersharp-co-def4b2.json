@@ -1,0 +1,102 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.jaspersharp.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-jaspersharp-co-def4b2.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-jaspersharp-co-def4b2__scroll0.webp",
+      "shots/_proposed/siteinspire-jaspersharp-co-def4b2__scroll1.webp",
+      "shots/_proposed/siteinspire-jaspersharp-co-def4b2__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "art-direction",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-screen sections transition on scroll, some featuring a split-screen layout with text on the left and an image or video on the right, while others are full-bleed media sections."
+    },
+    {
+      "kind": "type",
+      "note": "Small, uppercase, and widely-spaced text is consistently used for navigation and secondary labels, creating a minimalist and structured feel that contrasts with larger, more prominent body text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast black and white base palette dominates the UI, with visual richness primarily derived from high-quality photography and video content."
+    },
+    {
+      "kind": "motion",
+      "note": "Scrolling triggers full-screen section transitions, where the entire viewport content is replaced by the next section, often with a dynamic update to the top navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation dynamically updates its links and descriptive text based on the currently active full-screen section, providing context-sensitive navigation."
+    }
+  ],
+  "technique_notes": [
+    "Full-screen sections transition on scroll, likely using a JavaScript library like Swiper or a custom scroll-jacking implementation, where each scroll event advances to the next full-screen 'slide' or content block. The top navigation dynamically updates its links and descriptive text to reflect the content of the currently active section.",
+    "Video heroes are integrated as full-bleed background elements in certain sections, playing automatically to create an immersive and dynamic visual experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#949598",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#4A7BA0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SwanseaBold",
+        "role": "heading"
+      },
+      {
+        "family": "Swansea",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, readable body text and headings, contrasted with very small, uppercase, widely-spaced navigation and labels.",
+    "radius": "Sharp corners throughout the design.",
+    "spacing": "Airy and sparse, with significant negative space around content elements, especially in the full-screen sections."
+  },
+  "standout": "The site's distinctive feature is its dynamic, context-sensitive navigation that completely reconfigures its links and descriptive text as the user scrolls through full-screen, immersive project sections. This creates a highly curated and interactive portfolio experience, making the navigation an integral part of the storytelling rather than a static utility.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

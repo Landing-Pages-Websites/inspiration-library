@@ -1,0 +1,117 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://coutumes.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-coutumes-com-df06a1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-coutumes-com-df06a1__scroll0.webp",
+      "shots/_proposed/siteinspire-coutumes-com-df06a1__scroll1.webp",
+      "shots/_proposed/siteinspire-coutumes-com-df06a1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://coutumes.com/a/return",
+        "full": "shots/_proposed/siteinspire-coutumes-com-df06a1__p2.webp"
+      },
+      {
+        "url": "https://coutumes.com/pages/faq",
+        "full": "shots/_proposed/siteinspire-coutumes-com-df06a1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "jewelry",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses full-bleed, high-fashion photography as background elements, often overlaid with large, bold typography or acting as distinct section dividers."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography is used, featuring extremely oversized, condensed sans-serif headings for impact, paired with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A striking warm orange is used as a primary accent color, dominating the footer and modal pop-ups, providing a strong visual anchor against a largely monochrome (black and white) content area."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features large, bold text that parallaxes or moves at a different speed than the background image as the user scrolls, creating a dynamic reveal effect for the collection title."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly delineated by full-width background changes, alternating between full-bleed imagery, solid white, and the prominent accent orange."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax scrolling effect where oversized text layers move independently over a full-bleed background image, creating a sense of depth and dynamic reveal as the user scrolls. This is likely achieved using a scroll-triggered animation library like locomotive-scroll.",
+    "A persistent navigation bar remains fixed at the top of the viewport, providing continuous access to site navigation. Additionally, a subtle informational bar sticks to the bottom of the viewport while the hero section is in view.",
+    "Modal pop-ups for promotions and service requests are used, appearing centered over a semi-transparent overlay, ensuring user focus on the call to action or form."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#F9A825",
+        "role": "accent"
+      },
+      {
+        "hex": "#676986",
+        "role": "text"
+      },
+      {
+        "hex": "#e5e5eb",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Exposure Regular",
+        "role": "display"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed display headings (~5-6x body text) create a strong visual impact, contrasted with smaller, legible sans-serif for body text and uppercase navigation labels.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's design is distinctive for its bold, editorial aesthetic, driven by the dramatic use of oversized, condensed typography in the hero section that interacts dynamically with full-bleed, high-fashion photography. The unexpected and prominent use of a warm orange as a primary accent color for key interactive elements and the footer also sets it apart from typical minimalist luxury brands.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

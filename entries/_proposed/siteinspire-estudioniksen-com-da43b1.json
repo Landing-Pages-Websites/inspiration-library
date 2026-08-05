@@ -1,0 +1,117 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://estudioniksen.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-estudioniksen-com-da43b1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-estudioniksen-com-da43b1__scroll0.webp",
+      "shots/_proposed/siteinspire-estudioniksen-com-da43b1__scroll1.webp",
+      "shots/_proposed/siteinspire-estudioniksen-com-da43b1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://estudioniksen.com/collections/shirts",
+        "full": "shots/_proposed/siteinspire-estudioniksen-com-da43b1__p2.webp"
+      },
+      {
+        "url": "https://estudioniksen.com/collections/outerwear",
+        "full": "shots/_proposed/siteinspire-estudioniksen-com-da43b1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical product grids are used, often mixing large lifestyle images with smaller product shots within 'Shop the Look' sections, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "The brand logo uses a unique, handwritten script font, creating a strong brand identity that contrasts with the clean, utilitarian sans-serif used for all other text elements."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is predominantly monochromatic (white, black, greys) allowing the rich, earthy tones and textures of the product photography to provide visual interest and color."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video or image that subtly parallaxes, moving slower than the scroll, while content sections below reveal with a gentle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections often feature full-bleed photography with minimal text overlays, emphasizing the visual appeal and quality of the garments over detailed descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using `locomotive-scroll`, which provides a fluid and enhanced scroll feel across the page.",
+    "Scroll-triggered animations are used to progressively reveal content sections as they enter the viewport, typically with a subtle fade-in or vertical slide-up effect.",
+    "The hero element utilizes a video or large image with a subtle parallax effect, where the background content moves at a slower rate than the foreground as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "border"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are typically uppercase sans-serif, slightly larger than body text but not dramatically so, maintaining a clean and understated hierarchy. The logo is a distinct, decorative script.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's standout feature is its blend of high-quality, editorial-style product photography and video with a minimalist, almost stark, interface. The distinctive, handwritten-style logo provides a unique brand identity that contrasts with the otherwise clean and utilitarian typography, giving it a personal, artisanal touch within a sophisticated e-commerce framework.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
