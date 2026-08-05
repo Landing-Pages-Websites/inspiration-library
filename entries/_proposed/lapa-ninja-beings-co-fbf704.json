@@ -1,0 +1,105 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://beings.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-beings-co-fbf704.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-beings-co-fbf704__scroll0.webp",
+      "shots/_proposed/lapa-ninja-beings-co-fbf704__scroll1.webp",
+      "shots/_proposed/lapa-ninja-beings-co-fbf704__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "talent",
+      "diversity",
+      "recruitment"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial full-bleed hero features oversized text that dramatically transforms into a dark-themed content section with a sticky header upon scroll."
+    },
+    {
+      "kind": "type",
+      "note": "The hero uses extremely oversized, bold, sans-serif typography where an image is integrated directly into the letterforms, creating a striking visual identity."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited palette shifts dramatically from white-on-dark-brown in the initial hero to white-on-dark-brown for the main content area after scroll, with a brief white background transition."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section undergoes a dramatic scroll-triggered transformation where the background color changes, the large hero text scales down and repositions as a logo, and a full navigation bar and main content area are revealed."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a single, highly dynamic hero section that serves as both an initial brand statement and the primary entry point to the site's content upon interaction, rather than distinct, separate sections."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero features a large, bold text element with a masked image filling parts of the letterforms. On scroll, this hero text scales down and transitions into a fixed header logo, while the background color of the entire page dramatically shifts using CSS keyframes.",
+    "A sticky navigation bar and primary content area are revealed with a fade-in or slide-up effect as the user scrolls past the initial hero, utilizing CSS keyframes for the transitions.",
+    "The site uses a video hero effect, likely a dark, subtle video playing in the background of the scrolled state, providing texture and depth behind the main content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1B0800",
+        "role": "text"
+      },
+      {
+        "hex": "#381A06",
+        "role": "background"
+      },
+      {
+        "hex": "#78492D",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Die Grotesk B Black",
+        "role": "display"
+      },
+      {
+        "family": "Die Grotesk B SemiBold",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Bonto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An extremely oversized, bold display font for the hero (~8-10x body size) that scales down to a prominent logo, paired with a clear hierarchy of bold headings and readable body text.",
+    "radius": "sharp",
+    "spacing": "Very airy and minimal in the initial hero, transitioning to a more balanced and content-dense layout with generous line spacing in the scrolled state."
+  },
+  "standout": "The site's most distinctive feature is its highly dynamic hero section, which dramatically transforms on scroll from an oversized, image-integrated text display into a dark-themed content page with a sticky navigation, creating a strong sense of reveal and interaction.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

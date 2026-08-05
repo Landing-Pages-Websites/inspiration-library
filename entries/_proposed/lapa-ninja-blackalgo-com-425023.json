@@ -1,0 +1,120 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://blackalgo.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-blackalgo-com-425023.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-blackalgo-com-425023__scroll0.webp",
+      "shots/_proposed/lapa-ninja-blackalgo-com-425023__scroll1.webp",
+      "shots/_proposed/lapa-ninja-blackalgo-com-425023__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "cryptocurrency",
+      "saas",
+      "artificial-intelligence",
+      "trading"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width, dark background sections with content often centered or aligned to a subtle grid, creating a dashboard-like feel with integrated data visualizations."
+    },
+    {
+      "kind": "type",
+      "note": "Use of a prominent, modern sans-serif for headings and body, paired with a distinct monospace font for data points, labels, and technical snippets, reinforcing the high-tech theme."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep dark blue/black background contrasted with electric blue, purple, and white accents for text, highlights, and data visualizations, creating a high-tech, high-contrast aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Sticky header navigation remains fixed at the top of the viewport as the user scrolls, providing persistent access to site sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered content reveals where sections fade in and subtly slide up as they enter the viewport, guiding the user's attention and enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Data-intensive sections feature custom-designed UI components that mimic complex technical dashboards, integrating charts, metrics, and interactive elements directly into the page flow."
+    }
+  ],
+  "technique_notes": [
+    "The design establishes a deep, dark blue-black background across the entire site, serving as a canvas for high-contrast white text and vibrant electric blue/purple accents. This is consistently enhanced by a subtle, persistent grid overlay and glowing line animations, creating an aesthetic reminiscent of a futuristic operating system or circuit board.",
+    "As the user scrolls down the page, new content sections are introduced with a smooth, staggered fade-in and slight upward motion, likely using CSS keyframes, ensuring a dynamic and engaging content discovery experience.",
+    "The hero section features a complex, animated background, likely rendered with canvas or a video hero, depicting an abstract network or data flow. This is integrated with stylized 3D-like elements that subtly animate, establishing a high-tech and sophisticated brand identity from the outset."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A0A14",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#9EB7F8",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#D0CEFD",
+        "role": "accent-purple"
+      },
+      {
+        "hex": "#D2ECF9",
+        "role": "accent-light-blue"
+      },
+      {
+        "hex": "#E9E9FB",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TWKLausanne",
+        "role": "heading"
+      },
+      {
+        "family": "TWKLausanne",
+        "role": "body"
+      },
+      {
+        "family": "GeistMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold, impactful sans-serif headings (~3-4x body) are contrasted with smaller, legible body text and distinct monospace labels for data points and technical snippets.",
+    "radius": "Subtle to sharp; most elements feature sharp corners, with very minimal rounding (e.g., 2-4px) on some interactive components or data cards.",
+    "spacing": "Balanced to airy; the hero section is quite airy, while data-heavy sections maintain a balanced density with clear padding and visual separation for complex UI elements."
+  },
+  "standout": "The site's standout feature is its immersive, highly technical, and data-rich UI, which consistently evokes a futuristic operating system or dashboard. The persistent dark theme, intricate grid overlays, and custom-designed data visualization components create a distinctive aesthetic that goes beyond typical marketing sites, making the user feel like they are interacting with a sophisticated AI system.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://okaydev.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-okaydev-co-57d04b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-okaydev-co-57d04b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-okaydev-co-57d04b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-okaydev-co-57d04b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "community",
+      "design",
+      "development",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with distinct background colors or gradients create strong visual breaks, often featuring content centered or arranged in flexible, dynamic image grids."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses an extremely oversized, bold display font for hero headlines, contrasted with a clean, modern sans-serif for other headings and body text, frequently employing small, uppercase labels for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "The palette relies on high contrast between deep darks (black, near-black), bright whites, and vibrant, almost neon, accent colors (green, yellow, purple) to define sections and highlight elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero features subtly floating and rotating image cards, while a continuous horizontal marquee scrolls at the bottom of the hero. As the user scrolls, new content sections slide up and fade into view from the bottom of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Repeated use of dynamic image grids, often with varying aspect ratios and sizes, serves to showcase diverse work or community members, breaking up text-heavy content areas."
+    }
+  ],
+  "technique_notes": [
+    "The motion system combines CSS keyframes for continuous background animations, such as the floating image cards and the horizontal text marquee. Scroll-triggered reveals for main content sections are orchestrated using a JavaScript-based scroll library (likely GSAP ScrollTrigger or Locomotive Scroll), causing elements to slide up and fade in as they enter the viewport. The primary navigation remains fixed at the top of the screen as the user scrolls.",
+    "The hero section features a full-bleed background with a subtle grid pattern, overlaid with layered image cards that are animated to float and gently rotate, creating a sense of depth and dynamism around the central headline.",
+    "Content grids are built with flexible layouts that accommodate images of various sizes and aspect ratios, often presented against a dark background to make the visuals pop."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c0c0c",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#121212",
+        "role": "surface"
+      },
+      {
+        "hex": "#6d42ed",
+        "role": "accent"
+      },
+      {
+        "hex": "#eee642",
+        "role": "accent"
+      },
+      {
+        "hex": "#14cd69",
+        "role": "accent"
+      },
+      {
+        "hex": "#0d341e",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Aeonik",
+        "role": "heading"
+      },
+      {
+        "family": "Aeonik",
+        "role": "body"
+      },
+      {
+        "family": "Megazoid",
+        "role": "display"
+      },
+      {
+        "family": "Aeonik Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (~6x body) create a strong visual impact, complemented by a clean, modern sans-serif for other headings and body text, often with small uppercase labels.",
+    "radius": "Predominantly sharp corners, with subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "Generally airy and spacious, particularly in hero and major section breaks, creating a sense of openness, while content grids maintain a balanced density."
+  },
+  "standout": "The site's distinctive use of dynamic, floating image grids in the hero and throughout the page, combined with a continuously scrolling marquee, creates an energetic and almost 'game-like' interactive experience. This approach makes the content feel alive and engaging, moving beyond static displays.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

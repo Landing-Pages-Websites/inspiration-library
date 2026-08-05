@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.buzzsprout.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-buzzsprout-com-f6c0d6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-buzzsprout-com-f6c0d6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-buzzsprout-com-f6c0d6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-buzzsprout-com-f6c0d6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "media",
+      "podcasting",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central maximum width, often featuring asymmetrical arrangements of large text and complex illustrative graphics or device mockups."
+    },
+    {
+      "kind": "type",
+      "note": "Very large, bold, sans-serif headings are used for hero and major section titles, creating strong visual impact, complemented by a readable sans-serif for body text and smaller uppercase labels for secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating background colors (off-white, dark forest green, light grey, vibrant yellow) are used to visually segment content sections and provide clear visual rhythm."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport, providing persistent access to site navigation as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "A 'hero with complex visual' pattern combines a strong, concise headline and call to action with a detailed graphic featuring device mockups and multiple app icons."
+    }
+  ],
+  "technique_notes": [
+    "Sticky Navigation: The header navigation bar is fixed to the top of the viewport, maintaining access to key links as the user scrolls.",
+    "Scroll-triggered Reveals: Sections and content blocks animate into view with a subtle fade-up or slide-in effect as they enter the viewport, characteristic of `locomotive-scroll` implementations, creating a dynamic and engaging scroll experience.",
+    "Alternating Section Backgrounds: The page uses distinct background colors (white, dark green, light grey, vibrant yellow) for different content sections to visually segment the page and provide rhythm."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f8f8",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#214538",
+        "role": "text|cta|background"
+      },
+      {
+        "hex": "#1d1d1d",
+        "role": "text"
+      },
+      {
+        "hex": "#ffc700",
+        "role": "accent"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "border|subtle-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Graphik",
+        "role": "heading|body"
+      },
+      {
+        "family": "Girott",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual impact, complemented by smaller, often uppercase labels for secondary information.",
+    "radius": "Subtle rounding on buttons and some card elements, but predominantly sharp corners for overall layout blocks.",
+    "spacing": "Airy, with generous vertical spacing between major sections and within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's design is distinctive for its confident use of a vibrant yellow accent color to punctuate an otherwise professional, muted palette, effectively drawing attention to key calls to action and illustrative sections. This is paired with a strong typographic hierarchy and detailed, engaging device mockups and waveform graphics, creating a visual language that feels both authoritative and approachable.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

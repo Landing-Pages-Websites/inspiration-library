@@ -1,0 +1,103 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.glowfinance.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-glowfinance-xyz-8e7b13.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-glowfinance-xyz-8e7b13__scroll0.webp",
+      "shots/_proposed/lapa-ninja-glowfinance-xyz-8e7b13__scroll1.webp",
+      "shots/_proposed/lapa-ninja-glowfinance-xyz-8e7b13__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "defi",
+      "blockchain"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, full-bleed hero section with light text, transitioning to alternating light and dark background sections for content, maintaining a consistent centered content width."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark theme dominates, using deep black backgrounds contrasted with bright white text and vibrant purple/blue gradients as primary accents, creating a high-tech and luxurious feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar remains sticky at the top of the viewport upon scroll, and a subtle parallax effect is applied to the abstract glowing background element within the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Key features are presented in a numbered list format, each with a concise description and an abstract, wireframe-like illustration that visually represents the concept."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, abstract glowing background shape that moves at a slightly different speed than the foreground content, creating a subtle parallax depth effect as the user scrolls. The navigation bar is fixed to the top of the viewport. Content sections likely reveal with a fade-in or slide-up animation as they enter the viewport, leveraging CSS keyframes for smooth transitions.",
+    "Interactive elements like buttons and cards use subtle rounded corners and a consistent purple accent color for calls to action, providing clear visual cues for user interaction."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "accent"
+      },
+      {
+        "hex": "#66CC66",
+        "role": "positive-metric"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, clean sans-serif headings (hero text ~4x body) with clear hierarchy, supported by a legible body text. Numbers in feature lists are oversized and bold.",
+    "radius": "subtle \u2014 consistently applied to buttons, input fields, and card elements.",
+    "spacing": "airy \u2014 generous vertical spacing between sections and within the hero, creating a sense of openness and premium feel."
+  },
+  "standout": "This site stands out with its sophisticated dark aesthetic, employing glowing purple and blue abstract shapes that evoke a futuristic, high-tech atmosphere. The numbered feature list with its unique wireframe-style illustrations provides a distinctive visual language for explaining complex concepts, moving beyond typical icon sets.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://celo.org",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-celo-org-25a53c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-celo-org-25a53c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-celo-org-25a53c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-celo-org-25a53c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "blockchain",
+      "finance",
+      "cryptocurrency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A dominant, vibrant bright yellow (#FCFF52) is used as the primary background color for most sections, creating a high-energy and distinctive brand presence."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections alternate between the bright yellow background and softer, off-white or light beige backgrounds, often featuring centered content within a generous horizontal padding."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from transparent with white text to an opaque yellow background with black text, sticking to the top of the viewport after a short scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a layered, torn-paper collage graphic that exhibits a subtle parallax effect, moving at a different rate than the main page content as the user scrolls."
+    },
+    {
+      "kind": "type",
+      "note": "Large, elegant headings use a very thin display serif font (GT Alpina Thin/Light), creating a sophisticated contrast with a clean, readable sans-serif for body text (Inter) and a monospace font for data displays (DM Mono)."
+    },
+    {
+      "kind": "section",
+      "note": "A unique horizontal 'stats bar' section presents key metrics with large numbers and descriptive text, appearing to animate or reveal as it scrolls into view."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Celo's Innovation' section uses a dynamic grid of visually distinct cards, each representing a different aspect or project, arranged in a collage-like fashion."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations, likely leveraging css-keyframes, to reveal sections with a subtle fade-up or slide-in effect as they enter the viewport. The sticky navigation bar transitions its background color and text color using CSS transitions when a specific scroll threshold is met. The hero image employs a multi-layered parallax effect, where background elements move at a slower rate than the foreground content during vertical scrolling.",
+    "Text contrast is effectively managed by pairing black text with the bright yellow background, white text with dark backgrounds, and dark grey text with lighter off-white section backgrounds.",
+    "The hero section combines a large, impactful headline with a dynamic, layered collage graphic that mimics torn paper, creating a visually rich and engaging introduction that feels both artistic and modern."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FCFF52",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FCF6F1",
+        "role": "background-secondary"
+      },
+      {
+        "hex": "#E7E3D4",
+        "role": "background-tertiary"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#09F",
+        "role": "accent"
+      },
+      {
+        "hex": "#476520",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GT Alpina Thin",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "DM Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, thin display headings (~4-5x body) are used for hero and section titles, complemented by a clean sans-serif for body text and a distinct monospace for data, with small uppercase labels for context.",
+    "radius": "Mostly sharp corners, with subtle rounding on interactive elements like buttons and some card backgrounds.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within the hero, balanced by tighter grids for feature displays and card collections."
+  },
+  "standout": "The site's most distinctive feature is its bold and pervasive use of a vibrant, almost neon yellow as the primary background color, which immediately sets it apart. This is combined with a unique 'torn paper' collage aesthetic in the hero and a sophisticated typographic hierarchy that blends elegant thin serifs with modern sans-serifs and monospaced fonts, creating a high-energy yet refined brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

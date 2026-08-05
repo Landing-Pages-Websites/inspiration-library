@@ -1,0 +1,110 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.stable.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-stable-xyz-fc60b6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-stable-xyz-fc60b6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-stable-xyz-fc60b6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-stable-xyz-fc60b6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "blockchain",
+      "fintech",
+      "cryptocurrency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature descriptions, often pairing a large number or icon on one side with explanatory text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases within prominent headings are consistently highlighted with a vibrant accent color to draw attention and emphasize core concepts."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark theme, predominantly using a deep dark teal/green background with a bright, almost neon, lime green accent for calls to action and textual emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax scroll effect on its background image, creating depth as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections animate into view with a staggered fade-up or slide-in effect as they enter the viewport, revealing information progressively."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Frequently Asked Questions' section utilizes an accordion pattern to present information concisely and allow users to expand details on demand."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-width background image or video with a dark overlay to ensure text readability, combined with a subtle parallax effect where the background scrolls slower than the foreground content.",
+    "Content sections are revealed using scroll-triggered animations, likely leveraging CSS keyframes, to fade and slide elements into view as they enter the user's viewport.",
+    "The primary navigation bar remains fixed at the top of the browser window, ensuring constant access to site navigation regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a2e3b",
+        "role": "background"
+      },
+      {
+        "hex": "#001e1e",
+        "role": "surface"
+      },
+      {
+        "hex": "#e8fbf7",
+        "role": "text"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (up to ~4x body text) with a distinct accent color for emphasis, paired with a clean, readable body text.",
+    "radius": "Subtle (minimal rounding on buttons and cards, almost sharp edges overall).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness."
+  },
+  "standout": "The striking combination of a deep, dark teal/green primary color with a vibrant, almost neon, lime green accent creates a sophisticated yet energetic feel. The consistent use of this accent color to highlight key words within large headings is particularly distinctive, guiding the eye and reinforcing core messages.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
