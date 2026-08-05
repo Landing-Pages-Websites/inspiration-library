@@ -1,0 +1,103 @@
+{
+  "id": "lapa-ninja-2026-0488",
+  "source": {
+    "url": "https://www.level.money",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0488.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0488__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0488__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0488__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "crypto",
+      "defi",
+      "fintech"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs an asymmetrical layout, placing a large, impactful text block on the left and abstract, pixel-art-like graphics on the right, creating a balanced yet dynamic visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "A key word within the main hero headline is highlighted with a solid blue background and white text, drawing immediate attention to the dynamically changing product focus."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast color scheme featuring black text on a clean white background, accented by a single vibrant blue for interactive elements and dynamic highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a prominent text carousel where specific terms (e.g., USDT, USDC) animate in and out, accompanied by a synchronized carousel of partner logos in the 'Building with' section below."
+    },
+    {
+      "kind": "section",
+      "note": "An 'Announcement' banner is consistently displayed at the very top of the page, using a solid blue background to ensure high visibility for critical updates."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header system is implemented for both the top announcement bar and the main navigation, ensuring these critical elements remain visible and accessible as the user scrolls down the page.",
+    "The hero section utilizes a dynamic content carousel, where a specific word within the main headline and a corresponding set of partner logos animate in and out using CSS keyframes, creating an engaging and continuously updating display.",
+    "Abstract, pixelated or ASCII-art-like graphics are used as subtle background elements in the hero, adding a unique, tech-inspired texture without competing with the primary content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#65676B",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "graphic-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (hero text is approximately 3-4 times the body text size) establish a strong visual hierarchy, complemented by clear and legible body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in the hero section, with generous vertical and horizontal padding creating a sense of openness and emphasis on key content."
+  },
+  "standout": "The most distinctive aspect of this site is its dynamic hero section, which eschews traditional imagery in favor of a text and logo carousel that cycles through key product terms and associated partners. This, combined with the abstract ASCII-art background, creates a unique, tech-forward, and highly engaging introduction to the product.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0473",
+  "source": {
+    "url": "https://www.acctual.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0473.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0473__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0473__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0473__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "finance",
+      "invoicing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in wide, centered blocks with generous vertical padding, creating an open and airy page structure."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, large, and bold sans-serif headings are used for primary messaging, contrasted with a lighter weight, highly readable sans-serif for body text and descriptive elements."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light background (white/off-white) with dark grey/black text is accented by subtle, vibrant blues and purples for interactive elements, icons, and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections animate into view with a subtle fade-up or slide-up effect as they enter the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "motion",
+      "note": "Background elements in the hero section (keyboard, paperclip, invoice illustration) exhibit a subtle parallax effect, moving slower than the foreground content during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently alternate between text-left/illustration-right and illustration-left/text-right layouts, maintaining visual balance and flow."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using scroll-triggered animations, where elements subtly fade and slide upwards into their final position as the user scrolls them into view, likely orchestrated with CSS keyframes.",
+    "The main navigation bar becomes fixed to the top of the viewport after the user scrolls past the initial hero section, providing persistent access to navigation links.",
+    "A subtle parallax effect is applied to the decorative background elements in the hero section, causing them to scroll at a slightly slower rate than the main content, adding depth to the initial view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "surface"
+      },
+      {
+        "hex": "#1E1E1E",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "heading"
+      },
+      {
+        "hex": "#0098F2",
+        "role": "accent"
+      },
+      {
+        "hex": "#6C56FC",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong hierarchy, complemented by a clean, readable sans-serif for all other text.",
+    "radius": "subtle \u2014 used consistently on buttons, cards, and input fields.",
+    "spacing": "airy \u2014 very generous vertical spacing between sections and balanced padding within content blocks."
+  },
+  "standout": "The site's design stands out through its combination of a very clean, almost minimalist layout with subtle, playful background illustrations and mockups that add personality without clutter. The effective use of scroll-triggered reveals and gentle parallax creates an engaging, dynamic experience that feels polished and approachable.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

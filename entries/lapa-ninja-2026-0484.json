@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0484",
+  "source": {
+    "url": "https://ethena.fi",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0484.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0484__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0484__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0484__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "cryptocurrency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, full-width canvas with centered content sections, often using a three-column grid for feature displays or a split layout with text and a prominent graphic."
+    },
+    {
+      "kind": "type",
+      "note": "Large, clean sans-serif headings are used for primary messaging, contrasted with smaller, lighter-weight body text and occasional uppercase labels for stats or navigation items."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark background (#1a1e26) is paired with white and light grey text, accented by a vibrant blue (#88b4f5) used for glowing elements, interactive states, and subtle highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation remains sticky at the top. The hero section features a large globe graphic that parallaxes, scrolling slower than the foreground text. Subsequent content sections and individual cards within them reveal with a subtle fade-up and slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by generous vertical spacing and often feature a prominent visual element (like the globe, a large icon, or a product graphic) alongside descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport during scroll. The hero section uses a parallax effect where a background image scrolls at a slower rate than the foreground content, creating a sense of depth. Content sections and individual cards within them are revealed using scroll-triggered animations, typically a subtle fade-in combined with a slight upward translation as they enter the viewport, likely orchestrated with CSS keyframes and JavaScript scroll listeners."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1e26",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#b0bbc7",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#88b4f5",
+        "role": "accent"
+      },
+      {
+        "hex": "#2e3741",
+        "role": "surface"
+      },
+      {
+        "hex": "#323a47",
+        "role": "surface-variant"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, often with a medium weight, while body text is legible and lighter. Some labels are small and uppercase.",
+    "radius": "Subtle rounded corners on interactive elements, cards, and input fields, providing a soft, modern feel without being overly rounded.",
+    "spacing": "Airy vertical spacing between major sections, creating clear content blocks. Content within sections is well-balanced, preventing a dense feel."
+  },
+  "standout": "The site's distinctive dark, almost cosmic aesthetic, combined with glowing, ethereal graphics and subtle parallax motion, creates a sophisticated and high-tech brand identity. The use of a dark theme with vibrant blue accents for interactive elements and visual highlights is particularly well-executed, making the site feel premium and forward-thinking.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

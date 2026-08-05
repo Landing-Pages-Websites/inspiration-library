@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0498",
+  "source": {
+    "url": "https://raad.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0498.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0498__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0498__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0498__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "geospatial",
+      "saas",
+      "drone-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are primarily centered within a dark, full-width container, creating a focused reading experience against a dynamic background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a scroll-triggered background transformation, revealing a detailed, full-bleed satellite map image as the user scrolls down, replacing an initial abstract dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent overlay in the initial hero state to a sticky bar with a solid dark background as the user scrolls past the hero content."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, pairing light text and UI elements against deep dark backgrounds, with a vibrant orange reserved for primary calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single sans-serif typeface (Inter) across all text, maintaining a clear hierarchy through size and weight, with occasional uppercase styling for labels and subheadings."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a sophisticated scroll-triggered background effect, likely utilizing WebGL/Three.js (as hinted by detected tech), to dynamically transition from a minimalist dark background to an immersive, detailed satellite map as the user scrolls. This creates a sense of depth and reveals the core offering visually.",
+    "The main navigation bar is designed to be initially transparent, floating above the hero content. Upon scrolling, it becomes fixed to the top of the viewport and adopts a solid, dark background, ensuring readability and persistent access to navigation links.",
+    "Interactive elements and content cards are presented with subtle rounded corners and a slightly lighter dark background than the main page, often framed by a thin, muted border to provide visual separation and structure."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A1414",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF6B2C",
+        "role": "cta"
+      },
+      {
+        "hex": "#283A3A",
+        "role": "surface"
+      },
+      {
+        "hex": "#5C6E6E",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear hierarchy with large, bold headings (~3-4x body) for impact, standard body text for readability, and small, often uppercase, labels for categorization and emphasis.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, input fields, and content cards, contributing to a modern and approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero to prevent visual clutter, while feature grids maintain a more compact but still readable rhythm."
+  },
+  "standout": "The most distinctive feature is the dynamic, full-bleed satellite map background in the hero section that reveals and possibly parallaxes on scroll, leveraging advanced rendering technologies like WebGL/Three.js to create an immersive and high-tech visual experience. This immediately communicates the product's essence in a visually compelling way.",
+  "animation_tech": [
+    "canvas",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
