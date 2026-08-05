@@ -1,0 +1,113 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://caldera.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-caldera-xyz-9b784a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-caldera-xyz-9b784a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-caldera-xyz-9b784a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-caldera-xyz-9b784a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "blockchain",
+      "web3",
+      "technology"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with alternating background colors (light grey, black, off-white) create distinct visual breaks and content grouping."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized and heavy sans-serif typography is used for primary headings, creating a strong, impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black and various shades of off-white/light grey is consistently punctuated by a single vibrant orange accent color for CTAs and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is initially transparent and full-height, then transforms into a smaller, sticky bar with a solid light grey background as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent 'stats' sections feature large, bold numbers with concise, descriptive labels, effectively communicating scale and impact."
+    }
+  ],
+  "technique_notes": [
+    "A sticky navigation bar is implemented that dynamically changes its appearance (shrinks in height, gains a solid background color) upon scroll, providing persistent access while optimizing initial hero space.",
+    "Content sections appear to reveal themselves with subtle fade-in or slide-up animations as they enter the viewport, enhancing engagement and guiding the user through the page flow, likely using CSS keyframes.",
+    "The hero section likely incorporates a background video to add dynamic visual interest and convey motion, as suggested by the 'video-hero' hint."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F7F6F3",
+        "role": "background"
+      },
+      {
+        "hex": "#070607",
+        "role": "text"
+      },
+      {
+        "hex": "#FC5000",
+        "role": "accent"
+      },
+      {
+        "hex": "#E2E2DF",
+        "role": "surface"
+      },
+      {
+        "hex": "#151317",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#524AE9",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Neue Corp Compact Ultrabold",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~4-5x body) with smaller, readable sans-serif body text and even smaller uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners (e.g., 8-12px) are consistently applied to buttons, cards, and section containers, providing a soft modern touch.",
+    "spacing": "Airy spacing is used in the hero and between major content blocks, creating a sense of openness, while feature grids maintain a balanced density."
+  },
+  "standout": "The site's most distinctive feature is its use of extremely bold and oversized typography for primary headings, which creates a powerful, almost brutalist visual statement. This strong typographic presence, combined with a high-contrast, limited color palette, gives the site a unique and authoritative feel that stands apart from typical modern marketing templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
