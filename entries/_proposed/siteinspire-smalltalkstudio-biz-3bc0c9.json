@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://smalltalkstudio.biz",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-smalltalkstudio-biz-3bc0c9.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-smalltalkstudio-biz-3bc0c9__scroll0.webp",
+      "shots/_proposed/siteinspire-smalltalkstudio-biz-3bc0c9__scroll1.webp",
+      "shots/_proposed/siteinspire-smalltalkstudio-biz-3bc0c9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://smalltalkstudio.biz/collections/all",
+        "full": "shots/_proposed/siteinspire-smalltalkstudio-biz-3bc0c9__p2.webp"
+      },
+      {
+        "url": "https://smalltalkstudio.biz/collections/jersey",
+        "full": "shots/_proposed/siteinspire-smalltalkstudio-biz-3bc0c9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring an oversized, expressive brand title that overlaps a full-bleed product image, creating a dynamic and art-directed initial view."
+    },
+    {
+      "kind": "layout",
+      "note": "A dense, uniform grid layout is used for product displays and gallery sections, maintaining consistent spacing and item sizing to showcase a large volume of content efficiently."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, hand-drawn script display font is exclusively used for the main brand title, providing a strong brand identity that contrasts sharply with the clean, modern sans-serif used for all other textual content."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic and bold use of a vibrant lime green as a primary accent color for calls to action, promotional banners, and the brand logo, providing high contrast against the neutral off-white background and black text."
+    },
+    {
+      "kind": "motion",
+      "note": "A parallax-like scroll effect in the hero section where the oversized brand title scrolls upwards and out of view at a different rate than the underlying hero image, creating a sense of layered depth and revealing subsequent content."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a layered scrolling effect where a large, expressive text element and a background image move at different speeds as the user scrolls, causing the text to appear to slide over or out of the image, eventually revealing the main content. This effect is likely achieved using CSS transforms and scroll event listeners, potentially leveraging css-keyframes for smooth transitions.",
+    "A persistent top banner and navigation elements (like the cart icon) are fixed to the top of the viewport, maintaining accessibility to key actions and information regardless of scroll depth.",
+    "Product listings are presented in a responsive grid that maintains consistent spacing and item sizing across different viewports, using a simple hover effect for product details."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#c7c7c7",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "sale-price"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pacifico",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A dramatic contrast between an extremely large, expressive script display font for the brand name and a clean, legible sans-serif for all other headings and body text, with product details being relatively small.",
+    "radius": "Sharp corners are consistently used for all image containers, buttons, and content blocks, contributing to a clean, modern aesthetic.",
+    "spacing": "Generally airy in hero and section breaks, creating breathing room, but transitions to a dense, tightly packed grid for product displays to maximize item visibility."
+  },
+  "standout": "The most distinctive element is the bold, oversized, and highly stylized script typography used for the brand's main title, which actively participates in a parallax scroll effect. This, combined with the vibrant lime green accent and the editorial, almost raw photography style, gives the site a unique, art-zine aesthetic that feels less like a traditional e-commerce store and more like a curated visual experience.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

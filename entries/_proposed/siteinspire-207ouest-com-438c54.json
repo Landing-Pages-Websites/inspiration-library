@@ -1,0 +1,137 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://207ouest.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-207ouest-com-438c54.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-207ouest-com-438c54__scroll0.webp",
+      "shots/_proposed/siteinspire-207ouest-com-438c54__scroll1.webp",
+      "shots/_proposed/siteinspire-207ouest-com-438c54__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://207ouest.com/products/bag-black",
+        "full": "shots/_proposed/siteinspire-207ouest-com-438c54__p2.webp"
+      },
+      {
+        "url": "https://207ouest.com/collections/taschen",
+        "full": "shots/_proposed/siteinspire-207ouest-com-438c54__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "luxury",
+      "fashion",
+      "home-goods",
+      "design"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed product photography and vibrant color blocks are used as section backgrounds, creating a dynamic and visually rich page flow."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, large-scale serif typeface is used for the brand logo, contrasting with clean, modern sans-serifs for navigation and body text, creating an elegant yet contemporary feel."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a bold and varied color palette, transitioning from muted neutrals in product display sections to highly saturated, full-bleed blocks of lime yellow, deep red, and soft pastels for visual breaks and brand statements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in or slide-up effect as they enter the viewport, creating a smooth and engaging scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "A massive, stylized brand logo is used as a fixed background element in the footer, progressively revealing itself as the user scrolls down, serving as a dramatic visual anchor."
+    },
+    {
+      "kind": "section",
+      "note": "Product grids are interspersed with full-bleed, editorial-style image blocks featuring curated collections or brand stories, breaking the monotony of typical e-commerce layouts."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered animation library (like locomotive-scroll or GSAP ScrollTrigger) to reveal content sections with a subtle fade-in or slide-up effect as they enter the viewport, enhancing engagement.",
+    "A large, stylized brand logo is implemented as a fixed background element in the footer, which is progressively revealed as the user scrolls down, creating a strong visual anchor and brand statement.",
+    "The main navigation bar remains sticky at the top of the page, providing persistent access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F0EEEC",
+        "role": "surface"
+      },
+      {
+        "hex": "#EEFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#CC0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0BBE4",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7D3D3",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Lausanne",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant display serif for the logo (~4x body) with clear hierarchy of sans-serif headings (~2x body) and standard body text, complemented by small uppercase labels.",
+    "radius": "Sharp corners are consistently applied to all image cards, buttons, and section elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between main content sections and a more compact grid for product listings."
+  },
+  "standout": "The dramatic use of a massive, fixed background brand logo in the footer, combined with vibrant, full-bleed color blocks and editorial-style photography, creates a highly distinctive and luxurious aesthetic that elevates product display beyond a generic e-commerce template.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

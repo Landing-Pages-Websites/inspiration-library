@@ -1,0 +1,115 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://packbags.nl",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-packbags-nl-795e76.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-packbags-nl-795e76__scroll0.webp",
+      "shots/_proposed/siteinspire-packbags-nl-795e76__scroll1.webp",
+      "shots/_proposed/siteinspire-packbags-nl-795e76__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://packbags.nl/blogs/news",
+        "full": "shots/_proposed/siteinspire-packbags-nl-795e76__p2.webp"
+      },
+      {
+        "url": "https://packbags.nl/pages/faq-1",
+        "full": "shots/_proposed/siteinspire-packbags-nl-795e76__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "accessories",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, balancing large, impactful imagery with concise text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a bold, condensed sans-serif typeface, often in all caps, creating a strong, editorial presence, contrasted with a more neutral sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is consistently used for structural elements and typography, allowing vibrant product photography to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, the initial top banner disappears, and the main navigation bar, along with the 'PACKBAGS' brand title, transforms into a sticky header that remains fixed at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases are presented in flexible grid layouts, often featuring a mix of single large images and smaller multi-image galleries, each with clear titles and calls to action."
+    }
+  ],
+  "technique_notes": [
+    "A dynamic sticky header is implemented where an initial top banner scrolls out of view, and the main navigation, along with the site title, collapses and fixes to the top, likely using CSS position sticky or JavaScript for the transformation.",
+    "Content sections are designed with generous vertical spacing and often feature full-bleed imagery or large, impactful visual elements to create a sense of spaciousness and focus.",
+    "Typography uses distinct styles for hierarchy: a bold, display-oriented sans-serif for headings to command attention, and a highly readable sans-serif for body copy, ensuring clarity across various content types."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#108474",
+        "role": "accent"
+      },
+      {
+        "hex": "#B5B5B5",
+        "role": "surface"
+      },
+      {
+        "hex": "#7B7B7B",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NeueHaasDisplayBold",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, often uppercase display headings (~3-4x body) with smaller, uppercase labels and standard body text.",
+    "radius": "Sharp, with very subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "Airy, with ample vertical spacing between sections and balanced padding within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist approach to typography, which creates a strong editorial voice. This is powerfully combined with high-quality, vibrant product photography set against a stark, minimalist black and white background, making the products truly pop. The dynamic sticky header also adds a refined touch to the user experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

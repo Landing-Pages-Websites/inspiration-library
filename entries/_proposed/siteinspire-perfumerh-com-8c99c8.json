@@ -1,0 +1,137 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.perfumerh.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-perfumerh-com-8c99c8.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-perfumerh-com-8c99c8__scroll0.webp",
+      "shots/_proposed/siteinspire-perfumerh-com-8c99c8__scroll1.webp",
+      "shots/_proposed/siteinspire-perfumerh-com-8c99c8__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.perfumerh.com/en-us",
+        "full": "shots/_proposed/siteinspire-perfumerh-com-8c99c8__p2.webp"
+      },
+      {
+        "url": "https://www.perfumerh.com/en-us/products/ink",
+        "full": "shots/_proposed/siteinspire-perfumerh-com-8c99c8__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fragrance",
+      "luxury-goods",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality editorial photography is integrated seamlessly with content sections, often serving as background elements or dominant visual anchors."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated interplay between a distinctive, elegant italic serif for primary headings and a clean, functional sans-serif for body text and navigation, often using small caps for labels."
+    },
+    {
+      "kind": "color",
+      "note": "A refined, muted palette of earthy browns, creams, and deep neutrals, creating a luxurious and natural aesthetic, with black and white for strong contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-up or slide-up animation as they enter the viewport, creating a dynamic yet smooth browsing experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls slower than the foreground text, creating depth and engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Product listings are presented in clean, minimalist grids, often with a simple 'add to cart' button that appears on hover, maintaining a clutter-free aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that transforms from a transparent overlay on the hero to a solid background with a subtle shadow after scrolling.",
+    "Scroll-triggered animations (likely using aos and locomotive-scroll) are used to reveal content sections with a staggered fade-up or slide-in effect as they enter the viewport, enhancing engagement without being distracting.",
+    "The hero section employs a parallax scrolling effect, where the background video or image moves at a slower rate than the foreground text, creating a sense of depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fafafa",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#8c7353",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ededed",
+        "role": "background"
+      },
+      {
+        "hex": "#634c2f",
+        "role": "accent"
+      },
+      {
+        "hex": "#f2f2f2",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Eidetic Neo Italic",
+        "role": "heading"
+      },
+      {
+        "family": "Lutz Headline",
+        "role": "display"
+      },
+      {
+        "family": "Eidetic Small Caps",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant, often italicized serif headings provide a strong visual anchor, contrasted with clean, legible sans-serif body text and small-caps labels for navigation and product details. Headings are generously spaced.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between sections and ample padding within content blocks, contributing to a premium, unhurried feel."
+  },
+  "standout": "The site's distinctive use of an elegant, almost calligraphic italic serif font for primary headings, combined with high-quality, editorial photography, creates a profoundly luxurious and sophisticated brand identity. This strong typographic and visual voice elevates the e-commerce experience beyond a generic template.",
+  "animation_tech": [
+    "aos",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

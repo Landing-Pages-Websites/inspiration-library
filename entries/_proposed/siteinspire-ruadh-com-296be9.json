@@ -1,0 +1,113 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.ruadh.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-ruadh-com-296be9.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-ruadh-com-296be9__scroll0.webp",
+      "shots/_proposed/siteinspire-ruadh-com-296be9__scroll1.webp",
+      "shots/_proposed/siteinspire-ruadh-com-296be9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ruadh.com/collections/all",
+        "full": "shots/_proposed/siteinspire-ruadh-com-296be9__p2.webp"
+      },
+      {
+        "url": "https://www.ruadh.com/collections/tops",
+        "full": "shots/_proposed/siteinspire-ruadh-com-296be9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a prominent split-screen hero image, with product photography occupying both halves, creating an immersive visual introduction."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used exclusively for the brand logo, contrasting with a clean, modern sans-serif for all navigational elements and body text, establishing a refined brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is dominated by crisp whites and deep charcoal blacks, providing a minimalist canvas that allows the natural, earthy tones and occasional vibrant accents (like a reddish-orange) within the product photography to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar undergoes a distinct transformation upon scroll: initially transparent with a spread-out layout over the hero, it condenses its internal element spacing and then gains a solid white background as it becomes sticky at the top, after the hero section scrolls out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Product listings are presented in a consistent four-column grid layout, each item featuring a clear product image, name, and price, maintaining visual order and scannability."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar's behavior can be rebuilt by using CSS transitions or keyframes to animate its background color, padding, and the spacing/alignment of its child elements based on scroll position. A JavaScript scroll listener would trigger class changes to apply these styles.",
+    "The hero section scrolls out of view, with its overlaid text content disappearing, while the main navigation bar transitions its layout and background. This can be achieved by tracking the scroll position to apply different CSS classes or inline styles to the navigation, and allowing the hero image to simply scroll with the page content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#202223",
+        "role": "text"
+      },
+      {
+        "hex": "#DB2E27",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a1a22",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ABCRom",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "The logo uses a distinctive serif display font, while headings are moderately larger sans-serifs, maintaining a balanced hierarchy with clear, legible body text.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 the hero section feels airy, while product grids maintain consistent, clear spacing between items without feeling overly dense."
+  },
+  "standout": "This site stands out through its exceptional, editorial-quality product photography that integrates apparel into aspirational, natural settings, creating a strong brand narrative. The minimalist UI and subtle, yet distinct, navigation transformation further elevate the premium and sophisticated feel, allowing the imagery to be the primary focus.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

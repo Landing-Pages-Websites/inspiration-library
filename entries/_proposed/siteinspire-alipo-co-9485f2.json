@@ -1,0 +1,126 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://alipo.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-alipo-co-9485f2.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-alipo-co-9485f2__scroll0.webp",
+      "shots/_proposed/siteinspire-alipo-co-9485f2__scroll1.webp",
+      "shots/_proposed/siteinspire-alipo-co-9485f2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.alipo.co/pages/about",
+        "full": "shots/_proposed/siteinspire-alipo-co-9485f2__p2.webp"
+      },
+      {
+        "url": "https://www.alipo.co/products/swimsuit",
+        "full": "shots/_proposed/siteinspire-alipo-co-9485f2__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "swimwear",
+      "apparel"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are often presented in a split-screen layout, pairing large, full-bleed editorial photography with product imagery or minimal text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "The brand name 'ALIPO' is used as an oversized, semi-transparent background element, creating a strong, almost architectural brand presence across multiple sections."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of whites, greys, and blacks is used for backgrounds and text, with product colors (like deep red, navy, olive) providing the main accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The oversized 'ALIPO' brand logo in the background scrolls at a slower rate than the foreground content, creating a subtle parallax effect that keeps the brand visible throughout the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar at the top of the page remains sticky as the user scrolls down, ensuring constant access to key links."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections feature individual items isolated on a plain, light background, presented in a clean grid or row."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the distinctive brand presence, implement a large, semi-transparent text element (the brand name) as a fixed or slow-scrolling background layer, allowing foreground content to scroll over it, creating a parallax effect. Hero images also employ a subtle parallax, moving slightly slower than the scroll. The main navigation bar should be set to stick to the top of the viewport after the initial scroll depth.",
+    "Design sections using a flexible grid system that allows for full-bleed imagery on one side and content (text or product images) on the other, adapting to different screen sizes while maintaining visual balance.",
+    "Utilize a minimalist approach for product displays, isolating items on clean, neutral backgrounds to emphasize the product's form and color."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f4f4f2",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0f0",
+        "role": "accent"
+      },
+      {
+        "hex": "#1a2b3c",
+        "role": "product-navy"
+      },
+      {
+        "hex": "#333333",
+        "role": "product-dark-grey"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Oswald",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Body text is small and understated, while the brand logo acts as an extremely oversized, bold, uppercase display element.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in hero sections and between major content blocks, with product grids being more balanced."
+  },
+  "standout": "The most distinctive feature is the pervasive use of the oversized, semi-transparent brand name 'ALIPO' as a background element that scrolls with a parallax effect. This creates a powerful, ever-present brand identity that feels integrated into the page's structure rather than just a logo at the top.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}
