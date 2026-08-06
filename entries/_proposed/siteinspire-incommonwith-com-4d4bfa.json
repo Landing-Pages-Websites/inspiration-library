@@ -1,0 +1,125 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.incommonwith.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-incommonwith-com-4d4bfa.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-incommonwith-com-4d4bfa__scroll0.webp",
+      "shots/_proposed/siteinspire-incommonwith-com-4d4bfa__scroll1.webp",
+      "shots/_proposed/siteinspire-incommonwith-com-4d4bfa__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.incommonwith.com/pages/showroom",
+        "full": "shots/_proposed/siteinspire-incommonwith-com-4d4bfa__p2.webp"
+      },
+      {
+        "url": "https://www.incommonwith.com/collections/lido",
+        "full": "shots/_proposed/siteinspire-incommonwith-com-4d4bfa__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "home-furnishings",
+      "luxury-goods",
+      "lighting",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed editorial imagery is frequently used as section backgrounds or hero elements, creating an immersive, gallery-like feel."
+    },
+    {
+      "kind": "type",
+      "note": "A classic serif font is used for prominent headings and the brand identity, providing an elegant contrast to the clean sans-serif used for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of warm neutrals, deep reddish-browns, and off-whites is consistently applied, creating an elegant and refined atmosphere across all content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features foreground text and CTA that scroll upwards faster than the background image, creating a subtle parallax effect as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from transparent and overlaid on the hero to a sticky, solid white bar with a subtle drop shadow once the user scrolls past the initial viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial-style content blocks are presented with large, high-quality images and concise, descriptive text, often arranged in magazine-like layouts to highlight product stories and brand ethos."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a large background image or video that subtly parallaxes, moving slower than the foreground text and call-to-action as the user scrolls, creating a sense of depth and visual interest.",
+    "The primary navigation bar is initially transparent and overlaid on the hero, then transitions to a fixed position at the top of the viewport with a solid background and a subtle drop shadow once the user scrolls past the hero section.",
+    "Content sections are revealed with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FAFAF9",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#2C2C2C",
+        "role": "text"
+      },
+      {
+        "hex": "#8B0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#B3BEC5",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#6B4E44",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant and airy, with a large, refined serif for hero text, prominent but not oversized serif section headings, and legible sans-serif body text.",
+    "radius": "Subtle (minimal rounding on buttons, input fields, and some image containers, maintaining a clean aesthetic).",
+    "spacing": "Airy (generous vertical spacing between sections and within content blocks, creating a sense of calm and luxury, especially in editorial layouts)."
+  },
+  "standout": "The site stands out with its sophisticated, gallery-like presentation that elevates product display to an art form. It masterfully blends editorial content with e-commerce, using large, high-quality photography and a refined typographic hierarchy to create an immersive and luxurious browsing experience, making the products feel like curated art pieces rather than mere commodities.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

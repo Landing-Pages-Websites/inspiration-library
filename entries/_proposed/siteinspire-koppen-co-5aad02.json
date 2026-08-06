@@ -1,0 +1,119 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.koppen.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-koppen-co-5aad02.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-koppen-co-5aad02__scroll0.webp",
+      "shots/_proposed/siteinspire-koppen-co-5aad02__scroll1.webp",
+      "shots/_proposed/siteinspire-koppen-co-5aad02__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.koppen.co/products/detox",
+        "full": "shots/_proposed/siteinspire-koppen-co-5aad02__p2.webp"
+      },
+      {
+        "url": "https://www.koppen.co/collections/all",
+        "full": "shots/_proposed/siteinspire-koppen-co-5aad02__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "oral-care",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical product groupings and full-bleed imagery are used extensively, creating a sophisticated, editorial layout that prioritizes visual storytelling over dense information."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a distinctive, elegant serif font (Alliance No.1) at generous sizes, contrasted with a clean, legible sans-serif for body text and small, uppercase labels, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is dominated by a warm off-white background, deep charcoal text, and subtle, muted accent colors derived directly from product packaging (e.g., deep teal, warm amber), reinforcing a natural and premium feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, particularly large image blocks and product detail areas, subtly fade in and slide up from the bottom as they enter the viewport, creating a smooth and engaging reveal experience."
+    },
+    {
+      "kind": "section",
+      "note": "Many sections feature large, high-quality, full-bleed photographs of products or lifestyle shots, often with minimal text overlays, giving the page an immersive, magazine-like quality."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-width, high-resolution product arrangement as a background, with overlaid text and a call-to-action button that scrolls away to reveal more of the product composition, leveraging the detected video-hero capability for subtle background animation or static display.",
+    "Content sections throughout the page are revealed using scroll-triggered CSS keyframe animations, causing them to subtly fade in and slide upwards as they enter the user's viewport, enhancing engagement without being distracting.",
+    "A persistent header navigation remains fixed at the top of the viewport, providing continuous access to site navigation and branding without significant transformation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F2",
+        "role": "background"
+      },
+      {
+        "hex": "#141313",
+        "role": "text"
+      },
+      {
+        "hex": "#676986",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#A07F6D",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8C64E",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Alliance No.1",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Generous, elegant serif headings (~3-4x body) with clean, legible sans-serif body text and small, uppercase labels.",
+    "radius": "Subtle, leaning towards sharp, with minimal rounding on elements like buttons and product packaging.",
+    "spacing": "Airy, with significant vertical and horizontal padding around content blocks and between sections, creating a sense of calm and luxury."
+  },
+  "standout": "The site's standout feature is its sophisticated, editorial-style product photography and presentation, which elevates oral care products into a luxury experience. The meticulous composition of product groupings, combined with a clean, airy layout and subtle motion, creates a distinctive, high-end aesthetic that feels more like a design magazine than an e-commerce site.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

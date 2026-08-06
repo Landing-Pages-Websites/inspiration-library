@@ -1,0 +1,126 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://shopfunner.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-shopfunner-com-66e2b0.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-shopfunner-com-66e2b0__scroll0.webp",
+      "shots/_proposed/siteinspire-shopfunner-com-66e2b0__scroll1.webp",
+      "shots/_proposed/siteinspire-shopfunner-com-66e2b0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.shopfunner.com/",
+        "full": "shots/_proposed/siteinspire-shopfunner-com-66e2b0__p2.webp"
+      },
+      {
+        "url": "https://www.shopfunner.com/collections/all",
+        "full": "shots/_proposed/siteinspire-shopfunner-com-66e2b0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "hair-care",
+      "cosmetics"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero sections combine large lifestyle imagery with prominent product photography, often with text positioned to one side."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost primary color palette (yellow, blue, orange, purple, pink, green) is used for accents, navigation elements, and product details, contrasting sharply with a muted, warm off-white background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-layered parallax effect where a large product bottle scales up and repositions across the screen, while accompanying text moves at a different rate as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "The footer incorporates a distinctive, organic, line-art graphic that spells out 'FUNNER' using colorful circular elements, serving as a playful brand signature."
+    },
+    {
+      "kind": "type",
+      "note": "Small, clean sans-serif typography is used for body text and product descriptions, maintaining a minimalist aesthetic that allows the vibrant product imagery and colors to dominate."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-driven animation system (likely using locomotive-scroll) to create a dynamic parallax effect where a large product image scales and translates across the viewport, while other textual elements move at a different speed, creating depth. Subsequent content sections likely reveal with subtle fade-in or slide-up animations as they enter the viewport.",
+    "A sticky navigation bar with distinct color-coded buttons remains at the top of the screen, providing persistent access to product categories.",
+    "Product displays utilize clean grid layouts with ample white space, allowing each product to stand out, often accompanied by a small price tag."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5F0E5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFCD01",
+        "role": "accent"
+      },
+      {
+        "hex": "#4190DE",
+        "role": "accent"
+      },
+      {
+        "hex": "#FE5100",
+        "role": "accent"
+      },
+      {
+        "hex": "#7C55C6",
+        "role": "accent"
+      },
+      {
+        "hex": "#EB6FBD",
+        "role": "accent"
+      },
+      {
+        "hex": "#50B848",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "balanced, clean sans-serif with clear hierarchy; body text is small and legible, while headings are moderately larger, maintaining a modern and airy feel.",
+    "radius": "subtle; product bottles feature soft, organic curves, and interactive elements like buttons have slight corner rounding.",
+    "spacing": "airy; generous padding and margins create a sense of openness, particularly in hero sections and between major content blocks, while product grids maintain a balanced density."
+  },
+  "standout": "The site's design is distinctive for its playful yet sophisticated aesthetic, achieved through the combination of a vibrant, almost primary color palette against a warm, muted background. The unique, organically shaped product bottles and the whimsical, line-art footer graphic spelling 'FUNNER' further set it apart from generic beauty e-commerce sites, creating a memorable brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

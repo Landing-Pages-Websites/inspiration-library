@@ -1,0 +1,127 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.svenskttenn.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-svenskttenn-com-e84373.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-svenskttenn-com-e84373__scroll0.webp",
+      "shots/_proposed/siteinspire-svenskttenn-com-e84373__scroll1.webp",
+      "shots/_proposed/siteinspire-svenskttenn-com-e84373__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.svenskttenn.com/us/en/range/furniture",
+        "full": "shots/_proposed/siteinspire-svenskttenn-com-e84373__p2.webp"
+      },
+      {
+        "url": "https://www.svenskttenn.com/us/en/range/wallpaper",
+        "full": "shots/_proposed/siteinspire-svenskttenn-com-e84373__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "interior-design",
+      "home-furnishings",
+      "retail",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width hero image with a large, elegant serif title overlayed, which then transitions to a compact sticky navigation upon scroll."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, decorative serif font for main section headings, contrasted with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white base palette provides a clean backdrop for vibrant, intricate patterns and rich, saturated colors found in product imagery and textiles."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero image and main title parallax and scroll out of view, while the navigation bar transforms from a taller, transparent state with a centered logo to a compact, sticky white bar with a left-aligned logo."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual product cards are revealed with a subtle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Product and editorial content is presented in a flexible grid layout, often with asymmetrical arrangements of images and text blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large background image that scrolls at a different rate than the foreground content, creating a parallax effect. The main page title is initially large and centered, then scrolls up and out of view as the user scrolls down.",
+    "The primary navigation bar dynamically changes its appearance: initially transparent and taller with a prominent centered logo, it shrinks in height, gains a solid white background, and repositions its logo and menu items to the left once the user scrolls past the hero section, becoming sticky at the top of the viewport.",
+    "New content sections and individual elements within grids are introduced using scroll-triggered animations, likely leveraging css-keyframes to apply a subtle fade-in and upward translation effect as they become visible in the browser window."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1D1D1B",
+        "role": "surface"
+      },
+      {
+        "hex": "#B12D2D",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A7D4A",
+        "role": "accent"
+      },
+      {
+        "hex": "#87CEEB",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Denim INK Regular",
+        "role": "display"
+      },
+      {
+        "family": "VinylOT-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Georgia",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) provide a strong visual hierarchy, complemented by a clean, readable sans-serif for body text and navigation.",
+    "radius": "Sharp corners are dominant across most elements, with subtle rounding on interactive components like buttons and some product images.",
+    "spacing": "Balanced to airy spacing is used throughout, creating a sense of luxury and allowing the detailed patterns and imagery to breathe, with consistent moderate spacing in product grids."
+  },
+  "standout": "The site's distinctive use of vibrant, intricate patterns from Josef Frank, integrated into a clean, editorial layout, creates a unique blend of classic design heritage and modern web presentation. The dynamic transformation of the navigation and the subtle scroll-triggered reveals enhance the user experience without overshadowing the rich visual content.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

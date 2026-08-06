@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://caleygolf.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-caleygolf-com-f1dc20.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-caleygolf-com-f1dc20__scroll0.webp",
+      "shots/_proposed/siteinspire-caleygolf-com-f1dc20__scroll1.webp",
+      "shots/_proposed/siteinspire-caleygolf-com-f1dc20__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://caleygolf.com/products/01x",
+        "full": "shots/_proposed/siteinspire-caleygolf-com-f1dc20__p2.webp"
+      },
+      {
+        "url": "https://caleygolf.com/collections/wedges",
+        "full": "shots/_proposed/siteinspire-caleygolf-com-f1dc20__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "golf",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a high-quality video background with text overlay, establishing a premium feel."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light background sections to visually segment content, with dark sections often featuring product imagery or testimonials."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif typography for headings, creating strong visual impact and clear hierarchy against a clean background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep darks (black/charcoal) and crisp whites/light greys, accented by a distinct, vibrant teal-green for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background video exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual content blocks appear to reveal with a fade-in or slide-up animation as they enter the viewport during scroll."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-width video as a background element, overlaid with a dark gradient or tint to ensure text legibility. This video background is then linked to scroll, creating a subtle parallax effect where it moves at a different rate than the foreground content.",
+    "A sticky navigation bar remains at the top of the viewport, maintaining brand presence and access to key links throughout the user's journey.",
+    "Content sections and individual elements within them are designed to animate into view as the user scrolls, typically with a fade-up or slide-in motion, enhancing engagement and guiding attention through the page content. This is likely managed by an 'animate-on-scroll' library."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#108474",
+        "role": "cta"
+      },
+      {
+        "hex": "#2f2f2f",
+        "role": "text"
+      },
+      {
+        "hex": "#f6f6f6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-5x body text) create strong visual anchors, complemented by a clean, legible sans-serif for body copy.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and some image containers, maintaining a modern yet approachable feel.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness, while product grids are more compact."
+  },
+  "standout": "The site's distinctive use of a high-quality, full-bleed video hero with subtle parallax immediately conveys a premium and dynamic brand image. This, combined with a minimalist, high-contrast aesthetic and strong product photography, elevates it beyond a generic template.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

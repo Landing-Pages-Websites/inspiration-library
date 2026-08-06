@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.cenee-paris.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-cenee-paris-com-16f9f0.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-cenee-paris-com-16f9f0__scroll0.webp",
+      "shots/_proposed/siteinspire-cenee-paris-com-16f9f0__scroll1.webp",
+      "shots/_proposed/siteinspire-cenee-paris-com-16f9f0__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.cenee-paris.com/products/blush-liquide",
+        "full": "shots/_proposed/siteinspire-cenee-paris-com-16f9f0__p2.webp"
+      },
+      {
+        "url": "https://www.cenee-paris.com/products/huile-a-levres",
+        "full": "shots/_proposed/siteinspire-cenee-paris-com-16f9f0__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "cosmetics",
+      "luxury-goods",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections alternate between large, immersive photography and structured product grids, creating a dynamic visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "The brand name and key headings use an expansive, elegant serif font, contrasted with a clean, understated sans-serif for body text and product labels, often in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of black and white is punctuated by rich, deep tones from product imagery and a striking red-to-blue gradient in the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, moving slower than the foreground text as the user scrolls, while subsequent content sections slide up and fade in as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections frequently feature a horizontal carousel for multiple items, allowing users to browse without excessive vertical scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using a library like locomotive-scroll, which also orchestrates scroll-triggered animations. Sections are revealed with a gentle slide-up and fade-in effect as they become visible in the viewport. The hero image utilizes a parallax scroll, where the background image moves at a slower rate than the foreground content, creating a sense of depth.",
+    "Product carousels are implemented using a slider component, allowing users to horizontally swipe or click through product variations or related items within a fixed section height."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#676986",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#A00000",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#200080",
+        "role": "accent-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "MaaxPan",
+        "role": "display"
+      },
+      {
+        "family": "Concrette",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "The brand name is exceptionally large and elegant (~6x body), while headings are substantial (~2-3x body) and body text is refined and legible, often with uppercase labels for product categories.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between major sections and ample padding around content blocks, creating a sense of luxury and breathing room."
+  },
+  "standout": "This site stands out with its high-fashion editorial aesthetic, combining striking full-bleed photography with a sophisticated, minimalist typography system. The subtle parallax hero and scroll-triggered content reveals contribute to a premium, immersive browsing experience that feels more like a digital magazine than a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

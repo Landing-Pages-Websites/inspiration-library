@@ -1,0 +1,115 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://jacob-store.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-jacob-store-com-4c0f5b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-jacob-store-com-4c0f5b__scroll0.webp",
+      "shots/_proposed/siteinspire-jacob-store-com-4c0f5b__scroll1.webp",
+      "shots/_proposed/siteinspire-jacob-store-com-4c0f5b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://jacob-store.com/en-us/products/az",
+        "full": "shots/_proposed/siteinspire-jacob-store-com-4c0f5b__p2.webp"
+      },
+      {
+        "url": "https://jacob-store.com/en-us/products/isis",
+        "full": "shots/_proposed/siteinspire-jacob-store-com-4c0f5b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, edge-to-edge imagery is consistently used for hero sections and product displays, creating an immersive visual experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Product display sections utilize a dynamic, irregular grid of full-bleed images, allowing for varied aspect ratios to create a gallery-like mosaic."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of large, bold, uppercase sans-serif typography for section titles and calls to action, creating strong visual hierarchy and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette dominates the UI, allowing rich product photography to introduce the primary color and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features descriptive text and a call-to-action button that remain fixed in the viewport while a large background image scrolls underneath, creating a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage structure alternates between large, full-bleed photographic sections and more text-focused promotional blocks, maintaining visual interest and flow."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header bar is used for the logo and minimal navigation elements, ensuring they are always accessible at the top of the viewport.",
+    "The hero section combines a large, vertically scrolling background image with absolutely positioned text and a call-to-action button that remain fixed relative to the viewport, giving the impression of the background image moving behind the text.",
+    "Product galleries are constructed using a flexible grid system that allows images of varying aspect ratios to fill the available width, creating a visually rich, full-bleed mosaic without explicit gutters."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#444444",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase sans-serif headings (~3-4x body) are used for impact, with body text and descriptions in a smaller, lighter weight sans-serif.",
+    "radius": "sharp",
+    "spacing": "Airy, with generous vertical padding between major content blocks and a balanced density within text blocks."
+  },
+  "standout": "The site's distinctive use of full-bleed, high-quality editorial photography, particularly in the split-screen hero and the dynamic product grid, creates a luxurious and immersive visual experience that feels more like a fashion magazine than a typical e-commerce site. The minimal UI allows the product imagery to be the absolute focal point.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

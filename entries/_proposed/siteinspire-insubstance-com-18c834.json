@@ -1,0 +1,127 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://insubstance.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-insubstance-com-18c834.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-insubstance-com-18c834__scroll0.webp",
+      "shots/_proposed/siteinspire-insubstance-com-18c834__scroll1.webp",
+      "shots/_proposed/siteinspire-insubstance-com-18c834__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://insubstance.com/pro",
+        "full": "shots/_proposed/siteinspire-insubstance-com-18c834__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "furniture",
+      "home-goods"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with centered text overlay, followed by a series of asymmetrical grid layouts for product showcases."
+    },
+    {
+      "kind": "layout",
+      "note": "Generous use of negative space around product images and text blocks, creating an airy and uncluttered presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Small, uppercase sans-serif labels are consistently used for product categories, navigation items, and secondary information, contrasting with larger, more expressive headings."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black and white dominates the UI, allowing product photography and occasional video elements to introduce subtle color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls slower than the foreground text and small decorative icons."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transitions from a transparent background to a solid white with a subtle shadow and remains fixed at the top of the viewport once the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "New content sections, including large product showcases and a full-width video element, are revealed into view as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product sections are introduced with minimal text labels (e.g., 'COLLECTION') and a 'SHOW ALL' link, maintaining a clean, gallery-like presentation rather than detailed descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax scrolling effect where the background image moves at a slower rate than the foreground content, creating a sense of depth.",
+    "A sticky header navigation dynamically changes its background from transparent to opaque white and gains a subtle drop shadow once the user scrolls beyond the initial hero viewport.",
+    "Sections of the page, including large product imagery and a full-width video element (utilizing `video-hero` tech), are revealed into the viewport as the user scrolls, appearing as distinct content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "surface"
+      },
+      {
+        "hex": "#E4E4E4",
+        "role": "divider"
+      },
+      {
+        "hex": "#A6A6A6",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#D9C9D1",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately sized (~2-3x body) with a clean, modern sans-serif, while labels are small and uppercase, creating a refined hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 characterized by generous padding around content blocks and ample negative space, particularly in the hero and product gallery sections."
+  },
+  "standout": "The site distinguishes itself through an extremely minimalist aesthetic that elevates product photography to an art form. The sophisticated use of negative space, subtle parallax in the hero, and the integration of video showcases create a gallery-like experience that feels more like an exhibition than a typical e-commerce site, emphasizing the design and artistry of the products.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.marineserre.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-marineserre-com-434dca.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-marineserre-com-434dca__scroll0.webp",
+      "shots/_proposed/siteinspire-marineserre-com-434dca__scroll1.webp",
+      "shots/_proposed/siteinspire-marineserre-com-434dca__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.marineserre.com/en/focus/denim",
+        "full": "shots/_proposed/siteinspire-marineserre-com-434dca__p2.webp"
+      },
+      {
+        "url": "https://www.marineserre.com/en/collection/bags",
+        "full": "shots/_proposed/siteinspire-marineserre-com-434dca__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage uses a dynamic grid layout that intersperses large, full-bleed editorial photography with smaller, uniform product image grids, creating a visually rich and varied browsing experience."
+    },
+    {
+      "kind": "type",
+      "note": "Text elements, including navigation and product labels, are consistently rendered in a clean, modern sans-serif typeface, often in uppercase and a light weight, maintaining a minimal and sophisticated aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is monochromatic (black, white, various greys) which allows the vibrant and diverse colors of the product photography to stand out as natural accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The site features no scroll-triggered content animations; elements simply appear as they scroll into the viewport. The navigation bar remains fixed at the top with a transparent background throughout scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are implicitly defined by the alternating pattern of large editorial images and dense product grids, rather than explicit dividers or background changes, contributing to a fluid, continuous scroll."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the dynamic grid, use a CSS grid system that allows for flexible column spans, enabling large images to occupy multiple grid tracks while smaller product images maintain a consistent aspect ratio within their own tracks.",
+    "The navigation bar should be implemented with a `position: fixed` property and a transparent background, ensuring it remains visible and unobtrusive at the top of the viewport during scrolling.",
+    "Content appears directly as it scrolls into the viewport, without any scroll-triggered animations or transitions. This can be achieved by simply allowing standard browser scroll behavior without adding JavaScript-based reveal effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#acacac",
+        "role": "surface"
+      },
+      {
+        "hex": "#f9f9f9",
+        "role": "background"
+      },
+      {
+        "hex": "#b70202",
+        "role": "accent"
+      },
+      {
+        "hex": "#c28b00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "MonumentGrotesk",
+        "role": "heading"
+      },
+      {
+        "family": "BertholdAkzidenzGroteskBE-Light",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, often uppercase sans-serif headings and labels (~1.5x body) with very small, light-weight body text, creating a restrained and elegant hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 consistent padding within product grids, with larger, airy sections created by full-bleed editorial images."
+  },
+  "standout": "The site's distinctive design lies in its seamless integration of high-fashion editorial photography directly within the product browsing experience. It blurs the line between an online magazine and an e-commerce store, making the shopping journey feel more like an immersive brand exploration than a typical product catalog.",
+  "animation_tech": [],
+  "status": "proposed"
+}
