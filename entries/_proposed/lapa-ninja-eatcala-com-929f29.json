@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-eatcala-com-929f29",
+  "source": {
+    "url": "https://www.eatcala.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-eatcala-com-929f29.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-eatcala-com-929f29__scroll0.webp",
+      "shots/_proposed/lapa-ninja-eatcala-com-929f29__scroll1.webp",
+      "shots/_proposed/lapa-ninja-eatcala-com-929f29__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food",
+      "restaurant",
+      "delivery-service"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed hero image with a central, organically-shaped text overlay, transitioning to distinct content sections with varying background colors and centered content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a bold, condensed sans-serif font (Oswald) for strong impact, while navigation and some labels are set in uppercase, contrasting with a more neutral, readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A warm and inviting palette is used, featuring a vibrant yellow as a primary accent, complemented by rich browns, creams, and whites, with occasional pops of color from food photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header with the logo and navigation remains sticky at the top of the viewport. The hero section's background image subtly scales down and reveals more of the scene as the user scrolls, while a central text overlay also scales down proportionally."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually differentiated by alternating background colors (white, cream, dark brown, yellow) and distinct content layouts, creating clear visual breaks as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "The header is implemented as a sticky element that remains fixed at the top of the screen throughout the scroll. The hero section employs a background image that is set to cover its container, and as the user scrolls, the container's height or scale is adjusted, giving the impression of the image zooming out or parallaxing. A text overlay within the hero section is positioned centrally and scales down in tandem with the hero container's scroll-triggered transformation.",
+    "Content is presented in a mix of full-width sections and contained grids. Feature cards and product listings use a simple grid layout with subtle rounded corners and consistent padding."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FBBC04",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F0E3",
+        "role": "background"
+      },
+      {
+        "hex": "#4A3B30",
+        "role": "surface"
+      },
+      {
+        "hex": "#F05022",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display sans-serif for the hero text, with large, bold, uppercase headings (~2-3x body) and a smaller, readable sans-serif for body text.",
+    "radius": "Subtle rounded corners on buttons and content cards, with sharper edges for overall section blocks and images.",
+    "spacing": "Balanced density overall, with an airy hero section and application feature block, transitioning to a more compact grid for food items and feature cards."
+  },
+  "standout": "The site's standout feature is its distinctive, hand-drawn, organic blob shape used as a background for the main hero text, which adds a playful and unique character to the otherwise clean design. This, combined with the rich, full-bleed food photography, creates a highly appetizing and memorable first impression.",
+  "animation_tech": [],
+  "status": "proposed"
+}

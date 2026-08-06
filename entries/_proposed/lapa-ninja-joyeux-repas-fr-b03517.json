@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-joyeux-repas-fr-b03517",
+  "source": {
+    "url": "https://www.joyeux-repas.fr/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-joyeux-repas-fr-b03517.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-joyeux-repas-fr-b03517__scroll0.webp",
+      "shots/_proposed/lapa-ninja-joyeux-repas-fr-b03517__scroll1.webp",
+      "shots/_proposed/lapa-ninja-joyeux-repas-fr-b03517__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-event",
+      "catering",
+      "event-production"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed hero image sets the stage, followed by a grid-based layout for services and project showcases, maintaining a clean and spacious feel."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a striking, oversized, rounded sans-serif for the main hero title, contrasting with a more traditional serif for body text and a clean sans-serif for navigation and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, warm orange (#ff5224) is used as a dominant accent and background color, providing energy and brand recognition, especially in the footer and sticky navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image of plates scrolls at a slower rate than the foreground text, creating depth. The header transforms from transparent to a solid orange bar with a smaller logo and white text upon scrolling down."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a distinctive, full-width section featuring large-scale, whimsical white line-art illustrations of people dining and celebrating on a vibrant orange background."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a background image that moves at a different speed than the overlaying text content, creating a subtle parallax effect as the user scrolls. This can be achieved using CSS transforms or JavaScript-based scroll libraries.",
+    "The site's header dynamically changes its appearance upon scroll: initially transparent over the hero, it transitions to a solid background color with adjusted text and logo sizing once the user scrolls past the hero section. This effect is typically managed with JavaScript event listeners that add/remove classes based on scroll position.",
+    "Given the detected GSAP animation tech, it's highly probable that content sections are revealed with scroll-triggered animations, such as elements fading or sliding into view as they enter the viewport, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff5224",
+        "role": "accent"
+      },
+      {
+        "hex": "#f1ede6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: very heavy rounded sans-serif",
+        "role": "display"
+      },
+      {
+        "family": "Merriweather",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Oversized, very bold, rounded display headings (~5x body) with a balanced mix of traditional serif for body text and clean sans-serif for labels and navigation.",
+    "radius": "Subtle rounding on buttons and image cards, maintaining a soft but not overly playful edge.",
+    "spacing": "Airy in the hero and between major sections, transitioning to a balanced density within content grids for readability and visual hierarchy."
+  },
+  "standout": "The site's most distinctive feature is its playful yet sophisticated brand identity, conveyed through the unique, oversized hero typography and the 'after-party' aesthetic of the hero image. This is further reinforced by the vibrant orange and the whimsical line-art illustrations in the footer, creating a memorable and celebratory feel for a food event agency.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

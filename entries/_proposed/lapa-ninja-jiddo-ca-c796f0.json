@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-jiddo-ca-c796f0",
+  "source": {
+    "url": "https://www.jiddo.ca/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-jiddo-ca-c796f0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-jiddo-ca-c796f0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-jiddo-ca-c796f0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-jiddo-ca-c796f0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "tea",
+      "gourmet-products"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Product collections are presented in a clean, multi-column grid layout, allowing each item to have its own descriptive text and visual space."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse color palette is introduced through the product packaging itself, contrasting against a predominantly white and minimalist site background."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used to introduce sections, often in a bright accent color, providing strong visual hierarchy against smaller, legible body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar and logo remain fixed at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A cookie consent banner appears from the bottom of the screen upon initial scroll, overlaying content."
+    },
+    {
+      "kind": "section",
+      "note": "Abstract, organic wavy lines and geometric shapes are used as decorative background elements to add visual interest and a sense of artistry to various sections."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky header, maintaining its position at the top of the browser window during scroll. A cookie consent banner is revealed from the bottom of the viewport once the user initiates scrolling.",
+    "Product displays utilize a flexible grid system to arrange items, each featuring an image, title, and brief description, ensuring readability and visual appeal.",
+    "Decorative background elements, including wavy lines and abstract shapes, are positioned to float around content sections, adding a dynamic yet subtle visual texture without obscuring information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#F75000",
+        "role": "accent"
+      },
+      {
+        "hex": "#F75000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2-3x body) provide strong visual anchors, complemented by smaller, highly legible body text and uppercase labels.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, while product packaging features distinct cylindrical forms.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and a more compact, organized spacing within product description blocks."
+  },
+  "standout": "The site distinguishes itself through the artful integration of highly colorful and visually rich product packaging against a clean, minimalist white canvas. This, combined with abstract, organic background graphics, creates a premium and sophisticated brand identity that feels both modern and artistic.",
+  "animation_tech": [],
+  "status": "proposed"
+}

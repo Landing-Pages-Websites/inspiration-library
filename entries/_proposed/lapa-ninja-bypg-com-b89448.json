@@ -1,0 +1,98 @@
+{
+  "id": "lapa-ninja-bypg-com-b89448",
+  "source": {
+    "url": "https://www.bypg.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-bypg-com-b89448.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-bypg-com-b89448__scroll0.webp",
+      "shots/_proposed/lapa-ninja-bypg-com-b89448__scroll1.webp",
+      "shots/_proposed/lapa-ninja-bypg-com-b89448__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "commercial-real-estate",
+      "property-development"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use full-bleed background colors (vibrant red or very light pink) to create strong visual breaks and define distinct content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in typography, pairing massive, bold, high-contrast serif headings with smaller, clean sans-serif body text and uppercase sans-serif labels for a dramatic visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-impact, two-tone primary color scheme of vibrant red and very light pink, with white text on red and dark text on pink, creating a bold and distinctive brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The header (logo and navigation links) is sticky, maintaining its initial light pink background and white text/logo throughout the scroll, providing a constant navigation anchor."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (text blocks, images, number counters) reveal with a staggered fade-up or slide-in animation as they enter the viewport during scroll."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, use a library like GSAP ScrollTrigger to orchestrate element reveals. Implement a sticky header that maintains its initial background color and content styling as the user scrolls. Apply fade-in and subtle slide-up animations to sections and their internal elements as they become visible in the viewport, staggering the animations for a dynamic reveal effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#E60023",
+        "role": "accent"
+      },
+      {
+        "hex": "#FCE8E8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Wedding Gothic ATF",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Filson Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~5-6x body text) create dramatic impact, contrasted with smaller, clean sans-serif body text and uppercase sans-serif labels.",
+    "radius": "Sharp corners dominate most elements and sections, with subtle rounding applied only to interactive elements like CTA buttons and input fields.",
+    "spacing": "An airy and expansive feel in hero and key sections, using large content blocks and generous vertical spacing, while maintaining a balanced density within feature grids."
+  },
+  "standout": "The site's design is distinctive for its audacious and unapologetic use of a vibrant, full-bleed red as a primary brand color, combined with monumental, high-contrast serif typography. This creates an extremely bold, almost aggressive, visual identity that immediately grabs attention and conveys a strong sense of confidence and luxury.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}
