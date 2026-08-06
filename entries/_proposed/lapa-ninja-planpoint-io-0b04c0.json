@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-planpoint-io-0b04c0",
+  "source": {
+    "url": "https://www.planpoint.io/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-planpoint-io-0b04c0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-planpoint-io-0b04c0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-planpoint-io-0b04c0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-planpoint-io-0b04c0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "real-estate",
+      "property-management"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-bleed dark blue, light grey, and white backgrounds to visually segment content, creating clear breaks and hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Key phrases within large, bold headings are highlighted with a vibrant blue gradient, drawing attention to core value propositions."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep navy blue, crisp white, and an energetic electric blue accent is used consistently across backgrounds, text, and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background moves slower than the foreground text as the user scrolls. Content sections below the hero reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections consistently pair a text description with a corresponding product screenshot or mockup, alternating their left/right placement for visual variety."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed dark background with large, high-contrast white text, where specific keywords are emphasized with a vibrant blue gradient overlay. A subtle parallax effect is applied to the background image or gradient, making it scroll at a slower rate than the foreground content.",
+    "A sticky navigation bar remains fixed at the top of the viewport, maintaining its dark background and white text styling without shrinking or changing appearance upon scroll.",
+    "Content sections are revealed using scroll-triggered animations, typically a subtle fade-up or slide-in effect, as they enter the user's viewport. This system likely leverages CSS keyframes for the individual element animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A0E2A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00C6FF",
+        "role": "accent-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (e.g., ~4-5x body text) create strong visual impact, complemented by clean, readable body text.",
+    "radius": "Subtle rounded corners are applied to buttons and card-like elements, providing a soft, modern touch.",
+    "spacing": "The hero section is airy with generous padding, while content sections maintain a balanced density with ample whitespace around elements."
+  },
+  "standout": "The site's distinctive use of a vibrant blue gradient to highlight key words within large, bold headings, set against a deep navy background, creates a powerful and modern visual identity. The seamless integration of a horizontal scrolling gallery for showcasing global presence also adds a unique interactive element.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

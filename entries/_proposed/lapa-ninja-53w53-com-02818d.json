@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-53w53-com-02818d",
+  "source": {
+    "url": "https://53w53.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-53w53-com-02818d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-53w53-com-02818d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-53w53-com-02818d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-53w53-com-02818d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "luxury-real-estate",
+      "residential-property"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layouts are frequently used, pairing large, evocative text on one side with a full-bleed image or a small grid of images on the other, creating visual interest and dynamic flow."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section headings utilize an extremely large, wide sans-serif typeface, creating a bold, editorial statement, contrasted with smaller, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted palette of deep taupe, off-white, and dark grey is used for backgrounds and text, allowing the rich, full-bleed photography and video to provide the primary visual color and mood."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation undergoes a significant transformation upon scroll: from an initially transparent, minimal state with 'Menu' to a solid, dark-taupe sticky bar displaying a full set of categorized navigation links."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slide-up effect as they enter the viewport, creating a smooth, engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a distinct, full-width section with a solid dark-taupe background, featuring large, prominent branding text and a structured grid of informational links and contact details."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video with large, white overlay text that appears to be fixed or slow-scrolling, creating a parallax-like effect against the moving video content.",
+    "The main navigation bar dynamically transforms: initially transparent and minimal, it transitions to a solid background with a full set of navigation links, centered branding, and a sticky position after the user scrolls past the hero section.",
+    "Sections below the hero are revealed using a scroll-triggered animation, where elements subtly fade into view and slide upwards as they enter the viewport, enhancing content discovery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#8a6c60",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#ebebeb",
+        "role": "background"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "hardt",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Noto Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, wide sans-serif hero text (~6x body) with large, elegant section headings (~3x body), complemented by standard body text and small, often uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between major sections, with balanced density within content blocks."
+  },
+  "standout": "The site's standout feature is its sophisticated and dramatic sticky navigation transformation, which completely reconfigures its content and appearance upon scroll, combined with the use of extremely large, elegant typography and full-bleed luxury imagery to create a high-end editorial experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

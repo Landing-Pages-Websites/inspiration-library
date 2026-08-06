@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-isleofskyewhisky-com-c40e79",
+  "source": {
+    "url": "https://www.isleofskyewhisky.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-isleofskyewhisky-com-c40e79.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-isleofskyewhisky-com-c40e79__scroll0.webp",
+      "shots/_proposed/lapa-ninja-isleofskyewhisky-com-c40e79__scroll1.webp",
+      "shots/_proposed/lapa-ninja-isleofskyewhisky-com-c40e79__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "spirits",
+      "whiskey",
+      "luxury-beverages"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width content sections with distinct background colors (dark charcoal and creamy off-white) create clear visual breaks and guide the user vertically through the narrative."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic typographic hierarchy contrasts an oversized, highly decorative display font for key brand messages and historical dates with a classic, elegant serif for section headings and a clean, modern sans-serif for body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, limited palette of deep charcoal, creamy off-white, and a rich, muted gold/amber is used consistently across backgrounds, text, and accent elements to convey luxury and heritage."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them reveal with a subtle fade-up or slide-up animation as they enter the viewport during scrolling. A large, stylized numerical graphic ('1913') appears as a fixed, semi-transparent background element that reveals behind scrolling content."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections feature a clean, balanced grid layout that prominently showcases bottle imagery alongside concise, elegant descriptive text, maintaining a premium aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system, likely using GSAP ScrollTrigger in conjunction with a smooth scrolling library like Locomotive Scroll. This system orchestrates the reveal of content sections and their internal elements (text, images) with a staggered fade-up or slide-up effect as they become visible in the viewport.",
+    "A large, decorative numerical element is implemented as a fixed or very slow-parallaxing background graphic that is revealed or faded into view as foreground content scrolls over it, creating a layered depth effect.",
+    "The initial hero background image utilizes a subtle parallax effect, moving at a slower rate than the foreground content to enhance the sense of depth and visual engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F5EE",
+        "role": "surface"
+      },
+      {
+        "hex": "#B89A6B",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#4A4A4A",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Bee",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Sharktooth",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Aktiv Grotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A dramatic contrast between oversized, decorative display headings (~6-8x body) and elegant, legible serif headings (~2-3x body), supported by a clean, balanced sans-serif for body text and small uppercase labels.",
+    "radius": "Sharp (predominantly square edges for images and containers, with minimal rounding).",
+    "spacing": "Airy (generous vertical spacing between sections and within content blocks, creating a premium, unhurried feel)."
+  },
+  "standout": "The site's distinctive use of a large, decorative numerical graphic ('1913') as a fixed, revealing background element behind scrolling content creates a unique sense of depth and historical gravitas. This, combined with the dramatic contrast between a highly ornate display font and a clean sans-serif, elevates the brand's heritage in a sophisticated, non-traditional way.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

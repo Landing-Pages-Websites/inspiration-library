@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-seasoned-koto-studio-991153",
+  "source": {
+    "url": "https://seasoned.koto.studio/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-seasoned-koto-studio-991153.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-seasoned-koto-studio-991153__scroll0.webp",
+      "shots/_proposed/lapa-ninja-seasoned-koto-studio-991153__scroll1.webp",
+      "shots/_proposed/lapa-ninja-seasoned-koto-studio-991153__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize full-bleed background gradients or solid colors to create distinct visual breaks and delineate content areas across the page."
+    },
+    {
+      "kind": "type",
+      "note": "Highly decorative, custom-illustrated display typography is used for major headings and brand statements, contrasting with a clean, legible sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and playful color palette combines pastel gradients with strong accent colors, often used as background fills for entire sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The header containing the 'SEASONED' logo and date/channel information remains sticky at the top of the viewport, while the full-bleed hero video scrolls up and out of view to reveal subsequent content sections."
+    },
+    {
+      "kind": "section",
+      "note": "Content blocks frequently employ an asymmetrical layout, pairing large, evocative imagery or product displays with concise text descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video with custom-designed text overlays that are part of the initial viewport. As the user scrolls, this hero video scrolls up and off-screen, revealing the main content sections below it. The site uses standard browser scroll behavior for content reveal, with a sticky header element that persists at the top of the viewport.",
+    "Sections are visually separated by full-width background treatments, including vibrant linear gradients and solid pastel colors, creating a distinct visual rhythm down the page.",
+    "Key headings and brand statements are rendered using highly stylized, custom-illustrated typography, likely implemented as SVG or image assets, to achieve a unique, retro-inspired aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fbfbfb",
+        "role": "background"
+      },
+      {
+        "hex": "#f7c0c0",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffe08c",
+        "role": "cta"
+      },
+      {
+        "hex": "#90bcf3",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "gradient-end"
+      },
+      {
+        "hex": "#a0e0e0",
+        "role": "background"
+      },
+      {
+        "hex": "#b6b6b6",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Cooper Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, highly decorative display headings (~4-5x body) with significant character, contrasted with a clean, legible sans-serif for body text.",
+    "radius": "Sharp corners for most structural elements, with subtle rounding on product images and some interactive elements.",
+    "spacing": "Airy to balanced, with generous vertical spacing between full-width sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "This site's design is distinctive for its bold and playful embrace of highly stylized, almost retro-kitschy typography and imagery, particularly the custom-illustrated headings. It successfully blends this nostalgic aesthetic with modern full-bleed gradients and a video hero, creating a unique and memorable brand identity that feels both whimsical and professional. The literal and charming execution of the 'kitchen' theme throughout the visuals is particularly standout.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

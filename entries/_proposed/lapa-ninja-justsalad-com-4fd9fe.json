@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-justsalad-com-4fd9fe",
+  "source": {
+    "url": "https://www.justsalad.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-justsalad-com-4fd9fe.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-justsalad-com-4fd9fe__scroll0.webp",
+      "shots/_proposed/lapa-ninja-justsalad-com-4fd9fe__scroll1.webp",
+      "shots/_proposed/lapa-ninja-justsalad-com-4fd9fe__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-service",
+      "restaurant",
+      "healthy-eating"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use a split layout, combining large, vibrant food photography on one side with bold typography and concise calls to action on the other, often with a strong background color."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs an extremely bold, custom-designed wordmark for 'JUST SALAD' that serves as a primary graphic element, shrinking significantly in the sticky header and appearing oversized in the footer."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep indigo and bright blue is used for backgrounds and text, punctuated by an energetic red for calls to action, creating a distinctive and memorable brand presence."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll: the 'JUST SALAD' logo shrinks dramatically, the header height reduces, and it gains a solid bright blue background, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background imagery (e.g., Ferris wheel, hand holding salad) moves at a slightly slower rate than the foreground text as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Product and feature sections are presented in a clean grid layout, each item featuring a prominent image, a clear title, and concise descriptive text, often with a 'LUNCH IT' call to action."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header dynamically adjusts its height and content scale, shrinking the brand logo and adding a solid background color as the user scrolls past the initial hero section.",
+    "Hero section elements are animated with a subtle parallax, where background visuals move at a slower scroll rate than foreground content, creating a sense of depth.",
+    "Content sections and individual elements likely reveal themselves with staggered fade-up or slide-in animations as they enter the viewport, orchestrated by GSAP for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#140864",
+        "role": "brand-primary-dark"
+      },
+      {
+        "hex": "#4188ff",
+        "role": "brand-primary-light"
+      },
+      {
+        "hex": "#f4f2ef",
+        "role": "background-light"
+      },
+      {
+        "hex": "#ff3c31",
+        "role": "cta"
+      },
+      {
+        "hex": "#080808",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#f2f3f3",
+        "role": "surface-card"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Neue Plak Extended",
+        "role": "display"
+      },
+      {
+        "family": "Neue Plak",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Plak Condensed",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase display headings (e.g., 'JUST SALAD' logo) are used for strong brand impact, contrasting with large, bold section headings (~2-3x body) and smaller, legible body text.",
+    "radius": "Subtle rounding on buttons and product cards, with most other elements maintaining sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, while product grids maintain a more balanced density."
+  },
+  "standout": "The site's most distinctive feature is its incredibly bold and custom-designed 'JUST SALAD' wordmark, which functions as a dominant graphic element across the site, dynamically shrinking in the sticky header and appearing as a massive, playful graphic in the footer. This strong typographic branding, combined with vibrant, full-bleed food photography, creates an energetic and memorable identity.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-morgenmete-com-a4398f",
+  "source": {
+    "url": "https://www.morgenmete.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-morgenmete-com-a4398f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-morgenmete-com-a4398f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-morgenmete-com-a4398f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-morgenmete-com-a4398f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "publishing",
+      "food-media",
+      "lifestyle"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, custom-illustrated logotype dynamically overlaying a vibrant, art-directed photograph, creating a visually rich and unique brand introduction."
+    },
+    {
+      "kind": "type",
+      "note": "Distinctive use of a highly stylized, organic display font for the main brand identity, contrasted with a clean, modern sans-serif for body text and functional elements, creating a playful yet legible hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, warm, and earthy primary palette (browns, creams, purples) is consistently accented by vibrant, natural food colors within the photography and subtle UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's main image and large logotype subtly scale down and parallax as the user scrolls, with the logotype smoothly transitioning into a sticky header element at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A repeating, full-width banner with bold, uppercase text ('IMPORTANT MEAL OF THE DAY') acts as a thematic divider and visual anchor between distinct content blocks, reinforcing the site's core message."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, custom-drawn logotype positioned over a full-bleed, high-quality photograph. As the user scrolls, the logotype scales down and transitions into a sticky header, while the background image subtly parallaxes and scales, creating a dynamic scroll experience using GSAP.",
+    "Content sections below the hero are revealed with a subtle slide-up or fade-in animation as they enter the viewport, creating a smooth flow down the page.",
+    "A fixed-position navigation bar at the top of the page transforms from a transparent state with minimal branding to a solid background with a prominent logo and navigation links after initial scroll, providing persistent access to navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f0e0",
+        "role": "background"
+      },
+      {
+        "hex": "#9c7c6c",
+        "role": "surface"
+      },
+      {
+        "hex": "#6a4a7a",
+        "role": "accent"
+      },
+      {
+        "hex": "#f05022",
+        "role": "brand-primary"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#fbbc04",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GT Alpina",
+        "role": "display"
+      },
+      {
+        "family": "Neue Freigeist",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, organic display font for the brand name (~4x body) with clean, modern sans-serif headings (~2x body) and smaller, legible body text.",
+    "radius": "Subtle rounded corners on buttons and image cards, with some elements having sharp edges.",
+    "spacing": "Balanced spacing throughout, with an airy hero section and a more dense, but still readable, feature grid."
+  },
+  "standout": "The site's distinctive use of a custom, organic display typeface for its brand identity, combined with art-directed, slightly surreal photography, creates a unique editorial and playful aesthetic that stands apart from typical marketing sites. The seamless transition of the hero logotype into a sticky header is a particularly elegant touch that enhances brand recall.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}
