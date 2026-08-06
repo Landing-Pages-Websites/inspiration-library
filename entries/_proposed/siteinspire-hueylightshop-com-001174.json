@@ -1,0 +1,121 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.hueylightshop.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-hueylightshop-com-001174.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-hueylightshop-com-001174__scroll0.webp",
+      "shots/_proposed/siteinspire-hueylightshop-com-001174__scroll1.webp",
+      "shots/_proposed/siteinspire-hueylightshop-com-001174__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.hueylightshop.com/products/liese",
+        "full": "shots/_proposed/siteinspire-hueylightshop-com-001174__p2.webp"
+      },
+      {
+        "url": "https://www.hueylightshop.com/collections/all",
+        "full": "shots/_proposed/siteinspire-hueylightshop-com-001174__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "home-goods",
+      "lighting",
+      "artisan-crafts",
+      "luxury-retail"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Editorial-style asymmetrical layouts are used for content sections, often pairing large, evocative imagery with smaller, carefully placed text blocks, creating a magazine-like feel."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is consistently used for prominent headings and display text, providing an elegant and classic aesthetic, while a clean sans-serif is reserved for body copy and navigation for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette dominates, featuring warm off-white backgrounds, deep charcoal text, and subtle accents of blush, deep olive, and muted greys, contributing to a refined and artisanal feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight upward translation as they enter the viewport, creating a gentle and elegant flow down the page. A persistent newsletter signup bar slides up from the bottom of the viewport on initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The site frequently integrates hand-drawn, illustrative elements within content sections, often depicting architectural or product sketches, which reinforces the artisanal and crafted brand identity."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations (likely GSAP or similar) to reveal content sections with a subtle fade-in and slight upward translation as they enter the viewport, creating a smooth and engaging scroll experience. The main navigation bar remains fixed at the top of the screen, maintaining accessibility throughout the scroll. A persistent newsletter signup bar slides up from the bottom of the viewport on initial scroll, remaining fixed until dismissed.",
+    "Full-bleed hero video is used at the top of the page, often with a subtle dark overlay to ensure text contrast. Product listings are presented in a clean, spacious grid layout with consistent card styling. Editorial content sections are designed with generous white space, combining large, high-quality photography with carefully typeset text blocks and integrated hand-drawn illustrations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f6f2",
+        "role": "background"
+      },
+      {
+        "hex": "#1c1c1c",
+        "role": "text"
+      },
+      {
+        "hex": "#35161f",
+        "role": "accent"
+      },
+      {
+        "hex": "#d7afac",
+        "role": "subtle-accent"
+      },
+      {
+        "hex": "#6c757d",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#374454",
+        "role": "dark-grey-elements"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "EB Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif headings are significantly larger than the body text, with a refined, classic feel, while sans-serif body text is clear and moderately sized for readability.",
+    "radius": "Sharp, with minimal rounding on interactive elements like buttons and input fields, maintaining a clean and sophisticated edge.",
+    "spacing": "Airy, with generous padding and margins around sections and elements, creating a sense of calm and allowing content to breathe, contributing to a luxurious feel."
+  },
+  "standout": "The site distinguishes itself by seamlessly blending high-end product display with an editorial, almost artisanal journal aesthetic. The consistent integration of hand-drawn illustrations and a muted, earthy color palette, combined with the elegant typography, creates a distinctive mood that feels more like a curated art gallery or a luxury magazine than a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
