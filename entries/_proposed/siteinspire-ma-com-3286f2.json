@@ -1,0 +1,116 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://ma.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-ma-com-3286f2.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-ma-com-3286f2__scroll0.webp",
+      "shots/_proposed/siteinspire-ma-com-3286f2__scroll1.webp",
+      "shots/_proposed/siteinspire-ma-com-3286f2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://ma.com/news",
+        "full": "shots/_proposed/siteinspire-ma-com-3286f2__p2.webp"
+      },
+      {
+        "url": "https://ma.com/forena.html",
+        "full": "shots/_proposed/siteinspire-ma-com-3286f2__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "interior-design",
+      "real-estate-development"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent grid layout is used for project and news listings, featuring images with a fixed aspect ratio and titles positioned directly below."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings and prominent titles utilize an elegant serif typeface, while body text, project names, and navigation elements employ a clean, legible sans-serif font."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a muted, sophisticated color palette, primarily using stark white and deep black/dark grey for backgrounds and text, accented by an earthy olive green for specific content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar, including the logo and menu, remains fixed at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero image features a subtle parallax effect, where the background image appears to zoom in or move slower than the foreground content as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are visually delineated by alternating background colors (white, olive green, dark grey, black) to create clear visual breaks and hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation (logo and menu) is implemented as a sticky element that remains fixed at the top of the viewport as the user scrolls, ensuring constant access to primary navigation.",
+    "The initial hero image uses a fixed background or subtle parallax scrolling effect, where the image appears to zoom or move slower than the foreground content as the page scrolls, creating a sense of depth and visual interest.",
+    "Content sections are presented in a clean, vertical stack, with project and news items arranged in responsive grids that maintain consistent image aspect ratios, allowing for easy browsing of the portfolio."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#161616",
+        "role": "text"
+      },
+      {
+        "hex": "#6C7B5A",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif headings are significantly larger and more decorative than the clean sans-serif body text, with project titles being a medium-sized sans-serif.",
+    "radius": "Sharp corners are consistently used throughout the design, with no visible rounded elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within content grids, creating a sense of luxury and clarity."
+  },
+  "standout": "The site's standout feature is its sophisticated and understated elegance, achieved through a combination of full-bleed, high-quality architectural photography, a restrained color palette, and a classic serif/sans-serif typography pairing. The design prioritizes showcasing the work with minimal distraction, creating an immersive portfolio experience that feels more like an art gallery than a typical corporate site.",
+  "animation_tech": [],
+  "status": "proposed"
+}

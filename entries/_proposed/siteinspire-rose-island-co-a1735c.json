@@ -1,0 +1,108 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.rose-island.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-rose-island-co-a1735c.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-rose-island-co-a1735c__scroll0.webp",
+      "shots/_proposed/siteinspire-rose-island-co-a1735c__scroll1.webp",
+      "shots/_proposed/siteinspire-rose-island-co-a1735c__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "film",
+      "history",
+      "documentary"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background colors and content arrangements, creating a strong visual break between narrative segments."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast between oversized, geometric display headings and small, standard sans-serif body text, used to emphasize key narrative points."
+    },
+    {
+      "kind": "color",
+      "note": "A limited, high-contrast palette centered around a vibrant orange, black, and light greys/dark blues, used to define distinct section moods."
+    },
+    {
+      "kind": "motion",
+      "note": "A dramatic scroll-triggered reveal of a full-screen 3D WebGL scene, followed by abrupt background color changes and content reveals as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Narrative-driven sections that unfold sequentially, each with a distinct visual style, from a dynamic 3D hero to historical image blocks and typographic statements."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-screen WebGL or canvas rendering to display a dynamic 3D scene of the island, with large, semi-transparent text overlaid directly onto the rendered environment.",
+    "Scroll-triggered animations are employed to transition between full-bleed sections, changing the background color dramatically and revealing new content blocks with a hard cut or quick fade as they enter the viewport.",
+    "Large, custom-font headings are used as primary visual elements, often occupying significant screen real estate and contrasting sharply with smaller body text to create visual hierarchy and impact."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#2C3E50",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Orbitron",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, geometric display headings (~4-5x body text size) with small, regular-weight body text and even smaller uppercase labels.",
+    "radius": "sharp \u2014 no visible rounded corners on elements or buttons.",
+    "spacing": "balanced to airy; the hero is very airy, while content sections maintain generous vertical spacing."
+  },
+  "standout": "The site's distinctive feature is its dramatic use of a full-screen, interactive 3D WebGL scene as the primary hero, which seamlessly transitions into bold, high-contrast typographic and image-based narrative sections. The abrupt shifts in visual style and color palette between these immersive sections create a unique storytelling experience.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

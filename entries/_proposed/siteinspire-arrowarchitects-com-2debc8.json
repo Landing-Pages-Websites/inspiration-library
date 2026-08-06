@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://arrowarchitects.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-arrowarchitects-com-2debc8.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-arrowarchitects-com-2debc8__scroll0.webp",
+      "shots/_proposed/siteinspire-arrowarchitects-com-2debc8__scroll1.webp",
+      "shots/_proposed/siteinspire-arrowarchitects-com-2debc8__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://arrowarchitects.com/page/news",
+        "full": "shots/_proposed/siteinspire-arrowarchitects-com-2debc8__p2.webp"
+      },
+      {
+        "url": "https://arrowarchitects.com/page/about",
+        "full": "shots/_proposed/siteinspire-arrowarchitects-com-2debc8__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "architecture",
+      "development"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large, high-quality imagery with concise text blocks, often with the image occupying more horizontal space than the text."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established between large, elegant serif headings and clean, highly legible sans-serif body text, creating a sophisticated and authoritative voice."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a refined, earthy color palette featuring a dominant dark forest green and a warm off-white/beige, accented by a subtle, warm tan for highlights and specific textual elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The cookie consent banner remains sticky to the bottom-right of the viewport, maintaining its position as the user scrolls, while main content sections scroll into view without complex entrance animations."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by generous vertical spacing and alternating background colors (dark green and warm off-white), providing a clear visual rhythm and hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position element is anchored to the bottom right of the viewport, ensuring it remains visible and accessible during vertical scrolling. Content sections are presented in a standard linear flow, appearing sequentially as the user scrolls down the page without additional scroll-triggered reveals or animations beyond the default browser behavior.",
+    "The hero section utilizes a full-width background image or video (as hinted by 'video-hero') with a simple text overlay, establishing a strong visual presence without complex interactive elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#faf5eb",
+        "role": "background"
+      },
+      {
+        "hex": "#1e3c32",
+        "role": "surface"
+      },
+      {
+        "hex": "#1e3c32",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#dcb496",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant serif headings (~3-4x body) with clean, legible sans-serif body text and small uppercase labels for navigation and metadata.",
+    "radius": "sharp \u2014 all elements, images, and buttons feature crisp, unrounded corners.",
+    "spacing": "airy \u2014 generous vertical spacing between sections and ample padding within content blocks create a sense of openness and luxury."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated blend of classic serif typography with a modern, clean layout and a muted, earthy color palette. This combination, paired with large, high-quality project imagery, creates an authoritative yet elegant brand presence that feels both timeless and contemporary.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
