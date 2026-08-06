@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0544",
+  "source": {
+    "url": "https://www.raus.life/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0544.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0544__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0544__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0544__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "hospitality",
+      "cabin-rentals"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, prominent brand logo and tagline on the left, balanced by a dynamic collage of images with rounded corners on the right."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive brand palette combining a deep forest green for branding elements, a warm yellow for interactive components, and a light, creamy off-white for backgrounds, accented by a bright orange and light blue for promotional banners."
+    },
+    {
+      "kind": "type",
+      "note": "Bold, large sans-serif typography is used for headings and the primary brand identity, creating a strong visual presence, complemented by a clean, readable sans-serif for body text."
+    },
+    {
+      "kind": "motion",
+      "note": "A transforming sticky header that shrinks in height and changes its background color and content layout upon scroll, and a search bar that slides up from the bottom of the viewport as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently employ a two-column layout, pairing descriptive text with either a unique graphic illustration or a grid of image-based content cards with consistent rounded corners."
+    }
+  ],
+  "technique_notes": [
+    "The header implements a scroll-triggered transformation: initially a full-height promotional banner and separate navigation, it collapses into a compact, sticky bar with a changed background and integrated CTA as the user scrolls down. This effect is likely achieved using CSS keyframes or JavaScript to modify element styles and classes based on scroll position.",
+    "A prominent search bar is revealed with a slide-up animation from the bottom of the screen as the user scrolls past the initial hero content, then scrolls away again with further page depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f6f0",
+        "role": "background"
+      },
+      {
+        "hex": "#186a3b",
+        "role": "brand-green"
+      },
+      {
+        "hex": "#ffbc00",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#dd5000",
+        "role": "cta-orange"
+      },
+      {
+        "hex": "#a6dfff",
+        "role": "top-banner-blue"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "neue-haas-unica",
+        "role": "heading"
+      },
+      {
+        "family": "neue-haas-unica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, readable sans-serif for body text and smaller labels, maintaining a clear visual hierarchy.",
+    "radius": "Rounded corners are consistently applied to images, buttons, and input fields, contributing to a soft, approachable, and modern aesthetic.",
+    "spacing": "Airy and balanced spacing, particularly in the hero and main content sections, providing ample whitespace around elements for clarity and a relaxed feel."
+  },
+  "standout": "The site's design is distinctive for its bold, green brand identity combined with a warm, inviting color palette and consistently rounded elements, creating a unique blend of modern minimalism and playful approachability. The dynamic, transforming sticky header and the sliding search bar add a layer of interactive sophistication.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

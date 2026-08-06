@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0551",
+  "source": {
+    "url": "https://www.triplettapizza.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0551.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0551__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0551__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0551__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-service",
+      "restaurant",
+      "pizzeria"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between a warm cream background and a deep forest green background, creating clear visual breaks and a strong brand identity."
+    },
+    {
+      "kind": "type",
+      "note": "Heavy reliance on a single, extremely bold, condensed, uppercase sans-serif font (Oswald) for all major headings and prominent text, creating a poster-like, impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive brand palette of deep forest green, warm cream, and a muted olive green is used consistently for backgrounds, text, and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The large, central hero logo/illustration dynamically shrinks and repositions to the top-left corner, transforming into a compact sticky header as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle upward slide and fade-in effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Wall of Love' section features a dynamic, overlapping collage of lifestyle and food photography, breaking from standard grid layouts."
+    }
+  ],
+  "technique_notes": [
+    "The hero section's main illustrative logo transforms into a sticky header by scaling down and translating its position to the top-left of the viewport, likely using GSAP for smooth animation triggered by scroll position.",
+    "New content sections are revealed as the user scrolls, appearing with a subtle upward translation and opacity fade-in, suggesting the use of a scroll-triggered animation library like GSAP ScrollTrigger or CSS keyframes for staggered reveals.",
+    "The site uses CSS keyframes for subtle decorative animations, such as the radiating lines around the 'MON RESTAURANT' icon in the dark green descriptive section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fef8dd",
+        "role": "background"
+      },
+      {
+        "hex": "#004632",
+        "role": "background"
+      },
+      {
+        "hex": "#bdd0a0",
+        "role": "text"
+      },
+      {
+        "hex": "#0b0b0b",
+        "role": "text"
+      },
+      {
+        "hex": "#8b9a46",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed, and extremely bold uppercase headings (~5-10x body text) create a strong, almost billboard-like presence, contrasted with a more standard-sized, readable sans-serif for body copy.",
+    "radius": "Sharp corners are used consistently across all elements, including images, buttons, and section boundaries.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within text blocks, creating a comfortable reading experience. The hero section is particularly airy."
+  },
+  "standout": "The site's most distinctive feature is the dynamic transformation of its large, illustrative hero logo into a compact, sticky header on scroll, combined with the bold, almost street-art aesthetic created by the oversized, condensed typography and unique color palette.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie"
+  ],
+  "status": "approved"
+}

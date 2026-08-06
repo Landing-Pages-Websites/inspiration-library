@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0521",
+  "source": {
+    "url": "https://www.elevatehomescriptions.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0521.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0521__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0521__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0521__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "home-services",
+      "home-warranty",
+      "insurance"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize full-width containers with alternating background colors, creating clear visual separation and guiding the user down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established between very large, bold serif headings for major section titles and clean, legible sans-serif text for body copy and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a warm and inviting color palette, primarily featuring a light peach/cream, a deep forest green, and an energetic orange/red accent for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content sections reveal with a subtle fade-in and slight upward translation effect, while the hero illustration exhibits a gentle parallax movement, scrolling at a different rate than the main text."
+    },
+    {
+      "kind": "section",
+      "note": "Illustrative graphics (e.g., house, appliances, phone) are integrated directly into section designs, serving as key visual elements rather than mere decorative additions."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky header, remaining fixed at the top of the viewport as the user scrolls down the page.",
+    "Content sections are revealed using scroll-triggered animations, likely leveraging a library like locomotive-scroll, which causes elements to fade in and subtly slide up as they enter the viewport.",
+    "The hero section features a large background illustration that scrolls at a slightly slower or faster rate than the foreground text content, creating a subtle parallax depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff9e7",
+        "role": "background"
+      },
+      {
+        "hex": "#f9d97b",
+        "role": "surface"
+      },
+      {
+        "hex": "#f86832",
+        "role": "cta"
+      },
+      {
+        "hex": "#242d23",
+        "role": "background"
+      },
+      {
+        "hex": "#141414",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (hero ~5-6x body) create a strong visual hierarchy, complemented by clear, readable sans-serif body text and smaller, often uppercase, sans-serif labels.",
+    "radius": "Subtle rounded corners on buttons and image cards provide a soft, friendly feel without being overly rounded or sharp.",
+    "spacing": "Generally airy, especially in the hero and between major sections, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "This site stands out with its inviting and warm color palette, which feels less corporate and more approachable for a home services brand. The combination of a playful, oversized serif for headlines and clean sans-serif for body text, along with subtle scroll-triggered reveals and parallax effects, creates a sophisticated yet friendly user experience that avoids generic marketing aesthetics.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

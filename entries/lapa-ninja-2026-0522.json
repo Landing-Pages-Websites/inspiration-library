@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-0522",
+  "source": {
+    "url": "https://escape.cafe/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0522.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0522__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0522__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0522__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "coffee",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, atmospheric photography is used as a background for large typographic statements, creating immersive section introductions."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, bold, uppercase sans-serif headings serve as primary visual anchors and section dividers, often spanning the full viewport width."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep charcoal/black and white dominates, punctuated by subtle, earthy accent colors and vibrant product photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero text 'GO AGAINST THE GRAIN' remains relatively fixed while its background image scrolls at a faster rate, creating a subtle parallax depth effect."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are introduced by monumental typographic statements that act as visual breaks and content anchors, rather than traditional small headings."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a fixed or slow-scrolling text layer positioned over a faster-scrolling background image to achieve a subtle parallax depth effect.",
+    "Major content sections are revealed with a subtle fade-in and slight upward translation as they enter the viewport, likely orchestrated with a library like GSAP ScrollTrigger.",
+    "A horizontal scrolling carousel is used for product categories, allowing users to browse a wide range of options without vertical page bloat."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#151515",
+        "role": "primary-dark-text-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "primary-light-text-background"
+      },
+      {
+        "hex": "#919191",
+        "role": "secondary-text-icon-grey"
+      },
+      {
+        "hex": "#64c264",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#334fb4",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#1e293b",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Molitor",
+        "role": "heading"
+      },
+      {
+        "family": "TWK Lausanne",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Hero and section headings are dramatically oversized (up to ~8x body text) and bold, creating strong visual hierarchy, while body and label text is clean and legible.",
+    "radius": "Sharp corners are consistently applied to all interactive elements, buttons, and image containers.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and ample padding around content blocks, creating a sense of spaciousness, though product grids are more compact."
+  },
+  "standout": "The site's distinctive use of monumental, full-width typography as primary section dividers, combined with atmospheric, full-bleed photography and a high-contrast palette, creates a powerful, editorial, and almost brutalist aesthetic that feels highly curated and premium.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

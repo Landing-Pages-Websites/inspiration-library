@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-0518",
+  "source": {
+    "url": "https://drinkdouze.com/en?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0518.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0518__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0518__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0518__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "alcohol",
+      "non-alcoholic-drinks"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Major content blocks, including the hero and footer, are presented within large, full-width rounded-corner 'cards' that scroll independently, creating a distinct visual separation and softness."
+    },
+    {
+      "kind": "type",
+      "note": "A highly expressive, elegant serif font is used for primary headings and the brand logo, contrasting with a clean, readable sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy color palette of deep browns, terracotta oranges, and creamy off-whites dominates, creating a rich and inviting atmosphere, with the product's vibrant red-orange acting as a key accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar shrinks in height and gains a solid background color as the user scrolls down, becoming a sticky header. The hero section, contained within a large rounded card, scrolls up and out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Sections frequently feature prominent, high-quality product photography or lifestyle imagery, often integrated into asymmetrical layouts or full-bleed backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, the initial navigation bar should have a transparent background and a taller height. On scroll past a certain threshold, a CSS class is added that reduces its height, applies a solid background color, and fixes its position to the top of the viewport.",
+    "The hero and footer sections are designed as large, full-width containers with a significant border-radius applied to their top and bottom edges, giving them the appearance of distinct, soft-edged cards that scroll with the page content.",
+    "Sections utilize a mix of full-bleed background images or solid colors, often with content centered or aligned to one side, to create visual interest and clear delineation between different content areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#B0704E",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#f6f2e9",
+        "role": "light-background"
+      },
+      {
+        "hex": "#301816",
+        "role": "dark-text-background"
+      },
+      {
+        "hex": "#D9534F",
+        "role": "product-accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Nunito Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) are paired with a clean, readable sans-serif for body text. The brand's display logo font is extremely large and expressive.",
+    "radius": "Prominent, large rounded corners on major content blocks (hero, footer, some image cards), giving a soft, card-like feel. Smaller elements like buttons have subtle rounding.",
+    "spacing": "Airy, with generous vertical padding between sections and balanced spacing within content blocks, contributing to a premium and unhurried feel."
+  },
+  "standout": "The site's distinctive use of large, rounded-corner 'card' aesthetics for the hero and footer, combined with a rich, warm color palette and elegant serif typography, creates a luxurious and artisanal brand presence that feels more like a high-end magazine spread than a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

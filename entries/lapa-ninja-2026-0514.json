@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0514",
+  "source": {
+    "url": "https://cumuluscoffee.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0514.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0514__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0514__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0514__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "coffee",
+      "home-appliances",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero video with a dark overlay and left-aligned text content, establishing a premium and immersive first impression."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif typography is used for all primary headings, contrasting with clean, modern sans-serif for body text and labels, creating a sophisticated and readable hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, warm palette of deep browns, off-whites, and muted greys dominates, conveying a sense of luxury and natural warmth, with subtle accents in product imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like product cards and review snippets) are revealed with a subtle fade-in and slight upward translation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky, transitioning from transparent over the hero video to a solid, light background with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product displays consistently use a clean grid layout with high-quality photography, clear product names, and concise descriptions, often with a 'Shop Now' CTA."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features an auto-playing background video with a semi-transparent dark overlay to ensure text readability. The text content remains fixed relative to the viewport, creating a subtle parallax effect as the video scrolls behind it.",
+    "Content sections and individual elements (such as product cards, review blocks, and descriptive text) are animated to reveal with a subtle fade-in and a slight upward slide as they enter the user's viewport, likely using CSS keyframes triggered by scroll position.",
+    "The main navigation bar is implemented as a sticky element. It starts with a transparent background when positioned over the hero video and smoothly transitions to a solid, light background with a subtle drop shadow once the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2d1912",
+        "role": "text"
+      },
+      {
+        "hex": "#fdfbf6",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#693825",
+        "role": "accent"
+      },
+      {
+        "hex": "#676986",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#dbdde4",
+        "role": "divider"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Montreal",
+        "role": "body"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (approx. 3-4x body size) are paired with clean, legible sans-serif body text and small, often uppercase, sans-serif labels, creating a sophisticated and clear hierarchy.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, input fields, and product cards, providing a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced and airy in hero and main section breaks, providing ample breathing room, while becoming denser in product grids and review carousels to efficiently display information."
+  },
+  "standout": "The site's design is distinctive for its sophisticated, almost editorial aesthetic, achieved through a rich, warm color palette, elegant serif typography for headings, and high-quality product photography and video. The consistent reinforcement of a premium, specialized cold coffee experience through visual storytelling is particularly notable.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

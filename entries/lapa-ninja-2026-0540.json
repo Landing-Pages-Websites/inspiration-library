@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-0540",
+  "source": {
+    "url": "https://mothdrinks.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0540.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0540__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0540__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0540__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "alcohol",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video hero and lifestyle imagery sections create an immersive experience, often with overlaid text for brand messaging."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layouts are used for product displays and content blocks, breaking from uniform rows and columns to add visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, large-scale sans-serif typography for primary headings, often in uppercase, contrasted with smaller, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme with black backgrounds and white text, accented by a vibrant teal/green for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent over the hero to a solid dark background and becomes sticky as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Integrated lifestyle imagery sections combine large photos with overlaid text, star ratings, and testimonials, blurring the line between product display and brand storytelling."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a video background for the hero section to create an immediate dynamic and immersive brand introduction.",
+    "A sticky header is implemented where the initial transparent navigation bar transitions to a solid dark background on scroll, maintaining accessibility to key links.",
+    "Content sections are revealed using scroll-triggered CSS keyframe animations, causing elements to subtly fade or slide into view as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#00838f",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f8ef",
+        "role": "surface"
+      },
+      {
+        "hex": "#6a6a6a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#d0d0d0",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Assistant",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (e.g., ~4-5x body text) create strong visual hierarchy, complemented by a clean, readable sans-serif for body copy and product details.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons and product cards, maintaining a clean yet approachable aesthetic.",
+    "spacing": "Generally airy, especially in hero and full-bleed image sections, creating a premium feel; product grids and feature lists are more balanced."
+  },
+  "standout": "The site effectively combines a dark, sophisticated aesthetic with vibrant product photography and a strong editorial layout, making the product feel premium and aspirational. The use of a video hero and full-bleed lifestyle imagery creates an immersive brand experience that goes beyond typical e-commerce.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-0536",
+  "source": {
+    "url": "https://liefamsterdam.nl/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0536.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0536__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0536__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0536__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "events",
+      "venue",
+      "hospitality"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed dark and light sections, often with vibrant accent colors for backgrounds, creating distinct visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic use of oversized, high-contrast serif typography for main headings and decorative elements, paired with a clean sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A dark base palette (black/dark grey) is contrasted with vibrant, almost neon accent colors (purple, green, yellow, pink) used for section backgrounds, CTAs, and animated text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic video or image slider that transitions on scroll, while subsequent content sections reveal with a fade-up or slide-in effect as they enter the viewport. The 'URBAN' text animates in letter by letter."
+    },
+    {
+      "kind": "section",
+      "note": "A repeating, decorative 'GET IN TOUCH' text pattern forms a unique visual footer element, reinforcing the brand's aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video or image slider with a dark overlay to ensure high contrast for overlaid, oversized serif text. This dynamic element transitions as the user scrolls or automatically.",
+    "A sticky header containing the logo, a 'CONTACT' button, and a hamburger menu remains fixed at the top of the viewport, while a scroll-to-top button appears and sticks to the bottom right after initial scrolling.",
+    "Scroll-triggered animations, likely powered by GSAP, are used to reveal content sections. Elements within these sections (like images, text blocks, and the 'URBAN' heading) fade or slide into view with a staggered effect as the user scrolls them into the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#1d1d1b",
+        "role": "surface"
+      },
+      {
+        "hex": "#9370DB",
+        "role": "accent"
+      },
+      {
+        "hex": "#80FF00",
+        "role": "cta"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-accent"
+      },
+      {
+        "hex": "#fcb900",
+        "role": "accent"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Didot",
+        "role": "display"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, high-contrast serif display headings (up to ~5x body text) paired with clean, legible sans-serif for body and navigation, often in uppercase for labels.",
+    "radius": "sharp for most containers and images, with subtle rounding on buttons and interactive elements.",
+    "spacing": "balanced overall, with airy full-width hero and section headers, transitioning to a more compact grid for content blocks."
+  },
+  "standout": "The site's design is distinctive for its dramatic interplay of oversized, high-contrast serif typography with vibrant, almost neon color accents against a predominantly dark background. The dynamic hero video/slider and the animated 'URBAN' text reveal create a sophisticated yet energetic feel, moving beyond a standard event venue template.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

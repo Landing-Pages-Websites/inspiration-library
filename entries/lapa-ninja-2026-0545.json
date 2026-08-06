@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0545",
+  "source": {
+    "url": "https://www.rayphilly.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0545.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0545__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0545__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0545__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "residential",
+      "apartments"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks with large, immersive imagery or video on one side and concise text on the other, often spanning the full viewport width."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a large, bold sans-serif for primary headings, a lighter sans-serif for body text, and a distinct monospace font for labels, navigation, and secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette built around a warm, light neutral background, deep black text, and a distinctive muted plum accent color for interactive elements and overlays."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, while the hero text maintains a gentle parallax effect over the background video."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are introduced with a large, descriptive heading followed by a brief paragraph and a 'read more' call-to-action, often paired with a striking visual."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video that plays on loop, with a large, prominent text overlay that subtly parallaxes against the video as the user scrolls. An initial promotional modal appears on page load, which can be dismissed.",
+    "A minimalist header bar appears and sticks to the top of the viewport after an initial scroll, providing persistent navigation and a call-to-action.",
+    "Content sections are animated using CSS keyframes to fade in and slide up slightly from the bottom as they become visible within the user's viewport, creating a dynamic reveal effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d9d4ce",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#4c4370",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-accent"
+      },
+      {
+        "hex": "#e1ded4",
+        "role": "secondary-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "America",
+        "role": "heading"
+      },
+      {
+        "family": "America",
+        "role": "body"
+      },
+      {
+        "family": "Maru Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, complemented by a legible sans-serif body and small, uppercase monospace labels for navigation and metadata.",
+    "radius": "Sharp, with most elements featuring crisp 90-degree corners, though some buttons and input fields have a very subtle, almost imperceptible rounding.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within content blocks, creating a sense of openness and allowing imagery to breathe."
+  },
+  "standout": "The site distinguishes itself with a sophisticated, editorial aesthetic achieved through the combination of a muted plum accent color, a distinctive monospace font for UI elements, and large, artfully composed photography and video. The subtle parallax and scroll-triggered reveals add a layer of understated dynamism.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

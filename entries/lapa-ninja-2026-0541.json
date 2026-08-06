@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0541",
+  "source": {
+    "url": "https://www.ohmiego.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0541.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0541__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0541__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0541__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "mobility",
+      "real-estate"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently alternate between full-width content blocks and two-column layouts, where one side features a prominent image and the other contains text or feature lists, creating a dynamic visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a large, bold sans-serif font for strong visual impact and hierarchy, while body text is set in a lighter weight of the same family, ensuring readability and a modern aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "The design employs a high-contrast monochrome base of white and dark grey/black for backgrounds and text, with a single vibrant teal accent color (#50E6E6) used sparingly for interactive elements, links, and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Elements and entire sections reveal with a subtle fade-in or slide-up animation as they scroll into the viewport, orchestrated by GSAP, providing a smooth and engaging content loading experience. Content carousels, likely powered by Swiper, are used for testimonials and news."
+    },
+    {
+      "kind": "section",
+      "note": "A distinctive five-card grid is used immediately after the hero to present core features, each card featuring a large number, bold title, and concise description, establishing the product's value proposition upfront."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to animate elements and sections into view as the user scrolls, typically with a staggered fade-up or subtle slide-in effect. Swiper.js is implemented for interactive content carousels, such as the testimonial and news sections, allowing users to navigate through multiple items.",
+    "The hero section features a large, centered headline and descriptive text, with a prominent call-to-action button, set against a clean, minimal background to maximize readability and focus on the core message.",
+    "Interactive elements like buttons and links consistently use the vibrant accent color for their borders or text, providing clear visual cues for user interaction against the predominantly neutral background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#50E6E6",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#2C2C2C",
+        "role": "dark-section-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, complemented by a clean, readable body text and smaller, often uppercase, labels for detail.",
+    "radius": "Subtle rounded corners (small radius) are applied to buttons and cards, softening the overall aesthetic without losing a modern, crisp feel.",
+    "spacing": "Balanced spacing is used throughout, with airy sections like the hero and some image-text blocks, while feature grids maintain a tighter, organized rhythm."
+  },
+  "standout": "The site's distinctive use of a bright, almost neon teal as the sole accent color against a predominantly monochrome (white, black, grey) palette creates a striking and modern visual identity. This, combined with large, impactful photography and a clean, spacious layout, elevates the brand beyond typical corporate templates.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

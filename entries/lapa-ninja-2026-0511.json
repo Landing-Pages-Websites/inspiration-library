@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-2026-0511",
+  "source": {
+    "url": "https://casamalka.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0511.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0511__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0511__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0511__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "alcohol",
+      "spirits",
+      "tequila"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed, desaturated background image serves as the backdrop for a centrally positioned, high-contrast age verification modal."
+    },
+    {
+      "kind": "type",
+      "note": "All functional text within the age verification modal, including questions, options, and disclaimers, uses an all-caps monospaced typeface."
+    },
+    {
+      "kind": "color",
+      "note": "The age verification modal employs a stark black and white color scheme for its text, borders, and buttons, creating high contrast against the muted background image."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion is observed in the provided scroll sequence; the age verification modal and background image remain static across all frames."
+    },
+    {
+      "kind": "section",
+      "note": "The site's initial interaction is a mandatory age verification gate, presented as a distinct, self-contained modal overlay."
+    }
+  ],
+  "technique_notes": [
+    "The site's initial state presents a static age verification modal. No scroll-triggered animations or element reveals are observed in the provided sequence, suggesting the primary content is gated behind this interaction.",
+    "A full-screen background image is used with a subtle desaturation effect to push it visually behind the foreground content. A fixed-position overlay with a solid white background and a thin black border is centered on the screen to house the age verification content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FEF9F3",
+        "role": "background"
+      },
+      {
+        "hex": "#6C757D",
+        "role": "muted-background-detail"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "AzeretMono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, consistent monospaced text for all modal content, with a slightly larger weight for interactive buttons.",
+    "radius": "Sharp corners are used consistently for the modal container and interactive buttons.",
+    "spacing": "Airy spacing within the modal content, with generous padding around text and buttons, creating a balanced and uncluttered appearance."
+  },
+  "standout": "The site's distinctive feature is its immediate presentation of a highly minimal, high-contrast age verification modal using a monospaced typeface, which sets an immediate tone of exclusivity and refined simplicity before any main content is revealed.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}
