@@ -1,0 +1,106 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://architecturearchitecture.com.au",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-architecturearchitecture-com-au-63ee73.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-architecturearchitecture-com-au-63ee73__scroll0.webp",
+      "shots/_proposed/siteinspire-architecturearchitecture-com-au-63ee73__scroll1.webp",
+      "shots/_proposed/siteinspire-architecturearchitecture-com-au-63ee73__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://architecturearchitecture.com.au/projects/sunday",
+        "full": "shots/_proposed/siteinspire-architecturearchitecture-com-au-63ee73__p2.webp"
+      },
+      {
+        "url": "https://architecturearchitecture.com.au/projects/arcadia",
+        "full": "shots/_proposed/siteinspire-architecturearchitecture-com-au-63ee73__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design-firm",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a consistent three-column grid for project listings, each with an image, a project number, and a title, maintaining uniform spacing."
+    },
+    {
+      "kind": "type",
+      "note": "A classic, elegant serif font is used for all primary text, including headings, body copy, and project titles, creating a sophisticated and timeless feel."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a starkly minimal color palette, predominantly white backgrounds and dark grey text, allowing the rich, natural tones within the architectural photography to provide visual interest and warmth."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains fixed at the top of the viewport as the user scrolls, providing persistent access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections, particularly project listings, are presented without distinct background changes or visual dividers, relying on the grid structure and ample whitespace for separation."
+    }
+  ],
+  "technique_notes": [
+    "The site's motion system is limited to a simple sticky header, where the main navigation bar is fixed to the top of the browser window and remains visible throughout the scroll. Content below the header scrolls statically without any reveal animations or parallax effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#E0C7BB",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Elegant serif headings are moderately larger than body text, complemented by small, understated sans-serif labels and numbers, maintaining a refined and restrained hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous whitespace around images and text blocks creates a calm, gallery-like presentation, especially within the project grid."
+  },
+  "standout": "This site distinguishes itself through an extremely minimalist and editorial aesthetic, where the design recedes to foreground large, high-quality architectural photography. The reliance on classic serif typography and a stark white canvas gives it the feel of a curated art gallery or a high-end print publication, rather than a typical digital portfolio.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.dasglas.haus",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-dasglas-haus-4a4f95.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-dasglas-haus-4a4f95__scroll0.webp",
+      "shots/_proposed/siteinspire-dasglas-haus-4a4f95__scroll1.webp",
+      "shots/_proposed/siteinspire-dasglas-haus-4a4f95__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.dasglas.haus/info",
+        "full": "shots/_proposed/siteinspire-dasglas-haus-4a4f95__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "vacation-rental",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layout with large, full-width images and text blocks often aligned to one side, creating a spacious and editorial feel."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single, clean sans-serif typeface for all text, maintaining a minimalist and modern aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, natural color palette dominated by warm off-white, natural wood tones, and subtle accents like soft pink and a pale yellow for key text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero title 'das glashaus' scales up and repositions from the top of the video to the center of the screen as the user scrolls, then disappears as the video scrolls out of view."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation items 'infos'/'home' and 'book' remain fixed at the top corners of the viewport, with the 'infos' label transforming to 'home' at a certain scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of large, high-quality photography and video to showcase the property, often full-bleed or occupying significant screen real estate."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video background with a large, animated text overlay. As the user scrolls, the text scales up and repositions to the center of the viewport, then fades out as the video scrolls off-screen, leveraging a video-hero animation technique.",
+    "The primary navigation elements are fixed to the top corners of the viewport, providing persistent access. One of the navigation labels dynamically changes based on scroll position or active section.",
+    "Content sections are presented with generous vertical spacing, allowing images and text blocks to breathe and stand out individually as they scroll into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F0",
+        "role": "background"
+      },
+      {
+        "hex": "#5C5C5C",
+        "role": "text"
+      },
+      {
+        "hex": "#F2E380",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D1C7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold hero text (~3-4x body) with a consistent, readable body text size.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's distinctive use of a full-bleed video hero with a dynamically scaling and repositioning title creates an immersive and engaging introduction. This, combined with the serene, natural material palette and generous white space, establishes a sophisticated and calming atmosphere that elevates the property showcase beyond a typical rental listing.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

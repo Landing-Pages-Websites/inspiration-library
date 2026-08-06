@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.amdarchitects.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-amdarchitects-com-e73067.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-amdarchitects-com-e73067__scroll0.webp",
+      "shots/_proposed/siteinspire-amdarchitects-com-e73067__scroll1.webp",
+      "shots/_proposed/siteinspire-amdarchitects-com-e73067__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.amdarchitects.com/aspen-distillers",
+        "full": "shots/_proposed/siteinspire-amdarchitects-com-e73067__p2.webp"
+      },
+      {
+        "url": "https://www.amdarchitects.com/northglenn-city-hall",
+        "full": "shots/_proposed/siteinspire-amdarchitects-com-e73067__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "construction"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero images dominate the top of interior pages, often with overlaid text, establishing a strong visual impact before content sections."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif font family is used consistently, with significant variations in size and weight to create a clear hierarchy, including very large, bold headings and large italicized quotes."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is predominantly monochromatic, relying on shades of white, light gray, and dark gray/black for backgrounds and text, creating a clean and sophisticated aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual blocks (images, text) reveal themselves with a subtle fade-up and slight vertical slide animation as they scroll into the viewport on interior pages."
+    },
+    {
+      "kind": "section",
+      "note": "Interior project pages feature a consistent structure: a full-bleed hero, a project details block, large feature images, image galleries, and prominent large-format quotes."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to animate sections and content blocks into view with a subtle vertical slide and fade effect as they enter the viewport, enhancing content discovery.",
+    "The main navigation is initially transparent over hero sections, then transitions to a sticky header with a solid dark background as the user scrolls down the page.",
+    "Content is structured with generous vertical spacing and flexible grid layouts for image galleries and featured content, often pairing large imagery with text blocks that occupy a portion of the content width."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#333333",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#222831",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) with smaller, lighter body text and uppercase navigational labels; hero titles are very large (~5-6x body).",
+    "radius": "sharp",
+    "spacing": "airy (generous vertical spacing between sections and content blocks, creating a sense of openness, especially on interior pages)"
+  },
+  "standout": "The site's design is distinctive in its sophisticated integration of large-scale, high-quality architectural photography as primary content, seamlessly blended with minimalist typography and layout. The subtle scroll-triggered animations enhance the visual storytelling without distracting from the impressive imagery, creating an immersive and elegant browsing experience that prioritizes visual impact.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

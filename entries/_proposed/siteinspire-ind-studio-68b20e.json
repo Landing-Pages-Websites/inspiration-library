@@ -1,0 +1,116 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://ind.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-ind-studio-68b20e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-ind-studio-68b20e__scroll0.webp",
+      "shots/_proposed/siteinspire-ind-studio-68b20e__scroll1.webp",
+      "shots/_proposed/siteinspire-ind-studio-68b20e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://ind.studio/projects/valtri",
+        "full": "shots/_proposed/siteinspire-ind-studio-68b20e__p2.webp"
+      },
+      {
+        "url": "https://ind.studio/projects/AI-Jadaff",
+        "full": "shots/_proposed/siteinspire-ind-studio-68b20e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "real-estate"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage initially presents a full-screen blank canvas with a large, centered text element, which then transitions to a full-bleed image and a persistent left-aligned project navigation sidebar upon scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Project detail pages are dominated by full-bleed photography, with minimal text descriptions placed either below the hero image or alongside smaller image galleries, emphasizing visual content."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings for main content and project titles, contrasted by very small, light-weight sans-serif text used for navigation, body copy, and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a stark monochromatic color scheme of white, black, and various shades of grey, with vibrant color introduced almost exclusively through large-scale, high-quality photography."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon initial scroll, the large, centered homepage hero text smoothly scrolls upwards and out of view, revealing a full-width image and a fixed-position left sidebar containing a scrollable list of projects."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent, scrollable left sidebar serves as the primary project navigation on the homepage, displaying project titles with numerical indicators, allowing users to browse the portfolio without leaving the main view."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a scroll-triggered content reveal system where an initial full-screen text hero animates off-screen to unveil a visual hero and a fixed-position, scrollable project navigation sidebar, creating a dynamic entry experience.",
+    "Navigation and supplementary text elements are rendered in a very small, light-weight sans-serif font to maintain a clean, minimal aesthetic, ensuring they support rather than compete with the large, bold display typography and imagery.",
+    "Visual content, primarily high-resolution architectural photography, is presented in full-bleed sections across the entire page width to maximize impact and create an immersive, gallery-like experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "heading"
+      },
+      {
+        "hex": "#888888",
+        "role": "text"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A dramatic type scale features oversized, bold sans-serif headings (up to ~5x body text) paired with very small, light-weight sans-serif text for navigation and detailed information, creating a strong visual contrast.",
+    "radius": "sharp",
+    "spacing": "Very airy on the initial homepage hero, transitioning to a balanced density on project detail pages with ample whitespace around images and text blocks, and a denser layout within the project list sidebar."
+  },
+  "standout": "The site's distinctive design lies in its initial 'blank canvas' homepage that dramatically transforms on scroll, revealing a persistent, scrollable project list sidebar alongside immersive, full-bleed architectural photography. This creates a highly editorial and visually driven experience, prioritizing impact over immediate information density.",
+  "animation_tech": [],
+  "status": "proposed"
+}

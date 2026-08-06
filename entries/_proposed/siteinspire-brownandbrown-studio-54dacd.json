@@ -1,0 +1,106 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.brownandbrown.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-brownandbrown-studio-54dacd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-brownandbrown-studio-54dacd__scroll0.webp",
+      "shots/_proposed/siteinspire-brownandbrown-studio-54dacd__scroll1.webp",
+      "shots/_proposed/siteinspire-brownandbrown-studio-54dacd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.brownandbrown.studio/journal",
+        "full": "shots/_proposed/siteinspire-brownandbrown-studio-54dacd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "luxury-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width image and text sections, with text often aligned to the right, creating a balanced yet dynamic flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of a classic serif font for prominent headings and a clean sans-serif for body text and navigation, establishing an elegant and authoritative tone."
+    },
+    {
+      "kind": "color",
+      "note": "An earthy and muted color palette featuring warm off-white backgrounds, rich brown accents, and dark text, evoking a sense of natural elegance and timelessness."
+    },
+    {
+      "kind": "motion",
+      "note": "The full-bleed hero video scrolls up and out of view, revealing the main content sections below, while the navigation bar transitions from transparent to a solid background as it becomes sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by generous vertical spacing and distinct background colors, creating a clean visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed, auto-playing video that scrolls away to reveal the page content. A subtle dark overlay ensures text readability over the dynamic background.",
+    "The primary navigation bar is initially transparent and overlays the hero video. As the user scrolls past the hero, it becomes sticky at the top of the viewport and gains a solid, light background.",
+    "Main content sections are introduced with a subtle reveal animation, appearing to slide up or fade in as they enter the viewport, enhancing engagement as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f0eb",
+        "role": "background"
+      },
+      {
+        "hex": "#694132",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3x body) are paired with smaller, legible sans-serif body text and very small, uppercase sans-serif labels for navigation and metadata.",
+    "radius": "sharp",
+    "spacing": "Airy in hero and main content sections, with balanced padding in grid layouts and forms, contributing to an open and refined feel."
+  },
+  "standout": "The site's distinctive use of a cinematic, full-bleed video hero combined with a classic, editorial serif typography and an earthy color palette creates a high-end, established, and emotionally resonant brand presence that feels both modern and timeless.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
