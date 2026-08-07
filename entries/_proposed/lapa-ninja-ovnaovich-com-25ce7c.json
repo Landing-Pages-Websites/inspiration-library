@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-ovnaovich-com-25ce7c",
+  "source": {
+    "url": "https://www.ovnaovich.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ovnaovich-com-25ce7c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ovnaovich-com-25ce7c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ovnaovich-com-25ce7c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ovnaovich-com-25ce7c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "luxury-retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Editorial-style full-bleed photography is frequently used, often paired with text in an asymmetrical layout, creating a magazine-like visual flow between product grids and brand storytelling sections."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for prominent display text and chapter headings, contrasted with a clean, legible sans-serif for body copy, navigation, and product details, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site predominantly uses a muted, earthy color palette of warm off-whites, beiges, and soft greys for backgrounds, with dark brown and charcoal text, conveying a sense of natural elegance and understated luxury."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a layered scroll effect where the background image and foreground text elements (like the brand name and chapter title) scroll at different rates or temporarily stick to the viewport, creating a dynamic sense of depth and reveal."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured into distinct 'Chapter' themed sections, reinforcing a narrative approach to presenting collections and brand values, moving beyond typical product categories."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header element is positioned fixed to the top of the viewport, ensuring continuous access to navigation and brand identity as the user scrolls down the page.",
+    "The hero section utilizes CSS keyframe animations to create a layered scroll effect where the background image scrolls at a slower rate than the foreground text elements, which also temporarily stick to the viewport, creating depth and a dynamic reveal.",
+    "A modal overlay is revealed using CSS keyframe animations, sliding in from the left side and remaining fixed after the user scrolls past a certain point on the page, typically used for newsletter sign-ups or promotions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#50453d",
+        "role": "text"
+      },
+      {
+        "hex": "#393939",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f4f0",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (hero text is very large, ~4-5x body) are paired with smaller, clean sans-serif body text and uppercase navigation labels, creating a sophisticated contrast.",
+    "radius": "Sharp corners are consistently applied across all elements, including images, buttons, and content blocks, contributing to a clean and modern aesthetic.",
+    "spacing": "Airy and generous spacing is used throughout, particularly in editorial sections and around product grids, creating a sense of luxury, focus, and unhurried browsing."
+  },
+  "standout": "The site's distinctive use of high-quality, editorial photography and a 'chapter' narrative structure for content sections elevates it beyond a typical e-commerce site, creating a strong brand story and a luxurious, magazine-like browsing experience. The subtle layered scroll effect in the hero section further enhances this premium feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

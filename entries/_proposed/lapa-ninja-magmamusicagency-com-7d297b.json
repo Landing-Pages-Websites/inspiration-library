@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-magmamusicagency-com-7d297b",
+  "source": {
+    "url": "https://www.magmamusicagency.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-magmamusicagency-com-7d297b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-magmamusicagency-com-7d297b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-magmamusicagency-com-7d297b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-magmamusicagency-com-7d297b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "agency",
+      "creative-services"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site is structured as a continuous vertical stack of full-bleed video sections, each serving as a case study for a client project, creating an immersive, dynamic portfolio experience."
+    },
+    {
+      "kind": "type",
+      "note": "Project titles are presented in a large, clean sans-serif typeface, providing clear hierarchy against the video backgrounds, while supporting metadata uses a smaller, consistent sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface employs a stark monochromatic palette of black and white, allowing the rich, high-production-value video content to provide all visual color and depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary interaction is a continuous vertical scroll, where full-bleed video sections smoothly transition into and out of view, creating a seamless reel of work. The header remains fixed at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Each project section features a full-width video at its top, followed by the project title and a horizontal line of metadata (client, services, agency, year) with an interactive waveform-like element."
+    }
+  ],
+  "technique_notes": [
+    "The site uses full-bleed video elements as hero sections for each project, leveraging the 'video-hero' technique. These video sections are stacked vertically and scroll directly into and out of view, creating a continuous, immersive showcase. A fixed header overlays the content, ensuring navigation is always accessible.",
+    "The overall layout is achieved by stacking full-width content blocks, with minimal padding or margins, allowing the visual content to dominate the screen. Text overlays are positioned consistently below each video, maintaining a clear content structure."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#EEEEEE",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Aeonik TRIAL",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Aeonik TRIAL",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: custom-display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2x body) are used for project titles, with smaller, lighter sans-serif for navigation and metadata, maintaining a clean, modern hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced, with full-bleed video sections dominating the viewport and consistent, moderate spacing for text elements below them."
+  },
+  "standout": "This site's standout feature is its complete dedication to a full-bleed, continuous video reel as the primary content presentation. Instead of static images or text blocks, every project is introduced and showcased through high-quality video, creating an exceptionally dynamic and immersive portfolio experience that prioritizes visual storytelling.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
