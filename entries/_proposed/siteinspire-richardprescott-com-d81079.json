@@ -1,0 +1,88 @@
+{
+  "id": "siteinspire-richardprescott-com-d81079",
+  "source": {
+    "url": "https://www.richardprescott.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-richardprescott-com-d81079.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-richardprescott-com-d81079__scroll0.webp",
+      "shots/_proposed/siteinspire-richardprescott-com-d81079__scroll1.webp",
+      "shots/_proposed/siteinspire-richardprescott-com-d81079__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The initial view reveals a single image that expands into a horizontal strip of images, which then transforms into a full-page, dynamic grid of images as the user scrolls down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "The primary content area is a responsive, fluid grid of images that reflows and changes content as the user scrolls, maintaining a consistent visual density."
+    },
+    {
+      "kind": "type",
+      "note": "All textual information, including navigation and metadata, is presented in a small, uppercase sans-serif font, creating a stark contrast with the large, dynamic imagery."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent, minimal information bar with contact and navigation links remains fixed at the top of the viewport, providing constant access without obstructing content."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a stark white background with dark grey/black text for the UI, allowing the vibrant and diverse photography to provide all visual color and focal points."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-driven animation system where content progressively reveals and transforms. Initially, a single element expands into a horizontal carousel, which then morphs into a full-page masonry-style image grid. Text elements appear and remain fixed at the top, while the image grid content dynamically changes and a large numerical indicator appears at the bottom as scrolling continues."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#080808",
+        "role": "text"
+      },
+      {
+        "hex": "#444444",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, uniform uppercase sans-serif for all functional text, with a large, bold numerical display for a section indicator.",
+    "radius": "Sharp, with all image corners and UI elements having crisp 90-degree angles.",
+    "spacing": "Airy, with significant white space around images and text, especially in the initial and horizontal strip views, transitioning to a more balanced, tight grid for the main portfolio."
+  },
+  "standout": "This site stands out for its highly dynamic, scroll-driven visual narrative, where the entire page transforms from a minimalist canvas to a full-bleed image gallery with fluid transitions. The design prioritizes the photography, using a minimal, almost invisible UI that subtly appears and adapts to the scroll depth.",
+  "animation_tech": [],
+  "status": "proposed"
+}

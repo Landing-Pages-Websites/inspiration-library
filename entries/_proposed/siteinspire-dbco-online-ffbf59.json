@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-dbco-online-ffbf59",
+  "source": {
+    "url": "https://dbco.online",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-dbco-online-ffbf59.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-dbco-online-ffbf59__scroll0.webp",
+      "shots/_proposed/siteinspire-dbco-online-ffbf59__scroll1.webp",
+      "shots/_proposed/siteinspire-dbco-online-ffbf59__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://dbco.online/about",
+        "full": "shots/_proposed/siteinspire-dbco-online-ffbf59__p2.webp"
+      },
+      {
+        "url": "https://dbco.online/contact",
+        "full": "shots/_proposed/siteinspire-dbco-online-ffbf59__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "web-design"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical fixed-position navigation in the top-left corner, contrasting with full-bleed, often dynamic content sections."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast palette combining stark black and white with vibrant, saturated primary and secondary colors used in large, full-bleed sections and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with dynamic, full-bleed graphic elements and animated typography that appear to scroll and transform, creating an immersive visual journey."
+    },
+    {
+      "kind": "type",
+      "note": "Artistic, oversized display typography is used as a primary visual element, often animated or integrated into complex graphic compositions."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating full-bleed sections feature diverse content types, from video heroes to dynamic graphic animations and large, impactful quotes."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position navigation element remains visible in the top-left corner throughout the scroll.",
+    "The hero section features a full-bleed video playing within a device mockup, setting an immediate dynamic tone.",
+    "Scroll-triggered animations reveal large, full-bleed content sections. These sections often incorporate complex graphic elements and animated typography, likely leveraging Lottie or WebGL for their dynamic and interactive nature."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#f0e6fa",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff4500",
+        "role": "accent"
+      },
+      {
+        "hex": "#8a2be2",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Arial-BoldMT",
+        "role": "heading"
+      },
+      {
+        "family": "ArialMT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, artistic display headings (~5-10x body) serve as graphic elements, complemented by clear, legible sans-serif body text.",
+    "radius": "Sharp, with most elements featuring crisp, angular corners.",
+    "spacing": "Airy in hero and full-bleed dynamic sections, transitioning to a more balanced density in content grids and footer areas."
+  },
+  "standout": "This site distinguishes itself through its bold and artistic use of full-bleed, scroll-triggered graphic animations and highly stylized typography. Instead of static sections, the page unfolds as a continuous, dynamic visual experience where text and abstract shapes are integral, moving design elements.",
+  "animation_tech": [
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
