@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-solreader-com-2be960",
+  "source": {
+    "url": "https://solreader.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-solreader-com-2be960.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-solreader-com-2be960__scroll0.webp",
+      "shots/_proposed/lapa-ninja-solreader-com-2be960__scroll1.webp",
+      "shots/_proposed/lapa-ninja-solreader-com-2be960__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "e-reader",
+      "technology"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a predominantly dark, full-bleed background for most sections, creating a high-contrast canvas for product imagery and white text."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and body text consistently use a clean, modern sans-serif typeface, with hero headlines being significantly larger and more impactful."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, golden-orange accent color is used sparingly but effectively to highlight product details, calls-to-action, and create a luxurious feel against the dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a scroll-triggered background transition where the initial product visual is replaced by a solid black background as the user scrolls down, while the hero text and CTA scroll upwards over this new backdrop."
+    },
+    {
+      "kind": "section",
+      "note": "Product detail sections frequently integrate large, high-fidelity 3D renders of the product, often presented against a minimalist dark background to emphasize form and design."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered background transition. Initially, a large product visual (likely a video or 3D render) serves as the background. Upon scrolling, this visual is replaced by a solid dark color, allowing the hero text and call-to-action to scroll upwards over the new, minimalist backdrop. The top navigation bar is fixed, maintaining visibility throughout the scroll.",
+    "Interactive 3D models of the product are integrated into various sections of the page, likely rendered using WebGL, allowing for detailed, dynamic views and potential user interaction to explore the device from multiple angles.",
+    "Video elements are used to showcase product features and usage scenarios, often embedded within dark, minimalist frames to maintain visual consistency."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F6B077",
+        "role": "accent"
+      },
+      {
+        "hex": "#2E3B50",
+        "role": "surface"
+      },
+      {
+        "hex": "#484848",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, clean sans-serif hero headings (~4-5x body) with a strong visual presence, complemented by smaller, legible sans-serif body text and uppercase labels.",
+    "radius": "Sharp corners for most structural elements, with subtle rounding on interactive elements like buttons.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a clean, open feel around product imagery."
+  },
+  "standout": "The site's standout feature is its sophisticated integration of high-fidelity 3D product renders and a dynamic hero scroll transition, creating an immersive and luxurious presentation of the product against a minimalist, dark aesthetic. It effectively uses motion and detailed visuals to convey product innovation and desirability.",
+  "animation_tech": [
+    "canvas",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

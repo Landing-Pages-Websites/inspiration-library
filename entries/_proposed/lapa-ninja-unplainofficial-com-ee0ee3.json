@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-unplainofficial-com-ee0ee3",
+  "source": {
+    "url": "https://unplainofficial.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-unplainofficial-com-ee0ee3.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-unplainofficial-com-ee0ee3__scroll0.webp",
+      "shots/_proposed/lapa-ninja-unplainofficial-com-ee0ee3__scroll1.webp",
+      "shots/_proposed/lapa-ninja-unplainofficial-com-ee0ee3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "cosmetics"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are used, often pairing a large image or video on one side with text content on the other, creating dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, large-scale serif font is used for primary headings, contrasted with a clean, smaller sans-serif for body text and navigation, often in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, off-white background (#faf8f0) dominates, providing a clean canvas for dark text and natural, earthy tones from product imagery and video content."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed background video that plays continuously, while overlayed textual content scrolls up and out of view independently."
+    },
+    {
+      "kind": "motion",
+      "note": "Key call-to-action buttons ('Shop Best Sellers', '10% OFF') are sticky, appearing at the bottom-center and right edge of the viewport respectively, after the initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, such as product grids and feature blocks, reveal with a subtle fade-in or slide-up animation as they enter the user's viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A horizontal image carousel (swiper) is used to showcase a collection of related visuals, providing an interactive browsing experience for editorial content or product variations."
+    }
+  ],
+  "technique_notes": [
+    "Implement a full-bleed video hero where the video plays in a fixed or slightly parallaxing background, while foreground text content is allowed to scroll naturally over it.",
+    "Create sticky navigation and call-to-action elements that are initially hidden or in a different state, then appear or transform (e.g., shrink, gain a backdrop) after the user scrolls past a certain point.",
+    "Utilize scroll-triggered animations (likely with CSS keyframes or a JavaScript library) to reveal content sections with a staggered fade-up or slide-in effect as they enter the viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#faf8f0",
+        "role": "background"
+      },
+      {
+        "hex": "#121212",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#bfbfbf",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#2200ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#e0a030",
+        "role": "secondary-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ItalianGarmnd BT",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Nunito-Sans-Klaviyo-Hosted",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) are paired with clean, smaller sans-serif body text and uppercase labels, creating a sophisticated contrast.",
+    "radius": "Sharp corners are dominant across most elements, with subtle rounding on interactive components like buttons.",
+    "spacing": "Very airy in hero and main content sections, providing ample breathing room and a sense of luxury, transitioning to a more balanced density in feature grids and the footer."
+  },
+  "standout": "This site stands out with its immersive, full-bleed video hero that sets a natural, almost raw aesthetic, combined with sophisticated, editorial-style serif typography. The design masterfully blends a high-end, minimalist feel with rich visual storytelling, making it feel more like a digital magazine than a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-massivemusic-com-ba31f2",
+  "source": {
+    "url": "https://www.massivemusic.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-massivemusic-com-ba31f2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-massivemusic-com-ba31f2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-massivemusic-com-ba31f2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-massivemusic-com-ba31f2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "marketing-agency",
+      "branding",
+      "entertainment"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds with white text and white backgrounds with dark text, creating strong visual contrast and clear content segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses extremely large, bold sans-serif typography for hero and main section headings, often with uppercase styling, to establish a powerful and direct communication style."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of deep blacks and crisp whites is dramatically punctuated by vibrant, shifting gradient colors used for the hero background and animated text fills."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section undergoes a significant transformation on scroll, where the full-bleed background gradient shifts its color palette and pattern, and the main headline text dynamically changes its content and applies a colorful gradient fill effect."
+    },
+    {
+      "kind": "section",
+      "note": "Client logos are presented in a horizontally scrolling carousel, emphasizing a strong portfolio of partnerships without consuming excessive vertical space."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a sophisticated scroll-triggered animation system, likely leveraging WebGL or a similar library, to create a dynamic hero experience. As the user scrolls, the full-bleed background transitions through different vibrant gradient patterns, and the primary headline text animates its content and applies a gradient fill, creating a highly engaging and distinctive introduction. The main navigation also becomes sticky after the initial scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1B1C1D",
+        "role": "surface"
+      },
+      {
+        "hex": "#444746",
+        "role": "text"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "hex": "#AAFF66",
+        "role": "accent"
+      },
+      {
+        "hex": "#6633FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~4-5x body) with standard body text and small uppercase labels.",
+    "radius": "sharp for all elements, including cards, buttons, and image containers.",
+    "spacing": "airy in the hero and between major sections, transitioning to a more balanced density within content grids and feature lists."
+  },
+  "standout": "The most distinctive feature is the highly dynamic and visually striking hero section that completely transforms its background and headline text content and style upon scroll, creating an immediate and memorable impact. This energetic and interactive introduction sets a unique tone for the entire site.",
+  "animation_tech": [
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

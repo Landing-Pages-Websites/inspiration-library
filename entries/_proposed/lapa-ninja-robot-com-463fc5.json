@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-robot-com-463fc5",
+  "source": {
+    "url": "https://www.robot.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-robot-com-463fc5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-robot-com-463fc5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-robot-com-463fc5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-robot-com-463fc5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "robotics",
+      "automation",
+      "logistics"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-bleed dark backgrounds with light text and light backgrounds with dark text, creating strong visual segmentation and contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and set in an uppercase sans-serif typeface, providing strong hierarchy and impact, often paired with smaller, lighter supporting text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep charcoal/black, white, and light grey is punctuated by a vibrant, almost neon yellow/gold accent color used for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features an overlaid text and CTA that subtly scales up and centers as the user scrolls down, creating an initial engagement effect."
+    },
+    {
+      "kind": "motion",
+      "note": "A unique, large-scale pixel-art robot face is revealed from the bottom of the screen as the user scrolls to the very end of the footer, acting as a hidden brand element."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases utilize a clean grid layout with distinct cards, each featuring an image, title, and a 'Learn more' link, maintaining a consistent structure across different offerings."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed background video with an overlaid content block (heading and CTA). This content block is animated to scale and reposition towards the center of the screen as the user initiates scrolling, enhancing its prominence.",
+    "A sticky header navigation remains fixed at the top of the viewport throughout the scroll.",
+    "A distinctive footer reveal effect is implemented where a large, grid-based pixel art graphic animates into view from the bottom of the screen once the user scrolls past the primary footer content, creating a surprising and memorable brand moment."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#262626",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f2f1ee",
+        "role": "surface"
+      },
+      {
+        "hex": "#bbbbbb",
+        "role": "text-subtle"
+      },
+      {
+        "hex": "#ffe600",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual impact, complemented by smaller, often uppercase, supporting labels and legible body text.",
+    "radius": "Sharp corners are dominant for section containers and image frames, with subtle rounding applied only to interactive elements like buttons.",
+    "spacing": "Balanced spacing overall, with airy sections for the hero and key statements, transitioning to a more dense but well-padded grid for product showcases."
+  },
+  "standout": "The most distinctive design element is the hidden, pixel-art robot face that reveals itself in the footer upon deep scrolling. This unexpected and playful brand moment adds a memorable touch to an otherwise industrial and high-tech aesthetic.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

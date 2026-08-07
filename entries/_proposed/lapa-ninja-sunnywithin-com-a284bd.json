@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-sunnywithin-com-a284bd",
+  "source": {
+    "url": "https://sunnywithin.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sunnywithin-com-a284bd.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sunnywithin-com-a284bd__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sunnywithin-com-a284bd__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sunnywithin-com-a284bd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "supplements",
+      "wellness"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed aspirational lifestyle imagery is used for hero sections, often with text overlays and a clear call-to-action."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections alternate between light and dark background colors (white, dark blue, dark green, light yellow) to create visual separation and rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, organic serif font is used for prominent headings, providing an elegant and approachable brand voice, contrasted with clean sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, bright orange is consistently used as the primary accent color for all call-to-action buttons and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A secondary navigation bar with product categories becomes sticky at the top of the viewport after the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize a grid of consistently styled cards, each featuring an image, product title, and a 'Shop Now' button."
+    }
+  ],
+  "technique_notes": [
+    "The secondary navigation bar transitions from its initial position to a fixed, sticky position at the top of the viewport with a subtle background as the user scrolls down the page. Other content sections appear to reveal with a subtle fade-in or slide-up effect as they enter the viewport, likely orchestrated using CSS keyframe animations.",
+    "High-quality lifestyle photography and abstract scientific-inspired visuals are used as full-bleed backgrounds or prominent elements within sections, often with text placed directly over them, relying on good contrast or subtle overlays.",
+    "Call-to-action buttons are designed with a consistent bright orange fill and white text, ensuring high visibility and a clear interactive target across the site."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#20124d",
+        "role": "text"
+      },
+      {
+        "hex": "#ffa609",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fffaf0",
+        "role": "surface"
+      },
+      {
+        "hex": "#373c00",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff7f2",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Herbik",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Nunito Sans",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, complemented by clean sans-serif body text and smaller, often uppercase sans-serif labels.",
+    "radius": "Subtle for buttons and input fields, sharp for most section edges and image containers.",
+    "spacing": "Balanced overall, with airy hero sections and comfortable padding around content blocks, creating a sense of openness and ease of reading."
+  },
+  "standout": "The site distinctively blends aspirational lifestyle imagery with abstract, scientific-inspired visuals to convey both the emotional benefits and the scientific credibility of its products. The use of an organic, friendly serif font for main headings gives the brand a unique, approachable yet authoritative voice, setting it apart from typical health and wellness brands that often rely solely on clean sans-serif typography.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

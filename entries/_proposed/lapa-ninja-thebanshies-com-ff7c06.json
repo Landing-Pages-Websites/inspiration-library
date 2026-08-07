@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-thebanshies-com-ff7c06",
+  "source": {
+    "url": "https://thebanshies.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-thebanshies-com-ff7c06.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-thebanshies-com-ff7c06__scroll0.webp",
+      "shots/_proposed/lapa-ninja-thebanshies-com-ff7c06__scroll1.webp",
+      "shots/_proposed/lapa-ninja-thebanshies-com-ff7c06__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "performing-arts",
+      "classical-music"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An asymmetrical two-column grid is frequently used, featuring large, full-bleed color blocks and images that create a dynamic and modern composition."
+    },
+    {
+      "kind": "type",
+      "note": "High contrast typography pairs oversized, bold, uppercase sans-serif headings with smaller, more traditional sans-serif body text, establishing a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette is dominated by vibrant red and black, set against a consistent light, warm grey background, creating a bold and memorable brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large, minimal header with the distinctive script logo transforms into a compact, sticky navigation bar with additional links and social icons as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and specific call-to-action elements, such as the crowdfunding notice, reveal with a subtle fade-in or slide-up effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background color changes, primarily alternating between the light grey and vibrant red, providing strong visual segmentation."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero area, potentially a video (as hinted by 'video-hero'), establishes the site's visual identity immediately upon load.",
+    "The navigation system features an initial large, prominent logo and minimal links that transform into a compact, sticky header with additional links and social media icons after the user scrolls past the hero section. This transformation involves a change in background, size, and content, likely using CSS transitions or GSAP for smooth animation.",
+    "Content sections and specific call-to-action elements are revealed using scroll-triggered animations (likely `gsap` or `css-keyframes` as hinted), appearing with a subtle fade-in or slide-up as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#E5E0D9",
+        "role": "background"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#4A5464",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      },
+      {
+        "family": "vivaldi-mn",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (up to ~4-5x body text) create strong visual hierarchy, contrasted with smaller, readable body text.",
+    "radius": "Sharp corners are consistently used across all elements, including buttons, image frames, and section blocks.",
+    "spacing": "Airy in hero and title sections, creating a sense of grandeur, transitioning to a more balanced density within content blocks and lists."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist use of a high-contrast red and black palette against a muted light grey, combined with an asymmetrical grid and oversized typography. The unique, script-like logo element provides a touch of artistic flair that softens the otherwise stark modern aesthetic, creating a memorable and strong brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

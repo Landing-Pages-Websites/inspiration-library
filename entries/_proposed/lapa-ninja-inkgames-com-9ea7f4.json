@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-inkgames-com-9ea7f4",
+  "source": {
+    "url": "https://inkgames.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-inkgames-com-9ea7f4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-inkgames-com-9ea7f4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-inkgames-com-9ea7f4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-inkgames-com-9ea7f4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "web3-gaming",
+      "entertainment"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-viewport-height sections with strong visual separation, often featuring large, centered text and alternating background colors."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant, oversized, uppercase display headings that command their respective sections, contrasted with smaller, clean body and monospaced text for details."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast palette featuring a deep dark background, a vibrant purple accent, and crisp white text for maximum impact."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen sections scroll vertically to reveal the next content block. A specific video element is presented within a tilted, fixed-aspect-ratio frame that reveals as its containing section scrolls into the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block is treated as a distinct, full-bleed section, designed to deliver a single, impactful message or visual experience."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate full-screen section transitions, where new sections slide up to replace the previous ones. The tilted video element is revealed progressively as its section scrolls into view, creating an 'uncovering' effect.",
+    "Typography employs extremely large, bold, uppercase display fonts for primary headings, creating a strong visual hierarchy and a sense of scale. Body text uses a clean, modern sans-serif for readability.",
+    "Sections are designed as full-bleed containers, often with a dark background and bright text, or a vibrant accent color, to create distinct visual breaks and emphasize content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0e11",
+        "role": "background"
+      },
+      {
+        "hex": "#fafbfd",
+        "role": "text"
+      },
+      {
+        "hex": "#6a00ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#c0c0c0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "RuderPlakatLL",
+        "role": "heading"
+      },
+      {
+        "family": "PPNeueMontreal",
+        "role": "body"
+      },
+      {
+        "family": "PPNeueMontrealMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase display headings (up to ~5-6x body text size) create strong visual impact, contrasted with smaller, clean body and monospaced text.",
+    "radius": "Sharp, with minimal rounding on interactive elements like buttons.",
+    "spacing": "Airy, with generous vertical padding around full-screen content blocks and a balanced grid in the footer."
+  },
+  "standout": "The site's distinctive use of extremely large, full-viewport-height text sections with a high-contrast color palette, combined with a dynamically revealing, tilted video element, creates a bold and immersive experience that feels more like an interactive presentation than a traditional website.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

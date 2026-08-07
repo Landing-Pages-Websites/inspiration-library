@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-saraheismanstudio-com-6a3917",
+  "source": {
+    "url": "https://saraheismanstudio.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-saraheismanstudio-com-6a3917.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-saraheismanstudio-com-6a3917__scroll0.webp",
+      "shots/_proposed/lapa-ninja-saraheismanstudio-com-6a3917__scroll1.webp",
+      "shots/_proposed/lapa-ninja-saraheismanstudio-com-6a3917__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "luxury",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use a full-width, single-column layout for text blocks, contrasting with multi-column grids for product displays and category navigation."
+    },
+    {
+      "kind": "type",
+      "note": "A highly condensed, bold sans-serif typeface is used for prominent branding and hero text, creating a strong visual identity that contrasts with a more neutral, legible sans-serif for body copy and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted color palette of off-whites, light grays, and deep navy is used for backgrounds and text, allowing the warm, metallic tones of the jewelry to stand out as the primary accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, where the background image scrolls slower than the foreground content, creating a sense of depth as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a prominent, full-width section featuring the brand's large, condensed logo, reinforcing brand identity at the page's conclusion."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a background image that moves at a slower rate than the scroll, creating a subtle parallax effect for the main visual. This can be achieved using GSAP ScrollTrigger or similar JavaScript animation libraries.",
+    "Content sections are revealed through standard vertical scrolling, with no distinct fade-ins or slide-up animations for individual elements, maintaining a clean and direct presentation.",
+    "Typography is structured with a very large, condensed display font for brand elements and headlines, paired with a clean, modern sans-serif for all other text, ensuring clear hierarchy and readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fdfcf9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#02614e",
+        "role": "surface"
+      },
+      {
+        "hex": "#e8be9e",
+        "role": "accent"
+      },
+      {
+        "hex": "#d2d5d9",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7e1d5",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "MuotoCond",
+        "role": "display"
+      },
+      {
+        "family": "Instrument Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed display headings (~4-5x body) with smaller, uppercase labels and a clean, readable body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between sections and ample padding around content blocks."
+  },
+  "standout": "The site's design is distinctive for its bold use of a highly condensed, impactful display typeface for the brand name, which is consistently applied across the hero and footer. This, combined with high-contrast black and white product photography and a minimalist layout, creates a strong, editorial, and luxurious brand presence that feels unique and sophisticated.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

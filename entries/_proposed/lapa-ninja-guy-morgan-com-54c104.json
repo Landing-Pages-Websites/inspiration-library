@@ -1,0 +1,89 @@
+{
+  "id": "lapa-ninja-guy-morgan-com-54c104",
+  "source": {
+    "url": "https://www.guy-morgan.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-guy-morgan-com-54c104.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-guy-morgan-com-54c104__scroll0.webp",
+      "shots/_proposed/lapa-ninja-guy-morgan-com-54c104__scroll1.webp",
+      "shots/_proposed/lapa-ninja-guy-morgan-com-54c104__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "cosmetics"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections utilize an asymmetrical two-column layout, alternating the position of a large product image and a text block, creating visual interest and flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for primary body text and some headings, contrasted with a clean, understated sans-serif for navigation, labels, and secondary information, often in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a minimalist color scheme dominated by a very light, almost off-white background and dark grey text, allowing product imagery to introduce subtle accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary motion pattern is a sticky header navigation that remains fixed at the top of the viewport as the user scrolls down the page. Content sections simply scroll into view without additional animation."
+    }
+  ],
+  "technique_notes": [
+    "The page structure uses a simple vertical stacking of content sections, each featuring an asymmetrical grid for image and text. The header is implemented as a sticky element that maintains its position at the top of the viewport during scroll.",
+    "No scroll-triggered motion is detected beyond the sticky header; content sections appear statically as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#E8A849",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "body text is relatively small and elegant, with headings only moderately larger, maintaining an understated hierarchy; uppercase is used for navigation and some descriptive labels.",
+    "radius": "sharp corners are consistently applied to all elements, including images, input fields, and buttons, reinforcing a clean and precise aesthetic.",
+    "spacing": "very airy, with significant padding and margins around and between all content elements, creating a sense of luxury and focus on individual components."
+  },
+  "standout": "This site's design is distinctive for its extreme minimalism and the sophisticated use of whitespace, which elevates the product imagery and typography. The asymmetrical layouts, combined with the classic serif font, create an editorial and luxurious feel that avoids common marketing site tropes.",
+  "animation_tech": [],
+  "status": "proposed"
+}
