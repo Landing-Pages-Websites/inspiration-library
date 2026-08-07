@@ -1,0 +1,108 @@
+{
+  "id": "siteinspire-2026-0128",
+  "source": {
+    "url": "https://southernguild.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0128.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0128__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0128__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0128__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://southernguild.com/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0128__p2.webp"
+      },
+      {
+        "url": "https://southernguild.com/about",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0128__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "gallery",
+      "cultural-institution"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are presented with generous vertical spacing and often feature large, impactful imagery alongside text, creating an airy, gallery-like feel."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using a sophisticated serif font for prominent headings and a clean sans-serif for body text, navigation, and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a stark, high-contrast black and white palette, with subtle grey used for secondary text and borders, emphasizing content and imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial full-bleed hero image scrolls upwards and out of view, revealing the main page content, while the primary navigation bar and a cookie banner remain sticky at the top and bottom, respectively."
+    },
+    {
+      "kind": "section",
+      "note": "Major content blocks are introduced with large, centered serif headings, providing clear visual breaks and guiding the user through distinct content categories like 'News', 'On View', and 'Upcoming'."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven animation system (likely locomotive-scroll) where the initial hero image and its associated text scroll out of the viewport, revealing the underlying page content. Subsequent sections appear to reveal vertically as the user scrolls, with some sections featuring blurred background images that may animate into view. The main navigation and a cookie banner are fixed elements that persist during scroll.",
+    "Content is presented in a minimalist grid structure, often featuring large, full-width images or image-text pairings. Headings use a distinct serif font for elegance, while body text uses a highly legible sans-serif. The overall aesthetic is achieved through ample whitespace and a monochromatic color scheme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#767676",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:NHaasGroteskDSPro",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "large, elegant serif headings (~3-4x body) with smaller, clean sans-serif body text and very small uppercase labels.",
+    "radius": "sharp corners throughout, with no visible rounded elements.",
+    "spacing": "airy, particularly in hero and between major sections; content grids maintain a balanced density."
+  },
+  "standout": "This site stands out for its sophisticated, gallery-like presentation of art and information, using a stark black and white palette and elegant, high-contrast typography to create a high-end, editorial feel. The scroll-out hero section, revealing a clean white canvas, is a distinctive and impactful opening.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

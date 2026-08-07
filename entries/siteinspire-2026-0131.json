@@ -1,0 +1,105 @@
+{
+  "id": "siteinspire-2026-0131",
+  "source": {
+    "url": "https://tijmensmeulders.nl",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0131.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0131__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0131__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0131__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tijmensmeulders.nl/PB",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0131__p2.webp"
+      },
+      {
+        "url": "https://tijmensmeulders.nl/C-T",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0131__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-design",
+      "art"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A highly structured, almost tabular three-column layout is used for the main project list, presenting Project, Client, and Year in distinct, aligned columns."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif typeface is used consistently across all text elements, including navigation, body text, and project titles, varying only in size and weight."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, monochromatic color scheme of light grey background and dark grey text dominates, allowing project imagery to introduce the only significant color variations."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar dynamically reduces its height and becomes sticky as the user scrolls past the initial hero content, maintaining a compact presence at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Project detail pages feature an asymmetric two-column layout, typically with a large image on the left and a concise block of descriptive text and metadata on the right."
+    }
+  ],
+  "technique_notes": [
+    "The sticky header effect can be rebuilt using CSS position: sticky combined with a JavaScript listener that adds a class to the header element once a specific scroll threshold is met. This class would apply a CSS transition to reduce the header's height and padding, creating a smooth shrinking animation.",
+    "The overall minimalist layout relies on a grid system with generous white space, particularly around content blocks and between list items, to create an airy and uncluttered presentation. Project pages utilize a flexible two-column grid for image and text pairings.",
+    "Content sections, such as the project list, are presented statically without scroll-triggered reveals or fade-ins, maintaining a direct and immediate display of information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EBEBEB",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#8B7355",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Favorit",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Favorit",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "small, consistent sans-serif for body text and navigation, with project titles slightly larger but not dramatically so; headings are generally just larger versions of the body font.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical spacing between project list items and around the hero section, contributing to a clean and uncluttered feel."
+  },
+  "standout": "This site's design is distinctive for its extreme, almost academic minimalism and highly structured presentation of design work. It eschews typical marketing elements for a direct, content-focused display where the project list itself functions as a primary navigation and content index, presented in a precise, spreadsheet-like format.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
