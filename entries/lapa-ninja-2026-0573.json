@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-0573",
+  "source": {
+    "url": "https://kuratemusic.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0573.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0573__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0573__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0573__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "record-label",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent dark background with a subtle grid overlay is used for the initial sections, providing a sophisticated backdrop for light-colored text and imagery."
+    },
+    {
+      "kind": "type",
+      "note": "The typography uses large, bold sans-serif headings for impact, complemented by smaller, regular-weight body text and distinct uppercase labels for navigation and section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, using deep charcoal backgrounds with crisp white and light grey typography, accented by a vibrant teal/blue for interactive elements and abstract graphics."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section with its layered images and text scrolls up and out of view, transitioning to a dark background with a subtle grid, while a persistent bottom navigation bar remains fixed."
+    },
+    {
+      "kind": "motion",
+      "note": "Subsequent content sections, such as the descriptive text and artist spotlights, are revealed with a subtle fade-up or slide-up animation as they enter the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using locomotive-scroll, where elements animate into view as the user scrolls down the page, creating a sense of depth and progression.",
+    "The initial hero content is designed to scroll out of the main viewport, revealing subsequent sections with a staggered fade-up or slide-in effect, making the transition feel dynamic.",
+    "A fixed navigation bar is positioned at the bottom of the screen, providing persistent access to key site sections regardless of scroll depth, and maintaining a clean top header."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#292d32",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "text"
+      },
+      {
+        "hex": "#b3b3b3",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#6e6f6f",
+        "role": "tertiary-text"
+      },
+      {
+        "hex": "#0096aa",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with smaller, regular-weight body text and uppercase labels for navigation and section titles.",
+    "radius": "subtle rounded corners on interactive elements like buttons, while images and main content blocks are sharp.",
+    "spacing": "airy, with generous vertical spacing between major sections and a balanced rhythm within content blocks."
+  },
+  "standout": "The site's distinctive design lies in its highly dynamic and immersive hero section, which features layered images and text that animate out of view on scroll, transitioning smoothly into subsequent content. This, combined with a persistent, subtly styled bottom navigation bar and abstract background graphics, creates a sophisticated and interactive user experience that feels more like an application than a traditional website.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

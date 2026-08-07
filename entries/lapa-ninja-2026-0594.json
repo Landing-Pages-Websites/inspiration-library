@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-2026-0594",
+  "source": {
+    "url": "https://stelstores.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0594.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0594__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0594__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0594__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "e-commerce",
+      "apparel"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a full-bleed product image with the brand name 'STEL' displayed in an extremely large, vertically oriented, and condensed sans-serif font, creating a strong visual anchor."
+    },
+    {
+      "kind": "type",
+      "note": "A clear distinction between a bold, condensed display font for the brand name and a clean, legible sans-serif for navigation and body text, establishing a hierarchy of visual importance."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white color scheme dominates the interface, allowing product photography to introduce the primary visual interest and color."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms into a sticky header upon scroll, losing the 'Free Shipping' top bar and remaining fixed at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The large 'STEL' brand name in the hero section appears to parallax slightly or scroll at a different rate than the background image, creating a subtle depth effect before it scrolls out of view."
+    },
+    {
+      "kind": "section",
+      "note": "A scroll-triggered newsletter signup modal appears mid-page, interrupting the flow with a direct call to action after initial content has been viewed."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the hero, use a full-width image container with a large, vertically aligned text overlay. Implement a subtle parallax effect where the text scrolls at a slightly slower rate than the background image, eventually scrolling out of view.",
+    "The navigation bar should be designed with two states: an initial state with a top promotional bar, and a sticky state that activates on scroll, removing the promotional bar and fixing the navigation to the top of the viewport.",
+    "Implement a scroll-triggered modal that appears after the user scrolls past a certain percentage of the page height, presenting a newsletter signup form."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Suisse",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An extremely oversized, condensed sans-serif display font (~10x body) for the brand name, contrasted with a clean, standard sans-serif for navigation and body text.",
+    "radius": "sharp",
+    "spacing": "very airy hero, with significant vertical white space between the hero and the footer, creating a sense of spaciousness and focus on the primary content."
+  },
+  "standout": "The site's design is distinctive for its bold, almost architectural use of typography in the hero section, where the brand name 'STEL' is a dominant, vertically oriented graphic element. This, combined with the minimalist aesthetic and significant white space, creates a high-fashion, editorial feel that prioritizes brand presence over immediate product display.",
+  "animation_tech": [],
+  "status": "approved"
+}

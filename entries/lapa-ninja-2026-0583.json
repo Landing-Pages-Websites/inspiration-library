@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-0583",
+  "source": {
+    "url": "https://www.myrendezvous.ca",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0583.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0583__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0583__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0583__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "barbershop",
+      "beauty",
+      "personal-care"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dramatic full-bleed hero sections with strong typographic focus, transitioning to a mix of full-width and centered content blocks for subsequent sections."
+    },
+    {
+      "kind": "type",
+      "note": "High contrast between oversized, elegant black serif display font for main headings and clean, legible sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "Dominant use of a vibrant orange as a primary accent and background, contrasted sharply with black and white for a bold, modern aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "A distinct hero transition on scroll, where an initial bold typographic screen with an orange background slides up to reveal a dark background with a video/image hero, accompanied by new text and a transformed sticky navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background colors (orange, black, white) or full-bleed imagery, creating strong visual breaks and hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered reveal, likely using GSAP, where an initial full-screen typographic hero with a solid background slides away to expose a video or image hero beneath it. Simultaneously, the main headline text fades out while a new, aspirational headline fades in over the revealed visual content.",
+    "A sticky header transformation occurs on scroll, where the top-right navigation area dynamically changes from a simple 'DOWNLOAD APP' link to a full social media and policy menu, while the logo and 'BOOK NOW' button remain sticky and adapt their styling.",
+    "Typography is used for dramatic effect by pairing a very large, elegant serif display font for impactful headlines with a clean, modern sans-serif for all other textual content, creating a clear visual hierarchy and sophisticated feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff622b",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#6a6a6a",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, elegant serif headings (up to ~5x body) for dramatic impact, paired with clean, legible sans-serif for body and UI elements.",
+    "radius": "Mostly sharp, with subtle rounding on interactive elements like app screenshots and some buttons.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within the hero area, creating a sense of luxury and focus."
+  },
+  "standout": "The site's design is distinctive for its dramatic, oversized serif typography paired with a bold, high-contrast color palette (vibrant orange, black, white). The scroll-triggered hero transition, which completely transforms the initial view from a typographic statement to a visual hero, is particularly striking and memorable.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

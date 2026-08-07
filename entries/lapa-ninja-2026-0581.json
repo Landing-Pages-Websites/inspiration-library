@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0581",
+  "source": {
+    "url": "https://www.midlife.engineering",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0581.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0581__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0581__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0581__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "wellness",
+      "product-launch"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a single, large product illustration centrally placed, flanked by massive, low-contrast background text that acts as a visual anchor."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses an extremely large, bold sans-serif typeface for primary messaging, often overlapping or extending beyond the main content area, creating a strong visual statement."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black, light gray, and white is consistently accented by a vibrant, energetic orange for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The site initiates with a stylized 'boot sequence' animation, transitioning from a dark, minimal display of system checks and progress bars to the full hero content as the page loads, rather than scroll-triggered reveals after the page is fully visible."
+    },
+    {
+      "kind": "section",
+      "note": "The primary content is presented as a single, immersive hero experience, with minimal surrounding UI elements, focusing entirely on the central product and its core message."
+    }
+  ],
+  "technique_notes": [
+    "The initial page load triggers a full-screen, multi-stage animation sequence, starting with a dark background and monospaced text 'booting up', then revealing abstract gray and orange bars, before finally fading into the main hero section with its large typography and central device. This uses a combination of canvas and CSS keyframe animations to create a dynamic and engaging pre-loader experience.",
+    "Massive, low-opacity text elements are positioned behind and around the main product illustration, creating a sense of depth and emphasizing key brand messages without obstructing the focal point.",
+    "Interactive elements and calls to action are highlighted with a bright accent color, providing clear visual cues against the otherwise monochromatic design."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#EBEBEB",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF611A",
+        "role": "accent"
+      },
+      {
+        "hex": "#262626",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Manrope",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Fragment Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Massive, bold sans-serif headings (~5x body) dominate the hero, contrasted with smaller, utilitarian sans-serif for supporting text and monospaced font for system messages.",
+    "radius": "Subtle rounding on the interactive device, otherwise sharp corners for most UI elements and containers.",
+    "spacing": "Very airy, with significant negative space around the central hero element and large margins for text."
+  },
+  "standout": "The site's distinctive 'boot sequence' pre-loader creates a unique, interactive entry point, immediately setting a technical and precise tone. This, combined with the massive, almost architectural typography and the central, detailed device illustration, makes the hero section feel like a sophisticated product reveal rather than a typical marketing page.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
