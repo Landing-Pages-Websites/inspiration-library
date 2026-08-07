@@ -1,0 +1,106 @@
+{
+  "id": "siteinspire-weareconstant-com-674a55",
+  "source": {
+    "url": "https://www.weareconstant.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-weareconstant-com-674a55.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-weareconstant-com-674a55__scroll0.webp",
+      "shots/_proposed/siteinspire-weareconstant-com-674a55__scroll1.webp",
+      "shots/_proposed/siteinspire-weareconstant-com-674a55__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://weareconstant.com/",
+        "full": "shots/_proposed/siteinspire-weareconstant-com-674a55__p2.webp"
+      },
+      {
+        "url": "https://weareconstant.com/lets-get-physical",
+        "full": "shots/_proposed/siteinspire-weareconstant-com-674a55__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding-agency",
+      "design-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layout for the 'Capabilities' section, featuring a numbered list on the left and related content blocks (Tools, Work & Articles) on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of large, uppercase, bold sans-serif typography for section titles ('CAPABILITIES', 'THINK'), creating strong visual anchors and a commanding presence."
+    },
+    {
+      "kind": "motion",
+      "note": "The full-bleed hero features a video background that scrolls at a different rate than the main headline text, creating a subtle parallax effect as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Horizontal scrolling content blocks are used for 'Selected work' and 'Think' sections, indicated by a 'X/Y' counter, allowing users to browse multiple items within a compact area."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero with a dark overlay provides a dynamic background, where the video scrolls at a slower rate than the foreground text, creating a subtle parallax effect before the entire hero section scrolls out of view.",
+    "The main navigation bar is sticky and transparent, maintaining its position and appearance at the top of the viewport throughout the scroll.",
+    "Content sections appear to reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport, enhancing content discovery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, uppercase sans-serif headings (~4-5x body text) for section titles, with a clean, legible body text and even larger hero text.",
+    "radius": "sharp \u2014 all elements, including images and content blocks, feature sharp 90-degree corners.",
+    "spacing": "airy \u2014 generous vertical and horizontal padding, especially around major sections and in the hero, creating a sense of spaciousness and clarity."
+  },
+  "standout": "The site's distinctive use of a full-bleed, high-quality video hero that subtly parallaxes behind the main headline, combined with an extremely clean, almost editorial layout featuring large, uppercase section titles and horizontal content carousels, makes it feel more like an art gallery than a typical corporate site.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

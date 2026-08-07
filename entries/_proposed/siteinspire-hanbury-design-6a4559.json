@@ -1,0 +1,98 @@
+{
+  "id": "siteinspire-hanbury-design-6a4559",
+  "source": {
+    "url": "https://www.hanbury.design",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-hanbury-design-6a4559.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-hanbury-design-6a4559__scroll0.webp",
+      "shots/_proposed/siteinspire-hanbury-design-6a4559__scroll1.webp",
+      "shots/_proposed/siteinspire-hanbury-design-6a4559__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "construction"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An asymmetric, dynamic grid layout for project showcases, where images and titles appear to fill the screen as the user scrolls, rather than a fixed, uniform grid."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, widely spaced sans-serif text is used for the primary navigation, creating a strong visual hierarchy against the minimalist background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white palette dominates the design, with a single vibrant orange accent color reserved exclusively for primary calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial tall header with widely spaced navigation items condenses and becomes sticky at the top of the viewport after a short scroll, maintaining its large text size."
+    },
+    {
+      "kind": "motion",
+      "note": "Project images and their accompanying titles reveal with a subtle fade-in and slight upward slide animation as they enter the viewport during scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar uses a scroll-triggered transformation, reducing its height and becoming fixed at the top of the viewport after a certain scroll depth, while maintaining its content.",
+    "Content elements, specifically project images and their associated text, are revealed using CSS keyframe animations, likely involving a slight upward translation and opacity change as they scroll into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF4500",
+        "role": "cta"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, bold sans-serif navigation items (~2-3x body) with clear, legible body text and prominent project titles.",
+    "radius": "sharp \u2014 all elements, including images and buttons, feature crisp 0px corner radii.",
+    "spacing": "airy \u2014 generous white space is used, especially in the initial view, creating a sense of openness, with balanced padding around content sections."
+  },
+  "standout": "The site's design is distinctive for its extreme initial minimalism, presenting a vast amount of white space and a sparse navigation before dynamically revealing a rich, grid-based portfolio of architectural projects. The transformation of the header from a tall, almost decorative element to a compact, sticky navigation on scroll is a key visual cue that transitions the user from an exploratory state to content consumption.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
