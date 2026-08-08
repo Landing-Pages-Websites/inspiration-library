@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0630",
+  "source": {
+    "url": "https://www.swanvision.ai/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0630.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0630__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0630__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0630__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ecommerce",
+      "fashion-tech"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts frequently pair large images or code blocks with descriptive text, often with a clear visual hierarchy and ample whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, large-scale serif font is used exclusively for primary headlines, creating an editorial and high-end feel, contrasted with a clean sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a minimalist color palette of black, white, and a light off-white, punctuated by a vibrant purple accent for CTAs and a distinctive footer background."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay with white text in the hero section to a sticky bar with a solid white background and a prominent purple CTA button upon scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The footer features a unique, full-width purple background with a repeating, angled text pattern ('Sell more clothes without the returns') that adds a distinctive brand element."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar implements a scroll-triggered state change, transitioning from a transparent, overlaid style to a solid background with a distinct call-to-action button once the user scrolls past the initial hero content. This could be achieved using CSS keyframes or JavaScript to toggle classes based on scroll position.",
+    "Content sections are designed with a flexible grid system that allows for large, impactful visuals or code snippets to be placed alongside textual explanations, often in a two-column or split layout.",
+    "The hero section utilizes a full-bleed, pixelated background image that provides a strong visual anchor while allowing clear text overlay for the primary message."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#5F37F3",
+        "role": "cta"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with a clear hierarchy, complemented by a clean, functional sans-serif for body text and smaller labels.",
+    "radius": "Subtle (small corner radius on buttons, cards, and code blocks, suggesting a modern but not overly soft aesthetic).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more balanced density within content blocks."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of a pixelated, abstract hero image with an elegant, large-scale serif display font for headlines. This combination, along with the unique repeating text pattern in the footer, creates a high-end, editorial feel that elevates it beyond a typical SaaS marketing page.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

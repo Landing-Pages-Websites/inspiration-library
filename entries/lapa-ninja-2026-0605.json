@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0605",
+  "source": {
+    "url": "https://antoniocalvoartandsoul.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0605.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0605__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0605__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0605__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "beauty",
+      "fashion",
+      "creative-services",
+      "personal-brand"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent, fixed top bar (logo, hamburger menu) and bottom bar (main navigation, social links) frame the scrolling content, creating a portal-like viewing experience."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic, oversized serif typography is used for all major section headings, creating strong visual anchors against a dark background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, featuring black and deep charcoal backgrounds with crisp white text, accented by subtle gold for social icons and occasional vibrant imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, moving independently behind the main title text as the user scrolls. Sections and individual image elements reveal with a staggered fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Image galleries within sections utilize organic, irregularly shaped masks (circles, blobs) for individual photos, breaking from traditional rectangular grids."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed header and footer that remain visible and interactive throughout the scroll, effectively framing the main content area.",
+    "Achieve smooth scrolling and complex scroll-triggered animations (like parallax for hero images and staggered reveals for content sections) using a combination of a smooth scrolling library like Locomotive Scroll and a powerful animation library such as GSAP ScrollTrigger.",
+    "Create irregularly shaped image masks using SVG paths or CSS clip-path properties to give a unique, artistic presentation to photographic elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#171624",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent-icon"
+      },
+      {
+        "hex": "#7A00DF",
+        "role": "accent-hint"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Monaco",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-6x body text) create dramatic visual impact, contrasted with smaller, clean sans-serif for body and navigation, often in uppercase.",
+    "radius": "Sharp corners for overall layout elements and buttons; organic, irregular shapes are used extensively for image masks.",
+    "spacing": "Very airy in the hero and between major sections, emphasizing individual elements; balanced density within text blocks and navigation."
+  },
+  "standout": "The site's design is distinctive for its dramatic, large-scale serif typography that acts as a primary visual element, combined with the artistic use of organic, irregularly shaped image masks. The persistent top and bottom navigation bars create a unique framed viewing experience, enhancing the sense of a curated, high-end portfolio.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

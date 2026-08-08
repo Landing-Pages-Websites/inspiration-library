@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0632",
+  "source": {
+    "url": "https://www.wrk-timepieces.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0632.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0632__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0632__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0632__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "luxury-goods",
+      "horology",
+      "engineering"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A grid-based layout with generous whitespace, using full-width sections and distinct content blocks that maintain a consistent horizontal alignment."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic contrast, pairing very large, thin, uppercase display headings with small, dense, uppercase monospaced labels for product details and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette dominated by dark backgrounds and text, punctuated by a vibrant orange accent for calls to action, section backgrounds, and key information."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up animation as they scroll into the viewport, creating a smooth, staggered appearance of information."
+    },
+    {
+      "kind": "section",
+      "note": "Product information is presented in a highly structured, almost data-sheet-like format, using small, precise monospaced labels and values."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-viewport initial state with a large, abstract brand mark and product image that scrolls away to reveal subsequent content. Content sections below the hero employ scroll-triggered reveals, where elements animate into view with a subtle fade and upward translation as they enter the viewport, likely orchestrated with CSS keyframes or a JavaScript animation library.",
+    "A persistent cookie consent banner is fixed to the bottom-left of the viewport, maintaining its position as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#191919",
+        "role": "background"
+      },
+      {
+        "hex": "#ff6b00",
+        "role": "accent"
+      },
+      {
+        "hex": "#e6e6e6",
+        "role": "text"
+      },
+      {
+        "hex": "#646464",
+        "role": "surface"
+      },
+      {
+        "hex": "#a0a0a0",
+        "role": "text"
+      },
+      {
+        "hex": "#282828",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TT Interphases Pro",
+        "role": "heading"
+      },
+      {
+        "family": "TT Interphases Pro",
+        "role": "body"
+      },
+      {
+        "family": "TT Interphases Pro Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, thin, uppercase display headings (~6-8x body) with small, dense, uppercase monospaced labels and a balanced body text size.",
+    "radius": "Sharp corners throughout, with no visible rounding on any elements.",
+    "spacing": "Very airy in the hero and between major sections, with content blocks having balanced internal spacing, and dense, tightly packed monospaced labels."
+  },
+  "standout": "The site's design is distinctive for its audacious use of extreme typographic scale, blending a massive, thin, uppercase display font with tiny, dense monospaced labels. This creates a unique aesthetic that feels both minimalist and technically precise, elevating product details to an almost artistic presentation.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

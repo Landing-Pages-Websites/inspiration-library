@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0613",
+  "source": {
+    "url": "https://decathlon-yeyeweller.index.studio/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0613.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0613__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0613__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0613__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "apparel",
+      "sports-equipment"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections feature a playful, scrapbook-like arrangement of product cutouts and sticker-style illustrations, breaking from rigid grid structures."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of an extremely bold, rounded, and cartoonish display font for main headings, contrasted with a clean sans-serif for body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and high-contrast palette centered on a soft pink background, accented by bright blues, purples, and reds, with stark black typography."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features subtle parallax scrolling where the main character and sun graphic move at a slightly different speed than the background. Subsequent content sections reveal with a staggered fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product displays are presented as 'cutout' images with soft, irregular shadows, giving them a sticker-like appearance against the background."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven animation system (likely locomotive-scroll) to create a dynamic experience. This includes a subtle parallax effect on hero elements, where foreground graphics move slower than the background during scroll. Additionally, content sections and individual elements within them are revealed with a staggered fade-up or slide-in motion as they scroll into view.",
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access to links while the page content scrolls beneath it.",
+    "Product images are rendered as transparent cutouts with a soft, irregular drop shadow, making them appear as if they are physical stickers placed on the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff99c8",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#37bff3",
+        "role": "accent"
+      },
+      {
+        "hex": "#a564a8",
+        "role": "accent"
+      },
+      {
+        "hex": "#f03b42",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Chewy",
+        "role": "display"
+      },
+      {
+        "family": "Roboto Flex",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, very bold, rounded display headings (~4-5x body) with smaller, uppercase sans-serif labels and legible body text.",
+    "radius": "subtle for buttons and some containers, but many graphic elements are organically rounded or have irregular, hand-drawn edges.",
+    "spacing": "airy, particularly in the hero and between major sections, creating a relaxed and open feel, while product grids maintain balanced padding."
+  },
+  "standout": "The site's most distinctive feature is its highly playful and illustrative aesthetic, combining bold, cartoonish typography with sticker-like product cutouts and animated character graphics. This creates a unique, almost scrapbook-like visual experience that feels energetic and youthful, moving far beyond a typical e-commerce layout.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

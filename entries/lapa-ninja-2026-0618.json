@@ -1,0 +1,103 @@
+{
+  "id": "lapa-ninja-2026-0618",
+  "source": {
+    "url": "https://jacob-store.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0618.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0618__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0618__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0618__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-screen content sections that replace each other on scroll, creating distinct visual states rather than a continuous flow."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of bold, all-caps sans-serif typography for branding, headlines, and calls-to-action."
+    },
+    {
+      "kind": "color",
+      "note": "A monochromatic base palette of black, white, and grays, allowing product imagery to introduce the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Entire full-screen sections transition into view, replacing the previous section with a distinct visual snap or slide effect as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "The initial view is a full-screen product gallery, acting as a dynamic hero before transitioning to other content sections."
+    }
+  ],
+  "technique_notes": [
+    "Implement full-screen content sections that snap to the viewport height. Use JavaScript (potentially with a scroll-snapping library or custom scroll detection) to transition between these sections, making them replace each other on scroll rather than allowing continuous scrolling. A fixed header element overlays these dynamic sections. A modal overlay for newsletter subscription appears on a specific trigger, such as scroll depth or time on page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#444444",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "surface"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, all-caps sans-serif headings (~3-4x body) with a clean, legible body text for product details and descriptions.",
+    "radius": "Sharp (buttons, input fields, and image corners are consistently rectangular with no visible rounding).",
+    "spacing": "Airy (generous spacing around full-screen sections and large text elements, creating distinct visual breaks between content blocks)."
+  },
+  "standout": "The most distinctive aspect is the site's use of full-screen, distinct content sections that replace each other on scroll, creating a highly curated, almost gallery-like experience. This approach provides a unique rhythm and focus, making each content block feel like a deliberate presentation rather than part of a continuous flow.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

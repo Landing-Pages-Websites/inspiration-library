@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0620",
+  "source": {
+    "url": "https://ldmabrand.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0620.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0620__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0620__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0620__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce",
+      "activewear"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of full-bleed, high-quality photography and video, often arranged in large grids or hero sections, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast between a modern, clean sans-serif for body text and UI elements, and an elegant, condensed serif for display headings and hero text, frequently using all caps for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of black, white, and dark grey, accented by natural skin tones and subtle pastel hues derived directly from product photography (e.g., light blue, muted peach)."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll, shrinking the logo and navigation into a sticky bar. The hero video background exhibits a subtle parallax effect relative to the foreground text. A massive, bold brand logo is revealed as the final element in the footer upon reaching the bottom of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Product categories are presented in a clean, equally-sized four-column grid, each with a large product image and category label."
+    }
+  ],
+  "technique_notes": [
+    "The header transitions from a transparent overlay with a large logo to a smaller, solid background sticky navigation bar upon scroll. The hero video background scrolls at a slightly different rate than the foreground text, creating a subtle parallax effect. Sections below the hero appear to smoothly scroll into view, with a large, bold logo revealing itself as the final element in the footer, appearing from the bottom of the viewport, likely facilitated by a smooth scrolling library like locomotive-scroll.",
+    "Imagery is presented in full-bleed sections and grids, often featuring models in aspirational, active poses, creating a strong lifestyle brand narrative. Text overlays on images use a dark, semi-transparent background for contrast.",
+    "Typography combines a clean sans-serif for readability with a distinctive, elegant serif for display purposes, often using uppercase for impact and clear hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#121212",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#F6F2EE",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#96B3D1",
+        "role": "accent"
+      },
+      {
+        "hex": "#ECD0C0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FreightDisp Pro",
+        "role": "display"
+      },
+      {
+        "family": "ABC Diatype",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear hierarchy with a large, elegant serif for hero text (~3-4x body), strong sans-serif for section titles (~2x body), and a clean, readable sans-serif for body text and labels, with frequent use of uppercase for emphasis.",
+    "radius": "Sharp, with most elements and images featuring crisp, square corners, contributing to a modern and clean aesthetic.",
+    "spacing": "Airy, characterized by generous white space around sections and within content blocks, particularly in hero and editorial image grids, enhancing the premium and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its bold, full-bleed photography and video, combined with a massive, almost sculptural logo reveal in the footer. This creates a highly immersive and aspirational brand experience that prioritizes visual storytelling and a strong brand presence over dense information.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

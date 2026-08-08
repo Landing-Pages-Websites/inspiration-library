@@ -1,0 +1,97 @@
+{
+  "id": "lapa-ninja-2026-0626",
+  "source": {
+    "url": "https://www.sadh.online/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0626.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0626__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0626__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0626__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "luxury-fashion"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dominant use of full-bleed, high-fashion photography as primary content sections, creating a gallery-like scroll experience where each image fills a significant portion of the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Minimalist, uppercase sans-serif for navigation and labels, contrasting with a larger, bold, wide sans-serif for the brand logo and section titles."
+    },
+    {
+      "kind": "color",
+      "note": "Stark black and white UI elements provide a clean, high-contrast backdrop, allowing the rich, earthy tones and textures of the product photography to be the primary source of color and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero overlay text 'FIRST DROP JUST ARRIVED DISCOVER' fades out as the user scrolls past the initial viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block is presented as a full-viewport-height image section, often with minimal text overlay, creating a sequential visual narrative rather than a traditional grid or card layout."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position header maintains its presence at the top of the viewport, ensuring navigation and branding are always accessible.",
+    "Scroll-triggered CSS keyframe animations or JavaScript-based opacity transitions cause the hero overlay text to fade out as the user scrolls past the initial hero section.",
+    "Full-bleed image sections are achieved by setting images as background elements or using image tags with object-fit: cover, ensuring they fill their container and adapt to various screen sizes while maintaining aspect ratio."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Futura",
+        "role": "display"
+      }
+    ],
+    "type_scale": "oversized bold geometric sans-serif for the logo, large bold sans-serif for section titles, and small uppercase sans-serif for navigation and labels, with standard body text.",
+    "radius": "sharp, with no visible rounding on any elements.",
+    "spacing": "airy, with large full-bleed image sections creating significant visual breaks, while internal text blocks maintain a balanced density."
+  },
+  "standout": "The site's distinctive design is its strong reliance on full-bleed, high-fashion photography that acts as the primary content and navigation, creating a scrolling gallery experience. This visual-first approach, combined with a stark black and white UI, elevates the product presentation beyond typical e-commerce, focusing on artistic expression and brand mood.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
