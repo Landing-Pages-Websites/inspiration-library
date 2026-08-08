@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-cahuparis-com-4fcbc1",
+  "source": {
+    "url": "https://cahuparis.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-cahuparis-com-4fcbc1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-cahuparis-com-4fcbc1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-cahuparis-com-4fcbc1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-cahuparis-com-4fcbc1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "accessories",
+      "luxury-goods"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography and video are used extensively for hero sections and as background elements for editorial content blocks, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, often in all caps, creating strong visual anchors that contrast with smaller, refined sans-serif body and navigation text."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white base palette is accented by rich, earthy tones derived directly from product photography (e.g., deep browns, tans, and occasional vibrant product colors like blue or pink)."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and centering the logo as it becomes sticky. Content sections reveal with a subtle fade-up or slide-in animation as they enter the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial-style content blocks feature large, impactful typography paired with full-bleed imagery, often with text positioned to one side, creating a magazine-like layout."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video that scales down and subtly parallaxes as the user scrolls, eventually revealing the next content block. This effect is likely achieved using a combination of CSS transforms and scroll event listeners, possibly integrated with a library like locomotive-scroll.",
+    "A sticky header is implemented that dynamically changes its size and layout. Initially, a top announcement bar disappears, and the main navigation bar (logo, menu items) shrinks vertically and centers its logo, remaining fixed at the top of the viewport.",
+    "Content sections are revealed using scroll-triggered animations, where elements fade in and slide up from the bottom as they become visible in the viewport, creating a smooth and engaging content flow, characteristic of locomotive-scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#6F3A3A",
+        "role": "accent"
+      },
+      {
+        "hex": "#A88152",
+        "role": "accent"
+      },
+      {
+        "hex": "#D1D1D1",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF3300",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: NeueMontreal-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (e.g., 'New in' is ~5x body) create strong visual impact, contrasted with smaller, clean sans-serif body and navigation text.",
+    "radius": "Sharp corners are consistently used across all elements, including buttons, images, and input fields, contributing to a modern and precise aesthetic.",
+    "spacing": "Generally airy, especially in hero and editorial sections, providing ample whitespace around content. Product grids maintain a balanced density with clear separation between items."
+  },
+  "standout": "This site distinguishes itself with its editorial, magazine-like presentation, using full-bleed video and photography as core design elements. The subtle but effective scroll-triggered animations, particularly the transforming sticky navigation and section reveals, create a sophisticated and engaging user experience that feels premium and modern.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

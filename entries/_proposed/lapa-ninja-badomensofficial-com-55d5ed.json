@@ -1,0 +1,103 @@
+{
+  "id": "lapa-ninja-badomensofficial-com-55d5ed",
+  "source": {
+    "url": "https://www.badomensofficial.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-badomensofficial-com-55d5ed.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-badomensofficial-com-55d5ed__scroll0.webp",
+      "shots/_proposed/lapa-ninja-badomensofficial-com-55d5ed__scroll1.webp",
+      "shots/_proposed/lapa-ninja-badomensofficial-com-55d5ed__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "band",
+      "merchandise"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background with content sections centered and contained within a maximum width, creating a focused viewing area."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast uppercase sans-serif typography is used for section headings and UI elements, while the band's logo employs a distinct, heavy, distressed display font for brand identity."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome dark theme (black/dark grey background, white text) is used, with minimal, impactful accent colors like red for branding and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video is fixed in the viewport, allowing subsequent content to scroll over it, while a subtle parallax effect is applied to the background image/texture, moving slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Product displays consistently use a three-column grid layout with uniform spacing for merchandise items."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed background image with a subtle parallax effect is implemented, causing it to scroll at a slower rate than the foreground content, adding depth.",
+    "The hero video is fixed in the viewport, creating a layered effect where subsequent content scrolls directly over the video, maintaining its visibility.",
+    "Uses GSAP for scroll-triggered effects, specifically for the background parallax and potentially for subtle section reveals, though the primary observed motion is the background parallax."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#131514",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#27414c",
+        "role": "background-texture-accent"
+      },
+      {
+        "hex": "#e00000",
+        "role": "accent-cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Nunito-Sans-Klaviyo-Hosted",
+        "role": "body"
+      },
+      {
+        "family": "Nunito-Sans-Klaviyo-Hosted",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Impact",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are moderately larger (~2x body) and uppercase, using a clean sans-serif, while the brand logo employs a heavy, distressed display font.",
+    "radius": "Sharp (minimal to no visible corner rounding on elements like buttons, product cards, and input fields).",
+    "spacing": "Balanced (consistent moderate spacing in product grids and ample vertical padding between sections)."
+  },
+  "standout": "The strong, immersive dark aesthetic achieved through the fixed hero video and subtle background parallax, combined with high-contrast typography and gritty imagery, creates a distinctive brand experience that goes beyond a typical merchandise store, deeply reflecting the band's identity.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

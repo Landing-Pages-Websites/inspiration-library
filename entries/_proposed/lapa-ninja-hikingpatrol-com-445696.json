@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-hikingpatrol-com-445696",
+  "source": {
+    "url": "https://hikingpatrol.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hikingpatrol-com-445696.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hikingpatrol-com-445696__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hikingpatrol-com-445696__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hikingpatrol-com-445696__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "apparel",
+      "outdoor-gear",
+      "fashion",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often presented in large, editorial-style image blocks or clean product grids, maintaining a balanced use of whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a slightly condensed, impactful sans-serif, while body text employs a highly legible, clean sans-serif, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of muted, earthy tones (greens, greys, browns) is used for backgrounds and imagery, contrasted with crisp white and deep dark text for high readability."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero video plays on load, and the primary navigation bar transforms from transparent to opaque and shrinks in height upon scrolling, becoming sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent use of large, immersive image and video blocks that serve as campaign showcases or collection highlights, often featuring overlaid text."
+    }
+  ],
+  "technique_notes": [
+    "The full-bleed video hero plays on loop, creating an immersive initial experience. The primary navigation bar transitions from a transparent, taller state to a condensed, opaque sticky bar with a solid background upon scrolling down, maintaining visibility. Content sections appear to reveal with a subtle fade or slide-up effect as they enter the viewport, leveraging CSS keyframes for dynamic entry animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#092924",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F2F0EF",
+        "role": "surface"
+      },
+      {
+        "hex": "#A1B8B8",
+        "role": "accent"
+      },
+      {
+        "hex": "#6B6B6B",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SyndacatGrotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large and impactful, using a slightly condensed sans-serif, while body text is clean and legible, with a good size for readability.",
+    "radius": "subtle (very slight rounding on buttons and product cards)",
+    "spacing": "balanced (good use of whitespace around sections and elements, not overly dense or airy)"
+  },
+  "standout": "The site effectively blends high-quality, editorial-style photography and video with a clean, functional e-commerce layout. The use of a full-bleed video hero and large, immersive image blocks creates a strong brand narrative that elevates it beyond a typical product catalog, making it feel more like a digital magazine than just a store.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

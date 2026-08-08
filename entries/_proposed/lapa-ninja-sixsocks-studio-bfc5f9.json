@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-sixsocks-studio-bfc5f9",
+  "source": {
+    "url": "https://www.sixsocks.studio/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sixsocks-studio-bfc5f9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sixsocks-studio-bfc5f9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sixsocks-studio-bfc5f9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sixsocks-studio-bfc5f9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "creative-agency",
+      "web-design",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with large, dynamic background and left-aligned descriptive text, contrasting with a centered logo that disappears on scroll."
+    },
+    {
+      "kind": "type",
+      "note": "A clear distinction between a monospaced font used for navigation, labels, and metadata, and a clean sans-serif for primary headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is dramatically interrupted by a vibrant, abstract, and dynamic full-bleed hero background that shifts and disappears."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero background is a dynamic, distorting video or WebGL canvas that parallaxes and then fades out to a solid white background as the user scrolls, revealing a 3D WebGL model that rotates and changes perspective on further scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are often introduced with large, all-caps, left-aligned headings, followed by content, and separated by generous vertical white space, creating an airy and deliberate rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero features a full-bleed, interactive video or WebGL canvas background that distorts and shifts colors, then transitions out of view with a parallax and fade effect to reveal a solid background. This effect is likely orchestrated using GSAP ScrollTrigger combined with a video element or WebGL/Three.js scene.",
+    "A prominent 3D WebGL model is introduced mid-page, which animates its rotation and perspective in response to scroll depth, providing an interactive and dynamic content reveal.",
+    "Key text elements and the main navigation stick to the top of the viewport after an initial scroll, while other elements like the hero logo and initial labels fade out or slide away."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#BCBCBC",
+        "role": "surface"
+      },
+      {
+        "hex": "#E04C3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#241C1C",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "mono"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, all-caps headings (~3-4x body) are paired with smaller, monospaced labels and standard sans-serif body text, creating a technical yet clean hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between major sections and elements, creating a sense of spaciousness and deliberate presentation."
+  },
+  "standout": "The site's distinctive use of a highly dynamic, almost glitch-art WebGL/video hero background that dramatically transitions to a clean white canvas, followed by an interactive 3D model reveal, sets it apart. This creates an experimental, high-tech, and immersive experience that goes beyond typical static or simple parallax effects.",
+  "animation_tech": [
+    "gsap",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

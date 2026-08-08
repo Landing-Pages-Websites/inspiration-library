@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-twygskincare-com-910a36",
+  "source": {
+    "url": "https://twygskincare.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-twygskincare-com-910a36.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-twygskincare-com-910a36__scroll0.webp",
+      "shots/_proposed/lapa-ninja-twygskincare-com-910a36__scroll1.webp",
+      "shots/_proposed/lapa-ninja-twygskincare-com-910a36__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "cosmetics"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, vertically oriented brand name on the right, contrasting with a blurred, full-bleed product image on the left."
+    },
+    {
+      "kind": "layout",
+      "note": "Extensive use of full-bleed, high-quality editorial photography as primary visual content or background elements across most sections."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive burnt orange/terracotta color is consistently applied to product packaging, serving as a strong visual accent against a largely neutral palette of dark browns/blacks and off-whites."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant, high-contrast serif font for display headings and a clean, modern sans-serif for body text and navigation, creating an editorial feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a parallax effect where the background image blurs and scrolls at a different rate than the foreground elements, while a large vertical brand name sticks to the right edge of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections frequently alternate between dark (near-black) and light (off-white/beige) backgrounds, often featuring large, centered product or lifestyle photography."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered parallax effect where the background image blurs and translates upwards as the user scrolls, while a large, vertical brand name element remains fixed or slowly parallaxes on the right side of the viewport.",
+    "The site uses CSS keyframe animations for subtle reveals and transitions, likely for elements entering the viewport or for interactive states, though specific scroll-triggered reveals beyond the hero are not explicitly shown in the sequence.",
+    "The primary navigation remains sticky at the top of the viewport, maintaining accessibility throughout the scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#060201",
+        "role": "background"
+      },
+      {
+        "hex": "#e3dfd6",
+        "role": "surface"
+      },
+      {
+        "hex": "#af4627",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#787878",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Alpina",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Haas Display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (approx. 3-4x body size) are paired with smaller, clean sans-serif body text and uppercase labels, creating a luxurious and editorial hierarchy.",
+    "radius": "Subtle (buttons and input fields have a very slight rounding, almost sharp; product packaging is rounded).",
+    "spacing": "Airy (generous vertical spacing between major content blocks and within the hero section, creating a sense of luxury and allowing imagery to breathe)."
+  },
+  "standout": "The distinctive use of a large, vertical, sticky brand name in the hero section combined with the unique burnt orange product packaging color and high-end editorial photography creates a strong, memorable brand identity that feels more like a luxury magazine than a typical e-commerce site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

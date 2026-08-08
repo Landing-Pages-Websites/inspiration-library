@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-beepybella-world-8fe361",
+  "source": {
+    "url": "https://beepybella.world/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-beepybella-world-8fe361.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-beepybella-world-8fe361__scroll0.webp",
+      "shots/_proposed/lapa-ninja-beepybella-world-8fe361__scroll1.webp",
+      "shots/_proposed/lapa-ninja-beepybella-world-8fe361__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "accessories",
+      "glass-art"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Split-screen hero section combining a large product photograph with a graphic element featuring circular text and an animated object, creating immediate visual contrast."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of circular text paths for key messages, adding a playful and dynamic character to headings and display elements."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant, high-contrast accent colors (neon green, bright pink, purple, red) are strategically used against a predominantly black, white, and muted grey background palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slide-up animation as the user scrolls down the page, creating a dynamic and engaging content flow."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, and a secondary 'MANIFEST' call-to-action button becomes fixed on the right side after initial scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Product and process imagery is presented in a flexible grid layout with equal-sized cells, mixing product shots with behind-the-scenes or artistic process visuals."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely using GSAP ScrollTrigger and Locomotive Scroll, to reveal content sections with a staggered fade-in and subtle vertical translation as they enter the viewport. The hero section features a video or large image that scrolls away to reveal subsequent content. CSS keyframes are likely used for subtle, continuous animations on graphic elements.",
+    "A split-screen layout is used for the hero, combining a high-fidelity product photograph with a graphic element featuring circular text and an animated object, creating an immediate visual contrast and engaging entry point.",
+    "Product and process imagery is presented in a flexible grid that adapts to different content types, maintaining visual balance through consistent cell sizing and ample negative space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#C9CCCF",
+        "role": "surface"
+      },
+      {
+        "hex": "#121212",
+        "role": "surface"
+      },
+      {
+        "hex": "#E30000",
+        "role": "accent"
+      },
+      {
+        "hex": "#9933CC",
+        "role": "accent"
+      },
+      {
+        "hex": "#33FF00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Alata",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "display"
+      }
+    ],
+    "type_scale": "A balanced type scale with a distinctive display font for hero text and section titles, which are significantly larger than the body text, and smaller, uppercase labels for navigation and secondary information.",
+    "radius": "Sharp corners for most elements and containers, with subtle rounding on interactive elements like buttons and input fields.",
+    "spacing": "Airy spacing in the hero and between major sections, transitioning to a more balanced density within content grids and text blocks."
+  },
+  "standout": "The site's distinctive use of whimsical, handcrafted glass art and accessories as core product imagery, combined with a playful yet sophisticated design aesthetic. The circular text path in the hero and the vibrant, almost neon, color accents against a clean layout create a unique brand identity that feels both artistic and modern, avoiding generic e-commerce templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

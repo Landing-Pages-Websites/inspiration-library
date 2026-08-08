@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-youmustcreate-com-482e40",
+  "source": {
+    "url": "https://www.youmustcreate.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-youmustcreate-com-482e40.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-youmustcreate-com-482e40__scroll0.webp",
+      "shots/_proposed/lapa-ninja-youmustcreate-com-482e40__scroll1.webp",
+      "shots/_proposed/lapa-ninja-youmustcreate-com-482e40__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-contrast black and white photography and video are used as dominant content blocks, creating a strong visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochromatic color scheme (black, white, various greys) is used throughout, with a single dark, muted accent color for the footer background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, full-bleed image/video that exhibits a subtle parallax effect, where the foreground subject scrolls at a slightly different rate than the background, creating a sense of depth."
+    },
+    {
+      "kind": "type",
+      "note": "Minimalist sans-serif typography is used consistently for all text, characterized by generous letter spacing for navigation and headings, contributing to an airy and refined feel."
+    },
+    {
+      "kind": "section",
+      "note": "Product categories are introduced through large, distinct, full-width image sections, often presented in a split layout with two prominent images side-by-side."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a custom smooth scrolling experience, likely using `locomotive-scroll`, which enables a subtle parallax effect on the hero image/video. This effect causes foreground elements to move slower than the background as the user scrolls, enhancing visual depth and engagement.",
+    "Full-bleed hero sections utilize high-resolution video or static imagery, often in black and white, to immediately establish a strong brand aesthetic and visual mood.",
+    "Content sections are structured with large, responsive image blocks that adapt to fill the width, often presenting two distinct product visuals side-by-side to introduce categories."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#f2f2f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#4a5c68",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Univers",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are clean sans-serif, moderately sized, and often uppercase, while body text is small and legible, maintaining an airy feel.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous whitespace around major sections and within navigation elements creates a premium, uncluttered feel."
+  },
+  "standout": "The site's distinctive use of large-scale, high-contrast black and white photography and video creates a strong editorial and artistic feel, elevating the product presentation beyond typical e-commerce. The subtle, smooth parallax scrolling adds a premium, immersive touch that makes the content feel dynamic and engaging.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

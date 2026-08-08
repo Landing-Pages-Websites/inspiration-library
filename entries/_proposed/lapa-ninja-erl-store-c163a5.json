@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-erl-store-c163a5",
+  "source": {
+    "url": "https://erl.store/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-erl-store-c163a5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-erl-store-c163a5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-erl-store-c163a5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-erl-store-c163a5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Large, full-bleed editorial photography is used as prominent section headers and visual dividers, creating a magazine-like aesthetic."
+    },
+    {
+      "kind": "layout",
+      "note": "Product displays consistently utilize a clean, three-column grid with uniform light background for each item, emphasizing the product imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Navigation and key labels feature uppercase sans-serif typography with generous letter spacing, contributing to a refined, minimalist feel."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface relies on a monochromatic palette of whites and light greys, allowing the vibrant product and lifestyle photography to provide the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Overlays, such as the newsletter signup and cookie banner, appear as modals on page load or after a delay, rather than being triggered by scroll depth."
+    }
+  ],
+  "technique_notes": [
+    "Sections are visually delineated by full-width, high-impact photographic elements or by a structured grid of product cards, maintaining a clear visual hierarchy.",
+    "Uses CSS keyframe animations for the entrance of modal overlays (like the newsletter signup and cookie banner), making them fade or slide into view after the page loads or after a short delay. No scroll-triggered animations are present.",
+    "Product photography is consistently presented against a uniform, light background, creating a gallery-like display. Hero and footer imagery employs a desaturated, high-contrast, editorial aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fcfcfc",
+        "role": "background"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#aaadb1",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Archivo Narrow",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings and key labels are uppercase sans-serif with generous letter spacing, providing a strong but not oversized presence against smaller, legible body text.",
+    "radius": "Sharp corners are consistently applied across all UI elements, including input fields, buttons, and image frames.",
+    "spacing": "Balanced to airy, characterized by generous vertical spacing between major content sections and consistent padding within the product grid."
+  },
+  "standout": "The site distinguishes itself through its strong editorial photography, which feels more like a high-fashion magazine spread than a typical e-commerce product catalog. The consistent use of large, impactful imagery as section breaks and the minimalist UI create a sophisticated, gallery-like browsing experience that prioritizes visual storytelling over dense product information.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
