@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-heyshop-es-b4551d",
+  "source": {
+    "url": "https://heyshop.es/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-heyshop-es-b4551d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-heyshop-es-b4551d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-heyshop-es-b4551d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-heyshop-es-b4551d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "design",
+      "e-commerce"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, uniform grid of product images dominates the main content area, presenting items as visual art pieces with consistent aspect ratios."
+    },
+    {
+      "kind": "type",
+      "note": "The site contrasts minimal, functional sans-serif typography for UI elements with highly expressive, graphic, and often oversized typography integrated directly into product visuals."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse color palette is primarily showcased within the product imagery itself, set against a largely neutral (white/light grey) site background and dark text."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar (HeyShop logo, search, cart) becomes sticky to the top of the viewport after scrolling past the initial promotional banner and hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage structure features a full-bleed hero image immediately followed by a continuous, scrollable grid of product visuals without intervening section breaks or headings."
+    }
+  ],
+  "technique_notes": [
+    "The top navigation bar is initially positioned below a promotional banner and then uses a CSS fixed position property to stick to the top of the viewport once the user scrolls past its initial position, effectively hiding the promotional banner.",
+    "Product displays utilize a responsive grid system where each item maintains a consistent square or portrait aspect ratio, allowing for a visually rich and dense presentation of diverse products.",
+    "The site's motion is limited to a sticky header; no scroll-triggered reveals, fades, or parallax effects are applied to the content grid, which simply scrolls into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#231f20",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#6633ff",
+        "role": "promo-bar"
+      },
+      {
+        "hex": "#f00000",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      }
+    ],
+    "type_scale": "UI text is a consistent, legible sans-serif, while product visuals feature highly varied, bold, and often oversized graphic typography that acts as a design element.",
+    "radius": "Sharp (all image corners and UI elements are rectangular with no visible rounding).",
+    "spacing": "Balanced (grid items have consistent, moderate spacing, creating a dense but not cramped visual field; hero is full-bleed)."
+  },
+  "standout": "This site's design is distinctive for its treatment of products as art pieces, presented in a dense, gallery-like grid that prioritizes bold, graphic visuals and expressive typography within the product images themselves. The site chrome is intentionally minimal, allowing the vibrant and playful product designs to be the primary focus and defining aesthetic.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

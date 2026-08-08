@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-rains-com-0a8e37",
+  "source": {
+    "url": "http://rains.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-rains-com-0a8e37.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-rains-com-0a8e37__scroll0.webp",
+      "shots/_proposed/lapa-ninja-rains-com-0a8e37__scroll1.webp",
+      "shots/_proposed/lapa-ninja-rains-com-0a8e37__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "accessories",
+      "outerwear"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-contrast imagery serves as the primary visual anchor for each major content section, often with large text overlaid."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles use extremely large, bold, geometric sans-serif typography, creating a strong visual hierarchy and acting as a design element themselves."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of black, white, and various greys is used, with product photography introducing muted tones and a single vibrant red accent for 'NEW IN' in the navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections utilize a parallax scrolling effect where large background images remain fixed or move at a slower rate, while foreground text and product content scroll over them, creating a sense of depth and revealing new sections."
+    },
+    {
+      "kind": "section",
+      "note": "Each product category or thematic section is introduced by a full-bleed hero image with an oversized title, followed by product grids or supporting imagery, maintaining a consistent visual rhythm down the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header navigation that remains visible throughout scrolling.",
+    "Full-page scroll-triggered parallax effects are used to reveal content. Large, immersive background images are fixed in the viewport or scroll at a slower rate, while section titles and product displays scroll smoothly over them, creating a layered depth effect. This is consistent with the detected locomotive-scroll library.",
+    "Typography is used as a bold design element, with section headings rendered in a very large, heavy sans-serif font, often directly overlaid on striking imagery to command attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1c1c",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "background"
+      },
+      {
+        "hex": "#eb001b",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Open Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, geometric sans-serif headings (~5-6x body text size) create a powerful visual presence, contrasted with smaller, regular-weight body and label text.",
+    "radius": "Sharp; elements like buttons, images, and containers consistently feature crisp, unrounded corners.",
+    "spacing": "Balanced to airy; hero sections are notably airy with generous negative space, while product grids maintain a balanced density."
+  },
+  "standout": "This site's design is distinctive for its dramatic, almost architectural use of full-bleed, high-contrast black and white photography and textured backgrounds, combined with massive, bold typography that acts as a primary visual element. The immersive parallax scrolling experience, where these striking backgrounds remain fixed as content scrolls over them, elevates the product display beyond a typical e-commerce site into a more editorial and artistic presentation.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

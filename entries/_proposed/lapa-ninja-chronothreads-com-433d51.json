@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-chronothreads-com-433d51",
+  "source": {
+    "url": "https://www.chronothreads.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-chronothreads-com-433d51.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-chronothreads-com-433d51__scroll0.webp",
+      "shots/_proposed/lapa-ninja-chronothreads-com-433d51__scroll1.webp",
+      "shots/_proposed/lapa-ninja-chronothreads-com-433d51__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-apparel",
+      "digital-art"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extreme minimalist layout with content sparsely distributed and centered or aligned to edges, leaving vast negative space to emphasize individual elements."
+    },
+    {
+      "kind": "type",
+      "note": "Use of a distinct pixelated/digital display font for prominent branding elements, contrasting with a clean, thin sans-serif for functional text and product descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A stark dark mode palette with a deep charcoal background and light grey/white text, accented by a single subtle electric blue in the brand mark."
+    },
+    {
+      "kind": "motion",
+      "note": "The site initially presents a static interactive splash screen, requiring user input to reveal the main content, rather than using scroll-triggered reveals for sections."
+    },
+    {
+      "kind": "section",
+      "note": "Product information is presented in a small, self-contained overlay box that appears to float over the main content, rather than being integrated directly into the primary layout."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen interactive overlay as an entry point, which requires a user click to transition to the main content. This initial state is static, and the main page content (like the product display) is revealed only after this interaction, not through scrolling. The immersive transition and interactive elements likely leverage technologies such as WebGL/Three.js for visual effects and GSAP for orchestrating complex animations.",
+    "Prominent text elements utilize a custom pixel-art or digital-glitch font for a distinctive brand identity, while smaller informational text uses a highly legible, thin sans-serif.",
+    "Product details are displayed in a small, semi-transparent overlay box that appears to float over the main content, providing context without disrupting the minimalist aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "surface"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pixeloid Sans",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, blocky display headings (~4-5x body) with small, thin sans-serif body text and labels.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Extremely airy, with vast amounts of negative space creating a sense of exclusivity and focus on individual elements."
+  },
+  "standout": "This site stands out by completely subverting typical website navigation and content presentation. It uses an interactive splash screen as a mandatory entry point, and then displays product information in a highly artistic, almost abstract manner, prioritizing mood and brand identity over immediate product details or conventional e-commerce flows.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
