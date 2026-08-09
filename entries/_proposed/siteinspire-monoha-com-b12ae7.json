@@ -1,0 +1,119 @@
+{
+  "id": "siteinspire-monoha-com-b12ae7",
+  "source": {
+    "url": "https://www.monoha.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-monoha-com-b12ae7.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-monoha-com-b12ae7__scroll0.webp",
+      "shots/_proposed/siteinspire-monoha-com-b12ae7__scroll1.webp",
+      "shots/_proposed/siteinspire-monoha-com-b12ae7__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.monoha.com/353",
+        "full": "shots/_proposed/siteinspire-monoha-com-b12ae7__p2.webp"
+      },
+      {
+        "url": "https://www.monoha.com/etc",
+        "full": "shots/_proposed/siteinspire-monoha-com-b12ae7__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed video hero dominates the initial viewport, setting a mood rather than presenting immediate calls to action."
+    },
+    {
+      "kind": "layout",
+      "note": "Product grids feature generous whitespace around each item, typically displaying four columns on wider screens, creating an airy and uncluttered presentation."
+    },
+    {
+      "kind": "type",
+      "note": "All text, including navigation, headings, and product details, consistently uses a clean, minimal sans-serif typeface, with uppercase applied to navigation links and section titles for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a predominantly monochromatic palette of white backgrounds and black text, allowing the natural colors of product photography and the hero video to provide visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed 'Q&A' button remains visible and accessible in the bottom right corner of the viewport, persisting across all scroll depths."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial-style sections, such as 'MONOHA EXHIBITION', are interspersed with product grids, featuring large, high-quality imagery and minimal descriptive text to convey a sense of craft and artistry."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-width, auto-playing video as the primary hero element, designed to immediately immerse the user in the brand's aesthetic without requiring interaction.",
+    "A fixed-position call-to-action button (Q&A) is implemented using CSS positioning to ensure it remains visible and clickable regardless of the user's scroll depth.",
+    "Content sections below the hero are revealed through standard vertical scrolling, appearing statically as they enter the viewport without complex scroll-triggered animations or staggered fade-ins."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#DADADA",
+        "role": "surface"
+      },
+      {
+        "hex": "#999999",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#6B5B4B",
+        "role": "accent-imagery"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A relatively flat type scale with small, legible body text and navigation, and section headings only slightly larger, contributing to an understated and minimal aesthetic.",
+    "radius": "Sharp corners are used consistently across all elements, including product images, buttons, and content containers, reinforcing a clean and precise visual character.",
+    "spacing": "Airy and balanced, characterized by significant whitespace around elements and between grid items, which enhances readability and contributes to a premium, uncluttered presentation."
+  },
+  "standout": "The site's distinctive quality lies in its serene, almost meditative presentation, achieved through a full-bleed video hero, a strictly monochromatic palette, and an abundance of whitespace. It elevates product display to an art exhibition, focusing on the aesthetic and craft rather than aggressive sales tactics.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-personaleffects-london-c7b455",
+  "source": {
+    "url": "https://www.personaleffects.london",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-personaleffects-london-c7b455.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-personaleffects-london-c7b455__scroll0.webp",
+      "shots/_proposed/siteinspire-personaleffects-london-c7b455__scroll1.webp",
+      "shots/_proposed/siteinspire-personaleffects-london-c7b455__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://personaleffects.london/store/pe-t-shirt",
+        "full": "shots/_proposed/siteinspire-personaleffects-london-c7b455__p2.webp"
+      },
+      {
+        "url": "https://personaleffects.london/store/don-shorts",
+        "full": "shots/_proposed/siteinspire-personaleffects-london-c7b455__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "retail"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width editorial photography sections with multi-column product grids creates a dynamic visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, condensed serif typeface is used exclusively for the brand's main logo, contrasting with a clean, all-caps sans-serif for all navigation, product titles, and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy background palette (off-white, dark grey) provides a neutral canvas, allowing the vibrant colors of the product photography to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky header remains fixed at the top of the viewport, providing constant access to navigation and brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "A promotional modal window appears on initial page load or scroll, overlaying the content with a semi-transparent dark backdrop."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed-position header that maintains its presence at the top of the viewport during scrolling, ensuring navigation is always accessible.",
+    "Display a full-screen modal overlay with a semi-transparent dark background and a centered content box, animating its entrance using CSS keyframes (e.g., a fade-in or slide-up effect) on page load or after a short delay.",
+    "Utilize a flexible grid system for product displays, typically in two or three columns, where product images are the primary visual focus with minimal surrounding text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#041e42",
+        "role": "dark-text-background"
+      },
+      {
+        "hex": "#faf9f6",
+        "role": "light-background"
+      },
+      {
+        "hex": "#d2b48c",
+        "role": "earthy-accent"
+      },
+      {
+        "hex": "#aa2704",
+        "role": "reddish-accent"
+      },
+      {
+        "hex": "#7e805d",
+        "role": "muted-green-grey"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: condensed display serif",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A prominent, condensed display serif for the brand name, with a clear, all-caps sans-serif for headings and body text that maintains a consistent, readable size.",
+    "radius": "sharp",
+    "spacing": "Balanced, with generous vertical spacing between major sections and a tighter, consistent grid for product listings."
+  },
+  "standout": "The site's distinctive use of high-quality, editorial-style photography, often full-bleed and integrated seamlessly with minimalist product displays, creates a strong brand narrative that elevates simple apparel items. The unique, condensed serif typeface for the brand name also adds a memorable touch.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
