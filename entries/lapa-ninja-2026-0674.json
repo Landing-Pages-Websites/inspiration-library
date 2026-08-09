@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0674",
+  "source": {
+    "url": "https://www.theseus.us/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0674.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0674__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0674__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0674__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "aerospace",
+      "defense",
+      "robotics",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts with large, impactful imagery or video on one side and concise text blocks on the other, often spanning full width."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a monospaced font for both display headings and small data labels, creating a high-tech, precise aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette featuring a dominant dark background, light gray text, and a single vibrant green accent for interactive elements and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background video that parallaxes, scrolling at a slower rate than the foreground text and data overlays, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by full-width dark backgrounds, often with subtle variations in shade, and feature a consistent internal structure of a heading, descriptive text, and supporting visuals or data points."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-bleed video background that scrolls with a parallax effect, moving slower than the overlaying text and interactive elements to create a layered depth. The main navigation bar remains sticky at the top of the viewport throughout the scroll.",
+    "Content sections below the hero likely utilize GSAP ScrollTrigger to reveal elements with a staggered fade-up or slide-in animation as they enter the viewport, enhancing engagement and guiding the user's attention through the page content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0c0d",
+        "role": "background"
+      },
+      {
+        "hex": "#bcc3c0",
+        "role": "text"
+      },
+      {
+        "hex": "#82d441",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist Mono",
+        "role": "heading"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase-leaning monospaced headings (~3-4x body) with smaller, legible body text and very small, monospaced data labels for a technical feel.",
+    "radius": "Sharp corners on all interactive elements, buttons, and card-like containers, reinforcing a precise and modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness and allowing content to breathe."
+  },
+  "standout": "The site's distinctive use of a monospaced font for both prominent headings and subtle data labels, combined with a dark, high-contrast palette and a dynamic video hero, creates a unique high-tech, data-driven aesthetic that feels both sophisticated and precise. The integration of technical data overlays directly into the hero video is particularly striking.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-0677",
+  "source": {
+    "url": "https://valentine.getfreewrite.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0677.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0677__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0677__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0677__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "luxury-goods",
+      "writing-tools"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use an asymmetrical layout, pairing large, full-bleed product photography with text blocks that are offset to one side, creating dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in type scale is used, featuring extremely oversized, bold display headings that dominate sections, juxtaposed with smaller, refined body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, limited color palette dominated by a vibrant, almost monochromatic red, paired with black/dark grey and white, with a single bright orange accent for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero product image dynamically scales down and translates upwards as the user scrolls, creating a 'sticky' parallax effect that reveals subsequent content sections with a subtle fade-in or slide-up."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced by a large, evocative heading and often features full-bleed product imagery or a solid background color (red or white) to clearly delineate content blocks."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed, high-resolution product photography is a primary visual element, often serving as dynamic backgrounds or focal points within sections.",
+    "Uses GSAP ScrollTrigger to orchestrate a sophisticated scroll-based animation system where the hero product image scales and translates upwards, while new content sections fade or slide into view as they enter the viewport.",
+    "Headings are rendered in an extremely large, bold sans-serif font, creating strong visual anchors and a sense of editorial grandeur against more understated body text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF0000",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#2B2B2B",
+        "role": "text-on-light"
+      },
+      {
+        "hex": "#FF9900",
+        "role": "cta-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "new-spirit",
+        "role": "display"
+      },
+      {
+        "family": "neue-haas-grotesk-display",
+        "role": "heading"
+      },
+      {
+        "family": "neue-haas-grotesk-text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (up to ~8x body text) with a clean, readable sans-serif for body copy, creating a strong visual hierarchy.",
+    "radius": "Sharp, with most UI elements and image frames featuring crisp, angular corners, contrasting with the organic curves of the product itself.",
+    "spacing": "Airy, with generous padding and margins around content blocks, especially in the hero and between major sections, contributing to an uncluttered, premium feel."
+  },
+  "standout": "The site's bold, almost monochromatic red aesthetic, combined with the dramatic scale of its typography and the dynamic, product-focused scroll animation, makes it feel less like a typical e-commerce page and more like an editorial feature or art piece. The hero product animation, where the device scales and moves up the screen, is particularly distinctive and engaging.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "approved"
+}

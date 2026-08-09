@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0636",
+  "source": {
+    "url": "https://www.bee.computer/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0636.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0636__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0636__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0636__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "wearables",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts frequently pair large text blocks with imagery, often placing text on the left and images on the right, or vice-versa, creating dynamic visual balance across the page."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme utilizes a vibrant yellow as a primary accent and call-to-action color, set against dark charcoal and deep indigo backgrounds, with white text for optimal readability."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs extremely large, heavy sans-serif typography for hero headings and key brand elements, creating a bold and impactful visual statement that dominates the page's hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport, while an 'Amazon' recruitment banner is initially sticky at the bottom of the hero section before scrolling out of view. The hero background image exhibits a subtle parallax effect as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "Content within the numerous phone UI mockups appears to sequentially reveal or animate as the user scrolls down the page, simulating an interactive product demonstration rather than static screenshots."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of detailed phone UI mockups is a core pattern to illustrate product features and capabilities, presented in a grid-like arrangement that guides the user through the app's functionality."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header navigation that remains visible throughout the scroll. A secondary sticky banner can be positioned at the bottom of an initial hero section, designed to disappear once the user scrolls past that section.",
+    "Create a hero section with a large background image that moves at a slower rate than the foreground content, achieving a subtle parallax scrolling effect.",
+    "Design feature sections that showcase product UI by embedding multiple phone screen mockups. These mockups should be animated to reveal their content sequentially or transition between states as they enter the viewport, simulating a live demo experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#21210a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffd900",
+        "role": "accent"
+      },
+      {
+        "hex": "#301f5c",
+        "role": "background"
+      },
+      {
+        "hex": "#d2c4ff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Bungee Shade",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, heavy sans-serif headings (~4-5x body) with clear, legible body text and smaller uppercase labels for sub-sections.",
+    "radius": "Subtle rounded corners (small to medium) on cards, buttons, and image containers, with a very large, soft radius used for the oversized brand element in the footer.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a tighter grid for feature showcases involving multiple UI elements."
+  },
+  "standout": "The site's distinctive use of a massive, rounded 'Bee' logo in the footer creates a memorable brand impression. The extensive and dynamic presentation of phone UI mockups throughout the page effectively demonstrates product features in an engaging, almost interactive manner, moving beyond static screenshots.",
+  "animation_tech": [],
+  "status": "approved"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "lapa-ninja-2026-0671",
+  "source": {
+    "url": "https://solanamobile.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0671.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0671__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0671__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0671__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "mobile-device",
+      "web3",
+      "blockchain"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize a dark, full-bleed background with content often centered or left-aligned, creating a focused and immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "The hero section features an extremely oversized, bold sans-serif typeface for the product name 'Seeker', establishing a dominant visual hierarchy that contrasts with smaller, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark color scheme (near-black to deep charcoal) is used for backgrounds and surfaces, accented by bright white text and a vibrant electric blue for CTAs and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a layered parallax effect where the large 'Seeker' text scales down and moves slower than the background phone image as the user scrolls, creating a sense of depth and dynamic reveal."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero are revealed with a subtle fade-in or slide-up animation as they enter the viewport, drawing attention to new information."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently employ a split layout, pairing a prominent product image or graphic with concise descriptive text, or arranging information in a grid of distinct, dark-themed cards."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a sophisticated parallax effect using CSS keyframes, where the foreground text element scales down and translates vertically at a slower rate than the background video hero image, creating a dynamic sense of depth and reveal upon scroll.",
+    "Subsequent content sections are introduced with a scroll-triggered animation that subtly fades them in and slides them upwards as they enter the viewport, enhancing engagement and guiding the user's eye.",
+    "The site maintains a consistent dark, premium aesthetic by using deep charcoal and black backgrounds, contrasted with crisp white typography and vibrant accent colors for interactive elements, ensuring high readability and a modern feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0C0C0E",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#09F",
+        "role": "accent"
+      },
+      {
+        "hex": "#ECECEC",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#161618",
+        "role": "surface"
+      },
+      {
+        "hex": "#101013",
+        "role": "surface-dark"
+      },
+      {
+        "hex": "#050311",
+        "role": "background-gradient-base"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-deep"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Mori Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) for brand and product names, with a clear hierarchy down to smaller, legible body and caption text.",
+    "radius": "Subtle (small corner radius on buttons, input fields, and some cards, maintaining a clean, modern edge).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of spaciousness and focus, while feature grids maintain good internal padding."
+  },
+  "standout": "The site's design is distinctive for its bold, almost architectural use of oversized typography in the hero, which dynamically scales and parallaxes with the background product image. This creates a highly immersive and sophisticated introduction that immediately conveys a premium, high-tech brand identity, setting it apart from typical marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

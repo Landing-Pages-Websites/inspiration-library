@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0646",
+  "source": {
+    "url": "https://drinkolipop.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0646.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0646__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0646__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0646__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "healthy-drinks",
+      "e-commerce"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Organic, wavy section dividers are used consistently to separate content blocks, creating a soft, flowing visual rhythm across the page."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, friendly display serif font is used for primary headlines, contrasted with clean, often uppercase sans-serif fonts for subheadings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and fresh color palette centers on a deep teal/green, complemented by a warm cream background and bright yellow accents for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The top announcement bar disappears on scroll, while the main navigation becomes sticky and gains a solid background. Content sections appear to reveal themselves with a subtle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed product photography and playful, custom illustrations are integrated directly into section backgrounds and content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a combination of CSS keyframes and GSAP for scroll-triggered animations. A top announcement bar is hidden as the user scrolls down, while the primary navigation bar transitions to a sticky state with a solid background. Content sections are revealed with a staggered fade-up or slide-in effect as they enter the viewport, likely orchestrated by GSAP ScrollTrigger to enhance engagement.",
+    "Wavy section dividers are implemented using SVG shapes or CSS clip-paths, allowing for dynamic and organic transitions between different background colors and content areas.",
+    "Product displays utilize clean, focused photography with minimal text overlays, often presented in a grid or carousel format, allowing the product's visual appeal to dominate."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#034638",
+        "role": "background"
+      },
+      {
+        "hex": "#fff6ea",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffe340",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0a3128",
+        "role": "text"
+      },
+      {
+        "hex": "#008168",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "WindsorEF",
+        "role": "display"
+      },
+      {
+        "family": "Ano",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized friendly display headings (~4-5x body) with smaller, often uppercase sans-serif labels and clean body text.",
+    "radius": "subtle (buttons, input fields, product cards)",
+    "spacing": "balanced to airy, with generous vertical spacing between main sections and a more compact grid for product listings."
+  },
+  "standout": "The distinctive use of organic, wavy section dividers combined with playful, hand-drawn illustrations and a vibrant, yet sophisticated color palette creates a unique brand identity that feels both healthy and fun, moving beyond typical health food aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

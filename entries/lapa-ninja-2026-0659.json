@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0659",
+  "source": {
+    "url": "https://maneken.app/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0659.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0659__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0659__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0659__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "mockup-generator"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with either centered content or a two-column split, often featuring text on one side and a grid of product mockups or a large illustrative image on the other."
+    },
+    {
+      "kind": "layout",
+      "note": "Extensive use of dense, multi-column image grids to showcase product output and examples, often serving as the primary visual explanation of features."
+    },
+    {
+      "kind": "type",
+      "note": "Very large, bold, modern sans-serif headings for section titles, often paired with a smaller, lighter sub-heading or body text to provide detail."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant, deep blue for calls to action and key section backgrounds, providing strong contrast against dominant white and dark grey/black backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered section reveals where content elements (text, images, grids) slide up or fade in as their respective sections enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections are introduced with a bold heading and then immediately illustrated with a combination of concise text and large, high-quality product mockups, visually demonstrating capabilities."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered reveals: Sections and their internal content elements are initially hidden or partially off-screen and animate into full view (e.g., slide up, fade in) as the user scrolls them into the viewport, likely using CSS keyframes or a JavaScript library for orchestration.",
+    "Sticky navigation: The header navigation bar remains fixed at the top of the viewport after the initial scroll, maintaining its white background and dark text, and gaining a subtle drop shadow for separation from scrolling content.",
+    "Image-rich content presentation: Product features and examples are primarily communicated through large, high-quality photographic mockups, often arranged in dynamic grids or integrated directly into section layouts to visually explain the product's output and capabilities."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0050b7",
+        "role": "cta"
+      },
+      {
+        "hex": "#10151c",
+        "role": "text"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#0872db",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TWKEverett",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold display headings (~4-5x body) with smaller, lighter body text and occasional small, uppercase labels for navigation and secondary information.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and input fields, as well as some image containers.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, contrasting with dense, tight grids used for displaying product mockups."
+  },
+  "standout": "The site's distinctive strength lies in its pervasive use of high-quality, real-world product mockups as the primary visual language, integrating them seamlessly into section layouts and dense grids to immediately convey the product's value and aesthetic without relying heavily on abstract illustrations or icons.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0663",
+  "source": {
+    "url": "https://www.milacares.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0663.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0663__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0663__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0663__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "home-appliances",
+      "air-purification"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content primarily centered or split into two columns, often contrasting a large visual element with concise text."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a very large, bold, and slightly condensed sans-serif typeface for primary headings, creating a strong, modern visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white/light grey, strategically accented with vibrant red/pink and orange/yellow for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A highly dynamic hero section that transitions from an immersive video background to a product showcase with animated text and product details as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating background colors (black, white, and light grey) are used to clearly delineate distinct content sections, often paired with full-bleed product photography or illustrative graphics."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a transformative hero section that initially features a full-width video. Upon scrolling, this hero fluidly transitions into a product-focused layout, revealing specific product details and an animated 'Back in Stock' text element, while the navigation bar simultaneously becomes sticky and changes from transparent to a solid background.",
+    "Scroll-triggered animations, likely powered by Framer Motion, are extensively used to reveal content sections. Elements such as text blocks, images, and feature cards fade in and slide up or in from the sides as they enter the viewport, creating a smooth and engaging scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#565656",
+        "role": "text"
+      },
+      {
+        "hex": "#F03358",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFB216",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, condensed sans-serif headings (~4-5x body) with smaller, legible sans-serif body text and occasional uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) on buttons, input fields, and some card elements.",
+    "spacing": "Generally airy, with generous vertical spacing between sections and within the hero, balanced with tighter spacing in feature grids and product comparison tables."
+  },
+  "standout": "The site's standout feature is its highly dynamic and transformative hero section, which seamlessly transitions from an immersive video experience to a detailed product showcase with animated elements upon user scroll. This, combined with the dictionary-style definition for 'Air-blivious' and the overall clean, product-centric design, creates a distinctive and engaging first impression.",
+  "animation_tech": [
+    "framer-motion",
+    "video-hero"
+  ],
+  "status": "approved"
+}

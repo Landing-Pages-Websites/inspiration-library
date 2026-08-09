@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0667",
+  "source": {
+    "url": "https://pebblelife.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0667.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0667__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0667__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0667__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "luxury-rv",
+      "recreation"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical split-screen layout for feature sections, where a large, bold number/title is anchored on the left while descriptive text and images scroll on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of large, bold, sans-serif headings for high impact, contrasted with smaller, legible sans-serif body text, creating a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted earthy palette (off-white, various greys, dark brown) is consistently used for backgrounds and text, punctuated by a vibrant orange accent for CTAs and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video/image that parallaxes upwards, while the main 'meet pebble' text fades out and a secondary headline fades in. Feature sections reveal with a subtle fade-up effect as they enter the viewport, and their left-aligned numbers/titles appear to stick or animate independently as the right-side content scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are structured with a consistent pattern of a large, numbered title on the left and a corresponding image and detailed text on the right, creating a strong visual rhythm down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero uses a full-bleed video or large image that scrolls at a slower rate than the foreground content, creating a parallax effect. Overlaying text elements are animated using CSS keyframes to fade and slide out of view as the user scrolls, revealing subsequent content.",
+    "A compact navigation bar with the brand logo and a primary call-to-action button remains sticky at the top of the viewport after the initial scroll, providing persistent access.",
+    "The main feature sections employ a sophisticated scroll-triggered animation. As each section comes into view, its content fades or slides up. The large numerical titles on the left side of these sections are designed to appear fixed or independently animated, creating a dynamic split-screen effect as the detailed content and images on the right scroll past them."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f2efe9",
+        "role": "background"
+      },
+      {
+        "hex": "#212d3a",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#f76f32",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "hero-text"
+      },
+      {
+        "hex": "#575349",
+        "role": "body-text"
+      },
+      {
+        "hex": "#253342",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DM Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (e.g., 'meet pebble' is massive, feature numbers are very large) with a clear hierarchy down to legible body text.",
+    "radius": "Subtle rounding on interactive elements and cards, maintaining a clean and modern aesthetic.",
+    "spacing": "Airy, with generous vertical spacing between major sections and within the hero, conveying a sense of spaciousness and luxury."
+  },
+  "standout": "The site's most distinctive feature is the innovative split-screen scroll effect for its feature sections, where large, bold numbers on the left appear to stick or animate independently while the corresponding content scrolls on the right. This creates a highly engaging and memorable way to present detailed product information.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
