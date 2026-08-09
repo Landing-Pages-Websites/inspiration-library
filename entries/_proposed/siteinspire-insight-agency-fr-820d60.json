@@ -1,0 +1,97 @@
+{
+  "id": "siteinspire-insight-agency-fr-820d60",
+  "source": {
+    "url": "https://www.insight-agency.fr",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-insight-agency-fr-820d60.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-insight-agency-fr-820d60__scroll0.webp",
+      "shots/_proposed/siteinspire-insight-agency-fr-820d60__scroll1.webp",
+      "shots/_proposed/siteinspire-insight-agency-fr-820d60__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "fashion",
+      "agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary visual is a full-bleed, dense grid of diverse editorial images that completely fills the viewport, creating an immersive collage effect."
+    },
+    {
+      "kind": "layout",
+      "note": "A large, transparent spherical element is centrally positioned, acting as a distorting lens over the underlying image grid."
+    },
+    {
+      "kind": "color",
+      "note": "The site leverages a highly diverse and vibrant color palette derived directly from the rich, high-quality photographic content, with no dominant brand colors beyond the images themselves."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion or element reveals were observed in the provided scroll sequence; the content remains static as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the main visual, create a responsive grid system that dynamically populates with a large number of diverse images, ensuring full viewport coverage. Overlay a large, transparent sphere in the center that applies a real-time distortion or magnification effect to the content behind it, simulating a glass lens. The initial state appears to be a solid black background, suggesting a pre-loader or intro animation before the image grid is revealed.",
+    "The site does not appear to use scroll-triggered animations; content is presented statically once loaded."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#3D516B",
+        "role": "image-detail"
+      },
+      {
+        "hex": "#936F5D",
+        "role": "image-detail"
+      },
+      {
+        "hex": "#BE997D",
+        "role": "image-detail"
+      },
+      {
+        "hex": "#047CA4",
+        "role": "image-detail"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Minimal text usage; the 'INSIGHT' logo uses a clean, uppercase sans-serif, appearing as a small, subtle brand mark.",
+    "radius": "Sharp corners for the individual image tiles, contrasted with a perfectly pill-shaped (circular) central distorting element.",
+    "spacing": "Dense, with images packed tightly in a grid to maximize visual impact and fill the screen."
+  },
+  "standout": "The most distinctive feature is the immersive, full-screen collage of high-fashion editorial imagery, dramatically interrupted by a large, central distorting lens. This creates a highly artistic and interactive-feeling visual experience that immediately captures attention.",
+  "animation_tech": [],
+  "status": "proposed"
+}

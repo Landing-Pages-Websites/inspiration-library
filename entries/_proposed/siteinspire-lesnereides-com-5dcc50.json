@@ -1,0 +1,113 @@
+{
+  "id": "siteinspire-lesnereides-com-5dcc50",
+  "source": {
+    "url": "https://www.lesnereides.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-lesnereides-com-5dcc50.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-lesnereides-com-5dcc50__scroll0.webp",
+      "shots/_proposed/siteinspire-lesnereides-com-5dcc50__scroll1.webp",
+      "shots/_proposed/siteinspire-lesnereides-com-5dcc50__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.lesnereides.com/collections/hanami",
+        "full": "shots/_proposed/siteinspire-lesnereides-com-5dcc50__p2.webp"
+      },
+      {
+        "url": "https://www.lesnereides.com/collections/bagues",
+        "full": "shots/_proposed/siteinspire-lesnereides-com-5dcc50__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "luxury-retail",
+      "fashion"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Product grids are consistently presented in a three-column layout on desktop, featuring high-quality, square-cropped product photography with price and brief description below."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles like 'LES NOUVEAUT\u00c9S' and 'NOS ICONIQUES' are set in an elegant, slightly tracked-out uppercase sans-serif, providing clear content segmentation."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a clean, high-contrast palette of white backgrounds and black text, allowing the vibrant, intricate colors of the jewelry to be the primary visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay with a larger logo over the hero to a solid white background with a slightly reduced logo size and subtle shadow once the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features distinct sections for 'Nouveaut\u00e9s' (new arrivals), 'Iconiques' (iconic pieces), and 'Bijoux' (general jewelry categories), each introduced with a large, immersive product image or collection banner."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element uses CSS transitions to change its background color, padding, and logo/text scaling when the scroll position exceeds a certain viewport threshold, creating a dynamic sticky navigation effect. The immersive hero section uses a full-width video or large image that scrolls naturally with the page content. Subtle CSS keyframe animations may be used for elements like product cards to fade in or slide up as they enter the viewport, enhancing visual flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#F4F4F6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Louize",
+        "role": "display"
+      },
+      {
+        "family": "Instrument Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif for the brand name, with clean sans-serifs for headings and body text. Headings are often uppercase and slightly tracked out, providing a refined yet legible hierarchy.",
+    "radius": "Sharp corners are used consistently for product images, buttons, and most UI elements, contributing to a crisp and modern aesthetic.",
+    "spacing": "Balanced to airy. Product grids feature generous padding around individual items, and sections are well-separated, creating a sense of spaciousness and allowing the intricate product details to breathe."
+  },
+  "standout": "The site's standout quality is its exceptional product photography, which elevates the intricate, nature-inspired jewelry into true works of art. The design masterfully uses a clean, minimal backdrop to ensure the vibrant and detailed products are the absolute focal point, creating an immersive and luxurious browsing experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

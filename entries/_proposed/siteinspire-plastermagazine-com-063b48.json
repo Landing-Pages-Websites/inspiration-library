@@ -1,0 +1,113 @@
+{
+  "id": "siteinspire-plastermagazine-com-063b48",
+  "source": {
+    "url": "https://plastermagazine.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-plastermagazine-com-063b48.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-plastermagazine-com-063b48__scroll0.webp",
+      "shots/_proposed/siteinspire-plastermagazine-com-063b48__scroll1.webp",
+      "shots/_proposed/siteinspire-plastermagazine-com-063b48__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://plastermagazine.com/artists",
+        "full": "shots/_proposed/siteinspire-plastermagazine-com-063b48__p2.webp"
+      },
+      {
+        "url": "https://plastermagazine.com/articles",
+        "full": "shots/_proposed/siteinspire-plastermagazine-com-063b48__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "publishing",
+      "media"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent full-bleed hero image dominates the initial viewport, transitioning to a grid-based layout for subsequent article and feature sections, often featuring large, impactful images."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize an extremely wide, bold, and often uppercase sans-serif font, creating a strong, almost brutalist visual impact that contrasts with a more standard sans-serif for body text and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochrome palette of black and white forms the foundation of the site's structural elements and typography, allowing the vibrant colors of featured artwork and photography to serve as visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid white background to maintain readability and a compact presence as the user moves past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by bold, centered, uppercase headings and often separated by subtle horizontal rules or distinct background color shifts (e.g., a light grey background for 'latest' articles)."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented where the initial transparent header with a large logo transitions to a smaller, solid white header with a reduced logo size and a subtle shadow effect upon scrolling past the hero section, using CSS transitions for a smooth effect.",
+    "Content is presented in a flexible grid system, adapting from a single column for hero text to multi-column layouts for article listings, often featuring large, impactful images alongside concise text.",
+    "Modal pop-ups for cookie consent and newsletter sign-up are triggered on page load or after a certain scroll depth, appearing centered with a dark overlay, using CSS keyframe animations for a fade-in effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f2f2f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Brubeck-Black",
+        "role": "display"
+      },
+      {
+        "family": "BrutGrotesque-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "BrutGrotesque-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, wide sans-serif headings (~3-4x body text) with a strong, editorial presence, complemented by a more standard-sized sans-serif for body and metadata.",
+    "radius": "sharp corners are consistently used for all elements, including buttons, image frames, and pop-up modals.",
+    "spacing": "balanced to airy, with generous vertical spacing between sections and content blocks, creating a clean, uncrowded feel, while article grids maintain a tighter horizontal rhythm."
+  },
+  "standout": "The site's distinctive use of extremely wide, bold, and often uppercase sans-serif typography for headings, combined with a stark monochrome palette, creates an almost brutalist, high-fashion editorial aesthetic that elevates the visual impact of the featured art and photography.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

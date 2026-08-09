@@ -1,0 +1,122 @@
+{
+  "id": "siteinspire-annasheffield-com-f13daa",
+  "source": {
+    "url": "https://www.annasheffield.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-annasheffield-com-f13daa.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-annasheffield-com-f13daa__scroll0.webp",
+      "shots/_proposed/siteinspire-annasheffield-com-f13daa__scroll1.webp",
+      "shots/_proposed/siteinspire-annasheffield-com-f13daa__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.annasheffield.com/collections/all",
+        "full": "shots/_proposed/siteinspire-annasheffield-com-f13daa__p2.webp"
+      },
+      {
+        "url": "https://www.annasheffield.com/products/hex-theda",
+        "full": "shots/_proposed/siteinspire-annasheffield-com-f13daa__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "luxury",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, editorial-style hero sections with large, high-quality photography, often split into two distinct but visually harmonious images."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif fonts (Bodoni Moda) are used for prominent headings and display text, contrasted with clean, modern sans-serif fonts (Inter) for body copy and UI elements, creating a sophisticated yet readable hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, earthy palette featuring deep teal, warm gold, and natural stone tones is used in photography, complemented by a clean white background and dark text for a luxurious feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the scroll, while content sections and individual elements (like product cards and text blocks) reveal with a gentle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid white background to remain sticky and prominent at the top of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in a mix of large, image-dominant editorial blocks and structured grids for product displays, often with centered text overlays or accompanying descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely using a library like locomotive-scroll, which also orchestrates scroll-triggered animations. This includes a subtle parallax effect on the hero image where the background content moves at a different rate than the foreground. Elements within sections are revealed with a staggered fade-up or slide-in motion as they become visible in the viewport, enhancing engagement. The header dynamically adjusts its height and background on scroll, transitioning from a transparent, taller state to a more compact, solid sticky bar.",
+    "Typography is managed by pairing a distinctive serif font for display and headings with a highly legible sans-serif for body text. Color contrast is maintained by using dark text on light backgrounds, with accent colors primarily derived from the rich photography."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e8be9e",
+        "role": "accent"
+      },
+      {
+        "hex": "#02614e",
+        "role": "accent"
+      },
+      {
+        "hex": "#336fb2",
+        "role": "accent"
+      },
+      {
+        "hex": "#d2d5d9",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bodoni Moda",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large, elegant serifs (~3-4x body) with generous line height, while body text is a clean, readable sans-serif. Uppercase sans-serif labels are used for sub-headings and categories.",
+    "radius": "Mostly sharp corners on images and buttons, with subtle rounding on input fields.",
+    "spacing": "Generally airy, especially in hero and editorial sections, creating a sense of luxury and space. Product grids maintain a balanced density."
+  },
+  "standout": "This site stands out through its sophisticated blend of high-end editorial photography and subtle, elegant motion. The use of a rich, natural color palette derived from the jewelry and natural textures, combined with a refined serif-sans serif type pairing, creates a distinctive luxe and artisanal feel that elevates it beyond typical e-commerce sites. The seamless scroll-triggered reveals and parallax add a layer of interactive polish without distracting from the product.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

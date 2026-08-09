@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-cckw-us-48e915",
+  "source": {
+    "url": "https://www.cckw.us",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-cckw-us-48e915.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-cckw-us-48e915__scroll0.webp",
+      "shots/_proposed/siteinspire-cckw-us-48e915__scroll1.webp",
+      "shots/_proposed/siteinspire-cckw-us-48e915__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://cckw.us/",
+        "full": "shots/_proposed/siteinspire-cckw-us-48e915__p2.webp"
+      },
+      {
+        "url": "https://cckw.us/object/swell-vase",
+        "full": "shots/_proposed/siteinspire-cckw-us-48e915__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "art",
+      "furniture",
+      "product-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed header and footer frame a dominant, horizontally-scrolling main content area on the homepage, creating a gallery-like viewing experience."
+    },
+    {
+      "kind": "layout",
+      "note": "The 'Index' page utilizes a dense, responsive grid of square product thumbnails on the left, paired with a larger, detailed view of a selected item on the right."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif typeface is used consistently across all text elements, varying only in size and weight to establish hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The design employs a stark monochromatic base of black text on a white background, allowing the vibrant and diverse product imagery to be the sole source of color and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary content area on the homepage is a large-scale horizontal image carousel that advances to reveal new products as the user scrolls vertically down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage functions as an immersive, interactive gallery, presenting large product images in a continuous horizontal flow rather than breaking content into distinct vertical sections."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, implement a full-width, full-height horizontal image slider (like Swiper.js) that is controlled by vertical scroll events. As the user scrolls down, the slider advances horizontally to the next image. The header and footer elements should be position-fixed to remain visible during this interaction.",
+    "The site uses a minimalist, high-contrast aesthetic with a fixed header and footer, framing a dynamic content area that prioritizes large-scale visuals.",
+    "Product images are presented as large, uncropped visuals, often filling a significant portion of the viewport, with minimal accompanying text overlays."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#747474",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#DDD",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica Neue Bold",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "The logo is a prominent, bold uppercase statement, while navigation and product labels are significantly smaller, creating a clear hierarchy with a large visual gap.",
+    "radius": "Sharp corners are consistently used for all interactive elements, image frames, and input fields.",
+    "spacing": "Very airy overall, with generous whitespace around the main content area and between elements, creating a gallery-like, uncrowded feel."
+  },
+  "standout": "The site's most distinctive feature is its homepage experience, which transforms vertical scrolling into a horizontal exploration of large-scale product imagery. This creates an immersive, gallery-like feel that prioritizes visual impact and discovery over traditional information hierarchy, making the browsing itself an artistic experience.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}
