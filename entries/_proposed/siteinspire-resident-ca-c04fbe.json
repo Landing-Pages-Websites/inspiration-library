@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-resident-ca-c04fbe",
+  "source": {
+    "url": "https://resident.ca",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-resident-ca-c04fbe.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-resident-ca-c04fbe__scroll0.webp",
+      "shots/_proposed/siteinspire-resident-ca-c04fbe__scroll1.webp",
+      "shots/_proposed/siteinspire-resident-ca-c04fbe__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://resident.ca/news",
+        "full": "shots/_proposed/siteinspire-resident-ca-c04fbe__p2.webp"
+      },
+      {
+        "url": "https://resident.ca/about",
+        "full": "shots/_proposed/siteinspire-resident-ca-c04fbe__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "luxury-real-estate",
+      "property-development"
+    ],
+    "mood": [
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are dominated by full-bleed imagery or video, often with minimal text overlays or adjacent to very sparse, understated text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Text is extremely minimal, predominantly small and uppercase for labels and navigation, contrasting with occasional very large, bold single-character display elements (e.g., the 'R' in the footer)."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of white and black is used for UI elements and text, with visual interest primarily derived from the rich, natural tones within the full-bleed photography and video."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal by smoothly sliding up and subtly fading in as the user scrolls down the page, creating a continuous and immersive visual flow."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation, featuring 'Resident' and 'Menu', remains fixed and transparent at the top of the viewport throughout the scroll, ensuring persistent brand presence and access."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width visual modules, each typically featuring a large image or video, sometimes with a subtle blur or overlay, paired with a concise textual identifier."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video or high-resolution image serves as the initial hero, which scrolls out of view to reveal subsequent content sections.",
+    "The site employs a smooth scrolling library (like locomotive-scroll) to create a fluid, almost tactile scrolling experience, where content sections animate into view with a subtle slide-up and fade effect as they enter the viewport.",
+    "A persistent, transparent header navigation remains sticky at the top of the page, ensuring brand identity and menu access are always available without obstructing content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#19211A",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, understated sans-serif body text and labels are used throughout, with occasional very large, bold single-character display elements for emphasis.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous whitespace surrounds minimal text elements and separates large image sections, contributing to a sense of openness and luxury."
+  },
+  "standout": "The site's design is distinctive for its extreme minimalism, where large, full-bleed photography and video are the primary content, with text reduced to sparse, almost label-like elements. The smooth, scroll-triggered section reveals and the persistent, understated navigation create a highly refined and immersive visual journey, prioritizing atmosphere over explicit information.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

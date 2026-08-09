@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-marcd-co-bef6de",
+  "source": {
+    "url": "https://www.marcd.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-marcd-co-bef6de.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-marcd-co-bef6de__scroll0.webp",
+      "shots/_proposed/siteinspire-marcd-co-bef6de__scroll1.webp",
+      "shots/_proposed/siteinspire-marcd-co-bef6de__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design",
+      "web-development",
+      "3d-design"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An asymmetrical, dynamic grid layout is used for project showcases, where each project card can have varying sizes and aspect ratios, creating a visually engaging, non-uniform display."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent 3D hero element undergoes a complex transformation upon scroll: it scales down, changes its internal content (from 'Argon' to an eye), and repositions itself to a fixed top-left corner, becoming a persistent visual anchor."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual project grid items reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "A numbered service list uses large, bold numbers as strong visual anchors, followed by smaller, descriptive text for each service."
+    },
+    {
+      "kind": "color",
+      "note": "Extensive use of negative space with a very light background, contrasting with dark gray or black text and imagery, creates a high-contrast, minimalist aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a complex 3D object rendered with WebGL (likely Three.js), which dynamically scales, repositions, and updates its internal content (e.g., video or image texture) in response to scroll depth, orchestrated by a robust animation library like GSAP ScrollTrigger.",
+    "Subsequent content sections and individual grid items are revealed using scroll-triggered animations, where elements fade in and subtly slide upwards as they enter the user's viewport, creating a smooth, progressive loading experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e3e1df",
+        "role": "background"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "background"
+      },
+      {
+        "hex": "#5a5a5a",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#d4a77d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Body text is small and legible; headings are slightly larger but maintain a similar weight; large, bold numbers are used for service lists, creating strong visual hierarchy.",
+    "radius": "Sharp corners are consistently applied to all interactive elements, image containers, and overall layout blocks, contributing to a precise and modern feel.",
+    "spacing": "Very airy in the initial hero section, transitioning to a balanced density for descriptive text and a more compact, but still well-spaced, grid for project showcases."
+  },
+  "standout": "The site's most distinctive feature is its dynamic, interactive 3D hero element that transforms and persists as a navigation anchor, seamlessly integrating advanced WebGL animations with a minimalist content presentation. This creates a highly memorable and engaging first impression that goes beyond typical static or video heroes.",
+  "animation_tech": [
+    "gsap",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

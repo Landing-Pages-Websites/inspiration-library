@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-koal-ch-cc6714",
+  "source": {
+    "url": "https://www.koal.ch",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-koal-ch-cc6714.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-koal-ch-cc6714__scroll0.webp",
+      "shots/_proposed/siteinspire-koal-ch-cc6714__scroll1.webp",
+      "shots/_proposed/siteinspire-koal-ch-cc6714__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.koal.ch/it/servizi",
+        "full": "shots/_proposed/siteinspire-koal-ch-cc6714__p2.webp"
+      },
+      {
+        "url": "https://www.koal.ch/it/progetti",
+        "full": "shots/_proposed/siteinspire-koal-ch-cc6714__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "design-studio"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical vertical split-screen layout for the hero section, creating a strong visual division between large text and a solid color block."
+    },
+    {
+      "kind": "color",
+      "note": "Exclusive use of a high-contrast primary palette of pure black, white, and vibrant red across all elements."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant, oversized sans-serif typography used for branding and key headings, creating a bold and direct communication style."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky header containing the logo and main navigation remains visible at the top of the viewport throughout scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated full-width video sections are used to showcase work or set a mood, playing automatically."
+    },
+    {
+      "kind": "layout",
+      "note": "Grid-based project gallery with varying aspect ratios for images on interior pages, maintaining a clean and structured presentation."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header with a small brand mark and navigation is fixed at the top, providing constant access. Content sections scroll into view without complex transitions, though a prominent video hero section plays automatically to introduce a project or theme.",
+    "The design leverages a stark, high-contrast color scheme of black, white, and red. The hero employs an asymmetrical split-screen layout with large, bold typography on one side and a solid color block with a geometric shape on the other. Subsequent sections maintain a clean, minimalist aesthetic with generous whitespace."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with smaller, lighter body text and uppercase labels for navigation and sub-headings.",
+    "radius": "sharp",
+    "spacing": "airy in hero and main content sections, with a tighter grid for project displays."
+  },
+  "standout": "The extreme high-contrast color palette (black, white, red) combined with oversized, bold typography and a dynamic, asymmetrical hero creates a very strong, memorable visual identity that feels more like a brand statement than a typical marketing site. The starkness and directness are highly distinctive.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "siteinspire-stripe-dev-5fc1d3",
+  "source": {
+    "url": "https://stripe.dev",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-stripe-dev-5fc1d3.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-stripe-dev-5fc1d3__scroll0.webp",
+      "shots/_proposed/siteinspire-stripe-dev-5fc1d3__scroll1.webp",
+      "shots/_proposed/siteinspire-stripe-dev-5fc1d3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://stripe.dev/blog",
+        "full": "shots/_proposed/siteinspire-stripe-dev-5fc1d3__p2.webp"
+      },
+      {
+        "url": "https://stripe.dev/events",
+        "full": "shots/_proposed/siteinspire-stripe-dev-5fc1d3__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical layout with a prominent, large-scale heading and description aligned to the left, complemented by smaller, card-like featured content on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Small, uppercase, bracketed labels (e.g., '[B] BLOG', '[C] CONSOLE') are consistently used for navigation items and as section identifiers, often prefixed with a slash (e.g., '/ FEATURED POST')."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of very dark text on light, almost white backgrounds is consistently used, with a vibrant, almost neon green/yellow serving as a distinct accent for links, interactive elements, and subtle highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, multi-layered 'DEVELOPERS' text graphic animates with a 3D extrusion and parallax effect as the user scrolls down the page, creating a dynamic sense of depth and revealing more of the text's form."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are frequently introduced by a small, uppercase, slash-prefixed label (e.g., '/ STATISTIZDS', '/ GET HELP') positioned above the main section heading, establishing a consistent visual hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely leveraging the detected canvas technology, to create a dynamic, layered 3D text effect. As the user scrolls, a large 'DEVELOPERS' text graphic appears to extrude and shift in perspective, revealing more of its depth and form.",
+    "Content sections are presented in a clean, grid-based layout, often utilizing a two-column structure for featured items or lists, with clear visual separation achieved through subtle borders and generous whitespace.",
+    "Interactive elements and key information are highlighted using a bright, high-contrast accent color against a predominantly monochromatic background, drawing immediate attention to calls to action and important details."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#e9e9e9",
+        "role": "surface"
+      },
+      {
+        "hex": "#1e1e1e",
+        "role": "text"
+      },
+      {
+        "hex": "#011627",
+        "role": "heading"
+      },
+      {
+        "hex": "#c4e817",
+        "role": "accent"
+      },
+      {
+        "hex": "#cacaca",
+        "role": "border"
+      },
+      {
+        "hex": "#8d8d8d",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, wide, bold sans-serif headings (hero title is ~4-5x body text) are paired with clean, readable body text and small, uppercase functional labels.",
+    "radius": "Sharp corners are used consistently throughout the design, with no visible rounding on elements.",
+    "spacing": "Balanced to airy density, with generous vertical spacing in the hero and between major sections, creating a clean and uncluttered feel."
+  },
+  "standout": "The most distinctive design element is the immersive, scroll-triggered 3D 'DEVELOPERS' text animation that acts as a dynamic background, creating a unique sense of depth and a strong, memorable visual identity. This effect elevates the site beyond a typical marketing page, making it feel highly interactive and cutting-edge.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

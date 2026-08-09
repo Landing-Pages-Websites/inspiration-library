@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-parisgeorgiastore-com-24edca",
+  "source": {
+    "url": "https://www.parisgeorgiastore.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-parisgeorgiastore-com-24edca.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-parisgeorgiastore-com-24edca__scroll0.webp",
+      "shots/_proposed/siteinspire-parisgeorgiastore-com-24edca__scroll1.webp",
+      "shots/_proposed/siteinspire-parisgeorgiastore-com-24edca__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.parisgeorgiastore.com/muses",
+        "full": "shots/_proposed/siteinspire-parisgeorgiastore-com-24edca__p2.webp"
+      },
+      {
+        "url": "https://www.parisgeorgiastore.com/about",
+        "full": "shots/_proposed/siteinspire-parisgeorgiastore-com-24edca__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dominant use of full-bleed, high-resolution photography to introduce sections and categories, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "A highly stylized, elegant script font is reserved exclusively for the brand logo, contrasting with a clean, modern sans-serif for all functional text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white UI palette is consistently applied, allowing the rich, natural colors of the product photography to provide the primary visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar dynamically reduces its height and becomes sticky at the top of the viewport upon scrolling, maintaining accessibility while optimizing screen real estate."
+    },
+    {
+      "kind": "section",
+      "note": "Large, full-width photographic sections serve as visual anchors and category entry points, often featuring minimal text overlays to maintain focus on the imagery."
+    }
+  ],
+  "technique_notes": [
+    "Implement a header that initially appears at a taller height, then smoothly transitions to a more compact, fixed position at the top of the viewport as the user scrolls down.",
+    "Utilize full-bleed, high-resolution images as primary content blocks and section dividers, ensuring they span the full width of the browser and serve as the main visual focus.",
+    "Employ a large, stylized brand logo as a significant graphic element within the page content, particularly in transitional or footer-like sections, to reinforce brand identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#D4C9B8",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: GTSuperDisplayLightItalic",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Model Standard Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Model Standard Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A prominent, elegant script for the brand mark, contrasted with a clean, modern sans-serif where headings are moderately sized and body text is small and highly legible.",
+    "radius": "Sharp corners are consistently used across all elements, including images and interactive components.",
+    "spacing": "An airy and spacious layout, particularly in hero and full-bleed image sections, with balanced spacing for text blocks and product grids."
+  },
+  "standout": "The site's most distinctive feature is its bold and luxurious presentation of product photography, utilizing full-bleed, editorial-style images as core structural and navigational elements rather than mere embellishments. This creates an immersive brand experience that feels more like a high-fashion magazine spread than a typical e-commerce site.",
+  "animation_tech": [],
+  "status": "proposed"
+}

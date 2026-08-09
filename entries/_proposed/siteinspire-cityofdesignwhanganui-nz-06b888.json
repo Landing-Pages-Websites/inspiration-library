@@ -1,0 +1,105 @@
+{
+  "id": "siteinspire-cityofdesignwhanganui-nz-06b888",
+  "source": {
+    "url": "https://cityofdesignwhanganui.nz",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-cityofdesignwhanganui-nz-06b888.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-cityofdesignwhanganui-nz-06b888__scroll0.webp",
+      "shots/_proposed/siteinspire-cityofdesignwhanganui-nz-06b888__scroll1.webp",
+      "shots/_proposed/siteinspire-cityofdesignwhanganui-nz-06b888__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "city-planning",
+      "cultural-heritage"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A high-contrast split-screen layout with a fixed black left panel containing vertical branding and navigation, and an independently scrolling white right panel for main content."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, bold, wide sans-serif headings are used for section titles, creating a strong visual impact and hierarchy against smaller, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly black and white, with vibrant gradient accents (blue-pink, green-pink) used as background fills for key section headings, providing bursts of color."
+    },
+    {
+      "kind": "motion",
+      "note": "The left-hand branding and navigation panel remains sticky and fixed in the viewport, while the right-hand content area scrolls independently, revealing new sections with a subtle fade-in and slide-up effect."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section on the right panel is introduced by a large, bold heading, often set against a vibrant gradient background, creating clear visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a custom smooth-scroll or scroll-jacking library (like locomotive-scroll) to create a distinct scrolling experience where a fixed left-hand branding and navigation panel remains static while the main content area on the right scrolls independently. Content sections within the right panel are revealed with a staggered fade-in and subtle upward translation as they enter the viewport, enhancing engagement.",
+    "Large, impactful headings are achieved by setting text in a very bold, wide sans-serif typeface, often with generous letter-spacing, to command attention and define content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#1f99fc",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff69cc",
+        "role": "accent"
+      },
+      {
+        "hex": "#43c05b",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "die-grotesk-b",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, wide sans-serif headings (~4-5x body) create a strong visual hierarchy, complemented by smaller, legible body text.",
+    "radius": "sharp",
+    "spacing": "very airy, especially in the hero and between major sections, creating a sense of spaciousness and allowing the bold typography to breathe."
+  },
+  "standout": "The most distinctive feature is the dramatic, high-contrast split-screen layout with a fixed, branded left panel and an independently scrolling right content area. This, combined with the oversized, bold typography and vibrant gradient accents, creates a highly dynamic and editorial feel that is far from a generic template.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

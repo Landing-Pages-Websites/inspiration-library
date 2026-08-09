@@ -1,0 +1,106 @@
+{
+  "id": "siteinspire-oma-appel-nl-454cb5",
+  "source": {
+    "url": "https://oma-appel.nl",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-oma-appel-nl-454cb5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-oma-appel-nl-454cb5__scroll0.webp",
+      "shots/_proposed/siteinspire-oma-appel-nl-454cb5__scroll1.webp",
+      "shots/_proposed/siteinspire-oma-appel-nl-454cb5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://oma-appel.nl/bestellen",
+        "full": "shots/_proposed/siteinspire-oma-appel-nl-454cb5__p2.webp"
+      },
+      {
+        "url": "https://oma-appel.nl/product/aardbeiensiroop",
+        "full": "shots/_proposed/siteinspire-oma-appel-nl-454cb5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "artisanal",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast, two-tone color palette dominated by bright red and white, creating a bold and energetic feel."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive mirrored text effect is used for the primary brand logo, creating a unique visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section dynamically transforms from a static, oversized logo to a full-width video playing in the background as the user scrolls down the page."
+    },
+    {
+      "kind": "layout",
+      "note": "Product listings are presented in a clean, border-separated grid layout, maintaining a consistent visual structure across product displays."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a video background that is revealed or activated upon initial scroll, replacing a static brand element. This creates an immediate, engaging visual experience.",
+    "The brand logo utilizes a mirrored text effect, where the main text is duplicated and inverted directly below it, giving a strong, memorable graphic identity.",
+    "Content sections are clearly delineated by generous vertical spacing and large, centered headings, often with a distinct background color or a simple white canvas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#E60000",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#C0392B",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase headings (~4-5x body) create strong visual anchors, contrasted with smaller, legible body text.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 generous vertical spacing between sections, with a more dense, structured grid for product displays."
+  },
+  "standout": "The site's most distinctive feature is the mirrored text logo, which is then dynamically replaced by a video hero on scroll. This combination of a unique static brand mark and an engaging motion-triggered hero creates a memorable and playful first impression.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

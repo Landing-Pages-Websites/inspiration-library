@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-zelmanski-pl-9111e9",
+  "source": {
+    "url": "https://zelmanski.pl",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-zelmanski-pl-9111e9.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-zelmanski-pl-9111e9__scroll0.webp",
+      "shots/_proposed/siteinspire-zelmanski-pl-9111e9__scroll1.webp",
+      "shots/_proposed/siteinspire-zelmanski-pl-9111e9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.zelmanski.pl/",
+        "full": "shots/_proposed/siteinspire-zelmanski-pl-9111e9__p2.webp"
+      },
+      {
+        "url": "https://www.zelmanski.pl/portfolio",
+        "full": "shots/_proposed/siteinspire-zelmanski-pl-9111e9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "web-design",
+      "product-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial page features a minimalist, centered layout with ample whitespace around a dynamic hero section, transitioning to a dense, multi-column grid layout for the portfolio items on the 'Archive' page."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif font family is used throughout, with significant variations in weight and size to create hierarchy. Large, bold numbers and titles are used for impact within the showcased app designs, while body text and navigation remain understated."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a high-contrast palette of light gray/white backgrounds and dark text, with a vibrant orange serving as a key accent color for interactive elements and highlights within the hero content."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section employs a scroll-triggered content replacement mechanism. As the user scrolls down, the initial app mockups are dynamically replaced by other UI elements or content blocks with a distinct 'flip' or 'rotate' 3D transition, creating a sequential reveal of design examples."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured with an interactive, dynamic hero section that showcases a few design elements through scroll-triggered animations, followed by a more traditional, extensive portfolio grid on a separate 'Archive' page."
+    }
+  ],
+  "technique_notes": [
+    "The scroll-triggered content replacement in the hero section is achieved by using a JavaScript animation library (like GSAP ScrollTrigger) to detect scroll depth. As the user scrolls, the current content block is animated out using a 3D transform (e.g., rotating on its Y-axis and fading out), while the next content block animates in with a similar transform and fade, creating a seamless 'flip' or 'card-stack' effect.",
+    "The site uses a clean, modern sans-serif for all text, with careful attention to line height and letter spacing to maintain readability and a sophisticated aesthetic. Headings and key numbers are significantly larger and bolder than body text, establishing a clear visual hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ff6900",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "neue-haas-grotesk-display",
+        "role": "heading"
+      },
+      {
+        "family": "neue-haas-grotesk-text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif numbers and titles (~3-4x body) for impact, paired with a clean, legible body text for details.",
+    "radius": "Subtle rounded corners (~8-16px) on cards, buttons, and app mockups, contributing to a soft, modern feel.",
+    "spacing": "Very airy in the hero and introductory sections, emphasizing individual elements. The portfolio grid maintains balanced padding but is denser to showcase more content."
+  },
+  "standout": "The most distinctive feature is the highly dynamic and interactive hero section that uses scroll-triggered 3D transformations to sequentially replace showcased content. This creates a unique and engaging introduction to the designer's work, moving beyond static hero images or simple fade-ins.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
