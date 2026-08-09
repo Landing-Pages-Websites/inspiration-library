@@ -1,0 +1,133 @@
+{
+  "id": "siteinspire-camelot-typefaces-com-9f85f5",
+  "source": {
+    "url": "https://camelot-typefaces.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-camelot-typefaces-com-9f85f5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-camelot-typefaces-com-9f85f5__scroll0.webp",
+      "shots/_proposed/siteinspire-camelot-typefaces-com-9f85f5__scroll1.webp",
+      "shots/_proposed/siteinspire-camelot-typefaces-com-9f85f5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://camelot-typefaces.com/info",
+        "full": "shots/_proposed/siteinspire-camelot-typefaces-com-9f85f5__p2.webp"
+      },
+      {
+        "url": "https://camelot-typefaces.com/lelo",
+        "full": "shots/_proposed/siteinspire-camelot-typefaces-com-9f85f5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "typography",
+      "design",
+      "creative-services",
+      "font-foundry"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a split-screen layout with a fixed-position vertical navigation bar on the left and a scrolling content area on the right, showcasing various typographic examples."
+    },
+    {
+      "kind": "type",
+      "note": "Typography is the primary visual content, with oversized, experimental, and highly varied typefaces used as display elements on the homepage, contrasting with a clean, functional sans-serif for body text on interior pages."
+    },
+    {
+      "kind": "color",
+      "note": "Bold, high-contrast color blocking is used extensively, often pairing primary colors (red, blue, yellow) with stark black and white backgrounds to highlight typographic displays."
+    },
+    {
+      "kind": "motion",
+      "note": "A vertical navigation bar on the left side of the homepage remains sticky as the user scrolls, while main content sections on the right scroll vertically into view from the bottom, replacing previous content."
+    },
+    {
+      "kind": "section",
+      "note": "Homepage sections are defined by distinct, full-bleed typographic displays and large color blocks, clearly labeled by the sticky left navigation."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position vertical navigation bar is implemented on the left side of the viewport, providing persistent section labels as the user scrolls through the main content area.",
+    "Content sections on the right scroll vertically, revealing new typographic showcases as they enter the viewport from the bottom, with no complex fade-ins or parallax on the main content blocks.",
+    "Large, full-bleed color blocks serve as high-contrast backgrounds for typographic displays, creating strong visual separation and impact for each font showcase."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#A2A1A0",
+        "role": "text"
+      },
+      {
+        "hex": "#181716",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "mf-eliza-mono",
+        "role": "display"
+      },
+      {
+        "family": "mf-graebenbach-roman",
+        "role": "display"
+      },
+      {
+        "family": "mf-lelo-roman",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely varied, from oversized, experimental display fonts (~10x body) on the homepage to a standard, readable body text on interior pages, with headings moderately larger than body text.",
+    "radius": "sharp; all elements feature crisp, unrounded corners.",
+    "spacing": "airy on the homepage with large, distinct content blocks; balanced on interior pages for readability."
+  },
+  "standout": "The site's most distinctive feature is its unapologetic use of typography as the primary visual and interactive content. Instead of using fonts to support other content, the fonts *are* the content, presented in a bold, experimental, and gallery-like fashion, especially on the homepage, with a sticky vertical navigation emphasizing this focus.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

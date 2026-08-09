@@ -1,0 +1,119 @@
+{
+  "id": "siteinspire-godaylight-com-c44386",
+  "source": {
+    "url": "https://godaylight.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-godaylight-com-c44386.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-godaylight-com-c44386__scroll0.webp",
+      "shots/_proposed/siteinspire-godaylight-com-c44386__scroll1.webp",
+      "shots/_proposed/siteinspire-godaylight-com-c44386__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "energy",
+      "solar",
+      "home-services",
+      "renewable-energy"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width content sections with varying background colors (light beige, dark charcoal, vibrant orange, purple) to delineate content blocks and create visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of an elegant, large-scale serif typeface for primary headings, contrasted with a clean, modern sans-serif for body text, subheadings, and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette combining warm, muted neutrals (light beige, off-white, subtle grey) with deep, rich dark tones and a vibrant, energetic orange as a primary accent and CTA color."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar remains sticky at the top of the viewport throughout the scroll. Background images in hero and full-width sections exhibit a subtle parallax effect, scrolling slower than foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed image sections with text overlays are used to introduce key concepts or transitions, often featuring a subtle parallax scroll effect."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar is fixed to the top of the viewport, maintaining visibility as the user scrolls down the page.",
+    "Background images in hero and full-width content sections are set to parallax, creating a sense of depth by scrolling at a slower rate than the foreground content. This effect is likely achieved using GSAP ScrollTrigger or a similar library.",
+    "Content sections and individual elements within them are revealed with a subtle fade-up or slide-in animation as they enter the viewport, enhancing engagement and guiding the user's eye down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fff7e9",
+        "role": "background"
+      },
+      {
+        "hex": "#1c1c1c",
+        "role": "text"
+      },
+      {
+        "hex": "#f66f00",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8e8e4",
+        "role": "surface"
+      },
+      {
+        "hex": "#aeaca4",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#4c2806",
+        "role": "dark-accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "white-text"
+      },
+      {
+        "hex": "#6a3abf",
+        "role": "section-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Aeonik Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized elegant serif headings (~3-4x body) paired with clean, legible sans-serif for body and uppercase labels.",
+    "radius": "Subtle: inputs, buttons, and image corners have a slight, consistent rounding.",
+    "spacing": "Balanced to airy: generous vertical spacing between sections and within content blocks, creating a sense of openness."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of classic, elegant serif typography for headlines with a modern, clean sans-serif for body text. This, combined with a warm neutral and vibrant orange palette and subtle parallax scrolling, creates a high-end, trustworthy yet approachable brand identity that elevates a utility service.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

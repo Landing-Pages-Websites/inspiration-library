@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-t72t-com-e7e56b",
+  "source": {
+    "url": "https://www.t72t.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-t72t-com-e7e56b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-t72t-com-e7e56b__scroll0.webp",
+      "shots/_proposed/siteinspire-t72t-com-e7e56b__scroll1.webp",
+      "shots/_proposed/siteinspire-t72t-com-e7e56b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.t72t.com/ld-no32",
+        "full": "shots/_proposed/siteinspire-t72t-com-e7e56b__p2.webp"
+      },
+      {
+        "url": "https://www.t72t.com/ld-dygn",
+        "full": "shots/_proposed/siteinspire-t72t-com-e7e56b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "typography",
+      "digital-products"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage uses full-bleed, oversized typographic compositions as the primary visual content, filling the screen with abstract letterforms that scroll into view."
+    },
+    {
+      "kind": "type",
+      "note": "The site heavily features highly experimental, geometric, and deconstructed display typefaces as its core product and visual identity, contrasting with small, utilitarian sans-serif text for navigation and descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast color scheme is used, primarily dark grey with a light pink accent on the homepage, which dramatically inverts to a light grey background with dark grey/black text on interior pages."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation remains fixed at the top of the viewport as the user scrolls, providing persistent access to site links, while the main content scrolls underneath."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky header, maintaining its position at the top of the screen during scroll. Content below the header simply scrolls underneath it, revealing new typographic compositions.",
+    "The design relies on full-screen, high-contrast typographic compositions where individual letterforms are treated as large-scale graphic elements. These are presented against a solid background color that dramatically inverts between the homepage (dark) and interior product pages (light)."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d1d",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "background-light"
+      },
+      {
+        "hex": "#fed5d1",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-on-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: experimental geometric stencil",
+        "role": "display"
+      },
+      {
+        "family": "SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, abstract display type (~10x body) dominates the visual space, contrasted with small, utilitarian sans-serif for navigation and descriptive text.",
+    "radius": "sharp",
+    "spacing": "airy hero sections with ample negative space around large type elements, transitioning to a more balanced density on product detail pages."
+  },
+  "standout": "The site's most distinctive feature is its bold use of experimental, deconstructed typography as the primary visual content, treating letterforms as abstract art rather than mere text. This creates a unique, gallery-like experience for showcasing typefaces, amplified by the stark, high-contrast color inversions between pages.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

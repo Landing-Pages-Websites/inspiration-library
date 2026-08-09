@@ -1,0 +1,85 @@
+{
+  "id": "siteinspire-studio-otto-com-d34361",
+  "source": {
+    "url": "https://studio-otto.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-studio-otto-com-d34361.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-studio-otto-com-d34361__scroll0.webp",
+      "shots/_proposed/siteinspire-studio-otto-com-d34361__scroll1.webp",
+      "shots/_proposed/siteinspire-studio-otto-com-d34361__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column, masonry-style grid layout for portfolio entries, where each entry consists of an image and a justified text block, creating an irregular but structured flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single sans-serif typeface for all text, with project titles distinguished by a slightly larger size and bold weight, while descriptive text is small and justified."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of white background and black text, allowing the diverse imagery of the portfolio pieces to introduce all visual color."
+    },
+    {
+      "kind": "motion",
+      "note": "A minimal sticky header remains fixed at the top of the viewport, displaying navigation and a date, while the extensive content grid scrolls fluidly underneath it."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a fixed header element that stays at the top of the viewport as the user scrolls, allowing the main content area to scroll beneath it.",
+    "Portfolio items are arranged in a responsive two-column grid where each item contains an photo and a text description. The text blocks are justified and have varying heights, contributing to a dynamic, masonry-like layout without explicit gaps.",
+    "Text content is presented in small, justified blocks, creating a dense, editorial feel that contrasts with the visual impact of the accompanying images."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A subtle type scale where headings (project titles) are slightly larger and bolder than the small, dense body text, maintaining a consistent sans-serif character.",
+    "radius": "sharp",
+    "spacing": "Balanced, with consistent gutters between grid items and ample line height within text blocks, creating a dense yet readable presentation."
+  },
+  "standout": "The site's standout feature is its extremely minimalist, almost anti-design approach to presenting a vast portfolio. By stripping away all decorative elements, large headlines, and interactive animations, it forces the user's attention entirely onto the small, justified text blocks and the accompanying images, creating an editorial, archive-like experience that feels more like browsing a physical catalog than a typical website.",
+  "animation_tech": [],
+  "status": "proposed"
+}

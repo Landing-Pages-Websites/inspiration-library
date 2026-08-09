@@ -1,0 +1,111 @@
+{
+  "id": "siteinspire-lisovskiy-work-25a759",
+  "source": {
+    "url": "https://lisovskiy.work",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-lisovskiy-work-25a759.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-lisovskiy-work-25a759__scroll0.webp",
+      "shots/_proposed/siteinspire-lisovskiy-work-25a759__scroll1.webp",
+      "shots/_proposed/siteinspire-lisovskiy-work-25a759__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://lisovskiy.work/works/fil",
+        "full": "shots/_proposed/siteinspire-lisovskiy-work-25a759__p2.webp"
+      },
+      {
+        "url": "https://lisovskiy.work/works/oko",
+        "full": "shots/_proposed/siteinspire-lisovskiy-work-25a759__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetric layout with a large, central 3D object balanced by a vertical list of text on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections below the hero utilize a clean, grid-based arrangement for project thumbnails and a three-column layout for informational lists."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used consistently across all text elements, with variations in size and weight to establish hierarchy rather than different font families."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a stark monochromatic palette of black and white, with a single bright yellow accent color used sparingly within project visuals and the hero element."
+    },
+    {
+      "kind": "motion",
+      "note": "The prominent 3D floppy disk in the hero section rotates and then scales down and disappears as the user scrolls, revealing the 'About' section."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as a dense, irregular grid of small, diverse image thumbnails, creating a visual mosaic of work."
+    }
+  ],
+  "technique_notes": [
+    "The hero features a dynamic 3D animated object (a floppy disk) that responds to scroll depth by rotating, transforming, and eventually disappearing, creating an engaging and symbolic introduction. This effect likely uses a 3D rendering library like Three.js or a similar WebGL solution, integrated with scroll-triggered animations.",
+    "The site maintains a minimalist aesthetic through extensive use of negative space, particularly in the hero and between major content blocks, to highlight key information and visuals.",
+    "Content sections below the hero are revealed by standard vertical scrolling, with no distinct fade-ins or slide-ups, allowing the hero's motion to be the primary dynamic element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#f9b800",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (e.g., 'Web Design') provide strong emphasis, contrasting with smaller, regular body text, all within a consistent sans-serif family.",
+    "radius": "Sharp (all corners appear to be 0px radius), contributing to a crisp and modern feel.",
+    "spacing": "Airy in the hero and between major sections, creating a sense of openness, transitioning to a more balanced density within content grids and lists."
+  },
+  "standout": "The site's most distinctive feature is its highly interactive and symbolic hero section, where a 3D floppy disk animates and transforms on scroll, serving as a unique visual metaphor for 'My Best Ideas' and the studio's work. This playful yet sophisticated use of 3D animation immediately sets it apart from typical portfolio sites.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

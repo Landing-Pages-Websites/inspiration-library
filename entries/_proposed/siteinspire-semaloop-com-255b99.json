@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-semaloop-com-255b99",
+  "source": {
+    "url": "https://semaloop.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-semaloop-com-255b99.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-semaloop-com-255b99__scroll0.webp",
+      "shots/_proposed/siteinspire-semaloop-com-255b99__scroll1.webp",
+      "shots/_proposed/siteinspire-semaloop-com-255b99__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://semaloop.com/dpa",
+        "full": "shots/_proposed/siteinspire-semaloop-com-255b99__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "mobile-app-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are presented in a clean, single-column flow with generous vertical spacing, often using full-width background color blocks to delineate content areas."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif typeface, creating strong visual hierarchy, complemented by smaller, uppercase numeric labels for section introductions."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy green/teal accent color is used for key content blocks, providing a soft contrast against the dominant light background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video playing in the background, providing dynamic visual interest upon page load."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport as the user scrolls down the page, ensuring constant access to navigation links."
+    },
+    {
+      "kind": "section",
+      "note": "The footer includes a large, semi-transparent watermark of the company logo, adding a subtle brand presence at the bottom of the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-width video as a background element, with textual content and calls to action overlaid directly on top for immediate engagement.",
+    "The primary navigation is implemented as a sticky header, fixing it to the top of the browser window after the initial scroll, ensuring constant access to key links.",
+    "Content sections below the hero are revealed by simply scrolling into the viewport, maintaining a clean and direct content flow without complex scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f3f3f0",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#8ca89c",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, uppercase numeric labels and clear, legible body text.",
+    "radius": "Subtle rounded corners on input fields and buttons, with sharp corners for main content blocks.",
+    "spacing": "Airy, with generous vertical padding between sections and ample whitespace around content elements."
+  },
+  "standout": "The site's design is distinctive for its sophisticated use of a full-bleed video hero combined with a muted, earthy green accent color that feels both modern and calming. The large, semi-transparent logo watermark in the footer also adds a unique and memorable brand touch.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

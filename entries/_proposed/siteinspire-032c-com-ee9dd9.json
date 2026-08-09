@@ -1,0 +1,117 @@
+{
+  "id": "siteinspire-032c-com-ee9dd9",
+  "source": {
+    "url": "https://032c.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-032c-com-ee9dd9.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-032c-com-ee9dd9__scroll0.webp",
+      "shots/_proposed/siteinspire-032c-com-ee9dd9__scroll1.webp",
+      "shots/_proposed/siteinspire-032c-com-ee9dd9__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.032c.com/en-us",
+        "full": "shots/_proposed/siteinspire-032c-com-ee9dd9__p2.webp"
+      },
+      {
+        "url": "https://www.032c.com/pages/workshop",
+        "full": "shots/_proposed/siteinspire-032c-com-ee9dd9__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "media",
+      "e-commerce",
+      "publishing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of full-bleed, high-contrast photography and video backgrounds for hero and editorial sections, often with text overlaid directly on images."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and key labels frequently use a bold, all-caps sans-serif typeface, creating a strong, editorial voice, contrasted with a more standard sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of black, white, and a vibrant, almost aggressive red is used consistently for branding, accents, and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar, including the brand logo, transforms upon scroll: the '032c' logo shrinks and shifts from a prominent central position to a smaller, left-aligned one, while the navigation gains a solid white background."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, often full-width, editorial blocks featuring large imagery or video, interspersed with product grids and bold red announcement banners."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its appearance and layout as the user scrolls, likely using CSS transitions or keyframes to animate the logo's size and position, and the background color of the navigation bar.",
+    "Editorial content is presented with full-bleed imagery or video backgrounds, where text is overlaid with sufficient contrast, often achieved through careful image selection or subtle text shadows.",
+    "Product and article listings are arranged in responsive grid layouts, allowing for a mix of image-heavy and text-focused entries."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#121212",
+        "role": "surface"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Bold, impactful sans-serif headings (~3-4x body) are used for titles and editorial content, often in all caps, while body text is a clear, readable sans-serif.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 a mix of airy, full-bleed hero and editorial sections, with denser, grid-based product and article listings."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist use of a high-contrast black, white, and red palette, combined with striking, often monochromatic, editorial photography. The dynamic sticky header with its transforming logo adds a sophisticated and memorable brand interaction.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

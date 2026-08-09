@@ -1,0 +1,120 @@
+{
+  "id": "siteinspire-franshalsmuseum-nl-823338",
+  "source": {
+    "url": "https://www.franshalsmuseum.nl",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-franshalsmuseum-nl-823338.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-franshalsmuseum-nl-823338__scroll0.webp",
+      "shots/_proposed/siteinspire-franshalsmuseum-nl-823338__scroll1.webp",
+      "shots/_proposed/siteinspire-franshalsmuseum-nl-823338__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://franshalsmuseum.nl/nl",
+        "full": "shots/_proposed/siteinspire-franshalsmuseum-nl-823338__p2.webp"
+      },
+      {
+        "url": "https://franshalsmuseum.nl/nl/bezoek",
+        "full": "shots/_proposed/siteinspire-franshalsmuseum-nl-823338__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "museum",
+      "arts-and-culture"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are used to highlight large, impactful imagery alongside concise text, creating dynamic visual interest (e.g., 'Voor Families & Kinderen' section)."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles and calls-to-action consistently use bold, uppercase typography, providing strong visual anchors and clear hierarchy across the page."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, dark teal/blue-black serves as the primary background, elegantly contrasted with warm, earthy tones (light orange, beige, muted green) and a vibrant orange accent for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video blurs and scales down significantly as the user scrolls, transitioning from a full-page immersive experience to a compact, sticky navigation bar at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct card-based carousels for 'Onze Topstukken' and 'Nieuws' sections, allowing for horizontal browsing of multiple items within a confined space."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-width video that dynamically blurs and scales down on scroll, creating a sense of depth and revealing the main content. Simultaneously, the navigation bar transforms from a transparent overlay to a compact, sticky header with a solid dark background.",
+    "Content sections are structured with a modular approach, often pairing large, evocative images with text blocks. Interactive carousels with horizontal scrolling are used to display multiple content cards within a single section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#001317",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "text"
+      },
+      {
+        "hex": "#ffb655",
+        "role": "cta"
+      },
+      {
+        "hex": "#fecd8c",
+        "role": "surface"
+      },
+      {
+        "hex": "#b9c089",
+        "role": "surface"
+      },
+      {
+        "hex": "#edbaa7",
+        "role": "surface"
+      },
+      {
+        "hex": "#7d8688",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Rubik",
+        "role": "heading"
+      },
+      {
+        "family": "Rubik",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Bold, uppercase headings (approx. 2-3x body text) establish clear hierarchy, complemented by a readable body font for content.",
+    "radius": "Subtle rounded corners are applied consistently to cards, buttons, and section containers, contributing to a soft and approachable aesthetic.",
+    "spacing": "Balanced spacing with generous padding around sections and elements creates an airy and uncluttered feel, particularly in the hero and main content blocks."
+  },
+  "standout": "The site distinguishes itself with a sophisticated and earthy color palette that feels both modern and appropriate for an art institution. The dynamic hero video treatment, which blurs and shrinks on scroll, creates an engaging and memorable entry point, setting a tone of interactive elegance.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

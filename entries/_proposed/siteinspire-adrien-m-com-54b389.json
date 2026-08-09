@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-adrien-m-com-54b389",
+  "source": {
+    "url": "https://www.adrien-m.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-adrien-m-com-54b389.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-adrien-m-com-54b389__scroll0.webp",
+      "shots/_proposed/siteinspire-adrien-m-com-54b389__scroll1.webp",
+      "shots/_proposed/siteinspire-adrien-m-com-54b389__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "web-services",
+      "design-studio",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed images and gradient sections are used to delineate content blocks, often with text overlaid directly on them."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses an extremely wide, blocky, monospaced-like sans-serif for prominent branding elements, contrasting sharply with a clean, modern sans-serif for body text and descriptive labels."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist black and white base is accented by vibrant, full-bleed gradients and a distinctive bright yellow outline for key branding badges."
+    },
+    {
+      "kind": "motion",
+      "note": "An initial hero animation quickly transitions to a persistent, sticky header element (a branded badge and description) that overlays subsequent content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, including large images and text blocks, are revealed with a fade-in or slide-up effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width visual modules, often alternating between photographic collages, solid color gradients, and text-heavy blocks, creating a dynamic visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate complex scroll-based animations, including viewport-triggered reveals and sticky elements.",
+    "An initial loading or intro animation presents the primary branding, which then transitions to a more compact, persistent header that overlays subsequent content.",
+    "Sections are revealed with a staggered fade-up or subtle slide-in effect as they become visible in the user's viewport, creating a dynamic content flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF00FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Bungee",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, wide, blocky display text (~8-10x body) for branding, with smaller, uppercase labels and a clean, legible sans-serif for body text.",
+    "radius": "sharp",
+    "spacing": "Very airy in hero and contact sections, with generous vertical spacing between full-bleed content modules, creating a spacious and deliberate rhythm."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist use of an extremely wide and blocky display typeface for branding, which acts as both a hero and a persistent footer. This is combined with dynamic, full-bleed image and gradient sections that reveal on scroll, and a unique sticky header element that overlays content, creating a highly artistic and interactive portfolio experience.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

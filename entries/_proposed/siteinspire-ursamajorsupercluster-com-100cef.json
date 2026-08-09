@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-ursamajorsupercluster-com-100cef",
+  "source": {
+    "url": "https://ursamajorsupercluster.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-ursamajorsupercluster-com-100cef.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-ursamajorsupercluster-com-100cef__scroll0.webp",
+      "shots/_proposed/siteinspire-ursamajorsupercluster-com-100cef__scroll1.webp",
+      "shots/_proposed/siteinspire-ursamajorsupercluster-com-100cef__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://ursamajorsupercluster.com/polaris-wwii-bomber-navigation-north-star",
+        "full": "shots/_proposed/siteinspire-ursamajorsupercluster-com-100cef__p2.webp"
+      },
+      {
+        "url": "https://ursamajorsupercluster.com/lewis-clark-ursa-major-celestial-navigation",
+        "full": "shots/_proposed/siteinspire-ursamajorsupercluster-com-100cef__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "science",
+      "astronomy",
+      "publishing"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column grid layout is consistently used for article listings on the homepage, transitioning to a single-column layout for individual article pages, maintaining a clear content hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings are used for the site title and article titles, creating strong visual anchors, while body text and metadata use a more standard, highly readable sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark blue/black (#0b0f1e) serves as the dominant background, providing a 'cosmic' feel, contrasted with light, almost white text (#e8f0fe) and subtle blue and yellow accents for links and category tags."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed header bar remains persistently at the top of the viewport, displaying the site title and a tagline, as the main content scrolls underneath it without any other scroll-triggered animations."
+    },
+    {
+      "kind": "section",
+      "note": "Article cards feature a full-bleed image at the top, followed by a small, uppercase category tag, a bold title, a brief description, and a date, all contained within a subtly rounded dark card."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed position header element that remains at the top of the viewport throughout the scroll, allowing content to scroll underneath it without any visual transformation.",
+    "Design article cards with a dark background and subtle corner rounding. Place a full-width image at the top, followed by text content including an uppercase category label, a prominent title, a summary, and a date.",
+    "Utilize a deep, dark blue as the primary background color, with light, high-contrast text for readability. Use lighter blue tones for interactive elements and accents to maintain a sophisticated dark theme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0f1e",
+        "role": "background"
+      },
+      {
+        "hex": "#e8f0fe",
+        "role": "text"
+      },
+      {
+        "hex": "#a8d8ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#7eb8e8",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ffd166",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (site title ~3-4x body, article titles ~1.5-2x body) with a clear hierarchy, complemented by a readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "Subtle (cards, buttons, images within cards).",
+    "spacing": "Balanced, with generous vertical spacing in the hero and between major sections, and a more compact but readable spacing within article cards."
+  },
+  "standout": "The site's distinctive use of a deep, dark, almost cosmic color palette combined with crisp, modern typography and high-quality astronomical imagery creates an immersive and sophisticated editorial experience, making it feel like a premium digital magazine for space enthusiasts.",
+  "animation_tech": [],
+  "status": "proposed"
+}
