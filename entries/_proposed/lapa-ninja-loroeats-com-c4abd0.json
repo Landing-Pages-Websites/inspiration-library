@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-loroeats-com-c4abd0",
+  "source": {
+    "url": "https://www.loroeats.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-loroeats-com-c4abd0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-loroeats-com-c4abd0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-loroeats-com-c4abd0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-loroeats-com-c4abd0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "restaurant",
+      "food-service",
+      "asian-fusion",
+      "bar"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality food photography serves as background imagery for hero and content sections, often with large, expressive typography overlaid directly."
+    },
+    {
+      "kind": "type",
+      "note": "A highly decorative, oversized display typeface is used for all major section headings, creating a playful and distinctive brand voice that contrasts with a clean, functional sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a warm, off-white background for most content, punctuated by a deep teal/blue for specific sections and a vibrant coral/pink as a primary accent color for headings and key elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images and illustrative elements (like the tiger mascot) parallax at different speeds as the user scrolls, while large section headings animate into view with a subtle slide-up or fade-in effect."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced by a full-bleed image and a large, animating headline, creating distinct visual breaks and guiding the user through the page's narrative."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, use a library like GSAP ScrollTrigger to create a multi-layered parallax effect where background images and illustrations scroll at different rates than the foreground content. Implement scroll-triggered animations for large text elements, making them slide up or fade in as their respective sections enter the viewport. Ensure the persistent 'Stay in the Loop' popup remains fixed on top of all scrolling content until dismissed.",
+    "Achieve the full-bleed image sections by setting background images to cover the entire viewport width, often with text directly overlaid. For text contrast, ensure the typography is large and bold enough, or consider subtle text shadows if needed, though this site primarily relies on high contrast colors and large type."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbf0df",
+        "role": "background"
+      },
+      {
+        "hex": "#005a87",
+        "role": "surface"
+      },
+      {
+        "hex": "#f08a7d",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#007cba",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ohno-blazeface",
+        "role": "display"
+      },
+      {
+        "family": "Work Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, decorative display headings (~4-5x body text) with a playful, rounded character, contrasted with a clean, legible sans-serif for body text and navigation.",
+    "radius": "Subtle rounding on buttons and input fields; otherwise, sharp corners for main content blocks.",
+    "spacing": "Balanced to airy, especially in hero and section introductions, allowing large typography and imagery to breathe. Content within sections is more balanced."
+  },
+  "standout": "The site's most distinctive feature is its bold and playful typography, particularly the use of the 'ohno-blazeface' font for oversized, animating section headings. This, combined with the whimsical tiger mascot illustration and high-quality, full-bleed food photography, creates a unique brand personality that feels both sophisticated and approachable, setting it apart from typical restaurant sites.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

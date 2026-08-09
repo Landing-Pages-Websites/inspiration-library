@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-happydroid-ai-085ea5",
+  "source": {
+    "url": "https://www.happydroid.ai/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-happydroid-ai-085ea5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-happydroid-ai-085ea5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-happydroid-ai-085ea5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-happydroid-ai-085ea5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "robotics",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "full-bleed hero image with large, centered text elements that appear to float over the subject, creating a strong visual focal point."
+    },
+    {
+      "kind": "motion",
+      "note": "the hero section elements (robot head, 'happy' and 'droid' text) parallax and scale down as the user scrolls, eventually disappearing off-screen."
+    },
+    {
+      "kind": "motion",
+      "note": "the background transitions subtly and continuously from a cool, light green gradient to a warm, light orange gradient as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "large, rounded, pill-shaped cards appear to float into view with a soft shadow as the user scrolls, acting as visual anchors for content that is not fully revealed in the sequence, before also scrolling out of view."
+    },
+    {
+      "kind": "type",
+      "note": "a single, elegant serif font is used for all primary text, including the hero title and footer links, creating a cohesive and sophisticated typographic voice."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a combination of parallax and scaling effects for its main image and text elements, likely implemented with GSAP ScrollTrigger, where elements move and resize at different rates relative to the scroll position. The continuous background gradient transition is achieved through a scroll-driven color interpolation, possibly using CSS keyframes or GSAP. Subsequent content sections, represented by large rounded cards, appear to fade or slide in from the bottom as they enter the viewport, also likely using GSAP or CSS keyframes, and then scroll away normally."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#bec1b8",
+        "role": "background-hero"
+      },
+      {
+        "hex": "#e6e6e6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-light"
+      },
+      {
+        "hex": "#d4e7d1",
+        "role": "gradient-start"
+      },
+      {
+        "hex": "#fef7f0",
+        "role": "gradient-end"
+      },
+      {
+        "hex": "#6b6e65",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, elegant serif headings (~3-4x body) with small, understated sans-serif body and label text.",
+    "radius": "rounded; prominent large radius on the hero section and the floating content cards, subtle rounding on the overall page corners.",
+    "spacing": "airy; generous vertical spacing between sections and elements, creating a sense of calm and focus."
+  },
+  "standout": "The site's distinctive use of a 3D rendered, minimalist robot as a central visual motif, combined with a subtle, continuous background gradient transition and large, rounded content cards, creates a unique blend of futuristic tech and serene elegance. The design feels less like a traditional marketing page and more like an art installation.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie"
+  ],
+  "status": "proposed"
+}

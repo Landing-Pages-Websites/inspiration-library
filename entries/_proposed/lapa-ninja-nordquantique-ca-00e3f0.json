@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-nordquantique-ca-00e3f0",
+  "source": {
+    "url": "https://nordquantique.ca/en/home?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-nordquantique-ca-00e3f0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-nordquantique-ca-00e3f0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-nordquantique-ca-00e3f0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-nordquantique-ca-00e3f0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "quantum-computing",
+      "deep-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, alternating between deep dark and light backgrounds to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings paired with clean, readable sans-serif body text, creating a strong visual hierarchy across all content."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep darks and whites, punctuated by a distinctive maroon/pink accent color for branding, calls to action, and key elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header that transforms its background from transparent to a solid dark color and adjusts the logo/text color upon scrolling past the initial hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a video background with subtle parallax, while the main title and tagline fade out or scale down as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Information is presented in distinct, full-width blocks, including a multi-column feature grid, a horizontal timeline, and a news/blog card grid."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that changes its background from transparent to a solid dark color and adjusts the color of its logo and menu text as the user scrolls past the hero, likely using CSS transitions.",
+    "The hero section incorporates a full-bleed video background that exhibits a subtle parallax or scaling effect, while the overlaid text and logo fade out or scale down as the page is scrolled, likely using CSS keyframes or a JavaScript scroll library.",
+    "Content sections likely reveal themselves with a fade-up or slide-in animation as they enter the viewport, leveraging CSS keyframes for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#782d3d",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "surface"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ATsurt",
+        "role": "heading"
+      },
+      {
+        "family": "ATsurt",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clean, readable sans-serif body text, establishing a clear visual hierarchy.",
+    "radius": "Subtle, with minimal rounding on interactive elements like cards and buttons, while most structural elements remain sharp.",
+    "spacing": "Airy, with generous vertical padding between sections and ample whitespace around content blocks, especially in the hero area."
+  },
+  "standout": "The site's design is distinctive for its sophisticated, high-contrast dark theme, elevated by a vibrant and specific maroon/pink accent color. The use of a video hero with subtle parallax and a transforming sticky header adds a layer of polish, creating a serious yet modern aesthetic that feels high-tech and authoritative.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
