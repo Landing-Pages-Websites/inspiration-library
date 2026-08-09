@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-underline-com-254603",
+  "source": {
+    "url": "https://www.underline.com/community/cos/overview?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-underline-com-254603.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-underline-com-254603__scroll0.webp",
+      "shots/_proposed/lapa-ninja-underline-com-254603__scroll1.webp",
+      "shots/_proposed/lapa-ninja-underline-com-254603__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "telecommunications",
+      "internet-service-provider",
+      "infrastructure"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width background colors (pink, white, light purple) are used to clearly delineate distinct content sections, often paired with large, whimsical illustrations."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, expressive serif headings are paired with clean, legible sans-serif body text, creating a strong typographic contrast."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, limited accent palette of lime green, pink, and light purple is used for backgrounds, call-to-action buttons, and illustration fills, contrasting with black text and outlines."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the page, content elements within each section (text blocks, illustrations) appear to animate into view with subtle fade-in and slide-up effects."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is designed as a self-contained visual unit, typically featuring a large, custom illustration that reinforces the section's message."
+    }
+  ],
+  "technique_notes": [
+    "Uses CSS keyframe animations to reveal text blocks and illustrations with a subtle fade-in and slight upward translation as their parent section scrolls into the visible viewport.",
+    "Employs a clear visual hierarchy by using large, custom-drawn, outline-style illustrations with solid, bright color fills to anchor each content section and convey a playful brand personality.",
+    "Leverages full-bleed, solid color backgrounds to create distinct visual breaks between content sections, enhancing readability and guiding the user's eye down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FEE8F0",
+        "role": "background"
+      },
+      {
+        "hex": "#E8E0FF",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#A8FF35",
+        "role": "cta"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#4B65F7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, expressive serif headings (~3-4x body) are used for primary messages, complemented by clear, medium-sized sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on buttons and cards, with illustrations featuring organic, soft curves.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable line spacing for readability."
+  },
+  "standout": "The site's most distinctive feature is its consistent use of large, whimsical, hand-drawn illustrations with a bright, limited color palette. These playful visuals effectively humanize a typically technical industry, making the content feel approachable and engaging, rather than dry or corporate.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

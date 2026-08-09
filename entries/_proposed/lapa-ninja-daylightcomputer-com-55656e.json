@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-daylightcomputer-com-55656e",
+  "source": {
+    "url": "https://daylightcomputer.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-daylightcomputer-com-55656e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-daylightcomputer-com-55656e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-daylightcomputer-com-55656e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-daylightcomputer-com-55656e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "consumer-electronics",
+      "wellness-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page features a two-tone layout, starting with an airy, minimalist light hero section that transitions dramatically into a dense, dark footer section upon scroll."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font for impact, contrasted with smaller, legible sans-serif for body text and uppercase labels for navigation and secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, shifting from a soft, light background in the hero to a deep, warm dark background in the footer, with a vibrant orange serving as the primary accent and call-to-action color."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the initial light hero content scrolls up and out of view, while a large, orange 'daylight' logo animates in from the top, growing significantly in size and changing color as a dark, warm gradient background simultaneously reveals from the bottom, transforming the page's entire visual mood."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured as a single, highly impactful hero section that directly transforms into a comprehensive footer, with no intermediate content sections visible in the scroll sequence, creating a very concise user journey."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero section uses a full-bleed light background with a large, centered headline and a subtle, monochromatic illustration. A video hero is presented as a thumbnail with a play button.",
+    "A scroll-triggered animation system, likely using canvas or a similar technique, orchestrates a dramatic page transformation: the light hero content scrolls away, while a new dark, warm-toned section with an oversized, animating brand logo and full footer content reveals. The background itself transitions from light to a dark gradient.",
+    "Call-to-action buttons feature a solid, vibrant orange fill with subtle rounded corners and white text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#faf4f2",
+        "role": "background"
+      },
+      {
+        "hex": "#e8ded8",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff9d00",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#181c20",
+        "role": "background"
+      },
+      {
+        "hex": "#292d39",
+        "role": "surface"
+      },
+      {
+        "hex": "#373c4b",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Arial-BoldMT",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: ArialMT",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero heading (~4-5x body) with smaller, regular weight sans-serif for body text and uppercase labels.",
+    "radius": "Subtle: buttons, video thumbnail, and newsletter popup have gently rounded corners.",
+    "spacing": "Airy in the hero section, creating a sense of calm and focus; transitions to a balanced density in the dark footer section."
+  },
+  "standout": "The most distinctive feature is the dramatic, scroll-triggered page transformation from a minimalist, light-themed hero to a bold, dark footer, accompanied by an oversized, animating brand logo reveal. This creates a strong emotional impact and a memorable brand experience, moving beyond typical sticky navs or simple fade-ins.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

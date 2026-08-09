@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-marrammontauk-com-af8b59",
+  "source": {
+    "url": "https://marrammontauk.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-marrammontauk-com-af8b59.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-marrammontauk-com-af8b59__scroll0.webp",
+      "shots/_proposed/lapa-ninja-marrammontauk-com-af8b59__scroll1.webp",
+      "shots/_proposed/lapa-ninja-marrammontauk-com-af8b59__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "luxury-resort",
+      "travel"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and split layouts with large, high-quality imagery paired with text, often featuring a prominent headline and descriptive paragraph."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses a large, elegant sans-serif for primary headings, a smaller uppercase sans-serif for sub-labels, and a highly readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy color palette dominates, featuring rich browns, light beiges, and a distinctive burnt orange accent, creating a sophisticated and natural feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed background video. As the user scrolls, new content sections are revealed with subtle, staggered fade-in or slide-up animations."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are visually distinct through alternating background colors (white, light beige, and a deep brown for the footer) and are often separated by subtle horizontal dividers."
+    }
+  ],
+  "technique_notes": [
+    "The hero features a full-bleed background video with a subtle, semi-transparent dark overlay to ensure text legibility. The main headline is large and centered over this video.",
+    "Content sections below the hero are designed to animate into view as they enter the viewport, likely using GSAP or CSS keyframes to create a soft fade-up or slide-in effect for individual elements or entire blocks.",
+    "The primary navigation bar is initially transparent and fixed at the top, designed to become more opaque and potentially shrink or gain a background color as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1917",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e7e5e4",
+        "role": "surface"
+      },
+      {
+        "hex": "#d1765d",
+        "role": "cta"
+      },
+      {
+        "hex": "#57534e",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#dddddd",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, clean sans-serif headings (~4-5x body) create strong visual impact, complemented by smaller, often uppercase sans-serif labels and a highly readable body text.",
+    "radius": "Subtle rounded corners on buttons, input fields, and some image frames, creating a soft and approachable feel without being overly rounded.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, contributing to a sense of luxury and ease."
+  },
+  "standout": "The site's distinctive use of a rich, earthy color palette combined with elegant, minimalist typography and stunning, natural photography creates a serene and luxurious atmosphere. The integration of a full-bleed video hero and subtle scroll-triggered animations elevates the user experience beyond a typical marketing template, focusing heavily on emotional connection through visual storytelling.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

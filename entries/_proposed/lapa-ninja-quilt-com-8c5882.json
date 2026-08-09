@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-quilt-com-8c5882",
+  "source": {
+    "url": "https://www.quilt.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-quilt-com-8c5882.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-quilt-com-8c5882__scroll0.webp",
+      "shots/_proposed/lapa-ninja-quilt-com-8c5882__scroll1.webp",
+      "shots/_proposed/lapa-ninja-quilt-com-8c5882__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "smart-home",
+      "hvac",
+      "home-services"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating section layouts, often featuring a large image or illustration on one side and descriptive text with a call-to-action on the other, creating a balanced visual flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic pairing of a large, elegant serif font for primary headings and a clean, highly readable sans-serif for body text and secondary information."
+    },
+    {
+      "kind": "color",
+      "note": "A refined palette dominated by deep charcoal/black and warm off-white/cream, complemented by natural wood tones and subtle grey accents, creating an understated luxurious feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent overlay with light text to a solid white background with dark text and a subtle shadow as the user scrolls past the hero section, becoming sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their content (text, images, illustrations) reveal with subtle slide-in or fade-up animations as they enter the viewport, creating a dynamic but smooth scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced with a prominent, high-quality photograph or illustration that visually anchors the topic before detailed text is presented."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation bar is initially transparent and overlaid on the hero content. Upon scrolling down, it transitions to a solid white background with dark text and a subtle drop shadow, then sticks to the top of the viewport.",
+    "The hero image and its text content scroll at slightly different rates, creating a subtle parallax effect where the background image appears to move slower than the foreground elements.",
+    "Content sections and their internal elements (like text blocks, images, and cards) are revealed using scroll-triggered animations, typically fading up or sliding in from the sides as they enter the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#030303",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F9F7F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#909090",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#D1C7BB",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body size) with generous line height, paired with a clean sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounding (approx. 4-8px) on buttons and some card elements, maintaining a refined aesthetic.",
+    "spacing": "Balanced to airy, with significant vertical padding between major content sections and comfortable line heights for text blocks, contributing to a spacious feel."
+  },
+  "standout": "This site distinguishes itself with an exceptionally refined and editorial aesthetic that elevates a smart home product into a luxury item. The combination of elegant serif typography, aspirational photography, and a sophisticated, muted color palette creates a sense of understated luxury and technological advancement, moving beyond typical appliance marketing to a lifestyle brand.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

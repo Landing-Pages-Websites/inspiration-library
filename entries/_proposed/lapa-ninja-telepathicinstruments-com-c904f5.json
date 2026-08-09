@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-telepathicinstruments-com-c904f5",
+  "source": {
+    "url": "https://telepathicinstruments.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-telepathicinstruments-com-c904f5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-telepathicinstruments-com-c904f5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-telepathicinstruments-com-c904f5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-telepathicinstruments-com-c904f5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "electronics",
+      "music",
+      "audio-equipment",
+      "instruments"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed video hero with overlaid product imagery and text, transitioning to a dark, content-focused layout with asymmetrical product grids."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, thin, serif display font is used for primary headings, creating an elegant and editorial feel, contrasted with a clean sans-serif for body text and navigation."
+    },
+    {
+      "kind": "type",
+      "note": "Large, pixelated, uppercase sans-serif text is employed as a dominant visual element for section titles like 'STUDIOS' and 'SIGN UP', giving a retro-digital aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark theme (black and dark grey backgrounds) with high-contrast white or light text is used, punctuated by vibrant, often glowing, product photography."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon initial scroll, the hero section's foreground elements (product image, main heading, CTA button) scale down and translate upwards, while the background video exhibits a subtle parallax effect. Simultaneously, the transparent navigation bar transitions to a sticky header with a solid black background."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcase sections feature a two-column grid where one product image is often larger or more prominent, accompanied by a product name and 'Shop Now' link."
+    }
+  ],
+  "technique_notes": [
+    "The hero section combines a full-bleed video background with overlaid content. As the user scrolls, the foreground elements (product, main heading, CTA) scale down and move up, while the background video moves at a slower rate to create a parallax effect. The navigation bar simultaneously transitions from transparent to a fixed, solid-background header.",
+    "Large, impactful section titles are rendered using a pixelated, uppercase typeface, achieved through custom font rendering or image-based text, creating a unique retro-digital visual identity.",
+    "Content sections are introduced with subtle reveal animations, such as a fade-in or slide-up, as they enter the viewport, enhancing engagement and guiding the user's attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#353535",
+        "role": "surface"
+      },
+      {
+        "hex": "#EAE6DD",
+        "role": "background"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "hex": "#0071CE",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Editorial Old Ultralight",
+        "role": "display"
+      },
+      {
+        "family": "Suisse Intl",
+        "role": "body"
+      },
+      {
+        "family": "Suisse Intl Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, thin serif hero heading (~4-5x body) with smaller, clean sans-serif subheadings and body text. Large pixelated section titles are extremely dominant (~6-8x body).",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Generally airy, especially in the hero and large typographic sections, creating a sense of spaciousness and focus. Product grids are more balanced."
+  },
+  "standout": "The site's design is distinctive for its unique blend of a cosmic, dark aesthetic with a highly refined, thin serif display font and bold, pixelated section titles. The pixelated typography, in particular, gives the site a unique, retro-futuristic character that sets it apart from typical modern marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
