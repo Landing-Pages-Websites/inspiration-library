@@ -1,0 +1,99 @@
+{
+  "id": "siteinspire-2026-0190",
+  "source": {
+    "url": "https://www.simmondsltd.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0190.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0190__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0190__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0190__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.simmondsltd.com/gucci/ha-ha-ha",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0190__p2.webp"
+      },
+      {
+        "url": "https://www.simmondsltd.com/gucci/gucci-100",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0190__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "photography",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, continuous full-width image grid serves as the primary content display, creating an immersive gallery experience without distinct section breaks."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header dynamically transforms its content and functionality based on scroll depth, evolving from a simple progress indicator to a detailed navigation and filtering system."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white aesthetic dominates the design, providing high contrast for imagery and text, with minimal use of a single accent color for interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "Functional, small, and consistently uppercase sans-serif typography is used for all labels and navigation, reinforcing a utilitarian and editorial feel."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the dynamic header, implement a sticky element at the top of the viewport. Use JavaScript to detect scroll position and swap out or animate the visibility of different content blocks within the header (e.g., initial landing text, client names, navigation filters) as the user scrolls past certain thresholds, creating a progressive reveal of functionality.",
+    "The main content area is a responsive grid of images, likely using CSS Grid or Flexbox, where images maintain their aspect ratio and fill available space without explicit scroll-triggered animations for individual items, relying on the sheer volume and density of imagery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "small, uppercase sans-serif text is used consistently for all labels and navigation, with no large display headings, maintaining a uniform and functional hierarchy.",
+    "radius": "sharp",
+    "spacing": "dense (the image grid is very tight, filling the screen with minimal gutters; header elements are also compact and closely spaced)."
+  },
+  "standout": "The most distinctive aspect is the highly dynamic, transforming sticky header that evolves from a simple landing indicator to a full navigation and filtering system as the user scrolls. This, combined with the stark black and white, dense image grid, creates a unique, almost utilitarian gallery experience that prioritizes content and interactive control.",
+  "animation_tech": [],
+  "status": "approved"
+}

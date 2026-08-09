@@ -1,0 +1,125 @@
+{
+  "id": "siteinspire-2026-0148",
+  "source": {
+    "url": "https://baast.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0148.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0148__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0148__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0148__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://baast.studio/about",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0148__p2.webp"
+      },
+      {
+        "url": "https://baast.studio/cases/palet",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0148__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "digital-agency",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently employ an asymmetric two-column layout, balancing large negative space with focused text blocks or visual elements."
+    },
+    {
+      "kind": "type",
+      "note": "The primary brand logo and hero text utilize an extremely large, custom geometric sans-serif typeface that dominates the initial view, establishing a bold and modern identity."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black-and-white color scheme forms the foundation, with vibrant, often gradient, accent colors strategically introduced within dynamic graphic elements and interactive sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-stage, scroll-triggered transformation of the main logo and background, evolving from a static display to dynamic code-like animations and abstract patterns as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are introduced with large, bold numerical labels (e.g., '01', '02') followed by a descriptive heading, creating a structured and editorial flow."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a sophisticated WebGL or canvas animation system to create a dynamic, transforming background and logo. As the user scrolls, the initial hero content transitions into abstract data visualizations and then into evolving graphic patterns, with the main logo shrinking and changing its visual style (e.g., from solid to confetti-like, then to a gradient fill) while remaining a prominent background element.",
+    "The navigation bar is initially transparent with a large brand logo, then shrinks and changes its logo to a smaller, single-letter version, gaining a solid black background as the user scrolls past the hero section.",
+    "Content sections are revealed with subtle fade-in or slide-up effects as they enter the viewport, ensuring a smooth and engaging content progression."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "accent"
+      },
+      {
+        "hex": "#8000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Custom Display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (~8x body) with smaller, uppercase labels and a clear, legible body text.",
+    "radius": "Sharp corners universally applied to all elements, including images, buttons, and interactive components.",
+    "spacing": "Very airy, with generous vertical padding between sections and ample negative space around content blocks, creating a sense of luxury and focus."
+  },
+  "standout": "The most distinctive aspect is the highly dynamic and interactive hero experience, where the brand's logo itself is a central, evolving visual element that transforms and animates with scroll, rather than just being a static identifier. This creates an immersive and memorable introduction that immediately communicates the agency's expertise in creative technology.",
+  "animation_tech": [
+    "canvas",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

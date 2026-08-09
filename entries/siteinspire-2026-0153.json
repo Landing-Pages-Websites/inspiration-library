@@ -1,0 +1,126 @@
+{
+  "id": "siteinspire-2026-0153",
+  "source": {
+    "url": "https://www.creativeboom.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0153.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0153__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0153__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0153__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.creativeboom.com/type",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0153__p2.webp"
+      },
+      {
+        "url": "https://www.creativeboom.com/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0153__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "design-magazine",
+      "creative-industry"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a flexible grid layout, often featuring one large hero article alongside smaller, multi-column article cards."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly neutral palette of off-white, black, and dark grey is punctuated by vibrant, almost neon, accent colors used in imagery, illustrations, and occasional text highlights."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles and article headlines utilize a bold, modern sans-serif typeface, creating strong visual hierarchy against a lighter, more legible sans-serif for body text and metadata."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms into a sticky, slightly condensed version with a subtle background as the user scrolls past the initial hero content."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly delineated by alternating background colors (light beige and dark grey/black) and large, bold headings."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element that dynamically reduces its height and adds a background color once the user scrolls beyond the initial viewport, ensuring it remains accessible.",
+    "Content sections are introduced with a subtle scroll-triggered reveal effect, likely a fade-in or slide-up animation, as they enter the viewport, enhancing engagement without being distracting. This could leverage CSS keyframes or a JavaScript animation library.",
+    "Article listings are structured using a responsive grid system that adapts to display a prominent feature article alongside a series of smaller, image-rich content cards."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F5F0",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "background"
+      },
+      {
+        "hex": "#05AA82",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFC828",
+        "role": "accent"
+      },
+      {
+        "hex": "#ED91FA",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: YouTube Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) for section titles and article headlines, with smaller, lighter sans-serif for article metadata and body text.",
+    "radius": "Subtle; images and cards have very slight rounding, almost sharp.",
+    "spacing": "Balanced to airy; sections are well-separated, and content within grids has comfortable padding."
+  },
+  "standout": "The site's design is distinctive for its bold and playful integration of vibrant, almost neon, accent colors and unique, often hand-drawn illustrations within a largely monochromatic editorial layout. This striking contrast prevents the content-heavy design from feeling overwhelming and adds a memorable, approachable character.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "siteinspire-2026-0158",
+  "source": {
+    "url": "https://erikdhont.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0158.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0158__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0158__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0158__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://erikdhont.com/themes/space",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0158__p2.webp"
+      },
+      {
+        "url": "https://erikdhont.com/themes/urban",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0158__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "landscape-architecture",
+      "design",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An irregular, dynamic masonry-style grid is used to display project images, allowing for varied image sizes and aspect ratios to flow naturally."
+    },
+    {
+      "kind": "type",
+      "note": "All UI text, including navigation and body copy, uses a single, clean sans-serif typeface. Section titles are rendered in large, uppercase, widely-tracked sans-serif text, acting as prominent visual dividers."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface is strictly monochromatic, featuring black text on a pure white background, allowing the rich photography to provide all visual color and depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The site header, containing the logo and main navigation, remains fixed at the top of the viewport as the user scrolls, while the main content scrolls vertically beneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are delineated by large, uppercase text labels (e.g., 'SPACE', 'URBAN') placed with generous white space, rather than distinct background changes or dividers."
+    }
+  ],
+  "technique_notes": [
+    "The primary content area uses a flexible grid system, likely CSS Grid or Flexbox with column-count, to arrange images in a non-uniform, gallery-like layout that adapts to image dimensions.",
+    "The site's motion system is minimal, primarily featuring a sticky header implemented with a fixed position. Content simply scrolls into view without complex scroll-triggered animations or parallax effects, relying on the natural flow of the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, uppercase, widely-tracked section titles (~3x body) contrast with smaller, standard-weight navigation and body text.",
+    "radius": "sharp",
+    "spacing": "airy; generous white space surrounds images and text, particularly around section titles, creating a gallery-like feel."
+  },
+  "standout": "The site's standout feature is its extreme minimalism and reliance on high-quality, full-bleed photography presented in an art-gallery-like, irregular grid. The UI is almost invisible, allowing the visual work to speak entirely for itself.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

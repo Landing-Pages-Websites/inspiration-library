@@ -1,0 +1,101 @@
+{
+  "id": "siteinspire-2026-0188",
+  "source": {
+    "url": "https://www.say.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0188.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0188__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0188__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0188__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://say.studio/",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0188__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "development",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A large, repeating 'SAY' text graphic in the background rotates and translates along a curved path as the user scrolls, creating a dynamic and branded visual backdrop that contrasts with the static foreground content."
+    },
+    {
+      "kind": "layout",
+      "note": "The page utilizes an asymmetric layout, with a dominant, dynamic background graphic occupying the left side of the viewport, while the primary textual content and project list are aligned to the right, creating visual tension and ample negative space."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme features near-black text on a very light off-white background, with a vibrant, almost neon, lime green used exclusively for the large, animated background graphic."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif typeface is used throughout the site, with hierarchy established purely through variations in size and weight, maintaining a consistent and modern typographic voice."
+    }
+  ],
+  "technique_notes": [
+    "The primary motion effect involves a large, repeating background text element (likely an SVG or styled text) that is animated to rotate and translate along a curved path as the user scrolls down the page. This continuous, dynamic visual backdrop could be achieved using a scroll-triggered animation library to manipulate the transform properties of the background element, creating a parallax-like effect where the background moves independently of the foreground content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f8f8",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#d6de6e",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Medium-large, bold sans-serif headings (~2-3x body) with clear, legible body text and smaller, uppercase labels for project categories.",
+    "radius": "sharp",
+    "spacing": "airy in the hero section with significant negative space, transitioning to a balanced density for the project list."
+  },
+  "standout": "The most distinctive feature is the massive, repeating 'SAY' text graphic that dynamically rotates and moves in the background as the user scrolls. This creates a highly memorable and branded visual experience that is both playful and sophisticated, immediately communicating the site's identity in a unique way.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

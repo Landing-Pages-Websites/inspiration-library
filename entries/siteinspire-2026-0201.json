@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-2026-0201",
+  "source": {
+    "url": "https://wyss.harvard.edu",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0201.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0201__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0201__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0201__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://wyss.harvard.edu/team",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0201__p2.webp"
+      },
+      {
+        "url": "https://wyss.harvard.edu/news",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0201__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "science",
+      "biotechnology",
+      "research"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A consistent deep navy background is used across most sections, providing a high-contrast canvas for white text and vibrant imagery."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is structured into distinct, full-width sections with generous vertical padding, often featuring card-based grids for showcasing research, news, or team members."
+    },
+    {
+      "kind": "type",
+      "note": "Major sections are introduced with prominent, large, and bold sans-serif headings, creating a clear visual hierarchy against the dark background."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme relies on a sophisticated deep navy for backgrounds, crisp white for text, and a bright light blue for calls-to-action and accent elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle upward slide and fade-in effect as they enter the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a layered parallax effect where the main heading remains relatively fixed or moves slowly, while the background image grid scrolls up behind it."
+    }
+  ],
+  "technique_notes": [
+    "A smooth scrolling library (like locomotive-scroll) is used to create a fluid scroll experience, coupled with scroll-triggered animations that reveal content sections with a subtle upward slide and fade as they enter the viewport.",
+    "Large, bold sans-serif typography is set against a deep navy background with white text for high readability and a strong visual presence, often with smaller uppercase labels for context.",
+    "Content is organized into distinct, full-width sections, often featuring card grids for showcasing information, with generous vertical padding to create an airy, structured layout."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000033",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#00BFFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#ABB8C3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body size) with clear hierarchy, complemented by smaller, readable body text and uppercase labels.",
+    "radius": "Sharp corners for images and content cards, with subtle rounding on interactive elements like buttons.",
+    "spacing": "Airy and generous vertical spacing between sections, with balanced padding within content blocks, creating a sense of gravitas and clarity."
+  },
+  "standout": "The site's distinctive use of a deep, rich navy background combined with scientific and futuristic imagery creates an immediate impression of cutting-edge research and innovation. The subtle, yet sophisticated scroll-triggered animations, particularly the layered hero and section reveals, elevate the user experience beyond a typical static institutional site, making the content feel dynamic and forward-thinking.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "siteinspire-2026-0168",
+  "source": {
+    "url": "https://www.jucophoto.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0168.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0168__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0168__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0168__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-agency",
+      "art",
+      "fashion"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, full-bleed masonry grid of images dominates the page, with minimal gutters between items, creating an immersive visual experience."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a stark white background to make the extremely vibrant, high-contrast colors within the photographic content pop, creating a dynamic and energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'JUCO' logo and 'MENU' text remain sticky in the top corners of the viewport as the dense image grid scrolls vertically underneath, providing persistent navigation and branding."
+    }
+  ],
+  "technique_notes": [
+    "The primary content area is built as a responsive masonry grid, where images of varying aspect ratios are packed tightly together with minimal spacing, filling the entire width of the browser window.",
+    "The header elements, consisting of a logo and a menu trigger, are positioned absolutely and fixed to the top corners of the viewport, ensuring they remain visible and accessible as the user scrolls through the extensive image content.",
+    "Scroll-triggered motion is limited to the sticky header; the main content area simply scrolls into view without additional animations like fade-ins or parallax effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#D02320",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:sans-serif",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Two distinct uppercase sans-serif sizes for header elements, with the brand name significantly larger than the menu trigger.",
+    "radius": "sharp",
+    "spacing": "dense \u2014 images are packed tightly with minimal gutters, creating an overwhelming visual density."
+  },
+  "standout": "The site's most distinctive feature is its unapologetic, full-bleed, and extremely dense masonry grid of vibrant, high-impact photography. It prioritizes a visual feast above all else, creating an immediate and overwhelming impression of creative energy and diversity.",
+  "animation_tech": [],
+  "status": "approved"
+}

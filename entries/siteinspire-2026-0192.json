@@ -1,0 +1,103 @@
+{
+  "id": "siteinspire-2026-0192",
+  "source": {
+    "url": "https://www.special-offer.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0192.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0192__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0192__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0192__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.special-offer.studio/work/nike-virgil-abloh-public-domain",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0192__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design",
+      "luxury-brand"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, dark-themed content sections with generous vertical spacing, creating distinct visual breaks between content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen section transitions where the previous content block slides up or fades out to reveal the next, often with an interstitial brand pattern."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly black background with white text, creating a high-contrast, sophisticated and minimalist aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a clean, modern sans-serif typeface for all text, with subtle variations in weight and size for hierarchy rather than dramatic changes."
+    },
+    {
+      "kind": "section",
+      "note": "A portfolio archive presented as a dense, multi-column text grid with years as primary categories, providing a comprehensive overview of past projects."
+    }
+  ],
+  "technique_notes": [
+    "The site employs full-screen, scroll-triggered transitions to reveal new content blocks. The initial hero image transitions into a brand-specific pattern screen, which then transitions into the main project content. This creates a distinct, almost chapter-like progression through the page, with the top and bottom navigation elements remaining fixed or reappearing consistently across these full-screen changes.",
+    "The hero section utilizes a video-hero component for a dynamic background, overlaid with minimal text and a unique vertical text element that disappears with the hero on scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#0F0E0C",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Relatively small body text for details and navigation, with slightly larger, bold headings for project titles, maintaining an understated yet clear hierarchy.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy, with significant vertical padding between major sections and a more dense, but still readable, grid for the portfolio archive."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, full-screen scroll-triggered transitions that completely replace the viewport content, often with an interstitial brand pattern, creating a highly cinematic and curated browsing experience that feels like flipping through a high-end magazine.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

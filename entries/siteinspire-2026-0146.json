@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-2026-0146",
+  "source": {
+    "url": "https://alleywaydesigns.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-09"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0146.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0146__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0146__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0146__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://alleywaydesigns.com/studio",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0146__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "branding",
+      "typography"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layout for introductory content, with a wider left column for primary text and a narrower right column for supporting details (services, studio approach)."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, fixed display typeface for the hero section, creating a strong visual anchor that content scrolls over, contrasted with a clean, legible sans-serif for body and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white base palette with a vibrant, almost neon, lime green used as a primary accent color for CTAs, interactive elements, and occasional background fills."
+    },
+    {
+      "kind": "motion",
+      "note": "The oversized hero text 'ALLEYWAY DESIGNS' remains fixed in the viewport, creating a parallax effect as subsequent content scrolls over it. Project cards and other content sections reveal with a subtle fade-in or slide-up as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as a dense, full-bleed grid of image cards, each with a project title and a 'Thinking about a project?' call-to-action on hover (not visible in static images, but implied by the text)."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, fixed text element that acts as a background layer, allowing the main page content to scroll over it, creating a depth-of-field parallax effect. A sticky navigation bar maintains persistent access to key sections as the user scrolls. Content sections and individual elements within grids are revealed using scroll-triggered animations, likely a combination of fade-ins and subtle upward translations, leveraging CSS keyframes for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e1ff76",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Alleyway Display Regular",
+        "role": "display"
+      },
+      {
+        "family": "Diatype Variable",
+        "role": "heading"
+      },
+      {
+        "family": "Diatype Variable",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display font (~6-8x body) for hero and section titles, paired with a clean, legible sans-serif for body text and navigation, maintaining a clear typographic hierarchy.",
+    "radius": "sharp",
+    "spacing": "Balanced, with an airy hero section due to large typography and ample whitespace, transitioning to a denser grid layout for project showcases."
+  },
+  "standout": "The site's distinctive use of an enormous, fixed hero text that content scrolls over, combined with a high-contrast lime green accent, creates a bold, almost brutalist aesthetic that feels both modern and unique, avoiding generic marketing templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
