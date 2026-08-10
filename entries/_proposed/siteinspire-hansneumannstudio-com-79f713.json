@@ -1,0 +1,103 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://hansneumannstudio.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-hansneumannstudio-com-79f713.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-hansneumannstudio-com-79f713__scroll0.webp",
+      "shots/_proposed/siteinspire-hansneumannstudio-com-79f713__scroll1.webp",
+      "shots/_proposed/siteinspire-hansneumannstudio-com-79f713__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://hansneumannstudio.com/projects/376",
+        "full": "shots/_proposed/siteinspire-hansneumannstudio-com-79f713__p2.webp"
+      },
+      {
+        "url": "https://hansneumannstudio.com/projects/397",
+        "full": "shots/_proposed/siteinspire-hansneumannstudio-com-79f713__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art",
+      "fashion",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dynamic, fluid grid layout presents portfolio items (images and videos) with generous spacing, adapting to display content at varying sizes as the user scrolls."
+    },
+    {
+      "kind": "type",
+      "note": "Captions and titles use a classic, elegant serif font, while the persistent navigation employs a clean, minimalist sans-serif, creating a subtle typographic contrast."
+    },
+    {
+      "kind": "color",
+      "note": "The site's UI uses a stark monochromatic palette of white backgrounds and black text, allowing the rich and diverse colors of the photographic and video content to be the primary visual focus."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation remains sticky at the top of the viewport, while portfolio content dynamically reveals and expands as the user scrolls, with embedded videos auto-playing silently as they enter the view."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in a continuous, uninterrupted scroll, creating a gallery-like experience without distinct section breaks or visual dividers."
+    }
+  ],
+  "technique_notes": [
+    "The top navigation bar is fixed to the top of the viewport, maintaining site context as the user scrolls through content.",
+    "Portfolio items, including large-format images and videos, are revealed or loaded into view as the user scrolls down the page, creating a sense of discovery. Videos are integrated directly into this flow and begin playing automatically without sound when they become visible.",
+    "The layout uses a responsive grid system that allows images and videos to occupy different column spans and row heights, creating a visually engaging and non-uniform display of content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Times New Roman",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Subtle hierarchy with small, elegant serif captions and slightly larger, clean sans-serif navigation elements.",
+    "radius": "sharp",
+    "spacing": "Airy, with generous negative space around large images and minimal text, creating a gallery-like feel."
+  },
+  "standout": "This site distinguishes itself through an extremely minimal UI that completely recedes to highlight the high-quality, large-format photography and video. The dynamic content reveal on scroll, coupled with the silent auto-play of embedded videos, creates an immersive and elegant portfolio experience that feels more like an art exhibition than a typical website.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

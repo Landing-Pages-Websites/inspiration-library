@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://erichu.info",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-erichu-info-f07479.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-erichu-info-f07479__scroll0.webp",
+      "shots/_proposed/siteinspire-erichu-info-f07479__scroll1.webp",
+      "shots/_proposed/siteinspire-erichu-info-f07479__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dynamic, non-uniform grid of project cards with varied aspect ratios and content types (images, text, mixed media) fills the main content area, creating a dense visual portfolio."
+    },
+    {
+      "kind": "type",
+      "note": "Project titles frequently employ oversized, custom, or highly experimental typography, often distorted or stylized, serving as primary visual elements within their respective cards."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is consistently used for backgrounds and primary text, with vibrant, often neon or saturated accent colors introduced through project imagery and specific typographic treatments."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large header area scrolls away, and a more compact navigation bar, which includes a smaller 'Eric Hu studio' logo and navigation links, slides into place and sticks to the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured as a continuous vertical scroll of project work, with each project presented as a distinct card within the overall grid, rather than distinct, separated sections."
+    }
+  ],
+  "technique_notes": [
+    "The site implements a transforming sticky header: an initial, larger header area scrolls away, and a more compact navigation bar with a condensed logo and links appears and locks to the top of the viewport, providing persistent navigation.",
+    "Project work is displayed in a masonry-like grid, where items have varied dimensions and are tightly packed with minimal spacing, creating a visually rich and dense portfolio display.",
+    "Typography is used as a primary design element, with large, often custom or highly stylized fonts for titles, contrasting with smaller, legible sans-serif for descriptive text and navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#808080",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: custom/experimental",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Highly varied, with oversized, often custom or distorted display headings (~5-10x body) for project titles, contrasting with a clear, legible sans-serif for body and navigation.",
+    "radius": "Sharp corners throughout, no visible rounded elements.",
+    "spacing": "Dense, especially in the project grid where elements are tightly packed with minimal guttering, creating a continuous flow of visual information."
+  },
+  "standout": "The site's standout feature is its audacious and experimental use of typography as a primary visual element, often distorting or custom-designing fonts for project titles, which are then integrated into a dense, dynamic grid of diverse media. This creates a highly distinctive, almost art-gallery-like experience that prioritizes visual impact and creative expression over conventional readability for headings.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.sageeast.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-sageeast-com-ea28e7.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-sageeast-com-ea28e7__scroll0.webp",
+      "shots/_proposed/siteinspire-sageeast-com-ea28e7__scroll1.webp",
+      "shots/_proposed/siteinspire-sageeast-com-ea28e7__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-services",
+      "film"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, full-bleed background serves as a canvas for large, airy content sections, primarily showcasing full-bleed images with minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A highly decorative, ornate serif font is used for the brand name and prominent display text, contrasting with a clean, understated sans-serif for navigation and supporting details."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black background is consistently used, punctuated by a rich, warm gold/brown accent color for key text elements and the brand logo."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a unique animation where small, abstract image fragments coalesce, rotate, and scale into position to form the large display text, with some images directly embedded within the letterforms."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, individual portfolio images and their associated text labels reveal themselves with a subtle fade-in and slight upward translation effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio items are presented as large, individual image blocks, each with a title and sometimes a subtitle, arranged in a loose, staggered grid with ample vertical spacing."
+    }
+  ],
+  "technique_notes": [
+    "The hero animation uses a combination of CSS keyframes and potentially GSAP to orchestrate the complex movement, scaling, and opacity changes of multiple image elements, transforming them into a cohesive text display. This creates a dynamic and engaging introduction.",
+    "Content sections and individual portfolio items are revealed using scroll-triggered animations, likely employing GSAP ScrollTrigger, to apply a subtle fade-in and slight upward slide effect as they become visible in the viewport.",
+    "The primary navigation bar remains fixed at the top of the viewport, maintaining accessibility to key links throughout the scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#B5650E",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, decorative serif headings (~4-5x body) are used for impact, with small, clean sans-serif for navigation and descriptive text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical and horizontal spacing creates a sense of luxury and allows individual portfolio pieces to breathe."
+  },
+  "standout": "The site's most distinctive feature is its highly creative and dynamic hero animation, where fragmented images fluidly assemble to form the main headline, embedding visual content directly into the typography. This, combined with the dark, moody aesthetic and large-scale imagery, creates a sophisticated and memorable portfolio experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

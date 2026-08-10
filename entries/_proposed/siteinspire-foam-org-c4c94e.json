@@ -1,0 +1,104 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.foam.org",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-foam-org-c4c94e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-foam-org-c4c94e__scroll0.webp",
+      "shots/_proposed/siteinspire-foam-org-c4c94e__scroll1.webp",
+      "shots/_proposed/siteinspire-foam-org-c4c94e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.foam.org/visit",
+        "full": "shots/_proposed/siteinspire-foam-org-c4c94e__p2.webp"
+      },
+      {
+        "url": "https://www.foam.org/magazine",
+        "full": "shots/_proposed/siteinspire-foam-org-c4c94e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "arts-and-culture",
+      "museum",
+      "photography"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layout for hero and key call-to-action sections, often featuring a large, impactful image on one side and concise text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, elegant serif font for main headings and section titles, creating a sophisticated and editorial feel that contrasts with clean sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant, warm yellow as a full-bleed background for a major call-to-action section, creating a strong visual anchor and high contrast with black text."
+    },
+    {
+      "kind": "motion",
+      "note": "A two-tiered sticky navigation system where the primary navigation (logo, hamburger, search) is always sticky, and a secondary navigation bar (menu items) appears and also becomes sticky below it upon initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by large, expressive serif headings and often feature grid-based displays of content cards, primarily driven by high-quality photography."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header bar is present at the top of the viewport. Upon scrolling past the initial hero content, a second navigation bar slides in from the top and positions itself directly below the main header, both remaining sticky as the user continues to scroll.",
+    "Content sections are designed with a mix of full-width elements and asymmetric two-column layouts, where large, high-quality photography is paired with concise text blocks to create visual interest and hierarchy.",
+    "Information is presented in a clean, grid-based card format for listings, utilizing images as the primary visual entry point for each item, with minimal text overlays."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fccb00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Kormelink",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Monument Grotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (often ~3-4x body size) with generous line height, paired with clean, legible sans-serif body and UI text.",
+    "radius": "Sharp corners throughout for all elements like buttons, image containers, and content cards.",
+    "spacing": "Balanced to airy, with significant vertical spacing between major sections and within the hero, while content grids maintain a more consistent, tighter rhythm."
+  },
+  "standout": "The site's distinctive use of large, high-quality, often candid photography as a central design element, combined with a sophisticated, editorial-style serif typography for headings, creates a strong sense of artistic authority and visual richness that elevates it beyond typical museum sites. The bold, full-bleed yellow section also provides a memorable visual anchor.",
+  "animation_tech": [],
+  "status": "proposed"
+}
