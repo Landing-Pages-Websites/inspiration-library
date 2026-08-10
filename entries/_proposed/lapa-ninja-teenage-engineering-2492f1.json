@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-teenage-engineering-2492f1",
+  "source": {
+    "url": "https://teenage.engineering/products/ep-1320",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-teenage-engineering-2492f1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-teenage-engineering-2492f1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-teenage-engineering-2492f1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-teenage-engineering-2492f1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "electronics",
+      "audio-equipment",
+      "synthesizers"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width sections, often featuring large, evocative background imagery or textured dark surfaces that span the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic, highly decorative gothic blackletter font is used for primary titles, creating a strong thematic statement, contrasted with a clean, thin sans-serif for body text, navigation, and functional labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a dominant dark, almost black, textured background, with a striking red as a primary accent color, complemented by muted gold/beige tones from illustrations and crisp white/light grey for text."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual product cards reveal with a subtle fade-in and a slight upward slide as they enter the viewport during scrolling, creating a gentle progressive disclosure effect."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-bleed background images or distinct dark textured panels, often featuring a central, focused content block or a grid of product items."
+    }
+  ],
+  "technique_notes": [
+    "The overall dark, textured background is achieved using a fixed or subtly parallaxing background image, providing a consistent canvas for content.",
+    "Sections and individual content blocks are animated into view using CSS keyframes, triggering a fade-in and a small upward translation as they cross the viewport threshold.",
+    "The distinctive gothic typography is applied to key headings, likely using a custom web font, while a modern sans-serif provides readability for all other text elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0e12",
+        "role": "background"
+      },
+      {
+        "hex": "#ed2024",
+        "role": "accent"
+      },
+      {
+        "hex": "#d2d2d2",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#d2b48c",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#272727",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Blackletter",
+        "role": "display"
+      },
+      {
+        "family": "UniversNextPro-Thin",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, decorative gothic headings (~5x body) are paired with small, thin sans-serif body text and very small, uppercase labels for navigation and section titles.",
+    "radius": "sharp",
+    "spacing": "airy in the hero section and between major content blocks, with a balanced density within product grids and feature lists."
+  },
+  "standout": "The site's most distinctive feature is its audacious and consistent medieval/gothic theme, which is masterfully applied to a modern tech product. This blend of historical aesthetics with contemporary design creates a unique, memorable, and highly branded experience that stands out from typical product sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
