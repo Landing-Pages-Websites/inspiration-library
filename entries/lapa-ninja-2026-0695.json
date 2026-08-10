@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0695",
+  "source": {
+    "url": "https://furrion.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0695.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0695__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0695__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0695__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "rv",
+      "outdoor-living",
+      "electronics"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with clear vertical stacking and generous padding, often featuring a distinct background color or image."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for major titles, contrasting with a more neutral sans-serif for body text and smaller uppercase labels for categories."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark grey/black and white is accented by a vibrant, singular red for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that scrolls with a subtle parallax effect, while the overlaid text content scrolls normally."
+    },
+    {
+      "kind": "section",
+      "note": "Product categories and blog posts are presented in a responsive grid layout, with each item featuring an image and concise text."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed-position header that remains visible at the top of the screen throughout the scroll, ensuring navigation is always accessible.",
+    "Utilize a full-bleed video as the background for the hero section, applying a dark, semi-transparent overlay to enhance text readability. Position the main hero text and call-to-action button absolutely over this video background.",
+    "Structure content into distinct, full-width sections that stack vertically. Use varying background colors (white, light grey, or full-bleed images) to visually separate these sections as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#171717",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#c63527",
+        "role": "accent"
+      },
+      {
+        "hex": "#54565a",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f2ebe2",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "neue-haas-grotesk-display",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) for impact, complemented by a clean, readable sans-serif for body text and smaller, often uppercase, labels.",
+    "radius": "Subtle; elements like buttons and image cards feature slightly rounded corners.",
+    "spacing": "Balanced density with an airy hero section, transitioning to a more structured, clear vertical rhythm between content blocks and within grid layouts."
+  },
+  "standout": "The site's design stands out with its impactful video hero, which immediately conveys product context and quality. The combination of industrial-grade product imagery, bold typography, and a strong red accent creates a distinctive, authoritative, and modern aesthetic that avoids generic marketing templates.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0711",
+  "source": {
+    "url": "https://www.padsplit.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0711.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0711__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0711__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0711__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "housing",
+      "coliving"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content constrained to a central maximum width, often using a grid for feature cards and testimonials."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant brand palette of blue, green, and orange used for CTAs, highlights, and section accents against a mostly white or light grey background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a video background that remains fixed or subtly parallaxes as the page content scrolls over it, creating a layered effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from a transparent overlay within the hero to a solid blue, sticky bar with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent social proof integration, including a 'Featured on' section with media logos and a dedicated section for user testimonials with photos and quotes."
+    },
+    {
+      "kind": "type",
+      "note": "Clear typographic hierarchy with large, bold sans-serif headings for primary messaging and smaller, readable sans-serif text for body content and feature descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background with a semi-transparent gradient overlay to ensure text contrast and visual depth, creating an engaging first impression.",
+    "The top navigation bar is initially transparent and integrated into the hero's visual space, then uses a CSS keyframe animation to transition to a solid blue background and stick to the top of the viewport after a scroll threshold is met.",
+    "Content sections below the hero appear to animate into view with a subtle upward slide and fade effect as they enter the viewport, creating a dynamic and engaging content reveal flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#006499",
+        "role": "background"
+      },
+      {
+        "hex": "#00a654",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffb200",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#9ca1a3",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#16457e",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lato",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lato",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy, complemented by smaller, readable sans-serif body text.",
+    "radius": "Subtle rounded corners on buttons, input fields, and cards, maintaining a soft but not overly playful aesthetic.",
+    "spacing": "Balanced spacing throughout, with an airy hero section and more dense, but still readable, content grids and footer elements."
+  },
+  "standout": "This site stands out with its dynamic video hero background, which creates an immediate sense of energy and purpose. The consistent use of a vibrant, three-color brand palette (blue, green, orange) across CTAs and accents against clean white backgrounds gives the site a distinctive, energetic, and trustworthy feel that avoids generic modern templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

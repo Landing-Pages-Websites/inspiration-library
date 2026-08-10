@@ -1,0 +1,97 @@
+{
+  "id": "lapa-ninja-2026-0697",
+  "source": {
+    "url": "https://highcourt.co",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0697.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0697__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0697__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0697__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "leisure",
+      "hospitality",
+      "social-club"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An asymmetrical hero section features a large, dynamically scaling title and abstract imagery, transitioning into a single-column, left-aligned content layout for subsequent sections."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established between an expansive, bold sans-serif for primary display titles and a refined, elegant serif for body text and sub-headings, with uppercase used for navigation and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is used for text and primary backgrounds, punctuated by a soft, cool mint green for alternating background sections to define content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The main site title dynamically scales down and repositions to become a sticky header upon scroll, with its text content changing at a specific scroll depth. A persistent navigation bar remains fixed at the bottom of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by alternating background colors (white, mint green, black), creating a visual rhythm as the user scrolls down the page."
+    }
+  ],
+  "technique_notes": [
+    "Implement a scroll-triggered animation system (e.g., using `locomotive-scroll` or a similar library) to achieve several dynamic effects: the initial hero title scales down and transitions its position to become a sticky header, the sticky header's text content dynamically changes based on scroll position, and content sections reveal with a subtle fade-in or slide-up effect as they enter the viewport. A persistent navigation bar should remain fixed at the bottom of the screen.",
+    "Establish a clear typographic hierarchy by pairing a bold, wide sans-serif for display headings with a contrasting elegant serif for body and supporting text. Adjust letter-spacing and line-height to enhance readability and visual impact for each font style.",
+    "Define distinct content sections by alternating full-width background colors (white, a soft mint green, and black) to create visual rhythm and clear separation between different content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#E0FFF2",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Neue Haas Grotesk Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Expansive, bold display headings (~4-5x body) with generous letter-spacing, contrasted with a refined serif for body text and smaller, uppercase labels.",
+    "radius": "Subtle (rounded corners on buttons and input fields, typically 8-12px).",
+    "spacing": "Airy, with significant vertical padding between major sections and a balanced rhythm within content blocks."
+  },
+  "standout": "The site's distinctive use of scroll-triggered transformations, particularly the dynamic scaling and content-changing header, combined with a persistent bottom navigation, creates a unique and engaging browsing experience. This approach elevates a minimalist design with unexpected interactive elements.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

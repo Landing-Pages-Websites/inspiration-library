@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0706",
+  "source": {
+    "url": "https://nieuwbergen.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0706.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0706__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0706__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0706__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "housing",
+      "architecture"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed hero image serves as an interactive map, with distinct, color-coded information cards overlaid directly on specific buildings within the aerial photograph."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between a large, elegant serif typeface for primary titles and a clean, legible sans-serif for navigation and detailed information creates a sophisticated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette combines a dark, muted background overlay with vibrant, yet soft, pastel accents for interactive elements and information cards, each color representing a distinct property."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle parallax scroll effect is applied to the full-page background image, causing it to move slower than the foreground content and creating a sense of depth as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport, ensuring constant access to key site links and branding throughout the user's scroll."
+    }
+  ],
+  "technique_notes": [
+    "The site uses locomotive-scroll to implement a smooth scrolling experience with a subtle parallax effect on the full-page background image, where the image scrolls at a slower rate than the foreground content.",
+    "A sticky header navigation is implemented to remain at the top of the viewport, providing persistent access to site links.",
+    "Information cards are positioned absolutely over the background image, using distinct background colors to highlight different sections or properties, and appear to scroll with the foreground content while the background parallaxes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3e3f3f",
+        "role": "background-overlay"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent-indigo"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent-bleu"
+      },
+      {
+        "hex": "#AF8DC7",
+        "role": "accent-violet"
+      },
+      {
+        "hex": "#DDC78D",
+        "role": "accent-jaune"
+      },
+      {
+        "hex": "#8DC7AF",
+        "role": "accent-vert"
+      },
+      {
+        "hex": "#ddd",
+        "role": "subtle-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, elegant serif headings (~4-5x body) are paired with smaller, clean sans-serif body text and uppercase labels for a sophisticated and legible hierarchy.",
+    "radius": "Subtle rounded corners are applied to interactive elements like buttons and information cards, providing a soft, modern touch.",
+    "spacing": "An airy layout in the hero section with generous negative space, transitioning to a balanced density for overlaid information cards."
+  },
+  "standout": "The site's standout feature is its immersive, full-page interactive hero section that functions as a visual map. Color-coded information cards are strategically placed over specific buildings in the aerial background, creating a unique and engaging way to present property details directly within the visual context.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

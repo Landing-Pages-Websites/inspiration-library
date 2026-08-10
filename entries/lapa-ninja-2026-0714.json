@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0714",
+  "source": {
+    "url": "https://showreel.design",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0714.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0714__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0714__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0714__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "motion-design",
+      "digital-media"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed-width left sidebar provides persistent navigation and contextual information, while the main content area scrolls independently to its right."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif font family is used throughout, with hierarchy established through significant variations in weight, size, and case (e.g., large bold headings, small uppercase labels, light body text)."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a minimalist color palette dominated by white and light grey backgrounds with dark text, punctuated by a single vibrant teal accent color for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The left sidebar navigation and its contained elements (filters, ads) remain sticky at all scroll depths, ensuring constant access while the primary content grid scrolls past."
+    },
+    {
+      "kind": "section",
+      "note": "The primary content is displayed in a responsive grid of video thumbnails, maintaining consistent spacing and card-like presentation for each showreel entry."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed-position left sidebar that occupies a consistent width, allowing the main content area to scroll vertically within its own container, respecting the sidebar's presence through appropriate margins or grid layout.",
+    "Utilize a responsive CSS grid system for the main content area to display video thumbnails, ensuring consistent spacing and adapting the number of columns based on viewport size.",
+    "Apply a subtle hover effect to interactive elements like filter buttons and pagination, indicating interactivity without distracting animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#00C49A",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "aileron",
+        "role": "heading"
+      },
+      {
+        "family": "aileron",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear hierarchy with a large, bold sans-serif hero heading, medium bold section titles, and smaller, lighter body text and labels, all from the same font family.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, but mostly sharp edges for content cards and overall layout.",
+    "spacing": "Balanced spacing with comfortable padding around content sections and between grid items, creating an airy feel in the header but a denser, organized grid below."
+  },
+  "standout": "The site's distinctive feature is its persistent, fixed left sidebar that serves as a comprehensive control panel for navigation, filtering, and contextual advertising, allowing the main content to scroll independently and remain the primary focus.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

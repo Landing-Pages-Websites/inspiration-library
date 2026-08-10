@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-0679",
+  "source": {
+    "url": "https://aguasdeibiza.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0679.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0679__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0679__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0679__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "luxury-hotel",
+      "travel"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography is used as the primary visual element for hero sections and large content blocks, often with text overlaid."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently feature asymmetrical layouts, pairing large images with concise text blocks, rather than strict grid alignments."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant, light-weight serif font for prominent headings and a clean, modern sans-serif for body text and navigation creates a luxurious and readable hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A serene and muted color palette dominates, featuring cool blue-greys, crisp whites, and deep dark tones, allowing the natural colors of the photography to provide warmth and accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, moving slower than the foreground text and call-to-action as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar, including the logo and 'Book now' button, remains sticky at the top of the viewport throughout the scroll, providing persistent access."
+    },
+    {
+      "kind": "section",
+      "note": "Image-heavy grid sections (e.g., room types, offers) use a consistent three-column layout with minimal text overlays, emphasizing visual appeal."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero section's visual depth, a full-bleed background image is set to parallax, moving at a slower rate than the overlaid text and interactive elements as the user scrolls, creating a subtle 3D effect. This effect is likely managed using GSAP or ScrollMagic.",
+    "The main navigation bar is fixed to the top of the viewport, ensuring it remains visible and accessible at all scroll depths. It maintains its initial styling without shrinking or changing background.",
+    "Content sections are designed with generous vertical spacing and often feature full-width imagery or asymmetrical arrangements, creating an airy and editorial feel. Typography is carefully balanced between a large, elegant serif for headlines and a clean sans-serif for body copy to maintain a luxurious aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "text"
+      },
+      {
+        "hex": "#94b2bb",
+        "role": "surface"
+      },
+      {
+        "hex": "#0e1216",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant thin serif headings (~4-5x body) paired with a clean, well-spaced sans-serif for body text and navigation.",
+    "radius": "sharp corners on most images and content blocks, with subtle rounding on interactive elements like buttons.",
+    "spacing": "airy, with significant vertical padding between sections and generous margins, contributing to a luxurious and unhurried feel."
+  },
+  "standout": "This site stands out through its sophisticated blend of high-end, full-bleed photography and elegant, minimal typography. It feels less like a transactional website and more like a luxury editorial spread, creating a strong emotional connection and a sense of serene aspiration rather than just presenting information.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "scrollmagic",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

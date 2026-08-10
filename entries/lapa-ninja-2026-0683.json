@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-0683",
+  "source": {
+    "url": "https://boyntonyards.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0683.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0683__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0683__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0683__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "urban-development",
+      "community-development"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use a full-width background with content constrained to a central column, often featuring generous vertical padding."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, vibrant palette is used, pairing deep black and crisp white with energetic lime green and teal accents, often applied as duotone filters on imagery."
+    },
+    {
+      "kind": "type",
+      "note": "A bold, wide sans-serif typeface is used for prominent headings, contrasted with a playful, hand-drawn script font for key accent words like 'Culture' and 'a while'."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content blocks and sections reveal with a subtle animation as they scroll into the viewport, creating a dynamic reading experience."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a striking split-tone image treatment, dividing the visual field with two distinct color filters (lime green and teal) and overlaid text."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the scroll-triggered reveals, elements should be initially styled with zero opacity and a slight vertical offset. As they enter the viewport, CSS keyframe animations are triggered to transition them smoothly to full opacity and their natural position, creating a fade-up effect.",
+    "The split-tone hero image effect can be created by layering two semi-transparent color overlays with different blend modes over a single background image, or by using two separate image elements with distinct color filters applied, positioned side-by-side.",
+    "The hand-drawn underline effect on specific text can be implemented using an SVG path animation that draws the line dynamically, or by animating a CSS border-bottom property with a custom SVG background for the wavy texture."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#010203",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#fbdb05",
+        "role": "accent"
+      },
+      {
+        "hex": "#e7fb05",
+        "role": "accent"
+      },
+      {
+        "hex": "#32bfb7",
+        "role": "accent"
+      },
+      {
+        "hex": "#f58569",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff253a",
+        "role": "accent"
+      },
+      {
+        "hex": "#eee",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Dancing Script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) create strong visual impact, complemented by a playful script font for emphasis and standard sans-serif body copy.",
+    "radius": "Subtle rounding is applied to interactive elements like buttons and project cards, while most structural elements and images maintain sharp, angular corners.",
+    "spacing": "Generally airy, with significant vertical spacing between major sections and within the hero, creating a sense of openness, while content grids maintain a balanced density."
+  },
+  "standout": "This site distinguishes itself with a bold, high-contrast color scheme that uses vibrant lime green and teal as duotone filters on imagery, creating a modern and energetic feel. The unexpected integration of a playful, hand-drawn script font for key words against the otherwise industrial sans-serif typography adds a unique, human touch that breaks from typical corporate real estate aesthetics.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

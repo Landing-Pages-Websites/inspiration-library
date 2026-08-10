@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-2026-0712",
+  "source": {
+    "url": "https://www.parostec.gr",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0712.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0712__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0712__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0712__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "construction",
+      "project-management",
+      "real-estate"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a minimalist, grid-based layout with generous whitespace, often featuring a split-screen approach where content is divided into two distinct vertical columns (e.g., text on left, image on right)."
+    },
+    {
+      "kind": "type",
+      "note": "A monospaced typeface is used almost exclusively for all textual elements, including navigation, body text, and most headings, creating a consistent, technical, and precise typographic voice."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is a stark black and white, with light grey used for subtle background elements or large hero text, emphasizing high contrast and clarity."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial full-screen hero section, featuring large, light-colored text, scrolls completely out of view to reveal the main content area below. The top navigation bar remains sticky throughout the scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width content blocks, often with a change in background or a distinct visual element, maintaining a clean and structured flow down the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport as the user scrolls. The initial hero content is designed to occupy the full viewport height and scrolls away entirely, revealing subsequent content sections. Content sections appear to slide up into view as the user scrolls down the page, creating a sequential reveal effect. The detected 'canvas' animation tech might be used for subtle background elements or the initial hero text rendering, though the primary scroll-triggered motion is a simple reveal of content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Mono",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      }
+    ],
+    "type_scale": "The hero text is extremely oversized and thin (~8x body), while all other text, including headings and body, uses a monospaced font with a balanced weight, creating a precise and technical feel.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical spacing between major sections and content blocks, contributing to a minimalist and uncluttered aesthetic."
+  },
+  "standout": "The site's most distinctive feature is its uncompromising commitment to a monospaced typeface for almost all text, from navigation to body copy. This, combined with the stark black and white palette and minimalist layout, creates a highly technical, precise, and almost brutalist aesthetic that sets it apart from typical corporate sites.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

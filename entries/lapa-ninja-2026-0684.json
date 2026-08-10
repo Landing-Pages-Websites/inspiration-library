@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-0684",
+  "source": {
+    "url": "https://www.brewsandgrooves.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0684.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0684__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0684__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0684__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "entertainment",
+      "craft-beer",
+      "music-curation"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with large, layered typography on the left and a smaller, descriptive text block on the right, creating a dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast between oversized, decorative serif headings (some words in accent color) and clean, legible sans-serif body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "Rich, dark charcoal background serves as a canvas for warm, earthy accent colors (burnt orange, golden yellow) and light cream text, creating a sophisticated yet inviting palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero text scrolls up and out of view, while a collage of images (beer glasses and album art) animates into the viewport with subtle rotation and staggered entry as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "The 'pairings' list is presented as a two-column grid with each entry having a distinct background color (alternating between orange and yellow tones) and a subtle vertical separator, resembling a curated playlist or menu."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses large, layered typography where individual words or phrases are styled with different fonts and colors to create visual hierarchy and impact.",
+    "Scroll-triggered animations, likely powered by locomotive-scroll, are used to reveal content sections. Elements like the image collage appear with dynamic motion, including rotation and sliding, as they enter the viewport.",
+    "A sticky navigation bar remains fixed at the top right, maintaining its transparent background to blend seamlessly with the dark page content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d1d",
+        "role": "background"
+      },
+      {
+        "hex": "#e1654f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ece0c6",
+        "role": "text"
+      },
+      {
+        "hex": "#e99c1e",
+        "role": "cta"
+      },
+      {
+        "hex": "#f5ce84",
+        "role": "accent-light"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Montreal",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~4-5x body text) with a mix of uppercase and title case, contrasted with smaller, clean sans-serif body text and labels.",
+    "radius": "Subtle, with most elements having sharp corners, but some interactive elements like buttons and the 'READ MANIFESTO' circle feature a slight curve or pill shape.",
+    "spacing": "Balanced to airy, particularly in the hero section, with comfortable padding around content blocks and a more dense but well-structured layout for the 'pairings' list."
+  },
+  "standout": "The site's distinctive use of large, layered serif typography in the hero, combined with a rich, dark color palette and dynamic, rotating image collage, creates a sophisticated yet playful editorial feel. The unique presentation of the 'pairings' list as a visually distinct, color-coded grid further sets it apart from typical content displays.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

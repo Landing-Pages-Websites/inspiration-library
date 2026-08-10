@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0718",
+  "source": {
+    "url": "https://sqreliving.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0718.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0718__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0718__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0718__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "domains",
+      "web-services",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column main content area is used, with a fixed-width right sidebar dedicated to the product's core details and calls-to-action, while the primary content scrolls on the left."
+    },
+    {
+      "kind": "color",
+      "note": "A strong, deep blue is used for the header and footer, creating clear visual bookends that frame the lighter, content-focused central area."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and use a sans-serif font, providing clear hierarchy, while body text is smaller and highly readable, maintaining a clean and professional appearance."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar and the right-hand product detail sidebar remain sticky at the top and right of the viewport respectively, ensuring key information and actions are always accessible as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonials are presented in a clean, stacked list format with circular avatars, providing social proof without overwhelming the page."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a fixed header and a fixed right-hand content block to maintain persistent visibility of global navigation and critical product information (domain name, price, CTAs). Main content sections scroll independently within the central layout area, appearing to slide underneath the fixed elements. No other scroll-triggered reveals or animations are observed; the design relies on static hierarchy and sticky elements for user experience.",
+    "Primary calls-to-action are highlighted with a vibrant green background, providing strong visual contrast against the otherwise neutral and blue palette, drawing immediate attention to conversion points."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#4e73b7",
+        "role": "primary-blue-background"
+      },
+      {
+        "hex": "#2aa527",
+        "role": "cta-green"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "background-light-grey"
+      },
+      {
+        "hex": "#212121",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#0056a7",
+        "role": "link-blue"
+      },
+      {
+        "hex": "#ebebeb",
+        "role": "border-grey"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Noto Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, with a clear hierarchy from the main domain name to section titles and subheadings. Body text is a comfortable reading size.",
+    "radius": "Subtle, with a slight curve on buttons, input fields, and testimonial avatars.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and comfortable padding within content blocks, creating an airy feel without being sparse."
+  },
+  "standout": "The most distinctive feature is the persistent, sticky right sidebar that keeps the domain name, price, and primary calls-to-action always in view. This design choice strongly reinforces the site's conversion goal by ensuring the core product offering is continuously accessible, making it highly effective for a single-product landing page.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

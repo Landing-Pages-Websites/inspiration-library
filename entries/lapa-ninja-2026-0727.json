@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0727",
+  "source": {
+    "url": "https://www.windmillair.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0727.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0727__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0727__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0727__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "home-appliances",
+      "air-purification",
+      "electronics"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light grey and white background sections for visual segmentation, with content consistently centered within a max-width container."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings for section titles, often centered, contrasted with a playful script font for a key brand message in the footer."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a vibrant yellow for all primary calls-to-action and key accent elements, providing a clear visual hierarchy against a dark navy and white base palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up animation as they enter the viewport. A promotional banner appears at the top of the page after initial scroll, and the hero background exhibits a subtle parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Product carousels feature clean, uniform cards with product images, names, and pricing, navigable via subtle side arrows and pagination dots."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered CSS keyframe animations are used to reveal content sections with a subtle fade-up effect as they enter the viewport. The hero background utilizes a fixed attachment or parallax effect, allowing foreground content to scroll over it. A promotional banner is dynamically revealed at the top of the page after the user initiates scrolling, and a floating action button remains sticky in the bottom-right corner.",
+    "The hero section features a full-bleed video background with a dark, semi-transparent overlay to ensure high contrast for white text. Product listings are presented in clean, card-based layouts with consistent spacing and subtle border radii, facilitating easy browsing."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#122940",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fed31d",
+        "role": "cta"
+      },
+      {
+        "hex": "#f7f8fb",
+        "role": "surface"
+      },
+      {
+        "hex": "#676986",
+        "role": "text"
+      },
+      {
+        "hex": "#dee3f0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Pacifico",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Clear hierarchy with large, bold sans-serif headings (~3-4x body) and smaller, legible sans-serif body text.",
+    "radius": "Subtle rounding on interactive elements like buttons, input fields, and product cards.",
+    "spacing": "Balanced spacing throughout, with an airy hero section and consistent padding around content blocks."
+  },
+  "standout": "The site stands out with its distinctive use of a playful script font for a key brand message in the footer, contrasting effectively with the modern sans-serif typography. This, combined with the specific bright yellow accent and the subtle wave graphic, creates a fresh and approachable yet professional brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

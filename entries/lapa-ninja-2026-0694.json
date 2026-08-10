@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-0694",
+  "source": {
+    "url": "https://flatfair.co.uk",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0694.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0694__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0694__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0694__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "real-estate",
+      "property-management"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, custom vector illustration on the right, balancing visual interest with a concise value proposition and primary call-to-action on the left."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings (e.g., 'Simplifying deposits, providing choice') establish a clear content hierarchy, contrasted with lighter weight body text for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent brand blue (#1e437d) is used for primary CTAs, key headings, and illustrative elements, providing strong brand recognition against a backdrop of light grey and white sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking slightly and gaining a solid white background and subtle shadow as it sticks to the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented in a three-column grid, each with a distinct line-art icon, bold title, and descriptive text, making complex information digestible."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large, custom vector illustration positioned to the right, complementing the left-aligned headline and call to action, creating an engaging visual without relying on photography.",
+    "The main navigation bar implements a sticky behavior where it initially has a transparent background, then transitions to a solid white background with a subtle drop shadow and slightly reduced height as the user scrolls past the hero section.",
+    "Content sections are revealed statically as the user scrolls, relying on clear visual separation through alternating light background colors and ample vertical spacing rather than scroll-triggered animations for individual elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e437d",
+        "role": "primary-brand"
+      },
+      {
+        "hex": "#eaedf1",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#191919",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#00b67a",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#8c8c8c",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sailec",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clear hierarchy, paired with a clean, readable sans-serif body text.",
+    "radius": "Subtle for buttons and input fields, sharp for most other elements and section corners.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The site effectively uses custom, friendly vector illustrations to explain complex financial services, making an otherwise dry topic approachable and visually engaging, particularly in the hero and 'How FlatFair works' sections.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
