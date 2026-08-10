@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-omm-art-913009",
+  "source": {
+    "url": "https://omm.art/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-omm-art-913009.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-omm-art-913009__scroll0.webp",
+      "shots/_proposed/lapa-ninja-omm-art-913009__scroll1.webp",
+      "shots/_proposed/lapa-ninja-omm-art-913009__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "arts",
+      "museum",
+      "culture"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with varied background treatments (video, solid color, graphic, dark image overlay) are used to clearly delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy uses a bold, modern display sans-serif for main titles and a more functional sans-serif for body text and small, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base is accented by a vibrant red for calls to action and important information, alongside a distinct deep blue for graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent with white text over the hero video to a solid white background with black text, then sticks to the top of the viewport as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections alternate between light and dark backgrounds, often featuring full-bleed imagery or graphics, to create visual rhythm and distinct areas of focus."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero plays in the background, with a subtle overlay to ensure text legibility.",
+    "The main navigation bar employs a scroll-triggered state change, transitioning its background and text color as it passes the hero section, then becoming sticky at the top of the viewport.",
+    "A persistent information box is fixed to the bottom-right of the screen, remaining visible throughout the scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FB3649",
+        "role": "accent"
+      },
+      {
+        "hex": "#2A3B90",
+        "role": "graphic-accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cirka-Medium-Web",
+        "role": "display"
+      },
+      {
+        "family": "BasisGrotesquePro-Medium-Web",
+        "role": "heading"
+      },
+      {
+        "family": "BasisGrotesquePro-Regular-Web",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful display headings (~4-5x body) with smaller, functional uppercase labels and a clear, legible body text.",
+    "radius": "sharp",
+    "spacing": "balanced to airy; the hero section is very airy, while content sections maintain comfortable padding and line spacing."
+  },
+  "standout": "The site's design is distinctive for its bold, graphic-heavy sections, particularly the large, illustrative blue graphic, which breaks from typical content blocks. This, combined with the editorial-style news cards and the high-contrast, limited color palette, creates a sophisticated yet impactful visual experience that feels more like a curated publication than a standard museum site.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-sonos-com-b3dff7",
+  "source": {
+    "url": "https://www.sonos.com/en-us/home",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sonos-com-b3dff7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sonos-com-b3dff7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sonos-com-b3dff7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sonos-com-b3dff7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consumer-electronics",
+      "audio",
+      "smart-home"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width dark backgrounds and white backgrounds, often featuring large, high-quality product or lifestyle imagery that sometimes bleeds to the edge."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, clean sans-serif font with generous letter spacing, creating a modern and sophisticated feel. Subheadings and labels often use uppercase text."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is a high-contrast black and white, complemented by various shades of dark and light gray for backgrounds, text, and subtle accents, maintaining a minimalist aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero video transitions to a different frame or state, revealing a 'Shop all' call-to-action. Simultaneously, the top announcement bar disappears, and a sticky navigation bar with the logo and menu items slides down into view."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections frequently pair a large, compelling image on one side with concise, benefit-driven text on the other, often with the image extending to the screen edge."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background with a large, centered text overlay. Upon scrolling, the video content subtly shifts or plays a different segment, and a primary call-to-action button fades in. Concurrently, the initial top-level announcement bar slides out of view, and a new, compact sticky navigation bar slides in from the top, providing persistent access to site navigation.",
+    "Content sections below the hero are revealed with a subtle scroll-triggered animation, typically a gentle fade-in combined with a slight upward translation, as they enter the viewport. This creates a dynamic and engaging browsing experience without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2e2e2e",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#bcbcbc",
+        "role": "surface"
+      },
+      {
+        "hex": "#4c4c4c",
+        "role": "text"
+      },
+      {
+        "hex": "#7f7f7f",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) with clear, legible body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding on buttons and some image elements, but overall the design maintains sharp, clean edges for sections and containers.",
+    "spacing": "Balanced to airy, with generous padding around content blocks and within the hero section, creating a sense of openness and premium feel."
+  },
+  "standout": "The site's standout feature is its sophisticated and understated presentation of high-end audio products. It masterfully blends aspirational lifestyle imagery with detailed product shots, using a minimalist color palette and refined typography to convey luxury and quality without overt flashiness. The interactive video hero and subtle scroll-triggered animations enhance this premium feel.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

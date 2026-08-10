@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-bungalow-com-a84dce",
+  "source": {
+    "url": "https://bungalow.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-bungalow-com-a84dce.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-bungalow-com-a84dce__scroll0.webp",
+      "shots/_proposed/lapa-ninja-bungalow-com-a84dce__scroll1.webp",
+      "shots/_proposed/lapa-ninja-bungalow-com-a84dce__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "co-living",
+      "rentals"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with prominent, large-scale text content on the left and dynamic, interactive visual elements (map, property cards) on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Key words within large headings are highlighted with a vibrant linear gradient from pink to orange, drawing immediate attention to core concepts."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating section backgrounds between pure white and a warm, light beige (#F6F2ED) to provide visual segmentation and a subtle sense of warmth and depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background map and overlaid property cards scroll at a different rate than the main text content, creating a sense of depth and dynamism."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay to a solid white, sticky header with an integrated search bar as the user scrolls past the initial hero content."
+    },
+    {
+      "kind": "section",
+      "note": "Feature and benefit sections are consistently presented as a grid of three cards, each with an icon, bold title, and concise description, facilitating easy scanning."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a layered parallax effect where the background map and foreground content elements move at different speeds relative to the scroll position, creating an illusion of depth and interaction.",
+    "The primary navigation bar transitions from a transparent overlay to a solid white, sticky header with an integrated search bar once the user scrolls past the initial hero content.",
+    "Key textual elements in headings are highlighted with a vibrant linear gradient, applied directly to the text itself to create a distinctive visual emphasis."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F6F2ED",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF6B6B",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#FFB347",
+        "role": "accent-gradient-end"
+      },
+      {
+        "hex": "#555555",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero headings (~5-6x body) with a clean, legible body text and smaller, uppercase labels for subheadings.",
+    "radius": "Subtle rounded corners (~8-12px) on buttons, input fields, and cards, providing a soft and approachable aesthetic.",
+    "spacing": "Airy and open, particularly in the hero and between major sections, contributing to a clean and uncluttered aesthetic with balanced internal padding within components."
+  },
+  "standout": "The most distinctive element is the dynamic, interactive hero section with its parallaxing map and property cards, combined with the use of vibrant gradient text for emphasis. This creates a highly engaging and modern first impression that goes beyond a static hero, inviting exploration.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

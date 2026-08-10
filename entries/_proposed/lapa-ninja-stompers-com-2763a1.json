@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-stompers-com-2763a1",
+  "source": {
+    "url": "https://stompers.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-stompers-com-2763a1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-stompers-com-2763a1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-stompers-com-2763a1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-stompers-com-2763a1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fitness",
+      "social-app",
+      "gamified-fitness"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, distinct color sections that occupy the viewport and transition on scroll, creating a multi-stage narrative."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, outlined display font for main headings, paired with a clean sans-serif for supporting text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, high-contrast palette of solid background colors that dramatically shifts with each scroll-snapped section."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-page scroll-snapping effect where each section's content (text, illustrations) appears as its unique background color fills the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each full-screen section introduces a single, clear benefit or feature, visually reinforced by a unique background color and centered content."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-viewport section-based scroll, where each section snaps into place as the user scrolls. As each new section becomes active, its unique background color fills the screen, and its primary content (text and illustrations) fades or slides into view.",
+    "The header navigation remains fixed at the top of the viewport throughout the scroll.",
+    "The initial hero section likely incorporates a background video (as per hint) to add dynamic visual interest, with characters and a 'Scroll Down' indicator that animate out of view as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#da532c",
+        "role": "accent"
+      },
+      {
+        "hex": "#f7e8d0",
+        "role": "background"
+      },
+      {
+        "hex": "#f29147",
+        "role": "background"
+      },
+      {
+        "hex": "#8e50e4",
+        "role": "background"
+      },
+      {
+        "hex": "#47e48e",
+        "role": "background"
+      },
+      {
+        "hex": "#e44747",
+        "role": "background"
+      },
+      {
+        "hex": "#478ee4",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Pally-Bold",
+        "role": "heading"
+      },
+      {
+        "family": "Pally-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, outlined display headings (approx. 3-4x body text) with a clean, readable sans-serif for supporting text.",
+    "radius": "Subtle rounding on interactive elements like buttons and the download QR code container.",
+    "spacing": "Airy, with generous vertical and horizontal padding around centered content within each full-screen section."
+  },
+  "standout": "The site's distinctive use of a vibrant, full-bleed, solid color palette that dramatically shifts with each scroll-snapped section, combined with playful, cartoonish illustrations and bold, outlined typography, creates a highly engaging and memorable experience. The dynamic background color changes are a core part of its identity.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
