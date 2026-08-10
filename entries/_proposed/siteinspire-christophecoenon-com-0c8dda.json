@@ -1,0 +1,94 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://christophecoenon.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-christophecoenon-com-0c8dda.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-christophecoenon-com-0c8dda__scroll0.webp",
+      "shots/_proposed/siteinspire-christophecoenon-com-0c8dda__scroll1.webp",
+      "shots/_proposed/siteinspire-christophecoenon-com-0c8dda__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-retail",
+      "footwear"
+    ],
+    "mood": [
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A single, large, full-bleed hero image appears and disappears as the user scrolls, transitioning from a completely black screen to reveal the image, then back to black."
+    },
+    {
+      "kind": "layout",
+      "note": "Extreme full-bleed imagery dominates the visible content, with no discernible text or UI elements in the initial view, creating a highly immersive and minimal presentation."
+    },
+    {
+      "kind": "color",
+      "note": "The primary background is absolute black, creating a stark, high-contrast canvas for the single muted, high-fidelity product image."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered system (likely locomotive-scroll) to reveal and hide a large hero image, transitioning from a black canvas with an opacity or position change. Other elements may animate using CSS keyframes, but are not visible in the provided sequence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#bcbcbc",
+        "role": "surface"
+      },
+      {
+        "hex": "#d7b4bd",
+        "role": "accent"
+      },
+      {
+        "hex": "#386a71",
+        "role": "accent"
+      },
+      {
+        "hex": "#8e8a5e",
+        "role": "accent"
+      },
+      {
+        "hex": "#04060d",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "not discernible",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Not discernible due to lack of visible text.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's design is distinctive for its extreme minimalism, presenting a single, high-quality product image against a stark black background. It relies entirely on visual impact and implied luxury rather than immediate information or navigation, creating a highly curated and exclusive feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

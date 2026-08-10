@@ -1,0 +1,124 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.brickstudio.nyc",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-brickstudio-nyc-f6c297.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-brickstudio-nyc-f6c297__scroll0.webp",
+      "shots/_proposed/siteinspire-brickstudio-nyc-f6c297__scroll1.webp",
+      "shots/_proposed/siteinspire-brickstudio-nyc-f6c297__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.brickstudio.nyc/shot-at-brick",
+        "full": "shots/_proposed/siteinspire-brickstudio-nyc-f6c297__p2.webp"
+      },
+      {
+        "url": "https://www.brickstudio.nyc/equipment-rentals",
+        "full": "shots/_proposed/siteinspire-brickstudio-nyc-f6c297__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "studio-rental",
+      "equipment-rental"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-contrast imagery is used for hero and background sections, often with dark overlays or subtle animations to maintain text legibility."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections utilize a clean, minimalist grid system with generous spacing and thin, white borders around individual items."
+    },
+    {
+      "kind": "color",
+      "note": "A dramatic, high-contrast palette of black, white, and deep red creates a sophisticated and bold aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent headings and the site logo use a condensed, uppercase sans-serif font, creating a strong, architectural feel, contrasted with a more neutral sans-serif for body text and labels."
+    },
+    {
+      "kind": "motion",
+      "note": "The site features a transforming sticky header logo where individual letters condense into a single wordmark as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "Background elements, such as a subtle bottle image, are rendered on a canvas and animate with parallax and rotation effects, creating a layered depth behind the scrolling content."
+    },
+    {
+      "kind": "motion",
+      "note": "Main content sections slide up to obscure the initial hero image, which then darkens and subtly parallaxes, creating a smooth transition between page states."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a custom scroll experience, likely using locomotive-scroll, to achieve smooth, controlled scrolling and trigger various animations based on scroll depth.",
+    "Dynamic background effects, including parallaxing and subtle object rotations, are rendered on a canvas element, allowing for complex visual layering independent of the main DOM content.",
+    "Sticky header and footer elements are implemented, with the header logo undergoing a visual transformation (e.g., condensing letters) as the user scrolls, indicating scroll progress."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#8B0000",
+        "role": "accent-dark-red"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent-bright-red"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "surface-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Bebas Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed uppercase headings (~3-4x body) with smaller, regular-weight uppercase labels and body text.",
+    "radius": "sharp",
+    "spacing": "Balanced, leaning airy in the hero section, with a consistent grid rhythm in content areas."
+  },
+  "standout": "The site's distinctive use of a dynamic canvas background that subtly animates and reveals imagery behind the main content, combined with a transforming sticky header logo and a high-contrast, industrial aesthetic, sets it apart. The overall experience feels less like a static webpage and more like an interactive, layered presentation.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

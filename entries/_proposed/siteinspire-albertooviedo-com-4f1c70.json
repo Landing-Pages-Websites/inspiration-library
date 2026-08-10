@@ -1,0 +1,120 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://albertooviedo.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-albertooviedo-com-4f1c70.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-albertooviedo-com-4f1c70__scroll0.webp",
+      "shots/_proposed/siteinspire-albertooviedo-com-4f1c70__scroll1.webp",
+      "shots/_proposed/siteinspire-albertooviedo-com-4f1c70__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://albertooviedo.com/projects",
+        "full": "shots/_proposed/siteinspire-albertooviedo-com-4f1c70__p2.webp"
+      },
+      {
+        "url": "https://albertooviedo.com/life-style",
+        "full": "shots/_proposed/siteinspire-albertooviedo-com-4f1c70__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "photography",
+      "advertising"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dynamic, asymmetrical image grid where images are freely placed and often overlap, creating a collage-like effect around and within large text elements."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, all-caps, wide sans-serif display text is used for main headings and section titles, contrasting sharply with minimal, thin sans-serif utility text."
+    },
+    {
+      "kind": "color",
+      "note": "Large display text elements dynamically change their accent color as the user scrolls through different sections, providing a visual cue for new content blocks against a predominantly white background."
+    },
+    {
+      "kind": "motion",
+      "note": "Large display text elements (like 'ALBERTO OVIEDO' and subsequent project titles) exhibit a sticky or slow-scroll parallax effect, moving slower than the background content, and their color transitions as new sections enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block or project is introduced by a prominent, large text title that acts as a visual anchor, often spanning a significant portion of the screen and changing color with the section."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, large text elements should be positioned absolutely or fixed, with a slower scroll speed or sticky behavior, allowing background images and content to scroll underneath them. A scroll-triggered event listener would detect the current section in view and dynamically update the text color.",
+    "The layout involves a flexible grid or absolute positioning for images, allowing them to overlap and create a collage effect, with careful z-indexing to ensure text readability over images.",
+    "The typography system relies on a stark contrast between extremely large, bold, all-caps display text and small, thin, simple sans-serif text for navigation and supplementary information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF3A3D",
+        "role": "accent"
+      },
+      {
+        "hex": "#B33F13",
+        "role": "accent"
+      },
+      {
+        "hex": "#67867D",
+        "role": "accent"
+      },
+      {
+        "hex": "#AD8381",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF5656",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue Light",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, wide, all-caps display headings (~8-10x body text) with minimal, thin body/utility text.",
+    "radius": "sharp",
+    "spacing": "Very airy, dynamic, and asymmetrical, with images placed freely and sometimes overlapping text."
+  },
+  "standout": "The site's design is distinctive for its dynamic, collage-like layout where oversized, color-changing, sticky text headings act as interactive section dividers, revealing a rich, asymmetrical grid of high-quality images as the user scrolls. It feels like an interactive art gallery or a curated digital portfolio.",
+  "animation_tech": [],
+  "status": "proposed"
+}

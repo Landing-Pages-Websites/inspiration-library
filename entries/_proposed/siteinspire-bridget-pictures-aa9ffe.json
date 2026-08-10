@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://bridget.pictures",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-bridget-pictures-aa9ffe.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-bridget-pictures-aa9ffe__scroll0.webp",
+      "shots/_proposed/siteinspire-bridget-pictures-aa9ffe__scroll1.webp",
+      "shots/_proposed/siteinspire-bridget-pictures-aa9ffe__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Images are arranged in a non-linear, overlapping collage format that breaks traditional grid structures, creating an organic and artistic presentation."
+    },
+    {
+      "kind": "motion",
+      "note": "Individual images reveal themselves on scroll, appearing and settling into their scattered, overlapping positions as the user scrolls down the page."
+    },
+    {
+      "kind": "color",
+      "note": "The site's design elements (background, text) are starkly monochrome (white and black), allowing the vibrant and diverse colors within the photographic content to be the primary visual focus."
+    },
+    {
+      "kind": "type",
+      "note": "Understated, small sans-serif typography is used for navigation and branding, maintaining a minimal presence to emphasize the visual content."
+    }
+  ],
+  "technique_notes": [
+    "Images are revealed on scroll, likely using JavaScript to detect scroll position and trigger a fade-in or subtle scale-up animation for each image as it enters the viewport. Each image is pre-positioned using absolute or fixed positioning to create the desired overlapping, non-grid collage effect.",
+    "The header navigation remains sticky at the top of the viewport, providing persistent access to links while the content scrolls beneath it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very subtle, with all text (branding and navigation) appearing in a small, consistent sans-serif size, prioritizing visual content over typographic hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy, with significant white space around and between the scattered images, especially in the initial viewport."
+  },
+  "standout": "The most distinctive feature is the dynamic, non-grid image collage that reveals itself on scroll. Instead of a conventional gallery, images appear and overlap in an artistic, seemingly random arrangement, making the portfolio feel like an evolving art piece rather than a static display.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

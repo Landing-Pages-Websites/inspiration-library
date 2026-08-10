@@ -1,0 +1,122 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.pontusrudolfson.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-pontusrudolfson-com-3b4e16.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-pontusrudolfson-com-3b4e16__scroll0.webp",
+      "shots/_proposed/siteinspire-pontusrudolfson-com-3b4e16__scroll1.webp",
+      "shots/_proposed/siteinspire-pontusrudolfson-com-3b4e16__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.pontusrudolfson.com/work/pwc",
+        "full": "shots/_proposed/siteinspire-pontusrudolfson-com-3b4e16__p2.webp"
+      },
+      {
+        "url": "https://www.pontusrudolfson.com/work/ikea",
+        "full": "shots/_proposed/siteinspire-pontusrudolfson-com-3b4e16__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "freelance-photography",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content display is a full-width, responsive masonry-style grid of portfolio images, maximizing visual impact and content density."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, elegant serif font is used for the main name/logo, creating a strong brand identity, contrasted with a clean, understated sans-serif for all supporting text."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant, warm off-white background (#fffbf4) provides a sophisticated and clean canvas, allowing the vibrant and diverse photography to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header dynamically shrinks and sticks to the top of the viewport upon scrolling, providing persistent branding and navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'FILTER' button appears and remains sticky within the portfolio grid as the user scrolls, offering continuous interaction for content categorization."
+    },
+    {
+      "kind": "motion",
+      "note": "Portfolio images are revealed into view as the user scrolls down the page, creating a continuous flow of content rather than appearing all at once."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured almost entirely as a continuous, scrollable grid of portfolio work, with minimal distinct content sections beyond the header and a subtle footer."
+    }
+  ],
+  "technique_notes": [
+    "The header implements a scroll-triggered transformation, shrinking in height and fixing to the top of the viewport after a certain scroll threshold, maintaining a compact navigation.",
+    "Portfolio items are loaded and revealed into the viewport as the user scrolls, using a lazy-loading or scroll-triggered animation technique to manage performance and create a dynamic content flow.",
+    "A floating 'FILTER' button is positioned to appear and stick within the main content area once the user scrolls past the initial page fold, providing persistent access to content filtering."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fffbf4",
+        "role": "background"
+      },
+      {
+        "hex": "#fa4411",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "The main display name uses a very large, elegant serif (~4x body) for a strong brand statement, contrasted with small, understated sans-serif labels and a tiny tagline.",
+    "radius": "Sharp corners are used for most image containers and UI elements, with a subtle rounded corner on interactive elements like the 'FILTER' button.",
+    "spacing": "Airy spacing around the initial header provides breathing room, transitioning to a balanced, tight grid for the portfolio images, maximizing content density."
+  },
+  "standout": "This site's design is distinctive for its elegant, full-page masonry grid portfolio that serves as the primary content and navigation. The bold, large serif typography for the name, combined with the warm off-white background and vibrant photography, creates a sophisticated, art-gallery-like experience that prioritizes visual impact and a seamless browsing flow.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://cmnd.services",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-cmnd-services-5bdb18.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-cmnd-services-5bdb18__scroll0.webp",
+      "shots/_proposed/siteinspire-cmnd-services-5bdb18__scroll1.webp",
+      "shots/_proposed/siteinspire-cmnd-services-5bdb18__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-services",
+      "luxury-marketing"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content area is a full-bleed, vertically stacked image gallery, with minimal UI elements fixed to the edges of the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "All textual UI elements (navigation, labels, counters) use an extremely small, uppercase, sans-serif font with generous letter spacing."
+    },
+    {
+      "kind": "color",
+      "note": "The UI uses a stark black and white palette, allowing the rich and diverse colors of the product photography to dominate the visual experience."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new full-width images slide vertically into the main viewport, while the navigation links, scroll counter, and 'BACK TO TOP' link remain fixed in their positions."
+    },
+    {
+      "kind": "section",
+      "note": "Each 'section' of the page is dedicated entirely to a single, high-resolution product photograph, filling the majority of the screen."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed header navigation and a fixed 'back to top' link, along with a dynamic scroll progress counter, positioned at the extreme edges of the viewport. The main content area consists of a series of full-width images that scroll vertically, replacing each other in the primary viewing area without any complex transitions or parallax effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Very flat, all text is small and uppercase, with navigation items being only slightly larger than the scroll counter.",
+    "radius": "sharp",
+    "spacing": "airy, with UI elements pushed to the extreme edges, leaving the center clear for immersive imagery."
+  },
+  "standout": "The design's extreme restraint and almost complete removal of traditional content and navigation elements create an immersive, uninterrupted visual experience focused solely on high-quality product photography. It functions as a pure visual portfolio.",
+  "animation_tech": [],
+  "status": "proposed"
+}

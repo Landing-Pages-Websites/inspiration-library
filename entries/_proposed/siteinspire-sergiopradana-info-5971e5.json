@@ -1,0 +1,113 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://sergiopradana.info",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-sergiopradana-info-5971e5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-sergiopradana-info-5971e5__scroll0.webp",
+      "shots/_proposed/siteinspire-sergiopradana-info-5971e5__scroll1.webp",
+      "shots/_proposed/siteinspire-sergiopradana-info-5971e5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sergiopradana.info/juf",
+        "full": "shots/_proposed/siteinspire-sergiopradana-info-5971e5__p2.webp"
+      },
+      {
+        "url": "https://sergiopradana.info/ml17",
+        "full": "shots/_proposed/siteinspire-sergiopradana-info-5971e5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "architecture",
+      "art-gallery"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, continuous image grid with minimal gutters serves as the primary content display, extending vertically without distinct section breaks."
+    },
+    {
+      "kind": "type",
+      "note": "A minimalist sans-serif font is used consistently for all text, often in uppercase, maintaining a small and uniform scale across navigation, project titles, and details."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface elements are strictly monochromatic (black and white), allowing the diverse and vibrant colors within the project imagery to be the dominant visual feature."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-screen navigation overlay slides in from the right, completely obscuring the content, while the main content area reveals more grid items on continuous scroll without individual item animations."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage functions as a single, infinitely scrolling gallery section, presenting a continuous stream of project thumbnails without traditional section dividers or hero areas."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen overlay menu slides in from the right, covering the entire viewport, to present navigation links. The main content area is a dynamically loading image grid that reveals more project thumbnails as the user scrolls down, creating a continuous visual stream without explicit section breaks or individual item animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff6900",
+        "role": "accent"
+      },
+      {
+        "hex": "#7bdcb5",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, uniform sans-serif text scale where headings and labels are only slightly larger than body text, often presented in uppercase.",
+    "radius": "sharp",
+    "spacing": "Dense image grid with minimal gutters, contrasted by an airy overall feel due to large images and sparse UI elements."
+  },
+  "standout": "The site's standout feature is its uncompromising focus on the visual work, presented as a vast, continuous, and almost overwhelming grid of high-quality imagery. The UI is stripped back to a minimalist, monochromatic overlay, making the content itself the primary design element and creating an immersive, gallery-like experience.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}
