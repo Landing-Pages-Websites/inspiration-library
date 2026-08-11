@@ -1,0 +1,105 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://learntype.eu/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-learntype-eu-2f9927.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-learntype-eu-2f9927__scroll0.webp",
+      "shots/_proposed/lapa-ninja-learntype-eu-2f9927__scroll1.webp",
+      "shots/_proposed/lapa-ninja-learntype-eu-2f9927__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "typography",
+      "education"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily presented in a single-column, center-aligned layout, with occasional two-column splits for illustrative diagrams or product details."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently oversized, bold, and uppercase, rendered in a vibrant red, creating a strong visual hierarchy and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette of pure white backgrounds, black body text, and a striking red for all major headings and call-to-action elements is used throughout."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed content is organized into an accordion-style list at the bottom of the page, allowing users to expand specific topics."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-width, looping video background (the '66 PAGES' graphic) with large, bold, uppercase text overlaid, creating a dynamic and impactful first impression.",
+    "Typography is characterized by a display-heavy font for all major headings, rendered in a striking red and uppercase, contrasting sharply with a clear, readable sans-serif for body text.",
+    "Sections are revealed with a subtle fade-in or slide-up animation as they enter the viewport, enhancing content flow and engagement, likely using CSS keyframes. The top navigation bar remains fixed at the top of the screen during scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Rules Bold",
+        "role": "display"
+      },
+      {
+        "family": "Rules Regular",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, uppercase display headings (~4-5x body) with smaller, clear sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy hero and section breaks, balanced within content blocks."
+  },
+  "standout": "The aggressive, oversized, uppercase red typography combined with a stark black and white palette creates an extremely bold and editorial aesthetic that feels more like a magazine spread than a typical landing page. The animated '66 PAGES' graphic further reinforces this distinctive, high-impact visual style.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

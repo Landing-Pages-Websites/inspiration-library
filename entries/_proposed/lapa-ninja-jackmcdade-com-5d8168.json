@@ -1,0 +1,109 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://jackmcdade.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-jackmcdade-com-5d8168.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-jackmcdade-com-5d8168__scroll0.webp",
+      "shots/_proposed/lapa-ninja-jackmcdade-com-5d8168__scroll1.webp",
+      "shots/_proposed/lapa-ninja-jackmcdade-com-5d8168__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "personal-brand",
+      "creative-services"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, vibrant color palette with a dramatic background color shift from dark teal to bright cyan as the user scrolls down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A playful, handwritten-style display font is used for prominent headings and the brand logo, creating a distinctive and personal voice, contrasted with a clean sans-serif for body text."
+    },
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical composition with a large, stylized portrait and whimsical 3D illustrations (palm trees, flamingo, tiger) that break typical grid structures."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero section elements, including the portrait, main heading, and 3D palm trees, parallax at varying speeds against the background as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The page background transitions from a dark teal to a bright cyan at a specific scroll depth, marking a clear visual division between the hero and subsequent content sections."
+    },
+    {
+      "kind": "section",
+      "note": "The very bottom of the page is anchored by a full-width, vibrant hot pink 'paint splatter' graphic, adding a final touch of playful irreverence."
+    }
+  ],
+  "technique_notes": [
+    "The background color transition is achieved by a scroll-triggered animation that changes the background property of a main container or the body element at a predefined scroll position.",
+    "The hero section utilizes a multi-layered parallax effect where different elements (foreground portrait and text, mid-ground 3D objects) are animated to move at distinct speeds relative to the scroll position, enhancing visual depth.",
+    "Typography establishes a clear hierarchy by using an oversized, bold, and decorative display font for key headings, while body text is set in a highly legible sans-serif with generous line spacing for readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A4B4B",
+        "role": "background"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FF0080",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Nanum Pen Script",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, handwritten-style headings (~3-4x body) create a strong visual statement, while body text is a standard, legible sans-serif.",
+    "radius": "Sharp corners are dominant for most elements, with subtle rounding on interactive elements like buttons and a distinct circular outline for the hero portrait.",
+    "spacing": "The hero section is very airy with ample negative space, transitioning to a more balanced density in content sections, maintaining good line and paragraph spacing for readability."
+  },
+  "standout": "This site's design is distinctive for its audacious and unconventional aesthetic, combining a high-contrast, almost neon color palette with whimsical 3D illustrations and a personal, handwritten typographic style. It actively subverts typical 'boring' website design, creating a memorable and playful brand identity that feels genuinely unique.",
+  "animation_tech": [],
+  "status": "proposed"
+}

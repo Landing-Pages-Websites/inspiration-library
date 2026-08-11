@@ -1,0 +1,116 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://obscura.net/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-obscura-net-659fdd.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-obscura-net-659fdd__scroll0.webp",
+      "shots/_proposed/lapa-ninja-obscura-net-659fdd__scroll1.webp",
+      "shots/_proposed/lapa-ninja-obscura-net-659fdd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "vpn",
+      "cybersecurity"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a combination of full-width sections with centered content and two-column layouts, often featuring a prominent 'app UI' card on one side."
+    },
+    {
+      "kind": "type",
+      "note": "Key headings and call-to-action text consistently use a custom pixelated font, creating a distinctive retro-digital aesthetic, while body text uses a clean, modern sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A soft, light blue serves as the primary background color, contrasted with a vibrant orange for accents and calls-to-action, and a dark brown for pixel art ground elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A pixel art robot character acts as a sticky element, initially positioned within the hero, then scrolling up with the content to eventually 'land' on a pixel art ground section that reveals from the bottom of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Pixel art cloud elements are fixed in the background, creating a subtle parallax effect as the page content scrolls over them."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive accordion elements are used for the FAQ section, providing a clean way to present detailed information without overwhelming the user."
+    }
+  ],
+  "technique_notes": [
+    "The pixelated font effect for headings is achieved by using a custom web font designed with a pixel grid, likely rendered with CSS text-rendering properties to maintain crispness.",
+    "The pixel art character's scroll behavior is implemented using a combination of CSS position: sticky and JavaScript to dynamically adjust its vertical position and alignment with the pixel art ground as the user scrolls, creating a 'landing' animation.",
+    "Background pixel art elements (clouds) are fixed in the viewport using CSS position: fixed, allowing content to scroll over them and create a sense of depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d5e4f3",
+        "role": "background"
+      },
+      {
+        "hex": "#ff6025",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#222528",
+        "role": "text"
+      },
+      {
+        "hex": "#265f99",
+        "role": "link"
+      },
+      {
+        "hex": "#7a472c",
+        "role": "pixel-art-ground"
+      },
+      {
+        "hex": "#eef7ff",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Press Start 2P",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized pixelated hero headings (~4-5x body) with smaller pixelated subheadings, complemented by a clean, readable sans-serif for body text and UI elements.",
+    "radius": "Subtle rounding (small border-radius) is applied consistently to buttons, cards, and input fields, avoiding sharp corners or full pills.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and ample padding within content blocks, creating a balanced and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its pervasive pixel art aesthetic, which is integrated through a custom pixelated font for headings, animated pixel art characters, and background elements. This creates a unique, playful, and memorable brand identity that stands out from typical modern marketing sites.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://akidsbookabout.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-akidsbookabout-com-d7c3ba.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-akidsbookabout-com-d7c3ba__scroll0.webp",
+      "shots/_proposed/lapa-ninja-akidsbookabout-com-d7c3ba__scroll1.webp",
+      "shots/_proposed/lapa-ninja-akidsbookabout-com-d7c3ba__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "publishing",
+      "parenting"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large portrait image on the left and a bold, multi-line text block on the right, creating a dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles frequently use oversized, condensed sans-serif typography, often with a vibrant color fill or a thick outline effect, making them highly distinctive and impactful."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating background colors (light cream, white, and black) are used to clearly delineate major content sections, providing strong visual segmentation down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The site features a persistent sticky navigation bar at the top and a promotional banner that appears at the very top and remains fixed as the user scrolls, ensuring key information and navigation are always accessible."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections (books, podcasts) are presented in clean, responsive grids with prominent cover art and minimal supporting text, allowing for quick visual scanning."
+    }
+  ],
+  "technique_notes": [
+    "The primary motion observed is the use of sticky elements: a top-level promotional banner and the main navigation bar remain fixed at the top of the viewport during scroll. Content sections simply scroll vertically without complex reveal animations like fade-ins or slide-ups, relying on standard browser scrolling behavior. Any detected `css-keyframes` are likely used for subtle interactive elements or internal component animations not triggered by scroll depth.",
+    "Bold typographic section titles are created using very large, heavy sans-serif fonts, often with a contrasting color fill or a thick stroke effect to achieve a distinctive, playful yet authoritative look.",
+    "Content is organized into distinct, full-width sections that alternate between light and dark background colors, providing clear visual breaks and guiding the user's eye down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F9FAF8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFC700",
+        "role": "accent"
+      },
+      {
+        "hex": "#108474",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF7F50",
+        "role": "accent"
+      },
+      {
+        "hex": "#808080",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Galano Grotesque",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, condensed sans-serif headings (up to ~6x body) with smaller, regular-weight sans-serif body text. Some headings use an outlined or filled style for emphasis.",
+    "radius": "Subtle rounding on buttons and input fields; sharp corners on most other elements like product cards and section edges.",
+    "spacing": "Balanced to airy, particularly in hero and major section breaks, creating a sense of openness. Product grids are more dense but maintain clear padding around items."
+  },
+  "standout": "The site's most distinctive feature is its bold and playful use of typography, particularly the oversized, often color-filled or outlined sans-serif headings. This, combined with the alternating light and dark section backgrounds and vibrant accent colors, creates an energetic and memorable brand identity that feels unique and avoids generic marketing aesthetics.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

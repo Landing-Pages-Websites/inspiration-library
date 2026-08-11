@@ -1,0 +1,101 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://wodniack.dev/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-wodniack-dev-b9297e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-wodniack-dev-b9297e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-wodniack-dev-b9297e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-wodniack-dev-b9297e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "web-development",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Dominant use of a high-contrast, two-color palette (vibrant red and deep black) for a bold and impactful visual identity, with white used sparingly for text on dark backgrounds."
+    },
+    {
+      "kind": "layout",
+      "note": "A subtle grid overlay is consistently used as a background element or structural guide across different full-screen sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen content transitions are used, where entire sections animate out to reveal completely new full-screen content, rather than simply scrolling to new sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text and content animate upwards and scale down to integrate into a sticky header upon scroll, revealing a dynamic background."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, canvas-rendered wavy line-art pattern animates into view as the primary hero background after the initial scroll."
+    },
+    {
+      "kind": "type",
+      "note": "Key messages and headings utilize an extremely bold, condensed display sans-serif font for maximum visual impact."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate complex, full-screen transitions. The initial hero content animates out of view while a dynamic canvas-rendered wavy background animates in. Further scrolling triggers a complete content swap to a new full-screen section with a grid overlay and a central call to action.",
+    "A canvas animation generates a fluid, wavy line-art pattern that serves as a visually engaging and dynamic background for the hero section.",
+    "Employs a stark two-color palette (vibrant red and deep black) to create a bold and impactful visual identity, with white used sparingly for contrast on dark backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF0033",
+        "role": "background"
+      },
+      {
+        "hex": "#160000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Bungee",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed display headings (~8x body) with smaller, clean sans-serif for navigation and body text.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero, with large negative space around key elements, transitioning to a more structured grid."
+  },
+  "standout": "The site's distinctive use of extreme high-contrast color, combined with full-screen, almost theatrical motion transitions and a dynamic canvas-rendered hero background, creates a highly memorable and immersive experience that feels more like an interactive art piece than a typical portfolio. The bold, almost brutalist typography further reinforces this unique aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

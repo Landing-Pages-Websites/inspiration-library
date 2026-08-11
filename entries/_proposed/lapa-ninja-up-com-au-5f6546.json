@@ -1,0 +1,119 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://up.com.au/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-up-com-au-5f6546.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-up-com-au-5f6546__scroll0.webp",
+      "shots/_proposed/lapa-ninja-up-com-au-5f6546__scroll1.webp",
+      "shots/_proposed/lapa-ninja-up-com-au-5f6546__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "banking",
+      "fintech"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "Sections are defined by full-bleed, vibrant color blocks that alternate between a bright coral/orange and a sunny yellow, creating distinct visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings are used for primary messaging, contrasted with smaller, more detailed body text and occasional mono-spaced accents for data or labels."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width, full-height sections, often featuring a single dominant illustration or interactive element that fills a significant portion of the screen."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new sections slide into view with a full-screen transition, often accompanied by elements within the new section animating or revealing themselves (e.g., the phone sliding in, characters appearing)."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'MENU' button remains sticky at the bottom center of the viewport throughout the scroll, providing persistent navigation access without obscuring main content."
+    },
+    {
+      "kind": "section",
+      "note": "Custom, playful, geometric character illustrations are central to many sections, acting as visual anchors and conveying the brand's personality and messaging."
+    }
+  ],
+  "technique_notes": [
+    "Sections are designed as full-viewport height containers that snap or smoothly transition into view on scroll, creating a distinct 'page-turn' effect. This is likely achieved with scroll-snapping or a custom scroll-jacking library.",
+    "Elements within each section, such as 3D objects (phone, globe) and custom illustrations, are revealed or animated into their final positions as their respective section enters the viewport. This uses a combination of CSS keyframes for simpler animations and potentially canvas or Lottie for more complex interactive elements like the globe or character animations.",
+    "The persistent 'MENU' button at the bottom of the screen is a fixed element, ensuring navigation is always accessible without obscuring content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff705c",
+        "role": "background"
+      },
+      {
+        "hex": "#ffee52",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1c",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff8bd1",
+        "role": "accent"
+      },
+      {
+        "hex": "#8f8f8f",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Circular",
+        "role": "heading"
+      },
+      {
+        "family": "Circular",
+        "role": "body"
+      },
+      {
+        "family": "Apercu Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) are used for impact, with body text being legible and smaller labels using a distinct monospace font.",
+    "radius": "Sharp corners are dominant for section blocks and UI elements, with a notable exception for the pill-shaped CTA button.",
+    "spacing": "Airy spacing is used throughout, with generous padding around content blocks and illustrations, creating a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of a highly saturated, two-tone color palette (coral and yellow) combined with a unique, playful illustration style featuring geometric characters and objects. This creates a vibrant, almost whimsical brand identity that stands apart from typical financial services sites.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "rive",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
