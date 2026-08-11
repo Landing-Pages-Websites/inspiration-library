@@ -1,0 +1,110 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://miloch.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-miloch-com-2da7c2.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-miloch-com-2da7c2__scroll0.webp",
+      "shots/_proposed/siteinspire-miloch-com-2da7c2__scroll1.webp",
+      "shots/_proposed/siteinspire-miloch-com-2da7c2__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://miloch.com/impressum",
+        "full": "shots/_proposed/siteinspire-miloch-com-2da7c2__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art-direction",
+      "advertising"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A centered, single-line text element is used for the hero name, section titles, and image captions, creating a strong vertical axis of focus on the page."
+    },
+    {
+      "kind": "layout",
+      "note": "The primary content is presented as a grid of high-resolution images, varying between two and three columns depending on the content, with generous vertical spacing between rows."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used throughout, with a very large, bold weight for the hero name, and small, light uppercase for navigation and captions, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of white background and black text is consistently applied to ensure the vibrant, art-directed photography is the sole focus of visual attention."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic header element appears to stick to the top of the viewport after initial scroll, changing its text content to reflect the current section or page (e.g., from 'Homepage' to 'Catalogue' to 'Impressum')."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed, high-resolution product photography is the primary content, presented in a clean grid with ample whitespace to emphasize each image.",
+    "The site uses a video-hero effect (though only a static frame is visible in screenshots). The primary scroll-triggered motion involves a contextual header that becomes fixed at the top of the viewport and updates its text content as the user scrolls into different sections or navigates to new pages, providing a subtle, adaptive navigation experience.",
+    "Sections are revealed by simple vertical scrolling, with no complex fade-ins or parallax on individual content blocks; the design relies on static hierarchy and the dynamic header for interaction."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#A3A3A3",
+        "role": "text-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold display heading (~4-5x body) for the hero name, with small, light uppercase labels for navigation and captions, and a standard body text size for legal content.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between image rows and text blocks, creating a sense of calm and focus on the imagery."
+  },
+  "standout": "The site's distinctiveness lies in its extreme minimalism, using a stark white background and black text to elevate the high-quality, art-directed product photography to the sole focus. The subtle, dynamic header that changes content and stickiness provides a unique, unobtrusive navigation experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
