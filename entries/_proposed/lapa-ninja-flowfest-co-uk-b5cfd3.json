@@ -1,0 +1,111 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.flowfest.co.uk/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-flowfest-co-uk-b5cfd3.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-flowfest-co-uk-b5cfd3__scroll0.webp",
+      "shots/_proposed/lapa-ninja-flowfest-co-uk-b5cfd3__scroll1.webp",
+      "shots/_proposed/lapa-ninja-flowfest-co-uk-b5cfd3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech-conference",
+      "event",
+      "web-design"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical composition using large, organic, multi-layered shapes (e.g., rainbows, sun) as decorative background elements that frame content sections."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a bold, rounded display typeface with a thick outline effect for primary headings and key callouts, creating a playful, retro feel."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, high-contrast retro color palette featuring cream as a dominant background, accented by various shades of orange, pink, and yellow."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero content (large text, date, and image) scrolls up and out of view as the user scrolls down, while the top navigation bar with the logo and 'Buy Tickets' button remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Speaker profiles are presented as individual cards with a cutout-style image, name, and short bio, arranged in a responsive grid."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation becomes sticky to the top of the viewport after the initial scroll, while the hero section's content scrolls off-screen to reveal subsequent page sections. This scroll-triggered behavior could be orchestrated using a library like GSAP ScrollTrigger or Locomotive Scroll for smooth transitions.",
+    "Main headings achieve their distinctive outlined look by layering text elements or using CSS text-stroke properties on a bold, rounded font.",
+    "Decorative background elements, such as the large rainbow arcs and sun graphic, are designed with organic, wavy edges and appear to be layered behind content, adding depth and a hand-drawn aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fffefb",
+        "role": "background"
+      },
+      {
+        "hex": "#f3a20f",
+        "role": "accent"
+      },
+      {
+        "hex": "#f489a3",
+        "role": "accent"
+      },
+      {
+        "hex": "#f0bb0d",
+        "role": "accent"
+      },
+      {
+        "hex": "#121212",
+        "role": "text"
+      },
+      {
+        "hex": "#f97028",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: YouTube Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, outlined display headings (~4-5x body size) create a strong visual impact, contrasted with a clear, readable sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, with a more organic, wavy edge character for large decorative background shapes and some image containers.",
+    "spacing": "Generally airy, particularly in the hero and between major content sections, contributing to a relaxed and open page flow, while feature grids (e.g., speakers) maintain a balanced density."
+  },
+  "standout": "The site's distinctive retro-playful aesthetic, achieved through the combination of bold, outlined typography, a vibrant, warm color palette, and large, organic, hand-drawn-style background shapes. It successfully evokes a fun, festival-like atmosphere rather than a generic corporate event.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

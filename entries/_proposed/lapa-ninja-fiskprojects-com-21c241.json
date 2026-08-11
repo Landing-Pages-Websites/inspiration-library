@@ -1,0 +1,111 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://fiskprojects.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-fiskprojects-com-21c241.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-fiskprojects-com-21c241__scroll0.webp",
+      "shots/_proposed/lapa-ninja-fiskprojects-com-21c241__scroll1.webp",
+      "shots/_proposed/lapa-ninja-fiskprojects-com-21c241__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Project showcase uses a dynamic two-column grid where image-heavy cards are presented with minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, wide, and bold sans-serif typography is used for brand identity and key headings, creating a strong graphic presence."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features a clean white background punctuated by vibrant, saturated accent colors used for underlines, frames, and subtle background elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a large graphic element that slides vertically out of view as the user scrolls, revealing the content below."
+    },
+    {
+      "kind": "section",
+      "note": "Each project entry functions as a distinct card, featuring a large image and concise descriptive text with category tags."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered CSS keyframe animations to create a dynamic reveal effect for the hero section, where a large graphic element slides upwards to expose the main content. Subsequent content sections also appear to animate into view as they enter the viewport.",
+    "A responsive grid system is used to display project cards, allowing for varied image aspect ratios while maintaining a consistent visual flow.",
+    "A limited set of highly saturated accent colors are strategically applied to text underlines, graphic frames, and small background elements to draw attention and reinforce brand identity against a predominantly neutral background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#519E00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FC4020",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFA8CD",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFBE2E",
+        "role": "accent"
+      },
+      {
+        "hex": "#3C8AFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Univers Extended Black",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful display headings (~4-5x body text) with a clean, readable body text and smaller, often uppercase labels.",
+    "radius": "sharp",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within project cards; the initial hero is very airy."
+  },
+  "standout": "The site's distinctive use of a bold, graphic, almost brutalist-inspired typography for its main branding, combined with a vibrant, high-contrast accent color palette, sets it apart. The initial hero reveal, where a large graphic slides away, creates a memorable and engaging entry point.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

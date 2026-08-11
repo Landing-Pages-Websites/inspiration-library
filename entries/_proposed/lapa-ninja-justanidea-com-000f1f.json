@@ -1,0 +1,117 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://justanidea.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-justanidea-com-000f1f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-justanidea-com-000f1f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-justanidea-com-000f1f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-justanidea-com-000f1f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "publishing",
+      "art",
+      "books",
+      "retail"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, dynamic grid layouts are used for displaying book covers, often with varying sizes and orientations, creating a gallery-like feel that emphasizes individual product aesthetics."
+    },
+    {
+      "kind": "type",
+      "note": "Extensive use of thin, uppercase sans-serif typography for section titles and labels, contrasting with a more standard sans-serif for body text, creating an editorial and minimalist aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome base of white and black is punctuated by vibrant, saturated accent colors (red, orange, blue, green, pink) primarily found in product imagery and a distinctive footer graphic."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar transforms its logo from a text-based 'JUST AN IDEA' to a compact circular graphic upon initial scroll, maintaining a consistent top-level navigation while saving space."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero reveal with a subtle fade-in and slight upward translation as they enter the viewport, creating a smooth, progressive loading experience."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'INDEX' section presents a comprehensive, scrollable grid of smaller book covers, each with a title and price, functioning as a visual catalog for quick browsing."
+    }
+  ],
+  "technique_notes": [
+    "The overall visual design employs a clean, editorial layout with generous white space to highlight product imagery. Typography is primarily sans-serif, with a focus on thin, uppercase styles for headings and labels. Color is used sparingly but effectively, primarily through product visuals and a distinct, colorful graphic at the page's end.",
+    "The navigation bar employs a scroll-triggered transformation, where the initial text-based logo is replaced by a compact circular graphic once the user scrolls past the initial hero section. Content sections below the hero appear to animate into view with a subtle fade and slight upward translation as they become visible in the viewport, creating a smooth, progressive loading experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1D1D1B",
+        "role": "surface"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9502B",
+        "role": "accent"
+      },
+      {
+        "hex": "#F00000",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A balanced type scale with prominent, often uppercase and thin sans-serif headings (~2-3x body) and clear, legible body text.",
+    "radius": "sharp",
+    "spacing": "airy, with generous padding around elements and between sections, creating a sense of openness and allowing content to breathe"
+  },
+  "standout": "The site's distinctive use of a transforming navigation logo upon scroll, combined with a playful, interactive 'LET'S PLAY!' word search game at the footer, sets it apart. The overall aesthetic feels more like an art gallery or editorial publication than a typical e-commerce site, emphasizing visual discovery and engagement over direct conversion.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

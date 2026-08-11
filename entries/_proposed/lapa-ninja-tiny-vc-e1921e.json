@@ -1,0 +1,99 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://tiny.vc/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tiny-vc-e1921e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tiny-vc-e1921e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tiny-vc-e1921e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tiny-vc-e1921e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "venture-capital",
+      "investment"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric layout with content consistently left-aligned, balanced by large, abstract geometric shapes and pixel art elements that occupy significant negative space on the right and bottom."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive pixelated monospace font is used for primary branding elements and large headings, creating a retro-futuristic digital aesthetic, contrasted with a clean sans-serif for body text and details."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark white, black, and a vibrant, almost neon, purple is used throughout, with the purple serving as a dominant accent for graphics and background sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, abstract purple geometric shapes and a pixelated globe graphic are fixed or have a very slow parallax scroll speed, creating a layered effect where the main content scrolls over them, revealing different parts of the background as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by generous vertical spacing and the interplay of foreground content scrolling over fixed or slow-parallax background elements, rather than distinct background color changes or dividers (except for the footer)."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a layered scrolling effect where large, abstract background elements (geometric shapes, pixelated globe) are either fixed to the viewport or scroll at a significantly slower rate than the main content. This creates a sense of depth and reveals new portions of the background as the user scrolls down. The footer then slides into view with a solid background color, covering the previous content. This effect could be achieved using CSS position properties (fixed/sticky) or scroll-triggered transforms/parallax libraries.",
+    "Distinctive pixelated typography is applied to key headings and branding elements, achieved by using a custom monospace font or applying specific CSS properties to mimic a pixel art style. This is combined with a standard sans-serif for readability in body text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fafafa",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#6a4c99",
+        "role": "accent"
+      },
+      {
+        "hex": "#a065ff",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ABC Repro Mono Medium",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, pixelated headings (~3-4x body) with smaller, regular weight sans-serif body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between sections and within the hero, creating a sense of openness and allowing background elements to breathe."
+  },
+  "standout": "The site's distinctive use of pixelated typography and graphics, combined with large, abstract purple geometric shapes that create a dynamic, layered background as the user scrolls, gives it a unique retro-futuristic and digital aesthetic that stands apart from typical corporate sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

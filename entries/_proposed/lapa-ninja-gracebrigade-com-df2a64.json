@@ -1,0 +1,111 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://www.gracebrigade.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-gracebrigade-com-df2a64.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-gracebrigade-com-df2a64__scroll0.webp",
+      "shots/_proposed/lapa-ninja-gracebrigade-com-df2a64__scroll1.webp",
+      "shots/_proposed/lapa-ninja-gracebrigade-com-df2a64__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding",
+      "e-commerce",
+      "design-agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, high-contrast full-bleed sections with significant negative space, often utilizing black or dark grey backgrounds to frame content."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic scale contrast, featuring massive, bold, condensed sans-serif display headings that dominate sections, paired with much smaller, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast monochromatic palette of black, white, and various shades of grey, used consistently for both backgrounds and text elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Layered parallax scrolling effect where large background text elements (like 'GRACE BRIGADE') and background colors reveal and shift at different speeds behind foreground elements (like the statues and main content) as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Imagery is often treated with a distressed, halftone, or dithered effect, adding a raw, artistic texture to portraits and product shots, enhancing the editorial feel."
+    }
+  ],
+  "technique_notes": [
+    "Implement a layered parallax scrolling system where background elements (large text, background color changes) move at a slower rate than the scroll, while certain foreground elements (like the statues) also parallax or stick, creating a sense of depth and revealing content progressively. This can be achieved using CSS transforms and scroll event listeners or a library like GSAP ScrollTrigger.",
+    "Utilize CSS keyframes for subtle fade-in or slide-up animations for content sections as they enter the viewport, enhancing the reveal effect and guiding the user's eye.",
+    "Apply image processing techniques (e.g., CSS filters or pre-processed images) to create a halftone or dithered visual style for photographic elements, contributing to the unique aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#BCBCBC",
+        "role": "text"
+      },
+      {
+        "hex": "#171717",
+        "role": "surface"
+      },
+      {
+        "hex": "#444444",
+        "role": "text"
+      },
+      {
+        "hex": "#EBEBEB",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely dramatic, with hero and section headings being several times larger (~5-10x) than body text, characterized by a bold, condensed sans-serif style.",
+    "radius": "sharp",
+    "spacing": "airy in hero and main content sections due to large text and negative space, becoming more balanced in content grids."
+  },
+  "standout": "This site's design is distinctive for its audacious use of extreme typographic scale and layered parallax scrolling, which transforms massive text into dynamic background elements. The stark, high-contrast black-and-white-and-grey palette, combined with distressed imagery, creates a powerful, almost brutalist-editorial aesthetic that feels more like a digital art installation than a typical marketing site.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
