@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-2026-0762",
+  "source": {
+    "url": "https://www.mek.gallery/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0762.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0762__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0762__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0762__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-development",
+      "typography",
+      "art"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, maximalist collage layout where content blocks of varied sizes and aspect ratios are tightly packed, often touching or slightly overlapping, creating a continuous, non-segmented visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "An eclectic and high-contrast typographic system that juxtaposes retro pixel fonts, distinctive display serifs (like MEKZANTINE), and modern sans-serifs, often within the same visual field, creating a deliberate sense of visual noise and depth."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, desaturated base palette of off-whites, beiges, and dark greys is consistently used, punctuated by high-contrast accents of pure black, vibrant red, and occasional bright blue for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-layered sticky UI system where the primary navigation, a secondary horizontal timeline, and a central interactive modal all remain fixed in the viewport, while the dense content grid scrolls continuously underneath them."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented as a single, continuous stream of project tiles and textual information, eschewing traditional distinct sections with clear boundaries or background changes in favor of a fluid, scrollable canvas."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the multi-layered sticky UI, use CSS `position: fixed` for the main navigation, the horizontal timeline, and the central game modal. Ensure the main content area has appropriate top padding or margin to prevent it from being obscured by these fixed elements.",
+    "The dense, collage-like content grid can be built using CSS Grid with carefully defined `grid-template-areas` or by combining Flexbox with absolute positioning for specific overlapping elements, ensuring a tight pack with minimal explicit whitespace.",
+    "The eclectic typography requires loading multiple distinct font families. Apply them contextually to different content blocks and text elements to create the desired retro-digital and editorial mix, often using bold weights for display text and smaller sizes for body copy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eee9dc",
+        "role": "background"
+      },
+      {
+        "hex": "#d9d2c1",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#b6b1a3",
+        "role": "surface"
+      },
+      {
+        "hex": "#2e2e2e",
+        "role": "text"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#0099ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "MEKZANTINE Regular",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Pixelated",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Highly varied; large, bold display fonts (~3-5x body) are juxtaposed with small, dense body text and distinct pixelated fonts, creating a non-hierarchical, almost decorative typographic landscape.",
+    "radius": "sharp",
+    "spacing": "Extremely dense, with minimal whitespace; elements often touch or slightly overlap, creating a packed, maximalist feel."
+  },
+  "standout": "The site's most distinctive feature is its maximalist, retro-digital collage aesthetic, achieved through a chaotic yet intentional blend of diverse typography, overlapping content blocks, and a multi-layered fixed UI. It feels less like a conventional website and more like an interactive art installation or a digital zine, offering a unique sense of depth and engagement.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

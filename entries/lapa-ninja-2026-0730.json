@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0730",
+  "source": {
+    "url": "https://www.alexbeigeweb.dev/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0730.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0730__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0730__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0730__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-services",
+      "design",
+      "development",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are often framed or underpinned by large, organic, illustrative background shapes (clouds, abstract landscapes) that extend across the full width, creating a continuous visual narrative."
+    },
+    {
+      "kind": "type",
+      "note": "Large, expressive display headings with an elegant, slightly condensed character are paired with legible body text and small, uppercase labels for categories or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep purple background is consistently contrasted with bright, playful accent colors like teal, orange, and lighter purples, primarily used within the illustrative elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The background is a continuous, long illustration featuring pillars, clouds, and abstract shapes that scrolls at a slower rate than the foreground content, creating a multi-layered parallax effect throughout the page."
+    },
+    {
+      "kind": "section",
+      "note": "Illustrative iconography, rendered as simple, thick outlines, is used extensively to represent services and concepts, contributing to a playful, almost hand-drawn aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely using GSAP ScrollTrigger, to create a deep parallax effect where a continuous, illustrative background scrolls at a different rate than the foreground content.",
+    "Individual content sections are revealed with a subtle fade-in and slight upward translation as they enter the viewport, enhancing engagement and guiding the user's eye.",
+    "Interactive elements and custom illustrations, such as the monitor icons in the hero and the service icons, are likely rendered using canvas or Lottie animations for dynamic, scalable vector visuals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2f1664",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#5a2e9e",
+        "role": "cta"
+      },
+      {
+        "hex": "#7b4fe4",
+        "role": "accent"
+      },
+      {
+        "hex": "#66e0d2",
+        "role": "accent"
+      },
+      {
+        "hex": "#f7b070",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "adobe-jenson-pro-display",
+        "role": "display"
+      },
+      {
+        "family": "adobe-jenson-pro",
+        "role": "body"
+      },
+      {
+        "family": "expressway",
+        "role": "label"
+      }
+    ],
+    "type_scale": "Oversized, elegant display headings (~3-4x body) with a slightly condensed character, paired with legible body text and small, uppercase labels.",
+    "radius": "Subtle to rounded for buttons and cards; organic and highly rounded for illustrative cloud shapes; pill for profile images.",
+    "spacing": "Airy, with generous vertical spacing between major sections and within the hero, creating an uncrowded and relaxed feel, while content grids are balanced."
+  },
+  "standout": "The site's most distinctive feature is its whimsical, continuous background illustration that employs a deep parallax effect, creating a sense of a fantastical, layered digital landscape. This, combined with the outlined, playful iconography and a vibrant, contrasting color palette, gives the site a unique, almost storybook-like charm that stands apart from typical modern web portfolios.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie"
+  ],
+  "status": "approved"
+}

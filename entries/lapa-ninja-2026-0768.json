@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-0768",
+  "source": {
+    "url": "https://set.studio/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0768.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0768__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0768__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0768__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-development",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks are used to balance text and imagery or card groups, creating dynamic visual interest without strict mirroring."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, wide, and bold sans-serif display typography is used for hero and key section headlines, creating significant visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast is maintained between a very light, almost off-white background and dark text, punctuated by a vibrant red accent for CTAs and branding."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent, full-size state to a smaller, sticky version with a solid light background as the user scrolls past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them are revealed with a subtle slide-up and fade-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed, distinct sections with generous vertical padding are used, often featuring a single dominant visual or headline to clearly delineate content areas."
+    }
+  ],
+  "technique_notes": [
+    "The motion system uses a scroll-triggered animation library (like GSAP ScrollTrigger) to reveal content sections and individual elements with a staggered slide-up and fade-in effect as they enter the viewport. The sticky navigation also uses a scroll listener to trigger a size and background color transformation.",
+    "Typography is designed with a display-heavy sans-serif font for maximum impact on hero and section headlines, creating a dramatic size contrast with the more legible body text.",
+    "The color palette relies on a minimalist base of a very light background and dark text, with a single, high-impact accent color (red) strategically applied to branding, calls to action, and full-bleed sections like the footer."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbfaf8",
+        "role": "background"
+      },
+      {
+        "hex": "#2b2b2b",
+        "role": "text"
+      },
+      {
+        "hex": "#e01616",
+        "role": "accent"
+      },
+      {
+        "hex": "#d4d1cd",
+        "role": "surface"
+      },
+      {
+        "hex": "#4b4a49",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "HafferXH",
+        "role": "display"
+      },
+      {
+        "family": "HafferMedium",
+        "role": "heading"
+      },
+      {
+        "family": "Saans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~5-6x body text) with smaller, legible body text and even smaller uppercase labels, creating a strong visual hierarchy.",
+    "radius": "Subtle rounded corners on cards and interactive elements, with generally sharp edges for main section containers.",
+    "spacing": "Airy, especially in the hero section and between major content blocks, with balanced density within feature grids and text columns."
+  },
+  "standout": "The site's distinctive use of extremely large, wide, and bold sans-serif typography for key headlines, combined with a high-contrast, minimalist color palette punctuated by a vibrant red accent, creates a confident and modern aesthetic that feels both impactful and refined.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

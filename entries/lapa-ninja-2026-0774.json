@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0774",
+  "source": {
+    "url": "https://ufo.fm/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0774.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0774__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0774__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0774__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "media-platform",
+      "entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed hero section followed by content organized into distinct, full-width sections that alternate between dark grey and black backgrounds, each containing a grid of media cards."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black, dark grey, and white is used for the UI, allowing the vibrant colors of embedded media (album art, videos, artist photos) to provide the primary visual interest and dynamism."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the initial header (containing the logo and main navigation) transforms into a more compact, sticky header that also integrates the current track information (e.g., 'Liminal State') into its fixed position at the top of the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and section titles utilize a bold, uppercase sans-serif font with generous letter spacing, creating a strong, editorial feel that contrasts with the clean, readable body text."
+    },
+    {
+      "kind": "section",
+      "note": "Content is consistently presented in multi-column grids (typically 3 or 4 columns) within clearly labeled sections, each dedicated to a specific category of media like 'New Releases', 'FTTF', or 'From the archive'."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic sticky header that shrinks and reconfigures its content upon scroll, integrating additional context like current track information into the fixed top bar. This likely involves a combination of CSS transitions and JavaScript to detect scroll position and apply class changes.",
+    "Sections and individual content cards are revealed with subtle scroll-triggered animations, likely using GSAP to animate their opacity and position (e.g., a slight fade-up) as they enter the user's viewport, creating a smooth content loading experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1E1E1E",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#EEEEEE",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#BBBBBB",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Archivo",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A clear hierarchy with bold, uppercase sans-serif headings (~2-3x body) and clean, readable sans-serif body text, often with smaller, lighter-weight labels for metadata.",
+    "radius": "Sharp corners throughout, with no visible rounding on any elements.",
+    "spacing": "Balanced density with generous vertical spacing between major sections and consistent, grid-based spacing for content cards, creating a structured yet open feel."
+  },
+  "standout": "This site's design is distinctive for its sophisticated, gallery-like presentation, where a minimalist, monochromatic UI serves as a neutral canvas that allows the vibrant, diverse media content to be the primary visual focus. The dynamic sticky header that integrates current track information is a subtle yet impactful detail.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "approved"
+}

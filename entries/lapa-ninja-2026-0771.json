@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0771",
+  "source": {
+    "url": "https://www.tavus.io/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0771.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0771__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0771__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0771__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "ai",
+      "technology",
+      "software"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width background treatments (e.g., cloud pattern, solid color, pixelated pink) and centered content blocks with a consistent max-width."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font, creating a strong visual hierarchy, often paired with smaller, uppercase labels for context."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of off-white and dark grey is accented by vibrant, almost neon, hot pink, lime green, and orange, used for CTAs, highlights, and distinct section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in or slide-up effect as they enter the viewport during scroll. The main navigation bar remains sticky at the top, while a promotional banner at the very top disappears after a short scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "Distinctive visual motifs like retro computer window frames, pixel art, and classical art reimagined (e.g., 'Creation of Adam' hands) are integrated into various content sections, creating a unique aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky header that remains fixed at the top of the viewport. A smaller, promotional banner above it is also initially sticky but is configured to disappear after the user scrolls past a certain threshold.",
+    "Content sections are revealed using scroll-triggered animations, likely employing a library like GSAP ScrollTrigger, where elements fade into view or slide up from the bottom as they become visible in the viewport.",
+    "The hero section features a background video playing within a retro-styled computer window frame, providing dynamic visual interest without distracting from the main headline. The page background itself transitions between different patterns (cloudy, solid, textured) as the user scrolls, creating visual depth and progression."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#140206",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F5F0",
+        "role": "background"
+      },
+      {
+        "hex": "#E0F0F8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF69B4",
+        "role": "accent"
+      },
+      {
+        "hex": "#32CD32",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFA500",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are used for impact, complemented by smaller, often uppercase sans-serif labels and readable body text.",
+    "radius": "Subtle rounding on buttons and some card elements, contrasting with sharp, angular corners used for retro computer window frames.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while feature grids maintain a more structured, balanced density."
+  },
+  "standout": "The site's distinctive retro-futuristic aesthetic, blending pixel art, vaporwave-inspired imagery (like the 'Creation of Adam' hands and cloudy backgrounds), and old-school computer window frames with modern, clean typography and layout, creates a unique and memorable brand identity for an AI company.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

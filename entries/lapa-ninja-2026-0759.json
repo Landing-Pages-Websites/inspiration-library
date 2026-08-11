@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0759",
+  "source": {
+    "url": "https://lensmag.xyz/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0759.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0759__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0759__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0759__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gambling",
+      "online-casino",
+      "review-site"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, full-bleed background with content centered within a maximum width, creating a focused reading experience."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark purple/blue is used as the primary background, contrasted with vibrant accent colors like purple, green, orange, and red for CTAs, status indicators, and key information."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and white, creating a strong visual hierarchy against the darker body text which is a lighter grey."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky navigation bar remains at the top of the viewport, and a sticky call-to-action bar with a prominent bonus offer is fixed at the bottom of the viewport throughout the scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, well-padded sections, often introduced by large, bold headings, with some sections featuring subtle background variations or distinct visual elements like game grids or accordion FAQs."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the persistent navigation, implement a fixed header element that stays at the top of the viewport regardless of scroll position. Similarly, create a fixed footer-like element for the sticky call-to-action bar at the bottom, ensuring it has a high z-index to overlay content.",
+    "The dark background with vibrant accents can be achieved by setting a deep purple/blue as the body background color and using bright, saturated colors for interactive elements and highlights. Text contrast is maintained by using white for primary headings and lighter grey for body copy.",
+    "Sectional content is structured using standard block elements with generous vertical padding, ensuring clear separation. Accordion components are used for FAQs, where clicking a question expands or collapses its answer."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A2E",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#D1D5DB",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#8B5CF6",
+        "role": "cta-primary"
+      },
+      {
+        "hex": "#059669",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#D97706",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#DC2626",
+        "role": "accent-red"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body text) establish clear hierarchy, with subheadings and body text maintaining good legibility and contrast.",
+    "radius": "Subtle rounding (e.g., 4-8px) is applied consistently to buttons, cards, and input fields, avoiding sharp corners or full pills.",
+    "spacing": "Balanced density with generous vertical padding between major sections, creating a comfortable reading flow without feeling too airy or dense."
+  },
+  "standout": "The most distinctive feature is the dual sticky elements: a persistent top navigation and a prominent, always-visible call-to-action bar at the bottom. This ensures the primary conversion goal is constantly in view, while the dark, rich color palette with vibrant accents creates a luxurious and engaging casino-themed atmosphere.",
+  "animation_tech": [],
+  "status": "approved"
+}

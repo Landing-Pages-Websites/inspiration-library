@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-0769",
+  "source": {
+    "url": "https://shopmrbeast.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0769.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0769__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0769__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0769__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "apparel",
+      "merchandise",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered within a defined max-width, utilizing prominent grid layouts for product displays and collections."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently bold, uppercase sans-serif, often in black or white, creating strong visual anchors throughout the page."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast base of black and white is energized by vibrant accent colors: a bright yellow for CTAs and banners, and a striking cyan/teal for interactive elements and specific section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features layered product images that subtly parallax against a dark background, while the central 'BEAST' text displays a dynamic, animated line pattern. Subsequent content sections reveal with a simple fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Clear visual separation between major content blocks is achieved through alternating background colors (black, white, dark teal) and large, centered, uppercase headings."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is constructed with a dark, full-bleed background, over which multiple product images are layered and positioned. These images are animated to move at a slightly different rate than the scroll, creating a subtle parallax effect. The prominent 'BEAST' text within the hero features an animated texture, likely achieved using CSS keyframes to cycle through line patterns, giving it a dynamic, almost glitchy appearance.",
+    "Content sections below the hero are designed to reveal progressively as the user scrolls down the page. This is implemented by having sections initially hidden or partially off-screen, then animating them to slide up or fade into full view as they enter the user's viewport, creating a guided content discovery experience.",
+    "The main navigation bar at the top of the page is initially part of a larger header area that includes a promotional banner. Upon scrolling past the initial hero content, the navigation bar transitions to a sticky state, reducing slightly in height and maintaining a solid black background to remain accessible at all times."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ffe100",
+        "role": "accent"
+      },
+      {
+        "hex": "#00bce7",
+        "role": "cta"
+      },
+      {
+        "hex": "#108474",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Work Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins-Klaviyo-Hosted",
+        "role": "body"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, uppercase sans-serif headings (often 2-3x body text size) create strong visual hierarchy, complemented by a clean, readable sans-serif for body and detail text.",
+    "radius": "Mostly sharp corners on elements like cards and buttons, with very subtle rounding on some interactive elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more compact grid for product listings. The hero section is particularly airy."
+  },
+  "standout": "The site's distinctive use of a high-contrast black, white, yellow, and cyan palette, combined with the energetic, almost 'glitchy' aesthetic of the hero section's animated text and layered product imagery, creates a strong, youthful, and brand-specific visual identity that stands apart from typical e-commerce templates.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

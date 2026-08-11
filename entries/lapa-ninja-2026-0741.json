@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-2026-0741",
+  "source": {
+    "url": "https://www.davidanthonychenault.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0741.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0741__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0741__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0741__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "interior-design",
+      "luxury-design",
+      "art-direction"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, dark background sections serve as canvases for monumental white typography and dynamic imagery, creating a dramatic, immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "Overlapping, extremely large, bold, uppercase sans-serif headings dominate the visual hierarchy, often breaking traditional grid lines for artistic effect."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of black and white is punctuated by strategic use of deep red and the muted, pixelated colors within dynamic image reveals."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-layered parallax effect where the background pattern, main image, and large text elements move at different speeds, creating a sense of depth and revealing content as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width vertical sections, each introduced by a commanding typographic statement and often paired with a dynamic, scroll-triggered image reveal."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a sophisticated multi-layered parallax scrolling effect, likely using GSAP, where different visual elements (background pattern, hero image, text overlay, red cross graphic) are animated at varying speeds relative to the scroll position to create a deep, unfolding visual experience.",
+    "Subsequent content sections are revealed with a scroll-triggered animation system (likely GSAP ScrollTrigger) where large typographic headings and associated pixelated imagery fade in and subtly slide up or scale as they enter the viewport, creating a dynamic content flow.",
+    "Pixelated image effects are used as dynamic visual elements, possibly generated via canvas, that serve as abstract backdrops or reveal into clearer forms as part of the scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#B20000",
+        "role": "accent"
+      },
+      {
+        "hex": "#050505",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase headings (~6-8x body) with smaller, refined sans-serif labels and body text.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Very airy and dramatic, characterized by generous vertical spacing between major sections and expansive negative space around typographic elements."
+  },
+  "standout": "The site's design is distinctive for its audacious use of monumental, overlapping typography that acts as both content and art, combined with dynamic pixelated image reveals and a dramatic, multi-layered parallax scroll effect. This creates an immersive, almost art-gallery-like experience that transcends a typical portfolio site.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

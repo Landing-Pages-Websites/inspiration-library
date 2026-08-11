@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-2026-0735",
+  "source": {
+    "url": "https://bookclub.cool/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0735.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0735__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0735__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0735__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "community-management",
+      "book-club"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary layout uses a dark mode theme with a centered hero text block, followed by a two-column grid of feature cards that maintain consistent padding and alignment."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very large, bold sans-serif, creating a strong visual hierarchy against smaller, lighter sans-serif body text and even smaller, subtle labels within cards."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a minimalist dark palette, primarily #0f0f0f for backgrounds, #ffffff for primary text and CTA backgrounds, and #161616 for card surfaces, creating high contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, a dynamic stack of books animates into view on the right side of the hero section, overlapping the text slightly. Simultaneously, the feature cards below transition from a placeholder state to revealing their full content."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into a prominent hero section with a clear value proposition and CTAs, followed by a grid of equally sized feature cards, each detailing a specific product capability with an illustrative screenshot."
+    }
+  ],
+  "technique_notes": [
+    "The site establishes a strong dark mode aesthetic by using deep charcoal backgrounds and bright white text, ensuring high readability and a modern feel.",
+    "Scroll-triggered animations are used to progressively reveal content. The book stack in the hero section and the content within the feature cards appear with a staggered fade-in and subtle slide-in effect as they enter the viewport, likely orchestrated using CSS keyframes as detected."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0f0f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#161616",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta-background"
+      },
+      {
+        "hex": "#0a0a0a",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) are paired with standard body text and smaller, lighter supporting text for a clear hierarchy.",
+    "radius": "Subtle (buttons, cards), providing a soft edge without being overtly rounded.",
+    "spacing": "Balanced, with generous vertical spacing in the hero section and between major content blocks, creating an airy feel, while content within cards is more densely packed."
+  },
+  "standout": "The distinctive use of a deep, minimalist dark mode combined with a playful, yet sophisticated, scroll-triggered animation of a book stack in the hero section immediately captures attention and conveys the product's essence.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
