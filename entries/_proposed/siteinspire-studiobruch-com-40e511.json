@@ -1,0 +1,119 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://studiobruch.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-studiobruch-com-40e511.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-studiobruch-com-40e511__scroll0.webp",
+      "shots/_proposed/siteinspire-studiobruch-com-40e511__scroll1.webp",
+      "shots/_proposed/siteinspire-studiobruch-com-40e511__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://studiobruch.com/studio",
+        "full": "shots/_proposed/siteinspire-studiobruch-com-40e511__p2.webp"
+      },
+      {
+        "url": "https://studiobruch.com/eva-eder",
+        "full": "shots/_proposed/siteinspire-studiobruch-com-40e511__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses full-bleed sections, often with a dominant background color, creating a strong visual block structure."
+    },
+    {
+      "kind": "color",
+      "note": "A single vibrant orange (#f46626) is used as the primary background and accent color, creating a bold and memorable brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, initially circular graphic element that expands and transforms into a full-bleed background color as the user scrolls down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently large, bold, and sans-serif, often accompanied by smaller, uppercase labels for context."
+    },
+    {
+      "kind": "section",
+      "note": "Case studies and portfolio items are presented in a grid of circular or rounded-rectangle thumbnails, each with a title and subtitle."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a dynamic graphic element that starts as a central circle and animates to expand horizontally and vertically, eventually filling the entire viewport to become the page's background color. Text elements within this section reposition and fade during the scroll-triggered transformation.",
+    "The main navigation bar at the top of the page is sticky, remaining visible and accessible as the user scrolls down.",
+    "Content sections utilize a clean, sans-serif typography system with large, bold headings for emphasis and smaller, legible body text. Subtle uppercase labels are used for categorization or secondary information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f46626",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#ececec",
+        "role": "background"
+      },
+      {
+        "hex": "#919191",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2-3x body) with smaller, often uppercase, descriptive labels. Body text is clean and legible.",
+    "radius": "Sharp corners are dominant for most UI elements and content blocks, with the exception of the initial circular hero graphic and some circular image masks.",
+    "spacing": "Balanced and comfortable, with ample padding around content blocks and sections. The initial hero section feels airy due to the large central graphic."
+  },
+  "standout": "The most distinctive feature is the dynamic, transforming hero graphic that starts as a central circle and expands to become the page's full-bleed background color on scroll. This, combined with the bold and almost monochromatic use of vibrant orange, creates a highly memorable and energetic first impression.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

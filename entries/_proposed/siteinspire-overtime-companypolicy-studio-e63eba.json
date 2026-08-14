@@ -1,0 +1,113 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://overtime.companypolicy.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-overtime-companypolicy-studio-e63eba.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-overtime-companypolicy-studio-e63eba__scroll0.webp",
+      "shots/_proposed/siteinspire-overtime-companypolicy-studio-e63eba__scroll1.webp",
+      "shots/_proposed/siteinspire-overtime-companypolicy-studio-e63eba__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://overtime.companypolicy.studio/about",
+        "full": "shots/_proposed/siteinspire-overtime-companypolicy-studio-e63eba__p2.webp"
+      },
+      {
+        "url": "https://overtime.companypolicy.studio/gallery",
+        "full": "shots/_proposed/siteinspire-overtime-companypolicy-studio-e63eba__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "art"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent left-hand navigation/information column is maintained while the main content area on the right undergoes significant, full-width layout transformations on scroll."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is used, pairing oversized, elegant serif headings with small, uppercase monospaced text for navigation and body content."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a stark, high-contrast dark theme with a black background and white text, accented by a single vibrant blue for interactive elements and an animating graphic."
+    },
+    {
+      "kind": "motion",
+      "note": "The right-hand content area completely swaps its visual layout and content type (e.g., from a three-image grid to a large text block, then to a full-page image gallery) as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, abstract blue line graphic continuously animates and transforms its shape and position across the screen, responding to scroll depth."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate complex, full-screen layout transformations and content swaps in the main content area as the user scrolls, rather than simple element reveals.",
+    "A persistent SVG-based line graphic animates continuously and also responds to scroll depth by changing its form and position, creating a dynamic visual anchor.",
+    "The main content area dynamically loads and displays different types of content (e.g., a three-image grid, a large text block, a full gallery grid) based on scroll position, creating a narrative flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#6699FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3x body) with small, uppercase monospaced navigation and body text.",
+    "radius": "sharp",
+    "spacing": "Very airy, with significant negative space, especially in the initial and text-heavy sections, contrasting with a dense image gallery section."
+  },
+  "standout": "The site's most distinctive feature is its highly dynamic, almost interactive, scroll experience where the entire right panel transforms its content and layout, creating a narrative flow that feels more like an interactive art piece or presentation than a traditional website. The persistent, animating line graphic further enhances this unique, fluid feel.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

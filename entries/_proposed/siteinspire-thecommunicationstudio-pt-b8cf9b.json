@@ -1,0 +1,99 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://thecommunicationstudio.pt",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thecommunicationstudio-pt-b8cf9b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thecommunicationstudio-pt-b8cf9b__scroll0.webp",
+      "shots/_proposed/siteinspire-thecommunicationstudio-pt-b8cf9b__scroll1.webp",
+      "shots/_proposed/siteinspire-thecommunicationstudio-pt-b8cf9b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://thecommunicationstudio.pt/projects/pop-up-for-alhaja",
+        "full": "shots/_proposed/siteinspire-thecommunicationstudio-pt-b8cf9b__p2.webp"
+      },
+      {
+        "url": "https://thecommunicationstudio.pt/projects/twinset-summer-party",
+        "full": "shots/_proposed/siteinspire-thecommunicationstudio-pt-b8cf9b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "marketing",
+      "events"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A flexible grid system is used to showcase projects, primarily in a three-column layout, but adapting to two columns or a single full-width image for varied emphasis."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header, including the studio name and navigation links, remains fixed at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "New project sections and images are revealed with a subtle upward slide or fade-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a minimalist color palette of a light beige background and black text, allowing the vibrant, high-quality project imagery to be the sole source of color and visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with a very large, bold, uppercase sans-serif for the studio name, contrasting with smaller, regular weight sans-serif for navigation and extremely small project details."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation is implemented as a sticky element that maintains its position at the top of the viewport, overlaying content as the user scrolls.",
+    "Content sections, primarily image grids, are revealed with a subtle upward slide or fade-in effect as they enter the user's viewport, creating a dynamic browsing experience.",
+    "The site uses a flexible grid system to display project images, adapting from three-column layouts to two-column or single-column full-width presentations to highlight specific projects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EBE8E0",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif for the main studio name (~4-5x body text), with smaller, regular weight uppercase navigation and very small, regular weight project descriptions.",
+    "radius": "sharp",
+    "spacing": "balanced; the header has generous spacing, and grid items maintain consistent padding around images."
+  },
+  "standout": "This site stands out for its extreme minimalism, acting as a clean, almost invisible canvas that puts 100% of the focus on large, high-quality project photography. The design is essentially a sophisticated gallery, where text is secondary and only provides essential context.",
+  "animation_tech": [],
+  "status": "proposed"
+}
