@@ -1,0 +1,120 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://idheal.fr",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-idheal-fr-ae92d6.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-idheal-fr-ae92d6__scroll0.webp",
+      "shots/_proposed/siteinspire-idheal-fr-ae92d6__scroll1.webp",
+      "shots/_proposed/siteinspire-idheal-fr-ae92d6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://idheal.fr/institut",
+        "full": "shots/_proposed/siteinspire-idheal-fr-ae92d6__p2.webp"
+      },
+      {
+        "url": "https://idheal.fr/hautes-etudes",
+        "full": "shots/_proposed/siteinspire-idheal-fr-ae92d6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "education",
+      "research",
+      "urban-planning",
+      "housing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage utilizes a unique multi-column grid where the site's name 'IDHEAL' is displayed in massive, individual letters, each serving as a distinct visual anchor for a vertical content stream below it."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic typographic hierarchy is established with extremely large, wide, and bold sans-serif characters for display elements (e.g., the 'IDHEAL' hero), contrasted with a classic, readable serif font for all body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is consistently used, punctuated by small, vibrant, flat accent colors (red, blue, green, pink) for categorical markers and bold, graphic illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "A horizontal navigation bar remains sticky at the very bottom of the viewport across all pages, providing persistent access to main sections as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content is clearly segmented into distinct blocks, often introduced by prominent headings or full-bleed illustrations, maintaining a strong visual hierarchy throughout the site."
+    }
+  ],
+  "technique_notes": [
+    "The homepage hero is constructed using oversized, individually styled letters of the site's name, which visually define vertical content columns. Content within these columns scrolls as part of the main page flow, creating an unconventional and striking introduction.",
+    "A persistent horizontal navigation element is fixed to the bottom of the browser viewport, ensuring key site sections are always accessible. This is achieved by positioning the element with a fixed property, allowing it to overlay other content during scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E60023",
+        "role": "accent"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00A859",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "accent"
+      },
+      {
+        "hex": "#800080",
+        "role": "illustration-primary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Georgia",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, wide sans-serif display text (~10x body) for the hero, with large, bold sans-serif headings (~2-3x body) and a readable serif for body text.",
+    "radius": "sharp",
+    "spacing": "airy; generous negative space around the hero letters and between major content sections, contributing to a clean and open aesthetic."
+  },
+  "standout": "The most distinctive feature is the homepage's hero section, which uses the site's name 'IDHEAL' rendered in massive, individual letters. Each letter acts as a visual container or anchor for a distinct vertical stream of content, creating an unconventional and highly memorable grid-like introduction to the site's offerings.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "",
+  "source": {
+    "url": "https://focalglow.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-focalglow-co-b9d726.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-focalglow-co-b9d726__scroll0.webp",
+      "shots/_proposed/siteinspire-focalglow-co-b9d726__scroll1.webp",
+      "shots/_proposed/siteinspire-focalglow-co-b9d726__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://focalglow.co/about",
+        "full": "shots/_proposed/siteinspire-focalglow-co-b9d726__p2.webp"
+      },
+      {
+        "url": "https://focalglow.co/projects",
+        "full": "shots/_proposed/siteinspire-focalglow-co-b9d726__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "lighting-design",
+      "architecture",
+      "interior-design"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography and video dominate sections, often serving as backgrounds for minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated sans-serif is used for prominent headings and navigation, contrasted with a classic, elegant serif for body text, creating an editorial and refined feel."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black, white, and various shades of grey is consistently used, with a single vibrant blue reserved for interactive elements and subtle accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The header dynamically transforms from a transparent, full-logo state to a compact, opaque 'FG' logo with a solid background and subtle shadow upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-in and slight upward slide as they enter the viewport, creating a smooth, guided scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Immersive, full-width hero sections featuring high-production video or photography are used to establish mood and brand identity, followed by more structured content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dynamic header that transitions from an initial transparent, full-logo state to a smaller, opaque version with an abbreviated logo and a subtle drop shadow once the user scrolls past the initial hero content.",
+    "Content sections are introduced with a scroll-triggered animation, where elements subtly fade into view and slide upwards as they become visible within the viewport, enhancing engagement.",
+    "A full-screen, silent video serves as the hero background, creating an immersive and atmospheric introduction to the site, with key messaging overlaid for legibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#BFBFBF",
+        "role": "surface"
+      },
+      {
+        "hex": "#007AFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Unica 77 LL",
+        "role": "heading"
+      },
+      {
+        "family": "Bradford LL",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant sans-serif headings (approx. 2-3x body text) paired with a refined serif for body copy and smaller sans-serif for navigation and labels.",
+    "radius": "Sharp corners throughout, no visible rounded elements.",
+    "spacing": "Airy and spacious, especially in hero sections and between major content blocks, creating a sense of luxury and calm."
+  },
+  "standout": "The site stands out with its sophisticated, editorial aesthetic achieved through the dominant use of large, high-quality, mood-setting photography and video. The minimal text and generous white space allow the visuals to convey the brand's luxury and design-focused approach, creating an immersive and aspirational experience rather than a purely informational one.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
