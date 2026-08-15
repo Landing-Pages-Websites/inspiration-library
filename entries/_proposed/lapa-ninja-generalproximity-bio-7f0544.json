@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-generalproximity-bio-7f0544",
+  "source": {
+    "url": "https://www.generalproximity.bio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-generalproximity-bio-7f0544.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-generalproximity-bio-7f0544__scroll0.webp",
+      "shots/_proposed/lapa-ninja-generalproximity-bio-7f0544__scroll1.webp",
+      "shots/_proposed/lapa-ninja-generalproximity-bio-7f0544__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "biotech",
+      "pharmaceuticals",
+      "science"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, expansive canvas serves as the primary background, with content sections presented as wide, centered blocks that maintain generous vertical spacing."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section headings are rendered in an extremely large, bold sans-serif typeface, often featuring a subtle glowing effect, contrasting with smaller, lighter-weight body text."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is dominated by deep dark blues and blacks, accented by bright white or light grey text and vibrant, glowing blues and purples from the scientific imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "A complex, animated 3D molecular structure serves as a persistent background element, parallaxing slowly as content sections scroll over it. Key hero text features a subtle glowing effect and remains sticky in the viewport for a period before scrolling away, while subsequent content sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, each introduced by a prominent, often glowing, headline and followed by concise, information-rich blocks or statistical summaries."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark mode aesthetic with high contrast, using a deep, almost black background and luminous white or light grey typography for readability.",
+    "A large, complex 3D canvas animation of molecular structures is used as a persistent background, moving at a slower rate than the foreground content to create a parallax effect, likely orchestrated with GSAP ScrollTrigger.",
+    "Key headlines and interactive elements feature a subtle, diffused glow effect, enhancing their prominence against the dark background and suggesting a high-tech, advanced aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a2e3b",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#e4e2d8",
+        "role": "surface"
+      },
+      {
+        "hex": "#5a7dfc",
+        "role": "accent"
+      },
+      {
+        "hex": "#3b00ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold headings (~4-5x body) with a glowing effect, paired with smaller, regular-weight body text for detail.",
+    "radius": "subtle, with slightly rounded corners on buttons and cards, maintaining a modern, clean feel.",
+    "spacing": "airy, with generous vertical padding between sections and ample whitespace around content blocks, creating a sense of gravitas and focus."
+  },
+  "standout": "The site's standout feature is its sophisticated use of a persistent, animated 3D molecular structure as a background, creating a high-tech, immersive atmosphere. This, combined with glowing typography and a deep dark aesthetic, effectively communicates cutting-edge scientific innovation.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

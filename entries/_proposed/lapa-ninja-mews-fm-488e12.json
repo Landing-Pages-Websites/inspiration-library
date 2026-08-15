@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-mews-fm-488e12",
+  "source": {
+    "url": "https://www.mews.fm",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-mews-fm-488e12.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-mews-fm-488e12__scroll0.webp",
+      "shots/_proposed/lapa-ninja-mews-fm-488e12__scroll1.webp",
+      "shots/_proposed/lapa-ninja-mews-fm-488e12__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "saas",
+      "event-marketing"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout featuring a large, dynamic 3D graphic on one side, which then transitions to a smaller, persistent element in subsequent sections, creating a visual anchor."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, wide, and bold uppercase sans-serif display font is used for key headings and branding, providing a strong visual identity, contrasted with a more conventional sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost pastel purple background (#e5baf5) is paired with a high-contrast, energetic orange accent color (#ff5a00) for CTAs and interactive elements, creating a playful yet modern feel."
+    },
+    {
+      "kind": "motion",
+      "note": "A central 3D globe graphic with text ('SFM + MEWS') scales down, rotates, and repositions from the hero section to a smaller, fixed position in the top-right as the user scrolls, maintaining a dynamic visual presence."
+    },
+    {
+      "kind": "section",
+      "note": "Content blocks are introduced with clear, uppercase labels like 'INTRO' or 'LISTEN NOW', reinforcing a broadcast or radio station metaphor throughout the site."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations (likely using GSAP and locomotive-scroll) to create a dynamic experience where a central 3D globe graphic scales, rotates, and repositions itself from the hero to a smaller, persistent element in subsequent sections.",
+    "Content sections are revealed with a subtle fade-in and slide-up effect as they enter the viewport, maintaining a smooth visual flow and guiding the user's attention.",
+    "Interactive 3D models are integrated into the page, responding to scroll depth to provide a sense of depth and engagement, making the page feel more immersive."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e5baf5",
+        "role": "background"
+      },
+      {
+        "hex": "#ff5a00",
+        "role": "accent"
+      },
+      {
+        "hex": "#332732",
+        "role": "text"
+      },
+      {
+        "hex": "#1c151b",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#cccccc",
+        "role": "surface-3d-element"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "pennypacker-wide",
+        "role": "display"
+      },
+      {
+        "family": "pennypacker",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Massive, wide, uppercase display headings (~4-5x body) with smaller, condensed uppercase labels and a readable sans-serif for body text.",
+    "radius": "Rounded for buttons and card elements, with subtle rounding on other interactive components.",
+    "spacing": "Airy in the hero and main introductory sections, transitioning to a balanced density for feature cards and event details."
+  },
+  "standout": "The site's distinctive use of a large, animated 3D globe with text that dynamically scales and repositions on scroll creates a unique, playful, and memorable visual anchor. This, combined with a vibrant color palette and a 'radio station' metaphor for a B2B hospitality tech company, makes the design feel fresh and engaging, moving beyond typical corporate aesthetics.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

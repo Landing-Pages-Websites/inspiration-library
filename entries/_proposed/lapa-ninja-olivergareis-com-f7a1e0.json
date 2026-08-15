@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-olivergareis-com-f7a1e0",
+  "source": {
+    "url": "https://www.olivergareis.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-olivergareis-com-f7a1e0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-olivergareis-com-f7a1e0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-olivergareis-com-f7a1e0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-olivergareis-com-f7a1e0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "portfolio",
+      "freelance"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical composition with large, bold typography dominating the initial viewport, transitioning to a more structured grid for project showcases."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background treatments (solid color, image, video) are used to segment content, creating clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic contrast between the oversized, decorative serif hero text and the smaller, refined body text, creating a dramatic visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is punctuated by single, vibrant accent colors (green, yellow, red) for specific section highlights or calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A dramatic scroll-away hero effect where oversized text scrolls out of view to reveal the main content and sticky navigation elements."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcase sections feature a mix of full-bleed imagery and text overlays, often with a distinct background color or texture to differentiate each project."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen typographic hero element is initially displayed, which then scrolls upwards and out of view, revealing the main page content beneath it, likely using GSAP for precise control.",
+    "Global navigation elements and footer links are initially subtle or partially hidden, then become fixed to the top and bottom of the viewport respectively, once the initial hero has scrolled past.",
+    "Content sections appear to animate into view with a subtle reveal effect (e.g., fade-up or slide-in) as they enter the viewport, orchestrated using scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#50E3C2",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8E71C",
+        "role": "accent"
+      },
+      {
+        "hex": "#D0021B",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Lora",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, decorative serif hero text (~10x body) with elegant, legible serif body text and clean, small sans-serif labels.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Very airy, especially in the hero and initial content sections, creating a sense of luxury and focus, transitioning to a balanced density in project grids."
+  },
+  "standout": "The site's most distinctive feature is its bold, full-screen typographic hero that dramatically scrolls away to reveal the site's content. This, combined with the generous use of negative space and high-contrast color accents, creates a highly editorial and impactful first impression that feels more like a digital magazine than a typical portfolio.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

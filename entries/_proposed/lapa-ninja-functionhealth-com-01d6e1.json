@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-functionhealth-com-01d6e1",
+  "source": {
+    "url": "https://www.functionhealth.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-functionhealth-com-01d6e1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-functionhealth-com-01d6e1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-functionhealth-com-01d6e1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-functionhealth-com-01d6e1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "diagnostics",
+      "wellness"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with overlaid text and statistics, transitioning to a grid-based layout for features, testimonials, and informational sections."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between elegant, high-contrast serif headings and clean, legible sans-serif body text, creating a sophisticated yet accessible feel."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, muted color palette featuring a deep charcoal/dark grey, off-white, and a distinctive burnt orange/terracotta accent, complemented by light beige section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling slower than the foreground content. The navigation bar transforms from transparent to a sticky, solid white bar with a smaller logo and dark text upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating background colors (dark, light beige, white) are used to visually separate major content sections, enhancing readability and content segmentation."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large background image that scrolls at a slower rate than the foreground content, creating a depth-of-field parallax effect. This can be achieved by adjusting the background-position or using CSS transforms on scroll.",
+    "The primary navigation bar is initially transparent and fixed at the top. Upon scrolling past the hero section, it transitions to a sticky state with a solid background color, a subtle shadow, and a reduced height, while the logo scales down and text color changes.",
+    "Sections are revealed with scroll-triggered animations, likely using a library like locomotive-scroll. Elements within sections appear to fade in or slide up into view as they enter the viewport, creating a dynamic content loading experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2a2b2f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#b05a36",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f5f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#e0dcd7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body size) with generous line height, complemented by clean, legible sans-serif body text and smaller, uppercase sans-serif labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons, input fields, and some card elements.",
+    "spacing": "Balanced to airy, especially in the hero and between major sections, with content within feature grids being more dense but still well-padded."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of an elegant serif typeface with a modern sans-serif, paired with a warm, muted color palette. This combination, along with subtle parallax motion in the hero, creates a high-trust, editorial, and premium feel that elevates it beyond typical health service sites.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

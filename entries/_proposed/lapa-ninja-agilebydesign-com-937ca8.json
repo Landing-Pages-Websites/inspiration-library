@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-agilebydesign-com-937ca8",
+  "source": {
+    "url": "https://www.agilebydesign.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-agilebydesign-com-937ca8.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-agilebydesign-com-937ca8__scroll0.webp",
+      "shots/_proposed/lapa-ninja-agilebydesign-com-937ca8__scroll1.webp",
+      "shots/_proposed/lapa-ninja-agilebydesign-com-937ca8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "business-services",
+      "agile-consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero sections with large, impactful typography and a dominant graphic element that dynamically shifts position and scale."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a very bold, wide sans-serif font, often with a mix of black and a vibrant orange for emphasis on key words, creating a strong visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark white, deep black, and a single vibrant orange accent color is used throughout for text, graphics, and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, abstract circular arrow graphic dynamically reveals, scales, and repositions as the user scrolls, transforming from a background element to a central framing device for new hero text."
+    },
+    {
+      "kind": "section",
+      "note": "Key content sections are introduced with large, centered, bold headings, often followed by a visual metaphor or a structured list of benefits/steps."
+    }
+  ],
+  "technique_notes": [
+    "The primary scroll-triggered motion involves a large SVG or canvas-rendered graphic that animates its scale, position, and potentially its form as the user scrolls down the page, creating a dynamic visual narrative. This likely leverages a scroll animation library like GSAP ScrollTrigger, potentially combined with canvas or Lottie for the graphic rendering. Sections below the hero appear with a subtle fade-in or slide-up effect as they enter the viewport.",
+    "The navigation bar remains sticky at the top of the viewport, maintaining access to key links. A persistent cookie consent banner is anchored to the bottom right."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF7A00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF7A00",
+        "role": "cta"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, and wide sans-serif headings (~4-5x body text) with a strong visual presence, contrasted with smaller, highly legible body text.",
+    "radius": "Sharp corners are consistently used for all interactive elements like buttons and input fields, contributing to a modern, crisp aesthetic.",
+    "spacing": "Airy spacing in hero sections and around large graphics, transitioning to a more balanced density in content sections with structured lists and grids."
+  },
+  "standout": "The most distinctive feature is the highly dynamic, scroll-driven transformation of the large orange circular arrow graphic, which acts as a central visual motif, evolving and reframing the core message as the user scrolls. This creates a strong sense of motion and engagement beyond typical static hero sections.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "lapa-ninja-ballet-de-marseille-com-543363",
+  "source": {
+    "url": "https://www.ballet-de-marseille.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ballet-de-marseille-com-543363.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ballet-de-marseille-com-543363__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ballet-de-marseille-com-543363__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ballet-de-marseille-com-543363__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "arts",
+      "ballet",
+      "cultural-institution"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column layout where the left column serves as a fixed, persistent navigation menu, and the right column contains all the scrollable content."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic hierarchy featuring massive, wide, bold sans-serif display headings contrasted sharply with small, tightly-spaced monospaced body text."
+    },
+    {
+      "kind": "color",
+      "note": "A strictly monochromatic black and white color scheme, used consistently for all text and backgrounds without any accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "The left navigation column remains statically positioned in the viewport while the right content column scrolls independently beneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by thick, full-width horizontal rules and oversized, distinct headings, creating a strong visual separation."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the layout, implement a fixed-position left sidebar that occupies a significant portion of the viewport width, while the main content area on the right is set to scroll independently.",
+    "Achieve the stark typographic contrast by using a very large, bold, and wide sans-serif font for all primary headings and a much smaller, monospaced font for all body and descriptive text.",
+    "The site's visual identity is built entirely on a high-contrast black and white palette, with no intermediate grays or accent colors."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BNW Lunch",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, wide sans-serif headings (often 5-10x body text size) with small, tightly-spaced monospaced body text.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially in the left navigation and around large headings, creating significant negative space, while body text has tight line-height."
+  },
+  "standout": "The site's design is exceptionally distinctive due to its brutalist-inspired, high-contrast typography, where monumental, wide sans-serif headings dominate the visual field, creating an almost architectural feel. This is starkly contrasted with minimal, monospaced body text and a rigid black-and-white palette, making the content feel less like a website and more like a dynamic, interactive poster or art piece.",
+  "animation_tech": [],
+  "status": "proposed"
+}

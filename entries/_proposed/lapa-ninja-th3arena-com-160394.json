@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-th3arena-com-160394",
+  "source": {
+    "url": "https://www.th3arena.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-th3arena-com-160394.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-th3arena-com-160394__scroll0.webp",
+      "shots/_proposed/lapa-ninja-th3arena-com-160394__scroll1.webp",
+      "shots/_proposed/lapa-ninja-th3arena-com-160394__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "esports",
+      "design-competition",
+      "event"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are full-width with content centered, using a dark background and high-contrast white text for readability and impact."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of extremely bold, condensed, uppercase sans-serif typography for all major headings, creating a strong, impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is accented by vibrant, shifting red and blue gradients that serve as dynamic background elements or overlays."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar becomes sticky at the top of the viewport after initial scroll, while a dynamic background gradient subtly shifts and parallaxes behind the content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections are revealed sequentially as the user scrolls, appearing to animate into view from the bottom with a subtle entrance effect."
+    },
+    {
+      "kind": "section",
+      "note": "Each primary content section is introduced by a very large, uppercase, condensed sans-serif heading, clearly segmenting the page's information."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible at the top of the viewport after the initial hero section scrolls past, ensuring navigation is always accessible.",
+    "Content sections are designed to reveal themselves with scroll-triggered animations, likely using CSS keyframes to create a staggered fade-up or slide-in effect as they enter the viewport.",
+    "A large, animated gradient background is used, which either parallaxes or shifts its position and color composition as the user scrolls, adding a dynamic and immersive feel to the dark aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#118BEE",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "Inconsolata",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, extremely bold, condensed sans-serif headings (~4-5x body) dominate the page, contrasted with a smaller, utilitarian monospace for body text and labels.",
+    "radius": "Sharp, with most elements featuring crisp, angular corners, contributing to a modern and precise aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and comfortable padding within content blocks, creating a clear visual rhythm."
+  },
+  "standout": "The site's distinctive use of a dynamic, shifting gradient background that interacts with the dark, high-contrast typography creates a futuristic and energetic feel, setting it apart from typical event or competition pages. The bold, condensed typography also contributes significantly to this unique aesthetic.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

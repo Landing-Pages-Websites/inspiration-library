@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-sketch-com-e8e309",
+  "source": {
+    "url": "https://www.sketch.com/blog",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sketch-com-e8e309.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sketch-com-e8e309__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sketch-com-e8e309__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sketch-com-e8e309__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-software",
+      "technology"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Blog posts are presented in a single-column layout with large, full-width images within their content container, creating a strong visual hierarchy for each article."
+    },
+    {
+      "kind": "type",
+      "note": "A distinct, elegant serif font is used exclusively for the main page title ('Blog'), while all other headings, body text, and UI elements consistently use a clean, modern sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "The design primarily uses a high-contrast dark text on a light background, with subtle grey tones for secondary information and a very light, almost imperceptible gradient in the hero area."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, specifically individual blog post cards, reveal themselves with a subtle fade-in and slight slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms upon scroll, shrinking slightly in height and gaining a solid, opaque background to become a sticky header."
+    },
+    {
+      "kind": "section",
+      "note": "Each blog post card features a date and category tag prominently displayed above the title, providing quick context for the content."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system (likely locomotive-scroll, as hinted) to create a dynamic content reveal. As the user scrolls down the page, new sections and individual blog post cards subtly fade into view and slide upwards from the bottom of the viewport, enhancing engagement.",
+    "The global navigation bar transitions from an initial transparent or semi-transparent state to a more compact, opaque sticky header with a subtle shadow once the user scrolls past the initial hero section, ensuring continuous access to navigation.",
+    "Imagery for blog posts is integrated as full-bleed visuals within their respective content blocks, often showcasing product screenshots or relevant photography, serving as strong visual anchors for each article."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#212123",
+        "role": "text"
+      },
+      {
+        "hex": "#858585",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "footer-text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very large, elegant serif display font for the main page title, contrasted with a clear hierarchy of bold sans-serif article titles and smaller, lighter sans-serif body text and metadata.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, but predominantly sharp corners for overall layout and image containers.",
+    "spacing": "Balanced to airy, with generous vertical spacing between blog post sections and a particularly airy hero area, contributing to a clean and uncluttered feel."
+  },
+  "standout": "This site's design stands out by elevating a standard blog layout into a premium, editorial experience. It achieves this through the distinctive use of an elegant serif display font for the main page title, combined with a clean sans-serif for all other content, and subtle scroll-triggered content reveals that add a sophisticated layer of interaction without being distracting.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-des-obys-agency-6b8660",
+  "source": {
+    "url": "https://des.obys.agency",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-des-obys-agency-6b8660.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-des-obys-agency-6b8660__scroll0.webp",
+      "shots/_proposed/lapa-ninja-des-obys-agency-6b8660__scroll1.webp",
+      "shots/_proposed/lapa-ninja-des-obys-agency-6b8660__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "design-education",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout with a fixed, oversized brand logo on the left and a scrollable content area on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif typography is used for section titles and course names, creating strong visual hierarchy against smaller, functional body text."
+    },
+    {
+      "kind": "color",
+      "note": "A monochromatic base palette of black, white, and light gray dominates the UI, allowing the vibrant, detailed 3D renders within content sections to provide visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header, comprising a prominent logo and navigation, maintains brand presence and site access as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Each course is presented as a distinct, full-width visual block featuring a unique, high-fidelity 3D render as its primary visual identifier."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth, controlled scrolling experience, likely using locomotive-scroll, where content sections appear to glide into view with subtle easing rather than snapping.",
+    "A persistent, oversized brand logo is fixed to the left side of the viewport, acting as a background element that content scrolls over, creating a layered depth effect and strong brand reinforcement.",
+    "The main navigation and a smaller version of the logo become a sticky header at the top of the viewport after initial scroll, ensuring constant access to key site sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#a7a7a7",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#333333",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~4-5x body text) with smaller, functional sans-serif body and label text.",
+    "radius": "Sharp corners throughout all UI elements, contributing to a clean, modern aesthetic.",
+    "spacing": "Airy and spacious, particularly in the hero and between major content sections, with full-width content blocks creating a sense of openness."
+  },
+  "standout": "The site's design is distinctive for its bold, asymmetrical layout that dedicates significant screen real estate to a fixed, oversized brand logo on the left, creating a strong, persistent brand presence. This, combined with the full-bleed, high-fidelity 3D rendered course visuals, elevates the experience beyond a typical e-learning platform into something akin to a digital art gallery.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-vwlab-io-c02b25",
+  "source": {
+    "url": "https://vwlab.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-vwlab-io-c02b25.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-vwlab-io-c02b25__scroll0.webp",
+      "shots/_proposed/lapa-ninja-vwlab-io-c02b25__scroll1.webp",
+      "shots/_proposed/lapa-ninja-vwlab-io-c02b25__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "web-development",
+      "design-education"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with distinct background colors, often containing content within a centered, fixed-width container. Asymmetrical image grids are used for showcasing work."
+    },
+    {
+      "kind": "type",
+      "note": "A blend of technical monospace fonts (for numbering and code-like elements) and bold, wide, geometric sans-serifs for display headings and navigation, often in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy palette featuring light beige, dark maroon, and deep brown, contrasted with black and white text, and punctuated by bright yellow/orange accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a prominent, interactive 3D WebGL sphere that scrolls out of view. The navigation bar is sticky and transforms its background color from transparent/light to a solid dark maroon upon scroll. Subsequent content sections appear to reveal sequentially as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Course listings are presented as numbered items within distinct, full-width background blocks, using a monospace font for the numbering."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes WebGL/canvas for a complex, interactive 3D animated sphere that serves as the primary visual element. This element is designed to scroll out of view, revealing the main content.",
+    "GSAP ScrollTrigger is employed to manage scroll-based animations, including the sticky navigation's background color and style transformation, and the sequential reveal of content sections as they enter the viewport, likely with a fade-in or subtle slide-up effect.",
+    "The site uses a combination of custom fonts, including monospace for functional elements and stylized display fonts for headings, to create a distinct visual identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d8bfc0",
+        "role": "background"
+      },
+      {
+        "hex": "#5d3136",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ffc000",
+        "role": "accent"
+      },
+      {
+        "hex": "#7c5658",
+        "role": "surface"
+      },
+      {
+        "hex": "#231f20",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: NeueRoman",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto-Regular",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, wide, uppercase display headings (~4-5x body) are used for section titles and navigation, often paired with smaller, functional monospace or sans-serif text for details and listings.",
+    "radius": "Sharp corners are dominant for most elements, including buttons, cards, and section boundaries, with only very subtle rounding on a few specific interactive elements.",
+    "spacing": "Balanced density overall, with airy hero and section breaks providing clear visual separation, while content within sections like course listings can be more compact."
+  },
+  "standout": "The site's distinctive use of a highly interactive, abstract 3D WebGL sphere as its primary hero element, combined with a unique blend of technical monospace and bold, wide display typography, sets it apart. The warm, earthy color palette further enhances this sophisticated yet playful aesthetic, creating a memorable and engaging experience for a technical subject.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
