@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0794",
+  "source": {
+    "url": "https://www.hevahealth.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0794.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0794__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0794__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0794__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "functional-medicine",
+      "wellness"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page utilizes a full-bleed hero section with text overlay, followed by a two-column grid of feature cards, and then transitions to centered text sections with ample vertical spacing."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, large serif headings are paired with clean, legible sans-serif body text, often complemented by small, uppercase labels for contextual information."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, minimal color palette is used, dominated by a light cream background, dark charcoal text, and a vibrant golden yellow accent color for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic background image that visually swaps from one person to another upon initial scroll, creating an immediate sense of transformation. Simultaneously, the navigation bar shrinks in height and gains a solid white background, becoming sticky."
+    },
+    {
+      "kind": "motion",
+      "note": "Subsequent content sections, such as the feature cards and text blocks, reveal themselves with a subtle fade-up or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Feature cards are consistently structured with an image, a bold title, a concise description, and a clear call-to-action button, presented in a responsive two-column grid."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a video or image sequence that dynamically changes its primary visual on scroll, creating an engaging and transformative introduction. This is likely achieved using JavaScript to detect scroll position and swap out background elements or apply CSS keyframe animations.",
+    "A sticky navigation bar is implemented that reduces its height and changes its background from transparent to a solid color (white) with contrasting text and button styles after the user scrolls past the initial hero section. This maintains a clean aesthetic while ensuring navigation is always accessible.",
+    "Content sections below the hero are revealed using scroll-triggered animations, where elements subtly fade or slide upwards into view as they enter the viewport, enhancing engagement and guiding the user's eye down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f7f2",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#f8c100",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#4a5a4a",
+        "role": "cta-background"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (approx. 3-4x body) provide a sophisticated feel, complemented by smaller, legible sans-serif body text and distinct uppercase labels.",
+    "radius": "Subtle (buttons, cards, and input fields have a slight rounding of 4-8px).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of calm and openness."
+  },
+  "standout": "The most distinctive feature is the dynamic hero section where the background image visually changes upon initial scroll, creating an immediate sense of transformation and engagement. This is combined with an elegant serif typography and a warm, minimal color palette that exudes a refined, health-focused aesthetic, setting it apart from typical modern marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
