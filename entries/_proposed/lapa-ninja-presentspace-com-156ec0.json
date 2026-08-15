@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-presentspace-com-156ec0",
+  "source": {
+    "url": "https://presentspace.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-presentspace-com-156ec0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-presentspace-com-156ec0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-presentspace-com-156ec0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-presentspace-com-156ec0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "culture",
+      "publishing",
+      "media"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A distinct 'hero transition' layout where a full-bleed video gives way to a minimal black section, then a content-focused grid, all within a largely centered content column."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a classic serif font for primary content and headings, contrasted with a clean, minimal sans-serif for navigation and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white palette forms the base, with rich, naturalistic photography providing the primary visual interest and color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-stage sticky header that transforms from an overlay on a video hero to a prominent, centered navigation on a black background, and finally to a standard top-sticky navigation with a white background."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (text blocks, image grids) reveal with a subtle slide-up or fade-in effect as they enter the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video that transitions out on scroll, revealing a temporary, minimal black section with a centered navigation before the main content appears.",
+    "A sticky header system that evolves: initially transparent and overlaid on the video hero, it then becomes a centered, black-background navigation, and finally a standard top-aligned navigation with a white background and black text, maintaining its position throughout the scroll.",
+    "Content sections are revealed using a scroll-triggered animation, where elements slide up or fade in from the bottom as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#ddd",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "display"
+      }
+    ],
+    "type_scale": "A refined, editorial type scale featuring a classic serif for headings and body text, with headings being moderately larger (~1.5-2x body) and a clean sans-serif for small, often uppercase, labels and navigation.",
+    "radius": "sharp",
+    "spacing": "An airy and balanced spacing rhythm, particularly in the hero and main text blocks, transitioning to a more balanced density within image grids, emphasizing visual breathing room."
+  },
+  "standout": "The site's distinctive use of a high-quality, artistic video hero that dramatically transitions into a stark, minimal black section before revealing an editorial-style content grid. This creates a strong sense of curated artistry and a unique, almost cinematic, browsing experience that elevates the content itself.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

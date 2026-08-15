@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-nodcoding-com-abb7d5",
+  "source": {
+    "url": "https://nodcoding.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-nodcoding-com-abb7d5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-nodcoding-com-abb7d5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-nodcoding-com-abb7d5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-nodcoding-com-abb7d5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "tech",
+      "coding-bootcamp"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts frequently feature large, abstract geometric illustrations that serve as visual anchors or background elements, often extending beyond typical content boundaries."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently very large and bold, creating strong visual hierarchy and impact, often contrasting with smaller, standard-sized body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and playful secondary palette of oranges, blues, pinks, and greens is used exclusively within abstract illustrations, contrasting with a clean, minimal primary palette of white, light cream, and dark grey for text and backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a scroll-triggered animation where abstract geometric shapes dynamically combine and reveal the text 'coding bootcamp' as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly delineated by changes in background color (white, light cream, light yellow) and often incorporate large, full-width abstract illustrations that act as visual dividers or thematic backdrops."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar starts with a transparent background and fixed position, then shrinks slightly in height and gains a solid white background with a subtle shadow as the user scrolls down the page.",
+    "Scroll-triggered animations, likely using GSAP or similar JavaScript libraries, are employed to reveal sections with a subtle fade-in or slide-up effect as they enter the viewport.",
+    "The hero section's abstract illustration uses a complex scroll-driven animation, possibly leveraging GSAP ScrollTrigger, to transform and assemble geometric shapes into a legible wordmark ('coding bootcamp') as the user scrolls, creating an engaging reveal effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fbad41",
+        "role": "surface"
+      },
+      {
+        "hex": "#383030",
+        "role": "text"
+      },
+      {
+        "hex": "#f6821f",
+        "role": "accent"
+      },
+      {
+        "hex": "#4285f4",
+        "role": "accent"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "accent"
+      },
+      {
+        "hex": "#28a745",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: SF Pro Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: SF Pro Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~3-5x body text) create strong visual impact, while body text maintains clear legibility.",
+    "radius": "Subtle rounding on interactive elements like buttons and cards, while abstract illustrations feature a mix of sharp angles and soft curves.",
+    "spacing": "Airy and generous, particularly in the hero and between major sections, contributing to a clean and uncluttered aesthetic."
+  },
+  "standout": "The site's distinctive use of large, abstract, geometric illustrations that are not merely decorative but are dynamically integrated into the layout and motion, especially the hero section's scroll-triggered wordmark reveal, sets it apart from typical marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

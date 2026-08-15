@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-merge-berlin-0838b6",
+  "source": {
+    "url": "https://merge.berlin",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-merge-berlin-0838b6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-merge-berlin-0838b6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-merge-berlin-0838b6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-merge-berlin-0838b6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "conference",
+      "events"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with distinct, often dark, background colors create clear visual breaks and structure the page."
+    },
+    {
+      "kind": "type",
+      "note": "A highly stylized, custom-designed logotype for 'THE MERGE' serves as both the primary brand identifier and a dynamic sticky header."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark primary background (#292440) is consistently contrasted with a vibrant, multi-color accent palette used in custom illustrations and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The large hero logotype scales down and repositions to the top-left as a persistent, sticky header as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Key content sections are introduced and visually branded with large, custom illustrations that integrate the site's vibrant accent colors and playful aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The main logotype in the hero section uses CSS keyframes to smoothly scale down and transition its position to a fixed header element upon scroll, maintaining its presence throughout the page.",
+    "The hero illustration employs a subtle parallax effect, moving at a slightly different speed than the foreground content to add depth as the user scrolls.",
+    "Sections are full-bleed with distinct background colors, often dark, to create clear visual separation and structure, with white text for high contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#292440",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#dfa54f",
+        "role": "cta"
+      },
+      {
+        "hex": "#16a085",
+        "role": "accent"
+      },
+      {
+        "hex": "#8e44ad",
+        "role": "accent"
+      },
+      {
+        "hex": "#2980b9",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Custom Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "The hero logotype is exceptionally large, complemented by bold, clear sans-serif headings and readable body text.",
+    "radius": "Subtle corner radius on interactive elements like buttons, input fields, and speaker cards.",
+    "spacing": "Balanced density, with an airy hero section transitioning to more compact grids for speakers and partners."
+  },
+  "standout": "The most distinctive element is the custom-designed 'THE MERGE' logotype, which not only serves as a prominent hero element but also dynamically scales and repositions to become a sticky, persistent header. This clever use of branding as a functional UI element is unique and memorable.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

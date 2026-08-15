@@ -1,0 +1,125 @@
+{
+  "id": "lapa-ninja-augusthealth-com-a5a957",
+  "source": {
+    "url": "https://www.augusthealth.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-augusthealth-com-a5a957.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-augusthealth-com-a5a957__scroll0.webp",
+      "shots/_proposed/lapa-ninja-augusthealth-com-a5a957__scroll1.webp",
+      "shots/_proposed/lapa-ninja-augusthealth-com-a5a957__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "senior-care",
+      "saas",
+      "ehr"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Large, overlapping, brightly colored circular shapes are used as primary visual motifs, acting as background elements and containers for images or UI cards, especially prominent in the hero section."
+    },
+    {
+      "kind": "layout",
+      "note": "Product features are showcased through a dynamic, multi-column grid of simulated UI cards that appear to be interactive or scrollable within their frames, creating a 'peek' into the software."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse palette of primary and secondary colors (blue, green, orange, pink) is used for large background shapes and accents, providing high contrast against clean white/off-white backgrounds and dark text."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from a transparent state over the hero to a solid, slightly darker background with a subtle shadow as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Large circular elements in the hero section appear to parallax or move at different speeds relative to the scroll, creating a sense of depth as the user scrolls past the initial view."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use a split layout, combining a large visual (e.g., a testimonial image or a block of statistics) on one side with descriptive text or bullet points on the other."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using a staggered fade-up or slide-in animation as they enter the viewport, likely orchestrated with a library like GSAP ScrollTrigger or Anime.js. The sticky navigation's transformation (background, shadow) is triggered by scroll position. Hero elements use CSS transforms for parallax effects, moving at different rates based on scroll depth.",
+    "Large, overlapping SVG or CSS-drawn circular shapes are used as primary visual motifs, often containing images or UI elements, and are positioned with absolute or fixed values to create a dynamic, layered effect.",
+    "Headings utilize a classic serif font for a sophisticated feel, while body text and UI elements use a clean, modern sans-serif for readability, creating a clear typographic hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0E1216",
+        "role": "text"
+      },
+      {
+        "hex": "#4865FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#328A3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF6D39",
+        "role": "accent"
+      },
+      {
+        "hex": "#F098D7",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFAEFE",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F5F1",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are generously sized with a classic serif, creating a strong hierarchy, while body text is a clean, legible sans-serif, with smaller uppercase labels used for emphasis.",
+    "radius": "Rounded for buttons and cards (subtle to rounded), with larger, perfectly circular shapes used as decorative and content-holding elements.",
+    "spacing": "Balanced to airy, with ample whitespace around major sections and within the hero, creating a clean and open feel."
+  },
+  "standout": "The distinctive use of large, overlapping, brightly colored circular shapes as both decorative elements and containers for content (images, UI cards) creates a playful yet sophisticated visual identity that breaks from typical grid-based layouts. This geometric motif, combined with the elegant serif typography, gives the site a unique and memorable aesthetic.",
+  "animation_tech": [
+    "anime-js",
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
