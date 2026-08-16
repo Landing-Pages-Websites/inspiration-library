@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-color-monkey-com-b617d7",
+  "source": {
+    "url": "https://www.color-monkey.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-color-monkey-com-b617d7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-color-monkey-com-b617d7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-color-monkey-com-b617d7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-color-monkey-com-b617d7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "cycling",
+      "custom-bikes",
+      "paint-services"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with large, centered typographic elements serving as primary visual anchors, often paired with asymmetrically placed images or content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Massive, condensed sans-serif headings are used for section titles, with specific words within these headings highlighted by vibrant spot colors. A contrasting, elegant script font is used for secondary, more emotive text overlays."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark, textured background provides a canvas for high-contrast light text and vibrant, multi-colored accents (blue, green, orange, yellow) applied to individual words or key elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content elements reveal with a staggered fade-up or slide-in animation as they enter the viewport. Large typographic elements like 'COLOR MONKEY' and 'SERVICES' use a layered parallax effect, where the text scrolls slower than the background, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid dark background, while the logo also scales down."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate complex scroll-triggered animations, including layered parallax for large text elements and staggered fade-up/slide-in reveals for content sections and individual cards as they enter the viewport.",
+    "The sticky header dynamically changes its appearance (size, background) based on scroll position, likely using a combination of CSS transitions and JavaScript to detect scroll depth.",
+    "Vibrant spot colors are applied to specific words within large, bold headings to create visual emphasis and a playful brand identity, likely achieved by wrapping those words in spans with distinct styling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#D8D6CE",
+        "role": "text"
+      },
+      {
+        "hex": "#FA693E",
+        "role": "accent"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00C896",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "neue-haas-grotesk-display",
+        "role": "heading"
+      },
+      {
+        "family": "stratos",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Brush Script MT",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, condensed sans-serif headings (~8-10x body text) with vibrant spot colors, contrasted by a smaller, elegant script font for secondary emphasis and a clean sans-serif for body text.",
+    "radius": "Sharp corners are consistently used across all elements, including buttons, image frames, and section boundaries.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and ample padding around large typographic elements, creating a sense of openness and impact."
+  },
+  "standout": "The site's distinctive use of massive, multi-colored typography as dynamic, scroll-triggered visual anchors, combined with a dark, textured background and a contrasting elegant script font, creates an energetic and highly branded experience that feels both industrial and playful. The layered parallax on the main headings is particularly unique.",
+  "animation_tech": [
+    "gsap",
+    "lottie"
+  ],
+  "status": "proposed"
+}

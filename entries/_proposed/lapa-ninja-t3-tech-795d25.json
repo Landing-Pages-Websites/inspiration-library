@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-t3-tech-795d25",
+  "source": {
+    "url": "https://t3.tech",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-t3-tech-795d25.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-t3-tech-795d25__scroll0.webp",
+      "shots/_proposed/lapa-ninja-t3-tech-795d25__scroll1.webp",
+      "shots/_proposed/lapa-ninja-t3-tech-795d25__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "fleet-management",
+      "construction"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with a dark, semi-transparent overlay for text contrast, establishing a dramatic and immersive initial view."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating dark (near black) and warm light (off-white/cream) background sections are used consistently to visually separate distinct content blocks and create rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large, bold sans-serifs, often preceded by a smaller, uppercase sans-serif label, creating a clear and strong content hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep, earthy dark tones and warm off-whites dominates, with industrial yellow accents appearing in imagery rather than UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling at a slower rate than the foreground content to add depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport after initial scroll, providing persistent access."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed feature sections often pair a prominent visual (e.g., a phone app screenshot or an illustration) with concise descriptive text, arranged in a flexible grid."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-bleed hero image with a dark, semi-transparent gradient overlay to ensure text readability against a complex background, creating a dramatic visual introduction.",
+    "Content sections are revealed with a staggered fade-up and subtle slide-in animation as they enter the viewport, likely orchestrated using GSAP ScrollTrigger, providing a dynamic and engaging scroll experience.",
+    "The hero background image employs a subtle parallax effect, where it scrolls at a slower rate than the foreground content, adding a sense of depth and movement to the initial view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d0a08",
+        "role": "background"
+      },
+      {
+        "hex": "#fff5eb",
+        "role": "surface"
+      },
+      {
+        "hex": "#ebe0d5",
+        "role": "secondary-surface"
+      },
+      {
+        "hex": "#524b44",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#f7c500",
+        "role": "accent-from-imagery"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: IBM Plex Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: IBM Plex Sans",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, often uppercase, sans-serif labels, creating a clear and strong content hierarchy.",
+    "radius": "Subtle \u2014 mostly sharp corners for structural elements, with very slight rounding on buttons and cards.",
+    "spacing": "Balanced \u2014 generous vertical spacing between sections, with comfortable padding within content blocks, creating an airy but structured feel."
+  },
+  "standout": "The site's distinctive blend of a rugged, industrial aesthetic (heavy machinery, earthy tones) with a clean, modern, and highly structured digital interface. The use of a very dark, almost black, background with warm off-white sections and subtle motion creates a sophisticated and authoritative feel that avoids typical corporate blandness.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

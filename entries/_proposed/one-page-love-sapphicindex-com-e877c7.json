@@ -1,0 +1,130 @@
+{
+  "id": "one-page-love-sapphicindex-com-e877c7",
+  "source": {
+    "url": "https://sapphicindex.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-sapphicindex-com-e877c7.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-sapphicindex-com-e877c7__scroll0.webp",
+      "shots/_proposed/one-page-love-sapphicindex-com-e877c7__scroll1.webp",
+      "shots/_proposed/one-page-love-sapphicindex-com-e877c7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "nightlife",
+      "travel",
+      "community",
+      "entertainment"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, fixed-like background image with overlaying text and graphic elements, creating a collage effect."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is presented as a vertical list of distinct 'bar entry' sections, each with a polaroid-style image, descriptive text, and a prominent 'Sapphic Index' score."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is used, pairing an extremely large, bold, condensed sans-serif for the main title with a classic serif for detailed 'Field Notes' and a clean sans-serif for labels and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, muted off-white/beige background (#f4efe7) serves as a canvas, providing high contrast for black text and allowing vibrant, slightly desaturated accent colors (pink, orange, yellow, blue, green) to pop in graphic elements like badges."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (bar entries) are revealed with a scroll-triggered animation, sliding up and fading in as they enter the viewport, creating a dynamic reading experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image (hand with drink) exhibits a subtle parallax effect, scrolling slower than the foreground text and graphic elements, adding a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "A 'Field Guide Key' section uses distinctively styled, colorful, organically shaped badges to visually categorize features of the listed bars."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations using CSS keyframes or webgl-three to reveal content sections. As the user scrolls, individual bar entries animate into view with a subtle slide-up and fade-in effect. The hero background image uses a slower scroll speed or a fixed position with a parallax effect to create depth against the scrolling foreground content. The top navigation bar becomes sticky after the initial hero section scrolls past.",
+    "Achieve a vintage, curated scrapbook or zine aesthetic by using distressed image frames (like torn paper or polaroids), graphic elements resembling tape, stamps, and handwritten notes, all set against a textured, off-white background.",
+    "Establish a clear visual hierarchy with an extremely large, bold display font for the main page title, a classic serif for longer descriptive text, and a clean, legible sans-serif for smaller labels and metadata."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f4efe7",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f492a5",
+        "role": "accent"
+      },
+      {
+        "hex": "#f78c3c",
+        "role": "accent"
+      },
+      {
+        "hex": "#f7c93c",
+        "role": "accent"
+      },
+      {
+        "hex": "#4a72d1",
+        "role": "accent"
+      },
+      {
+        "hex": "#70b970",
+        "role": "accent"
+      },
+      {
+        "hex": "#a89a8a",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "custom_186012",
+        "role": "heading"
+      },
+      {
+        "family": "Georgia",
+        "role": "body"
+      },
+      {
+        "family": "Roboto",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed sans-serif hero title (~6-7x body) with a clear hierarchy down to legible serif body text and small, uppercase sans-serif labels.",
+    "radius": "Predominantly sharp corners for main content blocks, but with playful, organic rounded shapes and distressed edges for graphic elements like badges, buttons, and image frames.",
+    "spacing": "Airy in the hero and between major sections, becoming more balanced within content blocks, maintaining a comfortable reading rhythm."
+  },
+  "standout": "The site's distinctive, highly curated 'zine' or 'scrapbook' aesthetic, blending vintage paper textures, handwritten notes, and distressed graphic elements with a modern, bold typographic style. This creates a unique, tactile, and editorial feel that goes beyond typical digital design.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

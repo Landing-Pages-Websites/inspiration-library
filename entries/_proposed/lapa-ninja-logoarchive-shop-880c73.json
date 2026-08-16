@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-logoarchive-shop-880c73",
+  "source": {
+    "url": "https://www.logoarchive.shop",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-logoarchive-shop-880c73.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-logoarchive-shop-880c73__scroll0.webp",
+      "shots/_proposed/lapa-ninja-logoarchive-shop-880c73__scroll1.webp",
+      "shots/_proposed/lapa-ninja-logoarchive-shop-880c73__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "publishing",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed black background serves as a consistent canvas for a dense, responsive grid of diverse, colorful design examples, each presented as a distinct module."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme uses stark black for the background and white for all primary UI text, allowing the vibrant and varied colors within the showcased design work to be the focal point."
+    },
+    {
+      "kind": "motion",
+      "note": "The utility navigation bar at the top and a prominent newsletter subscription bar at the bottom remain fixed in the viewport as the user scrolls, providing persistent access to key actions and information."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, labeled categories (e.g., 'LogoArchive Zines', 'Brand Guidelines') that act as visual dividers, each accompanied by a 'View all' link to encourage deeper exploration."
+    },
+    {
+      "kind": "type",
+      "note": "UI elements and navigation use a clean, understated sans-serif typeface, providing a neutral backdrop for the highly expressive and varied typography present within the design examples themselves."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element containing utility navigation and a fixed footer element for a newsletter signup form are positioned to remain visible at the top and bottom of the viewport, respectively, while the main content area scrolls independently between them.",
+    "The primary content is structured using a flexible grid system that displays design examples as individual modules, maintaining their aspect ratios and scaling appropriately within their grid cells to fill the available space.",
+    "The site leverages a stark black background with white text for its interface, creating a high-contrast environment that makes the colorful and visually rich design content pop, effectively using the content itself as the primary visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#fffb00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Understated, functional sans-serif type for UI elements, with a clear hierarchy but generally smaller sizes, allowing the visual content to dominate.",
+    "radius": "sharp",
+    "spacing": "balanced and airy, with generous negative space around content modules and between sections, emphasizing individual design pieces."
+  },
+  "standout": "The site's most distinctive feature is its bold, minimalist presentation of highly diverse and colorful graphic design work against a stark, full-bleed black background. This approach transforms the website into a curated digital gallery, where the content itself is the primary design element, making each piece stand out with maximum impact.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
