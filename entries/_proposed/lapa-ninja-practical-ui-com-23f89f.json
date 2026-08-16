@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-practical-ui-com-23f89f",
+  "source": {
+    "url": "https://www.practical-ui.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-practical-ui-com-23f89f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-practical-ui-com-23f89f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-practical-ui-com-23f89f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-practical-ui-com-23f89f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "education",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, illustrative product image on the right, balanced by a concise text block and call-to-action on the left."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating background styles for content sections, transitioning between plain white and a subtle, light grey grid pattern to visually segment information."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant, deep blue as the primary accent and call-to-action color, providing strong contrast against a predominantly white and light grey background."
+    },
+    {
+      "kind": "motion",
+      "note": "The header bar transforms on scroll: initially transparent and taller, it shrinks in height and gains a solid white background with a subtle shadow as the user scrolls past the hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Integration of highly detailed, realistic UI mockups and product illustrations directly within content sections, serving as primary visual examples rather than abstract icons or stock photography."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, implement a fixed navigation bar that starts with a transparent background and a generous height. Use JavaScript or CSS scroll-triggered states to transition it to a reduced height, a solid white background, and a subtle drop shadow once the user scrolls past the initial hero content.",
+    "Sections and key content blocks animate into view as they enter the viewport, typically with a subtle fade-in and a slight upward translation. This creates a dynamic and engaging scrolling experience, revealing content progressively.",
+    "The site's visual identity relies on designing complex, realistic user interface mockups and product illustrations. These are then seamlessly integrated into the page layout, often as hero elements or detailed section visuals, to directly demonstrate the product's value and expertise."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e5e7f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#3d55cc",
+        "role": "cta"
+      },
+      {
+        "hex": "#505673",
+        "role": "body-text"
+      },
+      {
+        "hex": "#595f7a",
+        "role": "heading-text"
+      },
+      {
+        "hex": "#fec62e",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clear hierarchy, paired with a clean, readable sans-serif body text.",
+    "radius": "subtle (slight rounding on buttons, cards, and images)",
+    "spacing": "airy hero section with generous padding, transitioning to balanced and comfortable spacing in subsequent content sections"
+  },
+  "standout": "This site distinguishes itself through its exceptional use of highly detailed, realistic UI mockups and product illustrations as central design elements. Instead of relying on generic visuals, it embeds intricate examples of its design system directly into the page, effectively showcasing the product's quality and practical application.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

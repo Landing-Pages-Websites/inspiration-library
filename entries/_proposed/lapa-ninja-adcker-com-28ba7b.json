@@ -1,0 +1,93 @@
+{
+  "id": "lapa-ninja-adcker-com-28ba7b",
+  "source": {
+    "url": "https://adcker.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-adcker-com-28ba7b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-adcker-com-28ba7b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-adcker-com-28ba7b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-adcker-com-28ba7b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "social-media",
+      "beauty",
+      "fashion",
+      "wellness"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dominant use of large, centered, stacked text blocks for primary headings, creating a strong visual hierarchy and graphic impact."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections are separated by significant vertical whitespace and alternating background colors (light off-white and dark charcoal), providing clear content segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "Headings feature an exceptionally large, bold, and condensed sans-serif typeface, often stacked and centered, creating a graphic, almost poster-like aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Stylistic use of parentheses and asterisks within large headings to emphasize certain words or add visual flair."
+    },
+    {
+      "kind": "motion",
+      "note": "The entire page content collapses and scales down into a small, centered image with a percentage counter as the user scrolls, creating a dramatic full-page transformation."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sophisticated scroll-triggered animation system where the entire page content transforms and scales down into a single focal point (an image) with a progress indicator as the user scrolls. This effect likely involves a combination of CSS transforms and JavaScript (e.g., GSAP ScrollTrigger) to control the scaling, positioning, and opacity of multiple elements simultaneously based on scroll depth.",
+    "Large, graphic headings are achieved by setting an extremely high font-size and bold weight for a condensed sans-serif typeface, with tight line-height and letter-spacing to create a stacked, impactful visual block."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#efedea",
+        "role": "background"
+      },
+      {
+        "hex": "#191919",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and condensed display headings (~5-8x body text) with small, uppercase labels and standard sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy; generous vertical spacing between large content blocks and headings, creating a sense of openness and emphasis."
+  },
+  "standout": "The site's most distinctive feature is its dramatic full-page scroll transformation, where all content collapses into a single, small focal image with a percentage counter. This is complemented by an exceptionally bold and graphic typographic style that uses oversized, stacked headings to create a powerful visual statement.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

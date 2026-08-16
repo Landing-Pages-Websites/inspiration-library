@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-everest-systems-com-d3c702",
+  "source": {
+    "url": "https://everest-systems.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-everest-systems-com-d3c702.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-everest-systems-com-d3c702__scroll0.webp",
+      "shots/_proposed/lapa-ninja-everest-systems-com-d3c702__scroll1.webp",
+      "shots/_proposed/lapa-ninja-everest-systems-com-d3c702__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "enterprise-software",
+      "erp"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout features a prominent full-bleed video on one side, balanced by a large, high-impact text block on the other, creating an immediate visual focal point."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a very large, bold, condensed sans-serif typeface, often in all caps for emphasis, providing strong visual hierarchy against smaller, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep, near-black background is consistently used across most sections, providing a high-contrast canvas for crisp white text and vibrant red and bright blue accent colors for CTAs and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-up animation as they enter the viewport during scroll, creating a dynamic content flow. The top announcement banner smoothly animates out of view on scroll, and the main navigation becomes sticky with a solid dark background."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured into full-width, distinct sections, frequently featuring a large, impactful heading followed by descriptive text and supporting visual elements, often alternating between dark and lighter backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered content reveals are implemented using CSS keyframe animations, causing sections to subtly fade and slide into view as the user scrolls down the page. The main navigation bar transitions from a transparent state to a sticky, solid dark background with a subtle shadow upon initial scroll, while a top announcement banner smoothly animates out of view.",
+    "The hero section employs a full-bleed video background on one side, paired with a large, high-contrast text overlay on the other, creating an immediate and engaging visual impact.",
+    "Call-to-action buttons feature a distinct, vibrant red background with white text, providing strong visual contrast against the dark page elements and drawing immediate attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000e11",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff0214",
+        "role": "accent-cta-primary"
+      },
+      {
+        "hex": "#212121",
+        "role": "surface"
+      },
+      {
+        "hex": "#2e3948",
+        "role": "surface-dark"
+      },
+      {
+        "hex": "#007bff",
+        "role": "accent-cta-secondary"
+      },
+      {
+        "hex": "#ebebeb",
+        "role": "surface-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Barlow Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Barlow",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, impactful headings (~3-4x body text) with a condensed, bold sans-serif character, complemented by clear, standard-sized body text.",
+    "radius": "Subtle; elements like buttons and cards have slightly rounded corners, but overall forms are sharp.",
+    "spacing": "Balanced; generous vertical spacing between sections and within the hero, with a tighter grid for feature cards."
+  },
+  "standout": "The site's distinctive use of a deep, near-black background combined with high-contrast white text and vibrant red and blue accents creates a bold and sophisticated aesthetic. The dynamic scroll-triggered content reveals, particularly the disappearing top banner and sticky navigation transformation, add a layer of polished interactivity that elevates the user experience beyond a static template.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

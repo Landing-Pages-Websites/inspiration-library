@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-postgeneric-com-057502",
+  "source": {
+    "url": "https://postgeneric.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-postgeneric-com-057502.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-postgeneric-com-057502__scroll0.webp",
+      "shots/_proposed/lapa-ninja-postgeneric-com-057502__scroll1.webp",
+      "shots/_proposed/lapa-ninja-postgeneric-com-057502__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-development",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Project showcase sections utilize a dynamic, non-uniform grid layout where individual project cards vary significantly in size and aspect ratio, creating an editorial, magazine-like feel."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and set in a modern sans-serif typeface, providing strong visual hierarchy against lighter-weight body text and small, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a high-contrast palette of light grey backgrounds, dark text, and a vibrant electric blue as a primary accent color for calls to action and key branding elements."
+    },
+    {
+      "kind": "motion",
+      "note": "An animated blue semi-circle expands and transforms to reveal the site's logo as a pre-loader, which then fades out to transition into the full page content. No scroll-triggered motion is observed on the page content itself."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by alternating background colors (light grey, white, and dark grey/black) and generous vertical padding, maintaining visual separation and flow."
+    }
+  ],
+  "technique_notes": [
+    "An initial loading animation features a geometric blue shape that expands and transforms to reveal the site's logo, then fades out to transition into the full page content.",
+    "Project displays are built using a flexible grid system that allows individual items to span multiple columns and rows, creating an asymmetrical and visually engaging arrangement.",
+    "Text hierarchy is established through a clear contrast between oversized, bold sans-serif headings and lighter, smaller body text, often accompanied by subtle uppercase labels for categorization."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#9a9a9a",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, bold sans-serif headings (~3-4x body) with smaller, lighter body text and occasional uppercase labels.",
+    "radius": "sharp",
+    "spacing": "balanced to airy; generous vertical padding between sections, with well-distributed content within blocks."
+  },
+  "standout": "The site's most distinctive feature is its dynamic, non-uniform grid layout for showcasing projects, which breaks away from typical symmetrical grids to create a more editorial and visually stimulating experience. This, combined with the bold blue accent and sharp typography, gives it a unique, modern agency feel.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

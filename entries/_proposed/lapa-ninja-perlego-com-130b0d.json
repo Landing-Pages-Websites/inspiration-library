@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-perlego-com-130b0d",
+  "source": {
+    "url": "https://www.perlego.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-perlego-com-130b0d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-perlego-com-130b0d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-perlego-com-130b0d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-perlego-com-130b0d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "saas",
+      "digital-library"
+    ],
+    "mood": [
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating background colors for sections (white, light beige, dark blue) to visually separate content blocks, often with centered content within full-width containers."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of an elegant, high-contrast serif display font for major headlines, paired with a clean, highly readable sans-serif for body text and functional elements."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent, vibrant deep blue (#3327ec) serves as the primary accent for interactive elements like CTAs and links, providing strong visual cues against a palette of white, light beige, and dark navy backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar and a top announcement banner become sticky on scroll, with the navigation bar transitioning from a transparent to a solid white background and slightly condensing in height."
+    },
+    {
+      "kind": "motion",
+      "note": "Individual content sections and their internal elements (e.g., images, text blocks) are revealed with a subtle fade-in or slide-up animation as they enter the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonial sections feature circular profile images and quotes presented in a clean grid, often accompanied by logos of reputable associated institutions, reinforcing credibility."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header system is employed, where both a top announcement bar and the main navigation remain fixed at the top of the viewport. The main navigation dynamically changes its background from transparent to solid white and slightly reduces its vertical padding after the user scrolls past the initial hero section.",
+    "Scroll-triggered reveal animations are used extensively, causing content blocks and individual elements within sections to subtly fade in and slide upwards as they enter the user's viewport, creating a sense of progressive disclosure.",
+    "The hero section features an auto-playing, muted video as a background element, providing dynamic visual interest behind the primary headline and search input field."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3327ec",
+        "role": "accent"
+      },
+      {
+        "hex": "#151da2",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e9e7e3",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#383838",
+        "role": "text"
+      },
+      {
+        "hex": "#666565",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif display font for hero and major headings (~3-4x body), with clean sans-serif for body text and smaller labels, often in uppercase.",
+    "radius": "Subtle rounded corners (small radius) are applied consistently to buttons, input fields, and image containers.",
+    "spacing": "Airy padding in the hero section, balanced spacing for content blocks, and a denser layout in the footer with multiple link columns."
+  },
+  "standout": "The site stands out with its sophisticated blend of a classic, elegant serif display font for primary headlines against a clean, modern sans-serif for body text, creating a unique brand voice. This is complemented by a subtle, almost gradient-like off-white background in the hero section and a consistent use of a vibrant, deep blue accent color, giving the site a refined yet approachable academic feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "lapa-ninja-lapabooks-com-598ecf",
+  "source": {
+    "url": "https://www.lapabooks.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-lapabooks-com-598ecf.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-lapabooks-com-598ecf__scroll0.webp",
+      "shots/_proposed/lapa-ninja-lapabooks-com-598ecf__scroll1.webp",
+      "shots/_proposed/lapa-ninja-lapabooks-com-598ecf__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "design-resources",
+      "publishing"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width hero section with a gradient background introduces the site, followed by a responsive grid layout for displaying content cards (books)."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant purple-to-blue gradient is used exclusively for the hero section background, providing a strong visual anchor against an otherwise clean white content area."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar, including the logo and menu items, remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with an oversized, bold heading in the hero section, contrasted by smaller, readable body text and distinct blue, underlined links for calls to action."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation is implemented as a sticky element that remains fixed at the top of the viewport, ensuring constant access to site navigation.",
+    "Content is presented in a responsive grid layout, allowing multiple book cards to be displayed per row, which reflows and adapts to different screen sizes.",
+    "The hero section utilizes a full-width background gradient to create a distinct visual break and draw attention to the main value proposition, with text overlaid in white for contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A004C",
+        "role": "hero-gradient-start"
+      },
+      {
+        "hex": "#4A00FF",
+        "role": "hero-gradient-end"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#007BFF",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero heading (~3-4x body) with a smaller, regular weight subtitle, and clear, readable body text for descriptions.",
+    "radius": "Subtle rounding on content cards and interactive elements like pagination buttons.",
+    "spacing": "Balanced overall, with airy vertical padding in the hero section and consistent spacing within the content grid."
+  },
+  "standout": "This site stands out for its straightforward, content-first approach, using a single, vibrant gradient hero to create a strong visual identity without relying on complex animations or excessive design elements. The clean grid layout efficiently presents a large library of resources, making it highly functional and easy to navigate.",
+  "animation_tech": [],
+  "status": "proposed"
+}
