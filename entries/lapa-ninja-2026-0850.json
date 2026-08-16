@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-2026-0850",
+  "source": {
+    "url": "https://www.trawelt.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0850.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0850__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0850__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0850__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "hospitality",
+      "business-services",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize a full-width design with alternating dark (black) and light (beige) backgrounds, often featuring asymmetric content arrangements like text on one side and large graphic elements or images on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif typeface, creating strong visual hierarchy, complemented by smaller, legible sans-serif body text and occasional uppercase labels for categories or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green (#2d9b4c) is used as a primary brand accent color, dominating the sticky header, footer, and all call-to-action elements, providing a stark contrast against black and light beige backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-width, bright green header bar with the logo and navigation remains sticky at the top of the viewport throughout the scroll, maintaining consistent access to navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent, fixed-position popup appears over the hero content and then dismisses as the user scrolls down the page, acting as a scroll-triggered call to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a horizontal image carousel, allowing users to swipe through different business examples within a vertically scrolling page."
+    },
+    {
+      "kind": "section",
+      "note": "Oversized, transparent or outlined numbers (e.g., '04') are integrated as large background design elements within content sections, revealing gradually as the page scrolls."
+    }
+  ],
+  "technique_notes": [
+    "A full-width header bar is set to stick to the top of the viewport, maintaining its vibrant background color and content without shrinking or transforming.",
+    "Content sections are designed with distinct background colors and generous vertical padding, creating clear visual breaks and a sense of spaciousness.",
+    "Uses a combination of a sticky header, a fixed-position modal that dismisses on scroll, and a horizontal content carousel (swiper). Scroll-triggered reveals for sections and large numeric elements are likely managed by a smooth scrolling library like locomotive-scroll, creating a subtle staggered fade or slide effect as content enters the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#2d9b4c",
+        "role": "accent"
+      },
+      {
+        "hex": "#efefe7",
+        "role": "surface"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent"
+      },
+      {
+        "hex": "#007cba",
+        "role": "accent"
+      },
+      {
+        "hex": "#ddd",
+        "role": "subtle-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear, legible body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle (small corner radius on buttons, cards, and the fixed popup).",
+    "spacing": "Balanced to airy, with generous vertical spacing between full-width sections and within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's design is distinctive for its bold and consistent use of a single, vibrant green as a primary brand color, which creates a strong visual identity across the sticky header, CTAs, and footer. This is effectively contrasted with large, oversized numeric elements that act as dynamic background graphics, revealing as the user scrolls, and a unique fixed-position popup that dismisses on scroll.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "approved"
+}

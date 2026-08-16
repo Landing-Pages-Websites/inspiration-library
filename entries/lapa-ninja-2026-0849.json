@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-0849",
+  "source": {
+    "url": "https://timokuilder.com/Book",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0849.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0849__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0849__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0849__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "publishing",
+      "art",
+      "illustration",
+      "books"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are presented in a single-column flow with generous vertical spacing, often featuring asymmetrical two-column layouts for specific content blocks like book details or author information."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive handwritten script font is used exclusively for the main title/logo, providing a strong brand identity, contrasted with a clean, modern sans-serif for all other headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a stark, high-contrast black and white color scheme as its primary palette, with subtle grey tones for secondary text and a single muted blue accent color derived from the product imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large, centered handwritten title dramatically shrinks, repositions to the top-left, and gains an underline, transforming into a compact sticky header with additional navigation links appearing on the right as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by ample vertical white space and distinct content blocks, rather than relying on background color changes or explicit dividers, maintaining a minimalist and airy feel."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen hero section features a large, centered, handwritten title on a solid black background, creating an immediate visual impact.",
+    "A sticky header system uses CSS keyframes to animate the initial hero title: it shrinks, moves to the top-left, and gains an underline, while new navigation links (Shop, Info) fade in and appear on the top-right as the user scrolls past the hero section.",
+    "Content sections are revealed by the natural scroll, appearing from below the viewport without additional explicit fade-in or slide-in animations, maintaining a clean and direct presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#828282",
+        "role": "body-text"
+      },
+      {
+        "hex": "#636363",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#6E89B1",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pacifico",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A strong contrast exists between the oversized, handwritten hero title and the clean, legible sans-serif body text, with headings being moderately larger than body text.",
+    "radius": "sharp",
+    "spacing": "very airy, particularly in the hero section and between major content blocks, creating a sense of calm and focus."
+  },
+  "standout": "The site's most distinctive feature is its dynamic, transforming hero title that shrinks and repositions into a sticky header upon scroll, paired with a stark black and white aesthetic and unique handwritten typography. This creates an elegant, art-book-like experience that feels highly curated and personal.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

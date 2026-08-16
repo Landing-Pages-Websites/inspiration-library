@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-0845",
+  "source": {
+    "url": "https://slack.com/resources",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0845.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0845__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0845__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0845__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "collaboration",
+      "productivity"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a multi-column grid for displaying resource cards, adapting from a 3-column layout for featured items to a 4-column layout for the main library, ensuring content density while maintaining readability."
+    },
+    {
+      "kind": "layout",
+      "note": "Prominent content blocks utilize an alternating image-left/text-right and text-left/image-right layout to break visual monotony and highlight key resources."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for section titles and article headlines, contrasting with smaller, lighter body text and even smaller metadata labels for easy scanning."
+    },
+    {
+      "kind": "color",
+      "note": "A deep purple (#481a54) is consistently used as the primary accent color for calls-to-action, interactive elements, and key brand highlights, set against a predominantly white and dark grey interface."
+    },
+    {
+      "kind": "motion",
+      "note": "On scroll, an initial promotional banner at the top of the page dismisses by sliding out of view, and the main navigation bar then becomes sticky at the top of the viewport, maintaining persistent access to site navigation."
+    },
+    {
+      "kind": "section",
+      "note": "A full-width, dark-background call-to-action banner ('Try Slack with your team for free') is consistently placed just before the footer, serving as a prominent conversion point."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a responsive grid system to organize content, dynamically adjusting the number of columns for resource cards based on viewport size, ensuring optimal display across devices.",
+    "A sticky header effect is implemented where an initial, dismissible promotional banner is replaced by the main navigation bar, which then locks to the top of the viewport after a short scroll, providing continuous access to navigation.",
+    "Content sections are visually delineated by generous vertical padding and sometimes by full-width background colors, creating distinct content blocks that scroll into view without complex reveal animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1c1d",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#481a54",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#f9f0ff",
+        "role": "light-accent-background"
+      },
+      {
+        "hex": "#030303",
+        "role": "dark-text-elements"
+      },
+      {
+        "hex": "#909090",
+        "role": "secondary-text-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) for section titles and article headlines, with smaller, lighter body text and even smaller uppercase metadata labels.",
+    "radius": "Subtle rounded corners (approx. 4-8px) applied consistently to cards, buttons, and input fields.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major content sections and within content blocks, while card grids maintain a more compact, balanced density."
+  },
+  "standout": "The site effectively manages a large volume of content through a clean, grid-based layout and clear visual hierarchy, making it easy to navigate and consume diverse resources. The integration of custom, playful illustrations within content cards adds a distinctive brand personality to an otherwise functional library.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

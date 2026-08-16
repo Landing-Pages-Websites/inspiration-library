@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0833",
+  "source": {
+    "url": "https://www.intercom.io/books/jobs-to-be-done",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0833.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0833__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0833__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0833__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "customer-service",
+      "software"
+    ],
+    "mood": [
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Prominent use of large, detailed product screenshots embedded directly into the page content, often with a slight 3D perspective or layered effect, serving as key visual anchors for each section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section dynamically transforms its primary headline and background imagery upon initial scroll, swapping out content (e.g., 'A complete system...' to 'Perfect customer experiences') rather than just revealing new elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal their content (text blocks, image cards, pricing tables) with a staggered fade-up or slide-in animation as they enter the viewport, creating a guided reading experience."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette of off-white/light grey backgrounds with dark text, punctuated by vibrant accent colors (orange, blue) for calls to action and key highlights."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with large, bold sans-serif headings for impact, balanced by legible body text, and smaller, often uppercase, labels for sub-headings or descriptive text."
+    }
+  ],
+  "technique_notes": [
+    "Implement a scroll-triggered state change for the hero section, where the main headline and associated imagery dynamically swap out after the user scrolls a certain distance, creating a narrative progression. This could leverage canvas or CSS keyframes for the visual transitions.",
+    "Utilize a scroll-listening library (such as locomotive-scroll or GSAP ScrollTrigger) to animate elements within sections (e.g., text blocks, image cards, pricing details) into view with a subtle fade-up or slide-in effect as they enter the viewport.",
+    "The main navigation bar transitions to a fixed position at the top of the viewport after scrolling past the initial hero, potentially changing its background color or adding a subtle shadow for visual prominence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f4f3ec",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#020917",
+        "role": "heading"
+      },
+      {
+        "hex": "#ff5600",
+        "role": "accent"
+      },
+      {
+        "hex": "#000ce1",
+        "role": "accent"
+      },
+      {
+        "hex": "#626260",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:MediumLL",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful sans-serif headings (up to ~4-5x body text) with generous line height, complemented by smaller, often uppercase, supporting labels and a clear, readable body text.",
+    "radius": "Subtle (buttons and cards have a slight border-radius, but the overall design maintains a relatively sharp, modern edge).",
+    "spacing": "Airy, especially in the hero and section intros, with generous vertical spacing between sections and within content blocks, creating a sense of calm and focus."
+  },
+  "standout": "The site's most distinctive feature is its dynamic, transforming hero section that changes its core message and imagery on scroll, effectively telling a story or revealing a different facet of the product without navigating away. This, combined with the extensive use of highly detailed, almost editorial-style product screenshots, makes the site feel less like a generic marketing page and more like an interactive product showcase.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

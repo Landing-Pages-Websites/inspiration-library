@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0837",
+  "source": {
+    "url": "https://ona.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0837.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0837__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0837__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0837__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections maintain a consistent maximum width, centered on the page, while background elements (colors, images, UI screenshots) often extend full-bleed across the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for all primary headings, creating an editorial and authoritative tone, contrasted with a clean sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The palette primarily uses a high-contrast black and white, accented by a deep, dark forest green/blue for prominent sections and a subtle, muted red for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero content is replaced by a large, animated OpenAI logo and a 'joining OpenAI' banner, which then scrolls away to reveal subsequent page content."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent, taller state to a compact, sticky bar with a solid white background after the initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a concise heading and description with a large, detailed UI screenshot or diagram, often presented within a browser-like frame."
+    }
+  ],
+  "technique_notes": [
+    "The scroll-triggered motion system uses a combination of sticky positioning for the navigation and a sequence of content reveals/replacements for the main hero area. The initial hero content scrolls out of view, and then a distinct, full-width content block (the OpenAI logo and banner) is revealed, likely through a fade-in or slide-up animation, before it too scrolls away to expose the rest of the page content. Subsequent sections appear to fade or slide into view as they enter the viewport.",
+    "Typography establishes hierarchy by using a large, elegant serif font for main headings and a clean, readable sans-serif for all body text, subheadings, and UI elements. This creates a clear visual distinction between display text and functional text.",
+    "Layouts are built with full-width background containers that house a centrally aligned, width-constrained content block, ensuring readability while allowing for visually impactful background treatments like solid colors or large imagery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#e6e6e6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1f1f1f",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#a9a9a9",
+        "role": "text-tertiary"
+      },
+      {
+        "hex": "#0a0e19",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#c41e3a",
+        "role": "accent-cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Martina Plantijn",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, paired with a clean, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on buttons and interactive elements, otherwise sharp corners for most structural components and content blocks.",
+    "spacing": "Balanced to airy, with significant vertical spacing between major sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "The most distinctive design element is the unique scroll-triggered content replacement in the hero section, where the initial product message gives way to a prominent, animated OpenAI logo and announcement. This unexpected and dynamic reveal immediately communicates a significant company update, making the site feel current and engaging beyond a typical marketing page. The elegant serif typography also lends a sophisticated, editorial feel that elevates the overall aesthetic.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

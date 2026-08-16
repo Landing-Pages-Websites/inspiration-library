@@ -1,0 +1,113 @@
+{
+  "id": "one-page-love-2026-0164",
+  "source": {
+    "url": "https://craft.wild.as",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0164.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0164__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0164__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0164__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "technology",
+      "creative-agency",
+      "digital-agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A dynamic, pixelated background, resembling generative art or data visualization, animates and shifts as the user scrolls, forming abstract patterns in the hero and revealing text in the footer."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections often feature an asymmetric layout, pairing large, bold, left-aligned headings with narrower, sometimes centered, body text blocks, creating visual tension and hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of deep black backgrounds and crisp white text is consistently accented by vibrant, multi-colored pixel art elements (red, yellow, blue, green) that provide visual interest and energy."
+    },
+    {
+      "kind": "type",
+      "note": "All major headings utilize an oversized, bold, and uppercase sans-serif typeface, establishing a strong, authoritative, and consistent brand voice throughout the site."
+    }
+  ],
+  "technique_notes": [
+    "The site's motion system leverages canvas or WebGL-Three for a dynamic, generative pixel art background that animates and transforms across scroll depth, particularly in the hero and footer. Scroll-triggered reveals, likely using CSS keyframes or a JavaScript animation library, are employed to fade or slide content sections into view as they enter the viewport.",
+    "A high-contrast visual style is achieved by pairing dark backgrounds with light typography, punctuated by bursts of vibrant color from abstract, pixel-based graphics that evoke a sense of data visualization and digital artistry.",
+    "Typography establishes a clear hierarchy with an oversized, bold, uppercase sans-serif for primary headings, providing strong visual anchors, complemented by a more conventional sans-serif for body copy to maintain readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a0a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#e0492a",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5c518",
+        "role": "accent"
+      },
+      {
+        "hex": "#3b5bd9",
+        "role": "accent"
+      },
+      {
+        "hex": "#d8ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#1c2541",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sneak",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase display headings (~4-5x body text) create strong visual anchors, supported by a clear, readable sans-serif for body copy.",
+    "radius": "Sharp, with minimal rounding on interactive elements like buttons.",
+    "spacing": "Airy, with generous vertical spacing between major content blocks and ample padding around elements, contributing to a clean, uncluttered feel."
+  },
+  "standout": "The most distinctive feature is the pervasive and dynamic use of pixelated, data-visualization-like graphics that serve as both abstract background elements and form legible text, creating a unique blend of artistic expression and technical sophistication. This visual language is consistently applied from the hero to the footer, giving the site a memorable and cohesive identity.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

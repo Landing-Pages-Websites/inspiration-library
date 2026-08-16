@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0851",
+  "source": {
+    "url": "https://vetric.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-16"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0851.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0851__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0851__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0851__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "security",
+      "intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width sections, often featuring large, impactful headings and clear calls to action, with a balanced use of white space."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between elegant, oversized serif headings for primary messages and clean, legible sans-serif fonts for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A palette built around a clean white background, accented by soft, ethereal pastel gradients that shift between sections, and punctuated by a vibrant blue and a warm orange for CTAs and key information."
+    },
+    {
+      "kind": "motion",
+      "note": "The page features full-screen section transitions on scroll, where entire content blocks and their associated background gradients animate out to reveal the next section with a new background, creating a dynamic, layered scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated with distinct background treatments and often introduce content with a large, central heading followed by supporting details or interactive elements like cards and statistics."
+    }
+  ],
+  "technique_notes": [
+    "Sticky header elements, including a top announcement banner and the main navigation, maintain their position at the top of the viewport as the user scrolls.",
+    "Full-screen sections are designed to transition smoothly on scroll, where the previous section's content and its unique background gradient animate out of view, revealing the next section's content and a new, distinct background gradient. This creates a continuous, immersive scrolling narrative, likely orchestrated with a scroll-triggered animation library like GSAP or Framer Motion.",
+    "Individual content elements within sections, such as feature cards and statistical displays, are revealed with subtle fade-in or slide-up animations as they enter the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#00a4bd",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff7a59",
+        "role": "cta"
+      },
+      {
+        "hex": "#eaf0f6",
+        "role": "surface"
+      },
+      {
+        "hex": "#e5f5f8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "Lexend Deca",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, elegant serif headings (~3-4x body) with a refined character, complemented by clean, readable sans-serif body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounded corners are applied to interactive elements like buttons and cards, contributing to a soft, approachable feel.",
+    "spacing": "Balanced and airy, particularly in hero sections, transitioning to a more structured and compact density in feature grids and statistical displays, maintaining a clear visual hierarchy."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of ethereal, shifting gradient backgrounds with bold, elegant serif typography. This combination, paired with subtle, almost whimsical illustrations, creates a unique aesthetic that feels both high-tech and approachable. The full-screen section transitions with dynamic background changes are a particularly strong and memorable design choice.",
+  "animation_tech": [
+    "css-keyframes",
+    "framer-motion",
+    "gsap",
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}
