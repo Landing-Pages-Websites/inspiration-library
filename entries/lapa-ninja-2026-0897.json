@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-2026-0897",
+  "source": {
+    "url": "https://supergoop.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0897.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0897__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0897__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0897__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "e-commerce"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections and content blocks are used, often with a distinct background color or image, creating clear visual separation between major content areas."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and playful color palette featuring bright yellow and a distinct blue is used as primary accents, contrasting with clean white backgrounds and dark text."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, oversized sans-serif headings are paired with a clean, legible sans-serif for body text, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the main navigation bar transforms, shrinking in height and becoming sticky. Hero section elements exhibit a subtle parallax effect, with background elements scrolling faster than foreground content. New content sections are revealed with a slide-up or fade-in animation as they enter the viewport, and a large brand logo scrolls into view from the bottom as a background element in the footer."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections utilize a clean grid layout, often featuring product cards with subtle shadows and clear calls to action."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically reduces in height and removes a top banner upon scroll, maintaining a compact navigation. Hero sections achieve a sense of depth through parallax scrolling, where background imagery moves at a different rate than foreground text and image elements. Content sections are revealed using scroll-triggered animations, appearing with a subtle slide-up or fade-in effect as they become visible in the viewport. The large footer logo is integrated as a background element that scrolls into full view, creating a distinctive brand presence at the page's end. These scroll-based interactions are likely orchestrated using a library like locomotive-scroll, complemented by CSS keyframe animations for specific element transitions and reveals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0000B4",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      },
+      {
+        "hex": "#2A2A2A",
+        "role": "text"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#E5E7EB",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ADD8E6",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Custom Script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) for strong impact, complemented by smaller, clean sans-serif body text for readability.",
+    "radius": "Subtle: most interactive elements like buttons and product cards have a slight corner radius, while some layout elements maintain sharp edges.",
+    "spacing": "Balanced: generous whitespace in hero sections and between major content blocks, with a more compact density for product grids and information displays."
+  },
+  "standout": "The site's distinctive use of a bright, energetic yellow and a deep blue as primary brand colors, combined with playful 'polaroid' style imagery in the hero, creates a unique and memorable visual identity. The large, scrolling brand logo in the footer is a particularly creative and impactful branding element.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

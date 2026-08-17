@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-0902",
+  "source": {
+    "url": "https://tuple.app/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0902.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0902__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0902__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0902__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software-development",
+      "remote-work"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily presented in a centered, constrained column on a white background, interspersed with full-width dark sections that feature large product illustrations or video-hero elements."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a clear typographic hierarchy with oversized, bold sans-serif headings for impact, supported by lighter-weight body text and occasional small, uppercase labels for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette of white and dark grey is accented by a distinct purple-blue for primary calls-to-action and a soft green for informational banners, creating visual interest without distraction."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar remains sticky at the top of the viewport. As the user scrolls past the initial hero content, a 'Tuple for Linux alpha is available!' banner animates into view from the top. Subsequent content sections are revealed with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections frequently alternate between light backgrounds with text-focused content and dark, full-width backgrounds showcasing detailed product screenshots or interactive elements."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations to progressively reveal content. As the user scrolls, sections fade in and translate slightly upwards into view. A specific informational banner animates in from the top of the screen once the initial hero content has scrolled past. The navigation bar maintains a fixed position at the top of the viewport. Large, detailed product illustrations, potentially leveraging Lottie or video-hero technology for interactive elements, are integrated throughout the page to showcase the software."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#27272a",
+        "role": "text"
+      },
+      {
+        "hex": "#999999",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#5e91cf",
+        "role": "cta"
+      },
+      {
+        "hex": "#a3be8c",
+        "role": "banner-accent"
+      },
+      {
+        "hex": "#81a1c1",
+        "role": "graphic-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~3-4x body) with clear hierarchy, complemented by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "subtle; elements like buttons and input fields have a slight, consistent corner rounding.",
+    "spacing": "airy; generous vertical spacing between sections, creating a sense of openness, while internal content maintains a balanced rhythm."
+  },
+  "standout": "The site distinguishes itself with highly detailed, full-bleed product imagery and video-hero elements, particularly the interactive-looking code editor in the hero and other sections. This deep dive into the product's UI from the very first scroll creates an immediate sense of transparency and functionality, moving beyond generic marketing visuals.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

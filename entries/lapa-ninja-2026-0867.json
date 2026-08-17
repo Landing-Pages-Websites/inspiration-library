@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-0867",
+  "source": {
+    "url": "https://cursor.sh/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0867.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0867__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0867__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0867__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai-software"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Prominent, large-scale product screenshots are integrated directly into the content flow, often spanning the full width of the content area or acting as hero elements within sections, providing a visual narrative of the software's features."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used consistently across all text, with headings distinguished by significantly larger sizes and bolder weights, while body text maintains a comfortable reading size and lighter weight."
+    },
+    {
+      "kind": "color",
+      "note": "The palette relies on a high-contrast combination of dark text on light, off-white backgrounds, with a subtle, bright blue used sparingly for interactive elements like links and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like text blocks and images) reveal themselves with a subtle fade-in and slight upward slide as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms upon scroll, shrinking in height and gaining a solid background color as it becomes sticky at the top of the page."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured with alternating background colors (white and off-white) for distinct content sections, providing clear visual separation between different feature showcases and information blocks."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the sticky navigation effect, the header element transitions its height, padding, and background color from transparent to solid as the user scrolls past the initial hero section.",
+    "Content sections and individual components are animated to fade in and slide up slightly from the bottom as they enter the user's viewport, typically using CSS keyframes triggered by scroll events.",
+    "Product screenshots are presented as large, high-fidelity images, often full-width within their content containers, to visually demonstrate the software's interface and capabilities in context."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F7F7F4",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#14120B",
+        "role": "text"
+      },
+      {
+        "hex": "#47433C",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#8BC4F8",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~2-4x body) than the body text, establishing a clear hierarchy, while body text is well-spaced for readability.",
+    "radius": "subtle rounded corners on buttons, input fields, and card-like product screenshot containers.",
+    "spacing": "balanced, with generous vertical spacing between major sections creating an airy feel, while content within sections is more compact but still well-distributed."
+  },
+  "standout": "The site's most distinctive feature is its heavy reliance on large, detailed, and realistic product screenshots that are seamlessly integrated into the content flow, acting as a visual narrative that demonstrates the software's functionality rather than just describing it. This creates a highly product-centric and transparent user experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

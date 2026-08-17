@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-0881",
+  "source": {
+    "url": "https://leafshave.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0881.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0881__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0881__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0881__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "personal-care",
+      "shaving",
+      "ecommerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A distinctive brand palette uses a deep olive green as a primary background and text color, complemented by a vibrant lime green for accents and calls to action."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections frequently alternate between full-bleed imagery and solid background colors (olive green, off-white, muted green) to create clear visual breaks and hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, often in all caps, providing strong visual impact and clear section demarcation."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner slides out of view, and the main navigation bar transitions from transparent to a solid muted green background, becoming sticky as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Full-screen modal overlays are used for promotional offers, featuring a split layout with product imagery on one side and interactive elements on the other."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header element transitions its background color and potentially height using CSS transitions or JavaScript to add/remove a class based on scroll position, while a top promotional banner is hidden on scroll.",
+    "Hero sections utilize full-bleed imagery with text content positioned over it, creating a layered effect where the text scrolls over the image.",
+    "Content sections are visually distinct through alternating background colors and full-bleed photography, often using grid layouts for product displays and feature comparisons."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3b401b",
+        "role": "background"
+      },
+      {
+        "hex": "#99a162",
+        "role": "surface"
+      },
+      {
+        "hex": "#fdffee",
+        "role": "background"
+      },
+      {
+        "hex": "#daf615",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#6e7446",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Styrene A",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, sans-serif headings (up to ~4x body) with clear, legible body text.",
+    "radius": "Subtle rounding on buttons and some image containers, but mostly sharp edges for overall structure.",
+    "spacing": "Balanced to airy, especially in hero and section breaks, with tighter spacing in product grids."
+  },
+  "standout": "The site's standout feature is its sophisticated and consistent brand identity, achieved through a unique color palette of deep olive and vibrant lime green, paired with high-quality, aspirational product photography that elevates the everyday act of shaving into a luxurious experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

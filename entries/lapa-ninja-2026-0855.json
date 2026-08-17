@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0855",
+  "source": {
+    "url": "https://www.airecbd.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0855.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0855__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0855__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0855__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gambling",
+      "online-gaming",
+      "poker",
+      "slots"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a prominent, almost full-bleed hero section with a fixed-width content area below it, followed by a multi-column footer."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, pairing deep dark backgrounds and text with vibrant, almost neon green for primary call-to-action buttons and a striking deep red for a key informational section background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic image carousel that cycles through different high-production value images while retaining the same overlaid text. The main navigation bar at the top transforms from a transparent background to a solid white background as the user scrolls down the page, becoming sticky."
+    },
+    {
+      "kind": "section",
+      "note": "A distinctive content section uses a deep red background with white text to highlight key information, breaking the visual rhythm of the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and sans-serif, creating a strong visual hierarchy against smaller, standard-weight body text."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a full-width image slider, likely using a library like Swiper, to present multiple high-quality, aspirational visuals that transition smoothly. Text overlays remain static while the background images change.",
+    "The main header navigation is designed to be sticky, initially appearing with a transparent background over the hero. Upon scrolling past the hero, it gains a solid white background and remains fixed at the top of the viewport.",
+    "Content sections are structured with a mix of dark and light backgrounds, using a fixed maximum width for readability. Key information is emphasized by placing it within a full-width section with a contrasting, bold background color."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#39FF14",
+        "role": "cta"
+      },
+      {
+        "hex": "#eb001b",
+        "role": "accent"
+      },
+      {
+        "hex": "#0071e3",
+        "role": "link"
+      },
+      {
+        "hex": "#1d1d1f",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SF Pro Text",
+        "role": "body"
+      },
+      {
+        "family": "Assistant",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual anchors, while body text is standard weight and size.",
+    "radius": "Subtle rounded corners are applied to buttons and input fields, maintaining a clean but not overly sharp aesthetic.",
+    "spacing": "Balanced spacing is used throughout, with an airy hero section transitioning to a more standard density for content blocks and a denser layout for the footer links."
+  },
+  "standout": "This site's design is distinctive for its bold fusion of high-production value, aspirational imagery featuring models and luxurious gaming elements in the hero, with a striking, almost neon green used for primary calls-to-action. This combination, alongside a deep red accent section, creates a unique 'luxe gaming' aesthetic that feels both premium and energetic, setting it apart from generic templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

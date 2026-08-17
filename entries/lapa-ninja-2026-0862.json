@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-0862",
+  "source": {
+    "url": "https://www.cakeequity.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0862.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0862__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0862__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0862__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "finance",
+      "equity-management"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, left-aligned heading and a right-aligned visual block that combines an image with overlaid data tables, creating a dynamic and informative focal point."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses large, bold sans-serif headings for primary messaging, complemented by smaller, legible body text and distinct uppercase labels for categories or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme features dark backgrounds (#0f0e1a) paired with white text, accented by a vibrant purple (#6d67fb) for CTAs and key elements, and subtle light grey/off-white (#eeecff) for section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up and slide-in animation as they enter the viewport during scrolling, creating a guided and engaging user experience."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently use a two-column layout, alternating between text on the left and a visual (image or graphic) on the right, or vice-versa, to break up content rhythmically."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the scroll-triggered reveals, use CSS keyframes to animate elements' opacity and vertical position from slightly below their final resting place to their intended position as they intersect the viewport. This creates a smooth fade-up effect for each new section.",
+    "The navigation bar remains fixed at the top of the viewport, maintaining accessibility to primary navigation and calls to action throughout the user's scroll journey.",
+    "The hero section combines a full-width background gradient with a structured content block that includes a large heading and a composite image featuring people and overlaid, semi-transparent data visualizations, creating a rich, informative visual without being overwhelming."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0e1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#6d67fb",
+        "role": "cta"
+      },
+      {
+        "hex": "#eeecff",
+        "role": "surface"
+      },
+      {
+        "hex": "#6b6a7d",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#9b9aaa",
+        "role": "tertiary-text"
+      },
+      {
+        "hex": "#e8f8ec",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual hierarchy, complemented by smaller, legible body text and distinct uppercase labels.",
+    "radius": "Subtle corner radius (small to medium) is applied consistently to buttons, cards, and image containers, softening the overall aesthetic without being overly rounded.",
+    "spacing": "Balanced density with airy hero and section padding, transitioning to a slightly denser layout for feature grids and informational blocks, maintaining readability and visual comfort."
+  },
+  "standout": "This site stands out with its sophisticated integration of data visualizations directly into hero and feature imagery, creating a highly informative and trustworthy aesthetic. The subtle scroll-triggered reveals and the use of soft, gradient backgrounds add a layer of modern polish without distracting from the core message.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
