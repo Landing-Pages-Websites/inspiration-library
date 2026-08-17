@@ -1,0 +1,115 @@
+{
+  "id": "manual-rewind-ai-054f79",
+  "source": {
+    "url": "https://www.rewind.ai/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-rewind-ai-054f79.webp",
+    "scroll": [
+      "shots/_proposed/manual-rewind-ai-054f79__scroll0.webp",
+      "shots/_proposed/manual-rewind-ai-054f79__scroll1.webp",
+      "shots/_proposed/manual-rewind-ai-054f79__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Consistent use of a centered content container with generous horizontal padding, creating a clean and focused presentation for diverse content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings for section titles, contrasted with lighter weight body text and small, uppercase labels for categories and sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A clean white background with a deep indigo/dark blue for primary text and footer, accented by a vibrant green for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections are revealed with a subtle fade-up or slide-up animation as they enter the viewport during scroll, creating a dynamic content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of card-based grids to categorize and display a large number of AI tools, making the vast offering digestible and scannable."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation bar maintains site access and key information (like user status) as the user scrolls down the page.",
+    "Content sections are progressively revealed with a gentle fade and slight upward translation as they enter the viewport, leveraging a scroll-triggered animation library like locomotive-scroll for a smooth user experience.",
+    "Information is organized into distinct, full-width sections with clear headings, often followed by a grid of feature cards or an accordion for frequently asked questions, providing structured content delivery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#2A2A44",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#16A34A",
+        "role": "cta"
+      },
+      {
+        "hex": "#E5E7EB",
+        "role": "surface"
+      },
+      {
+        "hex": "#16162A",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#FF5F56",
+        "role": "status-indicator-red"
+      },
+      {
+        "hex": "#FFBD2E",
+        "role": "status-indicator-yellow"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "monospace",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body) with a clear hierarchy, supported by smaller, lighter body text and occasional uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) applied consistently to buttons, input fields, and feature cards.",
+    "spacing": "Balanced to airy spacing, particularly between major sections, with consistent moderate gaps within grid layouts for readability."
+  },
+  "standout": "The site's standout feature is its ability to present an overwhelming number of AI tools and services in an exceptionally clean, organized, and digestible manner. The interactive hero input immediately sets the tone, and the extensive, well-categorized grids of tools, combined with a clear pricing structure and developer API section, make it feel like a comprehensive hub rather than just another AI tool.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

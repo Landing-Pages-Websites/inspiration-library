@@ -1,0 +1,111 @@
+{
+  "id": "manual-arcana-earth-db3009",
+  "source": {
+    "url": "https://arcana.earth/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-arcana-earth-db3009.webp",
+    "scroll": [
+      "shots/_proposed/manual-arcana-earth-db3009__scroll0.webp",
+      "shots/_proposed/manual-arcana-earth-db3009__scroll1.webp",
+      "shots/_proposed/manual-arcana-earth-db3009__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "environmental-consulting",
+      "communications"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections utilize full-width background colors that alternate between various shades of green, beige, and dark teal to create distinct visual breaks and rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for main sections, supported by smaller, often uppercase, labels and legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs an earthy and natural color palette, predominantly featuring various shades of green, a warm beige, and a deep teal, complemented by white and dark text for contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar shrinks in height and gains a solid background color as the user scrolls down, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Feature and service offerings are presented in clean, grid-based card layouts with consistent padding and iconography or simple text labels."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations for section reveals, where elements appear to fade in and slide up from the bottom as they enter the viewport. The hero background image employs a subtle parallax effect, moving at a slower rate than the foreground content. The main navigation bar dynamically transforms on scroll, reducing its height and transitioning from a transparent to a solid background color once it passes the initial hero section, then remaining fixed at the top."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f3035",
+        "role": "background"
+      },
+      {
+        "hex": "#a0c47e",
+        "role": "background"
+      },
+      {
+        "hex": "#51c0a7",
+        "role": "cta"
+      },
+      {
+        "hex": "#f7f8f5",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (H1 ~3-4x body) with clear, readable body text and smaller, often uppercase, supporting labels.",
+    "radius": "Subtle rounded corners on buttons, input fields, and card elements, contributing to a soft, approachable feel.",
+    "spacing": "Balanced and airy, with generous vertical spacing between sections and within content blocks, creating a sense of calm and professionalism."
+  },
+  "standout": "The site's distinctive use of a sophisticated, earthy color palette, particularly the varied greens and warm beige, combined with a clean, modern layout, creates a professional yet approachable aesthetic. The subtle parallax on the hero and the transforming sticky navigation add a polished, high-quality feel without being overly flashy.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

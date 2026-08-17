@@ -1,0 +1,107 @@
+{
+  "id": "manual-livecostabrazil-com-718287",
+  "source": {
+    "url": "https://livecostabrazil.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-livecostabrazil-com-718287.webp",
+    "scroll": [
+      "shots/_proposed/manual-livecostabrazil-com-718287__scroll0.webp",
+      "shots/_proposed/manual-livecostabrazil-com-718287__scroll1.webp",
+      "shots/_proposed/manual-livecostabrazil-com-718287__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "fragrance",
+      "skincare"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layouts are frequently used, pairing a large, often full-bleed, lifestyle image with a concise text block and call-to-action, creating a magazine-like spread."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and navigation items consistently use a widely-tracked, uppercase sans-serif typeface, providing a clean and sophisticated feel that contrasts with the more standard sans-serif used for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of white backgrounds and black text is accented by a deep, earthy charcoal/brown for the top bar and footer, and subtle light grey for secondary backgrounds, maintaining a refined aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial dark brown announcement bar slides up and out of view, while the main navigation bar transitions to a sticky state at the top, slightly reducing its height. Content sections, particularly image blocks and product grids, subtly fade in or slide up as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial content is presented in a dynamic, multi-column grid of images and short text snippets, mimicking a high-fashion magazine layout rather than a typical blog roll."
+    }
+  ],
+  "technique_notes": [
+    "The top announcement bar should be implemented to slide vertically out of view using CSS transforms or keyframes triggered by scroll. The main navigation bar should use a sticky position and transition its height and potentially add a subtle shadow or border when the scroll position passes a certain threshold. Content sections should employ scroll-triggered reveal animations, such as a subtle fade-in or a slight slide-up, using CSS keyframes or a JavaScript library like GSAP ScrollTrigger, to progressively load content as it enters the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#202223",
+        "role": "surface"
+      },
+      {
+        "hex": "#e8e8e8",
+        "role": "surface"
+      },
+      {
+        "hex": "#7b7b7b",
+        "role": "text"
+      },
+      {
+        "hex": "#108474",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Suisse Intl",
+        "role": "heading"
+      },
+      {
+        "family": "Assistant",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, widely-tracked uppercase headings (~2-3x body) with standard sans-serif body text and very small, often uppercase, labels.",
+    "radius": "Sharp (predominantly rectangular elements and product images).",
+    "spacing": "Balanced overall, with an airy hero section and comfortable spacing in product grids and content blocks."
+  },
+  "standout": "This site distinguishes itself by seamlessly blending high-fashion editorial photography with a minimalist e-commerce interface. The extensive use of large, evocative lifestyle imagery, often with a naturalistic tone, creates a powerful brand atmosphere that feels more like a luxury magazine than a typical product catalog, effectively selling a aspirational lifestyle alongside its products.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

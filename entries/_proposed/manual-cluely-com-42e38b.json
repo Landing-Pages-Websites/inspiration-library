@@ -1,0 +1,114 @@
+{
+  "id": "manual-cluely-com-42e38b",
+  "source": {
+    "url": "https://cluely.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-cluely-com-42e38b.webp",
+    "scroll": [
+      "shots/_proposed/manual-cluely-com-42e38b__scroll0.webp",
+      "shots/_proposed/manual-cluely-com-42e38b__scroll1.webp",
+      "shots/_proposed/manual-cluely-com-42e38b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "productivity",
+      "meeting-management"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses a full-width layout with content centered within a maximum width, creating ample whitespace around key information."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a very large, bold sans-serif font for high impact, contrasting with smaller, lighter weight sans-serif for body text and small uppercase for navigation and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A cool color palette dominates, featuring a gradient of blues for the hero and CTAs, paired with a very light off-white for section backgrounds and dark navy/gray for primary text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image (mountains and sky) exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls down the page. The navigation bar becomes sticky at the top after initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Key content elements, such as the product video mockup and subsequent feature sections, are revealed with a gentle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The FAQ section employs an accordion design, allowing users to click to expand answers, which helps manage content density."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion system, use CSS keyframes for the hero background parallax effect, making it scroll at a slower rate than the main content. Implement a sticky navigation bar that activates after a certain scroll threshold. Utilize JavaScript or CSS animations to trigger fade-in and subtle slide-up effects for content sections and the product video mockup as they become visible in the viewport.",
+    "The hero section features a full-bleed background with a gradient blue sky and a subtle mountain illustration, over which large, centered text and a call-to-action button are placed for immediate impact.",
+    "Call-to-action buttons are designed with a subtle blue gradient fill and soft rounded corners, providing a clear visual target and a modern aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#edeef2",
+        "role": "background"
+      },
+      {
+        "hex": "#022c70",
+        "role": "text"
+      },
+      {
+        "hex": "#0544a9",
+        "role": "accent"
+      },
+      {
+        "hex": "#81b6ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#b2b3ba",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#3d4150",
+        "role": "text-body"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Aeonik",
+        "role": "heading"
+      },
+      {
+        "family": "Aeonik",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) create strong hierarchy, complemented by a clean, legible sans-serif for body text and small, uppercase labels.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, cards, and UI elements, conveying a soft, modern feel without being overly playful.",
+    "spacing": "The design features airy spacing in the hero section for a grand, open feel, transitioning to a balanced density in content and FAQ sections for readability."
+  },
+  "standout": "The site's distinctive hero section, featuring a subtle, ethereal mountain illustration with a gradient sky and a parallax scroll effect, immediately sets a unique and sophisticated tone. The seamless integration of a realistic product video mockup directly below the hero text, revealed on scroll, is also a standout feature for demonstrating functionality elegantly.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
