@@ -1,0 +1,105 @@
+{
+  "id": "manual-comet-perplexity-ai-f94944",
+  "source": {
+    "url": "https://comet.perplexity.ai/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-comet-perplexity-ai-f94944.webp",
+    "scroll": [
+      "shots/_proposed/manual-comet-perplexity-ai-f94944__scroll0.webp",
+      "shots/_proposed/manual-comet-perplexity-ai-f94944__scroll1.webp",
+      "shots/_proposed/manual-comet-perplexity-ai-f94944__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "software",
+      "browser",
+      "technology"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical composition with organic, abstract 3D 'planet' elements that serve as visual anchors and background decoration across multiple sections."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif typography (Spectral) for prominent headings, paired with a clean, modern sans-serif (Inter) for body text and UI elements, creating a sophisticated contrast."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light, off-white background (#fbfaf4) provides a clean canvas for dark, high-contrast text and vibrant, multi-tonal abstract illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-layered illustration with UI snippets and abstract spheres that parallax at different speeds relative to the main hero text and CTA as the user scrolls. Subsequent sections reveal with subtle fade-in or slide-up effects."
+    },
+    {
+      "kind": "section",
+      "note": "UI elements within feature sections utilize a 'glassmorphism' effect, appearing as frosted, translucent cards with rounded corners, providing depth and a futuristic feel."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a multi-layered parallax scrolling effect where background illustrations and UI elements move at different rates than the foreground text and call-to-action, creating a sense of depth. This transitions into full-bleed video sections that reveal on scroll. The top navigation bar becomes sticky after the initial hero section, maintaining its position throughout the page. Sections are introduced with subtle scroll-triggered animations, such as a gentle fade-in or slide-up as they enter the viewport.",
+    "The detected 'video-hero' animation tech is used for the full-bleed 'Browse with intelligence' section, providing a dynamic, immersive background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbfaf4",
+        "role": "background"
+      },
+      {
+        "hex": "#091717",
+        "role": "text"
+      },
+      {
+        "hex": "#09f",
+        "role": "accent"
+      },
+      {
+        "hex": "#3b4151",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#e4e3d4",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Spectral",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-5x body) provide strong visual hierarchy, complemented by legible sans-serif body text and smaller serif subheadings.",
+    "radius": "Rounded corners are consistently applied to UI cards, buttons, and section containers, contributing to a soft, modern aesthetic.",
+    "spacing": "Generally airy, particularly in the hero and between major sections, creating a sense of calm and focus, with balanced padding in content grids."
+  },
+  "standout": "The distinctive blend of sophisticated serif typography with organic, abstract 3D 'planet' illustrations and 'glassmorphism' UI elements creates a unique, futuristic yet elegant aesthetic. The seamless integration of these visual motifs across parallaxing sections and the dynamic video hero is particularly striking.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

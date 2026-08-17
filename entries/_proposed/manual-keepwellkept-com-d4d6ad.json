@@ -1,0 +1,116 @@
+{
+  "id": "manual-keepwellkept-com-d4d6ad",
+  "source": {
+    "url": "https://keepwellkept.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-keepwellkept-com-d4d6ad.webp",
+    "scroll": [
+      "shots/_proposed/manual-keepwellkept-com-d4d6ad__scroll0.webp",
+      "shots/_proposed/manual-keepwellkept-com-d4d6ad__scroll1.webp",
+      "shots/_proposed/manual-keepwellkept-com-d4d6ad__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "personal-care",
+      "lifestyle"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical split-screen layouts are frequently used, particularly for the hero and subsequent content sections, pairing large evocative photography with concise text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant serif fonts are used for prominent display text and headings, creating an editorial, sophisticated feel, while clean sans-serifs are reserved for body copy and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette dominates, featuring warm off-whites, light greys, and deep olive/forest greens, contributing to a calm and natural aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect on the large background image, and the 'well kept' logo on the left side fades out and slides up as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections below the hero often incorporate large, full-bleed photography that extends to the edge of the viewport, mimicking a magazine spread."
+    }
+  ],
+  "technique_notes": [
+    "The top navigation bar and a promotional banner remain fixed at the top of the viewport after the initial scroll, providing persistent access and messaging.",
+    "The main hero image on the right side of the initial viewport has a subtle parallax effect, moving upwards at a slower rate than the scroll, creating a sense of depth and movement.",
+    "Content sections below the hero are revealed with a gentle fade-in and slight upward slide as they enter the viewport, using CSS keyframes to animate their appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e7e9d6",
+        "role": "background"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#928c5f",
+        "role": "accent"
+      },
+      {
+        "hex": "#45463b",
+        "role": "dark-overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "miller-banner",
+        "role": "display"
+      },
+      {
+        "family": "miller-text",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant serif display headings (~3-4x body) with smaller, often uppercase sans-serif labels and clean sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy; generous whitespace around content blocks and within text, creating a calm and unhurried reading experience."
+  },
+  "standout": "This site's design stands out with its strong editorial aesthetic, reminiscent of a high-end magazine. It uses intimate, evocative photography and elegant typography to convey a sense of ritual and experience, rather than just product features, creating a distinctive, slow-living brand identity.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

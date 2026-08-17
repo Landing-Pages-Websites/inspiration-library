@@ -1,0 +1,103 @@
+{
+  "id": "manual-campsite-co-53f428",
+  "source": {
+    "url": "https://www.campsite.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-campsite-co-53f428.webp",
+    "scroll": [
+      "shots/_proposed/manual-campsite-co-53f428__scroll0.webp",
+      "shots/_proposed/manual-campsite-co-53f428__scroll1.webp",
+      "shots/_proposed/manual-campsite-co-53f428__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "team-collaboration"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent maximum content width, centered on the page, creating a clear visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, bold sans-serif font, while body text uses a lighter weight and smaller size of a similar sans-serif, ensuring strong contrast and readability."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly white background with black text is accented by a vibrant orange-red for calls to action, key highlights, and illustrative graphics."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a site-wide header becomes sticky at the top. Additionally, temporary informational banners appear from the top and then scroll out of view, while large, abstract background graphics remain fixed or parallax slowly, revealing the main content."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently pair a concise heading and description with a large, detailed screenshot of the product UI, often showing specific features in action."
+    }
+  ],
+  "technique_notes": [
+    "The sticky header effect is achieved by transitioning its position to fixed after a certain scroll threshold. Informational banners are revealed using CSS keyframe animations for a smooth entrance and exit from the top of the viewport. Background graphics are likely positioned absolutely or fixed, creating a subtle parallax or reveal effect as the main content scrolls over them.",
+    "The site uses full-bleed sections with a contained, centered content area to maintain visual consistency and focus. Product screenshots are integrated as hero elements within these sections, often extending beyond the main content column to create visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF5722",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with a clean, readable body text.",
+    "radius": "Subtle rounded corners on interactive elements and card-like containers.",
+    "spacing": "Airy, with generous vertical spacing between sections and within content blocks, creating a sense of openness."
+  },
+  "standout": "The site uniquely integrates detailed, realistic product UI screenshots directly into the page layout, making the product feel tangible and immediately understandable. The dynamic, temporary banners appearing on scroll also add a distinctive, real-time communication element.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

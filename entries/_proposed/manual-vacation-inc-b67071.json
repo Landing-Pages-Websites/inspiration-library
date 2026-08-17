@@ -1,0 +1,113 @@
+{
+  "id": "manual-vacation-inc-b67071",
+  "source": {
+    "url": "https://www.vacation.inc/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-vacation-inc-b67071.webp",
+    "scroll": [
+      "shots/_proposed/manual-vacation-inc-b67071__scroll0.webp",
+      "shots/_proposed/manual-vacation-inc-b67071__scroll1.webp",
+      "shots/_proposed/manual-vacation-inc-b67071__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "personal-care"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with distinct background colors (light grey, teal, dark blue) to create clear visual breaks and segment content, maintaining an airy and spacious feel."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of an elegant serif font for large headings and titles, contrasted with a clean sans-serif for body text and functional elements, establishing an editorial and luxurious brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "A curated palette of muted, retro-inspired colors including sandy yellows, soft teals, and deep blues, consistently applied for backgrounds and accents to evoke a nostalgic vacation aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, retro-styled coupon pop-up remains fixed and interactive across all scroll depths, acting as a constant call to action and a key visual anchor for the user."
+    },
+    {
+      "kind": "section",
+      "note": "Product and lifestyle imagery is presented in a flexible grid layout, sometimes full-bleed, sometimes with ample padding, to showcase products in an aspirational and editorial context."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video or high-resolution image that provides a subtle, immersive backdrop for the main headline and call to action, without significant parallax on scroll.",
+    "Sections reveal sequentially as the user scrolls, with content appearing from the bottom of the viewport without explicit fade or slide animations, relying on the natural scroll progression to introduce new content.",
+    "A prominent, retro-styled coupon pop-up is implemented as a fixed overlay, ensuring it remains visible and actionable regardless of scroll position, effectively acting as a persistent lead capture mechanism."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F1D27A",
+        "role": "accent"
+      },
+      {
+        "hex": "#92C8C2",
+        "role": "surface"
+      },
+      {
+        "hex": "#334A6B",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#585858",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cormorant Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (hero ~5x body) with a clean, legible sans-serif for body text and smaller uppercase labels, creating a clear typographic hierarchy.",
+    "radius": "Sharp corners are dominant for most elements and sections, with only a subtle, almost imperceptible radius on interactive elements like buttons and the coupon pop-up border.",
+    "spacing": "Generally airy, especially in the hero and between major sections, creating a sense of luxury and allowing content to breathe, while internal content grids maintain a balanced density."
+  },
+  "standout": "The site's most distinctive feature is its meticulously crafted retro-vintage aesthetic, particularly evident in the persistent, interactive coupon pop-up designed to mimic a physical coupon, and the consistent use of a nostalgic color palette and elegant serif typography. This creates a unique blend of luxury and playful nostalgia that sets it apart from typical modern e-commerce sites.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

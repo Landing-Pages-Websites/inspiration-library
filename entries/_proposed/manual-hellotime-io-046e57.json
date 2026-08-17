@@ -1,0 +1,117 @@
+{
+  "id": "manual-hellotime-io-046e57",
+  "source": {
+    "url": "https://www.hellotime.io/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-hellotime-io-046e57.webp",
+    "scroll": [
+      "shots/_proposed/manual-hellotime-io-046e57__scroll0.webp",
+      "shots/_proposed/manual-hellotime-io-046e57__scroll1.webp",
+      "shots/_proposed/manual-hellotime-io-046e57__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "project-management",
+      "scheduling-software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered within a maximum width, allowing for generous white space around sections and large, illustrative visuals."
+    },
+    {
+      "kind": "type",
+      "note": "Key words within large, bold sans-serif headings are highlighted with brightly colored, rounded background 'pills' that resemble emojis, adding a playful emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black-on-white base is consistently used, with vibrant, saturated accent colors (blue, orange, green, red) reserved exclusively for the animated text highlights and occasional small graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Specific keywords within headings feature a continuous, subtle glowing animation on their colored background, drawing attention and adding a dynamic, playful feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The header bar subtly reduces in height and maintains its fixed position at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section introduces a core benefit or feature with a prominent, bold heading, followed by a concise description and a large, illustrative visual or diagram."
+    }
+  ],
+  "technique_notes": [
+    "The header transitions to a more compact state upon scrolling, reducing its vertical height while remaining fixed at the top of the viewport.",
+    "Content sections are introduced with a scroll-triggered animation, appearing to slide up and fade into view as the user scrolls down the page.",
+    "Specific keywords within headings are visually emphasized with a solid, brightly colored background and a subtle, continuous glow animation, making them stand out like interactive emojis, achieved using css-keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#7F8491",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#2F80ED",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#F2994A",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#27AE60",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#EB5757",
+        "role": "accent-red"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold headings (~3-4x body text) create strong hierarchy, contrasted with smaller, highly readable body text.",
+    "radius": "Subtle rounded corners are used for buttons and the distinctive highlighted text elements, while most other elements maintain sharp edges.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a clean, uncluttered feel."
+  },
+  "standout": "The most distinctive design element is the playful yet bold use of brightly colored, glowing, emoji-like highlights on key words within otherwise minimal, large headings. This unique treatment injects personality and draws attention without compromising the site's clean aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

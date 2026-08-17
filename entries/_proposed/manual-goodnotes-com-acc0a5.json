@@ -1,0 +1,109 @@
+{
+  "id": "manual-goodnotes-com-acc0a5",
+  "source": {
+    "url": "https://www.goodnotes.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-goodnotes-com-acc0a5.webp",
+    "scroll": [
+      "shots/_proposed/manual-goodnotes-com-acc0a5__scroll0.webp",
+      "shots/_proposed/manual-goodnotes-com-acc0a5__scroll1.webp",
+      "shots/_proposed/manual-goodnotes-com-acc0a5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity",
+      "education"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in centered, readable columns within full-width sections, often alternating between light and dark backgrounds."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, providing clear hierarchy, complemented by a lighter weight, highly readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant cyan/blue is consistently used as a primary accent color for call-to-action buttons, links, and key visual elements against a largely monochrome background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero product image subtly parallaxes, moving at a slower rate than the scroll, creating a layered depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero dynamically reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a large, high-fidelity product screenshot or mockup with concise descriptive text, often in a two-column layout."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is fixed to the top of the viewport, providing persistent access to site navigation as the user scrolls.",
+    "Content sections animate into view with a staggered fade-up or slide-in effect as they become visible in the viewport, likely using CSS keyframes or a JavaScript animation library like Lottie.",
+    "The primary product illustration in the hero section moves at a slightly different speed than the page scroll, creating a subtle depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#57D2EE",
+        "role": "accent"
+      },
+      {
+        "hex": "#06A9CF",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#ECECEC",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roobert",
+        "role": "heading"
+      },
+      {
+        "family": "Roobert",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Clear hierarchy with large, bold sans-serif headings (approx. 2-3x body) and a clean, readable body text.",
+    "radius": "Subtle rounding on buttons and card-like elements, while most images and containers maintain sharp corners.",
+    "spacing": "Balanced spacing, with generous vertical padding between main sections and a more compact layout within feature grids."
+  },
+  "standout": "The site's standout feature is its highly effective use of detailed, interactive-looking product screenshots and mockups to clearly and engagingly convey complex software features. This visual storytelling, combined with a clean, professional aesthetic and a vibrant accent color, makes the product feel intuitive and powerful.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

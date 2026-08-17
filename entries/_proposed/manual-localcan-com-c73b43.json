@@ -1,0 +1,108 @@
+{
+  "id": "manual-localcan-com-c73b43",
+  "source": {
+    "url": "https://www.localcan.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-localcan-com-c73b43.webp",
+    "scroll": [
+      "shots/_proposed/manual-localcan-com-c73b43__scroll0.webp",
+      "shots/_proposed/manual-localcan-com-c73b43__scroll1.webp",
+      "shots/_proposed/manual-localcan-com-c73b43__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "web-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses a strong alternating section layout, switching between full-width dark green backgrounds with light text and light gray backgrounds with dark text to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A distinct monospaced font is consistently used for command-line instructions, code snippets, and technical labels, providing clear visual separation from the primary sans-serif headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette of deep forest green and light off-white is used, punctuated by a vibrant, almost neon, accent green for primary calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, pixelated green background animation, reminiscent of a digital glitch or data stream, is consistently used across all dark-themed sections, including the hero, pricing, and footer, providing continuous visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "Feature explanations are presented as numbered steps, each accompanied by a detailed screenshot or UI mockup that visually demonstrates the step, enhancing clarity and user understanding."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-bleed, dark green background for key sections, featuring a dynamic, generative pixelated animation (likely canvas-based, as hinted by 'canvas' tech) that creates a tech-glitch or data stream effect. This animated texture provides continuous visual interest and reinforces the technical nature of the product.",
+    "Content is structured in alternating full-width sections with high contrast backgrounds (dark green with light text, light gray with dark text) to clearly delineate different topics and create visual rhythm.",
+    "Interactive elements like buttons and input fields feature subtle rounded corners and use a bright accent green for primary calls to action, providing clear visual hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b1d0b",
+        "role": "background"
+      },
+      {
+        "hex": "#d6d3d1",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#292524",
+        "role": "text"
+      },
+      {
+        "hex": "#a7e68f",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clear hierarchy, complemented by a smaller, distinct monospaced font for code examples.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, input fields, and some card elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, but a tighter grid for feature cards and pricing."
+  },
+  "standout": "The most distinctive feature is the animated, pixelated green background that permeates the dark sections of the site. It effectively communicates a high-tech, data-driven, and slightly 'glitchy' aesthetic, setting it apart from typical clean SaaS designs by adding a layer of dynamic visual interest without being distracting.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

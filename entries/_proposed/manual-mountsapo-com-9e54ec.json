@@ -1,0 +1,115 @@
+{
+  "id": "manual-mountsapo-com-9e54ec",
+  "source": {
+    "url": "https://mountsapo.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-mountsapo-com-9e54ec.webp",
+    "scroll": [
+      "shots/_proposed/manual-mountsapo-com-9e54ec__scroll0.webp",
+      "shots/_proposed/manual-mountsapo-com-9e54ec__scroll1.webp",
+      "shots/_proposed/manual-mountsapo-com-9e54ec__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "organic-products"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are used for product descriptions, pairing large, abstract imagery with concise text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, organic, rounded display serif font is used exclusively for the brand name, contrasting with clean, functional sans-serifs for all other text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, warm orange and deep reddish-purple are used as primary brand accents and for key text, set against a soft, muted cream background, with a cool blue for the footer and sticky elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'Sign up for updates' call-to-action box appears on scroll and remains sticky in the bottom-right corner of the viewport, providing a persistent engagement point."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by alternating background colors (cream, light grey, and blue), creating distinct visual blocks for different content types."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features an oversized, organic display typeface for the brand name, which appears to be rendered as a canvas element or SVG for scalable, custom typography.",
+    "Product and descriptive sections integrate large, abstract, textural images that evoke a sensory experience, often placed in an asymmetrical layout next to text content.",
+    "A persistent call-to-action for newsletter signup is implemented as a sticky element that reveals after initial scroll and remains fixed in the bottom right of the viewport, likely using JavaScript for scroll detection and CSS for positioning."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffad5a",
+        "role": "accent"
+      },
+      {
+        "hex": "#751545",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f0e8",
+        "role": "background"
+      },
+      {
+        "hex": "#e0e0e0",
+        "role": "surface"
+      },
+      {
+        "hex": "#007cba",
+        "role": "cta"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:organic-serif-display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, organic display font for the hero (~8x body) with bold, condensed sans-serif headings (~2x body) and clean, legible sans-serif body text.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, while images maintain sharp corners.",
+    "spacing": "Generally airy with generous vertical padding between sections and within content blocks, creating a spacious and unhurried feel."
+  },
+  "standout": "The site's most distinctive feature is its bold, organic, almost hand-drawn typography for the brand name, which immediately conveys a playful and natural brand identity. This is uniquely complemented by abstract, textural imagery that evokes a strong sensory experience, making the product feel artisanal and high-quality.",
+  "animation_tech": [
+    "canvas",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

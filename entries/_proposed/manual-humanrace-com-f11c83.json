@@ -1,0 +1,111 @@
+{
+  "id": "manual-humanrace-com-f11c83",
+  "source": {
+    "url": "https://www.humanrace.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-humanrace-com-f11c83.webp",
+    "scroll": [
+      "shots/_proposed/manual-humanrace-com-f11c83__scroll0.webp",
+      "shots/_proposed/manual-humanrace-com-f11c83__scroll1.webp",
+      "shots/_proposed/manual-humanrace-com-f11c83__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "skincare",
+      "beauty",
+      "wellness",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with a strong visual narrative, featuring products in natural, unpolished settings."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating light background colors (white and a subtle off-white/beige) are used to delineate major content sections."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a prominent, bold sans-serif typeface, creating a clear hierarchy against lighter, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green is used as a strategic accent color for branding, CTAs, and key information, contrasting with a largely neutral palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation transforms from a transparent overlay with white text to a compact, solid white bar with black text and a smaller logo upon scrolling past the hero section."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large background image that is fixed or moves at a slower rate than the scroll, creating a parallax depth effect. The foreground content scrolls normally over this background.",
+    "The primary navigation bar is initially positioned absolutely over the hero with a transparent background. Upon scrolling past a certain threshold (typically the hero's height), it transitions to a sticky position, shrinking in height, adopting a solid white background, and changing its text and logo colors to black for improved contrast against the new background. This transformation is likely achieved with CSS transitions or JavaScript.",
+    "Product displays and testimonial sections are structured in clean, responsive grids. Product carousels, where present, are likely powered by a library like Swiper, allowing for smooth horizontal navigation of items."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0aa34a",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f3f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#676986",
+        "role": "body-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins-Klaviyo-Hosted",
+        "role": "heading"
+      },
+      {
+        "family": "Nunito-Sans-Klaviyo-Hosted",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~3-4x body text) than the lighter, highly legible body text, creating a strong visual hierarchy.",
+    "radius": "Subtle rounding on buttons and product containers, maintaining a clean, modern aesthetic.",
+    "spacing": "Balanced, with generous vertical spacing between major sections and a more compact grid for product displays, creating a comfortable rhythm."
+  },
+  "standout": "The site distinguishes itself with its authentic, unpolished photography featuring real people and products in natural, relatable settings, which lends a grounded and trustworthy feel. This organic visual style is combined with a minimalist layout and a striking, yet sparingly used, vibrant green accent color, creating a unique blend of authenticity and modern design.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
