@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-jkane-co-b3e3d2",
+  "source": {
+    "url": "https://www.jkane.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-jkane-co-b3e3d2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-jkane-co-b3e3d2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-jkane-co-b3e3d2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-jkane-co-b3e3d2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "web-design",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a split-screen layout with a fixed-width left sidebar for navigation and personal information, and a dynamic, masonry-style grid on the right for portfolio content."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the page, new grid items in the main content area reveal themselves with a subtle fade-in and slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, primarily featuring light grey and white backgrounds with very dark grey text, accented by a single vibrant magenta for interactive elements."
+    },
+    {
+      "kind": "section",
+      "note": "The left sidebar consistently presents project entries with a small, distinct icon, a title, and a brief descriptive paragraph, maintaining a clear visual hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the split-screen layout, use CSS Grid or Flexbox to define two primary columns. The left column should be fixed in width and have its own internal scroll mechanism for its content, while the right column expands to fill the remaining space and contains the main page scrollable content.",
+    "The scroll-triggered reveals for grid items can be achieved using the Intersection Observer API or a JavaScript animation library. Elements should initially be hidden and slightly translated downwards, then transition to visible and their original position when they enter the viewport, creating a smooth fade-in and slide-up effect.",
+    "The fixed newsletter signup can be implemented by positioning it absolutely or fixed to the bottom-right of the viewport, ensuring it remains visible regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#0d0d0d",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#e0008e",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Balanced sans-serif scale with clear hierarchy; headings are moderately larger and bolder than body text, with small uppercase labels for navigation and metadata.",
+    "radius": "Subtle; a consistent, small border-radius is applied to cards, buttons, and the overall page container, providing a soft-edged feel.",
+    "spacing": "Balanced to airy; generous spacing is used between grid items and within the left sidebar content, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "The most distinctive aspect is the persistent, independently scrollable left sidebar combined with a dynamic, masonry-style portfolio grid on the right. This creates a unique browsing experience that effectively separates personal branding and navigation from the visual showcase of work.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

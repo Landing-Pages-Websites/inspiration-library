@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-oscarpecher-com-57c147",
+  "source": {
+    "url": "https://www.oscarpecher.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-oscarpecher-com-57c147.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-oscarpecher-com-57c147__scroll0.webp",
+      "shots/_proposed/lapa-ninja-oscarpecher-com-57c147__scroll1.webp",
+      "shots/_proposed/lapa-ninja-oscarpecher-com-57c147__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "photography",
+      "film",
+      "design-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section with a centered, multi-line headline and subtle navigation dots, followed by a responsive grid of project cards."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif typography for main headings and a large, faded brand mark in the footer, contrasting with smaller, clean sans-serif for body and detail text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is consistently punctuated by a single, vibrant orange accent for interactive elements and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A cookie consent banner slides into view from the bottom right corner as the user scrolls past the initial viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by large, impactful typographic statements and a consistent grid for project showcases."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-width hero section that functions as an image carousel, indicated by a series of small, interactive dots for navigation.",
+    "A cookie consent banner is implemented to appear with a slide-in animation from the bottom right of the screen, triggered once the user scrolls down the page, utilizing CSS keyframes for the transition.",
+    "Project showcases are presented in a flexible grid layout, where each item combines a striking visual with overlaid text, adapting gracefully to different screen sizes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FF6419",
+        "role": "accent"
+      },
+      {
+        "hex": "#171717",
+        "role": "surface"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "text-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Switzer",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Switzer",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong hierarchy, complemented by a very large, wide display font for the brand mark in the footer.",
+    "radius": "Subtle to rounded, with sharp corners for content cards and rounded corners for interactive elements like buttons and the cookie banner.",
+    "spacing": "Airy vertical spacing in the hero and main text sections, balanced spacing within the project grid, creating a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of a minimalist black-and-white aesthetic with a single, vibrant orange accent color, combined with large, impactful typography and high-quality, often monochromatic, photography, creates a sophisticated and artistic brand identity. The oversized, faded brand name in the footer is a unique and memorable touch.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

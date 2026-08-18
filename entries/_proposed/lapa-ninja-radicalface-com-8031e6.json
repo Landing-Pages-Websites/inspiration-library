@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-radicalface-com-8031e6",
+  "source": {
+    "url": "https://www.radicalface.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-radicalface-com-8031e6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-radicalface-com-8031e6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-radicalface-com-8031e6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-radicalface-com-8031e6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "artist",
+      "creative-portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout featuring a dominant, large-scale brand name on the left, balanced by a smaller descriptive text and CTA on the right, creating a strong visual anchor."
+    },
+    {
+      "kind": "type",
+      "note": "A high-contrast typographic pairing of an extremely bold, wide sans-serif for primary titles and a refined, elegant serif for body text and secondary headings."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette dominated by stark black and a warm off-white, punctuated by small, vibrant accent colors (red, purple, green) used as status indicators."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image employs a subtle parallax effect, moving at a slower rate than the foreground content as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent, fixed left-hand navigation menu overlays the main content, providing continuous access to key content categories regardless of scroll position."
+    }
+  ],
+  "technique_notes": [
+    "The hero section integrates a large, full-width background image that moves with a subtle parallax effect, creating a layered depth against the foreground content.",
+    "A fixed, semi-transparent overlay menu is positioned on the left side of the viewport, providing a persistent navigation element that remains visible as the user scrolls through the page.",
+    "The main navigation bar at the top of the page is sticky, ensuring it stays in view for continuous access."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F4",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#DD2727",
+        "role": "accent"
+      },
+      {
+        "hex": "#6756BD",
+        "role": "accent"
+      },
+      {
+        "hex": "#41674E",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SuisseIntl",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold sans-serif hero title (~4-5x body) with a contrasting elegant serif for body text and secondary headings, creating a strong typographic hierarchy.",
+    "radius": "subtle (buttons and input fields have a slight rounding)",
+    "spacing": "airy (especially in the hero and main content sections, with generous whitespace around elements), becoming more balanced in the mailing list section"
+  },
+  "standout": "The site's distinctive use of a fixed, left-aligned content menu overlaying a large, subtly parallaxing hero image creates an immediate sense of depth and unique navigation. The bold, almost brutalist typography for the main title combined with elegant serif text establishes a strong, artistic brand identity that feels personal and curated.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

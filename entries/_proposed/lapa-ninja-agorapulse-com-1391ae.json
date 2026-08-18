@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-agorapulse-com-1391ae",
+  "source": {
+    "url": "https://www.agorapulse.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-agorapulse-com-1391ae.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-agorapulse-com-1391ae__scroll0.webp",
+      "shots/_proposed/lapa-ninja-agorapulse-com-1391ae__scroll1.webp",
+      "shots/_proposed/lapa-ninja-agorapulse-com-1391ae__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "social-media-management"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is structured in full-width sections, with primary content centered and constrained to a readable width, flanked by generous whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "Bold, large sans-serif headings are used for primary messaging, creating strong visual hierarchy, while body text is clear and highly readable."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, predominantly white and light grey background is contrasted with a vibrant orange for primary calls-to-action and key phrases, and a deep blue for secondary actions and links."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking vertically and gaining a subtle shadow while remaining sticky at the top of the viewport. Sections below the hero reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections often feature large, illustrative product screenshots or abstract graphics positioned prominently alongside descriptive text, reinforcing the product's functionality."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, implement a sticky header that dynamically adjusts its height and adds a subtle drop shadow or border when the user scrolls past the initial hero section. Utilize scroll-triggered animations (e.g., using an Intersection Observer API with CSS keyframes or a JavaScript library) to reveal content sections with a staggered fade-up or slide-in effect as they become visible in the viewport.",
+    "The layout uses a flexible grid system to arrange text and imagery side-by-side within sections, often with a larger visual element balancing a concise text block. Product screenshots are integrated as hero images or within feature sections, often with a slight perspective or shadow to give them depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fff9f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#212e44",
+        "role": "text"
+      },
+      {
+        "hex": "#da532c",
+        "role": "cta"
+      },
+      {
+        "hex": "#0e72d6",
+        "role": "accent"
+      },
+      {
+        "hex": "#ccc",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "WistiaPlayerInter",
+        "role": "heading"
+      },
+      {
+        "family": "WistiaPlayerInter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual impact, complemented by a clear, readable body text and smaller, uppercase labels for emphasis.",
+    "radius": "Subtle rounding on buttons, cards, and input fields, creating a soft but professional feel.",
+    "spacing": "Balanced and airy, with generous vertical spacing between sections and ample padding around content blocks, contributing to a clean and uncluttered appearance."
+  },
+  "standout": "The site's standout feature is its confident, bold typography combined with a strategic use of a vibrant orange accent, which effectively highlights key messages and calls-to-action without overwhelming the clean, professional aesthetic. The integration of clear, illustrative product screenshots directly into the narrative also makes the complex service immediately understandable.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

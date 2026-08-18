@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-themekaverse-com-fa9910",
+  "source": {
+    "url": "https://themekaverse.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-themekaverse-com-fa9910.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-themekaverse-com-fa9910__scroll0.webp",
+      "shots/_proposed/lapa-ninja-themekaverse-com-fa9910__scroll1.webp",
+      "shots/_proposed/lapa-ninja-themekaverse-com-fa9910__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "nft",
+      "metaverse",
+      "digital-collectibles"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-screen, immersive sections dominate the initial scroll, each featuring a large, detailed background image or video with minimal text overlay."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a background image that parallaxes behind the fixed foreground text. Subsequent sections transition by sliding vertically, with each new full-screen section replacing the previous one as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar starts transparent with light text and icons, then transforms into a solid white bar with dark text and icons after scrolling past the initial immersive sections."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles are presented in a large, bold, uppercase sans-serif font, often with a subtle outline or shadow for contrast against complex backgrounds."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white palette is used for UI elements and text, providing legibility against the rich, detailed, and often colorful background imagery of the immersive sections."
+    }
+  ],
+  "technique_notes": [
+    "The site uses full-viewport sections that transition on scroll, creating an immersive, story-like progression. Each section's background image or video (leveraging the 'video-hero' tech hint) is a key visual element.",
+    "A parallax scrolling effect is applied to the hero background, where the image moves at a slower rate than the foreground content, creating depth. This effect is likely managed with a scroll-triggered animation library.",
+    "The navigation bar employs a scroll-triggered state change: it starts transparent and overlays the hero, then becomes sticky and adopts a solid background and contrasting text color once the user scrolls past the initial hero content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~4-5x body) for section titles, paired with a clean, legible sans-serif for body and navigation text.",
+    "radius": "Sharp corners for most elements and containers, with subtle rounding on interactive elements like buttons.",
+    "spacing": "Very airy in the full-screen hero and section transitions, creating a sense of grandeur; balanced density in the content sections and footer."
+  },
+  "standout": "The site's distinctive design lies in its full-screen, immersive scroll-triggered section transitions, each featuring highly detailed, high-production-value background imagery that tells a visual story. This creates a highly engaging and cinematic user experience, moving beyond typical static sections.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

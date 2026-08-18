@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-stephenhannon-co-uk-b824ca",
+  "source": {
+    "url": "https://stephenhannon.co.uk/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-stephenhannon-co-uk-b824ca.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-stephenhannon-co-uk-b824ca__scroll0.webp",
+      "shots/_proposed/lapa-ninja-stephenhannon-co-uk-b824ca__scroll1.webp",
+      "shots/_proposed/lapa-ninja-stephenhannon-co-uk-b824ca__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "film",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-impact photography and video stills are used as dominant section backgrounds, often in black and white or muted tones, creating a strong visual presence."
+    },
+    {
+      "kind": "layout",
+      "note": "Sections are frequently separated by large, solid blocks of black or a single accent color, providing stark visual breaks and a sense of depth."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in typography, featuring massive, condensed, uppercase sans-serif headings that dominate their sections, paired with much smaller, refined sans-serif text for details and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette primarily uses black and white, with occasional muted sepia tones and a single strong, earthy reddish-brown accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "Large background images (e.g., hero video stills) exhibit a subtle parallax effect, scrolling at a slower rate than the foreground content, creating a layered depth."
+    },
+    {
+      "kind": "motion",
+      "note": "A global sticky header remains visible at the very top of the viewport, while certain section-specific elements (like 'PSYCHO FILMS' and its navigation) also stick to the top of their respective sections as they scroll into view, then disappear with the section."
+    },
+    {
+      "kind": "motion",
+      "note": "A horizontal scrolling gallery of images is embedded within a vertically scrolling section, allowing for a dynamic content presentation."
+    }
+  ],
+  "technique_notes": [
+    "Implement a persistent global header that remains fixed at the top of the viewport throughout the page scroll.",
+    "Create section-specific sticky elements that attach to the top of their parent section as it enters the viewport and scroll away once the section fully exits, using scroll-triggered positioning.",
+    "Achieve a subtle parallax effect for large background images by having them scroll at a slower rate than the main page content, giving a sense of depth and layering."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ebdcd3",
+        "role": "surface"
+      },
+      {
+        "hex": "#9c4133",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8e8e8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Massive, condensed, uppercase headings (~5-8x body) create strong visual anchors, contrasted with small, clean sans-serif text for navigation and details.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between sections and around hero elements, creating a spacious and uncrowded feel."
+  },
+  "standout": "This site's design is distinctive for its bold, almost brutalist use of typography and high-contrast imagery. The blend of full-bleed, often black and white, cinematic visuals with stark black sections and a single, strong accent color creates a powerful, editorial aesthetic. The layered scrolling and embedded horizontal galleries add a sophisticated, interactive dimension that elevates it beyond a typical portfolio.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

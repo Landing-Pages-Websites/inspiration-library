@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-moonbow-design-f01f88",
+  "source": {
+    "url": "https://moonbow.design/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-moonbow-design-f01f88.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-moonbow-design-f01f88__scroll0.webp",
+      "shots/_proposed/lapa-ninja-moonbow-design-f01f88__scroll1.webp",
+      "shots/_proposed/lapa-ninja-moonbow-design-f01f88__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Each portfolio project is presented as a distinct visual module, often with its own background color or unique graphic style, creating a diverse showcase within a unified scroll."
+    },
+    {
+      "kind": "type",
+      "note": "A classic serif font is used for the primary introductory text, lending an editorial and sophisticated feel, contrasted with a clean sans-serif for project titles and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast dark background for the hero and some project sections, punctuated by vibrant, often gradient-filled, accent colors and full-bleed project visuals."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial 3D moon graphic in the hero section remains sticky or parallaxes subtly against the scrolling text, creating depth, before eventually scrolling out of view to reveal content sections."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio projects are clearly delineated by full-width sections that often feature contrasting background colors or distinct visual treatments, making each project feel like a self-contained experience."
+    }
+  ],
+  "technique_notes": [
+    "The hero features a WebGL-rendered 3D moon graphic that is positioned to appear sticky or parallax slightly as the user scrolls, creating a dynamic foreground-background relationship with the introductory text.",
+    "Sections are revealed as the user scrolls, with some projects incorporating a video hero element that auto-plays to showcase motion design work.",
+    "The site uses CSS keyframes for subtle animations, such as the colored underlines on specific words in the hero text, adding a playful and interactive touch."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#aaa9a6",
+        "role": "surface"
+      },
+      {
+        "hex": "#eaa012",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffdc26",
+        "role": "accent"
+      },
+      {
+        "hex": "#a3d285",
+        "role": "accent"
+      },
+      {
+        "hex": "#f88335",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "mrs-eaves",
+        "role": "body"
+      },
+      {
+        "family": "new-spirit-condensed",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "The introductory text uses a comfortable, medium-large serif font, while project titles are a distinct, slightly smaller sans-serif, creating a balanced hierarchy without extreme size differences.",
+    "radius": "Mostly sharp corners for structural elements and content blocks, with some subtle rounding on internal graphic elements and icons.",
+    "spacing": "Airy spacing in the hero section, transitioning to a balanced density for project showcases, allowing visuals ample room to breathe."
+  },
+  "standout": "The site's most distinctive feature is its interactive 3D moon hero, which immediately establishes a unique and engaging experience. Beyond that, the portfolio stands out by showcasing an exceptional breadth of design styles and techniques across its projects, demonstrating remarkable versatility rather than adhering to a single aesthetic.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

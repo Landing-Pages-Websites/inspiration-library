@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-paulkalkbrenner-net-8027a3",
+  "source": {
+    "url": "https://www.paulkalkbrenner.net/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-paulkalkbrenner-net-8027a3.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-paulkalkbrenner-net-8027a3__scroll0.webp",
+      "shots/_proposed/lapa-ninja-paulkalkbrenner-net-8027a3__scroll1.webp",
+      "shots/_proposed/lapa-ninja-paulkalkbrenner-net-8027a3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "electronic-music",
+      "artist-portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a high-contrast, full-width layout with distinct sections, often featuring large typographic elements as primary visual anchors."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section titles employ an extremely bold, wide sans-serif typeface, often in all caps, creating a strong, impactful visual statement."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white palette is consistently used for text and backgrounds, punctuated by a vibrant, saturated orange for calls to action and footer sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section undergoes a dramatic transformation on scroll: a complex grid of images and text collapses to reveal a minimalist, oversized typographic hero (the artist's name) which then scrolls away to reveal the main content. The navigation also shrinks and repositions to become a compact sticky header."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into clearly delineated sections with bold, uppercase headings, often using a simple grid or list format for details like tour dates or gallery items."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a complex scroll-triggered transformation where an initial busy visual composition is replaced by a minimalist, large-scale typographic display, which then scrolls out of view. This involves elements fading, scaling, and repositioning based on scroll depth.",
+    "The primary navigation bar dynamically changes its size and layout on scroll, transitioning from a larger, more spread-out initial state to a compact, sticky version at the top of the viewport.",
+    "Content sections utilize full-bleed imagery and video, sometimes with a semi-transparent color overlay (e.g., green) to create visual interest and unify design."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF5700",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF5700",
+        "role": "cta"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif hero text (~8x body) with smaller, clean sans-serif for navigation and body text, and large, bold section headings.",
+    "radius": "sharp \u2014 all elements feature crisp, angular corners.",
+    "spacing": "airy \u2014 generous vertical spacing between major sections, with content within sections maintaining a balanced density."
+  },
+  "standout": "The most distinctive feature is the dramatic, multi-stage hero transformation on scroll. It transitions from a busy, collage-like introduction to a stark, oversized typographic statement, effectively using motion to control focus and reveal content in a highly dynamic way.",
+  "animation_tech": [],
+  "status": "proposed"
+}
