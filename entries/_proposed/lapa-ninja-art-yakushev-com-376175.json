@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-art-yakushev-com-376175",
+  "source": {
+    "url": "https://www.art-yakushev.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-art-yakushev-com-376175.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-art-yakushev-com-376175__scroll0.webp",
+      "shots/_proposed/lapa-ninja-art-yakushev-com-376175__scroll1.webp",
+      "shots/_proposed/lapa-ninja-art-yakushev-com-376175__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, full-bleed section layouts with large, often overlapping typographic elements and abstract 3D graphics create a dynamic and artistic composition."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section titles use extremely large, bold, and sometimes outlined or semi-transparent display fonts, contrasting dramatically with smaller, clean sans-serif body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is consistently accented with deep reds and oranges, often used in blurred backgrounds, subtle glows, or as primary brand colors."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen scroll-triggered transitions dramatically change the entire page content, revealing new sections with distinct backgrounds and large typographic elements that animate into view, rather than simply sliding content."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases feature large, impactful imagery or 3D renders, often presented within a simulated screen context (e.g., a laptop display), surrounded by large, descriptive typography."
+    }
+  ],
+  "technique_notes": [
+    "Full-screen scroll-triggered transitions are used to dramatically change the entire page content, often involving large typographic elements that animate in and out, and background images that shift or blur. This likely uses GSAP ScrollTrigger to orchestrate complex timeline animations that respond to scroll depth, potentially involving CSS keyframes for specific element movements or Lottie for vector animations.",
+    "Hero and section titles are rendered with extremely large, bold, and sometimes outlined or semi-transparent display fonts, creating a strong visual hierarchy and artistic statement. These large text elements often overlap with background imagery or other text, creating a layered effect.",
+    "Project showcases are presented as full-bleed sections, often featuring a central image or 3D render within a simulated device frame (like a laptop screen), surrounded by large, descriptive typography that acts as both content and design element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F44336",
+        "role": "accent"
+      },
+      {
+        "hex": "#D32F2F",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#757575",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Dramatic contrast between extremely oversized, bold, and often outlined or semi-transparent display headings (~8-10x body) and smaller, clean sans-serif body text.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy and expansive, especially in hero and section transitions, with large negative space around key visual elements. Project grids are more balanced."
+  },
+  "standout": "The site stands out with its highly theatrical and dynamic full-screen scroll transitions, where entire sections dramatically transform rather than simply revealing content. The use of extremely oversized, often semi-transparent or outlined typography as a primary visual element, combined with abstract 3D graphics and a high-contrast palette, creates a distinctive, editorial, and almost art-gallery-like experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

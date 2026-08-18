@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-idle-finance-ee4f01",
+  "source": {
+    "url": "https://idle.finance/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-idle-finance-ee4f01.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-idle-finance-ee4f01__scroll0.webp",
+      "shots/_proposed/lapa-ninja-idle-finance-ee4f01__scroll1.webp",
+      "shots/_proposed/lapa-ninja-idle-finance-ee4f01__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "defi",
+      "investment"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent max-width container for text and interactive elements, often using a grid for logos and a two-column split for feature descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, gradient-rich dark blue background serves as the primary canvas, contrasted by crisp white text and a vibrant teal accent color used for key highlights, interactive elements, and calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and use a clean sans-serif, creating a strong visual hierarchy. Secondary information and labels often use smaller, lighter weights or uppercase styling for distinction."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar, including the logo and main call-to-action, remains sticky at the top of the viewport as the user scrolls down the page, while the main content scrolls underneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Key financial metrics and partner integrations are displayed using a card-based layout, providing clear, digestible information within distinct, well-padded containers."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed header that stays visible at the top of the browser window, allowing the main page content to scroll beneath it. This ensures constant access to navigation and primary calls to action.",
+    "Backgrounds utilize subtle, multi-directional gradients of dark blue and purple hues to add depth and visual interest without distracting from content.",
+    "Interactive cards and buttons feature subtle rounded corners and a soft inner shadow or border to give them a tangible, clickable presence against the dark background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#202835",
+        "role": "background"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#cdd0d6",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#2b5797",
+        "role": "surface"
+      },
+      {
+        "hex": "#0c48a4",
+        "role": "background-gradient-component"
+      },
+      {
+        "hex": "#202a3e",
+        "role": "background-deep"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder than body text, establishing clear hierarchy, while labels often use smaller, uppercase styling.",
+    "radius": "Subtle rounded corners are consistently applied to cards, buttons, and input fields, contributing to a soft, modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and within card elements, creating a sense of openness and clear content separation."
+  },
+  "standout": "The site's distinctive use of a deep, gradient-rich dark blue theme with a vibrant teal accent creates a sophisticated and trustworthy atmosphere. The clean, card-based presentation of complex financial data, combined with a strong visual hierarchy, makes the information highly digestible and appealing.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "proposed"
+}

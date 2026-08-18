@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-sebastiancuri-com-63502a",
+  "source": {
+    "url": "https://sebastiancuri.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sebastiancuri-com-63502a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sebastiancuri-com-63502a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sebastiancuri-com-63502a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sebastiancuri-com-63502a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "illustration",
+      "artist-portfolio",
+      "creative-studio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The artist's name is presented as an oversized, fixed header that remains visible at the top of the viewport throughout the scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Artworks are displayed in a flexible grid layout, often with a white border or frame effect, creating a gallery-like presentation."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero illustration shrinks and moves upwards, creating a parallax-like effect as the user scrolls, eventually revealing the content below."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar initially appears below the hero illustration, then transitions to a sticky position at the top of the viewport, directly beneath the fixed artist name, after the hero has scrolled sufficiently."
+    },
+    {
+      "kind": "type",
+      "note": "A single, wide, monospaced sans-serif font is used consistently across all text elements, varying only in size and weight to establish hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse color palette is used exclusively within the illustrative content, sharply contrasted against a minimal black and off-white user interface."
+    }
+  ],
+  "technique_notes": [
+    "The main artist name at the top of the page is implemented as a fixed element, ensuring it always stays in view.",
+    "The hero illustration uses a scroll-triggered animation (likely css-keyframes) to scale down and translate upwards, creating a shrinking parallax effect as the user scrolls down the page.",
+    "The primary navigation bar is initially positioned relative to the content flow, then dynamically switches to a sticky position at the top of the viewport, just below the fixed header, once the initial hero section has scrolled out of its original position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f0f0f0",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent-illustration-red"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent-illustration-blue"
+      },
+      {
+        "hex": "#008000",
+        "role": "accent-illustration-green"
+      },
+      {
+        "hex": "#ffa500",
+        "role": "accent-illustration-orange"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Monument Grotesk Mono Variable",
+        "role": "heading"
+      },
+      {
+        "family": "Monument Grotesk Mono Variable",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, wide monospaced hero heading (~5-6x body) with small, all-caps monospaced body and navigation text.",
+    "radius": "sharp",
+    "spacing": "airy hero, balanced content grid with generous padding around individual artworks."
+  },
+  "standout": "This site's design is distinctive for its bold, fixed, oversized monospaced header combined with a dynamic, shrinking hero illustration that creates a unique parallax effect. The navigation's transition from below the hero to a sticky top position is also a clever touch, making the site feel like an interactive art gallery rather than a standard portfolio template.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

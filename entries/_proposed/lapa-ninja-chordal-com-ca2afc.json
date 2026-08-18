@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-chordal-com-ca2afc",
+  "source": {
+    "url": "https://www.chordal.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-chordal-com-ca2afc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-chordal-com-ca2afc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-chordal-com-ca2afc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-chordal-com-ca2afc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "media",
+      "saas",
+      "intellectual-property"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-screen, chapter-like sections that occupy the entire viewport height, transitioning one after another on scroll to create a sequential narrative."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of a very large, expressive display serif font for key headlines, contrasting with a clean, functional sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, almost monochromatic background palette (light grey, dark grey) is punctuated by a single vibrant, blurred gradient accent graphic."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-page scroll-snapping experience where entire content sections slide or fade into view, replacing the previous section, creating a distinct narrative flow."
+    },
+    {
+      "kind": "section",
+      "note": "Large, visually distinct content blocks, often framed by abstract graphic elements (like overlapping circles or a flower icon), each serving as a self-contained 'chapter' of information."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen scroll-snapping system, likely using GSAP or similar scroll-triggering libraries, to transition between distinct content sections. Each section is designed to fill the viewport, creating a sequential, chapter-like browsing experience as the user scrolls.",
+    "Typography is used expressively, with a very large, stylized display serif font for primary headlines to establish a strong visual identity, complemented by a clean sans-serif for readability in body text and functional elements.",
+    "The color palette is intentionally minimal, relying on a light grey background and dark text for clarity, with a single, vibrant, blurred gradient graphic serving as a dynamic accent element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e6e6e6",
+        "role": "background"
+      },
+      {
+        "hex": "#1b1b1b",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff6b00",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#ff006e",
+        "role": "accent-gradient-end"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, condensed display serif headings (~4-5x body) with smaller, uppercase sans-serif labels and a readable sans-serif body text.",
+    "radius": "Subtle, with most elements having sharp corners, but key graphic elements like the hero gradient blob feature soft, rounded edges.",
+    "spacing": "Airy, characterized by generous vertical spacing between major sections and within content blocks, contributing to a sense of visual calm and focus on individual elements."
+  },
+  "standout": "The site's design is distinctive for its bold, almost editorial use of full-screen, chapter-like scroll transitions, combined with highly expressive typography. The minimal color palette, punctuated by a single vibrant gradient, creates a sophisticated and focused user experience that feels more like an interactive presentation than a typical marketing site.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

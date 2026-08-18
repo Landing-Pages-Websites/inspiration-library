@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-david-hckh-com-df4b2f",
+  "source": {
+    "url": "https://david-hckh.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-david-hckh-com-df4b2f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-david-hckh-com-df4b2f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-david-hckh-com-df4b2f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-david-hckh-com-df4b2f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "playful",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs an asymmetrical layout, placing prominent text content on the left and a large, custom 3D illustration on the right, creating a dynamic visual balance."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a complete 3D scene transition on scroll; the initial 'developer at desk' illustration and accompanying text are replaced by a new 'developer standing with boxes' scene, and the navigation items gain a background."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent warm, light beige background (#dfd1bc) is used across the entire page, providing a soft and inviting canvas that allows the custom 3D illustrations and dark text to stand out."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Projects' section utilizes a responsive grid of uniformly styled cards, each featuring a small icon, project title, and a subtle call to action, maintaining visual consistency."
+    }
+  ],
+  "technique_notes": [
+    "The site leverages WebGL and Three.js to render highly detailed, custom 3D illustrations that serve as the primary visual elements. The hero section implements a sophisticated scroll-triggered animation where an entire 3D scene is dynamically replaced and animated into view, rather than simply parallaxing elements, creating a strong visual narrative as the user scrolls.",
+    "Content sections are presented with a clean, minimal aesthetic, using ample whitespace and a clear typographic hierarchy to ensure readability and focus on the custom 3D artwork."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#dfd1bc",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f2e9",
+        "role": "background-light"
+      },
+      {
+        "hex": "#e88d2a",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#7a6a58",
+        "role": "surface-nav"
+      },
+      {
+        "hex": "#a7d9f2",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#88c057",
+        "role": "illustration-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~4x body) paired with smaller, regular sans-serif body text and uppercase labels.",
+    "radius": "subtle rounded corners on interactive elements and card components.",
+    "spacing": "airy hero section with generous vertical spacing, transitioning to a balanced grid layout for content sections."
+  },
+  "standout": "The site's most distinctive feature is its extensive and sophisticated use of custom 3D illustrations, powered by WebGL/Three.js, which dynamically transform and animate on scroll to tell a visual story. This goes beyond typical static imagery or simple parallax, creating a highly engaging and memorable experience.",
+  "animation_tech": [
+    "canvas",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

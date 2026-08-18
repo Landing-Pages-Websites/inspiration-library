@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-designisfunny-co-84a5d3",
+  "source": {
+    "url": "https://www.designisfunny.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-designisfunny-co-84a5d3.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-designisfunny-co-84a5d3__scroll0.webp",
+      "shots/_proposed/lapa-ninja-designisfunny-co-84a5d3__scroll1.webp",
+      "shots/_proposed/lapa-ninja-designisfunny-co-84a5d3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric layout with large, impactful typography on the left, balanced by smaller text blocks or imagery on the right, creating a dynamic visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, bold sans-serif headings are used for primary messages, creating a strong visual statement, contrasted with a much smaller, lighter weight sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, desaturated background palette (light beige/grey and dark grey) serves as a canvas for vibrant, multi-color gradient animated elements that act as focal points."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains sticky as the user scrolls, while main content sections reveal themselves by scrolling up into view. Key visual elements, like the circle around the portrait and the 'reach out' graphic, feature continuous, abstract animations."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by generous vertical spacing and distinct content blocks, often featuring a large heading and a more detailed content area, maintaining a minimalist and airy feel."
+    }
+  ],
+  "technique_notes": [
+    "A persistent header navigation is implemented to remain visible at the top of the viewport during scroll. Main content sections are designed to slide or fade into view as the user scrolls down the page, creating a sequential reveal. Interactive and continuously animating elements, such as the gradient circles, are rendered using canvas technology and CSS keyframes, providing dynamic visual interest and a sense of playfulness against the static background texture."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d4cfc4",
+        "role": "background"
+      },
+      {
+        "hex": "#343434",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#e050ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero and section headings (~4-5x body text) create strong visual impact, complemented by smaller, lighter body and navigation text.",
+    "radius": "Sharp corners are consistently used across all elements, contributing to a clean and modern aesthetic.",
+    "spacing": "Very airy spacing in hero and contact sections emphasizes key messages, while the work list maintains a balanced density for readability."
+  },
+  "standout": "This site's design is distinctive for its bold, almost brutalist use of oversized typography combined with a subtle background texture and highly dynamic, abstract gradient animations. The animated elements are not merely decorative but integral to the brand's playful identity, making the site feel both professional and uniquely artistic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
