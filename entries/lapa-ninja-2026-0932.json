@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-2026-0932",
+  "source": {
+    "url": "https://joinclyde.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0932.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0932__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0932__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0932__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "financial-services",
+      "saas",
+      "insurance"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing a large, stylized visual element (like a product card or UI mockup) on one side with descriptive text on the other, often with the visual element taking up more horizontal space."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established by using an oversized, elegant serif font for primary headings and key statements, paired with a clean, modern sans-serif for body text, subheadings, and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a predominantly dark (black) background canvas, against which vibrant, organic gradient blobs in shades of yellow, orange, purple, and pink provide dynamic visual interest and depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Background gradient elements continuously parallax and shift fluidly as the user scrolls, creating a sense of depth and organic movement. Content sections reveal with a subtle fade-in and slight upward slide as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections consistently present a stylized, often interactive-looking, UI card or product mockup alongside concise explanatory text, demonstrating the product's functionality or benefit."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven animation system (likely leveraging locomotive-scroll and canvas/css-keyframes) to create a continuous, fluid parallax effect for large, abstract background gradient shapes, giving them a 'liquid' or 'breathing' quality. This motion is independent of the content scroll, adding a dynamic layer. Content sections are revealed with a subtle, staggered fade-up or slide-in animation as they become visible in the viewport.",
+    "Abstract, organic gradient shapes are rendered as dynamic background elements, providing a soft, luminous contrast against the dark page canvas and serving as visual anchors for content blocks.",
+    "A clear visual hierarchy is established through typography, using an elegant, large-scale serif font for impactful headlines and a clean, highly legible sans-serif for all supporting text and interactive elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FFF100",
+        "role": "accent"
+      },
+      {
+        "hex": "#F6F6F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#7F7F7F",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "gradient-highlight"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "gradient-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body) create a strong visual statement, complemented by clean, legible sans-serif body text and smaller, often uppercase, labels.",
+    "radius": "Subtle (for cards, buttons, and input fields), maintaining a soft, approachable feel without being overly rounded.",
+    "spacing": "Airy in hero and between major sections, contributing to a premium feel, while content within feature blocks is balanced for readability."
+  },
+  "standout": "The site's most distinctive feature is its dynamic, continuously shifting and parallaxing organic gradient background elements. These 'liquid' blobs against a deep black canvas create a unique sense of fluid motion and depth, elevating the visual experience beyond typical static backgrounds and giving the site a sophisticated, almost artistic feel.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

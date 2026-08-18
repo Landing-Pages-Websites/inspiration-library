@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-0906",
+  "source": {
+    "url": "https://2022.demuxed.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0906.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0906__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0906__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0906__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "conference",
+      "video-engineering"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently centered and constrained, creating clear visual breaks between different topics."
+    },
+    {
+      "kind": "layout",
+      "note": "Speaker and schedule sections utilize a responsive grid of distinct cards, each with a subtle border and rounded corners for individual content items."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant light blue (#78a0d9) serves as the primary background color, providing a consistent brand presence and contrasting with white and dark text for readability."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation header remains sticky at the top of the viewport, ensuring continuous access to site navigation as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, including the detailed 3D illustration in the hero, simply appear as they scroll into the viewport without explicit fade-in or slide-up animations."
+    },
+    {
+      "kind": "section",
+      "note": "Clear, distinct content sections are visually separated by alternating full-width background colors (light blue and white) and generous vertical padding."
+    }
+  ],
+  "technique_notes": [
+    "The header is implemented as a sticky element that remains fixed at the top of the viewport, providing persistent navigation. No detected animation tech is used for its transformation.",
+    "Sections are structured with generous vertical padding and full-width background colors that alternate between the primary blue and white, creating clear visual separation.",
+    "The hero section features a large, whimsical 3D illustration that is initially below the fold and becomes fully visible as the user scrolls down, serving as a visual anchor for the event."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#78a0d9",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#D94A4A",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A bold, oversized hero heading (~4x body) sets a strong initial impression, followed by distinct, bold section headings (~2x body) and clear, readable body text.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, cards, and elements within the 3D illustration.",
+    "spacing": "Balanced to airy, with significant vertical padding between main sections and a more compact grid for content cards like speakers and schedule."
+  },
+  "standout": "The site's distinctive use of a playful, detailed 3D illustration in the hero section, which contrasts with the otherwise clean and functional layout, gives a unique and memorable personality to a technical conference.",
+  "animation_tech": [],
+  "status": "approved"
+}

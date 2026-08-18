@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0936",
+  "source": {
+    "url": "https://www.listacross.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0936.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0936__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0936__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0936__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "e-commerce",
+      "retail-tech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column content sections where a large, bold heading occupies the left column and descriptive text or a visual element is placed in the right column."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with oversized, bold sans-serif headings for major sections and a lighter weight sans-serif for body text, creating strong visual anchors."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme featuring a deep blue hero, a clean white content area, and a dark charcoal footer, punctuated by subtle grey text and borders."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features 3D platform icons that subtly parallax and rotate as the user scrolls, creating a sense of depth and dynamism. The sticky navigation's 'Sign Up' button transforms its background and text color upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are introduced with a large, declarative statement on the left, followed by a more detailed explanation or visual on the right, guiding the user through the product's benefits."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a canvas-based animation system to render 3D platform icons that float and subtly rotate. These elements are then animated with CSS keyframes to create a parallax effect, moving at a different speed than the background as the user scrolls, enhancing depth.",
+    "The main navigation bar is sticky, and its primary call-to-action button dynamically changes its visual style (background and text color) using CSS transitions once the user scrolls past the initial hero section.",
+    "Content sections employ a responsive two-column grid, often with a large, impactful heading on one side and supporting details or an image placeholder on the other, maintaining readability and visual interest across different screen sizes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#3461D1",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#808080",
+        "role": "text"
+      },
+      {
+        "hex": "#D7D7D7",
+        "role": "surface"
+      },
+      {
+        "hex": "#5B80E0",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with a clean, modern sans-serif for body text and small, uppercase labels.",
+    "radius": "Subtle rounded corners on buttons and interactive elements, otherwise sharp.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a comfortable rhythm within content blocks."
+  },
+  "standout": "The site's standout feature is its dynamic 3D hero illustration, which uses floating platform icons that subtly animate and parallax on scroll. This creates a sophisticated and engaging first impression that immediately communicates the product's multi-platform integration.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

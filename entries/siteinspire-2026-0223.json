@@ -1,0 +1,96 @@
+{
+  "id": "siteinspire-2026-0223",
+  "source": {
+    "url": "https://alexzarour.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0223.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0223__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0223__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0223__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "interior-design",
+      "architecture",
+      "art-gallery"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed, vertical image grid where each image occupies the full viewport height, creating an immersive gallery experience."
+    },
+    {
+      "kind": "type",
+      "note": "Minimalist typography is used for image labels and interactive tags, featuring a clean sans-serif font in a small size, contrasting with the large-scale imagery."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette is derived directly from the rich, natural tones of the photography (creams, browns, deep greens, greys), with a single vibrant blue used sparingly for interactive elements or tags."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, full-bleed images slide upwards, revealing the next image in a continuous vertical flow. Each image exhibits a subtle parallax effect where its content moves slightly slower than the scroll, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Each 'section' of the page is defined by a single, full-screen image, often accompanied by small, sticky labels at the bottom of the viewport that identify the image content."
+    }
+  ],
+  "technique_notes": [
+    "The core motion involves a full-viewport image carousel that transitions vertically on scroll. Each image within the carousel has a subtle parallax applied to its content, where the image background scrolls at a slightly different rate than the foreground, enhancing depth. Captions or labels are fixed to the bottom of the viewport, updating to reflect the currently visible image as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F5",
+        "role": "background"
+      },
+      {
+        "hex": "#3D3A38",
+        "role": "text"
+      },
+      {
+        "hex": "#8B6B4C",
+        "role": "accent"
+      },
+      {
+        "hex": "#1E50FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#A0A09B",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, consistent sans-serif text for labels and interactive elements, serving as annotations to the dominant large-scale imagery.",
+    "radius": "sharp",
+    "spacing": "dense \u2014 full-bleed images dominate the viewport with minimal whitespace, creating an immersive, continuous flow."
+  },
+  "standout": "The site's standout feature is its highly immersive, full-bleed image gallery that uses subtle parallax and sticky captions to create a dynamic, editorial-style portfolio. It feels less like a traditional website and more like an interactive art book or digital exhibition.",
+  "animation_tech": [],
+  "status": "approved"
+}

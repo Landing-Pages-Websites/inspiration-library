@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-2026-0909",
+  "source": {
+    "url": "https://cash.app/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0909.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0909__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0909__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0909__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "finance",
+      "mobile-payments"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses full-screen, distinct sections that completely fill the viewport, each presenting a unique theme, background color, and content arrangement."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, primarily using a vibrant green, stark black, and clean white as full-section background colors to delineate content areas dramatically."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the entire page transitions to a new full-screen section, involving a complete swap of background color, main visual, and textual content, creating a chapter-like experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a dynamic, looping video or animated sequence embedded within a mobile device frame, showcasing app functionality in real-time as the user scrolls slightly within that section."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings are rendered in a very large, bold sans-serif typeface, providing strong visual hierarchy against smaller, more functional body text and uppercase call-to-action labels."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-page scroll-snapping or section-based scrolling system (likely using `locomotive-scroll`) where each scroll event triggers a smooth, full-viewport transition to the next content section. This transition includes a dramatic change in the background color and a complete reveal of new visual and textual elements.",
+    "The hero section integrates a `video-hero` element, presenting a dynamic, looping animation or video within a stylized mobile device frame to visually demonstrate app interactions and features."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#00e013",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, readable body text and small, uppercase CTA labels.",
+    "radius": "Subtle rounding (e.g., 8-12px) on buttons, app UI elements, and the mobile device frame, maintaining a clean, modern feel.",
+    "spacing": "Airy and balanced, with generous negative space around primary content blocks, especially in the full-screen hero sections."
+  },
+  "standout": "The most distinctive aspect is the dramatic, full-screen section transitions that completely transform the page's background color and content with each scroll. This creates a highly engaging, almost cinematic experience, making each section feel like a distinct chapter rather than just another part of a continuous scroll.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

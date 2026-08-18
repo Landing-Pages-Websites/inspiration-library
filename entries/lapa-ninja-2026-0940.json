@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-2026-0940",
+  "source": {
+    "url": "https://olhalazarieva.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0940.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0940__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0940__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0940__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "art",
+      "design",
+      "luxury-brand"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extreme negative space is the dominant layout principle, with content appearing only at the very top and bottom of the initial view, leaving a vast, empty central canvas."
+    },
+    {
+      "kind": "type",
+      "note": "The primary header text is a highly stylized, inverted (white on black) custom logotype, contrasting sharply with small, functional sans-serif text used for footer details."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black and white defines the visual experience, emphasizing contrast and minimalism."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial black header bar with its stylized text scrolls away and disappears completely as the user scrolls down, revealing an entirely blank white canvas. The footer also scrolls out of view, leaving the entire viewport empty."
+    },
+    {
+      "kind": "section",
+      "note": "The page is structured with a distinct, full-width header acting as a primary visual statement, followed by an expansive, empty content area, and a minimal footer."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered animation system, likely powered by GSAP, where the initial header element animates out of view based on scroll depth, revealing a completely blank canvas. The main content area appears to be a large, empty canvas, potentially for dynamic or interactive elements that are not visible in static screenshots, possibly rendered via canvas technology."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:custom-logotype",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A single, oversized, highly decorative display heading (~5x body) contrasts sharply with small, functional body text.",
+    "radius": "Sharp, with no visible rounded elements.",
+    "spacing": "Extremely airy, with vast amounts of negative space creating a sense of luxury and minimalism."
+  },
+  "standout": "This site's design is distinctive for its extreme minimalism, presenting an almost entirely blank page after the initial header scrolls away. The header itself is a bold, artistic statement using highly stylized, inverted text, making the page feel more like an interactive art piece or a highly exclusive brand introduction rather than a typical marketing site.",
+  "animation_tech": [
+    "canvas",
+    "gsap"
+  ],
+  "status": "approved"
+}

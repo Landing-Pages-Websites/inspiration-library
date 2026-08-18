@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-2026-0920",
+  "source": {
+    "url": "https://www.diegoliv.works/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0920.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0920__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0920__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0920__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical spacing, often featuring a single dominant element or content block centered horizontally."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, uppercase sans-serif headings are used for primary messaging, contrasting with smaller, regular-weight sans-serif body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black and white dominates the site, with subtle light grey dotted patterns providing texture. Accent colors are introduced only within embedded project previews and the final call-to-action collage."
+    },
+    {
+      "kind": "motion",
+      "note": "Massive, fixed background text elements (e.g., 'WHITE GLOW', 'PARALLEL') are revealed and obscured as foreground content scrolls vertically over them, creating a deep parallax effect. Project sections feature horizontal scrolling carousels."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as horizontally scrolling carousels of individual project cards, each with a distinct visual and call to action."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky navigation that remains at the top of the viewport throughout scrolling. Scroll-triggered animations, likely powered by GSAP, are extensively used to create a dynamic experience. This includes large, fixed background text elements that reveal as foreground content scrolls past them, simulating a deep parallax effect. Content sections, such as testimonials, appear to fade or slide into view as they enter the viewport. Project sections implement horizontal scrolling carousels, allowing users to swipe or drag through content within a fixed vertical space. The final call-to-action section is a full-bleed, sticky element that reveals as the preceding content scrolls away, featuring a large, rounded-pill shape for its content area."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Helvetica Neue Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, uppercase headings (~4-5x body) with smaller, regular-weight body text and navigation.",
+    "radius": "sharp for most elements like buttons and project cards, with a distinctive large, rounded-pill shape for the final call-to-action section.",
+    "spacing": "very airy, especially in the hero and between major sections, creating a sense of spaciousness and focus."
+  },
+  "standout": "The most distinctive aspect is the innovative use of massive, fixed background text elements that reveal and obscure as foreground content scrolls, creating a unique parallax depth. This, combined with horizontal scrolling project carousels and a final, dramatically pill-shaped call-to-action section, makes the site feel highly dynamic and visually engaging beyond a typical marketing template.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

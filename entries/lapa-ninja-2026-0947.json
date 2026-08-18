@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-0947",
+  "source": {
+    "url": "https://spline.design/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0947.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0947__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0947__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0947__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "3d-design",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, full-bleed background with content sections centered and often featuring full-width visual elements or interactive 3D graphics."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, pairing a dominant black background with bright white text and vibrant, saturated accent colors (pink, blue, green, yellow) primarily used in 3D elements and CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial transparent navigation bar transforms into a sticky, slightly shrunken version with a solid, translucent dark background. Sections below the hero reveal their content with subtle fade-in or slide-up animations as they enter the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and sans-serif, establishing a clear visual hierarchy against smaller, lighter-weight body text. Uppercase labels are used for section titles and navigation items."
+    },
+    {
+      "kind": "section",
+      "note": "Many content sections integrate interactive or animated 3D elements directly into their layouts, serving as both visual interest and product demonstration."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features an interactive 3D canvas animation that allows users to 'orbit' objects, creating an immersive first impression. This likely uses a WebGL library like Three.js or Spline's own engine.",
+    "Scroll-triggered animations are used to reveal content sections. As the user scrolls down, elements within each section (like cards, text blocks, and images) fade in or slide up into view, creating a dynamic content flow. This is likely orchestrated with CSS keyframes and JavaScript scroll listeners.",
+    "The primary navigation bar transitions from a transparent overlay in the hero to a sticky, slightly condensed bar with a subtle dark backdrop as the user scrolls past the initial hero content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#5865f2",
+        "role": "cta"
+      },
+      {
+        "hex": "#e3e8ff",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#232323",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff00ff",
+        "role": "accent-3d-pink"
+      },
+      {
+        "hex": "#00ff80",
+        "role": "accent-3d-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong hierarchy, complemented by smaller, lighter-weight body text and uppercase labels.",
+    "radius": "Subtle rounding on buttons and card edges, while 3D elements often feature soft, organic, rounded forms.",
+    "spacing": "The hero section is very airy, emphasizing the interactive 3D elements. Subsequent content sections maintain a balanced density with generous padding between elements and sections."
+  },
+  "standout": "The site's distinctive use of immersive, interactive 3D graphics throughout the entire page, especially in the hero and feature sections, sets it apart. This isn't just a static image; the 3D elements are dynamic and often user-controlled, directly showcasing the product's capabilities in a highly engaging way.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

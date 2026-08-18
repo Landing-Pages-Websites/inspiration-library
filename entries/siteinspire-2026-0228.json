@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-2026-0228",
+  "source": {
+    "url": "https://mmxxartists.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0228.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0228__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0228__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0228__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "photography",
+      "fashion",
+      "beauty"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Each project occupies a full-viewport section, split horizontally into an image on one side and a text block with a solid background color on the other. The image and text side alternates with each new section."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant, oversized, bold sans-serif headings are used for project titles, contrasted with much smaller, regular-weight sans-serif labels and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a vibrant, rotating palette of distinct solid background colors for each full-viewport project section, creating a strong visual shift as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, each full-viewport project section slides up from the bottom, replacing the previous section. The background color, image, and text content all transition together as a single unit, while the top navigation remains fixed."
+    },
+    {
+      "kind": "section",
+      "note": "Every project is presented as a distinct, full-screen section, ensuring maximum focus on one piece of work at a time before transitioning to the next."
+    }
+  ],
+  "technique_notes": [
+    "The site implements a full-screen section scroll experience where each project takes up the entire viewport. As the user scrolls, the current section slides upwards out of view, and the next section slides in from the bottom, revealing new content, images, and a distinct background color. The main navigation elements remain fixed at the top of the viewport. This effect is achieved using scroll-triggered animations, likely with JavaScript to manage the full-page transitions and CSS for the sliding motion."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F0D160",
+        "role": "accent"
+      },
+      {
+        "hex": "#EDEDED",
+        "role": "surface"
+      },
+      {
+        "hex": "#0E75BE",
+        "role": "accent"
+      },
+      {
+        "hex": "#3E8DAC",
+        "role": "accent"
+      },
+      {
+        "hex": "#CFD775",
+        "role": "accent"
+      },
+      {
+        "hex": "#6EA69A",
+        "role": "accent"
+      },
+      {
+        "hex": "#121212",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "MD Nichrome",
+        "role": "heading"
+      },
+      {
+        "family": "ABC Diatype",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body) are the dominant typographic feature, contrasted with much smaller, regular-weight sans-serif labels and navigation.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous negative space around content blocks within each full-screen section, creating a gallery-like feel."
+  },
+  "standout": "The most distinctive feature is the full-screen, single-project display with a dynamically changing, vibrant background color palette that shifts with each scroll, creating a highly immersive and visually impactful portfolio experience. This 'page-turn' effect for each project is unique.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

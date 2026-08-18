@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-0945",
+  "source": {
+    "url": "https://www.robably.net/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0945.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0945__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0945__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0945__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "web-design",
+      "branding"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed, dark, atmospheric hero image dominates the initial view, transitioning to a solid dark background for the main content sections."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent, clean sans-serif typeface is used throughout, with a subtle hierarchy where project numbers are slightly larger than their titles and category tags."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme is employed, featuring deep black backgrounds, white primary text, light grey secondary text, and a single vibrant red accent for the brand logo."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image with subtle animated glowing particles parallaxes, moving slower than the scroll, eventually scrolling out of view to reveal a solid dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "Branding and navigation elements initially positioned within the hero section smoothly transition to a fixed, sticky header at the top of the viewport after scrolling past the hero content."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio projects are presented in a numbered grid layout, with each item featuring a sequential number, project title, and descriptive category tags."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero image uses a subtle parallax effect, moving slower than the scroll, while small animated particles (likely rendered via canvas) drift across the background. As the user scrolls, the hero image eventually scrolls out of view, revealing a solid dark background for the main content.",
+    "Key branding and navigation elements initially positioned within the hero section smoothly transition to a fixed, sticky header at the top of the viewport once the user scrolls past the initial hero content.",
+    "The site employs a high-contrast dark mode, utilizing deep black backgrounds with white and light grey text for readability, with a single vibrant accent color for branding elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#cccccc",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#e02b2b",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, consistent sans-serif for body and labels; project numbers are slightly larger but maintain a subtle presence.",
+    "radius": "sharp",
+    "spacing": "Airy in the hero section, transitioning to a balanced density for the main content grid with clear vertical rhythm."
+  },
+  "standout": "The site's distinctive design lies in its atmospheric, dark aesthetic, particularly the subtle parallaxing hero image with animated glowing particles that creates a sense of depth and mystery. This, combined with the stark, high-contrast typography and minimal layout, gives it a sophisticated and almost cinematic feel, setting it apart from typical portfolio sites.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

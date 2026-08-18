@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0925",
+  "source": {
+    "url": "https://www.emilylonetto.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0925.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0925__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0925__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0925__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "personal-brand",
+      "portfolio",
+      "creative"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, collage-like layout with overlapping, rotated images, text blocks, and hand-drawn annotations, creating a dynamic scrapbook aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Strong contrast between oversized, condensed, uppercase sans-serif headings and smaller, more personal body text presented in monospaced or handwritten styles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is punctuated by a vibrant magenta accent, with occasional pops of blue and yellow for specific elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, scroll-triggered collage effect where various images, text blocks, and hand-drawn annotations appear, rotate, and layer on top of each other as the user scrolls down the page, mimicking a physical scrapbook unfolding. The hero section features a background image that scrolls away to reveal a solid background while the main text remains fixed."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by large, bold, often rotated headings and distinct groupings of collage elements, rather than traditional full-width banners or clear visual dividers."
+    }
+  ],
+  "technique_notes": [
+    "The site uses GSAP ScrollTrigger to create a highly interactive scrolling experience. This includes a parallax effect for the hero background, where the image scrolls out of view while the foreground text remains fixed. Further down the page, elements like images, text blocks, and graphic annotations are revealed with staggered fades, slides, and rotations as they enter the viewport, building a dynamic, layered collage. The final call-to-action section also features a subtle text highlight animation on scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#262722",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#dd2590",
+        "role": "accent"
+      },
+      {
+        "hex": "#1570ef",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5faff",
+        "role": "surface"
+      },
+      {
+        "hex": "#fcd34d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: handwritten",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, condensed, uppercase sans-serif headings (~4-5x body) create strong visual impact, contrasted with smaller, more personal monospaced or handwritten body text.",
+    "radius": "Sharp, with many elements featuring rectangular or torn-paper edges, contributing to the scrapbook aesthetic.",
+    "spacing": "Very airy in the hero, transitioning to a dense, overlapping, and intentionally 'messy' arrangement in the main content sections, creating a rich visual texture."
+  },
+  "standout": "This site's design is highly distinctive for its dynamic, scroll-triggered scrapbook aesthetic. Instead of a conventional grid, it uses overlapping, rotated images, text blocks, and hand-drawn annotations that animate into view, creating a deeply personal and engaging narrative experience that feels like unfolding a physical memory album.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "approved"
+}

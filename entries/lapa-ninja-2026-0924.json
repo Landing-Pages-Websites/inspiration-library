@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-0924",
+  "source": {
+    "url": "https://eco-pork.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0924.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0924__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0924__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0924__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "agriculture",
+      "food-tech",
+      "data-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large 3D polygonal graphic on one side and prominent text on the other, creating a dynamic visual balance."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections below the hero reveal with a subtle fade-in and slide-up animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from transparent to a solid white background with a subtle shadow and sticks to the top of the viewport after initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero's large polygonal pig graphic exhibits a subtle parallax effect and slight scaling as the user scrolls down, creating depth."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant green as a primary accent color for CTAs, links, and key headings, contrasting with a largely neutral background palette."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, modern sans-serif font in varying sizes, with key phrases in the hero section being significantly larger and colored green for emphasis."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations reveal content sections by fading them up into view as they become visible in the viewport.",
+    "The main navigation bar uses a sticky position, dynamically changing its background from transparent to opaque white and adding a subtle drop shadow once the user scrolls past the hero section.",
+    "The hero's large 3D polygonal graphic is rendered using a canvas element, allowing for subtle parallax and scaling effects synchronized with scroll depth, creating an illusion of depth and movement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#009b4a",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#faf9f7",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      },
+      {
+        "hex": "#dcdcdc",
+        "role": "border"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful headings (~3-4x body) with a modern sans-serif character, complemented by smaller, highly legible body text.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, with most other elements featuring sharp corners.",
+    "spacing": "Airy and generous spacing in the hero and between major sections, transitioning to a balanced density within content blocks like news cards."
+  },
+  "standout": "The site's distinctive use of a large, stylized 3D polygonal pig graphic in the hero section, rendered via canvas, immediately sets it apart. This playful yet sophisticated visual element, combined with the clean typography and scroll-triggered animations, creates a memorable and unique brand identity for an unexpected industry.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

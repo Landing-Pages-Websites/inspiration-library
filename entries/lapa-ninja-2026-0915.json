@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-0915",
+  "source": {
+    "url": "https://www.cubansedge.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0915.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0915__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0915__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0915__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "community",
+      "tobacco",
+      "luxury-goods"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, dark background hero with central, oversized typography and minimal fixed footer navigation."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale between the dominant, elegant display heading and the small, utilitarian navigation/copyright text."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly dark (black/deep blue) background with stark white typography, accented by vibrant, neon-like glowing elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-stage loading sequence (spinner, percentage) followed by a dramatic reveal of large text and complex, abstract, animated 3D-like elements that continuously move and glow."
+    },
+    {
+      "kind": "section",
+      "note": "A single, immersive hero section dominates the initial view, acting as a gateway or brand statement rather than an informational block."
+    }
+  ],
+  "technique_notes": [
+    "A pre-loader sequence with a spinner and percentage counter transitions into the main hero content.",
+    "The hero features large, static text overlaid on a dynamic, full-screen background.",
+    "Complex, abstract, glowing 3D-like elements are rendered and animated, likely using a canvas or video hero, to create a sense of depth and motion around the central text. These elements appear to be light sources or energy fields, continuously animating with a fluid motion."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1A2B3C",
+        "role": "loading-background"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "accent-glow-cyan"
+      },
+      {
+        "hex": "#FF00FF",
+        "role": "accent-glow-magenta"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent-glow-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cirka",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: HelveticaNeue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, elegant display headings (~8-10x body) with a very light weight, contrasted by small, standard-weight sans-serif body/navigation text.",
+    "radius": "Sharp",
+    "spacing": "Very airy, especially in the hero section, with content centered and ample negative space."
+  },
+  "standout": "The site's most distinctive feature is its highly immersive, full-screen animated hero that uses abstract, glowing 3D-like elements to create a dynamic and almost ethereal backdrop for minimal, oversized typography. This creates a strong, almost art-installation-like brand statement rather than a typical informational hero.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

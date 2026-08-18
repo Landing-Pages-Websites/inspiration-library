@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0914",
+  "source": {
+    "url": "https://www.coinflect.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0914.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0914__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0914__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0914__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "cryptocurrency",
+      "investing",
+      "education"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A multi-column layout is used, featuring a prominent main content area, a left-aligned 'Latest' section, and a sticky right sidebar for related content."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a clean sans-serif font, with the hero section employing a very large, bold variant, while article titles are medium-large and body text is standard, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a clean white background with dark text, accented by a brand palette derived from the multi-colored logo, which includes green, yellow, and pink/purple."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, the main header shrinks in height and becomes sticky at the top of the viewport, while a content block in the right sidebar also becomes sticky, maintaining its position as the main content scrolls beneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into a prominent hero section, followed by a grid of article cards, and a distinct 'OUR VISION' section with a full-width background image and centered text."
+    }
+  ],
+  "technique_notes": [
+    "The main header uses JavaScript to detect scroll depth, triggering a class change that reduces its height and applies a fixed position to make it sticky. The right sidebar content block utilizes CSS position: sticky to remain visible at the top of the viewport as the user scrolls past the main content. Article listings are arranged in a responsive grid layout, likely using CSS Grid or Flexbox, ensuring content adapts across various screen sizes. The hero section features a large background image with text overlaid, using text shadows or a subtle gradient overlay to ensure readability against the image."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ABB8C3",
+        "role": "surface"
+      },
+      {
+        "hex": "#7BDCB5",
+        "role": "accent"
+      },
+      {
+        "hex": "#FCB900",
+        "role": "accent"
+      },
+      {
+        "hex": "#F78DA7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif hero text (~4x body) with medium-large, bold article titles and small, light metadata labels.",
+    "radius": "subtle rounded corners on images and card elements, maintaining a soft but not overly rounded aesthetic.",
+    "spacing": "balanced density with airy sections for the hero and 'OUR VISION' blocks, contrasting with a tighter, well-defined grid for article listings."
+  },
+  "standout": "The site's design is distinctive for its effective use of a multi-column layout that integrates sticky elements, such as the shrinking header and a persistent right sidebar, to enhance navigation and content discoverability. This approach, combined with a visually rich hero section, creates an engaging and highly functional content browsing experience that feels editorial yet dynamic.",
+  "animation_tech": [
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-0933",
+  "source": {
+    "url": "https://www.jonhowell.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0933.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0933__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0933__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0933__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-agency",
+      "web-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark mode aesthetic with a full-width layout, featuring large, distinct sections for portfolio items and textual content, all centered within the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif typeface, creating strong visual hierarchy against smaller, lighter body text. The hero section features oversized, semi-transparent year text."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark background (#121212 or #000) provides a stark contrast for white text and vibrant, diverse accent colors used within individual portfolio project previews."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a 3D character that scrolls out of view, while the large '2026 Portfolio' text scales down and moves upwards, eventually disappearing to reveal the main content grid below."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio items are presented as large, distinct cards or full-width sections, each with a small numerical identifier and project title, creating a clean, organized grid."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark theme with high contrast white text, using a deep charcoal or pure black as the primary background color.",
+    "A sticky navigation bar remains at the top of the viewport, providing consistent access to main links.",
+    "The hero section utilizes a complex scroll-triggered animation (likely involving css-keyframes and potentially a video-hero) where a 3D element and large text dynamically transform and disappear as the user scrolls, revealing the main content below."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#262626",
+        "role": "surface"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF6300",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "KH Teka Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are used for section titles, with a massive, semi-transparent display font for the hero year, contrasting with smaller, legible body text.",
+    "radius": "sharp",
+    "spacing": "balanced, with airy spacing in the hero and between major content sections, creating a sense of openness."
+  },
+  "standout": "This site's design is distinctive for its dynamic, scroll-triggered hero animation featuring a 3D character and large, transforming text that elegantly gives way to the main content. The consistent dark mode combined with vibrant, project-specific accent colors creates a sophisticated and engaging visual experience that feels both minimal and bold.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
