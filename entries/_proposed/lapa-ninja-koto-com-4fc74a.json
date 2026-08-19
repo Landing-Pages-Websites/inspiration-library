@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-koto-com-4fc74a",
+  "source": {
+    "url": "https://koto.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-koto-com-4fc74a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-koto-com-4fc74a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-koto-com-4fc74a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-koto-com-4fc74a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "branding",
+      "design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site utilizes a full-bleed, dark-themed canvas where content sections occupy the full viewport width, creating an immersive and focused viewing experience."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are presented in a large, light-weight sans-serif typeface, providing strong visual hierarchy and a modern aesthetic against the dark background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, primarily black for backgrounds and white/light gray for text, with a vibrant yellow serving as a subtle accent for branding and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The page employs a custom, smooth scroll experience where large, full-bleed content blocks (especially the 'work' examples) slide into the viewport, replacing the previous content with a distinct, almost 'page-snapping' feel. The navigation bar remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Work' section is composed of individual, full-screen visual case studies that dominate the viewport as they are scrolled into view, each acting as a distinct visual statement."
+    }
+  ],
+  "technique_notes": [
+    "A custom scroll library (like locomotive-scroll) is used to create a smooth, continuous scrolling experience where large content blocks transition into and out of view with a deliberate, almost cinematic pace, enhancing the visual impact of each section.",
+    "Full-bleed, high-impact visual sections are used to showcase portfolio work, often appearing as large image or video backgrounds that fill the entire viewport as they scroll into place, creating an immersive presentation.",
+    "A minimalist, fixed header navigation provides persistent access to main sections, maintaining site navigation while the dynamic full-screen content below scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141414",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FEE700",
+        "role": "accent"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, airy headings (~3-4x body) with generous line height, paired with smaller, legible body text for a modern, spacious feel.",
+    "radius": "sharp",
+    "spacing": "very airy hero, balanced content sections, creating a sense of spaciousness and focus on individual elements."
+  },
+  "standout": "The site's standout feature is its bold, almost cinematic presentation of work, using full-bleed, dark-themed sections that scroll with a distinct, custom motion. This creates a highly immersive and focused experience, making each project feel like a distinct visual statement rather than just another item in a grid.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

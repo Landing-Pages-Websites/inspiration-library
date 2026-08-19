@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-groth-studio-e5b028",
+  "source": {
+    "url": "https://www.groth.studio/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-groth-studio-e5b028.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-groth-studio-e5b028__scroll0.webp",
+      "shots/_proposed/lapa-ninja-groth-studio-e5b028__scroll1.webp",
+      "shots/_proposed/lapa-ninja-groth-studio-e5b028__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "architectural-design",
+      "product-design",
+      "studio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column layout where the main content scrolls on the left, and a dedicated 'Research & Design' sidebar remains fixed on the right."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large header with the 'Groth' logo and tagline transforms into a compact, sticky navigation bar at the top of the viewport upon scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The fixed right sidebar dynamically updates its internal content (images and descriptive text) in sync with the user's scroll depth through the main project list, creating a scroll-driven narrative."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of an oversized, bold sans-serif typeface for the main brand logo and section titles, contrasted with a more understated, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring a light, almost off-white background, stark black text, and a warm, earthy terracotta accent color for the sticky right sidebar."
+    }
+  ],
+  "technique_notes": [
+    "The main header shrinks and transitions into a sticky, compact navigation bar at the top of the page as the user scrolls down.",
+    "A fixed-position right sidebar is maintained throughout the scroll. Its internal content, including images and text, is revealed or transitioned in a sequence that is synchronized with the scroll position of the main content area, likely leveraging a scroll-trigger library to control Lottie animations or a series of content states.",
+    "Project entries in the main content area are structured with text on the left and a corresponding image on the right, alternating their visual presentation down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F2",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#8C4F2F",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#2F2F2F",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~5x body text) are used for primary branding and section titles, complemented by a clean, legible sans-serif for body text and smaller, tracked-out uppercase labels.",
+    "radius": "Sharp, with predominantly square corners on images and content blocks, contributing to a precise and architectural feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing in the hero section and between project entries, creating a sense of openness and clear content separation."
+  },
+  "standout": "The most distinctive feature is the persistent right sidebar that acts as a dynamic, scroll-driven visual companion. As the user scrolls through the main project list, the sidebar's content (images and descriptions) updates in real-time, creating an engaging, synchronized narrative experience that elevates the typical project showcase.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

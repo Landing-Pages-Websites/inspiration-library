@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-dirtverse-co-7bf19a",
+  "source": {
+    "url": "https://dirtverse.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-dirtverse-co-7bf19a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-dirtverse-co-7bf19a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-dirtverse-co-7bf19a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-dirtverse-co-7bf19a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "marketing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A mix of asymmetrical introductory text blocks and a structured, responsive grid layout for portfolio items and news, creating visual interest while maintaining content organization."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent use of a modern sans-serif font family (Inter) across various weights and sizes, with a strong emphasis on very large, bold display headings and smaller, uppercase labels for section titles."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is dramatically punctuated by vibrant, almost neon, abstract accent colors primarily within the 3D hero graphics and select project imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header maintains navigation visibility, while the initial hero section features dynamic, canvas-based 3D spherical graphics that subtly parallax and animate as the user scrolls, eventually moving out of view."
+    },
+    {
+      "kind": "section",
+      "note": "The footer features a distinctive, large-scale 'dirt' logo rendered with a complex refractive, glass-like effect, serving as a unique and memorable brand signature."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar transitions to a fixed position at the top of the viewport after initial scroll, maintaining its layout and functionality.",
+    "The initial hero section features a row of interactive 3D spherical graphics rendered using a canvas element, which animate and parallax subtly as the user scrolls, eventually scrolling out of view. This uses detected 'canvas' animation tech.",
+    "The large 'dirt' logo in the footer is rendered with a complex refractive, glass-like effect, likely achieved through advanced CSS filters or WebGL, giving it a translucent, dimensional quality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1e1e21",
+        "role": "surface"
+      },
+      {
+        "hex": "#f2f2ef",
+        "role": "background"
+      },
+      {
+        "hex": "#ebff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#eabfff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff2e31",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Inter Display",
+        "role": "display"
+      },
+      {
+        "family": "Inter Tight",
+        "role": "labels"
+      }
+    ],
+    "type_scale": "A dramatic contrast between oversized, bold display headings (up to ~5x body text) and smaller, regular-weight body text, with uppercase labels used for section titles.",
+    "radius": "Subtle rounding on interactive elements like buttons and image cards, with perfectly circular abstract graphics.",
+    "spacing": "Generally airy, with generous vertical spacing between major content sections, but a tighter grid system for portfolio items."
+  },
+  "standout": "The site distinguishes itself with its highly artistic and dynamic 3D abstract hero graphics and a unique, large-scale glass-effect logo in the footer. These elements create a sophisticated, almost gallery-like feel that elevates it beyond a standard agency portfolio.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

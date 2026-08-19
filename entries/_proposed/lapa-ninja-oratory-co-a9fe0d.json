@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-oratory-co-a9fe0d",
+  "source": {
+    "url": "https://www.oratory.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-oratory-co-a9fe0d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-oratory-co-a9fe0d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-oratory-co-a9fe0d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-oratory-co-a9fe0d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "tech",
+      "web-design",
+      "branding"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with dark navy and light off-white backgrounds create clear visual breaks and content segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings contrasted with smaller, legible body text and very small, uppercase labels for meta-information."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated two-tone palette of deep navy and crisp off-white is consistently used, accented by a vibrant blue for calls to action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent overlay to a solid, slightly condensed dark bar with white text as the user scrolls past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The complex, multi-layered UI-like graphic in the hero section animates and transforms into an abstract background pattern as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "A 'Trusted by' section features a grid of client logos, presented without borders or excessive styling, relying on negative space and subtle typography."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a dynamic, interactive background graphic, likely implemented using a canvas or video element, that animates and changes its appearance or reveals new layers as the user scrolls down the page, creating a sense of depth and engagement.",
+    "Content sections are revealed with a subtle fade-in or slide-up animation as they enter the viewport, providing a smooth and engaging scroll experience.",
+    "The primary navigation bar is initially transparent and overlays the hero content, then becomes sticky at the top of the viewport, shrinking slightly and gaining a solid dark background as the user scrolls down."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f172a",
+        "role": "background"
+      },
+      {
+        "hex": "#f9fcff",
+        "role": "surface"
+      },
+      {
+        "hex": "#3b82f6",
+        "role": "cta"
+      },
+      {
+        "hex": "#64748b",
+        "role": "text"
+      },
+      {
+        "hex": "#eff2fa",
+        "role": "surface-variant"
+      },
+      {
+        "hex": "#94a3b8",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~3-4x body) with a clean sans-serif, while body text is highly legible, and small uppercase labels provide clear categorization.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are applied consistently to buttons, input fields, and some card elements, contributing to a modern, approachable feel.",
+    "spacing": "Generally airy and spacious, particularly in the hero and main content sections, creating a premium and uncluttered aesthetic, with a balanced rhythm in feature grids."
+  },
+  "standout": "The most distinctive feature is the highly dynamic and interactive hero section, which uses a complex, UI-like graphic that animates and transforms on scroll, creating a sense of sophisticated technology and engagement. This, combined with the clean, bold typography and deep blue palette, gives it a premium, B2B tech aesthetic that feels more bespoke than a standard template.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

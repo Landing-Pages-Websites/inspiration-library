@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-idyllic-co-nz-a98241",
+  "source": {
+    "url": "https://idyllic.co.nz/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-idyllic-co-nz-a98241.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-idyllic-co-nz-a98241__scroll0.webp",
+      "shots/_proposed/lapa-ninja-idyllic-co-nz-a98241__scroll1.webp",
+      "shots/_proposed/lapa-ninja-idyllic-co-nz-a98241__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "web-design"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts often feature large, decorative text elements that overlap or are fixed in the background, creating a layered depth effect."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, high-contrast serif typography is used for key section titles, often in a deep red, contrasting sharply with vibrant backgrounds."
+    },
+    {
+      "kind": "color",
+      "note": "A bold, high-contrast color palette featuring deep reds, bright pinks, oranges, and teals is used for alternating section backgrounds and striped patterns."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, decorative text elements like 'Work' are fixed in the viewport, allowing other content to scroll over them, creating a parallax-like layering effect. Content sections and individual cards reveal with a staggered fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Service offerings are presented as a grid of distinct, color-blocked cards, each with a unique vibrant background color and a simple icon."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP and ScrollMagic to orchestrate scroll-triggered animations. A full-bleed video plays as the hero background. Key headlines are fixed in the viewport, creating a parallax effect as other content scrolls over them. Content sections and individual elements within grids are revealed with staggered fade-up or slide-in transitions as they become visible.",
+    "Employs a high-contrast color scheme with alternating solid and striped backgrounds. Large, expressive display typography is used for key headlines, often overlapping or interacting with background elements for a dynamic visual impact.",
+    "A modal 'warning' message appears on initial page load, setting a playful and disruptive tone before the user interacts with the main content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#c03441",
+        "role": "primary-background"
+      },
+      {
+        "hex": "#f283b4",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#f15d28",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#85a6d7",
+        "role": "accent-teal"
+      },
+      {
+        "hex": "#eaa93d",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#f4ece6",
+        "role": "surface"
+      },
+      {
+        "hex": "#7b7749",
+        "role": "modal-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Bodoni",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, high-contrast serif display headings (~5-8x body text) paired with clean, often uppercase sans-serif body and label text.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, with generous vertical spacing between main sections and a more balanced density within feature grids."
+  },
+  "standout": "The site's distinctive use of a bold, high-contrast color palette, often in striped patterns, combined with oversized, decorative serif typography that interacts dynamically with background elements, creates a unique retro-pop art aesthetic. The playful, slightly irreverent tone, reinforced by the 'WARNING!' modal and quirky imagery, sets it apart from typical agency sites.",
+  "animation_tech": [
+    "gsap",
+    "scrollmagic",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

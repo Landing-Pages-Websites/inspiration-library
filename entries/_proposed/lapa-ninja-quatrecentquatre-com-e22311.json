@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-quatrecentquatre-com-e22311",
+  "source": {
+    "url": "https://quatrecentquatre.com/en?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-quatrecentquatre-com-e22311.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-quatrecentquatre-com-e22311__scroll0.webp",
+      "shots/_proposed/lapa-ninja-quatrecentquatre-com-e22311__scroll1.webp",
+      "shots/_proposed/lapa-ninja-quatrecentquatre-com-e22311__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-services",
+      "digital-agency",
+      "marketing"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background colors (red, white, light pink) are used to segment content vertically, creating clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, wide, and bold sans-serif typography is used for primary headings, creating a strong, playful statement, contrasted with smaller, standard sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, high-contrast color palette features a dominant bright red for the hero, black for primary text, and white for backgrounds, accented by a range of pastel and bright colors in illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky, remaining at the top of the viewport as the user scrolls. It visually transforms from white text on a red background within the hero to black text on a white background when scrolling over other content sections."
+    },
+    {
+      "kind": "section",
+      "note": "Illustrative, character-driven graphics are integrated directly into content sections, acting as visual anchors and adding a playful, branded element to descriptions of services and calls to action."
+    }
+  ],
+  "technique_notes": [
+    "The header is implemented as a sticky element that changes its text color and background appearance based on the scroll position, specifically when transitioning from the hero section to subsequent content.",
+    "Content sections utilize full-width backgrounds with distinct colors to create visual separation and guide the user's eye down the page.",
+    "Large, custom illustrations are used as hero elements and integrated within content blocks to convey brand personality and break up text-heavy areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff5046",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f4c9d1",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff9b50",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#f4c653",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#b5a9ff",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#006f1e",
+        "role": "illustration-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "The hero heading is extremely oversized (~6x body text) with a wide, bold character, while subheadings are large but more contained, and body text is a standard, legible sans-serif.",
+    "radius": "Rounded corners are consistently applied to interactive elements like buttons and cards, with a very high radius (approaching pill-shaped) for a soft, playful feel.",
+    "spacing": "The hero section is very airy, emphasizing the large typography and illustrations. Subsequent content sections maintain a balanced density with generous vertical padding between blocks."
+  },
+  "standout": "This site's design is distinctive for its bold, almost cartoonish, oversized typography paired with a vibrant, playful illustration style that permeates every section. The interactive 'How can we help you?' buttons in the hero also offer a unique engagement point.",
+  "animation_tech": [],
+  "status": "proposed"
+}

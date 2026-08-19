@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-brandappart-com-1f99c9",
+  "source": {
+    "url": "https://www.brandappart.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-brandappart-com-1f99c9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-brandappart-com-1f99c9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-brandappart-com-1f99c9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-brandappart-com-1f99c9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "web-design",
+      "marketing-agency",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent vertical navigation bar is anchored to the left side of the viewport, featuring interactive dots and a transforming menu button."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and major section headings use an extremely large, bold, and rounded sans-serif typeface, creating a playful yet authoritative statement."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of deep charcoal, light beige, and a vibrant reddish-orange accent, often applied in full-bleed sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'MENU' text in the persistent left navigation transforms into a hamburger icon as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently feature asymmetrical layouts, combining large imagery or mockups with concise text blocks, often with a distinct background color."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header system maintains the brand logo, a primary call-to-action button, and a unique vertical navigation on the left side of the screen throughout the scroll.",
+    "Content sections are designed to reveal with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement as the user scrolls.",
+    "The hero section utilizes a full-bleed layout with oversized, impactful typography and a detected video-hero element, though it appears static in the provided frames."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e1216",
+        "role": "background"
+      },
+      {
+        "hex": "#f2ede4",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff3c34",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "surface"
+      },
+      {
+        "hex": "#785f47",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and rounded display headings (~4-5x body) are paired with clean, legible sans-serif body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on buttons and some card elements, with many sections and content blocks featuring sharp corners.",
+    "spacing": "Balanced density overall, with a very airy hero section and some content grids that are more tightly packed."
+  },
+  "standout": "The most distinctive element is the persistent, interactive vertical navigation on the left, which transforms from text to an icon on scroll. This, combined with the bold, almost playful, oversized typography and high-contrast color palette, gives the site a unique and memorable character that feels both modern and established.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

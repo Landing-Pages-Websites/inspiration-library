@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-creech-co-132118",
+  "source": {
+    "url": "https://www.creech.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-creech-co-132118.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-creech-co-132118__scroll0.webp",
+      "shots/_proposed/lapa-ninja-creech-co-132118__scroll1.webp",
+      "shots/_proposed/lapa-ninja-creech-co-132118__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, full-bleed image grid serves as the primary content display, showcasing diverse projects with minimal text overlays."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, classic display serif font is used for prominent branding and decorative text, contrasted with a clean, functional sans-serif for navigation and small labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site's UI is starkly monochromatic (black text on white background), allowing the vibrant and diverse colors within the full-bleed imagery to dominate the visual experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The header (branding and main navigation) and footer (secondary navigation and contact) are fixed to the viewport, while the main content area, including an initial video hero, scrolls vertically underneath them."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into a continuous, scrolling gallery of image-based project cards, each with a brief, understated text label."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed header and footer that remain visible at all scroll depths, providing persistent navigation and branding. The main content area, starting with a full-width video hero, scrolls independently beneath these fixed elements. Sections are revealed as the user scrolls, with the video hero smoothly transitioning out of view to expose the image grid.",
+    "A responsive grid system is used to display full-bleed images, each accompanied by a small, descriptive text label. This creates a visually rich and dense portfolio experience where imagery is paramount."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#fcb4ac",
+        "role": "accent"
+      },
+      {
+        "hex": "#31712c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very large, elegant display serif (~4-5x body) is used for branding and decorative statements, while body and label text are small, clean sans-serifs.",
+    "radius": "sharp",
+    "spacing": "The header and footer are airy, providing ample breathing room, while the main content area features a dense, tightly packed grid of images."
+  },
+  "standout": "The site's design is distinctive for its extreme minimalism in UI elements (black text on white background) which serves as a stark canvas for an incredibly rich, diverse, and full-bleed image-based content grid. The elegant, classic display serif font used for branding and decorative text, combined with the playful integration of emojis in large text blocks, adds a unique and memorable character.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

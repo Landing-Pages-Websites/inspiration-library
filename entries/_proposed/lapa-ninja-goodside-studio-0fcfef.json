@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-goodside-studio-0fcfef",
+  "source": {
+    "url": "https://www.goodside.studio/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-goodside-studio-0fcfef.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-goodside-studio-0fcfef__scroll0.webp",
+      "shots/_proposed/lapa-ninja-goodside-studio-0fcfef__scroll1.webp",
+      "shots/_proposed/lapa-ninja-goodside-studio-0fcfef__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "creative-agency"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an extremely oversized, high-contrast brand name that dominates the initial viewport, paired with smaller, elegant serif text for a descriptive tagline."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography is used, with a massive, bold serif font for the brand name and a more delicate, elegant serif for body text, creating an editorial and luxurious feel."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is monochromatic black and white, allowing vibrant project imagery to provide the main bursts of color and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls into the 'Featured Work' section, full-bleed video backgrounds associated with individual projects are revealed, while a distinct circular logo graphic remains fixed in the viewport, allowing the videos to scroll and transition underneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases within the 'Featured Work' section utilize full-bleed video backgrounds that change with each project, creating an immersive and dynamic portfolio display."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header navigation that remains visible throughout the scroll. The hero section scrolls away normally. For the 'Featured Work' section, full-bleed video backgrounds are used, likely implemented with the 'video-hero' technique, where each project's video is a background for its respective content block. A unique circular graphic is positioned with a fixed or sticky effect, using CSS positioning, so it appears to float over these scrolling video backgrounds, which transition as new project sections enter the viewport. Subtle animations or rotations on the circular graphic could be achieved with 'css-keyframes'."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#696969",
+        "role": "surface"
+      },
+      {
+        "hex": "#F9E000",
+        "role": "accent"
+      },
+      {
+        "hex": "#008000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Epicene Text",
+        "role": "display"
+      },
+      {
+        "family": "Instrument Serif",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "An extremely oversized, bold serif (~10x body) for the main brand name, paired with elegant medium-sized serif for subheadings and a clean, smaller sans-serif for navigation and labels.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between major sections and a balanced, open feel in the hero area."
+  },
+  "standout": "The site's most distinctive feature is its bold, editorial use of typography, particularly the monumental, high-contrast serif brand name in the hero. This is combined with an innovative 'Featured Work' section where a fixed circular graphic overlays dynamic, full-bleed video backgrounds that change with each project, creating a highly immersive and memorable portfolio experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

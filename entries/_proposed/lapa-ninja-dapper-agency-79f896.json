@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-dapper-agency-79f896",
+  "source": {
+    "url": "https://www.dapper.agency/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-dapper-agency-79f896.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-dapper-agency-79f896__scroll0.webp",
+      "shots/_proposed/lapa-ninja-dapper-agency-79f896__scroll1.webp",
+      "shots/_proposed/lapa-ninja-dapper-agency-79f896__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "b2b-marketing",
+      "agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, dynamic background graphic and a prominent, multi-line heading."
+    },
+    {
+      "kind": "type",
+      "note": "Headings combine a bold, modern sans-serif with an elegant, italicized script font for key phrases, creating visual contrast and emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark charcoal and off-white is consistently used for alternating section backgrounds, with a vibrant lime green as a primary accent."
+    },
+    {
+      "kind": "motion",
+      "note": "Background elements in the hero section, such as the large leaf graphic and geometric shapes, parallax at a slower rate than the foreground content as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms on scroll, shrinking in height and gaining a solid white background with a subtle shadow after the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use a two-column layout with a large image or graphic on one side and descriptive text with bullet points or statistics on the other."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky navigation that dynamically changes its size and background appearance (from transparent to solid white) as the user scrolls past the hero section.",
+    "Background elements in the hero and other sections utilize a parallax scrolling effect, moving at a different speed than the foreground content to add depth.",
+    "Content sections and individual elements are revealed with scroll-triggered animations, likely involving staggered fade-ins or slide-ups as they enter the viewport, leveraging GSAP and Locomotive Scroll for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a2e3b",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#70e000",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-on-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Playfair Display Italic",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are frequently paired with an elegant, italicized script font for emphasis, while body text is a clean, legible sans-serif.",
+    "radius": "Subtle; elements like buttons and cards have a slight, consistent corner rounding.",
+    "spacing": "Airy; generous vertical and horizontal spacing creates a sense of openness, particularly in the hero and between major sections, with balanced density in content grids."
+  },
+  "standout": "The most distinctive aspect is the sophisticated typographic pairing of a bold, modern sans-serif with an elegant, italicized script font for key phrases within headings. This, combined with the dynamic parallax effects and high-contrast color palette, elevates the site beyond a typical agency template.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

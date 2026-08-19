@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-svz-io-02c811",
+  "source": {
+    "url": "https://svz.io/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-svz-io-02c811.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-svz-io-02c811__scroll0.webp",
+      "shots/_proposed/lapa-ninja-svz-io-02c811__scroll1.webp",
+      "shots/_proposed/lapa-ninja-svz-io-02c811__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "marketing",
+      "creative-services"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "type",
+      "note": "High-impact, condensed sans-serif headings are used extensively, often integrated as large background elements or with mixed weights/colors for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of black and white is consistently used, punctuated by a single vibrant red accent for interactive elements and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The sticky navigation bar transforms from transparent to solid black with reduced height upon scroll, maintaining a consistent brand presence."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero section elements, including large text and abstract shapes, animate out of view or are covered as the user scrolls down, revealing subsequent content."
+    },
+    {
+      "kind": "motion",
+      "note": "Major section titles and content blocks are revealed with a fade-in or slide-up animation as they enter the viewport, creating a dynamic reading experience."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header dynamically adjusts its background, height, and text color based on scroll position, transitioning from transparent to a solid, compact bar.",
+    "Scroll-triggered animations, likely powered by GSAP, are used to orchestrate the reveal of content sections. Elements typically fade in or slide upwards as they become visible in the viewport.",
+    "Large, abstract graphical elements and oversized typographic treatments are employed as dynamic background or foreground elements that respond to scroll, creating a sense of depth and visual progression. This could involve canvas or GSAP for complex motion."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF003D",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold, condensed sans-serif headings (~4-5x body) for dramatic impact, contrasted with smaller, more legible body text and uppercase labels.",
+    "radius": "sharp corners throughout, no visible rounding",
+    "spacing": "very airy, especially in hero and between major sections, creating a sense of grandeur and allowing elements to breathe; content grids within sections are more balanced"
+  },
+  "standout": "The site stands out with its bold, almost brutalist use of oversized, condensed typography and abstract graphic elements, particularly in the hero and section titles. The high-contrast black and white palette with a single vibrant red accent creates a distinctive, modern, and high-impact visual identity that feels more like an art installation than a typical agency website.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
