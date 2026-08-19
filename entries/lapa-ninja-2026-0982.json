@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-2026-0982",
+  "source": {
+    "url": "https://monopo.nyc/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0982.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0982__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0982__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0982__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "marketing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, staggered grid layout for project showcases, creating visual interest and dynamic flow."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of a very large, light-weight, uppercase sans-serif font for the hero statement, contrasting with smaller, regular-weight text for navigation and content labels."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color scheme featuring a light, off-white background, dark grey/black content blocks and text, and a very light (white) hero text."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero text features a dynamic word-swapping animation, where specific words within the main statement cycle through different terms as the user views the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content blocks and sections appear to reveal or fade in as the user scrolls down the page, creating a staggered entry effect."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a dynamic text animation, likely using JavaScript or a text animation library, to cycle through different words within a prominent headline, creating an engaging and evolving message.",
+    "Content sections and individual project cards are introduced with scroll-triggered reveal animations, such as a subtle fade-in or slide-up, as they enter the viewport, enhancing visual engagement.",
+    "The primary navigation bar remains fixed at the top of the viewport, ensuring persistent access to site links as the user scrolls through the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fbfaf9",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "hero-text"
+      },
+      {
+        "hex": "#272727",
+        "role": "surface"
+      },
+      {
+        "hex": "#272727",
+        "role": "text"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent"
+      },
+      {
+        "hex": "#da532c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, light-weight, uppercase hero text (~4-5x body) with smaller, regular-weight uppercase labels and body text.",
+    "radius": "Sharp corners predominantly, especially on content blocks and interactive elements.",
+    "spacing": "Very airy and open, particularly in the hero section and between content blocks, creating a minimalist and spacious feel."
+  },
+  "standout": "The site's most distinctive feature is its dynamic hero text, which cycles through different words to convey its message, combined with an asymmetrical, high-contrast layout for content presentation. This creates an immediate, engaging, and memorable brand statement that feels both modern and editorial.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

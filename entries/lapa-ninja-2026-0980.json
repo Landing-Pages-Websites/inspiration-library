@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-0980",
+  "source": {
+    "url": "https://mammothmurals.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0980.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0980__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0980__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0980__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "mural-painting",
+      "marketing"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections often feature full-width backgrounds with content constrained to a central column, but the 'OUR WORK' section breaks this with a large, partially obscured text element overlapping a multi-column image grid."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs extremely large, condensed, uppercase sans-serif typography for primary headings, creating a bold, almost aggressive visual statement that often interacts with or overlays background elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, energetic palette is used, dominated by a vibrant yellow and stark black, with white text for readability and a deep purple/blue serving as a subtle accent."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic looping video background. While the provided scroll sequence was unhelpful for observing scroll-triggered motion, the detected animation technologies suggest the site employs a custom smooth scroll experience and scroll-triggered reveals for content sections, such as elements fading or sliding into view as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The 'OUR WORK' section is distinctive, featuring a massive, partially transparent 'OUR WORK' text overlaying a grid of project images, creating a layered and impactful visual hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video background to create an immediate dynamic visual impact, with text overlaid for branding and a call to action.",
+    "The site integrates a custom scroll experience using a library like Locomotive Scroll, providing smooth, non-native scrolling behavior across the page.",
+    "Animations for section reveals and element transitions are likely orchestrated with GSAP, causing content blocks to appear with subtle fades or slides as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#2A003B",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed, uppercase headings (~6-8x body) create a bold, almost aggressive statement, with body text and labels being much smaller and more legible.",
+    "radius": "Sharp corners throughout, with no visible rounding on any elements.",
+    "spacing": "Airy in hero and major section breaks, becoming more balanced in content grids and lists, maintaining a clear visual separation between elements."
+  },
+  "standout": "The site's design is distinctive for its audacious use of a high-contrast yellow and black palette combined with extremely large, condensed, uppercase typography that often overlaps or interacts with imagery. This creates an energetic, almost street-art inspired aesthetic that is far from a typical corporate or service-based website.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

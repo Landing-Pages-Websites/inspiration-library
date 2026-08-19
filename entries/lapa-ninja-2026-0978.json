@@ -1,0 +1,97 @@
+{
+  "id": "lapa-ninja-2026-0978",
+  "source": {
+    "url": "https://www.makereign.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0978.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0978__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0978__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0978__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "digital-agency",
+      "consulting"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a full-bleed, dynamic background composed of a grid of project mockups, overlaid with very large, partially obscured text that scales and reveals more content on scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text and background grid scale down and parallax significantly as the user scrolls, transitioning from an immersive full-screen view to revealing the main content below. Sections below the hero appear to fade in or slide up with a subtle delay as they enter the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings contrasting with smaller, legible body text, and occasional use of a monospaced font for subtle labels or metadata."
+    },
+    {
+      "kind": "color",
+      "note": "The site predominantly uses a dark mode aesthetic with a very dark grey background and crisp white text, creating high contrast and a sophisticated feel with minimal use of accent colors."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections frequently employ an asymmetrical two-column layout, often pairing a large image or visual element with a concise block of text, creating visual interest and clear content separation."
+    }
+  ],
+  "technique_notes": [
+    "The immersive hero experience is built using a combination of a video or animated background and large, layered text elements that scale and parallax in response to scroll depth, likely managed by a scroll-triggering library like locomotive-scroll. This creates a 'peeling back' effect to reveal the main content.",
+    "Scroll-triggered animations are used throughout the page to reveal content sections. As sections enter the viewport, they animate into place with subtle fade-in and upward slide effects, enhancing engagement and guiding the user's eye. The sticky navigation also transforms from a full menu to a compact version after the initial scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#202023",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Aeonik",
+        "role": "heading"
+      },
+      {
+        "family": "Aeonik",
+        "role": "body"
+      },
+      {
+        "family": "SupplySansMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) create a strong visual impact, complemented by a clean, legible sans-serif for body text and smaller monospaced accents.",
+    "radius": "sharp",
+    "spacing": "airy hero and section breaks, with balanced density in content blocks and a clear vertical rhythm."
+  },
+  "standout": "This site's design is distinctive for its highly dynamic and immersive hero section, where large, layered text and a grid of mockups scale and parallax dramatically on scroll, creating a 'peeling back' effect that immediately draws the user in. This, combined with a sophisticated dark mode and strong typography, elevates it beyond a typical agency site.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

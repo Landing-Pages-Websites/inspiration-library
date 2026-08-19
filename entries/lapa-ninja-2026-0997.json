@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-0997",
+  "source": {
+    "url": "https://www.web-designlondon.co.uk/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0997.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0997__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0997__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0997__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "creative-agency",
+      "web-design"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An asymmetrical, dynamic grid layout is used for the 'Our Work' section, featuring images of varying sizes and aspect ratios to create visual interest, contrasting with more structured two-column or full-width content sections."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs a bold typographic hierarchy with oversized, heavy sans-serif headings for primary sections, balanced by smaller, regular-weight body text and distinct uppercase labels for categories."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of black and white/light grey dominates, with a vibrant red-orange (#f7462c) used sparingly but effectively as a primary accent for calls-to-action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header and a floating circular 'Contact us' button provide persistent navigation and engagement points. Sections appear to reveal with subtle fade-in or slide-up animations as they enter the viewport, creating a dynamic scrolling experience, and the 'Discovery' section features a central, animating circular graphic."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Discovery' section breaks the conventional grid with a large, centrally placed circular graphic and text, creating a unique visual focal point and a moment of visual pause."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered animation system (likely leveraging `locomotive-scroll` or similar) to reveal content sections with a staggered fade-up or subtle slide-in effect as they enter the viewport. A persistent sticky header and a floating circular call-to-action button provide continuous navigation and engagement points. Interactive elements like arrows and links feature subtle hover animations, often involving a slight translation or color change.",
+    "Content is structured using a flexible grid system, allowing for both traditional column layouts and more dynamic, asymmetrical arrangements, particularly for image galleries. Alternating light and dark background sections are used to visually segment content and provide contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f7462c",
+        "role": "accent"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "pp_morisemibold",
+        "role": "heading"
+      },
+      {
+        "family": "pp_moriregular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) establish strong hierarchy, complemented by smaller, regular-weight body text and distinct uppercase labels.",
+    "radius": "Subtle rounded corners are applied to image cards and buttons, while the floating CTA is a distinct pill shape.",
+    "spacing": "Balanced to airy, with generous vertical spacing in hero and introductory sections, becoming more balanced in content grids and feature lists."
+  },
+  "standout": "This site's design is distinctive for its bold, high-contrast typography and dynamic, asymmetrical grid layouts that showcase work with visual flair. The strategic use of a vibrant red-orange accent against a predominantly black and white palette creates a powerful and modern brand identity that feels both authoritative and creative.",
+  "animation_tech": [
+    "anime-js",
+    "css-keyframes",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

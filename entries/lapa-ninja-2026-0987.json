@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-0987",
+  "source": {
+    "url": "https://shed.design/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0987.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0987__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0987__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-0987__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "branding"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are often introduced by full-width, full-height blocks dominated by extremely large, bold typography, acting as visual anchors and dramatic dividers."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs a dramatic contrast between monumental, uppercase sans-serif display headings and more understated serif body text, creating a strong visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is consistently used for text and backgrounds, punctuated by vibrant primary color accents (red, green, blue) within specific content or motion elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Large text elements and content sections are revealed with a staggered slide-up or fade-in animation as they enter the viewport, creating a dynamic reading experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image/video subtly scales and parallaxes as the user scrolls, adding depth behind the initial static text overlay."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video background with a large, static text overlay that scales down and fades out as the user scrolls, revealing the content below.",
+    "A sticky header bar transitions from a transparent state to a solid black background with white text after a specific scroll depth, maintaining navigation visibility.",
+    "Content sections and large typographic statements are revealed using scroll-triggered animations, where elements slide up or fade in with a slight delay as they become visible in the viewport, leveraging `css-keyframes`."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1c1c",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#008000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SequelWeb",
+        "role": "display"
+      },
+      {
+        "family": "RecklessWeb",
+        "role": "body"
+      },
+      {
+        "family": "OwnersWeb",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase display headings (~8-10x body text) create dramatic visual impact, contrasted with smaller, more refined serif body and sans-serif label text.",
+    "radius": "sharp",
+    "spacing": "airy (generous vertical spacing between sections, large margins around text blocks), but with some dense elements like the client list."
+  },
+  "standout": "The site's standout feature is its audacious use of extremely large, bold, uppercase typography as primary visual elements and section dividers, combined with dynamic scroll-triggered reveals and a striking, high-contrast color palette. This creates a powerful, almost architectural feel that is highly distinctive.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}
