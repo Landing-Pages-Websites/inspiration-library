@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-mallardandclaret-com-37aa11",
+  "source": {
+    "url": "https://mallardandclaret.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-mallardandclaret-com-37aa11.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-mallardandclaret-com-37aa11__scroll0.webp",
+      "shots/_proposed/lapa-ninja-mallardandclaret-com-37aa11__scroll1.webp",
+      "shots/_proposed/lapa-ninja-mallardandclaret-com-37aa11__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "web-design",
+      "branding"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive sections dominate the page, often featuring large video or photographic content that spans the viewport width."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in typography, pairing massive, bold display text for branding and key statements with small, precise sans-serif text for body copy and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost aggressive red is used as a primary brand accent and hero background, creating a high-impact visual identity when contrasted with black and white."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial static red hero section slides up to reveal a full-width video hero underneath as the user scrolls down. Subsequent content sections appear with subtle fade-in or slide-up animations as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as distinct, full-width blocks, each with unique media (video, image) and text layouts, creating a dynamic portfolio experience."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered reveal system to animate content sections into view as the user scrolls, likely employing CSS keyframes or a JavaScript library for staggered fade-up or slide-in effects. A prominent video hero is integrated to provide dynamic visual impact immediately after the initial brand statement. The navigation bar remains sticky at the top, transitioning its background from solid red to transparent as the user scrolls past the initial hero."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F72F2F",
+        "role": "accent"
+      },
+      {
+        "hex": "#262626",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ABB8C3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FK Grotesk Neue",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold display text (~5x body) with small, precise sans-serif for body and navigation, creating high visual contrast.",
+    "radius": "sharp",
+    "spacing": "airy in hero and section breaks, providing breathing room, while content blocks maintain a balanced density."
+  },
+  "standout": "The site's distinctive use of a bold, almost aggressive red as a primary brand color, combined with massive, impactful typography and immersive video content, creates a very strong, confident, and modern aesthetic. The initial transition from the static red hero to the dynamic video hero is a particularly impactful and memorable opening.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

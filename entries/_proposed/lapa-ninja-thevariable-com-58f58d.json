@@ -1,0 +1,85 @@
+{
+  "id": "lapa-ninja-thevariable-com-58f58d",
+  "source": {
+    "url": "https://thevariable.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-thevariable-com-58f58d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-thevariable-com-58f58d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-thevariable-com-58f58d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-thevariable-com-58f58d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "art"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "playful"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed background color dominates the screen, serving as a canvas for a single, extremely large, centrally positioned numeric element."
+    },
+    {
+      "kind": "type",
+      "note": "The primary content consists of oversized, bold, geometric display numbers that fill a significant portion of the viewport, creating a strong visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a stark, high-contrast color scheme featuring a vibrant purple background and solid black for the dominant numeric elements and a bottom bar."
+    },
+    {
+      "kind": "motion",
+      "note": "The main numeric content dynamically changes its value and appearance (e.g., from '98' to '4' and back) as the user scrolls, rather than simply revealing new sections. A black horizontal bar at the bottom also appears and disappears with scroll depth."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a programmatic rendering engine, likely WebGL or Canvas (as indicated by detected tech), to display highly stylized, oversized numbers. These numbers, along with other simple geometric elements like a bottom bar, are dynamically generated and updated based on scroll position, creating a non-linear and interactive visual experience where content itself transforms rather than just animating into view.",
+    "The overall aesthetic is achieved through minimalist composition, using a single dominant element against a solid color background, relying on extreme scale and high contrast for visual drama."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#9489ff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "display-element"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:NeuroX",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, geometric display numbers (~8x viewport height) dominate the screen, with no visible body text.",
+    "radius": "Sharp, angular corners are used exclusively for all visible elements, including the numeric characters and the bottom bar.",
+    "spacing": "Very airy and sparse, with a single, massive element centered on the screen, emphasizing negative space around it."
+  },
+  "standout": "This site's design is distinctive for its extremely abstract and dynamic content, where the primary visual element (a large number) completely changes its value and form based on scroll interaction. It's an experiential piece that prioritizes a bold, interactive visual statement over traditional informational layout.",
+  "animation_tech": [
+    "canvas",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

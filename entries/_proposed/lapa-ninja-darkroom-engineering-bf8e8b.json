@@ -1,0 +1,94 @@
+{
+  "id": "lapa-ninja-darkroom-engineering-bf8e8b",
+  "source": {
+    "url": "https://darkroom.engineering/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-darkroom-engineering-bf8e8b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-darkroom-engineering-bf8e8b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-darkroom-engineering-bf8e8b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-darkroom-engineering-bf8e8b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software-development",
+      "web-services",
+      "digital-agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with a dark background, using thin red horizontal lines as prominent section dividers and visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "Exclusive use of a pixelated, monospaced font for all text, from large headings to small body copy, creating a consistent retro-digital aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast color palette dominated by black backgrounds and vibrant red text and accents, evoking a terminal or warning display."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background features a dynamic, complex cityscape that appears to be a video or WebGL animation. Other content sections likely reveal with scroll-triggered animations, though not explicitly captured in the static sequence."
+    },
+    {
+      "kind": "section",
+      "note": "A unique 'Activity Log' section presents content in a format mimicking a command-line interface or system log, reinforcing the technical brand identity."
+    }
+  ],
+  "technique_notes": [
+    "The site leverages WebGL or a video loop for a dynamic, immersive hero background that sets a futuristic, high-tech tone. GSAP is likely used to orchestrate scroll-triggered animations, revealing text and content blocks with subtle fades or slides as they enter the viewport, enhancing the digital aesthetic.",
+    "Typography is strictly monospaced and pixelated, applied consistently across all text elements to create a unified, code-centric visual language. This is often achieved by selecting a specific font family and applying it globally.",
+    "The high-contrast black and red color scheme is maintained throughout the site, with red used for all primary text, interactive elements, and subtle UI accents, while black serves as the dominant background. This creates a bold and intense visual experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "text"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: VT323",
+        "role": "display"
+      }
+    ],
+    "type_scale": "oversized, bold, uppercase headings (~4-5x body) with small, tightly-spaced monospaced body text.",
+    "radius": "sharp, consistent 0px radius throughout.",
+    "spacing": "balanced, with a strong horizontal rhythm established by thin red dividers and consistent vertical padding between sections."
+  },
+  "standout": "The site's distinctive 'digital retro-futuristic' aesthetic, achieved through a stark black and red color scheme, pixelated monospaced typography, and a dynamic, complex WebGL/video hero background, makes it feel like an interactive terminal or a scene from a cyberpunk movie. The 'Activity Log' section further reinforces this unique, code-centric brand identity.",
+  "animation_tech": [
+    "gsap",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-superevilgeniuscorp-com-c0780d",
+  "source": {
+    "url": "https://www.superevilgeniuscorp.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-superevilgeniuscorp-com-c0780d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-superevilgeniuscorp-com-c0780d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-superevilgeniuscorp-com-c0780d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-superevilgeniuscorp-com-c0780d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "digital-services"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed image sections with large, impactful typography overlayed, alternating with dark, content-focused sections that maintain a consistent narrow width."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of pixelated, monospace, and bold uppercase typography for all headings and key phrases, creating a distinct digital aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep black backgrounds with vibrant neon green accents for primary headings, interactive elements, and key visual motifs."
+    },
+    {
+      "kind": "motion",
+      "note": "Key textual elements like the main hero title 'SUPER EVIL GENIUS' and 'WE ALWAYS DELIVER' appear to be fixed or have a very slow parallax effect, revealing as the background content scrolls past them."
+    },
+    {
+      "kind": "motion",
+      "note": "The top-left globe icon and top-right 'MENU' text remain sticky at the top of the viewport throughout the scroll, providing persistent navigation access."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcase sections utilize large, full-bleed background images that scroll into view, with project titles and descriptions overlaid in a minimalist fashion."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations are used to reveal sections as they enter the viewport, often with large background images. Key hero text elements are fixed or have a subtle parallax, creating a layered depth effect as other content scrolls beneath them. Interactive elements like the spinning globe and glitchy smiley face are animated using canvas and GSAP.",
+    "The site employs a dark mode aesthetic with high-contrast neon green text and interactive elements on a black background, creating a bold and futuristic feel.",
+    "Navigation is handled by a sticky header with a minimalist globe icon and 'MENU' text, which triggers a full-screen overlay menu that slides in from the right."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Press Start 2P",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Space Mono",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, and often pixelated display headings (~8x body) with smaller, uppercase monospace labels and body text.",
+    "radius": "Sharp; all elements feature hard edges with no visible corner rounding.",
+    "spacing": "Balanced; sections are clearly separated with ample vertical space, while content within sections maintains a comfortable density."
+  },
+  "standout": "The site's distinctive use of a pixelated, glitchy, and neon green aesthetic on a stark black background immediately sets it apart. The bold, oversized typography combined with subtle scroll-triggered parallax and animated elements creates a unique, retro-futuristic digital experience that feels both aggressive and sophisticated.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-tux-co-520e38",
+  "source": {
+    "url": "https://tux.co/en/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tux-co-520e38.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tux-co-520e38__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tux-co-520e38__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tux-co-520e38__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "advertising"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with dramatic background changes define distinct content blocks, often featuring large-scale typography or video."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, bold sans-serif typography is used for key section headings, creating strong visual impact and acting as graphic elements."
+    },
+    {
+      "kind": "color",
+      "note": "Abrupt, full-screen background color shifts (from dark video to vibrant green to light gray) are used to delineate major content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar dynamically changes its background color and opacity as it scrolls, transitioning from a transparent overlay to a solid green, then to a solid light gray, while remaining sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a full-screen transition, where the entire viewport background color and content dramatically shift as the user scrolls past a certain point."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed background video with a dark, desaturated overlay to ensure text legibility. This video scrolls out of view to reveal subsequent sections.",
+    "The navigation bar implements a scroll-triggered transformation, starting as a transparent element with a subtle backdrop blur, then becoming a solid, full-width bar with a distinct background color that changes based on the active scroll section.",
+    "Major content sections are introduced with full-viewport background color changes, creating a strong visual break and a sense of progression as the user scrolls. Large, graphic text elements are often integrated directly into these full-bleed sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A2E3B",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Extremely oversized, wide, and bold sans-serif headings (~4-5x body text) create strong graphic statements, contrasted with smaller, legible sans-serif body text.",
+    "radius": "Sharp corners are dominant for sections and most elements, with subtle rounding (~4-8px) used for smaller components like news popups and image cards.",
+    "spacing": "Very airy in hero and full-screen text sections, creating a sense of grandeur; balanced density in content grids for readability."
+  },
+  "standout": "The site's design is distinctive for its dramatic, full-screen background color and content shifts on scroll, creating a highly dynamic and almost theatrical progression through the page. This, combined with the use of extremely large, graphic typography and a navigation bar that visually transforms with each section, makes for a memorable and impactful user experience.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

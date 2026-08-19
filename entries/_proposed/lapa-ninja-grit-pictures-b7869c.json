@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-grit-pictures-b7869c",
+  "source": {
+    "url": "https://grit.pictures/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-grit-pictures-b7869c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-grit-pictures-b7869c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-grit-pictures-b7869c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-grit-pictures-b7869c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "film-production",
+      "media"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, asymmetrical collage layout where graphic elements, text blocks, and images are layered and overlap, mimicking torn paper and hand-drawn illustrations on a dark background."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of distressed, heavy, uppercase display fonts for section headings, contrasted with smaller, clean sans-serifs for body text and informal, handwritten-style annotations."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast monochromatic palette primarily using black and white, with subtle dark grey tones for depth and texture."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-layered parallax scrolling effect where various background illustrations and torn paper elements move at slower, independent rates compared to the foreground content, creating a sense of depth and dynamism. The main logo and menu button remain sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are not defined by distinct full-width containers but rather by large, expressive typographic headings and clusters of thematically related, often overlapping, graphic elements and content snippets."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header for the main logo and navigation menu to maintain persistent access. Create a multi-layered parallax scrolling system where background illustrative elements are positioned at different Z-depths and scroll at varying, slower speeds compared to the main content blocks, giving a sense of depth. This can be enhanced with canvas or Lottie animations for specific background elements. Achieve the overall aesthetic through custom, gritty, hand-drawn illustrations, torn paper textures, and distressed typography, all rendered in a high-contrast black and white color scheme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#050505",
+        "role": "surface"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "detail"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Impact",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Montserrat",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Architects Daughter",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Very large, condensed, distressed headings (~4-5x body text) with a strong visual presence, complemented by smaller, clean sans-serif body text and tiny, informal handwritten annotations.",
+    "radius": "Sharp corners are prevalent, especially on torn paper elements and image cutouts, contributing to a raw and unpolished aesthetic.",
+    "spacing": "Dense and intentionally overlapping, creating a dynamic, collage-like composition where elements are tightly packed and interact visually, with minimal clear negative space."
+  },
+  "standout": "The site's distinctive, raw, and highly stylized collage aesthetic, combining hand-drawn illustrations, distressed typography, and torn paper textures in a monochromatic palette, creates a unique and memorable brand identity that feels like a digital punk zine.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

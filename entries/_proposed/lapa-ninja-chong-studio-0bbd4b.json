@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-chong-studio-0bbd4b",
+  "source": {
+    "url": "https://www.chong.studio/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-chong-studio-0bbd4b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-chong-studio-0bbd4b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-chong-studio-0bbd4b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-chong-studio-0bbd4b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding-agency",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with high-contrast background colors (black and vibrant lime green) create distinct visual blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic typographic contrast is used, pairing oversized, elegant serif headings with clean, legible sans-serif body text for a sophisticated yet modern feel."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette consists of a high-contrast black and a vibrant, almost neon, lime green, with white text on dark backgrounds and black text on light backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "A distinctive wavy graphic acts as a background element, creating a subtle parallax effect as the user scrolls, visually separating content sections with dynamic movement."
+    },
+    {
+      "kind": "section",
+      "note": "Case study sections are introduced with large, numbered indicators and prominent product imagery, establishing a strong visual hierarchy and focus."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar remains fixed at the top of the viewport after initial scroll, ensuring persistent access to key site links.",
+    "Sections are revealed by the standard vertical scroll of the page content. A unique wavy graphic element in the background scrolls at a different rate than the foreground content, creating a subtle parallax effect to visually separate content blocks. This effect could be achieved using CSS background properties or a JavaScript-driven parallax library, potentially leveraging the detected css-keyframes or webgl-three for more complex motion.",
+    "Typographic hierarchy is established through a significant size and weight difference between a sophisticated serif display font for headlines and a modern sans-serif for body copy, enhancing readability and brand presence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#AFFF33",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-on-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "orpheus-pro",
+        "role": "heading"
+      },
+      {
+        "family": "Work Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) with clean, legible sans-serif body text and small uppercase sans-serif labels.",
+    "radius": "Sharp corners throughout all elements and containers, contributing to a modern and precise aesthetic.",
+    "spacing": "Generally airy, especially in hero and section titles, with generous vertical spacing between major content blocks, creating a sense of luxury and focus."
+  },
+  "standout": "The site's standout feature is its bold and high-contrast color palette of black and vibrant lime green, combined with a distinctive wavy graphic that acts as a dynamic section divider. This creates a memorable and energetic visual identity that feels both modern and luxurious, moving beyond typical corporate aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

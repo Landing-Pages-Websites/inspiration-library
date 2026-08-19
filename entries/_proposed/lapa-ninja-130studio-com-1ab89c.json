@@ -1,0 +1,125 @@
+{
+  "id": "lapa-ninja-130studio-com-1ab89c",
+  "source": {
+    "url": "https://www.130studio.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-130studio-com-1ab89c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-130studio-com-1ab89c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-130studio-com-1ab89c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-130studio-com-1ab89c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "motion-design",
+      "digital-production"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, complex 3D renders are used as hero and interstitial section visuals, dominating the screen with surreal, high-fidelity imagery."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme is established with a black background, white text, and vibrant neon green used exclusively for interactive elements and key accents."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize an extremely bold, wide sans-serif typeface, creating a strong, impactful visual hierarchy against the dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect on its intricate 3D render as the user scrolls, adding depth to the initial view."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, stylized version of the studio's name (1:30 STUDIO) is fixed to the bottom of the viewport, gradually revealing itself as the user scrolls down to the footer, acting as a background element."
+    },
+    {
+      "kind": "section",
+      "note": "An 'Expertise' section uses a horizontal tabbed interface to categorize and display different service offerings, each with a distinct visual example."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations, likely using GSAP or a similar library, to reveal content sections with a staggered fade-up effect as they become visible in the viewport.",
+    "The hero features a complex, high-fidelity 3D render, likely implemented with WebGL (e.g., Three.js or a canvas library), which subtly shifts or parallaxes in response to scroll depth.",
+    "A sticky navigation bar maintains its position at the top of the screen, providing consistent access to primary links."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#66FF4D",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A2E3B",
+        "role": "surface"
+      },
+      {
+        "hex": "#0E1216",
+        "role": "surface"
+      },
+      {
+        "hex": "#D000FF",
+        "role": "illustration-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, extremely bold sans-serif headings (~4-5x body) with smaller, often uppercase, supporting labels and legible body text.",
+    "radius": "Subtle, consistent rounding on interactive elements like buttons, input fields, and cards.",
+    "spacing": "Airy, with generous vertical spacing between major content sections and a balanced density within content blocks."
+  },
+  "standout": "The site's most distinctive feature is its use of highly detailed, surreal 3D renders as hero and interstitial visuals, creating a unique, immersive, and artistic brand identity. This, combined with the high-contrast dark theme and vibrant neon green accents, elevates it beyond a typical agency site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

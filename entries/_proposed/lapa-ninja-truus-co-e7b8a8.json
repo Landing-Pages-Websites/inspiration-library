@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-truus-co-e7b8a8",
+  "source": {
+    "url": "https://truus.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-truus-co-e7b8a8.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-truus-co-e7b8a8__scroll0.webp",
+      "shots/_proposed/lapa-ninja-truus-co-e7b8a8__scroll1.webp",
+      "shots/_proposed/lapa-ninja-truus-co-e7b8a8__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "advertising",
+      "marketing",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently feature asymmetrical compositions, overlapping elements (text over images, images over graphic shapes), and full-bleed background changes to delineate content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A bold, modern sans-serif is used for primary headings, contrasted with a playful, script-like or decorative display font for key phrases and accents, creating a dynamic typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The palette combines vibrant, pastel-like colors (light pink, yellow-green, light blue, light purple) with deep, saturated accents (dark blue, orange, dark pink) and a neutral off-white background, creating a high-contrast and energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, sections reveal with staggered fade-in and slide-up animations for text and image elements. The hero video background scrolls away to reveal the main content, and decorative oversized letters (like the 'n' in 'we want') appear to animate into place."
+    },
+    {
+      "kind": "section",
+      "note": "Image collages are used as a prominent section style, where multiple photos are arranged in an overlapping, dynamic grid, often framed by organic, wavy background shapes."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-triggered animation system, likely leveraging GSAP and Locomotive Scroll, to create a smooth scrolling experience where content sections and individual elements (text, images, decorative shapes) animate into view with staggered fades, slides, and slight scaling effects as they enter the viewport. The hero video acts as a fixed background that scrolls out of view to reveal the page content.",
+    "Decorative, oversized SVG shapes and custom typography are integrated as dynamic background elements that interact with the scroll, appearing and moving in conjunction with content reveals.",
+    "The navigation bar remains sticky at the top of the page, maintaining brand presence while the main content scrolls beneath it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F0EBE6",
+        "role": "background"
+      },
+      {
+        "hex": "#FFE1F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#E6FAB9",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0325A",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5693C",
+        "role": "accent"
+      },
+      {
+        "hex": "#4B69F0",
+        "role": "primary"
+      },
+      {
+        "hex": "#82A0FF",
+        "role": "secondary"
+      },
+      {
+        "hex": "#F0BEFA",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: &quot",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) are paired with a distinctive, playful display font for key phrases, and a legible sans-serif for body text. Uppercase labels are used for section titles.",
+    "radius": "Rounded corners are consistently applied to cards, buttons, and the overall page container, giving a soft and approachable feel.",
+    "spacing": "Airy and generous spacing is used between major sections, creating clear visual breaks, while within sections, elements can be densely packed or overlap, especially in image collages."
+  },
+  "standout": "This site's design is distinctive for its bold, playful, and almost 'sticker-book' aesthetic, achieved through the use of vibrant, high-contrast colors, oversized decorative typography, and dynamic, organic shapes. The sophisticated scroll-triggered animations and collage-style image groupings elevate this youthful energy into a polished, memorable experience, making it feel less like a corporate site and more like an interactive art piece.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

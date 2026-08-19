@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-boring-industries-ebb22f",
+  "source": {
+    "url": "https://www.boring.industries/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-boring-industries-ebb22f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-boring-industries-ebb22f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-boring-industries-ebb22f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-boring-industries-ebb22f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "branding",
+      "marketing",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extreme vertical centering of primary content blocks, creating a very airy, almost sparse feel with generous whitespace around text."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single, elegant serif font for all primary headings and body text, with specific words italicized for emphasis and a contrasting sans-serif for navigation and small labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, monochromatic palette of off-white and dark grey/black, with a single muted accent color used sparingly for the logo and subtle horizontal dividers."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal content with a subtle fade-in and slight vertical translation as they scroll into the viewport, maintaining a clean, unhurried pace."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in distinct, vertically centered text blocks, often preceded by a small, uppercase label, creating a clear visual hierarchy despite the minimal design."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a minimalist layout with generous vertical spacing, centering key content blocks on the screen to draw focus.",
+    "Scroll-triggered animations, likely powered by GSAP, are used to reveal new content sections with a subtle fade-in and slight upward movement as they enter the viewport.",
+    "Both the top and bottom navigation elements remain fixed to the viewport edges, providing persistent access to site sections while the main content scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f4ed",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#afaba3",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Canela",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized elegant serif hero (~4x body) with small uppercase labels and a distinct italic style for emphasis.",
+    "radius": "sharp",
+    "spacing": "very airy, especially in hero and section breaks, with content often centered vertically within the viewport."
+  },
+  "standout": "The site's design is distinctive for its extreme minimalism and the bold choice to use a single, elegant serif font for almost all content, including body text, which creates a strong editorial and luxurious feel. The playful, self-deprecating brand voice combined with this stark, high-contrast aesthetic makes it memorable.",
+  "animation_tech": [
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
