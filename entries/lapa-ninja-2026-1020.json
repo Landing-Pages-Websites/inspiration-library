@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-1020",
+  "source": {
+    "url": "https://lerub.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1020.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1020__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1020__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1020__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "sun-protection"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections with embedded product imagery and text overlays create an immersive, aspirational brand experience, often using natural outdoor settings."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, extended sans-serif typography is used for headlines, often in all caps, providing a bold and modern feel that contrasts with more readable, standard sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, warm orange (#ff662c) serves as the primary accent color, consistently applied to product packaging, calls to action, and key interactive elements, set against a muted, natural background palette of cream and deep ocean blues."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms on scroll, shrinking in height and gaining a solid background, while the initial hero background image exhibits a subtle parallax effect, scrolling at a different rate than the foreground product elements and text."
+    },
+    {
+      "kind": "section",
+      "note": "The site consistently uses large, aspirational lifestyle photography to frame product displays and brand messaging, often featuring people enjoying outdoor activities."
+    }
+  ],
+  "technique_notes": [
+    "The header transitions from a transparent, taller state to a solid-backed, shorter sticky bar with a slight logo size reduction as the user scrolls past the initial hero section, using CSS transitions.",
+    "The initial hero section employs a background video or image that scrolls at a slower rate than the foreground content (product bottles, text, CTA button), creating a subtle parallax depth effect.",
+    "Content sections below the hero are revealed using scroll-triggered animations, likely a staggered fade-up or slide-in effect, as they enter the viewport, enhancing engagement and visual flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff662c",
+        "role": "cta"
+      },
+      {
+        "hex": "#f6f2ed",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#a54547",
+        "role": "accent"
+      },
+      {
+        "hex": "#153d74",
+        "role": "text"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Kanit-Klaviyo-Hosted",
+        "role": "heading"
+      },
+      {
+        "family": "Nunito-Sans-Klaviyo-Hosted",
+        "role": "body"
+      },
+      {
+        "family": "MaisonNeueExtended",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold, extended sans-serif headings (approx. 3-4x body) with smaller, legible sans-serif body text and uppercase labels for emphasis.",
+    "radius": "Subtle; buttons and product cards feature slightly rounded corners.",
+    "spacing": "Balanced to airy; hero sections are very airy, while product grids and text blocks maintain a comfortable, readable density."
+  },
+  "standout": "The site's distinctive use of a vibrant, almost neon orange as a core brand color, consistently applied to product packaging and calls to action, immediately grabs attention. This is powerfully contrasted with natural, aspirational beach and water imagery, creating a unique blend of modern energy and serene luxury. The custom, extended typography for the logo and main headings further reinforces this bold and unique brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

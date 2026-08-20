@@ -1,0 +1,98 @@
+{
+  "id": "lapa-ninja-2026-1015",
+  "source": {
+    "url": "https://www.further.group/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1015.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1015__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1015__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1015__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "media",
+      "production"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed hero video with large, elegant text overlays, followed by very airy, minimal content sections that often feature single large images or concise text blocks centered on a light background."
+    },
+    {
+      "kind": "type",
+      "note": "A striking, oversized serif display font is used for key brand statements, contrasting with a clean, modern sans-serif for navigation, body text, and smaller labels, creating a sophisticated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is a high-contrast pairing of a warm, light beige background with deep black text and elements, punctuated by a solid black footer with white text for a distinct visual break."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero text 'FURTHER' scales down and translates upwards as the user scrolls, while the background video maintains a subtle parallax effect. Content sections below the hero reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent overlay with white text in the hero section to an opaque black bar with white text, sticking to the top of the viewport after the initial scroll."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background with a large, custom-font text overlay. As the user scrolls, the text animates with a combination of scaling and vertical translation, while the video background maintains a subtle parallax effect, giving depth to the initial view. This likely leverages GSAP for precise control over scroll-triggered animations.",
+    "Navigation elements are initially transparent and overlaid on the hero content. Upon scrolling past the hero, the navigation bar transitions to a solid background color and becomes sticky at the top of the viewport, ensuring persistent access. This transformation involves changes in background opacity and color, likely using CSS transitions or GSAP for a smooth effect.",
+    "Subsequent content sections are revealed dynamically as they enter the viewport. Elements within these sections, such as images and text blocks, appear to fade in or slide up from the bottom, creating a guided and engaging scroll experience. This effect is typically achieved using scroll-triggered animations, potentially with GSAP ScrollTrigger or CSS keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F2",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Didot",
+        "role": "display"
+      },
+      {
+        "family": "Grtsk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An extremely oversized, elegant serif display heading (~8x body) dominates the hero, complemented by a clean, modern sans-serif for body text and smaller, uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing, particularly in the hero and between main content blocks, creating a sense of luxury and minimalism."
+  },
+  "standout": "The site's most distinctive feature is its full-bleed video hero with a massive, elegantly animated text overlay that subtly transforms on scroll. This, combined with the extremely airy layout and high-contrast, minimal color palette, creates a sophisticated and immersive brand experience that feels more like an art installation than a typical corporate site.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "lapa-ninja-2026-1030",
+  "source": {
+    "url": "https://nuageboi.fr/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1030.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1030__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1030__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1030__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative",
+      "art-direction",
+      "portfolio",
+      "digital-artist"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A high-contrast, two-color palette of vibrant green and black dominates the entire site, used for both backgrounds and text, often in full-bleed sections."
+    },
+    {
+      "kind": "type",
+      "note": "Massive, condensed sans-serif typography is used for primary headings, often taking up full screen width or height, creating a bold, almost architectural feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section undergoes a dramatic scroll-triggered transformation, shifting from a dark background with green text and an image to a vibrant green background with black text and a video player."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with minimal padding are used, allowing the oversized typography and vibrant colors to command attention across the entire viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Large text elements scroll into view, acting as visual anchors or section dividers, with their color often contrasting sharply with the background."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the hero transition, use a scroll-triggered animation library to detect scroll depth. At a certain threshold, animate the background color, text color, and swap out the hero image for a video player, while simultaneously transforming the navigation bar's color scheme.",
+    "Implement oversized, full-width text elements that scroll vertically, creating a 'text as landscape' effect. These elements should be positioned to appear as primary content blocks rather than simple headings, often with a contrasting color to the background.",
+    "Utilize a sticky navigation bar that changes its background and text color dynamically after the initial scroll, transitioning from a subtle, dark appearance to a high-contrast, vibrant green and black scheme."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "extremely oversized, condensed headings (5-10x body text) with smaller, clean sans-serif for body and navigation.",
+    "radius": "sharp",
+    "spacing": "airy, with large full-bleed sections and generous vertical spacing between content blocks."
+  },
+  "standout": "The site's design is distinctive for its audacious and consistent use of a single, extremely vibrant green paired with stark black, creating a high-energy, almost aggressive visual identity. This is amplified by the massive, full-screen typography and dramatic scroll-triggered color and content shifts that transform the page experience.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

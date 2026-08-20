@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-2026-1012",
+  "source": {
+    "url": "https://fableandmane.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1012.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1012__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1012__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1012__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "hair-care",
+      "e-commerce",
+      "natural-products"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality product photography is used extensively, particularly in the hero and featured product sections, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic pairing uses an elegant, bold serif font for prominent display headings and a clean, modern sans-serif for body text and UI elements, creating a balance of luxury and readability."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is dominated by rich, warm earthy tones (reds, browns, oranges) derived from natural ingredients and product photography, contrasted with deep black text and crisp white backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax-like effect where the foreground text and CTA scroll up, revealing more of the static background product image as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from transparent over the hero to a fixed, solid white background with a subtle shadow and slightly reduced height once the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are often introduced with large, centered serif headings and visually separated by generous vertical spacing, sometimes incorporating full-width background color bands or distinct background imagery."
+    }
+  ],
+  "technique_notes": [
+    "A hero section uses a large, high-quality product photograph as a background, with text and a call-to-action layered on top. As the user scrolls, the foreground content scrolls up, revealing more of the background image, creating a subtle parallax-like effect.",
+    "The global navigation bar is initially transparent and overlays the hero section. Upon scrolling past the hero, it transitions to a fixed position at the top, shrinking slightly in height and gaining a solid background color and a subtle drop shadow to maintain contrast with the page content.",
+    "Product display sections utilize a horizontal carousel component (likely using swiper.js as detected), allowing users to swipe or click through multiple product cards."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#ed4026",
+        "role": "accent"
+      },
+      {
+        "hex": "#5e2e1c",
+        "role": "surface"
+      },
+      {
+        "hex": "#6a4a3a",
+        "role": "surface"
+      },
+      {
+        "hex": "#e5e5e5",
+        "role": "background"
+      },
+      {
+        "hex": "#5c3e8e",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "QuincyCF-ExtraBold",
+        "role": "display"
+      },
+      {
+        "family": "GTStandard-M",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~3-4x body) for section titles, with smaller, clean sans-serif for body text and uppercase labels.",
+    "radius": "Subtle rounding on buttons and product cards, but mostly sharp edges for overall layout.",
+    "spacing": "Balanced to airy; generous vertical spacing between sections, especially in the hero and main content areas, with tighter spacing within product grids."
+  },
+  "standout": "The site's standout feature is its rich, evocative product photography and styling, which leverages warm, earthy tones and natural elements to convey a sense of luxury and authenticity. This is combined with a distinctive brand identity featuring a tiger motif and Indian heritage, creating a unique visual narrative that elevates the product beyond typical e-commerce.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

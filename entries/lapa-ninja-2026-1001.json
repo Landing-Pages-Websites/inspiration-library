@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1001",
+  "source": {
+    "url": "https://www.charlieosborne.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1001.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1001__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1001__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1001__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "saas",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background with high-contrast white typography and vibrant, organic gradient accents that span the width of the page."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic scale contrast, featuring massive, bold, uppercase sans-serif headings that dominate each section, paired with smaller, legible sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is dramatically accented by a dynamic, fiery orange-to-red gradient, used prominently in the hero and call-to-action sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Major section titles and content blocks are revealed with a subtle slide-up and fade-in animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, sticky brand name that remains visible for an extended scroll duration, while a dynamic, wavy canvas background animates and transitions behind it."
+    }
+  ],
+  "technique_notes": [
+    "Implement a persistent, sticky navigation bar at the top that includes the brand logo and main menu items, maintaining visibility across all scroll depths.",
+    "Create a hero section with a large, fixed-position text element that uses a combination of CSS transforms and scroll-triggered JavaScript to achieve a parallax or sticky effect, making it appear to move slower than the page content before eventually scrolling out of view.",
+    "Utilize a canvas-based animation for the hero background, allowing for a fluid, organic gradient that dynamically shifts colors and patterns in response to scroll depth, transitioning from vibrant to subtle."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF4500",
+        "role": "accent-bright"
+      },
+      {
+        "hex": "#8B0000",
+        "role": "accent-dark"
+      },
+      {
+        "hex": "#404040",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase sans-serif headings (~5x body text) create strong visual anchors, complemented by clean, readable body text and smaller, often uppercase labels.",
+    "radius": "Sharp corners are used consistently throughout the design, contributing to a modern and precise aesthetic.",
+    "spacing": "Airy, with generous vertical spacing between major sections and within content blocks, especially around the dominant headings, creating a sense of spaciousness and clarity."
+  },
+  "standout": "This site's design is distinctive for its audacious use of scale, particularly with its massive, uppercase typography that acts as both content and a strong graphic element. The dynamic, animated canvas background in the hero section, combined with the high-contrast black, white, and fiery gradient palette, creates an immersive and memorable visual experience that feels both luxurious and cutting-edge.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

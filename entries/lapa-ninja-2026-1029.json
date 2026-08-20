@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-1029",
+  "source": {
+    "url": "https://www.ngan-nguyen.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1029.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1029__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1029__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1029__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extremely generous vertical whitespace separates major content blocks, often with dashed lines acting as visual placeholders or dividers, creating an airy and minimalist feel."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used across the site, with a strong hierarchy established through significant size and weight variations, from oversized, bold display headings to smaller, lighter body text and uppercase section labels."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is high-contrast monochrome (black text on a light grey background, or white text on a black background), with a single vibrant purple used sparingly as an accent for interactive elements and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero are revealed on scroll, appearing to 'unfold' into the large blank spaces, often accompanied by subtle animations like text appearing or elements sliding into view."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a distinctive full-width, dark-themed footer section with large, inviting typography and pill-shaped call-to-action buttons, contrasting sharply with the predominantly light-themed content above."
+    }
+  ],
+  "technique_notes": [
+    "The motion system uses GSAP ScrollTrigger to orchestrate content reveals: as the user scrolls, new sections and text elements animate into view, often with a subtle fade-up or slide-in effect, filling previously empty vertical space. The main navigation elements (logo and social link) remain sticky at the top of the viewport.",
+    "Typography is managed with a single, versatile sans-serif font, leveraging extreme variations in font size and weight to create visual hierarchy. Headings are significantly larger and bolder than body text, and section titles are often set in uppercase with a slightly lighter weight.",
+    "The layout relies on a central content column with ample padding, surrounded by vast amounts of negative space. Full-width sections are used for the hero and footer to create strong visual anchors and transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#0f0f0f",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#6a4ff2",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bricolage Grotesque",
+        "role": "display"
+      },
+      {
+        "family": "Bricolage Grotesque",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body) with smaller, lighter body text and distinct uppercase labels.",
+    "radius": "Pill-shaped for interactive buttons, otherwise sharp for most elements.",
+    "spacing": "Very airy, especially in the hero and between major sections, creating a sense of spaciousness; content within sections is balanced."
+  },
+  "standout": "The site's most distinctive feature is its extreme use of whitespace, which isn't just empty space but actively participates in the design, often serving as a canvas for scroll-triggered content reveals marked by subtle dashed lines. This creates a highly minimalist yet dynamic and engaging experience that feels both personal and polished.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

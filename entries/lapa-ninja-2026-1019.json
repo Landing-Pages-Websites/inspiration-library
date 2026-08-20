@@ -1,0 +1,89 @@
+{
+  "id": "lapa-ninja-2026-1019",
+  "source": {
+    "url": "https://www.leoparpeix.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1019.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1019__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1019__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1019__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "interactive-design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero section undergoes a multi-stage transformation on scroll, sequentially revealing new typographic messages and an interactive 3D element."
+    },
+    {
+      "kind": "layout",
+      "note": "An asymmetrical, sparse project grid is used, featuring large negative space and minimal details for each entry."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic contrast is employed, with massive, bold display headings dominating the hero and subtle, smaller text for descriptions and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A strict duotone color scheme of dark green text on an off-white background is maintained across all primary content areas."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sophisticated scroll-triggered animation system (likely combining GSAP ScrollTrigger with WebGL/Three.js) to orchestrate a dynamic hero experience. As the user scrolls, initial hero content slides out, new messages slide in, and a large typographic statement appears, accompanied by an interactive 3D object that moves and reacts to the text. The primary navigation remains sticky at the top of the viewport.",
+    "The overall design emphasizes a minimalist aesthetic with abundant negative space, allowing large, impactful typography and subtle interactive elements to command attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#083d2a",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero headings (easily 5-6x body text size) with smaller, lighter body and descriptive text.",
+    "radius": "sharp",
+    "spacing": "very airy, especially in the hero and project sections, creating a sense of luxury and focus"
+  },
+  "standout": "The site's most distinctive feature is its dynamic, multi-stage hero transformation on scroll, which sequentially reveals different messages and culminates in an interactive 3D element engaging with the typography. This creates a highly memorable and playful yet sophisticated first impression.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

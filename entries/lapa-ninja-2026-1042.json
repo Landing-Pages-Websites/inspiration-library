@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-2026-1042",
+  "source": {
+    "url": "https://tomaskmet.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1042.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1042__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1042__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1042__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content placement within sections, often with large display text acting as a visual anchor, creating dynamic negative space."
+    },
+    {
+      "kind": "type",
+      "note": "Distinctive use of a pixelated, blocky display font for primary headings and key calls to action, contrasting sharply with a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast, limited palette primarily featuring a dark charcoal gray, a warm light beige/off-white, and a subtle yellow accent for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-driven reveals where large, pixelated text elements animate into their final position or scale, and accompanying content fades or slides in around them. Full-bleed background color changes mark major section transitions."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width sections with solid, contrasting background colors that change dramatically between major content blocks, defining distinct content areas."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely using Locomotive Scroll for smooth scrolling and GSAP for orchestrating complex timelines. Large, pixelated text elements are rendered via canvas or WebGL (potentially Three.js), animating their position, scale, or reveal state based on scroll depth. Content within sections (e.g., descriptive text, project cards) appears with staggered fades or slides as the user scrolls, synchronized with background color changes for section transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1b1818",
+        "role": "background"
+      },
+      {
+        "hex": "#bfc0b2",
+        "role": "surface"
+      },
+      {
+        "hex": "#fddc5c",
+        "role": "accent"
+      },
+      {
+        "hex": "#8a8a8a",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP Formula Black",
+        "role": "display"
+      },
+      {
+        "family": "PP Neue Montreal Book",
+        "role": "body"
+      },
+      {
+        "family": "PP Neue Montreal Bold",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Oversized, pixelated display headings (~5-8x body) with a strong, blocky character, contrasted with clean, modern sans-serif for body text and navigation.",
+    "radius": "sharp",
+    "spacing": "airy, with generous negative space around primary content blocks and a clear visual separation between sections."
+  },
+  "standout": "The site's standout feature is its bold, pixelated typography rendered with advanced animation techniques (WebGL/canvas), which acts as a central, interactive element that content flows around and reveals in relation to. This creates a highly distinctive and memorable visual identity that goes beyond typical modern marketing sites.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
