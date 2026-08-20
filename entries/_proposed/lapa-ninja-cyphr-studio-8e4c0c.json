@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-cyphr-studio-8e4c0c",
+  "source": {
+    "url": "https://www.cyphr.studio/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-cyphr-studio-8e4c0c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-cyphr-studio-8e4c0c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-cyphr-studio-8e4c0c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-cyphr-studio-8e4c0c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently feature full-bleed, high-contrast imagery or large typographic elements that fill the viewport, creating a dramatic and immersive experience."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses extremely oversized, heavy sans-serif typography for primary headings and section titles, often acting as a dominant visual element or a mask for imagery."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black and white dominates the backgrounds and text, with vibrant, often cool-toned (blue/teal) imagery providing the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero image grid dynamically transforms, revealing new content within its segmented structure, followed by a full-screen takeover where massive text acts as a mask to reveal background imagery."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented in distinct, full-width sections, often with dark backgrounds, using large, impactful headlines to introduce each segment."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a grid of image elements that animate and swap content on scroll, creating a dynamic visual introduction. This is likely achieved using GSAP's ScrollTrigger to control the timing and transformation of individual grid cells.",
+    "A prominent scroll-triggered effect involves large, bold text filling the screen, where the negative space of the letters acts as a mask to reveal a background image. This creates a powerful visual transition and content reveal.",
+    "Overall page content is revealed with subtle fade-in or slide-up animations as sections enter the viewport, maintaining a fluid and engaging scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#00BFFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#1E90FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, heavy sans-serif headings (~8-10x body) create strong visual impact, contrasted with smaller, regular-weight sans-serif body text.",
+    "radius": "Subtle rounded corners are applied to image containers and interactive elements, providing a soft contrast to the otherwise sharp typographic forms.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and large elements, creating a sense of grandeur and allowing content to breathe."
+  },
+  "standout": "This site's design is distinctive for its audacious use of typography as a primary visual and interactive element, particularly the full-screen text masks that reveal imagery on scroll. The combination of brutalist-scale type with dynamic, fluid image reveals creates a highly memorable and engaging experience that goes beyond typical hero sections.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

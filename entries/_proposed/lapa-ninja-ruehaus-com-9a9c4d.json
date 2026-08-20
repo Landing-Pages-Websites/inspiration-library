@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-ruehaus-com-9a9c4d",
+  "source": {
+    "url": "https://www.ruehaus.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ruehaus-com-9a9c4d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ruehaus-com-9a9c4d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ruehaus-com-9a9c4d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ruehaus-com-9a9c4d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "creative-agency",
+      "luxury-branding"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark full-width sections create strong visual breaks, with some sections featuring asymmetrical two-column content arrangements."
+    },
+    {
+      "kind": "type",
+      "note": "A highly stylized, metallic-effect serif typeface is used for the prominent 'Rue Haus' logo in the hero and footer, contrasting with elegant, refined serifs for headings and body text, and clean sans-serifs for navigation and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep black, off-white, and a striking burnt orange/red accent is used consistently, creating a sophisticated and bold aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, stylized 3D text element that scales down and slightly repositions as the user scrolls, revealing more of the background image before the entire section scrolls out of view. Subsequent content sections reveal with a subtle fade-in and upward slide effect as they enter the viewport. Project showcase sections utilize full-bleed background images that remain relatively fixed or parallax slowly, creating a layered effect as project details scroll over them."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Archive' section presents projects as full-bleed image backgrounds with minimal text overlays, each acting as a distinct visual block that scrolls into view."
+    }
+  ],
+  "technique_notes": [
+    "The hero uses a large, rendered or highly stylized 3D text element overlaid on a full-bleed image, which scales and translates on scroll to create a dynamic reveal of the background before the section exits the viewport.",
+    "Scroll-triggered animations (likely using a library like GSAP ScrollTrigger) are used to reveal content sections with a subtle fade-in and upward translation as they enter the viewport, enhancing engagement.",
+    "Project showcase sections feature full-bleed background images with a fixed or slow-parallax scroll effect, where the image appears to move slower than the foreground content, creating depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#221e20",
+        "role": "background"
+      },
+      {
+        "hex": "#f3f3ef",
+        "role": "surface"
+      },
+      {
+        "hex": "#d94112",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cormorant Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, decorative serif for hero/footer logo (~5-6x body) with elegant, refined serifs for headings (~2-3x body) and smaller, legible body text, complemented by uppercase sans-serif labels.",
+    "radius": "Sharp (predominantly rectangular elements with no visible corner rounding).",
+    "spacing": "Airy (generous vertical spacing between sections and ample whitespace within content blocks, creating a sense of luxury and breathing room)."
+  },
+  "standout": "The site's distinctive use of a highly stylized, metallic 3D 'Rue Haus' text as a dominant visual motif, both in the hero and footer, immediately sets it apart. This, combined with the stark, high-contrast palette and elegant typography, creates a luxurious and editorial brand identity that feels more like a high-end magazine than a typical agency website.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

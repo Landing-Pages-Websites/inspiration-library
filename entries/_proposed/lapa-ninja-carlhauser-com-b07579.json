@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-carlhauser-com-b07579",
+  "source": {
+    "url": "https://www.carlhauser.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-carlhauser-com-b07579.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-carlhauser-com-b07579__scroll0.webp",
+      "shots/_proposed/lapa-ninja-carlhauser-com-b07579__scroll1.webp",
+      "shots/_proposed/lapa-ninja-carlhauser-com-b07579__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "illustration"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A wide, centered content block with generous horizontal padding creates a focused reading and viewing area within a larger, light background."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a single sans-serif font family (Inter) for all text, with variations in weight and size to establish hierarchy rather than different font styles."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black on a very light grey background, with a single, bright yellow accent used sparingly for emojis."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered motion observed; the content grid simply scrolls vertically without any reveal animations or sticky elements."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented as a continuous, vertically scrolling grid of individual sketch entries, each with a date and ID, creating a chronological journal-like feel."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the visual structure, use a fixed-width container centered horizontally on a light background, with ample padding.",
+    "Implement a consistent grid system for displaying content items (sketches), ensuring even spacing and clear visual separation for each entry.",
+    "The site relies on static hierarchy and layout for content presentation; there are no scroll-triggered animations or interactive motion effects to rebuild."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffc300",
+        "role": "accent"
+      },
+      {
+        "hex": "#e6e6e6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Balanced and legible; headings are moderately larger and bolder than body text, maintaining a clean, editorial feel without dramatic size differences.",
+    "radius": "Sharp corners are used universally for all elements and containers.",
+    "spacing": "Airy; generous padding and margins create significant whitespace around content blocks and between grid items, contributing to a clean and uncluttered aesthetic."
+  },
+  "standout": "The primary content being a raw, unpolished collection of hand-drawn sketches presented in a minimalist, journal-like grid. This direct, unembellished approach to showcasing a creative process is highly distinctive.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

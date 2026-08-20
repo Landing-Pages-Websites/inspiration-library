@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-liveaevi-com-882d71",
+  "source": {
+    "url": "https://liveaevi.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-liveaevi-com-882d71.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-liveaevi-com-882d71__scroll0.webp",
+      "shots/_proposed/lapa-ninja-liveaevi-com-882d71__scroll1.webp",
+      "shots/_proposed/lapa-ninja-liveaevi-com-882d71__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "skincare",
+      "beauty",
+      "cosmetics"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with a large, high-contrast logotype and overlaid sans-serif text, establishing a premium feel."
+    },
+    {
+      "kind": "layout",
+      "note": "Product carousels are presented in a grid-like fashion with subtle borders and award badges, maintaining a clean and organized display."
+    },
+    {
+      "kind": "type",
+      "note": "A clean, modern sans-serif font is used for most headings and body text, complemented by a distinct, elegant logotype for the brand name."
+    },
+    {
+      "kind": "color",
+      "note": "A soft, cool-toned palette of light blues and greys dominates the backgrounds and accents, creating a serene and sophisticated atmosphere."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling at a slower rate than the foreground content to create depth."
+    },
+    {
+      "kind": "motion",
+      "note": "The main header transforms from a transparent, larger overlay on the hero to a compact, sticky bar with a solid light blue background upon scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Editorial-style content blocks feature large, impactful imagery paired with concise text, often alternating layout for visual interest."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a parallax scrolling effect for its background image, where the image moves at a different speed than the foreground content, enhancing visual depth.",
+    "The site's main navigation employs a sticky transformation, starting as a transparent, full-width bar over the hero and shrinking into a compact, fixed header with a solid background color as the user scrolls down the page.",
+    "Content sections likely reveal with subtle fade-in or slide-up animations as they enter the viewport, suggesting the use of a scroll-triggered animation library like locomotive-scroll for a smooth, engaging experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#231f20",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#a3bfdb",
+        "role": "accent"
+      },
+      {
+        "hex": "#d5e0ea",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Matter",
+        "role": "heading"
+      },
+      {
+        "family": "Matter",
+        "role": "body"
+      },
+      {
+        "family": "Josefin Sans",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, elegant logotype for the brand name, paired with a clean sans-serif for headings (~2-3x body) and body text, with small uppercase labels.",
+    "radius": "Subtle (mostly sharp corners, with very slight rounding on product cards and buttons).",
+    "spacing": "Balanced (comfortable padding around sections and elements, not overly dense or airy)."
+  },
+  "standout": "The site's distinctive use of a prominent, elegant logotype for the brand name, combined with a soft, cool-toned color palette and subtle parallax effects, creates a luxurious and sophisticated feel. This elevates the e-commerce experience beyond a generic template, making the brand feel premium and aspirational.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

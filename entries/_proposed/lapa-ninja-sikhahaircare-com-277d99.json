@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-sikhahaircare-com-277d99",
+  "source": {
+    "url": "https://sikhahaircare.com/en/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sikhahaircare-com-277d99.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sikhahaircare-com-277d99__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sikhahaircare-com-277d99__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sikhahaircare-com-277d99__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "hair-care",
+      "cosmetics"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section employs a striking split layout, combining a solid color block with a large, vibrant photographic image, creating a high-contrast visual entry point."
+    },
+    {
+      "kind": "color",
+      "note": "A bold, high-contrast color palette is used, featuring deep indigo, vibrant purple, and lime green accents against a white background, creating a playful yet sophisticated feel."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a dual typographic approach: a clean, modern sans-serif for main headings and body text, contrasted with a distinctive, elegant serif/script font for the brand logo and key display headings like 'Receive updates and exclusive offers'."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in or slide-up effect as they enter the viewport during scroll, creating a dynamic content loading experience. The 'SCROLL DOWN' indicator rotates and disappears after initial scroll."
+    },
+    {
+      "kind": "layout",
+      "note": "Organic, fluid shapes are integrated as background elements and section dividers, such as the lime green blob in the hero and the curved top edge of the footer, softening the overall structure."
+    }
+  ],
+  "technique_notes": [
+    "The site uses scroll-triggered animations to reveal content sections. As the user scrolls, elements fade in or slide up into view, creating a sense of progression. This effect is likely managed by a library like locomotive-scroll, which synchronizes element visibility and animation with scroll depth.",
+    "The navigation bar transitions from a transparent overlay with light text in the hero section to a sticky, solid white background with dark text once the user scrolls past the hero, ensuring readability and persistent access.",
+    "The hero section is built as a full-bleed, two-column layout where one column is a solid color block containing text and CTAs, and the other is a large, impactful image. The bottom edge of the hero section features a subtle, organic curve."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#150f3d",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#a5e04a",
+        "role": "accent"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Harmonia Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Harmonia Sans",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) for impact, complemented by a distinctive, elegant serif/script for key display titles, with standard sans-serif body text.",
+    "radius": "Subtle radius on interactive elements like buttons and input fields, contrasted with organic, soft curves used in background shapes and section dividers.",
+    "spacing": "Airy in the hero section to emphasize visual elements, balanced in content sections, and denser in the footer for information hierarchy."
+  },
+  "standout": "The site's design is distinctive for its bold, high-contrast color palette combined with organic, fluid background shapes that soften the overall structure. The dual typographic approach, pairing a modern sans-serif with an elegant display font, also creates a unique brand voice that feels both contemporary and sophisticated.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

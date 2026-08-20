@@ -1,0 +1,98 @@
+{
+  "id": "lapa-ninja-evasanchez-info-071ee5",
+  "source": {
+    "url": "https://evasanchez.info/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-evasanchez-info-071ee5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-evasanchez-info-071ee5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-evasanchez-info-071ee5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-evasanchez-info-071ee5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs a full-viewport, scroll-driven section replacement, where each major content block (hero, project, contact) occupies the entire screen and transitions vertically to reveal the next."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, large outlined sans-serif typeface is used for the primary call to action in the footer, contrasting with the clean, minimal sans-serif used for all other text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-white background and dark text is consistently used, punctuated by full-bleed, dark-themed project visuals that introduce their own internal color schemes."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, entire content sections slide upwards out of view, and new full-viewport sections slide in from the bottom, creating a sequential, screen-by-screen browsing experience."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio projects are presented as full-bleed, immersive experiences that take over the entire viewport during the scroll sequence, rather than being part of a traditional grid layout."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation remains sticky at the top right of the viewport throughout the scroll, providing persistent access.",
+    "Content sections are designed to fill the entire viewport, and a scroll-driven animation system orchestrates their vertical replacement. As one section scrolls out of view, the next section slides in to occupy the full screen, creating a 'vertical carousel' effect.",
+    "The 'Get in touch' section features extremely large, outlined text, achieved by rendering a bold typeface with a transparent fill and a thick stroke, making it a prominent visual element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f6f2",
+        "role": "background"
+      },
+      {
+        "hex": "#050505",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      }
+    ],
+    "type_scale": "A mix of medium-large headings, small uppercase labels, and an extremely oversized, outlined display text for key calls to action.",
+    "radius": "sharp",
+    "spacing": "airy, with significant whitespace around hero content and between full-viewport sections."
+  },
+  "standout": "This site stands out for its extreme minimalism and the bold use of full-viewport, scroll-driven content replacement, creating an immersive, almost gallery-like experience for portfolio pieces. The oversized, outlined 'Get in touch' text serves as a memorable and distinctive design element.",
+  "animation_tech": [],
+  "status": "proposed"
+}

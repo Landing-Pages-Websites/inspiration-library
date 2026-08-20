@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-clingr-me-8590db",
+  "source": {
+    "url": "https://clingr.me/en/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-clingr-me-8590db.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-clingr-me-8590db__scroll0.webp",
+      "shots/_proposed/lapa-ninja-clingr-me-8590db__scroll1.webp",
+      "shots/_proposed/lapa-ninja-clingr-me-8590db__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "hair-care",
+      "personal-care"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a full-bleed, intimate portrait image of a person, with large, elegant typography overlaid centrally."
+    },
+    {
+      "kind": "type",
+      "note": "A large, elegant serif font is used for primary hero messaging, creating a luxurious and editorial feel, contrasted with a clean sans-serif for UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The color palette is muted and natural, drawing from the hero image's soft tones, with white text for high contrast and dark grey/blue for subtle UI elements."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a product showcase card animates into view from the center of the screen, expanding to overlay the hero text while the background image remains static."
+    },
+    {
+      "kind": "section",
+      "note": "The primary content delivery mechanism for product display is an overlay card that appears over the hero, rather than distinct scroll-triggered sections."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered overlay effect, likely using a library like locomotive-scroll, where a product card animates into view and expands over the main hero content as the user scrolls. This creates a focused reveal without transitioning to a new page section.",
+    "The hero section uses a large, high-resolution portrait image as a full-bleed background, with text placed directly on top, relying on the image's natural light areas for text legibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#D4D7DD",
+        "role": "background"
+      },
+      {
+        "hex": "#656675",
+        "role": "surface"
+      },
+      {
+        "hex": "#625B5A",
+        "role": "accent"
+      },
+      {
+        "hex": "#37384C",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif for hero headings (~4x body) with a lighter weight, complemented by a clean, legible sans-serif for smaller UI text.",
+    "radius": "Subtle rounded corners on interactive elements and content cards, maintaining a soft, refined aesthetic.",
+    "spacing": "Airy and open in the hero section, creating a sense of calm and focus, with balanced spacing for smaller UI elements like the cookie banner."
+  },
+  "standout": "The site's distinctive use of an intimate, full-bleed portrait as the hero image, combined with elegant serif typography and a subtle, scroll-triggered product overlay, creates a highly personal and luxurious brand experience that feels more editorial than transactional.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

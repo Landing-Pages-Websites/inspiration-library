@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-matthieurenaut-com-e0aedd",
+  "source": {
+    "url": "https://matthieurenaut.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-matthieurenaut-com-e0aedd.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-matthieurenaut-com-e0aedd__scroll0.webp",
+      "shots/_proposed/lapa-ninja-matthieurenaut-com-e0aedd__scroll1.webp",
+      "shots/_proposed/lapa-ninja-matthieurenaut-com-e0aedd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "portfolio",
+      "freelance"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A responsive two-column grid is used for project display, adapting to available space, with generous gutters and card padding."
+    },
+    {
+      "kind": "layout",
+      "note": "The main content area is horizontally centered with wide, consistent side margins, creating a focused presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles and tags use a smaller, uppercase, light grey sans-serif font for clear categorization without visual dominance."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochrome palette of off-white, white, and various shades of dark grey/black is used, with minimal accent colors reserved for embedded images."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact profile bubble with the user's name and avatar sticks to the top of the viewport after an initial larger profile card scrolls out of view."
+    },
+    {
+      "kind": "motion",
+      "note": "A small, informative 'availability' badge fades in and sticks to the bottom-left corner of the viewport after the initial scroll."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, the initial profile card would scroll normally, while a smaller, pre-styled profile bubble (initially hidden or off-screen) would be revealed and fixed to the top of the viewport once the scroll position passes a certain threshold.",
+    "The floating availability badge would be initially hidden and then revealed with a subtle fade-in animation, fixed to the bottom-left of the viewport, once the user scrolls past the initial hero section.",
+    "Project cards are presented in a flexible grid layout, using a consistent white background and subtle rounded corners, with content (image, text, tags) contained within."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f9f9f9",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#171717",
+        "role": "text"
+      },
+      {
+        "hex": "#404040",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#737373",
+        "role": "text-tertiary"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: System UI",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: System UI",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately larger and bolder than body text, with smaller, uppercase labels used for section titles and tags.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to cards, buttons, and the sticky profile bubble, giving a soft, modern feel.",
+    "spacing": "Balanced to airy density, with generous padding within cards and ample vertical spacing between major sections and grid items."
+  },
+  "standout": "The site's distinctive feature is its 'operating system' like cleanliness and the dynamic sticky header that transforms from a larger profile card into a compact, persistent bubble on scroll. This creates a highly personalized and functional navigation element.",
+  "animation_tech": [],
+  "status": "proposed"
+}
