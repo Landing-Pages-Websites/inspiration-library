@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-lassocommerce-com-697375",
+  "source": {
+    "url": "https://lassocommerce.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-lassocommerce-com-697375.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-lassocommerce-com-697375__scroll0.webp",
+      "shots/_proposed/lapa-ninja-lassocommerce-com-697375__scroll1.webp",
+      "shots/_proposed/lapa-ninja-lassocommerce-com-697375__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "e-commerce",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use an asymmetrical two-column layout, balancing text with product mockups or illustrations, often with one column being wider than the other."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings (Inter Display) are paired with a clean, legible sans-serif body text (Inter), creating a strong visual hierarchy. Small, uppercase labels are used for sub-categories and feature titles."
+    },
+    {
+      "kind": "color",
+      "note": "A primary cool blue (#2878eb) is used for calls to action and key branding, contrasted with a clean white/light grey background, and accented by vibrant primary colors (red, green, yellow) for data points and payment method logos."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new content sections and individual elements within them (like cards and illustrations) animate into view with a subtle fade-in and slide-up effect. The large 'lasso' wordmark in the footer also exhibits a gentle parallax effect against its background image."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are often presented as distinct, rounded-corner cards with subtle shadows, making them visually pop and segmenting information clearly."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar remains fixed at the top of the viewport, ensuring constant access to primary links as the user scrolls down the page.",
+    "Content sections and individual UI elements are revealed with a staggered fade-in and slide-up animation as they enter the viewport, creating a dynamic and engaging scroll experience. This effect is likely driven by JavaScript observing scroll position and applying CSS keyframes.",
+    "A large, semi-transparent brand wordmark is layered behind the footer content and moves at a slightly slower rate than the foreground elements during scroll, creating a subtle parallax depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000f23",
+        "role": "heading"
+      },
+      {
+        "hex": "#2878eb",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F9FA",
+        "role": "surface"
+      },
+      {
+        "hex": "#5f6368",
+        "role": "text"
+      },
+      {
+        "hex": "#34a853",
+        "role": "accent"
+      },
+      {
+        "hex": "#fabb05",
+        "role": "accent"
+      },
+      {
+        "hex": "#e94235",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold display headings (~3-4x body text) with a clean, legible sans-serif body. Small, uppercase labels provide clear categorization.",
+    "radius": "Rounded (consistent subtle rounding on buttons, cards, input fields, and images).",
+    "spacing": "Balanced to airy; generous vertical spacing between sections and within content blocks, creating a clean and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of a dynamic, almost 'live' product demonstration within the hero section, showing real-time transactions and product cards, immediately communicates its purpose and capability. This, combined with the subtle but effective scroll-triggered animations and the integration of vibrant accent colors against a clean blue/white palette, makes the complex topic of payment orchestration feel approachable and modern.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

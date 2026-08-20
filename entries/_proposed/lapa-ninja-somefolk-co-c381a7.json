@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-somefolk-co-c381a7",
+  "source": {
+    "url": "https://www.somefolk.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-somefolk-co-c381a7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-somefolk-co-c381a7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-somefolk-co-c381a7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-somefolk-co-c381a7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "digital-agency",
+      "creative-services"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, full-bleed sections with large, overlapping typographic elements and imagery, often breaking traditional grid structures for a dynamic feel."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of extremely oversized, bold sans-serif typography for section headings and hero text, creating a strong visual impact that often serves as a primary design element."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color scheme alternating between deep dark backgrounds and light text, punctuated by vibrant gradient sections that provide energetic visual breaks."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large typographic element ('SF'26') that scrolls at a slower rate than the background, creating a parallax effect before it scrolls completely out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Distinctive full-width sections that dramatically shift background color and content style, creating clear visual breaks and a dynamic, almost page-turn-like scrolling experience."
+    }
+  ],
+  "technique_notes": [
+    "Sections transition with abrupt background color changes and large typographic reveals, often using a full-bleed layout. Content within sections frequently uses an asymmetrical arrangement of text and imagery, sometimes with elements partially off-screen or overlapping.",
+    "Scroll-triggered animations, likely using GSAP, reveal large typographic elements and images as they enter the viewport, often with a subtle fade-in or slide-up. The hero text employs a parallax scroll effect where it moves slower than the background, enhancing depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A0A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF5722",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif headings (~8x body) with smaller, legible sans-serif body text and uppercase labels, creating a strong visual hierarchy.",
+    "radius": "Sharp corners throughout, no visible rounded elements.",
+    "spacing": "Very airy in hero and large typographic sections, balanced in content grids, creating a dynamic and impactful rhythm."
+  },
+  "standout": "The site's design is distinctive for its audacious use of extremely oversized, bold typography that acts as a primary visual element, often overlapping or dominating sections. This, combined with high-contrast color shifts and dynamic, asymmetrical layouts, creates a powerful and memorable visual identity that feels more like an interactive art piece than a traditional marketing site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

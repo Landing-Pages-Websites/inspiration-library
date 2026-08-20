@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-chrls-design-811668",
+  "source": {
+    "url": "https://chrls.design/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-chrls-design-811668.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-chrls-design-811668__scroll0.webp",
+      "shots/_proposed/lapa-ninja-chrls-design-811668__scroll1.webp",
+      "shots/_proposed/lapa-ninja-chrls-design-811668__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-development",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The site utilizes full-screen scroll-triggered transitions where entire sections dramatically replace the previous view, often with a complete change in background color and content hierarchy, rather than simply sliding content."
+    },
+    {
+      "kind": "layout",
+      "note": "Extreme typographic hierarchy is used, with massive, bold sans-serif headings dominating the visual space, starkly contrasted with very small, dense body text blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, light grey, and a vibrant orange is consistently applied, with orange serving as a primary accent for key information and interactive elements."
+    },
+    {
+      "kind": "type",
+      "note": "A condensed, uppercase sans-serif is used for all display text and headings, while detailed information is presented in a monospaced or similar small font, creating a strong visual tension."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-bleed background color changes (black, light grey) and a complete re-arrangement of content, making each scroll depth feel like a distinct page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-driven animation system (likely using locomotive-scroll and webgl-three) to orchestrate full-screen content transitions. As the user scrolls, entire sections are replaced with new visual compositions, often involving background color changes and dramatic scaling or repositioning of key elements like the main logo.",
+    "Typographic elements are used as primary design components, with oversized, bold headings serving as visual anchors, while detailed information is presented in very small, often monospaced text blocks, creating a strong visual hierarchy and a sense of discovery.",
+    "Interactive elements and key information are highlighted using a vibrant orange accent color, often presented as solid background bars or boxes, providing clear calls to action or emphasis against the high-contrast black and white/grey backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF7A00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed headings (easily 5-10x body text) are paired with very small, dense body text, creating a high-impact, high-contrast typographic system.",
+    "radius": "sharp",
+    "spacing": "Very airy around hero elements and headings, but dense within information blocks, creating a dynamic rhythm."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, full-screen scroll-triggered transitions that completely re-contextualize the content and typography with each scroll depth. The main logo dynamically transforms into a hero element, and the extreme contrast between massive headings and tiny, dense body text creates a unique visual tension that feels both minimal and bold.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

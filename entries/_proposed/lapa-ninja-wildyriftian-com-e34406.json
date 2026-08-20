@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-wildyriftian-com-e34406",
+  "source": {
+    "url": "https://www.wildyriftian.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-wildyriftian-com-e34406.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-wildyriftian-com-e34406__scroll0.webp",
+      "shots/_proposed/lapa-ninja-wildyriftian-com-e34406__scroll1.webp",
+      "shots/_proposed/lapa-ninja-wildyriftian-com-e34406__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio",
+      "3d-design",
+      "motion-graphics"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts for project showcases, with large, often full-bleed, visuals dominating one side and concise text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Distinctive use of a wide, uppercase serif font for primary branding and section titles, contrasted with clean, smaller sans-serif for body text and even smaller uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette (black/dark grey backgrounds, light text) punctuated by vibrant, project-specific accent colors that are contained within the visual elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-stage scroll-triggered sequence where the initial 3D hero element scrolls out to reveal content sections, and then a transformed, monochrome version of the hero element scrolls into view as a concluding brand mark, accompanied by a change in navigation and footer content."
+    },
+    {
+      "kind": "section",
+      "note": "Each project section is visually distinct in its content and accent colors but follows a consistent structural pattern of a title/description block paired with a large, engaging visual."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation system (likely css-keyframes, as hinted) to orchestrate a complex sequence: the initial 3D hero scrolls out, content sections fade/slide in sequentially, and then a final brand mark (a transformed, monochrome version of the hero) slides in with a new set of navigation links and footer content.",
+    "Employs high-fidelity 3D rendered objects as central visual elements, particularly for the hero and concluding brand mark, giving a tactile and premium feel.",
+    "Utilizes a sticky element on the side that appears after initial scroll, providing a persistent brand or status indicator."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#2b2b2b",
+        "role": "surface"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "text"
+      },
+      {
+        "hex": "#ffe430",
+        "role": "accent"
+      },
+      {
+        "hex": "#0099ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Lock Serif Light",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, wide, uppercase display serif (~4-5x body) for branding and section titles, paired with a clean, legible sans-serif for body text and very small, often uppercase, mono-spaced labels.",
+    "radius": "Sharp corners dominate, with some subtle rounding on interactive elements or 3D objects.",
+    "spacing": "Generally airy and spacious, particularly in hero and between major content blocks, creating a sense of premium presentation; content within project sections can be more compact."
+  },
+  "standout": "The site's distinctive use of a transforming 3D hero element that acts as both an initial brand statement and a concluding, simplified brand mark, creating a memorable and interactive scroll experience that ties the beginning and end of the page together.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

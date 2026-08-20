@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-prototypestudio-fr-cb15f2",
+  "source": {
+    "url": "https://www.prototypestudio.fr/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-prototypestudio-fr-cb15f2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-prototypestudio-fr-cb15f2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-prototypestudio-fr-cb15f2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-prototypestudio-fr-cb15f2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "marketing",
+      "design"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout for content sections, featuring a very large, animating title on the left and supporting details or lists on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of extremely large, condensed, uppercase sans-serif typography for section titles, creating a strong visual impact and acting as primary navigation cues."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of white backgrounds and dark grey/black text, with minimal, strategic use of a vibrant orange as an accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen hero video that reveals on initial scroll, followed by sequential, full-width section titles that animate in from the left as the user scrolls, replacing the previous section."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block (Services, Works, Let's Craft) is introduced by a full-screen, dynamically animated typographic title, acting as a visual divider and focal point."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed video that is initially obscured by a dark overlay and large text, then reveals the video content as the user scrolls down, creating a dynamic introduction.",
+    "Scroll-triggered animations are used to sequentially reveal large, full-width section titles (e.g., \"SERVICES\", \"WORKS\") that slide or fade in from the left, replacing the previous title, creating a strong sense of progression through the content.",
+    "The main navigation and a cookie banner remain sticky at the top and bottom left respectively, maintaining persistent access and information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#ff6600",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed uppercase headings (~8-10x body text) with generous letter-spacing, contrasted with smaller, more widely spaced body and label text.",
+    "radius": "sharp",
+    "spacing": "Very airy and open, particularly in the hero and between major sections, creating a sense of spaciousness and allowing typography to breathe."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, full-screen, scroll-triggered typographic animations that introduce each major content section. This bold and dynamic approach to content presentation, combined with a minimalist aesthetic, creates a highly engaging and memorable user experience that feels more like an interactive art piece than a typical marketing site.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

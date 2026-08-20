@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-flambette-com-3ea99d",
+  "source": {
+    "url": "https://flambette.com/en?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-20"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-flambette-com-3ea99d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-flambette-com-3ea99d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-flambette-com-3ea99d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-flambette-com-3ea99d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "e-commerce",
+      "home-goods",
+      "beauty"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Frequent use of asymmetrical two-column layouts, often pairing a large image or graphic with a concise text block and CTA, creating a dynamic and editorial page flow."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic hierarchy featuring a distinctive, elegant serif font for primary headings and brand elements, contrasted with a clean, legible sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A very clean, almost monochromatic base of white/off-white is consistently paired with a vibrant, specific shade of blue for accents, links, and call-to-action buttons, creating a fresh and intentional limited palette."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in and slide-up effect as they enter the viewport, often with elements within the section appearing in a staggered sequence. The hero section features a gentle parallax scroll effect where the background image moves slower than foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Prominent use of large, evocative lifestyle imagery alongside concise, poetic text blocks to tell a brand story, interspersed with clean product display grids."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling library (like locomotive-scroll) to enhance the user experience, combined with scroll-triggered animations.",
+    "Content sections are revealed with a subtle fade-in and slide-up effect as they enter the viewport, often with elements within the section appearing in a staggered sequence, likely using CSS keyframes triggered by scroll position.",
+    "The hero section utilizes a background image that scrolls at a slower rate than the foreground content, creating a gentle parallax depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      },
+      {
+        "hex": "#0052f1",
+        "role": "accent"
+      },
+      {
+        "hex": "#427479",
+        "role": "text"
+      },
+      {
+        "hex": "#8ec6ad",
+        "role": "surface"
+      },
+      {
+        "hex": "#d87936",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant display serifs for primary headings (~3-4x body size) with generous line height, complemented by clean, smaller sans-serifs for body text and uppercase labels.",
+    "radius": "Subtle rounded corners on buttons and some image containers, creating a soft, approachable feel.",
+    "spacing": "Very airy and open, with significant whitespace around content blocks and between sections, contributing to a minimal and luxurious aesthetic."
+  },
+  "standout": "The site's distinctive use of elegant, large-scale serif typography for headings, combined with an abundance of clean whitespace and asymmetrical layouts, creates an editorial and sophisticated brand presence. The subtle parallax and scroll-triggered reveals enhance this premium feel without being overly distracting.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}
