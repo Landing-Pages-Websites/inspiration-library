@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1059",
+  "source": {
+    "url": "https://leseditionsbonsound.com/en?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1059.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1059__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1059__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1059__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "publishing",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical and layered content blocks are used for image grids (artists) and card displays (playlists), creating a dynamic and non-linear visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant, oversized, bold sans-serif typography is used for the hero title and section headings, establishing a strong visual hierarchy and impactful brand presence."
+    },
+    {
+      "kind": "color",
+      "note": "A monochromatic base of black, white, and light grey is consistently punctuated by vibrant, almost neon-like accent colors for specific content elements like playlist cards, creating visual interest against a clean backdrop."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero title 'LES \u00c9DITIONS BONSOUND' initially covers the page, then as content scrolls up, its background changes from white to a light grey, creating a parallax-like effect before the title itself scrolls out of view. The main navigation then becomes sticky with a solid background."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Placements' section features a continuous horizontal text marquee, creating a dynamic and engaging visual rhythm that suggests ongoing activity."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a large, fixed-position text element that appears to 'cut out' the background, allowing page content to scroll underneath it. As the content scrolls, the background behind the fixed text transitions from transparent to a solid light grey, before the text eventually scrolls off-screen.",
+    "Content sections are revealed with a subtle fade-in or slide-up animation as they enter the viewport, enhancing engagement and guiding the user's eye down the page.",
+    "The main navigation bar transitions from a transparent, overlaid state to a sticky header with a solid background after a specific scroll threshold, ensuring persistent access to navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#212121",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#90AEFC",
+        "role": "accent"
+      },
+      {
+        "hex": "#F4AB4D",
+        "role": "accent"
+      },
+      {
+        "hex": "#90FC9B",
+        "role": "accent"
+      },
+      {
+        "hex": "#F44D4D",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, wide sans-serif headings (hero title is massive, ~10x body text) with smaller, regular-weight sans-serif body text.",
+    "radius": "Sharp corners throughout, with minimal rounding only on the largest CTA button.",
+    "spacing": "Airy hero section transitions to balanced spacing in content sections, with intentional overlapping of elements like playlist cards."
+  },
+  "standout": "The site's distinctive use of oversized, bold typography as a primary design element, combined with a monochromatic base and unexpected bursts of vibrant, almost neon accent colors, creates a unique blend of minimalist sophistication and playful energy. The hero section's 'cut-out' text effect with a background color change on scroll is particularly memorable.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

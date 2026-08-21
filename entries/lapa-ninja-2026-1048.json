@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-1048",
+  "source": {
+    "url": "https://www.bylinebyline.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1048.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1048__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1048__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1048__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "media",
+      "publishing",
+      "editorial"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A rigid, visible grid system defined by thin black lines creates clear content boundaries and a structured, almost blueprint-like aesthetic across the page."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established between a large, elegant serif font used for main titles and a clean, legible sans-serif for navigation, body text, and article metadata."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a predominantly monochromatic palette of light grey backgrounds and black text and lines, allowing vibrant imagery within content to stand out as primary visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "A dual-level navigation system (main and secondary nav bars) transitions from static to sticky at the top of the viewport as the user scrolls past the initial hero content."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width horizontal bands, with the hero occupying a split-column layout and subsequent content appearing in a multi-column article list format."
+    }
+  ],
+  "technique_notes": [
+    "The layout employs a fixed grid structure with visible thin borders to delineate content areas, providing a strong visual framework that guides the eye.",
+    "Navigation elements transition to a sticky state, fixing them to the top of the viewport after the initial hero content has scrolled past, ensuring persistent access to site navigation.",
+    "The site employs CSS keyframes for subtle interactive elements or internal component animations, while primary scroll behavior focuses on a sticky navigation and direct content reveal as sections enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#dedede",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#070707",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#0005ff",
+        "role": "accent-hint"
+      },
+      {
+        "hex": "#b4d1b5",
+        "role": "accent-hint"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Script MT Bold",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, elegant serif hero title (~4x body) with smaller, structured sans-serif article titles and fine-print sans-serif labels.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero section, transitioning to a balanced density for the article list, with generous line height and padding within article cards."
+  },
+  "standout": "The site's distinctive use of a visible, rigid grid system with thin black lines creates a unique, almost architectural or blueprint-like aesthetic. This strong structural framework, combined with a sophisticated serif typography for headlines and a custom script logo, elevates the content beyond a typical editorial layout, giving it a refined, almost archival quality.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

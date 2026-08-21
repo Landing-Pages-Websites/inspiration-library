@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-1051",
+  "source": {
+    "url": "https://daphnethelabel.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1051.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1051__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1051__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1051__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Product grids feature items with clean, minimal backgrounds, often in a two-column layout that expands to three or more on wider screens, allowing the product photography to be the primary focus."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated display serif font is used for prominent brand elements and hero headlines, contrasting with a clean, legible sans-serif for body text and navigation, creating an elegant yet modern typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The palette relies on muted, natural tones like deep browns, navies, and off-whites, punctuated by a soft, light blue for the footer, maintaining a refined and understated aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax and zoom effect on the background image as the user scrolls, while the main headline text remains relatively fixed before scrolling out of view. The navigation bar transitions from transparent to a solid white background and becomes sticky after an initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Lifestyle imagery sections are full-bleed and serve as visual breaks between product grids, showcasing the apparel in context and adding an editorial feel to the browsing experience."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-driven parallax and subtle zoom on its background image, creating depth as the user scrolls down the page. Text elements within the hero maintain their position or fade out with scroll progress. The primary navigation bar transitions its background color and becomes fixed to the top of the viewport after a short scroll distance. Content sections below the hero likely reveal themselves with a staggered fade-up or slide-in animation as they enter the viewport, orchestrated by a scroll-triggering library like locomotive-scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#604030",
+        "role": "hero-background-brown"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#2c2e58",
+        "role": "dark-accent-navy"
+      },
+      {
+        "hex": "#e0f0ff",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#626772",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: PP Pangaia",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: SuisseIntlTTF",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, oversized display serif headings (~3-4x body) with generous letter-spacing, paired with a clean, well-spaced sans-serif for body text and navigation.",
+    "radius": "Sharp corners are consistently used across all elements, from product images to buttons, reinforcing a clean and modern aesthetic.",
+    "spacing": "Balanced and airy, particularly in the hero and full-bleed lifestyle sections, transitioning to a more structured but still generous spacing within product grids."
+  },
+  "standout": "The site's standout quality is its sophisticated blend of high-fashion editorial photography with a clean, minimalist e-commerce presentation. The subtle scroll-triggered motion and elegant typography elevate the browsing experience beyond a typical product catalog, making the apparel feel luxurious and aspirational.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

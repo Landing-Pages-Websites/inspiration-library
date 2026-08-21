@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-1065",
+  "source": {
+    "url": "http://www.roju.jp/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1065.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1065__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1065__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1065__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "lifestyle",
+      "real-estate",
+      "hospitality"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent vertical text element is fixed to the left edge of the viewport, displaying the brand tagline, while a 'TRACK' indicator is fixed to the right edge."
+    },
+    {
+      "kind": "type",
+      "note": "Large, elegant serif typography is used for all main section headings and the hero statement, creating a strong visual hierarchy against smaller, legible sans-serif body text."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark background (#15161a) is used across the entire site, providing a sophisticated backdrop for light text and subtle gold/bronze accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section scrolls up to reveal the content below, while the background image/video within the hero appears to parallax slightly, moving slower than the foreground text."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (e.g., 'ABOUT', 'SERVICES') reveal themselves with a subtle fade-in and slight upward slide as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "layout",
+      "note": "The main navigation (logo and menu icon) remains sticky at the top of the viewport, maintaining constant access."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a video or large image background that scrolls at a different rate than the overlaying text, creating a parallax effect. This is likely managed by locomotive-scroll for smooth scrolling and GSAP for the parallax calculations.",
+    "Sections are revealed using scroll-triggered animations, where elements fade in and translate slightly upwards as they become visible in the viewport, orchestrated by GSAP ScrollTrigger.",
+    "A sticky header and persistent vertical text elements on the page edges are implemented, ensuring they remain fixed in position regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#15161a",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#73674c",
+        "role": "accent"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#2A2B2F",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "poynter-oldstyle-display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Noto Sans JP",
+        "role": "body"
+      },
+      {
+        "family": "source-han-serif-japanese",
+        "role": "body-japanese"
+      }
+    ],
+    "type_scale": "Oversized, elegant display serifs for headings (~4-5x body) with generous letter-spacing, contrasted by smaller, highly legible sans-serif for body text and labels.",
+    "radius": "Sharp corners are consistently used across all elements, including images, buttons, and content blocks.",
+    "spacing": "Airy and spacious, particularly in the hero and between major content sections, creating a sense of luxury and allowing elements to breathe. Content grids within sections are more balanced."
+  },
+  "standout": "The site's distinctive use of a deep, dark aesthetic combined with oversized, elegant serif typography and subtle, controlled scroll-triggered motion creates a highly luxurious and editorial brand experience. The persistent vertical text elements on the page edges also add a unique, sophisticated touch.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

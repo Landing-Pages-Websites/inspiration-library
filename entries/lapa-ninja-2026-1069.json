@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1069",
+  "source": {
+    "url": "https://www.sonarmusic.com.au/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1069.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1069__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1069__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1069__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "film-production",
+      "music-production",
+      "advertising"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image/video with overlaid text, transitioning into a grid-based layout for project showcases, and large, staggered typographic elements that span the width of the page."
+    },
+    {
+      "kind": "type",
+      "note": "Aggressive use of oversized, condensed sans-serif typography for section titles and numbers, creating a bold, almost architectural feel, contrasted with a distinctive blackletter script for specific branding elements."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast color palette primarily using a dark blue-grey and a light beige/off-white, with minimal use of other colors, allowing project imagery to provide visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image/video scales and parallaxes upwards on scroll, revealing a large, layered text headline. Subsequent content sections and large typographic elements (like 'WORK' and section numbers) reveal with staggered fade-in and slide-up animations as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, numbered sections (01, 02, 03) corresponding to service categories (Film, Advertising, Television), each introduced by a large, animated number and category title."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a video or large image that scales down and translates upwards, creating a parallax effect, while overlaid text elements animate to reveal the main headline. This likely leverages GSAP for precise timing and easing.",
+    "Large, multi-part text elements (like 'WORK' and the section numbers) are revealed with a staggered animation, where individual letters or digits slide or fade into place sequentially as the user scrolls, creating a dynamic typographic reveal. This effect is often achieved with GSAP's ScrollTrigger.",
+    "Content blocks and project thumbnails within sections appear with a fade-in and slight upward translation as they scroll into view, enhancing the sense of discovery and visual flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a2e3b",
+        "role": "dark-text-and-elements"
+      },
+      {
+        "hex": "#efefeb",
+        "role": "background"
+      },
+      {
+        "hex": "#181618",
+        "role": "near-black-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Akzidenz-Grotesk Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Old English Text MT",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed sans-serif headings and numbers create a powerful, editorial impact, contrasting with smaller, legible body text and a distinctive blackletter display font for specific branding.",
+    "radius": "sharp",
+    "spacing": "airy, especially in the hero and between major sections, with large negative space around key typographic elements and content blocks."
+  },
+  "standout": "The aggressive, editorial use of oversized, condensed typography that interacts dynamically with scroll, combined with a stark, high-contrast color palette and a distinctive blackletter font, creates a powerful and memorable brand identity that feels both gritty and sophisticated.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}
