@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-orbitaudiovisuals-com-3d8f6f",
+  "source": {
+    "url": "https://www.orbitaudiovisuals.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-orbitaudiovisuals-com-3d8f6f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-orbitaudiovisuals-com-3d8f6f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-orbitaudiovisuals-com-3d8f6f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-orbitaudiovisuals-com-3d8f6f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "events",
+      "audio-visual",
+      "production"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-contrast color blocks define distinct content sections, creating a bold visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic scale contrast, featuring massive, condensed sans-serif display headings against smaller, lighter body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, high-saturation primary color palette (red, purple, green) is used in large, flat blocks, often paired with stark black or white text for maximum contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large 'ORBIT' text element that dramatically scales up and parallaxes as the user scrolls, eventually filling the viewport before scrolling out."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar sticks to the top of the viewport and transitions from a transparent background to a solid black background upon scrolling."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the dynamic hero typography, a scroll-triggered animation library would be used to scale and position the large text element in response to scroll depth, creating a parallax and 'fill screen' effect. The circular graphic also uses a similar scroll-triggered transformation.",
+    "The sticky navigation bar is implemented by fixing its position to the top of the viewport and using a JavaScript listener to add a class that changes its background color and potentially other styles (like button visibility) once a certain scroll threshold is met.",
+    "Section breaks are visually emphasized by using full-width, full-height color blocks with distinct, high-contrast background colors, creating clear visual separation without relying on borders or shadows."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#6A00FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue Light",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, condensed display headings (~8-10x body) with smaller, lighter sans-serif body text and uppercase labels.",
+    "radius": "sharp for most elements and section corners, with subtle rounding on interactive buttons.",
+    "spacing": "airy in the hero and between major color-blocked sections, with balanced density for content within those sections."
+  },
+  "standout": "The site's design is distinctive for its audacious use of massive, animating typography in the hero section, combined with a high-contrast, full-bleed color blocking strategy that creates a powerful, almost brutalist visual impact. The dynamic scaling of the 'ORBIT' text is a memorable and unique interaction.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

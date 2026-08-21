@@ -1,0 +1,99 @@
+{
+  "id": "lapa-ninja-jordanrosenberg-com-d06b79",
+  "source": {
+    "url": "https://jordanrosenberg.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-jordanrosenberg-com-d06b79.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-jordanrosenberg-com-d06b79__scroll0.webp",
+      "shots/_proposed/lapa-ninja-jordanrosenberg-com-d06b79__scroll1.webp",
+      "shots/_proposed/lapa-ninja-jordanrosenberg-com-d06b79__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, non-uniform grid of project cards creates a dynamic, collage-like portfolio display, allowing for varied aspect ratios and sizes without strict alignment."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of modern, clean sans-serif variable fonts (Diatype family) across all text elements, maintaining a professional and editorial tone with subtle hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, light grey background provides a neutral canvas, allowing the vibrant and diverse color palettes within individual project visuals to stand out as primary accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar remains sticky, providing persistent access to core links, while an initial interactive instruction overlay disappears after the first scroll, hinting at deeper content manipulation."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured as a continuous, long-scrolling portfolio grid, where individual projects serve as implicit sections without explicit dividers or background changes between them."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position header element provides persistent branding and navigation at the top of the viewport. The main content area, a flexible grid of project cards, scrolls vertically underneath this header. An initial overlay with interactive instructions is present on page load and is designed to disappear or fade out after the user initiates scrolling, suggesting an underlying interactive grid system (e.g., drag-and-drop, zoom) likely implemented with JavaScript and CSS transforms/transitions, potentially leveraging css-keyframes for subtle animation feedback."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#c9c9c9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Diatype Variable",
+        "role": "heading"
+      },
+      {
+        "family": "Diatype Variable",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Understated header text; project titles are moderately larger than body text, maintaining a clean, editorial hierarchy with consistent sans-serif fonts.",
+    "radius": "sharp",
+    "spacing": "balanced to dense, with a tightly packed project grid that maximizes content visibility."
+  },
+  "standout": "This site stands out with its interactive portfolio grid, hinted at by the 'Click to zoom in, or drag to rearrange' instruction. This suggests a highly customizable and engaging way for users to explore the work, moving beyond a static display. The dense, non-uniform collage layout also gives it a distinctive, curated feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

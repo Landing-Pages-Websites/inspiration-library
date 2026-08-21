@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-seabassvinyl-com-035399",
+  "source": {
+    "url": "https://seabassvinyl.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-seabassvinyl-com-035399.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-seabassvinyl-com-035399__scroll0.webp",
+      "shots/_proposed/lapa-ninja-seabassvinyl-com-035399__scroll1.webp",
+      "shots/_proposed/lapa-ninja-seabassvinyl-com-035399__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "audio-production",
+      "manufacturing"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background colors are used to visually segment content, creating strong visual breaks between topics."
+    },
+    {
+      "kind": "type",
+      "note": "Display headings use an extremely heavy, condensed sans-serif typeface set at very large sizes, creating a bold and impactful visual statement."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette dominated by a vibrant yellow and black is used throughout the site, creating a distinctive and modern aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, bold text element that parallax-scrolls upwards and out of view at a faster rate than the background, creating a dynamic reveal of the content below."
+    },
+    {
+      "kind": "section",
+      "note": "Service offerings are presented in an asymmetrical card grid, with two cards aligned on the left and one on the right, each featuring a unique background color."
+    }
+  ],
+  "technique_notes": [
+    "Sections slide into view from the bottom of the viewport as the user scrolls down, creating a staggered content reveal.",
+    "The main hero text element is animated to scroll at a different speed than its background, creating a depth effect as it moves out of view. This could be implemented using scroll-linked transforms, potentially leveraging the detected Lottie for more complex motion.",
+    "Each major content section utilizes a distinct, full-width background color to clearly delineate content areas and contribute to the site's bold visual identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#151515",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#E3D6C9",
+        "role": "background"
+      },
+      {
+        "hex": "#D3D3D3",
+        "role": "background"
+      },
+      {
+        "hex": "#1E4857",
+        "role": "surface"
+      },
+      {
+        "hex": "#007CBA",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, heavy, and condensed display headings (~5-8x body text) create a dominant visual hierarchy, contrasted with a clean, legible sans-serif for body copy.",
+    "radius": "Sharp corners are consistently applied to all elements, including buttons, cards, and input fields.",
+    "spacing": "Balanced to airy, with generous vertical spacing between full-bleed sections and within the hero and footer, while content grids maintain a more balanced density."
+  },
+  "standout": "The site's design is distinctive for its audacious use of extremely bold, condensed display typography as a primary visual element, combined with a high-contrast, limited color palette dominated by a vibrant yellow. This creates an almost brutalist yet refined aesthetic that feels both industrial and modern.",
+  "animation_tech": [
+    "lottie"
+  ],
+  "status": "proposed"
+}

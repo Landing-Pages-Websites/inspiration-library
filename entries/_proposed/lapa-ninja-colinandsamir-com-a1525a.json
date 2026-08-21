@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-colinandsamir-com-a1525a",
+  "source": {
+    "url": "https://www.colinandsamir.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-colinandsamir-com-a1525a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-colinandsamir-com-a1525a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-colinandsamir-com-a1525a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-colinandsamir-com-a1525a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "media",
+      "creator-economy",
+      "education"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width dark gray and bright yellow background sections create distinct visual breaks and energy throughout the page."
+    },
+    {
+      "kind": "type",
+      "note": "A single, heavy sans-serif font family is used across all text, with significant variations in weight and size to establish a clear hierarchy from massive headings to legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast primary palette of dark gray, bright yellow, and white is consistently applied, with vibrant social media brand colors used as secondary accents for icons and links."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "A massive, fixed background text element ('Colin & Samir') is revealed at the very bottom of the page as the user scrolls, acting as a dramatic visual anchor and brand statement."
+    },
+    {
+      "kind": "section",
+      "note": "Content offerings are presented in distinct, visually separated card-like blocks, each with a clear title, descriptive text, and a prominent 'Learn More' call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed with a subtle fade-up or slide-in animation as they scroll into view, likely orchestrated using GSAP ScrollTrigger to coordinate entry animations.",
+    "A large, fixed background text element is positioned at the bottom of the page, revealing itself dramatically as the user scrolls down, creating a strong brand statement and visual anchor.",
+    "The layout alternates between full-width dark gray and bright yellow background sections to create clear visual separation and energy, with content typically centered within a contained width."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d1f",
+        "role": "background"
+      },
+      {
+        "hex": "#f6e921",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#5865f2",
+        "role": "accent-social-discord"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent-social-youtube"
+      },
+      {
+        "hex": "#ee2a7b",
+        "role": "accent-social-tiktok"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, heavy sans-serif headings (up to ~6x body text) with smaller, legible body text and uppercase labels for CTAs.",
+    "radius": "Subtle rounded corners on buttons and card-like elements (e.g., 8-12px).",
+    "spacing": "Balanced to airy, with generous vertical spacing between main sections and within the hero, but tighter spacing for content cards."
+  },
+  "standout": "The most distinctive element is the massive, fixed 'Colin & Samir' text that dramatically reveals itself at the bottom of the page as a user scrolls, creating a powerful, memorable brand statement. This, combined with the bold yellow and dark gray color scheme, gives the site a unique, energetic personality.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}
