@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-theoct-xyz-28a6fd",
+  "source": {
+    "url": "https://theoct.xyz/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-theoct-xyz-28a6fd.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-theoct-xyz-28a6fd__scroll0.webp",
+      "shots/_proposed/lapa-ninja-theoct-xyz-28a6fd__scroll1.webp",
+      "shots/_proposed/lapa-ninja-theoct-xyz-28a6fd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "web3",
+      "blockchain"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are often contained within large, full-width rounded-corner rectangular cards, creating distinct visual blocks against a dark background."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use an extremely large, bold, uppercase sans-serif font, creating a strong, almost brutalist typographic hierarchy that contrasts with smaller, clean body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features a deep dark background, light grey text, and vibrant neon purple and yellow for accents and interactive elements, creating a futuristic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large central graphic that remains fixed or parallaxes subtly as the page content scrolls over it, creating depth. Subsequent content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The site consistently uses full-width, rounded-corner containers for major content blocks, including the hero, feature cards, and footer, giving a distinct 'card-like' structure to the entire page."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header navigation is implemented, remaining at the top of the viewport as the user scrolls down the page.",
+    "The hero section employs a fixed background image or a subtle parallax effect, where the central visual element moves at a slower rate than the foreground content, creating a sense of depth.",
+    "Scroll-triggered CSS keyframe animations are used to reveal content sections. Elements appear to fade in and subtly slide upwards as they enter the user's viewport, enhancing engagement and guiding attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0f14",
+        "role": "background"
+      },
+      {
+        "hex": "#ced0d6",
+        "role": "surface-text"
+      },
+      {
+        "hex": "#5e20e4",
+        "role": "accent-cta-purple"
+      },
+      {
+        "hex": "#b9ff00",
+        "role": "accent-cta-neon-yellow"
+      },
+      {
+        "hex": "#cdcdc8",
+        "role": "secondary-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "HelveticaNeueCommitMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase display headings (~4-5x body) paired with a clean, legible sans-serif for body text and a distinct monospaced font for labels.",
+    "radius": "Very rounded, almost pill-like corners are a dominant feature, applied consistently to large content containers, buttons, and interactive elements.",
+    "spacing": "Airy, with significant vertical spacing between major content blocks and within the hero, creating a sense of spaciousness and clear separation."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist typography combined with a futuristic, dark aesthetic and vibrant neon accents. The consistent use of large, full-width rounded-corner containers for all major content blocks gives the entire page a unique, card-like, and almost 'game UI' feel, setting it apart from typical marketing sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

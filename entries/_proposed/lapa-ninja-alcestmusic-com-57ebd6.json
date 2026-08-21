@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-alcestmusic-com-57ebd6",
+  "source": {
+    "url": "https://alcestmusic.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-alcestmusic-com-57ebd6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-alcestmusic-com-57ebd6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-alcestmusic-com-57ebd6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-alcestmusic-com-57ebd6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "band",
+      "entertainment"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed imagery and video are used as dominant section backgrounds, often with text overlaid directly on them or within a contrasting content block."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant, large-scale serif font for display headings and a clean, functional sans-serif for body text and navigation creates a distinct editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a muted, earthy color palette dominated by browns, dark greens, and off-whites, lending a natural and somewhat somber aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent header with the site logo and navigation links remains sticky at the top of the viewport as the user scrolls, providing constant access to key sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport, often accompanied by a full-width background color or texture change."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background changes, alternating between solid colors, textured patterns, and full-bleed imagery or video."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky header, position the header element fixed to the top of the viewport, ensuring it has a high z-index to overlay scrolling content.",
+    "The video hero is implemented as a full-width, auto-playing, muted background video that scales to cover its container, with text content positioned on top.",
+    "Section reveals can be achieved by applying a CSS transition to opacity and transform properties (e.g., `translateY`) when elements intersect the viewport, triggered by an Intersection Observer API."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#faf8f5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#8A6B4F",
+        "role": "accent-brown"
+      },
+      {
+        "hex": "#4A4A4A",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#6B7A6B",
+        "role": "dark-green-background"
+      },
+      {
+        "hex": "#9CA89C",
+        "role": "olive-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DomaineText-Regular",
+        "role": "heading"
+      },
+      {
+        "family": "DomaineText-Italic",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) provide a strong visual anchor, contrasted with smaller, functional sans-serif for body text and navigation, creating a sophisticated hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between sections and within hero areas allows imagery and text to breathe, creating a calm and expansive feel."
+  },
+  "standout": "This site stands out with its art-forward approach, using classical or painterly full-bleed imagery and video combined with a sophisticated, almost editorial serif typography. The muted, earthy color palette and subtle motion create a distinctive, high-end artistic mood that feels more like a gallery or art book than a typical band website.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

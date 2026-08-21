@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-dogelonmars-com-10140a",
+  "source": {
+    "url": "https://dogelonmars.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-dogelonmars-com-10140a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-dogelonmars-com-10140a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-dogelonmars-com-10140a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-dogelonmars-com-10140a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "crypto",
+      "memecoin",
+      "blockchain"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct, often animated or illustrated, background imagery (space, Mars landscapes) create an immersive, continuous visual narrative."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings use an extremely large, bold, and blocky display typeface, often in bright red or white, creating a strong, impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and high-contrast palette combines deep space blues/blacks with fiery oranges and reds, accented by bright yellows and whites, evoking a futuristic, energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero illustration (car and moon) scrolls up and out of view, revealing a large, detailed astronaut character sitting on the Mars landscape, creating a layered reveal effect. Sticky side panels remain fixed in the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is themed as a distinct part of the 'Dogelon Universe,' featuring custom illustrations and unique background environments that reinforce the brand's narrative."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed animated canvas or video background to create a dynamic, immersive space environment, over which large, bold text and a prominent call-to-action are overlaid.",
+    "Scroll-triggered motion is used to create a layered reveal effect: initial hero elements scroll away at a faster rate, while a large, detailed character illustration is revealed from below, appearing to sit on the persistent background. Sticky side navigation elements maintain their position throughout the scroll.",
+    "Custom illustrations and character designs are integrated throughout the site, often animated using CSS keyframes, to bring the brand's narrative to life and create a playful, engaging user experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0f1c",
+        "role": "background"
+      },
+      {
+        "hex": "#1b1010",
+        "role": "background"
+      },
+      {
+        "hex": "#d93e22",
+        "role": "heading"
+      },
+      {
+        "hex": "#ef3f28",
+        "role": "accent"
+      },
+      {
+        "hex": "#ebd7a5",
+        "role": "surface"
+      },
+      {
+        "hex": "#eddeb9",
+        "role": "surface"
+      },
+      {
+        "hex": "#ee9b01",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "disp",
+        "role": "heading"
+      },
+      {
+        "family": "disp-2",
+        "role": "display"
+      },
+      {
+        "family": "Roboto Flex",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, and blocky display headings (~5-6x body text) create a powerful visual impact, contrasted with smaller, legible sans-serif body text.",
+    "radius": "Subtle rounding on buttons and card elements, but many key visual elements and headings maintain sharp, angular edges.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more dense, but still clear, layout for card grids and data displays."
+  },
+  "standout": "This site's design is distinctive for its highly stylized, cartoonish space/Mars theme, brought to life with custom, high-quality illustrations and dynamic animations. The bold, blocky typography, combined with a vibrant, high-contrast color palette, creates an energetic and playful brand identity that feels more like an interactive game than a typical crypto project, setting it apart from generic marketing templates.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

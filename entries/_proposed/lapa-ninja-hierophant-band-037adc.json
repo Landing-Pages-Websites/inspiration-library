@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-hierophant-band-037adc",
+  "source": {
+    "url": "https://www.hierophant.band/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hierophant-band-037adc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hierophant-band-037adc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hierophant-band-037adc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hierophant-band-037adc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "heavy-metal",
+      "band"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a centered, wide-margin layout on a dark background, with generous vertical spacing creating distinct visual breaks between sections."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is used, pairing highly stylized, almost illegible display fonts for branding and section titles with a clean, legible sans-serif for all informational and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic dark theme (black background, white text) is consistently applied, with a single vibrant accent color introduced solely through the main visual content (album art)."
+    },
+    {
+      "kind": "motion",
+      "note": "The main album art image reveals itself with a subtle fade-in or slide-up animation as the user scrolls down, filling a large, initially empty placeholder frame."
+    },
+    {
+      "kind": "section",
+      "note": "Section titles are consistently rendered in an uppercase, stylized font, flanked by decorative diamond glyphs, serving as strong visual anchors across the page."
+    }
+  ],
+  "technique_notes": [
+    "The header, including the main band logo and decorative snake icons, is implemented as a sticky element that remains fixed at the top of the viewport during scroll.",
+    "A large hero image area initially displays an empty frame, which is then populated by the album art using a scroll-triggered reveal animation (likely a fade or slide) as the user scrolls down the page.",
+    "Key visual content, such as the album art and individual merchandise items, are presented within subtly bordered, dark-themed frames that provide visual structure without distracting from the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0e0e0e",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#e04e00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Blackletter",
+        "role": "display"
+      },
+      {
+        "family": "MicroSquare",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, decorative display font for the main logo, large blocky headings (~2-3x body) for section titles, and small, clean sans-serif for all informational text.",
+    "radius": "subtle rounding on content frames and buttons, maintaining a generally sharp aesthetic.",
+    "spacing": "airy, with significant vertical whitespace between major sections and content blocks, creating a sparse and focused presentation."
+  },
+  "standout": "The site's design is distinctive for its bold and uncompromising heavy metal aesthetic, primarily conveyed through the extreme, almost illegible custom typography for the band logo and section titles. This, combined with the stark black-and-white palette and the dramatic scroll-triggered reveal of the album art, creates a powerful and immersive brand experience that stands apart from typical band sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}
