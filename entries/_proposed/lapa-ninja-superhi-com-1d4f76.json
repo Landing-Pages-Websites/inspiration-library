@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-superhi-com-1d4f76",
+  "source": {
+    "url": "https://www.superhi.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-superhi-com-1d4f76.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-superhi-com-1d4f76__scroll0.webp",
+      "shots/_proposed/lapa-ninja-superhi-com-1d4f76__scroll1.webp",
+      "shots/_proposed/lapa-ninja-superhi-com-1d4f76__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "creative-education",
+      "online-learning"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with varied background treatments, often using bold, contrasting colors or gradients to define distinct content blocks."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost primary-color palette is used extensively for large geometric shapes, section backgrounds, and call-to-action elements, creating a playful and energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features large, flat geometric shapes that parallax and subtly scale as the user scrolls, creating a dynamic sense of depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Animated, bouncing 'smiley face' spheres appear in the background at a certain scroll depth, adding a distinctive playful and interactive element to the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very bold, modern sans-serif typeface, often in large sizes, contrasting with smaller, legible body text and uppercase labels for categories."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, many featuring large numbers, statistics, or testimonial carousels, often with a strong background color or gradient."
+    }
+  ],
+  "technique_notes": [
+    "The top promotional banner collapses out of view on scroll, while the main navigation transitions to a sticky header with a subtle background, maintaining access to key links.",
+    "The hero section incorporates large, flat geometric shapes that are animated using a parallax effect, moving at different speeds relative to the scroll to create depth and visual interest.",
+    "Scroll-triggered animations reveal content sections, often with elements like the 'smiley face' spheres appearing and animating (likely using canvas or Lottie for complex motion) as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111118",
+        "role": "text"
+      },
+      {
+        "hex": "#2727e6",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff4141",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffe54d",
+        "role": "accent"
+      },
+      {
+        "hex": "#16ab59",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffbac4",
+        "role": "accent"
+      },
+      {
+        "hex": "#757575",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Graphik",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Graphik",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, very bold sans-serif headings (~3-4x body) with clear, legible body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on buttons and input fields, with some cards and interactive elements featuring more pronounced rounded corners.",
+    "spacing": "Airy in the hero section, balanced in content grids, with generous vertical padding between full-width sections creating a clear rhythm."
+  },
+  "standout": "This site stands out with its bold, almost childlike use of vibrant primary colors and large, flat geometric shapes that animate playfully. This, combined with a strong, modern sans-serif typography and unexpected animated elements like the 'smiley face' spheres, creates a distinctive and energetic brand identity that feels both professional and approachable.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

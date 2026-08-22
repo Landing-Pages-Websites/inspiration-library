@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-frontend-horse-eb30e4",
+  "source": {
+    "url": "https://frontend.horse",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-frontend-horse-eb30e4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-frontend-horse-eb30e4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-frontend-horse-eb30e4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-frontend-horse-eb30e4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "education",
+      "tech-blog"
+    ],
+    "mood": [
+      "editorial",
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a centered, fixed-width column with full-width background patterns or solid colors behind each section, creating clear visual separation."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast exists between a large, decorative serif font for the primary hero heading and a clean, bold sans-serif for section titles, balanced by a readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, inviting palette combines a light cream background with dark blue text, accented by vibrant orange-red and golden yellow for CTAs and highlights, complemented by muted teal and olive green in illustrations."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered reveal animations or parallax effects are observed; content appears statically as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Key content blocks like 'Latest Newsletter Issues' and 'Featured Articles' use a consistent card-based layout with subtle shadows and 'Read Issue'/'Read Article' links for navigation."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a central content column with a maximum width, allowing background elements to extend full-bleed. Sections are defined by distinct background colors or subtle patterns, providing visual rhythm.",
+    "Headings are styled with a large, decorative serif font for the main hero statement, transitioning to a bold sans-serif for subsequent section titles, while body text uses a highly legible sans-serif. Text hierarchy is established through size, weight, and color contrast.",
+    "Interactive elements like buttons and input fields feature subtle rounded corners and clear color differentiation for their active states. The primary call-to-action uses a high-contrast warm color."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f2e8e1",
+        "role": "background"
+      },
+      {
+        "hex": "#23364b",
+        "role": "text"
+      },
+      {
+        "hex": "#e75327",
+        "role": "cta"
+      },
+      {
+        "hex": "#e7ae42",
+        "role": "accent"
+      },
+      {
+        "hex": "#93b7b2",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#859c4e",
+        "role": "illustration-accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, decorative serif hero heading (~4x body) with clear, bold sans-serif section titles (~2x body) and readable body text.",
+    "radius": "Subtle rounded corners (approx. 4-8px) on buttons, input fields, and card elements, maintaining a soft but not overly rounded aesthetic.",
+    "spacing": "Balanced density with generous vertical spacing between sections and within the hero, creating an airy feel, while card grids maintain a consistent, tighter rhythm."
+  },
+  "standout": "The site's distinctive hand-drawn, illustrative style, particularly the horse motif and whimsical background patterns, sets it apart from typical tech blogs. This playful yet professional visual identity creates a memorable and approachable brand experience.",
+  "animation_tech": [
+    "gsap"
+  ],
+  "status": "proposed"
+}

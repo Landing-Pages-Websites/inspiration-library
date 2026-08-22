@@ -1,0 +1,122 @@
+{
+  "id": "lapa-ninja-fullhearts-com-26b1db",
+  "source": {
+    "url": "https://fullhearts.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-fullhearts-com-26b1db.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-fullhearts-com-26b1db__scroll0.webp",
+      "shots/_proposed/lapa-ninja-fullhearts-com-26b1db__scroll1.webp",
+      "shots/_proposed/lapa-ninja-fullhearts-com-26b1db__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "charity",
+      "social-impact"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections often feature a two-column layout with images on one side and text on the other, alternating placement for visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a distinctive, elegant script font for the main logo, contrasting with a clean sans-serif for all other headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "Soft, multi-color gradient backgrounds are used in hero and key sections, creating a gentle, inviting atmosphere, often blending light blues, purples, and pinks."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar (logo, links, CTA) starts with a transparent background over the hero, then shrinks in height and gains a solid white background as the user scrolls down, becoming sticky at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Circular image cutouts are used prominently in the hero section and other content blocks, adding a playful and human-centric touch to the visuals."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a dynamic canvas animation to render subtle, shifting gradient backgrounds that provide a soft, ambient backdrop for the main heading and circular images.",
+    "Scroll-triggered CSS keyframe animations are used to transform the main navigation bar, causing it to reduce in height and apply a solid background as it transitions from its initial position to a sticky state.",
+    "Content sections likely employ CSS keyframe animations to reveal elements with a fade-in or slide-up effect as they enter the viewport, enhancing engagement as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d2c70",
+        "role": "text"
+      },
+      {
+        "hex": "#ff9365",
+        "role": "cta"
+      },
+      {
+        "hex": "#fff",
+        "role": "background"
+      },
+      {
+        "hex": "#c8daf0",
+        "role": "background"
+      },
+      {
+        "hex": "#d9b2f7",
+        "role": "background"
+      },
+      {
+        "hex": "#f2e5ff",
+        "role": "background"
+      },
+      {
+        "hex": "#71819e",
+        "role": "text"
+      },
+      {
+        "hex": "#50b2c7",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Pacifico",
+        "role": "display"
+      },
+      {
+        "family": "rebond",
+        "role": "heading"
+      },
+      {
+        "family": "rebond",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold hero heading (~3-4x body) with clear hierarchy down to legible body text, all using a consistent sans-serif family except for the script logo.",
+    "radius": "Subtle rounded corners on buttons and some image containers, with prominent use of perfectly circular image masks.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and comfortable line-heights for readability."
+  },
+  "standout": "The site's design is distinctive for its elegant script logo paired with a modern sans-serif, the use of soft, multi-color gradient backgrounds that subtly animate, and the playful yet impactful integration of circular image cutouts, creating a warm and approachable aesthetic that avoids generic corporate templates.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

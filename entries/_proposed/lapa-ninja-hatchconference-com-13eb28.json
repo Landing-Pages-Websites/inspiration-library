@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-hatchconference-com-13eb28",
+  "source": {
+    "url": "https://www.hatchconference.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hatchconference-com-13eb28.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hatchconference-com-13eb28__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hatchconference-com-13eb28__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hatchconference-com-13eb28__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "events",
+      "design-conference",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content centered within a max-width container, often using a multi-column grid for features like speaker cards and partner logos."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy featuring very large, bold sans-serif headings for impact, complemented by a clean, readable sans-serif for body text and smaller uppercase labels for categories."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme utilizing a near-black background, bright white text, and a vibrant, almost neon orange for primary calls to action and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (e.g., feature blocks, speaker grids, testimonials) are revealed with a subtle slide-up and fade-in animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Distinctive footer design featuring a full-width, pixelated glitch-art pattern in orange and black, creating a unique visual break from the content above."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered CSS keyframe animations to progressively reveal content sections. Elements slide up and fade into view as they enter the viewport. The main navigation bar transforms into a sticky header with a solid background and subtle shadow after the initial hero section is scrolled past. A subtle parallax effect is applied to the hero background image, making it scroll slower than the foreground content.",
+    "A high-contrast visual aesthetic is achieved through a dominant dark background paired with bright white text and a vibrant orange for interactive elements and highlights. Content is structured into distinct full-width sections, often utilizing responsive grid layouts for displaying multiple items like speaker profiles or partner logos. Interactive elements like buttons and cards feature subtle rounded corners."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#120b06",
+        "role": "background"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#fd4102",
+        "role": "cta"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "surface"
+      },
+      {
+        "hex": "#e4e4e4",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, condensed sans-serif headings (~3-4x body size) with generous line height, paired with a clean, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons and cards, maintaining a modern yet approachable feel.",
+    "spacing": "Balanced to airy. The hero section features very generous vertical padding, while content grids (speakers, partners) maintain a more balanced, consistent rhythm."
+  },
+  "standout": "The distinctive use of a high-contrast dark theme with a vibrant, almost neon orange accent color, combined with a unique pixelated, glitch-art inspired pattern in the footer, sets this site apart. The strong, modern typography also contributes to its bold and authoritative feel, making it memorable beyond a generic template.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-heybaycity-com-d74df4",
+  "source": {
+    "url": "https://www.heybaycity.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-heybaycity-com-d74df4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-heybaycity-com-d74df4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-heybaycity-com-d74df4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-heybaycity-com-d74df4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "government",
+      "city-portal",
+      "community-services"
+    ],
+    "mood": [
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between a light off-white background and a dark navy background, creating clear visual separation and rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "The site makes prominent use of extremely large, bold, condensed sans-serif typography for the main hero statement, creating an impactful and editorial feel."
+    },
+    {
+      "kind": "type",
+      "note": "A very large, decorative script typeface is used as a distinctive visual anchor in the footer, contrasting with the site's primary sans-serifs."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark navy and off-white is consistently used for backgrounds and primary text, accented by a vibrant blue for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Card-based content sections (e.g., 'Bay City Stories', 'Coming Events') are designed for horizontal swiping or scrolling, likely using a library like Swiper, though no scroll-triggered animations are present."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often use a multi-column grid of image cards with short descriptions and clear calls to action, providing quick navigation to key areas."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero image is used with a semi-transparent dark overlay to ensure high contrast for the oversized, bold headline text.",
+    "Content sections are visually segmented by alternating full-width background colors, creating a clear hierarchy and guiding the user's eye down the page.",
+    "No scroll-triggered animations are used; content appears by standard vertical scrolling. Card-based content sections are designed for horizontal swiping or scrolling, likely using a library like Swiper, to present multiple items in a compact, interactive format."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f6f5ed",
+        "role": "background"
+      },
+      {
+        "hex": "#172a35",
+        "role": "background"
+      },
+      {
+        "hex": "#007aff",
+        "role": "cta"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#c5e2e3",
+        "role": "background"
+      },
+      {
+        "hex": "#7c97a7",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "National 2 Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: National 2",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Copy",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed sans-serif hero (~8x body) with smaller, uppercase navigation and labels. Body text is a clear, readable sans-serif.",
+    "radius": "Subtle (small radius on buttons and card corners).",
+    "spacing": "Balanced overall, with an airy hero section and more dense content grids for feature listings."
+  },
+  "standout": "The site's design is distinctive for its bold and confident use of typography, particularly the extremely large, condensed sans-serif hero text and the equally prominent, decorative script font in the footer. These elements give the site a unique, editorial character that elevates it beyond a typical city portal template.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

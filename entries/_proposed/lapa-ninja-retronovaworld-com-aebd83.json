@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-retronovaworld-com-aebd83",
+  "source": {
+    "url": "https://www.retronovaworld.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-retronovaworld-com-aebd83.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-retronovaworld-com-aebd83__scroll0.webp",
+      "shots/_proposed/lapa-ninja-retronovaworld-com-aebd83__scroll1.webp",
+      "shots/_proposed/lapa-ninja-retronovaworld-com-aebd83__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "digital-art",
+      "luxury-goods"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive background imagery serves as the primary visual canvas, often overlaid with large, central typographic elements."
+    },
+    {
+      "kind": "type",
+      "note": "Heavily distressed, uppercase, and wide-tracked display typography is used for all major section headings, creating a retro-futuristic, almost glitched aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode palette dominates, featuring deep blacks and dark grays, punctuated by vibrant amber/orange accents and occasional purple/teal highlights within imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered animations reveal large typographic elements and image grids with staggered fade-ins or subtle slides as they enter the viewport, enhancing the immersive experience."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by expansive, full-width typographic statements rather than traditional content blocks, creating a strong visual rhythm and hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "An initial full-screen loading experience with a retro-futuristic UI and progress bar sets the site's aesthetic before content loads, using CSS keyframes for animation.",
+    "Scroll-triggered animations, likely orchestrated with GSAP and Locomotive Scroll, reveal large, distressed text headings and image cards as they enter the viewport, often with a staggered fade-in or subtle slide effect.",
+    "Full-bleed background images utilize parallax scrolling to create depth and movement against foreground content, enhancing the sense of a dynamic environment."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#070707",
+        "role": "background"
+      },
+      {
+        "hex": "#f3edd8",
+        "role": "text"
+      },
+      {
+        "hex": "#fd8a46",
+        "role": "accent"
+      },
+      {
+        "hex": "#643b23",
+        "role": "dark-accent"
+      },
+      {
+        "hex": "#a24eb5",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#008aa1",
+        "role": "tertiary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: monospace",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, distressed display headings (~8x body) with wide-tracked uppercase labels and smaller, legible body text for UI elements.",
+    "radius": "Sharp, with minimal rounding applied subtly to image cards.",
+    "spacing": "Very airy, with significant vertical spacing between large typographic sections and elements, contributing to a grand, expansive feel."
+  },
+  "standout": "The site's distinctive use of heavily distressed, oversized typography combined with a dark, retro-futuristic UI and complex scroll-triggered animations creates an immersive, almost cinematic experience. It feels less like a traditional website and more like navigating a digital art installation, making the brand feel cutting-edge and artistic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
