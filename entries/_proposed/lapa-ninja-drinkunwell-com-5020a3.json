@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-drinkunwell-com-5020a3",
+  "source": {
+    "url": "https://drinkunwell.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-drinkunwell-com-5020a3.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-drinkunwell-com-5020a3__scroll0.webp",
+      "shots/_proposed/lapa-ninja-drinkunwell-com-5020a3__scroll1.webp",
+      "shots/_proposed/lapa-ninja-drinkunwell-com-5020a3__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "health-drinks"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with distinct background colors (dark, light neutral, vibrant blue) create clear visual breaks and content segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a large, elegant serif typeface for a sophisticated and bold statement, contrasting with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring deep black, crisp white, and a striking red accent is used consistently, complemented by a warm light beige and a cool blue for section backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains fixed at the top of the viewport after initial scroll, allowing continuous access to key links."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a full-width video or image with a dark overlay, centered headline, and a prominent call-to-action button, setting a luxurious and engaging tone."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video or image with a subtle dark overlay to ensure text legibility, creating an immersive and premium visual experience.",
+    "The primary navigation bar is implemented as a sticky element, maintaining its position at the top of the screen as the user scrolls down the page.",
+    "Content sections are revealed with subtle scroll-triggered animations, likely using a library like AOS, where elements fade or slide into view as they enter the viewport, adding a dynamic feel to the page progression."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#cc0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f2e3",
+        "role": "background"
+      },
+      {
+        "hex": "#89b2d2",
+        "role": "background"
+      },
+      {
+        "hex": "#ab8c52",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Unwell Avantt",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) provide a luxurious feel, while body text uses a clean, readable sans-serif.",
+    "radius": "Sharp corners are dominant for buttons and section edges, with subtle rounding only on product packaging.",
+    "spacing": "Balanced density overall, with a notably airy and spacious hero section that transitions to a more standard, comfortable rhythm for content blocks."
+  },
+  "standout": "The site's distinctive design lies in its dramatic, high-contrast hero section featuring a sophisticated video and an elegant serif typeface for headlines, which immediately conveys a sense of luxury and boldness. The confident use of a vibrant red accent against both dark and light neutral backgrounds further elevates the brand's visual identity beyond typical beverage sites.",
+  "animation_tech": [
+    "aos",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

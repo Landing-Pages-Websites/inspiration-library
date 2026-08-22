@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-summaequity-com-a40004",
+  "source": {
+    "url": "https://summaequity.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-summaequity-com-a40004.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-summaequity-com-a40004__scroll0.webp",
+      "shots/_proposed/lapa-ninja-summaequity-com-a40004__scroll1.webp",
+      "shots/_proposed/lapa-ninja-summaequity-com-a40004__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "investment",
+      "private-equity",
+      "impact-investing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often contained within a central maximum width, creating a clean, structured feel, while some elements like the hero video are full-bleed."
+    },
+    {
+      "kind": "layout",
+      "note": "Horizontal scrolling carousels are used for 'Publications' and 'Featured investments' sections, allowing for a large number of items without excessive vertical space."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established using a large, elegant serif font for the primary hero heading and a clean, modern sans-serif for all other headings, body text, and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent brand palette of dark teal/green, light grey, and white is used for backgrounds, text, and interactive elements, creating a professional and cohesive look."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transitions from transparent to a solid white background with a subtle shadow as it becomes sticky after scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a full-bleed video background that subtly animates or parallaxes as the user scrolls, adding dynamic visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero appear to reveal with a gentle fade-in or slide-up effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Informative cards with illustrative line-art icons are used to represent 'Our investment themes,' providing a visually engaging overview of key areas."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is sticky, initially transparent over the hero, and gains a solid white background and subtle shadow after scrolling. The hero section uses a full-bleed video background that subtly parallaxes or animates with scroll depth. Content sections below the hero are revealed with a gentle fade-in or slide-up animation as they enter the viewport, likely using a scroll-triggering library. Horizontal content sections utilize a carousel component (like Swiper) for navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#397467",
+        "role": "primary-accent"
+      },
+      {
+        "hex": "#242424",
+        "role": "text"
+      },
+      {
+        "hex": "#ddd",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#a7d9cc",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very large, elegant serif for the hero heading (~4-5x body text) contrasts with clear, well-spaced sans-serif headings (~1.5-2.5x body text) and legible body text.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are applied consistently to buttons, input fields, and card elements, softening the overall aesthetic.",
+    "spacing": "Balanced and airy, particularly in the hero section and between major content blocks, with a slightly denser but still readable layout within card grids."
+  },
+  "standout": "The site effectively blends a sophisticated, elegant serif typeface for its primary hero statement with a clean, modern sans-serif for the rest of the content, creating a distinctive and authoritative yet approachable feel. The use of subtle line-art illustrations within themed cards and a dynamic video hero further elevates its visual appeal beyond typical corporate templates.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

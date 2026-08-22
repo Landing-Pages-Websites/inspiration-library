@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-vana-com-521c86",
+  "source": {
+    "url": "https://www.vana.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-vana-com-521c86.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-vana-com-521c86__scroll0.webp",
+      "shots/_proposed/lapa-ninja-vana-com-521c86__scroll1.webp",
+      "shots/_proposed/lapa-ninja-vana-com-521c86__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "data-infrastructure",
+      "ai"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a clean, spacious single-column layout for main content sections, transitioning to a grid-based display for feature cards (four columns) and blog posts (three columns)."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif, creating strong visual hierarchy, while body text uses a lighter weight of the same sans-serif for readability. Navigation links and some labels are consistently presented in uppercase."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light background is accented by a vibrant purple for primary calls-to-action and a distinct set of pastel background colors for a four-card feature section, providing visual segmentation and interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic, generative-art-like background animation that subtly shifts its pattern and color palette as the user scrolls down the page, creating a sense of depth and interaction. The main navigation bar remains sticky at the top of the viewport without changing its appearance."
+    },
+    {
+      "kind": "section",
+      "note": "A unique four-card section immediately below the hero uses distinct, soft background colors for each card, visually differentiating them and highlighting key areas of focus for the user."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero section incorporates a background video or animated canvas element that displays an abstract, data-inspired visual. This animation is synchronized with scroll depth, causing the visual pattern and its dominant colors to subtly transform as the user scrolls down, creating a parallax-like effect. The primary navigation bar is implemented as a fixed element, ensuring it remains visible at the top of the screen throughout the user's scroll journey.",
+    "Content is presented in a clean, single-column flow, with specific sections like feature highlights and blog posts utilizing responsive grid layouts. Cards within these grids maintain consistent padding and subtle borders, ensuring visual coherence and easy scanning."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#5F46F2",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D9FE",
+        "role": "surface-card-1"
+      },
+      {
+        "hex": "#F8F7F1",
+        "role": "surface-card-2"
+      },
+      {
+        "hex": "#FFF0D3",
+        "role": "surface-card-3"
+      },
+      {
+        "hex": "#F9FBE0",
+        "role": "surface-card-4"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with generous line height, paired with a clean, readable sans-serif body text. Uppercase is used for navigation and labels.",
+    "radius": "Subtle (for buttons and cards), maintaining a clean, modern aesthetic.",
+    "spacing": "Airy, particularly in the hero section and between major content blocks, contributing to a sense of openness. Spacing within card elements is balanced and consistent."
+  },
+  "standout": "The most distinctive element is the hero section's dynamic, generative-art-like background animation, which visually represents 'data' in an abstract and engaging manner. This unique visual identity avoids generic stock imagery, creating a tech-forward and memorable first impression that subtly shifts with user interaction.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

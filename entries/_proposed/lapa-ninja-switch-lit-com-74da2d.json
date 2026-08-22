@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-switch-lit-com-74da2d",
+  "source": {
+    "url": "https://switch-lit.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-22"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-switch-lit-com-74da2d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-switch-lit-com-74da2d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-switch-lit-com-74da2d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-switch-lit-com-74da2d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "writing",
+      "creative-services",
+      "saas"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a clean, centered column with ample whitespace, allowing illustrations and key information to breathe."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, bold sans-serif is used for primary headings, contrasting with a more neutral sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of black and white is punctuated by vibrant, pastel-toned illustrations and UI elements, creating focal points."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero text expands, a sticky navigation bar appears, and content sections (like 'The process is simple' steps and 'Library' cards) slide or fade up into view with a staggered effect."
+    },
+    {
+      "kind": "section",
+      "note": "Process steps are visually numbered and accompanied by abstract, colorful illustrations that evolve with each step, guiding the user through the workflow."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system, likely using GSAP and Locomotive Scroll, to reveal sections with a staggered fade-up or slide-in effect as they enter the viewport. The hero section features a dynamic transformation where the main title expands and a sticky header appears, while the hero illustration subtly shifts position or scales.",
+    "Illustrations are integrated directly into content sections, often serving as visual metaphors or interactive elements, rather than just decorative backgrounds. They use a consistent whimsical, flat-design style with a limited, vibrant color palette.",
+    "Interactive elements like the 'Core values' list use a definition list structure where hovering over a term reveals its corresponding explanation in an adjacent panel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#d2ddd2",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffb",
+        "role": "accent"
+      },
+      {
+        "hex": "#7c00cf",
+        "role": "accent"
+      },
+      {
+        "hex": "#96e0d0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Graphik",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear hierarchy and smaller, uppercase labels for section introductions.",
+    "radius": "Subtle rounding (2-4px) on interactive elements and content cards, otherwise sharp corners dominate the layout.",
+    "spacing": "Airy, especially in the hero and between major sections, creating a sense of openness; balanced within content blocks for readability."
+  },
+  "standout": "The site's most distinctive feature is its playful and whimsical custom illustrations, which are not merely decorative but are integral to explaining the product's process and values. These colorful, abstract graphics, combined with a clean, minimal layout and subtle scroll-triggered animations, create a unique and engaging user experience that feels both sophisticated and approachable.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}
