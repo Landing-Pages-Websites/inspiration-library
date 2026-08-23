@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-detach-app-de-729745",
+  "source": {
+    "url": "https://www.detach-app.de/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-detach-app-de-729745.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-detach-app-de-729745__scroll0.webp",
+      "shots/_proposed/lapa-ninja-detach-app-de-729745__scroll1.webp",
+      "shots/_proposed/lapa-ninja-detach-app-de-729745__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "app",
+      "digital-wellness"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section uses an asymmetrical layout with a large, illustrative graphic on the right balancing the main heading and call-to-action on the left."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, rounded sans-serif typeface, while sub-labels and secondary text often appear in a smaller, uppercase sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant teal/aqua is used as the primary accent color for call-to-action buttons and key graphic elements, contrasting with a clean white and light green background."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent cookie banner is fixed to the bottom-left of the viewport, remaining visible throughout the scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Sections alternate between clean white backgrounds and light green backgrounds with playful, organic-shaped illustrations."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position element (cookie banner) is used to maintain visibility of critical information during scroll. The site also leverages CSS keyframe animations for potential element introductions or subtle movements, though specific scroll-triggered reveals are not fully demonstrated in the provided sequence. A video hero is indicated, suggesting dynamic background or foreground video content in the main hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#00E0C7",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#C6F7D0",
+        "role": "background"
+      },
+      {
+        "hex": "#7B61FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0F8FF",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Quicksand",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, rounded sans-serif headings (~3-4x body) with smaller, uppercase labels and standard legible body text.",
+    "radius": "Rounded corners are consistently applied to buttons, cards, and the cookie banner, giving a soft and friendly character.",
+    "spacing": "Generally airy spacing in the hero and between major sections, with balanced density within content blocks."
+  },
+  "standout": "This site stands out with its exceptionally playful and illustrative design, featuring custom, friendly characters and organic shapes that infuse personality into a tech product. The vibrant, energetic color palette further enhances its approachable and distinctive feel, moving beyond typical minimalist SaaS aesthetics.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

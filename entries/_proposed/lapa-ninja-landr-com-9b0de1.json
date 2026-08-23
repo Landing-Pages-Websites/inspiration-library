@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-landr-com-9b0de1",
+  "source": {
+    "url": "https://www.landr.com/en/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-landr-com-9b0de1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-landr-com-9b0de1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-landr-com-9b0de1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-landr-com-9b0de1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "saas",
+      "audio-production"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width, dark-themed sections with centered content blocks, often featuring a large visual (device mockup or abstract graphic) paired with text."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy with large, bold sans-serif headings, readable body text, and smaller, often uppercase, labels for section titles or sub-headings."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme utilizing a very dark grey/black background, white text, and a single vibrant teal/cyan accent color for calls to action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation bar remains sticky at the top of the viewport, providing persistent access to navigation links and CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background image that scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections consistently integrate detailed device mockups (laptops, phones, studio equipment) displaying product UI, often angled or offset to suggest dynamic interaction."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented with a fixed position, ensuring it stays visible at the top of the screen throughout the user's scroll journey.",
+    "The hero section's background image employs a parallax scrolling technique, where its movement is decoupled from the main scroll, creating a sense of depth as foreground content moves faster.",
+    "Content sections and key visual elements are introduced with scroll-triggered animations, likely using GSAP, to create staggered fade-up or slide-in effects as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#030303",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#909090",
+        "role": "surface"
+      },
+      {
+        "hex": "#00E0B4",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, often uppercase, labels for section titles and sub-headings.",
+    "radius": "Subtle rounding on buttons, input fields, and some card elements, creating a soft but modern feel.",
+    "spacing": "Balanced density with generous vertical spacing between major sections, particularly in the hero, and tighter spacing within feature grids and footer links."
+  },
+  "standout": "The site's distinctive use of a dark, high-contrast aesthetic combined with intricately integrated device mockups and abstract UI graphics creates a sophisticated and immersive experience. The seamless blend of product visuals within the design effectively communicates the comprehensive nature of the music production suite.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

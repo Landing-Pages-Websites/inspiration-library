@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-tesoroxp-com-42955d",
+  "source": {
+    "url": "https://www.tesoroxp.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tesoroxp-com-42955d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tesoroxp-com-42955d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tesoroxp-com-42955d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tesoroxp-com-42955d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "fintech",
+      "rewards"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently centered, often featuring large, impactful headings that span the width of the content area."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of an extremely bold, wide sans-serif typeface for the main brand logo and key section headlines, creating a strong, declarative visual voice."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette featuring deep charcoal/black backgrounds paired with vibrant, almost neon, accent colors (orange, green, teal, purple, yellow) used for geometric shapes and occasional text highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, animated background layer featuring floating, colorful octagonal shapes that subtly parallax and move independently as the user scrolls, creating a sense of depth and playfulness across the entire page."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are introduced with large, declarative headings, often followed by a grid of feature cards or illustrative graphics that visually explain the core concepts."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video plays on loop in the hero section, serving as a dynamic and immersive background for the primary branding and call to action.",
+    "The primary navigation bar transitions from an initial transparent state to a sticky, solid-background state as the user scrolls past the hero section, ensuring continuous access to key links.",
+    "Colorful octagonal shapes are animated using CSS keyframes or GSAP, floating and parallaxing across the background of various sections, including the hero and footer, providing a consistent visual motif and sense of depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF6B00",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FF80",
+        "role": "accent"
+      },
+      {
+        "hex": "#00E0FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#A000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, extremely bold headings (~4-5x body text) with a modern, clean sans-serif for body copy and navigation.",
+    "radius": "Subtle (buttons and cards feature slightly rounded corners).",
+    "spacing": "Balanced, leaning towards airy in the hero and between major sections, with a comfortable density in feature grids."
+  },
+  "standout": "The distinctive use of the oversized, bold 'Tesoro' logo as a recurring visual element, combined with the vibrant, floating geometric shapes against a dark, immersive background, creates a unique brand identity that feels both modern and playfully sophisticated. The persistent animated background elements are particularly memorable.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

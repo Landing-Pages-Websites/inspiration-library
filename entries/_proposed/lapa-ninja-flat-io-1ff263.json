@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-flat-io-1ff263",
+  "source": {
+    "url": "https://flat.io/en?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-flat-io-1ff263.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-flat-io-1ff263__scroll0.webp",
+      "shots/_proposed/lapa-ninja-flat-io-1ff263__scroll1.webp",
+      "shots/_proposed/lapa-ninja-flat-io-1ff263__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "music-tech",
+      "education"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in distinct, full-width sections that alternate between a light background and a vibrant blue background, creating clear visual separation and flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, providing strong hierarchy, while body text is set in a lighter weight and smaller size for readability."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent palette of deep blue and vibrant accent blue is used for backgrounds and calls-to-action, contrasted with clean white and subtle light gray for content areas, creating a professional and inviting feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation becomes sticky and remains at the top after scrolling past the initial hero banner, while a prominent call-to-action banner also fixes to the top of the viewport once the hero content has scrolled out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a descriptive text block on one side with a high-fidelity product screenshot or illustration on the other, often alternating the side of the image for visual variety."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation transitions from a static element to a fixed, sticky bar at the top of the viewport once the user scrolls past the initial informational banner, ensuring constant access to navigation links.",
+    "The hero section features a large, prominent title and call-to-action buttons that scroll up with the page content, while the background image or gradient appears to be fixed or parallaxing subtly, creating a sense of depth.",
+    "A full-width call-to-action banner is designed to appear and fix to the top of the screen after the main hero content has scrolled out of view, providing a persistent conversion opportunity. This uses CSS keyframes for its appearance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c274c",
+        "role": "primary-dark-blue"
+      },
+      {
+        "hex": "#1665ef",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-white"
+      },
+      {
+        "hex": "#ebf1fa",
+        "role": "surface-light-blue-gray"
+      },
+      {
+        "hex": "#606882",
+        "role": "text-body-gray"
+      },
+      {
+        "hex": "#00875e",
+        "role": "success-green"
+      },
+      {
+        "hex": "#f3f7fe",
+        "role": "surface-very-light-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) establish clear hierarchy, complemented by a lighter-weight body text for readability.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, cards, and image containers, contributing to a soft and approachable aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical padding between sections and within content blocks, ensuring a clean layout and comfortable reading experience."
+  },
+  "standout": "The site's most distinctive feature is the persistent, full-width call-to-action banner that fixes to the top of the viewport after the initial hero, ensuring key conversion points are always visible without being overly intrusive. This provides a unique and effective way to maintain user engagement with the primary offering.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
