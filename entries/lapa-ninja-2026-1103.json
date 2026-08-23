@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-2026-1103",
+  "source": {
+    "url": "https://www.innovationendeavors.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1103.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1103__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1103__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1103__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "venture-capital",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses an alternating two-column layout for 'Featured Companies' sections, where a large, unique illustration and company name are paired with a brief description and call to action, switching sides for visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant serif font is used for all primary headings and the hero statement, providing a sophisticated and editorial feel, contrasted with a clean sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "The primary background is a warm off-white/light beige, creating a soft, inviting canvas. Sections are punctuated by large blocks of muted pastel colors (light blue, lavender, mint green, coral, pale yellow) each paired with a unique line-art illustration."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero text and paper airplane illustration dynamically shrink and reposition to a smaller, fixed element on the left side of the viewport, eventually settling into the footer area. Simultaneously, the top navigation transforms from a spread-out initial state to a compact, sticky version with a different layout, and a large, abstract background image reveals itself at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Featured Companies' section is composed of large, distinct blocks, each dedicated to a single company, featuring a unique background color and a custom line-art illustration that visually represents the company's domain."
+    }
+  ],
+  "technique_notes": [
+    "The hero content (text and illustration) uses scroll-triggered scaling and position changes, likely implemented with CSS transforms and JavaScript (potentially canvas or keyframes) to create a dynamic, shrinking effect that follows the scroll depth. This allows the hero to transition from a dominant visual to a persistent, smaller brand element.",
+    "The navigation bar employs a scroll-triggered transformation, where the initial full-width navigation is replaced by a more compact, sticky version with a re-arranged layout once the user scrolls past the hero section. This transformation likely uses CSS keyframes or JavaScript to animate the size, position, and content of the navigation.",
+    "The site incorporates custom line-art illustrations that are integrated into various sections, particularly the 'Featured Companies' blocks. These illustrations are simple yet descriptive, adding a unique and artistic visual identity to each company profile."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F2",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#D8EAF2",
+        "role": "surface"
+      },
+      {
+        "hex": "#E6D8F2",
+        "role": "surface"
+      },
+      {
+        "hex": "#D8F2E6",
+        "role": "surface"
+      },
+      {
+        "hex": "#F2E6D8",
+        "role": "surface"
+      },
+      {
+        "hex": "#F2D8D8",
+        "role": "surface"
+      },
+      {
+        "hex": "#C4A78A",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very large, elegant serif hero title (~4-5x body) sets a sophisticated tone, with subsequent headings maintaining the serif style at decreasing sizes, and a clean, legible sans-serif for all body and navigation text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between major sections and within content blocks, creating a sense of openness and allowing elements to breathe."
+  },
+  "standout": "The site's standout feature is its highly dynamic scroll-triggered motion, where the hero content and navigation undergo significant, elegant transformations rather than simple sticky behaviors. This, combined with the distinctive line-art illustrations and sophisticated serif typography, creates a unique and artistic brand presence for a venture capital firm.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

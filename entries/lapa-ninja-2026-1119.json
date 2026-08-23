@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-1119",
+  "source": {
+    "url": "https://toastpress.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1119.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1119__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1119__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1119__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "media",
+      "entertainment-agency"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed horizontal scrolling content strips are used to showcase artists and press, maintaining their vertical position in the viewport while their content scrolls continuously."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a very bold, condensed, uppercase sans-serif display font for scrolling text elements, creating a high-impact, almost urgent visual rhythm."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette features a dominant black background, crisp white text, and vibrant, almost neon, accent colors (pink, red, orange, green, yellow) for text backgrounds and the 3D logo."
+    },
+    {
+      "kind": "motion",
+      "note": "The main 'TOAST' candle logo in the hero section scales down and translates upwards with a subtle parallax effect as the user scrolls, receding into the background."
+    },
+    {
+      "kind": "motion",
+      "note": "Continuous horizontal scrolling carousels, likely powered by Swiper, are used for artist names, artist images, and magazine covers, creating dynamic content streams that are vertically sticky within the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large 3D graphic that scales down and translates upwards with a parallax effect as the user scrolls, creating a sense of depth and revealing content below.",
+    "Content is organized into full-width horizontal scrolling carousels, implemented with a library like Swiper, which maintain their vertical position on the screen while their internal content scrolls continuously from right to left, showcasing a stream of items.",
+    "A minimalist top navigation bar and a media player bar at the bottom remain sticky to the viewport, providing constant access and functionality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      },
+      {
+        "hex": "#cf2e2e",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff6900",
+        "role": "accent"
+      },
+      {
+        "hex": "#7bdcb5",
+        "role": "accent"
+      },
+      {
+        "hex": "#fcb900",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Impact",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely large, condensed, uppercase display headings (~6-8x body) for scrolling elements, paired with a clean, legible sans-serif for navigation and footer text.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "An airy hero section with significant negative space transitions into dense, full-bleed content strips that fill the width and height of their respective sections."
+  },
+  "standout": "The site's distinctive use of continuously scrolling horizontal content strips, combined with a bold, almost brutalist color palette and a playful 3D hero logo, creates a highly dynamic and engaging visual experience that breaks from typical static section layouts. If a builder copied only one idea, it should be the implementation of these vertically sticky, horizontally scrolling content carousels.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

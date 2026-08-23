@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1110",
+  "source": {
+    "url": "https://www.parablevc.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1110.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1110__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1110__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1110__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "venture-capital",
+      "investment",
+      "future-tech"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, highly detailed illustrative hero image that spans a significant vertical height, acting as a visual anchor for the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero background image parallaxes upwards, revealing more of the fantastical landscape, while initial hero text fades out and new call-to-action content fades in at a specific scroll depth."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, large-scale serif typography for primary headings, contrasted with clean, legible sans-serif for body text and navigation, creating a sophisticated visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant cool palette of blues and purples derived from the hero illustration, complemented by a very light, almost white, background for content sections, and subtle pastel accents within content cards."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, card-based grid sections (e.g., 'Parables making in the future,' 'Prior Investments') that use a consistent structure of a category label, title, and brief description."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large, full-bleed video or image that parallaxes against the scroll, with multiple layers of text and interactive elements appearing and disappearing at different scroll thresholds, likely orchestrated with GSAP ScrollTrigger.",
+    "The navigation bar transitions from a transparent state with light text to a sticky, solid dark background with light text after the initial scroll, providing clear contrast against content.",
+    "Content sections below the hero are revealed with a staggered fade-up or slide-in animation as they enter the viewport, enhancing engagement and guiding the user's eye down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#214080",
+        "role": "background"
+      },
+      {
+        "hex": "#4070C0",
+        "role": "surface"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#F0C0D0",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0D0A0",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif hero heading (~4-5x body) with smaller, clean sans-serif body text and uppercase labels.",
+    "radius": "Subtle rounding on buttons and cards.",
+    "spacing": "Very airy hero section, balanced spacing in content sections with clear visual separation between elements within cards and grid items."
+  },
+  "standout": "The site's distinctive feature is its highly detailed, fantastical, and illustrative hero imagery, which creates an immersive and unique visual experience. This is combined with elegant, large-scale serif typography and a narrative structure of 'Parables' and 'Philosophies' that elevates the content beyond a typical corporate site.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

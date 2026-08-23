@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-1117",
+  "source": {
+    "url": "https://tilt.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1117.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1117__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1117__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1117__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "fintech",
+      "credit"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed dark and light sections create distinct visual breaks and content zones as the user scrolls down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography is used, pairing a very large, bold sans-serif for primary headings with an elegant, flowing script font for key words to add sophistication and visual interest."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of near-black and bright white dominates, punctuated by a vibrant yellow/lime green for calls to action and accent elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Images within the hero section parallax at a faster rate than the main text, creating a dynamic depth effect as the user scrolls. Subsequent content sections transition into view with a full-height reveal, replacing the previous section."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a large, impactful statement with asymmetrical, dynamic imagery of diverse individuals, setting an emotional and inclusive tone."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar remains sticky at the top of the viewport throughout scrolling. The hero section employs a parallax effect where background images move at a different speed than the foreground text, enhancing depth. Subsequent content sections are designed as full-viewport height blocks that slide into view sequentially, replacing the previous section entirely, creating a distinct 'page-turn' feel. This motion system is likely orchestrated using a scroll-triggered animation library like locomotive-scroll or GSAP ScrollTrigger, combined with CSS keyframes for specific element animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "cta"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#A6A6A6",
+        "role": "text"
+      },
+      {
+        "hex": "#DCDCE6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) are paired with an elegant, flowing script font for key emotional words, creating a sophisticated and impactful typographic hierarchy.",
+    "radius": "Subtle rounded corners (approx. 8-12px) are consistently applied to buttons, cards, and image containers, providing a soft, modern touch.",
+    "spacing": "Very airy in the hero and between major sections, transitioning to a balanced density within content cards and a denser layout in the footer."
+  },
+  "standout": "The site's design is distinctive for its bold, high-contrast black and white aesthetic, combined with a dynamic, asymmetrical image layout and the unexpected use of an elegant script font for emphasis in the hero. This creates a sophisticated, almost editorial feel that elevates it beyond a typical financial services site, making it feel more like a lifestyle brand.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

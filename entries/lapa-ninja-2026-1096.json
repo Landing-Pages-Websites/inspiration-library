@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1096",
+  "source": {
+    "url": "http://earcouture.jp/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1096.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1096__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1096__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1096__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "electronics",
+      "audio",
+      "luxury-tech"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-screen, immersive hero sections dominate the page, transitioning between distinct product visuals and backgrounds on scroll."
+    },
+    {
+      "kind": "type",
+      "note": "A large, vertically oriented display serif typeface is used as a central, persistent visual element across different hero sections."
+    },
+    {
+      "kind": "color",
+      "note": "Predominantly dark, almost black backgrounds are contrasted with vibrant, multi-color product lighting and subtle, ethereal background gradients."
+    },
+    {
+      "kind": "motion",
+      "note": "Scrolling triggers full-screen transitions between different hero content slides, where product imagery and background visuals are swapped, while a large vertical text element remains a visual anchor."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured as a series of full-screen, scrollable hero slides, indicated by a numerical progress counter (e.g., '01', '05')."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-page scroll-jacking effect, likely powered by locomotive-scroll, where vertical scrolling transitions the user between distinct full-screen hero sections rather than revealing content below the fold. Each section presents new product visuals and background treatments.",
+    "Large, vertically oriented display text is used as a persistent visual motif, often remaining in a fixed position or subtly parallaxing as the background and product imagery transition around it.",
+    "Product photography is dramatically lit with dynamic, multi-color gradients against dark backgrounds to create a high-contrast, luxurious, and visually striking presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "surface"
+      },
+      {
+        "hex": "#f78da7",
+        "role": "accent"
+      },
+      {
+        "hex": "#cf2e2e",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff6900",
+        "role": "accent"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "subtle-detail"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Dramatic contrast with oversized, high-contrast serif display headings (vertical) and small, elegant sans-serif navigation and body text.",
+    "radius": "Sharp corners throughout, emphasizing precision and modern luxury.",
+    "spacing": "Very airy, full-bleed sections with minimal content, creating a sense of spaciousness and focus on the product."
+  },
+  "standout": "The site's standout feature is its immersive, scroll-driven full-screen hero experience, where scrolling transitions between distinct product visuals and backgrounds while maintaining a persistent, large-scale vertical text element. This creates a highly dynamic and editorial feel, distinct from typical static hero sections.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

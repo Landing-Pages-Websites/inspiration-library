@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1109",
+  "source": {
+    "url": "https://moneyincheck.org/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1109.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1109__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1109__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1109__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "publishing",
+      "education"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in a single-column, centered layout with generous vertical spacing, emphasizing large typographic elements and hero imagery."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between large, elegant serif headings and smaller, clean sans-serif body text creates a sophisticated, editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of black text on a light grey background, with minimal use of a single accent green for subtle highlights and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content blocks and images reveal themselves with a subtle fade-in and slide-up animation as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The central hero image (chess knight) exhibits a gentle parallax effect, scrolling slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by large, impactful headings and significant whitespace, rather than distinct background colors or dividers."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar remains fixed at the top of the viewport as the user scrolls, providing persistent access to site links.",
+    "Content sections are revealed using scroll-triggered animations, where elements fade into view and subtly slide upwards as they enter the viewport, creating a dynamic reading experience. This effect is likely achieved using a JavaScript library like GSAP ScrollTrigger.",
+    "The hero image features a subtle parallax scrolling effect, where it moves at a slower rate than the foreground content, adding depth to the initial view. This could be implemented with CSS transforms and JavaScript event listeners."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e9e9e9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#34a853",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-5x body) provide strong visual hierarchy, complemented by smaller, legible sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between sections and content blocks, creating a sense of calm and focus."
+  },
+  "standout": "This site stands out with its bold, editorial typography, which is the primary visual driver, combined with a minimalist grid background and elegant, scroll-triggered content reveals. The central, animated chess knight hero image is a distinctive and memorable visual anchor.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

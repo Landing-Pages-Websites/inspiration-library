@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1100",
+  "source": {
+    "url": "https://goals.co/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1100.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1100__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1100__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1100__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gaming",
+      "video-game",
+      "esports"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts frequently pair large 3D renders or video game screenshots with text blocks, often with the visual element dominating one side of the screen."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses an extremely oversized, wide, and bold display font for hero text and key headings, contrasted with smaller, functional sans-serif for body copy and monospaced text for labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep charcoal/black and vibrant neon green is used throughout, with white for primary text, creating an energetic and modern feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slide-up effect as they enter the viewport, while a repeating background pattern scrolls at a slower rate than foreground content, creating a parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed sections with dark backgrounds are used to segment content, often featuring a large, impactful visual (video, 3D render, app screenshot) as the focal point."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video background with overlaid text and calls to action. As the user scrolls, the video background scrolls with a subtle parallax, allowing content to scroll over it.",
+    "The primary navigation bar starts transparent over the hero video, then transforms into a sticky element with a solid dark background and slightly reduced height once the user scrolls past the initial hero view.",
+    "Content sections are revealed using scroll-triggered animations (css-keyframes), where elements fade in and slide upwards from the bottom as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#9eff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f0f2f6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Trim Poster Goals",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Now Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, wide, and bold hero text (~5-6x body) with large, bold headings and smaller, functional body text, often accompanied by uppercase monospaced labels.",
+    "radius": "Sharp corners are dominant for content blocks and overall layout, with subtle rounding applied to interactive elements like buttons and input fields.",
+    "spacing": "Balanced to airy, with generous vertical padding between full-bleed sections and ample whitespace around key visual elements and text blocks."
+  },
+  "standout": "The aggressive and high-energy aesthetic is distinctive, driven by the bold, oversized typography, the pervasive use of a vibrant neon green accent, and the integration of high-fidelity 3D renders and video, creating a powerful, game-centric brand identity.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

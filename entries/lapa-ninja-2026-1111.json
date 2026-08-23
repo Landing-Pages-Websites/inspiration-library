@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-1111",
+  "source": {
+    "url": "https://perturbator.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1111.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1111__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1111__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1111__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "band",
+      "entertainment"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with centered, often oversized content, creating a strong vertical rhythm and visual impact."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic hierarchy with massive, condensed, uppercase sans-serif headings dominating the page, contrasting with smaller, simple sans-serif body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette primarily consisting of black backgrounds and white or light gray text, punctuated by occasional strong accent colors like deep blue and bright red."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header system where the 'NEW TOUR ANNOUNCEMENT' and 'PERTURBATOR' titles remain fixed at the top of the viewport, while the hero image and subsequent page content scroll *underneath* them."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent footer navigation bar that remains visible at the bottom of the viewport even as the main page content scrolls completely out of view."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a layered sticky header where key branding elements and a top announcement bar are fixed to the viewport, allowing subsequent content, including a large hero image, to scroll beneath them, creating a dynamic reveal effect. This likely uses CSS positioning and z-index.",
+    "A persistent footer navigation is fixed to the bottom of the viewport, ensuring access to main site links regardless of scroll position.",
+    "Content sections are primarily full-width, using large, bold typography and stark color contrasts to establish visual hierarchy and impact, often with generous vertical spacing between blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#CCCCCC",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#003366",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent-red"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, condensed, uppercase headings (up to ~8x body) create a dominant, aggressive character, with smaller uppercase labels for context.",
+    "radius": "sharp",
+    "spacing": "Very airy in hero and main title areas, transitioning to a balanced density in content and list sections."
+  },
+  "standout": "The site's design is distinctive for its unapologetically brutalist aesthetic, leveraging extreme typographic scale and a stark black-and-white palette to create a powerful, almost confrontational user experience. The unique sticky header, where the main title reveals itself as content scrolls underneath, adds a dynamic and memorable interaction that elevates it beyond a standard band page.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
