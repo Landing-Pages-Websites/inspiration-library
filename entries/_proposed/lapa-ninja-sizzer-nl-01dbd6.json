@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-sizzer-nl-01dbd6",
+  "source": {
+    "url": "https://sizzer.nl/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sizzer-nl-01dbd6.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sizzer-nl-01dbd6__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sizzer-nl-01dbd6__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sizzer-nl-01dbd6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "music-agency",
+      "advertising"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with stark black or white backgrounds, often featuring oversized typography or immersive media content."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif typography is used as primary visual elements and section titles, contrasting with smaller, regular-weight sans-serif text for body copy and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is punctuated by vibrant, almost neon, accent colors (pink, blue, cyan, green) used sparingly for underlines, small graphic elements, or subtle highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Large typographic elements and background media scroll with a distinct parallax effect, appearing to move slower than the foreground content, while new content sections reveal themselves with a subtle slide-up or fade-in as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are frequently introduced by a single, massive typographic statement that acts as a visual anchor or divider, often spanning the full width of the viewport."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header remains fixed at the top of the viewport, maintaining navigation access. Large background elements and oversized text blocks are implemented with a scroll-based parallax effect, making them appear to move at a different speed than the main content. Content sections are revealed using scroll-triggered animations, such as a subtle fade-up or slide-in, as they become visible within the viewport. The overall smooth scrolling experience is enhanced by a library like locomotive-scroll, while dynamic content like carousels or galleries might leverage swiper for interactive elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#e7e7e7",
+        "role": "surface"
+      },
+      {
+        "hex": "#e54aee",
+        "role": "accent"
+      },
+      {
+        "hex": "#1e27e7",
+        "role": "accent"
+      },
+      {
+        "hex": "#83f9f9",
+        "role": "accent"
+      },
+      {
+        "hex": "#7ff749",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "AkzidenzGroteskBE-Md",
+        "role": "heading"
+      },
+      {
+        "family": "AkzidenzGroteskBE-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-6x body) dominate the page as visual elements, complemented by smaller, regular-weight sans-serif body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy, particularly around large typographic elements and between major sections, creating a sense of spaciousness and visual impact."
+  },
+  "standout": "The site's distinctive use of monumental, bold typography as both primary visual elements and structural section breaks, combined with a high-contrast black and white palette accented by unexpected neon colors, creates a powerful and editorial aesthetic that feels more like an art installation than a typical agency website.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

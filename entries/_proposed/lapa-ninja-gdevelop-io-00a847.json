@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-gdevelop-io-00a847",
+  "source": {
+    "url": "https://gdevelop.io/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-gdevelop-io-00a847.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-gdevelop-io-00a847__scroll0.webp",
+      "shots/_proposed/lapa-ninja-gdevelop-io-00a847__scroll1.webp",
+      "shots/_proposed/lapa-ninja-gdevelop-io-00a847__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "game-development",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often featuring large, centered illustrations or 3D models that break out of the content container."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark primary palette (purples, blues, black) provides a sophisticated backdrop, contrasted with vibrant, playful accent colors (lime green, bright yellow, electric blue, orange) for CTAs and illustrative elements."
+    },
+    {
+      "kind": "type",
+      "note": "Impactful, large-scale sans-serif headings are used for primary messaging, often in white against dark backgrounds, while body text maintains high readability with a clean, modern sans-serif."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport upon scroll, and the hero section features a dynamic, looping video or canvas animation in its background. Sections below the hero appear to reveal themselves with a subtle animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently integrate pixel-art style game assets and modern 3D character models directly into the layout, visually reinforcing the product's game development focus."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero section utilizes a dynamic background (likely a video or canvas animation) to create an immersive and engaging first impression, while overlaying high-contrast text and a prominent call-to-action.",
+    "The primary navigation bar is implemented as a sticky element, ensuring it remains visible and accessible at all times as the user scrolls down the page.",
+    "Content sections are designed to animate into view as they become visible in the viewport, typically using a subtle fade-up or slide-in effect, enhancing the user's scrolling experience. This likely leverages CSS keyframes or a JavaScript animation library."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1d26",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f7",
+        "role": "text"
+      },
+      {
+        "hex": "#213899",
+        "role": "background"
+      },
+      {
+        "hex": "#6689db",
+        "role": "accent"
+      },
+      {
+        "hex": "#fed501",
+        "role": "accent"
+      },
+      {
+        "hex": "#00e676",
+        "role": "cta"
+      },
+      {
+        "hex": "#ff8569",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Aeonik",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~2-3x body text) create strong visual hierarchy, complemented by clean, readable body text and smaller, often uppercase, labels.",
+    "radius": "Subtle rounding (small radius) is applied consistently to buttons, cards, and interactive elements, providing a friendly yet modern feel.",
+    "spacing": "Balanced to airy density, with generous vertical spacing between major sections and within content blocks, contributing to a clean and uncluttered layout."
+  },
+  "standout": "This site distinctively merges a sophisticated, dark-themed SaaS aesthetic with playful, vibrant game-centric visuals, including pixel art and 3D character models. The dynamic hero background and integrated illustrations create an engaging and unique brand identity that clearly communicates its purpose as a game development platform.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

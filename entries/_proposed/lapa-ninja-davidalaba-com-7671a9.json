@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-davidalaba-com-7671a9",
+  "source": {
+    "url": "https://www.davidalaba.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-davidalaba-com-7671a9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-davidalaba-com-7671a9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-davidalaba-com-7671a9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-davidalaba-com-7671a9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "personal-brand",
+      "non-profit"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a full-bleed background image with oversized, fragmented typographic elements and abstract color blocks overlaid."
+    },
+    {
+      "kind": "type",
+      "note": "An extreme typographic scale is used, with hero headings being many times larger than body text, often broken into multiple lines or sections."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white palette is dominant, accented by bold, flat primary colors (red, blue, purple) used as graphic blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "On scroll, the hero's large typographic elements and colored blocks animate out of view, while a large 'DA' logo scales down and repositions from the center of the screen to become a fixed element in the top navigation bar."
+    },
+    {
+      "kind": "section",
+      "note": "The footer consistently uses a dark background with light text, featuring a clear 'Get in touch' call to action and social media links."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a video-hero style background with text and graphic overlays. On scroll, these overlay elements (text, colored blocks) are animated to disappear, likely using GSAP to control their opacity and position.",
+    "A prominent brand logo initially appears full-screen after the hero content, then dynamically scales down and translates its position to dock within the sticky header navigation as the user scrolls further down the page, creating a seamless transition from a brand statement to a functional navigation element.",
+    "The site uses GSAP for scroll-triggered animations, orchestrating the complex sequence of hero element dismissal, background transition from image to solid color, and the logo's scaling and repositioning into the sticky navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#D82020",
+        "role": "accent"
+      },
+      {
+        "hex": "#6A70D8",
+        "role": "accent"
+      },
+      {
+        "hex": "#9C9C9C",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed headings (~8x body) with a bold character, contrasted with smaller, regular-weight body and navigation text.",
+    "radius": "Sharp, with all elements featuring crisp corners.",
+    "spacing": "Very airy in the hero section, creating a dramatic visual impact, transitioning to a balanced density in the footer and content areas with generous vertical spacing between major sections."
+  },
+  "standout": "This site's design is distinctive for its dramatic, oversized typographic hero that uses fragmented text and abstract color blocks as primary graphic elements. The most unique feature is the dynamic logo animation on scroll, where a large, full-screen brand mark scales down and seamlessly integrates into the sticky navigation, creating a memorable and sophisticated brand reveal.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-mobbin-com-d26f60",
+  "source": {
+    "url": "https://mobbin.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-mobbin-com-d26f60.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-mobbin-com-d26f60__scroll0.webp",
+      "shots/_proposed/lapa-ninja-mobbin-com-d26f60__scroll1.webp",
+      "shots/_proposed/lapa-ninja-mobbin-com-d26f60__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "saas",
+      "ui-ux"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a central, constrained content area, often featuring asymmetrical arrangements of visuals and text."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with oversized, bold sans-serif headings for primary messaging and lighter-weight sans-serif for body text and descriptive labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is accented with a vibrant green for the brand logo and bright blue and red for interactive elements like buttons and links."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary header dynamically transforms from a transparent, minimal state to a compact, solid black bar with prominent call-to-action buttons as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A horizontal carousel of brand logos scrolls continuously, showcasing companies that trust the service."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently use a card-based layout to display app screens, UI elements, and user flows, providing visual examples of the platform's content."
+    }
+  ],
+  "technique_notes": [
+    "The header uses CSS keyframes to transition its background color, padding, and the visibility/styling of its internal elements (like buttons) as the scroll position changes, creating a sticky, transforming navigation bar.",
+    "Content sections below the hero likely employ scroll-triggered animations, such as fade-ins or subtle slide-ups, to reveal elements as they enter the viewport, enhancing engagement.",
+    "The app logo carousel is implemented as a horizontally scrolling container, potentially with an auto-play feature, to display a continuous stream of brand endorsements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#141414",
+        "role": "surface"
+      },
+      {
+        "hex": "#ADADAD",
+        "role": "text"
+      },
+      {
+        "hex": "#0065FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#CE2B04",
+        "role": "accent"
+      },
+      {
+        "hex": "#57D727",
+        "role": "brand-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: M Saans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) provide strong visual anchors, complemented by a lighter-weight sans-serif for readable body text and small uppercase labels.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, input fields, and content cards, softening the overall aesthetic without appearing overly playful.",
+    "spacing": "A balanced density is used throughout, with an airy hero section providing ample breathing room, transitioning to a more compact but still well-spaced grid for feature and testimonial sections."
+  },
+  "standout": "This site's design stands out by leveraging a clean, high-contrast aesthetic to frame a rich, interactive library of UI patterns and flows. The dynamic, transforming sticky header is a particularly polished detail, enhancing navigation without sacrificing visual appeal. The site effectively uses its own design to exemplify the quality of the design inspiration it provides.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
