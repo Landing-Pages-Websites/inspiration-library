@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-dyotanya-com-e16cb4",
+  "source": {
+    "url": "https://dyotanya.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-dyotanya-com-e16cb4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-dyotanya-com-e16cb4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-dyotanya-com-e16cb4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-dyotanya-com-e16cb4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-services",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, organic layouts with large, flowing, hand-drawn lines that visually connect and separate content sections, breaking traditional grid rigidity."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a highly decorative, large-scale serif font for primary headlines, contrasted with a clean sans-serif for body text, creating a distinct editorial and artistic voice."
+    },
+    {
+      "kind": "color",
+      "note": "A limited, cool-toned palette of light blue, dark blue, and off-white, used in full-bleed section backgrounds, with black text and occasional vibrant red accents from imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, often accompanied by full-bleed background color transitions and a subtle parallax effect on the hero background image and decorative lines."
+    },
+    {
+      "kind": "section",
+      "note": "Numbered sections (01, 02, etc.) serve as prominent visual markers, introducing content blocks with large, expressive titles and often featuring client or project cards connected by organic lines."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using scroll-triggered animations (likely css-keyframes or a JS library like GSAP ScrollTrigger), where elements fade in and slide up as they enter the viewport. The hero background image and decorative lines employ a parallax effect, scrolling at a different rate than the foreground content. Full-bleed background colors transition smoothly between sections.",
+    "Large, SVG-based or image-based organic lines are positioned absolutely or relatively within sections, often extending beyond section boundaries and interacting with text and images, sometimes with z-index manipulation to create depth.",
+    "A display-style serif font is used for impactful, oversized headlines, often with custom letter-spacing and line-height, while a highly legible sans-serif is used for all other text, ensuring readability despite the artistic layout."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#81aed9",
+        "role": "light-background"
+      },
+      {
+        "hex": "#f5f5f3",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#4f4f4f",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#c9c9c9",
+        "role": "line-detail"
+      },
+      {
+        "hex": "#db261b",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "line-icon"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Simeiz",
+        "role": "heading"
+      },
+      {
+        "family": "Manrope",
+        "role": "body"
+      },
+      {
+        "family": "Suisse Intl",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, decorative serif headings (~4-5x body text) with a mix of regular and slightly smaller sans-serif for body and labels, creating a strong visual hierarchy.",
+    "radius": "Subtle rounding on cards and buttons, with some elements like contact icons featuring full pill-like curves, contributing to a soft and approachable feel.",
+    "spacing": "Airy, especially in the hero and between major sections, with generous padding that allows elements to breathe, while some content groupings are more dense."
+  },
+  "standout": "The most distinctive feature is the integration of large, hand-drawn, organic lines that flow across different sections and interact with text and images, creating a unique, artistic, and cohesive visual narrative. This, combined with the expressive serif typography and asymmetrical layouts, gives the site a highly personalized and memorable aesthetic that breaks from typical grid-based designs.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "lapa-ninja-garden-eight-com-46429b",
+  "source": {
+    "url": "https://garden-eight.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-garden-eight-com-46429b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-garden-eight-com-46429b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-garden-eight-com-46429b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-garden-eight-com-46429b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "digital-studio",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-viewport sections dominate the page, with content presented as distinct, immersive screens rather than a continuous scrollable flow."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic contrast is used, featuring an oversized, highly decorative serif font for hero statements and a small, clean, uppercase sans-serif for navigation and secondary text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast dark mode palette is consistently applied, with near-black backgrounds and light text, creating a sophisticated and minimal aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon initial scroll, the entire hero section, including the large typographic statement and navigation, completely disappears and is replaced by a new, minimal full-screen section with different content ('GARDEN ZERO')."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content block functions as a full-screen 'chapter' that takes over the viewport, emphasizing a deliberate, sequential viewing experience."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-page content transition system, likely using a custom scroll library like locomotive-scroll, where the initial hero section scrolls entirely out of view to reveal a subsequent, distinct full-screen section. This creates a dramatic, almost chapter-like progression rather than a continuous scroll, with the transition appearing as a direct swap or fade-out/fade-in of entire screen states.",
+    "Typography is a primary design element, with a custom decorative display font used for large, impactful statements and a clean, legible sans-serif for all functional and smaller text, maintaining a clear visual hierarchy despite the minimal content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1e1f1f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Gunsan",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Lausanne",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, decorative serif hero text (~8-10x body text) contrasted with small, uppercase, thin sans-serif navigation and body text.",
+    "radius": "sharp",
+    "spacing": "very airy, with significant negative space around all elements, especially in full-screen sections."
+  },
+  "standout": "This site's design is distinctive for its dramatic, full-screen content transitions that completely replace the viewport rather than simply revealing new content below the fold. It creates an immersive, almost cinematic experience, using extreme typographic scale and a stark palette to make bold, minimal statements.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-foundry-basement-studio-6e4efb",
+  "source": {
+    "url": "https://foundry.basement.studio/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-foundry-basement-studio-6e4efb.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-foundry-basement-studio-6e4efb__scroll0.webp",
+      "shots/_proposed/lapa-ninja-foundry-basement-studio-6e4efb__scroll1.webp",
+      "shots/_proposed/lapa-ninja-foundry-basement-studio-6e4efb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "typography",
+      "design",
+      "digital-products",
+      "font-foundry"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed-position left sidebar navigation provides persistent access to site sections, while the main content area scrolls independently."
+    },
+    {
+      "kind": "type",
+      "note": "The site heavily features custom, display-oriented typefaces for headings and product showcases, contrasted with a small, monospaced font for labels and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of black and white is consistently used, with a single vibrant orange/red as the primary accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a dynamic, abstract orange graphic that animates and then settles into a static, textured background as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, stylized 3D outline of 'BSMNT' is positioned as a fixed background element at the bottom of the page, gradually revealing itself as the user scrolls past the main content sections."
+    },
+    {
+      "kind": "section",
+      "note": "Each typeface product is presented in its own full-width section, featuring a large preview of the font name and minimal metadata."
+    }
+  ],
+  "technique_notes": [
+    "A fixed-position left sidebar navigation is implemented, allowing the main content area to scroll independently alongside it.",
+    "The hero section utilizes a full-bleed, dynamic background (likely a video or canvas animation) that plays upon page load and then transitions into a static, textured background as the user scrolls down.",
+    "Large, stylized 3D text is used as a fixed background element at the bottom of the page, creating a sense of depth and revealing itself as the foreground content scrolls over it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF4500",
+        "role": "accent"
+      },
+      {
+        "hex": "#EF4400",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "BASEMENT GROTESQUE",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, custom display fonts for headings and typeface previews (~8-10x body) with small, monospaced uppercase labels and body text.",
+    "radius": "Sharp, with all corners and elements maintaining a strict 90-degree angle.",
+    "spacing": "Airy, with generous vertical spacing between sections and a clear, structured grid for content presentation."
+  },
+  "standout": "This site's design is distinctive for its brutalist, high-contrast aesthetic, driven by custom, highly stylized display typefaces and a stark black-and-orange color scheme. The dynamic hero animation and the large, fixed 3D text at the bottom create a memorable, almost industrial-art feel that elevates it beyond a typical font showcase.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

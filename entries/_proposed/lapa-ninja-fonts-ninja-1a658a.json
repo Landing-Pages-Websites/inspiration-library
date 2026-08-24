@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-fonts-ninja-1a658a",
+  "source": {
+    "url": "https://fonts.ninja/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-fonts-ninja-1a658a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-fonts-ninja-1a658a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-fonts-ninja-1a658a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-fonts-ninja-1a658a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "typography",
+      "design",
+      "font-library"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width, oversized typographic hero dominates the initial viewport, followed by a descriptive paragraph, and then a dense, responsive grid of content cards."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a dramatic, monumental serif typeface for its primary brand identity in the hero section, contrasting with a clean, readable sans-serif for all body text, navigation, and card details."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette of off-white backgrounds and black text is punctuated by a vibrant reddish-orange accent color used for interactive elements like links, CTAs, and the cookie banner."
+    },
+    {
+      "kind": "motion",
+      "note": "The oversized hero text scrolls upwards and out of the viewport, smoothly revealing the content grid below it, while the header and a cookie banner remain fixed in place."
+    },
+    {
+      "kind": "section",
+      "note": "The main content area is structured as a uniform grid of individual font showcase cards, each featuring a large 'Aa' example, the font name, and style count, with subtle borders and shadows."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered reveal where the initial hero content, featuring monumental typography, translates vertically out of view as the user scrolls, allowing the main content grid to seamlessly take its place. The primary navigation and a persistent notification banner are fixed to the viewport, maintaining accessibility.",
+    "Content cards are presented in a flexible grid layout with subtle box shadows and rounded corners, providing visual separation and a clean aesthetic for each font example."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f8f8f8",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e03131",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Newsreader",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold serif hero title (~8-10x body) with a clear, readable sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounding for cards and buttons.",
+    "spacing": "Balanced to airy, with generous padding around the hero text and consistent spacing within the content grid."
+  },
+  "standout": "The site's distinctive feature is the monumental, full-width serif typography used for its primary branding, which acts as a dramatic visual anchor before smoothly scrolling away to reveal the content. This creates an immediate, strong brand impression and sets a sophisticated tone.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

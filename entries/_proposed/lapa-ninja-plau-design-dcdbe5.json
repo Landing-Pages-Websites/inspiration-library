@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-plau-design-dcdbe5",
+  "source": {
+    "url": "https://plau.design/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-plau-design-dcdbe5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-plau-design-dcdbe5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-plau-design-dcdbe5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-plau-design-dcdbe5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "typography",
+      "font-foundry"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width layout with content centered within a max-width container, featuring a unique, extremely long, scrollable section dedicated to showcasing numerous font families with interactive controls."
+    },
+    {
+      "kind": "type",
+      "note": "Typography is a primary visual element, with oversized, expressive display headings and font examples that are central to the site's content and aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant accent red/pink is consistently used for interactive elements and CTAs, providing a strong contrast against a predominantly monochromatic (black, white, various greys) base palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms from a transparent, minimal state to a compact white bar with more prominent navigation buttons and a filter dropdown as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The site features a distinctive 'font showcase' section, presenting a large number of font families each with individual interactive sliders and buttons to adjust weight, size, and other properties."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video with a subtle color overlay, playing automatically to set an immediate mood.",
+    "A sticky header dynamically transforms upon scroll, shrinking in height, changing its background from transparent to solid white, and adjusting the visibility and styling of its navigation elements (e.g., text links become prominent buttons). This effect could be achieved with CSS transitions triggered by JavaScript scroll events (anime-js or custom JS).",
+    "Interactive elements within the font showcase allow users to manipulate font properties in real-time, likely using JavaScript to update CSS variables or classes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E4003F",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A756E",
+        "role": "hero-background"
+      },
+      {
+        "hex": "#F1F1F1",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Vinila Regular",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Material Icons",
+        "role": "icon"
+      }
+    ],
+    "type_scale": "Oversized, expressive display headings (e.g., 'Grama, \u00e9 do Brasiiiiii!') and font examples are several times larger than the legible body text, often using bold or unique weights for impact.",
+    "radius": "Subtle (buttons, video player card, input fields), indicating a modern and approachable feel.",
+    "spacing": "Balanced overall, with airy sections for the hero and main content blocks, contrasting with a dense, vertically stacked grid for the interactive font showcase."
+  },
+  "standout": "The site's primary distinction is its deep focus on typography, manifested in an exceptionally long, interactive font showcase section that allows users to manipulate font properties in real-time. This, combined with a bold, playful hero video and expressive display typography, makes the site a unique resource for type enthusiasts and designers.",
+  "animation_tech": [
+    "anime-js",
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-victor-work-871db5",
+  "source": {
+    "url": "https://victor.work/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-victor-work-871db5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-victor-work-871db5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-victor-work-871db5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-victor-work-871db5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "design-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are full-bleed, often featuring large, centrally aligned typographic elements or imagery that span the full width, creating strong visual anchors and clear content divisions."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses extremely oversized, condensed sans-serif typography for major headings and section titles, which are treated as primary visual elements rather than just text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is employed, primarily using a dark navy/black, an off-white/beige, and a vibrant red as a dominant accent color for key elements and branding."
+    },
+    {
+      "kind": "motion",
+      "note": "An initial loading screen presents a large brand name and descriptive text, followed by a 'Start Exploring' button that animates from an outline to a filled state. On the main page, large typographic elements appear designed for dynamic, scroll-triggered transformations or reveals, suggesting a staggered or parallax effect as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections (e.g., 'PROJECTS', 'SERVICES') are introduced by monumental, often fragmented or layered, typographic headings that serve as both navigational cues and artistic statements."
+    }
+  ],
+  "technique_notes": [
+    "An initial full-screen overlay presents a brand statement and a call to action, which animates from an outline to a filled state before transitioning to the main content.",
+    "The site employs a sophisticated scroll-driven animation system (likely using locomotive-scroll with canvas/WebGL) to reveal and transform oversized typographic elements and content sections as they enter the viewport, creating a dynamic, almost interactive reading experience.",
+    "Content sections utilize full-width layouts with strong visual hierarchy, often featuring large imagery or video backgrounds with text overlays to maintain visual interest and focus."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#231f20",
+        "role": "background"
+      },
+      {
+        "hex": "#F0EDE6",
+        "role": "surface"
+      },
+      {
+        "hex": "#ad1519",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#c8b100",
+        "role": "accent"
+      },
+      {
+        "hex": "#058e6e",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "a2g",
+        "role": "heading"
+      },
+      {
+        "family": "ev-regular",
+        "role": "body"
+      },
+      {
+        "family": "ev-light",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed sans-serif headings (~8-10x body text) create strong visual impact, contrasted with a clear, readable sans-serif for body copy and smaller uppercase labels.",
+    "radius": "Sharp corners throughout, maintaining a crisp and modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and large typographic elements, creating a sense of grandeur and allowing content to breathe."
+  },
+  "standout": "The site's most distinctive feature is its bold, dynamic typography, where oversized, fragmented text elements are not just static headings but appear to be interactive, scroll-triggered visual components that define the page's rhythm and reveal content with a strong, almost architectural presence.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
