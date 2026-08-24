@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-2026-1145",
+  "source": {
+    "url": "https://www.lift-type.fr/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1145.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1145__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1145__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1145__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "typography",
+      "design",
+      "creative-services",
+      "font-foundry"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A grid-like arrangement of full-width, distinctively colored blocks, each showcasing a different font family with its name in white text."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme variation in display typography, with each font example presented in an oversized, bold, and unique style, contrasting with small, understated sans-serif UI text."
+    },
+    {
+      "kind": "color",
+      "note": "Use of highly saturated, often primary or secondary, distinct background colors for each font example block, creating a vibrant and energetic visual rhythm."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text disappears on scroll, replaced by a transforming sticky header and a large, stylized graphic element that reveals as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated sections for 'Custom Fonts' and 'In Use' feature image-based examples, breaking the grid of color blocks with more editorial content."
+    }
+  ],
+  "technique_notes": [
+    "Sections reveal with a subtle fade-up or slide-in effect as they enter the viewport, likely orchestrated by a scroll-triggering library like GSAP to create a dynamic content flow.",
+    "The initial hero content transitions out upon scrolling, and a new, more detailed sticky header appears, along with a large, illustrative graphic that animates into view.",
+    "Full-width, distinctively colored blocks are used to visually separate and highlight individual font families, acting as interactive cards within the content stream."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FBF6E9",
+        "role": "background"
+      },
+      {
+        "hex": "#010E9A",
+        "role": "accent"
+      },
+      {
+        "hex": "#4C228C",
+        "role": "accent"
+      },
+      {
+        "hex": "#82E298",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFC382",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF5C33",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Spinelo",
+        "role": "display"
+      },
+      {
+        "family": "Ocalie",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, and varied display headings (up to ~10x body) with small, understated sans-serif body text and labels, emphasizing the unique character of each font.",
+    "radius": "Sharp corners throughout, with no visible rounded elements, contributing to a clean and modern aesthetic.",
+    "spacing": "Balanced spacing within content blocks, but very airy between major sections, especially the initial hero and the large font examples, creating a sense of spaciousness."
+  },
+  "standout": "The site's most distinctive feature is its unapologetic and playful celebration of diverse, bold typography, using each font as a primary visual element within a vibrant, full-width color block grid. The dynamic hero transition and scroll-triggered reveals add to its artistic and experimental feel, making it a living portfolio of type.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

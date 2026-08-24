@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-1162",
+  "source": {
+    "url": "https://www.zendaya.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1162.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1162__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1162__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1162__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "entertainment",
+      "celebrity",
+      "fashion"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Oversized typographic elements serve as primary visual anchors and section dividers, dominating the page's visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "A single, extremely bold and condensed sans-serif typeface is used for the main brand name and section titles, creating a strong, almost architectural visual identity."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, muted beige background provides a soft, sophisticated contrast to the dark, heavy typography and vibrant imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, brand-name text element and a central image that parallax and move upwards at a slightly slower rate than the page scroll, eventually animating out of view to reveal the main content."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation transforms from a larger, more spread-out state to a compact, sticky bar with smaller text and a page indicator dot upon scrolling down."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, each introduced by a large, bold typographic heading that acts as a visual landmark."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented that dynamically reduces its height, font size, and letter spacing, and adds a subtle active page indicator dot when the user scrolls past the initial hero section.",
+    "The hero section utilizes a scroll-triggered animation (likely using webgl-three or css-keyframes) where a large, dominant text element and a central image move upwards at a slightly slower rate than the page scroll, creating a parallax effect, eventually animating out of view to reveal the main content.",
+    "Content sections are presented with a clean, minimal layout, using large typographic headings to define each area, often with a full-bleed image or a grid of related content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EAE3D9",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#C8503F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Oxanium",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: interface",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: eurostile-extended",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed sans-serif for hero and section titles (~8-10x body text), with a clear hierarchy down to smaller, readable sans-serif for body copy.",
+    "radius": "Subtle rounding on the hero image container and the email input field; otherwise, sharp corners dominate the design.",
+    "spacing": "Very airy in the hero section, balanced and comfortable for body text, with generous vertical spacing between major content blocks."
+  },
+  "standout": "The site's distinctive use of massive, bold typography as both a hero element and primary section dividers, combined with a subtle parallax scroll effect, creates a powerful, editorial, and almost architectural feel that elevates the content beyond a typical celebrity portfolio.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "lapa-ninja-2026-1126",
+  "source": {
+    "url": "https://aubreyemlyn.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1126.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1126__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1126__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1126__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-services",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width, fixed header persists at the top, while the main content area below it uses a flexible grid to display portfolio items."
+    },
+    {
+      "kind": "type",
+      "note": "A minimalist sans-serif typeface is used for all primary text, complemented by a subtle monospaced font for numerical labels, creating a clean and structured hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring a deep charcoal background with crisp light grey text, accented by a single vibrant red for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The site header remains sticky at the top of the viewport as the user scrolls down, ensuring navigation is always accessible."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio projects are uniformly presented within a grid, each entry including a sequential number, project title, category, and date, maintaining a consistent information architecture."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the visual style, use a deep charcoal background with light grey text for high contrast. Apply a clean, modern sans-serif for all primary text, and a monospaced font for subtle numerical details.",
+    "The motion system employs a CSS-based sticky positioning for the main header, keeping it fixed at the top of the browser window as the page content scrolls underneath. No other scroll-triggered reveals or animations are observed on content sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#141414",
+        "role": "background"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "text"
+      },
+      {
+        "hex": "#EB1313",
+        "role": "accent"
+      },
+      {
+        "hex": "#C2C2C2",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Cousine",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Relatively flat, with small uppercase navigation and slightly larger project titles, all using a clean sans-serif.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, with generous padding around grid items and in the header/footer."
+  },
+  "standout": "The site's standout feature is its stark, high-contrast dark theme combined with a minimalist, almost brutalist grid presentation of portfolio work. The use of a subtle mono font for numbering adds a unique, almost technical, touch to the otherwise clean sans-serif typography.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

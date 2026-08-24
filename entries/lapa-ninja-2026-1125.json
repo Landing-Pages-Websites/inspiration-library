@@ -1,0 +1,103 @@
+{
+  "id": "lapa-ninja-2026-1125",
+  "source": {
+    "url": "https://arcr.ru/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1125.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1125__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1125__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1125__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed, text-heavy layout where large typographic elements define section boundaries and visual hierarchy, with minimal use of imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic scale contrast, featuring massive, bold sans-serif headings that dominate the screen, paired with much smaller, widely tracked uppercase sans-serif text for labels and body content."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast dark mode palette with a deep charcoal background and bright white text, accented by subtle light grey for secondary information and dividing lines."
+    },
+    {
+      "kind": "motion",
+      "note": "The top-left logo and top-right navigation remain sticky at the top of the viewport as the user scrolls. Large typographic section titles appear to animate into view, likely with a subtle fade and/or slide effect, as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented as full-width, stacked typographic blocks, each featuring a large project title and a small descriptive label, creating a distinct visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header is implemented by fixing the navigation and logo elements to the top of the viewport, ensuring persistent access. Scroll-triggered animations, likely using a library like locomotive-scroll or anime-js, are used to reveal large text blocks and section titles with a staggered fade-in or subtle slide-up effect as they become visible, enhancing engagement as the user scrolls down the page.",
+    "The visual impact is primarily driven by oversized, bold sans-serif typography, where text is treated as a primary graphic element. This is achieved by setting font sizes to occupy a significant portion of the viewport height and width, with generous letter-spacing for smaller, uppercase labels."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#23272d",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#dfe3e8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Neue Medium",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Regular",
+        "role": "body"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold headings (~5x body text height) with small, widely tracked uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical spacing between major sections and within the hero, creating a sense of grandeur and focus."
+  },
+  "standout": "The site's design is distinctive for its extreme, almost architectural, use of typography as the primary visual and structural element. It eschews traditional imagery in favor of massive, bold text blocks that define the page's rhythm and hierarchy, making the content itself the dominant design feature.",
+  "animation_tech": [
+    "anime-js",
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "approved"
+}

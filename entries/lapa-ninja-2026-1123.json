@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1123",
+  "source": {
+    "url": "https://www.adamho.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1123.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1123__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1123__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1123__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial hero section features a dense, overlapping composition of large numbers and text, which dynamically re-arranges and spreads out upon scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif numbers are used as primary visual elements in the hero, often overlapping and serving as abstract design components rather than purely informational ones."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, high-contrast color palette is used for accents, large numbers, and scroll-triggered background shifts, creating a playful and energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section undergoes a dramatic scroll-triggered transformation: large numbers and text elements spread out, scale, and fade, while the background color transitions from white to a vibrant pink, then back to white as new content is revealed."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a 'hero-as-interactive-art' section that completely transforms into a more conventional 'about' section and then a project grid, rather than a static hero."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a complex, scroll-driven animation system (likely using canvas or CSS keyframes with JavaScript for scroll-triggering) to dynamically re-arrange, scale, and fade large numerical and textual elements. This is coupled with full-screen background color transitions that are also tied to scroll depth, creating a fluid and interactive reveal of content.",
+    "Project thumbnails use a simple hover effect where the image slightly scales up and a text overlay appears, providing project details."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#e362d3",
+        "role": "accent"
+      },
+      {
+        "hex": "#eaff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0095ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#948eff",
+        "role": "accent"
+      },
+      {
+        "hex": "#c7f3c6",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display numbers (~5-10x body text) are used as abstract visual elements, contrasted with standard-sized, readable sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "Very dense and overlapping in the initial hero, transitioning to a balanced and airy layout for content sections."
+  },
+  "standout": "This site's design is highly distinctive for its interactive, almost chaotic, and colorful hero section that uses large numbers and text as abstract visual elements. The dramatic scroll-triggered transformation of this hero, including background color shifts and element re-arrangement, creates a unique and memorable first impression that feels more like an art installation than a typical website.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

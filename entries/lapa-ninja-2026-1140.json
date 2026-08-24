@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-1140",
+  "source": {
+    "url": "https://www.gt-planar.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1140.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1140__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1140__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1140__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "typography",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site features a multi-stage interactive introduction, starting with a full-screen circuit-board aesthetic, transitioning to a dynamic HUD interface, before finally revealing the main content page on scroll."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode is consistently used, featuring black backgrounds, white text, and distinct neon accent palettes that shift across different interactive stages (green/purple for initial load, red/white for HUD, then subtle red/orange gradients for content graphics)."
+    },
+    {
+      "kind": "type",
+      "note": "Display typography is characterized by extremely large, bold sans-serif headings that command attention, contrasted with smaller, often monospaced or technical-looking text for UI elements and detailed descriptions."
+    },
+    {
+      "kind": "motion",
+      "note": "The entire page experience is driven by a sequential reveal: an initial full-screen graphic transitions to an interactive HUD with a central warp animation, which then completely disappears on scroll to reveal the main content, with elements fading and sliding into view."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections on the main page are visually separated by generous vertical spacing and often feature large, singular graphical elements or animated illustrations that relate to the surrounding text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated, multi-stage interactive introduction using canvas and Lottie animations. This sequence starts with an initial full-screen graphic, transitions to a dynamic HUD with a central animation, and then fully unmounts or transitions out on scroll to reveal the main content. Subsequent content sections are revealed with scroll-triggered fade-in and subtle transform animations.",
+    "A strong grid system underpins the layout, providing precise alignment for both interactive UI elements and static content, often subtly reinforced by background grid lines or crosshair markers.",
+    "Typography is used as a primary visual element, with extremely large, bold sans-serif headings creating dramatic impact against a dark background, complemented by a secondary, more technical typeface for UI and body text."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#00FF85",
+        "role": "accent"
+      },
+      {
+        "hex": "#6100FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "hex": "#606060",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: GT Planar",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (~4-5x body text) create strong visual anchors, complemented by smaller, often monospaced, technical labels and body text.",
+    "radius": "Sharp \u2014 all elements feature crisp, angular corners, reinforcing a precise, technical aesthetic.",
+    "spacing": "Airy \u2014 generous negative space surrounds content blocks and large headings, creating a sense of precision and focus, especially in the main content sections."
+  },
+  "standout": "The site's most distinctive feature is its elaborate, multi-stage interactive introduction that completely transforms the user experience from an immersive, animated interface into a minimalist, typography-focused content page on scroll. This dramatic narrative progression and visual transformation create a highly memorable and engaging first impression.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "approved"
+}
