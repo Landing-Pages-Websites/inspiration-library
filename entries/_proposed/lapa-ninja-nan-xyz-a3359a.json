@@ -1,0 +1,123 @@
+{
+  "id": "lapa-ninja-nan-xyz-a3359a",
+  "source": {
+    "url": "https://www.nan.xyz/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-nan-xyz-a3359a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-nan-xyz-a3359a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-nan-xyz-a3359a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-nan-xyz-a3359a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "type-design",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections often feature asymmetrical compositions with large, custom typographic elements and dynamic graphics, breaking from traditional grid layouts for visual impact."
+    },
+    {
+      "kind": "type",
+      "note": "Extensive use of highly distinctive, custom display typefaces for headings and featured content, often at very large scales, creating a strong visual identity and acting as primary design elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme dominated by a vibrant, almost neon, lime green (#00ff00) as a background and accent, paired with stark black text and occasional saturated gradients for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a controlled, non-linear 'snapping' or 'unfolding' motion as the user scrolls, rather than a continuous smooth scroll, while the header remains sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Project and font showcase sections are introduced with large, unique typographic treatments and often feature raw, unpolished image grids, reinforcing the experimental and creative brand."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a scroll-driven animation library (likely locomotive-scroll) to create a distinct, non-linear scrolling experience. Instead of continuous smooth scrolling, content sections are revealed with a controlled, almost 'snapping' motion as they enter the viewport, giving a sense of deliberate progression. The main navigation remains fixed at the top of the screen.",
+    "Custom, highly stylized display fonts are used extensively for major headings and featured content, often at very large sizes, creating a strong visual identity. These are contrasted with more legible, but still unique, sans-serifs for body text and navigation.",
+    "A striking, high-contrast palette is used, primarily featuring a bright, almost neon lime green as a background and accent, paired with stark black text. Occasional vibrant gradients and saturated colors are introduced for specific calls to action or visual breaks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#00ff00",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent"
+      },
+      {
+        "hex": "#007cba",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NaNArchyOFFRegular_PREVIEW",
+        "role": "display"
+      },
+      {
+        "family": "NaNTrekExtendedMedium",
+        "role": "display"
+      },
+      {
+        "family": "NaNIndexPropRegular1",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very oversized, experimental display headings (~5-10x body text) with a mix of thin, regular, and bold weights, contrasted with small, functional uppercase labels and legible body text.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy in hero and display sections, with generous negative space around large type and graphics. Balanced in content grids and footer, maintaining clear separation."
+  },
+  "standout": "The site's most distinctive feature is its bold, experimental typography combined with a high-contrast, almost 'glitch art' aesthetic, particularly the vibrant lime green and black palette. The extensive use of custom, often unconventional typefaces as primary visual elements, alongside a subtly controlled scroll experience, creates a unique and memorable brand identity that feels both retro-digital and cutting-edge.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

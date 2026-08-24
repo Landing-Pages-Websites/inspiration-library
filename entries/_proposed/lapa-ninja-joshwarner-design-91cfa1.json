@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-joshwarner-design-91cfa1",
+  "source": {
+    "url": "https://www.joshwarner.design/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-joshwarner-design-91cfa1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-joshwarner-design-91cfa1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-joshwarner-design-91cfa1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-joshwarner-design-91cfa1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "graphic-design",
+      "web-design",
+      "3d-art"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-bleed hero image that transitions to a dark, structured content area with a four-column grid for services, maintaining a consistent dark background throughout."
+    },
+    {
+      "kind": "type",
+      "note": "A highly stylized, large display font is used for the hero's main message, contrasting with a clean, modern sans-serif for all body text, navigation, and labels, creating a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme dominates, featuring a deep charcoal background, bright white text, and subtle metallic gold accents primarily within the hero image, complemented by a vibrant green for 'available' status indicators."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section employs a parallax effect where the main text and a top-left status badge remain fixed in the viewport while the intricate background image scrolls behind them."
+    },
+    {
+      "kind": "motion",
+      "note": "The entire top navigation bar, including the logo and menu items, becomes sticky at the top of the viewport after the initial scroll, ensuring persistent access."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'Hire me' call-to-action button appears on the right side of the screen, sliding in or fading in, once the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by generous vertical spacing and a consistent dark background, with information presented in concise, digestible blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax scrolling effect where the main textual content and a small status badge are fixed to the viewport, while the large, detailed background image scrolls underneath them. This effect, along with other scroll-triggered reveals, is likely implemented using CSS keyframes and position properties, possibly orchestrated with JavaScript for precise timing and reveal points.",
+    "The primary navigation bar transitions from its initial position to a sticky state at the top of the viewport upon scrolling, ensuring persistent access to navigation links.",
+    "A secondary call-to-action button is revealed with a subtle slide-in or fade-in animation, triggered by scroll depth, to maintain visibility of the primary conversion goal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0f0f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#b8860b",
+        "role": "accent"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Display",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, expressive display text in the hero (~3-4x body) with clean, legible body text and smaller, uppercase labels for navigation and section titles.",
+    "radius": "Subtle (buttons and navigation items feature slightly rounded corners).",
+    "spacing": "Airy, particularly in the hero and between main sections, transitioning to a balanced density within the skills grid."
+  },
+  "standout": "The site's standout feature is its dramatic, high-contrast visual aesthetic, particularly the hero section which combines intricate 3D typography with natural elements on a dark background. This creates an immediate impression of artistic skill and sophistication, distinguishing it from typical portfolio sites that often rely on more conventional photography or flat graphics.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

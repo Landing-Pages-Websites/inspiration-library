@@ -1,0 +1,115 @@
+{
+  "id": "lapa-ninja-thekernference-com-60a2d5",
+  "source": {
+    "url": "https://www.thekernference.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-24"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-thekernference-com-60a2d5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-thekernference-com-60a2d5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-thekernference-com-60a2d5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-thekernference-com-60a2d5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "typography",
+      "conference",
+      "creative-community"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority",
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed, full-viewport orange border with vertical text on the sides creates a distinct framed content area, visually containing all page elements."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a highly decorative, custom script font for the main event title, contrasting with a classic serif for body text and a modern sans-serif for labels and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant orange is used as a dominant accent and framing color, complemented by a muted beige and dark green, with a secondary palette of bright, diverse colors for content cards and speaker profiles."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a scroll-triggered content swap, replacing initial promotional text and a call-to-action with a descriptive tagline and a grid of content cards as the user scrolls. Subsequent sections reveal by sliding up into view from the bottom."
+    },
+    {
+      "kind": "section",
+      "note": "The FAQ section uses an asymmetrical two-column layout with questions on the left and answers on the right, visually separated by a vertical line."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations, likely using a JavaScript library in conjunction with `css-keyframes`, reveal full-width content sections by translating them upwards into the viewport. The hero section employs a unique content transformation where initial text and a call-to-action are replaced by a different set of information and a grid of media cards as the user scrolls past a specific point. A fixed outer frame with vertical text and a top navigation bar remain sticky throughout the scroll.",
+    "The site utilizes a strong visual framing device with a fixed-position, full-viewport border, integrating vertical text elements into the side margins. Content areas within this frame use alternating background colors and patterns to delineate sections, often employing grid layouts for speaker profiles and content showcases."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF7F27",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F5ED",
+        "role": "background"
+      },
+      {
+        "hex": "#2F5F4F",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:decorative-script",
+        "role": "display"
+      },
+      {
+        "family": "griffith-gothic",
+        "role": "heading"
+      },
+      {
+        "family": "adobe-garamond-pro",
+        "role": "body"
+      },
+      {
+        "family": "commuters-sans",
+        "role": "label"
+      }
+    ],
+    "type_scale": "An oversized, highly decorative script display font for the main title, complemented by bold, uppercase sans-serif headings (~2-3x body) and a classic serif for body text.",
+    "radius": "sharp",
+    "spacing": "balanced to airy; generous vertical padding between sections, with a contained feel due to the fixed outer frame."
+  },
+  "standout": "The most distinctive feature is the strong, fixed orange border that frames the entire viewport, containing vertical text and creating a unique, editorial aesthetic. This, combined with the highly decorative main title font and the dynamic hero content transformation on scroll, makes the site feel more like an interactive art piece than a standard marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
