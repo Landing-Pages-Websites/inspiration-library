@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-spaceport-xyz-872717",
+  "source": {
+    "url": "https://www.spaceport.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-spaceport-xyz-872717.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-spaceport-xyz-872717__scroll0.webp",
+      "shots/_proposed/lapa-ninja-spaceport-xyz-872717__scroll1.webp",
+      "shots/_proposed/lapa-ninja-spaceport-xyz-872717__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "creative-industry",
+      "intellectual-property"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ an asymmetric two-column layout, balancing a primary text block on one side with a list of interactive elements or sub-features on the other."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a strong typographic hierarchy with oversized, bold sans-serif headings for impact, contrasted with a clean, readable sans-serif for body text and smaller, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, abstract gradient 'blob' serves as a central visual element in the hero, complemented by distinct, solid accent colors for feature cards that delineate different content categories."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic, abstract, gradient-like background element that subtly animates and shifts, creating a fluid and modern visual anchor for the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar does not stick to the top of the viewport; it scrolls out of view with the rest of the page content."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are clearly defined by full-width background color changes (white, light grey, dark grey) and generous vertical spacing, creating distinct visual blocks."
+    }
+  ],
+  "technique_notes": [
+    "The hero section incorporates a large, abstract, gradient-like shape that subtly animates and shifts, likely using WebGL or a canvas library to create a dynamic, fluid background element that adds visual interest and depth without distracting from the primary message.",
+    "Content sections are structured with ample vertical and horizontal padding, often utilizing a two-column grid where a prominent text block is paired with a set of interactive elements or sub-features, maintaining a spacious and balanced feel.",
+    "Interactive elements such as buttons and cards consistently feature a soft, medium corner radius, contributing to an approachable and modern aesthetic across the site."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#2979ff",
+        "role": "cta-primary"
+      },
+      {
+        "hex": "#ff99cc",
+        "role": "accent-card-pink"
+      },
+      {
+        "hex": "#f2ffab",
+        "role": "accent-card-yellow"
+      },
+      {
+        "hex": "#91918e",
+        "role": "surface-secondary"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "background-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, heavy sans-serif headings (~4-5x body text) for impact, paired with a clean, readable sans-serif for body copy and smaller, uppercase labels.",
+    "radius": "Rounded (consistent medium radius on all interactive elements, cards, and buttons).",
+    "spacing": "Airy (generous vertical and horizontal padding, especially in the hero and between major sections, creating a spacious and uncluttered feel)."
+  },
+  "standout": "The most distinctive element is the dynamic, abstract, gradient-like blob in the hero section, likely rendered with WebGL or canvas. This element provides a unique, fluid, and modern visual anchor that elevates the site beyond a standard static layout, creating a sense of innovation and digital artistry.",
+  "animation_tech": [
+    "canvas",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

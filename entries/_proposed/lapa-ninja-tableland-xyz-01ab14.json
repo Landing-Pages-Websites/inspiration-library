@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-tableland-xyz-01ab14",
+  "source": {
+    "url": "https://tableland.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-tableland-xyz-01ab14.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-tableland-xyz-01ab14__scroll0.webp",
+      "shots/_proposed/lapa-ninja-tableland-xyz-01ab14__scroll1.webp",
+      "shots/_proposed/lapa-ninja-tableland-xyz-01ab14__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "blockchain",
+      "database",
+      "web3"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections, with primary content constrained to a central, readable column, often utilizing a grid for features, community highlights, and examples."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, while code blocks with a distinct monospace font are integrated as key visual and informational elements, particularly in the hero."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark teal/green serves as the dominant background for most content sections and the footer, providing a strong contrast to the vibrant, multi-color gradient background of the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation sticks to the top of the viewport and transforms its appearance (background color and button style) after a short scroll depth. The hero background illustration exhibits a subtle parallax effect, moving slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by solid background colors, alternating between the vibrant hero gradient and the consistent dark teal/green for subsequent content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky element that changes its visual state (background transparency, button fill) once the user scrolls past the initial hero section. The hero section features a background illustration that moves at a slower rate than the foreground content, creating a subtle parallax depth effect. Content sections are revealed by simply scrolling into the viewport, without individual element animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101e1e",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#9f7aea",
+        "role": "accent-gradient-start"
+      },
+      {
+        "hex": "#e8a0e8",
+        "role": "accent-gradient-middle"
+      },
+      {
+        "hex": "#a0e8f8",
+        "role": "accent-gradient-end"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta-text"
+      },
+      {
+        "hex": "#2d3a3a",
+        "role": "surface-code-block"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings for the hero and main sections, with standard body text and distinct monospace for code examples.",
+    "radius": "Subtle rounding on buttons, cards, and the code block, with sharp corners for most other elements.",
+    "spacing": "The hero section is airy, providing ample breathing room, while subsequent content sections utilize a balanced grid density for features and examples, and the footer is also airy."
+  },
+  "standout": "The site distinctively integrates a prominent, interactive-looking code block directly into its hero section, immediately communicating its technical nature. This is paired with a vibrant, illustrated background that adds a modern, engaging aesthetic, setting it apart from typical SaaS landing pages.",
+  "animation_tech": [],
+  "status": "proposed"
+}

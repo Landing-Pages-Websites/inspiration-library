@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-transientlabs-xyz-674b86",
+  "source": {
+    "url": "https://www.transientlabs.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-transientlabs-xyz-674b86.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-transientlabs-xyz-674b86__scroll0.webp",
+      "shots/_proposed/lapa-ninja-transientlabs-xyz-674b86__scroll1.webp",
+      "shots/_proposed/lapa-ninja-transientlabs-xyz-674b86__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web3",
+      "creative-tech",
+      "digital-art"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a centered, minimalist text block with two call-to-action buttons, set against a full-bleed, subtly animated background."
+    },
+    {
+      "kind": "type",
+      "note": "Main headings use a distinctive pixelated, glitch-style serif font, contrasting with clean, modern sans-serif for body text, subheadings, and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white palette dominates the site, with black text and buttons on a pristine white background, allowing the abstract hero visuals to provide subtle color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background features blurred, abstract images that parallax upwards at a different rate than the foreground text as the user scrolls, eventually revealing a central animated 3D art piece."
+    },
+    {
+      "kind": "section",
+      "note": "Product features are presented in a two-column grid layout, each with a concise description and a dedicated call-to-action button, maintaining a clean and spacious aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a layered approach where a full-bleed background image or video element scrolls at a slower rate than the foreground content, creating a subtle parallax depth effect. The main heading uses a custom font that renders with a pixelated or 'glitch' aesthetic. A central animated 3D art piece is revealed as the user scrolls past the initial hero text, acting as a dynamic focal point.",
+    "Scroll-triggered reveals are used to introduce content sections below the hero, where elements appear with a subtle fade-in or slide-up effect as they enter the viewport, enhancing engagement without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Pixelated Serif",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, distinctive pixelated headings (~3x body) with clean, legible sans-serif body text and uppercase button labels.",
+    "radius": "Sharp corners are consistently applied to all interactive elements like buttons and input fields.",
+    "spacing": "Very airy in the hero section, transitioning to a balanced density for feature grids and footer content, maintaining clear separation between elements."
+  },
+  "standout": "The site's design is distinctive for its bold use of a pixelated, glitch-style font for primary headings, which immediately signals a connection to digital art and web3. This is powerfully combined with an abstract, animated 3D video hero and a clean, high-contrast black and white aesthetic, creating a unique blend of retro-digital and modern luxe.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

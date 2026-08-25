@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-ens-domains-add741",
+  "source": {
+    "url": "https://ens.domains",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ens-domains-add741.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ens-domains-add741__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ens-domains-add741__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ens-domains-add741__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web3",
+      "blockchain",
+      "naming-service"
+    ],
+    "mood": [
+      "minimal",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a dynamic, asymmetrical arrangement of floating, colored 'name tag' elements around the main heading, creating a visually engaging and unique focal point."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a clear typographic hierarchy with large, bold sans-serif headings for section titles and a more modest, readable sans-serif for body text, often accompanied by smaller, uppercase labels for calls to action or sub-sections."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light background is contrasted with dark text, while a diverse palette of muted, pastel-like colors is used for interactive elements and the floating 'name tag' components, adding visual interest without overwhelming the clean aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the floating 'name tag' elements in the hero section subtly shift their positions relative to the main heading, creating a gentle parallax or animated floating effect."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, well-separated sections, often introduced by a prominent heading and sometimes featuring card-like layouts for presenting features or integrations."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the hero's floating name tags, position elements absolutely within a relative container. Apply subtle CSS transforms (translate, rotate) that are dynamically updated based on scroll position, creating a gentle parallax or 'floating' animation effect. The navigation bar remains sticky at the top, maintaining its initial appearance without significant transformation.",
+    "Sections are revealed statically as the user scrolls, with content appearing in place without fade-ins or slide-ups, relying on clear visual breaks and ample spacing for hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f9f9f7",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#093c52",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#0080bc",
+        "role": "accent"
+      },
+      {
+        "hex": "#74ac7d",
+        "role": "accent"
+      },
+      {
+        "hex": "#e5e5e5",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface-text"
+      },
+      {
+        "hex": "#8b4513",
+        "role": "accent-muted"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Material Symbols Outlined",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) establish a strong hierarchy, complemented by clear, readable body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle rounded corners are applied to buttons, input fields, and card-like elements, contributing to a soft and approachable feel.",
+    "spacing": "Balanced to airy spacing is used throughout, with generous vertical rhythm between sections and within the hero, creating a sense of openness and clarity."
+  },
+  "standout": "The most distinctive design element is the hero section's dynamic arrangement of floating, subtly parallaxing 'name tag' elements. This creates a unique, engaging, and memorable visual identity that immediately communicates the site's core offering in a playful yet sophisticated manner, setting it apart from typical static hero designs.",
+  "animation_tech": [],
+  "status": "proposed"
+}

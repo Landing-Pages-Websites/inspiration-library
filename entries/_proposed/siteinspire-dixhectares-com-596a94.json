@@ -1,0 +1,134 @@
+{
+  "id": "siteinspire-dixhectares-com-596a94",
+  "source": {
+    "url": "https://dixhectares.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-dixhectares-com-596a94.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-dixhectares-com-596a94__scroll0.webp",
+      "shots/_proposed/siteinspire-dixhectares-com-596a94__scroll1.webp",
+      "shots/_proposed/siteinspire-dixhectares-com-596a94__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://dixhectares.com/en",
+        "full": "shots/_proposed/siteinspire-dixhectares-com-596a94__p2.webp"
+      },
+      {
+        "url": "https://dixhectares.com/en/pages/contact",
+        "full": "shots/_proposed/siteinspire-dixhectares-com-596a94__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "skincare",
+      "beauty",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed background imagery and video are used extensively, often with text overlaid, to create immersive and visually rich sections."
+    },
+    {
+      "kind": "layout",
+      "note": "Product grids feature individual items within distinct background blocks, creating a modular yet cohesive display."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between oversized, decorative serif headings and understated, refined sans-serif body text defines the typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy palette dominated by deep greens, terracotta, and creamy neutrals is used consistently, evoking a natural and luxurious feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax scroll effect where the large display text moves slower than the background video, creating depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like product cards and text blocks) reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating background colors and textures are used to visually differentiate content sections, ranging from solid colors to full-bleed natural landscape photography."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a full-bleed background video with a dark overlay for text contrast, combined with a large display heading that parallaxes at a slower speed than the background as the user scrolls.",
+    "Content sections throughout the page are revealed using scroll-triggered animations, where elements gently fade in or slide upwards into view as they enter the viewport, creating a smooth and engaging content flow, likely orchestrated using locomotive-scroll.",
+    "The primary navigation bar remains fixed at the top of the viewport, providing persistent access to menu options and cart, while an initial promotional banner at the very top disappears on scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#efe5d7",
+        "role": "background"
+      },
+      {
+        "hex": "#a85435",
+        "role": "accent"
+      },
+      {
+        "hex": "#4a5a3a",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#676986",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#9c4c2e",
+        "role": "border-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Carta Nueva Small",
+        "role": "display"
+      },
+      {
+        "family": "Francesco-Regular",
+        "role": "body"
+      },
+      {
+        "family": "Sackers Gothic Std Light",
+        "role": "label"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif display headings (~5-6x body text) are paired with refined sans-serif body text and small uppercase labels.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Balanced to airy; the hero is very airy, product grids are balanced, and text blocks have generous line spacing."
+  },
+  "standout": "The site stands out with its sophisticated blend of rustic, natural imagery (especially the full-bleed landscape photos and video) and refined, elegant typography. The use of a very large, decorative serif font for the main brand name, combined with subtle scroll-triggered animations and a warm, earthy color palette, creates a distinctive 'luxe natural' aesthetic that feels both grounded and aspirational.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

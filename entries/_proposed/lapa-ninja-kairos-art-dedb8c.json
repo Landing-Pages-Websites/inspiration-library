@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-kairos-art-dedb8c",
+  "source": {
+    "url": "https://kairos.art",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-kairos-art-dedb8c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-kairos-art-dedb8c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-kairos-art-dedb8c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-kairos-art-dedb8c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-tools",
+      "team-collaboration"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layout for feature sections, with text on one side and a large illustrative screenshot on the other, creating a clear visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, contrasting with a lighter weight for body text and small, uppercase labels for section introductions."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, light beige background is used for the hero and some content sections, providing a soft contrast to the crisp white backgrounds of other sections and cards."
+    },
+    {
+      "kind": "motion",
+      "note": "The header, containing the logo and a 'Get early access' button, becomes sticky at the top of the viewport after the initial scroll, remaining visible throughout the page navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "As content sections scroll into view, their accompanying screenshots or illustrations slide in from the side (either left or right) to reveal themselves alongside the text."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Signal, Not Noise' section presents three resource cards in a grid, each with a title, brief description, and 'Read more' link, serving as a content hub."
+    }
+  ],
+  "technique_notes": [
+    "To create the sticky header, the main navigation element is fixed to the top of the viewport once the user scrolls past a certain threshold, maintaining its original size and appearance.",
+    "Content sections are designed with a clear visual hierarchy, using large, bold headings and ample whitespace to separate distinct topics.",
+    "Illustrative screenshots for feature sections are revealed using a scroll-triggered animation, where they slide horizontally into their final position as their parent section enters the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d9cebe",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#141316",
+        "role": "text"
+      },
+      {
+        "hex": "#6b9050",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) provide strong visual impact, complemented by smaller, uppercase labels for section numbering and categories.",
+    "radius": "subtle rounding on buttons, input fields, and card elements, contributing to a soft, approachable feel.",
+    "spacing": "balanced, with airy spacing in the hero section and a more structured, consistent rhythm in the feature and content grid sections."
+  },
+  "standout": "This site stands out with its distinctive warm beige background, which provides a unique and inviting feel compared to typical stark white marketing pages. The clean, almost editorial presentation of complex information through large, detailed screenshots and clear typography makes the product feel sophisticated yet accessible.",
+  "animation_tech": [],
+  "status": "proposed"
+}

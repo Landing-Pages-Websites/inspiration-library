@@ -1,0 +1,99 @@
+{
+  "id": "siteinspire-stephenkentjohnson-com-e9bec9",
+  "source": {
+    "url": "https://stephenkentjohnson.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-stephenkentjohnson-com-e9bec9.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-stephenkentjohnson-com-e9bec9__scroll0.webp",
+      "shots/_proposed/siteinspire-stephenkentjohnson-com-e9bec9__scroll1.webp",
+      "shots/_proposed/siteinspire-stephenkentjohnson-com-e9bec9__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art",
+      "interior-design",
+      "editorial"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content is a dense, full-bleed, masonry-style grid of images that fills the entire viewport, with minimal surrounding UI."
+    },
+    {
+      "kind": "motion",
+      "note": "A minimal header bar remains fixed at the top of the viewport, while the extensive grid of images scrolls vertically beneath it, revealing more content without any individual image animations or staggered reveals."
+    },
+    {
+      "kind": "color",
+      "note": "A neutral, light background (#f5f5f5) provides a subtle canvas, allowing the rich and diverse color palettes within the photographic content to be the dominant visual element."
+    },
+    {
+      "kind": "type",
+      "note": "Typography is extremely minimal and understated, used only for a small, fixed navigation/branding bar, contrasting sharply with the visual density of the image grid."
+    },
+    {
+      "kind": "section",
+      "note": "The entire homepage functions as a single, continuous visual gallery, foregoing traditional distinct sections in favor of an uninterrupted flow of photographic work."
+    }
+  ],
+  "technique_notes": [
+    "The main content area is a responsive grid of images that fills the viewport width, with images of varying aspect ratios arranged to minimize gaps and create a continuous visual flow.",
+    "A fixed header bar is positioned at the top of the viewport, maintaining its position and content while the rest of the page scrolls beneath it, providing persistent navigation without obstructing the visual content.",
+    "The site relies on the natural scroll behavior of the browser; there are no scroll-triggered animations for individual elements or sections, maintaining a direct and unadorned presentation of the work."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f5f5",
+        "role": "background"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#3c7896",
+        "role": "accent"
+      },
+      {
+        "hex": "#af6b6b",
+        "role": "accent"
+      },
+      {
+        "hex": "#617a55",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "extremely small, uppercase sans-serif text for navigation (~0.1x the visual impact of a single image tile), with no prominent headings.",
+    "radius": "sharp \u2014 all image corners are crisp and square.",
+    "spacing": "dense \u2014 images are packed tightly together with minimal gutters, creating an immersive, wall-to-wall visual experience."
+  },
+  "standout": "The site's primary content is an overwhelming, immersive, full-bleed grid of diverse photographic work, presented without significant textual interruption or traditional section breaks. This creates a highly visual and direct portfolio experience that prioritizes the imagery above all else.",
+  "animation_tech": [],
+  "status": "proposed"
+}

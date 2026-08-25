@@ -1,0 +1,94 @@
+{
+  "id": "siteinspire-tillmannfranzen-com-9753e1",
+  "source": {
+    "url": "https://tillmannfranzen.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-tillmannfranzen-com-9753e1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-tillmannfranzen-com-9753e1__scroll0.webp",
+      "shots/_proposed/siteinspire-tillmannfranzen-com-9753e1__scroll1.webp",
+      "shots/_proposed/siteinspire-tillmannfranzen-com-9753e1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tillmannfranzen.com/projects/krallroth",
+        "full": "shots/_proposed/siteinspire-tillmannfranzen-com-9753e1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-services",
+      "art"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical layout with large, full-bleed photographic content dominating the visual space, often paired with minimal text blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The left half of the initial hero image sticks to the viewport's left edge and expands vertically, acting as a persistent visual anchor while the main content scrolls underneath it, eventually revealing the full page. The main navigation also sticks to the top left."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette is used for structural elements and text, allowing vibrant, high-quality photography to provide the primary color and visual interest."
+    },
+    {
+      "kind": "section",
+      "note": "A horizontal scrolling gallery is used at the bottom of the page to showcase project previews, breaking from the vertical scroll flow."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is fixed to the top left of the viewport. A prominent hero image element is positioned to cover the left side of the screen and maintains its position as the page content scrolls beneath it, creating a layered reveal effect where new sections slide in from the right. The bottom section uses a horizontally scrolling container for a gallery of project thumbnails."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FCB900",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Subtle hierarchy with relatively small body text and moderately larger headings, all in a clean sans-serif.",
+    "radius": "sharp",
+    "spacing": "Balanced, with an airy initial hero section transitioning to a more standard content density."
+  },
+  "standout": "The most distinctive feature is the persistent, sticky left-aligned hero image that acts as a dynamic visual anchor, revealing content underneath it as the user scrolls. This creates a unique, layered browsing experience that elevates the photographic portfolio.",
+  "animation_tech": [],
+  "status": "proposed"
+}

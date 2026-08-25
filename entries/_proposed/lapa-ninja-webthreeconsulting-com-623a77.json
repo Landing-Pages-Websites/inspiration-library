@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-webthreeconsulting-com-623a77",
+  "source": {
+    "url": "https://www.webthreeconsulting.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-webthreeconsulting-com-623a77.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-webthreeconsulting-com-623a77__scroll0.webp",
+      "shots/_proposed/lapa-ninja-webthreeconsulting-com-623a77__scroll1.webp",
+      "shots/_proposed/lapa-ninja-webthreeconsulting-com-623a77__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web3",
+      "consulting"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in wide, centered blocks against a full-bleed dark background, creating a strong visual anchor for text."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use an extremely bold, uppercase sans-serif font in white, contrasting sharply with smaller, lighter-weight body text and neon green accents."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep charcoal/black and vibrant neon green is used consistently for backgrounds, text, and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, animated 3D grid pattern, rendered with WebGL/Three.js, serves as a persistent background element that subtly shifts and moves as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transitions from transparent over the hero to a fixed position with a solid dark background and a subtle border/shadow once the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by large, bold headings and ample vertical spacing, often featuring a short introductory label in neon green."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-page, continuously animated 3D grid background using WebGL/Three.js, which provides a dynamic visual texture that moves independently of the foreground content during scroll.",
+    "The main navigation bar is initially transparent and overlays the hero content, then becomes sticky at the top of the viewport and gains a solid dark background and a subtle bottom border/shadow after a short scroll distance.",
+    "Content sections are introduced with large, high-contrast headings and supporting body text, maintaining a generous vertical rhythm to enhance readability against the dark, animated background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#99FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, extremely bold uppercase hero heading (~4-5x body) with subsequent large, bold headings and standard body text.",
+    "radius": "sharp \u2014 all interactive elements and containers feature crisp, unrounded corners.",
+    "spacing": "airy \u2014 generous vertical spacing between sections and within content blocks, creating a sense of openness and clear hierarchy."
+  },
+  "standout": "The most distinctive feature is the persistent, full-page animated 3D grid background, rendered with WebGL/Three.js, which gives the site a highly dynamic and modern feel. This, combined with the stark neon green and black color scheme, creates a unique, high-tech aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "siteinspire-liljewall-se-02093d",
+  "source": {
+    "url": "https://www.liljewall.se",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-liljewall-se-02093d.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-liljewall-se-02093d__scroll0.webp",
+      "shots/_proposed/siteinspire-liljewall-se-02093d__scroll1.webp",
+      "shots/_proposed/siteinspire-liljewall-se-02093d__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.liljewall.se/projekt",
+        "full": "shots/_proposed/siteinspire-liljewall-se-02093d__p2.webp"
+      },
+      {
+        "url": "https://www.liljewall.se/journal",
+        "full": "shots/_proposed/siteinspire-liljewall-se-02093d__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "real-estate"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic yellow overlay that initially covers most of the viewport, then dramatically shrinks vertically on scroll to reveal a full-bleed background image."
+    },
+    {
+      "kind": "motion",
+      "note": "The global header navigation transforms on scroll, changing its logo from an icon to text and adapting its color scheme (from white/black to black/white) while becoming sticky at the top of the page."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon yellow (#F8DC00) is used as a primary brand accent, appearing prominently in the hero section, footer, and as a background for key content blocks, creating a bold and consistent visual identity."
+    },
+    {
+      "kind": "layout",
+      "note": "Content sections are introduced with generous vertical spacing and often feature large, bold headings, creating clear visual breaks and guiding the user through the page content."
+    },
+    {
+      "kind": "layout",
+      "note": "Project galleries are presented in a dense, responsive grid format, allowing for a large number of visual examples to be displayed efficiently without overwhelming the user."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a layered animation where a solid yellow overlay, initially full-height, uses scroll progress to animate its height, revealing a static background image beneath it. This creates a 'peeling back' effect.",
+    "The global navigation bar uses a scroll-triggered state change: upon scrolling past the initial hero, the navigation's background becomes solid white, its text and icons switch to black, and it fixes its position to the top of the viewport.",
+    "Content sections throughout the page are revealed with a subtle fade-in and slight upward translation animation as they enter the user's viewport, enhancing engagement and guiding attention to new content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8DC00",
+        "role": "primary-accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#B3DBC0",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#FFC489",
+        "role": "tertiary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large and bold, creating strong visual anchors, while body text is clean and legible, maintaining a clear hierarchy.",
+    "radius": "sharp corners throughout, applied consistently to images, cards, and section boundaries.",
+    "spacing": "airy, with generous padding around sections and elements, creating a sense of openness and clarity."
+  },
+  "standout": "The site's distinctive use of a vibrant, almost neon yellow as a primary brand color, particularly in the dynamic hero section where it dramatically shrinks to reveal content, sets it apart. This bold color choice, combined with the unique scroll-triggered hero animation, creates an immediate and memorable visual identity.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
