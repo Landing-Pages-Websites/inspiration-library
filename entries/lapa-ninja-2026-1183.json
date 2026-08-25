@@ -1,0 +1,101 @@
+{
+  "id": "lapa-ninja-2026-1183",
+  "source": {
+    "url": "https://polkadot.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1183.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1183__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1183__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1183__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "blockchain",
+      "web3",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width dark background with centered content blocks, creating a focused reading experience and emphasizing the text."
+    },
+    {
+      "kind": "type",
+      "note": "Distinctive use of an elegant, large serif font for the primary hero statement, contrasted with a clean sans-serif for all other text, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, dark-mode aesthetic with a deep charcoal background and crisp white text, punctuated by subtle light gray for secondary information and borders."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic hero text transformation where the main title and subtitle change content and scale down significantly while scrolling, creating a narrative progression."
+    },
+    {
+      "kind": "section",
+      "note": "Use of large, centered, single-line statements or questions to introduce new content blocks, acting as strong visual and thematic dividers."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed dark background with a subtle noise texture provides a consistent, immersive canvas for content, enhancing the minimalist feel.",
+    "The header transitions from an initial state with a top banner to a sticky, condensed navigation bar with a dark background after scrolling, maintaining accessibility.",
+    "The hero section features a large, central text block that dynamically changes its content and scales down in size as the user scrolls, revealing subsequent content. This effect could be achieved using a scroll-triggered animation library (like GSAP ScrollTrigger) to manipulate text content and CSS `transform` properties."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif hero title (~4-5x body) with a smaller, clean sans-serif subheading, and clear sans-serif body text.",
+    "radius": "subtle (e.g., CTA button has a slight corner radius)",
+    "spacing": "airy in the hero section, balanced in content sections with clear vertical separation"
+  },
+  "standout": "The site's standout feature is its bold, dark aesthetic combined with the unique hero text transformation. The main headline dynamically changes its content and scales down on scroll, creating a narrative reveal that is both visually striking and conceptually engaging, moving from a broad statement to a more specific one.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "approved"
+}

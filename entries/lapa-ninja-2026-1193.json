@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-1193",
+  "source": {
+    "url": "https://www.suku.world",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1193.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1193__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1193__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1193__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web3",
+      "blockchain",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating content blocks feature a large graphic or 3D illustration on one side and descriptive text with a call-to-action on the other, creating dynamic visual interest across sections."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are consistently rendered in a bold, uppercase sans-serif font, often in a dark green or black, providing strong visual anchors and a modern, authoritative tone."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green (#56e053) is used as the primary accent color for calls-to-action, key visual elements like the hero 3D graphic, and interactive states, creating high contrast against a clean white background."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-up animation as the user scrolls, and the hero features a dynamic 3D green blob that exhibits a slight parallax effect, moving slower than foreground elements."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced by a prominent, full-width, uppercase heading, clearly segmenting the page and guiding the user through the site's offerings."
+    }
+  ],
+  "technique_notes": [
+    "Uses scroll-triggered animations (likely GSAP ScrollTrigger or similar) to reveal sections with a subtle fade-up or slide-up effect as they enter the viewport. The hero section features a dynamic 3D graphic (Lottie animation or video hero) that exhibits a slight parallax effect, moving slower than the foreground text during scroll. The main navigation bar sticks to the top of the viewport after scrolling past the hero, transitioning from a transparent background to a solid, light background.",
+    "Utilizes a high-contrast color palette with a dominant vibrant green accent against a clean white background and dark text. Section headings are rendered in a bold, uppercase sans-serif font for strong visual impact. Product features are presented in distinct, rounded-corner cards with clear calls to action."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#56e053",
+        "role": "accent"
+      },
+      {
+        "hex": "#001f00",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#E85C41",
+        "role": "accent-secondary"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Verdana",
+        "role": "heading"
+      },
+      {
+        "family": "Verdana",
+        "role": "body"
+      },
+      {
+        "family": "DM Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase headings (up to ~4-5x body text) create strong hierarchy, complemented by clear, legible body text.",
+    "radius": "Rounded corners are consistently applied to buttons, input fields, and product cards, giving a soft, approachable feel. The main footer also has rounded ends.",
+    "spacing": "Generally airy, especially in the hero and between major sections, providing ample breathing room. Content within product cards is more balanced."
+  },
+  "standout": "The site's standout feature is its bold and energetic use of a single, vibrant green as a primary accent color, paired with a dynamic, organic 3D graphic in the hero. This creates a distinctive, modern, and slightly playful yet authoritative feel, especially when combined with the strong, uppercase typography.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

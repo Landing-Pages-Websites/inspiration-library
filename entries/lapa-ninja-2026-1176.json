@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-1176",
+  "source": {
+    "url": "https://irys.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1176.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1176__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1176__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1176__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "blockchain",
+      "web3",
+      "data-infrastructure"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with a dark, atmospheric background that often features subtle illustrations or gradients, providing a deep canvas for vibrant content."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings use an extremely bold, wide, uppercase sans-serif font with a vibrant gradient fill, creating a glowing, futuristic effect against the dark background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring a dominant dark background (near black) paired with a vibrant, glowing teal/cyan as the primary accent color for key text and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections animate into view with a subtle fade-up or slide-up effect as the user scrolls, revealing content progressively from the bottom of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from transparent over the hero to a solid dark background and becomes sticky at the top of the viewport after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "A prominent 'backed by' section features a horizontal list of partner logos, each rendered in the site's accent color, presented as a visual trust signal."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky navigation that transitions from a transparent state to a solid, dark background with a subtle shadow as the user scrolls past the hero section.",
+    "Utilize scroll-triggered animations (likely GSAP ScrollTrigger) to reveal content sections. Elements within each section, such as headings, text blocks, and images, appear to fade and slide upwards into view as their parent section enters the viewport.",
+    "Apply a gradient fill and a subtle glow effect to large display headings, giving them a vibrant, almost neon appearance against the dark background. This can be achieved with CSS gradients and text-shadows or SVG filters."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#18191a",
+        "role": "background"
+      },
+      {
+        "hex": "#00e0b7",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#dbe7e9",
+        "role": "surface"
+      },
+      {
+        "hex": "#b8c1c2",
+        "role": "surface"
+      },
+      {
+        "hex": "#c3c3c3",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, impactful, wide-set uppercase headings (~4-5x body text) with a strong visual presence, contrasted with smaller, highly legible sans-serif body and navigation text.",
+    "radius": "Sharp corners throughout, with subtle rounding on interactive elements like buttons.",
+    "spacing": "Airy, especially in the hero and between major content sections, creating a sense of spaciousness and allowing the bold typography and graphics to breathe."
+  },
+  "standout": "The site's distinctive use of glowing, gradient-filled, ultra-bold typography for primary headings, combined with a dark, atmospheric, and slightly futuristic visual aesthetic, sets it apart. The large, stylized 'IRYS' graphic at the very bottom serves as a unique brand anchor.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

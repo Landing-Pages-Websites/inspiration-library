@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-1164",
+  "source": {
+    "url": "https://www.artxcode.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1164.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1164__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1164__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1164__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "digital-art",
+      "gallery",
+      "platform"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed hero section features a fixed background image, over which a dynamic art piece and descriptive text scroll upwards, creating a layered visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a monospaced font for all navigational elements, section labels, and subheadings, lending a technical, precise, and editorial tone to the site's information architecture."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme pairing a deep charcoal/near-black with an off-white/light beige, punctuated by a vibrant electric blue accent derived from the hero's digital art piece."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-layered parallax scroll effect in the hero, where a fixed background image anchors the scene while the main art piece (a video) and descriptive text scroll upwards over it, revealing the content sections below."
+    },
+    {
+      "kind": "motion",
+      "note": "Dual sticky branding elements: the top navigation bar transforms from transparent to solid with a light background on scroll, and a secondary 'ARTXCODE' logo appears and sticks to the bottom-left corner after the hero section is scrolled past."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by full-width background color changes (dark hero, light content) and distinct, uppercase monospaced headings, creating a strong visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a fixed background image that remains stationary while a video art piece and descriptive text scroll upwards over it, creating a layered parallax effect. The detected video-hero animation tech suggests this art piece is a dynamic visual element.",
+    "The primary navigation bar at the top transitions from a transparent overlay to a sticky element with a solid light background and subtle border as the user scrolls past the hero section.",
+    "A secondary brand logo is introduced and becomes sticky in the bottom-left corner of the viewport once the user scrolls beyond the initial hero content, providing persistent branding."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a0a09",
+        "role": "background"
+      },
+      {
+        "hex": "#eeecea",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#00AFFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Akkurat Mono",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lora",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A prominent serif hero heading (~2-3x body) is balanced by smaller, uppercase monospaced labels and a readable serif body text.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero section, transitioning to a balanced and structured grid layout for content sections."
+  },
+  "standout": "The sophisticated, multi-layered parallax hero featuring a dynamic video art piece, combined with the dual sticky navigation elements (transforming top bar and persistent bottom-left logo), creates a distinctive, gallery-like experience that feels both modern and curated. The consistent use of a monospaced font for all UI elements also sets a unique, technical-editorial tone.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

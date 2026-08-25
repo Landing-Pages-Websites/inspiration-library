@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-2026-1180",
+  "source": {
+    "url": "https://morflax.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1180.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1180__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1180__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1180__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "3d-modeling"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections alternate between full-width dark backgrounds with light text and light gray backgrounds with dark text, creating clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize an extremely large, bold, and wide sans-serif typeface for impact, contrasted with a clean, legible sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode aesthetic is used for the primary navigation and footer, with content sections employing a mix of white and subtle light gray backgrounds."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background grid and large text move at a slower rate than the foreground elements, while the main hero image (woman with phone) scales down and moves up slightly as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Product features and tools are presented in a grid of visually rich 3D mockups and illustrations, each with a concise title and description, emphasizing the visual nature of the product."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a combination of CSS keyframes and scroll-triggered transformations to create a multi-layered parallax effect, where background elements, large text, and foreground imagery move and scale at different rates relative to the scroll position. The navigation bar transitions from transparent to a solid dark background with a subtle shadow upon scrolling past the hero section.",
+    "Subsequent content sections are revealed using a staggered fade-up animation as they enter the viewport, giving a smooth and engaging content progression."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111827",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#374151",
+        "role": "text"
+      },
+      {
+        "hex": "#9CA3AF",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#D1D5DB",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Rogan",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body text) create strong visual hierarchy, complemented by a clean, balanced sans-serif for all other content.",
+    "radius": "Subtle rounding (small radius) is applied consistently to buttons and card elements, maintaining a clean and modern feel.",
+    "spacing": "Airy spacing in the hero section provides a sense of grandeur, transitioning to a balanced density in content grids and feature lists for readability and clear information presentation."
+  },
+  "standout": "The site's distinctive use of high-quality, integrated 3D mockups and illustrations directly within the product showcases and feature sections is exceptional. This visual richness, combined with a clean, dark-mode-inspired aesthetic, elevates the presentation beyond typical SaaS marketing, making the product feel tangible and sophisticated.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

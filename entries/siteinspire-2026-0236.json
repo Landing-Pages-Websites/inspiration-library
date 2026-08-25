@@ -1,0 +1,113 @@
+{
+  "id": "siteinspire-2026-0236",
+  "source": {
+    "url": "https://hungryman.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0236.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0236__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0236__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0236__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://hungryman.com/directors",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0236__p2.webp"
+      },
+      {
+        "url": "https://hungryman.com/directors/dan-opsal",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0236__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "media",
+      "film-production",
+      "advertising"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features a large, geometric outline (forming 'H M') that acts as a dynamic mask for a full-width content carousel, creating a unique visual container for rotating media."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established by pairing extremely oversized, bold sans-serif headings for primary content (like director names) with much smaller, lighter, and often uppercase text for navigation and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast, monochromatic palette of black and off-white, with a subtle shift to a light blue-grey for the footer area, maintaining a sophisticated and clean aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a content carousel that rotates videos or images within the 'H M' outline, indicated by changing text labels and pagination dots below the main visual, while the main navigation remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Director listing pages prominently display names as large, clickable text elements, emphasizing individual talent and creating a distinct visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "To create the hero, implement a full-width content carousel (leveraging a library like Swiper) that displays videos or images. Overlay this carousel with a large, geometric SVG or CSS shape that acts as a mask, revealing only the content within its boundaries. Ensure the navigation bar remains fixed at the top of the viewport across all scroll depths.",
+    "Achieve visual impact by designing a type scale that dramatically contrasts very large, bold sans-serif display text with significantly smaller, lighter, and often uppercase supporting text for navigation and metadata."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F7F4ED",
+        "role": "surface"
+      },
+      {
+        "hex": "#232323",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E8EB",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold sans-serif headings (~4-5x body text) are used for primary content, contrasted with small, light, and often uppercase text for navigation and labels.",
+    "radius": "Sharp (all corners are 0px radius), contributing to a clean and modern aesthetic.",
+    "spacing": "Airy, with generous padding around sections and elements, especially in the hero and director listing pages, creating a sense of spaciousness and focus."
+  },
+  "standout": "The most distinctive feature is the hero section's use of a large, geometric 'H M' outline that dynamically masks a rotating content carousel. This creates a unique brand identity and a visually engaging focal point, moving beyond a standard hero video or image. The site also leverages oversized typography as a primary design element, making director names feel monumental and impactful.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}
