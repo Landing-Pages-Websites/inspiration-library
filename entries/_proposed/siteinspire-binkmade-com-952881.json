@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-binkmade-com-952881",
+  "source": {
+    "url": "https://binkmade.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-binkmade-com-952881.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-binkmade-com-952881__scroll0.webp",
+      "shots/_proposed/siteinspire-binkmade-com-952881__scroll1.webp",
+      "shots/_proposed/siteinspire-binkmade-com-952881__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://binkmade.com/pages/bundle",
+        "full": "shots/_proposed/siteinspire-binkmade-com-952881__p2.webp"
+      },
+      {
+        "url": "https://binkmade.com/collections/all",
+        "full": "shots/_proposed/siteinspire-binkmade-com-952881__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "retail",
+      "consumer-goods",
+      "drinkware"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero video section at the top, followed by product grids and a distinctive oversized brand logo section."
+    },
+    {
+      "kind": "type",
+      "note": "The brand name 'Bink' is used as a monumental, full-width graphic element, contrasting with smaller, clean sans-serif text for product details and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of off-white and black is dominant, with product photography introducing a range of soft pastels and earthy tones as accents."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar transforms from transparent with white text over the hero video to a solid light background with black text after scrolling past the hero. A large, full-width 'Bink' logo section is revealed as the user scrolls down, acting as a bold visual break."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections are organized into horizontal carousels or multi-column grids, often with 'Shop The Look' or 'Shop Bestsellers' labels."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed video playing in the background, with transparent call-to-action buttons overlaid. The navigation bar is initially transparent and fixed, then transitions to a solid background with contrasting text color as the user scrolls past the hero section, remaining sticky at the top. A large, full-width brand logo is revealed as a distinct, scroll-triggered section, acting as a strong visual anchor and brand statement. Product listings use a simple grid layout with minimal styling, allowing the product photography to dominate."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5F0EB",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0DED9",
+        "role": "surface"
+      },
+      {
+        "hex": "#A78E68",
+        "role": "accent"
+      },
+      {
+        "hex": "#BACA53",
+        "role": "accent"
+      },
+      {
+        "hex": "#671C1C",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ModernGothic",
+        "role": "display"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, heavy sans-serif for the brand logo (~10x body), with clean, smaller sans-serif for product names and body text.",
+    "radius": "Subtle rounded corners on product cards and images, with pill-shaped buttons for primary calls to action.",
+    "spacing": "Airy and open for hero and brand logo sections, transitioning to a balanced density for product grids and content sections."
+  },
+  "standout": "The most distinctive design element is the monumental, full-width 'Bink' logo that appears as a scroll-triggered section, transforming the page from a product showcase to a bold, graphic brand statement. This unexpected visual break creates a strong brand identity and memorable user experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

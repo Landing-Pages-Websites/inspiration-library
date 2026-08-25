@@ -1,0 +1,103 @@
+{
+  "id": "siteinspire-franklinazzi-fr-f16df8",
+  "source": {
+    "url": "https://www.franklinazzi.fr/en",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-franklinazzi-fr-f16df8.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-franklinazzi-fr-f16df8__scroll0.webp",
+      "shots/_proposed/siteinspire-franklinazzi-fr-f16df8__scroll1.webp",
+      "shots/_proposed/siteinspire-franklinazzi-fr-f16df8__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.franklinazzi.fr/en/projects/messager",
+        "full": "shots/_proposed/siteinspire-franklinazzi-fr-f16df8__p2.webp"
+      },
+      {
+        "url": "https://www.franklinazzi.fr/en/projects/hangar-y",
+        "full": "shots/_proposed/siteinspire-franklinazzi-fr-f16df8__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a dense, uniform grid of project images, each with a small text label, creating a gallery-like overview."
+    },
+    {
+      "kind": "type",
+      "note": "All primary text, including navigation, headings, and labels, uses a single sans-serif typeface in uppercase with generous letter spacing, creating a bold and architectural feel."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a high-contrast monochromatic scheme of black text on a very light, almost off-white, background, allowing the project images to introduce the primary visual color."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary header and footer elements remain sticky at the top and bottom of the viewport across all pages and scroll depths. The main content area on the homepage, including the project grid and secondary navigation, reveals itself with a subtle fade-in or slide-up effect as the user scrolls past an initial blank canvas."
+    },
+    {
+      "kind": "section",
+      "note": "Interior project pages consistently start with a large, full-width hero image, followed by a concise text description, and then a series of supporting images presented with minimal framing."
+    }
+  ],
+  "technique_notes": [
+    "The primary header and footer are fixed to the top and bottom of the viewport, providing persistent navigation and branding. The central content area employs a scroll-triggered reveal, where the project grid and associated navigation elements become visible as the user scrolls down, emerging from an initially blank screen.",
+    "Content sections on interior pages are structured with a prominent hero image at the top, followed by a text block, and then a sequence of full-bleed or near full-bleed images to showcase project details, maintaining a clean, gallery-like presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EFEBE8",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#262626",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, widely-spaced uppercase headings (~3-4x body text) with smaller, tightly-spaced uppercase labels for images and navigation, all from a single sans-serif family.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Very airy around the main header and footer, creating a sense of openness, while the homepage image grid is quite dense with minimal gutters. Interior pages feature more balanced spacing around text blocks."
+  },
+  "standout": "The site's distinctive design lies in its bold, almost brutalist, use of typography for the persistent header and its highly dense, gallery-like image grid on the homepage. This creates an immediate impression of a serious, art-focused portfolio, prioritizing visual content over verbose descriptions, framed by stark, architectural text elements.",
+  "animation_tech": [],
+  "status": "proposed"
+}

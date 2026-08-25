@@ -1,0 +1,107 @@
+{
+  "id": "siteinspire-atlasnyc-us-5b37a6",
+  "source": {
+    "url": "https://www.atlasnyc.us",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-atlasnyc-us-5b37a6.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-atlasnyc-us-5b37a6__scroll0.webp",
+      "shots/_proposed/siteinspire-atlasnyc-us-5b37a6__scroll1.webp",
+      "shots/_proposed/siteinspire-atlasnyc-us-5b37a6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.atlasnyc.us/about",
+        "full": "shots/_proposed/siteinspire-atlasnyc-us-5b37a6__p2.webp"
+      },
+      {
+        "url": "https://www.atlasnyc.us/artists",
+        "full": "shots/_proposed/siteinspire-atlasnyc-us-5b37a6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "creative-agency",
+      "art"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a dense, irregular masonry-style grid of images that continuously loads as the user scrolls, creating an immersive visual gallery experience."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very bold, uppercase sans-serif typeface, providing strong visual anchors against the more neutral body text and image captions."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of off-white background and black text is punctuated by a vibrant, solid blue used exclusively for the footer background and the site's distinctive logo."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down the homepage, new images progressively reveal and arrange themselves into the dynamic grid, filling the viewport with content. The initial hero text scrolls out of view as the image gallery takes over."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is presented as a single, continuous, scrollable image gallery without distinct section breaks, while interior pages adopt a more traditional layout with clear text blocks and image sections."
+    }
+  ],
+  "technique_notes": [
+    "The primary motion effect is a progressive loading and arrangement of images into a masonry-style grid as the user scrolls, giving the impression of an endlessly unfolding visual feed. The initial hero text is a static element that scrolls off-screen with the page content.",
+    "The site employs a stark contrast between a minimalist, fixed header and a vibrant, fixed footer, framing a content area that is either a dense, dynamic image grid or a clean, text-focused layout depending on the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F5F0",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, uppercase headings (~4x body) create strong visual impact, complemented by smaller, highly legible body text and navigation.",
+    "radius": "sharp",
+    "spacing": "The homepage features a dense, almost packed image grid, while interior pages maintain a balanced, airy spacing for text and structured content."
+  },
+  "standout": "This site's design is distinctive for its homepage, which foregoes a traditional hero section in favor of an immediately immersive, continuously loading, and irregularly gridded gallery of high-impact photography. This creates a dynamic, editorial feel that prioritizes visual content above all else, making it feel more like an art exhibition than a typical agency site.",
+  "animation_tech": [],
+  "status": "proposed"
+}

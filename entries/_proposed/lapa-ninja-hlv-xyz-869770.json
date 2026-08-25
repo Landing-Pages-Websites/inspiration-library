@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-hlv-xyz-869770",
+  "source": {
+    "url": "https://www.hlv.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hlv-xyz-869770.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hlv-xyz-869770__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hlv-xyz-869770__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hlv-xyz-869770__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web3",
+      "blockchain",
+      "consulting"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a dark background, featuring a central, constrained content area for readability and visual focus."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used consistently, with large, bold headings establishing a strong hierarchy against smaller, lighter body and descriptive text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark contrast is created between a deep, dark background and crisp white typography, accented by vibrant, blurred gradient overlays that provide dynamic color interest."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, full-bleed blurred gradient background continuously shifts its position and form as the user scrolls, creating a dynamic and evolving visual field behind the static content."
+    },
+    {
+      "kind": "section",
+      "note": "Service offerings are presented within an accordion component, allowing users to expand and collapse details for each service, maintaining a clean and organized layout."
+    }
+  ],
+  "technique_notes": [
+    "The primary motion effect is achieved by a large, absolutely positioned blurred gradient element that animates its transform properties (e.g., position, scale) based on scroll depth, creating a fluid, almost liquid background. This effect likely leverages canvas or WebGL for smooth performance.",
+    "Content sections are revealed with a subtle fade-in and slight upward translation as they enter the viewport, enhancing engagement and guiding the user's eye down the page.",
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access to key actions and branding elements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0A0A0A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E06B8A",
+        "role": "accent"
+      },
+      {
+        "hex": "#6B6BE0",
+        "role": "accent"
+      },
+      {
+        "hex": "#222222",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sofia Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Sofia Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual anchors, complemented by smaller, lighter body text for detail.",
+    "radius": "Subtle rounded corners are applied to interactive elements like buttons and accordion items, while the overall layout maintains sharp edges.",
+    "spacing": "Balanced and airy, with generous vertical spacing between major sections and within content blocks, contributing to a clean, uncluttered aesthetic."
+  },
+  "standout": "The most distinctive design element is the continuously animating, full-bleed blurred gradient background that dynamically shifts and evolves with scroll depth. This creates a unique, ethereal, and highly engaging visual experience that elevates the site beyond a typical static marketing page.",
+  "animation_tech": [
+    "canvas",
+    "lottie"
+  ],
+  "status": "proposed"
+}
