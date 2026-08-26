@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-mozverse-com-9e0407",
+  "source": {
+    "url": "https://mozverse.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-mozverse-com-9e0407.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-mozverse-com-9e0407__scroll0.webp",
+      "shots/_proposed/lapa-ninja-mozverse-com-9e0407__scroll1.webp",
+      "shots/_proposed/lapa-ninja-mozverse-com-9e0407__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "web3",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections primarily use a dark, almost black, background with content organized into distinct, often bordered, cards within grid layouts."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, glowing accent palette (purples, blues, greens, oranges) is consistently used for highlights, call-to-action elements, and abstract graphics against a deep dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features foreground text and a call-to-action that fade out and parallax against a slower-moving, abstract 3D graphic background as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Complex, data-rich dashboard UI graphics are integrated as hero elements within specific product or toolkit sections, showcasing functionality visually."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a large, bold sans-serif font for impact, while body text maintains high legibility with a clean, slightly lighter weight sans-serif, ensuring strong contrast against dark backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax effect where the main heading and call-to-action button fade in transparency and move faster than the underlying abstract 3D graphic background as the user scrolls, creating a sense of depth. Other sections likely use CSS keyframe animations for subtle reveals of content as it enters the viewport, such as fade-ins or slide-ups, though only the hero parallax is directly observed in the scroll sequence.",
+    "Content sections utilize a dark, almost black, background with white or light-colored text for high contrast. Interactive elements like cards and buttons feature subtle gradients and glowing effects, often using the vibrant accent palette.",
+    "Information is structured within distinct card components that often have subtle borders or shadows, providing clear visual separation and hierarchy within grid layouts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111827",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#6156d9",
+        "role": "accent"
+      },
+      {
+        "hex": "#2cc97d",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff9516",
+        "role": "accent"
+      },
+      {
+        "hex": "#2b72dd",
+        "role": "accent"
+      },
+      {
+        "hex": "#d0d5dd",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with clean, legible body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on cards and buttons (e.g., 8-12px), contributing to a modern, approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a more dense, but still readable, arrangement within card components."
+  },
+  "standout": "The site's distinctive use of a deep, dark theme combined with glowing, abstract 3D graphics creates a futuristic and sophisticated aesthetic. The hero section's dynamic parallax and fading text on scroll, coupled with the consistent use of vibrant accent colors against the dark backdrop, gives it a unique high-tech feel that avoids generic corporate blandness.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

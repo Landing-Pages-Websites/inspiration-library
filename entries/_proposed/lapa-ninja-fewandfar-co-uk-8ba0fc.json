@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-fewandfar-co-uk-8ba0fc",
+  "source": {
+    "url": "https://www.fewandfar.co.uk/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-fewandfar-co-uk-8ba0fc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-fewandfar-co-uk-8ba0fc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-fewandfar-co-uk-8ba0fc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-fewandfar-co-uk-8ba0fc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "non-profit",
+      "charity",
+      "consulting"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column content blocks where a large image or visual element occupies one side, and text content scrolls independently on the other, creating a dynamic reading experience."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode aesthetic for most content sections, contrasted with an initial light hero section, creating a strong visual transition upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar that transforms from transparent and full-height to a smaller, dark-background version upon scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "A scroll-triggered sticky image column where a series of images remain fixed or slowly parallax on one side of the screen while associated text content scrolls past on the opposite side."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for section titles, providing strong hierarchy against lighter body text and occasional small uppercase labels."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are introduced with generous vertical padding and often feature a clear heading and a call to action, maintaining an airy and focused presentation."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar is initially transparent and full-height, then uses a scroll-triggered event to apply a dark background and reduce its height, making it sticky to the top of the viewport.",
+    "A prominent visual effect involves a container of images that sticks to the viewport's right side, while a separate text container on the left scrolls normally, revealing different text content alongside the static images. This can be achieved with CSS position: sticky or JavaScript-driven parallax/pinning.",
+    "Content sections are revealed with a subtle fade-in or slide-up animation as they enter the user's viewport, enhancing engagement without being overly distracting."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#211e1c",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#f2efed",
+        "role": "text"
+      },
+      {
+        "hex": "#039",
+        "role": "accent"
+      },
+      {
+        "hex": "#5bbad5",
+        "role": "accent"
+      },
+      {
+        "hex": "#32302e",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized bold sans-serif headings (~3-4x body) with standard body text and occasional small uppercase labels.",
+    "radius": "Subtle, with very slight rounding on buttons and card elements.",
+    "spacing": "Airy hero section, balanced content sections with generous vertical rhythm between major blocks."
+  },
+  "standout": "The most distinctive element is the 'What we're making possible' section, which employs a sticky image column on one side while text scrolls independently on the other. This creates a highly engaging and dynamic storytelling experience that feels editorial and modern.",
+  "animation_tech": [],
+  "status": "proposed"
+}

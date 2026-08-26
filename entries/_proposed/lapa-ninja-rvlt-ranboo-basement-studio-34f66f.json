@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-rvlt-ranboo-basement-studio-34f66f",
+  "source": {
+    "url": "https://rvlt-ranboo.basement.studio/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-rvlt-ranboo-basement-studio-34f66f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-rvlt-ranboo-basement-studio-34f66f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-rvlt-ranboo-basement-studio-34f66f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-rvlt-ranboo-basement-studio-34f66f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "streetwear"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed black background serves as a canvas for high-contrast white text and striking red display typography, creating a dramatic and minimalist aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in typography is used, featuring oversized, decorative serif fonts for primary titles and section anchors, paired with small, clean sans-serifs for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A highly restricted color palette of black, white, and a single vibrant red (#c91818) is used to create a bold, high-contrast visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "Massive display titles (e.g., 'RANBOO', 'SHOP ALL') are fixed or scroll at a slower rate, allowing other content to scroll over them, creating a layered, parallax-like reveal effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms on scroll, shrinking in height and gaining a solid black background as it becomes sticky at the top of the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, such as text blocks and product grids, are revealed with subtle fade-in or slide-up animations as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A continuous horizontal scrolling text marquee is used as a dynamic visual divider or accent between content sections."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a smooth scrolling library, likely locomotive-scroll, to enable custom scroll-triggered animations and a fluid user experience.",
+    "Large, full-width display text elements are positioned with a fixed or sticky behavior, allowing other content to scroll over them, creating a dramatic reveal and hide effect that acts as a visual anchor.",
+    "The main navigation bar dynamically changes its appearance on scroll, transitioning from a transparent, taller state to a compact, solid black sticky header."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#c91818",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, decorative serif headings (~8-10x body text) create dramatic visual anchors, contrasted with small, clean sans-serif body and navigation text.",
+    "radius": "Mostly sharp corners, with subtle rounding on product cards and input fields.",
+    "spacing": "Very airy and open, particularly in the hero and between major content sections, creating a sense of luxury and focus on individual elements."
+  },
+  "standout": "The site's distinctive use of massive, fixed-position typography that acts as a dynamic background and section divider is highly impactful. This creates a unique, layered scrolling experience where content appears to emerge from behind or over these bold textual statements, giving the site a strong, almost brutalist editorial feel.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

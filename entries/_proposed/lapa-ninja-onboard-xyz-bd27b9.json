@@ -1,0 +1,121 @@
+{
+  "id": "lapa-ninja-onboard-xyz-bd27b9",
+  "source": {
+    "url": "https://www.onboard.xyz/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-onboard-xyz-bd27b9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-onboard-xyz-bd27b9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-onboard-xyz-bd27b9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-onboard-xyz-bd27b9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "financial-services",
+      "payments"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently employ an asymmetrical layout, pairing large imagery or UI mockups with concise text blocks and calls to action, often with a slight overlap or offset."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a strong typographic hierarchy with oversized, bold sans-serif headings for primary titles, contrasted with a clean, legible sans-serif for body text and smaller, often uppercase, labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette is used, alternating between dark, rich backgrounds (deep brown, purple) and light, gradient backgrounds, with a vibrant lime green consistently used for primary calls to action and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a full-width, transparent header to a compact, rounded, sticky 'pill' with a solid background and shadow upon scrolling down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections are revealed with a subtle upward slide and fade-in animation as they enter the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large central image that exhibits a gentle parallax effect, moving at a slightly different speed than the foreground text during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are presented as distinct, visually rich cards or modules, often with a dark background, showcasing specific UI elements or benefits with clear headings and descriptions."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar transitions its size, shape, and background from a full-width initial state to a compact, rounded, sticky pill-shaped element with a solid background and shadow as the user scrolls past the hero section, likely using CSS transitions or GSAP for smooth animation.",
+    "Content sections are revealed with a subtle slide-up and fade-in animation as they enter the viewport, creating a dynamic loading experience, likely orchestrated with GSAP ScrollTrigger.",
+    "The hero section incorporates a subtle parallax effect where background elements or large images move at a slower rate than the foreground content during scroll, contributing to depth and visual interest, potentially using locomotive-scroll or custom GSAP implementations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1700",
+        "role": "text"
+      },
+      {
+        "hex": "#c6ff00",
+        "role": "cta"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "background"
+      },
+      {
+        "hex": "#5e00b8",
+        "role": "accent"
+      },
+      {
+        "hex": "#45b11d",
+        "role": "accent"
+      },
+      {
+        "hex": "#777777",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual impact, complemented by a clean, readable sans-serif for body copy and smaller, often uppercase, labels.",
+    "radius": "Rounded corners are consistently applied to buttons, input fields, cards, and the sticky navigation, creating a soft and modern feel.",
+    "spacing": "Balanced, with an airy hero section that gives way to a more structured, yet still open, grid of feature cards and content blocks."
+  },
+  "standout": "This site stands out with its bold and dynamic use of color, particularly the striking lime green and deep purple accents against dark backgrounds, which creates a modern and energetic feel. The sophisticated scroll-triggered animations, including the transforming sticky navigation and parallax hero, elevate the user experience beyond a typical marketing site, making content discovery engaging and fluid.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

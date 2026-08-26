@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-garretschauteet-fun-66fdfc",
+  "source": {
+    "url": "https://garretschauteet.fun/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-garretschauteet-fun-66fdfc.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-garretschauteet-fun-66fdfc__scroll0.webp",
+      "shots/_proposed/lapa-ninja-garretschauteet-fun-66fdfc__scroll1.webp",
+      "shots/_proposed/lapa-ninja-garretschauteet-fun-66fdfc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-services",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-screen, edge-to-edge design that transitions from a minimal, atmospheric hero to a bold, typographic display, maintaining persistent, subtle UI elements."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography, featuring extremely large, bold sans-serif display text that dominates the screen after scroll, juxtaposed with small, understated sans-serif text for navigation and descriptive elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white color scheme emerges after an initial dark, blurred background image recedes, creating a stark and impactful visual statement."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-screen blurred background image smoothly recedes or fades out upon scroll, revealing a solid black background, while a massive typographic element (the name 'Schautteet') slides up and fades into view from the bottom."
+    },
+    {
+      "kind": "section",
+      "note": "The entire page functions as a single, transforming hero experience, rather than being divided into distinct content sections, with the primary content revealed through scroll-triggered animation."
+    }
+  ],
+  "technique_notes": [
+    "The initial full-screen blurred background is likely a WebGL canvas or video that animates its blur and opacity, then transitions to a solid black background as the user scrolls, leveraging the detected webgl-three technology.",
+    "Key UI elements such as the name, navigation links, and footer information are fixed to the viewport, maintaining their position and visibility while the background and main content animate underneath them.",
+    "A large, bold text element is revealed with a subtle upward slide and fade-in animation, triggered by scroll, likely using css-keyframes for the transition."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#6B4C3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#A07A5F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "gzjd",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (~10x body text) create a strong visual impact, contrasted with small, understated body and navigation text.",
+    "radius": "Sharp",
+    "spacing": "Very airy in the initial hero state, transitioning to a balanced density with the large typographic reveal, maintaining significant negative space around elements."
+  },
+  "standout": "The site's design is distinctive for its dramatic, full-screen, scroll-triggered transformation from a subtle, atmospheric blurred image to a bold, minimalist typographic statement. This dynamic reveal, combined with the persistent yet understated UI elements, creates a sophisticated and memorable user experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

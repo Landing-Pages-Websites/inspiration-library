@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-cred-club-036a33",
+  "source": {
+    "url": "https://cred.club/money",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-cred-club-036a33.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-cred-club-036a33__scroll0.webp",
+      "shots/_proposed/lapa-ninja-cred-club-036a33__scroll1.webp",
+      "shots/_proposed/lapa-ninja-cred-club-036a33__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "wealth-management"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often centered, utilizing generous vertical padding to create an airy, spacious feel between distinct content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic hierarchy combines a large, elegant serif for the hero statement, a wide, bold sans-serif for section titles, and a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode background (black) is contrasted with off-white/cream text and light-colored content sections, creating a high-contrast, luxurious aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image features a subtle parallax effect, scrolling at a slower rate than the foreground content, while subsequent content sections reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections alternate between dark backgrounds with light text and light backgrounds with dark text, providing clear visual separation and rhythm down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a fixed background image that scrolls at a slower rate than the page content, creating a parallax depth effect. The main navigation remains sticky at the top of the viewport, maintaining accessibility as the user scrolls.",
+    "Content sections are revealed using scroll-triggered animations, where elements gently fade into view or slide up from the bottom as they become visible within the user's viewport, enhancing engagement and guiding attention. This could be achieved using a JavaScript library like GSAP ScrollTrigger or Intersection Observer API with CSS transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5DC",
+        "role": "text"
+      },
+      {
+        "hex": "#8B0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Denton",
+        "role": "heading"
+      },
+      {
+        "family": "Termina",
+        "role": "display"
+      },
+      {
+        "family": "Gilroy",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) for hero statements, large wide sans-serif for section titles (~2x body), and clean, legible sans-serif for body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing in the hero and between major content sections, creating a sense of grandeur and ease of reading."
+  },
+  "standout": "The site's design is distinctive for its bold juxtaposition of classical architectural imagery with a minimalist, dark-mode aesthetic and modern typography. This blend creates a unique sense of established authority and contemporary luxury, moving beyond typical finance templates.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

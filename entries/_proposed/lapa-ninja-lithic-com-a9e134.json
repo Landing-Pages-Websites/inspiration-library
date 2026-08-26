@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-lithic-com-a9e134",
+  "source": {
+    "url": "https://www.lithic.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-lithic-com-a9e134.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-lithic-com-a9e134__scroll0.webp",
+      "shots/_proposed/lapa-ninja-lithic-com-a9e134__scroll1.webp",
+      "shots/_proposed/lapa-ninja-lithic-com-a9e134__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "payments",
+      "financial-services"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating dark and light full-bleed sections create clear visual breaks and hierarchy, often pairing a dark background with a light foreground for key information."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary statements, contrasted with smaller, legible body text and occasional uppercase labels for sub-sections or calls to action."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark theme dominates, using deep blacks and dark grays as primary backgrounds, accented by a vibrant orange/gold for interactive elements and a subtle purple/pink gradient for visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The header remains sticky at the top of the viewport, while the hero section features a subtle parallax effect where the background pattern of cards moves slower than the foreground text and calls to action as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair descriptive text on one side with a detailed product visual or diagram on the other, often within a device mockup (e.g., phone, laptop)."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport throughout scrolling.",
+    "A parallax scrolling effect is used in the hero section, where the background elements (swirling lines and cards) scroll at a slower rate than the foreground content, creating a sense of depth. This effect likely leverages GSAP for smooth, controlled animation.",
+    "Visuals are enhanced with subtle gradients, particularly for backgrounds and interactive elements, adding depth and a premium feel without being overly complex."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#261e12",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#eec07a",
+        "role": "accent"
+      },
+      {
+        "hex": "#5c2999",
+        "role": "accent"
+      },
+      {
+        "hex": "#888888",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "background-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) establish strong hierarchy, complemented by clear, readable body text and small, often uppercase, labels.",
+    "radius": "Subtle rounded corners are consistently applied to buttons, cards, and section containers, creating a soft yet modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within the hero, creating a sense of openness and premium presentation."
+  },
+  "standout": "The site's standout feature is its sophisticated dark mode aesthetic, which combines deep, rich backgrounds with metallic-looking card visuals and vibrant orange accents. This creates a high-tech, luxurious, and highly polished feel that elevates it beyond typical corporate designs, especially with the subtle hero background parallax.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

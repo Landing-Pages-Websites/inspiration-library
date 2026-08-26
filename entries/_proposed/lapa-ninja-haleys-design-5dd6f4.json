@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-haleys-design-5dd6f4",
+  "source": {
+    "url": "https://haleys.design/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-haleys-design-5dd6f4.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-haleys-design-5dd6f4__scroll0.webp",
+      "shots/_proposed/lapa-ninja-haleys-design-5dd6f4__scroll1.webp",
+      "shots/_proposed/lapa-ninja-haleys-design-5dd6f4__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "product-design"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within a wide canvas, with horizontal divider lines featuring '+' symbols at their ends to delineate major sections."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of elegant serif fonts for all textual content, contrasted with a highly decorative, script-like font for specific call-to-action phrases."
+    },
+    {
+      "kind": "color",
+      "note": "A deeply monochromatic color scheme dominates, using a dark forest green background with light off-white text and subtle lighter green tones for line art and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual project listings reveal themselves with a subtle fade-in and slight upward translation as they scroll into the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms on scroll, shrinking in height and gaining a solid background as it sticks to the top of the page."
+    },
+    {
+      "kind": "section",
+      "note": "Intricate, architectural line-art illustrations serve as large, thematic background elements for content groupings, particularly in the 'Work projects' section."
+    }
+  ],
+  "technique_notes": [
+    "The sticky header is implemented to shrink in height and change its background from transparent to solid as the user scrolls past the initial hero section.",
+    "Content sections and individual items within them are revealed using scroll-triggered CSS keyframe animations, causing them to fade in and translate slightly upwards as they enter the viewport.",
+    "Large, detailed line-art illustrations are used as static background elements that scroll with the page, providing a consistent visual motif without parallaxing."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1E3A3A",
+        "role": "background"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "text"
+      },
+      {
+        "hex": "#3A5C5C",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "altesse-std-24pt",
+        "role": "heading"
+      },
+      {
+        "family": "Old Standard TT",
+        "role": "body"
+      },
+      {
+        "family": "bodoni-classic-ornaments",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Elegant serif headings are significantly larger and more decorative (~3-4x body) than the smaller, refined serif body text, with a distinct script font for call-outs.",
+    "radius": "sharp",
+    "spacing": "Airy in the hero and around main content blocks, balanced in project grids, and dense for footer links, creating an overall spacious feel."
+  },
+  "standout": "The site's design is highly distinctive due to its unique integration of intricate, architectural line-art illustrations as structural background elements for content sections. This, combined with a deeply monochromatic color palette and elegant, almost calligraphic typography, creates a sophisticated, old-world, and highly artistic aesthetic that sets it apart from typical modern portfolios.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

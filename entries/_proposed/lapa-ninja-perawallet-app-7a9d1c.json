@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-perawallet-app-7a9d1c",
+  "source": {
+    "url": "https://perawallet.app/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-perawallet-app-7a9d1c.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-perawallet-app-7a9d1c__scroll0.webp",
+      "shots/_proposed/lapa-ninja-perawallet-app-7a9d1c__scroll1.webp",
+      "shots/_proposed/lapa-ninja-perawallet-app-7a9d1c__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "crypto",
+      "blockchain",
+      "wallet"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width sections, often alternating between light and dark backgrounds to delineate different information blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary messaging, creating strong visual hierarchy, complemented by a consistent, readable sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant purple accent color is consistently applied to calls-to-action and key interactive elements, standing out against a clean, largely monochromatic white and dark grey base."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a parallax effect where the illustrative phone mockups and background pattern scroll at a slower rate than the page content, creating a sense of depth. The header also transforms from transparent to solid white with a shadow upon scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections utilize a grid layout with illustrative icons and concise descriptive text, maintaining a clean and digestible presentation of information."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is initially transparent and fixed at the top, then transitions to a solid white background with a subtle drop shadow as the user scrolls down the page.",
+    "Hero illustrations (phone mockups and abstract patterns) are implemented with a parallax scrolling effect, where they move at a slower speed than the page's main content, enhancing visual depth.",
+    "Elements within various content sections likely animate into view with subtle fade-up or slide-in effects as they enter the viewport, leveraging CSS keyframes for smooth transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#6F42C1",
+        "role": "accent"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      },
+      {
+        "hex": "#00C08B",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) for primary messaging, with smaller, lighter sans-serif for supporting text and labels.",
+    "radius": "Subtle (e.g., buttons and cards have a slight curve, typically 4-8px).",
+    "spacing": "Balanced, with generous vertical spacing between major sections and within the hero, but tighter spacing in feature grids for information density."
+  },
+  "standout": "The site's distinctive use of playful, custom illustrations, particularly the hero section with its parallax phone mockups and the vibrant purple 'Learn more' section, sets it apart. These illustrations are not merely decorative but integral to explaining the product, giving the site an approachable yet sophisticated tech aesthetic.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
