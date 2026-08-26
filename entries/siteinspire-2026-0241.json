@@ -1,0 +1,127 @@
+{
+  "id": "siteinspire-2026-0241",
+  "source": {
+    "url": "https://driftime.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0241.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0241__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0241__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0241__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://driftime.com/about",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0241__p2.webp"
+      },
+      {
+        "url": "https://driftime.com/latest",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0241__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "creative-agency",
+      "design-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with distinct background colors, often featuring a large, centered heading followed by a grid of images or text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, uppercase sans-serif headings for main sections, creating strong visual anchors and a commanding presence."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme (predominantly black/dark grey) punctuated by full-bleed sections in vibrant, solid colors like deep blue, orange, and dark purple."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header with the brand logo and navigation icon remains fixed at the top of the viewport as the page content scrolls underneath it."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like image cards or text blocks) appear to animate into view with a subtle fade-up or slide-up effect as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Each major service or content category (e.g., 'BRAND,' 'DIGITAL,' 'REPORTING') is presented as a distinct, full-width section with its own background color and a prominent, oversized heading."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element is used, which becomes sticky at the top of the viewport, allowing the main page content to scroll beneath it.",
+    "Scroll-triggered animations are employed to reveal content. As sections enter the viewport, elements within them (like headings, images, and text blocks) animate into place with a subtle upward translation and fade-in effect, likely orchestrated by a scroll library like locomotive-scroll in conjunction with css-keyframes.",
+    "The site uses full-bleed, high-contrast color blocks for distinct content sections, where large white typography is set against dark, saturated backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#040404",
+        "role": "surface"
+      },
+      {
+        "hex": "#101828",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF5722",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A148C",
+        "role": "accent"
+      },
+      {
+        "hex": "#4C4C4C",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "body"
+      },
+      {
+        "family": "landour",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase display headings (~4-5x body text) with clear, legible sans-serif body text and smaller, often uppercase, labels.",
+    "radius": "Predominantly sharp corners, with subtle rounding on image cards and buttons.",
+    "spacing": "Airy and generous, particularly around large headings and between major content sections, creating a sense of spaciousness and clear hierarchy."
+  },
+  "standout": "The site's distinctive use of massive, bold, uppercase typography for section titles, combined with full-bleed, high-contrast color blocks, creates a powerful, almost architectural visual rhythm. The large, stylized 'DRIFTTIME' logo in the footer acts as a strong brand anchor.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

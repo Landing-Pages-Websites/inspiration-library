@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-1240",
+  "source": {
+    "url": "https://onspecdaq.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1240.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1240__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1240__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1240__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "industrial-tech",
+      "energy",
+      "monitoring-systems"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with high contrast backgrounds (white and dark grey/black) create distinct visual breaks and content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and major section headings feature extremely large, bold sans-serif typography, often with a split color effect (e.g., 'Field-Proven' in light grey, 'Solutions.' in black)."
+    },
+    {
+      "kind": "type",
+      "note": "Subtle, uppercase monospace font is used for metadata, navigation links, and minor labels, providing a technical and precise counterpoint to the display headings."
+    },
+    {
+      "kind": "color",
+      "note": "The primary palette is monochromatic (black, white, various greys) with a very subtle, almost unnoticeable blue accent for interactive elements, maintaining a serious and sophisticated tone."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large text overlay that appears to stick or parallax slightly over a dark video background as the user scrolls, before the background fully recedes."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a 'hero-video-with-text-overlay' pattern, where a dynamic background video plays behind prominent, oversized text, setting an immediate immersive tone."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero effect, a full-bleed video element is positioned behind a large, fixed-position text element. As the user scrolls, the video background scrolls away at a normal rate, while the text element either remains fixed or scrolls at a slower, parallax-like rate, creating depth.",
+    "Sections are revealed using scroll-triggered animations. As a section's top edge enters the viewport, it transitions from an initial hidden state (e.g., slightly transparent and offset downwards) to its final visible state (fully opaque and in position), creating a smooth reveal effect.",
+    "The navigation bar remains fixed at the top of the viewport throughout the entire scroll, providing persistent access to site sections."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#070707",
+        "role": "surface"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "text"
+      },
+      {
+        "hex": "#007AFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ABC Monument Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "GT America Mono Trial Rg",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body text) with a mix of weights and colors, complemented by smaller, often uppercase, monospace labels and standard sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between sections and ample internal padding within content blocks, creating a clean and uncrowded feel."
+  },
+  "standout": "The site's design is distinctive for its dramatic, oversized typography in the hero and section headings, often using a split-color effect to emphasize key words. This, combined with the subtle video background and scroll-triggered reveals, creates a sophisticated and almost editorial aesthetic that feels both modern and authoritative.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

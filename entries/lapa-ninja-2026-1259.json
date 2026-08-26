@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-2026-1259",
+  "source": {
+    "url": "https://yolo.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1259.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1259__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1259__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1259__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "gambling",
+      "online-casino",
+      "entertainment"
+    ],
+    "mood": [
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-width dark theme with distinct horizontal sections, each featuring a title and a scrollable carousel of content cards."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode is consistently applied, using a deep charcoal background with white text and prominent gold/tan accents for interactive elements and highlights."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large and bold sans-serif, providing clear hierarchy against the dark background, while body text is smaller and clean for readability."
+    },
+    {
+      "kind": "motion",
+      "note": "A 'Access Restricted' notification remains sticky in the bottom-right corner of the viewport as the user scrolls, while the main header scrolls out of view."
+    },
+    {
+      "kind": "section",
+      "note": "All content sections (e.g., 'Live Wins', 'Live Casino') follow a consistent structure: a left-aligned title, a 'See all' link, navigation arrows, and a horizontal grid of rounded-corner game cards."
+    }
+  ],
+  "technique_notes": [
+    "The site establishes a premium, dynamic feel using a full-bleed video hero background with a dark overlay to ensure text legibility. The video plays automatically, setting an immediate immersive tone.",
+    "Content is organized into distinct horizontal carousels within full-width sections, allowing users to browse numerous items without excessive vertical scrolling. Navigation arrows provide explicit control over the carousel movement.",
+    "The primary motion effect is a sticky element (the 'Access Restricted' notice) that remains fixed in the viewport, providing persistent information regardless of scroll depth. Other elements scroll naturally with the page without complex scroll-triggered reveals or parallax, relying on the video hero for initial dynamism."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#212121",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#CDAD80",
+        "role": "accent"
+      },
+      {
+        "hex": "#B09164",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3x body) create strong section breaks, with smaller, clean body text and very fine legal disclaimers.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, content cards, and notification elements, softening the overall aesthetic.",
+    "spacing": "Balanced spacing between major sections, with a tighter grid and minimal padding within horizontal content carousels to maximize visible items."
+  },
+  "standout": "The immediate impact of the full-width, auto-playing video hero creates a highly immersive and dynamic first impression, effectively conveying the site's entertainment focus. This, combined with the consistent dark theme and gold accents, establishes a distinct premium casino atmosphere.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

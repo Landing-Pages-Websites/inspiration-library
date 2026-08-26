@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-1221",
+  "source": {
+    "url": "https://florentbiffi.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1221.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1221__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1221__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1221__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with content centered or aligned to the bottom right, creating a sense of spaciousness and visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast between oversized, elegant serif display headings and small, clean sans-serif body and navigation text."
+    },
+    {
+      "kind": "color",
+      "note": "A consistent deep blue to lighter blue gradient serves as the primary background across multiple sections, providing a cohesive visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms its content and layout (e.g., 'ABOUT' changes to 'AWARDS & RECOGNITIONS') while sticking to the top of the viewport after initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections transition with a full-screen snap or page-turn effect, where one entire content block is replaced by the next, rather than continuous scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "Subtle parallax or animation of background circular elements within the hero section, creating depth as the user scrolls."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen section scrolling mechanism, likely using a library like locomotive-scroll, where each scroll gesture snaps to the next content block. Background elements within the hero section animate with a subtle parallax effect, possibly driven by canvas animations, to create a dynamic sense of depth. The header dynamically transforms its content and layout after a certain scroll threshold, while remaining sticky at the top of the page.",
+    "Large, elegant serif typography is used for primary headings, often occupying significant screen real estate, while supporting text and navigation links are rendered in a much smaller, clean sans-serif font. This creates a strong visual hierarchy and a sophisticated, editorial feel.",
+    "A consistent blue gradient is used as a full-bleed background for major sections, providing a unified visual experience. Horizontal lines are used sparingly as subtle dividers or accents, particularly in the header and footer areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#001f9a",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#3366ff",
+        "role": "background-mid"
+      },
+      {
+        "hex": "#6699ff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NewEddy",
+        "role": "display"
+      },
+      {
+        "family": "SuisseIntl",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, elegant serif headings (~8-10x body) are contrasted with small, understated sans-serif body and navigation text.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between sections and ample negative space around text blocks, especially in the hero and contact areas."
+  },
+  "standout": "This site stands out with its dramatic full-screen section transitions that snap into place, creating a distinct, almost magazine-like browsing experience. The transforming sticky header and the bold, oversized serif typography set against a dynamic blue gradient background contribute to a highly polished and memorable aesthetic. If a builder copied only one idea, it should be the full-screen, snap-scroll section transitions.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

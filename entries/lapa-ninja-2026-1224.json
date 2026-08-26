@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1224",
+  "source": {
+    "url": "https://www.fruitful.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1224.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1224__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1224__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1224__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "fintech",
+      "personal-finance"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column content sections alternate image and text placement (image left, text right; then text left, image right) to break visual monotony while maintaining a clear reading flow."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a very large, bold sans-serif font for impact, contrasting with a lighter weight, highly legible sans-serif for body text, maintaining a consistent modern feel."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, high-contrast palette relies heavily on white backgrounds and dark text, punctuated by a vibrant, fresh green used strategically for calls to action and key accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Content blocks and images slide into view from the left or right as the user scrolls down the page, creating a dynamic reveal effect for each section."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Proof' section uses small, distinct badges to convey trust and social validation immediately below the hero, before diving into detailed features."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation library (likely GSAP ScrollTrigger or Locomotive Scroll) to orchestrate elements sliding into view from the sides (left or right) as their parent sections become visible. This creates a staggered reveal effect for images and text blocks, enhancing engagement. The hero section features an auto-playing video.",
+    "Employs a full-width video hero with a subtle overlay and centered text to immediately convey the site's message and create an immersive first impression.",
+    "Interactive FAQ section utilizes accordions to present information concisely, expanding on click to reveal answers without cluttering the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#12B76A",
+        "role": "cta"
+      },
+      {
+        "hex": "#219653",
+        "role": "accent"
+      },
+      {
+        "hex": "#4E4E4E",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, bold sans-serif headings (~3-5x body) with clear, readable body text and smaller, uppercase labels for section introductions.",
+    "radius": "subtle \u2014 buttons and image containers feature slightly rounded corners.",
+    "spacing": "airy \u2014 generous vertical spacing between sections and ample padding within content blocks create a clean, uncrowded feel."
+  },
+  "standout": "This site stands out with its confident, direct messaging paired with a clean, spacious layout and subtle scroll-triggered animations. The consistent use of a vibrant green accent against a largely white canvas creates a fresh, trustworthy, and highly legible experience, making complex financial topics feel approachable.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

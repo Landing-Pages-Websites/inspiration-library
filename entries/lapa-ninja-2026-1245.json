@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-1245",
+  "source": {
+    "url": "https://public.com/global",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1245.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1245__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1245__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1245__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "investment",
+      "fintech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating light and dark background sections are used to delineate content blocks, creating visual rhythm and emphasizing key information."
+    },
+    {
+      "kind": "type",
+      "note": "A large, elegant serif font is used for primary headings to convey sophistication and impact, contrasted with a clean, modern sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white dominates, with deep blues and occasional bright blues/greens used as subtle accents for links, data visualizations, and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a layered scroll effect where the initial text and CTA scroll up and out of view, revealing a large, full-bleed background image that slides up from behind it. Subsequent content sections animate into view with a fade-up or slide-in effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Dedicated dark-themed sections are employed to highlight advanced features, security, or premium offerings, creating a distinct visual break and a sense of gravitas."
+    }
+  ],
+  "technique_notes": [
+    "A persistent header remains fixed at the top of the viewport, providing continuous navigation access. The hero section employs a layered scroll effect where an initial text block scrolls off-screen to reveal a large, full-bleed background image that appears to slide up from below. Content sections below the hero are revealed with a staggered fade-up or slide-in animation as they enter the viewport, likely using GSAP for precise timing and easing, enhancing engagement as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#00379A",
+        "role": "accent"
+      },
+      {
+        "hex": "#00A0FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#6AC32F",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, elegant serif headings (e.g., ~4-5x body text) for impact, complemented by a clear, medium-sized sans-serif for body and UI.",
+    "radius": "Subtle rounded corners on buttons and interactive elements, with sharper edges for overall section containers.",
+    "spacing": "Generally airy and spacious for main content blocks and hero, becoming denser in detailed UI grids and the extensive footer."
+  },
+  "standout": "The site effectively blends a sophisticated, editorial aesthetic with detailed financial data and extensive legal information. The initial clean, high-impact serif hero transitions into a dark, data-rich environment, creating a sense of a serious, high-end financial service. The prominent and comprehensive legal disclaimers are also a distinctive feature, emphasizing transparency and compliance.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

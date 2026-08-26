@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-1222",
+  "source": {
+    "url": "https://www.foundersfuture.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1222.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1222__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1222__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1222__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "venture-capital",
+      "finance",
+      "technology"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Grid-based content sections for team members and portfolio cards, often presented against a dark background for visual contrast."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed image sections with overlaid text and calls to action, creating a strong, immersive visual impact."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings paired with smaller, lighter body text and uppercase labels for clear information hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode aesthetic, primarily using dark greys and black, contrasted with off-white text and accented by a deep blue for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar that visually transforms (shrinks in height and gains a solid background) upon scroll, enhancing user focus on content."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images in certain sections (e.g., the Golden Gate Bridge) exhibit a parallax effect, scrolling at a slower rate than foreground content to add depth."
+    },
+    {
+      "kind": "section",
+      "note": "A hero section featuring a horizontal carousel of portfolio cards, allowing users to browse key projects without leaving the top of the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that dynamically changes its height and background color (from transparent to a solid light tone) as the user scrolls down, using CSS transitions or keyframes for a smooth effect.",
+    "Background images in full-bleed sections are implemented with a parallax scrolling effect, where the image moves slower than the foreground content, creating a sense of depth.",
+    "The hero section utilizes a horizontal carousel component (likely Swiper, as hinted) to display multiple portfolio cards, allowing users to swipe or navigate through them."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1c1e",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#0142ac",
+        "role": "accent"
+      },
+      {
+        "hex": "#8d8d8e",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body text) with a clean, modern feel, complemented by smaller, lighter body text and uppercase labels.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) on buttons and cards, giving a soft, approachable feel without being overly rounded.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, but a tighter grid for team members and portfolio cards."
+  },
+  "standout": "The site's distinctive use of a dark, sophisticated color palette combined with dynamic scroll-triggered transformations (like the shrinking sticky nav and parallax backgrounds) and an interactive hero card carousel creates a highly engaging and premium feel, setting it apart from typical corporate sites. The execution of these motion elements adds significant polish and depth.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "swiper"
+  ],
+  "status": "approved"
+}

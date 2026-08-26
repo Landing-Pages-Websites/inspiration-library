@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1204",
+  "source": {
+    "url": "https://atlascard.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1204.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1204__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1204__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1204__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "luxury",
+      "membership-services",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with dark backgrounds and centered content, often alternating between solid dark colors and immersive background images or videos."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large headings, frequently in uppercase, paired with smaller, well-spaced body text and a distinct monospaced font for labels and subtle details."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode palette (black/dark grey) provides a sophisticated backdrop for crisp white text, accented by a vibrant neon green for CTAs and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls to the very bottom of the page, a sequence of elements reveals: first a loading bar and a tagline, then a Lottie animation of a flying suitcase, followed by a large block of legal disclaimer text."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections, each typically starting with a large, impactful heading followed by detailed descriptions or a grid of feature cards."
+    }
+  ],
+  "technique_notes": [
+    "Sections utilize full-bleed backgrounds, often with video or high-quality imagery, overlaid with a dark gradient to ensure text readability.",
+    "Uses Lottie for a vector-based animation that reveals at a specific scroll depth. Other content sections likely employ scroll-triggered animations (e.g., staggered fade-ins or slide-ups) as they enter the viewport, creating a dynamic content reveal experience.",
+    "Interactive elements like cards or buttons feature subtle hover states, often involving a slight lift or background color change, to indicate interactivity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#141414",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#00ff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#373c59",
+        "role": "surface"
+      },
+      {
+        "hex": "#9c97b8",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "ApercuMono Pro Medium",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold, often uppercase headings (~3-4x body) with smaller, well-spaced body text; monospaced font used for subtle labels and details.",
+    "radius": "Subtle, with very slight rounding on some interactive elements, but predominantly sharp corners for a crisp aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical padding between sections and ample whitespace around headings and content blocks."
+  },
+  "standout": "This site distinguishes itself with a sophisticated dark mode aesthetic, elevated by a striking neon green accent and the strategic use of a monospaced font for a high-tech, exclusive feel. The inclusion of a Lottie animation and a deep-scroll legal disclaimer adds a unique and memorable character, suggesting a brand that values meticulous detail and a premium experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

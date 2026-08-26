@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-1257",
+  "source": {
+    "url": "https://web.meetcleo.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1257.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1257__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1257__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1257__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "personal-finance-app"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are presented as full-width blocks with generous vertical padding, often featuring centered text or a flexible grid of content cards, creating an open and airy feel."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for primary messages and smaller, highly legible sans-serif body text, complemented by occasional small uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted color palette combines deep, earthy browns/charcoals with soft off-whites and subtle, desaturated accent colors like sage green and burnt orange."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a gentle fade-in and slight upward translation as they enter the viewport, creating a smooth and engaging content flow upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero background features a subtle, slow-moving cloud animation that appears to be a dynamic canvas or WebGL element, which then disappears as the user scrolls down, transitioning to static content sections."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered content reveals are implemented using a combination of CSS keyframes and potentially a JavaScript library to animate sections into view with a subtle fade and slight upward movement as they become visible. The hero background uses a canvas or WebGL animation for a dynamic, cloud-like visual effect that is fixed or parallaxes slightly before disappearing.",
+    "The navigation bar transitions from transparent over the hero to a sticky, transparent bar with subtle button styling as the user scrolls, maintaining a clean aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#47201c",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f6f2",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#868686",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#7aa582",
+        "role": "accent"
+      },
+      {
+        "hex": "#cf7b4f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ccead0",
+        "role": "surface-light-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PPNeueMontreal",
+        "role": "heading"
+      },
+      {
+        "family": "PPNeueMontreal",
+        "role": "body"
+      },
+      {
+        "family": "SimplonMono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body text) provide strong hierarchy, complemented by smaller, highly legible body text and occasional small uppercase labels.",
+    "radius": "Subtle rounded corners on buttons, cards, and the footer, giving a soft, approachable feel.",
+    "spacing": "Airy vertical spacing between major sections and balanced padding within content blocks, creating a sense of calm and clarity."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated, muted color palette combined with a dynamic, almost moody hero background animation that smoothly transitions to a clean, airy content layout. This creates a premium and engaging experience for a financial product, moving beyond typical corporate aesthetics.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

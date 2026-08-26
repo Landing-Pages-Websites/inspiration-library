@@ -1,0 +1,96 @@
+{
+  "id": "lapa-ninja-2026-1199",
+  "source": {
+    "url": "https://www.amunz.net/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1199.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1199__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1199__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1199__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-services",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses a high-contrast dark mode with large, expressive typography dominating the hero section, followed by an asymmetrical, two-column grid for portfolio project showcases."
+    },
+    {
+      "kind": "type",
+      "note": "A distinct typographic hierarchy is established using three font styles: a bold, classic serif for main descriptive lines, a clean sans-serif for body text and navigation, and an elegant, stylized script for personal emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color scheme is stark black and white, creating a high-contrast, minimal aesthetic, with color introduced only through project imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The main hero text remains fixed or slowly parallaxes in the viewport for a significant scroll distance, creating a persistent brand statement, while the navigation bar at the top becomes sticky after initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio sections are presented as distinct blocks, each featuring a large image on one side and a concise text description on the other, creating a visually balanced yet dynamic layout."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero text effect, the large typographic elements are positioned to remain fixed or have a very slow parallax scroll speed, making them persist in the viewport as other content scrolls underneath. The header elements (logo and menu) transition to a fixed position at the top of the viewport once the user scrolls past the initial hero section.",
+    "Content sections are designed with generous vertical spacing and a dark background, allowing project images and text to stand out with high contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Dancing Script",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, multi-style hero text (~6-8x body) with a mix of classic serif, clean sans-serif, and elegant script, contrasted with smaller, legible sans-serif body and navigation text.",
+    "radius": "sharp",
+    "spacing": "very airy, with significant vertical padding between major sections and a balanced, open feel within content blocks."
+  },
+  "standout": "This site's design is distinctive for its dramatic, multi-font hero typography that uses a combination of classic serif, clean sans-serif, and an elegant script to create a powerful, personal statement that remains fixed on screen for an extended scroll. The high-contrast black and white aesthetic further amplifies this bold typographic expression.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

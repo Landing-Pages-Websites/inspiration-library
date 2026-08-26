@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-1211",
+  "source": {
+    "url": "https://www.coinshift.xyz/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1211.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1211__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1211__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1211__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "fintech",
+      "blockchain",
+      "institutional-investing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a centered, narrow column for primary text, often paired with a wider, offset column for supporting details, data, or visual elements."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with large, bold sans-serif headings for impact, complemented by smaller, lighter sans-serif body text and occasional uppercase labels for section titles or metadata."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a deep dark mode aesthetic with a primary dark blue-black background, various shades of dark grey for surfaces, and a single vibrant orange-red accent color used sparingly for CTAs and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the initial hero content (subtitle and CTA) fades out, while the main hero heading remains centered for a moment before scrolling away. The top navigation bar shrinks in height and gains a solid dark background, sticking to the top. Subsequent content sections reveal themselves with a subtle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The core value proposition and call to action ('Trillions in credit markets. Your share starts here.' and 'Start earning institutional credit yield.') are strategically repeated in the initial hero and as a concluding section at the bottom of the page."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a sticky header that transforms its height and background appearance once the user scrolls past the initial hero section.",
+    "Content sections are revealed using scroll-triggered animations, likely leveraging framer-motion, where elements subtly fade in or slide up into view as they enter the viewport.",
+    "The background features subtle, dark wave-like patterns and a grid overlay that provide texture without distracting from the content, potentially with a slight parallax effect in the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#020617",
+        "role": "background"
+      },
+      {
+        "hex": "#0f172a",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#1e293b",
+        "role": "card-surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "primary-text"
+      },
+      {
+        "hex": "#94a3b8",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#fa3812",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, lighter body text and occasional uppercase labels for emphasis.",
+    "radius": "Subtle (minimal rounding on buttons and card-like elements).",
+    "spacing": "Airy (generous vertical spacing between sections and ample internal padding within content blocks, creating a sense of spaciousness)."
+  },
+  "standout": "This site's design is distinctive for its sophisticated, deep dark mode aesthetic, which feels premium and high-tech. The consistent use of a single vibrant accent color against the dark backdrop, combined with subtle background textures and smooth scroll-triggered animations, creates a polished and engaging user experience that avoids the generic feel of many modern templates.",
+  "animation_tech": [
+    "framer-motion"
+  ],
+  "status": "approved"
+}
