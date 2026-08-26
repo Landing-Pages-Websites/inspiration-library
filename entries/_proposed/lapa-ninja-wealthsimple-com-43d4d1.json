@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-wealthsimple-com-43d4d1",
+  "source": {
+    "url": "https://www.wealthsimple.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-wealthsimple-com-43d4d1.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-wealthsimple-com-43d4d1__scroll0.webp",
+      "shots/_proposed/lapa-ninja-wealthsimple-com-43d4d1__scroll1.webp",
+      "shots/_proposed/lapa-ninja-wealthsimple-com-43d4d1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "wealth-management",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with distinct background treatments (dark gradient, off-white, imagery, solid color banners) create clear visual separation and guide the user down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between large, editorial serif display headings for key section titles and a clean, modern sans-serif for body text, navigation, and smaller headings."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette combining deep, dark tones with warm off-whites and strategic pops of accent colors (yellow, green, brown) tied to specific visual elements or calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-in animation as they enter the viewport, creating a dynamic scroll experience. The main navigation bar remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Key product categories and value propositions are introduced with large, centered serif headings, followed by a visual element (phone, card, abstract blocks, mountain, pie chart) and supporting text."
+    }
+  ],
+  "technique_notes": [
+    "Implement a smooth scrolling experience using a library like Locomotive Scroll to orchestrate scroll-triggered animations. Content sections should subtly fade or slide into view as they enter the viewport. The primary navigation bar should be fixed to the top of the screen after initial scroll.",
+    "Utilize full-bleed background images or gradients for distinct section treatments, ensuring text contrast with overlays where necessary. Employ large, impactful typography for main headings, pairing a display serif with a clean sans-serif for hierarchy."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#080f16",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f3ef",
+        "role": "surface"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#5f5974",
+        "role": "text"
+      },
+      {
+        "hex": "#eee3b1",
+        "role": "accent"
+      },
+      {
+        "hex": "#564c47",
+        "role": "accent"
+      },
+      {
+        "hex": "#0c330d",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold display serif headings (~4-5x body text) create strong visual anchors, complemented by clear, legible sans-serif body and navigation text.",
+    "radius": "Subtle rounding on interactive elements like buttons and input fields, while most imagery and section corners remain sharp.",
+    "spacing": "Airy vertical spacing between major sections, creating a sense of spaciousness, with balanced padding and margins within content blocks."
+  },
+  "standout": "The distinctive use of a large, elegant serif typeface for prominent section headings, combined with sophisticated, abstract visual elements, elevates the site beyond typical financial services marketing. This creates an authoritative yet approachable and visually rich experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

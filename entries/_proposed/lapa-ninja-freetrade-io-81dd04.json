@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-freetrade-io-81dd04",
+  "source": {
+    "url": "https://freetrade.io/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-freetrade-io-81dd04.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-freetrade-io-81dd04__scroll0.webp",
+      "shots/_proposed/lapa-ninja-freetrade-io-81dd04__scroll1.webp",
+      "shots/_proposed/lapa-ninja-freetrade-io-81dd04__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "investment",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content often centered or left-aligned, utilizing a dark background to create a stage for vibrant, contrasting elements."
+    },
+    {
+      "kind": "type",
+      "note": "High-contrast typography featuring oversized, bold sans-serif headings, often with a gradient fill, paired with lighter weight body text for readability on a dark background."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant deep, dark background (near black) serves as a canvas for vibrant, glowing pink and purple accents, contrasted with crisp white primary text and subtle grey secondary text."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered section reveals use a subtle fade-in and slight upward translation, creating a dynamic content flow as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Strategic integration of social proof, such as Trustpilot ratings and customer testimonials, placed prominently in the upper sections of the page to build immediate credibility."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that remains visible at the top of the viewport across all scroll depths, maintaining navigation access.",
+    "Utilize a dark, almost black, background for the entire site, employing vibrant gradient overlays or canvas animations for hero and key section backgrounds to add visual depth and energy.",
+    "Employ scroll-triggered animations (likely using GSAP ScrollTrigger, as hinted) to reveal content sections with a subtle fade-in and upward slide effect as they enter the viewport, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#191919",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#8C8C8C",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#7B42F6",
+        "role": "cta"
+      },
+      {
+        "hex": "#F778C1",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#00B67A",
+        "role": "success"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "HelveticaNeue-Light",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold hero (~4-5x body) with smaller, lighter body text and uppercase labels.",
+    "radius": "subtle for buttons and cards, with some sharp edges for contrast.",
+    "spacing": "airy in the hero and between major sections, balanced in content grids."
+  },
+  "standout": "The site's distinctive use of a deep, dark, almost black background as a sophisticated canvas for vibrant, glowing pink and purple accents, particularly in the oversized, gradient-filled hero typography and subtle background animations. This creates a moody yet energetic and modern aesthetic that feels premium and engaging.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

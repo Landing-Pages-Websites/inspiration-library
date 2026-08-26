@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-titan-com-081a00",
+  "source": {
+    "url": "https://www.titan.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-titan-com-081a00.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-titan-com-081a00__scroll0.webp",
+      "shots/_proposed/lapa-ninja-titan-com-081a00__scroll1.webp",
+      "shots/_proposed/lapa-ninja-titan-com-081a00__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "wealth-management",
+      "fintech"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout in hero and some feature sections, balancing a large visual element with concise text and calls to action."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, sans-serif headings (Geist) are paired with a monospaced font (Geist Mono) for data points and labels, creating a tech-forward, precise feel."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast black/dark grey on white/light grey, with minimal use of accent colors, reinforcing a professional and serious tone."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky header navigation remains visible at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Alternating background colors (white and light grey) are used to clearly delineate major content sections, providing visual rhythm and separation."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar remains fixed at the top of the viewport, overlaying content as it scrolls beneath, providing constant access to key site links.",
+    "A large, full-height hero section uses a split layout, with a dominant image or visual on one side and the primary value proposition and call to action on the other, creating an immediate visual impact.",
+    "The site employs a strong typographic hierarchy, using very large, bold sans-serif type for primary headings and a smaller, monospaced font for supporting data and labels, creating a clear visual structure and emphasizing precision."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      },
+      {
+        "hex": "#615E5B",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with smaller, often monospaced, supporting text and labels.",
+    "radius": "Sharp (buttons, cards, and images have minimal to no visible border-radius).",
+    "spacing": "Airy (generous vertical spacing between sections and within content blocks, especially in the hero)."
+  },
+  "standout": "The site's distinctive use of a clean, high-contrast, almost brutalist-minimalist aesthetic combined with precise, data-driven typography (especially the monospaced font for numbers) creates a strong sense of authority and tech-savviness, avoiding typical 'finance' visual clich\u00e9s. The design feels less like a traditional financial institution and more like a modern tech platform.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "lapa-ninja-coda-co-bb4ae2",
+  "source": {
+    "url": "https://www.coda.co/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-coda-co-bb4ae2.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-coda-co-bb4ae2__scroll0.webp",
+      "shots/_proposed/lapa-ninja-coda-co-bb4ae2__scroll1.webp",
+      "shots/_proposed/lapa-ninja-coda-co-bb4ae2__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "payments",
+      "fintech",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with strong visual separation achieved through dramatic background color shifts, often featuring large, centered text blocks for key messages."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif headings create significant visual impact and hierarchy, complemented by smaller, legible body text and distinct uppercase labels for calls to action or section introductions."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color scheme alternating between a light, off-white background and a deep black background, accented by a prominent dark forest green graphic element."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-page scroll transitions where the background color dramatically shifts from a light tone to a dark tone, accompanied by a large, curved graphic element that appears to parallax or stick, guiding the eye through the section change."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct content sections are introduced by large, bold headings and are visually segmented by the full-page background color changes, creating a clear narrative flow."
+    }
+  ],
+  "technique_notes": [
+    "The site employs full-page scroll-triggered transitions, where the background color of the viewport changes from a light tone to a dark tone. A large, curved graphic element is used as a visual anchor, appearing to parallax or stick during the transition, revealing new content sections. Text and elements within these sections likely fade or slide into view using CSS keyframes as they become active, enhancing the sense of discovery as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f3f4f5",
+        "role": "background-light"
+      },
+      {
+        "hex": "#000000",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#1a4a3a",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-on-light"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Noto Sans SC",
+        "role": "heading"
+      },
+      {
+        "family": "Noto Sans KR",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) create strong visual anchors, with smaller, legible body text and uppercase labels providing clear information.",
+    "radius": "Sharp corners dominate for most elements and section boundaries, with subtle rounding applied to interactive elements like buttons.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, allowing content to breathe and maintain a clean aesthetic."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, full-page scroll-triggered background color transitions, which are visually anchored by a large, curved graphic element. This creates a highly engaging and dynamic scrolling experience that feels less like a traditional page scroll and more like a scene change.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

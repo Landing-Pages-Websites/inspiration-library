@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-vibrantpractice-com-6a643d",
+  "source": {
+    "url": "https://www.vibrantpractice.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-26"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-vibrantpractice-com-6a643d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-vibrantpractice-com-6a643d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-vibrantpractice-com-6a643d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-vibrantpractice-com-6a643d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "healthcare",
+      "saas",
+      "medical-tech"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layouts (image/text) with full-width content sections and multi-column grids for features, creating a dynamic yet structured flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant, large serif font for prominent headings and a clean, modern sans-serif for body text and smaller labels, establishing a premium and authoritative tone."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, inviting gradient (blue to orange/yellow) for the hero, contrasted with a predominantly light, neutral palette (off-white/beige) for content sections, accented by a bright yellow for CTAs."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero content (the UI screenshot) exhibits a subtle parallax effect, moving independently of the background gradient as the user scrolls, adding depth and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent with light text to an opaque, light-colored bar with dark text and a subtle shadow/blur effect once the user scrolls past the initial hero section, remaining sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a gentle fade-in or slide-up animation as they enter the viewport, creating a guided and engaging scrolling experience."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a parallax effect where a foreground element (the UI screenshot) scrolls at a different rate than its background gradient, creating a sense of depth. This is likely achieved with CSS transforms or GSAP.",
+    "The global navigation bar dynamically changes its appearance (background color, text color, and adds a subtle shadow/blur) when the user scrolls past the initial hero content, remaining sticky at the top of the viewport. This transition is smooth and likely uses CSS transitions or GSAP.",
+    "Content sections throughout the page are revealed using scroll-triggered animations, likely leveraging GSAP, where elements gently fade up or slide into view as they become visible in the viewport, enhancing engagement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2F80ED",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2994A",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2C94C",
+        "role": "cta"
+      },
+      {
+        "hex": "#F8F7F4",
+        "role": "surface"
+      },
+      {
+        "hex": "#646054",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (hero ~3-4x body) with a strong contrast to the smaller, clean sans-serif body text and uppercase labels, conveying sophistication.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and cards, maintaining a soft but not overly playful aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical spacing between sections and within content blocks, contributing to a premium and uncluttered feel."
+  },
+  "standout": "The site's distinctive use of a sophisticated, large-scale serif typeface for primary headings, paired with a warm, inviting gradient hero, creates an immediate impression of elegance and authority. This aesthetic, combined with the clean, data-rich UI screenshots, effectively positions the product as a high-end, intelligent solution in the health tech space.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
