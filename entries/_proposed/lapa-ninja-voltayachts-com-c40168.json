@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-voltayachts-com-c40168",
+  "source": {
+    "url": "https://www.voltayachts.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-voltayachts-com-c40168.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-voltayachts-com-c40168__scroll0.webp",
+      "shots/_proposed/lapa-ninja-voltayachts-com-c40168__scroll1.webp",
+      "shots/_proposed/lapa-ninja-voltayachts-com-c40168__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marine",
+      "ecommerce",
+      "sustainable-transport"
+    ],
+    "mood": [
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero section featuring a background video with overlaid text content and call-to-action buttons."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating light grey and white background colors are used for successive content sections to provide visual segmentation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for section titles, creating strong hierarchy, contrasted with lighter weight sans-serif for body text and descriptions."
+    },
+    {
+      "kind": "color",
+      "note": "A deep navy/charcoal serves as the primary dark color for text and backgrounds, complemented by a vibrant teal as a consistent accent for interactive elements and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section's overlaid text and call-to-action elements slide upwards and fade out as the user scrolls down, revealing the content below."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar is sticky, transitioning from a transparent background over the hero video to a solid white background with a subtle drop shadow once the user scrolls past the initial viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero are revealed with a subtle fade-in and upward slide animation as they enter the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is built with a full-bleed background video that loops continuously, with all textual and interactive elements positioned on top using absolute positioning.",
+    "Scroll-triggered animations, likely using CSS keyframes, cause the hero's text and buttons to animate by translating upwards and reducing opacity as the user scrolls, creating a sense of content receding into the background.",
+    "The global navigation bar is implemented as a sticky element that changes its visual properties (background color, shadow) based on the scroll position, transitioning from transparent to opaque after a certain scroll threshold."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0c3f6d",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#1d9e75",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) create strong visual impact, complemented by smaller, lighter body text and very small, uppercase labels for categories.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, input fields, and card elements, contributing to a modern and approachable feel.",
+    "spacing": "The layout maintains a balanced density overall, with a notably airy and spacious hero section, transitioning to a more structured and slightly denser grid for product listings and content sections."
+  },
+  "standout": "The site's most distinctive feature is its immersive, full-bleed video hero showcasing an electric boat, immediately establishing a high-end, modern, and sustainable brand identity. This visual storytelling, combined with the smooth scroll-triggered animations, sets it apart from typical marketplace designs by creating an engaging and premium first impression.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

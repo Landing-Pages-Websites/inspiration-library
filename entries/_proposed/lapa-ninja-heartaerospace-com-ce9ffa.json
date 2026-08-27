@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-heartaerospace-com-ce9ffa",
+  "source": {
+    "url": "https://heartaerospace.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-heartaerospace-com-ce9ffa.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-heartaerospace-com-ce9ffa__scroll0.webp",
+      "shots/_proposed/lapa-ninja-heartaerospace-com-ce9ffa__scroll1.webp",
+      "shots/_proposed/lapa-ninja-heartaerospace-com-ce9ffa__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "aerospace",
+      "aviation",
+      "manufacturing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution imagery is used as dominant background elements for hero and key sections, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, sans-serif typography is used for hero headlines and product names, creating a strong visual impact and clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette of black and white is heavily contrasted with the rich, atmospheric blues and greys of the aircraft photography."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, scrolling slower than the foreground text, while the navigation bar transforms from transparent to opaque black upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by alternating between full-bleed imagery and clean white backgrounds, often with centered headings and investor logos."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, full-bleed image (or video frame) with a subtle dark overlay for text contrast. As the user scrolls, this background image moves at a slower rate than the page content, creating a parallax depth effect. The main product name text also appears to scroll off-screen at a different rate than the primary headline.",
+    "The primary navigation bar starts as transparent with light text over the hero image. Upon scrolling past the hero, it transitions to a solid opaque black background with white text, maintaining its sticky position at the top of the viewport.",
+    "Key information and investor logos are presented in clean, spacious sections on a white background, using generous vertical padding to create an airy feel and emphasize content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#4A5568",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A202C",
+        "role": "text"
+      },
+      {
+        "hex": "#6B7280",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, extremely bold display headings (~5x body) for hero and product names, with smaller, regular-weight sans-serif for body text and uppercase navigation.",
+    "radius": "sharp",
+    "spacing": "very airy, especially in the hero and between major content sections, creating a sense of spaciousness and focus."
+  },
+  "standout": "The site's design is distinctive for its dramatic, full-bleed, high-quality aircraft photography combined with minimalist, impactful typography. The subtle parallax in the hero and the clean, spacious layout effectively convey innovation and authority, making the product the undeniable focal point.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-penpot-app-81871f",
+  "source": {
+    "url": "https://penpot.app",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-penpot-app-81871f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-penpot-app-81871f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-penpot-app-81871f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-penpot-app-81871f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "open-source"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections consistently pair a left-aligned text block (heading, description, CTA) with a large, right-aligned product UI screenshot, creating a clear visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Key words within prominent headings (e.g., 'Together.') are highlighted with a distinct accent color, drawing attention and adding visual interest."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant teal is used exclusively for primary calls-to-action, ensuring high contrast and immediate recognition, while a warm orange highlights specific words in headings."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a prominent parallax effect where the large product UI screenshot remains visually anchored or scrolls at a slower rate, while the introductory text and CTA buttons scroll over it, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Each feature section (e.g., UI Design, Design Systems) follows a repeatable structure: a bold heading, a concise descriptive paragraph, a call-to-action button, and a detailed, dark-themed product screenshot."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a parallax scrolling effect where a large, detailed product screenshot is positioned to scroll at a slower speed or remain fixed, allowing the overlaying text content and buttons to scroll past it, creating a layered visual experience.",
+    "Content sections below the hero are revealed with a subtle fade-in or slide-up animation as they enter the viewport, likely orchestrated by a scroll-triggered animation library like locomotive-scroll, enhancing engagement without being distracting.",
+    "The main navigation bar maintains a fixed position at the top of the viewport, ensuring constant access to site navigation and primary calls to action as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8FAFC",
+        "role": "background"
+      },
+      {
+        "hex": "#2C3E50",
+        "role": "text"
+      },
+      {
+        "hex": "#00C896",
+        "role": "cta"
+      },
+      {
+        "hex": "#DB836E",
+        "role": "accent"
+      },
+      {
+        "hex": "#DDDDDD",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A2035",
+        "role": "footer-background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Work Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Work Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold sans-serif headings (~3-4x body) with a distinct accent color for key words, paired with a clean, readable sans-serif body text.",
+    "radius": "subtle rounding (e.g., 4-8px) on buttons, input fields, and the corners of embedded UI mockups, providing a soft, approachable feel.",
+    "spacing": "airy in the hero section, transitioning to a balanced density with generous vertical padding between major content blocks and within feature sections."
+  },
+  "standout": "The site's distinctive use of high-fidelity, dark-themed product UI mockups as central visual elements, integrated directly into the content flow, immediately communicates the product's sophistication and functionality. The parallax hero effect with the large app screenshot further enhances this product-centric approach, making the software itself the star of the design.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

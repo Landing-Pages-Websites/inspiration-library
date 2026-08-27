@@ -1,0 +1,94 @@
+{
+  "id": "lapa-ninja-joi-software-fe2e46",
+  "source": {
+    "url": "https://joi.software",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-joi-software-fe2e46.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-joi-software-fe2e46__scroll0.webp",
+      "shots/_proposed/lapa-ninja-joi-software-fe2e46__scroll1.webp",
+      "shots/_proposed/lapa-ninja-joi-software-fe2e46__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-app",
+      "mobile-app"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently centered with generous vertical whitespace, creating an airy and focused presentation for each section."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headlines feature oversized, bold sans-serif typography with integrated emojis, creating a distinctive and impactful visual statement."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black text on a pure white background dominates, with a subtle shift to light gray for secondary text and descriptive content."
+    },
+    {
+      "kind": "motion",
+      "note": "A high-contrast sticky navigation bar appears from the top of the viewport after the initial hero content is scrolled past, transforming the top navigation experience."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are visually distinct by using large, light gray text on a white background, subtly shifting the visual hierarchy from the bold black hero."
+    }
+  ],
+  "technique_notes": [
+    "A fixed navigation bar is introduced and pinned to the top of the viewport after the user scrolls past the initial hero content, featuring a high-contrast black background and white elements. Subsequent content sections likely employ a subtle scroll-triggered reveal animation, such as a fade-in or slide-up, as they become visible, leveraging css-keyframes for smooth transitions.",
+    "The design leverages extreme contrast with oversized, bold black sans-serif typography for primary messaging on a pure white background, creating immediate impact. Feature descriptions then shift to a lighter gray sans-serif, maintaining readability while visually de-emphasizing them and providing a sense of spaciousness."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~3-4x body) with smaller, lighter sans-serif body text and even smaller meta text.",
+    "radius": "Subtle rounding on interactive elements like buttons and the product image container.",
+    "spacing": "Very airy, especially in the hero and between major content blocks, creating a sense of spaciousness and focus."
+  },
+  "standout": "The site's design is distinctive for its extreme minimalism and high-contrast aesthetic, particularly the bold, oversized sans-serif headline that playfully integrates emojis. This stark visual language, combined with the subtle shift to light gray text for feature descriptions, creates a unique rhythm and impactful brand presence.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

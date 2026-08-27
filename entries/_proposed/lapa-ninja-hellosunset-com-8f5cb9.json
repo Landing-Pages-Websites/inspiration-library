@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-hellosunset-com-8f5cb9",
+  "source": {
+    "url": "https://www.hellosunset.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hellosunset-com-8f5cb9.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hellosunset-com-8f5cb9__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hellosunset-com-8f5cb9__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hellosunset-com-8f5cb9__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "financial-services",
+      "estate-planning",
+      "asset-recovery"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large photographic element on the right and concise text content on the left, establishing a balanced yet dynamic visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating light and dark background sections create clear visual breaks and guide the user's eye down the page, using warm off-white and deep charcoal tones."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings are paired with smaller, highly legible body text, and accented with subtle uppercase labels for sub-sections or metadata."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky header remains visible at the top of the viewport, allowing page content to scroll underneath it. While not explicitly captured in the provided scroll sequence, the detected animation libraries suggest that sections likely reveal with subtle fade-in or slide-up animations as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonial cards are presented in a horizontally scrollable carousel, featuring client photos and short quotes, adding social proof without consuming excessive vertical space."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is fixed to the top of the viewport, maintaining accessibility throughout scrolling.",
+    "Content sections are designed to reveal with a gentle animation, such as a fade-up or slight slide-in, as they become visible in the user's viewport, likely orchestrated by GSAP and Locomotive Scroll for smooth transitions.",
+    "Interactive elements like buttons and cards feature subtle rounded corners and consistent hover states for improved user experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f7f3eb",
+        "role": "background"
+      },
+      {
+        "hex": "#2e2c2a",
+        "role": "text"
+      },
+      {
+        "hex": "#e07a5f",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#3d3b39",
+        "role": "dark-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong focal points, complemented by a clear, readable body text and smaller uppercase labels.",
+    "radius": "Subtle to rounded corners are consistently applied to buttons, input fields, and section containers, contributing to a soft, approachable aesthetic.",
+    "spacing": "Balanced spacing throughout, with airy vertical separation between major sections and a more compact arrangement within feature lists and card grids."
+  },
+  "standout": "The site's distinctive blend of a warm, inviting color palette with sophisticated, modern typography and authentic photography creates an empathetic yet authoritative presence, particularly effective for a sensitive topic. The design feels premium and trustworthy without being overly corporate.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}
