@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-2026-1304",
+  "source": {
+    "url": "https://zoox.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1304.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1304__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1304__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1304__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "transportation",
+      "robotics"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed video and image sections create an immersive experience, often with text overlaid directly on the media, breaking the traditional content box layout."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, pairing a large, impactful image with a concise text block, often with a subtle background color shift."
+    },
+    {
+      "kind": "color",
+      "note": "A distinctive light mint green (#E8F1EF) is used as a primary background color for several key sections, providing a unique brand identity that contrasts with dark grey/black text and imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header navigation transitions from transparent with white text and logo to a solid light background with dark text and logo upon scroll, maintaining visibility and brand presence."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video acts as a fixed background element that scrolls under the main content, creating a parallax-like effect as foreground elements overlay and reveal new content."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often highlight specific locations or aspects of the service using a grid of images with short descriptive text, presented on a contrasting background."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video as a background element, which remains fixed or scrolls at a slower rate than the foreground content, allowing text and other elements to scroll over it, creating a dynamic visual depth.",
+    "A global navigation bar is initially transparent and overlays the hero content, then transforms into a solid, light-colored bar with dark text and logo once the user scrolls past the hero section, maintaining its position at the top of the viewport.",
+    "Content sections are revealed with subtle fade-in or slide-up animations as they enter the viewport, creating a smooth visual flow and guiding the user's attention down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#E8F1EF",
+        "role": "background"
+      },
+      {
+        "hex": "#1C1C1C",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "subtle-surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "dark-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, readable body text and smaller, often uppercase, labels for navigation and subheadings.",
+    "radius": "Subtle rounded corners (small radius) on buttons and some image containers, but many elements, especially full-bleed media, maintain sharp edges.",
+    "spacing": "Balanced to airy, especially in hero and main content sections, with generous vertical spacing between major content blocks to enhance readability and visual breathing room."
+  },
+  "standout": "The site's distinctive use of a custom light mint green as a primary brand color, combined with the seamless integration of the robotaxi itself into the visual design through high-quality video and imagery, makes it feel both futuristic and approachable. The hero video acting as a background that content scrolls over is particularly effective in creating an immersive experience.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

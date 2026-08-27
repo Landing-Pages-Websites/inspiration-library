@@ -1,0 +1,118 @@
+{
+  "id": "lapa-ninja-2026-1283",
+  "source": {
+    "url": "https://langbase.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1283.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1283__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1283__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1283__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, grid-based layout with full-width content sections, often featuring code-like blocks and data visualization elements, creating a developer-centric aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a clean sans-serif font for headings and body, contrasted with a monospaced font for code snippets and technical details, reinforcing the technical theme."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep black backgrounds and white text, punctuated by vibrant, multi-color gradients used for accents, data representations, and visual interest throughout the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and visual elements, particularly the gradient bar graphics, reveal themselves with a fade-in or slide-up animation as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Major page sections are clearly delineated by large, centered, code-comment-style headings (e.g., '// command') followed by a 'More' button, providing a unique structural rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a subtle, animated grid background, likely a video loop or animated SVG, providing a dynamic yet understated backdrop.",
+    "Scroll-triggered animations (using css-keyframes) are employed to progressively reveal content blocks and gradient bar graphics as they enter the viewport, creating a guided discovery experience.",
+    "A sticky navigation bar remains at the top of the viewport, providing persistent access to site links as the user scrolls through the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#3F3F3F",
+        "role": "surface"
+      },
+      {
+        "hex": "#C7B8F5",
+        "role": "accent"
+      },
+      {
+        "hex": "#F6D1AC",
+        "role": "accent"
+      },
+      {
+        "hex": "#F3B5D2",
+        "role": "accent"
+      },
+      {
+        "hex": "#A7EADC",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, clean body text and very small, often uppercase, labels. Monospaced text is used for code snippets.",
+    "radius": "Subtle rounded corners (small radius) on buttons and some interactive elements, maintaining a generally sharp and precise aesthetic.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and content blocks, creating a clean and uncluttered feel. Content within blocks is more balanced."
+  },
+  "standout": "The site's distinctive blend of a dark, code-editor-like aesthetic with vibrant, data-visualization-inspired gradient graphics creates a unique and sophisticated technical feel. The use of '// SECTION_NAME' as a visual divider is a clever, on-brand touch that reinforces its developer focus.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

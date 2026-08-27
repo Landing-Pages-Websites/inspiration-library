@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-1263",
+  "source": {
+    "url": "https://aptosbuild.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1263.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1263__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1263__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1263__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "blockchain",
+      "developer-tools",
+      "web3"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with large text on the left and a complementary abstract illustration on the right."
+    },
+    {
+      "kind": "color",
+      "note": "Consistent use of a vibrant, flat-color palette (orange, blue, green, pink) for illustrations and section background fills, contrasting with a neutral off-white page background."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, bold sans-serif headings are used for main titles, while section labels are smaller and uppercase, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "motion",
+      "note": "Main content sections reveal with a subtle fade-in and slight upward slide as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'PRODUCTS' section features a horizontal carousel of cards, indicated by pagination dots, allowing users to swipe through additional items."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a block of descriptive text with a large, abstract, flat-color illustration, presented in a two-column layout."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that remains fixed at the top of the viewport, ensuring continuous access to navigation and branding elements.",
+    "Utilize a scroll-detection mechanism (e.g., Intersection Observer or a library like GSAP ScrollTrigger) to animate content sections into view with a subtle fade-in and slight upward translation as they become visible on scroll.",
+    "Employ a carousel component (like Swiper.js, as hinted) to display multiple feature cards horizontally within a section, complete with clear pagination indicators for user navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F4",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#0099FF",
+        "role": "cta"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#00CCFF",
+        "role": "accent-light-blue"
+      },
+      {
+        "hex": "#66CC33",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#FF66CC",
+        "role": "accent-pink"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with clear, readable body copy and smaller, uppercase section labels.",
+    "radius": "Subtle rounded corners on buttons, cards, and illustrations.",
+    "spacing": "Balanced overall, with an airy hero section and good vertical separation between content blocks."
+  },
+  "standout": "The site's distinctive use of a vibrant, playful color palette applied to bold, flat-style abstract illustrations, combined with a clean, minimal layout, creates a unique and memorable brand identity that feels both professional and approachable.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "approved"
+}

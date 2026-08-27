@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1266",
+  "source": {
+    "url": "https://bedouinsdaughter.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1266.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1266__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1266__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1266__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "skincare",
+      "cosmetics"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-fashion photography and video are used as dominant background elements for most sections, creating an immersive visual experience."
+    },
+    {
+      "kind": "type",
+      "note": "A very large, bold, golden-yellow serif typeface is used exclusively for the brand name and major section headings, creating a strong brand identity and visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme with a dominant black background is consistently paired with a distinctive golden-yellow accent color for branding and key text elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features the brand name text dynamically interacting with a full-bleed video background, appearing to parallax or stick as the user scrolls before eventually disappearing."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent, minimal state with a promotional banner to a solid black, sticky bar with simplified links after scrolling past the hero."
+    }
+  ],
+  "technique_notes": [
+    "A smooth scrolling library (like locomotive-scroll) is employed to create a fluid and controlled scroll experience across the page.",
+    "The hero section utilizes a full-bleed video background with a large, branded text overlay that exhibits a parallax or sticky effect, appearing to float over the video content as the user scrolls before animating out of view.",
+    "The site employs a dynamic header that transitions from an initial transparent state with a top banner to a fixed, solid black navigation bar with simplified links once the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#f5e78d",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#111111",
+        "role": "surface"
+      },
+      {
+        "hex": "#f00",
+        "role": "product-label"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ROM Extended",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif display font for the brand name and section titles (~4-5x body text), contrasted with a clean, legible sans-serif for body and product details. Uppercase is used for labels and navigation.",
+    "radius": "Sharp (mostly square edges, product images are rectangular).",
+    "spacing": "Airy (generous vertical spacing between sections, ample padding around content blocks, especially in the hero and full-bleed image sections)."
+  },
+  "standout": "The site's distinctive use of an extremely large, bold, golden-yellow serif typeface for its brand name and key section titles, combined with a deep black background and full-bleed, high-fashion photography, creates a luxurious and editorial aesthetic. The hero text's unique parallaxing or sticky behavior over the video further enhances this premium feel, making the brand name a central, dynamic visual element.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "approved"
+}

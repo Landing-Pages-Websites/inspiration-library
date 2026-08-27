@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-1287",
+  "source": {
+    "url": "https://motiapp.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1287.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1287__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1287__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1287__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "app",
+      "community",
+      "social-media"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections feature large, often multi-colored display headings that break the typical grid, followed by centered content blocks or card-based layouts."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast exists between oversized, bold display headings (some serif, some sans-serif) and smaller, legible sans-serif body text, creating clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of bright yellow and dark grey/black as primary backgrounds, punctuated by vibrant, playful accent colors in illustrations and specific text elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky footer bar with app download links remains fixed at the bottom of the viewport throughout the entire page scroll. Major content sections reveal themselves with a fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced by a distinctively large, often colorful and illustrative heading that serves as a strong visual anchor."
+    }
+  ],
+  "technique_notes": [
+    "The hero section transitions from a vibrant yellow background with a 3D logo to a dark grey background as the user scrolls, creating a dramatic visual shift. This could be achieved by animating background colors and element positions using scroll-triggered events.",
+    "Content sections are revealed sequentially as the user scrolls down the page. This effect is likely implemented using GSAP ScrollTrigger or similar JavaScript libraries to detect when elements enter the viewport and then apply a subtle fade-in or slide-up animation using CSS keyframes.",
+    "A persistent footer bar containing app download links remains fixed at the bottom of the screen, providing constant access to calls-to-action. This is a standard sticky positioning technique with a z-index to ensure it overlays other content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFD700",
+        "role": "background"
+      },
+      {
+        "hex": "#030303",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#909090",
+        "role": "text"
+      },
+      {
+        "hex": "#4CAF50",
+        "role": "accent"
+      },
+      {
+        "hex": "#9C27B0",
+        "role": "accent"
+      },
+      {
+        "hex": "#2196F3",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Merriweather Black",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: YouTube Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-6x body text) with a mix of serif and sans-serif styles, contrasting with a clear, readable sans-serif body text.",
+    "radius": "Subtle, with rounded corners on cards, buttons, and app store badges.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and large headings creating significant visual breaks."
+  },
+  "standout": "This site's design is distinctive for its bold, almost cartoonish aesthetic, particularly in the use of a 3D clay-like logo and extremely oversized, often multi-colored and illustrative headings that break traditional layout norms. The high-contrast yellow and dark grey palette, combined with playful illustrations, gives it a unique, energetic personality that avoids a generic corporate feel.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

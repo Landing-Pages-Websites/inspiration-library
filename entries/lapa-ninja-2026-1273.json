@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-1273",
+  "source": {
+    "url": "https://www.crunchdao.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1273.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1273__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1273__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1273__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "ai",
+      "machine-learning",
+      "software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with a dark background, using high-contrast light text and imagery, often with asymmetrical content arrangements (e.g., text on left, image/graphic on right)."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings (Inter) are used for primary messaging, creating strong visual impact, contrasted with smaller, regular-weight body text."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark mode aesthetic (black/dark gray) is consistently applied across all sections, punctuated by a single, vibrant orange accent color for CTAs and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a background image that parallaxes, scrolling at a slower rate than the foreground text, while subsequent content sections reveal themselves with a subtle fade-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Trusted By' section prominently displays a grid of partner logos, and an accordion-style FAQ section is used for common questions."
+    }
+  ],
+  "technique_notes": [
+    "A persistent header navigation remains sticky at the top of the viewport, maintaining access to key links as the user scrolls.",
+    "The hero section employs a parallax scrolling effect where the background image moves at a different speed than the overlaying text, creating depth.",
+    "Content sections are revealed using scroll-triggered animations (likely GSAP ScrollTrigger), where elements subtly fade and slide upwards into view as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#e05200",
+        "role": "accent"
+      },
+      {
+        "hex": "#1c1c1c",
+        "role": "surface"
+      },
+      {
+        "hex": "#696969",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) create strong visual hierarchy, complemented by smaller, regular-weight body text for detail.",
+    "radius": "Sharp corners are consistently used for buttons, cards, and section elements, contributing to a modern, precise feel.",
+    "spacing": "Balanced to airy spacing is used throughout, with generous vertical padding between sections and comfortable line-heights, creating a sense of openness without feeling sparse."
+  },
+  "standout": "This site distinguishes itself with a bold, high-contrast dark aesthetic that feels both sophisticated and industrial, effectively using a single vibrant orange accent to guide the eye. The impactful, large-scale typography combined with subtle parallax and scroll-triggered reveals creates a dynamic yet focused user experience that avoids generic marketing site tropes.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

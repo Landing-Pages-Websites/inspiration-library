@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-2026-1277",
+  "source": {
+    "url": "https://firebase.studio",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1277.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1277__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1277__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1277__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are primarily dark-themed, centered horizontally, and feature a large, bold heading followed by a descriptive paragraph and often a prominent code editor or application screenshot."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established with very large, bold display headings for section titles and a more restrained, readable sans-serif for body text, complemented by a monospaced font for code examples."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a dominant dark grey/black background with high-contrast white text, accented by a bright orange for calls-to-action and alerts, and a vibrant blue for interactive elements and key iconography."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar and a site-wide alert banner are sticky, remaining fixed at the top of the viewport as the user scrolls down the page, while the rest of the page content scrolls underneath."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections often pair a textual description on one side with a detailed, realistic screenshot of a code editor or application interface on the other, creating a strong visual emphasis on the product's functionality."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark mode aesthetic with a deep charcoal background and light text, using subtle variations in dark grey for surface elements like cards and code editor backgrounds to create depth.",
+    "A sticky header and a sticky alert banner are implemented using CSS positioning to ensure they remain visible at the top of the screen during scroll, providing persistent navigation and important information.",
+    "Content sections are revealed through standard vertical scrolling without complex scroll-triggered animations like fade-ins or slide-ups for individual elements; the design relies on clear static hierarchy and strong visuals."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1f1f1f",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ff9100",
+        "role": "accent"
+      },
+      {
+        "hex": "#3186ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#303030",
+        "role": "surface"
+      },
+      {
+        "hex": "#3e3e3e",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Google Sans Display",
+        "role": "heading"
+      },
+      {
+        "family": "Google Sans Text",
+        "role": "body"
+      },
+      {
+        "family": "JetBrains Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very large, bold headings (~4-5x body) create strong visual impact, supported by a clear hierarchy of smaller, readable sans-serif text and distinct monospaced code blocks.",
+    "radius": "Rounded corners are consistently applied to buttons, cards, and the footer, giving a soft, modern feel.",
+    "spacing": "Balanced spacing is used throughout, with an airy hero section and well-defined vertical rhythm between content blocks, ensuring readability and visual comfort."
+  },
+  "standout": "The site's standout feature is its sophisticated dark mode aesthetic combined with highly realistic and detailed code editor screenshots, which are central to each feature section. This creates an immersive and authentic experience for developers, immediately conveying the product's utility and environment.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-2026-1269",
+  "source": {
+    "url": "https://charm.land",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1269.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1269__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1269__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1269__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "developer-tools",
+      "open-source"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section uses an asymmetrical layout, balancing a large, bold heading and call-to-action on one side with a prominent, stylized 'terminal window' visual on the other."
+    },
+    {
+      "kind": "color",
+      "note": "Vibrant purple and pink gradients are used as primary brand accents and background elements, creating a dynamic and energetic feel, contrasted with clean white and dark charcoal for content areas."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive pixelated monospace font is consistently applied to code examples, terminal-like UI elements, and specific labels, reinforcing a retro-tech aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background, featuring large gradient bubbles and stars, parallaxes subtly against the foreground content as the user scrolls, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Product and code examples are presented within consistent 'terminal window' styled cards, featuring dark backgrounds, pixelated text, and a distinct border treatment."
+    }
+  ],
+  "technique_notes": [
+    "The hero background employs a parallax scrolling effect, where the animated canvas elements move at a slower rate than the foreground content, enhancing visual depth.",
+    "The navigation bar transitions from a transparent overlay to a sticky element with a solid, light background and a subtle shadow once the user scrolls past the initial hero section.",
+    "Content sections and individual product cards are revealed using scroll-triggered animations, typically a staggered fade-up or slide-in effect as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8FF",
+        "role": "surface"
+      },
+      {
+        "hex": "#6A3FFB",
+        "role": "accent"
+      },
+      {
+        "hex": "#D842F9",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF69B4",
+        "role": "cta"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Press Start 2P",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with standard body text and small, uppercase labels for categories, creating a clear hierarchical structure.",
+    "radius": "subtle rounded corners on cards, buttons, and input fields, maintaining a soft yet defined edge.",
+    "spacing": "airy, with generous vertical spacing between major sections and balanced padding within content blocks, contributing to a clean and uncluttered presentation."
+  },
+  "standout": "This site's design is distinctive for its playful, retro-futuristic aesthetic, which masterfully blends modern web design with pixel art, vibrant gradients, and a consistent 'terminal window' metaphor. This unique visual language creates a memorable brand identity that feels both professional and whimsically innovative, setting it apart from typical tech company sites.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1272",
+  "source": {
+    "url": "https://www.craft.do/v3",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1272.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1272__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1272__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1272__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "productivity-tool",
+      "note-taking-app"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating two-column layout for feature sections, with product screenshots on one side and descriptive text on the other, creating visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between a large, elegant serif font for primary headings and a clean, modern sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a soft, warm yellow as an accent color for the hero background and a prominent call-to-action section, contrasting with a predominantly dark grey and off-white palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar becomes sticky at the top of the viewport upon scrolling, maintaining its original style and content."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle parallax effect is applied to the organic, torn-paper-like background element in the hero section, causing it to scroll at a different rate than the foreground text and video play button."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections are introduced with a small, centered logo and a concise update title, followed by detailed explanations."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero parallax, the background element is positioned to move at a slower rate than the foreground content as the user scrolls, creating a sense of depth. This can be implemented using CSS transforms or JavaScript scroll listeners.",
+    "The navigation bar transitions to a fixed position at the top of the viewport once the user scrolls past a certain threshold, ensuring it remains accessible. This is typically done with CSS position: sticky or JavaScript to toggle a fixed class.",
+    "Content sections are presented with generous vertical spacing, allowing each feature or update to breathe and be easily digestible. This airy layout is maintained through consistent padding and margin values."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFF0B3",
+        "role": "accent"
+      },
+      {
+        "hex": "#030302",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with a refined character, paired with clean, legible sans-serif body text and smaller sans-serif UI elements.",
+    "radius": "Subtle (slightly rounded corners on cards and buttons), with an organic, irregular shape used for the hero background element.",
+    "spacing": "Airy (generous vertical spacing between sections and ample padding within content blocks, creating a spacious and uncluttered feel)."
+  },
+  "standout": "The site's design is distinctive for its elegant and playful hero section, featuring a large, organically shaped yellow background element with a subtle parallax effect. This unique visual anchor, combined with the sophisticated serif typography and clean product-focused layouts, elevates it beyond a standard marketing template.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

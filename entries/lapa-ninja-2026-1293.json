@@ -1,0 +1,119 @@
+{
+  "id": "lapa-ninja-2026-1293",
+  "source": {
+    "url": "https://rerun.io",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1293.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1293__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1293__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1293__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "artificial-intelligence",
+      "data-science"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a clean, spacious single-column layout for primary content flow, with generous vertical spacing between distinct sections to enhance readability and visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif typeface, providing strong visual impact, while body text uses the same family in a smaller, highly legible size, maintaining consistency."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly stark white background and dark gray text are contrasted by a vibrant, multi-color gradient used in the hero's 3D animation, serving as the primary accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a continuous, looping 3D animation of a robotic arm interacting with a flowing, multi-color data stream, which remains animated within its viewport but does not parallax or react to scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into clearly delineated sections, often using a subtle light gray background for cards or entire sections to provide visual breaks and group related information."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a large-scale, dynamic 3D animation, likely built with WebGL/Three.js or a canvas library, to visually represent complex data flows and technical concepts as a continuous background element.",
+    "The site utilizes a standard vertical scrolling mechanism for content revelation, where sections simply slide into view without additional scroll-triggered animations like fade-ins, slide-ups, or parallax effects for the main content blocks.",
+    "Information is presented using a clean, grid-based system for feature cards and community testimonials, ensuring organized and scannable content presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF6B6B",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD93D",
+        "role": "accent"
+      },
+      {
+        "hex": "#6BCB77",
+        "role": "accent"
+      },
+      {
+        "hex": "#4D96FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized bold hero headings (~4-5x body) with smaller, uppercase labels and clear, legible body text.",
+    "radius": "subtle \u2014 a very slight corner radius is applied to buttons and cards, maintaining an overall sharp and modern aesthetic.",
+    "spacing": "airy \u2014 very generous vertical spacing between major sections and within the hero, creating a sense of openness, balanced with a tighter grid for feature cards."
+  },
+  "standout": "The most distinctive element is the highly sophisticated and continuously animated 3D WebGL hero graphic, which abstractly visualizes complex data streams and robotics, immediately conveying the site's cutting-edge technical domain in a visually compelling way.",
+  "animation_tech": [
+    "canvas",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
