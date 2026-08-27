@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-arc-net-3dd8bd",
+  "source": {
+    "url": "https://arc.net/search",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-arc-net-3dd8bd.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-arc-net-3dd8bd__scroll0.webp",
+      "shots/_proposed/lapa-ninja-arc-net-3dd8bd__scroll1.webp",
+      "shots/_proposed/lapa-ninja-arc-net-3dd8bd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "mobile-app",
+      "browser",
+      "search-engine"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with centered content, often featuring multiple device mockups arranged in dynamic, overlapping compositions rather than simple grids."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, rounded, bold display headings are used for impact, contrasting with a more utilitarian monospace or sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant gradient of blues and purples is used for hero and footer sections, providing a strong brand identity against clean white/off-white content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation header transforms upon scroll, shrinking slightly and gaining a solid white background as it becomes sticky, providing persistent access."
+    },
+    {
+      "kind": "section",
+      "note": "Extensive use of 'product-in-device' sections, where the app's UI and features are showcased within realistic phone mockups, often clustered or arranged in dynamic compositions."
+    }
+  ],
+  "technique_notes": [
+    "The header transitions from a transparent background to a solid white and slightly reduces in height as the user scrolls past the hero section, creating a persistent, compact navigation bar.",
+    "Product features are demonstrated through a series of embedded phone mockups, often arranged in dynamic, overlapping compositions, rather than static screenshots, to convey interactivity and multiple views. This is enhanced by css-keyframes for subtle internal animations.",
+    "The site uses a vibrant, full-bleed gradient background for key sections like the hero and footer to establish a distinct brand identity, contrasting with clean, minimal white content areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2404aa",
+        "role": "background"
+      },
+      {
+        "hex": "#3139fb",
+        "role": "accent"
+      },
+      {
+        "hex": "#0c50ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#fffcec",
+        "role": "surface"
+      },
+      {
+        "hex": "#0e0f10",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#000354",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Marlin Soft SQ",
+        "role": "heading"
+      },
+      {
+        "family": "Space Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold, rounded headings (~4-5x body) for impact, paired with a more compact, legible monospace or sans-serif for body text and UI elements.",
+    "radius": "Rounded (buttons, cards, phone screens, input fields), with a consistent soft curve.",
+    "spacing": "Balanced to airy, especially in the hero, with generous vertical spacing between major sections and within content blocks."
+  },
+  "standout": "The site's distinctive use of vibrant, gradient-heavy backgrounds combined with a playful, rounded display typeface and an abundance of dynamically arranged, realistic phone mockups creates a highly engaging and app-centric visual experience that feels less like a traditional marketing site and more like an interactive product showcase.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

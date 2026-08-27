@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-ctrl-xyz-c6ca16",
+  "source": {
+    "url": "https://ctrl.xyz",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ctrl-xyz-c6ca16.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ctrl-xyz-c6ca16__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ctrl-xyz-c6ca16__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ctrl-xyz-c6ca16__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "cryptocurrency",
+      "web3"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent, fixed modal dialog immediately overlays the entire page content upon load, delivering a critical message before any other interaction."
+    },
+    {
+      "kind": "type",
+      "note": "Main section headings use an extremely large, bold, and wide sans-serif typeface, creating a strong visual hierarchy and impact."
+    },
+    {
+      "kind": "color",
+      "note": "A largely monochromatic background (white/light gray) and black text are punctuated by vibrant, distinct accent colors (green, pink, yellow, blue) used for call-to-action buttons and informational cards."
+    },
+    {
+      "kind": "motion",
+      "note": "The top banner and main navigation elements (logo, CTA button) remain sticky at the top of the viewport, while the primary content scrolls underneath them. The initial modal dialog also remains fixed over all content."
+    },
+    {
+      "kind": "section",
+      "note": "Informational cards are presented in a horizontal row, each with a distinct pastel background color, providing quick summaries or calls to action."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen modal dialog is displayed immediately on page load, fixed to the viewport center with a semi-transparent overlay, ensuring the user sees critical information first. Its background features abstract, colorful graphic elements.",
+    "The main header and a top informational banner are fixed to the top of the viewport, allowing the primary page content to scroll beneath them, maintaining brand presence and key messages.",
+    "Large, impactful display typography is used for section titles, contrasting with standard body text for clear content segmentation and emphasis."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0f0f0f",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#34C759",
+        "role": "cta"
+      },
+      {
+        "hex": "#ffcadc",
+        "role": "accent"
+      },
+      {
+        "hex": "#fbe74e",
+        "role": "accent"
+      },
+      {
+        "hex": "#9dc4f5",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Tomato Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual anchors, complemented by clear, standard-sized body text.",
+    "radius": "Subtle rounding (small to medium radius) is applied consistently to buttons, cards, and the modal dialog, softening the overall aesthetic.",
+    "spacing": "Airy spacing is used between major sections and for large headings, while content within informational blocks like FAQs is more balanced and compact."
+  },
+  "standout": "The most distinctive feature is the immediate and persistent display of a full-page, fixed modal dialog communicating a critical service shutdown, which overlays all other content. This direct, unavoidable communication strategy, combined with the clean, bold typography and selective use of vibrant accent colors, makes the site feel highly intentional and user-focused, even in a challenging context.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

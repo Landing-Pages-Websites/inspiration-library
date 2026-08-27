@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-ujet-com-5c8425",
+  "source": {
+    "url": "https://www.ujet.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ujet-com-5c8425.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ujet-com-5c8425__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ujet-com-5c8425__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ujet-com-5c8425__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "e-mobility",
+      "engineering",
+      "design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, full-bleed product image on one side and concise, impactful text on the other, creating a strong visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, bold, sans-serif display typography is used for key section titles and brand statements, creating strong visual anchors and a distinct editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast monochromatic palette of dark grays and black against light grays and white is used throughout, with the product itself often serving as the primary 'color' element."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky navigation column is fixed to the left side of the viewport, maintaining its position and content while the main page content scrolls independently underneath it."
+    },
+    {
+      "kind": "section",
+      "note": "Major content sections are introduced with large, two-character alphanumeric identifiers (e.g., 'M-N') rendered in a distinctive, heavy display font."
+    }
+  ],
+  "technique_notes": [
+    "The left-aligned primary navigation is implemented as a fixed element, ensuring it remains visible and accessible at all scroll depths while the main content area scrolls vertically.",
+    "Large, bold display headings are used to segment content and create visual impact, often occupying significant screen real estate and contrasting sharply with the background.",
+    "Content sections are designed with generous vertical spacing, allowing individual elements like large images, text blocks, or maps to breathe and stand out without feeling crowded."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#D0CFCD",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "aktiv-grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "aktiv-grotesk",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Cubano",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body) with standard body text and small, uppercase navigation/labels.",
+    "radius": "Sharp, with most elements featuring hard corners.",
+    "spacing": "Airy, with generous vertical spacing between major sections and balanced horizontal padding."
+  },
+  "standout": "The site's distinctive use of a persistent, fixed left-hand navigation column, combined with extremely large, almost architectural display typography for section titles, creates a unique editorial and gallery-like feel. This approach provides a strong visual anchor and a sense of curated content presentation.",
+  "animation_tech": [
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}

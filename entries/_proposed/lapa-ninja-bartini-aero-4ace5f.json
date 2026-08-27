@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-bartini-aero-4ace5f",
+  "source": {
+    "url": "https://bartini.aero",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-bartini-aero-4ace5f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-bartini-aero-4ace5f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-bartini-aero-4ace5f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-bartini-aero-4ace5f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "aerospace",
+      "aviation",
+      "technology",
+      "future-mobility"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed dark background with a central, persistent 3D model that acts as the primary visual anchor for content sections, with text blocks positioned around the model."
+    },
+    {
+      "kind": "type",
+      "note": "Large, outlined, uppercase display headings (Druk) create a strong, futuristic brand identity, contrasted with clean, legible sans-serif body text (Montserrat)."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of deep charcoal/black, pure white, and a vibrant light blue/cyan accent color, used sparingly to highlight key elements and the 3D model."
+    },
+    {
+      "kind": "motion",
+      "note": "A continuous, scroll-driven 3D animation of an aircraft model, where scrolling reveals different perspectives, internal views, or highlights specific features of the model, synchronized with the appearance of descriptive text sections."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured around the persistent 3D model, with text blocks appearing adjacent to the model to describe its features and vision, creating a guided narrative experience."
+    }
+  ],
+  "technique_notes": [
+    "A full-screen WebGL/Three.js canvas is used to render a detailed 3D model of an aircraft. Scroll position drives camera movement, model rotation, and potentially material changes or internal reveals within the 3D scene, creating a continuous, interactive product showcase.",
+    "Text content sections are positioned over the 3D canvas and are revealed with subtle fade-in or slide-up animations as their corresponding scroll triggers are met, ensuring they appear in sync with the 3D model's narrative progression.",
+    "The primary navigation bar appears after an initial scroll threshold and then remains fixed at the top of the viewport, providing persistent access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#5BBAD5",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A4EF5",
+        "role": "logo-accent"
+      },
+      {
+        "hex": "#F5A623",
+        "role": "map-point"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Druk",
+        "role": "display"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, outlined display headings (~5-8x body) with a strong, bold character, paired with a clean, well-spaced sans-serif for body text and small uppercase labels.",
+    "radius": "Sharp, with minimal to no visible corner rounding on UI elements or content blocks.",
+    "spacing": "Very airy and open, particularly in the hero and 3D model sections, creating a sense of grandeur and focus on the central visual. Content blocks have generous vertical spacing."
+  },
+  "standout": "The site's distinctive feature is its immersive, scroll-driven 3D model interaction, which serves as the central narrative device. Instead of static images or videos, the product is continuously showcased and explored in a dynamic WebGL environment, making the user experience highly engaging and memorable.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

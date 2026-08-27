@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-hayflicktx-com-938ab1",
+  "source": {
+    "url": "https://www.hayflicktx.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-hayflicktx-com-938ab1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-hayflicktx-com-938ab1__scroll0.webp",
+      "shots/_proposed/siteinspire-hayflicktx-com-938ab1__scroll1.webp",
+      "shots/_proposed/siteinspire-hayflicktx-com-938ab1__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "biotech",
+      "life-sciences"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-resolution organic imagery and textures are used as dominant background elements for most sections, creating immersive visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "Hero statements feature large, uppercase, wide-tracked sans-serif typography, creating a bold, editorial feel that contrasts with smaller, standard-case sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of deep earthy browns and warm skin tones is consistently accented by a vibrant, muted green for interactive elements and graphic overlays, with crisp white text for contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero image scrolls up to reveal a secondary hero image with new content, creating a layered parallax effect, while a sticky navigation bar transforms from transparent to opaque."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct page sections are visually separated by alternating full-bleed background imagery (soil, grass, human skin) or solid color blocks, establishing a strong visual rhythm and hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a layered scroll-triggered reveal system where background images parallax and content blocks slide or fade into view as the user scrolls. This creates a dynamic sense of depth and progression.",
+    "The primary navigation bar transitions from a transparent overlay to a solid, light brown background with a subtle drop shadow once the user scrolls past the initial hero section, maintaining visibility and brand presence.",
+    "Full-bleed background images and videos are used to define distinct sections, with text content overlaid and carefully contrasted for readability, often using a dark overlay or light text on dark backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#534741",
+        "role": "background"
+      },
+      {
+        "hex": "#b38348",
+        "role": "surface"
+      },
+      {
+        "hex": "#b5ebb3",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#000",
+        "role": "text"
+      },
+      {
+        "hex": "#937461",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, uppercase, wide-tracked hero headings (~4-5x body) with generous line height, paired with clean, legible body text.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Very airy in hero and key section breaks, becoming more balanced and structured in content grids like team member profiles."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of raw, organic textures and imagery (soil, grass, human skin, puzzle pieces) with a very clean, modern, and editorial sans-serif typography and layout. The layered scroll-triggered reveals and the unique green wavy line transition create a memorable and immersive visual journey.",
+  "animation_tech": [
+    "canvas",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-miti-navi-com-38db0e",
+  "source": {
+    "url": "https://miti-navi.com/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-miti-navi-com-38db0e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-miti-navi-com-38db0e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-miti-navi-com-38db0e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-miti-navi-com-38db0e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marine",
+      "luxury-yachting",
+      "shipbuilding"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Large, organic, soft curves are used as primary visual dividers and masks for hero images and section transitions, creating a fluid and elegant flow rather than sharp breaks."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between oversized, elegant serif headings and smaller, clean, uppercase sans-serif labels and navigation items."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated, muted color palette dominated by a warm off-white background, deep dark blue/black accents, and the natural blues of the sea in imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image dynamically 'unmasks' or expands vertically as the user scrolls, revealing more of the content within its curved frame, giving a sense of unveiling."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero reveal with a subtle fade-in and slight upward slide effect as they enter the viewport, creating a gentle progression of information."
+    },
+    {
+      "kind": "section",
+      "note": "The transition to the footer uses a dramatic, inverse large curved shape, shifting from the light background to a dark background, creating a distinct visual break and anchor."
+    }
+  ],
+  "technique_notes": [
+    "The hero image uses a dynamic SVG or CSS mask that initially crops the image with pronounced top and bottom curves. As the user scrolls, this mask animates to a less aggressive curve, effectively expanding the visible area of the image vertically. This could be achieved with GSAP's ScrollTrigger animating SVG path data or CSS clip-path properties.",
+    "Sections below the hero are revealed using a scroll-triggered animation that fades them in and translates them slightly upwards from below the viewport as they become visible. This effect is likely orchestrated using GSAP ScrollTrigger to tie the animation to the scroll position.",
+    "The page background color transition to the footer is achieved by placing a large, inverse curved element with the dark background color, positioned to cover the bottom of the preceding section and reveal the footer content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e8ded0",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#101a1c",
+        "role": "surface"
+      },
+      {
+        "hex": "#7092b7",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) are paired with smaller, uppercase sans-serif labels and readable body text, creating a luxurious and editorial feel.",
+    "radius": "Sharp corners on most images and interactive elements, but the dominant visual character comes from large, soft, organic curves used for section transitions and image masks.",
+    "spacing": "Very airy, with generous vertical and horizontal padding, especially in the hero and between major content blocks, conveying a sense of luxury and spaciousness."
+  },
+  "standout": "The most distinctive feature is the dynamic, large-scale curved masking and unmasking of the hero image, combined with the consistent use of similar organic curves for dramatic section transitions. This creates a fluid, elegant, and visually engaging scroll experience that feels bespoke and luxurious.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

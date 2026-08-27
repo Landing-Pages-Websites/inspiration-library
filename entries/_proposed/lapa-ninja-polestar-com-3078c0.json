@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-polestar-com-3078c0",
+  "source": {
+    "url": "https://www.polestar.com/us",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-polestar-com-3078c0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-polestar-com-3078c0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-polestar-com-3078c0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-polestar-com-3078c0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "electric-vehicles",
+      "luxury-cars"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photographic and video backgrounds are used extensively to define distinct sections, often with text overlays for content."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif, creating strong visual impact, while body text is clean and legible, maintaining a clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode aesthetic dominates, using deep grays and blacks as primary backgrounds, contrasted with crisp white text and subtle blue accents for interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Background images and videos in key sections exhibit a subtle parallax effect, scrolling at a slower rate than the foreground content, adding depth and visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from transparent text on the hero to a sticky, solid white bar with dark text upon scrolling, ensuring persistent visibility and brand presence."
+    },
+    {
+      "kind": "section",
+      "note": "Product cards for different car models are presented in a clean, two-column grid, each featuring a prominent image, model name, and concise call-to-action links."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-width video background that plays silently, overlaid with a subtle dark gradient to ensure text legibility. This video background remains fixed or subtly parallaxes as initial content scrolls over it.",
+    "A sticky header navigation is implemented, initially transparent with light text over the hero. Upon scrolling past the hero, it transitions to a solid white background with dark text, maintaining a consistent brand presence.",
+    "Key content sections feature full-bleed background images that are fixed or scroll at a slower rate than the foreground content, creating a subtle parallax effect that adds a sense of depth and dynamism to the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1a1a1a",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#343b41",
+        "role": "text"
+      },
+      {
+        "hex": "#2684ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#d9d9d6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Polestar Unica",
+        "role": "heading"
+      },
+      {
+        "family": "Polestar Unica",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) create strong visual anchors, complemented by a clean, readable body text for detailed information.",
+    "radius": "Subtle: minimal rounding on buttons and card edges, maintaining a sharp, modern aesthetic.",
+    "spacing": "Balanced: generous spacing in hero and full-bleed sections, transitioning to a more compact but still airy layout for product grids and content blocks."
+  },
+  "standout": "The site's distinctive use of high-resolution, full-bleed automotive photography and video as immersive backgrounds, combined with a dark, minimalist aesthetic and subtle parallax scrolling, creates a premium and sophisticated brand experience that feels both modern and luxurious. If a builder copied only one idea, it should be the seamless integration of cinematic visuals with content through subtle motion and dark overlays.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

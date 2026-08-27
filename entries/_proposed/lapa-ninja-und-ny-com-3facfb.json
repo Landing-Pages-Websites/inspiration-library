@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-und-ny-com-3facfb",
+  "source": {
+    "url": "https://und-ny.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-und-ny-com-3facfb.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-und-ny-com-3facfb__scroll0.webp",
+      "shots/_proposed/lapa-ninja-und-ny-com-3facfb__scroll1.webp",
+      "shots/_proposed/lapa-ninja-und-ny-com-3facfb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "tea",
+      "matcha",
+      "bakery"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, featuring large, impactful visuals or dynamic text blocks on one side and supporting content on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Dynamic, large-scale typography is a primary visual element, with words cycling or changing within hero and introductory text blocks."
+    },
+    {
+      "kind": "color",
+      "note": "Distinctive, muted color blocks (beige, muted green, soft pink) are used as full-bleed section backgrounds to create clear visual segmentation between content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle slide-up or fade-in effect as they enter the viewport, creating a smooth, engaging scroll experience. The initial hero video scrolls out to reveal a large 'UN D' logo before the main content."
+    },
+    {
+      "kind": "section",
+      "note": "Each major content section is introduced with a large, often centered, bold title, followed by a distinct background color and a unique content layout."
+    }
+  ],
+  "technique_notes": [
+    "Implement a smooth scrolling experience using a library like locomotive-scroll, where content sections animate into view with a subtle slide-up or fade-in as they become visible.",
+    "Create a dynamic text animation where specific words within a larger text block cycle or change on a timed loop, enhancing engagement in key introductory sections.",
+    "Design a transforming sticky navigation that starts as a larger, full-width header with distinct logo elements, then shrinks and consolidates into a compact, persistent bar with split logo elements upon scrolling down."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E4E4E4",
+        "role": "surface"
+      },
+      {
+        "hex": "#F0E7D6",
+        "role": "background"
+      },
+      {
+        "hex": "#A7C6C1",
+        "role": "background"
+      },
+      {
+        "hex": "#F0D1D1",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif display headings (~8-10x body) are used as primary visual elements, complemented by smaller uppercase labels and legible body text.",
+    "radius": "Sharp (predominantly sharp corners on all elements and images, contributing to a clean, modern aesthetic).",
+    "spacing": "Airy (generous vertical and horizontal spacing, particularly between sections and within the hero, creating a sense of openness and allowing content to breathe)."
+  },
+  "standout": "The site's distinctive use of dynamic, large-scale typography as a primary visual and interactive element, combined with a playful yet sophisticated brand voice and unexpected imagery, sets it apart. The changing words in the hero section and the 'Smoking Kills' image are particularly memorable and contribute to a unique brand personality.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

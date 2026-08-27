@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-voidzero-dev-41befb",
+  "source": {
+    "url": "https://voidzero.dev",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-voidzero-dev-41befb.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-voidzero-dev-41befb__scroll0.webp",
+      "shots/_proposed/lapa-ninja-voidzero-dev-41befb__scroll1.webp",
+      "shots/_proposed/lapa-ninja-voidzero-dev-41befb__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "software"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width light and dark background sections are used to visually segment the page content, creating clear distinctions between different thematic areas."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very large, bold sans-serif typeface, contrasting with smaller, lighter body text and tiny, uppercase labels for feature descriptions and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme features a dominant dark charcoal background and a clean off-white background, accented by a vibrant green for status indicators and a rich purple/blue gradient for branding elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal sequentially as the user scrolls down the page, transitioning between light and dark backgrounds. The hero illustration, potentially a Rive animation, remains static relative to the viewport during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections prominently display code snippets and terminal-like outputs as visual examples, integrating technical content directly into the design."
+    }
+  ],
+  "technique_notes": [
+    "Page sections are visually separated by alternating background colors (dark charcoal and off-white) to create a clear content hierarchy. Content within these sections is often centered or arranged in a grid.",
+    "The hero section features a large, bold headline and a conceptual isometric illustration, which may be implemented using Rive for potential interactivity or subtle animation, though it does not appear scroll-triggered.",
+    "Content is revealed as the user scrolls into the viewport, primarily through content appearing rather than complex animated transitions. Code examples are presented in a terminal-like style with syntax highlighting to enhance readability and visual appeal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#08060d",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#00b442",
+        "role": "accent"
+      },
+      {
+        "hex": "#fbfaf7",
+        "role": "surface"
+      },
+      {
+        "hex": "#6a00ff",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "oversized bold headings (~4-5x body) with small, light body text and tiny uppercase labels.",
+    "radius": "subtle for UI elements like buttons and input fields, with sharp geometric elements in illustrations.",
+    "spacing": "airy hero, balanced content sections, with a denser layout for footer links."
+  },
+  "standout": "The site's design is distinctive for its seamless integration of a clean, professional tech aesthetic with conceptual isometric illustrations and the direct use of code snippets as primary visual elements. The alternating dark and light sections, combined with vibrant accent colors for code highlights, create a dynamic yet highly structured and informative experience.",
+  "animation_tech": [
+    "canvas",
+    "rive"
+  ],
+  "status": "proposed"
+}

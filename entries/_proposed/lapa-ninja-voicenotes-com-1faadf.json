@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-voicenotes-com-1faadf",
+  "source": {
+    "url": "https://voicenotes.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-voicenotes-com-1faadf.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-voicenotes-com-1faadf__scroll0.webp",
+      "shots/_proposed/lapa-ninja-voicenotes-com-1faadf__scroll1.webp",
+      "shots/_proposed/lapa-ninja-voicenotes-com-1faadf__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "productivity",
+      "software"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, elegant text block on the left and a stylized product illustration on the right, setting a sophisticated yet approachable tone."
+    },
+    {
+      "kind": "type",
+      "note": "High contrast typography pairing a large, decorative serif font for primary headings with a clean, readable sans-serif for body text and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, warm off-white background (#FAF9F5) provides a soft canvas for dark charcoal text and vibrant, yet deep, green accents (#0E3934, #34C759)."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport as the user scrolls, while content sections below reveal with a subtle animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonials are presented in a grid of distinct card-like elements, each featuring a user photo, name, and a quote, creating a strong social proof section."
+    }
+  ],
+  "technique_notes": [
+    "The navigation bar is implemented as a sticky element that remains fixed at the top of the screen during scroll.",
+    "Content sections are revealed using scroll-triggered animations, likely employing CSS keyframes to subtly fade or slide elements into view as they enter the user's viewport, creating a dynamic loading experience.",
+    "Product screenshots and illustrations are presented within rounded, often irregular, container shapes, giving them a unique, almost hand-drawn aesthetic that breaks from typical rectangular image frames."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FAF9F5",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#717171",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#0E3934",
+        "role": "cta"
+      },
+      {
+        "hex": "#34C759",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (H1 is ~4-5x body text) provide strong visual hierarchy, complemented by a clean, readable sans-serif for all other text.",
+    "radius": "Subtle rounded corners (e.g., 4-8px) are consistently applied to buttons, input fields, and image containers, contributing to a soft and approachable feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections, particularly in the hero, while internal card content maintains a more balanced density."
+  },
+  "standout": "The site's most distinctive feature is the harmonious blend of sophisticated, editorial serif typography with a playful, hand-painted illustration style for product visuals. This combination creates an unexpectedly warm and artisanal feel for an AI-powered productivity tool, making it feel less sterile and more human.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

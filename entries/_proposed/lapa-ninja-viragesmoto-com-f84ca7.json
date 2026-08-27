@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-viragesmoto-com-f84ca7",
+  "source": {
+    "url": "https://viragesmoto.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-viragesmoto-com-f84ca7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-viragesmoto-com-f84ca7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-viragesmoto-com-f84ca7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-viragesmoto-com-f84ca7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "automotive",
+      "motorcycle",
+      "content-publishing"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a large, bold serif headline on the left and a multi-grid image and article preview on the right, creating a dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "Strong typographic hierarchy uses an oversized, elegant serif font for primary headings, contrasted with a clean, readable sans-serif for body text and a condensed, uppercase sans-serif for labels and subheadings."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, earthy orange (#ae4d07) is used as a primary accent color for calls-to-action, section backgrounds, and key highlights, providing warmth and energy against a predominantly light and dark neutral palette."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll, shrinking in height and gaining a solid background, while remaining sticky at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently feature a 'card' layout, where articles or features are presented in distinct, often bordered or shadowed blocks, arranged in grids or lists."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the distinctive typographic hierarchy, combine a very large, bold serif font for main titles with a smaller, highly legible sans-serif for paragraphs, and a distinct condensed uppercase sans-serif for labels, ensuring clear visual separation and impact.",
+    "Implement a sticky header that dynamically reduces its height, changes its background from transparent to solid, and potentially scales down its logo when the user scrolls past the initial viewport, using CSS transitions for a smooth effect.",
+    "Utilize the primary accent orange for high-impact elements like calls-to-action and full-width section backgrounds to create visual anchors and guide the user's eye, while maintaining a clean aesthetic with ample negative space in other areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ae4d07",
+        "role": "accent"
+      },
+      {
+        "hex": "#2b2b2b",
+        "role": "surface"
+      },
+      {
+        "hex": "#8f8f8f",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#fd0",
+        "role": "highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      },
+      {
+        "family": "Bebas Neue",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~3-4x body) provide strong visual impact, complemented by a clean, readable sans-serif for body text and a condensed uppercase sans-serif for labels.",
+    "radius": "Subtle rounded corners on interactive elements like buttons and input fields, with sharp corners defining most content blocks and section boundaries.",
+    "spacing": "Balanced density overall, with an airy hero section and contact form, transitioning to a more compact grid layout for article previews and content listings."
+  },
+  "standout": "The site's design is distinctive for its sophisticated blend of classic editorial typography with a modern, asymmetrical layout and a bold, warm accent color. The use of an elegant serif for large headlines against clean sans-serif body text creates an authoritative yet inviting tone, setting it apart from typical content sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

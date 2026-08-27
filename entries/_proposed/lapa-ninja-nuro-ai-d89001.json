@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-nuro-ai-d89001",
+  "source": {
+    "url": "https://www.nuro.ai",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-nuro-ai-d89001.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-nuro-ai-d89001__scroll0.webp",
+      "shots/_proposed/lapa-ninja-nuro-ai-d89001__scroll1.webp",
+      "shots/_proposed/lapa-ninja-nuro-ai-d89001__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "robotics",
+      "automotive",
+      "saas",
+      "autonomous-vehicles"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Major content sections are presented as large, rounded-corner cards or modules, floating on a white background, creating distinct visual breaks and a structured, modern feel."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are consistently large, bold, and sans-serif, establishing clear hierarchy, while body text is smaller and highly legible."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist color palette of white, dark gray, and black dominates, with a subtle blue/purple accent used sparingly for technological highlights or interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the internal content (car, text) scrolls slower than the background, and the entire rounded hero container briefly pins to the top of the viewport before scrolling off."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into self-contained, visually distinct blocks, often with a large image or video background, each addressing a specific aspect of the company's offering."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a video background within a large, rounded-corner container. As the user scrolls, the video content within this container parallaxes, moving at a slower rate than the scroll, while the container itself briefly sticks to the top of the viewport before unpinning and scrolling away.",
+    "Major content blocks are designed as large, full-width cards with significantly rounded corners, appearing to 'float' above the main page background. These blocks often incorporate full-bleed imagery or video within their rounded boundaries.",
+    "Text overlays on images or dark backgrounds use high contrast white text, while text on light backgrounds uses a dark gray for readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#282828",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F7F7F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#685FF7",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, modern character, paired with a highly legible sans-serif body text.",
+    "radius": "Rounded, with prominent, large corner radii applied consistently to major content blocks and images.",
+    "spacing": "Airy, with generous padding around and between large content sections, creating a sense of spaciousness and clear separation."
+  },
+  "standout": "The most distinctive element is the use of large, rounded-corner 'card' sections that encapsulate significant content blocks, giving the page a modular, almost app-like feel rather than a traditional linear scroll. This, combined with the subtle parallax hero, creates a sophisticated and modern aesthetic.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

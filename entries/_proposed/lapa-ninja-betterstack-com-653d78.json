@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-betterstack-com-653d78",
+  "source": {
+    "url": "https://betterstack.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-betterstack-com-653d78.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-betterstack-com-653d78__scroll0.webp",
+      "shots/_proposed/lapa-ninja-betterstack-com-653d78__scroll1.webp",
+      "shots/_proposed/lapa-ninja-betterstack-com-653d78__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "devops",
+      "observability",
+      "infrastructure-monitoring"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of dark-themed cards with subtle borders and internal padding to segment information and present data visualizations or simulated UI elements, all contained within a central max-width column."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a bold, wide sans-serif for impact, while body text uses a more condensed, lighter weight sans-serif, creating a strong contrast in visual presence and hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, immersive dark blue-black background is consistently used across all sections, contrasted by a vibrant purple-blue for primary calls-to-action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and their internal content elements (e.g., data points, chat bubbles, client logos) animate into view with a staggered fade-up effect as the user scrolls, driven by an 'Animate On Scroll' library."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a concise left-aligned text description with a detailed, often interactive-looking, right-aligned simulated UI screenshot or data visualization."
+    }
+  ],
+  "technique_notes": [
+    "Uses an 'Animate On Scroll' (AOS) library to progressively reveal content. As sections enter the viewport, elements within them (such as text blocks, data cards, or simulated UI components) are introduced with a subtle, staggered fade-up or slide-in animation, creating a dynamic and engaging scroll experience.",
+    "The site employs a sophisticated dark mode design, where primary content is presented on slightly lighter dark surfaces against a very deep background. This creates a sense of depth and focus, enhancing the visual impact of data visualizations and product screenshots.",
+    "The global navigation bar at the top remains fixed during scroll, subtly adjusting its vertical padding and background opacity to become more compact and less intrusive as the user moves down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0b0c14",
+        "role": "background"
+      },
+      {
+        "hex": "#171926",
+        "role": "surface"
+      },
+      {
+        "hex": "#c9d3ee",
+        "role": "text"
+      },
+      {
+        "hex": "#939db8",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#7c87f7",
+        "role": "accent"
+      },
+      {
+        "hex": "#727da1",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Helvetica Now Display",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Now Text",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold display headings (~3-4x body) with clear hierarchy, supported by smaller, lighter body text and uppercase labels.",
+    "radius": "Subtle; small border-radius on cards, buttons, and input fields.",
+    "spacing": "Balanced to airy; generous vertical spacing between sections, with content within sections having a balanced density."
+  },
+  "standout": "The site stands out with its sophisticated dark mode aesthetic, which is not merely a dark theme but an integral part of the brand. It effectively uses simulated UI elements and data visualizations within its feature sections, creating a highly immersive and product-centric experience that feels like interacting with the actual software. The integration of social proof through tweet-like cards and company logos is also well-executed.",
+  "animation_tech": [
+    "aos"
+  ],
+  "status": "proposed"
+}
