@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-ada-cx-6fd59d",
+  "source": {
+    "url": "https://www.ada.cx/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-ada-cx-6fd59d.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-ada-cx-6fd59d__scroll0.webp",
+      "shots/_proposed/lapa-ninja-ada-cx-6fd59d__scroll1.webp",
+      "shots/_proposed/lapa-ninja-ada-cx-6fd59d__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "customer-experience",
+      "artificial-intelligence",
+      "enterprise-software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dark, full-bleed sections with content centered within a consistent max-width container, creating a focused and premium presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, bold sans-serif headings and exceptionally oversized numbers in data sections, contrasting with smaller, legible body text for detailed information."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode palette featuring deep charcoal backgrounds, crisp white text, and a consistent, vibrant green for all primary calls-to-action and key interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals where entire content sections subtly fade in and slide up from the bottom as they enter the viewport, creating a dynamic content flow."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky navigation bar at the top and a 'Live Virtual Event' popup in the bottom right corner, maintaining key interactions and information throughout the scroll."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a dark aesthetic with full-bleed sections, often featuring subtle background gradients or animated textures to add depth.",
+    "The hero section utilizes a video or canvas animation as its background, overlaid with a semi-transparent dark gradient to ensure high contrast for text and interactive elements.",
+    "Scroll-triggered animations, likely implemented with CSS keyframes or a JavaScript library, are used to reveal content sections. These typically involve a staggered fade-in and a slight upward translation as elements become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050506",
+        "role": "background"
+      },
+      {
+        "hex": "#1b2126",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#50b86c",
+        "role": "cta"
+      },
+      {
+        "hex": "#d52b1e",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roobert-84752c255402143e",
+        "role": "heading"
+      },
+      {
+        "family": "Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with exceptionally oversized numbers in data sections (~5-6x body), paired with legible body text.",
+    "radius": "Subtle (e.g., buttons, cards, input fields have a slight rounding).",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a tighter rhythm within content cards and lists."
+  },
+  "standout": "The site's distinctive use of a sophisticated dark mode, combined with subtle animated backgrounds and data-driven visualizations, creates a premium, high-tech feel. The integration of a video hero with an interactive chat UI and scroll-triggered section reveals adds a dynamic and engaging layer that elevates it beyond a typical marketing site.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

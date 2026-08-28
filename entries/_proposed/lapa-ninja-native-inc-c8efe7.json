@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-native-inc-c8efe7",
+  "source": {
+    "url": "https://www.native.inc/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-native-inc-c8efe7.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-native-inc-c8efe7__scroll0.webp",
+      "shots/_proposed/lapa-ninja-native-inc-c8efe7__scroll1.webp",
+      "shots/_proposed/lapa-ninja-native-inc-c8efe7__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "insurance",
+      "fintech",
+      "blockchain"
+    ],
+    "mood": [
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, large-scale geometric shapes are used as dynamic background elements, particularly in the hero section and for visual interest in content blocks."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast, vibrant color blocking (bright orange, lime green, dark grey, white) is used to define distinct full-width sections and create visual energy."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, abstract graphic that animates upwards and out of view on scroll, while the navigation bar simultaneously transforms into a sticky, solid-colored header."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings contrasting with a clean, readable sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "section",
+      "note": "Content is segmented into full-width, color-blocked sections, each often focusing on a single message or a tightly grouped set of related items, creating clear visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero section features a large, abstract geometric graphic that scrolls upwards and out of view, revealing the page content below. Simultaneously, the main navigation bar transitions from a transparent state to a solid, colored background and slightly reduces in height, becoming sticky at the top of the viewport. Other content sections appear to animate into view with a subtle fade-up or slide-up effect as they enter the viewport, likely using scroll-triggered CSS keyframe animations, potentially enhanced by Lottie for more complex graphic movements.",
+    "The site employs a strong visual identity through the use of large, full-bleed color blocks and geometric shapes that serve as backgrounds for major sections. Typography is used to create a clear hierarchy with oversized, bold headings contrasting with more understated body text, often set against these vibrant color fields for maximum impact."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff4d00",
+        "role": "accent"
+      },
+      {
+        "hex": "#dcf251",
+        "role": "accent"
+      },
+      {
+        "hex": "#343434",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Plain",
+        "role": "heading"
+      },
+      {
+        "family": "Plain",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual anchors, paired with a clean, readable sans-serif for body copy and smaller labels.",
+    "radius": "Sharp corners dominate the overall aesthetic, with very subtle rounding applied only to interactive elements like buttons.",
+    "spacing": "Airy vertical spacing between major sections provides clear content separation, while content blocks maintain a balanced density."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist use of high-contrast color blocking and large-scale geometric graphics, particularly the animated 'N' shape in the hero. This creates a powerful, modern, and memorable visual identity that feels both authoritative and energetic, moving beyond typical corporate templates.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "proposed"
+}

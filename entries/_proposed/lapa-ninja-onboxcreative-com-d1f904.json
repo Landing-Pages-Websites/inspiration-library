@@ -1,0 +1,104 @@
+{
+  "id": "lapa-ninja-onboxcreative-com-d1f904",
+  "source": {
+    "url": "https://www.onboxcreative.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-onboxcreative-com-d1f904.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-onboxcreative-com-d1f904__scroll0.webp",
+      "shots/_proposed/lapa-ninja-onboxcreative-com-d1f904__scroll1.webp",
+      "shots/_proposed/lapa-ninja-onboxcreative-com-d1f904__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "marketing"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "Hero logo transformation: The initial oversized 'ONBOX' logo shrinks and transitions into a sticky header element upon scroll, simultaneously revealing a video hero below it."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-screen color transition: A solid deep navy blue background temporarily covers the entire viewport during a specific scroll depth, acting as a dramatic visual break or section transition."
+    },
+    {
+      "kind": "layout",
+      "note": "Dynamic case study grid: Case studies are presented in a two-column grid with varying card sizes and aspect ratios, creating an asymmetrical and engaging layout."
+    },
+    {
+      "kind": "type",
+      "note": "Brutalist display typography: The site prominently features an extremely large, bold, and geometric sans-serif typeface for the main logo and key headings, creating a strong, almost brutalist visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast palette with a single vibrant accent: The design primarily uses black and white/light grey, punctuated by a bright orange for interactive elements and highlights."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a scroll-triggered transformation where a large, static text element scales down and repositions to become a sticky header, simultaneously revealing a full-width video background below it.",
+    "A full-viewport color overlay is triggered at a specific scroll point, providing a dramatic visual break before revealing the next content section.",
+    "Content sections, such as case study cards and article previews, appear with a subtle fade-in or slide-up animation as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF6600",
+        "role": "accent"
+      },
+      {
+        "hex": "#000040",
+        "role": "transition-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Space Grotesk",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display headings (~8-10x body) with clean, legible sans-serif for body text and smaller labels.",
+    "radius": "Sharp corners dominate throughout, with very subtle rounding on some card elements.",
+    "spacing": "Airy and generous, especially in hero and between major content blocks, creating a sense of spaciousness and allowing elements to breathe."
+  },
+  "standout": "The site's most distinctive feature is the dynamic transformation of its massive, static 'ONBOX' logo from a hero element into a sticky header upon scroll, coupled with a dramatic full-screen color transition and a bold, almost brutalist typographic approach.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

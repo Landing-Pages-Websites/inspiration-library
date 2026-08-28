@@ -1,0 +1,106 @@
+{
+  "id": "lapa-ninja-wand-app-056346",
+  "source": {
+    "url": "https://wand.app/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-wand-app-056346.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-wand-app-056346__scroll0.webp",
+      "shots/_proposed/lapa-ninja-wand-app-056346__scroll1.webp",
+      "shots/_proposed/lapa-ninja-wand-app-056346__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "software",
+      "creative-tools",
+      "design-software",
+      "ai-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with generous vertical spacing, often featuring large, centered device mockups that appear to float slightly above the background."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings are large, single-line, and use a clean sans-serif typeface, creating a strong visual hierarchy against smaller, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, bright aesthetic is maintained with dominant white and light gray backgrounds, contrasted by a vibrant blue for primary calls-to-action and a distinct yellow for an acquisition banner."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial full-screen hero dynamically transforms its background image and primary headline content upon the first scroll, transitioning from a video to a static, evocative scene. Subsequent content sections reveal with a subtle upward slide and fade-in effect."
+    },
+    {
+      "kind": "section",
+      "note": "Product feature sections are introduced with a concise, bold headline and visually demonstrated through high-fidelity device mockups (tablets, phones) showcasing the product in active use."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen hero that uses scroll-triggered animation to completely change its background image and primary headline content as the user scrolls past the initial viewport, creating a dynamic and engaging introduction. This likely leverages a library like GSAP ScrollTrigger or a custom JavaScript solution.",
+    "Content sections below the hero are revealed with a subtle upward slide and fade-in animation as they enter the viewport, ensuring a smooth and guided content progression.",
+    "Product features are visually communicated by integrating high-quality, slightly elevated device mockups directly into the page layout, making the product feel tangible and central to the experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#007AFF",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFD60A",
+        "role": "accent"
+      },
+      {
+        "hex": "#1C1C1E",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: SF Pro",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: SF Pro",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, clean sans-serif headings (~3-4x body) with a clear hierarchy, paired with legible body text for details and descriptions.",
+    "radius": "Subtle rounding (~8-12px) on interactive elements like buttons and some card-like containers, otherwise sharp edges dominate.",
+    "spacing": "Airy, with generous vertical padding between major sections and within content blocks, contributing to a sense of openness and ease of readability."
+  },
+  "standout": "The most distinctive element is the highly dynamic, full-screen hero section that completely transforms its visual content and headline on scroll, transitioning from an interactive video to a static, evocative image. This creates a strong, immediate impact and a sense of discovery as the user engages with the page, moving beyond a typical static or simple video hero.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

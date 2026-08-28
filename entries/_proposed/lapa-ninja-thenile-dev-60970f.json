@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-thenile-dev-60970f",
+  "source": {
+    "url": "https://www.thenile.dev/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-thenile-dev-60970f.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-thenile-dev-60970f__scroll0.webp",
+      "shots/_proposed/lapa-ninja-thenile-dev-60970f__scroll1.webp",
+      "shots/_proposed/lapa-ninja-thenile-dev-60970f__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "database",
+      "developer-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, full-bleed background with content sections constrained to a central column, often featuring alternating layouts of text and complex diagrams or code snippets."
+    },
+    {
+      "kind": "type",
+      "note": "Key headings and code examples utilize a monospaced font, while body text and general UI elements use a clean sans-serif, creating a strong technical aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly dark background is contrasted with vibrant, code-syntax-highlighting-inspired accent colors (blues, greens, yellows, purples) used for text, icons, and subtle gradients on cards and call-to-action elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar sticks to the top of the viewport and gains a solid, dark background as the user scrolls past the hero section. Content sections and feature cards reveal with a subtle fade-in and slight upward slide as they enter the viewport. The hero section's main heading features a subtle animated gradient fill and a blinking cursor effect on specific words."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by generous vertical spacing and often feature distinct background treatments, such as subtle gradients or glowing outlines on cards, within the overall dark theme."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to reveal content sections, where elements fade in and slide up slightly as they become visible. The global navigation bar transitions to a sticky position with an opaque background after the initial hero content is scrolled past. The hero text uses CSS animations for a gradient fill effect and a blinking cursor to highlight key terms.",
+    "Cards and interactive elements are presented with subtle inner shadows and glowing borders, often incorporating soft gradient fills to give them depth and a 'code-like' luminescence against the dark background.",
+    "Code snippets are displayed in dedicated blocks with syntax highlighting, using distinct colors for different code elements, and often feature a subtle border or background to differentiate them from surrounding content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#16181c",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#4fc1ff",
+        "role": "cta"
+      },
+      {
+        "hex": "#9cdcfe",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#b5cea8",
+        "role": "accent-green"
+      },
+      {
+        "hex": "#dcdcaa",
+        "role": "accent-yellow"
+      },
+      {
+        "hex": "#2f3336",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Fira Code",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) establish clear hierarchy, with body text providing detailed explanations. Monospaced text for code is slightly smaller than body text.",
+    "radius": "Subtle (small border-radius on cards, buttons, and input fields, maintaining a modern, crisp feel).",
+    "spacing": "Balanced to airy. Generous vertical spacing between major sections, with a more balanced density within feature grids and content blocks."
+  },
+  "standout": "This site stands out with its sophisticated dark theme, which masterfully integrates vibrant, code-syntax-inspired accent colors and subtle gradients. The glowing elements, animated text, and structured presentation of technical content create a highly distinctive, modern, and approachable aesthetic for a developer-focused product.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

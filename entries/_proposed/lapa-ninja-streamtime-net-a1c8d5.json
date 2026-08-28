@@ -1,0 +1,132 @@
+{
+  "id": "lapa-ninja-streamtime-net-a1c8d5",
+  "source": {
+    "url": "https://streamtime.net/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-streamtime-net-a1c8d5.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-streamtime-net-a1c8d5__scroll0.webp",
+      "shots/_proposed/lapa-ninja-streamtime-net-a1c8d5__scroll1.webp",
+      "shots/_proposed/lapa-ninja-streamtime-net-a1c8d5__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "project-management",
+      "workflow-management"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use a full-width background color or image, with content contained within a centered, max-width container, often split into two columns for text and visuals."
+    },
+    {
+      "kind": "type",
+      "note": "A playful, highly textured, and irregular display font is used exclusively for the hero brand name, contrasting with a clean, modern sans-serif for all other headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant and diverse palette of accent colors (yellow, green, pink, blue) is used for graphic elements, call-to-action buttons, and subtle background highlights, creating an energetic and approachable feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero title animates from scattered, textured shapes into a cohesive word 'STREAMTIME' as the page loads or on initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal their content (charts, images, and text blocks) with a staggered fade-up or slide-in effect as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar becomes sticky at the top of the viewport and gains a solid white background and subtle shadow after scrolling past the initial hero section."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by distinct background colors or full-bleed imagery, creating visual breaks and guiding the user's eye down the page."
+    }
+  ],
+  "technique_notes": [
+    "The hero title uses a complex animation (likely canvas or Lottie, potentially orchestrated with GSAP) where individual, textured graphic elements transform and coalesce into the brand name on page load or initial scroll, creating a dynamic and memorable introduction.",
+    "Scroll-triggered animations (likely using GSAP ScrollTrigger or Locomotive Scroll) are used extensively to reveal section content. Elements within a section, such as charts, images, and text blocks, animate into view with a staggered fade-up or slide-in effect as their parent section enters the viewport, enhancing engagement.",
+    "The header employs a sticky position, dynamically changing its background from transparent to solid white and adding a subtle shadow once the user scrolls beyond the initial hero section, maintaining navigation accessibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FBF8F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFDE3B",
+        "role": "cta"
+      },
+      {
+        "hex": "#C6DC3C",
+        "role": "accent"
+      },
+      {
+        "hex": "#EE84D5",
+        "role": "accent"
+      },
+      {
+        "hex": "#6483FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#C3B7AC",
+        "role": "subtle-texture"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "intercom-font",
+        "role": "heading"
+      },
+      {
+        "family": "intercom-font",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Playful Display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are bold and range from large (~3x body) to oversized (~5x body for main section titles), while body text is legible and well-spaced. The hero text is exceptionally large and decorative.",
+    "radius": "Subtle rounding on buttons and some card elements, with the hero text featuring highly irregular, organic shapes.",
+    "spacing": "Balanced to airy, with generous padding around sections and content blocks, creating a comfortable and uncluttered feel. The hero section is particularly airy."
+  },
+  "standout": "The most distinctive feature is the highly animated, textured, and fragmented hero text that coalesces into the brand name, immediately conveying a playful yet sophisticated brand identity. This, combined with the vibrant, diverse accent colors and organic shapes, creates an energetic and approachable feel for a business tool, setting it apart from typical corporate SaaS designs.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "locomotive-scroll",
+    "lottie"
+  ],
+  "status": "proposed"
+}
