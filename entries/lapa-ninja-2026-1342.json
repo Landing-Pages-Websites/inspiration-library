@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1342",
+  "source": {
+    "url": "https://www.zenithvc.se/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1342.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1342__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1342__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1342__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "investment",
+      "venture-capital",
+      "finance"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with a dark, semi-transparent overlay for text contrast, setting a dramatic and sophisticated tone."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, dark sans-serif headings are used for section titles, creating strong visual hierarchy against lighter body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette featuring dark charcoal/black, crisp white, and a vibrant, unexpected yellow accent for the contact section."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image parallaxes, moving slower than the foreground text content as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-up animation as they enter the viewport, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by generous vertical spacing and alternating background colors, providing a clean and organized content flow."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero image uses a dark, semi-transparent overlay to ensure text readability against a dramatic landscape photograph, with the background image moving at a slower rate than the foreground content to create a parallax scrolling effect.",
+    "A sticky header maintains the brand logo and navigation access at the top of the viewport throughout scrolling, without changing size or background.",
+    "Content sections are introduced with a staggered fade-up animation as they scroll into view, leveraging a library like AOS (Animate On Scroll) to enhance engagement and guide the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#24272a",
+        "role": "dark-text-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "light-text-background"
+      },
+      {
+        "hex": "#fdd835",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#333333",
+        "role": "hero-overlay"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Poppins",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, impactful headings (approx. 3-4x body text) with a clean, readable body text. Uppercase labels are used for section pre-headings.",
+    "radius": "Subtle rounded corners on input fields and buttons, otherwise sharp.",
+    "spacing": "Airy, with generous vertical padding between sections and within content blocks, creating a sense of openness."
+  },
+  "standout": "The site's design is distinctive for its dramatic, dark-toned cinematic hero with a subtle parallax effect, which immediately conveys a sense of gravitas and vision. This is effectively contrasted with bold, clean typography and an unexpected, high-contrast vibrant yellow contact section, creating a sophisticated yet approachable feel.",
+  "animation_tech": [
+    "aos",
+    "video-hero"
+  ],
+  "status": "approved"
+}

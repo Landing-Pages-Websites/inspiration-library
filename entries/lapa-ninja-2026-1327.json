@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-2026-1327",
+  "source": {
+    "url": "https://reflection.ai/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1327.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1327__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1327__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1327__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "technology",
+      "ai",
+      "software"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric two-column layout with a fixed, narrow left sidebar for navigation and a wider, scrolling main content area."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a classic serif font for main headings, paired with a clean sans-serif for body text and navigation, creating a sophisticated contrast."
+    },
+    {
+      "kind": "color",
+      "note": "A restrained palette dominated by a warm off-white background and a deep forest green for primary text and accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The left-aligned navigation (logo and menu items) remains fixed in place while the main content area scrolls vertically."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are defined by generous vertical whitespace and subtle background color shifts, rather than strong visual dividers."
+    }
+  ],
+  "technique_notes": [
+    "Implement a fixed-position element for the left navigation column, allowing the main content area to scroll independently alongside it.",
+    "Achieve a sense of spaciousness and hierarchy through abundant vertical and horizontal whitespace, particularly around headings and calls to action.",
+    "Use `css-keyframes` for subtle, non-scroll-triggered animations, such as hover states on interactive elements or initial load transitions, as no scroll-triggered animations are evident in the provided sequence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F4",
+        "role": "background"
+      },
+      {
+        "hex": "#2D543F",
+        "role": "text"
+      },
+      {
+        "hex": "#5C5C5C",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "subtle-border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, complemented by smaller, clean sans-serif body text and very small, uppercase sans-serif navigation labels.",
+    "radius": "Subtle (buttons and input fields have a small, consistent border-radius).",
+    "spacing": "Very airy, especially in the hero section and between major content blocks, creating a sense of calm and focus."
+  },
+  "standout": "The most distinctive feature is the elegant, asymmetric layout with a fixed left navigation column, combined with an extreme amount of whitespace and a sophisticated, restrained color palette. This creates a highly editorial and premium feel, diverging from typical full-width hero layouts.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

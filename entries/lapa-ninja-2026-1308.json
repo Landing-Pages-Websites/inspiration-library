@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-2026-1308",
+  "source": {
+    "url": "https://www.awenetwork.ai/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1308.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1308__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1308__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1308__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "ai",
+      "web3"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-bleed, dark-themed sections, often separated by significant vertical black space to emphasize individual content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is used, pairing large, elegant serif headings with smaller, functional sans-serif body text and uppercase labels for navigation and interactive elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a dark mode aesthetic with a dominant black background, white text, and subtle light blue/cyan glows or accents, creating a futuristic and sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections reveal with a subtle fade-up animation as they scroll into view, while the hero video background exhibits a gentle parallax effect, moving slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive cards with dropdowns are used in key sections (hero, 'Explore the AWE') to present complex information or options in a clean, contained manner."
+    }
+  ],
+  "technique_notes": [
+    "Implement scroll-triggered animations using a library like GSAP ScrollTrigger to detect when sections enter the viewport. Apply a combination of opacity and Y-axis transform animations to make elements fade in and slide up from the bottom, creating a staggered reveal effect for content within each section. The hero background video should have a slower scroll speed than the foreground content, achieving a subtle parallax effect. The main navigation should be fixed to the top of the viewport, maintaining its appearance without transformation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#293033",
+        "role": "surface"
+      },
+      {
+        "hex": "#A0A0A0",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#66CCFF",
+        "role": "accent-glow"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body) with generous letter spacing, contrasted with smaller, functional sans-serif body text and uppercase labels.",
+    "radius": "Subtle rounded corners on interactive elements like cards, buttons, and input fields, maintaining a clean yet approachable aesthetic.",
+    "spacing": "Very airy, with significant vertical spacing between major sections, creating a sense of grandeur and allowing each content block to breathe and command attention."
+  },
+  "standout": "The site's distinctive use of a deep, dark aesthetic combined with elegant serif typography and subtle, futuristic glowing grid patterns creates a highly sophisticated and immersive experience. The interactive hero card with its dropdowns also stands out, offering a unique way to engage users immediately with complex options within a minimalist design.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

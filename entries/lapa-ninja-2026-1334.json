@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-2026-1334",
+  "source": {
+    "url": "https://www.terms.world/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1334.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1334__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1334__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1334__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "industrial-design",
+      "product-design",
+      "furniture"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Minimalist, grid-based layout with generous whitespace, featuring large product photography often occupying significant horizontal space."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, bold, uppercase sans-serif text is used for section titles, creating a strong visual anchor and architectural feel."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of black and white dominates, with product photography introducing incidental color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, full-viewport uppercase text elements act as section dividers, scrolling up and out of view to reveal the product content that follows."
+    },
+    {
+      "kind": "section",
+      "note": "Each product is presented as a distinct section, typically introduced by a large text element and followed by its image and minimal details."
+    }
+  ],
+  "technique_notes": [
+    "Implement large, full-viewport text blocks as primary section headings. These blocks scroll naturally with the page content, creating a dramatic reveal as they move out of view to expose the subsequent product details.",
+    "Maintain a sticky navigation bar at the top of the viewport, ensuring consistent access to main site sections regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#6A6A6A",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NHG",
+        "role": "heading"
+      },
+      {
+        "family": "NHG",
+        "role": "body"
+      }
+    ],
+    "type_scale": "extremely oversized, bold, uppercase display text (~10x body) for section titles, contrasting with small, regular weight uppercase text for navigation and product details",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous negative space around products and text elements, creating a gallery-like feel"
+  },
+  "standout": "The site's distinctive use of extremely large, bold, uppercase text as full-viewport section dividers that scroll to reveal content creates an architectural, almost brutalist, and highly editorial aesthetic. This approach transforms simple headings into powerful visual elements that dictate the page's rhythm and flow.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "approved"
+}

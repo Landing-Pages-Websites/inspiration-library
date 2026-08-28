@@ -1,0 +1,114 @@
+{
+  "id": "lapa-ninja-2026-1337",
+  "source": {
+    "url": "https://tinyman.org/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1337.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1337__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1337__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1337__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fintech",
+      "defi",
+      "blockchain"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page uses a full-width layout with content centered, often within distinct card-like containers or sections. The hero features a prominent central interactive card flanked by two smaller informational cards, creating a strong focal point."
+    },
+    {
+      "kind": "type",
+      "note": "Key display headings utilize an extremely large, bold, and slightly distressed sans-serif typeface, creating a strong visual impact and contrast with the more conventional, legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, almost neon green serves as a dominant background color for the upper sections, transitioning abruptly to a clean white for the lower sections. This is complemented by bright yellow accents and dynamic purple/blue gradient blobs that highlight key areas."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar is sticky and slightly reduces in height after initial scroll. Sections below the hero appear to reveal themselves with a subtle fade-up or slide-in effect as they enter the viewport, breaking up the content flow."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are visually differentiated by a clear shift in background color from a vibrant green to white, and the strategic placement of large, organic gradient blobs that act as visual anchors for key messages or interactive elements."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the motion, implement a sticky header that transitions to a slightly smaller height on scroll using CSS transitions. For section reveals, use JavaScript (e.g., with Intersection Observer) to add classes that trigger CSS keyframe animations (such as fade-in or slide-up) as elements enter the viewport. The large gradient blobs can be achieved with CSS gradients or SVG assets, potentially enhanced with Lottie animations for dynamic effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0D9F62",
+        "role": "background-primary"
+      },
+      {
+        "hex": "#F2FE67",
+        "role": "accent"
+      },
+      {
+        "hex": "#1E0972",
+        "role": "gradient-dark"
+      },
+      {
+        "hex": "#3396FF",
+        "role": "gradient-light"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "heading"
+      },
+      {
+        "hex": "#808080",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Hanken Grotesk",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Tiny",
+        "role": "label"
+      }
+    ],
+    "type_scale": "Oversized, bold, uppercase display headings (~4-5x body) create a strong visual hierarchy, complemented by smaller, legible body text and very small, often uppercase, labels.",
+    "radius": "Subtle rounded corners are consistently applied to cards, buttons, and input fields, providing a soft but not overly playful feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, ensuring content is not cramped. Feature grids are more dense but still maintain clear separation."
+  },
+  "standout": "The site's distinctive use of an extremely bold, almost distressed-looking display font for primary headings, combined with a vibrant neon green and dynamic gradient blobs, creates an energetic and modern aesthetic that stands out from typical DeFi interfaces. The central, interactive 'Swap' card in the hero is also a strong focal point.",
+  "animation_tech": [
+    "css-keyframes",
+    "lottie"
+  ],
+  "status": "approved"
+}

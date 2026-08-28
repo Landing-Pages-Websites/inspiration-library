@@ -1,0 +1,109 @@
+{
+  "id": "lapa-ninja-2026-1307",
+  "source": {
+    "url": "https://alovehatestory.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1307.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1307__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1307__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1307__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "branding-agency",
+      "advertising"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are often full-bleed, using the dominant red background, with content centered or aligned to the left, frequently featuring large typographic elements as primary visual anchors."
+    },
+    {
+      "kind": "type",
+      "note": "Aggressive use of oversized, condensed sans-serif typography for headlines, section dividers, and numerical displays, creating a bold and impactful visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited palette dominated by vibrant red, stark white, and deep black, used consistently across backgrounds, text, and graphic elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header with minimal branding persists at the top. As the user scrolls, a dedicated section reveals large numbers that transition sequentially (e.g., 96 to 38 to 1), appearing to change in place against a fixed red background, creating a dynamic counter or progress indicator."
+    },
+    {
+      "kind": "section",
+      "note": "Key sections are introduced by large, two-letter acronyms ('DI', 'CI', 'AI') or full words ('BRANDS') rendered in the dominant display typeface, acting as bold, typographic dividers."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the scroll-triggered number sequence, a fixed full-screen container with a red background would be used. Within this container, large numbers are positioned and revealed or transitioned using CSS keyframes or a canvas animation, triggered by scroll progress. As the user scrolls through a specific range, the numbers would animate in and out or change their value, giving the impression of a dynamic counter or sequential reveal.",
+    "Full-bleed sections are achieved by setting elements to 100% viewport width, often with a solid background color, allowing content to be centered or left-aligned within a contained width.",
+    "Typographic hierarchy is established by using extremely large, bold, and condensed sans-serif fonts for display elements, contrasted with smaller, more legible sans-serif for body text and a subtle script font for decorative accents."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#CE1215",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "surface"
+      },
+      {
+        "hex": "#131415",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#666666",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Anton",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Instrument Serif",
+        "role": "accent"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, and condensed display headings (~8-10x body text) create dramatic visual impact, contrasted with small, legible sans-serif body text and subtle script accents.",
+    "radius": "sharp",
+    "spacing": "airy in hero and large number sections, with generous vertical spacing, transitioning to a more balanced density in content grids and text blocks."
+  },
+  "standout": "This site's design is distinctive for its audacious and aggressive use of typography, where massive, condensed sans-serif text isn't just content but a primary visual and structural element. The full-screen red background combined with scroll-triggered, dynamically changing large numbers creates a unique, almost editorial-magazine feel that is far from a generic template.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

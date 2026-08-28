@@ -1,0 +1,116 @@
+{
+  "id": "lapa-ninja-2026-1309",
+  "source": {
+    "url": "https://www.bunsenstudio.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1309.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1309__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1309__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1309__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design-agency",
+      "tech",
+      "biotech"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and two-column layouts, often pairing text with a large image or graphic."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very large, bold sans-serif, creating a strong visual hierarchy against smaller, legible body text and occasional uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark theme uses a near-black background with white text, punctuated by vibrant, gradient-based accent colors for graphics and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background dynamically transforms from a subtle static pattern to an intricate, animated canvas graphic as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The global navigation bar remains sticky at the top, visually transforming by gaining a solid dark background and subtle resizing after the initial scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a full-width, gradient-filled call-to-action section ('Ready to light it up?') as a prominent visual break before the footer."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a dynamic background that transforms from a static image to an interactive, animated canvas graphic as the user scrolls, creating a sense of depth and engagement, likely orchestrated with GSAP ScrollTrigger.",
+    "The global navigation bar is sticky and undergoes a visual transformation (gaining a solid background and subtle resizing) after the user scrolls past the initial hero content, using CSS transitions or GSAP.",
+    "Content sections are likely revealed with subtle animations, such as fade-ins or slide-ups, as they enter the viewport, orchestrated by a scroll-triggered animation library like GSAP."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#0b5dfe",
+        "role": "accent"
+      },
+      {
+        "hex": "#9427af",
+        "role": "accent"
+      },
+      {
+        "hex": "#fccf23",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff5af3",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold sans-serif headings (~3-4x body) with smaller, clean body text and even smaller uppercase labels.",
+    "radius": "sharp for most elements, subtle rounding on buttons and interactive components.",
+    "spacing": "airy in the hero and between major sections, with balanced padding within content blocks."
+  },
+  "standout": "This site stands out with its sophisticated integration of scientific and tech-inspired visuals, particularly the dynamic, animated canvas background in the hero that transforms on scroll. The use of vibrant, almost neon-like gradients against a deep dark background creates a distinctive and modern aesthetic that feels both cutting-edge and luxurious.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "approved"
+}

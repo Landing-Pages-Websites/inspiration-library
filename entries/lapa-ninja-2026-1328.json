@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-2026-1328",
+  "source": {
+    "url": "https://www.sharplink.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1328.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1328__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1328__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1328__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "blockchain",
+      "cryptocurrency",
+      "fintech"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed sections with dynamic, often gradient backgrounds that transition between dark blue, lighter blue, and grey tones, creating a continuous visual flow down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, and bold sans-serif headings (Archivo) are used to introduce sections, often in all caps, contrasting with smaller, more detailed body text (Archivo Narrow)."
+    },
+    {
+      "kind": "color",
+      "note": "A primary palette of deep blues and greys is accented with a vibrant electric blue for calls to action and key interactive elements, alongside occasional red highlights for specific information."
+    },
+    {
+      "kind": "motion",
+      "note": "A continuous, scroll-driven 3D background animation (likely WebGL/Three.js) features abstract geometric shapes and gradients that evolve and parallax as the user scrolls, creating a sense of depth and movement through a digital space."
+    },
+    {
+      "kind": "motion",
+      "note": "Content blocks and text elements reveal themselves with a subtle fade-in or slide-up effect as they enter the viewport, enhancing engagement."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by large, impactful headings and distinct background shifts, often incorporating the continuous 3D background elements."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the immersive background, use a WebGL or Three.js canvas that renders a dynamic 3D scene with abstract geometric forms and gradient textures. This scene should be continuously animated and respond to scroll depth, allowing elements to parallax, rotate, or reveal new layers as the user scrolls down the page, creating a sense of moving through a digital environment.",
+    "Implement scroll-triggered animations for content sections, where text blocks and card-like elements fade in and subtly slide upwards as they enter the viewport. This can be achieved using an Intersection Observer API combined with CSS transitions or a JavaScript animation library.",
+    "The navigation bar should remain sticky at the top of the viewport, maintaining accessibility to key links throughout the user's journey."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0a1f44",
+        "role": "background-dark"
+      },
+      {
+        "hex": "#2a5298",
+        "role": "background-mid"
+      },
+      {
+        "hex": "#eeeeee",
+        "role": "surface-light"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-light"
+      },
+      {
+        "hex": "#0e76ff",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#f44336",
+        "role": "accent-warning"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Archivo",
+        "role": "heading"
+      },
+      {
+        "family": "Archivo Narrow",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and often uppercase headings (~3-4x body) create strong visual hierarchy, complemented by legible body text and smaller, uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy, with generous padding around sections and content blocks, contributing to a premium and uncluttered feel."
+  },
+  "standout": "The site's most distinctive feature is its sophisticated, continuous 3D background animation that dynamically responds to scroll, integrating abstract geometric forms and gradients to create an immersive, evolving digital landscape that feels deeply integrated with the content.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-2026-0247",
+  "source": {
+    "url": "https://vennn-inc.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0247.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0247__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0247__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0247__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://vennn-inc.com/work",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0247__p2.webp"
+      },
+      {
+        "url": "https://vennn-inc.com/journal",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0247__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design",
+      "sports-marketing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-width, full-height hero section with a massive, central brand element that dominates the initial view, transitioning into a compact sticky header."
+    },
+    {
+      "kind": "type",
+      "note": "The site uses a single, highly legible sans-serif font family across various weights and sizes, with an emphasis on oversized, bold display text for the brand and project titles."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, monochrome palette of black, white, and subtle light greys dominates the site, with color introduced sparingly within project imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial oversized 'vennn' logo at the top of the page shrinks and transitions into a compact, sticky header as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, abstract 3D wireframe graphic of 'vennn' is fixed in the background and gradually revealed as the foreground content scrolls past it, creating a depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "Project cards and content sections animate into view with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented in a clean, responsive grid layout with consistent aspect ratios for image thumbnails."
+    }
+  ],
+  "technique_notes": [
+    "The main brand logo at the top of the page uses a scroll-triggered animation (likely GSAP ScrollTrigger) to scale down and reposition itself into a sticky header element upon scrolling, creating a dynamic brand presence.",
+    "Content sections and individual project cards are revealed with a subtle fade-in and slight upward translation as they enter the viewport, creating a dynamic loading effect for new content.",
+    "A large, abstract 3D graphic is positioned as a fixed background element, allowing foreground content to scroll over it and progressively reveal the graphic, creating a sense of depth and visual interest."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Noto Sans",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Noto Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display logo/headings (~5x body text) with smaller, highly legible body and caption text, creating a strong typographic hierarchy.",
+    "radius": "sharp",
+    "spacing": "Airy in the hero and footer, balanced in the project grid, with generous whitespace contributing to a minimalist aesthetic."
+  },
+  "standout": "The site's distinctive use of a massive, fixed brand logo that scales and transforms into a sticky header, combined with a minimalist, monochrome aesthetic and a subtle 3D wireframe graphic that reveals itself as a background element, creates a strong brand presence and a unique, sophisticated scrolling experience.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "lapa-ninja-2026-1319",
+  "source": {
+    "url": "https://madewithgsap.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1319.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1319__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1319__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1319__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-development",
+      "animation-library",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-width, alternating dark and light section layout to create strong visual breaks and guide the user through distinct content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif headings are used for key statements, creating a dramatic visual impact, contrasted with smaller, lighter body text and uppercase navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette of deep black and off-white dominates the design, with a single vibrant green used exclusively for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a dramatic full-screen background color transition as they enter the viewport, often accompanied by content sliding or fading into place, creating a 'chapter-like' scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a dynamic, interactive image collage that appears to shift and reconfigure as the user scrolls or interacts, showcasing the site's focus on visual effects."
+    }
+  ],
+  "technique_notes": [
+    "A smooth scrolling library (like Locomotive Scroll) is integrated with GSAP to orchestrate a highly interactive and fluid scroll experience, where the page background and content animate in unison.",
+    "Sections are designed to transition with full-screen background color changes and content reveals, using GSAP ScrollTrigger to detect viewport entry and animate elements (text, images, numbers) with staggered fades and slides.",
+    "The hero section incorporates a dynamic image collage that likely uses WebGL or Three.js to create an interactive, responsive visual effect, where individual images move and reorient within a defined frame."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#100000",
+        "role": "background"
+      },
+      {
+        "hex": "#F1F1F1",
+        "role": "surface"
+      },
+      {
+        "hex": "#99FF00",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-light"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~4-5x body text size) with smaller, regular-weight body copy and small, uppercase navigation elements.",
+    "radius": "Subtle rounding on buttons and interactive cards, maintaining a clean and modern aesthetic.",
+    "spacing": "Airy and generous, particularly in hero and feature sections, creating a sense of spaciousness and allowing individual elements to breathe."
+  },
+  "standout": "The site's most distinctive feature is its highly interactive and animated scroll experience, where entire sections dramatically transition with full-screen background changes and dynamic content reveals. This creates a fluid, almost cinematic journey that emphasizes the site's focus on cutting-edge visual effects and animation.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
