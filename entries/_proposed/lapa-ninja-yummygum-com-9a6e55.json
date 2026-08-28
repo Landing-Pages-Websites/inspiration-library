@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-yummygum-com-9a6e55",
+  "source": {
+    "url": "https://yummygum.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-yummygum-com-9a6e55.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-yummygum-com-9a6e55__scroll0.webp",
+      "shots/_proposed/lapa-ninja-yummygum-com-9a6e55__scroll1.webp",
+      "shots/_proposed/lapa-ninja-yummygum-com-9a6e55__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "design-agency",
+      "web-development"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with large, left-aligned typography and a subtle, abstract graphic element on the right, creating an open and modern feel."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of oversized, bold sans-serif headings for high impact, balanced with a clean, readable sans-serif for body text and small, often uppercase, functional labels."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, soft pink/fuchsia gradient is used as a dynamic background accent, contrasting with a clean white primary background and deep plum/burgundy for specific content sections and the footer."
+    },
+    {
+      "kind": "motion",
+      "note": "The sticky navigation bar dynamically transforms upon scroll, shrinking and gaining a white, pill-shaped background with a distinct pink CTA button, transitioning from a transparent initial state."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero content and subsequent sections are revealed with a subtle slide-up and fade-in animation as they enter the viewport, creating a smooth and engaging scroll experience."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width content sections with distinct background colors, such as the dark plum 'How we work' section, are used to visually segment the page and create strong focal points."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, soft, animated gradient background that subtly shifts or remains fixed while foreground content scrolls over it, creating a sense of depth and visual interest.",
+    "Content sections are introduced with a staggered fade-up animation as they enter the viewport, providing a dynamic and engaging reveal sequence during scrolling.",
+    "The primary navigation bar employs a scroll-triggered transformation, changing its size, background, and button styling from a transparent, minimalist design to a compact, pill-shaped, solid background version once the user scrolls past the initial hero view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fdfbfb",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f45a8b",
+        "role": "accent"
+      },
+      {
+        "hex": "#261e1b",
+        "role": "surface"
+      },
+      {
+        "hex": "#786964",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Noi Grotesk Regular",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body text) with a clean, readable sans-serif for body copy and small, often uppercase, functional labels.",
+    "radius": "Subtle rounded corners (small radius) consistently applied to buttons, cards, and the transformed sticky navigation, contributing to a soft, approachable feel.",
+    "spacing": "Generally airy, especially in the hero and between major sections, creating a sense of calm and allowing elements to breathe. Content grids maintain a balanced density."
+  },
+  "standout": "The site's distinctive use of a large, animated, soft gradient background in the hero, combined with a highly dynamic and transforming sticky navigation bar, creates a memorable and sophisticated user experience that feels both modern and playful. The seamless transition of the navigation is particularly well-executed.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

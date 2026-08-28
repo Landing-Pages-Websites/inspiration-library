@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-sutera-ch-203abf",
+  "source": {
+    "url": "https://www.sutera.ch/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-sutera-ch-203abf.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-sutera-ch-203abf__scroll0.webp",
+      "shots/_proposed/lapa-ninja-sutera-ch-203abf__scroll1.webp",
+      "shots/_proposed/lapa-ninja-sutera-ch-203abf__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "consulting",
+      "technology",
+      "research"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A subtle, persistent grid overlay with crosshairs and thin lines defines the visual structure across all sections, reminiscent of a technical blueprint or CAD interface."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is presented in distinct, full-screen 'screens' that replace each other on scroll, rather than traditional continuous scrolling, creating a sequential viewing experience."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy is established by contrasting large, bold sans-serif headings with small, monospaced text used exclusively for all annotations, metadata, and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of white and black forms the primary base, complemented by very subtle grey tones for the grid and minimal, precise accents of color for interactive elements or key visual points."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a canvas-rendered 3D object (floating island) with dynamically positioned annotations that appear to be part of an interactive diagram, likely responding to scroll or mouse input."
+    },
+    {
+      "kind": "motion",
+      "note": "Scrolling triggers a full-screen section transition, where the current content animates out of view (e.g., slides up) and the next content section animates in to take its place, creating a distinct 'slide' or 'reveal' effect between conceptual pages."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen scroll-snapping or section-swapping mechanism, where scrolling triggers a transition that animates the current content out of view and brings the next content section into full view, creating a distinct, sequential viewing experience.",
+    "The hero section utilizes a WebGL/canvas rendering engine to display a detailed 3D model (the floating island) that serves as the central visual element, around which textual annotations are dynamically positioned and connected with lines, creating an interactive diagrammatic experience.",
+    "A consistent visual language is maintained through a subtle, low-contrast grid overlay that persists across all sections, giving the entire site the appearance of a meticulously designed technical document or blueprint."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#A9A9A9",
+        "role": "grid-lines-and-subtle-text"
+      },
+      {
+        "hex": "#CBCBCB",
+        "role": "subtle-background-variation"
+      },
+      {
+        "hex": "#8FDB59",
+        "role": "accent-interactive"
+      },
+      {
+        "hex": "#B5E9FF",
+        "role": "accent-button"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body text) with a clean, legible body text. Monospaced text is consistently small for annotations and metadata.",
+    "radius": "sharp",
+    "spacing": "airy (generous whitespace, especially in the hero and between major sections), creating a sense of precision and focus; elements within the grid are precisely placed."
+  },
+  "standout": "The site's distinctive use of a persistent, subtle grid overlay combined with an interactive, annotated 3D hero element that functions like a technical diagram. This creates a unique blend of scientific precision and artistic presentation, making the entire experience feel like an interactive research paper or a high-tech presentation.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

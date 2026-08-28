@@ -1,0 +1,102 @@
+{
+  "id": "lapa-ninja-social-impact-capital-com-ed6cae",
+  "source": {
+    "url": "https://social-impact-capital.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-social-impact-capital-com-ed6cae.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-social-impact-capital-com-ed6cae__scroll0.webp",
+      "shots/_proposed/lapa-ninja-social-impact-capital-com-ed6cae__scroll1.webp",
+      "shots/_proposed/lapa-ninja-social-impact-capital-com-ed6cae__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "venture-capital",
+      "impact-investing"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of full-bleed, single-color, intricate illustrations as primary background elements, often spanning multiple sections or acting as a visual anchor."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between a very large, decorative serif font for hero and key section headings, and a clean, modern sans-serif for body text, navigation, and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A highly monochromatic color scheme dominated by a deep, vibrant blue and white, with subtle dark gray for body text, creating a bold and consistent brand identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, intricate blue illustration that scrolls at a slower rate than the foreground text, creating a subtle parallax depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms from a transparent background with white text and logo to a solid white background with blue text and a resized, repositioned blue logo upon scroll, becoming sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Key information sections are introduced with large, centered, uppercase headings, often followed by a brief descriptive paragraph, creating clear content hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the header, implement a sticky navigation bar that changes its background color, text color, and logo styling (size, position, color) based on scroll position, typically after a certain scroll threshold is met.",
+    "The parallax effect for the hero illustration can be achieved by setting the background image to scroll at a slower speed than the foreground content, often using CSS `background-attachment: fixed` or JavaScript-based scroll-speed manipulation.",
+    "The site uses a dominant brand blue for all illustrative elements, large headings, and key UI components, contrasted with white backgrounds and text, and a dark gray for body copy to maintain legibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2a2ecd",
+        "role": "brand-primary"
+      },
+      {
+        "hex": "#fcfcfc",
+        "role": "background"
+      },
+      {
+        "hex": "#282828",
+        "role": "text-body"
+      },
+      {
+        "hex": "#ddd",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, decorative serif hero heading (~4-5x body) with large, bold serif section headings (~2x body), and small, often uppercase sans-serif labels.",
+    "radius": "sharp",
+    "spacing": "airy - generous vertical spacing between sections and within the hero, with balanced line-heights for readability."
+  },
+  "standout": "The most distinctive feature is the pervasive use of highly detailed, single-color, toile-like illustrations that serve as both decorative elements and structural backgrounds, giving the site a unique blend of historical elegance and modern impact.",
+  "animation_tech": [],
+  "status": "proposed"
+}

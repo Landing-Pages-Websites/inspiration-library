@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-stratus-ventures-com-e1e35b",
+  "source": {
+    "url": "https://www.stratus-ventures.com/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-stratus-ventures-com-e1e35b.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-stratus-ventures-com-e1e35b__scroll0.webp",
+      "shots/_proposed/lapa-ninja-stratus-ventures-com-e1e35b__scroll1.webp",
+      "shots/_proposed/lapa-ninja-stratus-ventures-com-e1e35b__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "investment-firm",
+      "venture-capital"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-high-ticket-authority"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with generous vertical padding, often featuring centered text blocks for readability and impact."
+    },
+    {
+      "kind": "type",
+      "note": "A prominent, extremely large, uppercase sans-serif font is used for the hero brand name, creating a strong visual anchor, contrasted with a clean, readable sans-serif for headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dark greys/blacks and white is consistently used for text and surfaces, complemented by the natural, muted tones of the background imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a multi-layered parallax effect where the background image and the large brand text scroll at different, slower rates than the foreground content, creating a sense of depth. The top navigation bar shrinks and gains a solid background on scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Clear, distinct content sections are introduced by large, bold headings, often accompanied by a descriptive sub-heading or paragraph, providing a structured flow of information."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a multi-layered parallax effect where the background image scrolls at a slower rate than the foreground text, creating depth. This effect is likely achieved using CSS keyframes or a JavaScript library that manipulates transform properties based on scroll position.",
+    "The main navigation bar at the top dynamically shrinks in height and changes its background from transparent to solid dark upon scrolling past the initial hero section.",
+    "After the hero, the page content scrolls over a fixed, full-bleed background image, giving the impression of content floating above a consistent visual foundation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A202C",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#A0AEC0",
+        "role": "placeholder-text"
+      },
+      {
+        "hex": "#4A5568",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A dramatic type scale with an extremely large, bold, uppercase hero text (~8x body), transitioning to clear, well-spaced headings and readable body text.",
+    "radius": "Subtle, primarily seen on input fields and buttons, giving a soft, modern feel.",
+    "spacing": "Airy, with ample vertical spacing between sections and within text blocks, contributing to a sense of openness and clarity."
+  },
+  "standout": "The distinctive use of a dramatic, full-bleed mountain landscape as a dynamic background, first with a multi-layered parallax hero, then transitioning to a fixed backdrop for the entire page content. This creates a strong sense of depth and a unique visual identity that elevates the site beyond a standard corporate template.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

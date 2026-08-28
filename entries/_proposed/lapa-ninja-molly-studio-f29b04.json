@@ -1,0 +1,110 @@
+{
+  "id": "lapa-ninja-molly-studio-f29b04",
+  "source": {
+    "url": "https://www.molly.studio/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-molly-studio-f29b04.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-molly-studio-f29b04__scroll0.webp",
+      "shots/_proposed/lapa-ninja-molly-studio-f29b04__scroll1.webp",
+      "shots/_proposed/lapa-ninja-molly-studio-f29b04__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "saas",
+      "technology"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered with generous horizontal padding, creating a focused reading experience and ample white space around elements."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are large, bold, and centered, contrasting with smaller, lighter supporting text and standard-sized body paragraphs, maintaining a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light background with black text is accented by subtle, soft gradient overlays and vibrant, colorful imagery within content cards and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text acts as a fixed overlay that scrolls up and out of view, revealing the main content of the page underneath. Subsequent content sections appear to fade in or slide up subtly as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by large vertical spacing and distinct content types, such as text blocks, image grids, and event photo galleries, without explicit section dividers."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero text is implemented as a fixed-position element that dynamically adjusts its opacity or vertical position based on scroll depth, causing it to disappear and reveal the main page content scrolling beneath it.",
+    "Content sections below the hero utilize scroll-triggered animations, such as a subtle fade-in or a slight upward slide, as they enter the viewport, enhancing the reveal of new information.",
+    "The large central container likely employs canvas or WebGL (as hinted by detected tech) to render an animated or interactive gradient background within its rounded frame, providing a dynamic visual focal point."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F0E8F0",
+        "role": "background-gradient-start"
+      },
+      {
+        "hex": "#E8F0F8",
+        "role": "background-gradient-end"
+      },
+      {
+        "hex": "#FF69B4",
+        "role": "accent-pink"
+      },
+      {
+        "hex": "#6495ED",
+        "role": "accent-blue"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, centered headings (~3-4x body) with smaller, lighter supporting text, and standard readable body text.",
+    "radius": "Rounded corners are consistently applied to image cards and the large interactive container, giving a soft, modern feel.",
+    "spacing": "Very airy, especially in the hero and between major content blocks, creating a sense of calm and focused attention."
+  },
+  "standout": "The site's design is distinctive for its extremely minimal, almost editorial announcement-style hero that completely disappears on scroll, immediately transitioning to rich, visually engaging content sections. The prominent use of a large, central interactive or video element early in the scroll sequence also sets it apart from typical static marketing pages.",
+  "animation_tech": [
+    "canvas",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

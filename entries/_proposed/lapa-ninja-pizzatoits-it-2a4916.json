@@ -1,0 +1,108 @@
+{
+  "id": "lapa-ninja-pizzatoits-it-2a4916",
+  "source": {
+    "url": "https://www.pizzatoits.it/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-28"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-pizzatoits-it-2a4916.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-pizzatoits-it-2a4916__scroll0.webp",
+      "shots/_proposed/lapa-ninja-pizzatoits-it-2a4916__scroll1.webp",
+      "shots/_proposed/lapa-ninja-pizzatoits-it-2a4916__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "home-services",
+      "plumbing",
+      "interior-design"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are defined by generous vertical spacing and the interplay of foreground content with oversized background typography, rather than distinct containers or dividers."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, condensed sans-serif typography (Druk) is used as a primary graphic element, often serving as a background or section identifier, contrasting with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited palette of a warm off-white background, a vibrant electric blue for headings and accents, and black for body text creates a distinctive and bold visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, large typographic elements and abstract 3D graphics positioned in the background are progressively revealed or uncovered by the scrolling foreground content, creating a dynamic sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features the brand name in massive typography, followed by a grid of three images, which then transitions to a descriptive text block before revealing service categories through large background text."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the scroll-triggered motion, implement a system where large background elements (oversized text, 3D graphics) are positioned behind the main content flow. As the user scrolls, the foreground content moves at a normal rate, while the background elements either remain fixed or scroll at a slower parallax rate, causing them to be progressively revealed or obscured. This can be conceptualized as a series of layers moving at different speeds. Subtle CSS keyframe animations could be used for elements as they fully enter the viewport, enhancing their appearance.",
+    "The distinctive typographic hierarchy is built by using an extremely heavy and wide display font for hero and section titles, scaled to occupy significant screen real estate, often bleeding off-screen. This is paired with a clean, modern sans-serif for all other text, ensuring readability despite the dramatic scale contrast."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f2f1e4",
+        "role": "background"
+      },
+      {
+        "hex": "#184dc4",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#85a6ea",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Druk",
+        "role": "display"
+      },
+      {
+        "family": "NeueMontreal-Regular",
+        "role": "body"
+      },
+      {
+        "family": "NeueMontreal-Bold",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, and condensed display headings (~8-10x body) dominate the page, with a clean, balanced sans-serif used for all other text elements.",
+    "radius": "subtle (for buttons and image containers)",
+    "spacing": "airy (especially in the hero and between major content blocks, creating a sense of spaciousness around the large typographic elements)"
+  },
+  "standout": "This site's design is highly distinctive for its audacious use of typography as a primary visual and structural element. The brand name and section titles are rendered in an enormous, bold font that acts almost like a background graphic, creating a dynamic interplay with the scrolling content. This, combined with a striking two-tone color palette, makes the site feel less like a traditional marketing page and more like an interactive editorial piece.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
