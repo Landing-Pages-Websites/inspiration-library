@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-santijaramillo-com-ba28c0",
+  "source": {
+    "url": "https://santijaramillo.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-29"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-santijaramillo-com-ba28c0.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-santijaramillo-com-ba28c0__scroll0.webp",
+      "shots/_proposed/lapa-ninja-santijaramillo-com-ba28c0__scroll1.webp",
+      "shots/_proposed/lapa-ninja-santijaramillo-com-ba28c0__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "art-direction",
+      "illustration",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A two-column grid of diverse portfolio pieces, where each item functions as a distinct, full-bleed visual block, often featuring a brand logo or a specific design project."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a classic, elegant serif font for the personal introduction, creating an editorial feel, which contrasts with a clean, modern sans-serif for navigation and supporting text."
+    },
+    {
+      "kind": "color",
+      "note": "A neutral white background serves as a clean canvas, allowing the vibrant and diverse color palettes within individual portfolio pieces to stand out without a unifying site-wide accent color."
+    },
+    {
+      "kind": "motion",
+      "note": "The site header remains sticky at the top of the viewport as the user scrolls, providing persistent access to navigation and branding."
+    },
+    {
+      "kind": "motion",
+      "note": "Specific portfolio items feature scroll-triggered animations, such as a neon line-drawing effect that progressively reveals an illustration as it enters the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The site header is implemented as a sticky element, fixing its position at the top of the browser window during scroll.",
+    "Portfolio items are arranged using a responsive grid system, presenting each project as a self-contained visual card that often fills its container with a full-bleed image or graphic.",
+    "Scroll-triggered animations, likely using css-keyframes or a JavaScript library, are employed to reveal certain elements. For instance, a neon illustration animates by drawing its lines sequentially as the user scrolls the element into view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0055C6",
+        "role": "accent"
+      },
+      {
+        "hex": "#204030",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7D200",
+        "role": "accent"
+      },
+      {
+        "hex": "#5000A0",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF00FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Young Serif",
+        "role": "display"
+      },
+      {
+        "family": "Neue Haas Grotesk",
+        "role": "body"
+      },
+      {
+        "family": "Icons",
+        "role": "icon"
+      }
+    ],
+    "type_scale": "A large, elegant serif for the hero statement (~3x body) contrasts with smaller, uppercase sans-serif for navigation and body text.",
+    "radius": "Sharp corners are universally applied to all image blocks and containers, contributing to a clean, structured aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical spacing between the hero statement and the portfolio grid, and consistent padding around grid items."
+  },
+  "standout": "This site distinguishes itself with a direct, personal introduction using a classic serif font, which immediately sets an editorial and sophisticated tone. The portfolio is presented as a simple, yet visually rich, grid of distinct, full-bleed blocks, allowing each project to speak for itself without heavy framing. The subtle scroll-triggered neon animation adds a touch of unexpected delight and craftsmanship.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

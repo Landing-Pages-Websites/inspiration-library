@@ -1,0 +1,120 @@
+{
+  "id": "siteinspire-abelfragrance-com-3f5bf5",
+  "source": {
+    "url": "https://abelfragrance.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-08-29"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-abelfragrance-com-3f5bf5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-abelfragrance-com-3f5bf5__scroll0.webp",
+      "shots/_proposed/siteinspire-abelfragrance-com-3f5bf5__scroll1.webp",
+      "shots/_proposed/siteinspire-abelfragrance-com-3f5bf5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://abelfragrance.com/products/pause",
+        "full": "shots/_proposed/siteinspire-abelfragrance-com-3f5bf5__p2.webp"
+      },
+      {
+        "url": "https://abelfragrance.com/products/nurture",
+        "full": "shots/_proposed/siteinspire-abelfragrance-com-3f5bf5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beauty",
+      "fragrance",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality editorial photography is used as background for hero sections and product showcases, often with text overlaid directly on the image."
+    },
+    {
+      "kind": "type",
+      "note": "A strong sans-serif typeface is used for most headings and body text, frequently in all-caps for labels and subheadings, creating a minimalist yet bold typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast black and white base palette is consistently accented by a single, vibrant lime-green/yellow, which highlights key brand elements and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image features a subtle parallax effect, moving slower than the foreground content as the user scrolls. Content sections reveal with a gentle fade-in or slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases are presented in clean, often asymmetrical grids or carousels, interspersed with editorial blocks that provide brand storytelling and lifestyle imagery."
+    }
+  ],
+  "technique_notes": [
+    "The hero section uses a large background image that moves at a slower rate than the foreground text and elements, creating a subtle parallax scroll effect. The main navigation bar transforms on scroll, shrinking in height and becoming sticky at the top of the viewport.",
+    "Content sections throughout the page are revealed using scroll-triggered animations, where elements gently fade in and slide upwards as they become visible within the user's viewport.",
+    "Product galleries and featured items utilize a carousel system (swiper) for horizontal navigation, allowing users to browse multiple items within a compact space. Interior product pages feature a hero area that can display either a video or a series of images via a slider."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#dbdf16",
+        "role": "accent"
+      },
+      {
+        "hex": "#23272f",
+        "role": "surface"
+      },
+      {
+        "hex": "#a3a4a8",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Founders Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Founders Grotesk",
+        "role": "body"
+      },
+      {
+        "family": "Untitled",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Headings are large, bold sans-serif, often uppercase, providing strong visual impact. Body text is a legible sans-serif, complemented by smaller, uppercase labels for product categories and navigation.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous vertical spacing between major sections, creating a sense of openness and allowing imagery to breathe. Product grids maintain a balanced, clean spacing."
+  },
+  "standout": "This site's design is distinctive for its sophisticated blend of raw, editorial-style photography with a stark, minimalist sans-serif typography. The consistent use of a single, vibrant lime-green accent color against a high-contrast black and white palette creates a premium, art-directed feel that elevates the brand beyond typical e-commerce sites.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
