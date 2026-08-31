@@ -1,0 +1,113 @@
+{
+  "id": "lapa-ninja-axelar-network-c16f44",
+  "source": {
+    "url": "https://axelar.network/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-08-31"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-axelar-network-c16f44.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-axelar-network-c16f44__scroll0.webp",
+      "shots/_proposed/lapa-ninja-axelar-network-c16f44__scroll1.webp",
+      "shots/_proposed/lapa-ninja-axelar-network-c16f44__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "blockchain",
+      "crypto",
+      "web3",
+      "saas"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, high-contrast layout with full-width sections, often featuring a prominent left-aligned text block and a dynamic visual element or logo grid on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold sans-serif headings are used for primary titles, contrasted with smaller, lighter sans-serif text for body content and labels, creating a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A dominant dark background (near black) is consistently used across all sections, providing a stark contrast for white/light gray text and vibrant orange accent colors for CTAs and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms on scroll, shrinking in height, changing its background from transparent to solid black, and modifying the logo to include an icon, while a dynamic, glowing abstract grid animates continuously in the hero background."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections frequently use a two-column structure, with descriptive text on the left and supporting visual elements (like partner logos, animated graphics, or card grids) on the right."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed, continuously animating abstract grid background, likely implemented using a canvas element, with glowing nodes that subtly shift color and position to create a dynamic visual anchor.",
+    "The primary navigation bar employs a sticky effect, transitioning its height, background color, and logo presentation (adding an icon) as the user scrolls past the initial hero section, providing a compact and persistent navigation experience.",
+    "Interactive elements like buttons and input fields feature subtle rounded corners and a consistent orange accent color, providing clear visual cues for user interaction."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#04070A",
+        "role": "background"
+      },
+      {
+        "hex": "#F9F9F9",
+        "role": "text"
+      },
+      {
+        "hex": "#676F7A",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF4E17",
+        "role": "cta"
+      },
+      {
+        "hex": "#0500FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#E27625",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are used for primary titles, with smaller, lighter sans-serif text for body copy and labels.",
+    "radius": "subtle \u2014 consistent subtle rounding on buttons, cards, and input fields.",
+    "spacing": "airy \u2014 generous vertical spacing between sections, with balanced padding within content blocks."
+  },
+  "standout": "The site's distinctive use of a deep black background combined with a dynamic, abstract glowing grid animation in the hero creates a sophisticated and cutting-edge feel. This high-contrast, animated aesthetic immediately communicates a tech-forward and innovative brand identity, moving beyond typical static hero images.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie"
+  ],
+  "status": "proposed"
+}
