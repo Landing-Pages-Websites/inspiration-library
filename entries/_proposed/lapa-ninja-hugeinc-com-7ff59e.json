@@ -1,0 +1,100 @@
+{
+  "id": "lapa-ninja-hugeinc-com-7ff59e",
+  "source": {
+    "url": "https://www.hugeinc.com",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-09-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-hugeinc-com-7ff59e.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-hugeinc-com-7ff59e__scroll0.webp",
+      "shots/_proposed/lapa-ninja-hugeinc-com-7ff59e__scroll1.webp",
+      "shots/_proposed/lapa-ninja-hugeinc-com-7ff59e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "design-agency",
+      "creative-services"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The oversized hero element (a large pink 'H') scales down significantly and repositions to the top-right corner of the viewport as the user scrolls, becoming a persistent, subtle brand mark."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero text dynamically changes from 'Hello.' to 'Bye.' as the user scrolls past the initial hero section."
+    },
+    {
+      "kind": "layout",
+      "note": "The site uses a dark mode aesthetic with a predominantly black background and high-contrast white typography, punctuated by a single vibrant accent color."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are characterized by extremely large, bold, and modern sans-serif typography, creating strong visual impact and hierarchy."
+    },
+    {
+      "kind": "section",
+      "note": "The 'Our work' section features a dynamic, masonry-like grid of case study previews, each with an image and concise text, that appears to reveal on scroll."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a video-hero element that animates a large 3D object (the 'H') and text. On scroll, the 3D object scales down and translates to a fixed position in the top-right, while the hero text transitions to a different phrase. Subsequent content sections reveal with a subtle fade-in or slide-up effect as they enter the viewport, creating a sense of progressive disclosure.",
+    "A sticky navigation bar maintains its initial appearance and position at the top of the viewport after the initial scroll, providing consistent access to site navigation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF0090",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F4EE",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold hero text (~5-6x body) with subsequent headings maintaining a strong, impactful presence, decreasing in size but retaining a heavy weight.",
+    "radius": "sharp corners throughout, with no visible rounded elements.",
+    "spacing": "airy in the hero and main section titles, creating significant breathing room, transitioning to a more balanced density within content blocks and grids."
+  },
+  "standout": "The site's most distinctive feature is the highly interactive and playful hero animation, where a large 3D brand element dynamically shrinks and repositions on scroll, accompanied by a clever text transition from 'Hello.' to 'Bye.', transforming the initial scroll into a memorable brand interaction.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

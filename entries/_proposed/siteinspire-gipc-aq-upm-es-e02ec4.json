@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-gipc-aq-upm-es-e02ec4",
+  "source": {
+    "url": "https://gipc.aq.upm.es",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-01"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-gipc-aq-upm-es-e02ec4.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-gipc-aq-upm-es-e02ec4__scroll0.webp",
+      "shots/_proposed/siteinspire-gipc-aq-upm-es-e02ec4__scroll1.webp",
+      "shots/_proposed/siteinspire-gipc-aq-upm-es-e02ec4__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://gipc.aq.upm.es/proyectos/tourrail",
+        "full": "shots/_proposed/siteinspire-gipc-aq-upm-es-e02ec4__p2.webp"
+      },
+      {
+        "url": "https://gipc.aq.upm.es/proyectos/heritagescapes",
+        "full": "shots/_proposed/siteinspire-gipc-aq-upm-es-e02ec4__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "research",
+      "academic",
+      "design",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Main content sections utilize a two-column split layout, typically with a large image on the left and a prominent title and description on the right, occupying nearly the full viewport height."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a very large, bold, sans-serif typeface, creating a strong editorial presence, often in all caps for emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "The primary UI palette is monochrome, relying on stark black and white contrast with subtle gray tones for backgrounds and secondary elements, allowing content images to introduce color."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, entire content blocks (projects or sections) are replaced vertically, sliding in or out to reveal the next full-screen content piece, while the top navigation remains sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Individual projects or content items are presented as distinct, full-viewport sections, creating a sequential, gallery-like browsing experience."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains fixed at the top of the viewport during scroll. Main content is structured into full-height sections that replace each other vertically as the user scrolls, creating a 'vertical slider' effect. This content replacement is likely managed by a JavaScript library like Swiper, transitioning between distinct content blocks rather than a continuous scroll. Each content block typically features a large visual element alongside prominent textual information."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#c4c4c4",
+        "role": "surface"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) dominate each section, paired with smaller, legible sans-serif body text for details.",
+    "radius": "sharp",
+    "spacing": "airy, with generous whitespace around content blocks and within the two-column layouts, emphasizing individual elements."
+  },
+  "standout": "The site's distinctive design lies in its bold, editorial typography and the unique vertical content replacement mechanism, which transforms scrolling into a sequential, full-screen presentation of individual projects. This creates an immersive, gallery-like experience that feels more like flipping through a digital exhibition than browsing a traditional website.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
