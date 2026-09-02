@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-wearedirect-co-34e577",
+  "source": {
+    "url": "https://wearedirect.co",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-wearedirect-co-34e577.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-wearedirect-co-34e577__scroll0.webp",
+      "shots/_proposed/siteinspire-wearedirect-co-34e577__scroll1.webp",
+      "shots/_proposed/siteinspire-wearedirect-co-34e577__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://wearedirect.co/work.html",
+        "full": "shots/_proposed/siteinspire-wearedirect-co-34e577__p2.webp"
+      },
+      {
+        "url": "https://wearedirect.co/agency.html",
+        "full": "shots/_proposed/siteinspire-wearedirect-co-34e577__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "design-agency",
+      "digital-services"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, often pairing a large, illustrative graphic on one side with concise text content on the other, creating dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "A high-contrast typographic system uses extremely bold, wide sans-serif headings for impact, paired with a monospaced font for body text, labels, and subheadings, often in uppercase, to convey a technical yet editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a vibrant, high-contrast color palette dominated by black, white, and a distinctive bright yellow, accented by electric blue and green, creating a bold and energetic visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, illustrative traffic light graphic that appears to parallax or scroll at a slower rate, allowing text content to scroll over it. Content sections below the hero reveal with a subtle fade-in and slight upward slide as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The 'traffic light' and road sign motif is a recurring visual anchor, used prominently in the hero, as section dividers, and integrated into various page layouts across the site."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header bar transitions from a transparent background to a solid black background with white text and a yellow call-to-action button after the user scrolls past the initial hero section.",
+    "The main hero illustration is implemented with a subtle parallax or fixed background effect, where the foreground text content scrolls independently over the slower-moving or static background image.",
+    "Scroll-triggered animations, likely using GSAP, are applied to content sections, causing them to fade in and translate slightly upwards as they become visible in the viewport, creating a dynamic reveal effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#fed76a",
+        "role": "accent"
+      },
+      {
+        "hex": "#4c88ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#2ccc5a",
+        "role": "accent"
+      },
+      {
+        "hex": "#e3e3e3",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue LT Pro",
+        "role": "heading"
+      },
+      {
+        "family": "Chivo Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) with smaller, monospaced body text and uppercase labels, creating a strong visual hierarchy.",
+    "radius": "sharp",
+    "spacing": "balanced \u2014 sections are clearly delineated with ample vertical space, and content within sections is well-spaced for readability."
+  },
+  "standout": "The site's distinctive use of the 'traffic light' and road sign motif as a consistent visual metaphor across the entire experience is highly unique. This playful yet structured imagery, combined with a bold, high-contrast color palette, gives the brand a memorable and unconventional identity that stands apart from generic agency sites.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
