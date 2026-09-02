@@ -1,0 +1,112 @@
+{
+  "id": "lapa-ninja-2026-1347",
+  "source": {
+    "url": "https://www.hyperbolic.ai/",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1347.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1347__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1347__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/lapa-ninja-2026-1347__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "ai",
+      "cloud-computing",
+      "developer-tools"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout with a large, left-aligned text block and a prominent, right-aligned illustrative graphic."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, high-contrast sans-serif headings dominate the hero section, creating a strong visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "A clean, near-monochromatic base of light gray and black is accented by a vibrant, multi-color rainbow gradient and a distinct purple for primary calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent overlay with white text/logo to an opaque bar with a light background and dark logo/text upon scrolling down the page. A rainbow gradient bar remains fixed at the very top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A dedicated 'Trusted By' section immediately follows the hero, presenting a grid of partner logos with a minimal, clean aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that changes its background, text color, and logo color/variant on scroll past a certain threshold, while a fixed rainbow gradient bar remains at the absolute top of the viewport.",
+    "Create a dynamic 3D wireframe object using a canvas library and animate its properties (e.g., rotation, subtle pulsing) potentially with GSAP, positioning it as a large, illustrative element in the hero section.",
+    "Utilize a single sans-serif font family with extreme weight variations for a strong typographic hierarchy, featuring very large, bold headings and clear, readable body text, with uppercase used for navigation and some labels."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eeeeee",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#5b25d4",
+        "role": "cta"
+      },
+      {
+        "hex": "#1155cc",
+        "role": "link"
+      },
+      {
+        "hex": "#4f86c6",
+        "role": "secondary-link"
+      },
+      {
+        "hex": "#abb2bf",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~4-5x body text size) with clear, readable body text and uppercase navigation.",
+    "radius": "Subtle rounding on buttons and input fields (e.g., 4-8px).",
+    "spacing": "Balanced overall, with an airy hero section and consistent vertical rhythm for content blocks."
+  },
+  "standout": "The combination of the striking, large-scale 3D wireframe graphic in the hero, the bold, almost brutalist typography, and the subtle yet ever-present rainbow gradient bar creates a distinctive high-tech, sophisticated, and slightly playful aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

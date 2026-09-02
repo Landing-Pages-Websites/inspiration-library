@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-2026-0264",
+  "source": {
+    "url": "https://waabi.ai",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0264.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0264__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0264__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0264__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://waabi.ai/safety",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0264__p2.webp"
+      },
+      {
+        "url": "https://waabi.ai/insights",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0264__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "logistics",
+      "autonomous-vehicles",
+      "technology"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks and image grids are used to create dynamic, non-linear compositions, often with text aligned to one side and imagery filling the remaining space."
+    },
+    {
+      "kind": "type",
+      "note": "Headings feature extremely large, bold sans-serif typography, often stacked, creating a strong visual hierarchy and impact, contrasted with smaller, highly legible body text."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant hot pink serves as a primary accent color, strategically applied to call-to-action buttons, interactive elements, and the distinct full-bleed footer, providing visual energy against a largely neutral palette of off-whites and dark greys."
+    },
+    {
+      "kind": "motion",
+      "note": "A complex image grid below the hero section animates in a staggered, floating, or sliding manner as the user scrolls, revealing individual images with a sense of depth and dynamic interaction."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial transparent header transforms into a compact, sticky navigation bar with a solid white background and condensed logo upon scrolling down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed hero sections utilize high-quality video or photography with large, high-contrast typography overlaid, establishing a premium and immersive visual experience."
+    }
+  ],
+  "technique_notes": [
+    "Full-bleed hero sections utilize video or high-quality photography with large, high-contrast typography overlaid, often with a subtle parallax effect on scroll.",
+    "A dynamic sticky header is implemented using CSS transitions, transitioning from a transparent overlay to a solid background with a condensed logo and navigation upon scroll.",
+    "Scroll-triggered animations, likely using `css-keyframes` and potentially `canvas` for more intricate interactions, reveal content sections and individual elements with staggered fade-up and subtle slide-in effects as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#171717",
+        "role": "text"
+      },
+      {
+        "hex": "#DEDCD9",
+        "role": "surface"
+      },
+      {
+        "hex": "#F7006B",
+        "role": "accent"
+      },
+      {
+        "hex": "#E5E7EB",
+        "role": "surface"
+      },
+      {
+        "hex": "#101828",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Zagma",
+        "role": "heading"
+      },
+      {
+        "family": "NeueHaas",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body text) create strong visual impact, complemented by smaller, legible body text and uppercase labels for hierarchy.",
+    "radius": "Subtle rounding on buttons and card edges, otherwise sharp corners for most elements.",
+    "spacing": "Balanced to airy, with generous vertical spacing between sections and within content blocks, creating a sense of openness."
+  },
+  "standout": "The site distinguishes itself with a sophisticated blend of large-scale, high-quality imagery and video, combined with bold, impactful typography and a striking hot pink accent color. The complex, staggered image reveal animations and the dynamic sticky header create a premium, interactive experience that goes beyond typical static marketing sites, effectively conveying innovation and authority.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

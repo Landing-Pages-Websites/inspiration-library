@@ -1,0 +1,102 @@
+{
+  "id": "siteinspire-2026-0261",
+  "source": {
+    "url": "https://www.pasqua.it",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0261.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0261__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0261__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0261__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "wine",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a full-bleed, immersive hero image that dominates the viewport, with all primary content (brand name, title, CTA) centrally aligned over it."
+    },
+    {
+      "kind": "type",
+      "note": "The main brand and title text uses an oversized, elegant serif font with generous letter-spacing, creating a luxurious and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette derived directly from the hero image (a classical painting) is used for text and interactive elements, maintaining visual harmony."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'START THE EXPERIENCE' call-to-action button appears with a delayed fade-in animation after the initial page load. No scroll-triggered motion, parallax, or sticky elements are observed in the provided scroll sequence."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed, painterly image as its background, with a subtle, semi-transparent dark overlay applied to enhance the legibility of the overlaid light-colored text.",
+    "Main titles are rendered in a very large, elegant serif typeface, centrally positioned, to establish a grand and inviting presence. The call-to-action uses a smaller, uppercase sans-serif font.",
+    "The primary call-to-action button is introduced with a timed, subtle animation (likely a CSS keyframe fade-in or slide-up) that triggers after the page has loaded, drawing attention to the next step."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#4a5464",
+        "role": "text"
+      },
+      {
+        "hex": "#d6d7db",
+        "role": "text"
+      },
+      {
+        "hex": "#938550",
+        "role": "cta"
+      },
+      {
+        "hex": "#bbbbad",
+        "role": "surface"
+      },
+      {
+        "hex": "#161615",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Wulkan Display",
+        "role": "display"
+      },
+      {
+        "family": "Acid Grotesk",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant serif headings (~3-4x body) with small, uppercase sans-serif labels for calls-to-action.",
+    "radius": "subtle rounded corners on the call-to-action button, otherwise sharp.",
+    "spacing": "airy, with generous vertical spacing around centered hero elements."
+  },
+  "standout": "The site's distinctive use of a classical painting as a full-bleed hero image, combined with elegant, oversized typography, creates an immediate sense of luxury and artistry. It prioritizes emotional immersion and brand storytelling over direct information, inviting users to 'start the experience' rather than browse a typical product page.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

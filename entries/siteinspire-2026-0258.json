@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-2026-0258",
+  "source": {
+    "url": "https://liftfoils.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0258.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0258__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0258__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0258__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://liftfoils.com/contact",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0258__p2.webp"
+      },
+      {
+        "url": "https://liftfoils.com/shipping",
+        "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0258__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "sports",
+      "water-sports",
+      "luxury-goods"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with content consistently constrained to a central maximum-width container, creating a clean and organized presentation."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large, sans-serif headings, often in all caps, are used for impact, contrasting with smaller, legible sans-serif body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is dominant, accented by a distinctive vibrant teal for calls to action and key highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight vertical slide-up animation as they enter the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "section",
+      "note": "Immersive hero sections feature full-bleed video or high-quality photography with a dark overlay, ensuring legibility for overlaid white text and calls to action."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header system where both a top announcement bar and the main navigation remain fixed at the top of the viewport after initial scroll, providing persistent access to key information and navigation.",
+    "Create full-width hero sections using a video background with a semi-transparent dark overlay to ensure text contrast, positioning large, bold text and prominent call-to-action buttons centrally.",
+    "Utilize JavaScript (e.g., Intersection Observer API or a library like GSAP ScrollTrigger) to trigger CSS keyframe animations, applying a fade-in and subtle upward translation effect to content blocks as they become visible within the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#36b7b2",
+        "role": "accent"
+      },
+      {
+        "hex": "#dcdce6",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Bold, large sans-serif headings (up to ~4-5x body text) with smaller, often uppercase, supporting labels, paired with a clean, readable sans-serif for body copy.",
+    "radius": "Subtle; buttons and input fields have a slight border-radius (e.g., 4-8px), while most other elements maintain sharp corners.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while product grids maintain a tighter, organized density."
+  },
+  "standout": "This site stands out by effectively leveraging high-quality, aspirational video and photography of its niche product (eFoils) to create an immersive and desirable brand experience. The consistent use of a vibrant teal accent color against a clean black and white palette, combined with bold typography, reinforces a sense of adventure and premium quality, making the product feel both innovative and luxurious.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "approved"
+}
