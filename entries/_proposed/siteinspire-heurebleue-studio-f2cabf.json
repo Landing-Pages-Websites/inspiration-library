@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-heurebleue-studio-f2cabf",
+  "source": {
+    "url": "https://heurebleue.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-heurebleue-studio-f2cabf.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-heurebleue-studio-f2cabf__scroll0.webp",
+      "shots/_proposed/siteinspire-heurebleue-studio-f2cabf__scroll1.webp",
+      "shots/_proposed/siteinspire-heurebleue-studio-f2cabf__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://heurebleue.studio/studio",
+        "full": "shots/_proposed/siteinspire-heurebleue-studio-f2cabf__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "photography",
+      "luxury-marketing"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections are defined by full-bleed background color changes, creating distinct visual blocks that transition on scroll."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, high-contrast serif typography is used for primary section headings, creating a strong editorial and luxurious feel."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a limited, high-impact color palette of vibrant blue, light neutral grey, and stark black/white for dramatic contrast between sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms on scroll, shrinking slightly and changing its background and text colors to adapt to the underlying section's color scheme."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed sequentially with a full-screen background color transition as the user scrolls, rather than elements fading or sliding in individually."
+    }
+  ],
+  "technique_notes": [
+    "The hero features a full-bleed video background with large, white text overlaid, establishing an immediate immersive experience.",
+    "A sticky header navigation dynamically adjusts its size, background color, and text color based on the scroll position, ensuring readability against changing section backgrounds.",
+    "Scroll-triggered section transitions are implemented by replacing the entire viewport background with a new solid color, revealing large typographic statements as the primary content for each new section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#e1dddb",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#2C3E50",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "icon"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, elegant serif headings (~4-5x body text) with high contrast, paired with a clean, legible sans-serif for body and navigation.",
+    "radius": "sharp, with no visible rounded corners on any elements.",
+    "spacing": "airy, particularly in hero and main typographic sections, creating a sense of grandeur and allowing content to breathe; content grids are more balanced."
+  },
+  "standout": "This site's design is distinctive for its bold and dramatic use of full-screen color transitions as the primary method of sectioning content, combined with oversized, elegant typography that acts as the focal point for each reveal. The transforming sticky navigation seamlessly adapts to these stark background changes, creating a highly curated and editorial user experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

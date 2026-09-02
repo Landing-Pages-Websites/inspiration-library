@@ -1,0 +1,97 @@
+{
+  "id": "siteinspire-alexandratellez-com-26d6c5",
+  "source": {
+    "url": "https://alexandratellez.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-02"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-alexandratellez-com-26d6c5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-alexandratellez-com-26d6c5__scroll0.webp",
+      "shots/_proposed/siteinspire-alexandratellez-com-26d6c5__scroll1.webp",
+      "shots/_proposed/siteinspire-alexandratellez-com-26d6c5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://alexandratellez.com/kane",
+        "full": "shots/_proposed/siteinspire-alexandratellez-com-26d6c5__p2.webp"
+      },
+      {
+        "url": "https://alexandratellez.com/yahoo",
+        "full": "shots/_proposed/siteinspire-alexandratellez-com-26d6c5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "video-production",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Each primary content section (project hero) occupies the full viewport, creating an immersive, scroll-snapping experience that transitions between different projects."
+    },
+    {
+      "kind": "motion",
+      "note": "Scrolling triggers a full-screen transition between different project hero videos or images, effectively acting as the primary navigation through the portfolio's main reel."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely minimalist typography, using a single small sans-serif font for all navigation, project titles, and meta information, maintaining a flat hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white UI palette provides high contrast against the rich, full-bleed media content, ensuring text readability without competing with the visuals."
+    },
+    {
+      "kind": "section",
+      "note": "Project detail pages feature a prominent video player or large image at the top, followed by a grid of smaller supporting images and detailed text credits below."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-page scroll or scroll-snapping mechanism to transition between different full-bleed video or image project heroes. Each hero fills the viewport, creating an immersive, sequential viewing experience, leveraging the 'video-hero' animation tech for dynamic content. Project detail pages then present a standard video player with accompanying text and a grid of image thumbnails.",
+    "Navigation and meta-information are presented in a minimalist, fixed overlay, using small, unobtrusive text that maintains readability against varying video backgrounds without distracting from the primary media."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "minimalist and flat; all text (navigation, project titles, meta info) is consistently small, sans-serif, and lacks prominent headings, emphasizing the visual content.",
+    "radius": "sharp",
+    "spacing": "airy; content is full-bleed with minimal text elements positioned at the viewport edges, creating a sense of spaciousness around the media."
+  },
+  "standout": "The site's most distinctive feature is its immersive, full-screen, scroll-driven video portfolio experience. Instead of a traditional grid or list, the homepage acts as an interactive reel, where each scroll reveals a new project's hero video, making the content itself the primary interface and navigation.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
