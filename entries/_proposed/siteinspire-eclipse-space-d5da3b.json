@@ -1,0 +1,123 @@
+{
+  "id": "siteinspire-eclipse-space-d5da3b",
+  "source": {
+    "url": "https://www.eclipse.space",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-eclipse-space-d5da3b.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-eclipse-space-d5da3b__scroll0.webp",
+      "shots/_proposed/siteinspire-eclipse-space-d5da3b__scroll1.webp",
+      "shots/_proposed/siteinspire-eclipse-space-d5da3b__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.eclipse.space/about",
+        "full": "shots/_proposed/siteinspire-eclipse-space-d5da3b__p2.webp"
+      },
+      {
+        "url": "https://www.eclipse.space/contact",
+        "full": "shots/_proposed/siteinspire-eclipse-space-d5da3b__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "aerospace",
+      "space-tech",
+      "infrastructure"
+    ],
+    "mood": [
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks where large imagery or full-bleed backgrounds dominate one side, balanced by concise text on the other, creating dynamic visual tension."
+    },
+    {
+      "kind": "type",
+      "note": "Monumental, multi-line display typography that serves as a primary visual element, animating into view to deliver key brand statements with significant impact."
+    },
+    {
+      "kind": "color",
+      "note": "Dramatic, full-page background color and image transitions that smoothly shift from deep space black to bright white, subtle green gradients, and rich landscape photography to delineate major content sections."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered text reveals where large, bold phrases appear in a staggered, sequential manner as the user scrolls down the page, creating a cinematic narrative flow."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-page background transitions that smoothly morph between distinct visual themes (e.g., space, white void, landscape) as the user scrolls, enhancing section separation and visual storytelling."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation system (likely GSAP ScrollTrigger, given the hint) to orchestrate full-page background changes and sequential, staggered reveals of large, impactful text elements as they enter the viewport. The hero section likely uses a video or canvas animation that transitions out on scroll.",
+    "Sections are designed with full-bleed background images or colors, often with content aligned to a central grid but allowing visual elements to break out to create visual interest and depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1b1f",
+        "role": "background"
+      },
+      {
+        "hex": "#dfdfdf",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#505379",
+        "role": "accent"
+      },
+      {
+        "hex": "#5a7cc5",
+        "role": "accent"
+      },
+      {
+        "hex": "#586698",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, heavy display headings (~4-5x body text) create strong visual statements, contrasted with smaller, legible sans-serif for body and navigation.",
+    "radius": "Sharp corners throughout for buttons, input fields, and image containers.",
+    "spacing": "Airy vertical spacing between major sections, with balanced padding within content blocks. The large text sections use very generous line height and letter spacing."
+  },
+  "standout": "The site's distinctive use of monumental, scroll-triggered typography that animates into view, combined with dramatic full-page background transitions, creates a highly cinematic and immersive experience. The design effectively uses these elements to build a sense of scale and technological sophistication.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

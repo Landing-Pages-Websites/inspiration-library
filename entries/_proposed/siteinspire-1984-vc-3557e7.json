@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-1984-vc-3557e7",
+  "source": {
+    "url": "https://1984.vc",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-1984-vc-3557e7.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-1984-vc-3557e7__scroll0.webp",
+      "shots/_proposed/siteinspire-1984-vc-3557e7__scroll1.webp",
+      "shots/_proposed/siteinspire-1984-vc-3557e7__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://1984.vc/portfolio/devtools",
+        "full": "shots/_proposed/siteinspire-1984-vc-3557e7__p2.webp"
+      },
+      {
+        "url": "https://1984.vc/portfolio/vertical-ai",
+        "full": "shots/_proposed/siteinspire-1984-vc-3557e7__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "finance",
+      "venture-capital",
+      "artificial-intelligence"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use a two-column grid with asymmetrical widths, often pairing a large image or graphic with a text block, creating dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "A strong contrast between oversized, authoritative serif headings and quotes, and a clean, legible sans-serif for body text and navigation, establishes a sophisticated yet modern voice."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a predominantly neutral palette of light grey, black, and white, punctuated by large, bold blocks of neon yellow and deep purple as primary accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar remains sticky at the top of the viewport as the user scrolls down the page, providing persistent access to key sections."
+    },
+    {
+      "kind": "section",
+      "note": "Large, full-width testimonial sections feature a prominent, centrally aligned quote in a large serif font, accompanied by a portrait and attribution."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header element is used to keep the main navigation persistently visible at the top of the screen during scroll.",
+    "Content is structured using flexible grid layouts that allow for varied column proportions, often presenting images and text in an offset or asymmetrical arrangement.",
+    "Specific sections or interior pages feature complex, generative background graphics, such as grid patterns or abstract ASCII-art like designs, which are likely rendered dynamically using a canvas element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d9d9d9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9FF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#5C008C",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~3-4x body) and quotes contrast with a clean, smaller sans-serif for body text and uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous vertical spacing between major sections, with balanced density within content blocks."
+  },
+  "standout": "The site's distinctive design lies in its bold, almost brutalist application of neon accent colors (yellow and purple) in large, interactive blocks, set against a minimal, editorial-style layout. This unexpected combination creates a high-contrast, modern yet authoritative aesthetic that feels both sophisticated and visually striking.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

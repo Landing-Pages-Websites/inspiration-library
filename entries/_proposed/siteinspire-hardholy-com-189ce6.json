@@ -1,0 +1,99 @@
+{
+  "id": "siteinspire-hardholy-com-189ce6",
+  "source": {
+    "url": "https://www.hardholy.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-03"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-hardholy-com-189ce6.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-hardholy-com-189ce6__scroll0.webp",
+      "shots/_proposed/siteinspire-hardholy-com-189ce6__scroll1.webp",
+      "shots/_proposed/siteinspire-hardholy-com-189ce6__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a full-screen section-based layout, where each scroll transition reveals a new, distinct visual composition, often with large, asymmetrical imagery and generous negative space."
+    },
+    {
+      "kind": "type",
+      "note": "A highly stylized script font is used exclusively for the brand logo, contrasting with a clean, modern sans-serif for all body text and headings, creating a sophisticated typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette dominates, featuring a warm off-white background, deep charcoal text, and occasional accents of rust orange or soft grey in abstract imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, entire full-screen sections smoothly transition, replacing the previous content with a new visual composition. Elements within these sections, like the brand logo, also appear and disappear or change scale during these transitions."
+    },
+    {
+      "kind": "section",
+      "note": "Each primary content block functions as a full-viewport section, designed as a complete visual statement that replaces the previous one upon scrolling, rather than stacking vertically."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling library (likely locomotive-scroll) to create a series of full-screen, sequential section transitions. As the user scrolls, the current section slides out of view, and the next section slides in, often with elements within the sections animating or transforming (e.g., logo scaling, images appearing) as they enter or exit the viewport.",
+    "Content is presented with a strong emphasis on negative space, often featuring large, full-bleed images or abstract compositions that occupy significant portions of the screen, balanced by carefully placed, narrow text blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F7F2",
+        "role": "background"
+      },
+      {
+        "hex": "#2C2C2C",
+        "role": "text"
+      },
+      {
+        "hex": "#C75C3B",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display SC",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are moderately larger than body text, with the brand logo using a distinctive, elegant script font that stands apart from the clean sans-serif body.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 very generous use of whitespace, particularly in hero and section transitions, creating a gallery-like feel."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, full-screen section transitions, which feel less like traditional scrolling and more like flipping through a curated art book. This, combined with the abstract, artistic imagery and minimalist typography, creates a highly immersive and editorial experience.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}
