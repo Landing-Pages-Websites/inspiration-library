@@ -1,0 +1,103 @@
+{
+  "id": "one-page-love-nodeck-online-bf0303",
+  "source": {
+    "url": "https://www.nodeck.online",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-nodeck-online-bf0303.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-nodeck-online-bf0303__scroll0.webp",
+      "shots/_proposed/one-page-love-nodeck-online-bf0303__scroll1.webp",
+      "shots/_proposed/one-page-love-nodeck-online-bf0303__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "consulting",
+      "startup-consulting",
+      "presentation-design"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site is structured as a full-screen, centered content presentation, where each 'scroll depth' acts as a distinct slide rather than a continuous scrollable page."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of an extremely bold, cartoonish, outlined display typeface for main statements and the logo, contrasting sharply with a simple, small sans-serif for supporting text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, vibrant color palette featuring a bright pink and a muted beige as primary backgrounds, with stark black and white for text, and a bright yellow for accents and highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Page transitions are slide-based, where the entire screen content and background color change with each navigation step, rather than elements revealing on scroll. Navigation elements and the main logo may animate in/out or persist across these full-screen transitions."
+    },
+    {
+      "kind": "section",
+      "note": "Each 'slide' functions as a self-contained section, presenting a single, impactful statement or idea, mimicking a digital presentation deck rather than a traditional web page flow."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen, slide-based navigation system, where user interaction (simulated by 'scroll' in the sequence) triggers a complete transition to a new page or 'slide'. This involves animating the entire content out and new content in, often accompanied by a background color change. Elements like the main logo and navigation controls may persist or animate in/out with these slide transitions, likely orchestrated using GSAP for precise timing and Swiper for managing the slide transitions."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff87ab",
+        "role": "background"
+      },
+      {
+        "hex": "#f3e6d6",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-fill"
+      },
+      {
+        "hex": "#def915",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Bangers",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, outlined display headings (~8x body) with small, understated sans-serif supporting text and labels.",
+    "radius": "Subtle for interactive elements like buttons, but predominantly sharp for text and overall design elements.",
+    "spacing": "Very airy, with content centrally aligned and ample negative space around large text elements, creating a focused, presentation-like feel."
+  },
+  "standout": "The site's most distinctive feature is its complete departure from traditional web scrolling, adopting a full-screen, slide-based presentation format. This, combined with the extremely bold, outlined typography and high-contrast, playful color palette, makes it feel less like a website and more like an interactive, branded pitch deck.",
+  "animation_tech": [
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}

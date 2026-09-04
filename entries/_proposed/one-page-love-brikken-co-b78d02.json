@@ -1,0 +1,105 @@
+{
+  "id": "one-page-love-brikken-co-b78d02",
+  "source": {
+    "url": "https://www.brikken.co",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-brikken-co-b78d02.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-brikken-co-b78d02__scroll0.webp",
+      "shots/_proposed/one-page-love-brikken-co-b78d02__scroll1.webp",
+      "shots/_proposed/one-page-love-brikken-co-b78d02__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "digital-agency"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero layout featuring a large, dynamic graphic element positioned centrally, balanced by a concise text block and CTA on the left."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating full-bleed sections with high-contrast light and dark backgrounds are used to clearly segment content and create visual rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif typography is used for primary headings, creating strong visual impact and clear hierarchy against a minimal background."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme relies on an off-white background, pure black text and dark sections, and a vibrant electric blue for accents and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The abstract 3D graphic in the hero section undergoes a multi-stage transformation and color gradient shift, synchronized with the user's scroll depth."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal themselves with a subtle fade-in and slight upward slide animation as they enter the viewport during scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a complex, scroll-driven animation where a 3D-rendered object transforms its shape and color gradient, likely achieved using a Lottie animation or a custom WebGL/JavaScript animation library synchronized with scroll position.",
+    "Content sections throughout the page are revealed using a subtle scroll-triggered animation, typically a fade-in combined with a slight upward translation, giving a dynamic feel as the user explores the page.",
+    "The site employs full-bleed sections with alternating light and dark backgrounds to segment content, using high contrast text colors for readability on each background."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eeece9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#0009f2",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings provide strong visual anchors, contrasted with smaller, legible body text and uppercase labels for secondary information.",
+    "radius": "Predominantly sharp corners for structural elements and content blocks, with subtle rounding on interactive elements like buttons and some image containers.",
+    "spacing": "Generally airy, especially in the hero and between major content sections, creating a sense of spaciousness and allowing elements to breathe."
+  },
+  "standout": "The most distinctive feature is the dynamic, scroll-driven transformation of the abstract 3D graphic in the hero section, which acts as a visual metaphor for building or transformation. This, combined with the bold, high-contrast typography and color palette, creates a very modern and impactful brand presence.",
+  "animation_tech": [
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
