@@ -1,0 +1,91 @@
+{
+  "id": "one-page-love-2026-0170",
+  "source": {
+    "url": "https://honest.fi",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0170.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0170__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0170__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0170__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "portfolio",
+      "design"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A full-bleed background image or video sequence dramatically changes its entire visual theme based on scroll depth, transitioning between distinct narrative scenes."
+    },
+    {
+      "kind": "layout",
+      "note": "A minimal, fixed header and footer frame a central, vertically scrolling list of project titles, which overlays a dynamic, full-bleed background."
+    },
+    {
+      "kind": "type",
+      "note": "Project titles are presented as a vertically stacked, centered list using a large, elegant serif font, creating a strong visual hierarchy against the atmospheric background."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered background effect where the entire full-bleed background visual transitions between distinct scenes or video segments as the user scrolls down the page, creating a narrative progression. Text content scrolls independently over this dynamic background, while a minimal header and footer remain fixed in the viewport.",
+    "The detected 'video-hero' tech suggests the background changes are likely achieved by playing different video segments or scrubbing through a single video based on scroll position, or by swapping out large background images/sections to create a cinematic effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#1A2B3D",
+        "role": "background"
+      },
+      {
+        "hex": "#D0D0D0",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~2x body) are stacked vertically, contrasted with smaller, clean sans-serif for meta information.",
+    "radius": "Sharp; no visible rounded corners on any elements.",
+    "spacing": "Airy; content is centrally aligned with generous vertical spacing between project titles, creating a calm and focused presentation."
+  },
+  "standout": "The most distinctive feature is the dramatic, scroll-triggered background transformation, which shifts between entirely different visual narratives (e.g., abstract art to cinematic scenes) while the text content scrolls over it. This creates a highly immersive and atmospheric portfolio experience that feels more like an interactive film than a traditional website.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "one-page-love-2026-0175",
+  "source": {
+    "url": "https://ohhmydesign.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0175.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0175__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0175__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0175__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with a central, contained content column, often using contrasting background colors or textures to visually separate distinct content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme typographic contrast is used, pairing a very large, bold, and condensed display font for impactful statements with more conventional, legible sans-serifs for body text and subheadings, and a monospace font for small labels."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of deep blue, vibrant orange, and white is consistently applied across backgrounds, text, and interactive elements, creating a high-contrast and energetic visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with scroll-triggered animations, typically fading or sliding upwards into view as they enter the viewport, while the hero background features a subtle parallax effect with moving clouds."
+    },
+    {
+      "kind": "section",
+      "note": "Distinctive full-bleed background transitions are used, such as the animated sky hero giving way to solid dark sections, and a dramatic, oversized logo reveal in the footer."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a canvas or video element to render an animated sky background with parallaxing clouds, creating a sense of depth as the user scrolls. This is combined with CSS keyframes for subtle motion effects.",
+    "Content sections throughout the page are revealed using scroll-triggered animations, likely employing CSS transitions or keyframes to make elements fade in or slide up as they enter the viewport.",
+    "The primary navigation bar employs a sticky positioning technique, remaining fixed at the top of the viewport during initial scrolling, then transitioning out to reveal the full-page footer at the bottom."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#0d99ff",
+        "role": "background"
+      },
+      {
+        "hex": "#14202b",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      },
+      {
+        "hex": "#f0531c",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#2e7fc2",
+        "role": "secondary-background"
+      },
+      {
+        "hex": "#e4a11b",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Bricolage Grotesque",
+        "role": "display"
+      },
+      {
+        "family": "Archivo",
+        "role": "body"
+      },
+      {
+        "family": "Space Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, condensed, heavy display headings (up to ~5x body text) create strong visual impact, balanced by legible sans-serif body text and smaller mono-spaced labels.",
+    "radius": "Subtle rounding on buttons and cards, with generally sharp corners for larger structural elements.",
+    "spacing": "Balanced overall, with an airy hero section and comfortable padding around content blocks, creating a clear visual hierarchy."
+  },
+  "standout": "The site's distinctive blend of playful, irreverent copy with a bold, almost brutalist typographic style for key statements, set against a whimsical, animated sky background, creates a memorable and unconventional brand experience. The dramatic, oversized footer reveal is particularly unique.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "approved"
+}

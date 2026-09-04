@@ -1,0 +1,102 @@
+{
+  "id": "one-page-love-2026-0168",
+  "source": {
+    "url": "https://builderstable.net",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0168.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0168__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0168__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0168__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tech",
+      "event",
+      "hackathon"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between dark and light backgrounds, often with full-width content areas and generous vertical padding, creating clear visual breaks."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with very large, bold, uppercase sans-serif headings for dramatic impact, contrasted with smaller, lighter sans-serif for body text and functional labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and light gray is consistently accented by a vibrant, almost neon, lime green used sparingly for CTAs, highlights, and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed with a subtle fade-up or slide-in effect as they enter the viewport, creating a dynamic scroll experience. A persistent, subtle grid pattern in the background moves with a parallax effect."
+    },
+    {
+      "kind": "section",
+      "note": "The initial hero section transitions into a prominent form, followed by distinct sections for team/speaker profiles, a detailed schedule, and an FAQ, each clearly delineated by background color and spacing."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered animations, likely using GSAP ScrollTrigger, are employed to reveal content sections with a subtle fade-up or slide-in effect as they enter the viewport, enhancing engagement.",
+    "A persistent, subtle grid pattern is overlaid on the background, which moves at a slower rate than the foreground content, creating a parallax depth effect.",
+    "The main navigation bar transforms from an initial state within the hero into a compact, sticky header with a solid background and a prominent CTA button once the user scrolls past the hero section."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1c1b1f",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "light-background"
+      },
+      {
+        "hex": "#d9d9d9",
+        "role": "light-gray-surface"
+      },
+      {
+        "hex": "#dafa9c",
+        "role": "accent-cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold, uppercase headings (~4-5x body text) for dramatic impact, with body text and labels in a clear, legible sans-serif.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy and spacious, particularly in hero and section breaks, creating a sense of openness and allowing content to breathe."
+  },
+  "standout": "The distinctive use of a vibrant lime green as the sole accent color against a stark black and white palette, combined with a persistent, subtly animated grid background and oversized, bold typography, gives the site a high-tech, energetic, and modern aesthetic. The site's ability to convey a 'hackathon' vibe through its visual language is particularly strong.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap"
+  ],
+  "status": "approved"
+}

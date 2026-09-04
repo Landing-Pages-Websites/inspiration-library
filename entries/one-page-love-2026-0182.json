@@ -1,0 +1,105 @@
+{
+  "id": "one-page-love-2026-0182",
+  "source": {
+    "url": "https://www.trake.app/about",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0182.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0182__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0182__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/one-page-love-2026-0182__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "music",
+      "software",
+      "creative-tools"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "High-contrast dark mode with vibrant, almost neon, accent colors for interactive elements and visual content, creating a digital aesthetic."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is primarily centered within full-width sections, using generous vertical spacing to create an airy feel between distinct feature blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-up or slide-up animation as they enter the viewport, enhancing engagement. A dynamic audio waveform graphic animates into a sticky header element upon scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Product features and examples are showcased through embedded, animated visualizer previews that transition from static placeholders to vibrant content upon scroll."
+    }
+  ],
+  "technique_notes": [
+    "Scroll-triggered content reveals are used throughout the page, where sections fade or slide into view as the user scrolls down. The hero section's content scrolls out, and a dynamic audio waveform graphic animates from the bottom of the page to become a persistent, sticky header element, likely leveraging WebGL for its visual complexity.",
+    "The site employs a dark theme with high contrast, using a deep black background for all sections. Interactive elements and visual examples feature vibrant, neon-like colors to create a striking digital aesthetic.",
+    "Product examples are presented as interactive or video-based visualizers, likely rendered using WebGL/Three.js, showcasing the dynamic output of the tool directly on the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#DFFF00",
+        "role": "cta"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "accent"
+      },
+      {
+        "hex": "#00FFFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#39FF14",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, legible body text and small, often uppercase labels.",
+    "radius": "Subtle rounding on buttons and card edges, maintaining a modern, soft feel without being fully pill-shaped.",
+    "spacing": "Airy, with generous vertical spacing between major sections and content blocks, creating a sense of openness and clear hierarchy."
+  },
+  "standout": "The site's distinctive use of a deep black background contrasted with vibrant, almost neon, digital-art style visualizers and a dynamic, animated audio waveform that transforms into a sticky header. It creates a highly immersive and modern aesthetic, emphasizing the product's visual output and interactive nature.",
+  "animation_tech": [
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
