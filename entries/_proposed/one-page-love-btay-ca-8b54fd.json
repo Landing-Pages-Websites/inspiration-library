@@ -1,0 +1,112 @@
+{
+  "id": "one-page-love-btay-ca-8b54fd",
+  "source": {
+    "url": "https://www.btay.ca",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-btay-ca-8b54fd.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-btay-ca-8b54fd__scroll0.webp",
+      "shots/_proposed/one-page-love-btay-ca-8b54fd__scroll1.webp",
+      "shots/_proposed/one-page-love-btay-ca-8b54fd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-design",
+      "digital-agency",
+      "creative-services"
+    ],
+    "mood": [
+      "playful",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A single-column, vertically expansive layout with generous spacing between content blocks, creating a narrative scroll experience without distinct section dividers."
+    },
+    {
+      "kind": "type",
+      "note": "Primary headings use a large, bold, rounded sans-serif font, creating a playful and approachable tone, contrasted with smaller, more conventional body text and a distinct monospaced logo."
+    },
+    {
+      "kind": "color",
+      "note": "A dark, almost black background serves as a high-contrast canvas for vibrant, multi-colored 3D elements and light, readable text."
+    },
+    {
+      "kind": "motion",
+      "note": "Playful 3D clay-like objects (e.g., 'FUN' text, cloud, broken pieces) are integrated into the scroll, appearing to stay relatively fixed or parallax slowly against the scrolling 2D text content, creating a sense of depth."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured as a continuous narrative flow, with each 'section' introduced by a large heading, rather than using distinct background changes or hard visual breaks."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed dark background that extends across the entire page. Headings are centered and given ample vertical padding to create a spacious, editorial feel.",
+    "The core visual effect involves integrating realistic 3D objects, such as the 'FUN' text and smaller clay shapes, into the page. These objects are rendered using a 3D library (likely Three.js, as indicated by 'webgl-three') and are positioned to appear as if they are floating or fixed in space, while the 2D text content scrolls over or around them, creating a dynamic depth effect as the user scrolls down the page. This motion is achieved by controlling the 3D scene's camera or object positions relative to the scroll position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "text"
+      },
+      {
+        "hex": "#E53935",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF80AB",
+        "role": "accent"
+      },
+      {
+        "hex": "#64B5F6",
+        "role": "accent"
+      },
+      {
+        "hex": "#C299B8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Cal Sans",
+        "role": "display"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      },
+      {
+        "family": "Cousine",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold, rounded display headings (~3-4x body text) create a playful and impactful hierarchy, with standard body text and small monospaced accents.",
+    "radius": "Rounded corners are subtly applied to content blocks and prominently used for form input fields, giving a soft and approachable character.",
+    "spacing": "Very airy vertical spacing between major content blocks and text lines, creating a relaxed and unhurried reading experience."
+  },
+  "standout": "The most distinctive feature is the playful integration of realistic, tactile 3D clay-like objects that interact with the scrolling text content. This creates a unique sense of depth and nostalgia, making the site feel handcrafted and memorable, rather than a generic digital experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

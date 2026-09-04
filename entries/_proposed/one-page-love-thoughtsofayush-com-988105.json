@@ -1,0 +1,111 @@
+{
+  "id": "one-page-love-thoughtsofayush-com-988105",
+  "source": {
+    "url": "https://www.thoughtsofayush.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-04"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-thoughtsofayush-com-988105.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-thoughtsofayush-com-988105__scroll0.webp",
+      "shots/_proposed/one-page-love-thoughtsofayush-com-988105__scroll1.webp",
+      "shots/_proposed/one-page-love-thoughtsofayush-com-988105__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "product-design",
+      "portfolio",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, immersive video hero section with a central, high-contrast text overlay."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical text blocks combined with varied image grid layouts to create dynamic visual rhythm, particularly in the 'Everyone sees design differently' section."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, large sans-serif headings for section titles, often paired with a contrasting smaller, lighter text or a distinct serif font for descriptive copy."
+    },
+    {
+      "kind": "color",
+      "note": "High contrast between a dark, dramatic hero section and a clean, light off-white background for the main content areas."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, sticky top navigation bar and a small informational banner remain visible throughout the scroll, while content scrolls over a fixed or subtly parallaxing full-bleed video hero."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video is used as a dramatic hero background, with a semi-transparent overlay to ensure text readability. The video remains fixed or subtly parallaxes as the page content scrolls over it, transitioning from the dark hero background to a light content background.",
+    "A top navigation bar, featuring a personal signature logo, and a small informational banner are implemented as sticky elements, maintaining their position at the top of the viewport as the user scrolls down the page.",
+    "Section content is structured using a combination of large, impactful image cards and multi-column grids, with generous vertical spacing to create an airy feel and clear visual separation between content blocks."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "background"
+      },
+      {
+        "hex": "#999999",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#6B4C3A",
+        "role": "hero-accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (up to ~3-4x body size) are paired with a more traditional serif for descriptive hero text and a clean sans-serif for body copy, creating a balanced yet impactful hierarchy.",
+    "radius": "Subtle rounded corners (e.g., on input fields, ~4-8px), otherwise sharp for most elements and images.",
+    "spacing": "Airy, with generous vertical padding between sections and within the hero, creating a sense of spaciousness and allowing content to breathe."
+  },
+  "standout": "The site's distinctive use of a dramatic, full-bleed video hero with a minimalist, high-contrast text overlay immediately sets a sophisticated and personal tone. The integration of a handwritten signature in the sticky navigation further reinforces a unique, artistic brand identity, making the portfolio feel curated and personal rather than a generic template.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
