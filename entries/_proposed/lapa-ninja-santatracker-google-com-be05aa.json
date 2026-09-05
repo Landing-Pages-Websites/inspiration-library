@@ -1,0 +1,105 @@
+{
+  "id": "lapa-ninja-santatracker-google-com-be05aa",
+  "source": {
+    "url": "https://santatracker.google.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-09-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-santatracker-google-com-be05aa.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-santatracker-google-com-be05aa__scroll0.webp",
+      "shots/_proposed/lapa-ninja-santatracker-google-com-be05aa__scroll1.webp",
+      "shots/_proposed/lapa-ninja-santatracker-google-com-be05aa__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "entertainment",
+      "seasonal",
+      "education"
+    ],
+    "mood": [
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The entire page is dominated by a single, full-bleed isometric illustration that serves as the primary visual and interactive interface, with text and CTA overlaid."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, festive color palette is used throughout the detailed illustration, featuring primary reds, blues, and greens, contrasted with white snow and bright accents."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a clean, bold sans-serif for high impact, while descriptive text is lighter and smaller, maintaining a clear hierarchy within the illustrated scene."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, the entire detailed hero illustration is replaced by a solid green background, which then reveals animated characters (Santa and Mrs. Claus) before the original illustration reappears at a deeper scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "The site presents as a single, immersive interactive experience, where the 'homepage' is a dynamic scene rather than a series of distinct content blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a full-bleed, highly detailed isometric illustration as its main content area, with text and interactive elements positioned directly on top. This creates an immersive, game-like environment.",
+    "The scroll-triggered motion involves a complete visual state change: the initial detailed illustration transitions to a solid background with a loading indicator and animated characters, then back to the original illustration. This effect is driven by CSS keyframe animations for the loading elements and character reveals, likely tied to scroll progress or specific scroll thresholds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#87CEEB",
+        "role": "background-sky"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface-snow"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "cta"
+      },
+      {
+        "hex": "#228B22",
+        "role": "background-loading"
+      },
+      {
+        "hex": "#FFC0CB",
+        "role": "accent-cta-highlight"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent-loading-dots"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A large, bold sans-serif heading (~3x body) for the main title, with a smaller, lighter sans-serif for descriptive text, and a distinct medium-bold for CTA buttons.",
+    "radius": "Rounded for interactive elements like the 'Play' button, with subtle rounding on architectural details within the illustration.",
+    "spacing": "Airy, with ample negative space around the central text and CTA, allowing the rich illustration to be the focal point."
+  },
+  "standout": "The site's most distinctive feature is its highly detailed, full-page isometric illustration that functions as the primary interface. It's an immersive, interactive world rather than a static layout, packed with small, engaging elements that invite exploration.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

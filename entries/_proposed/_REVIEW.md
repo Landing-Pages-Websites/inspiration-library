@@ -2,4 +2,6 @@
 
 | slug | url | gallery | scope | mood | industry |
 |------|-----|---------|-------|------|----------|
-| lapa-ninja-github-com-a7714f | https://github.com/features | lapa-ninja | single-page | minimal, bold, editorial | saas, developer-tools, software-development |
+| lapa-ninja-santatracker-google-com-be05aa | https://santatracker.google.com/?ref=lapaninja | lapa-ninja | single-page | playful | entertainment, seasonal, education |
+| siteinspire-khanhnguyen-design-587d34 | https://khanhnguyen.design | siteinspire | multi-page | luxe, editorial, minimal | design, digital-design, portfolio |
+| siteinspire-odysseeclinic-com-au-0c1252 | https://www.odysseeclinic.com.au | siteinspire | multi-page | luxe, editorial, minimal | health, medical-aesthetics, skincare-clinic |

@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-odysseeclinic-com-au-0c1252",
+  "source": {
+    "url": "https://www.odysseeclinic.com.au",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-odysseeclinic-com-au-0c1252.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-odysseeclinic-com-au-0c1252__scroll0.webp",
+      "shots/_proposed/siteinspire-odysseeclinic-com-au-0c1252__scroll1.webp",
+      "shots/_proposed/siteinspire-odysseeclinic-com-au-0c1252__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.odysseeclinic.com.au/about",
+        "full": "shots/_proposed/siteinspire-odysseeclinic-com-au-0c1252__p2.webp"
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/treatments",
+        "full": "shots/_proposed/siteinspire-odysseeclinic-com-au-0c1252__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "health",
+      "medical-aesthetics",
+      "skincare-clinic"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography dominates sections, often extending edge-to-edge, creating an immersive visual experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, editorial grid layouts are used for image galleries and content blocks, breaking from typical uniform grids to create visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Large, airy serif headings with generous letter spacing are paired with small, understated sans-serif body text, creating a sophisticated contrast and ample white space."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, natural color palette derived from skin tones and natural light photography, with off-white backgrounds and dark brown text, evokes a sense of calm and luxury."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and individual image elements reveal themselves with a subtle fade-in and slight upward slide as they enter the viewport during scrolling."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed background video that plays on load. Upon initial scroll, the video transitions to a static image or a paused frame, which then scrolls up to reveal the subsequent content.",
+    "Content sections and individual visual elements are introduced with a scroll-triggered animation, typically a subtle fade-in combined with a slight upward translation, as they become visible in the viewport.",
+    "The primary navigation is integrated directly into the hero video/image and is not sticky; it scrolls out of view with the hero, maintaining a clean, minimal aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fffcf8",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#784836",
+        "role": "text"
+      },
+      {
+        "hex": "#af826c",
+        "role": "accent"
+      },
+      {
+        "hex": "#e8e8e8",
+        "role": "footer-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, airy serif headings (~3-4x body) with generous letter spacing are contrasted with small, understated sans-serif body text.",
+    "radius": "sharp, consistently applied to all image and container corners.",
+    "spacing": "very airy in hero and between major sections, with balanced density within content blocks."
+  },
+  "standout": "This site's design is distinctive for its dominant use of full-bleed, high-quality, artistic photography of skin and faces, seamlessly integrated with minimal text and an airy layout. The editorial-style image grids and subtle scroll-triggered reveals prioritize visual storytelling and a luxurious feel over dense information, making the aesthetic itself a key part of the brand message.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
