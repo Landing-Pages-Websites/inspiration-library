@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-spatial-festival-program-studio-3a4910",
+  "source": {
+    "url": "https://spatial-festival.program.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-spatial-festival-program-studio-3a4910.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-spatial-festival-program-studio-3a4910__scroll0.webp",
+      "shots/_proposed/siteinspire-spatial-festival-program-studio-3a4910__scroll1.webp",
+      "shots/_proposed/siteinspire-spatial-festival-program-studio-3a4910__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "music",
+      "events",
+      "art",
+      "sound-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are presented in a full-bleed, single-column layout, often occupying the full viewport height before transitioning to the next section."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic hierarchy is established with oversized, bold sans-serif headings for key statements, contrasted with smaller, lighter sans-serif text for body content and very small, uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site primarily uses a high-contrast monochromatic palette of black, white, and various shades of grey, creating a stark and minimal aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, content sections and large typographic elements smoothly translate vertically, appearing to push the previous content off-screen in a continuous, full-viewport transition. The main navigation remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Information is often presented in dense, tabular formats for schedules or lists, using fine lines as dividers, contrasting with large, sparse text blocks and full-width imagery."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-driven animation system, likely utilizing GSAP ScrollTrigger, where content sections are revealed sequentially. Each section appears to occupy a significant portion of the viewport, and as the user scrolls, the current section smoothly translates upwards, revealing the next section in a continuous flow. Large display typography also animates its position and opacity in sync with the scroll depth, creating a dynamic, layered content reveal.",
+    "A minimal, high-contrast color scheme is used, primarily black text on a light background, with subtle grey lines for structural division, maintaining a clean and editorial feel.",
+    "Typographic elements are used as primary visual anchors, with large, bold sans-serif headlines dominating sections, often centered, to guide the user through the content narrative."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ebebeb",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#1f1f1f",
+        "role": "surface"
+      },
+      {
+        "hex": "#424242",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#595959",
+        "role": "divider"
+      },
+      {
+        "hex": "#2cc9ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#a2db3c",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "neue-haas-grotesk-display",
+        "role": "heading"
+      },
+      {
+        "family": "neue-haas-grotesk-display",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-5x body) are paired with a clean, legible sans-serif for body text and very small, often uppercase, labels.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical whitespace between major content blocks and within large typographic sections, creating a sense of spaciousness and focus."
+  },
+  "standout": "This site's design is distinctive for its highly cinematic, scroll-driven narrative, where full-viewport sections and large typographic elements animate in and out with a smooth, continuous flow. The stark black-and-white palette and bold, minimal typography create an editorial and immersive experience that feels more like a digital art piece than a typical marketing site.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

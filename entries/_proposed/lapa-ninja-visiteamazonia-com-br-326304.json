@@ -1,0 +1,120 @@
+{
+  "id": "lapa-ninja-visiteamazonia-com-br-326304",
+  "source": {
+    "url": "https://www.visiteamazonia.com.br",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-09-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-visiteamazonia-com-br-326304.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-visiteamazonia-com-br-326304__scroll0.webp",
+      "shots/_proposed/lapa-ninja-visiteamazonia-com-br-326304__scroll1.webp",
+      "shots/_proposed/lapa-ninja-visiteamazonia-com-br-326304__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "travel",
+      "tourism",
+      "environmental-education"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, highly detailed illustrations serve as primary section backgrounds, often with large, expressive typography overlaid."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and statistic sections feature extremely large, custom-illustrated or heavily stylized display fonts that integrate directly into the visual artwork."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, naturalistic color palette, rich in greens, blues, and earthy tones, is used for illustrations, contrasting sharply with deep, dark background colors (dark green, black) to enhance visual pop."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section transitions through multiple distinct, full-screen illustrative scenes as the user scrolls, each revealing new artwork and sometimes changing the background color."
+    },
+    {
+      "kind": "section",
+      "note": "Key statistics and content blocks are presented as large, isolated statements or card-like elements, often with a single, dominant visual or number."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a multi-stage, scroll-triggered hero animation system, likely using GSAP ScrollTrigger, where distinct full-bleed canvas or SVG illustrations are sequentially revealed or swapped out as the user scrolls down the page. Each stage presents a new visual narrative, often accompanied by a background color shift. The navigation bar remains sticky at the top throughout these transitions.",
+    "Large, custom-designed display typography is integrated directly into the hero and section illustrations, often appearing as if drawn or painted into the scene, enhancing the bespoke, artistic feel.",
+    "Content sections utilize a dark, often black, background to make vibrant, illustrative elements and light-colored text stand out dramatically."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#330a33",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#72e8ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#ffefbf",
+        "role": "accent"
+      },
+      {
+        "hex": "#adcc52",
+        "role": "accent"
+      },
+      {
+        "hex": "#bfff00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "pacaembu",
+        "role": "display"
+      },
+      {
+        "family": "abertaSombreada",
+        "role": "heading"
+      },
+      {
+        "family": "aberta",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, illustrative display headings (~8x body) with a playful, organic character, contrasted with more legible, medium-weight body text.",
+    "radius": "Sharp for structural elements, but organic and flowing curves are dominant within the illustrations and custom typography.",
+    "spacing": "Airy, with significant vertical spacing between major sections and large, isolated content blocks, creating a sense of grandeur and visual breathing room."
+  },
+  "standout": "The site's most distinctive feature is its deeply integrated, multi-stage illustrative hero experience. Instead of a static image or video, the entire top portion of the page transforms with rich, custom artwork and typography as the user scrolls, creating a highly immersive and narrative-driven introduction to the content.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

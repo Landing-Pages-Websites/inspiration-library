@@ -1,0 +1,111 @@
+{
+  "id": "lapa-ninja-brainstormgame-ru-283b28",
+  "source": {
+    "url": "https://brainstormgame.ru/en",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-09-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-brainstormgame-ru-283b28.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-brainstormgame-ru-283b28__scroll0.webp",
+      "shots/_proposed/lapa-ninja-brainstormgame-ru-283b28__scroll1.webp",
+      "shots/_proposed/lapa-ninja-brainstormgame-ru-283b28__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "education",
+      "gaming",
+      "metaverse"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical and overlapping elements, particularly with oversized text and playful illustrations that break traditional grid lines and create a dynamic, layered effect."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, sans-serif headings are frequently used, often highlighted with a vibrant neon green background or underline, creating strong visual emphasis."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette featuring stark black and white backgrounds is consistently accented with vibrant neon green, purple, orange, and pink for highlights and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact header containing the site logo and navigation icons becomes sticky at the top of the viewport after the initial scroll, providing persistent navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "Oversized, bold text elements (e.g., 'join us') are integrated into the page flow as large background or foreground elements, scrolling with the page content and sometimes partially obscuring or revealing other sections."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by alternating background colors (white, black, or neon green) and often feature large, whimsical, hand-drawn illustrations that span the full width."
+    }
+  ],
+  "technique_notes": [
+    "To create the sticky header, a minimalist navigation bar is positioned fixed at the top of the viewport, initially transparent or hidden, and then revealed with a solid background after the user scrolls past the hero section.",
+    "Achieve the oversized scrolling text effect by placing very large text elements within the document flow, allowing them to scroll naturally with the page content, sometimes acting as a visual backdrop or partially overlapping other content.",
+    "Integrate playful, hand-drawn illustrations as large, full-bleed background elements or decorative accents that complement the text and contribute to the site's unique visual identity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#212121",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#00ff06",
+        "role": "accent"
+      },
+      {
+        "hex": "#01ff06",
+        "role": "cta"
+      },
+      {
+        "hex": "#f094fd",
+        "role": "accent"
+      },
+      {
+        "hex": "#ff8a00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Impact",
+        "role": "heading"
+      },
+      {
+        "family": "Azeret Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, heavy sans-serif headings (~4-5x body) with smaller, legible monospace body text and uppercase labels.",
+    "radius": "Rounded corners are consistently applied to buttons, input fields, and section containers, contributing to a soft, playful aesthetic.",
+    "spacing": "Generally airy with generous vertical spacing between major sections, creating clear visual breaks, while some text blocks are more densely packed for readability."
+  },
+  "standout": "The site's design is distinctive for its bold, almost chaotic energy, achieved through the combination of oversized, scrolling text elements, vibrant neon color accents, and playful, hand-drawn illustrations that break traditional layout boundaries. It feels less like a generic marketing site and more like an interactive, game-like experience, strongly conveying its 'metaverse' theme.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
