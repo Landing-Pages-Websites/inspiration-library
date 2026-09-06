@@ -1,0 +1,100 @@
+{
+  "id": "siteinspire-dia-studio-bd4dde",
+  "source": {
+    "url": "https://dia.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-dia-studio-bd4dde.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-dia-studio-bd4dde__scroll0.webp",
+      "shots/_proposed/siteinspire-dia-studio-bd4dde__scroll1.webp",
+      "shots/_proposed/siteinspire-dia-studio-bd4dde__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.dia.studio/work/catk",
+        "full": "shots/_proposed/siteinspire-dia-studio-bd4dde__p2.webp"
+      },
+      {
+        "url": "https://www.dia.studio/work/casa",
+        "full": "shots/_proposed/siteinspire-dia-studio-bd4dde__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a dense, non-uniform grid of project thumbnails that fills the entire viewport, acting as the primary navigation and content display."
+    },
+    {
+      "kind": "layout",
+      "note": "A minimalist header and footer remain sticky at the top and bottom of the viewport, providing persistent navigation and legal links."
+    },
+    {
+      "kind": "color",
+      "note": "The site's UI elements (text, backgrounds) are strictly monochrome (black and white), allowing the diverse content within project images to introduce color."
+    },
+    {
+      "kind": "motion",
+      "note": "The main content area, a dense grid of project snippets, scrolls vertically underneath a sticky header and footer, with no other scroll-triggered animations or reveals."
+    },
+    {
+      "kind": "section",
+      "note": "Project detail pages display a series of images in a flexible layout, followed by a concise text description and project credits."
+    }
+  ],
+  "technique_notes": [
+    "The homepage is constructed as a full-bleed, responsive grid of project previews, each acting as a clickable thumbnail. This grid scrolls independently while the header and footer remain fixed in place.",
+    "Project detail pages present a series of images in a flexible grid or stacked layout, followed by a concise text description and project metadata, maintaining the site's minimalist aesthetic.",
+    "The site's primary navigation and utility links are contained within a minimal, fixed header and footer that persist across all pages and scroll depths."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, consistent sans-serif for body and navigation, with slightly larger but still understated headings on project pages, maintaining a subtle hierarchy.",
+    "radius": "sharp",
+    "spacing": "Very dense on the homepage grid, balanced and airy for text blocks on interior project pages."
+  },
+  "standout": "The most distinctive feature is the homepage itself, which foregoes a traditional hero section for an immersive, full-bleed, non-uniform mosaic of black and white project snippets. This creates a highly curated, almost archival feel, immediately showcasing the breadth of work in a visually overwhelming yet engaging manner.",
+  "animation_tech": [],
+  "status": "proposed"
+}
