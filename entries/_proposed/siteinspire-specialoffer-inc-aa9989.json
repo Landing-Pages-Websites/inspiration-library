@@ -1,0 +1,108 @@
+{
+  "id": "siteinspire-specialoffer-inc-aa9989",
+  "source": {
+    "url": "https://specialoffer.inc",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-specialoffer-inc-aa9989.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-specialoffer-inc-aa9989__scroll0.webp",
+      "shots/_proposed/siteinspire-specialoffer-inc-aa9989__scroll1.webp",
+      "shots/_proposed/siteinspire-specialoffer-inc-aa9989__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.specialoffer.inc/work/xcx-troye-sweat-tour",
+        "full": "shots/_proposed/siteinspire-specialoffer-inc-aa9989__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "art",
+      "design-portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Projects are presented as full-screen, distinct views, often with minimal surrounding UI, creating an immersive experience for each piece of work."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in typography, pairing oversized, bold, and often distressed display fonts for project titles with small, understated sans-serifs for navigation and detailed information."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette (black, white, grayscale) serves as a neutral canvas, allowing the vibrant colors within project imagery to stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "Full-page content transitions between projects, where one project's display is entirely replaced by the next, often with a brief intermediate state or direct content swap, rather than continuous scrolling down a single page."
+    },
+    {
+      "kind": "section",
+      "note": "The site uses a 'project archive' section that shifts from full-screen immersive displays to a dense, two-column text list for historical work, providing a high information density contrast."
+    }
+  ],
+  "technique_notes": [
+    "Full-screen projects are presented as distinct views, transitioning between them with a complete content replacement, rather than a continuous scroll. This is likely managed by a JavaScript-driven carousel or router, potentially using a library like Swiper for the project-to-project navigation, where each 'slide' is a full project page.",
+    "Hero sections frequently incorporate video or large, impactful imagery (video-hero) that fills the viewport, often in grayscale or with minimal color, to set a dramatic tone.",
+    "Typography is used as a primary design element, with large, custom-styled display fonts layered directly onto images or simple backgrounds, creating a strong visual hierarchy and artistic expression."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0F0E0C",
+        "role": "text"
+      },
+      {
+        "hex": "#232323",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and often distressed display headings (~5-10x body) create a strong visual impact, contrasted with small, functional sans-serifs for navigation and detailed information.",
+    "radius": "sharp",
+    "spacing": "Very airy for full-screen project displays, emphasizing individual elements, but becomes dense in archive list sections for high information recall."
+  },
+  "standout": "The site's standout feature is its bold, almost brutalist approach to typography, using oversized, distressed fonts as primary visual elements that often interact directly with full-screen imagery. This creates a highly distinctive, art-forward portfolio experience that prioritizes the raw impact of each project.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

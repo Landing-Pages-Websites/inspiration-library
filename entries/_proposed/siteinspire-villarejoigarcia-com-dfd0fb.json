@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-villarejoigarcia-com-dfd0fb",
+  "source": {
+    "url": "https://villarejoigarcia.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-07"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-villarejoigarcia-com-dfd0fb.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-villarejoigarcia-com-dfd0fb__scroll0.webp",
+      "shots/_proposed/siteinspire-villarejoigarcia-com-dfd0fb__scroll1.webp",
+      "shots/_proposed/siteinspire-villarejoigarcia-com-dfd0fb__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs a highly unconventional, collage-like layout with elements frequently overlapping, breaking traditional grid structures, and utilizing significant negative space to create a dynamic, art-directed composition."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic typographic contrasts are used, juxtaposing elegant, flowing script fonts with bold, condensed sans-serif display type for headings, and a more neutral sans-serif for body text, often at varying scales within the same visual field."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color palette is used, primarily featuring a light background and black text, punctuated by vibrant, almost neon, accent colors (pink, orange, blue) that define specific sections or highlight key textual elements."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, semi-transparent graphic element (like a '0' or 'O') overlays content and reveals or changes opacity as the user scrolls, creating a layered depth effect that interacts with the underlying content."
+    },
+    {
+      "kind": "section",
+      "note": "Each content block or 'section' is treated as a unique, self-contained design composition, often featuring distinct visual styles, aspect ratios, and alignments that deviate from a consistent page-wide template."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the layout, use a combination of absolute and fixed positioning for many elements, allowing for intentional overlaps and a non-linear flow that prioritizes visual composition over strict document order. This creates a free-form, collage-like arrangement of diverse media.",
+    "To rebuild the motion, implement a scroll-triggered animation system (e.g., using a library like GSAP ScrollTrigger) to control the opacity and position of large, semi-transparent overlay graphics. These elements should appear and potentially scale or parallax as the user scrolls past specific points on the page, creating a sense of layered depth.",
+    "To rebuild the typography, design a system that allows for dramatic shifts in font family, weight, and size within a single page. This involves pairing highly decorative or expressive display fonts with more legible sans-serifs for body copy, and frequently using oversized text as a primary visual and compositional element."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FF00A0",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF6B00",
+        "role": "accent"
+      },
+      {
+        "hex": "#00BFFF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely varied, with oversized, bold display headings (up to ~8x body text) contrasting sharply with smaller, standard sans-serif body text and elegant script accents.",
+    "radius": "Sharp, with most elements featuring crisp, 90-degree corners and no visible rounding.",
+    "spacing": "Very airy and open, characterized by large amounts of negative space and intentional, often asymmetrical, gaps between overlapping elements."
+  },
+  "standout": "The site's design is highly distinctive for its experimental, collage-like layout that intentionally overlaps diverse media and typography, breaking free from conventional grid systems. It feels less like a website and more like an interactive art installation or a digital mood board, using dramatic scale and unexpected juxtapositions as primary design tools.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
