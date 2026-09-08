@@ -1,0 +1,117 @@
+{
+  "id": "lapa-ninja-oddritualgolf-com-5fde3a",
+  "source": {
+    "url": "https://oddritualgolf.com/?ref=lapaninja",
+    "gallery": "lapa-ninja",
+    "harvest_date": "2026-09-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/lapa-ninja-oddritualgolf-com-5fde3a.webp",
+    "scroll": [
+      "shots/_proposed/lapa-ninja-oddritualgolf-com-5fde3a__scroll0.webp",
+      "shots/_proposed/lapa-ninja-oddritualgolf-com-5fde3a__scroll1.webp",
+      "shots/_proposed/lapa-ninja-oddritualgolf-com-5fde3a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "golf",
+      "apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-impact hero sections that occupy the entire viewport, transitioning between distinct visual states rather than simply parallaxing."
+    },
+    {
+      "kind": "type",
+      "note": "Large, broken-line text headings are used for key section titles, creating a strong visual hierarchy and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette of muted earth tones and greys is contrasted with a vibrant, electric blue accent for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section completely transforms upon scroll, replacing the background image, primary text, and adjusting the navigation bar's content and size."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases are presented in clean, minimal grids with ample whitespace, allowing the product imagery to dominate."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely using GSAP and Locomotive Scroll, to manage a dramatic hero section transition where the entire visual and textual content of the hero is swapped out for a new scene as the user scrolls past a certain point. Simultaneously, the global navigation bar transforms, shrinking in height, scaling down the logo, and condensing its menu items to a minimal set. Subsequent content sections are revealed with subtle fade-in or slide-up animations as they enter the viewport, creating a dynamic and engaging scroll experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#050FFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4CFCB",
+        "role": "background"
+      },
+      {
+        "hex": "#6B6A68",
+        "role": "surface"
+      },
+      {
+        "hex": "#2A2A2A",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: PP Neue Montreal",
+        "role": "heading"
+      },
+      {
+        "family": "DM Sans",
+        "role": "body"
+      },
+      {
+        "family": "Instrument Serif",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body) with a strong editorial character, complemented by a clean, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 particularly in hero and feature sections, with balanced density in product grids."
+  },
+  "standout": "This site stands out with its bold, editorial aesthetic that blends high fashion photography with golf culture. The most distinctive feature is the dramatic, full-screen hero section transition upon scroll, which completely swaps out the visual narrative rather than just parallaxing, creating a magazine-like reveal that feels both premium and unexpected.",
+  "animation_tech": [
+    "gsap",
+    "locomotive-scroll",
+    "lottie"
+  ],
+  "status": "proposed"
+}
