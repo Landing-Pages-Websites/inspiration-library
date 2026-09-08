@@ -1,0 +1,103 @@
+{
+  "id": "one-page-love-bueno-fyi-49d4d1",
+  "source": {
+    "url": "https://bueno.fyi",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-bueno-fyi-49d4d1.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-bueno-fyi-49d4d1__scroll0.webp",
+      "shots/_proposed/one-page-love-bueno-fyi-49d4d1__scroll1.webp",
+      "shots/_proposed/one-page-love-bueno-fyi-49d4d1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "directory",
+      "web-service",
+      "information-architecture"
+    ],
+    "mood": [
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A persistent sticky header containing search input and filter buttons remains fixed at the top, allowing the main content list to scroll underneath it."
+    },
+    {
+      "kind": "type",
+      "note": "A clear typographic hierarchy uses bolding for primary list item names and a slightly smaller, lighter weight for secondary information (URLs), all within a consistent sans-serif family."
+    },
+    {
+      "kind": "color",
+      "note": "A monochromatic base palette of light gray background, white surfaces, and dark gray text is used, with the only significant color variation coming from the diverse, small icons associated with each list entry."
+    },
+    {
+      "kind": "motion",
+      "note": "The search bar and filter buttons become sticky at the top of the viewport as the user scrolls down, ensuring these controls are always accessible."
+    },
+    {
+      "kind": "section",
+      "note": "The primary content is presented as a single, long, scrollable list of entries, each formatted as a distinct row with an icon, a name, and an associated URL."
+    }
+  ],
+  "technique_notes": [
+    "The primary interactive elements (search bar, filter buttons) are contained within a sticky header that remains visible at the top of the viewport as the user scrolls, allowing continuous access to search and filtering functionalities.",
+    "List items are presented in a simple two-column grid, with an icon and name on the left and a corresponding URL on the right, maintaining a clean, readable structure for a large dataset."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "filter-inactive"
+      },
+      {
+        "hex": "#333333",
+        "role": "filter-active"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "A subtle type scale with main list items (~1.2x body) and smaller secondary text (~0.9x body), all in a clean sans-serif. Search input text is slightly larger than list items.",
+    "radius": "Subtle rounding on interactive elements like the search bar and filter buttons, while list item containers are sharp.",
+    "spacing": "Airy vertical spacing between list items, creating clear separation in a dense list."
+  },
+  "standout": "The design's distinctiveness lies in its extreme functional minimalism, presenting a vast directory with almost no decorative elements. The only visual interest comes from the diverse, colorful icons, which stand out against the stark, monochromatic interface, making the content itself the primary focus.",
+  "animation_tech": [],
+  "status": "proposed"
+}
