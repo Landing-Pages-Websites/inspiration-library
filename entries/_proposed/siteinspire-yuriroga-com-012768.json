@@ -1,0 +1,106 @@
+{
+  "id": "siteinspire-yuriroga-com-012768",
+  "source": {
+    "url": "https://yuriroga.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-yuriroga-com-012768.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-yuriroga-com-012768__scroll0.webp",
+      "shots/_proposed/siteinspire-yuriroga-com-012768__scroll1.webp",
+      "shots/_proposed/siteinspire-yuriroga-com-012768__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://yuriroga.com/work/puma",
+        "full": "shots/_proposed/siteinspire-yuriroga-com-012768__p2.webp"
+      },
+      {
+        "url": "https://yuriroga.com/work/raura",
+        "full": "shots/_proposed/siteinspire-yuriroga-com-012768__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "visual-production",
+      "photography"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layout for image galleries, often paired with a fixed-width left sidebar for textual content on interior pages, creating a balanced yet dynamic composition."
+    },
+    {
+      "kind": "color",
+      "note": "Minimalist monochrome base (white background, black text) that allows the diverse and often vibrant imagery to be the primary focal point and source of color."
+    },
+    {
+      "kind": "motion",
+      "note": "Image cards reveal with a subtle fade-in and slight upward slide animation as they enter the viewport during scroll, creating a smooth, engaging content discovery experience."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif typeface is used consistently across all text elements, with hierarchy established through subtle variations in weight and size rather than distinct font families."
+    }
+  ],
+  "technique_notes": [
+    "Implement a smooth scrolling experience using a library like locomotive-scroll, where individual grid items (image cards) are animated to fade in and slide up slightly as they become visible within the viewport.",
+    "Design a flexible grid system for image galleries that can accommodate varying aspect ratios and sizes, often integrating a dedicated, fixed-width sidebar for project details or navigation on interior pages.",
+    "Apply a consistent, generous border-radius to all image containers to create a soft, modern aesthetic that unifies the visual presentation of diverse photographic content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#D4AF37",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, clean sans-serif for body text and navigation, with headings and labels using slightly larger and bolder weights of the same family for subtle hierarchy.",
+    "radius": "Rounded, consistently applied to all image cards and content blocks.",
+    "spacing": "Balanced, with generous padding around content sections and consistent, moderate gutters within image grids."
+  },
+  "standout": "The site's distinctive use of prominent, consistent rounded corners on all image cards, combined with a minimalist layout and subtle scroll-triggered reveals, transforms a standard portfolio grid into a sophisticated, gallery-like experience that feels both modern and luxurious.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

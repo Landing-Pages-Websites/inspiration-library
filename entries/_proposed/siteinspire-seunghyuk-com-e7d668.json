@@ -1,0 +1,95 @@
+{
+  "id": "siteinspire-seunghyuk-com-e7d668",
+  "source": {
+    "url": "https://seunghyuk.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-seunghyuk-com-e7d668.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-seunghyuk-com-e7d668__scroll0.webp",
+      "shots/_proposed/siteinspire-seunghyuk-com-e7d668__scroll1.webp",
+      "shots/_proposed/siteinspire-seunghyuk-com-e7d668__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "graphic-design",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-page interactive canvas serves as the primary content display, transitioning from a radial diagram to a dynamic node-based network."
+    },
+    {
+      "kind": "type",
+      "note": "All text is rendered in a clean, uppercase sans-serif, with a relatively small and consistent size, emphasizing a technical or data-driven aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of light grey and black dominates, with white text on dark backgrounds after scroll, creating high contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The page undergoes a dramatic scroll-triggered transformation, shifting from a static light-themed radial diagram to a dark, animated 3D-like constellation of interconnected nodes and labels."
+    },
+    {
+      "kind": "section",
+      "note": "Content is presented as interconnected nodes within a continuous, interactive canvas rather than distinct, stacked sections."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a full-page canvas for a highly interactive and dynamic background. On scroll, the canvas content and background color dramatically transform from a light-themed 2D radial diagram into a dark, 3D-like constellation of interconnected nodes, revealing new labels and a sense of depth. This motion is orchestrated using canvas animation techniques combined with CSS keyframes for text elements, creating a seamless, immersive experience that encourages exploration."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e8e8e8",
+        "role": "background"
+      },
+      {
+        "hex": "#0a0a0a",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#ffc107",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, consistent uppercase text with subtle size variations for hierarchy, maintaining a minimal and technical character.",
+    "radius": "sharp",
+    "spacing": "Very airy, with ample negative space around all elements, contributing to a minimal and focused presentation."
+  },
+  "standout": "The site's most distinctive feature is its complete abandonment of traditional page layouts in favor of a single, immersive, scroll-driven interactive canvas that transforms from a conceptual diagram into a dynamic, explorable 3D-like network of interconnected ideas and skills.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

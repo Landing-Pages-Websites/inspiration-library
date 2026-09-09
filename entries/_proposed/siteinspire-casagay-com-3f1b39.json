@@ -1,0 +1,123 @@
+{
+  "id": "siteinspire-casagay-com-3f1b39",
+  "source": {
+    "url": "https://casagay.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-09"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-casagay-com-3f1b39.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-casagay-com-3f1b39__scroll0.webp",
+      "shots/_proposed/siteinspire-casagay-com-3f1b39__scroll1.webp",
+      "shots/_proposed/siteinspire-casagay-com-3f1b39__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://casagay.com/venta",
+        "full": "shots/_proposed/siteinspire-casagay-com-3f1b39__p2.webp"
+      },
+      {
+        "url": "https://casagay.com/archivo",
+        "full": "shots/_proposed/siteinspire-casagay-com-3f1b39__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "home-goods",
+      "furniture",
+      "luxury-retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The footer is exceptionally prominent, featuring the main brand logo as a massive, background element that scrolls into view, giving it significant visual weight and reinforcing brand identity at the page's end."
+    },
+    {
+      "kind": "type",
+      "note": "A highly decorative, oversized serif display font ('RomekSharp') is used for the main brand logo and key section titles, creating a strong sense of heritage and luxury, contrasting with more readable serifs and sans-serifs for body content."
+    },
+    {
+      "kind": "color",
+      "note": "The site predominantly uses a rich, earthy palette of deep browns, creams, and off-whites, creating a sophisticated and timeless feel, with subtle, muted red accents for calls to action or highlights."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon initial scroll, the large hero logo and top navigation are replaced by a compact, sticky navigation bar. The hero image itself exhibits a subtle parallax effect, where the background image scrolls slower than the foreground content, creating depth."
+    },
+    {
+      "kind": "section",
+      "note": "The 'NOTICIAS' (News) section adopts an editorial, magazine-like layout, presenting articles with prominent images and concise text blocks, enhancing the site's sophisticated and content-rich feel."
+    }
+  ],
+  "technique_notes": [
+    "The initial large header and navigation are designed to transform into a smaller, sticky navigation bar with a solid background as the user scrolls down, ensuring persistent access to navigation while maximizing initial visual impact.",
+    "The hero section employs a parallax scrolling effect where the background image moves at a slower rate than the foreground text, creating a sense of depth and dynamic visual interest as the user scrolls.",
+    "Product displays in the 'PRODUCTOS DESTACADOS' section are presented within a horizontal carousel, allowing users to browse multiple items by swiping or clicking navigation controls, utilizing the detected 'swiper' technology."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#472600",
+        "role": "primary-dark-brown"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background-light"
+      },
+      {
+        "hex": "#ede8d0",
+        "role": "surface-cream"
+      },
+      {
+        "hex": "#858276",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#c81d11",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#9b8d82",
+        "role": "surface-taupe"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "RomekSharp",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, decorative display font for the main logo and section titles (~4-5x body) with a balanced, elegant serif for subheadings (~1.5-2x body) and a clean sans-serif for body text.",
+    "radius": "Sharp corners are used consistently throughout the design, with no visible rounding on elements or images.",
+    "spacing": "Balanced to airy, with generous padding around major content blocks and text, creating a sense of spaciousness, while product grids maintain a tighter, organized rhythm."
+  },
+  "standout": "The site's most distinctive feature is its dramatic and historically-inspired typography, particularly the use of the oversized, decorative 'RomekSharp' font for the main logo and key section titles, which is then integrated into the massive footer. This, combined with the rich, earthy color palette and editorial layout, creates a strong sense of heritage and luxury, distinguishing it from typical modern e-commerce or service sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}
