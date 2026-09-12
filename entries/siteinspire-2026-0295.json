@@ -1,0 +1,106 @@
+{
+  "id": "siteinspire-2026-0295",
+  "source": {
+    "url": "https://taradash.me",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0295.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0295__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0295__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0295__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-agency",
+      "product-design"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout for introductory text, featuring a large, left-aligned heading and narrow, justified text columns on the right."
+    },
+    {
+      "kind": "layout",
+      "note": "Full-bleed image and video sections are used for project showcases, often with minimal text overlay or adjacent text blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Editorial-scale hero typography with multi-line, large, bold sans-serif text on the left, contrasted with smaller, dense, justified body text columns on the right."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header containing navigation links remains fixed at the top of the viewport after the initial scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Project sections reveal with a subtle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A circular hero image uses a scroll-triggered effect, appearing to stick or parallax slightly as the page scrolls, revealing more of the image behind the text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that remains visible at the top of the screen after the initial scroll.",
+    "Scroll-triggered animations, likely using GSAP, are used to reveal new content sections with a subtle fade-up or slide-in effect as they enter the viewport.",
+    "Hero imagery incorporates a scroll-based parallax or sticky effect, where a masked image appears to move at a different rate than the main content, creating depth and revealing more of the image as the user scrolls."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "dark-section-background"
+      },
+      {
+        "hex": "#808080",
+        "role": "subtle-text-or-link-hover"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Suisse Intl",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Suisse Intl",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, multi-line hero headings (~4-5x body text) with small, tightly-packed body text columns.",
+    "radius": "sharp universally",
+    "spacing": "Very airy in hero and between major sections, creating a sense of spaciousness; body text within columns is dense."
+  },
+  "standout": "The site's distinctive editorial layout, featuring an oversized, multi-line hero statement on the left paired with narrow, justified text columns on the right, immediately sets it apart. This, combined with the subtle scroll-triggered parallax on the hero image and full-bleed project showcases, creates a sophisticated, magazine-like portfolio experience that feels both minimal and impactful.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

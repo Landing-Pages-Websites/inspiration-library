@@ -1,0 +1,105 @@
+{
+  "id": "siteinspire-2026-0289",
+  "source": {
+    "url": "https://klikkentheke.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0289.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0289__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0289__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0289__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-agency",
+      "archive"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Dynamic, non-uniform grid where content blocks of varying sizes and aspect ratios are arranged, creating a collage-like effect that evolves as the user scrolls."
+    },
+    {
+      "kind": "type",
+      "note": "Juxtaposition of oversized, expressive display typefaces (both serif and condensed sans-serif) for project titles with small, utilitarian sans-serif for navigation and descriptive text."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast monochromatic palette (black, white, light gray) with minimal use of other colors, emphasizing content and typography."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveal of grid items, where new content blocks slide up and fade in from the bottom as they enter the viewport, facilitated by a smooth scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "The entire page functions as a continuous, infinite-scrolling 'catalogue' or 'archive' where each grid item represents a distinct project or entry, rather than traditional named sections."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling library (locomotive-scroll) to create a fluid, continuous scroll experience across the entire page.",
+    "Individual content blocks within the dynamic grid are revealed using scroll-triggered animations, typically sliding up and fading into view as they enter the viewport.",
+    "A minimal, fixed header and a fixed scroll indicator/cookie banner provide persistent context without obstructing the main content flow."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#222222",
+        "role": "text"
+      },
+      {
+        "hex": "#eeeeee",
+        "role": "surface"
+      },
+      {
+        "hex": "#ddd",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Oswald",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, expressive display headings (~4-6x body) with small, functional sans-serif body text and uppercase labels.",
+    "radius": "Sharp (predominantly rectangular elements and images).",
+    "spacing": "Airy (generous gutters in the grid, significant whitespace around content blocks) creating a sense of spaciousness despite the dense content."
+  },
+  "standout": "The site's standout feature is its bold, almost brutalist grid layout combined with expressive, varied typography and subtle scroll-triggered animations. It feels like an interactive art gallery or a curated archive rather than a typical portfolio, with its dynamic, non-uniform grid being particularly distinctive.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "siteinspire-2026-0281",
+  "source": {
+    "url": "https://bergerfohr.art",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0281.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0281__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0281__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/siteinspire-2026-0281__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "art",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, minimalist layout with generous negative space, creating an editorial, gallery-like feel reminiscent of a print publication."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, bold sans-serif for branding and key headings, contrasted with a more standard sans-serif for body text and a monospaced font for numerical data in lists."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black, white, and subtle grey for all UI elements, allowing the visual content (artwork) to introduce any color."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header containing the main brand mark ('B&F') and a subtle navigation indicator (two dots) remains fixed at the top of the viewport as the page content scrolls underneath."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections are revealed sequentially by scrolling up into the viewport, creating a continuous flow of information as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "A unique 'work list' section presented as a simple, unstyled table with project titles, years, and sequential numbers, resembling a digital index or archive."
+    }
+  ],
+  "technique_notes": [
+    "The main branding element and a small navigation indicator are fixed to the top of the viewport, allowing page content to scroll beneath them, maintaining brand presence.",
+    "Content sections are revealed sequentially as the user scrolls, appearing to slide up from the bottom of the screen, creating a smooth, continuous reading experience.",
+    "A decorative clock element in the footer uses CSS keyframe animations to simulate real-time movement of its hands, adding a subtle, dynamic artistic touch."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#bdbdbd",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "NeueHaasDisplay55Roman",
+        "role": "heading"
+      },
+      {
+        "family": "NeueHaasTextPro",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, impactful display headings (e.g., 'B&F') and section titles (~3-4x body) with a clear hierarchy down to small, legible body text and even smaller metadata.",
+    "radius": "sharp",
+    "spacing": "Very airy, with significant negative space around content blocks, especially in the hero and between major sections, creating a gallery-like density."
+  },
+  "standout": "The site's design is distinctive for its extreme minimalism and editorial, almost gallery-like presentation. It deliberately avoids conventional navigation and marketing patterns, instead offering a curated, scrolling exhibition of work, emphasized by large, impactful typography and abundant white space. The animated clock in the footer serves as a unique, subtle artistic detail.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

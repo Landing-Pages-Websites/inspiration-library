@@ -1,0 +1,109 @@
+{
+  "id": "manual-2026-0699",
+  "source": {
+    "url": "https://protipmarketing.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0699.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0699__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0699__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0699__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "public-relations",
+      "creative-agency"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "The site uses bold, full-bleed color blocking for distinct sections, transitioning between vibrant pink, bright blue, and a subtle off-white."
+    },
+    {
+      "kind": "type",
+      "note": "Headings and key section titles are rendered in extremely oversized, bold, and condensed sans-serif typography, making them primary visual elements."
+    },
+    {
+      "kind": "layout",
+      "note": "A strong diagonal element is used to introduce new sections, cutting across the screen and breaking the typical horizontal section flow."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections transition with full-screen color changes, where new content areas slide up to replace the previous one, often accompanied by a dramatic shift in background color."
+    },
+    {
+      "kind": "motion",
+      "note": "The global navigation bar transforms its background color from a subtle off-white to a vibrant pink as the user scrolls past the initial hero section."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video is used as the background for the hero section, with large, contrasting text overlaid for readability.",
+    "Scroll-triggered animations (likely GSAP ScrollTrigger) orchestrate full-screen section transitions. As the user scrolls, entire content blocks with distinct background colors slide into view, creating a strong visual progression.",
+    "A sticky navigation bar dynamically changes its background color and potentially its height upon reaching a specific scroll depth, providing visual feedback and brand reinforcement."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F6F0",
+        "role": "background"
+      },
+      {
+        "hex": "#FF70CF",
+        "role": "accent"
+      },
+      {
+        "hex": "#189BDC",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Montserrat Black Condensed",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed display headings (~5-8x body) with smaller, readable sans-serif for body and navigation.",
+    "radius": "Sharp, with most elements featuring crisp, unrounded corners.",
+    "spacing": "Balanced to airy, allowing large type and color blocks to breathe, particularly in hero and section headers."
+  },
+  "standout": "The site's design is distinctive for its energetic and bold use of high-contrast, full-bleed color blocking combined with oversized, condensed typography. The dynamic diagonal section transitions and the transforming sticky navigation add a unique, playful, and modern feel, moving beyond typical horizontal section breaks.",
+  "animation_tech": [
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

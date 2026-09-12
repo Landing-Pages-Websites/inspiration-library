@@ -1,0 +1,122 @@
+{
+  "id": "manual-2026-0700",
+  "source": {
+    "url": "https://rmc-studio.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-12"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0700.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0700__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0700__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0700__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "web-design",
+      "creative-agency",
+      "digital-marketing"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical composition with significant negative space, particularly in the hero and section introductions, creating a dynamic and modern feel."
+    },
+    {
+      "kind": "type",
+      "note": "Strong typographic contrast achieved by pairing large, bold, modern sans-serif headings with elegant, decorative serif and script fonts for specific display elements and portfolio items."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast dark mode base is consistently used, punctuated by a vibrant, almost neon, yellow-green accent color for highlights and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features interactive, playful elements (floating heads, a dynamic swirl, and a 'Catch me :)' button) that exhibit subtle movement and respond to scroll or potential user interaction."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transitions from transparent to a semi-transparent dark background with a subtle backdrop blur as the user scrolls down the page, becoming sticky at the top."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and key elements (like the large 'Rmc' logo and portfolio list items) are revealed with a subtle slide-up or fade-in animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width sections utilize distinct background colors (dark, light gray, and accent yellow-green) to clearly delineate different content blocks and create visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs WebGL/Three.js or advanced CSS keyframes to render dynamic, floating 3D-like elements (stylized heads, abstract swirl, and an interactive button) that move independently and subtly parallax with scroll, creating an engaging, playful introduction.",
+    "A sticky header effect is implemented where the navigation bar, initially transparent, gains a semi-transparent dark background and a backdrop blur as the user scrolls past the initial hero content, ensuring readability against varied section backgrounds.",
+    "Scroll-triggered animations are used throughout the page to reveal content. Elements like section headings, body text, and portfolio items animate into view (e.g., sliding up from the bottom or fading in) as they enter the user's viewport, enhancing engagement and guiding attention."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1f1f1f",
+        "role": "background"
+      },
+      {
+        "hex": "#eafb56",
+        "role": "accent"
+      },
+      {
+        "hex": "#d6d6d6",
+        "role": "surface"
+      },
+      {
+        "hex": "#787878",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#f2c9e4",
+        "role": "interactive-highlight"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Tight",
+        "role": "heading"
+      },
+      {
+        "family": "Instrument Serif",
+        "role": "display"
+      },
+      {
+        "family": "custom_145193",
+        "role": "decorative-script"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) are contrasted with smaller, legible sans-serif body text and elegant, decorative serif/script fonts for specific display elements, creating a sophisticated yet modern hierarchy.",
+    "radius": "Subtle rounding on buttons and input fields, maintaining a clean and contemporary aesthetic.",
+    "spacing": "Generally airy, with generous padding in the hero and between major sections, contributing to a sense of spaciousness and clarity, while some content grids are more balanced."
+  },
+  "standout": "This site stands out with its highly interactive and playful hero section featuring dynamic 3D-like elements and a 'Catch me :)' button, combined with a sophisticated blend of bold modern typography and elegant decorative fonts. The asymmetrical layouts and high-contrast dark mode with a vibrant accent color create a distinctive and memorable brand presence that feels both professional and artistic.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "approved"
+}
