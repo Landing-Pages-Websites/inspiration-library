@@ -1,0 +1,127 @@
+{
+  "id": "siteinspire-slavvitanov-com-50eca5",
+  "source": {
+    "url": "https://slavvitanov.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-slavvitanov-com-50eca5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-slavvitanov-com-50eca5__scroll0.webp",
+      "shots/_proposed/siteinspire-slavvitanov-com-50eca5__scroll1.webp",
+      "shots/_proposed/siteinspire-slavvitanov-com-50eca5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.slavvitanov.com/",
+        "full": "shots/_proposed/siteinspire-slavvitanov-com-50eca5__p2.webp"
+      },
+      {
+        "url": "https://www.slavvitanov.com/info",
+        "full": "shots/_proposed/siteinspire-slavvitanov-com-50eca5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "portfolio",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extremely minimal layout with vast amounts of whitespace, especially in the hero and between major content sections, emphasizing individual project visuals."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated typographic hierarchy pairing an elegant, light-weight serif for display text and a clean, modern sans-serif for body copy and UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of white and black, allowing project visuals to introduce the only bursts of color."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text scrolls up and out of view, followed by a temporary 'Next available' message that also scrolls away, before the main project content begins to reveal."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections (individual projects) reveal with a subtle fade-in and slight upward translation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Each project is presented as a distinct, full-width visual block, often featuring a large image or video followed by a concise textual description."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header bar maintains persistent navigation and branding at the top of the viewport.",
+    "The initial hero content employs a scroll-driven animation, likely using JavaScript with CSS keyframes, where the main statement and a subsequent availability message smoothly scroll upwards and out of view to transition into the portfolio content.",
+    "Individual project sections are revealed using scroll-triggered animations, likely a combination of opacity and subtle Y-axis translation (fade-up effect), as they become visible within the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#C2C2C2",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#4F4F4F",
+        "role": "text-tertiary"
+      },
+      {
+        "hex": "#09F",
+        "role": "accent-blue"
+      },
+      {
+        "hex": "#E3E3E3",
+        "role": "surface-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Apple Garamond Light Regular",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Roboto Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Large, elegant serif for main statements and project titles (~3-4x body), paired with smaller, clean sans-serif for body text and very small, uppercase mono-spaced text for metadata.",
+    "radius": "sharp",
+    "spacing": "Very airy, characterized by expansive vertical whitespace in the hero and between major sections, creating a sense of calm and focus."
+  },
+  "standout": "The site's most distinctive feature is its extreme minimalism and the bold, almost empty initial hero state, which then transitions through a temporary 'Next available' message before revealing the portfolio. This creates a highly curated, exclusive feel, forcing attention onto the few words presented and then onto the high-quality project visuals.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

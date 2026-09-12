@@ -1,0 +1,110 @@
+{
+  "id": "siteinspire-bureau-cool-17e999",
+  "source": {
+    "url": "https://bureau.cool",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-bureau-cool-17e999.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-bureau-cool-17e999__scroll0.webp",
+      "shots/_proposed/siteinspire-bureau-cool-17e999__scroll1.webp",
+      "shots/_proposed/siteinspire-bureau-cool-17e999__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://bureau.cool/0000",
+        "full": "shots/_proposed/siteinspire-bureau-cool-17e999__p2.webp"
+      },
+      {
+        "url": "https://bureau.cool/imprint",
+        "full": "shots/_proposed/siteinspire-bureau-cool-17e999__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "digital-agency",
+      "creative-studio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric split-screen layout for product display, featuring a large, immersive background visual on one side and a vertical list of items on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Exclusive use of a monospaced sans-serif font across all text elements, from large headings to small labels, creating a consistent, code-like aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "Monochromatic color scheme primarily using light gray backgrounds and black text, with minimal accent colors reserved for specific interactive elements or product visuals."
+    },
+    {
+      "kind": "motion",
+      "note": "A dynamic, canvas-based circular graphic in the hero section displays real-time data points, which scrolls out of view to reveal a sticky navigation bar and a persistent item counter."
+    },
+    {
+      "kind": "section",
+      "note": "Project listings are presented as simple, vertically stacked text links with a small bullet point and a gray placeholder, maintaining a minimalist, content-focused presentation."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a custom canvas animation that visualizes abstract data points within a circular graphic, which is designed to scroll off-screen as the user navigates down the page.",
+    "A sticky header system is implemented where a set of navigation links and a 'new items' counter appear and fix to the top of the viewport only after the initial hero content has scrolled out of view.",
+    "The site employs a consistent monospaced typeface for all text, with typographic hierarchy established solely through size and weight variations, eschewing multiple font families for a unified, technical feel."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#EAEAEA",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#999999",
+        "role": "surface"
+      },
+      {
+        "hex": "#5555FF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:IBM Plex Mono",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold monospaced headings (~3-4x body) with consistent, smaller monospaced body and label text.",
+    "radius": "sharp",
+    "spacing": "very airy hero, balanced spacing in content sections with generous vertical rhythm between elements."
+  },
+  "standout": "The site's most distinctive feature is its raw, almost terminal-like aesthetic achieved through exclusive use of a monospaced font, minimal UI, and the dynamic, data-driven canvas animation in the hero. This creates a unique blend of high-tech and understated design.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

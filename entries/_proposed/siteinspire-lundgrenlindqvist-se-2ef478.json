@@ -1,0 +1,111 @@
+{
+  "id": "siteinspire-lundgrenlindqvist-se-2ef478",
+  "source": {
+    "url": "https://www.lundgrenlindqvist.se",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-lundgrenlindqvist-se-2ef478.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-lundgrenlindqvist-se-2ef478__scroll0.webp",
+      "shots/_proposed/siteinspire-lundgrenlindqvist-se-2ef478__scroll1.webp",
+      "shots/_proposed/siteinspire-lundgrenlindqvist-se-2ef478__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.lundgrenlindqvist.se/profile",
+        "full": "shots/_proposed/siteinspire-lundgrenlindqvist-se-2ef478__p2.webp"
+      },
+      {
+        "url": "https://www.lundgrenlindqvist.se/development",
+        "full": "shots/_proposed/siteinspire-lundgrenlindqvist-se-2ef478__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design-agency",
+      "web-development",
+      "creative-services"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The initial homepage experience employs a scroll-triggered content replacement system, where scrolling down cycles through distinct full-viewport project showcases. This creates a dynamic, interactive portfolio presentation."
+    },
+    {
+      "kind": "layout",
+      "note": "The site transitions from a dynamic, full-viewport grid layout for its interactive project showcases to a more conventional two-column and single-column text layout for detailed company information and contact sections."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent, clean sans-serif typeface is used across the site, with a strong emphasis on large, bold, uppercase text for primary navigation and section titles, creating clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a minimalist monochrome palette of off-white and black for its structural elements and typography, allowing the vibrant and diverse colors within project imagery and video content to provide visual interest."
+    }
+  ],
+  "technique_notes": [
+    "The homepage features a unique scroll-driven narrative, where scrolling down triggers a full-screen content swap, revealing new project examples. This effect is achieved by fixing the viewport and dynamically replacing the content of large visual panels, often incorporating video or animated elements (css-keyframes, video-hero), while persistent labels (e.g., 'Design+', 'Development') provide context or act as progress indicators.",
+    "The site establishes a sophisticated typographic hierarchy using a single sans-serif font family. Headings and key labels are rendered in a significantly larger size and heavier weight, often in uppercase, while body text remains highly legible at a smaller scale."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e9e9e9",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "dark-text"
+      },
+      {
+        "hex": "#cccccc",
+        "role": "divider"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) for section titles, with smaller, uppercase labels for navigation and sub-sections, all from a single sans-serif family.",
+    "radius": "Sharp corners throughout, with no visible rounded elements.",
+    "spacing": "Airy and spacious in the interactive hero sections, transitioning to a balanced density for contact and information blocks, maintaining clear visual separation."
+  },
+  "standout": "The most distinctive feature is the interactive, scroll-driven homepage experience that cycles through full-bleed project visuals. This creates a dynamic, engaging portfolio presentation that feels more like an editorial experience than a static marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
