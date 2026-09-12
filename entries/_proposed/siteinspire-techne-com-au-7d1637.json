@@ -1,0 +1,106 @@
+{
+  "id": "siteinspire-techne-com-au-7d1637",
+  "source": {
+    "url": "https://techne.com.au",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-11"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-techne-com-au-7d1637.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-techne-com-au-7d1637__scroll0.webp",
+      "shots/_proposed/siteinspire-techne-com-au-7d1637__scroll1.webp",
+      "shots/_proposed/siteinspire-techne-com-au-7d1637__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "http://techne.com.au/studio",
+        "full": "shots/_proposed/siteinspire-techne-com-au-7d1637__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "interior-design",
+      "real-estate"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "color",
+      "note": "A single, vibrant red (#ff4338) is used as the primary accent color, providing strong visual anchors for branding, interactive elements, and key highlights against a predominantly white and black interface."
+    },
+    {
+      "kind": "layout",
+      "note": "Generous use of white space creates an airy and minimalist aesthetic, particularly in the hero and introductory sections, allowing content blocks to breathe and stand out."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero element, a large red rectangle with text, dynamically transforms and shrinks into a smaller, fixed text element as the user scrolls, eventually disappearing to reveal the main page content."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, including image cards and text blocks, are revealed with a subtle fade-up or slide-in animation as they enter the viewport, creating a smooth, staggered appearance."
+    },
+    {
+      "kind": "type",
+      "note": "A consistent, clean sans-serif typeface is used throughout, with clear hierarchy established through varying weights and sizes, often employing uppercase for labels and subheadings to add emphasis."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero features a large, full-width colored block with centered text that dynamically scales down and transforms into a smaller, fixed text element in the viewport as the user scrolls, eventually fading out to reveal the main page content.",
+    "Sections and individual content elements, such as images and text blocks, are revealed with a subtle fade-up or slide-in animation as they scroll into the viewport, creating a staggered appearance effect, consistent with an 'Animate On Scroll' library (aos).",
+    "A minimalist header containing the logo and a hamburger menu remains fixed at the top of the viewport, providing persistent navigation access without distracting from the content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff4338",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#abb8c3",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Balanced and legible; headings are distinct but not overly dominant, body text is clear, and uppercase labels are used for emphasis.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero and initial content sections, transitioning to a more balanced density in the project grids and footer."
+  },
+  "standout": "The site's distinctive use of a single, bold red accent color against a stark white background creates a powerful, minimalist brand identity. The dynamic, transforming hero element that shrinks and reveals content upon scroll is a unique and engaging entry point, setting a sophisticated tone for an architecture and design studio.",
+  "animation_tech": [
+    "aos",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
