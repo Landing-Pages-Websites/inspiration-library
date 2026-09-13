@@ -1,0 +1,100 @@
+{
+  "id": "one-page-love-fromt-app-264b7e",
+  "source": {
+    "url": "https://www.fromt.app",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-fromt-app-264b7e.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-fromt-app-264b7e__scroll0.webp",
+      "shots/_proposed/one-page-love-fromt-app-264b7e__scroll1.webp",
+      "shots/_proposed/one-page-love-fromt-app-264b7e__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "font-management",
+      "design-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial page load presents a unique split layout with a full-height, scrollable information sidebar on the left and a centrally aligned hero section, which then transitions to a purely central hero layout on scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon initial scroll, the extensive content within the left sidebar (product details, feature comparison, FAQ) smoothly slides or fades out of view, revealing a minimalist, centrally focused hero section. The top navigation elements (logo, 'About' link, language selector) and the central hero content remain fixed or re-center."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent display headings use a bold, wide sans-serif font for impact, contrasting with a more neutral, legible sans-serif for body text and functional labels."
+    },
+    {
+      "kind": "color",
+      "note": "A soft, light gradient background provides a subtle, ethereal backdrop, allowing the central white content card and dark text to stand out as the primary focal points."
+    }
+  ],
+  "technique_notes": [
+    "The initial page presents a split layout with a scrollable, information-dense left panel and a central hero. Upon any scroll interaction, the *content* of the left panel is entirely removed from the viewport (e.g., by animating its opacity and transform properties like translateX), while the top navigation elements and the central hero content remain fixed in place or smoothly re-center to fill the available space."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e6f0ff",
+        "role": "background-light-blue"
+      },
+      {
+        "hex": "#f0e6ff",
+        "role": "background-light-purple"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#333333",
+        "role": "text-primary"
+      },
+      {
+        "hex": "#666666",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#555555",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Archivo Black",
+        "role": "display"
+      },
+      {
+        "family": "Nunito",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, wide sans-serif display heading (~3x body) with smaller, functional sans-serif for body text and labels.",
+    "radius": "rounded (card corners, button)",
+    "spacing": "airy in the central hero section, but dense and information-rich in the initial left sidebar."
+  },
+  "standout": "The site's distinctive design lies in its 'reveal' mechanism: an initial, information-heavy left sidebar completely disappears on scroll, transforming the page into a minimalist, centrally focused hero. This creates a unique user journey, first providing detailed context, then shifting to a clean, action-oriented experience.",
+  "animation_tech": [],
+  "status": "proposed"
+}

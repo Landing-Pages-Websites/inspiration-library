@@ -1,0 +1,116 @@
+{
+  "id": "one-page-love-niacreative-co-18de45",
+  "source": {
+    "url": "https://niacreative.co",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-niacreative-co-18de45.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-niacreative-co-18de45__scroll0.webp",
+      "shots/_proposed/one-page-love-niacreative-co-18de45__scroll1.webp",
+      "shots/_proposed/one-page-love-niacreative-co-18de45__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "marketing",
+      "hospitality"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The hero section features an asymmetrical layout with a large text block on the left and a prominent, rounded image on the right, creating a dynamic visual balance."
+    },
+    {
+      "kind": "type",
+      "note": "A bold, geometric sans-serif is used for large section headings, contrasted with a clean, readable sans-serif for body text and a distinct monospace font for metadata and labels."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a largely monochromatic base palette of light grey and dark grey/black, punctuated by rich, earthy tones (dark purple-brown, olive green) for full-width background sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero text, 'nia na', dramatically shrinks and transforms into the site's logo within the sticky navigation bar as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transitions from a transparent, understated initial state to a solid, dark, rounded pill-shaped bar that sticks to the top of the viewport on scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements within them (like portfolio cards) reveal with a subtle fade-up or slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Portfolio items are presented in a responsive grid layout, initially three columns, with each item featuring a rounded image and a small, uppercase label."
+    }
+  ],
+  "technique_notes": [
+    "The site's primary brand identity, initially presented as a large, animated, reflective text element with an embedded image, dynamically transforms and scales down to become the fixed site logo in the header as the user scrolls. This sophisticated animation likely leverages WebGL/Three.js for the initial hero and a scroll-triggered library for the transformation.",
+    "The navigation bar intelligently adapts its appearance on scroll, transitioning from a transparent, understated initial state to a prominent, dark, rounded pill-shaped bar that remains fixed at the top, ensuring persistent access to navigation.",
+    "As the user scrolls, new content sections and individual elements within those sections are introduced with subtle, staggered animations, typically a fade-up or slide-in effect, enhancing engagement and guiding the user's eye through the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8F8F8",
+        "role": "background"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#6B5B6F",
+        "role": "accent-background-1"
+      },
+      {
+        "hex": "#4A5B4A",
+        "role": "accent-background-2"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: xgnl",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Very large, bold display headings (~4-5x body) with smaller, often uppercase, sans-serif and monospace supporting text.",
+    "radius": "Rounded corners are consistently applied to images, buttons, and the sticky navigation bar, giving a soft, modern feel.",
+    "spacing": "Airy, with generous vertical spacing between sections and within content blocks, creating a sense of calm and focus."
+  },
+  "standout": "The site's distinctive use of a large, animated, reflective text element in the hero that transforms on scroll, combined with a sophisticated, earthy color palette and a blend of modern sans-serif and monospace typography, creates a unique and memorable brand experience that feels both artistic and professional.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
