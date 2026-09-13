@@ -1,0 +1,109 @@
+{
+  "id": "one-page-love-aprilleihuanani-com-c52c81",
+  "source": {
+    "url": "https://aprilleihuanani.com",
+    "gallery": "one-page-love",
+    "harvest_date": "2026-09-13"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/one-page-love-aprilleihuanani-com-c52c81.webp",
+    "scroll": [
+      "shots/_proposed/one-page-love-aprilleihuanani-com-c52c81__scroll0.webp",
+      "shots/_proposed/one-page-love-aprilleihuanani-com-c52c81__scroll1.webp",
+      "shots/_proposed/one-page-love-aprilleihuanani-com-c52c81__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "marketing",
+      "content-creation",
+      "personal-branding",
+      "modeling"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, layered collage-style arrangements of images and text blocks, creating a dynamic scrapbook or mood board aesthetic."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive pairing of a bold, modern sans-serif for primary headings and a flowing, elegant serif for display text and emphasis, often with small uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast sections alternating between light (white/beige) and dark (black) backgrounds, punctuated by muted pastel tones within the interactive collage elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered background transitions between solid colors and textured surfaces, combined with layered, interactive collage elements that exhibit subtle parallax and depth as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Clear visual separation of content into distinct, full-width sections, each with a unique background treatment (solid color, textured surface, or interactive collage)."
+    }
+  ],
+  "technique_notes": [
+    "The site uses a scroll-driven animation system to transition between full-width background colors and textures as the user scrolls down the page, creating distinct visual chapters.",
+    "Interactive collage elements are rendered with a 3D library (WebGL/Three.js) to create a sense of depth and subtle parallax, making them appear to float and layer over the content as the user scrolls, rather than being static images.",
+    "Text content is presented in large, high-contrast blocks, often introduced by a smaller, uppercase label, ensuring readability against the dynamically changing backgrounds."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F5F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#E0D4D4",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4E0E0",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0E0D4",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "lgwy",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body) are paired with smaller, uppercase sans-serif labels and an elegant, flowing serif for decorative emphasis.",
+    "radius": "Predominantly sharp corners for structural elements and text blocks, with some collage elements featuring organic, torn-paper edges or subtle rounding.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and within text blocks, creating a sense of calm and allowing the collage elements room to breathe."
+  },
+  "standout": "The site's distinctive use of interactive, layered collage elements that float and parallax against dynamically changing backgrounds creates a highly personalized and engaging scrapbook-like experience, making it feel less like a traditional website and more like an artful, living portfolio.",
+  "animation_tech": [
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
