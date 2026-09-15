@@ -1,0 +1,123 @@
+{
+  "id": "siteinspire-loveandmoney-com-700299",
+  "source": {
+    "url": "https://loveandmoney.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-loveandmoney-com-700299.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-loveandmoney-com-700299__scroll0.webp",
+      "shots/_proposed/siteinspire-loveandmoney-com-700299__scroll1.webp",
+      "shots/_proposed/siteinspire-loveandmoney-com-700299__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://loveandmoney.com/work/fluff",
+        "full": "shots/_proposed/siteinspire-loveandmoney-com-700299__p2.webp"
+      },
+      {
+        "url": "https://loveandmoney.com/work/omega",
+        "full": "shots/_proposed/siteinspire-loveandmoney-com-700299__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "branding",
+      "digital-studio",
+      "ventures"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The 'OUR PLAYBOOK' section uses an asymmetrical two-column layout, featuring large numbered headings and descriptive text on the left, paired with a stack of smaller, related images on the right."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely bold, uppercase, and condensed sans-serif typography is used for primary branding and large section numbers, creating a strong visual hierarchy and impact, contrasting with a more standard sans-serif for body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme of dominant red, black, and off-white is used in large, full-bleed blocks to define distinct sections and create a striking visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, particularly the numbered 'OUR PLAYBOOK' items, are revealed sequentially with a subtle fade-in or slide-up animation as the user scrolls down the page, guiding the narrative flow."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by full-width background color changes (e.g., red hero, black intro, off-white content) and introduced by prominent, often numbered, display typography."
+    }
+  ],
+  "technique_notes": [
+    "The initial full-screen hero, featuring a bold logo and tagline on a vibrant background, scrolls up and out of view to reveal the main content sections below.",
+    "Content blocks and associated imagery are revealed progressively as the user scrolls, utilizing scroll-triggered CSS keyframes to animate elements with a subtle fade-in or slide-up effect as they enter the viewport, creating a dynamic and guided content experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#EAEBE5",
+        "role": "background"
+      },
+      {
+        "hex": "#ECEC3C",
+        "role": "accent"
+      },
+      {
+        "hex": "#86B16A",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Impact",
+        "role": "display"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase display headings (~6-8x body text) for maximum impact, with body text being a standard, legible size.",
+    "radius": "Sharp corners universally, with no visible rounded elements.",
+    "spacing": "Generally airy and spacious, particularly in the 'OUR PLAYBOOK' section, creating a sense of importance and focus for each item, while project grids are more balanced."
+  },
+  "standout": "The site's design is distinctive for its audacious use of a high-contrast red and black palette combined with extremely bold, oversized typography for branding and key section markers. The sequential, scroll-triggered reveal of content, particularly the numbered 'OUR PLAYBOOK' items, creates a unique narrative flow that feels both structured and dynamic, avoiding a typical static content presentation.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

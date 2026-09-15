@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-gilhuybrecht-com-b44ade",
+  "source": {
+    "url": "https://gilhuybrecht.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-gilhuybrecht-com-b44ade.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-gilhuybrecht-com-b44ade__scroll0.webp",
+      "shots/_proposed/siteinspire-gilhuybrecht-com-b44ade__scroll1.webp",
+      "shots/_proposed/siteinspire-gilhuybrecht-com-b44ade__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, distinct content sections with a strong horizontal rhythm, often featuring large, numbered titles and asymmetric arrangements of text and imagery."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, pairing very large, bold, often uppercase sans-serif headings with smaller, regular-weight sans-serif body text and a distinct, narrow sans-serif for metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast black and white base palette, with vibrant, rich colors introduced primarily through full-bleed photography and video content within project showcases."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections and their internal elements reveal with a staggered slide-in or fade-up animation as they enter the viewport during scroll, creating a dynamic, chapter-like progression."
+    },
+    {
+      "kind": "section",
+      "note": "Each primary content section is introduced by a large, sequential number (e.g., '1 Studio Dado', '2 The Lookback') acting as a visual anchor and organizing principle."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed header and footer that remain visible throughout the scroll. Content sections are designed as full-bleed blocks that animate into view using scroll-triggered reveals, where elements within each section (text, images) slide or fade in with a slight delay as the section becomes visible. The hero features an auto-playing background video.",
+    "The visual design relies on a high-contrast black background with white text, using large, bold sans-serif typography for headings to establish a strong visual hierarchy. Project showcases integrate full-bleed imagery and video, often with a minimal text overlay or adjacent text block, to introduce color and detail."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#BA996C",
+        "role": "accent"
+      },
+      {
+        "hex": "#B9281B",
+        "role": "accent"
+      },
+      {
+        "hex": "#38708E",
+        "role": "accent"
+      },
+      {
+        "hex": "#C1BFC0",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Space Mono",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Very large, bold, often uppercase headings (~4-5x body) with smaller, regular-weight body text and a distinct, narrow sans-serif for metadata, creating extreme contrast.",
+    "radius": "sharp",
+    "spacing": "airy, with generous negative space around large headings and between major content sections, contributing to an editorial feel."
+  },
+  "standout": "This site's design is distinctive for its dramatic, full-screen scroll-triggered reveals that make each project feel like a distinct, immersive chapter. The combination of extreme typographic scale, stark black-and-white aesthetic, and generous negative space elevates the portfolio beyond a typical showcase into a high-end, editorial experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

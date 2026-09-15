@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-grafik-co-nz-dc508e",
+  "source": {
+    "url": "https://grafik.co.nz",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-grafik-co-nz-dc508e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-grafik-co-nz-dc508e__scroll0.webp",
+      "shots/_proposed/siteinspire-grafik-co-nz-dc508e__scroll1.webp",
+      "shots/_proposed/siteinspire-grafik-co-nz-dc508e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://grafik.co.nz/about",
+        "full": "shots/_proposed/siteinspire-grafik-co-nz-dc508e__p2.webp"
+      },
+      {
+        "url": "https://grafik.co.nz/gallery",
+        "full": "shots/_proposed/siteinspire-grafik-co-nz-dc508e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "web-development"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetric split-screen layouts are frequently used for hero and content sections, often pairing a full-bleed image on one side with text or a solid color block on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme scale contrast is a key feature, with very large, condensed, uppercase sans-serif fonts dominating headings and display text, while body copy is set in a smaller, more standard sans-serif."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette is employed, centered around a vibrant, almost neon orange, stark black, clean white, and a muted light grey, used in large, solid blocks to define sections."
+    },
+    {
+      "kind": "motion",
+      "note": "A full-width, bright orange section with oversized text acts as a persistent sticky element at the bottom of the viewport, with subsequent main content sections scrolling *over* it, creating a layered depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero image features a subtle parallax scroll effect, where the background image moves at a slower rate than the foreground text as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, often full-viewport-height sections that transition by scrolling vertically, frequently using full-bleed color blocks as visual separators or backgrounds."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a sticky top navigation bar that remains visible throughout the scroll. Main content sections are designed to occupy a significant portion of the viewport height, transitioning by scrolling vertically.",
+    "A distinctive full-width, full-height orange section with oversized typography is introduced early in the scroll, then becomes a sticky element at the bottom of the viewport, with subsequent content sections scrolling *above* it, creating a layered effect. This could be achieved using CSS position: sticky or JavaScript scroll-triggered animations.",
+    "The initial hero image employs a parallax scrolling effect, where the background image moves at a slower rate than the foreground content, enhancing depth. This can be implemented with CSS transforms or JavaScript, potentially leveraging the detected canvas or css-keyframes animation tech."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ff4f00",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#dad9d5",
+        "role": "surface"
+      },
+      {
+        "hex": "#6320ee",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Founders Grotesk X Condensed Semibold",
+        "role": "heading"
+      },
+      {
+        "family": "Die Grotesk A Regular",
+        "role": "body"
+      },
+      {
+        "family": "Die Grotesk A Medium",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed, uppercase headings (up to ~8x body text) create a bold, editorial statement, while body text is set in a legible, regular sans-serif.",
+    "radius": "Sharp corners are consistently used across all elements, from section edges to image containers, contributing to a crisp, modern aesthetic.",
+    "spacing": "Generally airy, especially in hero and full-screen text sections, creating a sense of spaciousness and allowing typography to breathe. The gallery grid is dense but with consistent small gutters."
+  },
+  "standout": "The site's design is distinctive for its audacious use of a vibrant, almost neon orange as a dominant brand color, paired with extremely oversized, condensed typography. This bold aesthetic is further enhanced by a unique scroll interaction where a full-width orange section acts as a sticky base layer, with other content sections scrolling over it, creating a dynamic and memorable visual experience.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
