@@ -1,0 +1,107 @@
+{
+  "id": "siteinspire-macmoss-studio-8cbccd",
+  "source": {
+    "url": "https://macmoss.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-macmoss-studio-8cbccd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-macmoss-studio-8cbccd__scroll0.webp",
+      "shots/_proposed/siteinspire-macmoss-studio-8cbccd__scroll1.webp",
+      "shots/_proposed/siteinspire-macmoss-studio-8cbccd__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "digital-studio"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed left-hand column holds the site logo, while the main content scrolls independently on the right, creating a distinct split-screen experience."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white forms the base, with a vibrant, often glowing, green used sparingly as a primary accent color."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent text, such as titles and section headers, consistently uses a bold, all-caps sans-serif typeface, creating a strong, direct visual impact."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, new content sections are revealed, with text elements animating from a very low-contrast, almost invisible state to a bright, high-contrast state."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into full-width blocks, often with dark backgrounds, that act as distinct visual modules, each introduced with a scroll-triggered reveal."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a fixed-position element for the left-aligned branding area, allowing the main content on the right to scroll independently beneath it.",
+    "Content sections are revealed as the user scrolls, with text elements animating their color or opacity from a subtle, almost invisible state to a prominent, high-contrast state, likely using CSS keyframe animations as detected.",
+    "Visuals leverage stark black backgrounds with bright white or glowing green elements to achieve a high-tech, precise, and modern aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#1DC370",
+        "role": "accent"
+      },
+      {
+        "hex": "#13CA58",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Neue Haas Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Haas Grotesk",
+        "role": "body"
+      },
+      {
+        "family": "Icons",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Large, bold, all-caps sans-serif headings (~3-4x body) with clear hierarchy, body text is clean and legible.",
+    "radius": "sharp",
+    "spacing": "balanced, with generous vertical spacing between full-width content blocks."
+  },
+  "standout": "The site's design is distinctive for its stark, high-contrast aesthetic, combining a fixed left branding column with full-width, scroll-revealed content blocks. The use of glowing green accents against deep black backgrounds creates a precise, almost technical, and very modern feel.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

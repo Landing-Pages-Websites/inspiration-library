@@ -1,0 +1,113 @@
+{
+  "id": "siteinspire-huncwot-com-136b67",
+  "source": {
+    "url": "https://huncwot.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-huncwot-com-136b67.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-huncwot-com-136b67__scroll0.webp",
+      "shots/_proposed/siteinspire-huncwot-com-136b67__scroll1.webp",
+      "shots/_proposed/siteinspire-huncwot-com-136b67__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "digital-agency",
+      "creative-agency",
+      "web-development"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, overlapping grid layout where content blocks (images, text) are arranged dynamically around large, fixed-position section numbers, breaking traditional grid lines."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of oversized, bold, monospaced-style numbers (e.g., '01', '02') as primary section identifiers, creating a strong visual anchor and editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color blocking using a vibrant red, deep dark grays, and crisp whites to define distinct sections and highlight content, often with elements overlapping different background colors."
+    },
+    {
+      "kind": "motion",
+      "note": "Despite the provided scroll sequence showing only a static red background, the complex, layered layout and 'locomotive-scroll' tech hint strongly suggest that content blocks and images animate into view with staggered reveals and subtle parallax effects as the user scrolls, creating a dynamic, unfolding experience."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct, numbered sections with varied background colors and complex, layered content arrangements that often feature large images and concise text blocks."
+    }
+  ],
+  "technique_notes": [
+    "The site likely employs a scroll-based animation framework (such as Locomotive Scroll) to manage the reveal of content. As the user scrolls, elements like images, text blocks, and section numbers would animate into their final positions, often sliding or fading in, while potentially maintaining a fixed or parallaxing background layer, giving a sense of depth and controlled narrative flow.",
+    "The asymmetrical and overlapping layout can be achieved using CSS Grid or Flexbox with careful positioning (e.g., absolute positioning) for elements that break the main flow, combined with z-index management to control layering."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#c12929",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      },
+      {
+        "hex": "#e9eaeb",
+        "role": "light-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#1f2a38",
+        "role": "dark-background"
+      },
+      {
+        "hex": "#dcdcdc",
+        "role": "secondary-light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Monaco",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, monospaced-style numbers (~4-5x body) as section identifiers, complemented by clean sans-serif headings (~2-3x body) and legible body text.",
+    "radius": "sharp",
+    "spacing": "airy between main sections, with content blocks often overlapping or tightly composed within their visual groups, creating a dynamic density."
+  },
+  "standout": "The site's distinctive use of oversized, monospaced-style numbers as primary section markers, combined with an asymmetrical, overlapping grid layout and dynamic scroll-triggered reveals, creates a highly editorial and interactive portfolio experience that feels more like a digital magazine than a typical agency website.",
+  "animation_tech": [
+    "canvas",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

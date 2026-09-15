@@ -1,0 +1,101 @@
+{
+  "id": "siteinspire-emitakahashi-ca-9c7afd",
+  "source": {
+    "url": "https://emitakahashi.ca",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-14"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-emitakahashi-ca-9c7afd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-emitakahashi-ca-9c7afd__scroll0.webp",
+      "shots/_proposed/siteinspire-emitakahashi-ca-9c7afd__scroll1.webp",
+      "shots/_proposed/siteinspire-emitakahashi-ca-9c7afd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://emitakahashi.ca/index-view",
+        "full": "shots/_proposed/siteinspire-emitakahashi-ca-9c7afd__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "visual-arts",
+      "portfolio"
+    ],
+    "mood": [
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The page utilizes a two-column split layout where the right column, containing biographical and project index information, remains fixed, while the left column, displaying project visuals and descriptions, scrolls independently."
+    },
+    {
+      "kind": "type",
+      "note": "Expressive, often oversized display typography (e.g., for project titles) is used to create visual impact, contrasting with a clean, legible sans-serif for body text and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "A stark black and white base palette provides a minimalist canvas, allowing the vibrant and diverse colors within the project imagery and embedded videos to serve as the primary color accents."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls down, the left content column scrolls independently, revealing new project entries and video content, while the right sidebar remains persistently fixed in the viewport, maintaining context."
+    },
+    {
+      "kind": "section",
+      "note": "The right sidebar functions as a persistent 'about and index' panel, offering a static overview of the artist's work and background, while the left area presents a dynamic, chronological feed of individual projects."
+    }
+  ],
+  "technique_notes": [
+    "The page employs a split-screen layout where the right column containing biographical and project index information remains fixed in the viewport, while the left column, displaying project visuals and descriptions, scrolls independently. This creates a persistent context alongside a dynamic content feed. The left column's content includes embedded video elements that play automatically or on interaction, serving as primary visual content for project entries, leveraging the 'video-hero' technique."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ff0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Monument Grotesk Variable",
+        "role": "heading"
+      },
+      {
+        "family": "Diatype Variable",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, often oversized and sometimes decorative display headings (~3-5x body text) with a clean, legible sans-serif for body and navigation text.",
+    "radius": "sharp",
+    "spacing": "Balanced to airy, with generous padding around content blocks in the left scrollable area, creating clear separation between projects."
+  },
+  "standout": "The most distinctive feature is the persistent, fixed right sidebar acting as a comprehensive index and biographical panel, which contrasts with the independently scrolling, visually rich, and dynamically laid out project feed on the left. This creates an editorial, almost archival experience, making the site feel like an interactive, curated publication.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
