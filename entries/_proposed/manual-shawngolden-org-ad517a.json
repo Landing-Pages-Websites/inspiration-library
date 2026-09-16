@@ -1,0 +1,108 @@
+{
+  "id": "manual-shawngolden-org-ad517a",
+  "source": {
+    "url": "https://shawngolden.org",
+    "gallery": "manual",
+    "harvest_date": "2026-09-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-shawngolden-org-ad517a.webp",
+    "scroll": [
+      "shots/_proposed/manual-shawngolden-org-ad517a__scroll0.webp",
+      "shots/_proposed/manual-shawngolden-org-ad517a__scroll1.webp",
+      "shots/_proposed/manual-shawngolden-org-ad517a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "art",
+      "animation",
+      "personal-portfolio"
+    ],
+    "mood": [
+      "playful",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed-width, multi-column grid layout reminiscent of early web design, with content segmented into distinct, bordered rectangular panels."
+    },
+    {
+      "kind": "type",
+      "note": "A deliberate mix of a large, pixelated display font for the main branding and a standard system sans-serif for body text, creating a lo-fi, retro aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly monochrome palette of black, white, and various shades of light grey, with minimal, high-contrast accent colors used sparingly for links and specific labels."
+    },
+    {
+      "kind": "motion",
+      "note": "A multi-layered scrolling effect where a fixed header (including the main title and intro text) remains in place while the central content area scrolls underneath it. A specific text element on the right changes its content ('OPE' to 'SORRY') at a defined scroll point, and a contact email address is revealed progressively as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into clearly delineated, bordered sections, each functioning as a self-contained widget or content block (e.g., drawing canvas, clock, work links)."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that keeps the main title and introductory text visible at the top of the viewport. The primary content area scrolls beneath this fixed header. Additionally, a text element dynamically changes its content based on scroll position, and a contact email address is revealed incrementally through a scroll-triggered horizontal reveal effect, appearing to slide into view from behind a mask. The interactive drawing area is implemented using a canvas element.",
+    "The overall layout is achieved using a fixed-width container centered on the page, with internal content organized into a grid of bordered divs, mimicking a table-based layout from older web design paradigms."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "surface"
+      },
+      {
+        "hex": "#C0C0C0",
+        "role": "border"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "link"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Pixelated",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: System Sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very large, pixelated display font (~4-5x body) contrasts with small, standard sans-serif body text and small uppercase labels.",
+    "radius": "sharp, with all corners at 90-degree angles across all elements.",
+    "spacing": "Dense within individual content panels, but balanced between the large, distinct panels, creating an overall packed yet organized feel."
+  },
+  "standout": "This site's most distinctive feature is its deliberate embrace of a retro, early-internet aesthetic, combining pixel art, hand-drawn elements, a fixed-width table-like layout, and interactive widgets (like the drawing canvas and dynamic text) to create a highly personal and quirky online presence that defies modern design conventions.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
