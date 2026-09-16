@@ -1,0 +1,113 @@
+{
+  "id": "manual-zperinatal-com-12fff6",
+  "source": {
+    "url": "https://zperinatal.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-16"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-zperinatal-com-12fff6.webp",
+    "scroll": [
+      "shots/_proposed/manual-zperinatal-com-12fff6__scroll0.webp",
+      "shots/_proposed/manual-zperinatal-com-12fff6__scroll1.webp",
+      "shots/_proposed/manual-zperinatal-com-12fff6__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "parenting",
+      "child-care",
+      "consulting",
+      "health"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with large, elegant typography on the left and a warm, inviting image on the right, establishing a personal and sophisticated tone."
+    },
+    {
+      "kind": "color",
+      "note": "Alternating soft, muted background colors (cream, light grey, dark brown, soft green, peach) define distinct content sections, creating visual rhythm without harsh transitions."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, elegant serif font for main headings, contrasted with a clean, modern sans-serif for body text and small, subtle mono-spaced accents for labels."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle fade-in and slight upward slide as they enter the viewport, creating a gentle, guided scrolling experience. The main navigation bar sticks to the top after scrolling past the hero, maintaining its original size and appearance."
+    },
+    {
+      "kind": "section",
+      "note": "Integration of whimsical, hand-drawn line illustrations (e.g., bunnies, baby rattles) throughout the page, adding a playful and personal touch to an otherwise elegant design."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-triggered animation system, likely using a library like GSAP ScrollTrigger or similar CSS keyframes, to reveal content sections. As a section's top edge enters the viewport, it fades into view while simultaneously translating slightly upwards, giving a soft, staggered reveal effect. The main navigation bar is implemented as a sticky element that remains fixed at the top of the viewport after the initial hero section scrolls out of view, maintaining its full size and styling.",
+    "The visual design relies on a carefully selected palette of soft, warm, and muted colors for backgrounds and accents, creating a cohesive and inviting atmosphere. Large, elegant serif fonts are used for display text, often set against ample white space, to convey a sense of luxury and expertise. Body text uses a highly legible sans-serif font for clarity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#fffcf2",
+        "role": "background"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#4A3B3C",
+        "role": "text"
+      },
+      {
+        "hex": "#D6C4E0",
+        "role": "accent"
+      },
+      {
+        "hex": "#A7C49B",
+        "role": "background"
+      },
+      {
+        "hex": "#F9E8D4",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "role": "heading"
+      },
+      {
+        "family": "Inter Tight",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:Script MT Bold",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Elegant, oversized serif headings (~3-4x body) with clean sans-serif body text and small, subtle mono-spaced labels.",
+    "radius": "Subtle rounded corners on buttons and cards, contributing to a soft and approachable feel.",
+    "spacing": "Balanced to airy, with generous padding around sections and content blocks, especially in the hero, creating an open and uncrowded layout."
+  },
+  "standout": "The site's distinctive design lies in its sophisticated blend of elegant, large serif typography and a soft, warm, muted color palette, which together create a luxurious yet nurturing and approachable feel. The integration of whimsical, hand-drawn illustrations adds a unique, personal, and memorable touch that elevates it beyond a generic service site.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
