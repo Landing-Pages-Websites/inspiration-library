@@ -1,0 +1,96 @@
+{
+  "id": "manual-artifactproperty-co-nz-354f96",
+  "source": {
+    "url": "https://artifactproperty.co.nz",
+    "gallery": "manual",
+    "harvest_date": "2026-09-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-artifactproperty-co-nz-354f96.webp",
+    "scroll": [
+      "shots/_proposed/manual-artifactproperty-co-nz-354f96__scroll0.webp",
+      "shots/_proposed/manual-artifactproperty-co-nz-354f96__scroll1.webp",
+      "shots/_proposed/manual-artifactproperty-co-nz-354f96__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "real-estate-development"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The brand name is used as a monumental, repeated, and partially overlapping visual element across the hero section, creating a strong, almost sculptural brand identity."
+    },
+    {
+      "kind": "type",
+      "note": "Extreme contrast in type scale, featuring a very large, decorative serif font for the brand name and small, understated sans-serif for navigation and detailed information."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy terracotta background dominates the main content area, providing a rich backdrop for stark black typography and contrasting with a light, neutral beige footer."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the main content area, including the large brand name and central image, scrolls upwards and off-screen, revealing a distinct footer section that appears from the bottom of the viewport."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is constructed by layering multiple instances of the brand name, rendered in a massive serif typeface, with a central image positioned on top, creating a dynamic, stacked visual effect that scrolls with the page content.",
+    "The page employs a straightforward vertical scroll, where the primary content area moves upwards to expose a separate, full-width footer section that slides into view from the bottom."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#684B29",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#F0EBE5",
+        "role": "surface"
+      },
+      {
+        "hex": "#212220",
+        "role": "text-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Takt",
+        "role": "display"
+      },
+      {
+        "family": "Monument Grotesk Medium",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Monumental display serif (~8x body) for the brand name, contrasted with small, understated sans-serif for navigation and footer details.",
+    "radius": "sharp",
+    "spacing": "airy, with significant vertical spacing around the central image and large text elements, transitioning to a more balanced density in the footer."
+  },
+  "standout": "The site's most distinctive feature is its bold, almost sculptural use of the brand name itself as the primary visual element in the hero, repeated and layered with a central image. This creates an immediate, strong brand statement that is highly memorable and deviates significantly from typical hero sections.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

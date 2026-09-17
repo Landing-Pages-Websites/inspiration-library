@@ -1,0 +1,107 @@
+{
+  "id": "manual-sezane-com-06f3a1",
+  "source": {
+    "url": "https://www.sezane.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-sezane-com-06f3a1.webp",
+    "scroll": [
+      "shots/_proposed/manual-sezane-com-06f3a1__scroll0.webp",
+      "shots/_proposed/manual-sezane-com-06f3a1__scroll1.webp",
+      "shots/_proposed/manual-sezane-com-06f3a1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "luxury-retail"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with a dominant, full-bleed editorial photograph on one side, balanced by smaller, curated product images and text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Elegant, high-contrast serif typography (Sezane Serif Web, EB Garamond) is used for the brand logo and display text, paired with a clean, understated sans-serif for navigation and body content."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated palette featuring a warm, off-white background, stark black text, and subtle gold or bronze accents for product details and branding elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image background parallaxes and shifts to reveal more of the model as the user scrolls, while a grid of product or collection images slides in from the right, creating a dynamic content reveal. The top navigation bar also shrinks and gains a solid background on scroll."
+    },
+    {
+      "kind": "section",
+      "note": "The footer is a multi-column layout with distinct categories for help, social media, company information, and legal notices, topped by a prominent newsletter signup form."
+    }
+  ],
+  "technique_notes": [
+    "Uses a scroll-triggered animation system (like locomotive-scroll) where the initial hero image background parallaxes and shifts its position, revealing more of the subject. Simultaneously, a grid of related content or product images animates into view from the side as the user scrolls down the page. The global navigation bar also transitions from transparent to a solid background and slightly reduces in height after the initial scroll."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f8f5f0",
+        "role": "background"
+      },
+      {
+        "hex": "#b2832c",
+        "role": "accent"
+      },
+      {
+        "hex": "#a2944e",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Sezane Serif Web",
+        "role": "display"
+      },
+      {
+        "family": "EB Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous letter-spacing, paired with smaller, clean sans-serif body and navigation text for a refined contrast.",
+    "radius": "Sharp (predominantly rectangular images and button edges, maintaining a crisp, editorial feel).",
+    "spacing": "Airy (generous whitespace is used throughout, particularly in the hero and around footer elements, contributing to a luxurious and uncluttered aesthetic)."
+  },
+  "standout": "The site's distinctive use of asymmetrical, editorial-style photography in the hero section, combined with subtle scroll-triggered content reveals, creates a luxurious and immersive brand experience that feels more like a magazine spread than a typical e-commerce homepage. The blend of high-fashion imagery with understated typography and motion sets it apart.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
