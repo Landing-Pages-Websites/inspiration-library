@@ -1,0 +1,97 @@
+{
+  "id": "manual-ilcapoproduction-com-fcfadd",
+  "source": {
+    "url": "https://ilcapoproduction.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-ilcapoproduction-com-fcfadd.webp",
+    "scroll": [
+      "shots/_proposed/manual-ilcapoproduction-com-fcfadd__scroll0.webp",
+      "shots/_proposed/manual-ilcapoproduction-com-fcfadd__scroll1.webp",
+      "shots/_proposed/manual-ilcapoproduction-com-fcfadd__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "luxury",
+      "entertainment",
+      "fashion"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-emotion-first"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A full-bleed, immersive media reel is presented as the primary content, with individual video or image clips separated by thin black horizontal bars, creating a cinematic sequence."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast color scheme is used, primarily featuring a vibrant red, deep black, and the natural tones of the photographic/video content."
+    },
+    {
+      "kind": "motion",
+      "note": "An initial full-screen red intro panel with the brand name slides upwards on scroll, acting as a curtain to reveal the continuous, full-bleed video and image sequence beneath it."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle numerical scroll progress indicator is displayed at the bottom of the initial intro screen, updating as the user scrolls."
+    },
+    {
+      "kind": "type",
+      "note": "The brand name is presented in an extremely large, bold, uppercase sans-serif font, creating a strong visual statement that contrasts with the smaller, refined uppercase navigation text."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-screen, static intro panel that acts as a visual curtain. On scroll, this panel animates by sliding upwards, revealing a continuous, full-bleed sequence of video clips and high-resolution images that fill the viewport.",
+    "Navigation elements appear with a subtle fade-in or slide-down effect once the initial intro panel has scrolled out of view, maintaining a clean aesthetic during the initial experience.",
+    "A numerical scroll progress indicator is dynamically updated at the bottom of the initial intro screen, providing subtle feedback on scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d60001",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: IvarDisplay",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: sans-serif",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold display text (~8x body) for the brand name, contrasting with small, refined uppercase navigation.",
+    "radius": "sharp",
+    "spacing": "Very airy on the intro screen, transitioning to dense full-bleed media sections with minimal separation."
+  },
+  "standout": "The site's distinctive design lies in its dramatic, full-screen red intro that acts as a 'curtain reveal,' transitioning into an immersive, cinematic video and image reel on scroll. This creates a highly theatrical and experiential brand introduction.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

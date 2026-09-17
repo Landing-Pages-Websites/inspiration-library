@@ -1,0 +1,110 @@
+{
+  "id": "manual-isaacleon-cargo-site-2cd446",
+  "source": {
+    "url": "https://isaacleon.cargo.site",
+    "gallery": "manual",
+    "harvest_date": "2026-09-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-isaacleon-cargo-site-2cd446.webp",
+    "scroll": [
+      "shots/_proposed/manual-isaacleon-cargo-site-2cd446__scroll0.webp",
+      "shots/_proposed/manual-isaacleon-cargo-site-2cd446__scroll1.webp",
+      "shots/_proposed/manual-isaacleon-cargo-site-2cd446__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site features a stark contrast between an extremely airy, minimalist hero section and a subsequent dense, irregular grid of diverse project images that fills the remaining page content."
+    },
+    {
+      "kind": "type",
+      "note": "The hero section uses an oversized, almost full-width heading for the designer's name, creating a bold and impactful initial statement."
+    },
+    {
+      "kind": "color",
+      "note": "A monochrome base of white background and black text provides a clean canvas, allowing the vibrant and diverse colors within the project images to stand out as the primary visual interest."
+    },
+    {
+      "kind": "motion",
+      "note": "A minimal header containing a hamburger menu and a 'Start project' call-to-action remains sticky at the top of the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "The main content area is a continuous, unsegmented flow of project thumbnails, presented without explicit section dividers or headings, creating a gallery-like experience."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header with a hamburger menu and a call-to-action link remains fixed at the top of the viewport as the user scrolls, while the main content scrolls underneath it. Content sections, primarily a dense grid of project images, reveal statically as they enter the viewport, without additional scroll-triggered animations like fade-ins or slides. Any detected css-keyframes are likely used for subtle hover effects or initial page load animations not visible in the scroll sequence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#CFFF00",
+        "role": "accent"
+      },
+      {
+        "hex": "#0000FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF8C00",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Neue Haas Grotesk",
+        "role": "heading"
+      },
+      {
+        "family": "Neue Haas Grotesk",
+        "role": "body"
+      },
+      {
+        "family": "Icons",
+        "role": "display"
+      }
+    ],
+    "type_scale": "An extremely oversized, bold hero heading (~8x body) dominates the initial view, with body text and labels in a standard, clean sans-serif.",
+    "radius": "Mostly sharp corners, with very subtle rounding on some product images or interactive elements.",
+    "spacing": "A very airy hero section with generous whitespace transitions into an extremely dense grid of project images with minimal guttering, followed by a balanced footer."
+  },
+  "standout": "The site's distinctiveness lies in the dramatic shift from an ultra-minimalist, oversized typographic hero to an overwhelming, maximalist, and visually rich collage of diverse project work. This contrast effectively showcases both a refined aesthetic and a vast portfolio range.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
