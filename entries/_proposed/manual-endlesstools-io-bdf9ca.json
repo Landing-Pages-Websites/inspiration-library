@@ -1,0 +1,104 @@
+{
+  "id": "manual-endlesstools-io-bdf9ca",
+  "source": {
+    "url": "https://endlesstools.io",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-endlesstools-io-bdf9ca.webp",
+    "scroll": [
+      "shots/_proposed/manual-endlesstools-io-bdf9ca__scroll0.webp",
+      "shots/_proposed/manual-endlesstools-io-bdf9ca__scroll1.webp",
+      "shots/_proposed/manual-endlesstools-io-bdf9ca__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "software",
+      "creative-tools"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dark, full-bleed background unifies the entire page, with content sections centered and given ample vertical spacing to create a clean, airy feel."
+    },
+    {
+      "kind": "type",
+      "note": "Section headings use a large, bold sans-serif typeface, often highlighting key words with an underline or distinct color to draw attention to core concepts."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of dark grey/black backgrounds with white primary text, accented by a vibrant pink/purple for interactive elements and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent header bar remains fixed at the top of the viewport during scroll, providing continuous access to navigation. The hero section features a complex, diagrammatic illustration where elements are likely animated or revealed dynamically, possibly using video or SVG animation, to explain the product's core concept."
+    },
+    {
+      "kind": "section",
+      "note": "Complex processes and features are explained through interactive, diagrammatic visuals and flowcharts rather than dense text, making the information digestible and engaging."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header element is implemented to remain at the top of the screen as the user scrolls, ensuring navigation and key calls to action are always accessible.",
+    "The hero section incorporates a dynamic visual explanation, likely using a video or advanced SVG animation, where various graphic elements and connecting lines animate to illustrate a workflow or concept.",
+    "Content sections are presented against a dark, full-bleed background, using large, high-contrast typography for readability and visual impact."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#080808",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#959595",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#FF007F",
+        "role": "accent"
+      },
+      {
+        "hex": "#343434",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (approx. 3-4x body size) with a clean, legible body text. Key words in headings are often underlined or highlighted.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons, input fields, and card elements, providing a soft modern touch.",
+    "spacing": "Airy, with generous vertical padding between sections and elements, creating a sense of spaciousness and clarity, especially in the hero and explanatory diagrams."
+  },
+  "standout": "The site's standout feature is its sophisticated use of interactive, diagrammatic visuals to explain complex workflows and features. Instead of static images or lengthy text, it employs a dynamic, almost infographic-like approach that makes the product's value immediately clear and engaging, especially within a dark, minimalist aesthetic.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

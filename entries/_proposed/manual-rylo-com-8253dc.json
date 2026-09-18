@@ -1,0 +1,121 @@
+{
+  "id": "manual-rylo-com-8253dc",
+  "source": {
+    "url": "https://rylo.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-rylo-com-8253dc.webp",
+    "scroll": [
+      "shots/_proposed/manual-rylo-com-8253dc__scroll0.webp",
+      "shots/_proposed/manual-rylo-com-8253dc__scroll1.webp",
+      "shots/_proposed/manual-rylo-com-8253dc__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "health",
+      "accessibility",
+      "saas"
+    ],
+    "mood": [
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections alternate between light beige and dark charcoal backgrounds, creating clear visual separation and rhythm down the page."
+    },
+    {
+      "kind": "type",
+      "note": "Headings use a bold, modern sans-serif font in significantly larger sizes than body text, establishing a clear hierarchy and strong visual impact."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant orange is consistently used as an accent color for CTAs, icons, and key interactive elements, standing out against a largely neutral palette of blue-greys, dark charcoals, and light beiges."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic background that transitions from a lighter blue-grey to a darker shade as the user scrolls, while the main hero image (person's head) exhibits a subtle parallax effect, moving slower than the foreground content."
+    },
+    {
+      "kind": "motion",
+      "note": "The primary navigation bar transforms from a transparent overlay on the hero to an opaque, solid-background bar with a subtle shadow once the user scrolls past the initial hero content."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections below the hero reveal themselves with a staggered fade-up or slide-in animation as they enter the viewport, creating a guided discovery experience."
+    },
+    {
+      "kind": "section",
+      "note": "Testimonials are presented within a horizontally scrollable carousel, allowing users to browse multiple social proofs without consuming excessive vertical space."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sophisticated scroll-triggered animation system, likely using `locomotive-scroll`, to create smooth parallax effects on large background images and hero elements. This system also orchestrates the dynamic transformation of the sticky header, changing its background color and opacity based on scroll depth. Content sections are revealed using CSS keyframe animations, appearing with a subtle fade-up or slide-in as they enter the viewport, enhancing engagement.",
+    "Full-bleed, emotive photography of real people is used extensively, often with subtle dark overlays to ensure text readability, creating a strong human connection and sense of empathy.",
+    "Interactive elements like FAQs are implemented as accordions, allowing users to expand and collapse content to manage information density."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#4a6e8f",
+        "role": "hero-background-initial"
+      },
+      {
+        "hex": "#365471",
+        "role": "hero-background-scrolled"
+      },
+      {
+        "hex": "#ff8c2b",
+        "role": "accent-cta"
+      },
+      {
+        "hex": "#222222",
+        "role": "dark-background-text"
+      },
+      {
+        "hex": "#faf5f2",
+        "role": "light-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "white-text"
+      },
+      {
+        "hex": "#3c5f4e",
+        "role": "section-background-green"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~3-4x body) with clear, legible body text, creating a modern and impactful typographic hierarchy.",
+    "radius": "Subtle rounding on buttons and card elements, contributing to a soft, approachable feel.",
+    "spacing": "Generally airy, with generous vertical spacing between major sections and balanced padding within content blocks, creating a sense of openness and ease of readability."
+  },
+  "standout": "The site's distinctive use of large, authentic photography of diverse individuals, integrated seamlessly with dynamic scroll-triggered animations, creates a deeply empathetic and engaging user experience. The changing hero background and transforming sticky header add a premium, interactive feel that elevates it beyond a standard marketing page.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

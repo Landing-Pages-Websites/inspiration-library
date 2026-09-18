@@ -1,0 +1,111 @@
+{
+  "id": "manual-bueno-art-c54aaa",
+  "source": {
+    "url": "https://bueno.art",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-bueno-art-c54aaa.webp",
+    "scroll": [
+      "shots/_proposed/manual-bueno-art-c54aaa__scroll0.webp",
+      "shots/_proposed/manual-bueno-art-c54aaa__scroll1.webp",
+      "shots/_proposed/manual-bueno-art-c54aaa__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "generative-art",
+      "nft",
+      "creative-tools"
+    ],
+    "mood": [
+      "bold",
+      "luxe",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses a dark, full-bleed background with content sections centered and constrained, creating a focused presentation against a rich, immersive backdrop."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, dark gradient background (from dark grey to black) is consistently used across sections, contrasted with vibrant purple for primary calls-to-action and key accents."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif font, often with a gradient fill, creating a strong visual hierarchy against smaller, legible body text and uppercase labels for statistics."
+    },
+    {
+      "kind": "motion",
+      "note": "Illustrative NFT-like cards in the hero section parallax subtly against the background as the user scrolls, creating a sense of depth and dynamism."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal themselves with a subtle fade-in and slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width sections that alternate between large text blocks, horizontal carousels of feature cards, and grid layouts for story cards."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the immersive background, a dark radial or linear gradient is applied across the entire page, providing a canvas for vibrant foreground elements.",
+    "The hero section features floating, illustrative elements that are animated with a subtle parallax effect using CSS transforms or GSAP, moving at a slower rate than the scroll to create depth.",
+    "The primary navigation bar transitions from a transparent state to a solid, dark background with a subtle shadow or border once the user scrolls past the hero section, maintaining visibility and context."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1A1A1A",
+        "role": "background"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "accent"
+      },
+      {
+        "hex": "#5D00B0",
+        "role": "cta"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "surface-text-subtle"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold headings (~3-4x body) with a gradient fill, complemented by clear, legible body text and small uppercase labels for statistics.",
+    "radius": "Subtle rounded corners (e.g., 8-12px) are consistently applied to buttons, cards, and input fields, providing a soft, modern feel.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, creating a sense of openness, while card grids maintain a tighter, organized rhythm."
+  },
+  "standout": "The site's distinctive use of a deep, dark, gradient background combined with vibrant purple accents and playful, illustrative NFT-like elements creates a unique blend of modern tech and creative expression. The subtle parallax motion of these elements in the hero adds significant depth and visual interest, setting it apart from typical marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper"
+  ],
+  "status": "proposed"
+}
