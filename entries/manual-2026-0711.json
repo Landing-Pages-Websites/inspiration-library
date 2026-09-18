@@ -1,0 +1,94 @@
+{
+  "id": "manual-2026-0711",
+  "source": {
+    "url": "https://artefakt.mov",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0711.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0711__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0711__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0711__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "production-studio",
+      "film",
+      "digital-art",
+      "creative-agency"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A sparse, grid-aligned layout with significant negative space creates a terminal-like interface feel, emphasizing individual content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Exclusive use of a monospaced font for all text, including navigation, headings, and body copy, reinforces a digital, code-like aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast black and white color scheme dominates the entire site, creating a bold and minimal visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, dynamic text animation composed of constantly shifting ASCII-like characters, creating a glitchy, digital art effect that is present on page load and persists."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are introduced with large, uppercase, monospaced headings aligned to a strict grid, maintaining the overall terminal interface aesthetic."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a full-screen canvas animation to render a large, dynamic text effect using shifting ASCII characters, creating a glitch art aesthetic.",
+    "The entire page background features a subtle, persistent scanline or static overlay effect, achieved via a canvas or CSS overlay, to enhance the retro digital screen aesthetic.",
+    "The primary navigation remains fixed at the top of the viewport, maintaining accessibility to key links regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely large, character-animated hero text (approx. 8-10x body text) paired with very small, uppercase monospaced body and label text.",
+    "radius": "sharp",
+    "spacing": "very airy, especially in the hero and footer areas, with content elements spread out to emphasize individual pieces of information."
+  },
+  "standout": "The site's distinctive use of a full-screen, constantly animating ASCII-art text effect in the hero, combined with a pervasive terminal-interface aesthetic, creates a unique and memorable digital experience that feels both retro and futuristic.",
+  "animation_tech": [
+    "canvas",
+    "video-hero"
+  ],
+  "status": "approved"
+}

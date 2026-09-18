@@ -1,0 +1,121 @@
+{
+  "id": "manual-2026-0722",
+  "source": {
+    "url": "https://relume.io",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0722.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0722__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0722__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0722__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "website-builder",
+      "ai-tools"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, full-width sections with generous negative space, often featuring a prominent central element like an input field or large, animated text."
+    },
+    {
+      "kind": "type",
+      "note": "Oversized, bold sans-serif headings for high impact, contrasted with smaller, uppercase labels and clear, readable body text."
+    },
+    {
+      "kind": "color",
+      "note": "A limited palette of light background, dark text, and two high-contrast, vibrant accent colors (pink/purple and orange/yellow) used for interactive elements and abstract graphics."
+    },
+    {
+      "kind": "motion",
+      "note": "Large, abstract 3D geometric shapes are fixed in the background or parallax very slowly, creating a layered depth effect as page content scrolls over them."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections reveal with a subtle slide-up or fade-in animation as they enter the viewport, enhancing content flow."
+    },
+    {
+      "kind": "section",
+      "note": "A prominent hero section immediately features an interactive input field and a clear call to action, directly engaging the user with the product's core functionality."
+    }
+  ],
+  "technique_notes": [
+    "A sticky header and a persistent cookie banner remain fixed at the top and bottom of the viewport respectively, providing continuous navigation and compliance information.",
+    "Large, abstract 3D geometric shapes are rendered using WebGL or canvas and positioned in the background with a fixed or very slow parallax effect, creating a sense of depth and visual interest as foreground content scrolls past them.",
+    "Content sections are revealed using a scroll-triggered animation, likely implemented with GSAP ScrollTrigger, typically a subtle slide-up or fade-in effect as they enter the user's viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f1f0ee",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1d1d",
+        "role": "text"
+      },
+      {
+        "hex": "#ff00f4",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffc000",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#343434",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Geist",
+        "role": "heading"
+      },
+      {
+        "family": "Geist",
+        "role": "body"
+      },
+      {
+        "family": "Geist Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (~4-5x body text) with smaller, uppercase labels and clear, readable body text.",
+    "radius": "Subtle, with a slight curve on interactive elements like buttons, input fields, and cards.",
+    "spacing": "Balanced to airy, particularly in hero sections and between major content blocks, with content within cards being more dense."
+  },
+  "standout": "The distinctive use of large, abstract 3D geometric shapes that are fixed or slowly parallax in the background, combined with a vibrant accent color palette, creates a unique visual identity. This is further enhanced by the playful, blocky animation style applied to key text elements, moving beyond a typical clean SaaS aesthetic.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "gsap",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "approved"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0716",
+  "source": {
+    "url": "https://glyphy.io",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0716.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0716__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0716__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0716__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "tools",
+      "utility",
+      "creative-tools",
+      "font-generator"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses full-width, color-blocked sections for primary navigation and calls-to-action, followed by dense grid-based and list-based content sections."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, multi-color gradient palette is applied to the main service categories, creating a distinct visual hierarchy and energetic feel against a predominantly dark background."
+    },
+    {
+      "kind": "motion",
+      "note": "The header bar dynamically reduces in height and becomes sticky at the top of the viewport after initial scroll, ensuring persistent navigation while optimizing screen space."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold sans-serif typography is used for the main brand identity and key section titles, creating a strong, impactful visual presence."
+    },
+    {
+      "kind": "section",
+      "note": "Primary service categories are presented as distinct, full-width, color-gradient blocks, each acting as a prominent, visually segmented call-to-action."
+    }
+  ],
+  "technique_notes": [
+    "The header implements a sticky behavior where it reduces in height and maintains its position at the top of the viewport after the initial scroll, ensuring persistent navigation. Content sections are revealed by standard vertical scrolling, with no additional scroll-triggered animations like fade-ins or parallax effects."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#060606",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FDC02F",
+        "role": "accent"
+      },
+      {
+        "hex": "#F87B2E",
+        "role": "accent"
+      },
+      {
+        "hex": "#F03F54",
+        "role": "accent"
+      },
+      {
+        "hex": "#B41F50",
+        "role": "accent"
+      },
+      {
+        "hex": "#6B1F50",
+        "role": "accent"
+      },
+      {
+        "hex": "#EAE3D6",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: system-ui",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: system-ui",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif headings (e.g., ~5x body text) create strong visual anchors, contrasted with smaller, functional sans-serif for body and label text.",
+    "radius": "Subtle rounded corners are consistently applied to interactive elements like buttons, input fields, and content cards.",
+    "spacing": "Balanced spacing in the initial hero and gradient sections transitions to a denser layout for the extensive content grids and lists further down the page."
+  },
+  "standout": "The most distinctive feature is the use of a vibrant, multi-color gradient applied to full-width, stacked sections that serve as primary navigation and calls-to-action. This creates a highly energetic and visually segmented introduction to the site's diverse offerings, standing out against the dark, content-rich background.",
+  "animation_tech": [],
+  "status": "approved"
+}

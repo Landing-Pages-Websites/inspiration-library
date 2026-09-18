@@ -1,0 +1,112 @@
+{
+  "id": "manual-2026-0715",
+  "source": {
+    "url": "https://eraser.io",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0715.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0715__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0715__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0715__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "developer-tools",
+      "ai",
+      "diagramming"
+    ],
+    "mood": [
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections are full-width with a consistent maximum content width, centered on the page, often featuring a two-column layout for text and an illustrative diagram or screenshot."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, dark gray headings are used for primary section titles, contrasting with lighter, smaller body text, creating a clear visual hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The primary color palette is monochromatic with white and various shades of light gray for backgrounds, dark gray for text, and a single vibrant blue used consistently for calls to action and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar remains sticky at the top of the viewport upon scroll, and the hero section's illustrative diagram appears to be fixed or subtly parallaxed in the background as the textual content scrolls over it."
+    },
+    {
+      "kind": "section",
+      "note": "Feature sections frequently pair a descriptive text block with a detailed product screenshot or diagram, emphasizing the visual output of the tool."
+    }
+  ],
+  "technique_notes": [
+    "The main navigation bar is implemented as a sticky header that remains visible at the top of the viewport throughout the scroll, providing persistent access to navigation links and primary calls to action.",
+    "The hero section utilizes a fixed or subtly parallaxing background image (the diagram) that stays in place or moves at a slower rate than the foreground content as the user scrolls, creating a sense of depth.",
+    "Content sections are structured using a flexible grid system, allowing for responsive two-column layouts that stack vertically on smaller screens, often alternating between text-left/image-right and image-left/text-right arrangements."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F6F6F6",
+        "role": "surface"
+      },
+      {
+        "hex": "#1C1C1C",
+        "role": "heading"
+      },
+      {
+        "hex": "#3A3A3A",
+        "role": "body-text"
+      },
+      {
+        "hex": "#2A6FDB",
+        "role": "cta"
+      },
+      {
+        "hex": "#C9C9C9",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#E8E8E8",
+        "role": "border"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter var",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold headings (~3-4x body) with clear hierarchy, supported by legible body text and smaller, often uppercase labels.",
+    "radius": "Subtle rounding on buttons, input fields, and card-like elements, maintaining a clean and modern feel.",
+    "spacing": "Balanced and airy, with generous vertical spacing between sections and within the hero, creating a sense of openness and readability."
+  },
+  "standout": "This site stands out by making complex technical diagrams visually appealing and central to its marketing, effectively demonstrating the product's core value through high-fidelity examples. The design combines a clean, almost minimalist aesthetic with detailed product visuals, making a technical tool feel accessible and powerful.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}

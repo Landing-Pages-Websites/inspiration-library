@@ -1,0 +1,104 @@
+{
+  "id": "manual-2026-0727",
+  "source": {
+    "url": "https://wastetide.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0727.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0727__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0727__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0727__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "waste-management",
+      "environmental-services",
+      "saas"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "problem-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width content sections with strong vertical separation, often using alternating dark and light backgrounds to delineate distinct content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely large, bold, uppercase sans-serif headlines dominate each section, creating a powerful visual hierarchy and direct communication."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast, limited color palette of black, white, and a single vibrant orange accent is used consistently for text, backgrounds, and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal sequentially by sliding up into the viewport as the user scrolls, creating a clear, progressive narrative flow. The main navigation bar remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "The hero section features a fragmented, deconstructed image that acts as a striking visual backdrop for the oversized headline, setting an industrial yet artistic tone."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed sequentially as the user scrolls, sliding up into the viewport with a subtle entrance animation, likely orchestrated using GSAP ScrollTrigger. The main navigation bar remains fixed at the top of the page. The hero features a large, fragmented image that serves as a striking visual element, potentially implemented with canvas or GSAP for its initial appearance or subtle background animation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FF451A",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#222222",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat Black",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "oversized, bold, uppercase headings (~4-5x body text size) with smaller, legible body text and even smaller uppercase labels for emphasis.",
+    "radius": "sharp corners are used consistently across all elements, including buttons, cards, and image frames.",
+    "spacing": "balanced to airy, with generous vertical padding between full-width sections and well-spaced text blocks, especially in the hero area."
+  },
+  "standout": "The site's design is distinctive for its bold, almost aggressive typography, particularly the fragmented hero image and the direct, oversized headlines. This, combined with the stark black, white, and orange palette, creates a unique industrial-artistic aesthetic that feels both modern and impactful, moving beyond a generic corporate look.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "swiper"
+  ],
+  "status": "approved"
+}

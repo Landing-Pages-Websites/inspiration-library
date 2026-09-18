@@ -1,0 +1,114 @@
+{
+  "id": "manual-2026-0710",
+  "source": {
+    "url": "https://artboard.studio",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0710.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0710__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0710__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0710__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-tools",
+      "creative-software"
+    ],
+    "mood": [
+      "bold",
+      "minimal",
+      "playful"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width content sections with either image-heavy displays or text-focused descriptions, creating a clear visual rhythm down the page."
+    },
+    {
+      "kind": "color",
+      "note": "Strategic use of a vibrant, almost neon, lime green as a primary accent color for CTAs, highlights, and interactive elements, contrasting sharply with a clean, light background."
+    },
+    {
+      "kind": "type",
+      "note": "Large, bold, sans-serif headings establish a strong hierarchy, complemented by a clean, legible sans-serif for body text, maintaining a modern and direct tone."
+    },
+    {
+      "kind": "motion",
+      "note": "Sections and content blocks reveal with a subtle fade-in and slide-up animation as they enter the viewport during scroll, creating a dynamic and engaging content flow."
+    },
+    {
+      "kind": "layout",
+      "note": "Extensive use of grid layouts for displaying diverse mockup examples, allowing for easy scanning and showcasing the breadth of the product's capabilities."
+    }
+  ],
+  "technique_notes": [
+    "Sections are revealed using a scroll-triggered animation system (likely GSAP ScrollTrigger, as hinted) where content fades up and slides into place as it enters the viewport. This applies to major content blocks and image grids.",
+    "The site employs a fixed chat bubble element that remains visible in the bottom right corner across all scroll depths, providing persistent access to support.",
+    "A subtle, fixed background gradient provides a soft visual texture without distracting from the foreground content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "surface"
+      },
+      {
+        "hex": "#1B1B1B",
+        "role": "text"
+      },
+      {
+        "hex": "#99FF00",
+        "role": "cta"
+      },
+      {
+        "hex": "#6358DE",
+        "role": "accent"
+      },
+      {
+        "hex": "#78BEFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#EFEFFC",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Vend Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Vend Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with a clean, modern sans-serif for body text, maintaining strong readability and hierarchy.",
+    "radius": "Subtle rounded corners (small radius) are consistently applied to buttons, cards, and input fields, softening the overall aesthetic.",
+    "spacing": "Balanced to airy spacing, particularly in hero and between major sections, creating a sense of openness and allowing content to breathe."
+  },
+  "standout": "The site's distinctive use of vibrant, almost neon, accent colors (lime green, bright purple, sky blue) against a predominantly clean, light background immediately grabs attention. This bold color palette, combined with dynamic, realistic product mockups, makes the design feel exceptionally fresh, modern, and energetic, elevating it beyond typical SaaS marketing sites.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "approved"
+}

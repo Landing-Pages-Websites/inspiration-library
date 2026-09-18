@@ -1,0 +1,108 @@
+{
+  "id": "manual-2026-0724",
+  "source": {
+    "url": "https://thedesignsystem.guide",
+    "gallery": "manual",
+    "harvest_date": "2026-09-18"
+  },
+  "screenshot": {
+    "full": "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0724.webp",
+    "scroll": [
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0724__scroll0.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0724__scroll1.webp",
+      "https://landing-pages-websites.github.io/inspiration-library/shots/manual-2026-0724__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "saas",
+      "design-systems",
+      "education"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is presented in full-width sections with a consistent maximum content width, centered horizontally, often using card-based grids for listings."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section headings feature a distinctive 'bubble' effect where text is set against a rounded, light-colored background shape, creating a playful yet bold visual identity."
+    },
+    {
+      "kind": "color",
+      "note": "A dark background (#121212) serves as the primary canvas, contrasted with vibrant, gradient-filled abstract shapes in the hero and lime green (#aeff00) used for accents and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "The header navigation transforms upon scroll, changing its background from transparent to a solid dark color and potentially reducing its padding, while remaining sticky at the top of the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage is structured into distinct, full-width sections, each serving a clear purpose (hero, social proof, newsletter signup, course listings, resources), often delineated by subtle changes in background color or texture."
+    }
+  ],
+  "technique_notes": [
+    "Hero and section headings are styled with a unique 'bubble' effect, where the text is visually contained within a rounded, light-colored background shape that appears to float behind the text.",
+    "A sticky header is implemented that dynamically changes its background from transparent to a solid dark color and adjusts its vertical padding as the user scrolls past the initial hero section.",
+    "Content sections are revealed as they enter the viewport during scrolling, maintaining a smooth visual flow without complex staggered animations, relying on standard scroll behavior for content visibility."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121212",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "text"
+      },
+      {
+        "hex": "#aeff00",
+        "role": "accent"
+      },
+      {
+        "hex": "#d0d6e0",
+        "role": "surface"
+      },
+      {
+        "hex": "#8e95a6",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#282836",
+        "role": "surface-card"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Sans",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold display headings (~3-4x body) with a distinctive 'bubble' background, complemented by clear, readable body text and small uppercase labels.",
+    "radius": "Rounded corners on cards, buttons, and the 'bubble' text backgrounds, creating a soft, approachable feel.",
+    "spacing": "Balanced spacing overall, with a more airy hero section and consistent vertical rhythm between content blocks."
+  },
+  "standout": "The site's most distinctive design element is the use of large, bold headings set within rounded, light-colored 'bubbles'. This unique typographic treatment, combined with vibrant abstract graphics against a dark, modern background, creates a highly memorable and playful brand identity that stands out from typical tech marketing sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "approved"
+}
