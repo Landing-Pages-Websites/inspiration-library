@@ -1,0 +1,94 @@
+{
+  "id": "manual-visuelle-co-uk-9ad340",
+  "source": {
+    "url": "https://visuelle.co.uk",
+    "gallery": "manual",
+    "harvest_date": "2026-09-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-visuelle-co-uk-9ad340.webp",
+    "scroll": [
+      "shots/_proposed/manual-visuelle-co-uk-9ad340__scroll0.webp",
+      "shots/_proposed/manual-visuelle-co-uk-9ad340__scroll1.webp",
+      "shots/_proposed/manual-visuelle-co-uk-9ad340__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A dense, multi-column grid of project thumbnails dominates the page, with a consistent gutter between items. The grid is the primary content display, extending vertically for a long scroll."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast dark mode, using a black background for the UI and white text, allowing the vibrant and diverse colors within the project thumbnails to stand out prominently."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header containing the site logo and project filter categories remains fixed at the top of the viewport as the user scrolls down the extensive project grid. Project thumbnails appear to subtly reveal with a fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "type",
+      "note": "The site's navigational and informational text uses a clean, modern sans-serif typeface, maintaining a minimalist aesthetic that defers visual emphasis to the project content."
+    },
+    {
+      "kind": "section",
+      "note": "The entire homepage functions as a single, continuous scrollable section dedicated to showcasing a vast portfolio of work, broken only by the persistent sticky header."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a smooth scrolling library (like locomotive-scroll) to create a fluid and enhanced scrolling experience. A sticky header, containing the site's branding and a filter menu, is implemented to remain visible at the top of the screen. Individual project grid items are designed to reveal with a subtle animation, such as a fade-in or a slight upward translation, as they become visible within the user's viewport during scrolling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#333333",
+        "role": "subtle-line-or-inactive-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "The site title is moderately larger than the body text, which is used for navigation and filters. Project titles within the grid vary widely as they are part of the project's visual identity.",
+    "radius": "sharp",
+    "spacing": "The project grid is dense with consistent, moderate gutters, while the sticky header area maintains an airy feel with generous padding."
+  },
+  "standout": "The site's design is distinctive for its stark, minimalist presentation that acts as a sophisticated frame for an overwhelming volume of high-quality, diverse visual work. It masterfully curates a vast portfolio into a single, continuously scrolling, dark-themed grid, making the work itself the undeniable hero.",
+  "animation_tech": [
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

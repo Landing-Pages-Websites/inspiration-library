@@ -1,0 +1,105 @@
+{
+  "id": "manual-jackandjill-ai-5a18e1",
+  "source": {
+    "url": "https://www.jackandjill.ai",
+    "gallery": "manual",
+    "harvest_date": "2026-09-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-jackandjill-ai-5a18e1.webp",
+    "scroll": [
+      "shots/_proposed/manual-jackandjill-ai-5a18e1__scroll0.webp",
+      "shots/_proposed/manual-jackandjill-ai-5a18e1__scroll1.webp",
+      "shots/_proposed/manual-jackandjill-ai-5a18e1__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "recruiting",
+      "talent-acquisition",
+      "ai-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, often pairing descriptive text with a visual card or image on the opposing side."
+    },
+    {
+      "kind": "type",
+      "note": "A high-contrast typographic pairing is employed, featuring large, elegant serif headings for key messages and clean, legible sans-serif for body text and uppercase labels."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist monochromatic palette dominates, utilizing off-white backgrounds and black for primary text and call-to-action elements, creating a sophisticated and clean aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The top navigation bar transforms into a sticky header on scroll, reducing in height and subtly adjusting its content (logo, links). Concurrently, the hero section's main heading shifts upwards and slightly scales as the initial banner disappears."
+    },
+    {
+      "kind": "section",
+      "note": "Interactive or detailed information, such as job listings and company profiles, is presented within distinct card-like UI elements that feature subtle borders or shadows."
+    }
+  ],
+  "technique_notes": [
+    "The sticky header effect is achieved by detecting scroll position and applying CSS transformations (scaling, position adjustments) to the header elements, giving the impression of it shrinking and settling into place. The hero section's initial banner disappears and the main heading subtly moves and scales up, likely using CSS keyframes or JavaScript-driven animations triggered by scroll depth.",
+    "A spacious grid layout with generous white space is used to create an airy and premium feel, allowing content blocks to breathe and maintaining a clear visual hierarchy.",
+    "Typographic contrast is established by pairing a sophisticated serif font for display headings with a modern sans-serif for body text, ensuring both elegance and readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f9f9f6",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta"
+      },
+      {
+        "hex": "#666666",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (hero ~4-5x body) with clean, balanced sans-serif body text and small uppercase labels.",
+    "radius": "Subtle rounding (e.g., 4-8px) on buttons and card edges, maintaining a soft but not overly playful feel.",
+    "spacing": "Very airy, with generous vertical spacing between sections and ample internal padding within content blocks, creating a premium, uncrowded experience."
+  },
+  "standout": "The site stands out with its sophisticated, almost editorial aesthetic that elevates a recruitment service. The transforming sticky header and the elegant typographic pairing, combined with the clean, app-like card interfaces for the 'Jack' and 'Jill' sections, create a distinctive and premium user experience that feels far from a generic job board.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

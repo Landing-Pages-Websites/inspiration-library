@@ -2,5 +2,6 @@
 
 | slug | url | gallery | scope | mood | industry |
 |------|-----|---------|-------|------|----------|
-| manual-agencybook-com-a67e6b | https://agencybook.com | manual | single-page | bold, minimal | saas, domain-marketplace, web-services |
-| manual-tbd-website-7e1cc5 | https://tbd.website | manual | single-page | minimal, bold | tech, open-source, web3 |
+| manual-jackandjill-ai-5a18e1 | https://www.jackandjill.ai | manual | single-page | minimal, editorial, luxe | recruiting, talent-acquisition, ai-services |
+| manual-visuelle-co-uk-9ad340 | https://visuelle.co.uk | manual | single-page | minimal, bold, editorial | design, creative-agency, portfolio |
+| manual-wwake-com-a3e04a | https://wwake.com | manual | single-page | luxe, editorial, bold, minimal | jewelry, luxury, e-commerce |

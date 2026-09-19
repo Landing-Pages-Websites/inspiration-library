@@ -1,0 +1,110 @@
+{
+  "id": "manual-wwake-com-a3e04a",
+  "source": {
+    "url": "https://wwake.com",
+    "gallery": "manual",
+    "harvest_date": "2026-09-19"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/manual-wwake-com-a3e04a.webp",
+    "scroll": [
+      "shots/_proposed/manual-wwake-com-a3e04a__scroll0.webp",
+      "shots/_proposed/manual-wwake-com-a3e04a__scroll1.webp",
+      "shots/_proposed/manual-wwake-com-a3e04a__scroll2.webp"
+    ]
+  },
+  "scope": "single-page",
+  "tags": {
+    "industry": [
+      "jewelry",
+      "luxury",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "lp-classic-converter"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large, editorial-style imagery with concise text blocks, often with the image dominating one side of the screen."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif font is used for primary headings and key statements, contrasted with a clean sans-serif for body text and navigation, creating a blend of classic elegance and modern readability."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of off-white backgrounds and dark charcoal text is consistently used, allowing the rich, natural colors of the jewelry and model photography to serve as the primary visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video background features a subtle parallax and zoom effect as the user scrolls, while the main hero text remains fixed, creating a dynamic sense of depth. Below the hero, content sections fade in and slide up as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product and category listings are presented in clean, evenly spaced grids, often with a subtle border or background separation, maintaining a gallery-like feel."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar transitions from a transparent overlay with light text on the hero video to an opaque white bar with dark text and a subtle shadow once the user scrolls past the hero section.",
+    "The hero video background is implemented with a CSS keyframe animation or similar technique that scales and repositions the video element in response to scroll depth, creating a subtle parallax and zoom effect behind the static hero text.",
+    "Content sections below the hero are revealed using scroll-triggered animations, likely CSS keyframes or a JavaScript library, causing them to fade into view and gently slide upwards as they become visible in the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#17171C",
+        "role": "text"
+      },
+      {
+        "hex": "#ECF0EB",
+        "role": "surface"
+      },
+      {
+        "hex": "#E5E5E9",
+        "role": "surface"
+      },
+      {
+        "hex": "#D4AF37",
+        "role": "accent"
+      },
+      {
+        "hex": "#4242CF",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "GTStandard-M",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) are paired with clear, readable sans-serif body text, often with smaller, uppercase sans-serif labels for categories and navigation.",
+    "radius": "Sharp corners are consistently applied to all elements, including images, buttons, and input fields, reinforcing a clean and precise aesthetic.",
+    "spacing": "Balanced overall, with generous vertical spacing in hero and descriptive sections, transitioning to a more compact but still airy grid for product and category displays."
+  },
+  "standout": "This site's design is distinctive for its high-fashion, editorial-quality photography, particularly the striking close-up hero images that integrate jewelry directly onto the model's face. This artistic and intimate approach elevates the product presentation beyond typical e-commerce, creating a luxurious and aspirational brand experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
