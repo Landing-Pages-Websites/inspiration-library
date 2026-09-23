@@ -1,0 +1,113 @@
+{
+  "id": "siteinspire-stereoscopecoffee-com-c7b667",
+  "source": {
+    "url": "https://www.stereoscopecoffee.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-stereoscopecoffee-com-c7b667.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-stereoscopecoffee-com-c7b667__scroll0.webp",
+      "shots/_proposed/siteinspire-stereoscopecoffee-com-c7b667__scroll1.webp",
+      "shots/_proposed/siteinspire-stereoscopecoffee-com-c7b667__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.stereoscopecoffee.com/wholesale",
+        "full": "shots/_proposed/siteinspire-stereoscopecoffee-com-c7b667__p2.webp"
+      },
+      {
+        "url": "https://www.stereoscopecoffee.com/connect/about",
+        "full": "shots/_proposed/siteinspire-stereoscopecoffee-com-c7b667__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "coffee",
+      "specialty-coffee",
+      "retail"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Alternating full-width sections with light grey and dark grey/black backgrounds create clear visual separation and hierarchy between content blocks."
+    },
+    {
+      "kind": "type",
+      "note": "A single, clean sans-serif typeface is used consistently, with large, bold headings contrasting against smaller, lighter body text and uppercase labels for navigation and metadata."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of light grey, dark grey, and white dominates the design, conveying a minimalist and sophisticated brand identity with minimal use of accent colors."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features an interactive 3D product model (a coffee bag) that rotates and reveals product details, acting as a dynamic focal point upon page load."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections showcase 3D rendered coffee bags in a clean, grid-like arrangement, emphasizing the product's form and detail as a key visual element."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a WebGL or Canvas-based interactive 3D model, likely powered by webgl-three, to present a rotating coffee bag that reveals product information dynamically, possibly with user interaction or an auto-playing sequence.",
+    "Content sections below the hero are revealed through standard vertical scrolling, without complex fade-ins, slides, or parallax effects, maintaining a direct and uncluttered content flow.",
+    "A sticky navigation bar remains fixed at the top of the viewport, providing persistent access to main site links as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#d9d9d9",
+        "role": "background"
+      },
+      {
+        "hex": "#1d1d1b",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#008000",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are significantly larger and bolder (~3-4x body text) with a clear hierarchy, while body text is clean and legible, complemented by small uppercase labels for navigation and metadata.",
+    "radius": "Sharp corners are a defining characteristic across all elements and section boundaries, with only very subtle rounding applied to interactive components like buttons and input fields.",
+    "spacing": "Balanced to airy, featuring generous vertical spacing between major sections and a clean, open feel within content blocks, contributing to the minimalist aesthetic."
+  },
+  "standout": "The site's most distinctive feature is the interactive 3D product visualization in the hero section, which immediately communicates a premium, design-forward brand identity. This, combined with a stark, minimalist monochrome aesthetic and strong, purposeful typography, elevates the site beyond a generic e-commerce template.",
+  "animation_tech": [
+    "canvas",
+    "lottie",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
