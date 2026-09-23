@@ -1,0 +1,133 @@
+{
+  "id": "siteinspire-kommakomma-is-bbc6dd",
+  "source": {
+    "url": "https://kommakomma.is",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-kommakomma-is-bbc6dd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-kommakomma-is-bbc6dd__scroll0.webp",
+      "shots/_proposed/siteinspire-kommakomma-is-bbc6dd__scroll1.webp",
+      "shots/_proposed/siteinspire-kommakomma-is-bbc6dd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://kommakomma.is/studio",
+        "full": "shots/_proposed/siteinspire-kommakomma-is-bbc6dd__p2.webp"
+      },
+      {
+        "url": "https://kommakomma.is/contact",
+        "full": "shots/_proposed/siteinspire-kommakomma-is-bbc6dd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "web-design",
+      "creative-studio",
+      "product-design"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks with generous negative space, often aligning text to one side and imagery to the other, creating visual balance and focus."
+    },
+    {
+      "kind": "type",
+      "note": "High contrast between large, bold serif headings and smaller, clean sans-serif body text, often with uppercase labels for metadata or section introductions."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist palette of near-white and near-black, punctuated by rich, natural greens in the hero and vibrant, diverse colors within project imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered reveals for content sections, where elements fade in and slide up into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "A subtle parallax effect on the hero background image, creating depth as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "A distinctive, full-viewport brand name reveal at the very bottom of the page, acting as a dramatic, animated footer that gradually appears."
+    },
+    {
+      "kind": "section",
+      "note": "A dynamic project gallery on interior pages featuring 3D-rotated project cards that appear to float and interact in space."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate scroll-triggered animations, including staggered fade-up reveals for text blocks and list items as they enter the viewport.",
+    "Implements a subtle parallax effect on the hero background image, where the background scrolls slower than the foreground content to create a sense of depth.",
+    "Features a unique full-page footer where the brand name is rendered in a massive, custom typeface and gradually reveals itself as the user scrolls to the very end of the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#eaeaea",
+        "role": "background"
+      },
+      {
+        "hex": "#1a1a1a",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "cta-background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "cta-text"
+      },
+      {
+        "hex": "#3a5c3a",
+        "role": "hero-accent"
+      },
+      {
+        "hex": "#f0f0f0",
+        "role": "secondary-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Instrument Serif",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: custom-display-serif",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Oversized, bold serif headings (~3-4x body) with smaller, clean sans-serif body text and uppercase labels.",
+    "radius": "Sharp corners for most elements, with minimal, subtle rounding on interactive elements like buttons.",
+    "spacing": "Airy and spacious, particularly in hero and between major content sections, creating a sense of calm and focus."
+  },
+  "standout": "The most distinctive feature is the dramatic, full-viewport brand name reveal at the bottom of the page, which transforms the footer into a bold, animated brand statement. This, combined with the subtle scroll-triggered reveals and the dynamic 3D project gallery, elevates the site beyond a standard template.",
+  "animation_tech": [
+    "canvas",
+    "gsap"
+  ],
+  "status": "proposed"
+}
