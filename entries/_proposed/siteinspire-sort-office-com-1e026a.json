@@ -1,0 +1,97 @@
+{
+  "id": "siteinspire-sort-office-com-1e026a",
+  "source": {
+    "url": "https://sort-office.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-sort-office-com-1e026a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-sort-office-com-1e026a__scroll0.webp",
+      "shots/_proposed/siteinspire-sort-office-com-1e026a__scroll1.webp",
+      "shots/_proposed/siteinspire-sort-office-com-1e026a__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sort-office.com/1",
+        "full": "shots/_proposed/siteinspire-sort-office-com-1e026a__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "portfolio",
+      "product-design"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A flexible, responsive image grid displays project work, adapting column count and image aspect ratios to fill the available space in a dynamic, gallery-like arrangement."
+    },
+    {
+      "kind": "type",
+      "note": "All UI text, including navigation and project labels, uses a consistent small, uppercase sans-serif typeface, creating a flat and understated typographic hierarchy that prioritizes imagery."
+    },
+    {
+      "kind": "color",
+      "note": "The user interface employs a stark monochromatic palette of light gray backgrounds and dark text, allowing the diverse colors and textures within the project images to be the sole visual focus."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed header remains persistently visible at the top of the viewport as the user scrolls, with the main content grid scrolling smoothly underneath it without any additional scroll-triggered animations."
+    }
+  ],
+  "technique_notes": [
+    "The site features a fixed header that remains visible at the top of the viewport as the user scrolls, allowing the main content grid to scroll seamlessly beneath it.",
+    "A responsive, flexible grid layout displays project images, adapting column count and image sizing to available viewport width, creating a dynamic, gallery-like presentation.",
+    "The overall design relies on a minimalist aesthetic, using ample whitespace and a limited color palette for UI elements to direct attention entirely to the high-quality project photography."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5F5F5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Graphik",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Flat and understated, with small uppercase sans-serif for navigation and even smaller sans-serif for project labels, emphasizing imagery over text hierarchy.",
+    "radius": "Sharp corners throughout, applied to images and overall layout elements.",
+    "spacing": "Airy and deliberate, with generous padding around the main content grid and between grid items, creating a gallery-like feel."
+  },
+  "standout": "This site's design is distinctive for its extreme minimalism and almost brutalist approach to a portfolio. It strips away nearly all decorative UI, presenting high-quality project imagery in a flexible, monochromatic grid that feels more like an art gallery or a curated catalog than a typical website, making the work itself the absolute focal point.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}

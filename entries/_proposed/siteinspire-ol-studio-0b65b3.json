@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-ol-studio-0b65b3",
+  "source": {
+    "url": "https://ol.studio",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-ol-studio-0b65b3.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-ol-studio-0b65b3__scroll0.webp",
+      "shots/_proposed/siteinspire-ol-studio-0b65b3__scroll1.webp",
+      "shots/_proposed/siteinspire-ol-studio-0b65b3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.ol.studio/",
+        "full": "shots/_proposed/siteinspire-ol-studio-0b65b3__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "editorial-styling"
+    ],
+    "mood": [
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical, editorial-style layout with large, full-bleed images interspersed with text blocks, creating a magazine-like flow with generous whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "Primary content uses an elegant serif typeface for both headings and body text, complemented by small, subtle uppercase sans-serif labels and a distinctive handwritten script for accent quotes."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, earthy color palette dominates, featuring a light beige background, dark charcoal text, and occasional pops of warm, natural tones and a vibrant yellow-green."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (like the handwritten quote and the large footer logo) reveal with a subtle fade-up or slide-in animation as they enter the viewport during scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "The header transforms on scroll: the initial centered 'STUDIO OL' logo shrinks and shifts to a left-aligned position, revealing 'About / Contact' links on the right, and remains sticky."
+    },
+    {
+      "kind": "section",
+      "note": "Image gallery sections feature a dynamic, non-uniform grid of photographs, breaking from typical symmetrical layouts."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a smooth scrolling experience, likely achieved with a library like locomotive-scroll, which also orchestrates scroll-triggered animations. Elements are revealed with a gentle fade and slight upward translation as they come into view, creating a sense of discovery. The header dynamically changes its size and layout, becoming a compact sticky navigation bar after the initial hero section scrolls past."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f5f0eb",
+        "role": "background"
+      },
+      {
+        "hex": "#2a2822",
+        "role": "text"
+      },
+      {
+        "hex": "#54402f",
+        "role": "surface"
+      },
+      {
+        "hex": "#d96e4a",
+        "role": "accent"
+      },
+      {
+        "hex": "#a8c74f",
+        "role": "accent"
+      },
+      {
+        "hex": "#674836",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Lora",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: handwritten script",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Arial",
+        "role": "label"
+      }
+    ],
+    "type_scale": "Elegant and varied, featuring a prominent custom display logo, large serif headings, legible serif body text, and small, subtle uppercase sans-serif labels for metadata.",
+    "radius": "sharp",
+    "spacing": "airy — characterized by generous padding around content blocks and significant vertical spacing between sections, contributing to an unhurried, premium feel."
+  },
+  "standout": "This site's design is distinctive for its sophisticated, editorial layout that feels more like an art gallery or high-end magazine than a typical website. The combination of a unique serif typeface, subtle scroll-triggered reveals, and an abundance of whitespace creates an atmosphere of refined elegance and thoughtful curation, making the content feel highly exclusive and artfully presented.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
