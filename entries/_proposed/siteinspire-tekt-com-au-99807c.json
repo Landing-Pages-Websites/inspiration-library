@@ -1,0 +1,115 @@
+{
+  "id": "siteinspire-tekt-com-au-99807c",
+  "source": {
+    "url": "https://tekt.com.au",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-09-27"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-tekt-com-au-99807c.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-tekt-com-au-99807c__scroll0.webp",
+      "shots/_proposed/siteinspire-tekt-com-au-99807c__scroll1.webp",
+      "shots/_proposed/siteinspire-tekt-com-au-99807c__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://tekt.com.au/why",
+        "full": "shots/_proposed/siteinspire-tekt-com-au-99807c__p2.webp"
+      },
+      {
+        "url": "https://tekt.com.au/design",
+        "full": "shots/_proposed/siteinspire-tekt-com-au-99807c__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "construction",
+      "modular-homes",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts often feature large, full-bleed architectural photography on one side and concise text blocks or structured lists on the other, creating a balanced yet dynamic visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "A single sans-serif typeface is used consistently, with large, bold headings contrasting with lighter-weight body text and uppercase labels, establishing a clear and elegant typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The palette relies heavily on a sophisticated blend of muted greys, off-whites, and deep earthy browns/blacks, with a very subtle, almost imperceptible, cool blue used sparingly for interactive elements like links and form buttons."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements (text blocks, images) reveal with a subtle fade-in and slight upward slide as they enter the viewport during scroll. The hero image features a gentle parallax effect, moving slower than the foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Information is frequently presented in framed, minimalist boxes or structured lists with thin horizontal dividers, providing a clean and organized way to digest details without visual clutter."
+    }
+  ],
+  "technique_notes": [
+    "The site employs scroll-triggered animations to reveal content. As the user scrolls, sections and individual content blocks (text, images) animate into view with a subtle fade-in and slight upward translation. The hero image features a gentle parallax effect, moving slower than the foreground content. The main navigation bar sticks to the top of the viewport and subtly changes its background from transparent to a solid, light color after the initial scroll.",
+    "Content is structured in a clean, grid-based layout, often using a two-column approach for text and imagery, or a multi-column card-like display for features. Full-bleed background images are used to establish a sense of place and scale.",
+    "A single sans-serif typeface is used across the site, with variations in weight and size to establish a clear typographic hierarchy. Headings are significantly larger and bolder than body text, and some labels are set in uppercase for emphasis."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2d2012",
+        "role": "text"
+      },
+      {
+        "hex": "#fff",
+        "role": "surface"
+      },
+      {
+        "hex": "#e9ecef",
+        "role": "background"
+      },
+      {
+        "hex": "#007aff",
+        "role": "accent"
+      },
+      {
+        "hex": "#6c757d",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "af Another Sans",
+        "role": "heading"
+      },
+      {
+        "family": "af Another Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with smaller, lighter sans-serif body text and uppercase labels for emphasis.",
+    "radius": "Sharp (predominantly 0px, with crisp edges on all elements like images, buttons, and form fields).",
+    "spacing": "Airy (generous padding around sections and elements, particularly in the hero and between major content blocks, creating a sense of spaciousness)."
+  },
+  "standout": "The distinctive use of large-scale, architectural photography as full-bleed backgrounds and hero imagery, combined with a minimalist, airy layout and subtle, elegant typography, creates a sophisticated and aspirational brand presence. The design effectively uses negative space and crisp lines to highlight the modular homes themselves, conveying a sense of luxury and precision.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}
