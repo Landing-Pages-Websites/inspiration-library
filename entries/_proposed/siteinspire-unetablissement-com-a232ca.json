@@ -1,0 +1,106 @@
+{
+  "id": "siteinspire-unetablissement-com-a232ca",
+  "source": {
+    "url": "https://unetablissement.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-06"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-unetablissement-com-a232ca.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-unetablissement-com-a232ca__scroll0.webp",
+      "shots/_proposed/siteinspire-unetablissement-com-a232ca__scroll1.webp",
+      "shots/_proposed/siteinspire-unetablissement-com-a232ca__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://unetablissement.com/about",
+        "full": "shots/_proposed/siteinspire-unetablissement-com-a232ca__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "urban-planning",
+      "real-estate"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A primary content structure is a full-width, multi-column table displaying project data, with clear headers and sortable columns."
+    },
+    {
+      "kind": "type",
+      "note": "The site features an extremely large, bold, uppercase sans-serif heading that initially dominates the entire viewport."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic black and white color scheme is used for text and backgrounds, with a subtle green accent hinted at but not prominently displayed."
+    },
+    {
+      "kind": "motion",
+      "note": "A small, subtle 'LOW IMPACT WEBSITE' text label appears and sticks to the very top of the viewport after initial scroll, providing a persistent identifier."
+    },
+    {
+      "kind": "motion",
+      "note": "A large, textured background image is revealed from behind the main content area as the user scrolls down, suggesting the content has a transparent background."
+    }
+  ],
+  "technique_notes": [
+    "A massive, bold, uppercase text element serves as the initial hero, filling the screen before scrolling away with the rest of the page content.",
+    "A small, secondary text label is initially hidden but becomes visible and fixed to the top of the viewport once the user scrolls past the hero section, acting as a persistent header element.",
+    "The main content sections are designed with transparent backgrounds, allowing a fixed background image to become visible as the content scrolls upwards, creating a layered depth effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#52b256",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "TWK Lausanne 650",
+        "role": "heading"
+      },
+      {
+        "family": "TWK Lausanne 650",
+        "role": "body"
+      },
+      {
+        "family": "Eliza Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, uppercase headings (~8-10x body text) with a clear hierarchy to smaller, legible sans-serif for body and table content.",
+    "radius": "sharp",
+    "spacing": "Very airy in the initial hero section due to the massive text, transitioning to a balanced, grid-like density for the project table."
+  },
+  "standout": "The site's design is distinctive for its audacious use of an overwhelmingly large, full-width text heading that dominates the initial viewport and then scrolls away, combined with a data-heavy table layout and a background image reveal, creating a unique blend of editorial boldness and functional information display.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
