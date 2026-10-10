@@ -1,0 +1,125 @@
+{
+  "id": "siteinspire-unionboulangerie-com-aa9bc1",
+  "source": {
+    "url": "https://unionboulangerie.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-10"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-unionboulangerie-com-aa9bc1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-unionboulangerie-com-aa9bc1__scroll0.webp",
+      "shots/_proposed/siteinspire-unionboulangerie-com-aa9bc1__scroll1.webp",
+      "shots/_proposed/siteinspire-unionboulangerie-com-aa9bc1__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "bakery",
+      "artisan-food",
+      "retail"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero video with a semi-transparent overlay for text, creating an immersive initial experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Alternating background colors (video, solid blue, white, light grey) are used to clearly delineate distinct content sections down the page."
+    },
+    {
+      "kind": "type",
+      "note": "A playful, hand-drawn display font is used for key headings and decorative accents, contrasting with a clean, modern sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A vibrant, dominant royal blue is consistently applied as a primary brand color for full-width section backgrounds and interactive elements, establishing a strong visual identity."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero video background scrolls at a slower rate than the foreground content, creating a parallax depth effect as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar sticks to the top of the viewport after the initial scroll, maintaining its original size and background color."
+    },
+    {
+      "kind": "section",
+      "note": "Large, high-quality, editorial-style photography is used as full-width backgrounds or prominent feature images to showcase products and the baking process."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed video hero is used with a dark, semi-transparent overlay to ensure text readability, and the video content itself scrolls at a slower rate than the page, creating a parallax depth effect.",
+    "The primary navigation bar is fixed to the top of the viewport once the user scrolls past the initial hero section, maintaining its visual style and background.",
+    "Content sections are revealed with a subtle fade-in and slight upward translation as they enter the viewport, enhancing engagement and guiding the user's eye."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2259ec",
+        "role": "primary-brand-blue"
+      },
+      {
+        "hex": "#fff",
+        "role": "background-and-text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#f25a07",
+        "role": "cta-accent"
+      },
+      {
+        "hex": "#960a00",
+        "role": "secondary-accent"
+      },
+      {
+        "hex": "#f7f7f7",
+        "role": "light-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Serial Blur",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Roboto",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Kiddo",
+        "role": "decorative-handwritten"
+      }
+    ],
+    "type_scale": "Features oversized, playful display headings (often uppercase) that contrast with a clean, legible sans-serif for body text and functional elements.",
+    "radius": "Subtle rounding on interactive elements like buttons and image containers, maintaining a soft but not overly rounded aesthetic.",
+    "spacing": "Balanced and airy, with generous vertical padding between sections and comfortable spacing within content blocks, contributing to a premium feel."
+  },
+  "standout": "The distinctive combination of high-quality, editorial-style photography with a playful, hand-drawn typography and illustration style, all anchored by a bold, consistent royal blue, creates a unique brand personality that feels both sophisticated and approachable. The parallax hero video adds a dynamic, immersive touch.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
