@@ -1,0 +1,127 @@
+{
+  "id": "siteinspire-littleplains-com-9d8fd3",
+  "source": {
+    "url": "https://littleplains.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-15"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-littleplains-com-9d8fd3.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-littleplains-com-9d8fd3__scroll0.webp",
+      "shots/_proposed/siteinspire-littleplains-com-9d8fd3__scroll1.webp",
+      "shots/_proposed/siteinspire-littleplains-com-9d8fd3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://littleplains.com/projects",
+        "full": "shots/_proposed/siteinspire-littleplains-com-9d8fd3__p2.webp"
+      },
+      {
+        "url": "https://littleplains.com/writings",
+        "full": "shots/_proposed/siteinspire-littleplains-com-9d8fd3__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "branding",
+      "creative-agency"
+    ],
+    "mood": [
+      "playful",
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content is consistently presented in narrow, centered columns, creating a focused reading experience with ample whitespace on the sides."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive pairing of an elegant, high-contrast script display font for major headings with a clean, modern sans-serif for body text and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "A predominantly light, warm off-white background is accented with muted, earthy tones and a vibrant, electric blue for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Major content sections and grid items (projects, writings) reveal themselves with a staggered fade-up and slight vertical slide-in animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A small, hand-drawn-style wavy line graphic is consistently used as a whimsical visual separator between major content sections."
+    }
+  ],
+  "technique_notes": [
+    "Content blocks and grid items animate into view using scroll-triggered reveals, typically a staggered fade-up combined with a subtle vertical translation, likely orchestrated with GSAP ScrollTrigger.",
+    "The main navigation bar remains fixed at the top of the viewport, providing persistent access to navigation elements as the user scrolls.",
+    "The hero area features a dynamic, hand-drawn illustration style, potentially rendered using a canvas element for subtle animation or interactivity."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FCF4EC",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#48572C",
+        "role": "text"
+      },
+      {
+        "hex": "#151BEC",
+        "role": "cta"
+      },
+      {
+        "hex": "#8F79DD",
+        "role": "accent"
+      },
+      {
+        "hex": "#584627",
+        "role": "accent"
+      },
+      {
+        "hex": "#0C3C14",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Elegant, high-contrast script headings (~2.5-3x body) with clean, legible sans-serif body text; small uppercase labels are used for section introductions.",
+    "radius": "Subtle (minimal rounding on cards and buttons, almost sharp).",
+    "spacing": "Airy (generous vertical spacing between sections, balanced spacing within content blocks)."
+  },
+  "standout": "The site's distinctive blend of a whimsical, hand-drawn illustration style with a sophisticated, minimalist layout creates a unique brand personality. The elegant script display font for headings further elevates this contrast, making the design feel both approachable and high-end.",
+  "animation_tech": [
+    "canvas",
+    "gsap",
+    "locomotive-scroll",
+    "lottie",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
