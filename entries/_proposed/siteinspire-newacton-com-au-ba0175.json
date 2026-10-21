@@ -1,0 +1,122 @@
+{
+  "id": "siteinspire-newacton-com-au-ba0175",
+  "source": {
+    "url": "https://newacton.com.au",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-newacton-com-au-ba0175.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-newacton-com-au-ba0175__scroll0.webp",
+      "shots/_proposed/siteinspire-newacton-com-au-ba0175__scroll1.webp",
+      "shots/_proposed/siteinspire-newacton-com-au-ba0175__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://newacton.com.au/community",
+        "full": "shots/_proposed/siteinspire-newacton-com-au-ba0175__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "community",
+      "local-guide",
+      "arts-and-entertainment"
+    ],
+    "mood": [
+      "minimal",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A fixed, multi-column grid layout, resembling a newspaper or magazine spread, where content is presented in distinct vertical panes."
+    },
+    {
+      "kind": "layout",
+      "note": "An initially minimal, almost blank page state, with content progressively revealed within the fixed columns only upon scrolling."
+    },
+    {
+      "kind": "type",
+      "note": "Functional typography using small, uppercase labels for navigation and a relatively flat hierarchy for headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast base palette of black text on a white background, punctuated by vibrant, limited accent colors used primarily for illustrations and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered content reveal, where large, whimsical illustrations and later text blocks and duotone portraits appear within the fixed columns as the user scrolls."
+    },
+    {
+      "kind": "motion",
+      "note": "A prominent scroll-triggered animation where a large central illustration dynamically shifts its entire color palette from one set of accent colors to another at a specific scroll depth."
+    },
+    {
+      "kind": "section",
+      "note": "A dynamic footer element that displays context-sensitive information (e.g., day, weather, event) and updates as the user scrolls down the page."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a rigid, multi-column grid system that maintains its structure while content is progressively loaded and revealed.",
+    "Scroll-triggered animations are central to the experience, progressively revealing content within the fixed columns. This includes large illustrative elements that appear and dynamically change their color scheme as they enter or pass through the viewport, likely leveraging a canvas animation library for dynamic rendering.",
+    "The dynamic footer text updates based on scroll depth or an internal content feed, providing a subtle, continuous narrative alongside the main content reveal."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#0000ff",
+        "role": "accent"
+      },
+      {
+        "hex": "#f0d0d0",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5e981",
+        "role": "accent"
+      },
+      {
+        "hex": "#5fc8fc",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small uppercase labels for navigation with a relatively flat heading-to-body size relationship, prioritizing readability over dramatic scale.",
+    "radius": "sharp",
+    "spacing": "Very airy, especially in the initial view and between major content blocks; content within columns is balanced with generous vertical separation."
+  },
+  "standout": "The most distinctive feature is the initial blank, almost abstract presentation, which then transforms into a vibrant, illustrated experience upon scrolling. The multi-column, magazine-like layout combined with the scroll-triggered illustration color shift creates a unique, playful, and interactive browsing experience that feels more like an art piece than a typical directory.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

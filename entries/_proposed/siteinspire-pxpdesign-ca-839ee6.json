@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-pxpdesign-ca-839ee6",
+  "source": {
+    "url": "https://www.pxpdesign.ca",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-pxpdesign-ca-839ee6.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-pxpdesign-ca-839ee6__scroll0.webp",
+      "shots/_proposed/siteinspire-pxpdesign-ca-839ee6__scroll1.webp",
+      "shots/_proposed/siteinspire-pxpdesign-ca-839ee6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.pxpdesign.ca/fr",
+        "full": "shots/_proposed/siteinspire-pxpdesign-ca-839ee6__p2.webp"
+      },
+      {
+        "url": "https://www.pxpdesign.ca/fr/contact",
+        "full": "shots/_proposed/siteinspire-pxpdesign-ca-839ee6__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design",
+      "creative-agency",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layout for content sections, often with a large image on one side and text on the other, connected by a strong vertical timeline element."
+    },
+    {
+      "kind": "type",
+      "note": "Very large, bold, sans-serif headings are used for key section titles, creating strong visual hierarchy against smaller, lighter body text."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast black and white scheme is dominant, with a deep dark blue/grey for overlays and subtle text, and a vibrant yellow used sparingly for interactive elements and calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky navigation bar at the top of the page transforms on scroll, shrinking slightly and gaining a solid background."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, particularly the timeline elements, reveal themselves with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "A distinctive black footer features a large, abstract, dotted representation of the company logo (PXP) as a prominent graphic element."
+    }
+  ],
+  "technique_notes": [
+    "A full-bleed hero section uses a background video with a dark, semi-transparent overlay to ensure text readability.",
+    "The primary navigation bar is implemented as a sticky element that changes its height and background color after a certain scroll threshold.",
+    "Scroll-triggered animations (likely using CSS keyframes as hinted) are used to progressively reveal content sections, such as the timeline entries, with a subtle upward slide and fade effect as they become visible."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1a2e3b",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Roboto",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very large, bold sans-serif headings (~3-4x body text) create strong visual impact, contrasted with smaller, lighter body text and uppercase navigation.",
+    "radius": "sharp",
+    "spacing": "balanced to airy, with generous vertical spacing between major sections and within the timeline structure, creating a sense of openness"
+  },
+  "standout": "The most distinctive feature is the highly graphic, almost brutalist use of a vertical timeline to structure the main content, combined with the bold, dotted PXP logo in the footer. This creates a unique blend of corporate professionalism and artistic expression.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

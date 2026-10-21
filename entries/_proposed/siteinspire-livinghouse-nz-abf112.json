@@ -1,0 +1,120 @@
+{
+  "id": "siteinspire-livinghouse-nz-abf112",
+  "source": {
+    "url": "https://livinghouse.nz",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-livinghouse-nz-abf112.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-livinghouse-nz-abf112__scroll0.webp",
+      "shots/_proposed/siteinspire-livinghouse-nz-abf112__scroll1.webp",
+      "shots/_proposed/siteinspire-livinghouse-nz-abf112__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://livinghouse.nz/about",
+        "full": "shots/_proposed/siteinspire-livinghouse-nz-abf112__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "real-estate",
+      "architecture",
+      "housing"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Persistent, oversized brand title fixed at the top, acting as a visual anchor while content scrolls beneath it."
+    },
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts for text blocks, often pairing large headings with detailed body copy."
+    },
+    {
+      "kind": "type",
+      "note": "Dominant use of a very large, bold, sans-serif font for primary headings, creating strong visual impact and brand presence."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero image scrolls underneath the fixed main title, creating a parallax-like depth effect."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections, including interactive 'Purchase Plans' and 'Construction Costs' blocks, reveal with a subtle slide-up animation as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Detailed architectural diagrams and floorplans are integrated directly into content sections, providing practical information visually rather than as separate downloads."
+    }
+  ],
+  "technique_notes": [
+    "The main site title is fixed to the top of the viewport, maintaining brand presence. The initial hero image is positioned to scroll beneath this fixed title, creating a subtle parallax effect. Subsequent content sections are animated to slide or fade into view as they become visible in the viewport, using scroll-triggered reveals (likely via css-keyframes or a JavaScript library).",
+    "Content sections are visually distinct, often using full-width imagery or subtle background shifts. Text blocks frequently employ an asymmetrical grid, pairing large, impactful headings with smaller, detailed body text for a balanced yet dynamic presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#3c5444",
+        "role": "accent"
+      },
+      {
+        "hex": "#6c3a31",
+        "role": "accent"
+      },
+      {
+        "hex": "#8d8167",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DieGrotesk",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Very oversized, bold hero and section headings (~4-5x body text) with smaller, often uppercase labels and a clear, readable body text.",
+    "radius": "Subtle rounded corners on interactive elements and card-like content blocks; images and main layout elements are sharp.",
+    "spacing": "Balanced to airy, with significant whitespace around the hero title and comfortable padding between content sections, creating an open feel."
+  },
+  "standout": "The most distinctive element is the persistent, oversized 'Living House' title that remains fixed at the top, acting as a powerful brand anchor while the hero image and subsequent content scroll beneath it. This, combined with the bold, minimalist typography and the seamless integration of detailed architectural diagrams, creates an authoritative yet approachable design language.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

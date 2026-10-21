@@ -1,0 +1,108 @@
+{
+  "id": "siteinspire-blank-su-837730",
+  "source": {
+    "url": "https://blank.su",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-blank-su-837730.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-blank-su-837730__scroll0.webp",
+      "shots/_proposed/siteinspire-blank-su-837730__scroll1.webp",
+      "shots/_proposed/siteinspire-blank-su-837730__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://blank.su/en",
+        "full": "shots/_proposed/siteinspire-blank-su-837730__p2.webp"
+      },
+      {
+        "url": "https://blank.su/en/news",
+        "full": "shots/_proposed/siteinspire-blank-su-837730__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "architecture",
+      "real-estate",
+      "design-services"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical grid layouts for project showcases, combining large hero images with smaller supporting images or text blocks to create dynamic visual interest."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent use of a clean, modern sans-serif typeface across all text, with large, bold headings contrasting with smaller, lighter body and metadata text for clear hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochrome palette of black and white/light grey, allowing high-quality architectural photography to provide the primary visual interest and color."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky, transparent header navigation remains fixed at the top of the viewport as the user scrolls, maintaining access to key navigation elements without obscuring content."
+    },
+    {
+      "kind": "section",
+      "note": "Project sections are introduced with large, impactful images and concise titles, followed by a grid of related projects, emphasizing visual storytelling and a portfolio-centric approach."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a full-bleed hero image that scrolls out of view, revealing the content below without any additional animation.",
+    "A persistent header navigation maintains its transparent background and fixed position at the top of the viewport throughout the scroll.",
+    "A full-screen overlay menu is triggered by a 'Menu' link, providing a clear, focused navigation experience that temporarily covers the main content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#c0c0c0",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Inter",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold section headings (~3-4x body) provide strong hierarchy, while body text is small and highly legible, often accompanied by even smaller, lighter metadata.",
+    "radius": "Sharp corners are used exclusively across all elements, contributing to a precise and modern aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and a clean, open feel within content grids."
+  },
+  "standout": "The site's distinctive design lies in its extremely minimal, almost stark, black-and-white aesthetic that places absolute emphasis on high-quality, full-bleed architectural photography. The full-screen overlay menu, combined with the transparent sticky header, reinforces a sense of understated luxury and focus, making the content the undeniable hero.",
+  "animation_tech": [],
+  "status": "proposed"
+}
