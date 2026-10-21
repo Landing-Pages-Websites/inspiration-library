@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-buildcover-com-5f53ee",
+  "source": {
+    "url": "https://buildcover.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-buildcover-com-5f53ee.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-buildcover-com-5f53ee__scroll0.webp",
+      "shots/_proposed/siteinspire-buildcover-com-5f53ee__scroll1.webp",
+      "shots/_proposed/siteinspire-buildcover-com-5f53ee__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://buildcover.com/features",
+        "full": "shots/_proposed/siteinspire-buildcover-com-5f53ee__p2.webp"
+      },
+      {
+        "url": "https://buildcover.com/projects/labella-home",
+        "full": "shots/_proposed/siteinspire-buildcover-com-5f53ee__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "construction",
+      "architecture",
+      "home-building"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts for feature sections, often with a large image on one side and text on the other, creating visual interest and ample whitespace."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent use of a large, elegant serif typeface for main headings, paired with a clean, modern sans-serif for body text and navigation, establishing a sophisticated and readable hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode palette (charcoal/black, white, light grey) is used for backgrounds and text, punctuated by the natural colors from high-quality architectural photography."
+    },
+    {
+      "kind": "motion",
+      "note": "A sticky header that transforms from transparent to solid dark with a slight height reduction upon scrolling past the hero section."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a subtle fade-in or slide-up animation as they enter the viewport, creating a guided scrolling experience."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed hero video/image at the top, immediately establishing the brand's aesthetic and core offering."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a full-bleed video background with a subtle dark overlay to ensure text legibility, providing an immersive initial experience.",
+    "A sticky header dynamically changes its appearance, transitioning from a transparent state over the hero to a solid, slightly condensed dark bar with a subtle shadow once the user scrolls past the initial viewport.",
+    "Content sections are introduced with scroll-triggered animations, where elements subtly fade into view or slide up from the bottom as they become visible in the viewport, enhancing engagement, likely using css-keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#F4F4F4",
+        "role": "background"
+      },
+      {
+        "hex": "#F7FAFC",
+        "role": "background"
+      },
+      {
+        "hex": "#A0AEC0",
+        "role": "surface"
+      },
+      {
+        "hex": "#E2E8F0",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (hero ~3-4x body) with a clean, readable sans-serif for body text and navigation.",
+    "radius": "Subtle rounded corners (small radius) on buttons and image containers, maintaining a refined aesthetic.",
+    "spacing": "Airy and spacious, particularly in hero and between major content sections, creating a sense of luxury and allowing visuals to breathe."
+  },
+  "standout": "The site's distinctive use of high-end architectural photography and video, combined with a sophisticated dark mode aesthetic and elegant serif typography, immediately conveys a sense of luxury, precision, and craftsmanship. The design effectively uses visual storytelling to elevate a practical service into a premium experience.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

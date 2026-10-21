@@ -1,0 +1,115 @@
+{
+  "id": "siteinspire-paulineborgia-com-9c9691",
+  "source": {
+    "url": "https://www.paulineborgia.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-paulineborgia-com-9c9691.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-paulineborgia-com-9c9691__scroll0.webp",
+      "shots/_proposed/siteinspire-paulineborgia-com-9c9691__scroll1.webp",
+      "shots/_proposed/siteinspire-paulineborgia-com-9c9691__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.paulineborgia.com/leon",
+        "full": "shots/_proposed/siteinspire-paulineborgia-com-9c9691__p2.webp"
+      },
+      {
+        "url": "https://www.paulineborgia.com/rene",
+        "full": "shots/_proposed/siteinspire-paulineborgia-com-9c9691__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "design-studio",
+      "interior-design",
+      "architecture"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "An asymmetrical, masonry-style grid layout for project images, where images vary in size and aspect ratio, creating a dynamic visual flow."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic contrast in typography, featuring an extremely large, bold, wide sans-serif for the initial hero title, juxtaposed with very small, light sans-serif text for navigation and project details."
+    },
+    {
+      "kind": "color",
+      "note": "A minimalist base palette of stark white and black, allowing the vibrant and diverse color palettes within the project images to take center stage."
+    },
+    {
+      "kind": "motion",
+      "note": "Upon scrolling, the initial oversized hero title dramatically shrinks and transitions into a compact, sticky navigation bar at the top left, revealing additional navigation links."
+    },
+    {
+      "kind": "section",
+      "note": "The site is structured as a continuous, scrollable gallery of project images, with minimal distinct 'sections' beyond the initial hero and the project grid."
+    }
+  ],
+  "technique_notes": [
+    "The primary title element starts as a large, centered block. As the user scrolls down, this element animates to a much smaller size, repositions to the top-left corner, and integrates with additional navigation links to form a sticky header that remains visible throughout the scroll.",
+    "Project images are displayed in a responsive, fluid grid that adjusts to fill the available width, with images appearing to load or reveal as they enter the viewport during scrolling."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B0000",
+        "role": "accent"
+      },
+      {
+        "hex": "#5F7C5F",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B4513",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Anton",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue Light",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An extremely oversized, bold, and wide sans-serif hero title (~8x body text) creates a strong initial impact, contrasted with very small, light sans-serif text for navigation and project descriptions.",
+    "radius": "sharp \u2014 all images and containers feature crisp, 90-degree corners.",
+    "spacing": "airy \u2014 generous whitespace surrounds the initial hero title, transitioning to a balanced, slightly dense grid for the project gallery."
+  },
+  "standout": "The site's most distinctive feature is its dynamic header transformation, where an initially massive, centered title dramatically shrinks and repositions to become a minimalist sticky navigation bar. This, combined with the editorial, gallery-like presentation of projects, creates a sophisticated and focused portfolio experience.",
+  "animation_tech": [],
+  "status": "proposed"
+}

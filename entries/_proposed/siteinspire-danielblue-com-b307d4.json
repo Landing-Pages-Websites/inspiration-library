@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-danielblue-com-b307d4",
+  "source": {
+    "url": "https://danielblue.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-21"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-danielblue-com-b307d4.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-danielblue-com-b307d4__scroll0.webp",
+      "shots/_proposed/siteinspire-danielblue-com-b307d4__scroll1.webp",
+      "shots/_proposed/siteinspire-danielblue-com-b307d4__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "architectural-photography",
+      "commercial-photography"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site employs a full-bleed, image-first layout where each section, including the hero, is dominated by large photographs or solid color blocks, often spanning the full viewport width."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, large display serif font is used exclusively for the brand name 'DANIEL BLUE' in the header and as a monumental footer element, contrasting sharply with a minimal, clean sans-serif for all other text like navigation and image captions."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, warm palette of natural wood tones and earthy browns forms the primary background and surface colors, occasionally punctuated by unexpected, vibrant full-bleed accent colors like lime green and bright orange within the image grid."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial full-bleed hero image (potentially a video) scrolls completely out of view as the user scrolls down, rather than sticking or parallaxing, to reveal the main content grid below. The large brand name footer also reveals as the page scrolls to its end."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into a dynamic grid of image blocks, some full-width, others in multi-column arrangements, each accompanied by a small, subtle text label indicating the project category or location."
+    }
+  ],
+  "technique_notes": [
+    "The site utilizes a full-bleed hero section that occupies the initial viewport and scrolls away entirely, revealing the main content below. This effect can be achieved with a fixed background or a very tall section that simply scrolls out of view.",
+    "Content sections are primarily image-based, presented in a flexible grid layout where images can be full-width or arranged in multi-column configurations, each with a small, fixed-position text label.",
+    "A distinctive, oversized brand name is used as a prominent footer element, appearing as the user scrolls to the very end of the page, creating a strong visual anchor."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#4A3A2B",
+        "role": "background"
+      },
+      {
+        "hex": "#8C6A4D",
+        "role": "surface"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#E07D37",
+        "role": "accent"
+      },
+      {
+        "hex": "#A8E037",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: SeasonMixWeb",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: ArizonaWeb",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A very large, decorative display serif (~8-10x body) for the brand name contrasts with a small, understated sans-serif for navigation and captions.",
+    "radius": "Sharp corners are consistently used across all elements and image treatments.",
+    "spacing": "Balanced, with generous vertical spacing between major content blocks and a tight, precise grid for image arrangements."
+  },
+  "standout": "The site's standout feature is its bold, image-first presentation, where the brand name itself becomes a monumental, almost sculptural, typographic element that anchors the page's end, rather than a conventional footer. The use of full-bleed, often abstract, color blocks within the image grid also adds a distinctive artistic flair.",
+  "animation_tech": [
+    "css-keyframes",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
