@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-thelighthouse-ae-fdd679",
+  "source": {
+    "url": "https://www.thelighthouse.ae",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thelighthouse-ae-fdd679.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thelighthouse-ae-fdd679__scroll0.webp",
+      "shots/_proposed/siteinspire-thelighthouse-ae-fdd679__scroll1.webp",
+      "shots/_proposed/siteinspire-thelighthouse-ae-fdd679__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://thelighthouse.ae/",
+        "full": "shots/_proposed/siteinspire-thelighthouse-ae-fdd679__p2.webp"
+      },
+      {
+        "url": "https://thelighthouse.ae/collections",
+        "full": "shots/_proposed/siteinspire-thelighthouse-ae-fdd679__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "restaurant",
+      "retail",
+      "lifestyle"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical section layouts frequently pair large images with adjacent text blocks, often with the text aligned to the top or bottom of the image rather than centered."
+    },
+    {
+      "kind": "type",
+      "note": "Prominent, vertically oriented, uppercase sans-serif text is used as a distinctive section title or divider, contrasting with the elegant serif hero title."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a sophisticated palette of deep blues, dark browns, and off-whites, punctuated by rich, earthy tones in photography and occasional accent sections."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, the large hero text fades out, and the background image exhibits a subtle parallax effect. Main section titles, displayed vertically, animate into view as their sections become visible."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are often introduced by a single, bold, vertically stacked word acting as a thematic header, such as 'SAVOUR' or 'DESIGN'."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a large, elegant text overlay that fades out as the user scrolls, while the background image behind it parallaxes gently. A initially transparent navigation bar transforms into a sticky header with a solid, dark background upon scroll. Throughout the page, key content sections are introduced by large, vertically oriented text elements that animate into view using CSS keyframes, often with a subtle slide or fade effect as they enter the viewport."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#121638",
+        "role": "surface"
+      },
+      {
+        "hex": "#fdfcf2",
+        "role": "background"
+      },
+      {
+        "hex": "#000080",
+        "role": "accent"
+      },
+      {
+        "hex": "#3f0602",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#6a8d73",
+        "role": "accent"
+      },
+      {
+        "hex": "#a78b71",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Lora",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Nunito Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "An oversized, elegant serif font for the hero title (~4x body) contrasts with large, uppercase sans-serif section titles (~2x body) and legible sans-serif body text.",
+    "radius": "Sharp corners are dominant across most elements, with very subtle rounding on some image containers.",
+    "spacing": "Balanced to airy spacing is used between major sections, creating a sense of spaciousness, while product grids maintain a denser, organized layout."
+  },
+  "standout": "This site's design is distinctive for its sophisticated blend of moody, high-contrast photography with elegant serif typography for the main brand, juxtaposed against bold, vertically oriented sans-serif section titles. The use of deep, rich color blocks and asymmetrical layouts creates an editorial, almost magazine-like feel that elevates the content beyond a typical marketing site.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

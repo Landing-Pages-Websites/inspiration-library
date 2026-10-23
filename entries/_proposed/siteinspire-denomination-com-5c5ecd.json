@@ -1,0 +1,123 @@
+{
+  "id": "siteinspire-denomination-com-5c5ecd",
+  "source": {
+    "url": "https://denomination.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-denomination-com-5c5ecd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-denomination-com-5c5ecd__scroll0.webp",
+      "shots/_proposed/siteinspire-denomination-com-5c5ecd__scroll1.webp",
+      "shots/_proposed/siteinspire-denomination-com-5c5ecd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://denomination.com/projects",
+        "full": "shots/_proposed/siteinspire-denomination-com-5c5ecd__p2.webp"
+      },
+      {
+        "url": "https://denomination.com/news-articles",
+        "full": "shots/_proposed/siteinspire-denomination-com-5c5ecd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "branding",
+      "drinks",
+      "design",
+      "marketing"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section featuring a large, dynamic graphic element (the orange semi-circle logo) on one side, balanced by a minimalist text statement."
+    },
+    {
+      "kind": "type",
+      "note": "Strategic use of oversized, elegant serif typography for key statements and hero text, contrasting with a clean, understated sans-serif for body copy and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of dominant white/light grey backgrounds, black text, and a single vibrant orange accent color used sparingly for the logo and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial large orange semi-circle logo dynamically shrinks and transforms into a smaller 'd' initial, moving to a sticky position in the top-left corner upon scroll."
+    },
+    {
+      "kind": "motion",
+      "note": "A very large, decorative serif text element appears to scroll into view from the bottom, acting as a full-width interstitial or footer statement, creating a dramatic reveal."
+    },
+    {
+      "kind": "section",
+      "note": "Project showcases are presented in a clean, minimalist grid layout, each featuring a prominent image and a concise text description below it."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero section uses a full-screen or near full-screen layout, with the main content scrolling up to replace it. The hero text itself scrolls out of view.",
+    "The logo transformation and sticky header effect are achieved by detecting scroll depth, then applying CSS transitions or GSAP animations to scale, reposition, and change the content of the logo element.",
+    "Scroll-triggered animations, likely using GSAP ScrollTrigger, are employed to reveal large, decorative text elements with a subtle parallax or slide-up effect as they enter the viewport, creating a sense of depth and elegance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#F47D20",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#929292",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Reckless",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings and display text (~4-5x body) with smaller, clean sans-serif body and navigation, creating a sophisticated and editorial feel.",
+    "radius": "Subtle; most elements have sharp corners, but the logo features a perfect curve, and some interactive elements might have a very slight radius.",
+    "spacing": "Airy; generous white space is used throughout, particularly in the hero and between major content blocks, contributing to a luxurious and focused presentation."
+  },
+  "standout": "The site's design is distinctive for its bold and dynamic use of typography as a primary visual element, particularly the transforming logo and the oversized, elegant serif statements that punctuate the scroll. This, combined with a minimalist layout and a vibrant single accent color, creates a highly sophisticated and memorable brand experience that feels more like an editorial piece than a typical service site.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

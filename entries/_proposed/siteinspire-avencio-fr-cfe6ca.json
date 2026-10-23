@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-avencio-fr-cfe6ca",
+  "source": {
+    "url": "https://avencio.fr",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-avencio-fr-cfe6ca.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-avencio-fr-cfe6ca__scroll0.webp",
+      "shots/_proposed/siteinspire-avencio-fr-cfe6ca__scroll1.webp",
+      "shots/_proposed/siteinspire-avencio-fr-cfe6ca__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://avencio.fr/engagement",
+        "full": "shots/_proposed/siteinspire-avencio-fr-cfe6ca__p2.webp"
+      },
+      {
+        "url": "https://avencio.fr/accompagnement",
+        "full": "shots/_proposed/siteinspire-avencio-fr-cfe6ca__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food",
+      "seafood",
+      "consulting"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Content sections frequently use an asymmetrical two-column layout, pairing large, bold numbers or high-contrast black and white photography with descriptive text."
+    },
+    {
+      "kind": "color",
+      "note": "The site employs a high-contrast monochromatic palette of black, white, and light grey, punctuated by a single deep purple accent color for interactive elements like buttons and links."
+    },
+    {
+      "kind": "type",
+      "note": "Headings are set in a large, bold sans-serif, providing strong visual hierarchy against lighter, more readable body text, maintaining a clean and modern aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect where the background image scrolls slower than the foreground content, creating depth as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are clearly delineated by generous vertical whitespace and alternating background colors (white and a very light grey), enhancing readability and visual breathing room."
+    }
+  ],
+  "technique_notes": [
+    "The hero section implements a parallax scroll effect by having the background image move at a slower rate than the page scroll, while the overlaying text remains fixed relative to the viewport until the section fully scrolls out.",
+    "The main navigation bar is built to stick to the top of the viewport after the initial scroll, ensuring persistent access to key navigation links and the contact call-to-action.",
+    "Content sections are introduced with subtle fade-in or slide-up animations as they enter the viewport, providing a smooth and engaging reveal experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#7A00DF",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~2.5-3x body) provide strong visual anchors, complemented by a clean, readable body text.",
+    "radius": "Sharp corners are dominant across most elements, with only a very subtle rounding applied to interactive elements like buttons.",
+    "spacing": "Airy density with generous vertical spacing between sections and within content blocks, creating a sense of openness and clarity."
+  },
+  "standout": "The site's distinctive use of high-contrast black and white photography, often with a subtle, deep purple accent, creates a sophisticated and editorial feel. This, combined with a minimalist layout and ample whitespace, elevates the brand beyond a typical corporate site, making the imagery itself a core part of the design language.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

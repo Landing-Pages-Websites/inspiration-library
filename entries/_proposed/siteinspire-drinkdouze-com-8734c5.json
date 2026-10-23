@@ -1,0 +1,126 @@
+{
+  "id": "siteinspire-drinkdouze-com-8734c5",
+  "source": {
+    "url": "https://drinkdouze.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-drinkdouze-com-8734c5.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-drinkdouze-com-8734c5__scroll0.webp",
+      "shots/_proposed/siteinspire-drinkdouze-com-8734c5__scroll1.webp",
+      "shots/_proposed/siteinspire-drinkdouze-com-8734c5__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://drinkdouze.com/en",
+        "full": "shots/_proposed/siteinspire-drinkdouze-com-8734c5__p2.webp"
+      },
+      {
+        "url": "https://drinkdouze.com/en/blogs/recipes",
+        "full": "shots/_proposed/siteinspire-drinkdouze-com-8734c5__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "alcohol",
+      "non-alcoholic-beverages"
+    ],
+    "mood": [
+      "luxe",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "All major content sections and image blocks are contained within large, full-width modules featuring very pronounced rounded corners, creating a soft, inviting visual structure."
+    },
+    {
+      "kind": "type",
+      "note": "A highly distinctive, expressive display serif font is used for hero headings and the brand's large footer logo, providing a strong brand identity that contrasts with clean, legible sans-serifs for body text and smaller headings."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a rich, warm, and earthy color palette dominated by deep browns, terracotta oranges, and creamy off-whites, accented by the vibrant red-orange of the product itself and occasional cool-toned background sections."
+    },
+    {
+      "kind": "motion",
+      "note": "The top promotional banner disappears on scroll, and the main navigation bar becomes sticky at the top, subtly reducing its height and gaining a solid background."
+    },
+    {
+      "kind": "section",
+      "note": "Product showcases and lifestyle content are consistently presented in a grid or stacked layout within distinct, rounded-corner modules, often featuring high-quality photography with a warm, inviting glow."
+    }
+  ],
+  "technique_notes": [
+    "The header features a top banner that slides out of view on scroll, while the main navigation bar transitions from its initial state to a condensed, sticky version with a solid background as the user scrolls down the page.",
+    "Content sections and image blocks are designed with very large, consistent corner radii, giving a soft, tactile feel to the entire page layout.",
+    "Individual content blocks and images appear to animate into view with a subtle fade-up or slide-up effect as they enter the viewport, likely using CSS keyframe animations triggered by scroll position."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F6F2E9",
+        "role": "background"
+      },
+      {
+        "hex": "#301816",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#A06040",
+        "role": "accent"
+      },
+      {
+        "hex": "#C7DDC2",
+        "role": "background"
+      },
+      {
+        "hex": "#CFE6F4",
+        "role": "background"
+      },
+      {
+        "hex": "#676986",
+        "role": "background"
+      },
+      {
+        "hex": "#FFC000",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: custom display serif",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Barlow",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Features an oversized, expressive display serif for hero headings (~4x body) and brand identity, complemented by a clean, balanced sans-serif for body text and smaller, often uppercase, labels.",
+    "radius": "Pill-like rounded corners are applied extensively to almost all content blocks, images, and buttons, creating a very soft and cohesive aesthetic.",
+    "spacing": "Balanced to airy, with generous padding around content blocks and within sections, contributing to a premium and unhurried feel."
+  },
+  "standout": "This site's design is distinctive for its luxurious, tactile feel, achieved through the consistent use of very large, rounded-corner content blocks and a rich, warm color palette. The unique, expressive display serif font for key headings and the brand logo provides a strong, memorable identity that elevates it beyond typical product sites.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

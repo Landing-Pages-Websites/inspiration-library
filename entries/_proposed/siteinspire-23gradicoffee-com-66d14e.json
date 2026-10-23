@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-23gradicoffee-com-66d14e",
+  "source": {
+    "url": "https://www.23gradicoffee.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-23gradicoffee-com-66d14e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-23gradicoffee-com-66d14e__scroll0.webp",
+      "shots/_proposed/siteinspire-23gradicoffee-com-66d14e__scroll1.webp",
+      "shots/_proposed/siteinspire-23gradicoffee-com-66d14e__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "coffee",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-width sections with generous vertical padding, often featuring a single dominant image or video and prominent, centered typography."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and section titles use an extremely large, elegant serif font, creating a strong visual hierarchy and a luxurious, editorial feel."
+    },
+    {
+      "kind": "color",
+      "note": "A deep, rich navy blue is used as a primary background color, providing a sophisticated backdrop for white text and subtle warm accents."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero elements (main title text, background video) parallax independently on scroll, with the text scaling down and moving up while the background shifts at a different rate."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a staggered fade-up or slide-in animation as they enter the viewport, drawing attention to new information."
+    },
+    {
+      "kind": "section",
+      "note": "Large, numbered lists are used to present key information or steps, often paired with a large text block or a single impactful image."
+    }
+  ],
+  "technique_notes": [
+    "Uses GSAP ScrollTrigger to orchestrate complex scroll-based animations. The hero section features a multi-layered parallax effect where the main title scales down and translates upwards while the background video or image parallaxes at a different speed. Subsequent content sections are revealed with a subtle fade-in and slight upward translation as they scroll into view.",
+    "Full-bleed video backgrounds are used in hero sections, often with a subtle dark overlay to ensure text legibility and enhance the sophisticated mood.",
+    "Employs a striking contrast between oversized, elegant serif display fonts for headlines and a clean, legible sans-serif for body text, creating a sophisticated and editorial aesthetic."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#133250",
+        "role": "background"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text"
+      },
+      {
+        "hex": "#f4f4f4",
+        "role": "surface"
+      },
+      {
+        "hex": "#212121",
+        "role": "text-dark"
+      },
+      {
+        "hex": "#eb9754",
+        "role": "accent"
+      },
+      {
+        "hex": "#55a7a3",
+        "role": "accent-secondary"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif hero and section titles (approx. 4-6x body text size) paired with a clean, well-spaced sans-serif for body copy and labels.",
+    "radius": "Subtle (small rounded corners on buttons and image containers).",
+    "spacing": "Airy, with generous vertical padding between sections and ample whitespace around large typographic elements, creating a sense of luxury and breathing room."
+  },
+  "standout": "The site's distinctive use of extremely large, elegant serif typography for hero and section titles, combined with sophisticated scroll-triggered parallax and reveal animations, creates a highly luxurious and editorial brand experience that feels more like a digital magazine than a typical product page. The dramatic scale of the type is its most memorable feature.",
+  "animation_tech": [
+    "gsap",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

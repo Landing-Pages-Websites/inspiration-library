@@ -1,0 +1,119 @@
+{
+  "id": "siteinspire-mori-com-71f641",
+  "source": {
+    "url": "https://www.mori.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-mori-com-71f641.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-mori-com-71f641__scroll0.webp",
+      "shots/_proposed/siteinspire-mori-com-71f641__scroll1.webp",
+      "shots/_proposed/siteinspire-mori-com-71f641__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.mori.com/the-impact",
+        "full": "shots/_proposed/siteinspire-mori-com-71f641__p2.webp"
+      },
+      {
+        "url": "https://www.mori.com/the-product",
+        "full": "shots/_proposed/siteinspire-mori-com-71f641__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-tech",
+      "food-preservation",
+      "biotechnology"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used, pairing large imagery or interactive elements on one side with concise text and a call to action on the other."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated, somewhat condensed serif typeface is used for prominent headings and hero text, contrasting with a clean, legible sans-serif for body copy and smaller UI elements."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a warm, earthy palette of cream, beige, and dark charcoal as primary colors, accented by a muted teal for specific content blocks."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a dynamic content swap where the main headline and a row of associated product icons change as the user scrolls down, showcasing different applications of the product."
+    },
+    {
+      "kind": "section",
+      "note": "Key problem/solution statements are presented as distinct, rounded-corner cards with embedded background imagery, providing visual separation and emphasis."
+    }
+  ],
+  "technique_notes": [
+    "The hero section employs a scroll-triggered content animation system, possibly leveraging a library like Swiper or a custom JavaScript implementation. As the user scrolls, the primary headline text transitions to a new phrase, and a corresponding set of product icons visually updates, showcasing different applications or aspects of the product.",
+    "Information is often presented in two-column layouts, with one side featuring a large image or video and the other containing concise text and a call to action, creating a balanced yet dynamic visual flow.",
+    "The navigation bar remains fixed at the top of the viewport, ensuring constant access to navigation and contact information across all pages."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F8E8B8",
+        "role": "background"
+      },
+      {
+        "hex": "#D4CEC3",
+        "role": "surface"
+      },
+      {
+        "hex": "#313131",
+        "role": "text"
+      },
+      {
+        "hex": "#006BA1",
+        "role": "accent"
+      },
+      {
+        "hex": "#8C8C8C",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#5C5C5C",
+        "role": "footer-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, somewhat condensed serif headings (~3-4x body) for impact, paired with a clean, readable sans-serif for body text and smaller uppercase labels.",
+    "radius": "Subtle rounding on card elements and buttons, with sharp edges for most image containers.",
+    "spacing": "Balanced to airy; sections have generous vertical padding, and content within sections is well-spaced, contributing to a clean, uncrowded feel."
+  },
+  "standout": "The site's distinctive use of a dynamic, scroll-triggered hero section that visually transforms its headline and associated product icons is highly engaging. This, combined with a sophisticated serif typeface and a warm, earthy color palette, creates a unique brand identity that feels both innovative and approachable.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "siteinspire-sipelixirs-com-d72a0e",
+  "source": {
+    "url": "https://sipelixirs.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-sipelixirs-com-d72a0e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-sipelixirs-com-d72a0e__scroll0.webp",
+      "shots/_proposed/siteinspire-sipelixirs-com-d72a0e__scroll1.webp",
+      "shots/_proposed/siteinspire-sipelixirs-com-d72a0e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://sipelixirs.com/pages/faq",
+        "full": "shots/_proposed/siteinspire-sipelixirs-com-d72a0e__p2.webp"
+      },
+      {
+        "url": "https://sipelixirs.com/pages/reviews",
+        "full": "shots/_proposed/siteinspire-sipelixirs-com-d72a0e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beverages",
+      "cannabis",
+      "thc-drinks"
+    ],
+    "mood": [
+      "bold",
+      "playful"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical hero section with large, bold typography on the left and dynamic product imagery on the right, creating a strong visual hierarchy."
+    },
+    {
+      "kind": "type",
+      "note": "Hero and main headings use an extremely large, condensed, and bold display sans-serif font, creating an impactful and distinctive brand voice."
+    },
+    {
+      "kind": "color",
+      "note": "High-contrast color palette featuring deep indigo backgrounds paired with vibrant orange accents for CTAs and key information, creating an energetic feel."
+    },
+    {
+      "kind": "motion",
+      "note": "A mandatory age verification modal is presented as a fixed overlay immediately upon page load, obscuring the entire page content until user interaction."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a subtle parallax effect on background elements as the user scrolls, creating a sense of depth behind the foreground text and product imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "A horizontal feature bar with key product benefits sticks to the bottom of the viewport for a duration as the user scrolls, then disappears as the footer comes into view."
+    },
+    {
+      "kind": "section",
+      "note": "Product information is presented through a mix of card grids for product types and mocktails, and a three-column image grid demonstrating usage steps."
+    }
+  ],
+  "technique_notes": [
+    "A full-page age gate modal is triggered on initial page load, rendered as a fixed overlay with a light background and bold, centered text. It requires user interaction before the main site content becomes accessible.",
+    "The hero section utilizes WebGL or CSS transforms to create a subtle parallax scrolling effect, where background elements move at a slower rate than foreground content, enhancing visual depth.",
+    "A sticky element at the bottom of the viewport displays key product features, maintaining visibility during a portion of the scroll before eventually scrolling out of view."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1f2359",
+        "role": "background"
+      },
+      {
+        "hex": "#ff9920",
+        "role": "accent"
+      },
+      {
+        "hex": "#fff",
+        "role": "text"
+      },
+      {
+        "hex": "#fff2c2",
+        "role": "surface"
+      },
+      {
+        "hex": "#108474",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffeaf3",
+        "role": "accent"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "FK Screamer",
+        "role": "display"
+      },
+      {
+        "family": "Inter",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto-Regular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, condensed display headings (~6x body) for hero and main section titles, contrasted with a clean, readable sans-serif for body text and smaller labels.",
+    "radius": "Subtle rounding on cards and buttons, with some elements like input fields featuring a pill-shaped radius.",
+    "spacing": "Generally airy spacing between major sections, creating distinct content blocks, while internal card layouts maintain a balanced density."
+  },
+  "standout": "The site's distinctive use of an extremely bold, condensed display typeface for hero and main headings, combined with a high-contrast, vibrant color palette, creates an energetic and memorable brand presence. The prominent, fixed age gate modal also sets an immediate, no-nonsense tone.",
+  "animation_tech": [
+    "css-keyframes",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
