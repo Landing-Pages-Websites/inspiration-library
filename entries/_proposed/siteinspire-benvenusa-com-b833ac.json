@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-benvenusa-com-b833ac",
+  "source": {
+    "url": "https://benvenusa.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-benvenusa-com-b833ac.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-benvenusa-com-b833ac__scroll0.webp",
+      "shots/_proposed/siteinspire-benvenusa-com-b833ac__scroll1.webp",
+      "shots/_proposed/siteinspire-benvenusa-com-b833ac__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://benvenusa.com/murva",
+        "full": "shots/_proposed/siteinspire-benvenusa-com-b833ac__p2.webp"
+      },
+      {
+        "url": "https://benvenusa.com/esole",
+        "full": "shots/_proposed/siteinspire-benvenusa-com-b833ac__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "wine",
+      "luxury-goods",
+      "agriculture"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "minimal",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The site uses full-width sections with generous vertical padding, often featuring a single dominant element like a large title, a full-bleed image, or a horizontally scrolling content block."
+    },
+    {
+      "kind": "type",
+      "note": "A dramatic typographic hierarchy is established with an extremely oversized, bold sans-serif for the main brand title, contrasted with a refined, elegant serif for subheadings and body text, often set in all caps for labels."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast palette of black and white is consistently used for backgrounds and primary text, punctuated by a single vibrant, saturated purple as a strong accent color for background blocks and interactive elements."
+    },
+    {
+      "kind": "motion",
+      "note": "The main 'BENVENUSA' title remains fixed at the top of the viewport, acting as a persistent brand anchor, while other hero content scrolls underneath it. A horizontal scrolling carousel reveals additional producer profiles within a grid layout, allowing users to browse more content without further vertical scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Content is organized into distinct, full-width blocks that stack vertically, with a notable horizontal scrolling section for 'producer' cards, and dedicated interior pages for each producer featuring detailed information and a wine list."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header effect for the main site title, ensuring it stays visible at the top of the viewport as the user scrolls down. Utilize a horizontal scrolling component, such as a Swiper carousel, to display a series of content cards, allowing users to swipe or click through to view more items without vertical scrolling. Use a bold, high-contrast color scheme with a single vibrant accent color to define key sections and draw attention to interactive elements. Employ a responsive grid system for content cards that adapts to different screen sizes while maintaining the horizontal scroll functionality."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#9900FF",
+        "role": "accent"
+      },
+      {
+        "hex": "#333333",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "DieGrotesk",
+        "role": "display"
+      },
+      {
+        "family": "Syllabus",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold sans-serif hero title (~8x body) with smaller, elegant serif subheadings and body text, often in uppercase for labels.",
+    "radius": "sharp",
+    "spacing": "Very airy in the hero and main section titles, becoming more balanced in content grids and detail pages."
+  },
+  "standout": "This site's design is distinctive for its audacious typographic scale, particularly the colossal hero title, which creates an immediate and powerful brand statement. The bold, almost aggressive use of a single, vibrant purple as the sole accent color against a stark black and white palette, combined with grayscale photography, gives it a unique, high-fashion editorial feel that stands apart from typical industry sites.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-aulis-co-uk-aad2e8",
+  "source": {
+    "url": "https://www.aulis.co.uk",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-aulis-co-uk-aad2e8.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-aulis-co-uk-aad2e8__scroll0.webp",
+      "shots/_proposed/siteinspire-aulis-co-uk-aad2e8__scroll1.webp",
+      "shots/_proposed/siteinspire-aulis-co-uk-aad2e8__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.aulis.co.uk/aulis-london",
+        "full": "shots/_proposed/siteinspire-aulis-co-uk-aad2e8__p2.webp"
+      },
+      {
+        "url": "https://www.aulis.co.uk/aulis-phuket",
+        "full": "shots/_proposed/siteinspire-aulis-co-uk-aad2e8__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "hospitality",
+      "fine-dining",
+      "restaurant"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extensive use of a clean, grid-based layout for displaying location details and image galleries, maintaining consistent spacing and alignment."
+    },
+    {
+      "kind": "type",
+      "note": "A monospaced-like sans-serif font is consistently used for all functional text, including navigation, buttons, contact information, and footer links, creating a distinctive, precise aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A stark, high-contrast black and white color scheme dominates, with subtle touches of a warm gold/bronze used sparingly for brand accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a large, multi-line text overlay that scrolls out of view, revealing a full-bleed background image that parallaxes subtly behind foreground content."
+    },
+    {
+      "kind": "section",
+      "note": "Location overview sections are presented as distinct, horizontally-aligned blocks, each containing a brief description, contact details, and a 'Book Your Seat' call to action."
+    }
+  ],
+  "technique_notes": [
+    "The hero section is built with a large, multi-line text element positioned over a full-bleed background image. As the user scrolls, the text scrolls away at a normal rate, while the background image moves at a slower rate, creating a subtle parallax effect. A global navigation bar transitions from an initial transparent state to a sticky, compact version with a solid background after the user scrolls past the hero.",
+    "The site employs a distinctive monospaced-like font for all interactive and informational text elements, such as navigation links, buttons, and detailed contact information, to establish a consistent and precise brand voice.",
+    "Image galleries and content blocks are arranged in a clean grid, often with a single image or content item per column, ensuring ample whitespace and clear visual separation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#979797",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "surface"
+      },
+      {
+        "hex": "#B8860B",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: IBM Plex Mono",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, thin sans-serif hero text (~4-5x body) contrasts with smaller, uppercase monospaced-like labels and body text, creating a precise, editorial feel.",
+    "radius": "Sharp, with all elements and images maintaining crisp, angular corners.",
+    "spacing": "Airy, with generous vertical spacing between major sections and content blocks, creating a sense of calm and luxury."
+  },
+  "standout": "The most distinctive element is the consistent and pervasive use of a monospaced-like font for all functional text, including navigation, buttons, and detailed information, which gives the site a unique, precise, and almost archival aesthetic. This, combined with the stark black and white imagery and minimal color palette, creates a highly refined and editorial feel that elevates the brand beyond a typical restaurant website.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}

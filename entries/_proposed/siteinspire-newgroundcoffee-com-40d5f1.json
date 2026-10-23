@@ -1,0 +1,117 @@
+{
+  "id": "siteinspire-newgroundcoffee-com-40d5f1",
+  "source": {
+    "url": "https://www.newgroundcoffee.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-newgroundcoffee-com-40d5f1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-newgroundcoffee-com-40d5f1__scroll0.webp",
+      "shots/_proposed/siteinspire-newgroundcoffee-com-40d5f1__scroll1.webp",
+      "shots/_proposed/siteinspire-newgroundcoffee-com-40d5f1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.newgroundcoffee.com/shop",
+        "full": "shots/_proposed/siteinspire-newgroundcoffee-com-40d5f1__p2.webp"
+      },
+      {
+        "url": "https://www.newgroundcoffee.com/coffee",
+        "full": "shots/_proposed/siteinspire-newgroundcoffee-com-40d5f1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "food-and-beverage",
+      "coffee",
+      "e-commerce"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed photographic sections with overlaid text and calls-to-action create impactful visual breaks and a premium feel between product grids."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black, white, and dark grey is consistently punctuated by a single vibrant orange accent, primarily used for branding elements, product packaging, and calls-to-action."
+    },
+    {
+      "kind": "type",
+      "note": "Section titles and key headings utilize a bold, uppercase sans-serif typeface, creating strong visual hierarchy against smaller, legible body text."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a subtle parallax effect where the background image scrolls at a slower rate than the overlaid text and button, creating a sense of depth as the user scrolls down."
+    },
+    {
+      "kind": "section",
+      "note": "Product display sections consistently use a clean, responsive grid layout with product images, titles, and prices, often highlighting the brand's distinctive orange packaging."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero parallax, the background image can be set with a fixed attachment or a slower scroll speed relative to the foreground content. Sections are revealed by standard scrolling, with subtle fade-in or slide-up animations potentially triggered by CSS keyframes as elements enter the viewport.",
+    "The navigation bar remains fixed at the top of the viewport throughout scrolling, maintaining accessibility to key links without significant visual transformation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#FC4C02",
+        "role": "accent"
+      },
+      {
+        "hex": "#6B6B6B",
+        "role": "text"
+      },
+      {
+        "hex": "#444444",
+        "role": "text"
+      },
+      {
+        "hex": "#FAFAFA",
+        "role": "background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Montserrat",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold sans-serif headings (~3-4x body) with uppercase section titles, complemented by a clear, readable body text.",
+    "radius": "Subtle, with slightly rounded corners on buttons and input fields, but predominantly sharp edges for overall layout elements.",
+    "spacing": "Balanced density, with airy full-bleed hero and image sections, transitioning to a more compact but well-spaced grid for product displays."
+  },
+  "standout": "The site's distinctive use of high-quality, often moody photography combined with a bold, consistent orange accent color for product packaging and calls-to-action creates a strong, memorable brand identity that feels premium and authentic. The full-bleed image sections with overlaid text are particularly impactful.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

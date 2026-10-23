@@ -1,0 +1,124 @@
+{
+  "id": "siteinspire-therootedjournal-com-8148a3",
+  "source": {
+    "url": "https://therootedjournal.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-therootedjournal-com-8148a3.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-therootedjournal-com-8148a3__scroll0.webp",
+      "shots/_proposed/siteinspire-therootedjournal-com-8148a3__scroll1.webp",
+      "shots/_proposed/siteinspire-therootedjournal-com-8148a3__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://therootedjournal.com/about",
+        "full": "shots/_proposed/siteinspire-therootedjournal-com-8148a3__p2.webp"
+      },
+      {
+        "url": "https://therootedjournal.com/stories",
+        "full": "shots/_proposed/siteinspire-therootedjournal-com-8148a3__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "publishing",
+      "agriculture",
+      "sustainability",
+      "food-systems"
+    ],
+    "mood": [
+      "editorial",
+      "luxe",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero image with overlaid text and a subtle gradient overlay for contrast, setting an editorial tone."
+    },
+    {
+      "kind": "layout",
+      "note": "Grid-based article display with prominent images and concise text summaries, often featuring category tags."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant serif typeface is used for the site's logo and major display headings, contrasted with a clean, modern sans-serif for body text and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A rich, earthy color palette with a dominant dark green accent (#2e9a73) provides a natural and sophisticated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "A fixed vertical navigation bar on the right edge of the viewport persists throughout scrolling, providing consistent access to main navigation."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements reveal with a subtle fade-up or slide-up animation as they enter the viewport during scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "A full-width newsletter signup form is integrated as a distinct section, using a light background to differentiate it from surrounding content."
+    }
+  ],
+  "technique_notes": [
+    "The hero image employs a subtle parallax effect, moving at a slower rate than the scroll to create a sense of depth as the user scrolls down the page.",
+    "Content sections and individual article cards are animated to appear with a gentle fade and slight upward translation as they scroll into the user's view, enhancing engagement without being distracting.",
+    "A fixed-position vertical navigation element is maintained on the right side of the screen, ensuring global navigation is always accessible regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2e9a73",
+        "role": "accent"
+      },
+      {
+        "hex": "#f8f8f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#7a00df",
+        "role": "secondary-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Tobias",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: DM Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with smaller, clean sans-serif body text and uppercase labels.",
+    "radius": "Subtle rounded corners on buttons and image cards, maintaining a soft but not overly playful aesthetic.",
+    "spacing": "Balanced to airy, with generous vertical spacing between major sections and within the hero, while article grids maintain a comfortable density."
+  },
+  "standout": "The site's distinctive, illustrative hero imagery and custom-feel serif typography immediately convey a sophisticated, editorial brand. The persistent vertical navigation bar on the right edge is a unique and functional design choice that sets it apart from typical layouts.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}

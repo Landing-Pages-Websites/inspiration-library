@@ -1,0 +1,122 @@
+{
+  "id": "siteinspire-drinkmockly-com-87b3dd",
+  "source": {
+    "url": "https://drinkmockly.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-10-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-drinkmockly-com-87b3dd.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-drinkmockly-com-87b3dd__scroll0.webp",
+      "shots/_proposed/siteinspire-drinkmockly-com-87b3dd__scroll1.webp",
+      "shots/_proposed/siteinspire-drinkmockly-com-87b3dd__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://drinkmockly.com/pages/about",
+        "full": "shots/_proposed/siteinspire-drinkmockly-com-87b3dd__p2.webp"
+      },
+      {
+        "url": "https://drinkmockly.com/collections/drinks",
+        "full": "shots/_proposed/siteinspire-drinkmockly-com-87b3dd__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "beverages",
+      "non-alcoholic-drinks",
+      "food-and-drink"
+    ],
+    "mood": [
+      "bold",
+      "playful",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections frequently use full-bleed, high-contrast photography or video backgrounds, often with text overlays, to create immersive visual experiences."
+    },
+    {
+      "kind": "type",
+      "note": "The site employs extremely large, bold, and often condensed sans-serif typography for key headlines and brand statements, making them dominant visual elements."
+    },
+    {
+      "kind": "color",
+      "note": "A core palette of deep forest green and a warm off-white/beige is consistently used for backgrounds, providing a sophisticated yet earthy base for vibrant product colors."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections and individual elements reveal with a subtle fade-up or slide-up animation as they enter the viewport during scroll, creating a dynamic viewing experience."
+    },
+    {
+      "kind": "section",
+      "note": "The homepage features a horizontal scrolling product carousel, allowing users to browse different flavors without leaving the current section."
+    }
+  ],
+  "technique_notes": [
+    "The header navigation remains fixed at the top of the viewport, providing persistent access to site links. The hero section features a video background that plays on loop, creating an immediate engaging visual. Scroll-triggered animations, likely using GSAP, are employed to reveal subsequent content sections and individual elements (like text blocks and product cards) with a staggered fade-in and slight upward translation as they become visible in the viewport. A modal popup for email subscription appears shortly after page load, overlaying the hero content."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#2F4F4F",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "surface"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#E04E4E",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A2BE2",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Oswald",
+        "role": "heading"
+      },
+      {
+        "family": "Roboto",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold, and condensed sans-serif headings (up to ~6x body text) create strong visual statements, contrasted with a clean, legible sans-serif for body copy and smaller uppercase labels.",
+    "radius": "Subtle; most elements feature sharp corners, with a very slight rounding on buttons and some card elements.",
+    "spacing": "Balanced to airy; generous vertical spacing between major sections, with a more compact grid for product displays and feature lists."
+  },
+  "standout": "This site's design is distinctive for its bold, almost irreverent use of massive, impactful typography as a primary visual element, paired with authentic, vibrant lifestyle photography. It eschews a minimalist aesthetic for a more celebratory, gritty, and direct brand voice, particularly evident in headlines like 'BIG FLAVOR FROM BIG EASY'.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
