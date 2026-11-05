@@ -1,0 +1,115 @@
+{
+  "id": "siteinspire-thefutureinblack-com-b538aa",
+  "source": {
+    "url": "https://www.thefutureinblack.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-05"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thefutureinblack-com-b538aa.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thefutureinblack-com-b538aa__scroll0.webp",
+      "shots/_proposed/siteinspire-thefutureinblack-com-b538aa__scroll1.webp",
+      "shots/_proposed/siteinspire-thefutureinblack-com-b538aa__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-agency",
+      "design-studio",
+      "art-consulting"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content blocks where large, bold typography often occupies one side of the screen, balanced by striking imagery or smaller, refined text on the other."
+    },
+    {
+      "kind": "type",
+      "note": "Extremely oversized, condensed sans-serif headings are used as primary visual elements, often spanning multiple lines and interacting dynamically with imagery."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of stark white and black is dominant, punctuated by rich, earthy tones and vibrant colors within the artistic photography and subtle gradients."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero section features a massive text element that dramatically shrinks and moves upwards, revealing a full-bleed image and accompanying descriptive text as the user scrolls down."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections throughout the page reveal with a staggered fade-in or slide-up animation as they enter the viewport, creating a dynamic and engaging scroll experience."
+    },
+    {
+      "kind": "motion",
+      "note": "A compact header with the logo and menu, along with a decorative vertical 'W. Honors' text element on the right, becomes sticky and remains visible after initial scroll."
+    }
+  ],
+  "technique_notes": [
+    "The hero section utilizes a scroll-triggered animation (likely GSAP ScrollTrigger) to transform the large headline text, causing it to scale down and translate vertically, revealing the underlying hero image and descriptive text.",
+    "Sections throughout the page are revealed using a staggered fade-up or slide-in effect as they enter the viewport, creating a sense of progressive disclosure and visual interest.",
+    "The main navigation and a decorative vertical text element on the side are implemented as sticky elements, maintaining their position at the top and side of the viewport after a certain scroll threshold."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#2F5C4E",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0C18E",
+        "role": "surface"
+      },
+      {
+        "hex": "#8B4513",
+        "role": "accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter Tight",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica",
+        "role": "body"
+      },
+      {
+        "family": "similar-to: Meno Banner",
+        "role": "display"
+      }
+    ],
+    "type_scale": "Extremely oversized, bold, condensed sans-serif headings (~4-6x body text) create dramatic visual impact, complemented by a clean, legible sans-serif for body text and small, often uppercase, labels.",
+    "radius": "Subtle (e.g., on buttons, some image corners).",
+    "spacing": "Airy, particularly in hero and section titles, emphasizing individual elements, with a balanced density in content grids and text blocks."
+  },
+  "standout": "The site's most distinctive feature is its dramatic, oversized, and animating typography, especially the hero text that shrinks and reveals content on scroll. This, combined with a curated selection of striking, artistic photography and a high-contrast palette, creates a highly dynamic and editorial feel that elevates it beyond a typical marketing site.",
+  "animation_tech": [
+    "css-keyframes",
+    "gsap",
+    "swiper",
+    "webgl-three"
+  ],
+  "status": "proposed"
+}
