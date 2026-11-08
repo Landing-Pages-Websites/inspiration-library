@@ -1,0 +1,105 @@
+{
+  "id": "siteinspire-samthies-com-3a3af6",
+  "source": {
+    "url": "https://samthies.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-samthies-com-3a3af6.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-samthies-com-3a3af6__scroll0.webp",
+      "shots/_proposed/siteinspire-samthies-com-3a3af6__scroll1.webp",
+      "shots/_proposed/siteinspire-samthies-com-3a3af6__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://samthies.com/shop",
+        "full": "shots/_proposed/siteinspire-samthies-com-3a3af6__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "art",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "A layered scroll-driven hero transition where an initial full-bleed image scrolls up to reveal a full-bleed video hero, which then scrolls up to reveal the main content grid."
+    },
+    {
+      "kind": "layout",
+      "note": "A flexible, multi-column image grid where high-quality photography is the primary content, often accompanied by small, sparse text blocks containing numerical labels or short descriptions."
+    },
+    {
+      "kind": "type",
+      "note": "Consistent and pervasive use of a single monospace font for all textual elements, including navigation, body text, section labels, and numerical identifiers, creating a distinct editorial and archival aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent sticky header that includes the site name, navigation links, and a central tagline, all remaining fixed at the top of the viewport during scroll."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are primarily composed of large-format or full-bleed photography, with text serving a secondary role as captions or metadata rather than driving the narrative."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a scroll-driven animation system, likely using locomotive-scroll, to create a layered reveal effect where the initial hero image and subsequent video hero smoothly scroll out of view, revealing the content below.",
+    "Content sections and individual grid items appear with a subtle fade-in or slide-up animation as they enter the viewport, enhancing the sense of discovery and guiding the user's eye.",
+    "The header elements, including the site title, navigation, and a central tagline, are fixed to the top of the viewport, maintaining constant access and brand presence."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#F5F5F5",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#666666",
+        "role": "subtle-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Quadrant Text Mono",
+        "role": "body"
+      },
+      {
+        "family": "Quadrant Text Mono",
+        "role": "heading"
+      }
+    ],
+    "type_scale": "Small, understated monospace body text (~14px) with slightly larger monospace headings and labels (~16-24px), creating a caption-like feel where text supports large imagery.",
+    "radius": "sharp",
+    "spacing": "airy"
+  },
+  "standout": "The site's distinctive use of a single monospace typeface for almost all textual elements, from navigation to body copy, combined with a scroll-driven layered hero and a minimalist image-grid layout, creates a unique editorial and archival aesthetic. It feels less like a typical marketing site and more like a curated digital exhibition or portfolio, prioritizing visual storytelling with understated textual support.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
