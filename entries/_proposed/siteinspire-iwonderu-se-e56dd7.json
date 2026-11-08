@@ -1,0 +1,130 @@
+{
+  "id": "siteinspire-iwonderu-se-e56dd7",
+  "source": {
+    "url": "https://www.iwonderu.se",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-iwonderu-se-e56dd7.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-iwonderu-se-e56dd7__scroll0.webp",
+      "shots/_proposed/siteinspire-iwonderu-se-e56dd7__scroll1.webp",
+      "shots/_proposed/siteinspire-iwonderu-se-e56dd7__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.iwonderu.se/work/mac-richard-burbridge",
+        "full": "shots/_proposed/siteinspire-iwonderu-se-e56dd7__p2.webp"
+      },
+      {
+        "url": "https://www.iwonderu.se/work/elle-us-mustecaplioglu",
+        "full": "shots/_proposed/siteinspire-iwonderu-se-e56dd7__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "photography",
+      "post-production",
+      "creative-agency",
+      "fashion",
+      "beauty"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The initial hero section uses full-screen, horizontally-scrolling (or snapping) content blocks, each with a distinct background color, large image, and associated text, before transitioning to a vertically scrolling grid."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic typographic contrast is used, featuring a decorative gothic-style serif for the main logo, elegant condensed serifs for project titles, small uppercase sans-serifs for navigation and metadata, and very large, bold sans-serifs for prominent brand names."
+    },
+    {
+      "kind": "color",
+      "note": "The site uses a high-contrast palette of dark greys/blacks and light greys/pinks, punctuated by deep reds, with background colors dynamically changing per full-screen content block."
+    },
+    {
+      "kind": "motion",
+      "note": "The initial hero section features a scroll-triggered horizontal content transition, where each full-screen slide (image, text, background color) snaps into view. After this, the page transitions to standard vertical scrolling, revealing a masonry-like grid and large text sections. The header (logo and navigation) remains sticky at the top."
+    },
+    {
+      "kind": "section",
+      "note": "Large, full-width text sections featuring brand names (e.g., FENTY, SWAROVSKI) are used as high-impact dividers or highlights within the portfolio grid."
+    }
+  ],
+  "technique_notes": [
+    "The initial portfolio showcase is built as a series of full-screen content panels that horizontally scroll or snap into place, each panel dynamically updating the background color, a large hero image, and descriptive text. This creates a distinct visual break and focused presentation for each featured project.",
+    "The main navigation and site logo are implemented as a sticky header, ensuring they remain visible and accessible at the top of the viewport as the user scrolls through the content.",
+    "Subsequent portfolio items are displayed in a responsive, masonry-style grid layout that allows for varied image sizes and aspect ratios, creating a dynamic visual flow. This grid is interspersed with full-width, high-contrast text blocks that serve as bold section dividers or brand callouts."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#f1f1f1",
+        "role": "background"
+      },
+      {
+        "hex": "#ebe9e5",
+        "role": "background"
+      },
+      {
+        "hex": "#16140e",
+        "role": "dark-surface"
+      },
+      {
+        "hex": "#464646",
+        "role": "text"
+      },
+      {
+        "hex": "#5b0f00",
+        "role": "accent-red"
+      },
+      {
+        "hex": "#990000",
+        "role": "accent-red-brighter"
+      },
+      {
+        "hex": "#d8b8b8",
+        "role": "background-pink"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "text-on-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Old English Text MT",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A dramatic scale with a decorative gothic logo, elegant serif headings (~2x body), small uppercase sans-serif labels (~0.8x body), and extremely large, bold sans-serif brand names (~5-8x body).",
+    "radius": "sharp",
+    "spacing": "Very airy in the initial full-screen hero sections, transitioning to a balanced density for the image grid, with generous negative space around large brand name sections."
+  },
+  "standout": "The most distinctive feature is the initial full-screen, horizontally-scrolling portfolio showcase, where each project is presented with a unique background color, large image, and text block, creating a highly immersive and dynamic introduction to their work. This is combined with the bold, high-contrast typographic treatment of brand names as section dividers.",
+  "animation_tech": [],
+  "status": "proposed"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "siteinspire-aliciadubuis-com-f15532",
+  "source": {
+    "url": "https://aliciadubuis.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-08"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-aliciadubuis-com-f15532.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-aliciadubuis-com-f15532__scroll0.webp",
+      "shots/_proposed/siteinspire-aliciadubuis-com-f15532__scroll1.webp",
+      "shots/_proposed/siteinspire-aliciadubuis-com-f15532__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://aliciadubuis.com/projects/wsn",
+        "full": "shots/_proposed/siteinspire-aliciadubuis-com-f15532__p2.webp"
+      },
+      {
+        "url": "https://aliciadubuis.com/projects/danse",
+        "full": "shots/_proposed/siteinspire-aliciadubuis-com-f15532__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "photography",
+      "fashion",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "unaware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The primary content delivery mechanism is full-bleed, high-resolution artistic photography that occupies the majority of the viewport, creating an immersive, gallery-like experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Image galleries are presented in minimalist grids, often with tight spacing between individual images, allowing the visual content to speak for itself."
+    },
+    {
+      "kind": "type",
+      "note": "Text is used extremely sparingly, primarily for navigation, credits, and metadata, consistently rendered in a small, uppercase sans-serif font."
+    },
+    {
+      "kind": "color",
+      "note": "The site's overall color palette is predominantly neutral (white, black, greys) and is heavily influenced by the diverse, rich hues present within the full-bleed artistic photography."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent, minimal header bar remains sticky at the top of the viewport, providing global navigation and branding."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'OVERVIEW / INDEX' navigation element dynamically expands to reveal a detailed list of project links as the user scrolls down the homepage, making the index accessible without cluttering the initial view."
+    }
+  ],
+  "technique_notes": [
+    "The site employs a sticky header that maintains its position at the top of the viewport, ensuring continuous access to primary navigation elements.",
+    "Content sections are built around large, full-bleed images or embedded videos, designed to fill the screen and create an impactful visual presentation.",
+    "A specific navigation item uses a scroll-triggered reveal mechanism to expand its content, presenting a detailed list of links only when the user scrolls to a certain point or interacts with it."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#4A4A4A",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#8C8C8C",
+        "role": "subtle-grey"
+      },
+      {
+        "hex": "#D4D4D4",
+        "role": "light-surface"
+      },
+      {
+        "hex": "#707070",
+        "role": "mid-grey"
+      },
+      {
+        "hex": "#507050",
+        "role": "accent-from-image"
+      },
+      {
+        "hex": "#A04040",
+        "role": "accent-from-image"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ArialMT",
+        "role": "body"
+      },
+      {
+        "family": "Arial-BoldMT",
+        "role": "navigation"
+      }
+    ],
+    "type_scale": "Very flat and consistent, with small, understated sans-serif text used for all elements, including navigation and labels, creating a subtle hierarchy where imagery is paramount.",
+    "radius": "sharp",
+    "spacing": "Very airy and open, particularly around text elements and the main navigation. Images often fill the available width, creating a dense visual impact within their own sections, but the overall page structure feels spacious."
+  },
+  "standout": "The site's distinctive design is its extreme commitment to a full-bleed, art-gallery aesthetic, where large, often abstract or conceptual photography serves as the primary content and visual language. Text is almost entirely relegated to minimal navigation and metadata, making the visual experience paramount and highly immersive, unlike typical portfolio sites that balance imagery with descriptive text.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
