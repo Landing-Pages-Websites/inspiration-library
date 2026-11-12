@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-fredericlord-com-c5bb7a",
+  "source": {
+    "url": "https://fredericlord.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-12"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-fredericlord-com-c5bb7a.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-fredericlord-com-c5bb7a__scroll0.webp",
+      "shots/_proposed/siteinspire-fredericlord-com-c5bb7a__scroll1.webp",
+      "shots/_proposed/siteinspire-fredericlord-com-c5bb7a__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "creative-services",
+      "design",
+      "technology",
+      "portfolio"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A content-heavy, asymmetrical layout that combines a central 'about' text block with large, dynamic project thumbnails, followed by a detailed, table-like project list, and then a grid of selected works."
+    },
+    {
+      "kind": "type",
+      "note": "Strategic use of a monospaced font for navigation, project numbers, and metadata, contrasting with a clean sans-serif for headings and body text to create an editorial, almost data-driven aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A sophisticated dark mode palette featuring a deep charcoal background, light off-white text, and subtle, muted accent colors (gold, red, green) primarily within project visuals."
+    },
+    {
+      "kind": "motion",
+      "note": "Project thumbnails feature dynamic content that cycles or changes as the user scrolls, providing a live preview of different aspects of the work within the same frame."
+    },
+    {
+      "kind": "section",
+      "note": "Distinct sections are delineated by large content blocks, including an initial personal statement, a comprehensive project index presented as a table, and a 'selected work' grid, creating a clear content hierarchy."
+    }
+  ],
+  "technique_notes": [
+    "The header remains fixed at the top of the viewport, providing persistent navigation and branding while the main content scrolls underneath.",
+    "Large project preview cards contain embedded content that animates or cycles through different states (e.g., screenshots or video snippets) as the user scrolls down the page, giving a dynamic, in-place demonstration of the work. This effect is likely achieved using CSS keyframe animations or JavaScript-driven content updates triggered by scroll position.",
+    "The page relies on vertical scrolling to reveal extensive content blocks, with minimal scroll-triggered fade-ins or slide-ins for entire sections, emphasizing a direct, content-first presentation."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#171209",
+        "role": "background"
+      },
+      {
+        "hex": "#c9c2a1",
+        "role": "text"
+      },
+      {
+        "hex": "#b5a96f",
+        "role": "accent"
+      },
+      {
+        "hex": "#e5483a",
+        "role": "accent"
+      },
+      {
+        "hex": "#a5d035",
+        "role": "accent"
+      },
+      {
+        "hex": "#312a19",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "similar-to:IBM Plex Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "A balanced type scale with clear hierarchy; headings are moderately larger than body text, and monospaced elements are often smaller or used for labels and metadata.",
+    "radius": "Subtle; very slight rounding on some elements like project thumbnails, but mostly sharp edges.",
+    "spacing": "Balanced to airy; the initial hero/about section is quite airy, while the project table is dense, and the selected work grid is balanced."
+  },
+  "standout": "The site stands out with its unique blend of a minimalist dark aesthetic and a highly detailed, almost data-driven presentation of work, particularly through the extensive project table and the interactive, content-rich project thumbnails that act as mini-previews. The use of a monospaced font for structural elements gives it a distinctive editorial, almost archival feel.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}
