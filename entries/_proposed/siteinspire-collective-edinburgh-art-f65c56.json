@@ -1,0 +1,131 @@
+{
+  "id": "siteinspire-collective-edinburgh-art-f65c56",
+  "source": {
+    "url": "https://www.collective-edinburgh.art",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-collective-edinburgh-art-f65c56.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-collective-edinburgh-art-f65c56__scroll0.webp",
+      "shots/_proposed/siteinspire-collective-edinburgh-art-f65c56__scroll1.webp",
+      "shots/_proposed/siteinspire-collective-edinburgh-art-f65c56__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.collective-edinburgh.art/hire",
+        "full": "shots/_proposed/siteinspire-collective-edinburgh-art-f65c56__p2.webp"
+      },
+      {
+        "url": "https://www.collective-edinburgh.art/visit",
+        "full": "shots/_proposed/siteinspire-collective-edinburgh-art-f65c56__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "arts-and-culture",
+      "gallery",
+      "museum"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Sections alternate between full-width content blocks and two-column layouts, often with an image on one side and text/form on the other, creating a balanced and varied visual rhythm."
+    },
+    {
+      "kind": "type",
+      "note": "The hero section features exceptionally large, bold, and vibrant red typography for the main title, contrasting with more understated, yet still prominent, sans-serif headings for subsequent sections."
+    },
+    {
+      "kind": "color",
+      "note": "A striking coral red is used as a primary accent color for hero text, call-to-action buttons, and interactive elements, providing high contrast against a largely neutral palette of white, dark grey, and warm beige tones."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero background image exhibits a subtle parallax effect, moving slower than the foreground content as the user scrolls. Sections below the hero appear to fade in or slide up into view as they enter the viewport."
+    },
+    {
+      "kind": "motion",
+      "note": "The navigation bar transforms from a transparent overlay with white text in the hero section to a solid white sticky bar with dark text and a distinct menu button (with a hamburger icon) after scrolling past the hero."
+    },
+    {
+      "kind": "section",
+      "note": "Informational sections frequently use a warm, light beige background, distinguishing them from the white background of feature sections and the vibrant coral of contact/CTA blocks."
+    }
+  ],
+  "technique_notes": [
+    "To achieve the hero effect, a large, bold, custom-font title in a vibrant accent color is overlaid on a full-bleed background image that subtly parallaxes as the user scrolls.",
+    "The navigation bar transitions from an initial transparent state with light text to a solid, opaque background with dark text and a more prominent menu icon once the user scrolls past the hero section, remaining sticky at the top.",
+    "Content sections are revealed using scroll-triggered animations, where elements either fade in or slide up from the bottom as they enter the user's viewport, creating a dynamic loading experience."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#112337",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#c0392b",
+        "role": "accent"
+      },
+      {
+        "hex": "#f5f5f5",
+        "role": "surface"
+      },
+      {
+        "hex": "#e0d8cf",
+        "role": "surface"
+      },
+      {
+        "hex": "#d1c7bc",
+        "role": "surface"
+      },
+      {
+        "hex": "#204ce5",
+        "role": "link"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "PP RightGrotesk-Medium",
+        "role": "display"
+      },
+      {
+        "family": "CabinetGrotesk-Variable",
+        "role": "heading"
+      },
+      {
+        "family": "Montserrat",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold display headings (~4-5x body) in a vibrant accent color, complemented by strong, clear sans-serif headings (~2-3x body) and highly legible body text. Uppercase is used for labels and buttons.",
+    "radius": "Subtle rounded corners on buttons and input fields, with most other elements maintaining sharp, geometric edges.",
+    "spacing": "Airy, with generous vertical padding between sections and balanced spacing within content blocks, contributing to a clean and uncluttered feel."
+  },
+  "standout": "The site's design is distinctive for its bold and oversized coral-red typography in the hero section, which creates a powerful visual statement against the classical architecture imagery. This strong, modern typographic choice, combined with a refined, airy layout and a warm, neutral color palette, elevates the site beyond a generic template, giving it a unique blend of contemporary edge and institutional gravitas.",
+  "animation_tech": [
+    "lottie",
+    "swiper"
+  ],
+  "status": "proposed"
+}
