@@ -1,0 +1,108 @@
+{
+  "id": "siteinspire-merit-la-com-c4e76e",
+  "source": {
+    "url": "https://merit-la.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-merit-la-com-c4e76e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-merit-la-com-c4e76e__scroll0.webp",
+      "shots/_proposed/siteinspire-merit-la-com-c4e76e__scroll1.webp",
+      "shots/_proposed/siteinspire-merit-la-com-c4e76e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://merit-la.com/collections/desks",
+        "full": "shots/_proposed/siteinspire-merit-la-com-c4e76e__p2.webp"
+      },
+      {
+        "url": "https://merit-la.com/collections/calder",
+        "full": "shots/_proposed/siteinspire-merit-la-com-c4e76e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "furniture",
+      "antiques",
+      "art",
+      "luxury-goods",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A gallery-like grid layout is used for product categories and listings, featuring large, high-quality images with minimal text overlays, emphasizing visual browsing."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is established between an elegant, widely-spaced serif font for display headings (like the hero title) and a clean, legible sans-serif for all body text, navigation, and smaller labels."
+    },
+    {
+      "kind": "color",
+      "note": "The UI maintains a strictly monochromatic palette of white, black, and dark grey, allowing the rich and diverse colors of the product photography to serve as the primary visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the scroll, while subsequent content sections (like 'New Arrivals' and category grids) fade in and slide up from the bottom as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Full-width content sections with generous vertical padding create an airy, spacious feel, akin to a physical exhibition space, allowing each featured item or category to breathe."
+    }
+  ],
+  "technique_notes": [
+    "The hero section features a full-bleed image with a subtle parallax scroll effect, where the background image moves at a slightly slower rate than the foreground text and the rest of the page content.",
+    "Content sections below the hero are revealed using an 'Animate On Scroll' (AOS) technique, where elements like images and text blocks gently fade in and slide upwards as they become visible within the user's viewport.",
+    "A sticky header navigation remains fixed at the top of the screen, providing persistent access to site navigation and utility links as the user scrolls down the page."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#121210",
+        "role": "text"
+      },
+      {
+        "hex": "#595959",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "similar-to: Arimo",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif hero heading (~4-5x body) with generous letter spacing, contrasted with clean, moderately sized sans-serif body text and smaller uppercase labels.",
+    "radius": "sharp",
+    "spacing": "airy and spacious, particularly in the hero and category overview sections, creating a gallery-like feel; product grids are balanced."
+  },
+  "standout": "This site's design is distinctive for its sophisticated, gallery-like presentation of high-end, curated antique and modern design pieces. It leverages a minimal UI and generous whitespace to let the rich, artistic product photography take center stage, creating an experience akin to browsing a physical art gallery or design showroom rather than a typical e-commerce site. The hero section with its abstract art and subtle parallax immediately sets an elevated, editorial tone.",
+  "animation_tech": [
+    "aos"
+  ],
+  "status": "proposed"
+}

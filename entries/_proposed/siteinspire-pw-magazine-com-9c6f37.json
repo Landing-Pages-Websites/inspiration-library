@@ -1,0 +1,109 @@
+{
+  "id": "siteinspire-pw-magazine-com-9c6f37",
+  "source": {
+    "url": "https://www.pw-magazine.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-pw-magazine-com-9c6f37.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-pw-magazine-com-9c6f37__scroll0.webp",
+      "shots/_proposed/siteinspire-pw-magazine-com-9c6f37__scroll1.webp",
+      "shots/_proposed/siteinspire-pw-magazine-com-9c6f37__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.pw-magazine.com/articles",
+        "full": "shots/_proposed/siteinspire-pw-magazine-com-9c6f37__p2.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "arts",
+      "publishing",
+      "magazine",
+      "live-arts"
+    ],
+    "mood": [
+      "editorial",
+      "minimal",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "The homepage features a full-bleed hero image with text overlay, which transitions into a dynamic, irregular grid of image-text cards for article previews."
+    },
+    {
+      "kind": "type",
+      "note": "A strong typographic contrast is used, pairing prominent, all-caps sans-serif fonts for titles and navigation with a classic serif font for article details and body text."
+    },
+    {
+      "kind": "color",
+      "note": "The design relies on a high-contrast monochrome palette of black and white, with color introduced exclusively through photography and embedded media."
+    },
+    {
+      "kind": "motion",
+      "note": "The 'PW MAGAZINE' logo transforms from a large, centered element in the hero section to a smaller, sticky header positioned in the top-left corner upon scrolling."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are presented as a varied grid of image-text cards, where each card features a distinct image above a title and subtitle, creating a magazine-like layout."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero section utilizes a full-viewport background image with text overlaid, which scrolls up and out of view to reveal the main content area.",
+    "A central branding element dynamically resizes and repositions itself from the page's center to a fixed position in the top-left corner, becoming a persistent header after a specific scroll depth.",
+    "Article previews are structured within a flexible grid system, where each item consists of an image positioned above its corresponding text, without any interactive hover states or animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F0F0F0",
+        "role": "surface"
+      },
+      {
+        "hex": "#AAAAAA",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "neue-haas-unica",
+        "role": "heading"
+      },
+      {
+        "family": "Eurostile",
+        "role": "display"
+      },
+      {
+        "family": "Times New Roman",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, bold, all-caps sans-serif headings (~2-3x body) are paired with smaller, classic serif body text and even smaller, uppercase sans-serif labels for details.",
+    "radius": "sharp",
+    "spacing": "Airy in the hero and between major content blocks, transitioning to a balanced density within the article grid cards."
+  },
+  "standout": "This site's design is distinctive for its strong editorial aesthetic, achieved through a stark black-and-white palette, a dynamic magazine-style content grid, and a unique transforming sticky header that re-positions the main logo. It feels less like a typical website and more like a curated digital art publication.",
+  "animation_tech": [],
+  "status": "proposed"
+}

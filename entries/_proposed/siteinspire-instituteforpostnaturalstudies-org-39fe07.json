@@ -1,0 +1,114 @@
+{
+  "id": "siteinspire-instituteforpostnaturalstudies-org-39fe07",
+  "source": {
+    "url": "https://www.instituteforpostnaturalstudies.org",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-instituteforpostnaturalstudies-org-39fe07.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-instituteforpostnaturalstudies-org-39fe07__scroll0.webp",
+      "shots/_proposed/siteinspire-instituteforpostnaturalstudies-org-39fe07__scroll1.webp",
+      "shots/_proposed/siteinspire-instituteforpostnaturalstudies-org-39fe07__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.instituteforpostnaturalstudies.org/academy/alteco",
+        "full": "shots/_proposed/siteinspire-instituteforpostnaturalstudies-org-39fe07__p2.webp"
+      },
+      {
+        "url": "https://www.instituteforpostnaturalstudies.org/projects/peyoni",
+        "full": "shots/_proposed/siteinspire-instituteforpostnaturalstudies-org-39fe07__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "education",
+      "art",
+      "research"
+    ],
+    "mood": [
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed hero sections with large, impactful typography overlaid directly on video or image backgrounds, creating a strong visual statement."
+    },
+    {
+      "kind": "type",
+      "note": "Dramatic contrast in type scale, featuring extremely oversized, bold sans-serif headings for primary titles and smaller, tightly packed sans-serif text for body content and labels."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette of black and white is punctuated by vibrant, almost neon, orange and deep red accents used for interactive elements, highlights, and section dividers."
+    },
+    {
+      "kind": "motion",
+      "note": "A persistent top navigation bar with site title and media controls remains sticky. Main content sections, including large image grids and text blocks, reveal by sliding up into the viewport as the user scrolls down the page."
+    },
+    {
+      "kind": "section",
+      "note": "Content is structured into distinct, full-width blocks, often featuring a grid of images or mixed media layouts with asymmetrical text and image placements."
+    }
+  ],
+  "technique_notes": [
+    "Implement a full-bleed hero video that auto-plays on load, with large, bold text overlaid and positioned to create a strong visual hierarchy. The video scrolls away to reveal subsequent content.",
+    "Utilize a sticky header element that maintains its position at the top of the viewport, containing essential navigation and media controls, ensuring constant accessibility.",
+    "Design content sections to reveal dynamically upon scroll, using a slide-up or fade-in animation as they enter the user's view, creating a sense of progression and discovery."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text"
+      },
+      {
+        "hex": "#FF591C",
+        "role": "accent"
+      },
+      {
+        "hex": "#D92D22",
+        "role": "accent"
+      },
+      {
+        "hex": "#837870",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, bold sans-serif display headings (~5-6x body text) with smaller, uppercase labels and compact, tightly spaced sans-serif body text.",
+    "radius": "sharp",
+    "spacing": "Balanced to dense; the hero section feels airy due to large text, but interior content sections can be quite dense with text and image grids."
+  },
+  "standout": "The site's design is distinctive for its bold, almost brutalist, use of typography, particularly the dramatically scaled hero text, combined with full-bleed, experimental imagery and video. This creates an immediate, impactful, and art-forward impression that avoids typical marketing site conventions.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}

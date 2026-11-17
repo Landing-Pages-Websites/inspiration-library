@@ -1,0 +1,107 @@
+{
+  "id": "siteinspire-albersfoundation-org-67385e",
+  "source": {
+    "url": "https://www.albersfoundation.org",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-17"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-albersfoundation-org-67385e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-albersfoundation-org-67385e__scroll0.webp",
+      "shots/_proposed/siteinspire-albersfoundation-org-67385e__scroll1.webp",
+      "shots/_proposed/siteinspire-albersfoundation-org-67385e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://www.albersfoundation.org/news",
+        "full": "shots/_proposed/siteinspire-albersfoundation-org-67385e__p2.webp"
+      },
+      {
+        "url": "https://www.albersfoundation.org/alberses",
+        "full": "shots/_proposed/siteinspire-albersfoundation-org-67385e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "art",
+      "non-profit",
+      "education",
+      "foundation"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Extremely generous whitespace and wide margins create an airy, gallery-like presentation, emphasizing individual content blocks and artworks."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated serif typeface is used for prominent headings, contrasting with a clean, highly readable sans-serif for body text and navigation, establishing a clear typographic hierarchy."
+    },
+    {
+      "kind": "color",
+      "note": "The UI is predominantly monochromatic with a white background and black text, allowing the vibrant colors of the artworks and photography to serve as the primary visual accents."
+    },
+    {
+      "kind": "motion",
+      "note": "No scroll-triggered reveal or parallax motion is observed on the homepage in the provided scroll sequence. However, interior pages feature horizontal image galleries that likely utilize a swiper-like mechanism for navigation."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are delineated by large, centered headings and significant vertical spacing, often introducing a new content type such as news articles, image galleries, or textual information blocks."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the overall layout, use a grid system with very wide gutters and generous padding, especially on the horizontal axis, to create a sense of spaciousness around content blocks. Content is often centered or aligned to a consistent left margin within these wide constraints.",
+    "The motion system primarily relies on static presentation for the main content flow. For image galleries, implement a horizontal scrolling or swiping component (as suggested by 'swiper' hint) where users can navigate through a series of images without vertical page scroll, potentially with subtle fade or slide transitions between items.",
+    "Typography should be managed with a clear distinction between a large, elegant serif for display text and a smaller, highly legible sans-serif for all other content, ensuring ample line height and letter spacing for readability."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#7c878e",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to:Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "large, elegant serif headings (~3-4x body) with smaller, clean sans-serif body text and even smaller uppercase labels.",
+    "radius": "sharp corners universally, maintaining a crisp and precise aesthetic.",
+    "spacing": "very airy, particularly in the hero and between major sections, creating a sense of calm and focus; text blocks maintain balanced line height and letter spacing."
+  },
+  "standout": "This site's design is distinctive for its extreme minimalism and academic elegance, using vast amounts of whitespace and a restrained monochromatic palette to elevate the art and textual content. It feels less like a typical marketing site and more like a digital exhibition or scholarly journal, prioritizing clarity and reverence for the subject matter.",
+  "animation_tech": [
+    "swiper"
+  ],
+  "status": "proposed"
+}
