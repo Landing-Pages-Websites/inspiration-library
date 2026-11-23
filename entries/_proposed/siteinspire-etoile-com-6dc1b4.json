@@ -1,0 +1,126 @@
+{
+  "id": "siteinspire-etoile-com-6dc1b4",
+  "source": {
+    "url": "https://etoile.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-etoile-com-6dc1b4.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-etoile-com-6dc1b4__scroll0.webp",
+      "shots/_proposed/siteinspire-etoile-com-6dc1b4__scroll1.webp",
+      "shots/_proposed/siteinspire-etoile-com-6dc1b4__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://etoile.com/blogs/press",
+        "full": "shots/_proposed/siteinspire-etoile-com-6dc1b4__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "beauty",
+      "e-commerce",
+      "luxury-goods"
+    ],
+    "mood": [
+      "luxe",
+      "minimal",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Full-bleed, high-quality photography is used extensively for hero sections and editorial content, creating an immersive visual experience."
+    },
+    {
+      "kind": "layout",
+      "note": "Product displays often use a clean grid layout with ample white space, allowing each item to stand out."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated contrast is created by pairing a classic, elegant serif font for the brand logo with modern, clean sans-serif fonts for headings and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, neutral color palette of whites, greys, and blacks forms the base, allowing product photography to introduce color without overwhelming the design."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms from a transparent, initially hidden state to a sticky, opaque bar with a resized logo and adjusted layout as the user scrolls down the page."
+    },
+    {
+      "kind": "motion",
+      "note": "Hero sections feature a subtle parallax effect where the background image scrolls at a slower rate than the foreground content, adding depth."
+    }
+  ],
+  "technique_notes": [
+    "Implement a smooth scrolling experience across the site, likely using a library like Locomotive Scroll, to enhance user interaction.",
+    "Create a dynamic sticky header that changes its appearance (background, logo size, menu layout) based on scroll position, transitioning from an initial transparent state to a fixed, opaque bar.",
+    "Utilize full-bleed, high-resolution imagery for hero and key content sections, ensuring images are optimized for various screen sizes to maintain visual impact."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#1C1C1C",
+        "role": "text"
+      },
+      {
+        "hex": "#E5E5E5",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5DC",
+        "role": "surface"
+      },
+      {
+        "hex": "#5E6C74",
+        "role": "text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "display"
+      },
+      {
+        "family": "Helvetica Now Display",
+        "role": "heading"
+      },
+      {
+        "family": "Poppins",
+        "role": "body"
+      }
+    ],
+    "type_scale": "A balanced type scale with clear hierarchy; headings are clean sans-serif, moderately larger than the readable sans-serif body text, while the brand logo uses a distinctive, elegant serif.",
+    "radius": "Sharp corners are consistently used for all interactive elements, image frames, and content blocks, contributing to a modern and precise aesthetic.",
+    "spacing": "Airy and generous vertical spacing between major sections, creating a sense of luxury and allowing content to breathe, while product grids maintain a balanced density."
+  },
+  "standout": "The site stands out through its sophisticated blend of high-fashion editorial photography and a clean, minimal e-commerce interface. The distinctive use of a classic serif for the brand logo against modern sans-serif typography, combined with subtle scroll-triggered motion and a muted palette, elevates the shopping experience beyond a typical product catalog into a curated, luxurious visual journey.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}
