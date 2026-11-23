@@ -1,0 +1,118 @@
+{
+  "id": "siteinspire-ossou-com-6c66e1",
+  "source": {
+    "url": "https://ossou.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-ossou-com-6c66e1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-ossou-com-6c66e1__scroll0.webp",
+      "shots/_proposed/siteinspire-ossou-com-6c66e1__scroll1.webp",
+      "shots/_proposed/siteinspire-ossou-com-6c66e1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://ossou.com/collections/shop-all",
+        "full": "shots/_proposed/siteinspire-ossou-com-6c66e1__p2.webp"
+      },
+      {
+        "url": "https://ossou.com/collections/knitwear",
+        "full": "shots/_proposed/siteinspire-ossou-com-6c66e1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "apparel",
+      "luxury-retail"
+    ],
+    "mood": [
+      "minimal",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column grid layouts are used for content sections, often featuring one large, full-bleed image next to a smaller image or text block."
+    },
+    {
+      "kind": "type",
+      "note": "A prominent, oversized serif logo is used in the footer, acting as a strong brand anchor and visual statement at the page's end."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, sophisticated palette dominated by warm neutrals (off-white, beige, dark brown) creates an elegant and understated backdrop for product imagery."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax and zoom effect as the user scrolls, creating depth and drawing attention to the product within the initial viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Full-bleed photographic sections are used to introduce product categories or lifestyle imagery, often with minimal text overlays that blend into the visual."
+    }
+  ],
+  "technique_notes": [
+    "Implement a sticky header that remains visible at the top of the viewport, consisting of a top announcement bar and the main navigation. The hero section utilizes a scroll-triggered parallax effect where the background image subtly zooms in and moves slower than the foreground content, creating a sense of depth. A scroll-depth-triggered popup appears from the bottom right corner using css-keyframes for its entrance animation.",
+    "Utilize a flexible grid system to create asymmetrical two-column layouts, where one column often contains a large, impactful image and the other a smaller image or concise text block, maintaining visual interest and balance.",
+    "Combine a distinctive, oversized serif font for the brand logo and key display elements with a clean, modern sans-serif for all body text and navigation, ensuring readability while maintaining brand elegance."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#e9e4d7",
+        "role": "background"
+      },
+      {
+        "hex": "#332518",
+        "role": "text"
+      },
+      {
+        "hex": "#000000",
+        "role": "secondary-text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#242833",
+        "role": "cta-background"
+      },
+      {
+        "hex": "#f3f3f3",
+        "role": "subtle-background"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: serif-display",
+        "role": "display"
+      },
+      {
+        "family": "Poppins-Klaviyo-Hosted",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, impactful display serif for the logo and some section titles, contrasted with a clean, legible sans-serif for body text and navigation, maintaining an elegant feel.",
+    "radius": "sharp",
+    "spacing": "airy \u2014 generous padding around sections and images, creating a sense of luxury and allowing content to breathe."
+  },
+  "standout": "The site's distinctive use of an oversized, bold serif logo in the footer, acting as a powerful brand statement and visual anchor, combined with its sophisticated, full-bleed asymmetrical image grids, sets it apart from typical e-commerce templates. This creates a strong, memorable brand presence even at the page's conclusion.",
+  "animation_tech": [
+    "css-keyframes"
+  ],
+  "status": "proposed"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "siteinspire-samuelsnider-com-2e0829",
+  "source": {
+    "url": "https://samuelsnider.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-samuelsnider-com-2e0829.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-samuelsnider-com-2e0829__scroll0.webp",
+      "shots/_proposed/siteinspire-samuelsnider-com-2e0829__scroll1.webp",
+      "shots/_proposed/siteinspire-samuelsnider-com-2e0829__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://samuelsnider.com/blogs/journal",
+        "full": "shots/_proposed/siteinspire-samuelsnider-com-2e0829__p2.webp"
+      },
+      {
+        "url": "https://samuelsnider.com/collections/all",
+        "full": "shots/_proposed/siteinspire-samuelsnider-com-2e0829__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-apparel",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "A prominent full-width atmospheric video hero is followed by a clean, grid-based content layout for product and editorial features."
+    },
+    {
+      "kind": "type",
+      "note": "A distinct contrast is used between a refined, elegant serif for the brand name and a clean, understated sans-serif for all other navigational and body text."
+    },
+    {
+      "kind": "color",
+      "note": "A muted, almost monochromatic palette of dark grays, whites, and natural tones from photography creates a sophisticated and understated feel."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar and a cookie banner remain persistently sticky at the top and bottom of the viewport, respectively, while a full-bleed background video hero scrolls out of view."
+    },
+    {
+      "kind": "section",
+      "note": "Content sections are clearly delineated by ample vertical spacing and distinct content types, such as editorial blocks and product grids."
+    }
+  ],
+  "technique_notes": [
+    "A fixed header navigation and a fixed footer cookie banner maintain persistent access to key actions and information across the site.",
+    "The hero section employs a full-width, auto-playing background video to establish an atmospheric brand presence, which then scrolls out of view as the user engages with the page.",
+    "Content sections are presented in a clean, grid-based layout, relying on static scrolling for content reveal without additional scroll-triggered animations."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#282828",
+        "role": "text"
+      },
+      {
+        "hex": "#E0E0E0",
+        "role": "subtle-border"
+      },
+      {
+        "hex": "#F8F8F8",
+        "role": "light-surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Garamond",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Understated and refined; the brand name is a medium-sized serif, while all other text (navigation, body, labels) is a consistently small, clean sans-serif, creating a subtle hierarchy.",
+    "radius": "sharp",
+    "spacing": "airy, with generous vertical spacing between major sections and a balanced, breathable grid for product displays"
+  },
+  "standout": "The site's design stands out for its sophisticated, almost austere minimalism, which elevates the brand's aesthetic. The use of a blurry, atmospheric video hero combined with a stark, editorial layout and understated typography creates a distinct high-fashion, art-gallery feel rather than a typical e-commerce experience.",
+  "animation_tech": [
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

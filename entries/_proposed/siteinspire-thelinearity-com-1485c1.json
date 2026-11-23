@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-thelinearity-com-1485c1",
+  "source": {
+    "url": "https://thelinearity.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-thelinearity-com-1485c1.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-thelinearity-com-1485c1__scroll0.webp",
+      "shots/_proposed/siteinspire-thelinearity-com-1485c1__scroll1.webp",
+      "shots/_proposed/siteinspire-thelinearity-com-1485c1__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://thelinearity.com/www.thelinearity.com",
+        "full": "shots/_proposed/siteinspire-thelinearity-com-1485c1__p2.webp"
+      },
+      {
+        "url": "https://thelinearity.com/policies/shipping-policy",
+        "full": "shots/_proposed/siteinspire-thelinearity-com-1485c1__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-goods",
+      "accessories"
+    ],
+    "mood": [
+      "minimal",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts for product/story sections, alternating image and text placement on scroll."
+    },
+    {
+      "kind": "type",
+      "note": "High contrast typography pairing, using large, elegant serif display fonts for titles and small, light sans-serif for body and descriptive text."
+    },
+    {
+      "kind": "color",
+      "note": "A stark monochromatic palette of white and deep charcoal/black, subtly accented by the natural tones of product photography and a single muted reddish-pink for calls to action."
+    },
+    {
+      "kind": "motion",
+      "note": "Scroll-triggered content reveals where text blocks and images fade or slide into view as their sections become visible."
+    },
+    {
+      "kind": "motion",
+      "note": "A unique decorative element in the footer transforms its shape from a simple arrow to an intricate logo as the user scrolls."
+    },
+    {
+      "kind": "section",
+      "note": "Thin, full-width horizontal lines are used as subtle visual dividers and framing elements for the hero and footer sections."
+    }
+  ],
+  "technique_notes": [
+    "The hero image employs a subtle parallax effect, moving at a slower rate than the scroll to create a sense of depth.",
+    "Content sections utilize scroll-triggered animations, where text and image blocks are revealed with a gentle fade-in and slight upward translation as they enter the viewport.",
+    "A custom SVG element in the footer dynamically animates its path data on scroll, transforming from a minimalist arrow shape into a complex, ornate brand emblem, likely using canvas or css-keyframes."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#100f0d",
+        "role": "text"
+      },
+      {
+        "hex": "#f0c1be",
+        "role": "accent"
+      },
+      {
+        "hex": "#202223",
+        "role": "text-secondary"
+      },
+      {
+        "hex": "#000000",
+        "role": "text-footer"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Montserrat Light",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Oversized, elegant serif headings (~4-5x body text height) are paired with very small, light-weight sans-serif body and descriptive text, creating a dramatic typographic contrast.",
+    "radius": "sharp",
+    "spacing": "Very airy and spacious, characterized by generous vertical and horizontal whitespace, especially around image-text pairings and between major sections."
+  },
+  "standout": "The site's distinctive blend of high-fashion editorial aesthetics with a minimalist layout, featuring elegant serif typography, subtle scroll-triggered content reveals, and a unique transforming brand emblem in the footer, elevates product presentation to an art gallery experience rather than a typical e-commerce page.",
+  "animation_tech": [
+    "canvas",
+    "css-keyframes",
+    "swiper",
+    "video-hero"
+  ],
+  "status": "proposed"
+}

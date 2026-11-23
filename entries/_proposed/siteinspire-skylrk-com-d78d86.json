@@ -1,0 +1,112 @@
+{
+  "id": "siteinspire-skylrk-com-d78d86",
+  "source": {
+    "url": "https://skylrk.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-skylrk-com-d78d86.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-skylrk-com-d78d86__scroll0.webp",
+      "shots/_proposed/siteinspire-skylrk-com-d78d86__scroll1.webp",
+      "shots/_proposed/siteinspire-skylrk-com-d78d86__scroll2.webp"
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "streetwear",
+      "e-commerce"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "luxe",
+      "editorial"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Products are displayed in a non-linear, scattered arrangement across a dark, textured background, rather than a conventional grid or list."
+    },
+    {
+      "kind": "type",
+      "note": "All UI text, including navigation, labels, and form fields, uses a small, uppercase, monospaced sans-serif font, contributing to a tech-minimal aesthetic."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast palette is used, featuring a deep dark background that makes vibrant, often pastel or neon, product colors pop dramatically."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, individual product images appear to float and slide into view from various directions, creating a dynamic, continuously revealing product showcase."
+    },
+    {
+      "kind": "section",
+      "note": "The page is designed as a continuous, infinite scroll experience without distinct section breaks, presenting products as a flowing, curated feed."
+    }
+  ],
+  "technique_notes": [
+    "Products are animated to appear and move across the screen as the user scrolls, creating a dynamic, non-grid product showcase. This likely leverages the detected canvas technology for smooth, custom animations that give the impression of items floating into the viewport.",
+    "A dark, subtly textured background serves as a canvas for brightly colored, floating product images, with minimal, fixed UI elements providing navigation and calls to action that remain visible regardless of scroll depth."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#1d1b1b",
+        "role": "background"
+      },
+      {
+        "hex": "#fafafa",
+        "role": "text"
+      },
+      {
+        "hex": "#353433",
+        "role": "surface"
+      },
+      {
+        "hex": "#d4bda5",
+        "role": "product-accent"
+      },
+      {
+        "hex": "#2596be",
+        "role": "product-accent"
+      },
+      {
+        "hex": "#ffc0cb",
+        "role": "product-accent"
+      },
+      {
+        "hex": "#966969",
+        "role": "product-accent"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Univers STD Bold",
+        "role": "display"
+      },
+      {
+        "family": "UniversRegular",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Small, consistent sans-serif text for all elements, with no large display headings, maintaining a uniform, understated typographic presence.",
+    "radius": "sharp",
+    "spacing": "very airy in the initial viewport, with products scattered widely; becomes denser with more products revealed on scroll, maintaining a sense of curated space."
+  },
+  "standout": "The site's distinctive use of a dark, interactive canvas to display products as if they are floating art pieces, rather than a conventional grid. The minimal, almost cryptic UI further enhances this unique, gallery-like experience, prioritizing visual intrigue over immediate transactional cues.",
+  "animation_tech": [
+    "canvas"
+  ],
+  "status": "proposed"
+}

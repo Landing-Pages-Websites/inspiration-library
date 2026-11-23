@@ -1,0 +1,111 @@
+{
+  "id": "siteinspire-hs68-la-e039dc",
+  "source": {
+    "url": "https://hs68.la",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-23"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-hs68-la-e039dc.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-hs68-la-e039dc__scroll0.webp",
+      "shots/_proposed/siteinspire-hs68-la-e039dc__scroll1.webp",
+      "shots/_proposed/siteinspire-hs68-la-e039dc__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://hs68.la/bespoke",
+        "full": "shots/_proposed/siteinspire-hs68-la-e039dc__p2.webp"
+      },
+      {
+        "url": "https://hs68.la/appointments",
+        "full": "shots/_proposed/siteinspire-hs68-la-e039dc__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "fashion",
+      "luxury-brand",
+      "editorial"
+    ],
+    "mood": [
+      "minimal",
+      "bold",
+      "editorial",
+      "luxe"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "motion",
+      "note": "The initial full-screen hero, featuring large typographic elements and a blurred background, scrolls completely out of view to reveal the main content of the page. A fixed-position newsletter signup element slides in from the bottom right corner after a significant scroll depth."
+    },
+    {
+      "kind": "layout",
+      "note": "Content is presented through a series of full-bleed or large-block images, often paired with minimal, small-scale text, creating an editorial, gallery-like feel with ample negative space."
+    },
+    {
+      "kind": "type",
+      "note": "An extreme typographic hierarchy is established by contrasting oversized, thin display characters in the hero with consistently small, all-caps sans-serif text used for all body copy, labels, and navigation elements."
+    },
+    {
+      "kind": "color",
+      "note": "The palette is predominantly monochromatic, relying on deep grays, black, and white, with a striking deep blue used sparingly for accent elements like the newsletter signup."
+    },
+    {
+      "kind": "section",
+      "note": "Sections are primarily defined by large, impactful imagery, often without explicit headings or borders, allowing the visuals to dictate the flow and separation of content."
+    }
+  ],
+  "technique_notes": [
+    "The initial hero functions as a full-page splash screen that is dismissed by scrolling, revealing the underlying page content. This creates a dramatic entrance before the user engages with the main site. Subsequent content sections are static, but a persistent call-to-action element is revealed by sliding into view from the page edge after the user scrolls past the initial hero.",
+    "Content blocks are built around large, often full-bleed images that serve as the primary visual anchors. Text is kept minimal and often positioned subtly within or adjacent to these image blocks, maintaining a clean, uncluttered presentation.",
+    "A stark typographic contrast is achieved by using extremely large, lightweight sans-serif characters for impactful display elements, while all other textual information, including navigation and body copy, is rendered in a much smaller, all-caps sans-serif font."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#BCBCBC",
+        "role": "surface"
+      },
+      {
+        "hex": "#041C84",
+        "role": "cta"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Helvetica Neue",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Extreme contrast with oversized, thin hero text (~8-10x body) and small, all-caps body and label text.",
+    "radius": "Sharp (all corners are 0px)",
+    "spacing": "Airy, with generous whitespace around large image blocks and minimal text, creating a gallery-like density."
+  },
+  "standout": "This site's design is distinctive for its bold, art-gallery aesthetic, characterized by an extreme typographic scale that pairs massive, thin display characters with tiny, all-caps body text. The dramatic, full-screen hero that scrolls away to reveal content, combined with full-bleed, high-quality imagery and minimal UI, creates a highly curated and impactful visual experience.",
+  "animation_tech": [
+    "video-hero"
+  ],
+  "status": "proposed"
+}
