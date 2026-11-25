@@ -1,0 +1,123 @@
+{
+  "id": "siteinspire-fume-studio-com-59935e",
+  "source": {
+    "url": "https://fume-studio.com",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-fume-studio-com-59935e.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-fume-studio-com-59935e__scroll0.webp",
+      "shots/_proposed/siteinspire-fume-studio-com-59935e__scroll1.webp",
+      "shots/_proposed/siteinspire-fume-studio-com-59935e__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://fume-studio.com/pages/about",
+        "full": "shots/_proposed/siteinspire-fume-studio-com-59935e__p2.webp"
+      },
+      {
+        "url": "https://fume-studio.com/products/fan",
+        "full": "shots/_proposed/siteinspire-fume-studio-com-59935e__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "home-goods",
+      "luxury",
+      "e-commerce",
+      "fragrance"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical content sections often pair large, high-quality lifestyle photography with text blocks that are not strictly aligned to the image boundaries, creating an editorial, magazine-like feel."
+    },
+    {
+      "kind": "type",
+      "note": "A sophisticated pairing of an elegant serif font for display headings and the brand logo, contrasted with a clean, modern sans-serif for body text and navigation, and a monospace for subtle functional labels."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, muted color palette dominates, featuring rich browns, creams, and off-whites, creating a luxurious and inviting atmosphere, with dark text providing strong contrast."
+    },
+    {
+      "kind": "motion",
+      "note": "The main navigation bar transforms upon scroll: it shrinks in height, moves from a left-aligned position to a centered one, and gains a solid background, while an announcement bar remains sticky above it. Content sections and product cards reveal with a subtle fade-in or slide-up effect as they enter the viewport."
+    },
+    {
+      "kind": "section",
+      "note": "Product displays are integrated into full-bleed, art-directed lifestyle photography, blurring the line between product showcase and aspirational interior design."
+    }
+  ],
+  "technique_notes": [
+    "To rebuild the sticky navigation, implement a scroll listener that detects the scroll position. Once the user scrolls past the initial hero section, apply CSS transformations to the navigation bar to reduce its height, change its horizontal alignment, and add a background color, while ensuring it remains fixed at the top of the viewport. The top announcement bar should also be fixed, but without transformation.",
+    "For scroll-triggered reveals, use a JavaScript library like `locomotive-scroll` (as hinted) or an Intersection Observer API implementation to detect when elements (like product cards or content sections) enter the viewport. Apply CSS transitions or keyframe animations (e.g., a slight fade-in and translate-y from below) to these elements as they become visible, creating a smooth reveal effect."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#202223",
+        "role": "text"
+      },
+      {
+        "hex": "#f5f0e9",
+        "role": "background"
+      },
+      {
+        "hex": "#442a19",
+        "role": "accent"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#c5c8d1",
+        "role": "subtle-text"
+      },
+      {
+        "hex": "#676986",
+        "role": "secondary-text"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "similar-to:Playfair Display",
+        "role": "heading"
+      },
+      {
+        "family": "Inter",
+        "role": "body"
+      },
+      {
+        "family": "Roboto Mono",
+        "role": "mono"
+      }
+    ],
+    "type_scale": "Elegant, large serif headings (~3-4x body) with generous letter-spacing, paired with clean sans-serif body text and very small, often uppercase, sans-serif or monospace labels.",
+    "radius": "Sharp corners are dominant for most structural elements and product cards, with very subtle rounding on some product images.",
+    "spacing": "Balanced to airy, with ample whitespace around content blocks and within product grids, contributing to a premium and uncrowded feel."
+  },
+  "standout": "The site's distinctive quality lies in its highly curated, art-directed photography that seamlessly integrates products into aspirational lifestyle scenes, creating an editorial, gallery-like experience rather than a typical e-commerce catalog. This, combined with a sophisticated, muted color palette and elegant typography, elevates the brand beyond mere product sales to a luxury lifestyle offering.",
+  "animation_tech": [
+    "css-keyframes",
+    "locomotive-scroll"
+  ],
+  "status": "proposed"
+}

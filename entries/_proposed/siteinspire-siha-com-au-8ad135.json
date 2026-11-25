@@ -1,0 +1,116 @@
+{
+  "id": "siteinspire-siha-com-au-8ad135",
+  "source": {
+    "url": "https://siha.com.au",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-siha-com-au-8ad135.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-siha-com-au-8ad135__scroll0.webp",
+      "shots/_proposed/siteinspire-siha-com-au-8ad135__scroll1.webp",
+      "shots/_proposed/siteinspire-siha-com-au-8ad135__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://siha.com.au/blogs/news",
+        "full": "shots/_proposed/siteinspire-siha-com-au-8ad135__p2.webp"
+      },
+      {
+        "url": "https://siha.com.au/collections/ver",
+        "full": "shots/_proposed/siteinspire-siha-com-au-8ad135__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "skincare",
+      "beauty",
+      "wellness",
+      "e-commerce"
+    ],
+    "mood": [
+      "luxe",
+      "editorial",
+      "minimal"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "solution-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Editorial-style content sections feature asymmetrical two-column layouts, often pairing a large, full-width image with a text block that has generous negative space."
+    },
+    {
+      "kind": "type",
+      "note": "A distinctive, elegant serif display font is used for prominent headings and titles, creating a sophisticated feel, contrasted with a clean, legible sans-serif for body text and navigation."
+    },
+    {
+      "kind": "color",
+      "note": "A warm, earthy color palette dominated by deep reddish-browns and off-white is consistently applied across backgrounds, text, and accents, evoking a natural and luxurious aesthetic."
+    },
+    {
+      "kind": "motion",
+      "note": "The hero image exhibits a subtle parallax effect, moving slower than the scroll, creating depth and a smooth visual transition."
+    },
+    {
+      "kind": "motion",
+      "note": "Content sections reveal with a gentle fade-in or slide-up animation as they scroll into the viewport, enhancing content discovery."
+    },
+    {
+      "kind": "section",
+      "note": "A persistent, dismissible 'WORLD OF SIHA' popup appears from the bottom right after initial scroll, offering a community incentive."
+    }
+  ],
+  "technique_notes": [
+    "Smooth scrolling and subtle parallax effects are applied to the hero image and other large visual elements, likely managed by locomotive-scroll, creating a fluid and engaging scroll experience.",
+    "Sections are revealed with a staggered fade-in or slide-up animation as they enter the viewport, enhancing content discovery and guiding the user's attention.",
+    "A fixed header navigation maintains visibility and functionality as the user scrolls down the page, providing constant access to key site areas."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#a33314",
+        "role": "accent"
+      },
+      {
+        "hex": "#78311d",
+        "role": "text"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "background"
+      },
+      {
+        "hex": "#f8f8f8",
+        "role": "surface"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "ABC Walter Neue",
+        "role": "heading"
+      },
+      {
+        "family": "similar-to: Inter",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Large, elegant serif headings (~3-4x body) with generous line height, complemented by smaller, legible sans-serif body text and uppercase labels.",
+    "radius": "Subtle rounded corners on buttons and product image containers, with mostly sharp edges for overall section blocks.",
+    "spacing": "Airy and spacious, particularly in hero and editorial sections, creating a sense of calm and luxury."
+  },
+  "standout": "The site distinguishes itself with a refined, editorial aesthetic that blends a rich, earthy color palette with a sophisticated serif typeface. The subtle parallax and scroll-triggered reveals contribute to a premium, unhurried browsing experience, making it feel more like a digital magazine than a typical e-commerce site.",
+  "animation_tech": [
+    "locomotive-scroll",
+    "swiper"
+  ],
+  "status": "proposed"
+}

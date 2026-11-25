@@ -1,0 +1,121 @@
+{
+  "id": "siteinspire-pethroom-jp-407cb7",
+  "source": {
+    "url": "https://pethroom.jp",
+    "gallery": "siteinspire",
+    "harvest_date": "2026-11-25"
+  },
+  "screenshot": {
+    "full": "shots/_proposed/siteinspire-pethroom-jp-407cb7.webp",
+    "scroll": [
+      "shots/_proposed/siteinspire-pethroom-jp-407cb7__scroll0.webp",
+      "shots/_proposed/siteinspire-pethroom-jp-407cb7__scroll1.webp",
+      "shots/_proposed/siteinspire-pethroom-jp-407cb7__scroll2.webp"
+    ],
+    "pages": [
+      {
+        "url": "https://pethroom.jp/pages/membership",
+        "full": "shots/_proposed/siteinspire-pethroom-jp-407cb7__p2.webp"
+      },
+      {
+        "url": "https://pethroom.jp/collections/bath",
+        "full": "shots/_proposed/siteinspire-pethroom-jp-407cb7__p3.webp"
+      }
+    ]
+  },
+  "scope": "multi-page",
+  "tags": {
+    "industry": [
+      "pet-supplies",
+      "e-commerce"
+    ],
+    "mood": [
+      "playful",
+      "bold"
+    ],
+    "archetype": [
+      "web-services-multipage"
+    ],
+    "awareness": [
+      "product-aware"
+    ]
+  },
+  "patterns": [
+    {
+      "kind": "layout",
+      "note": "Asymmetrical two-column layouts are frequently used for feature sections, pairing a large, engaging image on one side with a concise text block and CTA on the other, often spanning the full viewport width."
+    },
+    {
+      "kind": "color",
+      "note": "A high-contrast and energetic color scheme is established with a dominant bright yellow and a deep navy blue, accented by vibrant orange, light blue, and pink, creating a playful yet bold visual identity."
+    },
+    {
+      "kind": "type",
+      "note": "Headings utilize a heavy, bold sans-serif font for maximum impact and readability, especially when overlaid on colorful backgrounds or illustrations, while body text uses a lighter, more neutral sans-serif for clarity."
+    },
+    {
+      "kind": "motion",
+      "note": "As the user scrolls, a sticky navigation bar remains at the top. The initial hero section scrolls away to reveal a full-width, distinct warning section with a grid background and a large illustration, which then also scrolls out to reveal the main content sections below. Subsequent content sections animate into view with a subtle fade-in and slight upward slide effect."
+    },
+    {
+      "kind": "section",
+      "note": "The site features distinct full-width sections, often with unique background colors or patterns, to clearly delineate content blocks such as awards, product categories, membership benefits, and new arrivals, creating a strong visual rhythm."
+    }
+  ],
+  "technique_notes": [
+    "The primary navigation bar is implemented as a sticky element that remains fixed at the top of the viewport as the user scrolls, ensuring constant access to key links.",
+    "Content sections below the hero are revealed using scroll-triggered animations, where elements fade in and subtly slide up as they enter the viewport, enhancing engagement.",
+    "A full-screen, distinct warning section is designed to appear after the initial hero, taking over the entire viewport before scrolling away to reveal the rest of the page content, creating a strong visual interruption for important messages."
+  ],
+  "design_tokens": {
+    "palette": [
+      {
+        "hex": "#ffc304",
+        "role": "primary-yellow"
+      },
+      {
+        "hex": "#003475",
+        "role": "primary-dark-blue"
+      },
+      {
+        "hex": "#ffffff",
+        "role": "surface"
+      },
+      {
+        "hex": "#e94200",
+        "role": "accent-orange"
+      },
+      {
+        "hex": "#f7af35",
+        "role": "secondary-yellow"
+      },
+      {
+        "hex": "#00a6e7",
+        "role": "accent-light-blue"
+      },
+      {
+        "hex": "#252525",
+        "role": "text-dark"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "M PLUS 1",
+        "role": "heading"
+      },
+      {
+        "family": "Open Sans",
+        "role": "body"
+      }
+    ],
+    "type_scale": "Headings are large, bold, and impactful sans-serifs, often in all caps, providing strong visual hierarchy, while body text is a smaller, highly legible sans-serif.",
+    "radius": "Subtle rounding is applied to buttons, cards, and image containers, contributing to a friendly and approachable aesthetic.",
+    "spacing": "The layout maintains a balanced to airy density, with generous padding in hero and feature sections, transitioning to a slightly denser grid for product displays."
+  },
+  "standout": "The site's most distinctive feature is its consistent use of charming, anthropomorphic pet illustrations throughout, from the hero image to section accents and warning messages. This playful, character-driven visual language, combined with a bold, high-contrast color palette, creates a unique and memorable brand identity that feels both professional and exceptionally friendly.",
+  "animation_tech": [
+    "css-keyframes",
+    "swiper"
+  ],
+  "status": "proposed"
+}
